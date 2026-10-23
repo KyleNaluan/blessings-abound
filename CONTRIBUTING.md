@@ -73,6 +73,7 @@ Don't force-push over a branch someone has already reviewed.
 Use **"Create a merge commit"**, not squash.
 A merge commit keeps each person's commits as they were, which keeps the history of who built what.
 Don't merge your own pull request without an approval, and don't merge one with a failing check.
+Checks run on a self-hosted runner, so if it is offline they wait in the queue and start when it comes back.
 
 ### 9. Delete the branch
 
@@ -102,7 +103,7 @@ If a pull request goes past four or five rounds, it's probably too big or the de
 - Client data, such as real inventory exports or contact details.
   Use mock data in the repo.
 - Large binaries, exports and scratch files, which belong in the shared drive.
-- AI tool config files and chat logs.
+- AI tool config files and chat logs, except the shared `AGENTS.md` and the one-line `CLAUDE.md` that points to it.
 - AI attribution in commits and pull requests, such as `Co-Authored-By` lines or "Generated with" footers that some tools add by default.
   Turn them off in your tool's settings, or delete them before you push.
 

@@ -23,8 +23,6 @@ api/storage/
 .idea/
 .vscode/
 
-# AI tool config files stay out of the repo, see CONTRIBUTING.md
+# AI tool config files stay out of the repo, except AGENTS.md and CLAUDE.md, see CONTRIBUTING.md
 .claude/
 .cursor/
-AGENTS.md
-CLAUDE.md

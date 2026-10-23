@@ -19,7 +19,7 @@ Update it in the same pull request whenever one of them changes.
 | Price model | pandas, scikit-learn and LightGBM | LightGBM trains quickly on tabular listing data and handles categories well. |
 | Vision and language model | Any OpenAI-compatible chat-completions endpoint | The provider is a setting, `AI_BASE_URL`, `AI_MODEL` and `AI_API_KEY`, so we can switch without code changes. |
 | Photo storage | Local folder or Supabase Storage | One interface in `api/app/storage.py`, with the backend picked by settings. |
-| Hosting | Vercel for the frontend, Render for the API, Supabase for the database and photos | Each has a free tier that fits a student demo. |
+| Hosting | Cloudflare Pages for the frontend, Render for the API, Supabase for the database and photos | Each has a free tier that fits a student demo. |
 | Python tooling | ruff and pyright | Fast lint, format and type checks with little configuration. |
 | Frontend tooling | ESLint, Prettier, `tsc` and Vitest | The standard checks for a Vite and React project. |
 | Checks | pre-commit hooks and GitHub Actions | The same lint, type checks and tests run on every commit and every pull request. |
@@ -31,11 +31,14 @@ Update it in the same pull request whenever one of them changes.
 | Database | Postgres 17 in Docker Compose | Supabase Postgres 17 |
 | Photo storage | Local folder | Supabase Storage |
 | API | `docker compose up` on each laptop | Render |
-| Frontend | `npm run dev` on each laptop | Vercel |
+| Frontend | `npm run dev` on each laptop | Cloudflare Pages |
 
 Development and tests use a local database, so each of us can reset data and run migrations without touching the shared demo or needing a network connection.
 CI starts its own Postgres for the same reason.
 The demo reads its connection details from environment variables, so the code is the same in both places.
+
+Cloudflare Pages builds the frontend with root directory `web`, build command `npm run build` and output directory `dist`, and `VITE_API_URL` is set there to the Render API's address.
+Pages serves `index.html` for any path without a file, because the build has no `404.html`, so the app needs no rewrite config.
 
 ## Decisions log
 
@@ -48,4 +51,5 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-23: Pin TypeScript to 5.9, because `openapi-typescript` does not support TypeScript 6 yet.
 - 2026-10-23: Use `httpx2` as the HTTP client, because Starlette's test client deprecated `httpx` in its favor.
 - 2026-10-23: Run Postgres 17 locally and in CI, the same major version as the Supabase project, so migrations behave the same everywhere.
+- 2026-10-23: Host the frontend on Cloudflare Pages instead of Vercel.
 - Open: how the trained model file reaches the deployed API on Render, decided with the training work.
