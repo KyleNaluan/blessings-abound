@@ -1,0 +1,44 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-thrift}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-thrift}
+      POSTGRES_DB: ${POSTGRES_DB:-thrift}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+
+  api:
+    build: ./api
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-thrift}:${POSTGRES_PASSWORD:-thrift}@db:5432/${POSTGRES_DB:-thrift}
+      LOCAL_STORAGE_DIR: /app/storage
+      PYTHONDONTWRITEBYTECODE: "1"
+    command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - ./api:/app
+      - photo-storage:/app/storage
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  db-data:
+  photo-storage:
