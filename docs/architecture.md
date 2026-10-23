@@ -28,7 +28,7 @@ Update it in the same pull request whenever one of them changes.
 
 | | Development and tests | Shared demo |
 | --- | --- | --- |
-| Database | Postgres 16 in Docker Compose | Supabase Postgres |
+| Database | Postgres 17 in Docker Compose | Supabase Postgres 17 |
 | Photo storage | Local folder | Supabase Storage |
 | API | `docker compose up` on each laptop | Render |
 | Frontend | `npm run dev` on each laptop | Vercel |
@@ -47,4 +47,5 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-23: Generate the web client's types from the API's OpenAPI schema and check in CI that the committed file is current.
 - 2026-10-23: Pin TypeScript to 5.9, because `openapi-typescript` does not support TypeScript 6 yet.
 - 2026-10-23: Use `httpx2` as the HTTP client, because Starlette's test client deprecated `httpx` in its favor.
+- 2026-10-23: Run Postgres 17 locally and in CI, the same major version as the Supabase project, so migrations behave the same everywhere.
 - Open: how the trained model file reaches the deployed API on Render, decided with the training work.
