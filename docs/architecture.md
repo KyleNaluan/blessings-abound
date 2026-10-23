@@ -37,7 +37,9 @@ Development and tests use a local database, so each of us can reset data and run
 CI starts its own Postgres for the same reason.
 The demo reads its connection details from environment variables, so the code is the same in both places.
 
-Cloudflare Pages builds the frontend with root directory `web`, build command `npm run build` and output directory `dist`, and `VITE_API_URL` is set there to the Render API's address.
+The Cloudflare Pages project `blessings-abound` builds the frontend from `main` with root directory `web`, build command `npm run build` and output directory `dist`, and serves it at https://blessings-abound.pages.dev.
+Every pull request gets its own preview link from Pages, and nobody needs a Cloudflare account to open it.
+The build uses the Node version in `web/.nvmrc`, and `VITE_API_URL` goes in the Pages project's environment variables once the Render API exists.
 Pages serves `index.html` for any path without a file, because the build has no `404.html`, so the app needs no rewrite config.
 
 ## Decisions log
