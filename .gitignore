@@ -13,9 +13,7 @@ __pycache__/
 # Node
 node_modules/
 
-# Data, model binaries and uploaded photos
-ml/data/
-ml/models/
+# Uploaded photos
 api/storage/
 
 # Editors and operating systems

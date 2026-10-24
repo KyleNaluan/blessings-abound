@@ -1,7 +1,8 @@
 # Thrift Listing Assistant
 
 A staff-facing web app that helps a thrift store decide which donated items to sell online, price them, and list them on more than one site.
-A staff member uploads a photo of an item, a vision model turns it into an editable item card, and a trained price model plus a live market lookup suggest a price range and whether the item is worth listing.
+A staff member uploads a photo of an item and adds notes such as condition and size, a vision model turns them into an editable item card, and the app looks up similar eBay listings to suggest a price range and whether the item is worth listing.
+The price comes from code over those listings, never from the language model, which only explains the result.
 Later stages draft the listing text, suggest a sales channel, and publish to several sites at once.
 Staff make every final decision.
 
@@ -13,7 +14,6 @@ The project is a proof of concept inspired by Blessings Abound, a Kansas City no
 | --- | --- |
 | `api/` | FastAPI backend, database models and Alembic migrations |
 | `web/` | Vite, React and TypeScript frontend with Tailwind and shadcn/ui |
-| `ml/` | Price model training, kept apart from the API |
 | `docs/` | Architecture notes and decisions, see [docs/architecture.md](docs/architecture.md) |
 
 ## Prerequisites
@@ -69,15 +69,6 @@ npm test
 npm run build
 ```
 
-ML:
-
-```sh
-cd ml
-uv sync
-uv run ruff check . && uv run ruff format --check .
-uv run pyright
-```
-
 To run the formatters and linters before every commit, install the pre-commit hooks once with `uvx pre-commit install`.
 
 ## Changing the API
@@ -91,10 +82,10 @@ npm run gen:api
 
 Schema changes go through Alembic migrations, as described in [CONTRIBUTING.md](CONTRIBUTING.md#database).
 
-## Retraining the price model
+## Pricing
 
-Training code is not written yet, and [ml/README.md](ml/README.md) describes how it will work.
-Once it exists, retraining is two steps from `ml/`: download the Mercari dataset with `uv run --with kaggle python download_data.py`, then run the training script, which saves the model file to `ml/models/` and its metrics to `ml/results/`.
+The pricing pipeline is described in [docs/architecture.md](docs/architecture.md#pricing-pipeline), and none of it is built yet.
+It needs a SerpApi key in `SERPAPI_API_KEY`, but tests never call SerpApi, because they read committed fixture responses instead.
 
 ## Contributing
 

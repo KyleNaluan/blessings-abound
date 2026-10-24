@@ -132,7 +132,7 @@ If one gets in your way, raise it in the group chat rather than working around i
 
 ### Dependencies
 
-- Dependencies are pinned by the lock files, `api/uv.lock`, `ml/uv.lock` and `web/package-lock.json`, which are committed with every dependency change.
+- Dependencies are pinned by the lock files, `api/uv.lock` and `web/package-lock.json`, which are committed with every dependency change.
 - Add packages with `uv add <package>` or `npm install <package>`, not by editing the lock files.
 - Install from the lock files with `uv sync` and `npm ci`.
 
@@ -144,15 +144,13 @@ If one gets in your way, raise it in the group chat rather than working around i
 
 ### Data and secrets
 
-- Datasets are never committed, and `ml/download_data.py` downloads the Mercari dataset into the git-ignored `ml/data/` instead.
-- Model files are binaries and stay out of the repo, in the git-ignored `ml/models/`.
 - Secrets live in `.env`, which is git-ignored, and every new variable is added to `.env.example` with no value.
 - Keep seller names and other personal details out of the repo, including in fixtures.
 
-### ML reproducibility
+### Pricing
 
-- Every training and evaluation script sets a fixed random seed, so the same data gives the same model.
-- Scripts write their metrics to `ml/results/`, which is committed, so changes in model quality show up in review.
+- The language model never produces a price, and prices come from code over comps, as described in `docs/architecture.md`.
+- Anything the language model writes about an item is checked by code, which rejects the text if it contains a number that is not in the facts it was given.
 
 ### SerpApi fixtures
 
