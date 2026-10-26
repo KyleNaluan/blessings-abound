@@ -14,7 +14,7 @@ The project is a proof of concept inspired by Blessings Abound, a Kansas City no
 | --- | --- |
 | `api/` | FastAPI backend, database models and Alembic migrations |
 | `web/` | Vite, React and TypeScript frontend with Tailwind and shadcn/ui |
-| `docs/` | Architecture notes and decisions, see [docs/architecture.md](docs/architecture.md) |
+| `docs/` | Requirements and architecture, see [docs/requirements.md](docs/requirements.md) and [docs/architecture.md](docs/architecture.md) |
 
 ## Prerequisites
 
@@ -90,4 +90,5 @@ It needs a SerpApi key in `SERPAPI_API_KEY`, but tests never call SerpApi, becau
 ## Contributing
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) for the branch and review workflow and the project conventions.
+See [docs/requirements.md](docs/requirements.md) for what the team is building, by tier, and the assumptions it rests on.
 See [WORKLOG.md](WORKLOG.md) for a log of what each developer has changed.
