@@ -1,0 +1,26 @@
+# Secrets: share them privately and keep only .env.example in the repo
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+
+# Uploaded photos
+api/storage/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# AI tool config files stay out of the repo, except AGENTS.md and CLAUDE.md, see CONTRIBUTING.md
+.claude/
+.cursor/

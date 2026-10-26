@@ -1,0 +1,32 @@
+# Install once with `uvx pre-commit install`, then the hooks run on every commit.
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: check-merge-conflict
+      - id: check-added-large-files
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.2
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
+
+  # The web hooks use the versions pinned in web/package-lock.json, so run `npm ci` in web/ first.
+  - repo: local
+    hooks:
+      - id: prettier
+        name: prettier
+        language: system
+        files: ^web/
+        types_or: [ts, tsx, javascript, json, css, html, markdown, yaml]
+        entry: bash -c 'cd web && npx --no-install prettier --write --ignore-unknown "${@#web/}"' --
+      - id: eslint
+        name: eslint
+        language: system
+        files: ^web/.*\.(ts|tsx|js)$
+        entry: bash -c 'cd web && npx --no-install eslint --fix "${@#web/}"' --
