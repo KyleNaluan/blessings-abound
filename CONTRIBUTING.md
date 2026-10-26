@@ -57,6 +57,9 @@ The description should answer three things:
 2. **How to test it**, with the exact commands or clicks you used.
 3. **Anything you're unsure about**, so the reviewer looks there first.
 
+Add an entry for the change to `WORKLOG.md` under your own section, newest first, with the date, the pull request number and a one-line summary.
+This keeps a log of what each person has built.
+
 ### 6. Ask for a review
 
 Tag a teammate on the pull request or message them in the group chat.

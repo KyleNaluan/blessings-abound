@@ -90,3 +90,4 @@ It needs a SerpApi key in `SERPAPI_API_KEY`, but tests never call SerpApi, becau
 ## Contributing
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) for the branch and review workflow and the project conventions.
+See [WORKLOG.md](WORKLOG.md) for a log of what each developer has changed.
