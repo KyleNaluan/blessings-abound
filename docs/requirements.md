@@ -71,7 +71,7 @@ The MVP covers two categories, branded apparel and electronics and video games, 
 | Suggest eBay or Shopify for each item, with a one-line reason | [#20](https://github.com/KyleNaluan/blessings-abound/issues/20) | The rule behind it is documented and shown on the item screen. |
 | Mock publish and sync with simulated sales | [#21](https://github.com/KyleNaluan/blessings-abound/issues/21) | A sold item disappears from every other mock channel, and a double sale is handled. |
 | Invite-only accounts and roles | [#31](https://github.com/KyleNaluan/blessings-abound/issues/31) | Public sign-up fails, roles are enforced in the API and in row-level security, and deactivated accounts cannot sign in. |
-| Sign-in and Team pages | [#32](https://github.com/KyleNaluan/blessings-abound/issues/32) | Sign-in, forgot password and the first sign-in password change work, and only admins reach the Team page. |
+| Sign-in and Team pages | [#32](https://github.com/KyleNaluan/blessings-abound/issues/32) | Sign-in with a username or email, forgot password and the first sign-in password change work, and only admins and managers reach the Team page, with managers limited to staff accounts. |
 | Landing page | [#33](https://github.com/KyleNaluan/blessings-abound/issues/33) | Sign in is the only call to action, and the page works on a phone-sized screen and a desktop. |
 | Deploy the demo | [#22](https://github.com/KyleNaluan/blessings-abound/issues/22) | The demo URL works from a phone, and the steps are in README.md. |
 
@@ -153,4 +153,3 @@ Each assumption is a guess the team made in order to keep building, and the clie
 - Which vision model provider the app uses ([#7](https://github.com/KyleNaluan/blessings-abound/issues/7)).
 - The real per-category cutoffs, which managers set once the team has them.
 - The landing page and account page design, which waits on the landing page direction being picked ([#33](https://github.com/KyleNaluan/blessings-abound/issues/33)).
-- Issues #31 and #32 still describe sign-in by email, and #22 still names Vercel, so their text should follow the username sign-in above and the Cloudflare Pages hosting in architecture.md.
