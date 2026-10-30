@@ -21,7 +21,8 @@ One row per person who can sign in.
 | `email` | `text` | Optional, unique when given, lowercase |
 | `role` | `varchar(32)` | `staff` or `manager`, default `staff` |
 | `is_active` | `boolean` | Default true |
-| `created_at`, `updated_at` | `timestamptz` | Set by the database |
+| `created_at` | `timestamptz` | Set by the database |
+| `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
 
 ### `items`
 
@@ -37,7 +38,8 @@ Each item is one of a kind.
 | `photo_keys` | `text[]` | Storage keys, 1 to 4 of them |
 | `photo_hash` | `text` | Required and indexed for the duplicate guard, not unique because a repeat photo prompts staff rather than being refused |
 | `notes` | `text` | Optional |
-| `created_at`, `updated_at` | `timestamptz` | Set by the database |
+| `created_at` | `timestamptz` | Set by the database |
+| `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
 
 ### `item_cards`
 
@@ -59,7 +61,8 @@ Which optional fields apply depends on the category, and the API checks that rat
 | `accessories_included` | `text` | Optional, from staff |
 | `color`, `material`, `exact_model`, `platform` | `text` | Optional, proposed by the model and confirmed by staff |
 | `staff_edited` | `boolean` | Default false |
-| `created_at`, `updated_at` | `timestamptz` | Set by the database |
+| `created_at` | `timestamptz` | Set by the database |
+| `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
 
 ### `appraisals`
 
