@@ -40,6 +40,7 @@ The demo reads its connection details from environment variables, so the code is
 The Cloudflare Pages project `blessings-abound` builds the frontend from `main` with root directory `web`, build command `npm run build` and output directory `dist`, and serves it at https://blessings-abound.pages.dev.
 Every pull request gets its own preview link from Pages, and nobody needs a Cloudflare account to open it.
 The build uses the Node version in `web/.nvmrc`, and `VITE_API_URL` goes in the Pages project's environment variables once the Render API exists.
+Sign-in needs `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` there too, and each site's `/choose-password` address must be in the Supabase Auth redirect list for reset links to work.
 Pages serves `index.html` for any path without a file, because the build has no `404.html`, so the app needs no rewrite config.
 
 ## Pricing pipeline
@@ -78,3 +79,7 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-23: Run Postgres 17 locally and in CI, the same major version as the Supabase project, so migrations behave the same everywhere.
 - 2026-10-23: Host the frontend on Cloudflare Pages instead of Vercel.
 - 2026-10-24: Price items from active eBay comps through SerpApi with the math in code, instead of a model trained on the Mercari dataset, so the API loads no model file and there is no `ml/` project.
+- 2026-10-30: Route the web app with React Router, with the landing page at `/`, sign-in pages beside it and the signed-in app under `/app`.
+- 2026-10-30: Sign people in with Supabase Auth straight from the web app, using only the public anon key, so the API needs no auth code of its own for now.
+- 2026-10-30: Use the USWDS colors and Public Sans in place of the shadcn defaults and Geist, to match the approved landing and sign-in mockups.
+- 2026-10-30: Look up a username's email through `web/src/auth/accounts.ts` only, so issue #31 can back usernames and temporary passwords without changing the pages.

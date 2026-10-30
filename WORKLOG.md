@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-10-30, [#35](https://github.com/KyleNaluan/blessings-abound/pull/35), Add the landing page and the Supabase sign-in pages
 - 2026-10-26, [#34](https://github.com/KyleNaluan/blessings-abound/pull/34), Add requirements document with tiers, roles and assumptions
 - 2026-10-25, [#29](https://github.com/KyleNaluan/blessings-abound/pull/29), Add WORKLOG.md and the worklog rule
 - 2026-10-25, [#28](https://github.com/KyleNaluan/blessings-abound/pull/28), Add project skeleton for api and web with CI and conventions
