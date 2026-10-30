@@ -66,6 +66,10 @@ Comps come through SerpApi rather than eBay's own API, because eBay's API licens
 SerpApi's free plan allows 250 searches a month and 50 an hour, so every response is cached in a `comp_searches` table, keyed by the engine, query, condition and buying format, and reused for 7 days.
 Tests read committed fixture responses and never call SerpApi.
 
+## Database
+
+The tables, their constraints and who may reach them are described in [database.md](database.md).
+
 ## Decisions log
 
 Add new decisions at the bottom, with the date and a line on why.
@@ -78,3 +82,8 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-23: Run Postgres 17 locally and in CI, the same major version as the Supabase project, so migrations behave the same everywhere.
 - 2026-10-23: Host the frontend on Cloudflare Pages instead of Vercel.
 - 2026-10-24: Price items from active eBay comps through SerpApi with the math in code, instead of a model trained on the Mercari dataset, so the API loads no model file and there is no `ml/` project.
+- 2026-10-30: Store the Supabase Auth user id in `profiles` as a plain UUID with no foreign key to `auth.users`, and enforce roles in the API, because local Postgres and CI have no `auth` schema and a migration that refers to it would only run on Supabase.
+- 2026-10-30: Turn on row-level security with no policies on every table, including `alembic_version`, so Supabase's automatic web API reads nothing and only our API, which connects as the table owner, reaches the data.
+- 2026-10-30: Use two roles, staff and manager, as the 2026-10-29 project plan does, instead of the three in `requirements.md` and issue #31.
+- 2026-10-30: Store fixed value lists as text with a check constraint rather than Postgres enums, because item statuses and similar lists are expected to change and swapping a constraint is a simpler migration.
+- 2026-10-30: Allow `net_after_fees_cents` to go below zero, unlike every other cents column, because fees can exceed the price of a cheap item and hiding that would misstate the net.
