@@ -70,7 +70,7 @@ The language model never produces a price, and every number comes from code over
 7. Asking prices run higher than sale prices, so code multiplies the range by an ask-to-sale factor of 0.645, which is one value in config rather than one per channel, because comps always come from eBay.
    It is labeled an assumption, because it comes from Poshmark data with ratios from 1.21 to 2.93, and a re-measure on eBay is a stretch item done by hand.
 8. Confidence is high with at least 10 listings and a high-to-low ratio of at most 2, medium with at least 5 and a ratio of at most 3, and low otherwise.
-9. The worth-listing rule says "yes" when the typical sale price is at least $30, "no" below it, and "check" when confidence is low or there are no comps, and both thresholds live in config.
+9. The worth-listing rule says "yes" when the typical sale price is at least $30, "no" below it, and "check" when confidence is low or there are no comps, and the threshold, fees and supplies live in config.
    The net after eBay's fees, which are 13.6% for most categories plus $0.40 per order, and $1.50 for supplies is shown beside it.
 10. The language model writes a 2 to 3 sentence explanation from the computed numbers only, and code rejects the text if it contains any number that is not in those facts and falls back to a template.
 
