@@ -1,12 +1,14 @@
 # Turnstone
 
-Turnstone is a staff-facing web app that helps a thrift store decide which donated items to sell online, price them, and list them on more than one site.
-A staff member uploads a photo of an item and adds notes such as condition and size, a vision model turns them into an editable item card, and the app looks up similar eBay listings to suggest a price range and whether the item is worth listing.
+A staff web app for Blessings Abound, a Kansas City nonprofit thrift store chain, that follows a donated item from intake to sale.
+Every item forwarded to Ecommerce gets a SKU and a triage log entry at intake, and every item is one of a kind and sold online only.
+A staff member uploads a photo of an item and enters details such as condition and size, a vision model turns them into an editable item card, and the app looks up similar eBay listings to suggest a price range and whether the item is worth listing.
 The price comes from code over those listings, never from the language model, which only explains the result.
-Later stages draft the listing text, suggest a sales channel, and publish to several sites at once.
-Staff make every final decision.
+Later stages draft the listing text, recommend a channel and timing, and send each listing to a manager for approval, along with its storage location and a pick list for when it sells.
+Listings publish to two fictional mock channels that stay in sync after a sale, with conflicts flagged on a Needs Attention screen, and managers see sales insight on synthetic data.
+Staff and managers make every final decision.
 
-The project is a proof of concept inspired by Blessings Abound, a Kansas City nonprofit thrift organization, and it uses only public or self-generated data.
+The project is a proof of concept built from a short Q&A with Blessings Abound, which is where thresholds such as the $30 worth-listing bar come from, and it otherwise uses only public or self-generated data.
 
 ## Repository layout
 
@@ -58,8 +60,14 @@ cd api
 uv sync
 uv run ruff check . && uv run ruff format --check .
 uv run pyright
+uv run alembic upgrade head
+uv run alembic check
+uv run alembic heads
 uv run pytest
 ```
+
+`alembic heads` should print exactly one line.
+The tests refuse to run against anything but a local database.
 
 Web:
 
@@ -83,6 +91,7 @@ npm run gen:api
 ```
 
 Schema changes go through Alembic migrations, as described in [CONTRIBUTING.md](CONTRIBUTING.md#database).
+The tables are described in [docs/database.md](docs/database.md), which also covers creating the first manager account.
 
 ## Pricing
 
