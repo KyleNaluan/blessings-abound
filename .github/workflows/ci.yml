@@ -33,6 +33,9 @@ jobs:
       DATABASE_URL: postgresql+psycopg://thrift:thrift@localhost:5432/thrift
     steps:
       - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
       - uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
