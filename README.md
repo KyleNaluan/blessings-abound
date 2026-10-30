@@ -43,7 +43,9 @@ npm ci
 npm run dev
 ```
 
-Open http://localhost:5173, and the page should show the API status as `ok`.
+Open http://localhost:5173 for the landing page.
+Signing in needs `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in `.env` and an account in that Supabase project.
+After signing in, the page at http://localhost:5173/app should show the API status as `ok`.
 
 If port 5432 or 8000 is already taken on your machine, set `POSTGRES_PORT` or `API_PORT` in `.env`, and update `DATABASE_URL` or `VITE_API_URL` to match.
 

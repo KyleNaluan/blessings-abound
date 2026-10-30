@@ -44,6 +44,7 @@ The demo reads its connection details from environment variables, so the code is
 The Cloudflare Pages project `blessings-abound` builds the frontend from `main` with root directory `web`, build command `npm run build` and output directory `dist`, and serves it at https://blessings-abound.pages.dev.
 Every pull request gets its own preview link from Pages, and nobody needs a Cloudflare account to open it.
 The build uses the Node version in `web/.nvmrc`, and `VITE_API_URL` goes in the Pages project's environment variables once the Render API exists, along with `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` for sign-in.
+Each site's `/choose-password` address must be in the Supabase Auth redirect list for reset links to work.
 Pages serves `index.html` for any path without a file, because the build has no `404.html`, so the app needs no rewrite config.
 
 The hosted demo follows these steps:
@@ -116,3 +117,6 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-30: Name the product Turnstone, with the rename in code tracked in #40.
 - 2026-10-30: Keep usernames, invites and temporary passwords, with optional email, because some volunteers may not have an email address and the project plan does not change that.
 - 2026-10-30: Let the browser talk to Supabase only for Auth, using the anon key, and send all table access through the API, with row-level security and no policies blocking the anon role from tables.
+- 2026-10-30: Route the web app with React Router, with the landing page at `/`, sign-in pages beside it and the signed-in app under `/app`.
+- 2026-10-30: Use the USWDS colors and Public Sans in place of the shadcn defaults and Geist, to match the approved landing and sign-in mockups.
+- 2026-10-30: Look up a username's email through `web/src/auth/accounts.ts` only, so issue #31 can back usernames and temporary passwords without changing the pages.
