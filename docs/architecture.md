@@ -87,3 +87,4 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-30: Use two roles, staff and manager, as the 2026-10-29 project plan does, instead of the three in `requirements.md` and issue #31.
 - 2026-10-30: Store fixed value lists as text with a check constraint rather than Postgres enums, because item statuses and similar lists are expected to change and swapping a constraint is a simpler migration.
 - 2026-10-30: Allow `net_after_fees_cents` to go below zero, unlike every other cents column, because fees can exceed the price of a cheap item and hiding that would misstate the net.
+- 2026-10-30: Install pyright with the `nodejs` extra so it runs the Node bundled in `nodejs-wheel-binaries`, instead of letting it fetch Node at runtime through nodeenv, which broke CI when a Node pre-release version string nodeenv could not parse became the latest.
