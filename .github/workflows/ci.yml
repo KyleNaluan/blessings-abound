@@ -44,6 +44,10 @@ jobs:
         run: uv run pyright
       - name: Migrations apply
         run: uv run alembic upgrade head
+      - name: Models match the migrations
+        run: uv run alembic check
+      - name: Migration history has one head
+        run: test "$(uv run alembic heads | wc -l)" -eq 1
       - name: Test
         run: uv run pytest
 
