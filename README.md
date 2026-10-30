@@ -1,6 +1,6 @@
-# Thrift Listing Assistant
+# Turnstone
 
-A staff-facing web app that helps a thrift store decide which donated items to sell online, price them, and list them on more than one site.
+Turnstone is a staff-facing web app that helps a thrift store decide which donated items to sell online, price them, and list them on more than one site.
 A staff member uploads a photo of an item and adds notes such as condition and size, a vision model turns them into an editable item card, and the app looks up similar eBay listings to suggest a price range and whether the item is worth listing.
 The price comes from code over those listings, never from the language model, which only explains the result.
 Later stages draft the listing text, suggest a sales channel, and publish to several sites at once.
