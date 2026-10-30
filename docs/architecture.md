@@ -81,6 +81,10 @@ Comps come through SerpApi rather than eBay's own API, because eBay's API licens
 SerpApi's free plan allows 250 searches a month and 50 an hour, so every response is cached in a `comp_searches` table, keyed by the engine, query, condition and buying format, and reused for 7 days.
 Tests read committed fixture responses and never call SerpApi.
 
+## Database
+
+The tables, their constraints and who may reach them are described in [database.md](database.md).
+
 ## Decisions log
 
 Add new decisions at the bottom, with the date and a line on why.
@@ -103,6 +107,12 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-29: Run sync as deterministic code with a language model that only explains problems, because that is reliable and testable.
 - 2026-10-29: Run the dashboards on a synthetic history from a model calibrated to published figures, labeled on every chart, because no real sales history is available.
 - 2026-10-29: Leave out order-risk analyses by ZIP code and username, because they would profile buyers through proxies and carry no valid signal.
+- 2026-10-30: Store the Supabase Auth user id in `profiles` as a plain UUID with no foreign key to `auth.users`, and enforce roles in the API, because local Postgres and CI have no `auth` schema and a migration that refers to it would only run on Supabase.
+- 2026-10-30: Turn on row-level security with no policies on every table, including `alembic_version`, so Supabase's automatic web API reads nothing and only our API, which connects as the table owner, reaches the data.
+- 2026-10-30: Use two roles, staff and manager, as the 2026-10-29 project plan does, instead of the three in `requirements.md` and issue #31.
+- 2026-10-30: Store fixed value lists as text with a check constraint rather than Postgres enums, because item statuses and similar lists are expected to change and swapping a constraint is a simpler migration.
+- 2026-10-30: Allow `net_after_fees_cents` to go below zero, unlike every other cents column, because fees can exceed the price of a cheap item and hiding that would misstate the net.
+- 2026-10-30: Install pyright with the `nodejs` extra so it runs the Node bundled in `nodejs-wheel-binaries`, instead of letting it fetch Node at runtime through nodeenv, which broke CI when a Node pre-release version string nodeenv could not parse became the latest.
 - 2026-10-30: Name the product Turnstone, with the rename in code tracked in #40.
 - 2026-10-30: Keep usernames, invites and temporary passwords, with optional email, because some volunteers may not have an email address and the project plan does not change that.
 - 2026-10-30: Let the browser talk to Supabase only for Auth, using the anon key, and send all table access through the API, with row-level security and no policies blocking the anon role from tables.

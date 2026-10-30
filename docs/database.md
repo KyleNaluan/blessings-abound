@@ -1,0 +1,147 @@
+# Database
+
+This page is the agreed design for the tables, and the models in `api/app/models.py` and the migrations in `api/alembic/versions/` are its code.
+Update it in the same pull request as any schema change.
+
+The tables follow the data model in the team's project plan, so later migrations add to them rather than rename them.
+Money is in integer `_cents` columns, times are `timestamptz` in UTC, and names are `snake_case`, as in [CONTRIBUTING.md](../CONTRIBUTING.md#naming-and-data).
+Fixed value lists are text with a check constraint, so a later migration can change a list by swapping the constraint.
+
+## Tables
+
+### `profiles`
+
+One row per person who can sign in.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `auth_user_id` | `uuid` | Primary key, the Supabase Auth user id, with no foreign key to `auth.users` |
+| `username` | `text` | Required, unique, only lowercase letters, digits, `.`, `_` and `-` |
+| `display_name` | `text` | Required |
+| `email` | `text` | Optional, unique when given, lowercase |
+| `role` | `varchar(32)` | `staff` or `manager`, default `staff` |
+| `is_active` | `boolean` | Default true |
+| `created_at` | `timestamptz` | Set by the database |
+| `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
+
+### `items`
+
+One row per item, including rejected ones.
+Each item is one of a kind.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `sku` | `text` | Required, unique |
+| `lister_id` | `uuid` | Required, foreign key to `profiles` |
+| `status` | `varchar(32)` | `intake`, `card_ready`, `appraised`, `declined`, `approved`, `held_for_season`, `listed`, `sold` or `picked`, default `intake` |
+| `photo_keys` | `text[]` | Storage keys, 1 to 4 of them |
+| `photo_hash` | `text` | Required and indexed for the duplicate guard, not unique because a repeat photo prompts staff rather than being refused |
+| `notes` | `text` | Optional |
+| `created_at` | `timestamptz` | Set by the database |
+| `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
+
+### `item_cards`
+
+The editable card, one per item.
+Which optional fields apply depends on the category, and the API checks that rather than the database.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `item_id` | `uuid` | Primary key, foreign key to `items` |
+| `category` | `varchar(32)` | `apparel` or `electronics_games` |
+| `brand`, `product`, `visible_text` | `text` | Optional, from the vision model and editable by staff |
+| `search_query` | `text` | Required, from the vision model and editable by staff |
+| `model_confidence` | `varchar(32)` | `low`, `medium` or `high` |
+| `condition` | `varchar(32)` | `new_with_tags`, `new_without_tags` or `pre_owned`, from staff |
+| `department` | `varchar(32)` | Optional, `mens`, `womens` or `kids`, from staff |
+| `size`, `size_type` | `text` | Optional, from staff |
+| `flaws` | `text[]` | Any of `stains`, `tears`, `scuffs` and `missing_parts`, default empty |
+| `tested_working`, `complete_in_box` | `boolean` | Optional, from staff |
+| `accessories_included` | `text` | Optional, from staff |
+| `color`, `material`, `exact_model`, `platform` | `text` | Optional, proposed by the model and confirmed by staff |
+| `staff_edited` | `boolean` | Default false |
+| `created_at` | `timestamptz` | Set by the database |
+| `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
+
+### `appraisals`
+
+The computed price and recommendation.
+An item can have several, because editing the card and searching again gives a new one.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `item_id` | `uuid` | Required, foreign key to `items` |
+| `price_low_cents`, `price_typical_cents`, `price_high_cents` | `integer` | Optional, empty when there are no comps, never negative, and low to typical to high must be in order |
+| `net_after_fees_cents` | `integer` | Optional, and the one cents column that may be negative, because fees can exceed the price of a cheap item |
+| `comps_count` | `integer` | Never negative, default 0 |
+| `confidence` | `varchar(32)` | `low`, `medium` or `high` |
+| `recommendation` | `varchar(32)` | `yes`, `no` or `check` |
+| `rules_config` | `jsonb` | Required, the rules and config used |
+| `explanation` | `text` | Optional |
+| `created_at` | `timestamptz` | Set by the database |
+
+### `decisions`
+
+Every staff yes or no, kept as a history, so an item can have several.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `item_id` | `uuid` | Required, foreign key to `items` |
+| `appraisal_id` | `uuid` | Required, and a foreign key on `appraisal_id` and `item_id` together means it must be an appraisal of the same item |
+| `decision` | `varchar(32)` | `yes` or `no` |
+| `override_reason`, `note` | `text` | Optional |
+| `decided_by` | `uuid` | Required, foreign key to `profiles` |
+| `decided_at` | `timestamptz` | Set by the database, indexed for the recent decisions list |
+
+The foreign keys have no cascade, so a person or an item with history cannot be deleted by accident.
+People are deactivated rather than deleted, so their past decisions stay.
+
+## Who may read or change what
+
+The website never talks to the database.
+Only our API does, and it connects as the owner of the tables.
+
+| Who | Access |
+| --- | --- |
+| Our API | Reads and writes every table, and enforces the roles in its own code |
+| Supabase's automatic web API | Nothing, because every table has row-level security turned on with no policies |
+| Staff and managers | Only through our API, with the permissions listed in [requirements.md](requirements.md#users-and-roles), which still describes three roles until it is updated |
+
+Any new table needs row-level security turned on in its migration, and a test fails if one is missing.
+
+`profiles` stores the Auth user id as a plain UUID because local Postgres and CI have no `auth.users` table, so a foreign key to it would make the migration run only on Supabase.
+
+## The first manager
+
+`api/app/create_first_manager.py` creates the first manager's Supabase Auth user and profile.
+Run it once against the shared demo, after the migrations have been applied there:
+
+```sh
+cd api
+DATABASE_URL=<Supabase connection string> \
+SUPABASE_URL=<project URL> \
+SUPABASE_SERVICE_ROLE_KEY=<service role key> \
+FIRST_MANAGER_USERNAME=<username> \
+FIRST_MANAGER_EMAIL=<email> \
+FIRST_MANAGER_PASSWORD=<temporary password> \
+uv run python -m app.create_first_manager
+```
+
+These can also go in the root `.env`.
+Keep the password out of the repo and out of anything you paste.
+
+It is safe to run again:
+
+- If the manager already exists, it changes nothing and says so, and the password is not needed.
+- If an earlier run created the Auth user but stopped before the profile, it keeps that user and its password and adds the profile.
+- If an existing account disagrees with the settings, it changes nothing and exits with an error, and the same goes for an Auth user with that email whose address is unconfirmed.
+- If `DATABASE_URL` and `SUPABASE_URL` point at different environments, one local and one hosted, it refuses to start.
+
+## Turning off public sign-up
+
+Sign-up is a setting on the hosted Supabase project, and nothing in this repo controls it, so someone has to turn it off by hand.
+In the Supabase dashboard, open the project's Auth settings and turn off **Allow new users to sign up**.
+Supabase documents that with this off, only existing users can sign in.

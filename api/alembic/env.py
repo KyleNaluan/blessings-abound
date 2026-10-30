@@ -3,10 +3,11 @@ from logging.config import fileConfig
 from sqlalchemy import create_engine, pool
 from sqlmodel import SQLModel
 
+import app.models  # noqa: F401
 from alembic import context
 from app.settings import get_settings
 
-# Import every table module here so autogenerate can see it, for example `import app.models`.
+# Import every table module above so autogenerate can see it.
 
 config = context.config
 if config.config_file_name is not None:

@@ -58,8 +58,14 @@ cd api
 uv sync
 uv run ruff check . && uv run ruff format --check .
 uv run pyright
+uv run alembic upgrade head
+uv run alembic check
+uv run alembic heads
 uv run pytest
 ```
+
+`alembic heads` should print exactly one line.
+The tests refuse to run against anything but a local database.
 
 Web:
 
@@ -83,6 +89,7 @@ npm run gen:api
 ```
 
 Schema changes go through Alembic migrations, as described in [CONTRIBUTING.md](CONTRIBUTING.md#database).
+The tables are described in [docs/database.md](docs/database.md), which also covers creating the first manager account.
 
 ## Pricing
 
