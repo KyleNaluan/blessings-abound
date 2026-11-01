@@ -1,0 +1,1658 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7f91bd4f0f34987f859",
+    "status": "Success",
+    "created_at": "2026-11-01 06:11:05 UTC",
+    "processed_at": "2026-11-01 06:11:05 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750|4000|5000|6000&LH_BIN=1",
+    "total_time_taken": 9.07
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "Mario Kart 8 Deluxe Nintendo Switch",
+    "_ipg": "60",
+    "LH_ItemCondition": "2750|4000|5000|6000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 1200,
+    "query_displayed": "Mario Kart 8 Deluxe Nintendo Switch"
+  },
+  "categories": [
+    {
+      "name": "All",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_oac=1"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1",
+      "id": 1249,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&category_id=1249&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Video Games",
+      "link": "https://www.ebay.com/sch/139973/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1",
+      "id": 139973,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&category_id=139973&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Original Game Cases & Boxes",
+      "link": "https://www.ebay.com/sch/182175/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1",
+      "id": 182175,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&category_id=182175&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Manuals, Inserts & Box Art",
+      "link": "https://www.ebay.com/sch/182174/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1",
+      "id": 182174,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&category_id=182174&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Strategy Guides & Cheats",
+      "link": "https://www.ebay.com/sch/156595/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1",
+      "id": 156595,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&category_id=156595&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Books & Magazines",
+      "link": "https://www.ebay.com/sch/267/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1",
+      "id": 267,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&category_id=267&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/237145948152?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQH7ZSVE8ZQYVCSKVCS5V&hash=item3736fffff8%3Ag%3ASuYAAeSwvjpq3-vS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9V0bYnHTk2cd3jAwJjGvYPkH%2Fs37HVnXKfc9Hfe5zwVdupw%2Fmi5IR1TyrW9wNgvnSGNcBsREmlBv%2BijOgkQ7AljqaSaPjv6qodrg%2FpzzT5rCHlI4bBMqcza3To619OB9KP03JH5qhcCxWFr%2BkgemIQ0A9oIhF%2FNcoX%2FCOGM6MRhlXAW%2FaXqDAvIvbVlRUgbI%2Bkdiv7ccnrUX0JYrzyox2LvtTsPP70VCMUNH5Oi4IeeLq4V2GJaOQW5TZByn97rlwfTm50WfSC8XC53CjbhF6F%7Ctkp%3ABk9SR6SU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237145948152",
+      "product_id": "237145948152",
+      "epid": "631103144",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 17,
+      "price": {
+        "raw": "$28.95",
+        "extracted": 28.95
+      },
+      "shipping": {
+        "raw": "+$6.00 delivery",
+        "extracted": 6.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/SuYAAeSwvjpq3-vS/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Complete in Box CIB Tested & Working",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/336864974475?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH7ZME00EGRP7AP1ACQM&hash=item4e6eb7968b%3Ag%3AmdsAAeSwsZJq4B%7Ec&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9sKXIsXSPOGMJ7udVASvJT%2FiLKYgGiCgCLeI46gCxG83ZxGZXEkPBtBJd%2FbkPcQ%2FGQyVrRcPYUHdc1gl5DpyhsdnSM1jo9ol9jOUEzxlRx7lRU1hMed3D0Ppgxe89F2DX5Sq9Nn1DefCX9m0l0w3ipUf8j9blKVkN4cir0uUq5qLtFo5fqpqLN9xkeFfrICR%2BEuPc%2FmONj%2FnSED3i90IbzHOzVSzYr5OkbQNUtbiZId3rmKlx7IugwlzczSQgpt%2F6caPkqHOJq%2BLgATtck0jeE3fnv4tJCy23h1yP17DJx5WfGb8MfSJNoImMyTkzGMXU%3D%7Ctkp%3ABFBMpJTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336864974475",
+      "product_id": "336864974475",
+      "epid": "2316321839",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$5.90 delivery",
+        "extracted": 5.9
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/mdsAAeSwsZJq4B~c/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) FREE SHIPPING GREAT",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/168826960680?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQH80Z4Q2ERXVD97CY1MJ&hash=item274edefb28%3Ag%3A7bMAAOSwm4Vj3PWW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BazfMZsQ5fddtFN4OSuuJPfO7Lt%2BzWdIXeJmhbF1Qn4vcu1a2dixzH7TsgW03eVYJl%2Fhd8y2tLtQRCXsGVoNavGIOPx7LT2n1p1Nqbpa8eBnCk%2Ft3JZtj%2B7IBi7TQ1SJWbDH6oKLpzqkvY7yjs%2Fi6Fj3333W1vco1Ko497rgw7yz4Sn2%2FQFD9DjL7E2XqkXoeHPZLgrtf0Xd%2BphEKjF9sZBTnwpk6ST9SsrnxrIx%2FvAG%2FAgR0XjFqmBc798LDW8XxWXtlu1Urs%2FWi5P5dGQl%2BgnnTQ6yHZp9VtB0EkVhDEPIAvqqBLi6DgwVC2IeQWwho%3D%7Ctkp%3ABFBMpJTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168826960680",
+      "product_id": "168826960680",
+      "epid": "631103144",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 17,
+      "price": {
+        "raw": "$32.97",
+        "extracted": 32.97
+      },
+      "shipping": {
+        "raw": "+$5.74 delivery",
+        "extracted": 5.74
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/7bMAAOSwm4Vj3PWW/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Mario Kart 8 Deluxe - Nintendo Switch (Original Case & Cartridge)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/800860264252?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH80Z8MYA5NH051ZFKBP&hash=itemba76fdd73c%3Ag%3AdjUAAeSwP7Nq5kHW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8KtvFaYhJreufCd7Sx1zkioqJuC8YLoalPxlAJ5odkwOsOJs2211tStKRuHMRBvMtldNkjkEVxUlxEG6ijgTg0tPsjcMYRWSSoY5yDXDzboToayH3K%2FzZp%2FsAe00fDZzBP2lueUNr5ABh%2FfkWqkiUFSnXiXdlDR%2BbG4eZ0RdM2YsouD9lI5AgpYMCkF7PMBs2g6%2BlOD0SiFSv1W4D9ZdEHdv6Af0TJGFr9QJLC9etgHTv%2BBAhCpH8DFmUarQUM%2FvnJJ1%2BIENy4qg5MS557q2R2GSrypa1gFXMlxlYcc5LG205IQKIPvl1WuRHo58y6n7Q%3D%7Ctkp%3ABFBMpJTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800860264252",
+      "product_id": "800860264252",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$5.80 delivery",
+        "extracted": 5.8
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/djUAAeSwP7Nq5kHW/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 -- Deluxe Edition (Nintendo Switch, 2017) [Physical]",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/227592052775?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH800S0BHV15TQK5Y9XA&hash=item34fd8b2027%3Ag%3AoYQAAeSwoMtq5qBi&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9QkuahkwBJQD6mEl2m4LU6jqzKJE3xqu9OkNEq1T0jiKxWlORbVY5guTxYPIPkNwqGF%2B5HjFTLG28nQ210CjKOWniuHppYEuTIOZkqLpL0YXtnEO37aRk1rcYTEDrrRVL8qX1PzfZT6qHoN0YauWaqb5jOYuBiMXqNdvYmF3oRm8akzjVs47GfdoE3m2NSlq2V8KLbUgNIUunbJ34kchyP54o%2BqXKKUsZC3yWVG1jqXwjnTStCuyt0T2Ftmx%2Bge8yDJe1tTxWiwFu%2FIOwlYsvV%7Ctkp%3ABk9SR6SU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227592052775",
+      "product_id": "227592052775",
+      "epid": "2316321839",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$37.00",
+        "extracted": 37.0
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/oYQAAeSwoMtq5qBi/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Game Cartridge Only Tested WORKS",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/840079440390?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH80GK78VVD73QPPVBVJ&hash=itemc398a2fa06%3Ag%3A2KwAAeSw6glq5lNr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8F4UoUbRbx62RCuGUqKeq8nqOZAr3ubWZ4tufkHMNCuuz16HVaIfbtwujMRmUuXvIWXJN3Hd%2FrCB79jNx4gCnAAGEGVRCRbtM1WVTZ1LtZ2XZjPqupoSca5qQnRam8U5LHUVzncoyeBqwUBUNmPAsSVlbNHAqjex2gvbdD%2BoNAJf%2FzW1nw1rbBqDMwcCdKCnGG1ceBAg4z1xVRl88m4UNDX4aSO0qWXtzecQxgccLhPk5LkPJjvEi9bCQrKw%2Byb4QxU9jBFEB%2B3Ak6viNjvWMDXOmHQzbLXRfAnJoPAGVjIjirwCNMsd5RykizUQqojS0%3D%7Ctkp%3ABk9SR6SU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840079440390",
+      "product_id": "840079440390",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$32.00",
+        "extracted": 32.0
+      },
+      "shipping": {
+        "raw": "+$5.80 delivery",
+        "extracted": 5.8
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/2KwAAeSw6glq5lNr/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) Game Only Tested SHIPS NEXT DAY",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/960139370112?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH80EC7QT1AK4JBJ21RX&hash=itemdf8cc41e80%3Ag%3Aj-IAAeSwrBhq5rB3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde88c%2FmPLNymqK%2FCQN1zwXvBtpSNIuGAnFEfzJSRleSWo3hKrKQGqw8vfPfg6PNFPY0xUbOHur3G3IsLKRGCqjb0jcN1BejvMVpFj0vbvD74gJZfpiEbs9tor%2Bs7zW5pyqzRs5uoBn8zpfV6s%2F8NWrLRFt0kuZsC2xWfJ%2BzTN1VHq6mCK111Cy5YvirFOM%2B%2FGzNQEADPQU72CNiALcAI83%2Fokx2ZcpkjYoTzQgPwAPeMiim8p%2B3IBuTe1qQPTajau5Mj24wE4NIVWxlmKORh2yYgp%2BwMErULUh6qajaxsAUjZF5QsN6hQyqTwFrepzI5P84%3D%7Ctkp%3ABk9SR6SU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960139370112",
+      "product_id": "960139370112",
+      "epid": "2316321839",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$28.99",
+        "extracted": 28.99
+      },
+      "shipping": {
+        "raw": "+$6.82 delivery",
+        "extracted": 6.82
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/j-IAAeSwrBhq5rB3/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 -- Deluxe Edition (Nintendo Switch, 2017) [Physical]",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/206666988745?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH80BNVNKB9J8HAG52VT&hash=item301e4ffcc9%3Ag%3AZd0AAeSwuVdq5sAF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BriVS5tkyEr1%2FcQN6xhHEva%2B5HnaUnUJ1WBnz0eGZgEDJo4TnEU%2F0lx1Drex2%2Bbv5NS3duOX2ldZ44eiDkoj61keRbO2YJReGuuBTY7DPR0GloUC%2BXhYNDie9YsoQl9IIcUQp3YZ8wWETOe%2FRkUxvpBi3tbi1OvM2Xs7cgo23OC34qOP0oNiJkoFzBUiWBMTe7LQhl90%2FfTOXMn3iDQOUxWW1lWFRQJWNwsdqxoYaAQL9cr7y9NuXkJTPLbhBaJaaMDkYHvb43OhM2AOZ0C%2BXzndnSI8FCClX%2FcYzGNS7MqEypfs4ctrKymWzl30kzSvw%3D%7Ctkp%3ABk9SR6SU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=206666988745",
+      "product_id": "206666988745",
+      "epid": "2316321839",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$33.00",
+        "extracted": 33.0
+      },
+      "shipping": {
+        "raw": "+$6.82 delivery",
+        "extracted": 6.82
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Zd0AAeSwuVdq5sAF/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Game Cartridge Only - Tested, Works",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/336871430188?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQH81GZZ5WFREC6VPNNMW&hash=item4e6f1a182c%3Ag%3AT44AAeSwWx9q5Uit&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B%2BHEZpWkAL%2FdJeRFa9EPbK4j1Sl5NYCToHnUUCXHixEBb9m4yqa32nlAg%2FUEmdHxUp4fje0EqRJALGrcyS6yjBtQ5bmqv%2BVqc%2FBDWCvWD0PlW7Lj5w8C%2F8nRedc3KfdO5NPIh5rY9lOZkDduDyVPymxrmX%2Biatqj3wKSK8uevAXeN4xq3dWaBrT%2FAaocVqX3OQFup3w2k5anT514q5pyeSbukWCeG4Mu3AxMWLOCCUTr%2BxUBwJpqPsQeFmLCxxc6UHZbYmgQPggY36bCRw6WTo%7Ctkp%3ABk9SR6SU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336871430188",
+      "product_id": "336871430188",
+      "epid": "631103144",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 17,
+      "price": {
+        "raw": "$32.00",
+        "extracted": 32.0
+      },
+      "shipping": {
+        "raw": "+$5.10 delivery",
+        "extracted": 5.1
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/T44AAeSwWx9q5Uit/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/960128010441?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH81CRZRSF6WTEH2W5T4&hash=itemdf8c16c8c9%3Ag%3AAckAAeSwoP9q3af5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9dyxEgA8LRwf0Xb%2B84jpKZVNwO%2FppGduuEbTE2A1fzEWdKbLPGJXBnzfZ4L%2Bs%2B0A7zZfCDjt9uGV5q8xFFhz9SLivGtsbjwmZm0IPtK7Uagu8V%2BTStc3tUQlUQcYW670u4jjmRXyMYO7cRDdIbmXLtS%2BLuGeztwcv6waEHqPz7VT1Kk16gLCft%2Fryw730hxapukGAFbF7Kb%2Fx%2Ba%2FbiYVbS22Pdz9t6%2BSTR8Ab2f6wxoG7wL7%2Bs71KeJtS6pSIWZMbIJNkKZlUUMsZJTf81mHyCFgrxcx1G4gslOoG2kEgKfyt4pgxrHF2bfHJvG6d%2BPO0%3D%7Ctkp%3ABk9SR6SU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960128010441",
+      "product_id": "960128010441",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$38.99",
+        "extracted": 38.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/AckAAeSwoP9q3af5/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Mario Kart 8 Deluxe - Nintendo Switch Multiplayer E-Everyone Racing",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/327431228443?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH81V0S3VYE3S41V8H3N&hash=item4c3c6c0c1b%3Ag%3AjVYAAeSwEwJq5T08&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8ijWoIG%2BeOywC9Z3EW1nODaZmSinwxJxoVijar7tGDYI2lua0VBKLG%2FuAUmWHi2HXskiZpoLQGQfKqXuLfIPj6U%2FiacfU4GBnhRSO98kTfNx1%2FiU4p%2F3zfCoPPzJYTne6Kb52HIgJ8NuLuVgchNQrnPugkSsTJrJ94bmGx3FdGLoT699medtAgjf6YHX4AP7VtASD5Td3kDfkDrbRgdun2qE9DDzk62fsLUqJuf4E1PC7l1I65ltl6Ruf2V6Y%2Fly%2B336Z4IGTGhnBKv2A0bAX8%7Ctkp%3ABk9SR6SU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327431228443",
+      "product_id": "327431228443",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$33.99",
+        "extracted": 33.99
+      },
+      "shipping": {
+        "raw": "+$5.27 delivery",
+        "extracted": 5.27
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/jVYAAeSwEwJq5T08/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe Nintendo Switch - Cartridge Only",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/287687853254?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH81Q2JWBG6JMRQY2BX7&hash=item42fb8844c6%3Ag%3AlnUAAeSwsjVq4l5X&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FDHJF0ofKn%2B1UQfkELPRYiRVG0U%2BFGKn%2BY2KKyZdKZgnnyFiYnm0XIwGY8LKJUruGwyV10CF5ZUgdKfNz9cFKE6rel3eb%2BUhzyqMrYifaj1gVEJHxUQL1xsjqjblten%2BhVX%2Bstcly%2FMMnSou8%2BjNnNUFRluAp40lYbwkXVdiTFiAd7%2BYPPz0AkOMvUpzyp1zwfkm%2B3Knqk9cO%2FA1GlQmD14EajaHH1RIoQcBgSdAW31YDdhWSnnH6DyEk3kO5Qxy35zHItDKQA8GIza5AIqW81EM%2B3ltN5nRF0WOzNbvVcNiYYOvFeAPQhVHJvy6wu7l8%3D%7Ctkp%3ABk9SR6SU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287687853254",
+      "product_id": "287687853254",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/lnUAAeSwsjVq4l5X/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart 8 -- Deluxe Edition (Nintendo Switch, 2017) - TESTED WORKING",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/920058644126?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH81MJ1TRZ9JDAPBYFWN&hash=itemd637c4c69e%3Ag%3AjtIAAeSwAAdq194X&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BBNhlqQO0CBE3JpiLXLLw%2FeqMWNgIzghnOjZAHZWKcZlZI1zbCD%2FJ1E8Yw2SUwnt73k99WC5a5XcmFhLYvhjmxZ5oEMrOWVRVIusb3Dwy2gD9ePE2VWMY2nHB3dpMuWgYq4ASA0zQ9pfMsJCubVY%2FbnuOMuHBbh2%2Bws9wwhP5v2RWh9k%2BL5f5cIZ6Vo87%2BQXyFKEfwIECWXSjuInsxCfwVmICjNd%2BFJbL23zfZzPt8rUMwjPyg3JPJos%2FuUrn9fiQhsX9a1yOIcjVenk3BQunlEdf4ZDgrHpXLlDREVqqruiLRndjgouBSQkj8iPejaP4%3D%7Ctkp%3ABFBMpJTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920058644126",
+      "product_id": "920058644126",
+      "epid": "2316321839",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$12.70 delivery",
+        "extracted": 12.7
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/jtIAAeSwAAdq194X/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "New Mario Kart 8 Deluxe (Nintendo Switch, 2017)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/128156165085?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH8206N9E43G0VBRKJV3&hash=item1dd6b3e3dd%3Ag%3AjdEAAeSwQ1xqsymS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BJ5EO%2FU4nZhIvO53%2FTzfN%2BfORZDDY4ujBxRnNNvrUafBWkHG27LpvNcpWI1%2BSuKgionxmC8F78WSjKSmmKVfWR%2FAvfdcdhWj5DhtfiDIYZ35oRHdoXNASPByLAUmQYkv9OrSl%2BgkdkSpHVMDKloQFJytLasMo0TDb5wFsmg8CE3%2BHV6x4Q1j4RH6zTGD4a6r0AFmLMMUOnrgseLdQLWaXLfdH82wUQOtFwTm6OR5THC8CRhNop1wipxAuxNRqhKk4p7YxnJq6wmaDWE%2FVVjQ4RzQlv6HFhKEkRw5%2FL5zPaAKothSvQbHULT%2FaF%2BKXjsjE%3D%7Ctkp%3ABFBMpJTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128156165085",
+      "product_id": "128156165085",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.99",
+        "extracted": 35.99
+      },
+      "old_price": {
+        "raw": "$39.99",
+        "extracted": 39.99,
+        "discount": "$35.99"
+      },
+      "shipping": {
+        "raw": "+$5.63 delivery in 2-4 days",
+        "extracted": 5.63
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/jdEAAeSwQ1xqsymS/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Mario Kart 8 Deluxe Nintendo Switch NTSC-U/C E Everyone Mario Kart",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/137884257903?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH82EAT1Y4G5JXZ91BW4&hash=item201a8ace6f%3Ag%3AKM4AAeSw495q42DS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FyMrT4FqzMYlt8oevXomgfbz0l9Yrr%2BTBmcXjzIoqb87raY3U4n2TNu3k17pCQQiv5eW30gqq5O2J1nH%2Brm97t4OSNeuujXCv7LsB%2Fh27xs4BbZpO%2BV42f9ckRnlZztWX6wzfpdWRJ6mOtbsECwuJ%2BpX1%2BUxuMUHKrtOirRpiJIACKfBde7A25dFbgU1LLf%2BMh9OFwfQdOQTbQoMbmf1cbCY0xhwtvnk%2BPF6ZQCZsHL46nPrEeV9cmJbPNpU0OI9ntWmd79FtxrFq%2BiTuJlb5LFEY0lNhmnYz5Rmc4DAvLSkShZcZ%2FHVk6zcj0IxQdCiI%3D%7Ctkp%3ABFBMpJTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137884257903",
+      "product_id": "137884257903",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$5.39 delivery in 2-4 days",
+        "extracted": 5.39
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/KM4AAeSw495q42DS/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Cartridge Only",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/137887513905?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH82GX8N55D5WCA951FH&hash=item201abc7d31%3Ag%3A6NsAAeSwpPRq5NWk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FXa8PPj6%2BkYgLs1V0lmOUKHt4r3SsCueVHwo8vsHyn2wFO8qxrcB9%2FN7CjY1J64b7Z4eLYXiBDVfP1a3dQsjou85X9%2BdSycoGlUFzleDWl1G8WXGbz5BgbUwoZRzGUC4yQXQXmY626ku5bqQQLsvaAH96KDQgoKTTmn3U5pqBLVMzpA%2BnoVTBHc9J6URXL34hfLm8vC6Jib9%2F4bzLxCPzpBJJQuK4q%2Bv5B8on6tO0Krbt1l0n5WYA4QV2ikCF6G9RW9oSUzx02wFA4AjACmHVFDEhvCLSsnDzkqR1iVqlFUj0vmkjKM7gXWrxr1pijIrU%3D%7Ctkp%3ABFBMpJTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137887513905",
+      "product_id": "137887513905",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$33.97",
+        "extracted": 33.97
+      },
+      "shipping": {
+        "raw": "+$6.00 delivery in 2-4 days",
+        "extracted": 6.0
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/6NsAAeSwpPRq5NWk/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 Deluxe Edition (Nintendo Switch, 2017) USA Fast Shipping",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/168829075264?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH82V5AGPR6TZ68MCHQM&hash=item274eff3f40%3Ag%3AL2MAAeSwRONq5irR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FH%2Fq5pNbKW7lkHfK29lakdhgn8M1i3j%2B5PABZ893uWqCgZPuPoiq41pxLpqc33YsrLnzHvmH9TJSm3IbrL9A39q9p88sas7QrPUnkaFm4hdR8dsIcWQcnL%2FjeWi%2BLTkwsKE97JHUMQ1zv%2F8smA9hu5A8GRtXBeFUpAWrvwtHTTS3PqhGYy%2BsMs5bc9Oq5BztnW6rvNkoBIEYAJaIdgMcPbwrx7H%2BP8RhYm6ZiXhmRK6eU%2FORWZqZlyUb%2FvSS4l1GQRqs31UAoQbMk0pGYlDEvRksNFdgyMLs8A5fg7Jhca0cVg652DZA8fCb4uGuKbtUU%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829075264",
+      "product_id": "168829075264",
+      "epid": "2316321839",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$5.80 delivery",
+        "extracted": 5.8
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/L2MAAeSwRONq5irR/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Mario Kart 8 Deluxe Nitndo Switch - HACPAABPA",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/880068601344?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH825WKTB76QF04VTF4V&hash=itemcce82d2600%3Ag%3AUHEAAeSwIAdq5hAL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde97tx0YumF%2FOEsuFEuhGEW4no2%2FJOus0a4mFvwBkY0TkaFQh8fi4JqWjHymwc8yehizhEOxhA0%2BvlV5PbIpYGXv0yxRvTDQQqUo5CG2TWHiDI3PauHw5tIlL05gB%2FFzX35tE0S0tN3VJj84qzUwvZ2tFMzAfrpj8g37T2Fo%2F9yYY55DPufc4UNKMjlF8V7Dv6ONAC58QVjFc9wlbrMZAohGwcHVNt5UMGQUAM%2FJmwhms8XKSbPW6ONYLqDNKu3SFNVsqZUbdLkbQQN6JGwG3MsZyDVktURg%2FBQM5istz64jCjsubJS1O1UoYhfqaNJEPnE%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880068601344",
+      "product_id": "880068601344",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$5.95 delivery in 2-4 days",
+        "extracted": 5.95
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/UHEAAeSwIAdq5hAL/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) Game Cartridge Only, Works 100%",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/327432452445?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH83X7YJZEM601TRF8BG&hash=item4c3c7eb95d%3Ag%3AUF8AAeSwynJq5jRT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FWGyYXfh4Pn%2FWDdOOp%2FD75pu2BLD9MRCR2XTFKYybulTw1YWx%2FFg9CxzZrMPmLou1%2Bk6x8uOiKRzWU1kZFjyOMQxq0m7c2zMRf3vP3ubAdREIN6Oe45YSeMqSNchVZbCBe4%2F7twIgMQt3iARYlF4dOjupA8SFML2IF5KkybFs0ATNHeWJ%2FUqKMBhTuscyi6%2FKfongh8YaV7Kt%2BzQFOcKFVOtIoUX64dvl%2FaOmO%2Ft%2Fk2BzqI%2FRSTyeokSXxzZOCjlXA5B27qsS8LTu4B5OzEYS1%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327432452445",
+      "product_id": "327432452445",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$5.39 delivery",
+        "extracted": 5.39
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/UF8AAeSwynJq5jRT/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) Cart Only Tested Authentic",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/227591981048?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH83NGRZXAK9TSK0W3GK&hash=item34fd8a07f8%3Ag%3AG0UAAeSwwalq5o5a&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BqchlZeCJ6qSfTx9GDS%2By%2B%2FIve4zKS0tnkgjDsl0j2RmPG7DONHNWjyT3OTt0S%2Ftz7Nz%2BWxqjYSeZb%2FuVRp0LxWZSv4SICD0THN2ugr2TC%2FK6%2FwzuXK6FV%2Bpfp%2FtgOPN7SgOTrwyEvLcbSOc%2BVWASPpUms9JTlVp%2B5N1b5i4Hy2m0gvbulxvirhjmDQVoLbbPMPAfwu4SomMnsyurdks3rIhHXOsyO7XWlEn1v6r1SauIP35vkWPLZ9H568uuMuyGDXM4yqbXQQuYtIcRvpH8sa3RuChyZew44t52K5a9A%2BIAM7shhhaBxxENCO5lkCDY%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227591981048",
+      "product_id": "227591981048",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$31.50",
+        "extracted": 31.5
+      },
+      "shipping": {
+        "raw": "+$5.74 delivery",
+        "extracted": 5.74
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/G0UAAeSwwalq5o5a/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Mario Kart 8 Deluxe Nintendo Switch E-Everyone NTSC-U/C Racing",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/800858870825?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH833TVC7Z5NYS0R9TQ4&hash=itemba76e89429%3Ag%3Ay8gAAeSwfvxq5bbW&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FPHAlwvRFPEuoC6W95RsX%2FSinA8kyR2E8qcIRgcuQV985AcVa4GfSNHhqz1VV1hYY3qaos0izkLBfCSOiz%2BRush9mpB5i%2FuaFTx%2FJLY3QpqXVJHwIs27AJx1HUWyU5TzYjZNA0NwAVnNeScSc%2F5YTvHhBUxSDXmI3CWr2BtlmQMfKmH3BX7jUC%2BA1CSK38R0FM74N2tZ36l2Qr68A5%2B%2By8EqWk6KuR95AD9NBIUNWLwe33dnUGC95nAshfJf7EyQJKpKrq1E10cGL1jBftg4v8%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800858870825",
+      "product_id": "800858870825",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.00",
+        "extracted": 28.0
+      },
+      "shipping": {
+        "raw": "+$7.08 delivery",
+        "extracted": 7.08
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/y8gAAeSwfvxq5bbW/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 - Deluxe Edition (Nintendo Switch, 2017) Tested",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/147657984097?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH83TCF9BJV8FSW7P0CY&hash=item22611a0861%3Ag%3AnGIAAeSw2l1q5Ilg&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9vwq4ychBEUT9cTvIlFBoyy1wI92jjPZw3%2BLNC%2Bqnm0jNFSal1Nxf1esqazdewx6K1zGKrCOAbBEPqSalYXTHbR3OG1z6gw%2BzdshTZkxNy24NDgMCpnedl7QH195fMYGmYu5UpEqyfoAv7HZxu7WgS96ikdUd9eUynzRSmJnIDkkqOALe1l0U0MYXCTKr0DYwYpaMoLwWIUIyZh3TwPeRwYagnQmpWCq%2F2KLv4k7ZSzRNCl1WTzX957IvtG1RYp7FFXexteuKXjrIvXbIJsqwm%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147657984097",
+      "product_id": "147657984097",
+      "epid": "2316321839",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$44.92",
+        "extracted": 44.92
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/nGIAAeSw2l1q5Ilg/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) Cartridge Only",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/227588732217?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQH835SG4FX2MDA011KQM&hash=item34fd587539%3Ag%3A6qUAAeSwmMdq41YX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9mTSB2HX8YOKViRNIB0z0Y%2BOlyfoZ5RPKgBatECLAouYzJZ%2FxfSJgKb%2Fc4G1ufoPQtpVpxFzHfcGvfSAnxWcQWVI6aeMD1%2BL57hPS5vewmk8FXgEiW6RliG2Q7%2FECeQ0ikDdp1%2BEJW%2BOqgnckba9AY32sL%2F1gKsMrko8p9DeiiTFFjY1%2F3%2FQlsakiEdtsauBqjqdgbubAW7PQ%2B9%2FU%2FNOjR%2BPingZxnfYMgcjfhy3uZRuohny6pnf49NBonat%2F4S8a87TKd2WwY9ldiu1RikHMz%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227588732217",
+      "product_id": "227588732217",
+      "epid": "631103144",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 17,
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/6qUAAeSwmMdq41YX/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe GAME ONLY - Nintendo Switch - 1030a",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/840075633705?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH847FR4MGNY8BA9GZM6&hash=itemc39868e429%3Ag%3AkvIAAeSwmy5q5Nev&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FXk%2FxS01uCIluHzbS9WhyeZM2mdrVloGh1CTMVUkdZxkBxdj9f1H8HHxlKEr62xeErv%2BYbngX%2BjwXbY%2FF%2BY0N%2BNyj8gehFh9UOswpYSbzWEGbsNYRj7ERonhfrCs0V2lWYbROAPX5gzwsJDpYzrMYU3NBolSzSB36aKClYOLVNfeMmYKJJgBNFHp%2F29HZHakg6vAL4%2FOsbpocSR3WGvDYJvj7UjUqncUfFPl6gkwbm%2B4KUFcbyiZTl2Bv%2BTUYRzTvSWEdlZebN3zIFIoAyQVpnkFuHjyYA82f%2BiLjNpcq1A%2FwZk1tjIGfOGkC4kjyOk8E%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840075633705",
+      "product_id": "840075633705",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.99",
+        "extracted": 35.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/kvIAAeSwmy5q5Nev/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Game Cartridge Only Tested WORKS",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/237154744801?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH843EDJ4ZWD610GTE7H&hash=item37378639e1%3Ag%3APzgAAeSwjtlq5kke&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FU7sfcZ9AeaIg4fz%2Bg06sEjFwVtPGie23D51DNh3DGZaAVbVNHkbdWw2lo8FHAflZiwPYOmfDq3q792YnAx7al63MbnVWOBpfkn%2FQXi37AhugvqQigGa%2BACiHSyHiottQSOm9xzD%2BTnXzfS0D%2BJkvfbt%2BknGEu7GSP93GgiIIR2Jpb5bcGR9NxpLyiCF70f5g%2FxhY5hTFiF%2FxNEM%2FF8pOL9RqFH%2BnmwMPc0LpJGRyYMa75IRlQvqiQqhTCpakJah3JRlRc6bTXhkUpqLdRqNOwbh%2F80xLW2VSm3jzu8Y9nsXeVrQ8vltCbJjEtPRSXgmk%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237154744801",
+      "product_id": "237154744801",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.95",
+        "extracted": 34.95
+      },
+      "shipping": {
+        "raw": "+$6.95 delivery",
+        "extracted": 6.95
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/PzgAAeSwjtlq5kke/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) (LOOK)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/128163041042?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQH84P30KSY40832HQQW6&hash=item1dd71ccf12%3Ag%3AUQAAAeSwjclq46wk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3GFAuXN1NfeZXQQ%2FmsjBdrDjGUPWzXcVl1LTvyALrJ51cermr%2FFCQrPvTOtQqRekjn1%2FITOvWxaO69F1vnPE2VK%2F7Lz3IlkrT%2FKoR8%2BNCUF9KHp2ki9wNqPjmsD2Gg%2Fr%2Fi%2Bq8Y13I1QW%2B5H2iFyMlDosBFoE8AxjlKjvB4z5W277YWl%2BnUWliDrxXjm%2BOiZwpAnRaQFVXTuJGpMuCksbLRvQ65CTKCzdi0tvl8M5JANacF%2BBzT5W03WlNE2DDg%2FXATMp3XGNYndMbetfd74LMpU6wKFkTotr2Ak22dvOU9ezvt6CSNUvGLM6ELUkPUvE%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128163041042",
+      "product_id": "128163041042",
+      "epid": "631103144",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 17,
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/UQAAAeSwjclq46wk/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/307256139271?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQH8485W3BB52D8XPWTKG&hash=item4789e49e07%3Ag%3AbA0AAeSwExVq48px&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F5h61ULHA70Agp0jDtVeC2cl0Uuo1lrYE6tgLBpOtOnXps99QBg3tKHizL7Ey896Rd80dosSxI45DKQHhlEpAocU%2FI3v1xTLRH4ad3rVhVd1De%2Fnwk8t7PrZ%2BNCY3eI54cABwOncatoyiNubGjHuJWHQwO%2Fajq9cbqXYEUItHYVQxXtO4YkNOGu5JTq%2BAGaUV%2FuUVVzbARYz%2FKOCuFA99oguz86voJY9yzABhFuhHUhQ%2F25uPU4qKIHBqr0225eJTSDQ%2FMCEvx1aWWcYTiw6pI49LJ8mnlZ%2FNoJAAfnTLT2QQnVEeiNe9WzRRzwSw8%2FpA%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307256139271",
+      "product_id": "307256139271",
+      "epid": "631103144",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 17,
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": "Free delivery in 2-3 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/bA0AAeSwExVq48px/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Game Loose Cartridge / Torn Label Tested",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/147653497695?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=4037806642&itmmeta=01M6AVQH84VK7PRP8E0YC388VP&hash=item2260d5935f%3Ag%3ALuoAAeSwUnNq4Czh&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FbJoq8tAb6vats7alRUefqZuey0IhEifl3JCtmfRexlbipuRnKET4dtmv7tzFWKME3vEHfwCdsd3lc94JQpzrOlKTOHwzog8bO8DwTIPZkkrK5owNnK4U1DyrXmKzfQbvUxIIL4RLFwmd2trVqtpiZWQgDKF9U%2BxfIuhIq8gDhDNCfGipyZTtnaM9LRFIEh6Nz9FjncpqSIs%2FGN8hZC%2BQkaE4MsUfHPrP%2BEFndI8tKK9iqJPRYs9jqBxda9XKrjfI4XSeO2CDROpj6uaNUd19ShzNZlPZrNkN%2BDHl8gwJ5nxGK04nnkFO%2BpmtJ0xOkPCM%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147653497695",
+      "product_id": "147653497695",
+      "epid": "4037806642",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 18,
+      "price": {
+        "raw": "$32.99",
+        "extracted": 32.99
+      },
+      "shipping": {
+        "raw": "+$5.80 delivery",
+        "extracted": 5.8
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/LuoAAeSwUnNq4Czh/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch Games ~ Some are Sealed! - Volume Discounts! (see photos)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/187592660288?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH8559666JDXRTV12SEK&hash=item2bad64d540%3Ag%3Aso0AAeSwjppoe7LU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9lb8phhpRi57wJCzAE7HOVI3krFVijaTG8LC92UyWDQq11Msmk7Kmroz6502D08QeCKMZLuLFmb7Uryt%2Bri0MrN%2BFO4fWfkj6GX%2B%2FFBeJDl3SSykDl8hW3KDJYfm1cmauP--brp35udDr%2F379RPmDjolTVtP8SJg2vcW%2FjkTQARIEvyxY%2FTJ9TJFSfu2wYOVRMSmspZcetwoeRy%2FVD8IYUtjfnCISAMsPrmBDGyGMoj2c4t0s2tcbwLOf96Co1ghlxKRipX%2BdagGebP5Sv29c8mnu9vvPT1aqiOKwv9t%2BQsG6dJrl4PE2Eg3Yybd7e974%3D%7Ctkp%3ABFBMppTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=187592660288",
+      "product_id": "187592660288",
+      "condition": "New (Other)",
+      "price": {
+        "from": {
+          "raw": "$11.00",
+          "extracted": 11.0
+        },
+        "to": {
+          "raw": "$154.00",
+          "extracted": 154.0
+        }
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "watchers": "22+ watchers",
+      "extracted_watchers": 22,
+      "promotion": "Save up to 13% when you buy more",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/so0AAeSwjppoe7LU/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart Deluxe 8 (Nintendo Switch) First Print 0000 First Press",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/267823067235?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH85JQ4ZC22BQ799W0HQ&hash=item3e5b7fb063%3Ag%3AoVYAAeSwr0dq3TLR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BDoTEtaignmhgfRYrGP9gnboPKe6A%2BnJ%2BhLF6Cv61WEglSfTnFt6fyWfKOCOtLXOx9NSOVrui7MbGDPa2a8NdHWJZZyfETDkbmhCgVmM4Dspj%2BcCYXdpSnOtNx%2Brefyen0pg3Pty6cALwyfyKGgW8bZ0p6TEFPVPDpuo%2B%2B95Exb1mcKKMQf3PmIsLDZVaxvwrc08KJV1QlXy1RAtg9CnnyHoT1HaZQAZ4CXCX4q2XcvTvbFvYc5bHtfHiW3ekhM3stkMxLaYNi3jZ%2FcQMMR3iFVet1%2F2eoYh2LCUqtWXS03k7qDE25dnq65JX%2BVrzJGCM%3D%7Ctkp%3ABFBMppTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267823067235",
+      "product_id": "267823067235",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$5.80 delivery",
+        "extracted": 5.8
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/oVYAAeSwr0dq3TLR/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart 8 Deluxe Nintendo Switch 2017 Game Cartridge Only Tested",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/800798739093?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH85FC9VWJS50B533YR2&hash=itemba73530a95%3Ag%3AMj8AAeSwXepq0SPX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8LdgTPYQYFufaEIFAHna7MYmNhDIDuNOHr2ijyloHZ6azZyaQH%2FG4HCIIdcu1xcbIug%2BKAyg7JfUP8tNhWQ%2Bhaq1Ovz%2BMkZVLEDWss3fyNUI0P5oi0vQklJkJoggtAgu%2Ba0nNPVUfgKZ5NRMmoIY0%2BuM830SmVHTK66sBf6FCJdV0NhDzXcVvRcO23sDH6s7qvHeArSFZYydr9YpbaeVR4dvD2yD1MLQK%2FpgALigqxEENXngF0o98lPe%2BWGanGnJKhUcgVZhKtfvJuQqynJAlKFcGNK2oTuc0Bxx5VG%2FwNS4ZziYjc3X39eJ3uYZHruIA%3D%7Ctkp%3ABFBMppTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800798739093",
+      "product_id": "800798739093",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$34.00",
+        "extracted": 34.0
+      },
+      "shipping": {
+        "raw": "+$6.82 delivery",
+        "extracted": 6.82
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Mj8AAeSwXepq0SPX/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart 8 Deluxe Nintendo Switch CIB Complete In Box Racing Game 2017 NTSC",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/267826156123?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH85CNFP39TVD4020MSV&hash=item3e5baed25b%3Ag%3Ax9QAAeSwSohqvk8X&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8tHv6Ndg4udVW3nikdAoQ0gLaAGUGN9hZF3j68uc22w8exC7Dlbyt4qYCtmr9vbY6vk7RynUWIsKm8L%2FcLhSD81LkcTmIBUYsobN%2Fpwzwwd0oNAXAjN5eFdmv2w3G3hw541PTjvkvWnvZlaQ5j%2FqDYPxbJ%2FBAXk9tzlD3f8RPiuuhVLic68IPKup4x%2BhWV8S6RN06QawdA%2FcGy0K1UPNsiJO4IrksDenwdnas1edkr8ke0u%2BN2zfNYqe5P6UoWPvzsLjdAPCICOxgYDy3kWx62w5ua6DGkDKzmUz%2BX7k0pkRRQznHFpispUhBDfUsUqmk%3D%7Ctkp%3ABFBMppTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267826156123",
+      "product_id": "267826156123",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$28.04",
+        "extracted": 28.04
+      },
+      "shipping": {
+        "raw": "+$8.00 delivery",
+        "extracted": 8.0
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/x9QAAeSwSohqvk8X/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/307215995072?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQH85RRHVR2NPH8N12YB3&hash=item47878010c0%3Ag%3A2xoAAeSw%7EhNqxA5p&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BgaC4npSgGdyikNp7u35Xg5Day4KAuYFF5pzvNlcwjv9kdNu3fQofihqxUo9jgZQUXpO1pHaUAmjZT0Xym5qONY9Bx4I%2B9pS4firflgk23kG9aofUgcPRi6JYGmX3UDLM9hubHOeVvnvUUBzfmq6O1Dxm3NPOGAC7F2Y3r4HrBv10lbUZIV5B40tkm0KBC%2FPkkjkF3qeeRX8C%2BiDd7e9%2B2N0tju5%2B0HHvwApf1z25L9fFGnUmaCl2%2BfqSOm6TdJAMxodlvodlMz2osAXKQXdMbPhtzPSYQpTg3oCT%2B0fBGU4JNfLGAHlSwaWqebUOj1KA%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307215995072",
+      "product_id": "307215995072",
+      "epid": "631103144",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 17,
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/2xoAAeSw~hNqxA5p/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/860095212220?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQH85CFJJ1HNDTB9QGZ44&hash=itemc841ab6abc%3Ag%3AOUYAAeSwWMtq427x&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B4QL4LugavWnemafm6Rv2uGqWf1AO8ZY24%2B0JybCg7C9dal%2B0xmesU3%2BqFA4FZZ94RqJUo1qFxvwlT1bdFPFyRsKqqTjGA%2FLdm5%2BLFglqaxIkXLT5YT3mVX6Fp5Uw6ZPx2uNMEHh8bqZhvMgMskyklnTzopUDc6%2FVG47PveynckgZKLHZGcY622rfoPlhoyLe%2FjPtPnYGExsmh9x0s5a3eefd7%2BCxlWD5I1%2FY9JmuyO1xFCqqjPy3w416ighmsN9%2FRjIIab%2BknRG7ROOX%2FNybFf7Xaqp5uEvP4uPZngze23MjbbIVPEuqTc%2F3OtIMemfE%3D%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860095212220",
+      "product_id": "860095212220",
+      "epid": "631103144",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 17,
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/OUYAAeSwWMtq427x/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe - Nintendo Switch (Original Case & Cartridge)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/287660983964?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH86DPY4J6FKNF4ENZ43&hash=item42f9ee469c%3Ag%3AO8YAAeSw9Wpq14DQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Ft2LbLAp6NXxKiMp4%2FAZ0EDV1g9tVTWO%2BKnV%2BhnF3wjYlLxp9m1yFRT9zPm8QkbEuPSrW7h0OAiP%2Biy5nFCSIZLYSD56h5x0WjoHi9MrTDDtKA4sHVwcAgQ2QhYbdTnJL22%2BRtkvV9s%2Fri0jidi%2F13GwnOcJ0m7BgJz8YyoRbm%2BcWO98lRN5kLYMKbGy%2FLf1UhzsDlsNsrBcLlQOyWTMkTTu%2BnoU56nhGEMtDh7eDQ7YiKfTgE6PSC%2BmWEH95jEIRaCxwp7Wt2KuNIMHejOyKj%7Ctkp%3ABk9SR6aU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287660983964",
+      "product_id": "287660983964",
+      "epid": "2316321839",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$30.99",
+        "extracted": 30.99
+      },
+      "shipping": {
+        "raw": "+$5.63 delivery in 2-4 days",
+        "extracted": 5.63
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/O8YAAeSw9Wpq14DQ/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 -- Deluxe Edition (Nintendo Switch, 2017) [Physical]",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/168829455548?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH86VB4WFBR3WSZYHWXA&hash=item274f050cbc%3Ag%3AO-QAAeSwXRRq5nv3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8MIAUE5wxhPTAsTzm3TOD5NSNG2ONIOv92MzuQ3YqsJKpAYK4TMcCCoKsyHDx4w2JQ%2BLIV8XzG9zki0wv%2BH0%2BA%2BpxpOzrsM%2BLFabTjkJAI8n6f9gU23lDtJ4UEFI4viHxWp5j5NyCFvq7Pc87HlBpD%2BgMhWJtMLjvMnz%2BBlZjNxkqnJF%2BG%2FIjQtKrMEpiArmJOKSDpjLHUE8hm4Rg%2Fse3QwGDZZqQV4soFBXDBKsnnHIg3OoquwcqJ9974hj9JLLzlMYX6F5SxvYGURTNYHzHL%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829455548",
+      "product_id": "168829455548",
+      "epid": "2316321839",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$9.50 delivery",
+        "extracted": 9.5
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/O-QAAeSwXRRq5nv3/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Game Cartridge Only Tested",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/257822704926?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH867KHA9AQ0WV1NZHEE&hash=item3c076e451e%3Ag%3A-ScAAeSwmMdq4p5T&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9WihpDONwuiIoOy%2B8uy4ifhGRYEZCEzJnOCYclT8yhAKvCbF%2Fp3soz0yhY6LW5jCFCH3QUjiojfk2DOB24mHbfqVYT4aju2rvRYkIl6H3ELw42CgGhLQSRKM9LV363SDNalEFCoq%2B8Qr8efwt0W409oi7PCaDAlp%2BkAMozdpLO1vlvIqYD6pG2vAGd6HTC72iWXv54bcpxlLXlHrZacOXPvkJyJDyP0hc8IMqNc01eHlkThFK0S3D8FDz3yiOqAcNbB2aTRO%2F5UQ%2BaIjG7BzeR%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257822704926",
+      "product_id": "257822704926",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$5.90 delivery",
+        "extracted": 5.9
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/-ScAAeSwmMdq4p5T/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe - Nintendo Switch",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/880033502803?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH862GC8BBQ2E46Y9J7Q&hash=itemcce6159653%3Ag%3ATOEAAeSwUd5q1vcm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BIpwEXWjXW4oc5gujCt%2BKnccEenQtcomlNHH7l5%2BskiDmR2yA1Ex7SXY5wPzJhoW8xKAEQJQYP0T95kBGPYMO1VsQtyhODL2TlLuKQOUcmjx0ro8ZKKwrz9e4b%2BYugV98h23%2BPPiln%2BLwkrVTReWoj5RSfnA9khKEAkrYnY4bLvLAxl6AlXiqqm7YFush63lvpjiNYRjZH9Tlj7BZYJu%2Bcr7HFQQOdirkzHfrbQpfJgAVX8k1XbGDewQ%2BI8DcVZCBkdyKfDqtMOBmp7FahE3r6apenof8sITFrt4iuelPBwycKvNybMIMbEWapTVM7110%3D%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880033502803",
+      "product_id": "880033502803",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$5.80 delivery",
+        "extracted": 5.8
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/TOEAAeSwUd5q1vcm/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Complete TESTED",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/168788010713?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH86VVDPDE5F2AV08XB8&hash=item274c8ca6d9%3Ag%3AtxcAAeSwFhRqzQ6o&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde--oUZjAEAig8hLT0AaSlsj%2FzctTsQAdhfFdvjuOzxjHb5hb2OAJnASjC1yiFXxnwZb6Yn2Fnr0DV709WqmqBLN4UfAFmHPyAFzObuxyy6kRoh57uIHI49DcQHQMDn7Vf8Grkxz6RNuWIHWC5HN3oYcagsTpLC3gmu0PsXF6mBhwFGLjoRti%2Fw5n5L9%2FeIR2S1edHfPCyr7UP%2BkhV2%2F4kil5xha8ZmLY%2FbEnORgoDLJLIboHJb5Dk6Lsv3lC7ln3OKRUh2r3EOtrqGhwR4WqEC46LsXpB2ZzoiLbpnpfIJBwrdcQ3gRxX%2B12iac8Z8j7SI%3D%7Ctkp%3ABFBMqJTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168788010713",
+      "product_id": "168788010713",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$33.29",
+        "extracted": 33.29
+      },
+      "old_price": {
+        "raw": "$36.99",
+        "extracted": 36.99,
+        "discount": "$33.29"
+      },
+      "shipping": {
+        "raw": "+$6.00 delivery",
+        "extracted": 6.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/txcAAeSwFhRqzQ6o/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart 8 -- Deluxe Edition (Nintendo Switch, 2017) [Physical]",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/198749044037?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH86J2DKSC1EYYT84C76&hash=item2e465dbd45%3Ag%3Ao5gAAOSwa%7EpgWz0Z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde87TlXqHVw4XxI8l4QUVztMjVyIOSdwdtFkT9M7I3x5nqag0Uc2PybX%2B6%2FPVd%2BGDr9nH8nlEgDOu5rEuFUDvkVkYULAndZitPxyP9RK7med2av6uBl9iJ4CI5KD85jXqsdTbUbE4d7SQ3SZBBhvCFaUz3yLNslWH5Y0OClXhW%2FKjIq%2BuV%2FTDI%2Bm3FXWhuLrD8b6H9OZB0%2FhXvOchRCGJqyeoNy%2Bx77v0A9lSF5sgtMb2%2Ftf2ZEtP8RLqckmwnBmLixekwd7GSUdFSGAX%2B8EzsK74IlY0Wn4HVFwpuCZhg0nUq1%2FuaaaVx8f93AgEarI%2FRc%3D%7Ctkp%3ABFBMqJTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198749044037",
+      "product_id": "198749044037",
+      "epid": "2316321839",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$42.50",
+        "extracted": 42.5
+      },
+      "shipping": {
+        "raw": "+$5.74 delivery in 2-4 days",
+        "extracted": 5.74
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/o5gAAOSwa~pgWz0Z/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe Edition (Nintendo Switch 1 / 2 , 2017)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/168826790249?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH87DBFBEKSX2PKWF9P9&hash=item274edc6169%3Ag%3AwPMAAeSwGAlq5Kel&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8f5g4YAvxww6VytELc1SdY9T058%2FpduRhcz5iGcHsIuPpt10wCi5AVhR3SlpxBUtax1Jx%2FKo08dRBOfXByes1NYIHMaKeXFB%2B1DxcvZkQ8%2BBDHbjdVuDw8WpuIAGs8xFqsaREJ7CljlXLxALQ6zsnbCh%2F4Tt0pMziESGEMJNbMDqAADeXAlsh7MENxYfq%2Bni--zne%2F8r8dxayixs1gHXK1JrKwJoN72YtU9JzOgfgp0AYe0qRcz3WCxGgelsaF%2BCLVQm%2BCHQh3RwY9sh1x6rfq%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168826790249",
+      "product_id": "168826790249",
+      "epid": "2316321839",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/wPMAAeSwGAlq5Kel/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe Nintendo Switch",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/800784269187?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH87XMSB1S94NHX287NY&hash=itemba72763f83%3Ag%3ArSoAAeSw9D1qy%7Ehq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BMcqs0LZdJpvpbbmfG%2FI2b4HXBx6rLzt%2BEvBC7D2Z4ZNDOQxxgB3kj52E2U233rZvmF9vgR7YrlQ1e5gM8xoi3mUGCKAvJBUs53pz3viopS1CwhRc0Ur2ENUT%2FzaBEKdRwo3LjSZHZocOgXJkP%2FsJxxl0kEMxZ3Fsq%2B3V5RPxQ0iHYYsmNq2xs2B90bN8T%2BAqiw8BcD4DQOrlb8%2FnEOryBfmxKF7r%2BTSKH5Rigii7%2BF45iyP%2F8z3x9AJ3eCLroLABp39gWHmaKCA%2FXwbLbk8SL%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800784269187",
+      "product_id": "800784269187",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "shipping": {
+        "raw": "+$5.80 delivery",
+        "extracted": 5.8
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/rSoAAeSw9D1qy~hq/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Mario Kart 8 -- Deluxe Edition (Nintendo Switch, 2017) Authentic Tested Working",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/336872419196?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH87MWGTZ05CESHT5C4W&hash=item4e6f292f7c%3Ag%3ATkYAAeSwBK9q5kxn&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BiDFBXRO2o0bWQ1nDVSypb2FUEFmhEoSz9W61fqBYbhWogtfEaH2UmgT%2Fjy6ORI%2BcF6F1SRrvouoyyoQHwcqhvC187Sgb4ZR99P59K0Zrab1EK0PZKgHfG%2FfKHBOFdGk2sIfVdMqyDHVGnXIxDB1KEVxpXKhq0Zdi%2BHHGKbXcc50f598GiGrQIxlEcAs1P1bf9IzueXiW4o9h%2F5HKf2zth2lG4a6ZmyU0NwjWE8WTg6h6Rz87L%2BOdy406qOmfQWFfIoQxhKxsoOQ6WxKGe0BAl%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336872419196",
+      "product_id": "336872419196",
+      "epid": "2316321839",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$31.45",
+        "extracted": 31.45
+      },
+      "shipping": {
+        "raw": "+$5.80 delivery",
+        "extracted": 5.8
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/TkYAAeSwBK9q5kxn/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Mario Kart 8 Deluxe Cartridge Only Tested Working",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/137883127253?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH872FTRVQC0CD1XB3MF&hash=item201a798dd5%3Ag%3AQksAAeSwsU5pN2Ab&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9bbEoht%2F%2B0fiWbojzlwQkoTQ96ZTPMlbWj98lGytn9ehZ%2BEOdZUxQk%2FFzbxS1%2BZCXH68T1z%2FR3E7vwEDRBhUejudj3iLhVXMOf8s2ylg2uGpxhPtl3x4c6%2BAAYDJTCUwn407qBO2me4IKDQrXDEqBOMtJrB%2BAMhgg4sESaYu7vEfNQPEe6lysEPWr7Le%2BMtejj3MN7IpXcdhlEZK8GS5tbRkmr4--VS5m%2Br9O8rG%2F3O%2BYi2kRl6Nis8uvGdn1qx5--uiF85E%2F8IeN49uOFdwiV%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137883127253",
+      "product_id": "137883127253",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$37.99",
+        "extracted": 37.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/QksAAeSwsU5pN2Ab/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) with Case",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/227577490354?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQH87C24YMAKQM6VMWRJ3&hash=item34fcacebb2%3Ag%3A6jgAAeSw8M1q3UfR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F6CtUH2FYmf2q8ZXVgu1mxB0XOcivmvq2daG5ilvelm4L8F23G7Rg8PSpa%2BIcylKjGiPNunslO9pQDqLME5Ml%2FRPB6RrBsVmMywvkr0zDecoFdAdGvLO6MsTjfLz%2F8EU3R1IhUxr5gbkKL4pE0ymrGE66o2z5C7ia7yD%2FKtdfGgbhY%2BLU3avpBcXLIlL2u0BSP3pzUvsPeiFU7bTK4sYkrJ5h0cZYI%2BtNvEcguH0wd6jom3nSMKZQEYBszx1mqZdmqnknkGVv68he3MYwcKcK4rMm1%2FD5Y2CQ02dNowWw7xOCUDIut94X16k2S6KDTacI%3D%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227577490354",
+      "product_id": "227577490354",
+      "epid": "631103144",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 17,
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$9.50 delivery",
+        "extracted": 9.5
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "5 watchers",
+      "extracted_watchers": 5,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/6jgAAeSw8M1q3UfR/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) Game Only, tested",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/227564036891?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH87N21SKV7YKP86JPZC&hash=item34fbdfa31b%3Ag%3ADjkAAeSwpIdqzPJJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B5PUbGyOrnVpb3dOpMPg19YcncjgoVLyoO6dLzpi2O8hYa8hXtnVNv1Tniqtc41BLPZxK8YVpDt%2FnCIPG%2FM5OkmLPILC6cQEwPWkY%2BY0iBPH4I%2B3mmLiwsglVAD5mT0NT5OUh6es82f8pmD6CfRb8sGhSW63FKisOH%2FnQ6MHOpmA44PGyLFzle92ZI7Az4epKfegvU28R9ShgFnR2qGcAOQgP1Z7Mj%2Fhmv2w%2B3dLELtxUD9IU44ieS6sC1Yhg9CCrVofsI3Toq%2F2jkqSt%2FjJFo%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227564036891",
+      "product_id": "227564036891",
+      "epid": "2316321839",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$5.74 delivery in 2-4 days",
+        "extracted": 5.74
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/DjkAAeSwpIdqzPJJ/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Mario Kart 8 Deluxe (Switch) E-Everyone NTSC-U/C Mario Kart",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/137868755574?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH87VGR232ZCMASFJPGB&hash=item20199e4276%3Ag%3AI-EAAeSwfYdq23RR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FYqeTKi0pkvisdixVeee9o7qK4xfhIY5JKSY0r3sRBULIeA3sKNe1wi40Qx%2BVwxi4BaPvXFx33f1MxEfhj5ey3PxklEqr69BVw5MnaL5NmyNFAhgo949hFfE24QlW3nulYZKsnwjvI5c5391KeSbd9mviK3Gdymm33epHn%2B0iGJf%2Fh8B%2BOlgWn49PkLOtPuN8hekn1AN529aeZm2PiemlhVWZEnULfjO6%2Bv1iivr0s75c%2B4ZZWAbGuM--lcrXy4%2BGxlbb53ZiIV%2FHC2B6L1o6Q%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137868755574",
+      "product_id": "137868755574",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$5.71 delivery in 2-4 days",
+        "extracted": 5.71
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/I-EAAeSwfYdq23RR/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 -- Deluxe Edition (Nintendo Switch, 2017)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/237150136096?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH88985PC0YAB59293B1&hash=item37373fe720%3Ag%3AlyMAAeSwRh5q4uFb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9yYCp39YFijjLCe%2FhOBI%2Fkv7VpAztDd%2BcJrwo8cKytoaXaqBb7rRo4ut3Py4JKOutXPvaEJM3cAAxMszbo1GUpuVa2s3JyJ%2FW74xA5bTzk%2F1M3UYEV%2BDw19AaBQBTHwsce3XrrrGUzsA9sh4bRvbC6LHBm%2Fobpe8fh%2FWGkCd1DOrCjkOlXctWfOOnMa3JMCJ8RqTdOpZrXCqtg4elT%2FvCIVn98LierUDoVWsTXAN%2BXip%2F97UAH3rSpYi7oNy1J14mNCPa%2Bo%2F9s9Q3rCN%2BCMZ2xvx4xqjiH2KCS1JOx0Hkzu0I3cJZijo3yxdl9E66jVfc%3D%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237150136096",
+      "product_id": "237150136096",
+      "epid": "2316321839",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "shipping": {
+        "raw": "+$4.00 delivery",
+        "extracted": 4.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/lyMAAeSwRh5q4uFb/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Open box in mint condition",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/318921938653?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH88HZSTD1NVX7QGR3P4&hash=item4a413a96dd%3Ag%3AXQAAAOSwlplepcX5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8ommy%2Bt2XwFkwGzmUHCfxzCQhuPIpeuk6Z3p%2F6JcuJh16mS0ksFBNe77tBhjiq%2BUjC1uk8q5HLYTAv2cjic7rCwTJXBkRZORo9%2FfNMZg%2FwxZ17dtbnHaEnZNZLUlxnQqwAmBbRP%2BKor06XjZ%2FtzDddAe1EfZLwh0aBY62k5o7BGWhnZxqUUx3qsGbm%2F1u0w%2FmonxqlSOdN%2Fnbz2s88%2BoxV4sAXkjvdyls4eEeejuuaqPFYp1HRrUyZZgeMHvs5iwoA9QwCl4jx0kBZPYA2hYtF%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=318921938653",
+      "product_id": "318921938653",
+      "epid": "2316321839",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "stock_status": "Last one",
+      "watchers": "3 watchers",
+      "extracted_watchers": 3,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/XQAAAOSwlplepcX5/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe Nintendo Switch",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/900049907135?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH88QRC4P4NQ26SW3741&hash=itemd18f27adbf%3Ag%3AJCUAAeSwoP9q485r&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FeuyQvJ0hw8t9xViR3YQbXrvZ%2Bf%2BTGLKLWxN6bAgrWcpaUNxc0fqnbFiC6Bvme9EqwLxyY%2BbEYnVS804hM0CjuP9wdv9ZRLlwFe8LDEGotHVBwWNxjbr85I3I%2FHi9JnPwWWDCCBo%2BuRpX3T%2FkTpjh%2FUDPh61to9lgtkdMCFPI%2BO9sODIrU%2BjrDijKhgAzGuVnfZd8M26p4eN58J0U6RFDs%2ByWbcdQD3Jsd1yMUQuejAL6Ct%2BMryngHzvTvtJbPd6MqZxXWlQPBUr0adTk77M3U%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900049907135",
+      "product_id": "900049907135",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "shipping": {
+        "raw": "+$6.82 delivery",
+        "extracted": 6.82
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/JCUAAeSwoP9q485r/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/147657210527?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH88NGG1J4C3H5VWP7AY&hash=item22610e3a9f%3Ag%3APo8AAeSw26lq463l&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BXQzS1L68XP93Bj%2BRBLCifIfcE2SqasNLs0hD81waqcy8RymD9ee0rOzEjmtp2u30q2J39DcC0Ovp2tzRLx%2B4eMeiRkd0u6r6GVANNgykuODE3bkajPZw2OldBb6D91fgHAON39mWvVJs%2BxKJd4l4bkcGMCojvjJY4WmxzHi0uvofUHP9kA%2BhUs%2FAa%2B8qQZ8WmTsCMtxshOwqsaEMYWtwb3EwLe1aGjd2qbF7xECWexS3esl44kgmVEjk%2F74ld5utr1NTuCZlfE63AEnYVTHtirG1CcGmTwkfoKDg8KLLPmvi9%2FURN%2Bf2iDcBycQGry20%3D%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147657210527",
+      "product_id": "147657210527",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Po8AAeSw26lq463l/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe Cartridge Only (Nintendo Switch, 2017)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/840069949971?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH88M02H4PX79TT3YER7&hash=itemc398122a13%3Ag%3AIScAAeSweihqy8xc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8LDMhVTxBcvHo6rlfhqXrSM1mHKgTs4VI9D%2BEyNpArVBbhfzkoWUKL7KCeQmtCXkRB5N6t79rF7s%2FQmccgHhnM1VhcBUQ4JmnONeFS9aDgQQhdp5dwRK8WSirxAq%2BH5deP%2B5h0%2Bem1xi1sTtcvruuheI1e4CL%2F21qlaRwLmZ1u3dLU0hx8IZF30xC6VruNQVx63WhXHe4nh3touX3pn5%2BilETOL0qxs4DzhOeSW2WWVk881TpeS09B3otWrlsYI7FdTzDomjtfqL6li9vXXxLveqYHZ%2BNJK5yYJ1mptWupZSBdSezDBq3kp25BTfzfg5Y%3D%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840069949971",
+      "product_id": "840069949971",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/IScAAeSweihqy8xc/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Mario Kart 8 Deluxe Nintendo Switch Game Cartridge Only",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/860099413432?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH88TZJP3D6ZG4G2GAHM&hash=itemc841eb85b8%3Ag%3A6ZQAAeSwwlxq5U9H&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde91VUr93QArTBr8EaPGmtaAjwE%2FRg78XxBKItOqbH7jf%2BFcSfOXTTSjyc8oRvLkb4T4FWBDzM%2F3qsr2DUR%2BqFLeZXqGGudz6%2BEFpGiqvFz%2Bzop4L55niXvzFc3Hpy%2F074clCTZbMphBX58sYJFzHkCq91Mebjcmm6c3AFBmzZe3PRFt7PYcB3J99xgXYbMYy7zFipgU5ME%2BVFyXUNc%2BNRcuip05t6uFSsvuOhr2hr%2FN2C88MjO7OY8tbYHv4f2mVPD0JuRcC8OCWpwEV6OWP3OZ%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860099413432",
+      "product_id": "860099413432",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$6.82 delivery",
+        "extracted": 6.82
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/6ZQAAeSwwlxq5U9H/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Mario Kart 8 Deluxe for Switch - Mario Kart Racing, E-Everyone",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/366763836805?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH8963H7VZNX03AE6G6W&hash=item5564d40585%3Ag%3AixYAAeSwGwBq4Ev3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fy2JRvAfBNQrTAIfLAYToWWZDDWRyUiUPbzaJ367eZcVa%2FXWcwOl5AeuZBAOka4qknXs0RODIImIggvqd%2Fm5yhj1Ma%2BGbrtmzz93OsyJK6x8Cwu1zxqEl3lOFHX75UGjzREJOkmof3RjMb9ZRkazfqWAMcdWQeWfYr%2B%2BWFcryeKppRzfgTQDyKMA%2BRCvQtufcu4iolRIQN6ifQTVpdVjIN94MBmluqhRmHN4AbkutR1tinw6yWVCGoTfwWeQll57BSF3tuocAU3u1B42lk8%2FR78ZMObtZW1KSgtifDHdritcs9RiEbfHWGtM%2FX41rb0vk%3D%7Ctkp%3ABk9SR6iU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366763836805",
+      "product_id": "366763836805",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$33.00",
+        "extracted": 33.0
+      },
+      "shipping": {
+        "raw": "+$5.39 delivery",
+        "extracted": 5.39
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ixYAAeSwGwBq4Ev3/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe - Nintendo Switch",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/188561641012?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH896FNC4M5D4NJ4M373&hash=item2be7264e34%3Ag%3AOMMAAeSwsZJq36vI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde96tJWfpCClUXUFeX3bNYuLN4DDtz8uHnzYJwrsLam3sGxmUKIRDBAadOmgqunIt4yf4xxvMhSv9CFF44T1iR8zt0HzRXY3kiFMwuGuDUJTUXoFFps%2B%2BHjL841aB0vlFBucVGUC%2F1LT0yCpdqMSQJ29q4PZ8Kl3t26RWLG7gN1CC2MfGyilU5goh%2BLBQekKq8U7HZWNAR8%2Fgil%2Fzxs1SNPu69GBvW0OfACoU%2FdmB0y8nht4ASj%2BVxElcFO8HG0udoZUNEDoUG22%2B29lndcUQ1h8%7Ctkp%3ABk9SR6qU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188561641012",
+      "product_id": "188561641012",
+      "epid": "2316321839",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "stock_status": "Last one",
+      "watchers": "6 watchers",
+      "extracted_watchers": 6,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/OMMAAeSwsZJq36vI/s-l500.webp"
+    },
+    {
+      "title": "MARIO KART 8 DELUXE FOR NINTENDO SWITCH CARTRIDGE ONLY (CMP131243)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/366760702226?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH89GDG1BAVAG6T40XBZ&hash=item5564a43112%3Ag%3A%7Eh8AAeSwjjtq3j3f&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F0CKpOqkwxJgZobVnTKcmvAMa6qhf9xc3otFN4sEBrxJIBTgff54%2FfOyuS6qVzmd8FtlParIPTZ4du2ysBlCJZmUslbjs1dhN5Ygg%2BYk%2FXWJstGDJ%2ByXQzKw%2FtgL1hnp66rcJqspZ329UhD%2Fksgz74A%2Fs5%2Bep32zwuYw76LwNrzfQFAbVheJbNoUu%2BvJCr4GnbO6SAxCZhIxzlPBCgnRDPcgETM5feBvSMvjSLluPzQtbO%2Fc9%2B9iXYq0KyRV8XhyfiDTLqhJLtD1QUFLst35Z%2Flig2jUM1DvOJxe%2FlEF8y6DWKWRSfKn%2BpOUsPsOb2I%2FY%3D%7Ctkp%3ABk9SR6qU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366760702226",
+      "product_id": "366760702226",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$5.80 delivery",
+        "extracted": 5.8
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/~h8AAeSwjjtq3j3f/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Mario Kart 8 Deluxe",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/920078306708?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH89EP060QKMKX43TTKE&hash=itemd638f0cd94%3Ag%3AQpkAAeSwcuJq4EpL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Bb%2FtfHTV1j7MuqZrg6j%2F5HLA3y8flDn4VIi5EUX9spr%2BzgMkhIvc7peeQMQAiQ1ciRuT7o7iaJ9eOKaLsQ0VhStg5%2FTo9QWuOj%2FPrZJ3VpxZbloP9P0KM6%2FKzfB9bQpGbssONd%2FbfTzanoBBEp6dxlXuCxqc%2FBj7zyR4h1S3%2BRN6H3zyUf2m9d--K6xJtt4F3CvJ%2BC%2B7jO8C8MpcGzk0B6ko3TaHsLMKUZcbD6fba9S2Mxna9vgPj9fr3um61I9t41CFXznIizGHWAPkLQqLmu4kf7G%2Bfl4bOKP3uDeJHS9IddN2ALLNy4bs6HtbPWb8%3D%7Ctkp%3ABk9SR6qU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920078306708",
+      "product_id": "920078306708",
+      "condition": "New (Other)",
+      "price": {
+        "raw": "$33.00",
+        "extracted": 33.0
+      },
+      "shipping": {
+        "raw": "+$6.82 delivery",
+        "extracted": 6.82
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/QpkAAeSwcuJq4EpL/s-l500.webp"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) Cartridge Only",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/224535512300?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH89R24K6HXANZFFG8PW&hash=item34475c04ec%3Ag%3ANj4AAOSwbJhenJdC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9imNWPFql2CbM1GntjVw9mLLrvh3WbhdPHaSDcIzSvtzv%2BEDuWZC0eRjSiQkzkChvngzUSh9uAcpUpppo3My1XbJFJl4kXzpGqLOe7ddK%2Bh4oJeCCY%2FgCObjQGBPHKX30L%2FlgXCmR4XmtGAHjhEVS4ZIUNm1c8%2Fc57bfa7iYVD59Z%2B7GZUHHFcE8uU0gDsO63dhK8L9G5i5yO5%2B%2FJ95CbZ0umN5R5pkI8BH1hZZgg%2Fhv%2BXobbHEtjcR9027U7VxDdQyB%2FIXOFLDdoNXYHV9KSeI5GOH6R0XLF%2FsMw88Pf1t8d8%2BdZJzYVTPSyK%2BbY9Dz4%3D%7Ctkp%3ABk9SR6qU3tuyaA&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=224535512300",
+      "product_id": "224535512300",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$36.95",
+        "extracted": 36.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Last one",
+      "quantity_sold": "637 sold",
+      "extracted_quantity_sold": 637,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Nj4AAOSwbJhenJdC/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mario Kart 8 Deluxe Nintendo Switch Game Complete TESTED",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/127928169419?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQH8AZJPAFWDD6JYGPB6V&hash=item1dc91cf3cb%3Ag%3AAmwAAeSwtOZqMzg6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bw2EfG8SwJ%2B3UT6yLeiQhT%2BRfreYpxZ%2FS404RX3XvIjn1NnZq2ohqaYHmuCRfs7%2BAO0Hzis2JpFW%2BR1dL6OeFJ2Vr%2F508zTAM0zv3ecrbNKjNOCYcN9Q0eptr72qln5nFqSVI3scoGc4Ki13BNBPzRiEBkeDKr4NRLB7W94yhukQpfkiv0IBkbgVmAqJJvdl%2FPyM12CifH9lpWNjxjF8ChvpMNlejDP1O8vy%2BVXxOZamYLHYu1uxlCYuai88xU968frje%2F0qqbuQFqRCPxtnjADwGpMJg0qCR7Gr8IjTDwc6dDfq61EfGMGFNx4yS4Gpc%3D%7Ctkp%3ABFBMqpTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=127928169419",
+      "product_id": "127928169419",
+      "epid": "2316321839",
+      "condition": "New (Other)",
+      "rating": 5.0,
+      "reviews": 1476,
+      "price": {
+        "raw": "$42.99",
+        "extracted": 42.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/AmwAAeSwtOZqMzg6/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Mario Kart 8 Deluxe Switch w/ Case Manual Insert Online",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/158352792269?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQH8A6AC60TXXK31QG8KM&hash=item24de8fdacd%3Ag%3A1KkAAeSwX6dqudcr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FclN7sacmQGeyJ%2B09QsNfDWFdQztOXkZrJC01TkNdUuY4A0%2FdNX1B62A4YXn4FD2AvU6VCWrSThEvPSSorDNfMTAXL5sLQ5OqnPWlZQ80qvoo0ChUWb%2FF4w2mPhfk9EU1PfswtlNjZvOnnu4rUl5RLe98H0wX2LCf4LdSFLUVorZkpCubGPNz%2BfwW9K8sL4n2vYNeLcrXdpCmQ0eHz7z79dCJP6z%2F3WknaS6hHo0mBaRAxdyRSfzZv0dYITW1Qx6HIo7vRFRJ8rS3jUm%2BkKWj5%2BIT3IXQXjqOE8Ep%2FV3Jvey9RdzX9hUJ3occP%2B57vE%2F0%3D%7Ctkp%3ABFBMqpTe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=158352792269",
+      "product_id": "158352792269",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$38.99",
+        "extracted": 38.99
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/1KkAAeSwX6dqudcr/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | Sponsored",
+      "items": [
+        {
+          "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) FREE SHIPPING GREAT",
+          "link": "https://www.ebay.com/itm/168826960680?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=631103144&itmmeta=01M6AVQHBH4T9PAQ8E98BPXQ3T&hash=item274edefb28%3Ag%3A7bMAAOSwm4Vj3PWW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BazfMZsQ5fddtFN4OSuuJPfO7Lt%2BzWdIXeJmhbF1Qn4vcu1a2dixzH7TsgW03eVYJl%2Fhd8y2tLtQRCXsGVoNavGIOPx7LT2n1p1Nqbpa8eBnCk%2Ft3JZtj%2B7IBi7TQ1SJVeXspQthwnS70Kw2b1sB3dznJOO1Ffu2FE1xaxbVThsmo4Dvw1cDDN6Z8ZfwvLr9UUXWT1mwvP63wyAYF5Phj9rDoJ4YbEHjh%2FGmzpLGeD6QJ4Oybpd5vFOUHYwlxHUNBZ7uN4BWMyQgdtyJq3uOdFgkr%2F3sOtAvJX%2BfXFjGjwElWAHz5p3JRcjqO8MbCqwl0%3D%7Ctkp%3ABFBMgJbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168826960680",
+          "product_id": "168826960680",
+          "epid": "631103144",
+          "price": {
+            "raw": "$32.97",
+            "extracted": 32.97
+          },
+          "shipping": {
+            "raw": "+$5.74 delivery",
+            "extracted": 5.74
+          },
+          "condition": "New (Other)",
+          "thumbnail": "https://i.ebayimg.com/images/g/7bMAAOSwm4Vj3PWW/s-l500.webp"
+        },
+        {
+          "title": "Mario Kart 8 -- Deluxe Edition (Nintendo Switch, 2017) - TESTED WORKING",
+          "link": "https://www.ebay.com/itm/920058644126?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQHBHXVWBRDG84P59EDY5&hash=itemd637c4c69e%3Ag%3AjtIAAeSwAAdq194X&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BBNhlqQO0CBE3JpiLXLLw%2FeqMWNgIzghnOjZAHZWKcZlZI1zbCD%2FJ1E8Yw2SUwnt73k99WC5a5XcmFhLYvhjmxZ5oEMrOWVRVIusb3Dwy2gD9ePE2VWMY2nHB3dpMuWgaSJny1eVRVBQ5y8s0dXINS1uNxDnaYiHG33qpr%2FQFAK57GcXd8Yg2v6ZlECaZCFkTFrrDAeHHuyAiLvkGPOsBZ7oJEB98lhvVospFl9BDf4CQ2aeKzJhtAVExqDRpArgZOVJDGDnMVLPiFUa3V9zaUkwdStii%2FBWtYg2YPSlNdm8oPbCYIpvc%2F36WwD06d3fM%3D%7Ctkp%3ABFBMgpbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920058644126",
+          "product_id": "920058644126",
+          "epid": "2316321839",
+          "price": {
+            "raw": "$34.99",
+            "extracted": 34.99
+          },
+          "shipping": {
+            "raw": "+$12.70 delivery",
+            "extracted": 12.7
+          },
+          "condition": "New (Other)",
+          "thumbnail": "https://i.ebayimg.com/images/g/jtIAAeSwAAdq194X/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch Mario Kart 8 Deluxe Tested And Works",
+          "link": "https://www.ebay.com/itm/267349624147?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQHBHX7S5E8HG3BNHQRM4&hash=item3e3f478553%3Ag%3Aou8AAeSw3ptojBMR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2FxS1QqrFvoEvkNsGWPAJzzja2NfdAZBaQWtXHESvxAontAmnydFF%2FR9ZXyH7p55rxIqopuvcrqR%2Bj8nEYHmAxp8WXmkX%2FxSB2es6dOFEySvrr7qO39dTvlYMuyqtqV1iaErORhDKuSaMxkVBK27CC6vNIDKW7QQ9ny3jYyQULBfVBk2p34Q4ksjFVNKiBUF0%2BSXsRz4%2Bpt5nrwZl09zXxXJ67eG9smtl1%2BkynSKf0bdJLQ8RbMgSg0CcnwUuDIAvpU4JnNWKq1ZRvtFPNPWUWzdweZBS59TIK66R2AlvQDb3Dh1UtU%2BsxqcAybvb8Mc0%3D%7Ctkp%3ABFBMgpbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267349624147",
+          "product_id": "267349624147",
+          "price": {
+            "raw": "$39.99",
+            "extracted": 39.99
+          },
+          "shipping": {
+            "raw": "+$5.97 delivery",
+            "extracted": 5.97
+          },
+          "condition": "New (Other)",
+          "thumbnail": "https://i.ebayimg.com/images/g/ou8AAeSw3ptojBMR/s-l500.webp"
+        },
+        {
+          "title": "Mario Kart 8 Deluxe - US Version",
+          "link": "https://www.ebay.com/itm/267142877646?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQHBHKZWKRFCHM92WRXD9&hash=item3e32f4d1ce%3Ag%3AF68AAeSw0wxq2in2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Br1Uh09bPOxH9TmNeNLecPn%2FyNo9SFzUkyKLElNBMjSAUxBP139JCCh1%2F0AknS2kZ4iGHUuHR3RQKDs7EdPOT3xRHqan0krAWmMus0OpqtRKdWH7ZvEFi--I%2BQWvTMzQoXaEX95l21oenvk52bt7rmpNMvQJsb%2BkQ2Q%2BHBFTCRarXzeFLZQT9UUy%2FiWTh7KxnRzV8NUW7qbF9jxBYvB2GiW0oGAsV3pywZBui6Ja17C%2F6lqItcc3%2BWLS8bGOD5efMnxXYVMVR90eBhj9gkhc9K2G%2BSroY1mkGdUFGmeV5WjbiHvvH75Sto0vOn2h1UeoY%3D%7Ctkp%3ABFBMgpbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267142877646",
+          "product_id": "267142877646",
+          "epid": "2316321839",
+          "price": {
+            "raw": "$41.14",
+            "extracted": 41.14
+          },
+          "shipping": "Free delivery",
+          "returns": "Free returns",
+          "quantity_sold": "13 sold",
+          "extracted_quantity_sold": 13,
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/F68AAeSw0wxq2in2/s-l500.webp"
+        },
+        {
+          "title": "Mario Kart 8 Deluxe Nintendo Switch EUR Version Cartridge Only Tested",
+          "link": "https://www.ebay.com/itm/198450529454?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQHBHF5WG0X2CNZE8MRZM&hash=item2e3492c4ae%3Ag%3AaX8AAeSwM8pqOnGE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BmKQ%2FtUpSyUYN560XTg9s48ktmMgNg%2BqNg5l4Z3IYxhQi3md5alMf%2FPeXIzcxscuz0fnqzUBvZojjDQqdY21QEuC5JorfwCzLJgWLgUFvVVHL0t7bYMgOVjJvhXgpkViFwG%2FWSh8%2Fo9N2GgPmntpTNNeqvKSbENdxw%2FxnRikSUXCY2rGekzDLlKs4U%2FPLB4ZhXoXjBoQK5DB%2BXOB5lV7xNGlYD9s6kmq0TcUHICpdBpi3UJPqj6OrEr8444ZRJzT7Kj%2Fhm9fC2bCx076F2WTNbTGIdOmCGKf1GZg6odgXPOuXhArZ4%2Bu1mdle9kJpwCr4%3D%7Ctkp%3ABFBMgpbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198450529454",
+          "product_id": "198450529454",
+          "price": {
+            "raw": "$35.00",
+            "extracted": 35.0
+          },
+          "shipping": {
+            "raw": "+$8.65 delivery",
+            "extracted": 8.65
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/aX8AAeSwM8pqOnGE/s-l500.webp"
+        },
+        {
+          "title": "Mario Kart 8 - Deluxe Edition (Nintendo Switch, 2017) Complete In Box",
+          "link": "https://www.ebay.com/itm/377560928447?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQHBHKDCZ8DNAZV4SKGDC&hash=item57e86290bf%3Ag%3AThgAAeSwaClqo1ek&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2BUfBz%2Fgx%2BGHAn9eNNhCeQii9xwLxtHX8ZL4e9EoldHvQm9zNMuOHEc75QhMtmkRMB2ZIzA%2B2vdDoYsNnlWciGk2q8EeSHk2YxR%2FM9pz%2FdoMd3qBorudR4fngG6SVfMcODRNwZA7TSLDdnqFckxM%2BU1fLLE%2BEpgPNl0SPVMploWNGKViJxZk3pd0E4H%2B%2Bka6kWDh6KsGs3YNp7GxgHin23tWeXP2daGHaIUCDnBza5ywt2U5Cm7w2Dbe0J9nn7bC0btuJUb1izI4XJqw8uYJrvJ2meWDDmWPosLOb2%2B6vCYwVRHCSPmHIdGV14C%2BKGW6k%3D%7Ctkp%3ABFBMgpbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377560928447",
+          "product_id": "377560928447",
+          "epid": "2316321839",
+          "price": {
+            "raw": "$39.99",
+            "extracted": 39.99
+          },
+          "shipping": {
+            "raw": "+$8.65 delivery",
+            "extracted": 8.65
+          },
+          "condition": "New (Other)",
+          "thumbnail": "https://i.ebayimg.com/images/g/ThgAAeSwaClqo1ek/s-l500.webp"
+        },
+        {
+          "title": "Mario Kart 8 Deluxe - COMPLETE - Nintendo Switch - 84b",
+          "link": "https://www.ebay.com/itm/198548208354?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQHBHR72TTHR8YS6NZ043&hash=item2e3a653ae2%3Ag%3A6CwAAeSwBGxqcpGV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bfd4eP2FzCOmNttS1B6Q7d559EgJM0aEX3wsJLMY916glZOmgRGNSuda0cEeZCXIFL%2BB6bpKW7dTsXTWJr4MbrcimALigNik4DSoXZZkR9Q0kjg6O8XpK7zdvOXAnim0HpzAYmcV0F%2F2Wy7ru5eKuzXsqfU1%2F%2BJHD6fh157X0xBxvAafN7gAu7RFdO%2FeDnSgtfoZCU%2BrXXQaBsfD4S9wQfl2fdXyaS2wQwyRzwqh72k4viQi4jND4gbAG%2FLAXHcZhc1NuayQ6aqB%2BwnIezRkaXDF45ledXxFOawMw5x2fimxOXmLuFxfqPTMtbIF4OhaY%3D%7Ctkp%3ABFBMgpbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198548208354",
+          "product_id": "198548208354",
+          "price": {
+            "raw": "$33.95",
+            "extracted": 33.95
+          },
+          "shipping": {
+            "raw": "+$8.65 delivery",
+            "extracted": 8.65
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/6CwAAeSwBGxqcpGV/s-l500.webp"
+        },
+        {
+          "title": "Mario Kart 8 -- Deluxe Edition (Nintendo Switch, 2017) [Physical]",
+          "link": "https://www.ebay.com/itm/128076552385?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&epid=2316321839&itmmeta=01M6AVQHBH3PCDTV3TPWV3ZHJS&hash=item1dd1f518c1%3Ag%3AJGoAAeSwFx9qpgA0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9TqYlXfHo1NyGoAGXNVo%2F2lCPWF80G3IXH5QZmZFW38J7HeA5HdYGOdP%2BjJvZHf9JnWrQpJp%2BnZkZOtmrbXU2y9hiqvWzs7uCqBjD7hBs9x4yDHr8s99MpDNiPtWOgJI5zT76N%2BL8Frc1X1XpIYn9GOLQ%2BfmjL6%2BByhDRprB7bSP0wRtcuYMKbQnsaOz9IGLZtrhqCuKOe5zc7bQcWpPDzmNG3EOf0f6gTRsI6WQcKhX9z1Z3o3m8avUfiq7O8HfnT%2FBsM0RTod4uecHUbrIF8siQImD%2Bli2U4c977VpqovGWn%2BO0NMO%2B9C5VUMdWivKk%3D%7Ctkp%3ABFBMgpbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128076552385",
+          "product_id": "128076552385",
+          "epid": "2316321839",
+          "price": {
+            "raw": "$44.99",
+            "extracted": 44.99
+          },
+          "shipping": {
+            "raw": "+$5.63 delivery",
+            "extracted": 5.63
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/JGoAAeSwFx9qpgA0/s-l500.webp"
+        },
+        {
+          "title": "Mario Kart 8 Deluxe (Nintendo Switch, 2017) Cartridge Only",
+          "link": "https://www.ebay.com/itm/178216307620?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQHBHJHAT4FW0KA8HS5T7&hash=item297e850ba4%3Ag%3A8ZcAAeSwVW1qLFd6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FcU3%2FX9liEkCRPRZKUHvjPDAd4Qw%2FnQhx0IXYVOGsh%2FKZQRZnyUeQvcd5mLAp6d0IowpZWeIc4%2BiNR%2FEiQ5pHN0DO%2FOSXVttYZskkgMWRmzW70iPTSJuhEc3h9WkwDtuu5donuG%2FO3wZ8XSNvXQg7yyHNGin8uimUEGxCpz9R2qmdZ9OBrAh1NBIKhD1LurZVXrPAxYrk9svVGVOPynjpOXnEYGjL--Selr2H9Xp6KWyi7nlSDoORkEMG7oG573C8DbRxdI%2BKv3psqHYbkCLcwmGd%2Bmqscx%2FChZ8gu0bNuoxpn7qvryaaAErm4ZAJRpGk%3D%7Ctkp%3ABFBMgpbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178216307620",
+          "product_id": "178216307620",
+          "price": {
+            "raw": "$37.99",
+            "extracted": 37.99
+          },
+          "shipping": {
+            "raw": "+$7.99 delivery",
+            "extracted": 7.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/8ZcAAeSwVW1qLFd6/s-l500.webp"
+        },
+        {
+          "title": "Mario Kart 8 Deluxe (Nintendo Switch) (European Version) PAL CARTRIDGE ONLY",
+          "link": "https://www.ebay.com/itm/117165505748?_skw=Mario+Kart+8+Deluxe+Nintendo+Switch&itmmeta=01M6AVQHBH01ENMB2HW7PCJPM7&hash=item1b479bbcd4%3Ag%3AdOsAAeSwf2lp8Bc-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9DGq%2FOCrRcPDVMDfM2Nc1JiI9uMvDkrxDDDycJZpMtNhvOlCEdseuXbLtOc91CD8KPCVjduv7fWYPumBO9s74HWGz%2Br%2FMfgqSQhzOoi4uXc7jb2eWAB7sc6ntx2mjiL0vY88%2BV8eIevZbI0aojffRPMkFu7Tz7BmwPpaBTLK3sEhiKjSbEBoOCjD1uFB0Uo1uZkryZjaqYZewDVbBpXC3YqsdBgnH%2FURowNk5dCW8zDNTerk5UAKSnHRFgEHkaGtIlJVQd5FZNXGz3kdZa%2FGl2H%2FhyH4eLYs0LuZqx4Im01KDn9lc%2Fny%2FKd8YJyyNd4lA%3D%7Ctkp%3ABFBMgpbe27Jo&LH_BIN=1&LH_ItemCondition=2750%7C4000%7C5000%7C6000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117165505748",
+          "product_id": "117165505748",
+          "price": {
+            "raw": "$36.99",
+            "extracted": 36.99
+          },
+          "shipping": {
+            "raw": "+$6.07 delivery",
+            "extracted": 6.07
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/dOsAAeSwf2lp8Bc-/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "nintendo switch mario kart 8 deluxe game",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+mario+kart+8+deluxe+game&_sop=12"
+    },
+    {
+      "query": "nintendo switch mario kart 8 deluxe bundle",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+mario+kart+8+deluxe+bundle&_sop=12"
+    },
+    {
+      "query": "nintendo switch super mario odyssey",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+super+mario+odyssey&_sop=12"
+    },
+    {
+      "query": "nintendo switch mario kart 8 deluxe console",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+mario+kart+8+deluxe+console&_sop=12"
+    },
+    {
+      "query": "nintendo switch games",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+games&_sop=12"
+    },
+    {
+      "query": "nintendo switch console",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+console&_sop=12"
+    },
+    {
+      "query": "nintendo switch oled",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+oled&_sop=12"
+    },
+    {
+      "query": "nintendo switch oled mario kart 8 deluxe",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+oled+mario+kart+8+deluxe&_sop=12"
+    },
+    {
+      "query": "nintendo switch case",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+case&_sop=12"
+    },
+    {
+      "query": "nintendo switch mario kart 8 game",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+mario+kart+8+game&_sop=12"
+    },
+    {
+      "query": "nintendo switch mario games",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+mario+games&_sop=12"
+    },
+    {
+      "query": "nintendo switch mario party",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+mario+party&_sop=12"
+    }
+  ],
+  "popular_filters": [
+    {
+      "name": "Region Free",
+      "parameter": "LH_ItemCondition=2750%7C4000%7C5000%7C6000&Region%2520Code=Region%2520Free",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&Region%2520Code=Region%2520Free",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=LH_ItemCondition%3D2750%257C4000%257C5000%257C6000%26Region%252520Code%3DRegion%252520Free"
+    },
+    {
+      "name": "PAL",
+      "parameter": "LH_ItemCondition=2750%7C4000%7C5000%7C6000&Region%2520Code=PAL",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&Region%2520Code=PAL",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=LH_ItemCondition%3D2750%257C4000%257C5000%257C6000%26Region%252520Code%3DPAL"
+    },
+    {
+      "name": "NTSC-J (Japan)",
+      "parameter": "LH_ItemCondition=2750%7C4000%7C5000%7C6000&Region%2520Code=NTSC%252DJ%2520%2528Japan%2529",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&Region%2520Code=NTSC%252DJ%2520%2528Japan%2529",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=LH_ItemCondition%3D2750%257C4000%257C5000%257C6000%26Region%252520Code%3DNTSC%25252DJ%252520%252528Japan%252529"
+    },
+    {
+      "name": "United States",
+      "parameter": "LH_ItemCondition=2750%7C4000%7C5000%7C6000&Country%2520of%2520Origin=United%2520States",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&Country%2520of%2520Origin=United%2520States",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=LH_ItemCondition%3D2750%257C4000%257C5000%257C6000%26Country%252520of%252520Origin%3DUnited%252520States"
+    },
+    {
+      "name": "Japan",
+      "parameter": "LH_ItemCondition=2750%7C4000%7C5000%7C6000&Country%2520of%2520Origin=Japan",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&Country%2520of%2520Origin=Japan",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=LH_ItemCondition%3D2750%257C4000%257C5000%257C6000%26Country%252520of%252520Origin%3DJapan"
+    },
+    {
+      "name": "China",
+      "parameter": "LH_ItemCondition=2750%7C4000%7C5000%7C6000&Country%2520of%2520Origin=China",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&Country%2520of%2520Origin=China",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=LH_ItemCondition%3D2750%257C4000%257C5000%257C6000%26Country%252520of%252520Origin%3DChina"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=2750%7C4000%7C5000%7C6000&LH_BIN=1&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=2750%7C4000%7C5000%7C6000&_ipg=60&_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}

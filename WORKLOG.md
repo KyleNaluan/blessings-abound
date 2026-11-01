@@ -6,6 +6,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 ## KyleNaluan
 
 - 2026-11-01, [#40](https://github.com/KyleNaluan/blessings-abound/issues/40), Rename the app to Turnstone in the API title and package description
+- 2026-11-01, [#4](https://github.com/KyleNaluan/blessings-abound/issues/4), Check SerpApi's eBay search for apparel and electronics and save the responses as test fixtures
 - 2026-10-30, [#46](https://github.com/KyleNaluan/blessings-abound/pull/46), Update the requirements, README and architecture docs to the 2026-10-29 plan and the Turnstone name
 - 2026-10-30, [#36](https://github.com/KyleNaluan/blessings-abound/pull/36), Add item, decision and profile tables, the first manager setup script and migration checks in CI
 - 2026-10-30, [#35](https://github.com/KyleNaluan/blessings-abound/pull/35), Add the landing page and the Supabase sign-in pages

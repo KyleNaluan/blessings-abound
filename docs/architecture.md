@@ -120,3 +120,4 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-30: Route the web app with React Router, with the landing page at `/`, sign-in pages beside it and the signed-in app under `/app`.
 - 2026-10-30: Use the USWDS colors and Public Sans in place of the shadcn defaults and Geist, to match the approved landing and sign-in mockups.
 - 2026-10-30: Look up a username's email through `web/src/auth/accounts.ts` only, so issue #31 can back usernames and temporary passwords without changing the pages.
+- 2026-11-01: Search the video games category with condition ids `2750|4000|5000|6000` and everything else with `3000`, because `3000` on a game query returned mostly console bundles, see [serpapi-ebay-check.md](serpapi-ebay-check.md).

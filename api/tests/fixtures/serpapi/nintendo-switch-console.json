@@ -1,0 +1,2128 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7d5e85e6eef283e3c2f",
+    "status": "Success",
+    "created_at": "2026-11-01 06:10:29 UTC",
+    "processed_at": "2026-11-01 06:10:29 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+    "total_time_taken": 5.46
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "Nintendo Switch console",
+    "_ipg": "60",
+    "LH_ItemCondition": "3000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 17000,
+    "query_displayed": "Nintendo Switch console"
+  },
+  "categories": [
+    {
+      "name": "All",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_oac=1"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1249,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=1249&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Video Game Accessories",
+      "link": "https://www.ebay.com/sch/54968/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 54968,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=54968&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Replacement Parts & Tools",
+      "link": "https://www.ebay.com/sch/171833/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 171833,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=171833&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Mixed Lots",
+      "link": "https://www.ebay.com/sch/260000/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260000,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=260000&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Video Game Merchandise",
+      "link": "https://www.ebay.com/sch/38583/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 38583,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=38583&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Prepaid Gaming Cards",
+      "link": "https://www.ebay.com/sch/156597/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 156597,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=156597&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Video Games",
+      "link": "https://www.ebay.com/sch/139973/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 139973,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=139973&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=1&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 58058,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=58058&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Cell Phones & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 15032,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=15032&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 220,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=220&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 293,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=293&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 12576,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=12576&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Cameras & Photo",
+      "link": "https://www.ebay.com/sch/625/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 625,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=625&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11450,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=11450&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 99,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=99&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 888,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=888&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11700,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=11700&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 64482,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=64482&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/2984/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 2984,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=2984&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 45100,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=45100&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 26395,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=26395&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Specialty Services",
+      "link": "https://www.ebay.com/sch/316/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 316,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nintendo+Switch+console&category_id=316&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch Handheld Console - Blue Gray - Great Used Condition - Works Well",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/227415364052?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ4EK3NTAQFA671QRSG&hash=item34f30311d4%3Ag%3AWhoAAeSwEBRqSAVv&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9bdHhvRK13EuckoIT0iWOSI19oB6Cm%2FZYCHIhLLeuMX64QUQlHauhNdLX9Q0pvV%2FlmdcGp5QhnlNDgqhdvOW41aSeYskRVHdQWFd8PQBoKGeneEnR20Q9DHuGvgknqi5K6pmVSrjpCqkzAo8kc0H8ArDjkrc4GWmgLoZNzs78R89GtmFUSLg5UUT59ZtyZpVjTDEfAlnSxWKYO4pi8wuswYppQaHfg7XukJUdnN34mVpFHna29APoEZKL1co7JRr0%3D%7Ctkp%3ABlBMUK6p2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227415364052",
+      "product_id": "227415364052",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$219.99",
+        "extracted": 219.99
+      },
+      "old_price": {
+        "raw": "$249.99",
+        "extracted": 249.99,
+        "discount": "$219.99"
+      },
+      "shipping": {
+        "raw": "+$11.99 delivery",
+        "extracted": 11.99
+      },
+      "location": "Located in United States",
+      "watchers": "49 watchers",
+      "extracted_watchers": 49,
+      "promotion": "$202.39 with coupon",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/WhoAAeSwEBRqSAVv/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch Lite 32GB Handheld Console Turquoise Green - Great Used Cond",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/227585834682?_skw=Nintendo+Switch+console&epid=17043182666&itmmeta=01M6AVPAJ56X18ZH4J7QVHNAF5&hash=item34fd2c3eba%3Ag%3AtwYAAeSwqK9q4Mlv&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde994MmAcTofhA3vA1p%2BZxY%2F760SIBzKg0n3v78jrAnwMH1PBRQ2FppMxms3rjfnXz%2BPRnE6S2isDnqB7vE5--zvqmSqFkas0v2rQYv03G%2FlDkUlQ11dpGh%2FzcVxJsuYWbtgvcmzmY054kRmyozZKGqENxpEbrrLBvXKg7W6GfTSeNewPw04jSSvHYXbFH8njMYJaoHM8jTkZGV2%2BtgwJjcdstTJbUX5aBWhPLDrdRxlCRyB7VB%2FxZjW5WSEk3iWhFg%3D%7Ctkp%3ABlBMUK6p2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227585834682",
+      "product_id": "227585834682",
+      "epid": "17043182666",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$142.49",
+        "extracted": 142.49
+      },
+      "old_price": {
+        "raw": "$149.99",
+        "extracted": 149.99,
+        "discount": "$142.49"
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/twYAAeSwqK9q4Mlv/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch Condition - Excellent Mint Condition with Hori Controller",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/227585839248?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ5NJ1DTMBDX5Z4DPGC&hash=item34fd2c5090%3Ag%3AhUkAAeSwOXZq4Mpy&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FjkgltZGeJB5LhZoMBo6PAT48%2FJdi%2Fn7FXmP%2BOBE%2BfQtGxOhoMAl27HkTU6HHzF54asAwG7eTHz2fhGX8aRmVjhygRBWqhWWW7GLV%2FaNple0oClrWPSHmVmzX4bQJoiFShZxzDMZ8f9oPaHJXvSmnDw3YVPnEqs%2BPrc7qBot9t8Nx59MYhnyQQHAJNrmlkRxbGq5wDmMP3wTN71Opz7Ksidgycq5rTo%2BvKIJxhm2OAFWRJqeS3HiAgp3bATGmPXtc%3D%7Ctkp%3ABlBMULCp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227585839248",
+      "product_id": "227585839248",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$227.99",
+        "extracted": 227.99
+      },
+      "old_price": {
+        "raw": "$239.99",
+        "extracted": 239.99,
+        "discount": "$227.99"
+      },
+      "shipping": {
+        "raw": "+$11.99 delivery",
+        "extracted": 11.99
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/hUkAAeSwOXZq4Mpy/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch Console HAC-001 w/ Joy Con + Dock + AC +HDMI [Ship From US]",
+      "subtitle": "\ud83d\ude9a Free Shipping \ud83c\udfc5Premium Quality US Seller",
+      "link": "https://www.ebay.com/itm/276455280375?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ52E5TTXXQB02Z4B8C&hash=item405e04cef7%3Ag%3AG6QAAeSwN8dqC7du&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BZYUCPSnAOPcAd34RXKfHti9hhrVg6kjGWgROusazDEI99sFl%2FNNwke8XCzQPxjvO2mYU3QB5li6viVAcOfPvmhdhW6iFDR2Xk%2BaFM4hMQ3G608dq%2FiXt5QFgoZzoBHsXPXfun229vqrjTPRpyWG34ym%2FEaSZPOQJniL%2F32U5xxj6aCmx2OkP8DXlZ6mFqaZEC0g%2BJPGVwmmIBKALpp2lLF8S1LKWtwnMXJSgdcLPJx7poEXJ%2FR2cu%2BJhPKrD2Cl0HFD%2BB8CX4B4BKNnX1%2FlSg7kxBErw4ei58%2BgiNtppkUQDQt8t7e0SZLaOT2rAcvxI%3D%7Ctkp%3ABFBMsKnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=276455280375",
+      "product_id": "276455280375",
+      "condition": "Nintendo Switch",
+      "price": {
+        "raw": "$159.99",
+        "extracted": 159.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "2,673 sold",
+      "extracted_quantity_sold": 2673,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/G6QAAeSwN8dqC7du/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch HAC-001 - 32GB Handheld Game System with Joy-Cons [Missing Cap]",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/237155190774?_skw=Nintendo+Switch+console&epid=23048557034&itmmeta=01M6AVPAJ586CDAX9G7W5SYSVP&hash=item37378d07f6%3Ag%3Abg4AAeSwFthq5qz2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FogqpgYYkt5OWyU52dY3BwJUudUUwleATjoUz4wFhW4MAVVD17BwwEp6TFHa12RU3vwXBO7bVYeWR1Nm0ITaBsZannaejC2OgYUkq%2Flw9ZVWZFSqj3%2Fv6PhQRUVFkUe8adEpFVIjmmi6PMucj4G9WnrqpayWttUxHw4p1KE5iTseFdRzTPnxe9FKOlI4LDf9ABWqU2vwAyQujmaVd%2FmeYxp74eJJ02L3uNdzzmB%2Fnmh%2Frtn%2B2s2XhpPy1e9%2BUhgGPZ0ZYabj5XtCqUueRGW36m9jQDTC9YFgE9ykQZ4xtxyHXVylOU7%2F8ywwzqAJrh5J4%3D%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237155190774",
+      "product_id": "237155190774",
+      "epid": "23048557034",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 27,
+      "price": {
+        "raw": "$93.87",
+        "extracted": 93.87
+      },
+      "shipping": {
+        "raw": "+$8.17 delivery",
+        "extracted": 8.17
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/bg4AAeSwFthq5qz2/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch System Console w/Neon Red & Blue Joy-Cons + Dock & Extras",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/407329411037?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJ52EATMKWS9X8BWAR1&hash=item5ed6b98fdd%3Ag%3AYycAAeSwEd5q5hNC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9bfAAgZekpy3%2BhQr48BwEz7mB5MRF%2FnJpsgHaUIabInf2wVqCNFLv7SjpFDZw%2By57Zx6KS%2B71eXXHOdmJfVsg%2F1WuN4dMKcEwls%2BaBoUw6DRPLfdrmtmqVCFJnJoL6nHqsOQJ5DqG91BH0GbAZ4hcWVcBKH%2BePmlf96oSn21YirQc0wmVrxPYq9kb82z%2BTooCOtGMtpoo0No1OwrIPTt2%2BqeQjYBVXRx1%2Bi3KMWQB4cxwPoHdneTUfWEhlRxu%2B4Gpm0Jz6304c%2BLJkCdWlqF3c%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407329411037",
+      "product_id": "407329411037",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$139.95",
+        "extracted": 139.95
+      },
+      "shipping": {
+        "raw": "+$8.08 delivery",
+        "extracted": 8.08
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/YycAAeSwEd5q5hNC/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console - w/ Gray Joy-Cons 32GB Wi-Fi USB-C 720p HD",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/237155191026?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ5CHX1Z51A039SQT3X&hash=item37378d08f2%3Ag%3Aw5sAAeSwHJpq5qup&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde82BAioC3ekkAseGVcohF9JdYk%2Bei7swg0lFqs0zzs246d5scXcFo23JppJcakHw5zvRh3hHf0rQoYZOtiz6fOq8kK%2B%2Fipe3Bdwkd4PlVcq20gWoV7qds0wJwFYMMuuw5y6JftcQDWzMv%2FKgjcZZqU86cm0UPZC33Wx3Xha2rHmMYieCjVE64D3StWmv5qHtPpvkmt66Ys4d0HkA3zBG6bseXn6nPUYnjql4nBc1MwfTrZvDpNfHBR5WHNSPnV6xDVuOE2QBRSH46JDItREqOKU%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237155191026",
+      "product_id": "237155191026",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$109.45",
+        "extracted": 109.45
+      },
+      "shipping": {
+        "raw": "+$8.17 delivery",
+        "extracted": 8.17
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/w5sAAeSwHJpq5qup/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console Bundle Dock, Joy-Cons, Case Fully Tested + More!",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/168829283553?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJ6MS7RVP3EKHKRVNXW&hash=item274f026ce1%3Ag%3AXlMAAeSw4wxq5lcb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FMd1EZPrMHFYuMDBX%2FrXrTjAWKPL0utwOcuuDEEUiUYBJVPVFHMYyNpUyLJFliBZaQbXretNtxSuAfAB6OlaNti%2B6NANVsbssg2OJ5BKWTDRU00pG7W0mY15nXGJccyQx%2FRTep1l81nxgQTeHt2s3N1WVAaa5e0Ia7mkLLEEzzxJ6%2F5ZHULIYEcsdKuKiZpWXUtz1bsMiZ7%2FTotBh7yIr33qDN4tn2hPKV9I4IqJ33UExleMRys333DuB7B9pVbyqmkEHAukdi9Uae7rYYpMs4O%2BQyZdVF2HcT5O6x0dkLrOI3OIUFLxS1%2FIh2KSk42cQ%3D%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829283553",
+      "product_id": "168829283553",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$117.00",
+        "extracted": 117.0
+      },
+      "shipping": {
+        "raw": "+$12.06 delivery",
+        "extracted": 12.06
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/XlMAAeSw4wxq5lcb/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Console Bundle Dock, Joy-Cons, Grip, + More! READ DESCRIPTION",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/168815831486?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJ6HMM79FRABCHFQZFZ&hash=item274e3529be%3Ag%3AqbIAAeSwkU5q3O4o&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9tRIua7YY6GehpIf%2Bh%2BA1ZAqJ4LWDUa6P%2B2x9ArqGDQ9Hi0ApCqusJjPKebAr0nzLn%2BR%2FxWCsT269GFXdNaKDcso1fidZLoOOST2KfsJmBR9W2%2FrOIndP5Sf69MLsTEUnD2SaARO9A7OfoZ97w66aFktYKHGNkjc50cb8v%2FQUAzi7AksDsAaCZU6SaLPwh9v2omWuC2kAUs6sNAn2X1FvBtxSPRX%2BMpS9%2Buaq9%2F6sjGNQhkbR%2BCsSy29k42mAU37M736SusMxHEVf%2B9RleiH2Q%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168815831486",
+      "product_id": "168815831486",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$113.00",
+        "extracted": 113.0
+      },
+      "shipping": {
+        "raw": "+$12.06 delivery",
+        "extracted": 12.06
+      },
+      "location": "Located in United States",
+      "watchers": "18 watchers",
+      "extracted_watchers": 18,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/qbIAAeSwkU5q3O4o/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Console Only Poor Cosmetic Condition",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/224843920753?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ69ZRCZG69HAYXD4NE&hash=item3459bdf571%3Ag%3AB1kAAOSwJ9VeT0aM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9ytwPHIxlX8CprFjPyp064gQPdwWmfpqkY98BtKEbX%2FFq7oS8Mi2D0r0rMJrR%2FrxtxyJh0pNJnyaeUzkhTB%2B5ayHt4FGnSFdvBEbXRv1UrPtDdLuYYAySa0MAZ%2BtVX9wz4mAW3%2BY2NG0zyR1INnPPY1ngN5HnY2cWn85abehH8QFQMSgD2VVTYdpDO1EoUybFDU4ABdr6kQAQWcFZcfsafoC2RBrl3GPaRrS4bpK54diidSMWqmXgtWsooXKSy4xXC%2B8noiVpHSGEw6qZYubq%2B%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=224843920753",
+      "product_id": "224843920753",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$69.00",
+        "extracted": 69.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "114 sold",
+      "extracted_quantity_sold": 114,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/B1kAAOSwJ9VeT0aM/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console Black w/ Neon Blue & Red Joy-Con, Dock, Power Adapter",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/147659900558?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ6YQMMN5F363DAQG5G&hash=item226137468e%3Ag%3Ae9MAAeSwc2xq5mnG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2FXLVj3A2jd2OXKhoAowpjeVYd703xzymxgX1eVNMFf1q3Bwxzfk9JfRUTPCSjxB0PqB4vPKS7W7x9Hy7iTuKlbZi1pfJfJ86hKI7jXGugBH%2FTASKranmKOC4RZwCgMlWgsIK%2BHpgbJ%2FdUOnznhKT%2BhLquc848azqRT%2FHhv1D90pOZCHOK0En7KC7Op0uWGyMDE3Zu7v9Yuf9%2Bj80Dpty%2FQRMcQL2q5weB1xeDzF%2FXcUf8sh1vlkKHNvZZLLCrjvAqdYe%2FKDsgzZ33akC1DdqbFYbPBLGAC4VpN5f3L0iA901mRHlWcbmYKSGIftRdOZg%3D%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147659900558",
+      "product_id": "147659900558",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$110.00",
+        "extracted": 110.0
+      },
+      "shipping": {
+        "raw": "+$11.45 delivery",
+        "extracted": 11.45
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/e9MAAeSwc2xq5mnG/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "nintendo switch console used",
+      "subtitle": "Nintendo Switch",
+      "link": "https://www.ebay.com/itm/227591794010?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ6J9Y1FMKD4TF4CVQD&hash=item34fd872d5a%3Ag%3AbxEAAeSwIAdq5lxh&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8ihmd9AfE3PxUEnbKQ34NX68VEWby45aLrXgec0REu%2B8YB3vPaBXegAeWrqL%2FOUBOJeydCXgcLESXHbKZwWReNMOIufhob%2BCIBCmSSOn6Mb0KPAtr2Qb82AletLtATTvZvB5cJyZp0X7wsJOEku1s7R%2BEtL6JecnE1%2FdMjnZdA3Zk4tCYpPezssPUWvvICI5vaorJjNlN1rgHWysEII5Ox41pxmk%2BXEbc1uE1oQJCs%2BROzz6e0VCE%2FQxmFO%2B2zJrYYBAzmQttsCaPNmB7nBhqF%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227591794010",
+      "product_id": "227591794010",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$109.99",
+        "extracted": 109.99
+      },
+      "shipping": {
+        "raw": "+$8.71 delivery",
+        "extracted": 8.71
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/bxEAAeSwIAdq5lxh/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch (HAC-001) 32GB Console - Fortnite Blue & Green Joy-Con w/ Dock",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/237155223457?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJ6W23VJBAENC42J94R&hash=item37378d87a1%3Ag%3AWs8AAeSwSMRq5rd3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BvTcjuTqjSp%2FpiCOcEEmd8W0ZjKoDwBcdwfBdwsOsVQLWNCLL%2FiMBveY%2F%2Bns5WGbQl6OaieqK04WvA4WWdiqpmlBp1rIs5V7DpHEi2fg1Eb8UurhYC3SIt8178HjAMMrTnK2h4cspKcLrFBQZ3PogbsUJooJ6PEfsfJb2VwHIm1qpdJK53l1zQ9JddtJgBuQjzPmsHKr0luL%2F0BhdVYUii%2FItRFNvjGo25pEd7e2AAILeDlgatjUCrAVV%2FNOLqHYZHp1eBtANRp9rnD%2FfYTcj23yCAYNN7Z4cjYx1I7AjRGXRPbyQCoxLa%2FwDKpzrjlM0%3D%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237155223457",
+      "product_id": "237155223457",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$127.49",
+        "extracted": 127.49
+      },
+      "shipping": {
+        "raw": "+$10.04 delivery",
+        "extracted": 10.04
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Ws8AAeSwSMRq5rd3/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch Lite HDH-001 Handheld Video Console w/ Accessories - Excellent",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/327066715384?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ79GKXQ3ARD4VN6MRM&hash=item4c26b204f8%3Ag%3AFVEAAeSwWyhpwzb7&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9CNluUlq62CgiBJSJshXqfSUdlfEELGK0aUCTwOI5%2BHzCXq%2B85SGzzdlkicIhtD%2BULC2XxTx%2FXP7LqKtuFcA0ZQUG3slMbmx%2FivfzMGd3%2FyN4WgtALr6IzbXAAubIAi3qyqlA7qmd4rB78hgAdkxfL8E67YErW5Rkpqs2HOuf6x9Ciw6SXHlDvWUZvVANIBbz1zamY4mrCRDcUNq4AzzDFjJjvzChT1lDyJ5OA2BOd9hf0cBtIfgyeTO07zHRIPMc%3D%7Ctkp%3ABlBMULCp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327066715384",
+      "product_id": "327066715384",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$169.99",
+        "extracted": 169.99
+      },
+      "old_price": {
+        "raw": "$189.99",
+        "extracted": 189.99,
+        "discount": "$169.99"
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "watchers": "15+ watchers",
+      "extracted_watchers": 15,
+      "promotion": "$156.39 with coupon",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/FVEAAeSwWyhpwzb7/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Nintendo Switch 32GB Gray/Gray Joy-Con Console TESTED Some Signs Of Normal Use",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/267829177084?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJ727ZYCVJ7DS7YQFAM&hash=item3e5bdceafc%3Ag%3AipAAAeSwgfhq5jl1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZDvp9rnF04A5gq0YpVZnGuJKFxPXHbUM5kh1%2B%2FYzYIofgA%2F9Zb28Pi3ZFzxoD4THZRG5ksV4WdpWGGqkN4JsDnOJBdkDNxt39Pckoduo%2F3NijwZZvxGD2ffpAYN8ihJPaVQ9OvUUBLhjBqi1ofGXq64zznGQSRR6cBxENDaoReHdbLz6EOpCrKT%2BWmUriS78%2BdRu30bS2Xz7N1nus5PUNM3vfZdhaLPTf--E7Uv4c%2BqRifKCSnZ%2BvqiDe4xIK%2FQBqrWp9y99enkgu%2FlHl%2Fqx%2BcxC6lbOBBAF%2FQwWKiUADR5Ap%2Bz3Rr3RX6AuASrp8PNc%3D%7Ctkp%3ABFBMsKnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829177084",
+      "product_id": "267829177084",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$129.95",
+        "extracted": 129.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ipAAAeSwgfhq5jl1/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch 32GB Handheld Console BUNDLE - Neon Red/Neon Blue",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/287495163093?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJ7CFMKEG3NWX5GAK48&hash=item42f00c0cd5%3Ag%3AXPUAAeSwUr5qbN08&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F%2BrwsDsxm%2ByQr8NACzvW%2FW8q%2Frp1LGTQgH08BkkxjkIKKEuOejxWRR68Ggd72sZkox1khKZwgIjVmw4yr2XqRpCT%2B08x3nc3OOSinl1inl3thO6fOt1iCp5wBYuzHylpbOLQZR17Oih2iqzLNBZ%2FN77sV%2Bz2Z56AR4arA2eQLC%2BlMq6jVufzc0nVXXcwycefjD8%2FRQD3De%2FI3ko6qcfz6z0Imwx65VjZjUYJTBIq%2BOTapV1os9ctXx2FMk2mU2rpY28E9zJQFonpON%2BiVuOjps8FS56LlVrH7V8WUabhRFfkVfR2W7wpFw7MxMXSsm2d4%3D%7Ctkp%3ABFBMsKnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287495163093",
+      "product_id": "287495163093",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$150.00",
+        "extracted": 150.0
+      },
+      "shipping": {
+        "raw": "+$11.23 delivery",
+        "extracted": 11.23
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/XPUAAeSwUr5qbN08/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console w/ Limited Edition controllers,cords,Carrying Case",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/900055050665?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ70A8GX9ZJFGQGP07C&hash=itemd18f7629a9%3Ag%3AHyQAAeSwbVRq4nBr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9J8Va5XbD1yK9GLxdnQH%2F2AiKcLnc%2FYZurvXxkfjfK0W7EpITxgrNxyxgilzPSnrjHUggaDIk%2FewxVdMoJyhiu9dcIXs96Kjnh6x%2BArNdoomO1QecleRJKxo4c2OD%2BGcTOhL6FzRb2Rx%2FsrO%2BfBH6CSfq6uv2GimQTJVOV%2BrQJqHTNkhU%2FK6UNApsycx9kITcES8z6vwaAYsrDvNT0L71q1M0dgaEQ0XdumAEQstQavoKyDjSQ3cOe5xMICxTc5SbEZ9bSgOMpv%2B%2BTDoGOpV%2BpYz172kGl%2FIsjTW1XqPo3w%2BAzEF3n9AEpnIvj0XE9hRs%3D%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900055050665",
+      "product_id": "900055050665",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$115.00",
+        "extracted": 115.0
+      },
+      "shipping": {
+        "raw": "+$19.80 delivery",
+        "extracted": 19.8
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/HyQAAeSwbVRq4nBr/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console Neon Blue/Red Joy-Con, Dock, AC Adapter, Case",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/257827290746?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ7C487XP4E1622DHN4&hash=item3c07b43e7a%3Ag%3AEw4AAeSwEwJq5lD0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BZdn7rfXShw72VEyH08H9wiRdSC%2FOFV9BsZyQgu%2BYDG05WgbIn92Wvl5aoVg%2BocKWmLXo33zZxg2ebXWCiCLFjbN9CnLIxKhq3M0FHnoFnUmCvip7UeljBKK%2BUewSKqGm3DM5MpPWQ1b4dJvdCb98YRX9XR%2BOzfnPi7ol6fw5AwrnV%2BKqrBudf6H67NBwr8Jt30yzDtVk6tI40Vwih%2BZAyM7JkAg4WvqOVutXBXXF2jeYcC3UjO%2Bphy3jq6WB7qB%2BiG0SSSY6U%2BE%2FEqo3LbD1HB69VWMHYYW3yphKJW4rj9vqbBVlsR%2F79RUqWrUWIn%2FU%3D%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257827290746",
+      "product_id": "257827290746",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$129.00",
+        "extracted": 129.0
+      },
+      "shipping": {
+        "raw": "+$13.95 delivery",
+        "extracted": 13.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Ew4AAeSwEwJq5lD0/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch 32GB STANDARD Handheld Console",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/960114672915?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJ7F5E1S9FV0AHTG82X&hash=itemdf8b4b4513%3Ag%3Aq8AAAeSwLHlq3kNg&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FMc9x1wG5cc0x68GXui2frnCFAhbQFUVmEqR9yIo927tnImy2KRPUzD24i9xtQJ4QVP6Q%2Bx7bL4CKid059yhFWuCrM5ROLf8o%2BQMhO0aPVjvQfO%2BSkn4Th5K9%2Bv%2BSiyD6IiG0HWsxZaBTGuYjUNxUPl0tX6dyUHS8WIGlHRkFI93a3gnXDB1JRLX4vy91Jn1Pwj6Sb%2FQHqC5%2FFkVawkZ9knr6%2Ba3Ogqf6olUS5G%2F4IvbCbu3mDWyvrldAmmPKpYP07LrE%2BXxbgWJ2%2BBfECLk%2B4%7Ctkp%3ABk9SR7Cp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960114672915",
+      "product_id": "960114672915",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$105.00",
+        "extracted": 105.0
+      },
+      "shipping": {
+        "raw": "+$6.80 delivery in 2-4 days",
+        "extracted": 6.8
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/q8AAAeSwLHlq3kNg/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console Bundle Dock, Joy-Cons, Grip, Power cord + Case!",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/168829336618?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJ8565RA3AYEJEQXQ1G&hash=item274f033c2a%3Ag%3AS6EAAeSwCZlq5mGX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FhD%2FfTDhd1GsP%2FsLjI%2BFMs69YibHbRBOBB%2BRCdL2zwDbGiJzWE8qhfbLheVuoXWxIzjI7iP%2BcNBfm2K1I9levcldkmZcTJVXHZltkoxHdkxREv6TcEJk4m0%2FU9pW34Ok2%2BrWCz8NaNCSgY5Gggf9mNBY89zkn6NxePu28KeW5jv52i7%2FqYvJNNVpd4eDiS8mRfXvbHH5I%2B9ohJ20Dxww2yeklgMuEiA8jj%2F2NElVQaOdQs53uD818F0LRGEv47SZN03r31SI0jYZUY2PH0jrBW%2Begg8rKnHw3x%2BV3gwowtcclud%2BJlIoWCZR4FQcUEP0M%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829336618",
+      "product_id": "168829336618",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$124.00",
+        "extracted": 124.0
+      },
+      "shipping": {
+        "raw": "+$12.06 delivery",
+        "extracted": 12.06
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/S6EAAeSwCZlq5mGX/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch v1 Console Gaming System Only HAC-001 Black",
+      "subtitle": "Nintendo Switch",
+      "link": "https://www.ebay.com/itm/920091825658?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJ8G18C9BZ8XB57B5WQ&hash=itemd639bf15fa%3Ag%3ABqsAAeSwXolq5lUi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8e0uftQtRN7buBPOb%2F7sfX6I%2BRn1DiHLwST0HWC5AE10Wq9uEJ%2BFk8yQl7t4BBUHk8Yu4%2BfWu%2BCb3EW7xg4HEXMjEhtx%2BKZYtaIwBsRy0oJmdxoN%2F7c1NcuNzrj8Ef%2B6QN090Q%2Bjsda7VI1BFAN9HioGhJv07Lfim0ADpDgGfAiL2AyG%2BgVPNjeX2%2FGEuuUNX5SFQh86O5EiaYCwjMnl1XlfGMh79YRQpPn8C%2FQa4V30fDp9cfTuMMWC4Iy7blma%2BFR4ntZw43IsUul2kHNNWcafVph7AaEE3I%2Fu%2F4TwQW6HplKcboSZ%2BnZlAZchB1LYQ%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920091825658",
+      "product_id": "920091825658",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$99.99",
+        "extracted": 99.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/BqsAAeSwXolq5lUi/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console Gaming System HAC-001 Black With Games",
+      "subtitle": "Nintendo Switch",
+      "link": "https://www.ebay.com/itm/257826890642?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJ8V4PVA7X6CB6AK5D3&hash=item3c07ae2392%3Ag%3AG0sAAeSwXolq5fb6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde91zkNUSPQYbneSvzlE7vXUyYJXNkwxGcBKHgGxmyycZSmBZrQQVBkG34mAYagVP06uU604L6Rt5e--XA4Zokr0yyZWGTRGo6eB5XzMUff8zR%2FVzj%2FFQMFK4AldzflPb7S%2FnE4IuX92YKgGTbVO5dkYC5fUq1WUSt0npiA2O6KtzqruMo46IByE9gloVCfc%2B8RmRC9cnZZp1tsC3i3itXOsT7N3mUd1aDlaAAtK%2BpMUHJTyUSu2AJjsfUB7ksUr4QV2SQzra%2FVNNo6IyC5t0zXcnYij4yy5pvQG9BnsBMLUL%2F7TYcHzfebXD6kWFWSLSVU%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257826890642",
+      "product_id": "257826890642",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$129.99",
+        "extracted": 129.99
+      },
+      "shipping": {
+        "raw": "+$8.00 delivery in 2-4 days",
+        "extracted": 8.0
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/G0sAAeSwXolq5fb6/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console \u2013 Black Joy Cons \u2013 With Dock & Cords US Model HDMI",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/137890942295?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ8XHSH1AY9P78KBMM7&hash=item201af0cd57%3Ag%3AVJ4AAeSw-w1q34JX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9eldxWtd6Rz3WBTj6PZp%2FoSoa2DR0pjjfsRKoubCELgGtKOrYLiLOgccR79vl6bsnPW9V5GHODqOfQuWRue7qjx6t1w%2BMOccyywCN6n9KLSqGnFNB%2Bxz0LpIHwmDCdU3yXObDIrSAzuz1W%2FLAzNj4R%2B5xdnMDdh6hfVxM6lYkIb0LciBVjMzjmeipdl%2FaEj1qpOZPRW9aWGpTu3y57SfNKMbAGzlNpXAvSuLyOu7O0Hq0SNWyyBsZGAwosjj0OfOBxVbn8kwEEFAbzSDoRKrdc%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137890942295",
+      "product_id": "137890942295",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$160.10",
+        "extracted": 160.1
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/VJ4AAeSw-w1q34JX/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch 32GB Gray Console with Neon Red and Neon Blue Joy-Con",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/960073097213?_skw=Nintendo+Switch+console&epid=23024812516&itmmeta=01M6AVPAJ8K2AN3CZ0W84NAXTV&hash=itemdf88d0dffd%3Ag%3ALQQAAeSwbmxqtaLQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9I4MPW6QDNC1vyIO%2Fn5mtWaVhYpR7K6FOIIAazbgPQlKRzDLvfeIgGeB5Pcg0XOjc%2F8wVtVC2v%2FoT6KPUwoLRj1suws81MEqUhCq2v5c4QPSxtw50G2NOxsyI17yGtyHBHeVkVi9T%2BGjCkLWi9wg84o3kCej0OVal%2Fuo2P4%2BgzU3ynwhuL4e3qp7qzVJlYhWkEqL%2F2SFfxIW5Tf%2BUtHsS98CY7%2FNKW%2FlcfXvT1Ghylbs1ueMx2kE3h%2BDfXEe0pL%2FgQH7d6jDbQa4WeS84I3ylW5UzbmIH04jsLVAL9rJEunKGXandZxgR9d9gZw9%2F4Mx0%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960073097213",
+      "product_id": "960073097213",
+      "epid": "23024812516",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 2178,
+      "price": {
+        "raw": "$115.00",
+        "extracted": 115.0
+      },
+      "shipping": {
+        "raw": "+$16.91 delivery",
+        "extracted": 16.91
+      },
+      "location": "Located in United States",
+      "watchers": "14 watchers",
+      "extracted_watchers": 14,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/LQQAAeSwbmxqtaLQ/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Console 32GB (w/ 128gb SDcard + Hard Case) - Excellent Condition",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/128127559291?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ880T7RH1JPTY4MNPP&hash=item1dd4ff667b%3Ag%3AijwAAeSwqeFqyseZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8QekzATPunZJRHOZb004H%2BRPZa8AGWOLQ3CfEb70fd2eUzqzmh3SwReujg4s58ExoO8MSo8z15cCzmgf1YwlST%2Bzytl%2BAQwgikw2SROEuyAj%2BpjxcFQifFMEjKePEYrLpqMxfnbWDyusPjJ5AwVedHU3F9MI0stutJmwiB8rfKaBdiI5fJoagit3khfhT0Kelacal2dV%2F2f%2BWpapXibW7dD1dn%2BZvkDJxcQSWSHq9fFbh1O0QSUZ5rWfwmL2NOT3XDCpbKp9bFDqySwCXSP1u7AEongW93vkVVX2BzZBgPF0QwJIwpg6QVN%2FcOGw8DqE8%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128127559291",
+      "product_id": "128127559291",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$149.99",
+        "extracted": 149.99
+      },
+      "shipping": {
+        "raw": "+$10.21 delivery",
+        "extracted": 10.21
+      },
+      "location": "Located in United States",
+      "watchers": "11 watchers",
+      "extracted_watchers": 11,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ijwAAeSwqeFqyseZ/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch 128gb + 32GB Handheld Console - Neon Red/Neon Blue",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/377611765539?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJ9208Q369PF7GZEPMR&hash=item57eb6a4723%3Ag%3AjEQAAeSwGqJq5qWN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FuYs4Qe%2BOPi0gzJOC8kw1tVQpiF%2BETDmYDFQcGESZUY8YnGw66r%2FAxpRxpFkToZoiJ9i7pqVMzOn%2FoMj8HaTW%2BGiK8qjxjXaGMW0dCaqbEULzOL4ZBECunb%2FNbpuDq6fX9AilXzSC9jQs4W5Kbg%2FoEhPVAoxBlwBveJiLm9nQQckmuss7SzM4dhaFqj85dDINykALzpsOiQatVO7ugahNclC8fP%2FrRWu6yVEp6l%2FyEfPwwLs0conjPXVS9ZP0ajKa%2B%2BcxtLqerCLLpMKFETPtcDYFme1ZcZf01fugAV1%2FdneiRGI9giduBDrOJgPTMX44%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377611765539",
+      "product_id": "377611765539",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$175.00",
+        "extracted": 175.0
+      },
+      "shipping": {
+        "raw": "+$12.05 delivery",
+        "extracted": 12.05
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/jEQAAeSwGqJq5qWN/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Console Tablet Only Black Tested Working - No Joy-Cons",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/407327844647?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ9159P7DZEZ2CAKEXS&hash=item5ed6a1a927%3Ag%3AefQAAeSwbjdq5Qbm&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BrMmPTRz6gU3ACFvgNHCskgMz3OCYoeMBfS0ecIvF8aZ782oxKMILFwRDvw5He5t7sgU7szRQ79mP0BAwEg%2BvSg1UKkN1DEjfo3qrm1zELTmHnCPZdFgLXkzpZESGen%2FNYQk%2FDdDZlP92mZogJViBYkX6CqG9Yydv1qb%2Fd99T4Bis0QY5Ne4OxNZmSJYAmcM8gCs3o5Je17nbORQWK7mUd%2F7qiZ9wViac6ggcxOGqTHHtztWiq1WKDGmF9sIW%2BWKvQwVvw6UCQAws9pA70%2FU2w%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407327844647",
+      "product_id": "407327844647",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$80.00",
+        "extracted": 80.0
+      },
+      "shipping": {
+        "raw": "+$11.22 delivery",
+        "extracted": 11.22
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/efQAAeSwbjdq5Qbm/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch HAC-001(-01) Gray Console w/ Dock, Case, 128GB microSD",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/137890061490?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJ9X5T6YQMX4WMQNA5M&hash=item201ae35cb2%3Ag%3AhbQAAeSwxgRqtDv9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FtGav1RCdPVXDDY6WhJLObKkIDyVUHrRcnVPLnVTD8pV0IBfcf7PAn1tqgPv%2Fk4MZTWHwacy2QkT9%2BPa7489wfUxfe3aiyBZSleeUfqYpvwI1T5GpAiiOaD96%2BxJL%2BLoQYKjbyDU6m6PxqXaTRm3jyx0B%2FIIaXClGUbf4Rl3AUpZfZyPzE8n4bv0n9cPDKOJprMYozudCv%2FbhdmkxeBTlAzzcErhAcJ2Nioeqv1smgMoGX7GBShKVx6E9gb8OW9lNr3eHvnDsU0B1J0%2BZK%2B995%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137890061490",
+      "product_id": "137890061490",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$160.00",
+        "extracted": 160.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/hbQAAeSwxgRqtDv9/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Nintendo Switch 32GB Gray/Gray Joy-Con Console TESTED Some Signs Of Normal Use",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/267829281456?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJ9TNJKVFJREPA4DK8H&hash=item3e5bde82b0%3Ag%3ANBMAAeSwuM5q5mP1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B6VmNwgPDZUx5ltQT5isA%2B6ep1yETUhBS1YEbeUI8Vqn%2B6kYrmEJlcePoJeBlKOkVwCVxRa7c%2Bq4YlSsHs6mHDOTrQ7v4GsfIby7KqBFftZ7TXEOeS61nsUJzKPDcFWodQ%2F89yCvnBXwtDiOJRM20ulCexCYxyxckCE6DJXPQ%2BX7bT%2Bw7yVXGymBa67zoEkePG9%2BZWS1kr%2BTRjrGqEK1Av2FHAf%2Fx%2Fk42O0yvMoKvRMObY6ayNAyKoZP8cEXl0JqbWcUYkwx14EKX1VYtEQ%2BojBrNlaB1E4BnmquuQZceX2gLPBS5y%2B8%2FfrVw5JQ4KIro%3D%7Ctkp%3ABFBMsqnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829281456",
+      "product_id": "267829281456",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$129.95",
+        "extracted": 129.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/NBMAAeSwuM5q5mP1/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Nintendo Switch 32GB Gray/Gray Joy-Con Console TESTED Some Signs Of Normal Use",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/267829185178?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJ952N5X0CXX75WTZ79&hash=item3e5bdd0a9a%3Ag%3AlcgAAeSwVixq5jyZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FGnE6YgnGIXHQ%2FpXhG7ytXZDtI8rQTwKFBhk6Rq9OkLJy0hnHovEt%2Boz4r7dIMvSgOYkBMq7GkGeHyBhKyjWdk6FDYvjQPVq8h7iVRlGE3x6PoWgX1WzCCJkfYmc0N2%2By0ANJbCxlp%2Fak%2FLFLoOiKnr4auG%2F2HQU0sxFOEY6Likksqrj3jaRq3o1WemB%2BO0I3jKDVMz978rJURIWw%2FDWfG%2BTHml75LlgDVuKoVo52P%2FF%2FBrv5--8nNGHKKSx5e2TXPLfKCvDZyT5TmBkODjh%2F5kE1IRICMVmKnGuy%2Botne367EA0KZYR%2Fu8ICIKSueoxI%3D%7Ctkp%3ABFBMsqnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829185178",
+      "product_id": "267829185178",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$129.95",
+        "extracted": 129.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/lcgAAeSwVixq5jyZ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch 32GB Handheld System - Green and Blue Joycons with Controller",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/147655867590?_skw=Nintendo+Switch+console&epid=5060420299&itmmeta=01M6AVPAJ99R0DV7TYW0BG8MB0&hash=item2260f9bcc6%3Ag%3AqCQAAeSwwvJq4oI0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BHG2JzgT09PP%2BZBAOS9TJrImpDgko3dpiwWeQDr5vDH8q53jJNfA7nS35utZIoBvjA6VIartPuXOEORJxBwnftQJja%2FrB1Z2lkRxdQN7tKlZ5QoTORqf1x1uJg6Q95JFW3ysXDJgT4LNxCxQr3Z8IprFYbNFHrObctJnZ12h3G3WXfCW6SF09iMG44BCZBpi1sxRPS5tpDIzh%2BgjTgZC%2FFQg4mRiCaWzGK%2BfCLr3Cc0MAWxsNRorryfqUcUGBiplqZXMrUPXJHfJJQlOYg858zCfMCRXnRogYEQI%2FqQ%2FHNCphhKIWkGKPz99mPcr4fssk%3D%7Ctkp%3ABFBMsqnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147655867590",
+      "product_id": "147655867590",
+      "epid": "5060420299",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 6,
+      "price": {
+        "raw": "$139.95",
+        "extracted": 139.95
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/qCQAAeSwwvJq4oI0/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch 32GB Pink/Neon Green Joy-Con Console TESTED Minor Signs Of Play",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/267828606477?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJAV62JHW931JFG5VBJ&hash=item3e5bd4360d%3Ag%3AuB8AAeSw5Wlq5T0q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9OGpmx97MPj9dGhqAYiakMFCJIjpbTkbfWRkLIiYn0Jicz%2BuKdfTe6M23IJY7%2FVjGRH%2BOJjhy0M3NmeLxzaEXiBZvb23XCW2%2BEmyavfx2rX5fpv%2FOvZhcJZ9xV1rRwkGSj3xP89QxJdkgdwobw%2BD3%2FpHpzd0n8eHh2Etdh6i6I58wUv6YO2GLn5ymX7IdCsfs30d6dLApHLXmyzhBmkE8KPgdigyw6NQe%2BQ58zkt6RY59uN9q4D3ppfoJtGv7tWOE4x4wmfvM5RQpbqMn0YypS9OQrBa%2F%2BIRtOgrzLXI4KMYsT53x2t51KiVQaJ4fbau4%3D%7Ctkp%3ABFBMsqnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267828606477",
+      "product_id": "267828606477",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$129.95",
+        "extracted": 129.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/uB8AAeSw5Wlq5T0q/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Handheld Console w/ Red & Blue Joy-Con Controllers, USB-C",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/820277618104?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJA8MTF3TP6T4SDA3J7&hash=itembefc5b25b8%3Ag%3AdTAAAeSwbNtq3p%7Ec&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8VJ2%2Bbqbt4Roh%2FR3d%2BiypYXh%2B0ZVyHWtaOMKjjs%2BlVJm%2FVxQrT5SafkZ6%2F90x6kN%2FqLwONDr20uFdFJ9iG8Rci91a%2BodzC6g%2FUElXQu8WRUcoWjWEhtXcgtzd0UWO2fKEp5jA3eV81gWSqWpdf1y82MrXZEULn36TJq9LwYemkZaXFfqDS9YM4dEDXYPYaOEIZBzGA0qfDnhV1dITLOAIhRJk8EkijTD8aRLEkKl%2BnwkGOn%2B3TUeLnwlUrBds9BHQeYzhtNc94MOeZ6VfGWtm3m9MWaT2lSSgj1Rkb8Jp%2BKZt9r1MqH4mHzm6p5zSGTYQ%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820277618104",
+      "product_id": "820277618104",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$12.05 delivery",
+        "extracted": 12.05
+      },
+      "location": "Located in United States",
+      "watchers": "11 watchers",
+      "extracted_watchers": 11,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/dTAAAeSwbNtq3p~c/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Handheld Console Tablet w/ Gray Joy-Con Controllers",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/178520514146?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJAJA64GS3KPTM5GG3M&hash=item2990a6de62%3Ag%3ANBEAAeSw-F1qsz57&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fc0NkD9vzqY4oEcKEj1y1vw%2BpC%2BCQsQbsSva4ytJfErtRRavcRzSeUEWHuwt9cTxTkdSpbaCvD03p4zWRjV1rqgJRQfumRxL8h0ptmBLoIb2wDr0NfkAxc4yhjWW8KIGZWpJMihFt1xLKIxSRtevI77T5ftWbj5G%2B%2Bug5Tw15bU%2FOmsjwrLk0kdvdL930kMZERfZobkQbpoBS%2BWeg9KXIGlpHuGgZsTS1O8VoeUvlu65tVKn6zXnY0mhx5fNWQXbfsXUspTvES8LoFQ7gZYwLICb6qbSf4tQ0arshrWbGbqODJ%2FTBnZENZF66gVW8QIWc%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178520514146",
+      "product_id": "178520514146",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$80.00",
+        "extracted": 80.0
+      },
+      "shipping": {
+        "raw": "+$14.18 delivery",
+        "extracted": 14.18
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/NBEAAeSw-F1qsz57/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console \u2013 Black Joy Cons \u2013 With Dock & Cords US Model",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/137890942291?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJAFGVR7YA9K9WZ4QJA&hash=item201af0cd53%3Ag%3A5qwAAeSw2lxq34AF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2BfqKjwOEeOfK5%2BDQhETzkbLkxpQICW5Me8PNNPj%2BP64iT9YiSSxB0QNXsDRW2llFlfQqmtq90JZ6GUlyz8nQWk7GSxCeR7R%2BSxWJ7dfTxCuroEJnWJq3VDsPjcwKhe%2F8fWF3BTOO%2BOgYolsN7z%2Brb2OQJBXBxqbSU0YblWg8W4GTubAOSw2kHFN8vvIy1KQdMNYHVtqPFQC%2F3m9lVtDqpjhWIbv%2FcC8z4Iv5XWVvXH1wkPw%2ByRoQpS4%2FnaM%2BVlLj7Ys3mKEpxLTd7zsAOYDLSWsvQ3hZpNGAyzL20zfwkBAkKl3%2FQKh%2BHeLPeY7iz%2FXI%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137890942291",
+      "product_id": "137890942291",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$155.25",
+        "extracted": 155.25
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/5qwAAeSw2lxq34AF/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console Bundle Dock, Joy-Cons, Grip, Power cord + Case!",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/168829285025?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJBXRPENFD0YE9RY1QT&hash=item274f0272a1%3Ag%3AQnsAAeSwD2Fq5lem&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8QcyHtlCfQjGyvuNEYPpVblCH1jKyPZLXaCexJsZykvw0ZwgcU2H0d56wAVYJzGGU%2FWnbEPOHvTWOGyXIgtR4q%2Fa7s9ElHrCm94YsS2n8Zdjcp%2BSjxpasREOpe9i88iSOtrZBu2ACCGMKjr1s8KewvP37EKR00TmchvMLgSa4XHL0gP72BjKMrWEFxInhok9JbSh6hqmrMnZR4sx8pfW9ffNb0d5Gx%2BozhrDgkPpuc2KpKyp1RGnBbR%2BRZnm6EmOfsHC10mMX4gLTTVGptB3nPTOygWbzB0CnsCuXEnH5EJ1qtivHrcObktiLiJquqG5U%3D%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829285025",
+      "product_id": "168829285025",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$126.00",
+        "extracted": 126.0
+      },
+      "shipping": {
+        "raw": "+$12.06 delivery",
+        "extracted": 12.06
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/QnsAAeSwD2Fq5lem/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console Tablet w/ Green & Orange Joy-Con, Grip, USB-C",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/880068553539?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJBGT7G381T2TB0BYGD&hash=itemcce82c6b43%3Ag%3AHAcAAeSwsf1q5gpm&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fcij2khpOz0dA4j0WZMLq0TYKVaEJyNRZvKxSisP3GgUg2QxIquhJqeDDqd%2FqtejeuZcyAoBJYnN8GdtFLlHPBz%2FzaLMEXFqW%2BQYe2kTjyYIpsccHtNqyO6kF1gswOWogyqI8zVWa27d2rnzighIhW7R2uNqXTdN%2BAR7j2EKXb4raoDyTIlBffsuj11h7fL7jyNLsCGWT9em9BQYbLaortvv1Y1oeerPRxxv58GZGuN3YfYP6%2B8xcCRVEJnFgHXGwRbEdULus%2FO%2Bro5IuHeruh%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880068553539",
+      "product_id": "880068553539",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$120.00",
+        "extracted": 120.0
+      },
+      "shipping": {
+        "raw": "+$7.29 delivery in 2-4 days",
+        "extracted": 7.29
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/HAcAAeSwsf1q5gpm/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch HAC-001 Handheld Console w/Red & Blue Joy-Cons - Free Shipping!",
+      "subtitle": "Nintendo Switch",
+      "link": "https://www.ebay.com/itm/206662419216?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJBG9YY6MAVPM92A67F&hash=item301e0a4310%3Ag%3AuqMAAeSwgGdq4-29&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8g6rcsCspyKyKXu5Q40EvUHldtaZZf%2F2gurmLi%2BAfliUaULY5QxQvSQpssvnOULslpEM7tzKO%2FwHdAnVw4LsyAkVhTyu%2BxaT716uA5DsN01N38fzRs658B5aYkIQ4OwhXagsDKIT4kHs7ueVch9tWL26eiRzvNW3tgr3%2FaJLU0nE2BkuQd8pSP%2BQ4%2FEwKVustoIFdeT%2B6yvnDmDMpxcOAVFILW0Og%2FkMaFVJjGlp7wuGJFW1P7vPORQDWWP3gSEMcesRqHXPikBH%2BDYUYH7Mio%7Ctkp%3ABk9SR7Kp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=206662419216",
+      "product_id": "206662419216",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$119.99",
+        "extracted": 119.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/uqMAAeSwgGdq4-29/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Nintendo Switch Original Console w/ All Original Accessories and Case + 7 Games",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/820301562435?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJBB8D681TPDCMTG956&hash=itembefdc88243%3Ag%3AniQAAeSwSrxq2ADA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9HL2LG4OFLG8sS%2BTS%2BMWSecl0gDiCCpTXdMqCdgK7b77FQzYDvO1bDPHWTczjwIb6KihLXwPq5uoy9MjRkswnXpcjinDUnaX%2Bbk0w%2FHIGnHhOmapDrYizBeWHBQ%2B0P0zfs9g78aVRfKdvCX1DPOcxvYCQN4rck2GuVO4zP8ZSrlJpvIw88HBvD8vnexj4Qt2gEqh0GP2gSVNf5Ny9s8yEOxa35YMHyYHXhdBLgl5CyGgCXKEMOeqLCe3hQopbq6vkndb3d7VB6vCmXyRSl3Wwfyf7crM6D1%2FPfotDf%2BRl6RLmEpda9cPfpLqakgkMVpjY%3D%7Ctkp%3ABFBMsqnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820301562435",
+      "product_id": "820301562435",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$300.00",
+        "extracted": 300.0
+      },
+      "shipping": {
+        "raw": "+$10.21 delivery",
+        "extracted": 10.21
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/niQAAeSwSrxq2ADA/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nintendo Switch Console Bundle with 4 digital games",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/158335590530?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJCQVNKN4PM3T6NAV7P&hash=item24dd896082%3Ag%3AQ7cAAeSwRv1phr%7E5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BI2gkHQicys222fbRdmm4QBddZfeVjKLB7Z6h9%2FNlN2xBIw6SR%2BnSEKNkWPmdtjLBi4dTjkvrDjL5Z%2B7%2FP7sZ4DsVsvfNWbYxGmLicINhY%2FzfAT2dsmHn%2BkKP%2Bra%2BUJTN8Nr0r2YWH49myjebvvPFmZivWdqvxrMyV%2F1O%2BBJnjyyQGub6AKUEdLmNX%2BHQfVKsAAbC0DN6dRnWshKjr5EiN1%2FwPVsILaexl0n4le13Y4nMeEYnktYzlYD4rRrJoNqGC7QrS2mnG4nQENs5xLBrn0HDlZN6NYv7F8O%2Bki%2B0f2xsMGksWb%2FT6vQb8grL%2F2oE%3D%7Ctkp%3ABFBMsqnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=158335590530",
+      "product_id": "158335590530",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$149.99",
+        "extracted": 149.99
+      },
+      "shipping": {
+        "raw": "+$19.99 delivery",
+        "extracted": 19.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "78 watchers",
+      "extracted_watchers": 78,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Q7cAAeSwRv1phr~5/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch V2 HAC-001(-01) Console Bundle Joy-Cons Dock Charger Tested",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/287675021958?_skw=Nintendo+Switch+console&epid=14057526987&itmmeta=01M6AVPAJCMV8P718F0PTPWXZF&hash=item42fac47a86%3Ag%3ATiMAAeSwZsRq3Lhv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9kzMW17wv6X4ug4X9Lhvxp%2F4u3%2FV3g647phKdqfY%2BWJI9%2BIhHnqota30EOHIUiNNiL3Wl3hzJl8RIqKXzT2YDhbbI14spdNN4MxvGH6J9ZWjQEK%2BunhFphaLyCl0RAIVFMO7VyqoZvYQH9%2FGzvq9QVWmi61U2Le7krIVNJFw7XdzGpKwfqpo2Ur8%2B43yHeB5kOkBKHm22kBgJ1BBebSTg8B7yYr2fobcLHLVeHqPr1S6XXMO5lLAYKJJPMUSgm1ARDw3dPbHWwQ68zXf0GZ9qe%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287675021958",
+      "product_id": "287675021958",
+      "epid": "14057526987",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 44,
+      "price": {
+        "raw": "$129.99",
+        "extracted": 129.99
+      },
+      "shipping": {
+        "raw": "+$11.45 delivery",
+        "extracted": 11.45
+      },
+      "location": "Located in United States",
+      "watchers": "16 watchers",
+      "extracted_watchers": 16,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/TiMAAeSwZsRq3Lhv/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Console w/ Dock & Purple/Orange Joy-Con Controllers, Black",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/307256473262?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJCK619MHRQRC933MV4&hash=item4789e9b6ae%3Ag%3A-rkAAeSwc8Nq5B2v&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8TagECNwLTI%2BOvmfSPq5wVImrGIIvJnFjmho2aJMsnX9W9UW5c6hJIczYmjLKobn7hF3ZMwyh29zmGVnHcL8afnWZXIxleGZyYFdblviQ%2FbkjVkwl%2FDZOWuLOmYhSnkMPFy5%2FRwwCi7wwqLPVCwltBIF5Vc0%2BzZ4DI9GHIGkpnLoG8JDQIQ1Y97vB5ExD1iA6nXrFq5P9KmODUvLHdpX61ERHQnSmhvRdQaB01bU2HAgD28OFynQ%2BV95gakzOLS9WFhvhrOTZ7ud1Dh9LnR1km%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307256473262",
+      "product_id": "307256473262",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$150.00",
+        "extracted": 150.0
+      },
+      "shipping": {
+        "raw": "+$9.50 delivery in 2-4 days",
+        "extracted": 9.5
+      },
+      "location": "Located in United States",
+      "watchers": "12 watchers",
+      "extracted_watchers": 12,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/-rkAAeSwc8Nq5B2v/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch UNPATCHED V1 HAC-001 Console Only Rank select",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/386968209401?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJCGAA65HTCFBCNCF32&hash=item5a191a47f9%3Ag%3A3i0AAOSwKCtoQ54g&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BEFkLX75arxIJV9J4gtpHyrM0n%2B%2Fdk247xE%2BdRfMDjwsxpUeVqMm5ZlYE%2FJ5qrF9y8EVgE1Otlffknfpu6uv716piINCyFRG2smywAfLpg71QOmUzABZLHuPq5pYvj9UBAbseXrRkqPBaZBUniqYZ8L2hJIjKmdLZTiwSEIaLOmC%2FLpdVhetjPgZJge34RuD7JF6%2FJyoPTzl5Szrw4fBY8Km8DQO8NuTC90ow8iEz7rkW0w8wEzbcFSwOHXqSSKOSO%2Ft4JEu2xrXGJhRg9dhZk5XCM2%2BSAIKcqKHOV6l3yZFUMlP5JJ3iHHrLNJQQKw3Y%3D%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=386968209401",
+      "product_id": "386968209401",
+      "condition": "Pre-Owned",
+      "price": {
+        "from": {
+          "raw": "$118.00",
+          "extracted": 118.0
+        },
+        "to": {
+          "raw": "$128.00",
+          "extracted": 128.0
+        }
+      },
+      "location": "Located in Japan",
+      "returns": "Free returns",
+      "quantity_sold": "259+ sold",
+      "extracted_quantity_sold": 259,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/3i0AAOSwKCtoQ54g/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch HAC-001 32GB 1080p w/ Neon Red/Blue Joy-Con, Dock, Case",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/860095306290?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJDH4KQF4W1G8P8Q1Q0&hash=itemc841acda32%3Ag%3AiUcAAeSwSqhq43WZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ylcs0V2HuVU0ADsH9VuMZ%2BxBekVfBPeavG2jhKGQoKW%2F6SDvwr%2FKKcHBbylu1mpxPWPhst7vGBZLiDEf55rZPqkz9%2BCTUdrxjGVVglzcU1WUgJyfEW4lBfS4U%2FElXH5LeBtK9z8Vuwy2ABZFxQg8rNLArrQGoEHS%2BwmydiJPf2Yhgl2wbq0hZycQPQIstNyW71QhMUe3LQwEBFAifl9SqpoZ9KZjHvluJP1jiqh393YdWr6xkicvWxyk82kpzs5%2BA8dKnHbYZx8osnvFQ6GkcFZmAqII5n8hRv2XeMepgDR6CrjMfxSXsGj18GGIWb%2BI%3D%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860095306290",
+      "product_id": "860095306290",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$124.99",
+        "extracted": 124.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/iUcAAeSwSqhq43WZ/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch HAC-001 Console Tablet w/ Gray Joy-Con, 32GB 1080p Wi-Fi",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/287682306210?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJDKT10T3P84QDYYKXV&hash=item42fb33a0a2%3Ag%3AH1IAAeSw8Glq37po&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F7%2FfF9FHr9K7iVDoXgefbJYxh5dOS1wacW0QJDoBduqrJ2p1IdAG1doX%2BDe6UW%2Ff7ESA0X%2FxtS4CoYcmG6GORbh0Jf2N%2FZqMsoAGJbqJbE00QfGVRaPz%2BgdrTAlo3bYE9%2B%2BbzeP0YrEkt29eQB9hh7g0YtpTnX4n4BSLXTGD0P43cQjdqUAX0OlV8J1jCDej8T46qHLxC%2Fly6%2FFUN3QrPUS7b4NJP4GGeYqGpQaO%2BYGJxcY6J1rLfShUlsq7DXUnhCaW63Sc9UlClSyWMzsSK57%2BJvIOmouGURMt5RXJ%2BcUH4JlYID15bhNSzoiyDdLQQ%3D%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287682306210",
+      "product_id": "287682306210",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$119.50",
+        "extracted": 119.5
+      },
+      "shipping": {
+        "raw": "+$11.24 delivery",
+        "extracted": 11.24
+      },
+      "location": "Located in United States",
+      "watchers": "10 watchers",
+      "extracted_watchers": 10,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/H1IAAeSw8Glq37po/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch Console Black Bundle w/ Extra Pro Controller & 128GB SD Card",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/920092404004?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJDV9KW0B8RDZ0JZFS6&hash=itemd639c7e924%3Ag%3ABwEAAeSwfORq5pHh&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9KRzRUnHI3XpzW%2BnunNUmIbkt8%2BuJPvhMykhPKzkZYRWoMOqA%2FL7w2B5a59uEKfyNY8Pn6Gu7jOaFZHE8MPgVZdm2IjLLoproqzztQz4zvFWb11oAL7jYQZLZPoGDSBAJjDMqc1i9nnYt3IVAkgTR1AGMFH3XxqEr5d9I7IYETkbqFktSw%2BmLsdptcF5Ln2%2FFP%2B6oENMvaW7qPsX0ZninM%2F56doPH2fcsAZXhSORvML6TExgzFH8%2FuDpL%2FMXEqFn%2ByNWp6dSfmoxNKrqzorTK8YD5nhGQUWidHGbtBg9Sh8UeNe34kF%2FHnh05v%2B1EfbLE%3D%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920092404004",
+      "product_id": "920092404004",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$134.99",
+        "extracted": 134.99
+      },
+      "shipping": {
+        "raw": "+$10.21 delivery",
+        "extracted": 10.21
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/BwEAAeSwfORq5pHh/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch 32GB Handheld Console - Neon Red/Neon Blue w/128 gb sd card used",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/960038767835?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJDZ3VTV0RDGCNY02W3&hash=itemdf86c50cdb%3Ag%3AsCMAAeSwUmNqyAYN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9JvUJL%2BS9OHMsgI84eEyzYe8qAjCAoK1wosdKmdqT1SoilFBz4r7MKEiSb7Lxi%2BKHB%2FW8Jw5Lptxd6Qz0vOxp11ziD6cmXNb2obLTV3Q5euVgHUvdPkIJlLcCRpdsBP2x11HVdHzKzf08lhgKn%2Brk0UtPLS7%2BeIXY8Kz0MAok7llmsvbhHwpBAijggvNyvTbJ5thcZxtEPLMjR%2FeswcD6EEAj32wcmQVO4PgNS1kEvNzFyqiP%2FYjdJRgT%2BdwbQiKkEwcNfHrMDzS3OMSriAoDC%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960038767835",
+      "product_id": "960038767835",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$150.00",
+        "extracted": 150.0
+      },
+      "shipping": {
+        "raw": "+$11.45 delivery",
+        "extracted": 11.45
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/sCMAAeSwUmNqyAYN/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch V2 Console Bundle (HAC-001(-01)) - Dock, Cables & Grip",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/920092364007?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJDH5YSNMAY1RTSGD3X&hash=itemd639c74ce7%3Ag%3AJGMAAeSwNYRq5pHq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FuA%2FQN0vlwBlNv4F4CmKTnokAgBxf81tVh%2B6r7Zd3jdnzw1JTAgUgz6PLvH9e6Fw%2FFWpCIzApYeyWyQnGssAAxcM%2BwvY%2Fg1NkuUom89sDYX46Iz%2B4kuBo%2BasuWN1zKn6Gdi%2BqWYbIg3xBgVcaO4myrhsAL8vBI9nNWRMxZg66kMe%2F46o8yOt%2Bn7fekx%2B0w8WZTVbpJtPs3S7zsDvZWKZk3DjaH0DL8SH%2BSIVp%2BBeRPuIxuOGwCT59ey4vSO4SIU0B313R4TXRZndCP6oqyfgH8%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920092364007",
+      "product_id": "920092364007",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$159.95",
+        "extracted": 159.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/JGMAAeSwNYRq5pHq/s-l500.webp"
+    },
+    {
+      "title": "NINTENDO SWITCH HAC-001 REPLACEMENT CONSOLE TABLET ONLY FREE SHIPPING",
+      "link": "https://www.ebay.com/itm/407327924501?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJEA9AN9GB2XJANKCC6&hash=item5ed6a2e115%3Ag%3AZLYAAeSwx5Jq5RLE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9vdJdcom4i%2BmsJfRhEqXIaTCj2buHTcfUu8Ru5r2aZYHSvfbi6SaoYmHZ%2FZdo4kKmf5h7916uWkLSxj%2BHse5YC919KG7tKhkN6TzLEgWtgjzOHkRqT2NmWAA%2FOciLm6IMC2MXvZkdnSVWFmYPh2Eoz1pGADnXe1ANM0lhecU7H%2B9rg%2FYzg40TiaiTXvRYVBfE%2FR9oiZpRuiZ3CvEBghWPVbSR5Vslpn3WTjf1lnoRS6TIKqNIMuL1jB9VH%2FRf6ZlOwRdcWP%2FX1lYiPjb4EZ9cdQ%2BPiZRNLU1xVOq0DqvBWD97eApmjKI4yavTD0mozuyk%3D%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407327924501",
+      "product_id": "407327924501",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$79.99",
+        "extracted": 79.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZLYAAeSwx5Jq5RLE/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch OLED Model - Console Tablet Only - Tested Working In Great Shape",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/267829273840?_skw=Nintendo+Switch+console&epid=10048191653&itmmeta=01M6AVPAJEWA51VFAAY77W8VM4&hash=item3e5bde64f0%3Ag%3AakoAAeSw-EZq5l-O&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BeE7QCozw2mMouTZfYBlNddU172t%2F9wWdxdQYk1qjDsnlNdJ185b9pGaBeMFk3L0jRsn7X5d43Ajf8KdmUA6mcGYsd%2BGQBOJicEWSy9GuoWzkkHOvkIKN9xPBWYR47osksOrr2gUSMXdqVJ%2BP83Cv9ZrYt56QDd5chNj7CKbMvXm3li9EO%2FSIgwVZQchIM1BFpJS0RChjwyD0m1z55fkdIpnKXjVtM6clGxUX%2BI0KGI%2BJTD9yx2wjReYVJOyNmeglGl0jKh%2BkZg4knT8Y0IQwY%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829273840",
+      "product_id": "267829273840",
+      "epid": "10048191653",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 393,
+      "price": {
+        "raw": "$132.99",
+        "extracted": 132.99
+      },
+      "shipping": {
+        "raw": "+$7.76 delivery",
+        "extracted": 7.76
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/akoAAeSw-EZq5l-O/s-l500.webp"
+    },
+    {
+      "title": "Original Nintendo Switch Console bundle with four joycons etc.",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/860098577276?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJEAP2QF42REEE94KZA&hash=itemc841dec37c%3Ag%3ACn4AAeSwWuJq5gv7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F68WqH93W7nnezyhoyr3--XkTTTa0qSt7yxYenq%2BtuIQRSvsjt1oiYi8I0Wb7NXIvTNBIsVAYdWD5YF3zzXIVfzqWH1JkSLlbOAldxzHkNF2si509%2Fds%2B4vgBNPK9yWM6c3yYTRWsYVeHXmU8TYP%2Fl%2B%2BNbiyoZhGZBUY9eomA6M7pJHnH3mC%2BHlf6JwEEIgJJi6rt36CvNJNGXahpPixQZsm3yWybLUgCtwhK4DDtS7jpm%2FuRVBLaSCM877K5M87XkkeILNB9mwCQZHSKOoTWp142F15aLzBV%2FAgnHpx6%2BNVSb%2FpQlryzO8xYNT38569k%3D%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860098577276",
+      "product_id": "860098577276",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$148.95",
+        "extracted": 148.95
+      },
+      "shipping": {
+        "raw": "+$9.29 delivery",
+        "extracted": 9.29
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Cn4AAeSwWuJq5gv7/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch HAC-001(-01) Console Pink/Green Joy-Con TESTED!!",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/287685041096?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJE4X5ZT44XAZ11T7KB&hash=item42fb5d5bc8%3Ag%3AEOUAAeSwRR5q4PUx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9AHwJS%2FeEAMwI7wZ%2BfX0uPCw%2FKm5Iy7ju5tzH2BwSGIdjh5x2dT8U2N4J4xCbT5ThhqMmmula2PzGObfq%2FGDuUtx3tEyY0n47rpAG7LwlcLWFucD5u8JnQAyjeLANYXdxuqMkEaxbsTPpHSfK8Ot5nXKynkkiGzmo8kiVz%2FPx%2Baf2JzfWLczX%2BWsMZHA%2FvmB3M2UuRXO3MjMVPjmQqNQ26Yrd%2FsMZvKC7DrgGt4Ql3TF9M2V1C5qAP8UwJvbgt6GL5QSumrAja8xi85jrqt6pCmIYMtUgQDXYlaolPN0m62%2FEPjTQJHnwHaZrek5ePTQ0%3D%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287685041096",
+      "product_id": "287685041096",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$109.00",
+        "extracted": 109.0
+      },
+      "shipping": {
+        "raw": "+$9.98 delivery in 2-4 days",
+        "extracted": 9.98
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "10 watchers",
+      "extracted_watchers": 10,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/EOUAAeSwRR5q4PUx/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch v1 Console Gaming System Only HAC-001 Black Missing back mount",
+      "subtitle": "Nintendo Switch",
+      "link": "https://www.ebay.com/itm/237151401164?_skw=Nintendo+Switch+console&epid=14062149178&itmmeta=01M6AVPAJEX1V8PCPKS18R0QDY&hash=item37375334cc%3Ag%3AS6cAAeSwExVq47E-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde944ElX%2BiEzRxWjKVmKDXecWgokfQpHEDZFWP0cKyMLgMHuEVZ3OXiA2N6w5dneqh7tZdN%2BxTE%2Fe42vS1JvUS3UKkHVPLNfd2xe3%2BLHO69T%2BiXRK8gLlH0AyHK%2Bb3BiBvNlBMErYbk7yoZ33jZE329uYbZwIIlFUmF7dKSZJvz%2FRnq5oXfXBE5ggZRueqDtO3eHqEgQmhbANk8nZfuqEyiNBrUPrZJgoO%2FlU22hzEc7T8tkiM2d5XMH44Oh5%2FDY5Bjxm%2Fd0HdlJ745q066YceDub%2BGgtjJZSoFhiVNAEEzhikDiDRXpFqtk5W4N%2BTjz330%3D%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237151401164",
+      "product_id": "237151401164",
+      "epid": "14062149178",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 40,
+      "price": {
+        "raw": "$109.99",
+        "extracted": 109.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Last one",
+      "watchers": "2 watchers",
+      "extracted_watchers": 2,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/S6cAAeSwExVq47E-/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Console with Purple and Green Joy-Cons (HAC-001)",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/860097254587?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJFVW01V5RDBFPV9D8H&hash=itemc841ca94bb%3Ag%3AhgYAAeSwX9dq5Bis&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8V3qWs77kg9uKGXxT3%2FSqvdKD8LKO6AgQVsHSNh6dP1fpjVZCGzBe6sGKc5ODERjHtIyFkSlXYmmqmspsoCyQveZOwEx0IuWcOdwdlhq57EYdrDlTJ9J8l91NWkA44Kx%2BQVl6ymi2pRcx2C7KJLUfDs8pnPYzDqa7ENZza%2F3z0DHrHODCe94ergf8uRWxctSKQ4g7JxU6A3KFexNRsSkAGAPFV4AEpPJ9DbJBGgffWUZXG6cDJWTN9G%2BFWIgdBmIRLQciWS1IzAM1d4Aeyoayk%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860097254587",
+      "product_id": "860097254587",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$150.00",
+        "extracted": 150.0
+      },
+      "shipping": {
+        "raw": "+$9.85 delivery in 2-4 days",
+        "extracted": 9.85
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/hgYAAeSwX9dq5Bis/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Nintendo Switch 2 Console Gaming System W/ Joy Cons Only BEE\u2011001 Black - TESTED",
+      "subtitle": "Nintendo Switch",
+      "link": "https://www.ebay.com/itm/117497538183?_skw=Nintendo+Switch+console&epid=14079880960&itmmeta=01M6AVPAJF6KH14891PG7E5ZDD&hash=item1b5b662687%3Ag%3AytcAAeSwjC5q5sVt&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8n3LS3cqXSS3bCA1oDKSnYPN4MBnlEK0yaTYNQ8vEer%2BieMdsHQeJF7JFr3phkRc8XipxUhh5ezn1McjZ6nfZYh0vi2MFfwwWpMN5UqltoRZR35TPcz4WB6RxuqfiR4FIBiRGd5M2mDYCK8%2FCwZCZQHoOTA2D94UqJAvyZ0vS2Rfvatd9ftfqAwYCmL%2BseKoUpxZqusptKXxdoL6dXkpwy6Ak%2BcWKtDFSkQ%2BoGsudVcEm5G5m6ijcz2cTp6ugLeW2tLHp8GjH7pP8rCiOMwcq%2F%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117497538183",
+      "product_id": "117497538183",
+      "epid": "14079880960",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$379.99",
+        "extracted": 379.99
+      },
+      "shipping": {
+        "raw": "+$19.70 delivery",
+        "extracted": 19.7
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ytcAAeSwjC5q5sVt/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Console - Neon Blue/Red Joy-Con, Pokemon Game, Extra Joy-Con",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/117493833939?_skw=Nintendo+Switch+console&epid=24027530862&itmmeta=01M6AVPAJF78YT5P97YN27P6V5&hash=item1b5b2da0d3%3Ag%3AGEcAAeSwc8Nq49xP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8oTn2CrZK9BE4p%2FFulpCVDgndB6dEYtUIZXum%2BUIBmz0UQHNPlaa1d6dDas4V8Izm25o%2FvLlB1r4XtZoDqrBw4QaN6I--retQBT%2Fz9jp9%2FU0H1gj2%2BKUwkXg4dU6SRNxxkznEJ0YrdoZZfViUY1EjpqV6IgBX3ZV%2BSmFegmkRhvcJpPsvcSj12f5XFgINAIVjlBH6%2B5Ca0bM2VE0jiD0LzodY%2Bdf63PHF9vFVJta4MSQdXOzgbzZkAa%2F64WiApH3mpK044lCV89Tu3QDxp8xAN%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117493833939",
+      "product_id": "117493833939",
+      "epid": "24027530862",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 137,
+      "price": {
+        "raw": "$170.00",
+        "extracted": 170.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/GEcAAeSwc8Nq49xP/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch Console with Dock Charger and Case",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/336850123973?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJFX7JM3DZ8RA1HDY8Z&hash=item4e6dd4fcc5%3Ag%3A9OUAAeSwycVq1Co4&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fzetqt937hLCSzmBL9JAJD%2FTcLMzDnBUH3F3kWmqYv5y4uPQ6ImCKsPqgeYF07If9uoxln3hKN2zIuFgcP6ZwYHhzD7g%2FRnfLimfZeX59%2F3HNiapdTBEZ7ATFSTa3d3cquqfMSQQboWrF%2FEdnYZ7CM4iv4%2Fwezh4LZHG6RyteM1DcbuqoCgZ%2BGm51mJgTWSM8c%2FyiO688i9PYz2t1vgqLukHxtYYazEtoz9rTUlWG9wY29XHQSUmshOh3FuL%2B1GHDZL2uJ6jDSmXQ0iXcyhHvA%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336850123973",
+      "product_id": "336850123973",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$135.00",
+        "extracted": 135.0
+      },
+      "shipping": {
+        "raw": "+$6.11 delivery",
+        "extracted": 6.11
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/9OUAAeSwycVq1Co4/s-l500.webp"
+    },
+    {
+      "title": "Nintendo Switch 32GB Handheld Console - Neon Red/Neon Blue with Games",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/880061875926?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJFE9HDM0QQQFRQF25X&hash=itemcce7c686d6%3Ag%3AQ0IAAeSwrBhq42yk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8NwJDh02%2FQ4MWrksYCT7Rfbqv%2BNNOYkbz8kGf%2Bzr%2BHAGtiWbQZ9uUUDa8ihoYUDQHRJBBSomgm4IOZXdiNaPz1vIuNyOmM6UBMms0uNAL5eCInSW1Ta%2F6rlHdZEle7gl7Hn%2BFiDa21IWJmgWJ5dT8zoWUKMwwcbicYR681qSVnynVQFV86xSz4eAp2m3BleBjcouFx2pVDD0lHE%2Bles5m%2BKHCqhFAlSBPY2JKdEwoPtg3MhhPSqGl%2FlAWlnd6U0HyDUUiHBAHt%2FRl0%2FHgfzL7KTUpFLNsLfP0TOUAl4zs5zrhBT0TglWI%2FB0aE9QUvVMM%3D%7Ctkp%3ABk9SR7Sp2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880061875926",
+      "product_id": "880061875926",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$179.00",
+        "extracted": 179.0
+      },
+      "shipping": {
+        "raw": "+$9.66 delivery",
+        "extracted": 9.66
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Q0IAAeSwrBhq42yk/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Nintendo Switch Animal Crossing Locker Find With Super Mario Case NO GAMES",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/920091176957?_skw=Nintendo+Switch+console&itmmeta=01M6AVPAJFRCEGTV7YFBBFD53G&hash=itemd639b52ffd%3Ag%3A3hkAAeSw9tNq5gqQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde822VQzT7yVwDaChaHD7%2FNCNkeCKF9ZNXBHVvs%2FQWPih%2BIDit5bQDwE6Ecz1ySdPkXtqQjU04Oi2YewiZSfzbvesTjSGcvJK%2FiYqJyGMb6Jr8liTURjLnNpmyHjwjgXH5Q1w4mLwaf%2Bz8QnMzkz%2B%2F9tIqGcZFoHc%2B5zdN0jfyGDJbB0dRuWvFja53a4DAnLU16kSKk9wgtBMeGBOJVgLuTfiZpsqfq6Qe7DEKGIpM3ktqkgo100EriZBSVCnZTj1ShylYeGK5p4UrMn8BVMwkkmAIZeySCh5pTxoX8Cdxb4bD06yHhfeMQ66mHME2iRWrY%3D%7Ctkp%3ABFBMtKnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920091176957",
+      "product_id": "920091176957",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$139.99",
+        "extracted": 139.99
+      },
+      "shipping": {
+        "raw": "+$12.05 delivery",
+        "extracted": 12.05
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/3hkAAeSw9tNq5gqQ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Nintendo Switch Console Bundle HAC-001 Red/Blue",
+      "subtitle": "Nintendo Switch \u00b7",
+      "link": "https://www.ebay.com/itm/940055486962?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPAJG2VYHW21FRHW45HBT&hash=itemdadfac61f2%3Ag%3Ai-AAAeSwwgdqx%7Ef6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BeHTehbVgRj8X7GGahWBM4a4morTwOT%2B41E3wh%2FPaTZpUPsQk9nRq94thtJ2DngrNPzRPcCbNx6gt3lPRHsZyV3KA74%2B0RJwvcSW7ZSo5EXsbGuUiNVc3NG1lKR7a0RamhHxY93wLqpGTpDw74%2BEvDQ9xAdt4XkjQHSmlg3321F%2FKl17j%2Fq0WHVM2G3d531%2FfvMbRDmtNC5XOUhjcObbqHJx%2BoLxtJ1Qeb7ajvN3Dqzq9RWvHqCEK91d9a5DGTjLhgHTvmaLvxFSPKarzfDdjfesp%2Bzf0zjb9InfAzSQBaYhIQe7FL0xhD9us4xmS9yWo%3D%7Ctkp%3ABFBMtKnZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940055486962",
+      "product_id": "940055486962",
+      "epid": "16029037217",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 550,
+      "price": {
+        "raw": "$154.99",
+        "extracted": 154.99
+      },
+      "shipping": {
+        "raw": "+$17.00 delivery",
+        "extracted": 17.0
+      },
+      "location": "Located in United States",
+      "promotion": "$139.49 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/i-AAAeSwwgdqx~f6/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Picked For You",
+      "subtitle": "Top selling items from trusted sellers | Sponsored",
+      "items": [
+        {
+          "title": "Nintendo Switch Console HAC-001 w/ Joy Con + Dock + AC +HDMI [Ship From US]",
+          "link": "https://www.ebay.com/itm/276455280375?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANN8P5JE8XX7MN0D21W&hash=item405e04cef7%3Ag%3AG6QAAeSwN8dqC7du&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BZYUCPSnAOPcAd34RXKfHti9hhrVg6kjGWgROusazDEI99sFl%2FNNwke8XCzQPxjvO2mYU3QB5li6viVAcOfPvmhdhW6iFDR2Xk%2BaFM4hMQ3G608dq%2FiXt5QFgoZzoBHsUIunmIv51VsyVLYboXAX%2FFwg%2F0CtvAFo%2Fv67BjrgcmTr4JfnhRV34KnG4uWsgYYGnNPb0zzIBPuAMfYwAXEkWX86C6WJWrB4Xtx--%2F58NjgvA%2B%2BuOo7L7oNF1MUH%2Frw7w%2Fr0fB%2BrGwWmo9JJEyIMEZ2PaQLunTdhXI9aemOJkmzABoAeb0sy4yukvrP0Z8mY0%3D%7Ctkp%3ABFBMjKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=276455280375",
+          "product_id": "276455280375",
+          "price": {
+            "raw": "$159.99",
+            "extracted": 159.99
+          },
+          "quantity_sold": "2,673 sold",
+          "extracted_quantity_sold": 2673,
+          "thumbnail": "https://i.ebayimg.com/images/g/G6QAAeSwN8dqC7du/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch 32GB Gray/Gray Joy-Con Console TESTED Some Signs Of Normal Use",
+          "link": "https://www.ebay.com/itm/267829177084?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPANNMWJ1AVJVCYZ2D6EV&hash=item3e5bdceafc%3Ag%3AipAAAeSwgfhq5jl1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZDvp9rnF04A5gq0YpVZnGuJKFxPXHbUM5kh1%2B%2FYzYIofgA%2F9Zb28Pi3ZFzxoD4THZRG5ksV4WdpWGGqkN4JsDnOJBdkDNxt39Pckoduo%2F3NijwZZvxGD2ffpAYN8ihJP4ztnGQhPDOYZfDeEIWswf%2FY14SYKDj3HO9i80vUowZ3RqmlsZFSI8GYfoM8NPrdRjKNBtPGlS7Mr6qipYd81JbbzPMQ9wAbcokalvm0kaX2%2BFXfPXMjFNJJUK4VLVhvXqzD7jzd1N0o8HnTwSugjh6cfvM5tw77NoVScoFsuPxO%2BkyDF4nXTmPGdAwZaJoiM%3D%7Ctkp%3ABFBMjKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829177084",
+          "product_id": "267829177084",
+          "epid": "16029037217",
+          "price": {
+            "raw": "$129.95",
+            "extracted": 129.95
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/ipAAAeSwgfhq5jl1/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch 32GB Gray/Gray Joy-Con Console TESTED Some Signs Of Normal Use",
+          "link": "https://www.ebay.com/itm/267829281456?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPANN3XH4F19ZJNZDD1C5&hash=item3e5bde82b0%3Ag%3ANBMAAeSwuM5q5mP1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B6VmNwgPDZUx5ltQT5isA%2B6ep1yETUhBS1YEbeUI8Vqn%2B6kYrmEJlcePoJeBlKOkVwCVxRa7c%2Bq4YlSsHs6mHDOTrQ7v4GsfIby7KqBFftZ7TXEOeS61nsUJzKPDcFWoflxO%2Fco9kBX%2Ba0k%2BvwuhFsVHIihP9tiGP0WobJHPixqq8Vf%2BdlkYTgansvkQEPl4Wtvls16KxnYTzF%2BHKCqCqODQNoLs0tXuQJ9FOP20HRkvp27l9LGF9dJQ9h6019MMyfJx8nlnrvnvgDkES4AnUSZXGSMXSxcbgCnjMVe5CCOjPTN90LShFgl7eLyab04hU%3D%7Ctkp%3ABFBMjKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829281456",
+          "product_id": "267829281456",
+          "epid": "16029037217",
+          "price": {
+            "raw": "$129.95",
+            "extracted": 129.95
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/NBMAAeSwuM5q5mP1/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch 32GB Gray/Gray Joy-Con Console TESTED Some Signs Of Normal Use",
+          "link": "https://www.ebay.com/itm/267829185178?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPANNEE4TMZBB2SF4WJWP&hash=item3e5bdd0a9a%3Ag%3AlcgAAeSwVixq5jyZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FGnE6YgnGIXHQ%2FpXhG7ytXZDtI8rQTwKFBhk6Rq9OkLJy0hnHovEt%2Boz4r7dIMvSgOYkBMq7GkGeHyBhKyjWdk6FDYvjQPVq8h7iVRlGE3x6PoWgX1WzCCJkfYmc0N2%2By%2FoeQHFemLMar2JEhrdp%2B8VI1jyz5Aq65Fe29QRQuG6FakXo4NmKFObu9tilZYtIvWy1WBHk2HLONaM%2F7Bolb58Y%2BQ1kVGFnWkpaYbzBt1vxLrHQjBkjcPNrqT03U7frSMMqOQrEnmL6FDApBI4unAJxVmvn231LLH3u0Ek56hZvAFPz%2B%2Fm40psdU4VtOkAOI%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829185178",
+          "product_id": "267829185178",
+          "epid": "16029037217",
+          "price": {
+            "raw": "$129.95",
+            "extracted": 129.95
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/lcgAAeSwVixq5jyZ/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch 32GB Pink/Neon Green Joy-Con Console TESTED Minor Signs Of Play",
+          "link": "https://www.ebay.com/itm/267828606477?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPANN78HJ15M8WTAB4KW4&hash=item3e5bd4360d%3Ag%3AuB8AAeSw5Wlq5T0q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9OGpmx97MPj9dGhqAYiakMFCJIjpbTkbfWRkLIiYn0Jicz%2BuKdfTe6M23IJY7%2FVjGRH%2BOJjhy0M3NmeLxzaEXiBZvb23XCW2%2BEmyavfx2rX5fpv%2FOvZhcJZ9xV1rRwkGRhOBXKm9u%2FHcxLM%2Fowv9jD5xHQzXMV7JCEn8%2FXtP4y2qYRN26QKPwma5UJtW5yBAFlu%2BT7IVd%2BwvpLqZ4L1UrNfLnqQ95W7KPC2YGpbGUS9zx3hlQ6tMkilzgPLegS%2BKmTxGpsjxu5NW39SIR3yr%2Bj9ln%2B3v4dtfhiYp5otC216mc7LJ5eqebrItX1OrZB2D4%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267828606477",
+          "product_id": "267828606477",
+          "epid": "16029037217",
+          "price": {
+            "raw": "$129.95",
+            "extracted": 129.95
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/uB8AAeSw5Wlq5T0q/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch OLED Handheld Console, Pok\u00e9mon Tournament Hori Controller & Accs",
+          "link": "https://www.ebay.com/itm/407329718877?_skw=Nintendo+Switch+console&epid=10048191653&itmmeta=01M6AVPANN4PSM74JDEGDVTWTG&hash=item5ed6be425d%3Ag%3A2OAAAeSwmR9q4%7Ejg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9nYZKYCvuzqy8eonODpS3r%2FfTQe1DuJw%2BpSLR%2BTGsrgILmHEqbY0Dh%2FDNPrpKVbynEarDq3pSU8AJ6Ne%2BtUbKQD9h2lPNnXi2opCyeFAnqtzpgzLq3ciBZnWeiG9oRXK1g--jo5qXQ99DgBhM2rraXN9jztdNsbsu8TH1Ct4bS7%2Fe8mPsQkA88BXcHYKMv7LwvlbiWjZwl8NnurNongaX2tGHH%2FEp%2BF2A4HQqgEK7Krfi68Tyip69JvLP1qerNAsqc5hz56YIKaCbiD7587wBssQXIgCRQcfbKLbfHPKogXtLfMpqL%2FqLLSZvjq5m0U%2BY%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407329718877",
+          "product_id": "407329718877",
+          "epid": "10048191653",
+          "price": {
+            "raw": "$200.00",
+            "extracted": 200.0
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/2OAAAeSwmR9q4~jg/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch Console w/ Neon Blue, Neon Red Joy\u2011Cons - Import with US Plug",
+          "link": "https://www.ebay.com/itm/287653681566?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPANN3S5DASXZC876WPEX&hash=item42f97ed99e%3Ag%3Al%7EgAAeSwu%7E1q0yaT&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8nNggSoWXmdaN0Y3loLfo7Uww9x4HkLl0hfvIerpxUanxoDs03ZqcVm7PuElAEiXA1SwY90Pxkm%2Fuccx2A%2F9swJ98EUAtczo9U2EbhQRVG50K69vSZvZQfoikQEoHelch%2FJvlZks%2FMS8ZZLA79z7w%2F0g88P9EbNu8ecyh1HZb3qkd15ViZKg9BV4eWCnUpCI%2FzS%2Bzfqr7zSUoS0Vmbe1%2ByRtFKEBGsApSKFKwoekbaDa85oHyIFL%2FdVxGXN44x4WhwmnbIgiVkQ7%2BdqH7r3Un1qc5TyoeqeRT4GEOd4L7flQ%3D%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287653681566",
+          "product_id": "287653681566",
+          "epid": "16029037217",
+          "price": {
+            "raw": "$169.00",
+            "extracted": 169.0
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/l~gAAeSwu~1q0yaT/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | Sp\u061consored",
+      "items": [
+        {
+          "title": "Nintendo Switch Console HAC-001 w/ Joy Con + Dock + AC +HDMI [Ship From US]",
+          "link": "https://www.ebay.com/itm/276455280375?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANMSBZAMSEFQ2K3MVB9&hash=item405e04cef7%3Ag%3AG6QAAeSwN8dqC7du&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BZYUCPSnAOPcAd34RXKfHti9hhrVg6kjGWgROusazDEI99sFl%2FNNwke8XCzQPxjvO2mYU3QB5li6viVAcOfPvmhdhW6iFDR2Xk%2BaFM4hMQ3G608dq%2FiXt5QFgoZzoBHsXDuHF0%2FXC%2FS6GCnPbNW0VcPSgS7mLKpYbj5%2BDVy%2B%2B1%2FhVVRHnpJ7aNuFYuhh0VAA5jtaYGwJ%2BfKKpIhFCUyLxYhcvCBZZS4IJBK5v8gKSUMIoccMgmdSTF1uh8C4Q1R6Xavay9YhaftGMpiSlghsatsDIP6cOxx%2FmPDjoJk5tfYGJIm%2FpwieNBK55rLTNv5ok%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=276455280375",
+          "product_id": "276455280375",
+          "price": {
+            "raw": "$159.99",
+            "extracted": 159.99
+          },
+          "shipping": "Free delivery",
+          "returns": "Free returns",
+          "quantity_sold": "2,673 sold",
+          "extracted_quantity_sold": 2673,
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/G6QAAeSwN8dqC7du/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch 32GB Gray/Gray Joy-Con Console TESTED Some Signs Of Normal Use",
+          "link": "https://www.ebay.com/itm/267829177084?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPANM584JAZCCZZX9NHAB&hash=item3e5bdceafc%3Ag%3AipAAAeSwgfhq5jl1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZDvp9rnF04A5gq0YpVZnGuJKFxPXHbUM5kh1%2B%2FYzYIofgA%2F9Zb28Pi3ZFzxoD4THZRG5ksV4WdpWGGqkN4JsDnOJBdkDNxt39Pckoduo%2F3NijwZZvxGD2ffpAYN8ihJPqVyTpm28JF89e8rf9%2Bi22C4oijxFT6TpZFH1pjuUsewpBLYIJxsDAQ8dhTzzVLjSXWVh0TRhIFal430PZ1ApkZxmLk5ln4cSO%2FtD4vcYbgWldpbZkQsZhKWEBzspGDJKpiR5stI9P%2FIF5o%2Bnwd82tnj4K%2BQWa4KdGox3NUH5w16FvDSuI%2BmKHx%2BP6sieIYSc%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829177084",
+          "product_id": "267829177084",
+          "epid": "16029037217",
+          "price": {
+            "raw": "$129.95",
+            "extracted": 129.95
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/ipAAAeSwgfhq5jl1/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch Handheld Black - Includes charger -Used Great Condition -",
+          "link": "https://www.ebay.com/itm/227573133165?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANMEE72NWX48YF3ZB7A&hash=item34fc6a6f6d%3Ag%3A2UAAAeSwxvlq1S7l&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B79Ymd9x0E0lYYRp%2FOG2Zp8QJd0gEbNye0J%2BZGK4sxd1Lw3l37a0u%2BOzvn4pumIbZWLdPhNtv70RDteH6uLwlnT%2FgChupNsnYioyqNO6ejsKeTCIOj604iuQ0KkLUpciylXZbDXR%2BbNZTHux57vD5JC54u7MGONzJd9DS3Peg2gmc3YQRnZ584GvNLUk3DwNpfKyHYo6UsL6YhOSd5s3RzjVJkJ5SE2OxKbGmFunwhjFfzhDHogbtIixrR3HpkhtLFwzCbLMcmIuZQY5yZYCTdmhqXoLUHal45bV5%2F%2BibBIw%3D%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227573133165",
+          "product_id": "227573133165",
+          "price": {
+            "raw": "$119.00",
+            "extracted": 119.0
+          },
+          "shipping": {
+            "raw": "+$15.00 delivery",
+            "extracted": 15.0
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/2UAAAeSwxvlq1S7l/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch Console in new condition with game (Read All That Comes With It)",
+          "link": "https://www.ebay.com/itm/960094035033?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANM6TESBE6TEPY2PXHH&hash=itemdf8a105c59%3Ag%3AQN0AAeSw2ZVq2AGK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fywq4Usb%2F%2BcpM4AA5dWkCGDuheEzNq1AK49LDEJSeUe1ySv3x8%2B9UlX3TKLiNf%2BkZl7sFzD%2Bk%2BHblrrTg8taUi5mCm7klLOA6FC2y0U%2BoJgwcK8EGgDcn80VuKahOlkOW4KsZxOvREWjG0IohhfNDVdF0nuHR0hh7XZuKEZ8lcXRtyHFMeldY96CBRCB4ayTG9ZkTwjX3lPGI%2BpqPNewhyYiTZJYmcx%2F9EiLjSBq00wvBYZ1GO5zOUzB%2BSJa0Dzz4Y1sID6p4N5B0OojhHfOr5APTRyFf6x4khtiWtPCkUYCCbrmErTGj1E1H01s%2BsFMY%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960094035033",
+          "product_id": "960094035033",
+          "price": {
+            "raw": "$260.00",
+            "extracted": 260.0
+          },
+          "shipping": {
+            "raw": "+$23.71 delivery",
+            "extracted": 23.71
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/QN0AAeSw2ZVq2AGK/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch Console Bundle HAC-001 Red/Blue",
+          "link": "https://www.ebay.com/itm/940055486962?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPANM84TA2NWVV42T2GWV&hash=itemdadfac61f2%3Ag%3Ai-AAAeSwwgdqx%7Ef6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BeHTehbVgRj8X7GGahWBM4a4morTwOT%2B41E3wh%2FPaTZpUPsQk9nRq94thtJ2DngrNPzRPcCbNx6gt3lPRHsZyV3KA74%2B0RJwvcSW7ZSo5EXsbGuUiNVc3NG1lKR7a0RamUddhAVoe9R3r2NCV%2Fqehz4cUvkrzXKotIFwsyVhYCXUdlFipEh8f0IVr1j%2BkvIwGQ9fp5Dbx9DONE6dxCe6E2LUbt7oIW%2BD%2B0l4VCb79og5%2B8o8RK24WlFK29ASsALgZB3Jkjn7E6cSWHfqWvaN0sw8%2Fg8XProrHL37rcFuZ%2BAHyXd%2FAt1oJMCYI0vVT18I4%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940055486962",
+          "product_id": "940055486962",
+          "epid": "16029037217",
+          "price": {
+            "raw": "$154.99",
+            "extracted": 154.99
+          },
+          "shipping": {
+            "raw": "+$17.00 delivery",
+            "extracted": 17.0
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/i-AAAeSwwgdqx~f6/s-l500.webp"
+        },
+        {
+          "title": "Lot Nintendo Switch Console Gray Joy-Cons Drift, Power Issue, Nitro Deck, 4 Game",
+          "link": "https://www.ebay.com/itm/236866015649?_skw=Nintendo+Switch+console&epid=14057526987&itmmeta=01M6AVPANMVSB1Q7FJSQHEGNXG&hash=item37265091a1%3Ag%3As2IAAeSw2PhqJuch&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2By1cXhUcJpGwNJRAA3dgmptyz6uWbJnDKdA0l5xY3uaElHdGNI29%2BUJeW8%2Febgc5u5Q7AKoxvOkrXUrrqCbR94LRZE9nQZ65TMawtbzDTty5dWok1GSeTPuVa0lePLf8YgwsoRASn0EjHTr%2FUK409UgQt9ZTJu2jzez9qH%2FowFvck3Gw8acFILS2v2pn4AIxA5sbjA2hW%2FsSd7IYb2GOKYfShWlrMgI5015BSWUAO2kwzazPJUi6SjbSzFIQPT%2FaBm9Y2ng%2FcvXOq7NOy807aLLLnuNlt4pls9h%2FuLULrWsVj72LLedB2sWE5PPWA330g%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=236866015649",
+          "product_id": "236866015649",
+          "epid": "14057526987",
+          "price": {
+            "raw": "$160.00",
+            "extracted": 160.0
+          },
+          "shipping": {
+            "raw": "+$11.07 delivery",
+            "extracted": 11.07
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/s2IAAeSw2PhqJuch/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch OLED Handheld Console, Pok\u00e9mon Tournament Hori Controller & Accs",
+          "link": "https://www.ebay.com/itm/407329718877?_skw=Nintendo+Switch+console&epid=10048191653&itmmeta=01M6AVPANMQT7HPKGV48XX9VXV&hash=item5ed6be425d%3Ag%3A2OAAAeSwmR9q4%7Ejg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9nYZKYCvuzqy8eonODpS3r%2FfTQe1DuJw%2BpSLR%2BTGsrgILmHEqbY0Dh%2FDNPrpKVbynEarDq3pSU8AJ6Ne%2BtUbKQD9h2lPNnXi2opCyeFAnqtzpgzLq3ciBZnWeiG9oRXK1g--jo5qXQ99DgBhM2rraXN9jztdNsbsu8TH1Ct4bS7%2Fe8mPsQkA88BXcHYKMv7Lwgqh1thEeoVmjcA1IPFoPPuovTx%2FinwviZl%2FKxOzPsGj3rLWOY%2B2gRLITZp5vqKy38l5h35f%2FFql0me1iHFwHUER%2BJ%2B9pXKZ2UHEAj7WW13kroOewMFiu9KeoFWM8HYlw%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407329718877",
+          "product_id": "407329718877",
+          "epid": "10048191653",
+          "price": {
+            "raw": "$200.00",
+            "extracted": 200.0
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/2OAAAeSwmR9q4~jg/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch Console w/ Neon Blue, Neon Red Joy\u2011Cons - Import with US Plug",
+          "link": "https://www.ebay.com/itm/287653681566?_skw=Nintendo+Switch+console&epid=16029037217&itmmeta=01M6AVPANMCFRD12DXYHT6SBJV&hash=item42f97ed99e%3Ag%3Al%7EgAAeSwu%7E1q0yaT&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8nNggSoWXmdaN0Y3loLfo7Uww9x4HkLl0hfvIerpxUanxoDs03ZqcVm7PuElAEiXA1SwY90Pxkm%2Fuccx2A%2F9swJ98EUAtczo9U2EbhQRVG50K69vSZvZQfoikQEoHelch%2FJvlZks%2FMS8ZZLA79z7w%2F0g88P9EbNu8ecyh1HZb3qkd15ViZKg9BV4eWCnUpCI%2FQrOJtGBHz2%2BxmNDyt6DpOXWDORRc%2FXPILvehqrgiCXtuJAAD5tVsuOhjcDb8N8uo0qEKztLQOOQwT%2BniS1GDdViU2zRicimq%2By%2B1XQQX7%2Fg%3D%3D%7Ctkp%3ABFBMkKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287653681566",
+          "product_id": "287653681566",
+          "epid": "16029037217",
+          "price": {
+            "raw": "$169.00",
+            "extracted": 169.0
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/l~gAAeSwu~1q0yaT/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch - Handheld Console System - Great Condition",
+          "link": "https://www.ebay.com/itm/227586333203?_skw=Nintendo+Switch+console&epid=10048191653&itmmeta=01M6AVPANMWE366V4X3C357CGX&hash=item34fd33da13%3Ag%3A2ioAAeSwZypq4T96&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BJKtN6jurL44rTgOgohRB%2BDww8PUK%2B%2B1DZLwFAOz4jVk31pEjlah7L9IMVdSyP%2F2fEfkx9xF7FaLmq54bXL2zBQVFd8xagwk4AlLknc6bOEDlAC0gwppdXwEe2Hdw5DIIpKRKb7WRcip6bveTXzkwkourtSsbyVpjdV60DGfe2G9yR6fMPYk5Ej%2FH3uWBlq7OQ%2FO%2FvqosGHaJXN%2BfqrkDHm%2BI%2FDAVq6LvqAOfwZIH1XFM3Su5RMSTRn6B6B67YSFzzxAt%2BliCe9%2BGc18pVBytF7UCmqxHkaZYXCQcvMe6I%2BaC7WUDKw7y7a732opEcBkc%3D%7Ctkp%3ABFBMkKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227586333203",
+          "product_id": "227586333203",
+          "epid": "10048191653",
+          "price": {
+            "raw": "$200.00",
+            "extracted": 200.0
+          },
+          "shipping": {
+            "raw": "+$15.00 delivery",
+            "extracted": 15.0
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/2ioAAeSwZypq4T96/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch Console Bundle \u2022 Gray Joy\u2011Cons \u2022 Pro Controller \u2022 Dock + More",
+          "link": "https://www.ebay.com/itm/257616552870?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANM1BEQ4H0F8YT02S4C&hash=item3bfb24a3a6%3Ag%3AK1QAAeSwSeRqCd8l&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BcUx61pbxZ%2FueyHAXu6tV4%2FUa%2BzXA00n2cp%2BH95uUT08B3vklvhdOLle1VFV3X6s%2B8EdtVg44q5MeNXzPvcC%2FwNc2ufNuQopBmUrZB9VbDt490lS5ncQrqOcjrvXmpkzzK3QK9NFLGcx5ClFW76TpXrWmxW9tUCeHS0fmUqMDwdlR1H6LX7lPacPyY766Zv8qPquEQvh48KSg01oz1bfNiVio5Hg%2BoxG7B9tpTOK%2F5iJ%2Fy3a892cf0MZepXoXQna9ChFrMxvLj7l3MYAyfm9nxYQ%2BJNrPmileKabwBiylVWVvD3LLLzJzyAmfs9zHj4t4%3D%7Ctkp%3ABFBMkKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257616552870",
+          "product_id": "257616552870",
+          "price": {
+            "raw": "$199.99",
+            "extracted": 199.99
+          },
+          "shipping": {
+            "raw": "+$25.00 delivery",
+            "extracted": 25.0
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/K1QAAeSwSeRqCd8l/s-l500.webp"
+        },
+        {
+          "title": "Nintendo Switch HAC-001(-01) Handheld Gaming Console",
+          "link": "https://www.ebay.com/itm/267811528800?_skw=Nintendo+Switch+console&epid=23048557034&itmmeta=01M6AVPANMD8ZPG7J1DERD59CA&hash=item3e5acfa060%3Ag%3AEZQAAeSw6LpqpWZF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F5%2F2mEnp60EMHAyn8M64idhuR%2BDXdP57bIoxD5MPDugyaOypNtyhfIl8PXqmEdlKseDmyFJQH0B5UNqBkmMRfHdVTNZWlHSvYDjd1EsZa9h%2FijKYb2p9WcYln0j8RZnZTGn7J4jlc3VhN01vo4byZfqxhr3wSAtx7XvcrC0bj7o8Mjs6ZDElhDq1LCAbm7QMzbni38VbM1oVX6iLc%2FPmFQ5qK6NEIcPvIvT72W4uOe17gdW5crZZBaUwBEFO2TYC%2BBpGldU0qzeDrOZ6%2Fm14t4rkTmph2%2B3pWveqIbP%2FI%2BaoVWKu4vySrXN0OlX%2BSlV7M%3D%7Ctkp%3ABFBMkKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267811528800",
+          "product_id": "267811528800",
+          "epid": "23048557034",
+          "price": {
+            "raw": "$149.99",
+            "extracted": 149.99
+          },
+          "shipping": {
+            "raw": "+$19.99 delivery",
+            "extracted": 19.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/EZQAAeSw6LpqpWZF/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Other Popular Brands",
+      "subtitle": "Based on number of views and purchases | Sponsored",
+      "items": [
+        {
+          "title": "SONY Playstation 2 PS2 Console Complete Video Game System WORKING +2 Controllers",
+          "link": "https://www.ebay.com/itm/314088083230?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANKT2EMGBNDHDZKQV96&hash=item49211bcf1e%3Ag%3AuBIAAeSwD1Jqx5Ts&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8mE4i%2F92g7S8IAkgNGU88YHJZYevRIaLnvZ9FJHKikVMCB%2BG5%2FtYldQP7lDM7oeer0sf8ceP5MusAQFdrxLo4WGFA8LV5%2FrZW5DIydBnrfgkzDoqTBeWLJ%2Ffd6AfBJ8LeP0Xu0u3isFkR19BuYqyCeY%2FTpji9S7Z4blfKUQJSfIKZKDfDmTY3kgLFSbyW%2FaEuxlACfxKJiCshdN5cDPBAmh0lmt%2BnOJFVJn5jYHADYA8CsV9%2Fna4%2FzLI7g8uQP3lRPMoffWi9g3jqfOKKyItrV8rULRVL%2BZLaiOHQZnaRGFINvh9SIqTkI7NhqfpBqqSQ%3D%7Ctkp%3ABFBMjKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=314088083230",
+          "product_id": "314088083230",
+          "price": {
+            "raw": "$207.75",
+            "extracted": 207.75
+          },
+          "shipping": "Free delivery",
+          "stock_status": "Almost gone",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/uBIAAeSwD1Jqx5Ts/s-l500.webp"
+        },
+        {
+          "title": "Sony PSP Console W/ case, 4 games, and charger - Black - FAST SHIPPING!",
+          "link": "https://www.ebay.com/itm/158026890489?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANK3HZ3250WQC2NAQ6V&hash=item24cb22fcf9%3Ag%3A3E8AAeSw6MZqPCj5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9MCAh9bS13tmaSJ79SvEiAiU61wowRQ1JIV6Uotx4aotwazOGtYzUYgXUGf0G86zy9E7ID5KlIF8ZVO2hLj6qakvdoklXpmIVX92fdH0zl3%2B6eV556k9K2w6Iekh57nqA07yG0KnJUJrAmj%2FS26LZ3lQBXdW2SPJT9nC%2BbZ8pHo5fIGnI9Ai1TNLPUfEnavXCopfMnNr0hvDvPxy7BtdRHlLVIAAprrc60ddcfNE%2FlDsi%2BTPNMiUZuh35w%2BbGXakGLuUkQ49hftmFFwqE6KpH19HVQgRaNBvtLMymqeadMxx3WmFI1XBokhW%2FmT6059L0%3D%7Ctkp%3ABFBMjKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=158026890489",
+          "product_id": "158026890489",
+          "price": {
+            "raw": "$129.99",
+            "extracted": 129.99
+          },
+          "shipping": {
+            "raw": "+$6.60 delivery",
+            "extracted": 6.6
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/3E8AAeSw6MZqPCj5/s-l500.webp"
+        },
+        {
+          "title": "Microsoft Xbox One 500GB Console 1540 + 2 Controllers + 4 Games TESTED WORKING",
+          "link": "https://www.ebay.com/itm/880070157976?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANKXNZQS0Y0W9QJ835Q&hash=itemcce844e698%3Ag%3AJQYAAeSwVnJq5reE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F97eUm4Xkuw2lqN%2B1%2BVSyqHtLLr%2BWYiqc1JrLrdnCAsYBttI9G%2BbQ%2FFykbhvQO%2FuERFVtMskrEuM52%2Fi3Z3cIz2CHrZX5sPkn7RH4o6V1eTQRmNSrTW0AHIxIBPnXBo%2BVyBp4DyhiEu0H8KL7NzaQ5ES6L2BOp%2B1arF0Lzs7j1idQ97PPCyr8Wgyc1xpwgt%2FtKMezNQJPspsVD6Q8U16wsQ1OZwSptUReYYOlnkumqpRDAODohyO2hlNjqwyP0kuJOYUNv6IrgmPBv2NPgpaccr7iV6sC6VnVItMfUw1YFoZIRsWrNxRZZgl%2FVE5MCMFk%3D%7Ctkp%3ABFBMjKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880070157976",
+          "product_id": "880070157976",
+          "price": {
+            "raw": "$149.00",
+            "extracted": 149.0
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/JQYAAeSwVnJq5reE/s-l500.webp"
+        },
+        {
+          "title": "Microsoft Xbox 360- Black With Controllers And Games - Untested",
+          "link": "https://www.ebay.com/itm/176234838543?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANKYPDTWBMZSB7NTFAF&hash=item29086a3a0f%3Ag%3AmgsAAOSwX-hlyQmV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde99BKC4WRNlXtjlyOZ6jSEUVO3aFy9cseg8dWgJUMrZmbZgV49daMIbNPZHPZNBYa1OpLjVVnFM7gEi2v0aZeWmPpMAR%2B%2Bod4L76Hd1VkhAbIP%2BdLRegzQSQfS7nUN4sP9g2XjVfb3XdOFQ70z%2BxzSU97DTP1fMXzPwjmo8XqMOjJJ4XBae3aim%2FTLhEKRO0WEdYZzcvXI94GY6UgAEQUPUpVQQp1uHoAKdgU4Ik9IVcZUfN6%2FE%2BZWWleYOSzL%2B1g38rM7MZbzEyRJsCqMEMM1A0r1bBYUxNPD0NytKZUpl6v%2B2wdyzj7VTVPszk6Uymw4%3D%7Ctkp%3ABFBMjKvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=176234838543",
+          "product_id": "176234838543",
+          "price": {
+            "raw": "$100.00",
+            "extracted": 100.0
+          },
+          "shipping": {
+            "raw": "+$38.48 delivery",
+            "extracted": 38.48
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/mgsAAOSwX-hlyQmV/s-l500.webp"
+        },
+        {
+          "title": "Lot of 2 Atari 2600 System Woodgra Console Untested Joysticks Paddles TV Connect",
+          "link": "https://www.ebay.com/itm/178305516752?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANK8ZH827GZSRE5DR5P&hash=item2983d644d0%3Ag%3AHJsAAeSwn2JqVAQq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hr7ch0Clti8HVgmvVo9FsBnkgfAfyz95PW4tmT8LcoBg1CSIZ3efr3NIMg4xiuhblUHJYTyx9TgMEI9U0gUI%2BFBLPV3Zln1%2FsaKDGmXoiLLDdB0geTAW%2B%2FjwrYzkUOH2Wu29KKCOS7GlGUB98dRvE9FdUWSP--%2FiK5zL%2Bv6Wd2Li2aFwutwtVVRH7U90fbF7MsagBVOZK%2FvkJhgFnbnlOoL%2FgJmEmQM915praxmU5150r%2BinI3Mtd8sLzB4ldXAoDWCOJc0j4vGeeLoGLEJGEWo1qyn5w3%2Bgn4FZgBsB8hT0FjXRN%2Bs0AZWEznpyQXG0%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178305516752",
+          "product_id": "178305516752",
+          "price": {
+            "raw": "$99.99",
+            "extracted": 99.99
+          },
+          "shipping": {
+            "raw": "+$28.99 delivery",
+            "extracted": 28.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/HJsAAeSwn2JqVAQq/s-l500.webp"
+        },
+        {
+          "title": "atari 2600 console used not tested",
+          "link": "https://www.ebay.com/itm/377310123711?_skw=Nintendo+Switch+console&itmmeta=01M6AVPANK7W979T07E863G4YS&hash=item57d96f96bf%3Ag%3A%7EkwAAeSw50hqRVXL&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Fxp6gxefINaPJuPJZFhdT30JALBe5Qe7AGXCwNyA1aj4obT1GAffXrm%2F70MxZ%2BQUX7GovCRBX11pAaYe4BhEoq1BIlAiqLCRCwkxkr8J83D919PMEOc5KJiU7J2n4PcWl1FsVpuRNoKYjecUi28p8U%2Fxs18NdLm3ymT9i08boP0GXGNFgWr95BeLeUEj9cBRT9XhyThC3b3EY7GnMV%2BXnKNL1hhzKB1xzb2fKyjxcOOtP6OyLVRKgXB6Iub6cBUUHa5CPWPZHYBns5A7U8xyhNpfgGasoR%2FdAnDsZNkdmGA%3D%3D%7Ctkp%3ABFBMjqvZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377310123711",
+          "product_id": "377310123711",
+          "price": {
+            "raw": "$30.00",
+            "extracted": 30.0
+          },
+          "shipping": {
+            "raw": "+$22.74 delivery",
+            "extracted": 22.74
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/~kwAAeSw50hqRVXL/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "nintendo switch console only",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+console+only&_sop=12"
+    },
+    {
+      "query": "nintendo switch console oled",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+console+oled&_sop=12"
+    },
+    {
+      "query": "nintendo switch lite",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+lite&_sop=12"
+    },
+    {
+      "query": "nintendo switch 2 console",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+2+console&_sop=12"
+    },
+    {
+      "query": "nintendo switch console bundle",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+console+bundle&_sop=12"
+    },
+    {
+      "query": "nintendo switch oled",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+oled&_sop=12"
+    },
+    {
+      "query": "nintendo switch 2",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+2&_sop=12"
+    },
+    {
+      "query": "nintendo switch lite console",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+lite+console&_sop=12"
+    },
+    {
+      "query": "nintendo switch games",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+games&_sop=12"
+    },
+    {
+      "query": "nintendo switch controller",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+controller&_sop=12"
+    },
+    {
+      "query": "nintendo switch console hac 001",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+console+hac+001&_sop=12"
+    },
+    {
+      "query": "nintendo switch dock",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nintendo+switch+dock&_sop=12"
+    }
+  ],
+  "popular_filters": [
+    {
+      "name": "Region Free",
+      "parameter": "Region%2520Code=Region%2520Free",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Region%2520Code=Region%2520Free",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Region%252520Code%3DRegion%252520Free"
+    },
+    {
+      "name": "PAL",
+      "parameter": "Region%2520Code=PAL",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Region%2520Code=PAL",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Region%252520Code%3DPAL"
+    },
+    {
+      "name": "NTSC-J (Japan)",
+      "parameter": "Region%2520Code=NTSC%252DJ%2520%2528Japan%2529",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Region%2520Code=NTSC%252DJ%2520%2528Japan%2529",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Region%252520Code%3DNTSC%25252DJ%252520%252528Japan%252529"
+    },
+    {
+      "name": "United States",
+      "parameter": "Country%2520of%2520Origin=United%2520States",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Country%2520of%2520Origin=United%2520States",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Country%252520of%252520Origin%3DUnited%252520States"
+    },
+    {
+      "name": "Japan",
+      "parameter": "Country%2520of%2520Origin=Japan",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Country%2520of%2520Origin=Japan",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Country%252520of%252520Origin%3DJapan"
+    },
+    {
+      "name": "China",
+      "parameter": "Country%2520of%2520Origin=China",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Country%2520of%2520Origin=China",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Country%252520of%252520Origin%3DChina"
+    },
+    {
+      "name": "Nintendo",
+      "parameter": "Brand=Nintendo",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Brand=Nintendo",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Brand%3DNintendo"
+    },
+    {
+      "name": "Sony",
+      "parameter": "Brand=Sony",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Brand=Sony",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Brand%3DSony"
+    },
+    {
+      "name": "Microsoft",
+      "parameter": "Brand=Microsoft",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Brand=Microsoft",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Brand%3DMicrosoft"
+    },
+    {
+      "name": "Black",
+      "parameter": "Color=Black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Black",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBlack"
+    },
+    {
+      "name": "Blue",
+      "parameter": "Color=Blue",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Blue",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBlue"
+    },
+    {
+      "name": "Pink",
+      "parameter": "Color=Pink",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Pink",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DPink"
+    },
+    {
+      "name": "Nintendo Switch",
+      "parameter": "Model=Nintendo%2520Switch",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Model=Nintendo%2520Switch",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Model%3DNintendo%252520Switch"
+    },
+    {
+      "name": "Nintendo Switch (OLED Model)",
+      "parameter": "Model=Nintendo%2520Switch%2520%2528OLED%2520Model%2529",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Model=Nintendo%2520Switch%2520%2528OLED%2520Model%2529",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Model%3DNintendo%252520Switch%252520%252528OLED%252520Model%252529"
+    },
+    {
+      "name": "Nintendo Switch",
+      "parameter": "Platform=Nintendo%2520Switch",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Platform=Nintendo%2520Switch",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Platform%3DNintendo%252520Switch"
+    },
+    {
+      "name": "1 TB",
+      "parameter": "Storage%2520Capacity=1%2520TB",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Storage%2520Capacity=1%2520TB",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Storage%252520Capacity%3D1%252520TB"
+    },
+    {
+      "name": "White",
+      "parameter": "Color=White",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=White",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DWhite"
+    },
+    {
+      "name": "Red",
+      "parameter": "Color=Red",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Red",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DRed"
+    },
+    {
+      "name": "Green",
+      "parameter": "Color=Green",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Green",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DGreen"
+    },
+    {
+      "name": "Multicolor",
+      "parameter": "Color=Multicolor",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Multicolor",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DMulticolor"
+    },
+    {
+      "name": "Nintendo Wii",
+      "parameter": "Platform=Nintendo%2520Wii",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Platform=Nintendo%2520Wii",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Platform%3DNintendo%252520Wii"
+    },
+    {
+      "name": "Yellow",
+      "parameter": "Color=Yellow",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Yellow",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DYellow"
+    },
+    {
+      "name": "Gray",
+      "parameter": "Color=Gray",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Gray",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DGray"
+    },
+    {
+      "name": "Gold",
+      "parameter": "Color=Gold",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Gold",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DGold"
+    },
+    {
+      "name": "Nintendo DS",
+      "parameter": "Platform=Nintendo%2520DS",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Platform=Nintendo%2520DS",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Platform%3DNintendo%252520DS"
+    },
+    {
+      "name": "256 GB",
+      "parameter": "Storage%2520Capacity=256%2520GB",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Storage%2520Capacity=256%2520GB",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Storage%252520Capacity%3D256%252520GB"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=Nintendo+Switch+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nintendo+Switch+console&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}

@@ -1,0 +1,1896 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7dbc258c19be7c7c87c",
+    "status": "Success",
+    "created_at": "2026-11-01 06:10:35 UTC",
+    "processed_at": "2026-11-01 06:10:35 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+    "total_time_taken": 3.54
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "Apple AirPods Pro",
+    "_ipg": "60",
+    "LH_ItemCondition": "3000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 10000,
+    "query_displayed": "Apple AirPods Pro"
+  },
+  "categories": [
+    {
+      "name": "All",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_oac=1"
+    },
+    {
+      "name": "Cell Phones & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 15032,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=15032&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Cell Phone Accessories",
+      "link": "https://www.ebay.com/sch/9394/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 9394,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=9394&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Headsets",
+      "link": "https://www.ebay.com/sch/80077/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 80077,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=80077&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Chargers & Cradles",
+      "link": "https://www.ebay.com/sch/123417/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 123417,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=123417&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Cases, Covers & Skins",
+      "link": "https://www.ebay.com/sch/20349/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 20349,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=20349&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Other Cell Phone Accessories",
+      "link": "https://www.ebay.com/sch/42425/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 42425,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=42425&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Cables & Adapters",
+      "link": "https://www.ebay.com/sch/123422/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 123422,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=123422&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Batteries",
+      "link": "https://www.ebay.com/sch/20357/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 20357,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=20357&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Audio Docks & Speakers",
+      "link": "https://www.ebay.com/sch/132297/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 132297,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=132297&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Accessory Bundles",
+      "link": "https://www.ebay.com/sch/58543/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 58543,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=58543&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Mounts & Holders",
+      "link": "https://www.ebay.com/sch/35190/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 35190,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=35190&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 293,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=293&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 58058,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=58058&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=1&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11450,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=11450&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11700,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=11700&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1249,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=1249&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 64482,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=64482&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 12576,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=12576&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Cameras & Photo",
+      "link": "https://www.ebay.com/sch/625/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 625,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=625&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 220,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=220&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Music",
+      "link": "https://www.ebay.com/sch/11233/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11233,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=11233&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 14339,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=14339&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 99,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=99&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/2984/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 2984,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=2984&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 888,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=888&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Health & Beauty",
+      "link": "https://www.ebay.com/sch/26395/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 26395,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Apple+AirPods+Pro&category_id=26395&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "sponsored": true,
+      "title": "Earbuds For Apple AirPods Pro 2nd Generation Lightning A2698 Right Side Only",
+      "link": "https://www.ebay.com/itm/178066872802?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF47SRM7NNMFQKPV3XM1&hash=item29759cd9e2%3Ag%3A4Z0AAeSw0F5p5yRc&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FCC3NaUJgQgZGlac2L0DOJl1wyp8CO3R5zlOI9mUa%2B9DIT9B3WkFh4LuQd1CUsDxt%2Bz4P3FDzssWM9ArTx4f10O4LHsS4I7Ltp2SzKnsoChk11uC2svCpKXdq6OxsCD9EmkXuBNa7G4vy00FJ6uMLD1ukC%2FwpK0S9rdnzk8UYmRVF%2FZPD7ysJaCafgcIKi%2FYUzgyfcob0XWKz%2B8ZfkPRNLO%2Ffm8vrNbijwQu3mBIVQNwAQhkShyu1H%2BBXKV7Dnqwo%3D%7Ctkp%3ABlBMULDy2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178066872802",
+      "product_id": "178066872802",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$65.00",
+        "extracted": 65.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "17 watchers",
+      "extracted_watchers": 17,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/4Z0AAeSw0F5p5yRc/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Earbuds For Apple AirPods Pro 2nd Generation USB-C Type Left Side Only A3048",
+      "link": "https://www.ebay.com/itm/188300206976?_skw=Apple+AirPods+Pro&epid=23102643964&itmmeta=01M6AVPF479X673772WZGV3E7W&hash=item2bd7912380%3Ag%3AC38AAeSwmmlp5ysu&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Fh0yL4QkpXmlVVcFJUjJRvz%2FG%2FoAm8Svrpe9x3fCRMjWhi9e%2BN7LhcsPCJ9pjkPkkl1jTDOl5jYCrzc3DQYcCFUCg7JIHENU7xuxnK28v2SKDF7IHla%2FSl1GGB6ox9h092l5RYIYM00FaVyESxYxdmQCgauGIc1MRzmN7dTI3dGvIsXkpA71177SPp81yfdcrGSFb39DHD%2F4YjxWIltF0WjnPxyBJpFPSo%2FIE4FhY1noxEszrCiCA78BjhweIl4FI%3D%7Ctkp%3ABlBMULDy2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188300206976",
+      "product_id": "188300206976",
+      "epid": "23102643964",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$65.00",
+        "extracted": 65.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/C38AAeSwmmlp5ysu/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Apple AirPods Pro 2nd Gen A2699 Left - A Grade - OEM Authentic",
+      "link": "https://www.ebay.com/itm/256984137159?_skw=Apple+AirPods+Pro&epid=25056255340&itmmeta=01M6AVPF4735S76DXK1SKYBFWH&hash=item3bd572bdc7%3Ag%3ArAMAAeSw1INqjyYz&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde87AgPQXUQCZUfO0N8%2Bldk%2FObNSJhXctPCumV1gQ5TctgY2cZC9SF6iJOnQ5kyoa9n%2F6kzyXwGUh4Dhti3dRF38oU65vW%2BRAK7PJf1UFXvjie%2BeqyuuHSfLQRvMGfnW40zc7f7X5FlDDk%2BLC7uTXIgaZA5V01mbq2dvjwC%2Fr3sgLX2WzlMTchp5Q2WNGWeLUa6fpR%2B3pO%2FSh%2FmCBfTNFP%2FfsElgQWItDTfrLmAkVNVIB34ItmI%2FWCkxnTuy3RmOzeE%3D%7Ctkp%3ABlBMULDy2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=256984137159",
+      "product_id": "256984137159",
+      "epid": "25056255340",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 559,
+      "price": {
+        "raw": "$59.95",
+        "extracted": 59.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "119 sold",
+      "extracted_quantity_sold": 119,
+      "promotion": "Save up to 21% when you buy more",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/rAMAAeSw1INqjyYz/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Apple AirPods Pro 2 - A3048 Left - A Grade - OEM - Fast Shipping",
+      "link": "https://www.ebay.com/itm/257228357617?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF47VYZ3N4HXSMDSY3F4&hash=item3be4013ff1%3Ag%3Ac1UAAeSw5RdqjyAQ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9d0zOrLFKynNg8t2n6vbFYqmHOpg7egBGezio4kmHqsu20wOfIAnS%2FVQwlyI7hSvFYYmAbJF%2FaE6JdcmkkDsjVDhdkgtvH4P4ueM5tZKOnTozfJSQjl1oYUFn1jE%2Bj%2FosSU4AX8hMo69dT9ueM39BJzFu%2F1QO9YJ3XMHL74xOBtgnwf7lYvBmYj8%2BQMSyewv55QbBiLnzNoblwHRRwuz1nzA0MbCRCqI5Fgkj%2FUkpQL33Qel%2BjjilKu%2FttKHUXuPU%3D%7Ctkp%3ABlBMULDy2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257228357617",
+      "product_id": "257228357617",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$58.45",
+        "extracted": 58.45
+      },
+      "old_price": {
+        "raw": "$64.95",
+        "extracted": 64.95,
+        "discount": "$58.45"
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "270 sold",
+      "extracted_quantity_sold": 270,
+      "promotion": "Save up to 21% when you buy more",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/c1UAAeSw5RdqjyAQ/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 2 with MagSafe Charging Case USB-C | MTJV3LL/A - Fair",
+      "link": "https://www.ebay.com/itm/128098965723?_skw=Apple+AirPods+Pro&epid=21065842619&itmmeta=01M6AVPF484K40KGVYZS8H9V44&hash=item1dd34b18db%3Ag%3AaXcAAeSwXm5qtwBm&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Nd7Sla77oC3gxO0e2HhpOHwPa4GOUDy%2BxN4rrCgnbwW1nURlNtQVpGh0f9dujDwGzCLTGOOG7XuPfSS7oZElht8wcjzPGhidemEtzU%2FZps6KrGk0RFxmF7teSx9RYfScFO%2FtZFiEDGNx9BuIJSQmy67nJzbuWaqiSzok5E9CaC3%2FQlT1TKDAuNU6CPDb4ydvO9Io3LUjSfafOOwtELxZrn2hEk9ZOLhzQWqptBf6TD5cVVZhedKE6d9AXW3%2B4rJQ%2FldlpaTo1elUzEKkX9BG0RsicOyJs0eqf4deMDWd9%2FA%3D%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128098965723",
+      "product_id": "128098965723",
+      "epid": "21065842619",
+      "condition": "Pre-Owned",
+      "rating": 4.0,
+      "reviews": 5,
+      "price": {
+        "raw": "$95.56",
+        "extracted": 95.56
+      },
+      "old_price": {
+        "raw": "$249.00",
+        "extracted": 249.0,
+        "discount": "$95.56"
+      },
+      "shipping": "Free delivery in 1-2 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "35 sold",
+      "extracted_quantity_sold": 35,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "extensions": [
+        "Direct from Verizon"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/aXcAAeSwXm5qtwBm/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro with MagSafe Wireless Charging Case - Grade C",
+      "link": "https://www.ebay.com/itm/940036697201?_skw=Apple+AirPods+Pro&epid=21050834847&itmmeta=01M6AVPF48NGWGH83N6GSHSAC2&hash=itemdade8dac71%3Ag%3ApI4AAeSwxBdo7scT&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2B0hKmrnDG%2BXgz%2BR15YhZwrVECG%2BjMrQWVEjxGQRL1td%2FOl4ezkIz2jJMdmEFMfkD%2BDOyvhzdIc3N0GfIIsGHPyCuM2m5YS%2Ff1gh5ThnRfq22gMKJIuGgZDxTJ1oO72rk48VB0co1%2BFyWMoX0VA4XkiLxt6%2FF0c%2Bcd9lboh%2FnLYQxJjou4rBMCKTC1RV7quqn5%2Fo2LSTprAlBq8dYEvmDALXUYqZ6jlXd1ZIDmo3%2BMlD5ZZ3SMFr1WtuA%2BebMpCkWA%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940036697201",
+      "product_id": "940036697201",
+      "epid": "21050834847",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 308,
+      "price": {
+        "raw": "$57.00",
+        "extracted": 57.0
+      },
+      "shipping": "Free delivery in 1-2 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/pI4AAeSwxBdo7scT/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 3 with MagSafe Charging Case USB-C | MFHP4LL/A - Fair",
+      "link": "https://www.ebay.com/itm/128098965722?_skw=Apple+AirPods+Pro&epid=13086701770&itmmeta=01M6AVPF48A3493C00M7XBBEWP&hash=item1dd34b18da%3Ag%3AXwQAAeSw0jJqtwAj&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Fxto0jSeZuo5jUE8F5wXwQuLsD0LgnQ49TPao%2FFkPY4xlfuGjnqZ%2FEFJKnBUhUJo6%2BQQIdvjc2bcP%2BGhPh84r0s66zlZaGFRUppRCOkgS2DZfnJVn%2FRfUsOpajO0rO0clCMITzCYPU32g23OUNwS5ikApZdXPlS6JiHoGrRRetfiT8WHfNVR49PXVAIxWksjAoRUL1St6Af9t%2BvJ4HWdYrZtitZiiFUMaWvcopxOPOeupdjcbHXES6OpAA8z1e3mVLMU4YMk14gTNvhByWav%2Fq1XHUHyUZF2oKz3iH6frwRA%3D%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128098965722",
+      "product_id": "128098965722",
+      "epid": "13086701770",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 11,
+      "price": {
+        "raw": "$133.86",
+        "extracted": 133.86
+      },
+      "old_price": {
+        "raw": "$249.99",
+        "extracted": 249.99,
+        "discount": "$133.86"
+      },
+      "shipping": "Free delivery in 1-2 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "82 sold",
+      "extracted_quantity_sold": 82,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "extensions": [
+        "Direct from Verizon"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/XwQAAeSw0jJqtwAj/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Apple AirPods Pro White Wireless Bluetooth In-Ear Earbuds w/ Charging Case",
+      "link": "https://www.ebay.com/itm/168829666352?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF48QKC7JXDAJ2Q15AH0&hash=item274f084430%3Ag%3AFpEAAeSwtgFq5qVN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9R%2BiSPTzspsyeYGFVOx41XG4Yqd47CH7EwoNO04ATfXbHXRif6MvrTRgEcdA3Bqfh6t7QneWv3cjon88q8OT%2F0tGoRlo%2FQBumi5mbK4HdkSTZW9pXqHgAPE1VUlugFW0c1JzBCRHecbwwsbxOYZpXzd660OP9G2XtWfJMC6Mk5K54%2BkAWIc2M7oG2bJ8zP%2BC3fElO0PSvzMSI44IS%2Bj80eHrO42UT%2FaJ6o6bHOTOQQ8dCTxPs1KcT7ZlspvQitx7vsCpOpw6meVjP8q6tUYFR2Z0ueUJ9E6RnCxCKk9QrHOA%3D%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829666352",
+      "product_id": "168829666352",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.00",
+        "extracted": 24.0
+      },
+      "shipping": {
+        "raw": "+$6.06 delivery",
+        "extracted": 6.06
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/FpEAAeSwtgFq5qVN/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro White Bluetooth Wireless In-Ear Earbuds (read description)",
+      "link": "https://www.ebay.com/itm/860092888981?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF487C4CETAH7MW5J63Y&hash=itemc84187f795%3Ag%3AHOoAAeSw6k5q4lNV&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9YzS6fXSW8%2Fk9AmE44ku4eYHgF1N1vacpIOxC4Bboy3oXlnRqyKBguQiCUb45AUVf2L1%2FN7mFitxasE4Zd3yDDqcEB7%2FQteNKobxL6%2BH5DN40kwh6Hj0LEiEbMpfBm7i%2FENQXOWsDxNYjyS%2FBR09U636owXBppdR7QwcXFAGchzfGHIN9BN%2F29vlqFHFDxI5nFA3Z1OLcbVsobiwRt2dDZbXCRPZ3JO973AVuzSb%2FzmTEOuik1S1RkBQoEYGEBRC5PnlBz%2BCEyFXLS0GlUftcSmhjNbiikipIcxFuE%2BPVTOw%3D%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860092888981",
+      "product_id": "860092888981",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$15.99",
+        "extracted": 15.99
+      },
+      "shipping": {
+        "raw": "+$6.87 delivery",
+        "extracted": 6.87
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/HOoAAeSw6k5q4lNV/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 1st Generation with New Ear Tips",
+      "link": "https://www.ebay.com/itm/158251402213?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF48RACA1HM7EX83NNZ6&hash=item24d884c3e5%3Ag%3A60wAAeSwC%7EZqUpdL&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8GZUCUj5bl1Oaiiq%2BkknfRcZXjjtqMYXqq6hr5qjTeBh0A9U%2FfVyhZ3rsn5jvmPR7tH1HAajLdnInpH7GrafHh6n5YLMDx1dkU9vTczia7OTwaqfpd9r88Oivjo3LnLkV%2FQT3fhJ%2BzBhN%2Bo2jvvtcacTJ96ijDTV%2Fq1eEJcN94A8XgWfGxUDCuSM0ie6rTpIMnjVMs%2BF%2BodoRXVWa4yYLz%2B0jJCcccZPhsxXhS6z7Qucjrmvu%2BdK2ip1sW5l4JHgE%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=158251402213",
+      "product_id": "158251402213",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/60wAAeSwC~ZqUpdL/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 3 White In Ear Headphones MFHP4LL/A",
+      "link": "https://www.ebay.com/itm/116859490000?_skw=Apple+AirPods+Pro&epid=9089439761&itmmeta=01M6AVPF480GMP5EJRHHPWS2JV&hash=item1b355e4ed0%3Ag%3AX6AAAeSwXYRq2oYl&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BWjZiM81BRm%2FYDJQXhUBFWYmIF7z5bZa%2ByIsMzBCXWKJJYSNZH%2BnW4UQzWVHUZIQdja5O2grErAnc8TcXA9SeQDSztMOmeSI6F2GHSQX9RMxtNbmC6pbRvH64sw0msHo5DzvuKMwbzUt7NQo94pNprU4uuPwMxn9FNPsneJaa9kKU%2Fnx98T8qx49jKfW5r5FrNRkxVYuF%2FhVRiX0tzuvDThJTBF4rITAKY9A5SxfGrpndMfn4ITK9aGNTFyrVmKqs%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=116859490000",
+      "product_id": "116859490000",
+      "epid": "9089439761",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 21,
+      "price": {
+        "raw": "$145.00",
+        "extracted": 145.0
+      },
+      "old_price": {
+        "raw": "$169.00",
+        "extracted": 169.0,
+        "discount": "$145.00"
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Almost gone",
+      "quantity_sold": "2,200 sold",
+      "extracted_quantity_sold": 2200,
+      "promotion": "$133.40 with coupon",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/X6AAAeSwXYRq2oYl/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 2 White With USB-C Charging Case In Ear Headphones MTJV3AM/A -",
+      "subtitle": "C",
+      "link": "https://www.ebay.com/itm/116396798118?_skw=Apple+AirPods+Pro&epid=28085773548&itmmeta=01M6AVPF49CVYEV3AGB00DHQFW&hash=item1b19ca30a6%3Ag%3APDkAAeSw10Jq1ljd&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FwvCXGOAqioxp3C5jIaQMDjdHnnrzvaaGdHBebiz%2Bs0WBBynY7C4EcXfr3cU%2FwZwv%2BlNI0%2FgqBHUPwMc38Lb%2FB4uVHKp9Cqz%2B2LAyqCthzUOkoza8nmw2%2BatCQR9PYStBaGq5JxaXT5EY%2BzCBI4Y%2FyttRF5HZy6v%2BmmgY9soVz2drovmAxBV3LNDQ0JOVUL47MKZmPQrpbd8hNyJoT9Be%2BiRSX%2BIqs1TyVDU2VSfp3RoSOFJ4Yu4HH87qMTDC2fp4%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=116396798118",
+      "product_id": "116396798118",
+      "epid": "28085773548",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "old_price": {
+        "raw": "$249.00",
+        "extracted": 249.0,
+        "discount": "$100.00"
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "904 sold",
+      "extracted_quantity_sold": 904,
+      "promotion": "$92.00 with coupon",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/PDkAAeSw10Jq1ljd/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Earbuds For Apple Airpods Pro A2084 Left Side Bluetooth Replacement ONLY",
+      "link": "https://www.ebay.com/itm/188874781817?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF49B496EVH2DKTSSCQS&hash=item2bf9d07479%3Ag%3AHLsAAeSwaERp5x1f&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8GIewiyJApABfUhfl83EY3cqo2GAEsEANP2DCicHLiWMFdPNBTnLi9b%2FPDVcnopoCW%2F3AxDPQfvPsVDSfph144Iglg69CJm%2BVGilXenZ7atQnR9b1TmJaAgqbf4G5MIAXu7roS3fM8SGK4SE22fzHz3mu5raLwTEJVa8a8%2B4jhvbc5TmP904WjQBZuxm8zrRjQEWpUHXKuJLzEx0BXab3iEu0oa8nfCKffOprEgPcc8aaJFpCKo2MpAfwFyxVEnPs%3D%7Ctkp%3ABlBMULLy2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188874781817",
+      "product_id": "188874781817",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/HLsAAeSwaERp5x1f/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Apple AirPods Pro (requires lighting cable) box Included.",
+      "link": "https://www.ebay.com/itm/860099019389?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF49NRG9K4YSFK5A8KWY&hash=itemc841e5827d%3Ag%3Ap7oAAeSwcChq5RqX&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Be3my%2Bk5o7nFh3q5pb6KPzeSIY%2Bm9gk%2BkkGyqRD36%2BB0ST9aExDUPa8kaS9ZPxH8JvJB4u9nUgQtNOb%2FiezuAA3DONdlQ2B%2FiZOzfwRMGJ9s76LJqvJuki0n%2F09r1D6wqO0V2Ihj7HbtNrTXYC7KxLXn8%2BUbz9lKE%2FaMtaS%2Fu2gfYMWVL5IBwaUy2G9XWHK5oCTk9wVv7JgquJ9LHJwh%2BQZ1J9Ny9V2Kq5HXPaV0oV5AE%2F5AJzX4F2S%2F%2BzsBEzi0GPWAPos%2FkvP5EC4ZNx3%2BzhyXFnnQKmwQaOvVOVFvmuAQ%3D%3D%7Ctkp%3ABFBMsvLZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860099019389",
+      "product_id": "860099019389",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": {
+        "raw": "+$6.35 delivery",
+        "extracted": 6.35
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/p7oAAeSwcChq5RqX/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Earbuds For Apple Airpods Pro A2083 Right Side Bluetooth Replacement ONLY",
+      "link": "https://www.ebay.com/itm/178066812818?_skw=Apple+AirPods+Pro&epid=15089959275&itmmeta=01M6AVPF49792ST52NY8B77D6E&hash=item29759bef92%3Ag%3AbH8AAeSwi69p5xoh&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde92V1YdsM01V4JYBijHf4mR4ifHKOiUSc0vxPOQdiscAqn5N97hxqkVLcE8J3mOzdbc5wVo7VMkIWEDru%2BtQO%2F1Zd09HAzWROB6c%2F0K3qb83RBmbsPOfY8ws1%2FP5Fa0OPkRCvCYZrMFMafZfntc4A%2BU1CFwCUjHfsCFnTuntrZEhmdEnrg%2BrkidUNTwp6QHwy9NqGT3XY4d6JGeQKauadpmsBIMVYYmFXLqVDKm%2FhGWxSyc6%2F2o%2FpsrjSLoWxtRCiM%3D%7Ctkp%3ABlBMULLy2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178066812818",
+      "product_id": "178066812818",
+      "epid": "15089959275",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "29 watchers",
+      "extracted_watchers": 29,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/bH8AAeSwi69p5xoh/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Apple AirPods Pro 2nd Gen A3047 Right - A Grade - OEM - Fast shipping",
+      "link": "https://www.ebay.com/itm/257074332293?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4909D404Q74NPZJK4T&hash=item3bdad30285%3Ag%3Aj-QAAeSwS3BqjyGV&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8O8IG1jcwCo3ayKDVdRodl1CNpYDQll3%2Fol87Grexqa1DZzKjlAW9auvEdbgcbY9tT5np5kMURdqIX4lXWQrvPlOdmrSs7ozkHXRRvV02YLYgwcgwoxZi43Ndrz%2FKAc33SS3gTzO9Jk6w54vJiHKQdyVWR6UxWyHoDU1n7LYcIh0bmkR5VxOPKH2HXZIeCki16BrbwD%2BixPYGP%2F5QPJvNCxrJU4WDzbbSgBVNueGw%2BEIO%2BbPnHP%2BZweMLSu2gT2cI%3D%7Ctkp%3ABlBMULLy2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257074332293",
+      "product_id": "257074332293",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$64.95",
+        "extracted": 64.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "289 sold",
+      "extracted_quantity_sold": 289,
+      "promotion": "Save up to 21% when you buy more",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/j-QAAeSwS3BqjyGV/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 3 Wireless Active Noise Cancelling Earbuds Magsafe",
+      "link": "https://www.ebay.com/itm/407229165943?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF49MR8C6JFTB7C52DRK&hash=item5ed0bff177%3Ag%3Ao1UAAeSwEphqjEnc&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BPBtdXEBUwhR335QW%2Bs9xmqj1ZRUt2StC4xJp88kzk2pAk%2B0wFTur7i1uIhMm3ZrkKTUS9lSsf3g6Ui130FLI7%2BgyBAEqWLTjj%2BFmOYZznspJJjUijxo5nFqx8bCTU3fg4dVhTOP50i7Dsvr3WpUkN1MZdNrnmVSK5He9sanFtXGLYp5oxm6Scyk%2FvHvThKTIC3hcW7ndzaYS1iYDS0xXNLYsBBsaoBcclzEerTJ%2Blu0zGGoT0WDqYDt3nHkMbfpI%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407229165943",
+      "product_id": "407229165943",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$105.99",
+        "extracted": 105.99
+      },
+      "shipping": {
+        "raw": "+$8.97 delivery",
+        "extracted": 8.97
+      },
+      "location": "Located in United States",
+      "stock_status": "Almost gone",
+      "quantity_sold": "24 sold",
+      "extracted_quantity_sold": 24,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/o1UAAeSwEphqjEnc/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 2nd Generation MagSafe Wireless Charging Case USBC",
+      "link": "https://www.ebay.com/itm/168817918885?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4941YMAPW61FF1ZJWD&hash=item274e5503a5%3Ag%3ANX8AAeSwgzNq3%7Epq&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9VBZA2uTqA1PAT6cbTnoREsAZaFcnsWoEGGPTCegOSv2Qia4rBxWwD%2Bw6bv8mAQ3QKMiy1zzYr6kIJMjMvVTLaGKYyiaLVO1RbbDpzTlOMKd1yk2ccomT1W6kHMv2M%2Bsf%2BRLRZC4go6ybL4nodB1lLae0ia%2FKAWYvPOz6%2B00qG90fY2hDPYtxg2%2BER5vtaZ%2BCfY1zahei5XJxWbN4628EjIYmvpRzjFn4OB8ZL%2BEUT0a5IHeAOke8iiwfCJiO0Rh0%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168817918885",
+      "product_id": "168817918885",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$91.99",
+        "extracted": 91.99
+      },
+      "old_price": {
+        "raw": "$102.99",
+        "extracted": 102.99,
+        "discount": "$91.99"
+      },
+      "shipping": {
+        "raw": "+$4.95 delivery in 2-4 days",
+        "extracted": 4.95
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/NX8AAeSwgzNq3~pq/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro (1st Gen) with MagSafe Wireless Charging Case - White - Fair",
+      "link": "https://www.ebay.com/itm/318841242199?_skw=Apple+AirPods+Pro&epid=21050834847&itmmeta=01M6AVPF4965ZH4WW2F6FAHVFX&hash=item4a3c6b4257%3Ag%3ADGwAAeSwXCVqn2UY&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8eU1bsg34nieaBX%2B8iedhlaErpXPEhKpq%2BA9hP%2Fln5c1SViAk8QyxWTcphm7a%2FQFhDPH%2B99sDiaG2Acw6ev0i%2BlyEzLo98CIXueoG6q%2B1%2BxoFcrIUgPZFaoWOVYp4%2F6CE4oPmNz7NTkWqQ3bJMkxjBFH1SAkm8f5B5a5SUIUvnXzOPVIio6wwhwc2MUKEu8GoEHMeFKmZScnqVmjr8TN0nGRzvKEZbos0zrZRFR8JX9uYsHhoK6owjeFRHJ7Kpbc8%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=318841242199",
+      "product_id": "318841242199",
+      "epid": "21050834847",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 308,
+      "price": {
+        "raw": "$59.90",
+        "extracted": 59.9
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "17 watchers",
+      "extracted_watchers": 17,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/DGwAAeSwXCVqn2UY/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 2nd Generation USB-C full set MTJV3AM/A USED",
+      "link": "https://www.ebay.com/itm/117055613917?_skw=Apple+AirPods+Pro&epid=4062765295&itmmeta=01M6AVPF4ASA96KR7N3R083XT3&hash=item1b410eebdd%3Ag%3A6CEAAeSwCXFokiNo&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8XzN7w0bXzcoBNVRzWrwWvQ%2Bc18RGhRxD4EPURzR%2BIs4kLTMedGfP%2BsowLVZzavbkjxHJzQqyAcafsdZ98JmP4a%2FpAGtR0dc6b9Dx7cJnyy7HjtD3n2eS8%2FFNZXdkRdodjKfp0uOy1%2Fl4YRqq7LmAU2t9tRGuP9FZ09k0UcjyGwtau4Zbr2uxzpKXcvxDy2eXeZG43ErMOt%2FprEmhaHxH7mKHTT6v8zFpBo1M%2Fw3eWefCiA0n0cNwVHDvIJe%2Fqa6oUSqw5FHGlf515Z47ynpoZLL5KXYNgZVR7Jz10rUs93A%3D%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117055613917",
+      "product_id": "117055613917",
+      "epid": "4062765295",
+      "condition": "Pre-Owned",
+      "rating": 4.0,
+      "reviews": 361,
+      "price": {
+        "raw": "$97.99",
+        "extracted": 97.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "391 sold",
+      "extracted_quantity_sold": 391,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/6CEAAeSwCXFokiNo/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Apple AirPods Pro wireless earbuds with charging case",
+      "link": "https://www.ebay.com/itm/800856406422?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4AZM4XB1P9JM1JJ4RE&hash=itemba76c2f996%3Ag%3AsooAAeSwM%7ENq5Nz2&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FPHbcV10W%2Bt6Ka2g1btw2nkVoKApvdrgUjvUYbRYuE2XqYrQnRDlmCGx8fv5kF3cREfEdkhgvcUMC8DX73Z7jB8iF2q5ocsd%2Be%2BKLm3s6gXA5V2nQc7tBBSRlAgFrCOfm2SEbOpaKS7Kd1yCJDt0slkkmefdA1qLYo2RniW1d4divP8LZalHzBL5HTPGO%2B1mnFVdRpK5Z0qy7OxEADU%2FYFs7YQ3DGvy5v5aNUpFucRpjZcoyfQ%2BsDw9898Lmath43fvR4sRUFQhF3KIn27bhCGdab8oeMXPGcp4%2BEqQK8npQ%3D%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800856406422",
+      "product_id": "800856406422",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$50.00",
+        "extracted": 50.0
+      },
+      "shipping": {
+        "raw": "+$6.54 delivery in 2-4 days",
+        "extracted": 6.54
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/sooAAeSwM~Nq5Nz2/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 2 White In-Ear Bluetooth Earbuds MagSafe Case USB-C Tips",
+      "link": "https://www.ebay.com/itm/800851705379?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4A937KQQFMR0FEKPMK&hash=itemba767b3e23%3Ag%3AWzQAAeSwxYBq4zny&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BuHb4qHpQKfCXobtjUpbo9KApVSL4%2FuWWDpeJ%2FBHUyx36LlEnqr5vk0FC%2FkUZHAk8VDUVIRGkPTxmsgNP%2BpVYJeOHpAJ6GIAXjAPe5d9ZE%2BQULglpFaJxVRj04J4N6K9f%2B7FpabkF3p4AQN04eETO1hM8%2FhInUKt9IOMGDvNk00zGm6KOMlC3%2Fz%2F4NZUPk2pBt1KJV9YZJPCNYyoN4No1%2BxzLFhLK0ONjxnkgByvIFOPKndMv8G2MFlzCezdVz5k8%3D%7Ctkp%3ABk9SR7Ly2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800851705379",
+      "product_id": "800851705379",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$55.00",
+        "extracted": 55.0
+      },
+      "shipping": {
+        "raw": "+$5.88 delivery",
+        "extracted": 5.88
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/WzQAAeSwxYBq4zny/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro White In-Ear Bluetooth Wireless Earbuds w/ Charging Case",
+      "link": "https://www.ebay.com/itm/800809893413?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4AF1E8MSSDW9MBC5GB&hash=itemba73fd3e25%3Ag%3AON4AAeSwxvlq1P8x&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FCjYXZDEib%2BbeqYVS04zgVGvMx%2BYL7hN%2Fym2A4AvF1VmKKg18p1pW9PLCifIfUSRoTOzt%2BQAXhDffzIL%2FHIOs8pACSwvJtqJCmvujQN8QFQDOZpiI4B7zRcTM%2Fizm8%2FhL1BUy78rYq3MJ%2BRvbhIYtP6tELYuAmjPXQIVnsd%2ByCDrAGY8P%2BNH6biKc1DHy3CBAXxx6SMN7HvJEhUKwQhIeR0073dqSxcKtwSciHdfbwECz5G9ZCt3O1rRE7xr%2BR7Ck%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800809893413",
+      "product_id": "800809893413",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "shipping": {
+        "raw": "+$5.88 delivery",
+        "extracted": 5.88
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ON4AAeSwxvlq1P8x/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Apple AirPods Pro White Bluetooth Wireless In-Ear Earbuds w/ Case + Tips",
+      "link": "https://www.ebay.com/itm/820298584252?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4AYD1DHZMW0SV6V85D&hash=itembefd9b10bc%3Ag%3AdWIAAeSwNBBq5XOD&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9YAah%2Bt%2FJBmJVryEvo52LjPFftNGL6dZms5jJgRDbQobygfsuVsLWuexQSLB%2Bh6RtiS2rz35o%2F1I2XnWtXmEK4UgO%2Fmxi6Wdf1msjHBIeIfggypS1SP%2FFz7aeyli127BHKNA8m8CYN7MICyGUU5VVeNKJTEPskwiQ34gYBVMIu4eWuN18ny9RB7G7mQaoKRjveIXS0E5OAiHAF8cd4IPa7USBfLJHUdVXfYOchfC3Dp6poDKBXpttm2%2FuusaNX83Y%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820298584252",
+      "product_id": "820298584252",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$57.00",
+        "extracted": 57.0
+      },
+      "shipping": {
+        "raw": "+$6.87 delivery",
+        "extracted": 6.87
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/dWIAAeSwNBBq5XOD/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 1st Gen A2083 A2084 A2190 with Charging Case",
+      "link": "https://www.ebay.com/itm/237147233445?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4AEA3X3RR4F7M7PB14&hash=item3737139ca5%3Ag%3AWWIAAeSwBK9q4NRx&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FPqLx996wr%2B2oftwlpoLg5soHHfV8nfG3E6zZCVb2dC2Ylbim12wW7U36lPtiWtJ6Tza%2FwpaOXkNUsCn6MBkgdmc1EpvWdyOCu6PzAo1V9sc2qy32cIqm8ucDbcZqWBvq%2BSJrTpdS6HNl%2B0gcoHuFnnqBGOGa6BdSTyfM6I3mO2sNfiR7xOlgFYh9wSU1awNfzfPLM%2BLbfjcLjd3xZZ9Z%2BMEWLFe74gX5mtc9PDxGoiKXCcUrJJOgsZi0%2F1NQI4t5YBunpScOjRaXbLo%2Bbqaozkw9FUzR9ozLE524NF7MBpQ%3D%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237147233445",
+      "product_id": "237147233445",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$8.80 delivery in 2-4 days",
+        "extracted": 8.8
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/WWIAAeSwBK9q4NRx/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 1st Generation with MagSafe Charging Case",
+      "link": "https://www.ebay.com/itm/237145429002?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4A5HF5K98X4CENJNNB&hash=item3736f8140a%3Ag%3A-vIAAeSw26lq34FQ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FNurLCyAexxoFgWfnjEwcnf%2Fv5mbei%2Fg4vL3VDezeS%2Fufopm1NbkuylYN2ivPfV8Oy3Wp1JoVPokka2ycABpSLHTpwgkkTzwuaOt1SRjQv%2BKyZiTvVjUuvHhRzxaNPkUDz%2BOLBFtaERfRzLBnPo%2B165MxMqwnr7vQg5%2FC%2F8AM8LNu%2F4VraPJB5OjSiVgLlGjdNL1u0AlYgoz5Gx2G1P5Rpi9kC7OL%2BY307OfC1ch4ltjt70RMEvvWQGZyrOiEM6nE%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237145429002",
+      "product_id": "237145429002",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$6.00 delivery",
+        "extracted": 6.0
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/-vIAAeSw26lq34FQ/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 1st Generation Model A2190 Wireless Earphones",
+      "link": "https://www.ebay.com/itm/237151131781?_skw=Apple+AirPods+Pro&epid=17074750926&itmmeta=01M6AVPF4AW669Y2MB5Y0ZWX6M&hash=item37374f1885%3Ag%3A-9gAAeSwEPpq43xf&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8pvdHPEkZ24boJLYbujyUNlsHcX0kLVILqXAYudKM68MjvmNHJFksTldphsZxgFL2SEzuWlOl6S9JT4qsTnnYQSWN6ed2Fm18TY66UrqRN19vvGTkdVrRaIW3CXTGcz7sP7%2BhS%2F9ho8XHK0ADc5fwgVXlxtJuo22fITaUCeovnkFA3bcDxtZy5tyVWi4uC9Ke3rqx%2BDBv9f81DdK1p5uRtgalgCtAtddJnKuyHkOkHIvR6zjHyl95S4YGbTXQqgjk%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237151131781",
+      "product_id": "237151131781",
+      "epid": "17074750926",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$6.87 delivery",
+        "extracted": 6.87
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/-9gAAeSwEPpq43xf/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 1st Generation",
+      "link": "https://www.ebay.com/itm/377608529939?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4BGDNKZ0WZ1CTJN78T&hash=item57eb38e813%3Ag%3ASV8AAeSwxX1q5MWx&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FjkknTzwTtX68DMch2yDNJGPt8QyvtNnZnMbyKwgfqsza0UnFbfyHhZa%2BUpMWhLNifjk8d3GpToYSBlLaHCE%2FbgXQe1XNzSIAxqZ50ppmDgXBBwpYCh%2BQujwwVTFua%2FAf2U3638EtZhUw8or2YiKxKdxynT%2BhWxowI1YHJSxY%2BHQhmbV%2F6dca4CW6CwqG8nrfCdhqInXoB43Xh%2B0hb0wE2%2B0Gin5pjUVj%2BWT%2FNzycCJFsLqVza5hz9M2OypS5c8Vs%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377608529939",
+      "product_id": "377608529939",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$65.00",
+        "extracted": 65.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/SV8AAeSwxX1q5MWx/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "AirPods Pro Wireless Bluetooth In-Ear Earbuds w/Charging Case White Gen 2",
+      "link": "https://www.ebay.com/itm/820294565608?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4B035RBJNRF079KFYT&hash=itembefd5dbee8%3Ag%3ARLsAAeSwZypq5CmM&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F0tW7rQi9lHJENOWdKZPeXOj0KZMnCCdnsYKjcj5NDDXSrveNuPBEgI5zATnv3KYDRor29uClq%2BHBsa2QijM6H%2Bmvdd3XwfFNCx1CouD37YqCWv6tH2QtV2l1nhFxcmwhj140UOPoJSsFp%2Fr7yPudvj5mOTXt7fpwXSB6f7tfZ8%2BLj%2BoLHAEVM7dq%2BYgapZjiwQ0V%2BYD1rhEfCgSdZ0MdjFtdp4wn431jrG117v6v8IM%2BTVZPINMzgCkj5Xuob59AB14knoDIIW0gK5gIWx4EFy6JvDFHsi5Yj%2BU%2BJM%2BMDvw%3D%3D%7Ctkp%3ABFBMtPLZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820294565608",
+      "product_id": "820294565608",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$48.00",
+        "extracted": 48.0
+      },
+      "shipping": {
+        "raw": "+$5.96 delivery",
+        "extracted": 5.96
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/RLsAAeSwZypq5CmM/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Air Pods Pro 2 Earbuds/Charging Case/Cable USED",
+      "link": "https://www.ebay.com/itm/327341868324?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4BJCF7S8CTBKS04C32&hash=item4c37188524%3Ag%3AancAAeSwrWJqtyQU&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9L%2Fpfm0y%2F1G9%2BS7FhWsknz0NPhJ52SJ%2FdeZ5n0KKs6dPfp3EprsScOwUzlu3iLzZFUuJ4lLkslNWtrPMcMWYbxxq92V2WxMSUMrbjbx1iepl%2BdPBmpHw63kWFtupWwQg%2BwMCf8f3CWA10YvOD94aRJ1P1L2wyxlC23lYo%2BKct1LKs%2FDKDBAfvmtDLzB5hxiDoSLxR%2BSxMjSDQgz4cJ33vhvPKO2cV6VQG6e%2BStb54Z1gcwnlp%2FQ9j%2BQnBr5MkaQjqDVpZMKsjzoaUmhiE8zyaa9Xey7qcHTHfYImAd0r7uWA%3D%3D%7Ctkp%3ABFBMtPLZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327341868324",
+      "product_id": "327341868324",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$79.95",
+        "extracted": 79.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "quantity_sold": "112 sold",
+      "extracted_quantity_sold": 112,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ancAAeSwrWJqtyQU/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Apple AirPods Pro White In-Ear Bluetooth Wireless Earbuds w/ Built-In Mic",
+      "link": "https://www.ebay.com/itm/940031740120?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4BH3VVB333GR54H2CM&hash=itemdade4208d8%3Ag%3ANuwAAeSw6xRq2Uky&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8WY%2B7smO5DQdi0%2BxW%2Bmp92xbiRxalCRhJL0c3VTi9zkjw7nsw%2BN6UYafg3JJrZDIjUlkY2MSxg8eDvWqKA57sHrZMpCzVMmwW5UeIy4GmNMUhBnAYCYSP8%2FJ9LNyDVqD4xPGyHrx0HFvAI6zdexwPMU6hB0sboyWaGNZCrg07ZGYHh8fMIDK9vu4%2BNhNzS0ZwzMYONOrxG6nxhyYrU2IkVU00hrcIF2A6%2B3k9ipum6Z9D4L2d4QrehyFYfj20P8ejEfAgSufEykK6QqlHoXtJgRYcRnQuq9kWrK1lAG9xZhw%3D%3D%7Ctkp%3ABFBMtPLZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940031740120",
+      "product_id": "940031740120",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$89.00",
+        "extracted": 89.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/NuwAAeSw6xRq2Uky/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Apple AirPods Pro 2nd Generation with MagSafe Wireless Charging Case (USB\u2011C)...",
+      "link": "https://www.ebay.com/itm/236929999203?_skw=Apple+AirPods+Pro&epid=4062765295&itmmeta=01M6AVPF4B7D1K0AM5Q0KA7N3A&hash=item372a20e163%3Ag%3A8SMAAeSwD-lqUVns&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8VJ%2BcC9oQER4PLEkbwE16E9CyuYRo99zFOiC%2Fdk42o6p2SLLqxE%2FCa1jeYyOg7UWPYTZL5xBTzlkt79j0qf8SrGiD%2FM2GUczok8iDzk166%2Foqu6ZK67AmeTmGPf8FNlQuJBIN5sLPXVXAFg124TdmJvbF4wLe8NPvwmbCMpTYSPMu%2B4bsAB60QlgI2w8tH0gA7%2FXIbZbKefAOjQMDyix2x9U2tKTzkk0aeaZhKv7ByvpCJzAYcoQvqmM36ySYs643Yra2QqGJR6Mo%2FpEe8ikTwk6lg5DXRzrqK%2BUQXIC1QGQ%3D%3D%7Ctkp%3ABFBMtPLZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=236929999203",
+      "product_id": "236929999203",
+      "epid": "4062765295",
+      "condition": "Pre-Owned",
+      "rating": 4.0,
+      "reviews": 361,
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$6.79 delivery",
+        "extracted": 6.79
+      },
+      "location": "Located in United States",
+      "watchers": "6 watchers",
+      "extracted_watchers": 6,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/8SMAAeSwD-lqUVns/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro (2nd Gen) MagSafe Wireless Lightning Charging Case White, Fair",
+      "link": "https://www.ebay.com/itm/188841607844?_skw=Apple+AirPods+Pro&epid=25056255340&itmmeta=01M6AVPF4BVYTVHSGTR7BC2DTG&hash=item2bf7d642a4%3Ag%3An-UAAeSwF5BqjkB0&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8C0cjwAEWeC0Fywi87d7HQjaUzjn3KMVn2E91xzdAdR4oaVWtmbgsHAZTH3TnUbpwVgMMGTetdQI6I%2FSGwUGfkWt3q16gc25YEUkuOOLiBbZARs642idEzk4MDD7a8gyD5WadpZh6%2FOXtGztf5GwONLXSDSQPje8tCXN6WBkyePWZmAHPdPg%2FLgDHMVlUdVRaRA0r7nkcCz8%2FmAr5pterNP1zLj5Dq%2FlmJe2JGzlnaDfFSzo%2BWgjNK13Yag4QbD5rMpAr8bdXTgv9WoLoWeFsxccRacFOZg4%2B1Nm93yPrxcw%3D%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188841607844",
+      "product_id": "188841607844",
+      "epid": "25056255340",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 559,
+      "price": {
+        "raw": "$77.99",
+        "extracted": 77.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "4 watchers",
+      "extracted_watchers": 4,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/n-UAAeSwF5BqjkB0/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro A2700 White Bluetooth In-Ear Earbuds w/Charging Case",
+      "link": "https://www.ebay.com/itm/880050118395?_skw=Apple+AirPods+Pro&epid=25058056747&itmmeta=01M6AVPF4B5JTKKBSKFVJ9ENQA&hash=itemcce7131efb%3Ag%3AOsoAAeSwGV1q3hfC&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde862dmjjJjGlKVlcSM35sWGKIXDgpA8xTVGqEIJmTdKYNar%2BD6IGgRQuOLNGLrV6JFLN1ypO2%2F6Coz6HL5pHoxpSSr%2Fb%2BrQWhp5cRTSTAFQPet%2Ba5zpSS1gYpZny1JCUKiGpOEwNiDGclEZ0Nd8ZLdxCmv5lvkINHw2H9%2Bm8szsRLzzPE9HYCyW7%2FTozR3%2B7Sc8eH8zdAnFFKa9oTT2LR%2FceAZVSbITQFg%2F6W7Cd2pf7%2BWFzV9UMf50L%2FYbruzwISrPkVcgHGAFqqR1JMnVy7CdRl2aK8MrbFkdxC1pyg4zTw%3D%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880050118395",
+      "product_id": "880050118395",
+      "epid": "25058056747",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$60.00",
+        "extracted": 60.0
+      },
+      "shipping": {
+        "raw": "+$6.35 delivery in 2-4 days",
+        "extracted": 6.35
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/OsoAAeSwGV1q3hfC/s-l500.webp"
+    },
+    {
+      "title": "AirPods Pro 2nd Generation with Charging Case",
+      "link": "https://www.ebay.com/itm/137884558810?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4CAJZTDP924X6B4EG2&hash=item201a8f65da%3Ag%3ARcsAAeSwtBBq44Qw&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8CJ0PbV%2FCWiGVdoOdusyPFkqv2Qqfs2u%2BLcV8gjG5sXlP2Y16DhYIMlLo1d48%2FQTh3K7SMQkXYrW0WxWdlzQKS8F8I6tVnGSpqaiC45TwDIhNBZM27neFpeFMlL4LNdadRN%2BkloOMGaNAafY%2Bjwjb9gx9DZvtCI5RqZ%2BVAVrymlE88tFsH2gUKzjsrl%2F184J03EYuDcGVmA76OT5%2FRTdI%2BAZGVlndaVTdyDwXT3XhgJ9vbKurZiucAfltsBx3klFfK0T0RbUswtXe%2BKF1qwfY0klNJom3LOuvghYQd5zBKaA%3D%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137884558810",
+      "product_id": "137884558810",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$50.00",
+        "extracted": 50.0
+      },
+      "shipping": {
+        "raw": "+$5.99 delivery",
+        "extracted": 5.99
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/RcsAAeSwtBBq44Qw/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro (2nd Gen) Wireless Bluetooth In-Ear Earbuds White w/ Case",
+      "link": "https://www.ebay.com/itm/880060382992?_skw=Apple+AirPods+Pro&epid=3074406873&itmmeta=01M6AVPF4CQ7KKCM0JJ5HJ0Y9M&hash=itemcce7afbf10%3Ag%3A2mkAAeSw6glq4rBQ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8vDtky7F02bsLESEEfmxq2TbPvU0CX2OfnwTmxbepNYOtm60NdWSZE1tr%2BlZ5XrF28nXj2V%2FjZd97XYTKPLokIqPraHjsgLFTDwvXoPrDRjQpGVntaELTWHhNzALnPhWp6QiBufFah0MZZaIGVpNaxkMFePLUz2fNZvxaIkG09tvQ9dW%2Bnc%2F528Ve8ul%2FpB1Mo%2FUquiXMsezLPTR8QuxYJRZIZO90K%2FdQY9cP00XU509ld5K8WzZfdgaE4FlU8rf4%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880060382992",
+      "product_id": "880060382992",
+      "epid": "3074406873",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$5.88 delivery",
+        "extracted": 5.88
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/2mkAAeSw6glq4rBQ/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 1st Generation Wireless Earbuds with A2190 Charging Case White",
+      "link": "https://www.ebay.com/itm/189005524104?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4CGDW5K9XEAMNJB575&hash=item2c019b6c88%3Ag%3AonYAAeSwWMNquoqK&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FNb0d7DStvN920qExvjWgS51UfsdrEwsMEBRa8MHOQZJ8VGZp0tvhRXllwK%2Fs4Kl%2Bl2ELxhME5Slw5nRWnmWyTWUzGXnNC7DCPwhY4erHKOSHpSQIKX%2FiwwAcnitu7aE0LhDc0H1%2Fwf8KDX%2FD9BnzpkbxhADU3h1G%2Fgtxm0SSDnS%2Fu%2BZv9iQQlkgKPWSHrWGQVjbRNBbHNhaWLJeWXGXXov2q%2BEJI7ZEaWOuRpiIXDkg4uoZkpK2NPcS3zzSzoQCVK%2F2tjehSBsRviiVyscHa1gEKCXu4uo7NPa3CiMSZuFA%3D%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=189005524104",
+      "product_id": "189005524104",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$50.00",
+        "extracted": 50.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "stock_status": "Last one",
+      "watchers": "7 watchers",
+      "extracted_watchers": 7,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/onYAAeSwWMNquoqK/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 2nd Gen - A2968 - OEM USB-C MagSafe Charging Case -Works Great",
+      "link": "https://www.ebay.com/itm/336866232385?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4CZB494BP5GJ6WQKXB&hash=item4e6ecac841%3Ag%3A14MAAOSw-g1mjt9t&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9T%2BWvpNGk1BDRPHiV5ngAntOQ%2BA98oL5ESrbf0JYSXQxbsFBoiqFg09E4fKmjaxqUV5ds1t0qroPjRp34hbNMHv%2BBIOTZrGBOU4x%2BkPtx9dnjbvi8PC7uy7%2B3NQApvdjY78sZadE4KaoVFI5pbJYgcmd4BUPX6ifyJFnz2Wm2cCIOvv%2BtFvpga5HwFGVFgOipFYy%2FNd7cqQSxZ7JFC3ilPquNeIOF2ymzMKmaH%2B5K6dKodonOUYekDT57PHfL%2F43Jfr0F0XjFqzFPg7rSPzJ%2FcKt7waY36j5X0hBDrrFjYyA%3D%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336866232385",
+      "product_id": "336866232385",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$9.99",
+        "extracted": 9.99
+      },
+      "shipping": {
+        "raw": "+$5.98 delivery",
+        "extracted": 5.98
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "Save up to 20% when you buy more",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/14MAAOSw-g1mjt9t/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "AirPods Pro 2nd Generation USB-C Magsafe Charging Case Wireless Earbuds",
+      "link": "https://www.ebay.com/itm/407219333647?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4CM0BMTDEQBMFN6ZVS&hash=item5ed029ea0f%3Ag%3AZIIAAeSwogFqOZ%7Ep&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BwPl6H%2B19Dy%2Fzzo7N%2FtPOVwmGqlF2JD%2BfW8P8xXNIBWFv21wH4ZIOM%2Bru1TpocQK4H7Y55xKq1NWku0AjH8HysZoynAdAVQCdf9BbbAVDQXY55funkbYwE7kiQS7I1aoZjrb3HV%2Bdxm4rMpqpjGa7%2BEUV%2FZ2vrFAurVX2P8qhJ2iVStlnBPUs1DieMbL5SfH1joZ%2BzTZObgSft0Je%2Fp8AbgBi%2FUp6GQOeKYwKpYZY391kPp4%2F%2BgFdxBgz%2FSuHECJwkwNF3DlBItjc37iOZl0UcXMMZRsA1D%2F4VJtGEIDw2wg%3D%3D%7Ctkp%3ABFBMtPLZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407219333647",
+      "product_id": "407219333647",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$79.99",
+        "extracted": 79.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "watchers": "7 watchers",
+      "extracted_watchers": 7,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZIIAAeSwogFqOZ~p/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Apple AirPods Pro 2nd Gen MQD83AM/A - perfect working condition, rarely used",
+      "link": "https://www.ebay.com/itm/198731501237?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4C60W599J8BAYQ1SSR&hash=item2e45520eb5%3Ag%3A204AAeSwZjlq1TAd&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8lBvrHft3dPRaYFdTeTDM9Bm6HCY8wbefnHI6gKUCrmihdr2Q%2Fz7QCw3gc%2B86gq%2FUt%2F6J746I095eMkkMkEGG2W%2FC89XNVML6SlYYh7WO8sez0wYgjdLR7FKJL82C%2BtBVewu6Yp4eL1yceXDK4qOZZ%2B%2Bljgy%2FcyC2JGdTCQy8l2fA2nZEPkni9NwkwfwYRziwy0KP0eMDSIdPMVs4NiWUfHJvjcZYmGsHUPAsnFbM4K8PWKBPC9TEo6gl%2BX6h5Sx8IHv%2B7MmNBaX0l7LI7cY39Cf0l7pjfOKraDBMixZOoaQ%3D%3D%7Ctkp%3ABFBMtPLZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198731501237",
+      "product_id": "198731501237",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$85.00",
+        "extracted": 85.0
+      },
+      "shipping": {
+        "raw": "+$9.92 delivery in 2-4 days",
+        "extracted": 9.92
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/204AAeSwZjlq1TAd/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro with Wireless Charging Case White Engraved",
+      "link": "https://www.ebay.com/itm/127204659103?_skw=Apple+AirPods+Pro&epid=10034976643&itmmeta=01M6AVPF4CWQBA2K7AGZF6139Y&hash=item1d9dfd0f9f%3Ag%3AGM0AAeSw4dFoYU0r&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9uo8lnwWfPudAS%2FcMcaQ%2FF2bTBg8suInSJWjE35faWoN6i06cR1eI6RBmfK%2ByFhBNs7xSNXp9KwiXW4fAkTF3SSVQqjy4jXgZtIn96BOtIDb%2FgT1T7l2LpmtkOJe0CNaEbcfAaSu2mpCloPvol4N2oH37FmDe1BZjeE%2FFy8%2FBjCniJNF4Yd9ZF7IsSU7CeHMXo%2FN4Aicxby3X8u%2BHSZrlQY77ahHO7PybDGe4OWYDhQYvloK9nyQy6cKnHcjVMLQirl%2BZIqfKOKr3ZxKbRbpG4z1C5qFchhsDSQuuXuMU3Yw%3D%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=127204659103",
+      "product_id": "127204659103",
+      "epid": "10034976643",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 3348,
+      "price": {
+        "raw": "$54.99",
+        "extracted": 54.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Almost gone",
+      "quantity_sold": "15 sold",
+      "extracted_quantity_sold": 15,
+      "promotion": "$49.49 with coupon",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/GM0AAeSw4dFoYU0r/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 1st Gen - A2190 - OEM MagSafe Charging Case - Works Great",
+      "link": "https://www.ebay.com/itm/336363780333?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4C6RTYF21PVQN3JEJW&hash=item4e50d7f8ed%3Ag%3A87oAAOSwqmpmOqHh&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9RntvhsG72%2BlSBcPnV17K8kM36AiUYgclPq%2Fow1%2F4Ax3cL9uHXPYuw0h9YuckTgrqAAUJi2Q2z1iKp1EFEZbDTcngMCKUnFM4LrNxxZEkMwflnXwRhI0W2gKjrs%2FEEWCQez7tkt67wNDFdu1vv5FeAzjHR42ojboKCKH6BI%2Fjmiq0ST%2BoNJizZfJVA8TXXAwTPLlV%2FrOTxHe9nsY0ED%2FgWC7Zqvd6u5FJaCqsTI6tFQTlKbcWm9E1VFd906CxC5fA%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336363780333",
+      "product_id": "336363780333",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$7.49",
+        "extracted": 7.49
+      },
+      "shipping": {
+        "raw": "+$5.99 delivery",
+        "extracted": 5.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "79 sold",
+      "extracted_quantity_sold": 79,
+      "promotion": "Save up to 20% when you buy more",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/87oAAOSwqmpmOqHh/s-l500.webp"
+    },
+    {
+      "title": "Apple airpods pro 2nd generation wireless earbuds with charging case.",
+      "link": "https://www.ebay.com/itm/800217485013?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4DKMAS54X8JWQPBZZS&hash=itemba50adced5%3Ag%3A-1sAAeSw7UBqN5J7&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FEEiexlMH%2BzUW3iPThxbD0wZzQlgYv8B4NLASVdsgSRvs%2BAgGKSyd8xI0iTb3ViGCpLXI%2Fq35%2BUbvF1%2BZjEFXaMdGk0fOMgpLMKHBJiXJfi%2FLPdehR6VAeT4M3ubXh62dpvzI9MYY3L20AyifFloK1rfbMvzQUs%2Bn1VrhbBWf8KmuqJFfbQRcb5Q0svgGh3dJmohRmOZWaT4%2BYUlhPGy0m0UkmWoSv9SuGUgeQz0fEy9Rs820srXBb9R%2BgiQrHlFg%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800217485013",
+      "product_id": "800217485013",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$69.00",
+        "extracted": 69.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "watchers": "9 watchers",
+      "extracted_watchers": 9,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/-1sAAeSw7UBqN5J7/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "AirPods Pro 2nd Generation",
+      "link": "https://www.ebay.com/itm/860099549930?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4DTWKFQDX5JHMJWRV3&hash=itemc841ed9aea%3Ag%3AqvEAAeSw7qVq5WE7&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F3WiJfHQUwCzLJ7BxHh4o%2F8%2Fhg%2B7so%2Boz6JZXy11rDVNcmG2jE4t0%2BQFIxpQhFeBcFsne2HavNTahqY9N%2FBWXWpZ24hCjRPFFdcT9hZ4ZmXzpPL2Uyj4qfmbOkm8zlco%2BCnVJtPc5Odd8zLDd2LIG8F6IvZdmdOCkrk25zmwPxr5hbs9uv04KwwGZHxJ3iPT2y%2FDUqEVR8bb6X%2BnImVuT%2Bmm9ef9K2G54h%2F7vrYtDuJ5ZGlv6AZC3x%2Fi%2F3jI8PbLhuofYwfhX%2FLnu9kb6c2QoIBJgqaTtsigZ%2FkwdvWYMKDw%3D%3D%7Ctkp%3ABk9SR7Ty2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860099549930",
+      "product_id": "860099549930",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$70.00",
+        "extracted": 70.0
+      },
+      "shipping": {
+        "raw": "+$5.00 delivery",
+        "extracted": 5.0
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/qvEAAeSw7qVq5WE7/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro Wireless Bluetooth In-Ear Earbuds White with Charging Case",
+      "link": "https://www.ebay.com/itm/306967747220?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4DNX1PX4JT6M7ZJ7A4&hash=item4778b41a94%3Ag%3AYo0AAeSwKo5qGC3U&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9TDORDgSAlbU0UYnpLfbztqqFXzwVzPgBG6FF3F0r3pjQMgMPRd72%2FL97lKyvT2d6i3ayKQQNDEyb%2ByXWESKsf%2BMdqRjWWLQo%2FCDEv1YcoTfnPE0h1azgX34v14QoC%2FcGtH%2BZL9AvrGqlxQMPwXNGHCvlv6vJoCqCTiKyb5%2F8HYtOdwxa7DMm3CinGuPBu6Nfo2TYOStKgwcMqE5NGKZJW4NqhITyhWaDlHYS07zUUMEYVqudmHEjLN5BXp4wuQhc%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=306967747220",
+      "product_id": "306967747220",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$6.87 delivery",
+        "extracted": 6.87
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Yo0AAeSwKo5qGC3U/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 2 White In-Ear Bluetooth Wireless Earbuds w/ Charging Case",
+      "link": "https://www.ebay.com/itm/147653703631?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4DPJXHFK81KSFTEZXR&hash=item2260d8b7cf%3Ag%3A5YIAAeSwElZq4Ggq&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FXuUTwjqjBHFG%2Bp%2Fca%2BwSTtxcSC2wcZ7t8Z2dSBNezUX79%2BRcqqUIFpxsQt3dJSrw0uJVjtG%2BAn1yxetJK9BODCnhVC%2FeizKP5vjIjI%2BlUmI%2B6b1f78Idib3PNdwELEavgf03OjpwkFKN9B%2FXgtJtAct3yCnrzP1QRFt8Y6Re48EfRAzWQuCGwB4U8sjSBTiJQu8c2%2FiXY%2BWjmEb386e%2F0StzgcCR8TEQy0duXbihWWxlPiulk5xI%2BYoQEXQ7xtMo%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147653703631",
+      "product_id": "147653703631",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$60.00",
+        "extracted": 60.0
+      },
+      "shipping": {
+        "raw": "+$5.88 delivery",
+        "extracted": 5.88
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/5YIAAeSwElZq4Ggq/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 2nd Generation Bluetooth Wireless Ear Buds Lightning Charger",
+      "link": "https://www.ebay.com/itm/117060638029?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4DV46S0F1EYX4WD4V3&hash=item1b415b954d%3Ag%3AG0MAAeSwS85podaG&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9In6wd981zO%2BKGR2yc1BBU9iL6cIbqOyPLOg77JRHM57oCzndVVyL3Xfgd598tm25RduEJAyhyODmmeBwaZIFobHCd2a8OJ5XxRVInl1r81iKJkbNDO4nyjkAKaP0CYxi13rFZ7PP%2B8e9QCgBjtxC1Zkt6eQvhmuAhkySlWJeKf6mcMtBVOrkXtPMNqMypqdXOpcW9TvarbvJsui6zdPus0PSrgCnEJnDP5zz8mCkGPQGfMcLdH6eawNGzdPktDT4%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117060638029",
+      "product_id": "117060638029",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$99.99",
+        "extracted": 99.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "248 sold",
+      "extracted_quantity_sold": 248,
+      "promotion": "Save up to 7% when you buy more",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/G0MAAeSwS85podaG/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro (2nd Gen.) Lightning White - Static - Excellent Condition",
+      "link": "https://www.ebay.com/itm/298721783075?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4DYPE7X1ZTJZK99SFN&hash=item458d34ad23%3Ag%3AbscAAeSw8NZqvW-U&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9leRSKi01S45MQ8lLU6G%2BzKvdjJKUoYC1xpC9wzgyfHT%2BOLtSexnlvOBuv%2BNNJznilf4hfIjpETxlIY0nXP%2FUsiRDA8mypXGXeq8R4VNrM4sPWQC%2FI6mEXXanoRGLaAl%2BoVvLB%2BuLO%2Fi5y0D%2FVECvvMss6QnfA5Kc%2BdLnSeu7pd8IUdCRhao4fhWMS%2BcG%2BIGd%2BGWqkpq4XGS7YWXpTwWXZhWItIGbLbaa7IF0doQ%2BG5lW1gvLebYKTa3Gvx3uK9dnE4V7NXT6ENEqFGd%2F18Tkm4V4H5jHubHXZP7G%2BiJXxVQ%3D%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=298721783075",
+      "product_id": "298721783075",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$85.00",
+        "extracted": 85.0
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Last one",
+      "watchers": "7 watchers",
+      "extracted_watchers": 7,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/bscAAeSw8NZqvW-U/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 3 White Wireless Bluetooth In-Ear Earbuds w/ Charging Case",
+      "link": "https://www.ebay.com/itm/940053387851?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4DVK5CXAYAZ18QGJFK&hash=itemdadf8c5a4b%3Ag%3Ahs4AAeSwAp9q5S1R&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BymELyKsVmVD%2FVBztMR5spTgJdZWtlTDquMBlZmXH5uWZEqONOLMeU3HDSXwz5IvHApSwRUlvYPzbwwFvGINnksAnHLBOQrhFS55JG0UULdwVnd3ObMoHFYZSDbDxANEiP0poyowE%2Fi0bXHku%2BoGA%2BngRG%2BnDnXUASliu9eWXFEeLckb6cMVJvVYLlGqzfnM0jkSOi85aL08nczA9soMmvZwHqjEMQMSxPGC6T2yUvVKvBgOFWJ%2BpTwLkMGgfxRpLUgxr0iMI2EGCJnJYn9ufY7DVQG6bWdVHzO82j7mee3w%3D%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940053387851",
+      "product_id": "940053387851",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$147.00",
+        "extracted": 147.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/hs4AAeSwAp9q5S1R/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C) 4",
+      "link": "https://www.ebay.com/itm/336824322171?_skw=Apple+AirPods+Pro&epid=4062765295&itmmeta=01M6AVPF4E93YSK69DPFEEGTK9&hash=item4e6c4b487b%3Ag%3AZZYAAeSwAUNqwCFQ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BJcqXCd3tJ8itTTKG9NDHqYhT6LDmBEJ9K5Xy6YrDv5l2tBTB%2F6pGtTtqZ1v78WgT5tiA0pG94%2Bw02oWFBlDH4Gmryx0jKhi8MW%2FMsBJb99yu1SIuDwOlGOa6GfFwvMS1z57qor0nyIe0eC9zC1ZwgyPQDSp5y%2Bu2HMPcCxXCPtUyWbOzZnQk%2FHdG6pOXuukuwBk70VtLQwFCMGbBE%2BmwQKxh4k8kanY1c9zMFbPphbmmR2ScD7MPaM22qnuD0i3X4SWflYGjmKA3UTx%2FQgzYckWYHVE7L0jxs--FzV%2Fr2Kw%3D%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336824322171",
+      "product_id": "336824322171",
+      "epid": "4062765295",
+      "condition": "Pre-Owned",
+      "rating": 4.0,
+      "reviews": 361,
+      "price": {
+        "raw": "$77.99",
+        "extracted": 77.99
+      },
+      "old_price": {
+        "raw": "$119.98",
+        "extracted": 119.98,
+        "discount": "$77.99"
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "11 watchers",
+      "extracted_watchers": 11,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZZYAAeSwAUNqwCFQ/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Apple AirPods Pro White Bluetooth True Wireless In-Ear Earbuds w/ Case",
+      "link": "https://www.ebay.com/itm/860099381493?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4EPQZHQHAHM9H17QGV&hash=itemc841eb08f5%3Ag%3Ac%7EwAAeSwOXZq5Us9&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8huL0E4Dedlt0Mxbb07eL7m%2Be%2FU%2B%2BItwT5hfPVKwqH8F%2Bb0NiALsKHF%2BO5OdV%2BJ0ciBF1%2FD%2BHZDqkMRBgRGMGSMi087d5w0Z%2BzAfA34e%2FWt%2FeXQuWk2fnd6CKfaE6%2BuX%2FHx39S8o8qo2ph2JpA%2BxoY3UaXC65%2FBaXWhvVUICGtE57YzBQ%2FdirbjRHFtheD%2BgNQMTM3FyagFcPuP1PpJ12UZghpClrumEYQEfk7c4cM0ll8kPeLN4YvkgyYjdD6MEc%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860099381493",
+      "product_id": "860099381493",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$85.00",
+        "extracted": 85.0
+      },
+      "shipping": {
+        "raw": "+$5.88 delivery",
+        "extracted": 5.88
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/c~wAAeSwOXZq5Us9/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case (Lightning)",
+      "link": "https://www.ebay.com/itm/820270932277?_skw=Apple+AirPods+Pro&epid=25056255340&itmmeta=01M6AVPF4E8BE9W2MSXB8XS7Q6&hash=itembefbf52135%3Ag%3AvCMAAeSwTAdq2-RC&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Fs1nqGYNOPsRsVQRf0SpYqHTkIa17Ffgd1AceL4iE8rDeLoAX1vBlKX8ZoegmNMrKJVJjrGRtZg6u9IPC04zXyFom6ftADhzQvtpRlMBG3hq3ycxXtH82P8SWW%2BknL%2ByWQW6rSUp%2FrgVcV%2BsFEzNpxLJSQITcXAhL40rQiryhOzEfezpJBHb6hZO2e3eK0VNKCPoTM18uvEe5M5E045wFyFKGIljyD2t48MWZBfWGPwdkB8vL8KtpJDPmrAlccCfFRrMkkeCFduvQZVBVizoDIjh%2F7--8MNMY4PMsTGl%2Fr9Q%3D%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820270932277",
+      "product_id": "820270932277",
+      "epid": "25056255340",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 559,
+      "price": {
+        "raw": "$70.00",
+        "extracted": 70.0
+      },
+      "shipping": {
+        "raw": "+$6.15 delivery",
+        "extracted": 6.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/vCMAAeSwTAdq2-RC/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro (2nd Gen) Bluetooth In-Ear Earbuds USB-C Case White",
+      "link": "https://www.ebay.com/itm/940031977371?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4EP1SFYZPGBT28WEWR&hash=itemdade45a79b%3Ag%3APg0AAeSwcytq2WaY&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8ofCwBIBhdS62uMGkwAZBlXgu7it0N3L6OxFGiYIIPv%2B93AGghKmdnXQjGhixv7o27WNXcYG2VsZaeUinIMRUDYhyCDdKKcUBYgBgxQKx0osVu5Qgm%2BhRG%2BdSRweuYn4tAm8GN1%2Fg%2Fbuno27lvf4bUxm42EgiCEPN2Z%2FH0NELPH8Y82Lel%2BFje1970rNd0oPnp302YhOOwiiD8BGQS01G%2Bko7aMFE3VLyGsuN%2FfARPgFF7yRG6sY7k2dthZ%2B8l8RHLz0RTFNyTP7G6z9A1CCzSRanqE71JhJV2yk7qdGpXoA%3D%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940031977371",
+      "product_id": "940031977371",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$6.45 delivery",
+        "extracted": 6.45
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Pg0AAeSwcytq2WaY/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro White Bluetooth In-Ear Earbuds w/ Charging Case, Mic",
+      "link": "https://www.ebay.com/itm/128087666290?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4EVVHWXP26V7C1VFYX&hash=item1dd29eae72%3Ag%3Ah%7EIAAeSw6LpqroLv&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde973%2F3S6Wf8DWKDluNyF5iiWZHnX1Rgwilyy5qeZcyRX7oBCafT3%2BsPg6aUTJlUFVwf1F2KbxGqvo6yBrdmcTBB6U7ZTNu8CfPA3womZQ2SENP4TFilNrZXUiydPvoe2xSq5XkrqZH1MGHsxfQHUrjOwYE5xn9kZPy2A8byM6RprppRCHkqHyEW8cx8a8vHi9LOg2ELLfmJVeLgws771wbMcFV%2BzhM8f1HlQL%2BG%2BF1tTOj4%2FpQ0Hzy1SJFxv1wRbR6HvH9GSlZWAGzrjXsCcEyJ19uVgMa1D%2FzTUrkc7CI%2BDA%3D%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128087666290",
+      "product_id": "128087666290",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.50",
+        "extracted": 25.5
+      },
+      "shipping": {
+        "raw": "+$6.35 delivery",
+        "extracted": 6.35
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/h~IAAeSw6LpqroLv/s-l500.webp"
+    },
+    {
+      "title": "Original Apple AirPods Pro 1st Generation - Charging Case A2190 - Good Condition",
+      "link": "https://www.ebay.com/itm/197864993886?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4EZX1T5HTZ6WTQFX6B&hash=item2e11ac345e%3Ag%3AYJEAAOSwzI5jM1Ur&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9H%2BKNjKiGjRoNtLhm2xJSnimLo0FFCmYWdbTboAQFGn2%2BnBSUQaz60TBpYHRzhjEGwZzn07QMPN0ZBcAtvAzXvCd8%2FCAOZ4AllSt4PNcQcOL7zwY9Sc4NlWY2qtG0x8LvlS85hXiqbJ37KLt42Ia%2BJej%2F%2BcQKZwJwnnqCyJc5dNI3TLEMh2ZfZ%2FONKYU%2BguZuOBie1NaHhHPpH2tbp7aZIH6b896B60rVoChBX6vAiOwDR6dGrTrWtgou1JQaD3Fc%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=197864993886",
+      "product_id": "197864993886",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$23.95",
+        "extracted": 23.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "quantity_sold": "32 sold",
+      "extracted_quantity_sold": 32,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/YJEAAOSwzI5jM1Ur/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro (2nd Gen) Earbuds & Case A2968 A3048 A3047 - Tested (#JEY597)",
+      "link": "https://www.ebay.com/itm/168807829155?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4EZ89CHS0P94NZBGJ3&hash=item274dbb0ea3%3Ag%3AKRYAAeSwkBlq2OC7&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2F7NNjF4B5XKoZgYnuoApsYfxLHFwqTC8JW%2BizgMeK66SoZzzYZHzw9VnYjopzJPGGpp%2FodlyuegqRJH4eCzyK0zIOBWAtQwnKiFoslMiOePyBTEDDWSVnRddrL7HY%2FzglCQwK7q2pEM1pF%2FUfWR9RMx%2FkgGAIzERvlk6xtqlRrEbyeTdMVuWvExvToKEr4gC2fAFyZiu6jEUjtDDhuVSbGuuhYviiJkDUtBgrUKvR3B3EwjP5PDVg7qWlseVOrEVY%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168807829155",
+      "product_id": "168807829155",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$79.99",
+        "extracted": 79.99
+      },
+      "shipping": {
+        "raw": "+$5.00 delivery",
+        "extracted": 5.0
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/KRYAAeSwkBlq2OC7/s-l500.webp"
+    },
+    {
+      "title": "Apple AirPods Pro 3 with MagSafe Wireless Charging Case - White",
+      "link": "https://www.ebay.com/itm/257784300336?_skw=Apple+AirPods+Pro&epid=21050834847&itmmeta=01M6AVPF4E27Q1PWT33B3MXX5G&hash=item3c05244330%3Ag%3AQ3kAAeSw-ftqw-ha&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8AKxtE%2Bt1dAavqA%2B29IYuUdBmD1yIO9OotSgxfLLvFglDY0G0ufBeA3Xy9ExYbNorcTMUU3mGEgogvxkwukR%2BEbO6bHMv7wFbfVbGCHXe8xQVX4P2NDk5zeOjgT8AmezWfhpPocgFzyCTvMnFhHGBHPRtBNuoRARVNjcWWWqJSuH9hGMqv3yMkRauoCKGx9jdZ9bS4RWvg7%2Fi9o%2FVOMNskEPSVRqtZ3ajdfth%2FIzGraEnSG2SfHqLBhr%2BTAlpRyFA%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257784300336",
+      "product_id": "257784300336",
+      "epid": "21050834847",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 308,
+      "price": {
+        "raw": "$135.00",
+        "extracted": 135.0
+      },
+      "shipping": {
+        "raw": "+$10.00 delivery",
+        "extracted": 10.0
+      },
+      "location": "Located in United States",
+      "watchers": "12 watchers",
+      "extracted_watchers": 12,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Q3kAAeSw-ftqw-ha/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Apple AirPods Pro 1st Gen In-Ear Earbuds w/Charging Case",
+      "link": "https://www.ebay.com/itm/377609498818?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4E0A5S4YEE10606Z59&hash=item57eb47b0c2%3Ag%3AM6kAAeSw071q5UWu&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BvFG7eIboeyuDrhjVyBStUeflZM98EiMPD2GnzIyEVhjYMVRdYZVoTQ5eT7hd0AvNI5yOr7Z81J2WkmX1RtLxBeqtAns%2FVuXQAo1aRT9pqX1wo689%2BNfMpBN0Ur%2Fj14sNQ6S22cZV1MNjZfkJlUrCfo%2FHLRHFOq8CJEv2umsgthve0zsbIDlMA8HCG46ImjSxponjdGTLjyz1y2IsiXsaKnSdkDN5Gf7%2FFhG5inVynlFkK3p76OJumFyw55Xuk%2BD0%3D%7Ctkp%3ABk9SR7by2duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377609498818",
+      "product_id": "377609498818",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.00",
+        "extracted": 39.0
+      },
+      "shipping": {
+        "raw": "+$5.88 delivery",
+        "extracted": 5.88
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/M6kAAeSw071q5UWu/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Apple AirPods Pro 2nd Gen Wireless Earbuds, ANC, Lightning - Very Good Condition",
+      "link": "https://www.ebay.com/itm/168715122943?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4FZGZSY9SGY64ADZ40&hash=item27483478ff%3Ag%3Ab-cAAeSwlCJqtBjI&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde91qxUK4wj7Bns4aCfpkXig7120pGjJkHuN9rZ%2BcdMoyQ48%2BuxyWKe1o%2FzGsORDGjdoNjzkgSJY%2BWgZyI0eXmLAafKfnBPm0O8h185eL36kL%2B6FVcNUeiAZMPQ07nwWNWgf7Y0gyzEhjdDHbQ317%2FO9u5EaqlievYQBfPH2GOb6tw8LfCpUGGBsxeQwJsikfM6R6QbWcI6neWXcF9qBkk0t9pUqnSa6jf%2BqZXpBBo06wWrjpemrcxrj0sQyFbxeauOdOpb22CEo%2Fc%2FvvyDFY3wD9hEDR4i9pUz5Dvm0STVIYg%3D%3D%7Ctkp%3ABFBMtvLZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168715122943",
+      "product_id": "168715122943",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$104.50",
+        "extracted": 104.5
+      },
+      "old_price": {
+        "raw": "$110.00",
+        "extracted": 110.0,
+        "discount": "$104.50"
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Last one",
+      "watchers": "2 watchers",
+      "extracted_watchers": 2,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/b-cAAeSwlCJqtBjI/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Apple AirPods Pro 3 Wireless ANC Earbuds with Heart Rate Sensing \u2013 White",
+      "link": "https://www.ebay.com/itm/198680339736?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF4F9ZV9CG5VJDJMJHEH&hash=item2e42456518%3Ag%3AbW4AAeSwIjFqvm2j&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8om2R9u7vMcChYtgrjdNwIb%2FuQoA8VFHPb8F0YsmY1tfmACqNcDnd3ti2d94LJbXJFCVt0xiBMNMs5IPpKTCDaj%2Bk71LV46UPXiPR45gX9Mx3pCBwXBH4yHxuY0puy8uWVoVRvja8f0sML062hpxbjTITCoSHBkiq6hUVeFay7rNAWOLmjwKLsA%2BXuXmVIwPyttT5Ur3OLWwAVcts5GMq%2FV%2BDxY8lqj7S1yOpzbwCk9TY2hzFJKupY0%2B7VnGaLj9ilsoM9s2T%2BYxjRtzwjrnIenwzaVKLLKjBX%2FWXehN6xQg%3D%3D%7Ctkp%3ABFBMtvLZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198680339736",
+      "product_id": "198680339736",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$179.28",
+        "extracted": 179.28
+      },
+      "old_price": {
+        "raw": "$249.00",
+        "extracted": 249.0,
+        "discount": "$179.28"
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "watchers": "3 watchers",
+      "extracted_watchers": 3,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/bW4AAeSwIjFqvm2j/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Picked For You",
+      "subtitle": "Top selling items from trusted sellers | Sponsored",
+      "items": [
+        {
+          "title": "Apple AirPods Pro 2nd Generation USB-C full set MTJV3AM/A USED",
+          "link": "https://www.ebay.com/itm/117055613917?_skw=Apple+AirPods+Pro&epid=4062765295&itmmeta=01M6AVPF75FWAXC9HNFT9341NE&hash=item1b410eebdd%3Ag%3A6CEAAeSwCXFokiNo&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BvZY0WcBA%2FOQaqFWDF%2BPFwh57og%2Fggsxu%2FY09X64XolzCHxd1zkH7UNYBGJ5Q3DbzC7pNfbTxuihc0SJVzu%2BuQm9j4nbSLUWDo%2Bquk73XsN7ZngYqlEit6%2F4ElCJn%2Btew78AMv4Q4RMlBwlv1QGijh069yCdJ1zJezCEWpams%2FOlvgsDSHtzPIBhktqzrcK77SQLDat9Yc%2BL7D0RZYW2Vba8u%2Ffs5bQlFf52BarIEWwAw1iXiMi4%2BcyaPP04KbkUYYrg12jARH7k0q%2BNm8O4mPW7%2BxS90D7PN9Hpa2PW4GmA%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117055613917",
+          "product_id": "117055613917",
+          "epid": "4062765295",
+          "price": {
+            "raw": "$97.99",
+            "extracted": 97.99
+          },
+          "quantity_sold": "391 sold",
+          "extracted_quantity_sold": 391,
+          "thumbnail": "https://i.ebayimg.com/images/g/6CEAAeSwCXFokiNo/s-l500.webp"
+        },
+        {
+          "title": "Apple AirPods Pro 2nd Gen Wireless Earbuds, ANC, Lightning - Very Good Condition",
+          "link": "https://www.ebay.com/itm/168715122943?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF75KRWEN8Q9WX8J7TYV&hash=item27483478ff%3Ag%3Ab-cAAeSwlCJqtBjI&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde91qxUK4wj7Bns4aCfpkXig7120pGjJkHuN9rZ%2BcdMoyQ48%2BuxyWKe1o%2FzGsORDGjdoNjzkgSJY%2BWgZyI0eXmLAafKfnBPm0O8h185eL36kL%2B6FVcNUeiAZMPQ07nwWNWhXidvgzTeOL9LRxAQ%2BQ1XtFmgtDXLxIOSa3XOqTKLndpvHAdYYRF8KrSLboluRNYJ6hQx3kLfjUdafqtgXS1bgK%2BRrXxJ7LG9v%2FNeL7A7SvSc55Ie1l9zDELclg6T2jADIpw37J5Ewaqe3HD2EfXQW8W%2BkpAfeHO2jMnjsN%2Bs4IA%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168715122943",
+          "product_id": "168715122943",
+          "price": {
+            "raw": "$104.50",
+            "extracted": 104.5
+          },
+          "stock_status": "Last one",
+          "thumbnail": "https://i.ebayimg.com/images/g/b-cAAeSwlCJqtBjI/s-l500.webp"
+        },
+        {
+          "title": "Genuine Replacement Apple Airpods Pro A2968 USB-C 2nd Gen Charging Case (A)",
+          "link": "https://www.ebay.com/itm/800298804706?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF759B7XGQFTBR1GKXAF&hash=itemba5586a5e2%3Ag%3AcjsAAeSw5FBpHSZo&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BFZD4trohB8UjvlREPY%2FV0LBlFh07CmabLQuxw1PmyMhYHY%2BiF8LAV%2FBK5r27KrbaLvj%2FIusoIqUtnrQDLOO7JfXEmYqZ3SgPImR510T3jkTV6%2Bj91PNI0i1%2BrMfgWdUgSIL11Smqw%2BlM46D5HrWsXoOi06anUtBrSLGDDWt4DllhUjWwX8tID6rnc35HLAPWf3dGUXUua0wx1fi44H5VjZDnJogrcEixcXxc4G0pyhOal5CSbutO1mwNzZdMYfdU0JrybAxMAcMpBuvBZgcCxNcnRaXkeSnjc%2BejlajRAbQ%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800298804706",
+          "product_id": "800298804706",
+          "price": {
+            "raw": "$29.80",
+            "extracted": 29.8
+          },
+          "quantity_sold": "341 sold",
+          "extracted_quantity_sold": 341,
+          "promotion": "Save up to 15% when you buy more",
+          "thumbnail": "https://i.ebayimg.com/images/g/cjsAAeSw5FBpHSZo/s-l500.webp"
+        },
+        {
+          "title": "Apple AirPods Pro with MagSafe Wireless Charging Case - Grade C",
+          "link": "https://www.ebay.com/itm/940036697201?_skw=Apple+AirPods+Pro&epid=21050834847&itmmeta=01M6AVPF75EKCPMCBY684N73N7&hash=itemdade8dac71%3Ag%3ApI4AAeSwxBdo7scT&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FLDzTqBFnPUEIQDFc1GemxxL5hHsBHwPc1KZ2kSfPRGUiqQgyxkHnD7OwnO%2BCpzb8MLJJ8nzxRKdEJhqVG%2Bx81Ld05M6%2B3y1Ea3Tz4ug95toa2oMvx%2BHNI8Xh9tIAUR3zUm1LYvvdNc8IdHFTLNt0Kt8BMZaX6MwbPXedvaXb8n8IakSjbOQv8SlwVnxiT4xvOUjxyQTvwPvyHtVGk%2BfOVIIOMrM%2BAEet4YD3yiZHxP0O562HYGD6m4R1nEC1Vg23GELeIlRy8TqOUoMQDFchMzS3sl6NHovp8gD5Py7fsAw%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940036697201",
+          "product_id": "940036697201",
+          "epid": "21050834847",
+          "price": {
+            "raw": "$57.00",
+            "extracted": 57.0
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/pI4AAeSwxBdo7scT/s-l500.webp"
+        },
+        {
+          "title": "Authentic - Apple AirPods Pro 1st Generation A2190 Magsafe Headphones Case",
+          "link": "https://www.ebay.com/itm/267452432255?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF75B3QKNEK6NVRHJ676&hash=item3e45683f7f%3Ag%3ACeIAAeSwvthpAnwR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9lXNcrqItszMDKofks%2FSy1N0r14hIjnbJFVcPviCtLYOdx9F%2BRjWz2WHVXODCWuXTVVB9znGNgwm%2F0a73mNrB3pKxP3mUeduGZQjKMokJfYI32icwbdljxbTOtkFXZCX0oL8wfF5ynry4MzSCy5rUdD4A11%2FRRDvAtlHMS4fiRZTFpfvHxVliCCttdJEbDv0Kd%2BwtW8IFlq0iTj3Mby6W4ljm2OXa8N4bngV9srskhicsIrKvzZGGssbUANwmB6Jtb%2FWv46OG4vgcDbuV8Kb70hPFm8CidZgcX4k7rMTDF8g%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267452432255",
+          "product_id": "267452432255",
+          "price": {
+            "raw": "$124.99",
+            "extracted": 124.99
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/CeIAAeSwvthpAnwR/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | Sponsored",
+      "items": [
+        {
+          "title": "Earbuds For Apple AirPods Pro 2nd Generation Lightning A2698 Right Side Only",
+          "link": "https://www.ebay.com/itm/178066872802?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF7414MVW6ASPNS44JZ0&hash=item29759cd9e2%3Ag%3A4Z0AAeSw0F5p5yRc&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FCC3NaUJgQgZGlac2L0DOJb9mbnzObpill4NLqR1ln9nGjH6jc%2BOvycY572b5fcVBttJmWgHJt5yZIboEsvuaFosrWNEVeFz2W2OovmYONTZt4twF%2BNWqEUv9ni%2B9M6bW1g2M3qGWAIrum3REEcCLa2TfjmrOnAPoIqV6xPr9C6r7P2bOmzCsa05HHUOdJC8o1GOuHC06Jw4COlFy8HbatCX9BV6s5sKlNOaqKJzX6ihPbOY3BX5ZkzS6XJdQZ9go%3D%7Ctkp%3ABlBMUID02duyaA&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178066872802",
+          "product_id": "178066872802",
+          "price": {
+            "raw": "$65.00",
+            "extracted": 65.0
+          },
+          "shipping": "Free delivery",
+          "returns": "Free returns",
+          "watchers": "17 watchers",
+          "extracted_watchers": 17,
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/4Z0AAeSw0F5p5yRc/s-l500.webp"
+        },
+        {
+          "title": "Earbuds For Apple AirPods Pro 2nd Generation USB-C Type Left Side Only A3048",
+          "link": "https://www.ebay.com/itm/188300206976?_skw=Apple+AirPods+Pro&epid=23102643964&itmmeta=01M6AVPF74QZJG3VF7CX4E45DS&hash=item2bd7912380%3Ag%3AC38AAeSwmmlp5ysu&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Fh0yL4QkpXmlVVcFJUjJRvpmwcGh6nIGQwDGS4JYDki5qRPQi0BCm%2FNhAp%2BNuf3fZ%2BZurCy1%2FNKu41LjMTe%2FlITz3a%2FqiC4l3uMgmWXJhKLSXrEX%2B9LbllQradW0vUuFB9jZIqToy1AemDlqt0QWEYXeiHLbRrC5o1g7W3zGaFz6HUzqP%2BgCtGpzLm%2F7xAusRc%2BRPDHihBvtVZpIg0lerj0WxI%2Fy8fbS2txqBYQ%2FTa1Denh4EKzGWP%2Bebr35izKLI%3D%7Ctkp%3ABlBMUID02duyaA&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188300206976",
+          "product_id": "188300206976",
+          "epid": "23102643964",
+          "price": {
+            "raw": "$65.00",
+            "extracted": 65.0
+          },
+          "shipping": "Free delivery",
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/C38AAeSwmmlp5ysu/s-l500.webp"
+        },
+        {
+          "title": "Genuine Replacement Apple Airpods Pro A2968 USB-C 2nd Gen Charging Case (A)",
+          "link": "https://www.ebay.com/itm/800298804706?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF7491RMWCS8BGYAKWN5&hash=itemba5586a5e2%3Ag%3AcjsAAeSw5FBpHSZo&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BFZD4trohB8UjvlREPY%2FV0LBlFh07CmabLQuxw1PmyMhYHY%2BiF8LAV%2FBK5r27KrbaLvj%2FIusoIqUtnrQDLOO7JfXEmYqZ3SgPImR510T3jkTV6%2Bj91PNI0i1%2BrMfgWdUgSIL11Smqw%2BlM46D5HrWsXoOi06anUtBrSLGDDWt4DlmuhuFtPDSbOMgwmCpLiIV92o2YlhFJE0djzSoDmuJVfDwfe339ZujXWp%2FCT2IRI06zO8r787WsEzxN18btdpx3f90HVEjLrG1fXpzTuJBKnDR23hTpSYa9gOmbpae0Z7Q%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800298804706",
+          "product_id": "800298804706",
+          "price": {
+            "raw": "$29.80",
+            "extracted": 29.8
+          },
+          "shipping": "Free delivery",
+          "returns": "Free returns",
+          "quantity_sold": "341 sold",
+          "extracted_quantity_sold": 341,
+          "promotion": "Save up to 15% when you buy more",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/cjsAAeSw5FBpHSZo/s-l500.webp"
+        },
+        {
+          "title": "Apple Airpods Pro 1st Generation with charging case, white",
+          "link": "https://www.ebay.com/itm/127702904735?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF748YHX7YY49Z014R0C&hash=item1dbbafaf9f%3Ag%3AWpoAAeSwtgFpne70&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9AxK%2BNifP45JdVh8BbeOzqVGUKeob7LB3YRSCfbhKeLOvPydQ5GGbo25THwpNWUl2WrPTRoJ%2BS4%2Fiix03GOlNji3ec53XLLmfjmiENerSwtTyIjaRHqicdYrT%2BzrUFBrn3ZxB3ikSRD2IimAEpHdX0R2VilC93Haj%2FQeqEx9OktAOkHFXlfYiZLHMqBY8txAGqCQw%2B%2BxNn4Iy3P1QENghyjt7sxekqQRtCnErc%2F8C6QiVjBUUqqveYl8B%2FTy%2FWD3Fg6OYW3GMHrqhzjYRaA9XTMcVV0mLrIPO%2B%2Bnsf8vqLNw%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=127702904735",
+          "product_id": "127702904735",
+          "price": {
+            "raw": "$49.99",
+            "extracted": 49.99
+          },
+          "shipping": {
+            "raw": "+$20.28 delivery",
+            "extracted": 20.28
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/WpoAAeSwtgFpne70/s-l500.webp"
+        },
+        {
+          "title": "Authentic genuine Replacement Apple Airpods Pro A2190 1st gen Charging Case Fair",
+          "link": "https://www.ebay.com/itm/257820046352?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF74DW4PKQ5KMPJQ5X8J&hash=item3c0745b410%3Ag%3AoqwAAOSwB%7E9l-zj5&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde907PhxRpR6xaJ2H%2BEGI%2BZyxHWkLLgqxunPnhSGmL4BYN7Mwk8CIixIobmLFLPXvUD986PdLDQKMEW5TRpomkuH9cE4Ptcq%2BVgs5ekv7BCxseOxfb7A22kGwAZDE0hQeepqfx4370cAWtAutJw2CBN1Di%2FG94BcIzGOs0qxVIGL6wB0dQvNVtYAG6vaWcmjOw3wRYOv%2FaVcVjuUPWOvGciBxUhZlb6MhTAioVEbw0yZjDeEGbZAT0e%2FuQXpO%2BAHtWjK7MtNLMf%2B1CkekqQnWfj0gdl7uU0Y0G3ytk4v%2BlS8Mg%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257820046352",
+          "product_id": "257820046352",
+          "price": {
+            "raw": "$21.49",
+            "extracted": 21.49
+          },
+          "shipping": "Free delivery",
+          "returns": "Free returns",
+          "promotion": "Save up to 20% when you buy more",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/oqwAAOSwB~9l-zj5/s-l500.webp"
+        },
+        {
+          "title": "Apple AirPods Pro 2nd Gen Left Side Only A3048 AirPod from USB-C case Airpod Onl",
+          "link": "https://www.ebay.com/itm/177391210777?_skw=Apple+AirPods+Pro&epid=4089414438&itmmeta=01M6AVPF740YMJ5YPJZDN6VPDS&hash=item294d571119%3Ag%3AS5MAAOSwHxVnmBKD&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8Sw8X7kBWh%2B2JyM4uSLGjoGdQl%2FWhybeNZdXn7pRyut7KJiQH1xW7SCFUfokqhilPm8EQ3aD87xzvYU5AoFYK%2BElZByUPeIYrA0CgcludjeayBU%2FW40dRVlZmO5V0FGmTM%2F84OC1ZILLBRI6tcYvygbMQn%2BxA6c2R29lx3Wc0hCLSPnKfGt%2BY13Vo8aHzMRoEpuBRoafHy3WW0q7FRXxKceio2sfXahXwWAfCc2AQAmgnDvGf7nQkXElaA5yg2zzHoNJw772VnrM9WlCi1W7u5FsvBInbOyCxC2n3rzpnFYA%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=177391210777",
+          "product_id": "177391210777",
+          "epid": "4089414438",
+          "price": {
+            "raw": "$49.87",
+            "extracted": 49.87
+          },
+          "shipping": {
+            "raw": "+$6.87 delivery",
+            "extracted": 6.87
+          },
+          "returns": "Free returns",
+          "quantity_sold": "50 sold",
+          "extracted_quantity_sold": 50,
+          "promotion": "Save up to 20% when you buy more",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/S5MAAOSwHxVnmBKD/s-l500.webp"
+        },
+        {
+          "title": "Apple Airpods Pro with Wireless Charging Case 1st Gen Lightning White MWP22AM/A",
+          "link": "https://www.ebay.com/itm/820262552702?_skw=Apple+AirPods+Pro&epid=10034976643&itmmeta=01M6AVPF74HVXQHSK5S8S22YV8&hash=itembefb75447e%3Ag%3A7zkAAeSwaThq15nK&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FC%2BGe3FWVyKln64lmwest7xhgqXXadDFGKuTGlWMYuUAPxHjYbO%2BV292LnvKTAAjerepzpjGl1GPGkyucISK26Z83dZN93FyhyQibvWJjOHrZKlNnibKwuTPGTdtGcK4X0zCz8HiYQ33fcO2y0vPQVJGetxxD%2B5yqZoEDqCGs%2FflCv3fsW%2BpjCzBA0Mw21RHT2WG9UTT02mSTNOLRWxrI04v8UGQH2Jo64wzkEia92nkXk6HbaQHB3ll108EEa1PLImCGfZwBPK0vSmtKK9unyWiiQ6uptDn6uXh4iPHWXug%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820262552702",
+          "product_id": "820262552702",
+          "epid": "10034976643",
+          "price": {
+            "raw": "$62.95",
+            "extracted": 62.95
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/7zkAAeSwaThq15nK/s-l500.webp"
+        },
+        {
+          "title": "Apple AirPods Pro Wireless Bluetooth Earbuds White In-Ear No Case",
+          "link": "https://www.ebay.com/itm/840035578587?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF74MYNVCRBKDX7GPHCC&hash=itemc39605b2db%3Ag%3AYvUAAeSwXf5qrd5E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde82o0114Zzf8pw14HUS%2Bhpa%2BfCqHovNfGiFtnNi9OdvTqxAhY1XZQeABMPOGnaWHOS4UArcIBmFw3fwrf6M1DE0pj35qQmg9SMM9036wiuWTDIZuqXJRVgop%2FnKdl54n8eNrrorAnHqmvkLbv0DWgSMPTLmmktz3EyYZR%2FOuu2HV9Ox2QHJluVXoQMi4%2BdAPdIKxj4SHYEwMk0r%2FFvze2ETNBufKsqL28dRGDOQDIG8S2Xx099%2FoxRfr9F76CJBgDt2ZinUyM9lsGMIz2GX9DLNtTO229QiC1v3kjTcnwsv4w%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840035578587",
+          "product_id": "840035578587",
+          "price": {
+            "raw": "$47.49",
+            "extracted": 47.49
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/YvUAAeSwXf5qrd5E/s-l500.webp"
+        },
+        {
+          "title": "Apple AirPods Pro 3 Charging Case \u2014 Used, Case Only (No Earbuds)",
+          "link": "https://www.ebay.com/itm/327413039978?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF744N0J2RQZHR204J1C&hash=item4c3b56836a%3Ag%3AeOcAAeSwWe9q1j2N&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8eccHTBO2nNNQsveggOQ2Bx8Z8zgFg8cIC750aj9ny30wjhubmKlzae00iOm0SteC%2FJmXuUa78ySYBO%2FkK8tXApBgY%2FhWG7vOqNWumiNmpdnSIMp%2BMLe5nlSIDBL7MnFBJX2%2BW3H%2BM4ID2ytS2e%2F9JX%2F3NjsYigkm5HX3ITEtgNaixTmtkjAl%2FSMy91zlTD0%2BMD0it7wViveZ2KZapy59ezTBrzrYU5nYo0aTx2Oll3OKcHX9JCb2q2s87VNsI1%2FlCxMNNZtv%2Bhz2yHALBJOpa5luHlpS5n9R7oIVXBoTD1Q%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327413039978",
+          "product_id": "327413039978",
+          "price": {
+            "raw": "$50.00",
+            "extracted": 50.0
+          },
+          "shipping": {
+            "raw": "+$7.61 delivery",
+            "extracted": 7.61
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/eOcAAeSwWe9q1j2N/s-l500.webp"
+        },
+        {
+          "title": "Apple AirPods Pro Wireless Earbuds w/ Charging Case ANC White couple extra!!!",
+          "link": "https://www.ebay.com/itm/960079627163?_skw=Apple+AirPods+Pro&epid=17070084041&itmmeta=01M6AVPF74JT5CP6GVYSDYBSSE&hash=itemdf8934839b%3Ag%3AdJgAAeSwMjZq05WN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8qYkHPQtCLfdk7sfsDOSAGeincp3xP9WIQvOyQIQY5kb6yG%2FARagNxVCnIokeGV3cjvaujqEU9AYZu7Y7om3M29QvYWplUgoHoNnqfiDSjZsQMM52PgnoehKUszMuF2sPbPrhIMuayISSYqx4dIdQIGAWBNgHAlTTZY%2FnInMfjQPnyY5GEVVGxOFp%2BY47geDaFHpJXGAH%2BzKvh%2FzYVsH1aJS%2Bh8bz1lMSJnm4WU5ihW%2BDnzlQjyXuKrQqHqsaD2ExJmxKKWTtlAbhQ5JKW4dcovCklpd4RD3aAQYSiKGa11Q%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960079627163",
+          "product_id": "960079627163",
+          "epid": "17070084041",
+          "price": {
+            "raw": "$47.00",
+            "extracted": 47.0
+          },
+          "shipping": {
+            "raw": "+$11.50 delivery",
+            "extracted": 11.5
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/dJgAAeSwMjZq05WN/s-l500.webp"
+        },
+        {
+          "title": "Apple AirPods Pro 1st Gen wireless Earbuds A2190 Reset Tested Grade A Good",
+          "link": "https://www.ebay.com/itm/327073475445?_skw=Apple+AirPods+Pro&itmmeta=01M6AVPF74JP4NG7AR3TK087AE&hash=item4c27192b75%3Ag%3A68IAAeSwU5VpxvVk&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9y8ckePb4MoQ3DNCMF2dExKNRQp8lbgNpz%2BGQ7QwLkz5RqO1sqVoiZwgOQ%2FNTR4yc1uVTS8cVhllQ6ipyP74xBe4h9z%2BVs1DU1ieXmAVNOAEB4obtA7qZGxeUMi44szcB6Aep1GlzUBOCJxzrljL6bhBKx7bdhNZBe4ytcWnzcMInnUhVQroGEWzW35dLbms2QW9DeyIaH9GpEuAyme8LwHIGdFfumg4qQGtXaDB3HLTxQvNlI9Paw58xBR23CrhOOdAOJByW436Zrw4Jk2LFDgiC%2BlJektrJrgUIlIgUhKA%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327073475445",
+          "product_id": "327073475445",
+          "price": {
+            "raw": "$69.99",
+            "extracted": 69.99
+          },
+          "shipping": "Free delivery",
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/68IAAeSwU5VpxvVk/s-l500.webp"
+        },
+        {
+          "title": "Genuine Apple AirPods Pro 2nd Gen. A2698 Lightning RIGHT SIDE ONLY AirPod CN",
+          "link": "https://www.ebay.com/itm/178300586226?_skw=Apple+AirPods+Pro&epid=20057100389&itmmeta=01M6AVPF74J8GEBSQ3YT5C10KY&hash=item29838b08f2%3Ag%3AQxoAAeSw-xFq2ldX&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FRP18pVPIc%2BpOICcQnfop3AA66Mx6sAJyVgGxn2RZ5YK3A9J7seIK1vgC37m44NvFUeuC7E2ZJ5krpi3%2F1qEFWRxOud0jGcWYC6NdankDekCJVYDzgbVSOzHGpYswPk%2BAiq9EiZKo0EJqMCxWG3fDKNN5mPbq68AWimaYpxaul%2BfTGtdzXSMN%2B6sJ25UgjaDY4eQXVLs%2FBRxlc6RpnmFVgZkQylyw4GeaTLiyreiEEpPLjp6q3ckSEdgmuFlyeRjSrTrS8z12bGTOyNm0nikCdOH5ZsuU8LDbYTYz3zGFf2w%3D%3D%7Ctkp%3ABFBMgPTZ27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178300586226",
+          "product_id": "178300586226",
+          "epid": "20057100389",
+          "price": {
+            "raw": "$63.69",
+            "extracted": 63.69
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/QxoAAeSw-xFq2ldX/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "apple airpods pro 3",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+pro+3&_sop=12"
+    },
+    {
+      "query": "apple airpods pro 2",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+pro+2&_sop=12"
+    },
+    {
+      "query": "apple airpods pro 2 nd generation",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+pro+2+nd+generation&_sop=12"
+    },
+    {
+      "query": "apple airpods max",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+max&_sop=12"
+    },
+    {
+      "query": "apple airpods pro 1 st generation",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+pro+1+st+generation&_sop=12"
+    },
+    {
+      "query": "apple airpods pro 4 th generation",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+pro+4+th+generation&_sop=12"
+    },
+    {
+      "query": "apple airpods pro 3 rd generation",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+pro+3+rd+generation&_sop=12"
+    },
+    {
+      "query": "apple airpods pro max",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+pro+max&_sop=12"
+    },
+    {
+      "query": "apple airpods 4",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+4&_sop=12"
+    },
+    {
+      "query": "apple watch",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+watch&_sop=12"
+    },
+    {
+      "query": "apple airpods pro new",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+pro+new&_sop=12"
+    },
+    {
+      "query": "apple airpods pro 4",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=apple+airpods+pro+4&_sop=12"
+    }
+  ],
+  "popular_filters": [
+    {
+      "name": "Black",
+      "parameter": "Color=Black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Black",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBlack"
+    },
+    {
+      "name": "Gray",
+      "parameter": "Color=Gray",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Gray",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DGray"
+    },
+    {
+      "name": "Blue",
+      "parameter": "Color=Blue",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Blue",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBlue"
+    },
+    {
+      "name": "USB-C",
+      "parameter": "Connectivity=USB%252DC",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Connectivity=USB%252DC",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Connectivity%3DUSB%25252DC"
+    },
+    {
+      "name": "Bluetooth",
+      "parameter": "Connectivity=Bluetooth",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Connectivity=Bluetooth",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Connectivity%3DBluetooth"
+    },
+    {
+      "name": "Apple AirPods Pro (2nd generation)",
+      "parameter": "Model=Apple%2520AirPods%2520Pro%2520%25282nd%2520generation%2529",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Model=Apple%2520AirPods%2520Pro%2520%25282nd%2520generation%2529",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Model%3DApple%252520AirPods%252520Pro%252520%2525282nd%252520generation%252529"
+    },
+    {
+      "name": "Apple AirPods Pro",
+      "parameter": "Model=Apple%2520AirPods%2520Pro",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Model=Apple%2520AirPods%2520Pro",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Model%3DApple%252520AirPods%252520Pro"
+    },
+    {
+      "name": "Apple AirPods 3rd Generation",
+      "parameter": "Model=Apple%2520AirPods%25203rd%2520Generation",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Model=Apple%2520AirPods%25203rd%2520Generation",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Model%3DApple%252520AirPods%2525203rd%252520Generation"
+    },
+    {
+      "name": "Silver",
+      "parameter": "Color=Silver",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Silver",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DSilver"
+    },
+    {
+      "name": "Red",
+      "parameter": "Color=Red",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Red",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DRed"
+    },
+    {
+      "name": "Green",
+      "parameter": "Color=Green",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Green",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DGreen"
+    },
+    {
+      "name": "White",
+      "parameter": "Color=White",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=White",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DWhite"
+    },
+    {
+      "name": "Purple",
+      "parameter": "Color=Purple",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Purple",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DPurple"
+    },
+    {
+      "name": "Pink",
+      "parameter": "Color=Pink",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Pink",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DPink"
+    },
+    {
+      "name": "Multicolor",
+      "parameter": "Color=Multicolor",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Multicolor",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DMulticolor"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Apple+AirPods+Pro&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}

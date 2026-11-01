@@ -1,0 +1,2036 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7b4375c34e99c8af1a4",
+    "status": "Success",
+    "created_at": "2026-11-01 06:09:56 UTC",
+    "processed_at": "2026-11-01 06:09:56 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+    "total_time_taken": 2.35
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "Levi's 501 jeans",
+    "_ipg": "60",
+    "LH_ItemCondition": "3000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 130000,
+    "query_displayed": "Levi's 501 jeans"
+  },
+  "categories": [
+    {
+      "name": "All",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_oac=1"
+    },
+    {
+      "name": "Men",
+      "link": "https://www.ebay.com/sch/260012/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260012,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=260012&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Women",
+      "link": "https://www.ebay.com/sch/260010/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260010,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=260010&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Specialty",
+      "link": "https://www.ebay.com/sch/260033/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260033,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=260033&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Kids",
+      "link": "https://www.ebay.com/sch/171146/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 171146,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=171146&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/260018/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260018,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=260018&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=1&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 888,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=888&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 550,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=550&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11700,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=11700&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 99,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=99&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 14339,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=14339&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 64482,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=64482&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 12576,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=12576&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Music",
+      "link": "https://www.ebay.com/sch/11233/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11233,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=11233&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Antiques",
+      "link": "https://www.ebay.com/sch/20081/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 20081,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=20081&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 281,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=281&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 220,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Levi%27s+501+jeans&category_id=220&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "title": "Levi's 501 Men's Black Denim Jeans Regular Fit Straight Leg Button Fly W30",
+      "subtitle": "Size 30 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/407330288496?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZQSM5AMQBC7EPTR5H9&hash=item5ed6c6f370%3Ag%3ATD4AAeSwzbFq5rKE&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BxRc05OHT8vXO06fPfI8F2RhT2BDNfDsuWmosOdzRJzIYH0lV68CSaJmiG9QcUP3ct8eEpkT4FcrUCtUhZnMhCvYMysJSymkeR8Q174w2M1q6iuhyBPKqdf2mi0Rut7G4I8vVeG04%2BEFvcnfc6Vembx4XfiooiWI%2BQZtdyavgGARMCCsJfLcdNDsZ6P5EHAoqzP6i%2Bl0heC0JF1aShcZ0Ke8GGA5Fh%2FDuqsVHiUKwk4fNwggd75%2F9ADrCvx9quw00W1wAhsciLmbTpkqk3Nuz%2BN91f%2FbqIgz3cu1HCjstg6Q%3D%3D%7Ctkp%3ABk9SR5CA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407330288496",
+      "product_id": "407330288496",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": {
+        "raw": "+$8.27 delivery",
+        "extracted": 8.27
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/TD4AAeSwzbFq5rKE/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levi's 501 Jeans Mens 30x30 Blue Dark Wash Original Fit Button Fly Denim",
+      "subtitle": "Size 30 in x 28 in \u00b7",
+      "link": "https://www.ebay.com/itm/278347030969?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZQB5QQQ9AK3BQ0T27Q&hash=item40cec6a1b9%3Ag%3AmmcAAeSw1cFpipHm&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9enchjksqxtjFh%2B8Jlzp770RFfGOheftO0BuzeB3jwEvoNBD7NNfrAyZlP%2B9aFms6R5U1%2B8ENeeugC%2BuxA6Zu1JIXp6KzMtOrA2Sons%2FG4DmE4hDzbIDqlGCqHXB%2BuLeZzxowRWsmCxhXkUSkL2QWFoZ5%2BEP7ICydO08weSaTe2Xf1MbqwpiO6wELrBk%2BNfnZkR4ipZKw3sdCBtHLUnbe8DYz8jmqOflEi3lgOjYzXk9F64hy1YhEQ%2FVtQnVo2zt77W7dh2lyb6zH20WlaYiIppMOPwfWWlw%2BidT5E8r0tEQ%3D%3D%7Ctkp%3ABFBMkIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=278347030969",
+      "product_id": "278347030969",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery in 2-4 days",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/mmcAAeSw1cFpipHm/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levi's 501XX Original Fit Jeans Mens 36x31 Blue Straight Leg Button Fly Denim",
+      "subtitle": "Size 36 in x 31 in \u00b7",
+      "link": "https://www.ebay.com/itm/377463122253?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZQXWDJPVXPE5D9AWGP&hash=item57e28e294d%3Ag%3AlioAAeSwW8NqlyEK&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9t0a%2BJof2HqvQVU7XeB19SRwmWWPNvgk7zU4J23dYystCZ%2BnRVGG9oLl1XsWZD8AQL%2Bfofsmufq%2BAppHKU4NodwlOicO5k0do%2BO7lyw1EoMItv6vCZSgJO1Im4NYO61lgihozxbJ93%2BEYvYpzuWm3qqxGBZZMMHRmIue8fX6L3VeTJZ7S5bavR2nvj2FZ%2BFbU1Cv%2BOVgBQdhTC5bqjTfSplsr2yFhLO6M3uFXckW0wYhFMAVPb1vCFgzsdsgtmEn3z%2BcYl5qhFTgCXUExJYbG72g7HuANr9lPTeg36oBa5lQ%3D%3D%7Ctkp%3ABFBMkIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377463122253",
+      "product_id": "377463122253",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.99",
+        "extracted": 24.99
+      },
+      "shipping": {
+        "raw": "+$7.56 delivery in 2-4 days",
+        "extracted": 7.56
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/lioAAeSwW8NqlyEK/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levi's 501 Jeans Mens 38 Original Fit Distressed Blue Denim Straight EUC Regular",
+      "subtitle": "Size 38 in x 33 in \u00b7",
+      "link": "https://www.ebay.com/itm/298731703080?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZQT7SJMWHX9AEQFM4F&hash=item458dcc0b28%3Ag%3APjsAAeSwQBhqcbOi&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2ByD1uHbaPNaWHWlTvi%2BAAVnG8RuJD2m7A6yHSB7R5W5nfF9ZJqTV70Wzr%2Bic3G%2BgDAnqCEsOZGDalGFP6nKqZWmBf78bwPqVc%2FpCLT1WdV1U1gBCeBOwwu3OqW%2FgNnuflarkLuxVPJSqnvkfhtEEyyqW3siWZ0gl0I%2Bc8CFlDqjscTADekMtSIeZduRqGZNBtKWHIUcojsTINiYNuRj7FagEpHUMV4jlKJlKBNhMUkY9bWNt4zN3x1k5d13xNs4JfExOJ3zi98zHa2r6Giw75Jaqsmb%2F7pUR8knvS7oYzk6g%3D%3D%7Ctkp%3ABFBMkIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=298731703080",
+      "product_id": "298731703080",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.59",
+        "extracted": 30.59
+      },
+      "shipping": {
+        "raw": "+$8.99 delivery",
+        "extracted": 8.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/PjsAAeSwQBhqcbOi/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Fit Men's Jeans 38x30 Light Wash Blue Denim Button Fly",
+      "subtitle": "Levi's",
+      "link": "https://www.ebay.com/itm/227589313384?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZQTHA20W9YNKAD39W1&hash=item34fd615368%3Ag%3AD2cAAeSwWuJq4-Zr&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BsBee1puWC77urSAMda2LoPciHrnCEH4L%2FlsgBuO2TFLU11ISexfVS%2BpY0DhqBLe%2B3ZLkblvVWeMVoMGgZokXNe%2FdYOphCMpfXoFRNernzB0KoSu7riBXeA6HUjACw4pwP4MD1Dd0iUyQJcBuG%2FzBkYzW87bWY1C5g2RPqKA5TGsx6jzznk4K3EwW0ZBMO7oKEfQF3H%2BshWlhBGLk9o02WU0JzdXvB967vbmyPbqi0lYX%2F32pQDUWKF49If%2BoFNyM%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227589313384",
+      "product_id": "227589313384",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/D2cAAeSwWuJq4-Zr/s-l500.webp"
+    },
+    {
+      "title": "Vintage Levi's 501xx Blue Jeans Men's 38x36 (Fits 36x32)",
+      "subtitle": "Size 36 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/860102085864?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZRSRQA9Z2EV2XS5VQK&hash=itemc842144ce8%3Ag%3A9nYAAeSw6glq5rEW&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BOtCNX1kBWoIDo3KM1gIJdZN%2FIG2LgBIyA8knMGk8XPtabEuHUUqIapTLPuNoHG2u7PICNKjdHW%2BiNeZjbrrQ5su0bRAiW3YnFfRML0pF3hD%2FIjXerJLSfPIPLx0ZjFZCWrEINLDBGIKK71PxEho%2BhgPL57q7isLaijbZl6QsBdDrHplgOZyVGnuG2oPlYjjmjtiH0Immf6nCRu7iTKHplTLHU9ImDoQiqDJV8tyKoBRq%2Ba90ZcdcPoiwmzm25hZ4%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860102085864",
+      "product_id": "860102085864",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$65.00",
+        "extracted": 65.0
+      },
+      "shipping": {
+        "raw": "+$13.70 delivery",
+        "extracted": 13.7
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/9nYAAeSw6glq5rEW/s-l500.webp"
+    },
+    {
+      "title": "Levi\u2019s 501 Original Straight Fit Men\u2019s Jeans Blue Denim Button Fly 100% Cotton",
+      "subtitle": "Size 37 in x 34 in \u00b7",
+      "link": "https://www.ebay.com/itm/147659988096?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZRDTS9JCJNZZM13TSG&hash=item2261389c80%3Ag%3AFWoAAeSw73tq5oB2&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FDuxKiCB2sAjyU17VtM1N8GPenx%2BU0lfadSQKi5GaVWOGBFpIWO%2FZT3EyDpj3RMuQbyKUFyxNWc2ytq5yV1ZyGxfxnn7t%2FNVk2PymrJ6l713ZFO5fr4doxM9HU6k2UqTKzoFmegOLif%2Bb7wkt1P777DLfCbyKdB7Q7GUEUNnWTewKTNY8K3xpoy8EKzoPQZCsS5hI%2Fcfbl5U8cQd2Q45qGcanpfsR6E4QgcxEII1E7NKgHujxmJUk93YW%2BlNDSPYKIHwMJTTDNQAWYZNmecZZ9E%2FLz8hgJUgrHtwoAIeV9Pw%3D%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147659988096",
+      "product_id": "147659988096",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$32.99",
+        "extracted": 32.99
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/FWoAAeSw73tq5oB2/s-l500.webp"
+    },
+    {
+      "title": "Vintage Levi\u2019s 501XX Denim Jeans W38 L32 Dark Wash Made in Mexico",
+      "subtitle": "Size 38 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/227591957824?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZRTQTX9M8CP8398549&hash=item34fd89ad40%3Ag%3A1YIAAeSwcJxq5oWc&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9Gg21tKVtDhgHL42iXeI%2FBIYmTjgpk33zRpx5a2DDs2nWUi%2F580hfuw8E98kDszCIOuLdMBPmRf6ZdhomjZ4AMSldE%2BejVVyvaW8EazUs0FGt86F8HoGWSmOW31x1du%2Bqb%2FCIO9GiWIAxqNaukwcNkFOPvzC9WPwTz%2Fh8P02doU1EQ6Dqpe7Da2%2BRMstEaLH0l3Tn9Bbdz%2FpbaoOYZxgCIIlEC%2F%2Bo8OqEHNgbK4rXIRWztt8jblyxpnaED9XlIPM0%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227591957824",
+      "product_id": "227591957824",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/1YIAAeSwcJxq5oWc/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Fit Mens Blue Jeans 36x34 Button Fly Straight Leg Denim",
+      "subtitle": "Size 37 in x 34 in \u00b7",
+      "link": "https://www.ebay.com/itm/147659946107?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZRMT002CFAZT9P31ZA&hash=item226137f87b%3Ag%3Ac4gAAeSwVKBq5nbE&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9K5M0OXmo6cmGS0%2BWE9eYzQcdH2YnQD4EfTxKo%2FMLJLKaHpncIWxvS32IjNMY3I08IVfCOQtuvIzg%2BYbHV2BaJ%2BkYAhR8WWOssRVIfhd%2B6CZuwQ3UqYIwB2GrUH9R3%2Fbmp%2F9duiBOVrvLERu9hERp8WVuU8FU1j%2BK%2FqHE2ESc7A9XUgpc2RKS3hKRI%2FYkOUTp39h3Og7rreSLYfN6p6ieCVJpAMt5hp94YAm58p88OmN0y44QJhZNwaGs0v2QdRt%2Ff%2B7k9c29AlrXOKzzSn3N01RL5e9cxlsqCoNoJGjURKg%3D%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147659946107",
+      "product_id": "147659946107",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.99",
+        "extracted": 24.99
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/c4gAAeSwVKBq5nbE/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Men's Light Wash Blue Denim Straight Leg Jeans 32x28 Mid Rise",
+      "subtitle": "Size 32 in x 28 in \u00b7",
+      "link": "https://www.ebay.com/itm/860102069440?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZRDJPCGGCSZYJBA5K1&hash=itemc842140cc0%3Ag%3AnSoAAeSw5ZNq5rEZ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Bxlchdzoqto0u6CR5Y%2BmhR2GtT5yDX%2BbdDflNXz8qKawz5YV0ouOF3OwF8uh8pU1wOpQfhqXujI3c41vTb3ufeSDB29gMCrQLXiCNC5XVxWPtO0Uf%2BWXa0cbJiD%2FQLMWrwCvxVqpnIpmw7y9BVjRmGYhi5EIq3ZsD6lrP6YaHkwhg%2BpN945O4rcBD9H3XtnKQnbzZRe4MTpUFS5Yud4NtoWJCi5Cxg%2F1ERk1CfEpOEN7DFRM1Zv310sW0sQb8Sn18eboBkNgsZEmGJEnfIbEOJTEP8VJBoCVeshXcWlTa2%2BA%3D%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860102069440",
+      "product_id": "860102069440",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$5.50",
+        "extracted": 5.5
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/nSoAAeSw5ZNq5rEZ/s-l500.webp"
+    },
+    {
+      "title": "Levi\u2019s 501 Original Fit Men\u2019s Jeans W36 L32 Blue Denim Button Fly Straight Leg",
+      "subtitle": "Size 37 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/147659961528?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZR9XPGNDNS1VY7ZW4N&hash=item22613834b8%3Ag%3AYD4AAeSwgmNq5nnp&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F8cgPY0KKbTE60Y5afyzRhjEisvSe3TNNwqKvVgvvKqdXLFsopESn7jJerjDooaxiBHoqPgqcmNSvfpWBuYqD4BenpXZGgxDsi9ztMNCPMdfsZi9MGkHsQBiozx%2Fo69QOggRsm6GWSI90egHZgyWgsFidZog%2BfdYLTerfaAt7tX4v72lroMC6pwqpoe9lLaCDZooFXqLPXFZbI4ASchwwQUks47hxezr%2BJqSyXZboXIf%2Fcw0BkK3klFq1gTWy16CeNbIcC4hr%2FjGGviGf1RK1iFS92k15ak4yHeb47qiexsA%3D%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147659961528",
+      "product_id": "147659961528",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.99",
+        "extracted": 24.99
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/YD4AAeSwgmNq5nnp/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Fit Jeans Mens 35x34 Blue Denim Button Fly Straight Leg",
+      "subtitle": "Size 35 in x 34 in \u00b7",
+      "link": "https://www.ebay.com/itm/900054952788?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZSZZ5F227Y2WPK8XGN&hash=itemd18f74ab54%3Ag%3ABvEAAeSwlYBq5nfZ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2B%2BxsHr4S7NLgPBrbhK%2BI1MRIHdB%2FB7fwnu59cRXiyl80VKmA0ubREM9PKmu3atrbXgeZbbnpFti3aj08jOg%2F0UhlYDZbVUpRS1TpHb65d8ovc3OfQ0uRQdGYdBQ%2BoDh6s8gj5SSkWeeUOlB9gMQUI%2FdaS15DVxUNq7uKCeIX6fCw448kKveBGE1OUsXAEj9eHtvNEqniq1vM8b0Fxbmok7Tvrzu0kAi%2BETiomRSQgQ%2BFW6vd2SUVyXeKTNbMjy1Jc%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900054952788",
+      "product_id": "900054952788",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.99",
+        "extracted": 28.99
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/BvEAAeSwlYBq5nfZ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levi's 501 Jeans W38 L32 Mens Straight Leg Denim Pants Black Wash",
+      "subtitle": "Size 38 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/198686204465?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZSJ6GXCNVMZ8TNTM3X&hash=item2e429ee231%3Ag%3AkxoAAeSwcAxqwYKk&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9OSwlzxorNb2enlZYwhd66yt2nOZRWP9O8k98lwRzt5eIND4j47OrQEV6n36jejfixb%2FY6iy%2Bq5XLZ6FHPpk3PGXZpqIrfAV7Ok0DCsTZJeejbMP8us1cSHLuf%2Fyj%2BUl3weN%2FehfYrbKg6pfyC8kBY%2BlMqiAoEBDEJ7agUx8%2BXd%2BKUWgon56dwmOlhngfM67D%2B6PLPh7DcIra7n2OBwSJh8monvb34xhtg1MH35p4Ai%2FrehzINvQyJQLo4btFjdXqdmWBHCbLgnIIU%2BEH81%2BE3S%2FHVMDP1r3OgZyma43pGoA%3D%3D%7Ctkp%3ABFBMkoDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198686204465",
+      "product_id": "198686204465",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$9.89 delivery in 2-4 days",
+        "extracted": 9.89
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$20.00 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/kxoAAeSwcAxqwYKk/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Levi's 501 Men's 38x32 Blue Jeans Straight Leg Regular Fit Button Fly",
+      "subtitle": "Size 38 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/158272486542?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZSK9FMFWDSGKD4M9XW&hash=item24d9c67c8e%3Ag%3APcIAAeSwlo1qoINl&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9SjzGLx9ABjidLgHWVUsGHUsaJIffwRY2yuV22wVxJWsgdV%2BZkRYXESMOSxgHpF2J2TImuQOp1yZ3QisScSyCGMr8rCq1WaSDZ2fS%2FfRfC7mrII5DWp4BP2b0rctgsuUwyLYrvDwwslCF%2FiafOVB7cZJ5YmJVi06c5MDk8lSBmD8UNDZv5w6ok88mscW7zsk6iO1p5MiFSK6QZBynSsJsAPBygueXNySUUW4iHFOc1%2F2%2BGn4PG7r18n1kvsK6U41PAO1F6B1jNxWZ2rz92cPFeA%2FErcUNg1YWTzFoTBAeCag%3D%3D%7Ctkp%3ABFBMkoDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=158272486542",
+      "product_id": "158272486542",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$32.95",
+        "extracted": 32.95
+      },
+      "shipping": {
+        "raw": "+$9.50 delivery",
+        "extracted": 9.5
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/PcIAAeSwlo1qoINl/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levi\u2019s 501 Jeans Men\u2019s Size 38X34 Blue Straight Leg Button Fly Classic Dark Wash",
+      "subtitle": "Size 38 in x 31 in \u00b7",
+      "link": "https://www.ebay.com/itm/406975037626?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZS8N46XTA7DZS8GNFG&hash=item5ec19a40ba%3Ag%3AO1sAAeSwzLpqIis9&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Feo1DXYTRM8189XxgBCzIPo%2FGldF9FVJeOIGMbFIOgubW6FmYnO6GBiiDm64%2F1Rl6Pq5YrniUoyNxBlmkEYAfTZcgw%2BWi%2BH28aUvXXzuAMo5PqTOEY%2FFICN79ScyvV%2F8jiOs0O6iVPpg1nERW8PALkqBROEyrV1%2FZ4tfu35%2BkiPJ5klYcxoHp4fIDP5qFm709HGqUGJg0bsM7e3XpnOea%2FWClgbwDCjkmLiqcRKwC7%2B0iEmVxK6AX1yxyoAo9bVGfbADYbSx9wWK0NW32tKrTL2QSkG57kuy9RWhEww0YJng%3D%3D%7Ctkp%3ABFBMkoDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=406975037626",
+      "product_id": "406975037626",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.00",
+        "extracted": 29.0
+      },
+      "shipping": {
+        "raw": "+$14.99 delivery",
+        "extracted": 14.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/O1sAAeSwzLpqIis9/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Y2K Levi\u2019s 501 Jeans Mens 34x30 Blue Dark Denim Straight Leg Button Fly WPL 423",
+      "subtitle": "Size 34 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/318761821400?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZSWJAEE55WAN8R2PGQ&hash=item4a37af64d8%3Ag%3AThkAAeSwX4xqh7xx&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BN3Osjz1lO90IQwDK%2BZQXaiVrL1hRIZkZoBhdYOWWSoZx%2BEiv5oFBHnOeJXYbtACKNQqK8HC3zT8bx9EYuIgU%2BFA0A5GIC9Xzk6rrmhgYqnTEjBsY3%2FliUX4Z3ldBTduGHFzvNJeR82fvtDdhmFkOfb8h3Yu9eLvA6KZQcUp7SWS7HCVNkgd5m%2FEyz9uOw1lO1D8HfsSdAni5J1I9lXPzgI71FujMMrPCKxmrp2gRuG049KyzXK01NdJ7emzMxcSVDAHADvE10oSceSTjMK%2FsZGc%2Bg70o7f6EafJqVOX61%2Fw%3D%3D%7Ctkp%3ABFBMkoDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=318761821400",
+      "product_id": "318761821400",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$64.99",
+        "extracted": 64.99
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery in 2-4 days",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ThkAAeSwX4xqh7xx/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Men's Medium Wash Blue Denim Straight Button Fly 5-Pocket 40x32",
+      "subtitle": "Size 40 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/920092102020?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZSR6CCPPT58VT56EXW&hash=itemd639c34d84%3Ag%3AwaYAAeSwhRJq5nNz&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FkN856BxXBvrEn4VLMZ0GLJtu%2Fy6ywygsgTff1XFA6rrTJdp6tLhEiBgOemL7NePpJKamRkct1IcrWCY5h6zvhwGOaqs8aSHFu4zG6wrpD56zkWr0Jl29VlVnFOCYXsA1%2BoH5yogUSL%2BU5WKFca9kfVNwjrSqtxetwxcnVzQNeia2UVjIAuQvoVEZbbh%2FPTMa%2FB76MqpyrYFzvCZTwEBxMIfzgKnmFsys0XQhND11lB5Xp9k8rJM3N3x%2BgCqsGCV8%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920092102020",
+      "product_id": "920092102020",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$11.00",
+        "extracted": 11.0
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/waYAAeSwhRJq5nNz/s-l500.webp"
+    },
+    {
+      "title": "Levi's Premium 501 '90s Men's Straight Leg Button Fly Blue Denim Jeans W32",
+      "subtitle": "Size 32 in x 29 in \u00b7",
+      "link": "https://www.ebay.com/itm/287695369904?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZTWBPCQFTAADTKF51Y&hash=item42fbfaf6b0%3Ag%3AW0QAAeSw%7E9lq5oMp&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8D1f119oP1tPbLhvmKs8JSEPVnaQ0M4HM0xbaQkLiwvsT3kDhpFRchBhDF07mNxSa90K3guik8J%2FDX756h%2FQnMT6jDRiL64RPSxJ44EwUIbnajuLo3lUXZeDqjM3ZL5wCxRSiRaNrZXNWFzBiLX6UPBcxtH0ofhNyanEciVJRvfH3xbv4lM8N4%2F%2BSQg6pePZOnjExvuGSRqTMvfyHVD%2F2ofHsVSPXQABgGMxEujAikNxLMCJrZiXfBZLGO6N5BYsgmAtQEq%2B3QV7WC7h%2Fs3wW4%2B0j2v8yhKMEDA72o9h49Tg%3D%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287695369904",
+      "product_id": "287695369904",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/W0QAAeSw~9lq5oMp/s-l500.webp"
+    },
+    {
+      "title": "Levi\u2019s 501 Jeans Mens 36x30 Blue Denim Original Fit Straight Leg Zip",
+      "subtitle": "Size 36 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/820301594871?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZTSPYMZF7G973GGBHP&hash=itembefdc900f7%3Ag%3AeEQAAeSwVWFpguj6&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FKJDS2stj2PcivVLZcumCe%2BqV4lrBqoRIzbngZq6HlUnu1E5NMsIoc8D3csncR7oFcJKbBcEtqiIDeQ68FRwfODLoJhuPVjE2IwPXEFVBvzc%2FxA0luhekXrJWfKZ9T3Reo1D9Di9rKw1%2BsIPgBAy067CtS9D0QWjB%2F158Pb0Y4GKp2W07VXwm1bbjg9d7kGhhiZxYQaSTZwoDaP3fZXfysyL7nxMf5c61RQ2hJ6HupN%2Fbau0YBgdnbgv6jQmFDebE%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820301594871",
+      "product_id": "820301594871",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$26.99",
+        "extracted": 26.99
+      },
+      "shipping": {
+        "raw": "+$6.65 delivery in 2-4 days",
+        "extracted": 6.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/eEQAAeSwVWFpguj6/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Button Fly Jeans W40 L30 Faded Black Washed Gray Straight Leg",
+      "subtitle": "Size 40 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/407329996260?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZTYN16SXGK684ZNDNR&hash=item5ed6c27de4%3Ag%3A7D8AAeSwKmVq5oA3&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FAGkW4GkzOtQSkLPe62Gvn0M1E6FB4aQPGo%2Bo%2BMP0Almk7THn%2Fn8gjk5peZDsRj5GcFErYDV%2BH9rVeqcu5kXdhc5or24vF8DiVU7E7GpV2sUSXGwzbHFl%2F5SxChbdhTyKX535aMFmRAbzcSc3%2Fo6uflpVA0QThfDS0mKMdxGnYAIHMUa8QnvkEKxbqAxSQNBgjlc5iD%2FguUl4KzIAIYtrppVBTpiwDmuTXfBTB2KV22M1uHca91qmZm9agxlq9nxjZ4%2FRptbNrwmbGpjvNM3U7bdCcWpu6PE6bVmx%2FjIG13w%3D%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407329996260",
+      "product_id": "407329996260",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$38.00",
+        "extracted": 38.0
+      },
+      "shipping": {
+        "raw": "+$6.65 delivery in 2-4 days",
+        "extracted": 6.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/7D8AAeSwKmVq5oA3/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Fit Button Fly Men's Jeans 34x34 Medium Wash",
+      "subtitle": "Size 34 in x 34 in",
+      "link": "https://www.ebay.com/itm/900055191106?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZT77BQ9M8VRM7HRN6S&hash=itemd18f784e42%3Ag%3A1XIAAeSw73tq5pY4&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8KbpOAjeUTXTGQI84oW8H4zAjIP5I8XagEinWOzNxe9PFy7GH8p72B%2FUgwhdd%2Fwgpc0A5hg1Qsi3z98MVJHIFate0nNv3iaK28dxiDfy2G%2BQSZUBXe6DL%2FnY2LlJ0IO8%2BK4uPQ4rlxhhp5tjw8pUN2vw1is0CwH9c3HJuy5ZUnEuRWv9vGRv70r35IIuiGf%2FjOyhYo55b1B%2BSGS2nVPblESbaBmFpvAUcnCk9JN0Hndruvc%2BYrRbq%2FJjsJJbOga7PYGym2QVMbVQUuVeKiA8EbA3uYU%2FDe3JvdzNHlOp5%2BbQ%3D%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900055191106",
+      "product_id": "900055191106",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$32.20",
+        "extracted": 32.2
+      },
+      "shipping": {
+        "raw": "+$16.26 delivery\nImport fees due prior to delivery",
+        "extracted": 16.26
+      },
+      "location": "Located in Canada",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/1XIAAeSw73tq5pY4/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Men's Medium Wash Blue Denim Straight Button Fly 5-Pocket 40x32",
+      "subtitle": "Size 40 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/920092095990?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZT2SMBVVQ3X74FD322&hash=itemd639c335f6%3Ag%3AUyUAAeSwAeRq5nKS&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde85hDwqS%2Faw%2F91yIs1h48nEEWDpZZ77jI%2FnOIFqtp06N6PSf%2FzmJXmhO1jrnDqUofWb93Yi7Gin7nnnBJlEhdtnOxjFI1%2FbWEk86f46902Cy4QbIdnXV2CnC%2FkwZeow18Sdpoh%2FgxdBHWgIswFJvIc6G7G97Be1Ye3IFa%2BveD4KASCiZZWCrzX2KS2poGUXYNdZqMMEXoNNO%2FcV%2BwdH2Z0xnlxxlylI7rHEJD6RWoT0CsEEZ1AyJuVXhjpO6NLmFumg4Xx4KPVJIR2kt4p7H1aMhPw41WW7iBueYSFYC9bFFQ%3D%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920092095990",
+      "product_id": "920092095990",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$12.00",
+        "extracted": 12.0
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/UyUAAeSwAeRq5nKS/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Fit Jeans Mens 36x32 Blue Denim Button Fly Distressed Knee",
+      "subtitle": "Size 36 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/287695446403?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZTDE6BM9F41DDT4WEG&hash=item42fbfc2183%3Ag%3Ak7EAAeSwRZ5q1QfQ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Frl0bJKrtBR4bzReOAYXT%2BrpsgBAwsUP8NRLdTZNbPXev9SRirabvgH4fwWp%2BBgtivWJ5cLohO4jMmqtzQ3SP8isG3r4PFfBR8jbcqUdwGC92IOkjqsmKBO6kiC56V1z5cSsEziRBtqY9xOg10N7TfFsPhK9LD5mPZIYOwrec8dxopX3iCzJGbgQBEdlr7N9eXlrfEUvb8oqwMcxi9wuj6vw%2B1DOJ%2FWq9AoN66vnVUbJXAj7akx4SwUlgsuci4DsI%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287695446403",
+      "product_id": "287695446403",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$22.99",
+        "extracted": 22.99
+      },
+      "shipping": {
+        "raw": "+$7.99 delivery",
+        "extracted": 7.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/k7EAAeSwRZ5q1QfQ/s-l500.webp"
+    },
+    {
+      "title": "Levis 501 Original Fit Mens Blue Jeans 36x30 Altered Hem (Tag 36x32)",
+      "subtitle": "Size 37 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/147659936326?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZVFZ7KRJB7B0JF1037&hash=item226137d246%3Ag%3AOdsAAeSwQX1q5nIb&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BxvZV16bUf5RUOgVXZacTxhYsJgMGoOmXUJXyjJIr%2FxfEe%2FNxVNbv63sbMOQgUnwEtMS09qX2Ql7XT%2Bw1pikAMvzmB%2FS%2FwCTuQaQAF43nR05t4ouj3SU%2Ff0TNOhaX11XzQtVxpiVRozQXbcys9SXFBB1kTFjdq92CYGwOqYsfce7nVT87ra49jZCrIFF2rtsYz8ZMKQi6T1Bfnx%2BxTnjfkKO617lJ3Kg5TvTmmIdSr2d0WEOC7nvmd6gF4ANLAGncMW%2FgO72XJVtxBYRGf0M1I1wUkN9aXa0fMJG3SsodWnA%3D%3D%7Ctkp%3ABk9SR5KA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147659936326",
+      "product_id": "147659936326",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$23.99",
+        "extracted": 23.99
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/OdsAAeSwQX1q5nIb/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Men\u2019s Straight Leg Blue Medium Wash Denim Jeans Button Fly 40x30",
+      "subtitle": "Size 40 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/860101791121?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZVFXVM3R2XWVTYTFG5&hash=itemc8420fcd91%3Ag%3AvJYAAeSwC%7Etq5o6E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BAGa5jCXMbP1Ae9f10WiM%2BoEpSulrXqAxKlaz%2FWD810oEsvRrY%2FM3Pfr%2BeceZb1%2Froog9Xl%2BfZuP2pNvnPG1L8%2BfJh7C5rEFikCpl5aCdalLLQoe4pJ1I0itkcyVORwJiseQzcz%2FxBGG32bqXNNjJusDdGjyMSjVPSQ8OfgDG8%2Bddgb4c%2BObk4F%2FgenJ%2FTPwcqgZG%2FXru7AF7Y2hsaBjGvjmDHuvlDczpZhpD4%2FCyvCaZDcKku%2FD%2FUjfewyIRmNFZabYyYBH62G2z1kJhM52XQWAUKOPe2XV9jgC4FgeIBDw%3D%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860101791121",
+      "product_id": "860101791121",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$20.00",
+        "extracted": 20.0
+      },
+      "shipping": {
+        "raw": "+$8.27 delivery",
+        "extracted": 8.27
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/vJYAAeSwC~tq5o6E/s-l500.webp"
+    },
+    {
+      "title": "Levi's Jeans Mens FITS 32x29 Blue 501 Straight Leg Distressed Paint Splatter",
+      "subtitle": "Size 32 in x 29 in \u00b7",
+      "link": "https://www.ebay.com/itm/287695901052?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZVJBCQD0WN4D7Y3AF2&hash=item42fc03117c%3Ag%3AaSsAAeSw46tqbXvU&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FzYtlDXaelXPr9AsF9N5m7V89%2F7M7R5famC2lV%2BO8NkFpnbf7zPpvKSycI%2BuGBLK7A1f3MgHnUo3C6NkrqyrR91lgJu4ivgC98x8lJ48dHbKRgkIojuHn6wAuHjxQiBooo5dwKdoibp6iBxp9aqzr%2Fmcy7sM%2BkQRS1U%2BBeZoEIS%2FaTjXVnbe1iW%2FYCenkkSzdg1qn2aLW822IBrIwN9JnvWbVefRKQde4m6pUGZj6ZSaepCqzO19Pafb%2BYlRpYzKw%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287695901052",
+      "product_id": "287695901052",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$49.99",
+        "extracted": 49.99
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "promotion": "$44.99 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/aSsAAeSw46tqbXvU/s-l500.webp"
+    },
+    {
+      "title": "LEVI'S 501 - Men's Classic Straight Leg Button Fly Denim Jeans - Size 29x30",
+      "subtitle": "Size 29 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/840079921892?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZVCFJYQ3VHPY242X09&hash=itemc398aa52e4%3Ag%3AFQcAAeSw1PxqliN1&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8Bh1AYxSxfhkQoo6%2BD%2FrilwrafF7Kf9%2FIoVKDIdaaCX8wT1b%2Fa2s3xMKtXpYSWS8EZzmCwTYYc8cw8Uq4bTgzYFYFvAMfNzK0XQvTTC8g5GM27iNUO4ELu4HWn5NxHFpbAACAVlMr4je--WqEFqJ%2BRqQdOHtmjDz%2Fz87B0KXgh7iBQF7FTEhPV3pMOs%2FSqlogQNvknW%2FbjCnFeXsmaLlHsMDWZQcYuopUxwsiGFD8ymwKrvOY58jPn3Mnpzp4%2BQaM%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840079921892",
+      "product_id": "840079921892",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.99",
+        "extracted": 24.99
+      },
+      "shipping": {
+        "raw": "+$10.95 delivery",
+        "extracted": 10.95
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/FQcAAeSw1PxqliN1/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Fit Button Fly Men's Jeans 36x30 Medium Wash",
+      "subtitle": "Size 36 in x 30 in",
+      "link": "https://www.ebay.com/itm/900055200697?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZVEMEZNMB4BBDJPCAE&hash=itemd18f7873b9%3Ag%3Ah44AAeSwnMdq5pjM&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8T5aj9bWHK8x1pklCRqfPqAoIz65L10VdzztfA1DVoEsFP7kQ1aVugktSEoRYSGthsy9%2BoNbQ6zreHYaaVS3Y3LhzjFupXRMAyaf6BOjVaf4OsGOO2y4pnRsLXNyP7eRAwekuOOTJbjBq2xf4ERZ%2Bpk0i9EpSY%2FAG1KiaqxqoVUV8gPnUD3037aZxxum1I5OQk7ehyGzZ2Rc9ClDZuGmJtV80zQcxg%2FfXSG2lGM%2FpyoLdGfVgAn6962e8QGpC%2FiA4%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900055200697",
+      "product_id": "900055200697",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$32.20",
+        "extracted": 32.2
+      },
+      "shipping": {
+        "raw": "+$16.26 delivery\nImport fees due prior to delivery",
+        "extracted": 16.26
+      },
+      "location": "Located in Canada",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/h44AAeSwnMdq5pjM/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levi's 501 Button Fly Men's Straight Leg Blue Denim Distressed Jeans Size 36x30",
+      "subtitle": "Size 37 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/407281861628?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZVCVZF114MAS4MPKQ7&hash=item5ed3e403fc%3Ag%3AYX4AAeSwPOlpOkVt&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9UcHuhYtU0dTiPw2gz7jDxHFDt2TIM4bM34RhWhCfGhM8FHCgjl2%2B9a%2BIegPNYmC2xJYGNA9myL5MKQ7hCsI16nv9I%2BhkHWZ4vvtZYmdloSyyNQ%2BET3VWw5dppg1P5WywWd1TV7nnzKYmLTyzB%2Bzx99wdX%2FMxzNdr%2BYQl3fzeIotY4ElvtvfsT759Ge5BYmhrVpSLwc1F0BGYk5mgbBf3wHguivVHiWsVTrm4UXDn1NHJuNnFbZ9WgTTwWcnSK1gGYgY7avVbb2lRS474GYH%2B%2FKmYdiBFfLP862e6t6Y1FzA%3D%3D%7Ctkp%3ABFBMlIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407281861628",
+      "product_id": "407281861628",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$17.50",
+        "extracted": 17.5
+      },
+      "old_price": {
+        "raw": "$25.00",
+        "extracted": 25.0,
+        "discount": "$17.50"
+      },
+      "shipping": {
+        "raw": "+$13.29 delivery",
+        "extracted": 13.29
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/YX4AAeSwPOlpOkVt/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Mens Levi's 501 Jeans 34x30 Blue Button Fly",
+      "subtitle": "Size 34 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/287305833159?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZVXYPM6BN7DWQG2Z9S&hash=item42e4c31ac7%3Ag%3AcQ8AAeSwLFVp9P4l&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8%2FNTPVZXnLsv%2FRyv4xxu5wKG2qv7bhnQkhX8zseHdzr%2FHSxyV9lOdWSLJJ5us95kiID50%2BCrBqOsZPXzG%2FvqdCWp6YJTlV047OfJlHl4gp3I75D0h%2FwUt69dIO4UgliLOH8jdhCz4Psm10YB66YYM9k8ElYY6ZMlkq1uT5bdACj%2FgN4LDuClSXJs%2BtKvIbQqXDHV92YT1q7Pf%2FKFVMry9PWk6ERI3XsTQdCsmickU4wiqJ%2F%2BmIwNT4SKqBCtwNis0zEOwkOoZeEAvRbn%2B9Tn7U1ehPjRMT9CEoTO9iupdzIg%3D%3D%7Ctkp%3ABFBMlIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287305833159",
+      "product_id": "287305833159",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.95",
+        "extracted": 19.95
+      },
+      "shipping": {
+        "raw": "+$10.00 delivery",
+        "extracted": 10.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/cQ8AAeSwLFVp9P4l/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levi's 501 Jeans Mens 38x34 Black Original Fit Button Fly Denim Straight Leg",
+      "subtitle": "Size 38 in x 34 in \u00b7",
+      "link": "https://www.ebay.com/itm/236405058340?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZW9ZGCN5ZXNEWARSK5&hash=item370ad6eb24%3Ag%3AIlUAAeSwWyNo98fE&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9IhdQnS%2BurP0Js5o8f6NaAMiyplTpuQAOwfh4LhYg4rSSZYl%2Fc5nUZo3EnSmHUZtMuMq%2FgMdTspjf5SHAYcMAcIyz93W1g4FjNWiP0ZEE7%2FeABdPouSwOv%2Fl%2F5JLaTpqXbpiwHd9VsXN4wgEkVnS%2FZ2bop0Q0iHMXrqT6XB2FFWeaYhEW7UKWZnGwcsdXXDswlAbZPi0sFaA3Qkd%2BuyfF3QTQBL2ZQzuz3pHt8Rzu2TjwQgtIR0VdRQQu2KLsPbIOEemenDTUfM3Yqfh1c5PtaANZOZoHpOmRNykFUtz4oMQ%3D%3D%7Ctkp%3ABFBMlIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=236405058340",
+      "product_id": "236405058340",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$31.99",
+        "extracted": 31.99
+      },
+      "old_price": {
+        "raw": "$39.99",
+        "extracted": 39.99,
+        "discount": "$31.99"
+      },
+      "shipping": {
+        "raw": "+$11.99 delivery in 2-4 days",
+        "extracted": 11.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/IlUAAeSwWyNo98fE/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levis 501 Jeans 42x32 Button Fly Original Fit Straight Leg",
+      "subtitle": "Size 42 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/366699340439?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZW08Y4NCTGQDFAD9AM&hash=item5560fbe297%3Ag%3AtiUAAeSwNW5pwHRd&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FBG5E%2BWaw2BjUnZ1rr9wLle6A9KARhybFkb5ocpUFa4P%2FOrhVZ2ZJtd7Eb1qlQZrv15AD6FNRxOyJfvCNpWjPunvwMLCtsPNqqzIP%2FMlYOrDDt9A%2BSN5dORFs7ZcsWV2HFRbFi%2BwWr%2FG9Z2vZ97hxfLTHEObescoHdDvfJ48kcSd4rhRuC%2FH7cfP6qGrQXUCwu%2BfomzB67raMLkrehK9xgX83iiF%2F3wCYXhM1E92zsJdxGRRHW1ayn%2FjAEc101QnFqewHxEZYRSDt11Nx%2FPopdRRdKQAh1WT6Yk5PzqsJo6w%3D%3D%7Ctkp%3ABFBMlIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366699340439",
+      "product_id": "366699340439",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.43",
+        "extracted": 25.43
+      },
+      "old_price": {
+        "raw": "$27.95",
+        "extracted": 27.95,
+        "discount": "$25.43"
+      },
+      "shipping": {
+        "raw": "+$10.21 delivery in 2-4 days",
+        "extracted": 10.21
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/tiUAAeSwNW5pwHRd/s-l500.webp"
+    },
+    {
+      "title": "Levi\u2019s 501 Jeans Adult 31x29 Blue Button Fly Distressed Straight Leg",
+      "subtitle": "Size 31 in x 29 in \u00b7",
+      "link": "https://www.ebay.com/itm/227591901681?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZW1RSGFHM7WNQT697D&hash=item34fd88d1f1%3Ag%3AEiIAAeSwX9dq5kO2&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde96STrMt3a8w3AX2We8MWVkd4BggTV78E92hGgMCaKNMNMGHtnujbhXkmmoW2U%2FxCMQe5gKia7DiUdo%2FmaJWLV4znqG3p8kSjB9WRcoINoM%2BIOdA0ibMBnkKJp08Wqz0HQFbHjz5qSDCZfuOUue8YYhVcHF6yexZxXDv8eaGYKeWtxoJpcoReV5%2FKRt6pa2BtjO5v%2BZwCUwQ%2FQiuH%2BKB6VjQx7isrjBpsMnpOHfYMDHXn5d9CrC1aFVkBKY4npFNKI%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227591901681",
+      "product_id": "227591901681",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$10.00 delivery",
+        "extracted": 10.0
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/EiIAAeSwX9dq5kO2/s-l500.webp"
+    },
+    {
+      "title": "Vintage 80s red tab Levi\u2019s 501xx straight fit jeans faded blue Selvedge like",
+      "subtitle": "Size 31 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/366774642492?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZWD57ARBZR4DYP73GR&hash=item556578e73c%3Ag%3AlQwAAeSwRR5q5nSt&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BhsPO28bS8KdWKCiGaqwD63pYKj98SYR4dgH0Kam%2FIJTN2UWOIES6T3XAoqG9ftlm395xYc5lPdNz%2BtRlrpj2rapumXi7RfM%2BBD2ukVbCt32ZFjxxwCcJjOMSll27LqcbpFtD01nSiMeizQhYkMFqKfvUpKhOOUtumYluwHqy8mhOAovtn1UBJON%2FsOCxeAjULHA%2BY%2BN1Mcpx1DUkxnpOtGQw1W66r%2BjygNLZk%2Fr1lqdJxiALgYKOel0qMZo%2BYcIk%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366774642492",
+      "product_id": "366774642492",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$65.00",
+        "extracted": 65.0
+      },
+      "shipping": {
+        "raw": "+$8.17 delivery",
+        "extracted": 8.17
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/lQwAAeSwRR5q5nSt/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Jeans Mens 34x30 Blue Denim Button Fly Straight Leg Cotton",
+      "subtitle": "Size 34 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/327432761746?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZWFKVZ2TSST44GFYN7&hash=item4c3c837192%3Ag%3ArTkAAeSw8bFq5nkt&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BGmcq93IcoIV9CSfNKhyDzUvbf190wIsLm5VGzRe8YVbsKMvflNbiUYWX6vH3NEZkFesYtv8gfb11JXoAAijaGZtu1Z%2Fa79m8IkTgUQm8nUBP4%2BxCRnh3Akke04yv0HckxsJH6Pc%2BR3Vfhr3RcI1YS8K%2Fy7rDbgQ4Bb7%2F5TREd6XjmF%2FdMsWt4Yg9ePYpTcARsI1V%2BVbx6rzMDH0XbYrDk2AkOCzdetTjuMjmM5h2rQV%2FqiQ6DbguerWt5c9wtL%2BQ%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327432761746",
+      "product_id": "327432761746",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.00",
+        "extracted": 29.0
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/rTkAAeSw8bFq5nkt/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Jeans Men 32x32 (29x28) Original Fit Dark Wash Black Button Fly Denim",
+      "subtitle": "Size 29 in x 28 in \u00b7",
+      "link": "https://www.ebay.com/itm/198760867120?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZXVEQK3FF6BG2VVG73&hash=item2e47122530%3Ag%3A-FQAAeSwtbBq5nNb&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Fe08oVnHGm4UELfvFyrPGPwJN8pOlhO3mh%2BzAY1xfPgiHNmDxIKdGz6OZLYBNIqzFwig8J0V5mFgyRnNdZiZ53%2FXd1FkL33PaLgObW1luEJHW7bA5XJZaooK2ZDtqQddx%2Bw2uE93nDvhyciA7qeAnsK4zYX8hz46NKb1f4aTn0cmEy8JHMbBSVpNk5L3%2BRy16YnKVUXg2lhA7f1BHHE3cOv6k8pMleJNkKdMli334jGeR8lbsWnL8A9KwYD88Q5NU%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198760867120",
+      "product_id": "198760867120",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$8.99 delivery",
+        "extracted": 8.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$25.49 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/-FQAAeSwtbBq5nNb/s-l500.webp"
+    },
+    {
+      "title": "Vintage Levi's 501 Jeans Mens 33x30 Black Straight Leg Button Fly Denim Worn",
+      "subtitle": "Size 33 in x 29 in \u00b7",
+      "link": "https://www.ebay.com/itm/257827677224?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZXB8TXJBS82YXR0413&hash=item3c07ba2428%3Ag%3A2dIAAeSw8Glq5q35&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9WjrkYcAN%2F68yeqvqymUaFmOpcgN7C0bK8bic6tsKrlmXq8axrPZ2VoAkZQFJnXCya6sDc8zo%2Fr%2BxOxLJMblXhPi8LXodnQVXDF%2ByKE5GfFq%2Ft8%2FZpC%2FtY6ZGNMLqqbPg8Adh4W6yZhSC3OwL0sNqEcxICmb0oR3rgjNB2wTOCfoytTFOKFuX1FuVAwLOj%2BsSt0JCBkDZGY8vC8wnwL%2BDCESHH4PsMW9oVWx7nG0K%2BOw6pfdANhyGyaQGxKIGg4%2B6mlwp0iZgiQxvFz7KNCKOeYcJIiNTcpZu5lXgIYApAAw%3D%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257827677224",
+      "product_id": "257827677224",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$44.00",
+        "extracted": 44.0
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/2dIAAeSw8Glq5q35/s-l500.webp"
+    },
+    {
+      "title": "Levi\u2019s 501XX Button Fly Sky Blue Shrink To Fit Straight Leg Jeans 38 X 32 EUC",
+      "subtitle": "Size 38 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/168829862766?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZXHJ74ATMAX36MFSYN&hash=item274f0b436e%3Ag%3AYdUAAeSwT0pqfUOy&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BTMQ0%2BvwnVfmHOjfLFQptZxCAIfy8%2BNQNyHnweFCd%2Bp%2BzS0Y6Brinkv%2BFzXbXXFdGiyymURZuxOpxOzDLKfWRr9253cTXUWvGnIIYpksojTESygjMdPU%2BcgGrW6LmUakw38M1%2BqU%2FrMz4j7quQxvEsaiwfbwmLsi6UDVd57Fb3sKbJ6SR3OE%2BKXHennhu13CmHiDxT9W3RtoCVddJHKTZgfQ%2Btf%2BVTpY9F%2BZg4Ah%2FEeUUac%2F80zYBTc9UStONCZraIuwSVE2sQs4eBg5iiEdwf2cVSy4TPWcEneJ3Mdv5gkA%3D%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829862766",
+      "product_id": "168829862766",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$54.99",
+        "extracted": 54.99
+      },
+      "shipping": {
+        "raw": "+$8.17 delivery in 2-4 days",
+        "extracted": 8.17
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/YdUAAeSwT0pqfUOy/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Men\u2019s LEVIS 501 Jeans (Signature Straight/Button fly) - 34x32",
+      "subtitle": "Size 35 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/327134465841?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZXPCW2TJHE6JQAAGRC&hash=item4c2abbcf31%3Ag%3AN14AAeSw6SNp9Q42&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BHSiYGCYc9Y5Fkx1TYFO%2F0YG7a4wCj1R5jDHnpZQImR5gpADKl5yBgHmJmvcTht3qnLIMYW4V47mhKnfKZOaZ3qLgjSW8oyo5n%2Fmsvb%2Fy0yvLpCK4CrTY96OBn%2F0OtForJ0Al1j4JV50T%2BpwcyfBmsiJ3H%2FhIv0Bnb5UFKwNqH8DMNrnPxKp5RtVM0mum3JieNL1R1mmdTIRR8Jd%2FDmEUKGkXSDRcX2flNT4bm3mmMLm10MbN9gIF33PdCCgX%2FoAUVPmgODKf42EtqqU2awcCXpiCFE%2FNc6mXHay3A2%2FzrLw%3D%3D%7Ctkp%3ABFBMlIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327134465841",
+      "product_id": "327134465841",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$11.38",
+        "extracted": 11.38
+      },
+      "old_price": {
+        "raw": "$17.50",
+        "extracted": 17.5,
+        "discount": "$11.38"
+      },
+      "shipping": {
+        "raw": "+$11.30 delivery in 2-4 days",
+        "extracted": 11.3
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/N14AAeSw6SNp9Q42/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levis 501 Jeans Mens 36x32 (Fits 34x29) Black Straight Fit Button Fly Denim",
+      "subtitle": "Size 34 in x 29 in \u00b7",
+      "link": "https://www.ebay.com/itm/177775323988?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZXW26D8PZEVHV1PEVF&hash=item29643c2b54%3Ag%3AkQ0AAeSwOxtpZta9&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FBZVnSI76IW6rJbu3faCoGJXUT4SzEHT0lDxe7vWohoQE34aq2AdCiJbUeOnr5NSK6fNkovQHM%2Fb4L3CUA%2BvG6qV38BvAs5Duu6hhP4tjM7N5XwtI5AathTeoBCPBwf0emZhjbt3MlbsDlrIpSpXXtLGLMfJjdW17RZktR1CCrgbqG8QVXsVYJ3KFwQ2IkUH%2Bp7RzEbq%2BVqKV%2FTLoGXHPBqSgfTjMMmcf5eSy82wtOjv%2BNe6hxgcyT7XW64C%2F7nsXXRfLqudz0z3KbdBIFnBVZ4OZJZ70WCVVGROt9wniXvg%3D%3D%7Ctkp%3ABFBMlIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=177775323988",
+      "product_id": "177775323988",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.59",
+        "extracted": 19.59
+      },
+      "old_price": {
+        "raw": "$27.99",
+        "extracted": 27.99,
+        "discount": "$19.59"
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery in 2-4 days",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$15.67 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/kQ0AAeSwOxtpZta9/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Jeans Blue Mens 36W 32L Straight Leg Denim Button Fly",
+      "subtitle": "Size 36 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/860101881186?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZXJJ020SHBNSNSPE53&hash=itemc842112d62%3Ag%3ANrsAAeSweFVp4%7E5x&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BSUwgKhyB5768RuKstfwdZB6XavH0gKgwNSKN%2F2Sf%2BT6UTe2zia5AyaYJaLEy2QGfVtBDu3Ynvvk6n05I%2F947%2F1uW%2BgkBiNJr%2BiHuuh8CDn7KOfOqtXt4pLAjiwO1ODOr8%2FfMfijptVHMPULryDAam2%2BjyZxz%2FgA2U3ULOzQmSGx7kqRVoNI7uygJS3PRe2%2FseI6IahgorYmjIHbe7YfMxdoj0sGsFTTWkp8ADPHZ56i5lN0f4R2ef3xVBstu113sKp%2BrAcFm5O1shaTMilGND7iU6rrUlJdUAX8I9QOQ9Iw%3D%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860101881186",
+      "product_id": "860101881186",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.99",
+        "extracted": 19.99
+      },
+      "shipping": {
+        "raw": "+$11.70 delivery in 2-4 days",
+        "extracted": 11.7
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/NrsAAeSweFVp4~5x/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Jeans 31x32 Plant Based Button Fly 32W 30L (32L)",
+      "subtitle": "Size 31 in x 34 in \u00b7",
+      "link": "https://www.ebay.com/itm/336872768152?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZYK846Z16GZGV7ZHVY&hash=item4e6f2e8298%3Ag%3AtGIAAeSwc8Nq5qCm&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8UuNU2xZevBy6JG7fXqDNrsl4We3zsjiN7uCaKRo71azs4TqwFETHXNWtcpc8QYmtwBW7JwcBdpcNHN25iqxjuLS5D1ydwr5SqGDZSr4uv0%2F9wEszZAlR3wcX8UKmwxLZ7XM98iTaZ5r0dm2EJ0YmTjk8eWj5baBL0auJFKSUK6yWKppA7flLPzdxbcgFb4aiIdseP9sU14iF%2BFws%2Bc3of8k28Pb%2FH%2BBRR3oHEDAE%2F%2BoQ0Cyp52qKV2n1vd0vvEug%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336872768152",
+      "product_id": "336872768152",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.95",
+        "extracted": 39.95
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/tGIAAeSwc8Nq5qCm/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Jeans Mens 38x30 Blue Original Fit Straight Leg Button Fly Denim",
+      "subtitle": "Size 38 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/820279827850?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZYY52FEYEZK1JRCVG1&hash=itembefc7cdd8a%3Ag%3AEHUAAeSwiTNqkgBt&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BteAelWyW6NiNSPIqIebDJIiwwNIP03Yx9Vcj7z1AlpVcqBtSPCY5rwpa9lebNnVsjvT4j8h03xEhWybG6%2FEKhFwdAYerXi53iTicSiyzVewXVzN10CLC2VjvmDCwOfuNU06hX8pyU0gVFzy06R6c6%2F9GD13N8%2F75MavZVMpfn1aodLv7QT9qH4N1bCsloMD2hqzcL2ClfO%2BZtsjJ55Uv3kGeHwL4s3xnNs1ysJ0pENj5Y5W5nO2%2FSyLH31%2BdzyA%2B8yKIqTfWtIgyAbBtI%2FErbtOVprs0GvMeXuu%2FEBhqCvw%3D%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820279827850",
+      "product_id": "820279827850",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$38.00",
+        "extracted": 38.0
+      },
+      "shipping": {
+        "raw": "+$7.95 delivery in 2-4 days",
+        "extracted": 7.95
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/EHUAAeSwiTNqkgBt/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Fit Jeans Mens 29x30 Blue Denim Button Fly Straight Med Wash",
+      "subtitle": "Size 29 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/227591965683?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZY54T0AP3VZZXYYTW1&hash=item34fd89cbf3%3Ag%3AfGsAAeSw7Vdq5oei&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2B77FQ%2BjRklDN6F6dV7%2BKF0fJJXcxl2hlan4HwWGO1bFFSAP%2FZWRtgu3Mshy7WbXcOpoRZdfJlnW854x1662%2BgG1ccH8Lt7%2FQT03s5YojzbLknMj2%2BIcGXVbNV%2Bz06pSlTeljLgnvghXDWBD6SdnFWfCN8bzNNsHO2Ftt6HOD%2FWvnAE84XTfoVpUiUPnn%2BmzSM1h%2Bm29FSghKL45WN%2F0dTyXwauMFozdpXG6WD9FsZ3qEY5NHuTqHM0OShDJWMP5co%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227591965683",
+      "product_id": "227591965683",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$12.00 delivery",
+        "extracted": 12.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/fGsAAeSw7Vdq5oei/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Jeans Mens 31X30 Blue Button Fly Denim Medium Wash Straight Fit Y2K",
+      "subtitle": "Size 31 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/327429457363?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZYTSCBFKXMJ1H624JA&hash=item4c3c5105d3%3Ag%3AbwsAAeSwgSdpcWSR&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Fpk3gQZuy3P0AUZyev%2FSuash3U3PymgTXzfMnysCw2krIdq1yigAk4TM3qo9yg7mFHEm1qjsPznrz%2B4CHXSIrJ7ovleNS%2B2qdSyumSzaN4C4EqJQMEAKBVVmzcLHQWSxdPxpOvNbjIy3xN%2BC8QAZSdSWtdGIfq4cAIN1DQxt3ewvmKTfL2qqTsQ5Uowz8cv24rg97q2ZhaOwFxvIM7ZnbHRhEHNJZlJENz8EP0aX5LI9VNMsFnUjee6grkHnEQqzQ%3D%7Ctkp%3ABk9SR5SA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327429457363",
+      "product_id": "327429457363",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$33.88",
+        "extracted": 33.88
+      },
+      "shipping": {
+        "raw": "+$8.90 delivery in 2-4 days",
+        "extracted": 8.9
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/bwsAAeSwgSdpcWSR/s-l500.webp"
+    },
+    {
+      "title": "Levi\u2019s 501 Original Fit Jeans W30 L30 Dark Wash Button Fly Classic Denim",
+      "subtitle": "Size 30 in x 26 in \u00b7",
+      "link": "https://www.ebay.com/itm/168829616475?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZYYXSVAWDYZ8QV5R88&hash=item274f07815b%3Ag%3ASqIAAeSwlJNps2Yd&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9YjDL%2FAU7a0ha8P%2BhwnFMnH7B5CZfa0qPNtjxd%2Fhu%2FzFanYWStgciN0HH3VOnWI7v9PvaMu0Ec5KIovFgaMDJ9SKQNJ8VS8l7TuQoL7hcdjEhLcDckAvG9XW%2F%2BaV%2BqUq1sam81WM1bE9zcXOS%2BXcYY4aje5YYZDJEVE9OvMWld2yXq2IHJNjOTTQEMJhOYwVZNNOxjeeW0KxPb0emMWcGU6QPa1wcTz%2BmH1UuFjF0Cs4hOCQW8sO%2FqQ1f4fL1RACqlK1y2kMNu2JoThKzuuN5LFKXtXXQZovcjK4VxAHsEZg%3D%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829616475",
+      "product_id": "168829616475",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.98",
+        "extracted": 39.98
+      },
+      "shipping": {
+        "raw": "+$8.27 delivery",
+        "extracted": 8.27
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/SqIAAeSwlJNps2Yd/s-l500.webp"
+    },
+    {
+      "title": "80\u2019s 90\u2019s Levi\u2019s 501 France Distress Denim Jeans Men\u2019s 31x30",
+      "subtitle": "Size 31 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/800860840006?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZY1JBW7SW85P76GQMF&hash=itemba7706a046%3Ag%3AwWUAAeSwpPRq5nxL&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8RCvFlrozEFumA%2BYMcfPli3hA7yTh038U39%2BiDNsZcp%2BXOuTX99HQ1kk7HrQ%2BPFycp6RrFzmdTnYUN3PHZi7Bj%2FwiTZcArp61LxIzmCX--UVde85DvwB7Axue%2BYACXssONwmzAm4MAlFoXi63kaoIIfQ8ZXghjdZI1GT2sPlA39ejaZiZzw%2BR6njUhPMzR6zb5SuTJfKQ%2FiAGNHnQjBEb8cRgYfVTP9o%2B3itp0lznP8SQsARedq4GE5BEyQh6drEc%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800860840006",
+      "product_id": "800860840006",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$79.99",
+        "extracted": 79.99
+      },
+      "shipping": {
+        "raw": "+$8.99 delivery",
+        "extracted": 8.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/wWUAAeSwpPRq5nxL/s-l500.webp"
+    },
+    {
+      "title": "LEVI\u2019S 501 ORIGINAL FIT BLUE JEANS (34X32)",
+      "subtitle": "Size 34 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/168829706674?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZZGWH83YB2MTYK1SDQ&hash=item274f08e1b2%3Ag%3AWlMAAeSwAbRoLVnu&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BSbim%2BQGJ0qHa5ysp7ls%2BK8HWjm7VLDFfy9IDzE23%2FJTp1VELew4kylAVLxoiZ8nMW6E2GnPvucGC7IJ5B%2FEp%2BvpuNbvIjV4YUFDmOFBqDgQ%2FxtlUIDk21zB%2Bc%2FvJSKgKKAXrG7gPyyrZKfJ8sRL0Fe%2Fi%2BQQ3v%2Be5M4JM6782pQBVIutUSPijAk825FPjlwqb9OkMw8BLhxMsMo%2FgJoZ%2Fl0SWfjoXN%2F4oQBBRjO6jxnJ6WAcIcwN1SVc6Se62RJeiJQqlDG36W%2BQclsP7orr94M8bhzmpYJuQKuHj44emK2w%3D%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829706674",
+      "product_id": "168829706674",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/WlMAAeSwAbRoLVnu/s-l500.webp"
+    },
+    {
+      "title": "Levi's Premium 501 '93 Punk Rock Black Wash Vintage Denim 32x34 1993",
+      "link": "https://www.ebay.com/itm/407330241325?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZZT2078C4YSXGEKZ8H&hash=item5ed6c63b2d%3Ag%3Ag8wAAeSwWylq5qrh&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9YerXyIrfAsYVA1J38HqVPGoxFfAW5BKealLJq6WIFbx4yb6NuVP%2BgjMAgdbGsYQfVWpnY55%2FDklSJZXS6duhjwFg6STBHyyd296P6d412F8o%2BTncZS%2FgvNzenxbLkKX4m%2BOU6cpuHafufoFauwGBPlMC44oj5%2FyjTOlPaA3soxovL%2FXPMm85kJuXTwLFOr%2F4wB4cglQZ2gLjbMcZwjHTsDanTLZF8MpTjA7Aue34oN8rkt0fl6YdagYrpIMekGaqu%2BTiiCudFMWC8HGBXOdVtojZnRulhmRCJKrVJDH8fcg%3D%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407330241325",
+      "product_id": "407330241325",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/g8wAAeSwWylq5qrh/s-l500.webp"
+    },
+    {
+      "title": "Vintage Levi\u2019s 501 Jeans Men\u2019s Size 38x34 Black Button Fly VTG",
+      "subtitle": "Size 37 in x 33 in \u00b7",
+      "link": "https://www.ebay.com/itm/860101723013?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZZE6N42CTPZJM9QHFQ&hash=itemc8420ec385%3Ag%3A6UYAAeSw5eVqmwf0&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9qvhov3eCUmKCrQvBVi4fcu7P8A%2B2aazm2PZYZJ0X%2FsjgbaGYdywqTd6HY3z33lLUgTiQmlJhH9Sng9LUdJTAn1WDr2fHjpRVC3oK7xqbNEzXCbMLyfpJ0mg7eM874GRUCq5Ty2S4fAo3m%2FOmjpQajLA%2F2f4iwa%2FdrXAcWXj16J0NUPWHG5wgdN%2F16hFEkwJ6a9OUjeinEvhueBuHp76%2BK%2BVoiOG%2F7EH%2B%2F7IKaLWbMzdBIQ5xLPRGyVTATzXq7uMA%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860101723013",
+      "product_id": "860101723013",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$27.95",
+        "extracted": 27.95
+      },
+      "shipping": {
+        "raw": "+$8.94 delivery",
+        "extracted": 8.94
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/6UYAAeSw5eVqmwf0/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Fit Jeans W36 L30 Men's Distressed Faded Blue Denim Red Tab",
+      "subtitle": "Size 36 in x 25 in \u00b7",
+      "link": "https://www.ebay.com/itm/137891037404?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZZ8FZXMB8WQ1QPZXYP&hash=item201af240dc%3Ag%3A5DIAAeSw-B5q5pbx&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FEYgL5iAdjz8kGB8fVKWTpuIWp0uKzV6560EtfUHK0wHa356bRFfmY5qoGiELzMgMNxPk6nAhUzaIXY7ZQC0P%2FXfKcXlk89X2KLBFXLwPqfCRRbJdGIVHLS9V4N8hUT3dlUuvvThkl5Dz1CSVjZ6P57NkAWDncO4jC272IILETVhs%2F3VRiWAzixX2J3fGZGsAgDyw0qBB5pBiOBo9kLjC%2FY1rA8b9QvCeb%2BymIfLG8LRb4BWSNhDa0efFkKG1AxLG4pJDHlcwOXWh6pSPBKdxnZWlaQRlsfgGcxaF6W5LE1A%3D%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137891037404",
+      "product_id": "137891037404",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$44.99",
+        "extracted": 44.99
+      },
+      "shipping": {
+        "raw": "+$6.70 delivery",
+        "extracted": 6.7
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/5DIAAeSw-B5q5pbx/s-l500.webp"
+    },
+    {
+      "title": "Levis 501xx Jeans Mens Blue Straight Leg Button Fly Light Wash Denim Fits 30x32",
+      "subtitle": "Size 30 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/840076296089?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZZ0QQG3ZHZXXADPVW5&hash=itemc39872ff99%3Ag%3A5XQAAeSwKAlqzjAl&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FyUThPI8tg0duBjJr5r8GefMT6bhiCtK0UO%2Fa2Q2z5EobZQGUAr4iHdAo8x0%2FZgE1Yzm4n1OulU362Z%2FB80qRo9McSKn5gitKyoougHTGUJ7L%2FZ5h1Tf2v0nU8RgR6XqO%2BgwvBrSKtLWtlNDlOqVw7kMxmdCTn1E%2B87DpDUYxrz5xdsGvkpZcV8VguBkgpGIpoRWGKk0P%2B4N8schkgqOjHR%2B1OsRWrI1CrcR7%2B23ShgDr8LSRpCpGS8rXQEcRvHH5is5AZ7KRWxI%2FaLpHf64y0LvxCPx%2FjTzjmOOU3Y2jKRQ%3D%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840076296089",
+      "product_id": "840076296089",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.99",
+        "extracted": 35.99
+      },
+      "old_price": {
+        "raw": "$39.99",
+        "extracted": 39.99,
+        "discount": "$35.99"
+      },
+      "shipping": {
+        "raw": "+$10.95 delivery in 2-4 days",
+        "extracted": 10.95
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$28.79 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/5XQAAeSwKAlqzjAl/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Original Fit Jeans Men's 38x34 Black Straight Leg Button Fly Denim C1",
+      "subtitle": "Size 38 in x 34 in \u00b7",
+      "link": "https://www.ebay.com/itm/800859821966?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN7ZZR4N93J2SK6TH6T37&hash=itemba76f7178e%3Ag%3A6eoAAeSw%7EBdqncRh&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9QWk2hP3SazciB2n9TaT0lZ%2BSW6ar1up2SQ2R4cbLVTsKYoKKlUX%2B8%2FLRqu%2FIw8AY8RI6n2vqS6l2oj45C%2FXSbmwaA4eaK%2BywJtL6UpZqX3Sqo27WefCF9AXG5A%2BJ4XR8YWnr%2BX%2BFa3bh5cLmEYdUq7IAltdb2frR4DX8w07Y5fvGhGtbfDdSYh1j8RZy8V7dxI8NNT1wNK72iR9oCIfu3g5DY2booJbPI7rdPBQ7C4VWMPRwe0ghyskmh0xX%2FOWo%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800859821966",
+      "product_id": "800859821966",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$22.00",
+        "extracted": 22.0
+      },
+      "shipping": {
+        "raw": "+$8.99 delivery",
+        "extracted": 8.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/6eoAAeSw~BdqncRh/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 XX Jeans Button Fly 2000s Black Straight Leg Men's \"32x32\" Real 32x31",
+      "subtitle": "Size 32 in x 31 in \u00b7",
+      "link": "https://www.ebay.com/itm/278404845609?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN8001SHXQ6H382XEJG40&hash=item40d238d029%3Ag%3A7MEAAeSwdU1pwySA&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8a%2BQ237M%2FoEh%2FNmFYexAN9NU7IsmnmdkBJY9LPK70sHc9F%2B2%2BBGh284cYZd4Z0S%2FVnO2XPiOyBSeuUH7YThPsuZJ1BwPwdWNovzkU2Ss5pKJGwoKtNpyIg1VE1O583dT%2FZJZq24c1BK4hBNx1DjbyTeykHFM7Fzmy3x3wM%2FtVCgg485ZtXTMv7vll9UX3FsZ6wO8MY5rezizTtFtNAmFTxzqJsnDDs5fqT2ZOWc%2BqQn4o1sFXaRXdxqbwoUyNkCU%2BwPRCtaGb%2BTvJAlpwep3gau%2BGVD6R1Y26t5aXbBV%2FWxg%3D%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=278404845609",
+      "product_id": "278404845609",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$37.95",
+        "extracted": 37.95
+      },
+      "shipping": {
+        "raw": "+$10.95 delivery in 2-4 days",
+        "extracted": 10.95
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/7MEAAeSwdU1pwySA/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Men's Blue Medium Wash Denim Straight Jeans Regular Fit 28x32",
+      "subtitle": "Size 28 in x 32 in \u00b7",
+      "link": "https://www.ebay.com/itm/820301470324?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN800VYMGP47M09680XPP&hash=itembefdc71a74%3Ag%3A49QAAeSwDCdq5pci&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BaczoTjNGwxFMFbCUhi7zzBli3l0uY2TzUui1DzCjIOQcZPE43jf%2BOLe0mIScjPiwJXesOXqISsolB6jL0aTxYcR20S2R8i%2FfmoSL%2BHgxIHwMqvKoVKCU6AsCpFNL%2FnibJUycZHooG5JmmJPP9ysFmETuBrUSvHS27GZi7PJ17bb6%2FXLX8UnglXR1qN1YINp1PyWUC3A1ZnBd5dhaYLg%2BqvQY%2BTyzM%2FacDYOw%2BIbP%2FCEk%2BrnQqKVRGrHtVb7mKufiQGVAaxEnAf49BmK7a1z4uoyFGPb8JVXrNQkdFscNiew%3D%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820301470324",
+      "product_id": "820301470324",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$21.00",
+        "extracted": 21.0
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery in 2-4 days",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/49QAAeSwDCdq5pci/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Straight Fit Jeans size 44x30 Blue Denim Button Fly Classic",
+      "subtitle": "Size 44 in x 30 in \u00b7",
+      "link": "https://www.ebay.com/itm/860101899843?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN8004G14FVX0B2EW6TWZ&hash=itemc842117643%3Ag%3AQXIAAeSwRQxqbVnc&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BTAQz5pBXRRCo4ZvdMjWpFqFnZB6Crwd3j5ofJZ1qvI%2F2mVS%2FOhXxfTGGTsLT1SiMQbFzLE7OhwASmR8lTfAGU00I7POUI5KIG6m%2Ft4zVsx5D30qrlmknbrLALLV1yiMSsfQlq8HoBK1lgv1Bdbv9LggJ47wSfh2aby%2BR1UqNZcJDA6LtKGYuPIVDE6tbJ9tznqFnDbugoUqTAdN0gH41t9%2F0LNmqv9AWM6MoXKHy8Uxxfue%2BCV1othUO3F%2B8g3PM%3D%7Ctkp%3ABk9SR5aA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860101899843",
+      "product_id": "860101899843",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$26.00",
+        "extracted": 26.0
+      },
+      "shipping": {
+        "raw": "+$8.95 delivery",
+        "extracted": 8.95
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$23.40 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/QXIAAeSwRQxqbVnc/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Men\u2019s 34x36 Black Straight Leg Button-fly Denim Jeans Classic EUC",
+      "subtitle": "Size 35 in x 36 in \u00b7",
+      "link": "https://www.ebay.com/itm/900055335238?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN800VKZEDRZE83Y10JZW&hash=itemd18f7a8146%3Ag%3AcSYAAeSwiU1omhfU&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9G8It9uMtyIhusakMdLkqGWWGxYa54atJvxQ6EAMrzQkDSO5aNetyjTbTM2hkqa1McZd%2BwdgveRHYlJTmThtSgdOli1Yp12zxYuPe9%2FW2ifFxeUNCZ8cSA4ZMtGZsb%2BMPPEn%2FtGbwlgmDTRzv0fNtddDGcdTZhWt55Da08%2BT6e1YCmAPQiGXmyQSJ6NNidHa3tmR3yyWiX9pzRO3tsa%2FLyPZxhlNulKTjdjtsdTAWxVwUgiPpe8llx7wRLzHPn0JM%3D%7Ctkp%3ABk9SR5iA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900055335238",
+      "product_id": "900055335238",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.79",
+        "extracted": 24.79
+      },
+      "shipping": {
+        "raw": "+$6.65 delivery in 2-4 days",
+        "extracted": 6.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/cSYAAeSwiU1omhfU/s-l500.webp"
+    },
+    {
+      "title": "Levi's 501 Jeans Mens 31 Blue Button Fly Straight Leg 31x30",
+      "subtitle": "Size 32 in x 28 in \u00b7",
+      "link": "https://www.ebay.com/itm/206656085615?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN800A0CJNTCGKN82ZE44&hash=item301da99e6f%3Ag%3A558AAOSwbW9kePba&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8MqGy5a9p6CO2HAUtvDSqruf73%2F0cjfvblCtwgeQakYcfbRwfWyJYEzS%2FNqhy%2ByUN8kEzjPQAbA40TXnvH2uZojPLWDBN7yyBExnMgw5cgioHvI9H3uU3ihF9R4owkEswOBaDhokc2Ozj%2BceUx89YtG9wXldPniubVLQHtqbQnCbQbA0f%2B9ERIAgeIRk1516tx1GfY6jmUCD13IytLO5CuYw8zpibLZYdx8WcCXcpfMsnZ0OvdbSzuVg1OfvQe%2B4c%3D%7Ctkp%3ABk9SR5iA1duyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=206656085615",
+      "product_id": "206656085615",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.90",
+        "extracted": 19.9
+      },
+      "shipping": {
+        "raw": "+$5.60 delivery",
+        "extracted": 5.6
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/558AAOSwbW9kePba/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levis 501 Jeans Mens 38x32 (Fits 37x31) Black Regular Straight Button Fly Denim",
+      "subtitle": "Size 37 in x 31 in \u00b7",
+      "link": "https://www.ebay.com/itm/860025835492?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN800WQ7SPZFZVW1H5A2Z&hash=itemc83d88cfe4%3Ag%3A6PAAAeSwSW1pGxtk&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8v7b2MIkuIwE98cuXTD1Ysx1niyvvXegRT02gd6a1vtrptFm5qliMMo%2BzhmBSs733DcNv6ncgEKiT1yuWnUi3uHcwPSuGrBs1yXpuSW2rFW%2FTM55q%2F70oFmC4siv5ECWK2CDYUwE00otxcbUJHaM4f39uW3RIwT42tHf4amPjZ5rvlZGKoa7ufzwbuNJd3W90P3gnu2ETOUOf1weVt%2BFVaWMKgkNKgADrpPB6BvPEB7aw%2B9llhYhLhDG5RHAFQrSS3lNA9fcE%2FaAtAcdcTT3a11B%2Fzcb3rkGFc9M5VzF%2Fg6g%3D%3D%7Ctkp%3ABFBMmIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860025835492",
+      "product_id": "860025835492",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$23.77",
+        "extracted": 23.77
+      },
+      "old_price": {
+        "raw": "$29.71",
+        "extracted": 29.71,
+        "discount": "$23.77"
+      },
+      "shipping": {
+        "raw": "+$9.95 delivery in 2-4 days",
+        "extracted": 9.95
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/6PAAAeSwSW1pGxtk/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Levi's Men's 501 Series Blue Medium Wash Straight Leg Button Fly Jeans",
+      "subtitle": "Size 40 in x 29 in \u00b7",
+      "link": "https://www.ebay.com/itm/236859009241?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN800V68HP219607WZ4XJ&hash=item3725e5a8d9%3Ag%3AeXoAAeSwycNqIloB&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8orK%2BwQB%2FBAg5%2ByL27BvWWhTSkLFyO7qjCHIhUf6l0dVbxIwBXk3El9iJCNFtnST6Zo9ZM%2FcfIA8AXQrhcvxDYdTiFEZkAtL953hgjOnYZ6UY1m2%2FWx%2Fp%2F3XGYLc42ZQgawIb%2BbXNAjLqVm%2BzBIvGZ5%2BB9%2FCgABRPrGy%2FE%2BYTnPgJ%2BoWmbXF7ZrfbBfbsCTkGmmd9VBnaQsJDhgaJFmhK8LM1Nxjj%2FTgBmvFrD%2Fi%2BaLcD6lqt%2Bc1qP8qfuMsOOQlUiutxUlfM3mGZuQ36jvijCXJ2%2BkkPWz3V2q8EsZAhhsQ%3D%3D%7Ctkp%3ABFBMmIDV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=236859009241",
+      "product_id": "236859009241",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$18.00",
+        "extracted": 18.0
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/eXoAAeSwycNqIloB/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | S\u061cponsored",
+      "items": [
+        {
+          "title": "Men\u2019s LEVIS 501 Jeans (Signature Straight/Button fly) - 34x32",
+          "link": "https://www.ebay.com/itm/327134465841?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80G2C50YD2YN2GQ5XZQ&hash=item4c2abbcf31%3Ag%3AN14AAeSw6SNp9Q42&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BHSiYGCYc9Y5Fkx1TYFO%2F0YG7a4wCj1R5jDHnpZQImR5gpADKl5yBgHmJmvcTht3qnLIMYW4V47mhKnfKZOaZ3qLgjSW8oyo5n%2Fmsvb%2Fy0yvLpCK4CrTY96OBn%2F0OtFoqYbYON4jRXTOAupV0Rb6BTuW20W4AIzKA1LkAA5yNKDjVGMbnfBL%2F%2Bl8F%2Fnnc4D6HXDuet5vjGEj0J11fLHOeWicTVGJHwmmduLP9OMjZ2Z2Y7Obo351zAj5gCvUqnKgecQZgwRET6WBqdqi7jPlfm2cqKQ4nPodHKKd5GdAlVOg%3D%3D%7Ctkp%3ABFBMpIHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327134465841",
+          "product_id": "327134465841",
+          "price": {
+            "raw": "$11.38",
+            "extracted": 11.38
+          },
+          "shipping": {
+            "raw": "+$11.30 delivery",
+            "extracted": 11.3
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/N14AAeSw6SNp9Q42/s-l500.webp"
+        },
+        {
+          "title": "Levi's 501 Jeans Mens 38x34 Black Original Fit Button Fly Denim Straight Leg",
+          "link": "https://www.ebay.com/itm/236405058340?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80G9B4XJVTKK45MT596&hash=item370ad6eb24%3Ag%3AIlUAAeSwWyNo98fE&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9IhdQnS%2BurP0Js5o8f6NaAMiyplTpuQAOwfh4LhYg4rSSZYl%2Fc5nUZo3EnSmHUZtMuMq%2FgMdTspjf5SHAYcMAcIyz93W1g4FjNWiP0ZEE7%2FeABdPouSwOv%2Fl%2F5JLaTpqUbxrRyBdNc6elDqpHZILIDTTHXC%2BDB1MMXemPLpOpLoHg%2FIzL8NOuHnSAE1J66MjhFhqSfD6mjv3q3zqn6S501thTxYGX%2ByT4kQlu4FvOrN6AZF5UAjNAh3ZFwBcPPZlg7KU745w74mP2AjDU0uqiAMwsNynCF3YzNcBAd2753RQ%3D%3D%7Ctkp%3ABFBMpIHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=236405058340",
+          "product_id": "236405058340",
+          "price": {
+            "raw": "$31.99",
+            "extracted": 31.99
+          },
+          "shipping": {
+            "raw": "+$11.99 delivery",
+            "extracted": 11.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/IlUAAeSwWyNo98fE/s-l500.webp"
+        },
+        {
+          "title": "Vintage Levis 501xx Jeans Mens 38x33 Blue Denim Button Fly Y2K Straight Leg 2004",
+          "link": "https://www.ebay.com/itm/127940552303?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GR7Z0XPKZK6PQJQJ5&hash=item1dc9d9e66f%3Ag%3AuYUAAOSwpidmM5yT&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde95sPD3ZFfQmmZ6o9kiK50brQfdYR48kRxmYQAAAWavBiZZ0ydQL%2BBkovLRu7bUjCndjs3oayZhUwVMlDEUW%2Bf5vaVSRTXB7MDmeLxDjPZeA8YHkh%2BMxRUBFiHXodX7OjA4DcN2RG8n2zUic5fup6NFl270X428Xnnm8lLQR1y0ZAlsMbc1Uw8%2FsUQ0T0ceiuRQuuW6VveB2i5HzhGXBJ1eCekl3yGSgjmhBl1eQRqzCTaaWW%2BtvDziSnZ%2B6Xxt2ZrJFCc0wsGvoAQn7ZYB%2FEt7doKXAkEyLB9FwpggPuYXpg%3D%3D%7Ctkp%3ABFBMpIHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=127940552303",
+          "product_id": "127940552303",
+          "price": {
+            "raw": "$42.24",
+            "extracted": 42.24
+          },
+          "shipping": {
+            "raw": "+$9.95 delivery",
+            "extracted": 9.95
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/uYUAAOSwpidmM5yT/s-l500.webp"
+        },
+        {
+          "title": "Levis 501 93 Straight Jeans Mens 36x31 Blue Button Fly Premium Denim Classic",
+          "link": "https://www.ebay.com/itm/306939712589?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80G3BVHDMF1TGSQ4TA2&hash=item477708544d%3Ag%3A8bEAAeSwrIhqBl2K&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F95RwWaEZ0LLL5KIJbXryjj7iqIO1D1VGQIpUoPS64xsiUx9BOR1y3DCG3%2F9sBFwoEOEDeimrXYXRpyQwZ6WzP8cHr48%2BnNLhc3rILGYkV177SOM45m6X4qfMMRDMEZOColsZAsYpiLyEctyqQJYXbjkW1oPtocd%2F92DhqaNw0jxMPiJDgQa83Ilc3to7FT4F53yuciG2fildkzj5d6kzQw5R1noKXyguVxfy8LSaAYWTsTvWpbbhda4l2VJG63N6m9wbFi7cQD1DShGH%2BwjLXdESjRCRGVUNBU2qxNo6wDg%3D%3D%7Ctkp%3ABFBMpIHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=306939712589",
+          "product_id": "306939712589",
+          "price": {
+            "raw": "$33.99",
+            "extracted": 33.99
+          },
+          "shipping": {
+            "raw": "+$9.99 delivery",
+            "extracted": 9.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/8bEAAeSwrIhqBl2K/s-l500.webp"
+        },
+        {
+          "title": "Levis 501 Jeans Mens 34x34 Black Straight Fit Dark Wash Button Fly Denim Pants",
+          "link": "https://www.ebay.com/itm/178370889763?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80G0F7410Y2JAZD4HS2&hash=item2987bbc823%3Ag%3AXr8AAeSwkN9qcOcb&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Brosfc2XO2IqnON4%2B1Yooas9Qkybfnt%2FbippHLtlYEf0tnRP%2FeoTe5WSLBDC6HptP09%2Bq2Wqt9qyIh%2FOH%2F19mv4lhX%2BBQRDezv%2BCn2e37hRxmCPoC79VtJOfh7sBmF6Ub7Q%2FbY5Nbf%2B9asOhRXiwCgANe%2FMHRJ5htvIzNHaeZbH4tu389wpDYGLVYE38IpCoT7UI0RZdJZfp7We507AUlH93z5dX8hy%2BbjX8BsQa1nklTT7X32G1IBJAGvE6VS%2FIirZdeHo%2FCN%2B9opkZ7w7zluS91sISPJZJMcleySO28yuQ%3D%3D%7Ctkp%3ABFBMpIHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178370889763",
+          "product_id": "178370889763",
+          "price": {
+            "raw": "$26.99",
+            "extracted": 26.99
+          },
+          "shipping": {
+            "raw": "+$9.99 delivery",
+            "extracted": 9.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/Xr8AAeSwkN9qcOcb/s-l500.webp"
+        },
+        {
+          "title": "Levis Jeans Mens 40x34 Gray 501 Original Fit Straight Leg Light Wash Denim Work",
+          "link": "https://www.ebay.com/itm/398050354829?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80G7WGT0RCJ51HTYSKS&hash=item5cada6668d%3Ag%3A4doAAeSw8NlqKeUN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BzqyLx7O2KN4gEqmopm8WZ6L0kUOG5ljPRYqf9k1QdSrIvw8UUgAFEOSg1Fyxeo3%2BkXVhECAKa%2Buv0bgD0j5PCWgIe6zKXEG4DOeFHLGG3knYUpEo%2F6R9kaGWDd2F1PgC03QT2oRAolFXFHkaTrNUDOw%2BaSDn6LuM6DSUFR8CQ0IsM4PDF3qFLMq67pKeGngTf6uVkiWk3mcHjYmef0eJeQsnebbbBtMR7IYvI92QRBCvxPm1LOlKSp99Ci0uyIuk7%2FcfEX7Ux5k6klRnHgka%2BPvTFGh%2FspvPoeLphj0w%2FZg%3D%3D%7Ctkp%3ABFBMpIHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=398050354829",
+          "product_id": "398050354829",
+          "price": {
+            "raw": "$20.99",
+            "extracted": 20.99
+          },
+          "shipping": {
+            "raw": "+$8.99 delivery",
+            "extracted": 8.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/4doAAeSw8NlqKeUN/s-l500.webp"
+        },
+        {
+          "title": "Levis 501 Jeans Mens 37x29 Black Raw Denim Button Fly Straight Fit Classic",
+          "link": "https://www.ebay.com/itm/306997317408?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GR7SV61HMWT18VND3&hash=item477a774f20%3Ag%3AP-MAAeSw0QpqK2LS&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Bn6dOUVorliCEMTEfWHm3U1NoMAqtU8SpuYM5G8%2FzwHa7%2Bvp4TyFSOUj1ZBTOf5Cn6lJvHvWB14HWlXTD2kLGYgNwKWFIxe%2BuKCTSQ3mEFETtDoc6WbLy%2BJsoOcHvwP1xWUa1DD2rAmQJwLCOEs2i9FDpFRo%2BfPdhp8r1GF1xo6GAUMn9oGPFf6YdrkFRb%2FM%2BNKiysI9iOrxWPqKq4ZKVydCypa8oZHDGNP0xnMIzkXtwhJCjiTdyk1m5bbjGwMceMk72EYOXvqEZ%2BBaSr6ghfFj0u2LHlOKhWhcYS1F2o9g%3D%3D%7Ctkp%3ABFBMpIHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=306997317408",
+          "product_id": "306997317408",
+          "price": {
+            "raw": "$21.24",
+            "extracted": 21.24
+          },
+          "shipping": {
+            "raw": "+$9.99 delivery",
+            "extracted": 9.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/P-MAAeSw0QpqK2LS/s-l500.webp"
+        },
+        {
+          "title": "Levis 501 XX Jeans Mens 40x32 Reddish Brown Straight Button Fly Regular Maroon",
+          "link": "https://www.ebay.com/itm/327171669246?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GN29DEAPHVG4062A0&hash=item4c2cf37cfe%3Ag%3AMacAAeSwJaRofr4p&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BNAOhRWGtOrx7NnXxJ3CUfsVYb%2F6mXsNeXFnOwPaC9VxB8ZjCM%2FPMy0ZMevMXne1ofLO%2F%2BKdbforGeagomAIIP%2FID%2BwMwiuYfOd5wcFvLxtb94v8rDAexhIyOsabbeaCW4EJWw3r1aaDhrv6s5IkAlo%2FP89m8ItOeK%2BGT%2FeAJxxZD2SeZvjsFPFIiQCcna%2B79rSwhdbrOUKJs%2F439gAApSxaSWQklx5vfNiOT1er1as3zY7whHbh%2FP4xdgDvyhZWN5CDA5V2FTGXuxhtnWs2WV18KRRxq7YzIUU%2FNTxwo%2FOQ%3D%3D%7Ctkp%3ABFBMpIHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327171669246",
+          "product_id": "327171669246",
+          "price": {
+            "raw": "$33.99",
+            "extracted": 33.99
+          },
+          "shipping": {
+            "raw": "+$11.99 delivery",
+            "extracted": 11.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/MacAAeSwJaRofr4p/s-l500.webp"
+        },
+        {
+          "title": "Levi's 501 Jeans Mens 36x34 Gray Faded Denim Straight Leg Button Fly Washed Out",
+          "link": "https://www.ebay.com/itm/287624081211?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80G4C5FSVNYYSX9NWSW&hash=item42f7bb2f3b%3Ag%3Acy4AAeSw%7EC5qvpvX&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8COTobZmHEHbvf3FbKZB%2Bc6FIkCm1Xw6j9ge%2BRYgMjSIqpP3k0RbUYqL1C1JsGBQAfJmVSHXB29qjjWxufo0Ok8NAt4EWfZvUuIurXo2IUJJXfzhhbSa%2BMhlRZgXRWAv1K%2F2NiQVV%2B%2FXLDSQkH9%2BADnZAHky9EDyXTe4wApnPu05XOkCxx%2Fmvc8mbvcLUD%2BaDH%2FNbucmyoBI6T5dPFKakEvVfa0eWZ2LKmKvJFGiaG8oGUwLzWw605nFLXa8cDxsjMlUIZmshJz9gImZ7K5mv%2BMYm63toVqdNMRI8ma1zrdw%3D%3D%7Ctkp%3ABFBMpIHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287624081211",
+          "product_id": "287624081211",
+          "price": {
+            "raw": "$35.99",
+            "extracted": 35.99
+          },
+          "shipping": {
+            "raw": "+$8.95 delivery",
+            "extracted": 8.95
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/cy4AAeSw~C5qvpvX/s-l500.webp"
+        },
+        {
+          "title": "Levis 501 Jeans Mens 38x32 Blue Button Fly Straight Leg Denim Pants Everyday",
+          "link": "https://www.ebay.com/itm/800747704601?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GGBZTBDHWMQN5CPJC&hash=itemba70485119%3Ag%3AlgIAAeSwZ4Zqv48u&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F7uhpDPqXV5d4zlncBeylzSMhTzAlh%2BQnGGkOR676jCVaDzwU%2BQ4U%2FFwVhlkX0rcgFZdrEaph7lhMGatp0rF5HxeUZs2LzrS34j5PCHeQrY0XbWXmZXj3rnoN%2BcNGEIIc5LvbOS%2BkkfEUazmwkjxD0IM0BFFCJQMzzXAYbE%2FVWJUmh%2FL%2FNEGgfo%2BVnzKivnw3Dn8GT3mRDiUy6FWxg7JPOA2uy1NWGUdoMr9QNmyU2Sjuaq%2FXIpqoTDl4qO9wAE2cxV096hH3w5EwlhAezRxqfNMWZ5sEwNpjxTdinfr%2BmMg%3D%3D%7Ctkp%3ABFBMpoHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800747704601",
+          "product_id": "800747704601",
+          "price": {
+            "raw": "$28.95",
+            "extracted": 28.95
+          },
+          "shipping": {
+            "raw": "+$9.95 delivery",
+            "extracted": 9.95
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/lgIAAeSwZ4Zqv48u/s-l500.webp"
+        },
+        {
+          "title": "Levis 501 Jeans Mens 40x31* Blue Medium Wash Straight Leg Denim Button Fly",
+          "link": "https://www.ebay.com/itm/800604663381?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GFR1TBVKNA91G63WQ&hash=itemba67c1ae55%3Ag%3A6h8AAeSwYspqmOXX&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8iDh8RtNStjBdGvUoKsnw8iGB1GA3BGnlx7kTkJBkq3YTq5x1Z86CnCY08EOTR%2FB%2BitRXly1stNN62uZxUwpuU99rPNq1dXslirySymG6iuo%2FoEy2SPzASZYYFmlPIiv1l8GS%2FxU9ByEcMsNrG%2FjEO9xtnWM%2FUzEQLu01ENysK500aoIjaWmesz3W%2BmhVFKK5RScOqRWPVgYyTYyGI4xoq7%2Bojb0CpVPWXBc6mY8SAa%2BD3ZxL25EawJbg3oYb4zzw6RFtxMjee7erBlwuQp%2Fg6DDtutIb0SpUysYjz5Vof3g%3D%3D%7Ctkp%3ABFBMpoHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800604663381",
+          "product_id": "800604663381",
+          "price": {
+            "raw": "$37.59",
+            "extracted": 37.59
+          },
+          "shipping": {
+            "raw": "+$9.99 delivery",
+            "extracted": 9.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/6h8AAeSwYspqmOXX/s-l500.webp"
+        },
+        {
+          "title": "Levis 501 Jeans Mens 38x32 Light Blue Straight Classic Fit Denim Distressed",
+          "link": "https://www.ebay.com/itm/820222340526?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GSSWV5TYXQ7WFBXV4&hash=itembef90fadae%3Ag%3Al4QAAeSwUHVqyYJE&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8Q8uN06FvIKlqeQCVFQ8aN2cucoTodGlqNCnWLpEoBLyjqEIUPmgfyMHzUPKet7luEqN1%2FccCVitxFOUo5o3K4kZt0h8MK6xOZIq8EkygIvDkStF%2FTagvNME%2BGpjEGPp6B7w2JVH9Ry2FDoRryvQx6IWyp5R%2FireIYtk4%2Bn3Roo6hQzkaWqlSKvcmXFBbtldjQ2J%2BkIBzldXvzyPpON2jVO9I8nKZ4RvLGp4BjiBG06uJ29aHH7rKF9mFdrGAtv2jro8Wa3zKg%2Fzelf9AIUY1DXkVQWJrVyjjHSi%2FNohdeJg%3D%3D%7Ctkp%3ABFBMpoHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820222340526",
+          "product_id": "820222340526",
+          "price": {
+            "raw": "$28.19",
+            "extracted": 28.19
+          },
+          "shipping": {
+            "raw": "+$9.99 delivery",
+            "extracted": 9.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/l4QAAeSwUHVqyYJE/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Other Popular Brands",
+      "subtitle": "Based on number of views and purchases | Sponsored",
+      "items": [
+        {
+          "title": "Signature by Levi's Jeans Mens 38x32 Blue Cotton Denim Straight Classic Cowboy",
+          "link": "https://www.ebay.com/itm/157935818420?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GEGP6AYFCXEJVVBEG&hash=item24c5b556b4%3Ag%3ADR4AAeSwZPJqD5-W&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde89NVZChAbYAIwZZMDoxpDGsNKPg8v4PoBbNqJ8H3nqdEfX6PcunC3Tfqsbos88pKet1XWazMxkzPaKjMJC273digxFxoVGY%2BUuX8Cy4gxgu7z8E%2Fb1DhUETAKsaueIa24htosrZq1VEL%2BNdSUuguYXo4T%2FYaEW7A6qkNag0r3KxUEllXp5IApWEa%2BHhmHx3lChW%2BL%2FpJB03pHFh%2FugZ6mY9pvmao4pxi9EsZkWyn5AbVPZltb7Ax9jisSHcDpUSPa54fV7dU8sCKH509N3O5nWNP1xRoVaEv2G%2Fs2Xsuq3rQ%3D%3D%7Ctkp%3ABFBMooHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=157935818420",
+          "product_id": "157935818420",
+          "price": {
+            "raw": "$22.39",
+            "extracted": 22.39
+          },
+          "shipping": {
+            "raw": "+$9.99 delivery",
+            "extracted": 9.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/DR4AAeSwZPJqD5-W/s-l500.webp"
+        },
+        {
+          "title": "Wrangler Jeans Mens 38x29 Blue Relaxed Straight Denim Medium Wash Distressed",
+          "link": "https://www.ebay.com/itm/398363253274?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GSR64DM1X01QF70MA&hash=item5cc04cda1a%3Ag%3AbisAAeSwt3xqmwqL&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F5J2vgeFfdBAxlU%2FKbRkw2YaqO0%2BNLKqWMvp8Jv5M9r6nPltMCuNVJamLt0TF7J7%2Fcd1zHvYSSk1oyDR3B36iPWhzV0EcN9Lk2jGNSXgokms8Fg7hysbHtAcnDBKiYXzmc6MM6qt1BdY98pUjJhXfDJYMQgyheMblK5Mdwu9%2B98Jg7Jojn4mSUKnvSaR9YcDz5An1JgaNkbCF902A4dF0YNHv1lDq6hcEv9AA60MP6xEHQ5Gvluuf%2FJXRjfj0EOpNlECBdtoP23cn%2B6lmYGqSk0LTozSnP0yQ2YeqEN6EHQQ%3D%3D%7Ctkp%3ABFBMooHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=398363253274",
+          "product_id": "398363253274",
+          "price": {
+            "raw": "$19.99",
+            "extracted": 19.99
+          },
+          "shipping": {
+            "raw": "+$8.99 delivery",
+            "extracted": 8.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/bisAAeSwt3xqmwqL/s-l500.webp"
+        },
+        {
+          "title": "Signature By Levi's Mens Denim Jeans Regular Fit, Straight Leg-(40\u00d730) Vintage!",
+          "link": "https://www.ebay.com/itm/267782728777?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GSB80SQ5PYGQK0QBB&hash=item3e59182c49%3Ag%3AkPYAAeSwbUdqpFqp&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde95vzzvw15ENmmd0%2FvUmpP8BV4laqPbtInb2l--zpo8RCDRGkR8OHC3hlFl%2F5A%2FafDKxcmFuSXU50Lv1o%2BVkcXuoMZ3T4xOh9eCYIZzMvkcF8eE%2F2mpXfK720I4OxUYp61I7AWi014MAVwUqhM9K2PyxAxNFa4BS0jCX6UeXnEHOhkRaYMDhfglCGMRrnWZygUWKnKOCuvVbI4I4g0lVE%2B8macK%2BHjWhmfQPAY17Zk5y%2F7NJfPU3kW5XgwVe7oECsLByCa3PL22u6AvRn2Nc%2FHOORGl%2FROKtD2SJxvmXt%2BdYA%3D%3D%7Ctkp%3ABFBMooHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267782728777",
+          "product_id": "267782728777",
+          "price": {
+            "raw": "$24.95",
+            "extracted": 24.95
+          },
+          "shipping": {
+            "raw": "+$7.75 delivery",
+            "extracted": 7.75
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/kPYAAeSwbUdqpFqp/s-l500.webp"
+        },
+        {
+          "title": "Wrangler Mens Jeans 44x30 Blue Denim Relaxed Fit Straight Leg Medium Wash~ Spots",
+          "link": "https://www.ebay.com/itm/198328319774?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80G3QJW1466C2A599FC&hash=item2e2d49ff1e%3Ag%3AeI4AAeSwNBlp95S%7E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B23QcwD2msvsGNxj2vmj6SfDOz0PeLErAZRgCA1BtmCPYXHjhWLJ8NlClvl9JBHkAA57rqj81HOJLFPJQupycslrQjzYp5nIO7wzjmAlUkhAZuZQMG%2BMSvukGnwVgXIEGfOcFu5CdbgPkkkMuIbObbuwzjrKQHbzwji8bLeQrh8VVxEzSYnetz1st4noczfLx%2F8QuPCfrgsdvygHH0JNrBUjBBG8dWYLXqwdNPxA%2FTdXUct3w%2FtRrRYM2HOTpvZeZVt4pV9%2Fr3qYncvWko5mNAq34Cme9qgnkrnuJZ%2FiHnuQ%3D%3D%7Ctkp%3ABFBMooHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198328319774",
+          "product_id": "198328319774",
+          "price": {
+            "raw": "$20.00",
+            "extracted": 20.0
+          },
+          "shipping": {
+            "raw": "+$9.50 delivery",
+            "extracted": 9.5
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/eI4AAeSwNBlp95S~/s-l500.webp"
+        },
+        {
+          "title": "Polo Ralph Lauren Men's Varick Slim Straight Distressed Jeans32x30",
+          "link": "https://www.ebay.com/itm/920083190623?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GAHM11HSR6FVM55JB&hash=itemd6393b535f%3Ag%3AZGkAAeSwrLVp10TJ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BwJ6Xec9R%2FPiLosfTh649OzJsgLTTO4VFoAaxqcVl0Ub4KmmFNXpJnivAO1Tdm17%2FeWQkOel27X8pif4S0U5lb8fVaAA5KB%2BY2SEcSNr4lIt8PNUZFK72p6jxMQhE9gKPo6R2gA%2Bfs%2BoACaJWLDeHjaH5fKhvefudwhi9mfb5Rcp8oYQ7X%2Fkmb0pBoxdP2JMv4gsYQ2b2WK81EZhvHVLmaBRuTL1I%2F%2BD4J2BnIxylc9ZjHBorLQWoaIbQyKqrZuKDr7KS4MpkKnPKHilTxh5W4opnpc%2BchIq9p3kLFoVV5GA%3D%3D%7Ctkp%3ABFBMooHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920083190623",
+          "product_id": "920083190623",
+          "price": {
+            "raw": "$89.00",
+            "extracted": 89.0
+          },
+          "shipping": {
+            "raw": "+$8.99 delivery",
+            "extracted": 8.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/ZGkAAeSwrLVp10TJ/s-l500.webp"
+        },
+        {
+          "title": "Classic Carhartt relaxed fit denim in versatile medium relaxed fit 36\u201d x 32\u201d",
+          "link": "https://www.ebay.com/itm/407272023957?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GXYMS0MKR7C2VEDJA&hash=item5ed34de795%3Ag%3A1CAAAeSwFYZpsylf&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Bx%2B57sLVjNL8%2FYDQSpcx8mF89jzxOHufFB6b1F3lUE3F0c5oX%2BOd4ACIyiFXMs9W5o6zVs9DCtSjAZiXMeObmXqK1e5I2SoIZ0Sccto7ADIxcxdS6kZuD1GeNkyPIg6ea4drrzgODNPUpxp6vvbMukupe%2FeF22XgYSs1jLQHtgYQXEhW6YVjZBxwLwXKVeti%2Fv1Jz38RYWcBaTIxWeIu1hyPW1v1cLDYJkSed1vS%2Fhy6Xsyu7EYPrnQt2fAoQHr343%2B9axlWxWpioOlUU0wW13WrcaZiKWUktKnJ7ZILa5TA%3D%3D%7Ctkp%3ABFBMooHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407272023957",
+          "product_id": "407272023957",
+          "price": {
+            "raw": "$48.00",
+            "extracted": 48.0
+          },
+          "shipping": {
+            "raw": "+$6.49 delivery",
+            "extracted": 6.49
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/1CAAAeSwFYZpsylf/s-l500.webp"
+        },
+        {
+          "title": "Carhartt B17 DST Relaxed Fit Jeans \u2013 Light Wash Blue \u2013 Size 44x30",
+          "link": "https://www.ebay.com/itm/227385592479?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GMX7NJ8TG3MVPQ1JW&hash=item34f13cca9f%3Ag%3AWwcAAeSwK8pqLE5U&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8S73WqifwqYYXIfAOfKhv1g3%2BWPWWs9DYCEOcR15rouW7F%2FNc2VnjMeGxl9%2BSrc7lLPuMpHaCEncXmgRQwH7ArsojEfYRoJLhP2F5eaGcON3jT15cI6gS%2FIjtwbrAgN8wSQl30gOd6%2FfdDiJvPdybu9BPJz%2Fjd3mlSmtrmMuOeMpQXTXiMlOhDeNTcxBJVXbCKJPiZoC0CdqfgxJbTDh3B5a28gJOco0BeoJEWc84JIIbmkH1poMAg67YuMXLUJXa%2FAAUgKIbz1qzFyXVJ4ulu2OySosIrQWrnFzOOb3MDRw%3D%3D%7Ctkp%3ABFBMooHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227385592479",
+          "product_id": "227385592479",
+          "price": {
+            "raw": "$43.99",
+            "extracted": 43.99
+          },
+          "shipping": {
+            "raw": "+$10.99 delivery",
+            "extracted": 10.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/WwcAAeSwK8pqLE5U/s-l500.webp"
+        },
+        {
+          "title": "POLO RALPH LAUREN SULLIVAN SLIM EMBROIDERED PONY JEANS MENS SIZE 34x26",
+          "link": "https://www.ebay.com/itm/880064800667?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GFSMAP0PE29Z4S7BF&hash=itemcce7f3279b%3Ag%3AtMQAAeSwr9JqwSOb&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FGgiWyXbiahonewByA0X99WjXZyoISyFMDL7%2BFKDd6ix6AbK3hJau29zwdpwuspint6u8t8kchwgMZaQ0KpoZ2SmXpja7ADSFBcfPx7w6C76VgZbS7Cw30KoK2gqz77X4nR5728Z7kpiuF1ku81A%2BhWxH1sVVtzkwZYrUazb6%2B--Ks8y%2FjcuMDasUXwkm8mxjlD1mZ%2FeWASoHwR9u7YcecCpaRPUnktBQlHgUbiZL2dumKiC%2F2SeU0iOGwKxrD70WBHdlkJOzAaDIGiMkFe%2BthE%2Bfp1zdIjDLkt%2Fq9opqVtQ%3D%3D%7Ctkp%3ABFBMooHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880064800667",
+          "product_id": "880064800667",
+          "price": {
+            "raw": "$60.00",
+            "extracted": 60.0
+          },
+          "shipping": {
+            "raw": "+$6.19 delivery",
+            "extracted": 6.19
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/tMQAAeSwr9JqwSOb/s-l500.webp"
+        },
+        {
+          "title": "LeeJeans Men 38x34 Blue Straight Denim. Fit 35x33",
+          "link": "https://www.ebay.com/itm/286881492396?_skw=Levi%27s+501+jeans&itmmeta=01M6AVN80GCK7C3MFW7M53ACCQ&hash=item42cb782dac%3Ag%3A8TIAAeSwRklo8UbB&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BM36%2FtyPswk%2FVPkVw10NtAjlnk6JX78QG3bnZqSEuUyPHSIPr8UxlIPBSF2S7aKXxylRDz8Dw3Y2i6LX%2FDNN8QETflrR20lbuA3pUJIHepBKjerzAS6Ey9rnGt6I6Da0DxNRurB%2B%2FY30hV24okiChgnGnBjGkv2jtPVG5DtiE41YiTH4PzAajuIwj%2BQHIns8N8RPRRn7q1piotJ%2BUgcrSCjMcEThqKWYzCykOMFsObkD64MzQpNpPkJXXe63Ewkt9Uwp0V45p%2BeQnbA5zGQqFjaRAthLfczRXd2SYrRXRC%2FQ%3D%3D%7Ctkp%3ABFBMooHV27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=286881492396",
+          "product_id": "286881492396",
+          "price": {
+            "raw": "$35.00",
+            "extracted": 35.0
+          },
+          "shipping": {
+            "raw": "+$8.99 delivery",
+            "extracted": 8.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/8TIAAeSwRklo8UbB/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "levi s 505 jeans",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+505+jeans&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levis 501 jeans mens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levis+501+jeans+mens&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+men&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans button fly",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+button+fly&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levis jeans men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levis+jeans+men&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans vintage",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+vintage&_sacat=11450&_sop=12"
+    },
+    {
+      "query": "calvin klein jeans men",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=calvin+klein+jeans+men&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "lee jeans",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lee+jeans&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levis 501 jeans women",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levis+501+jeans+women&_sacat=11554&_sop=12"
+    },
+    {
+      "query": "levi s 511 jeans",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+511+jeans&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans mens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+mens&_sacat=11483&_sop=12"
+    },
+    {
+      "query": "levi s 501 jeans 36 x 32",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=levi+s+501+jeans+36+x+32&_sacat=11483&_sop=12"
+    }
+  ],
+  "popular_filters": [
+    {
+      "name": "Regular",
+      "parameter": "_dcat=11483&Size%2520Type=Regular",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Size%2520Type=Regular",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Size%252520Type%3DRegular"
+    },
+    {
+      "name": "Big & Tall",
+      "parameter": "_dcat=11483&Size%2520Type=Big%2520%2526%2520Tall",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Size%2520Type=Big%2520%2526%2520Tall",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Size%252520Type%3DBig%252520%252526%252520Tall"
+    },
+    {
+      "name": "Black",
+      "parameter": "_dcat=11483&Color=Black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Color=Black",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Color%3DBlack"
+    },
+    {
+      "name": "Blue",
+      "parameter": "_dcat=11483&Color=Blue",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Color=Blue",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Color%3DBlue"
+    },
+    {
+      "name": "Beige",
+      "parameter": "_dcat=11483&Color=Beige",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Color=Beige",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Color%3DBeige"
+    },
+    {
+      "name": "30 in",
+      "parameter": "_dcat=11483&Inseam=30%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Inseam=30%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Inseam%3D30%252520in"
+    },
+    {
+      "name": "32 in",
+      "parameter": "_dcat=11483&Inseam=32%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Inseam=32%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Inseam%3D32%252520in"
+    },
+    {
+      "name": "34 in",
+      "parameter": "_dcat=11483&Inseam=34%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Inseam=34%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Inseam%3D34%252520in"
+    },
+    {
+      "name": "40 in",
+      "parameter": "_dcat=11483&Waist%2520Size=40%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Waist%2520Size=40%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Waist%252520Size%3D40%252520in"
+    },
+    {
+      "name": "30 in",
+      "parameter": "_dcat=11483&Waist%2520Size=30%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Waist%2520Size=30%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Waist%252520Size%3D30%252520in"
+    },
+    {
+      "name": "32 in",
+      "parameter": "_dcat=11483&Waist%2520Size=32%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Waist%2520Size=32%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Waist%252520Size%3D32%252520in"
+    },
+    {
+      "name": "Regular",
+      "parameter": "_dcat=11483&Fit=Regular",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Fit=Regular",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Fit%3DRegular"
+    },
+    {
+      "name": "Slim",
+      "parameter": "_dcat=11483&Fit=Slim",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Fit=Slim",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Fit%3DSlim"
+    },
+    {
+      "name": "Relaxed",
+      "parameter": "_dcat=11483&Fit=Relaxed",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Fit=Relaxed",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Fit%3DRelaxed"
+    },
+    {
+      "name": "Gray",
+      "parameter": "_dcat=11483&Color=Gray",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Color=Gray",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Color%3DGray"
+    },
+    {
+      "name": "31 in",
+      "parameter": "_dcat=11483&Inseam=31%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Inseam=31%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Inseam%3D31%252520in"
+    },
+    {
+      "name": "Brown",
+      "parameter": "_dcat=11483&Color=Brown",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Color=Brown",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Color%3DBrown"
+    },
+    {
+      "name": "Green",
+      "parameter": "_dcat=11483&Color=Green",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Color=Green",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Color%3DGreen"
+    },
+    {
+      "name": "28 in",
+      "parameter": "_dcat=11483&Inseam=28%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Inseam=28%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Inseam%3D28%252520in"
+    },
+    {
+      "name": "29 in",
+      "parameter": "_dcat=11483&Inseam=29%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Inseam=29%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Inseam%3D29%252520in"
+    },
+    {
+      "name": "42 in",
+      "parameter": "_dcat=11483&Waist%2520Size=42%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Waist%2520Size=42%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Waist%252520Size%3D42%252520in"
+    },
+    {
+      "name": "36 in",
+      "parameter": "_dcat=11483&Waist%2520Size=36%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Waist%2520Size=36%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Waist%252520Size%3D36%252520in"
+    },
+    {
+      "name": "38 in",
+      "parameter": "_dcat=11483&Waist%2520Size=38%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Waist%2520Size=38%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Waist%252520Size%3D38%252520in"
+    },
+    {
+      "name": "White",
+      "parameter": "_dcat=11483&Color=White",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Color=White",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Color%3DWhite"
+    },
+    {
+      "name": "33 in",
+      "parameter": "_dcat=11483&Inseam=33%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Inseam=33%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Inseam%3D33%252520in"
+    },
+    {
+      "name": "34 in",
+      "parameter": "_dcat=11483&Waist%2520Size=34%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Waist%2520Size=34%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Waist%252520Size%3D34%252520in"
+    },
+    {
+      "name": "44 in",
+      "parameter": "_dcat=11483&Waist%2520Size=44%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Waist%2520Size=44%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Waist%252520Size%3D44%252520in"
+    },
+    {
+      "name": "36 in",
+      "parameter": "_dcat=11483&Inseam=36%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Inseam=36%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Inseam%3D36%252520in"
+    },
+    {
+      "name": "33 in",
+      "parameter": "_dcat=11483&Waist%2520Size=33%2520in",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&Waist%2520Size=33%2520in",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D11483%26Waist%252520Size%3D33%252520in"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=Levi%27s+501+jeans&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=11483&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Levi%27s+501+jeans&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}

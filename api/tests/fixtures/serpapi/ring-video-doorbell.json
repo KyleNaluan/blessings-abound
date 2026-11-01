@@ -1,0 +1,1823 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7d3a33d2b2a56cacdaf",
+    "status": "Success",
+    "created_at": "2026-11-01 06:10:27 UTC",
+    "processed_at": "2026-11-01 06:10:27 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+    "total_time_taken": 2.16
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "Ring Video Doorbell",
+    "_ipg": "60",
+    "LH_ItemCondition": "3000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 1800,
+    "query_displayed": "Ring Video Doorbell"
+  },
+  "categories": [
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11700,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=11700&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Doorbells",
+      "link": "https://www.ebay.com/sch/115975/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 115975,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=115975&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Smart Doorbells",
+      "link": "https://www.ebay.com/sch/185055/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 185055,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=185055&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Smart Doorbell Parts",
+      "link": "https://www.ebay.com/sch/257926/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 257926,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=257926&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Doorbell Parts",
+      "link": "https://www.ebay.com/sch/259161/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 259161,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=259161&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Door Entry Systems & Intercoms",
+      "link": "https://www.ebay.com/sch/14953/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 14953,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=14953&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 293,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=293&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Home Security Cameras",
+      "link": "https://www.ebay.com/sch/48638/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 48638,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=48638&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "IP & Smart Security Camera Systems",
+      "link": "https://www.ebay.com/sch/185053/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 185053,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=185053&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Security Camera Brackets & Mounts",
+      "link": "https://www.ebay.com/sch/185049/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 185049,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=185049&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Other Smart Home Electronics",
+      "link": "https://www.ebay.com/sch/185065/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 185065,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=185065&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=1&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Music",
+      "link": "https://www.ebay.com/sch/11233/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11233,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=11233&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 220,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=220&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 12576,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=12576&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Jewelry & Watches",
+      "link": "https://www.ebay.com/sch/281/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 281,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=281&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11450,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=11450&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Cell Phones, Smart Watches & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 15032,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=15032&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Computers, Tablets & Network Hardware",
+      "link": "https://www.ebay.com/sch/58058/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 58058,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=58058&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Pet Supplies",
+      "link": "https://www.ebay.com/sch/1281/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1281,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=1281&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1249,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=1249&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Cameras & Photo",
+      "link": "https://www.ebay.com/sch/625/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 625,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=625&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Art & Craft Supplies",
+      "link": "https://www.ebay.com/sch/14339/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 14339,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=14339&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 550,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=550&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Musical Instruments & Gear",
+      "link": "https://www.ebay.com/sch/619/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 619,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=619&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Entertainment Memorabilia",
+      "link": "https://www.ebay.com/sch/45100/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 45100,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Ring+Video+Doorbell&category_id=45100&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "new_listing": true,
+      "title": "Ring Video Doorbell 3 Plus Motion Security Camera Wireless 5UM6E5",
+      "link": "https://www.ebay.com/itm/960137465637?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WP8E0EDB7JXECKPAWB&hash=itemdf8ca70f25%3Ag%3A8UcAAeSwXQFq5h5T&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9d79irYArQkSkcOXfS%2BJeyRpjbnjDsg2ixVCgpjPqFHJQOQKDpmsvmqEmfN%2BofRFmHm8jsk5xEzJ9T4VpWISuOBAk3%2BVHXCoT2szU1yf8nHie5xFXB9feVVngjHGQxRvre%2FtiTN8om%2B%2BPht14YZrzoofsqSq1FjsnL7YRXMMN6NalIQCzFurDAqEbLDoYDt5rv65FnWSFjFWW90SayqReSnoYP%2BG%2Fl4cGDaPq1gv5jeDSZoYql%2F4iGiWp0U8Igsgg0%2FlkiOa1ZZSph7FrTyESS5tbE00YsK6RbmakpXK7fqQ%3D%3D%7Ctkp%3ABk9SR77e2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960137465637",
+      "product_id": "960137465637",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$26.99",
+        "extracted": 26.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/8UcAAeSwXQFq5h5T/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Ring Video Doorbell 2nd Gen 1080p Venetian Bronze 5UM5E5 Mount",
+      "link": "https://www.ebay.com/itm/137889434747?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WP28ERN1EPA9QWYME3&hash=item201ad9cc7b%3Ag%3ASykAAeSwzQZq5cpJ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Ti8j9Y07oWR%2FUjEQQVMKcetnF1DY6FIhsTmI9jg20r6Q4cfA4QTSKHqja4f1vahBftpjmeAGiPcO3SHfSQM9YietXgLX3kzbjZaOdmpdBaV1EKVZPQAH278b1dEJkZ1G9Ad%2FFSFvpbhdyk%2F9Gsw6bUw0Q5mI8RMB5mJYl27GZy4p7B3qayAXFqQRtPSYFjOQK72U55WD8GPZgpq3lZewSLVWiYFNUMNbggsuyDehzikSFMMPNeaUm5DUkGL5RlvnMfc%2BVvVx5bZdWnLic8tv7v6keXmyVly4DLhI1f%2BP1rQ%3D%3D%7Ctkp%3ABFBMvt7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137889434747",
+      "product_id": "137889434747",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.99",
+        "extracted": 24.99
+      },
+      "shipping": {
+        "raw": "+$13.50 delivery in 2-4 days",
+        "extracted": 13.5
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/SykAAeSwzQZq5cpJ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "LOT OF 6 Ring Video Doorbell Pro (1st Gen) Wi-Fi Wired",
+      "link": "https://www.ebay.com/itm/147631847525?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WPD7MK3ANVPCFQ4HQC&hash=item225f8b3865%3Ag%3AUxAAAeSwdIZqzFSZ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8eDwsR9BG6BIu7mOdVDs02F0njv1lfcpBdxRN6pmlZ7RP2a%2BqltZHdpmhFeNjVYlz2jbMx3g3W0FZeOQRKFbmwgRZzBmYjBVujwuhkxx1rittlZff%2F0%2BGhUWG5NdJxNHU9h16urXWpNiNFGlpLd7EDkYVtmkOAUdZbx5XgcNff9uhx%2B%2BxfZ94UKDNicwhpFW2uNBHzfNvD50pww04fD%2FIZMcurwmHXbNPJjH0uRFm0%2FpUpx%2F%2B3kwcSdguc019JP8KDsjx8unsOGDfNNXCah5ScgmM64URIkKr%2F2c%2FeIzLuRg%3D%3D%7Ctkp%3ABFBMvt7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147631847525",
+      "product_id": "147631847525",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$99.99",
+        "extracted": 99.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/UxAAAeSwdIZqzFSZ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "1 One Ring 2nd Gen 1080p Video Doorbell - Random Color Satin/Bronze Nickel",
+      "link": "https://www.ebay.com/itm/147631813116?_skw=Ring+Video+Doorbell&epid=16044625901&itmmeta=01M6AVP5WPAHAHGHP4QCEC22XV&hash=item225f8ab1fc%3Ag%3AcxkAAeSwFJJqzFCm&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BbDudH97KqJl%2FjL%2FtFVrgAesxoJ4LTtnjlWM1PDiLh6mrGQqzC2dWiE6Bo%2B%2BzUWmy4xcV1a5CEHZ1YQORA6b8bT6EHYbIhB4nav5GT26KZErEtVmAa33gvh1InIm9JtXv1vFoq6J8fIj8rkIaoo8pIIFOw%2FQ61eg6hZIXAVa2%2Bp9pwVi6VBTELtVSR4vamoQVIFs0Wcb4lvycDhtsvkUfEgtct7tGj3Ruo8y7V0lJzY2lKFDzoTRSURZczG45d5jWZeqx8m0tiUKHM9DB8mqfMvMuO9H2Y1UsHV7fY75bI3w%3D%3D%7Ctkp%3ABFBMvt7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147631813116",
+      "product_id": "147631813116",
+      "epid": "16044625901",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 35,
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "watchers": "23 watchers",
+      "extracted_watchers": 23,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/cxkAAeSwFJJqzFCm/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Ring Video Doorbell Built-In Camera Battery Included, Screws & Screwdriver",
+      "link": "https://www.ebay.com/itm/377611723062?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WPPJJTAWF4FMBFXQQE&hash=item57eb69a136%3Ag%3AgbkAAeSw0nBq5p-O&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FeNG9QEyI9nBvKt8Amh5SINKNHNsMOgx2gQ87ok5i%2FMdBYCys38cszst1duBKacYym71g0c7VQlZ%2BM1kJgkbKK3ALE%2B%2Fofp2jpyykhFJWLsd85SeSRiKrUHIRYrsy4Dr42DFF%2BFUFJEno2oGQ5KauyBfFmrf9XInJHqSIm2zvUC07azJQbnzsG0inUOp5HuzaJa225RDFw7UbhNhv5d4qRgrO%2F8uhkNP1HXRkDa2sjxo7XsD3MqoKqS1I5ET7pxtY%3D%7Ctkp%3ABk9SR77e2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377611723062",
+      "product_id": "377611723062",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$6.71 delivery",
+        "extracted": 6.71
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/gbkAAeSw0nBq5p-O/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 2nd Gen 8VR1S7-0EN0 1080p Wi-Fi No Battery",
+      "link": "https://www.ebay.com/itm/900052699234?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WPM1104MVJJE1PV8CQ&hash=itemd18f524862%3Ag%3AM74AAeSwFBtq5TwP&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8i4GPESvgXxhKUy%2BPOLXTDsTistIlyiwQRQxT7WPGbGi7p%2BplqkNeyb%2BUyO%2FjOsgMA2KsLud%2Bd4hsDcy8V5hbtDIXQsY8SfB%2BGMvLSb1loUm4aJ0kuy3f1AjcU54kMdC68%2BCaeYGXBT98xicgxrGYEWYXRv6Yi0nfgz%2B7ko9%2B8Y0GbWM98ig7ei7fn%2BjZAv4NzCMA9Oe%2BJaa%2FZ5jEIkithk3TmQ%2B99Mu4IzS024lvNrdCb3nsiv5zBjgc7cZjZliA%3D%7Ctkp%3ABk9SR77e2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900052699234",
+      "product_id": "900052699234",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.99",
+        "extracted": 19.99
+      },
+      "shipping": {
+        "raw": "+$6.87 delivery in 2-4 days",
+        "extracted": 6.87
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/M74AAeSwFBtq5TwP/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 3 PLUS Wi-Fi 1080p HD DOOR BELL NO COVER PLATE NO BATTERY",
+      "link": "https://www.ebay.com/itm/267068133303?_skw=Ring+Video+Doorbell&epid=23030325514&itmmeta=01M6AVP5WPNCP9MBZS8HP0S5TY&hash=item3e2e804fb7%3Ag%3A-mIAAOSwYRRnOmov&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8J8L2TGYe6KMXDxSP3Nl9IneaHiERzaS64tO%2BVMZM52IKTCFg0%2Flr8MGApG7ode2RcnoomuXG4JZcIjLDSVxr%2F7Kg9%2FCeBZSwdjPxW94b7k3DpIUwDDzYlpqzZ1CVN9MFa3MQVSqJjFgGu72xJs7v%2BcODczjJb5zFWKz6jaB%2BHk34HzEDepOinwZWxssaLQzoMyt4QrACPU%2BHrmusCnNd7EDVQ6k19FtWLmmMbgIkDtFvkgmrhC5dfLoh5cqFXZh8QitRmEvBoZ60OghDOxVZqIYuXO1SBWaa5PdWPND1fcg%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267068133303",
+      "product_id": "267068133303",
+      "epid": "23030325514",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 258,
+      "price": {
+        "raw": "$24.99",
+        "extracted": 24.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "quantity_sold": "40 sold",
+      "extracted_quantity_sold": 40,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/-mIAAOSwYRRnOmov/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 2 BATTERY Wi-Fi 1080p HD DOOR BELL NO COVER PLATE NO BATTERY",
+      "link": "https://www.ebay.com/itm/267178848572?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WPV80PASVTZ713EZM1&hash=item3e3519b13c%3Ag%3AD6AAAOSwALZnx%7EPh&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Fvla5zsiJnw56K%2F9LFvuv6Bf%2Bt2jbcMGV6gDFgvHbDLIx86DLToyCi6KlQnteXSH0cfMXLQJ%2FuXcUEid2Kk4BnChVOtG4qq03toMzoFC8aorew6%2B3QFUgQ8dishEOPzSD%2BKBaPVzLNHlW57NPJ6wblAydZucyBAszRwutl%2B9FdCLAK4ZNPfq7oo55A0RHkBidd9Mw%2FjrkKsBnzNFN4zDh152m6VTCtVZmVj20bt9%2F6D%2FfVSVyrqj0VAlbB7p%2B1WOM%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267178848572",
+      "product_id": "267178848572",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.99",
+        "extracted": 19.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "quantity_sold": "58 sold",
+      "extracted_quantity_sold": 58,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/D6AAAOSwALZnx~Ph/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell Pro Black Wired Night Vision Motion Detection 1080p Camera",
+      "link": "https://www.ebay.com/itm/327359752876?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WP5FYFZ8NPE8VYQVB4&hash=item4c38296aac%3Ag%3ANKQAAeSwPD5qqbBI&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde92BbCxS0eSOU88MhGB4ILI6pXPZ1TH%2Fxstp6wBn92%2BizlQFJAlBAKkMjcoTl4X3shlcEa5sHKVFYTmzT%2FXmZnAgT0c%2BanAmU06P0EejW%2Bb5AYizIJCi9jSQ3LJuTtoitZ5hbA72%2FPvK6V2gZ1WjS2nDCZGD%2B92tyueI10qh0Gy0bgWADHO4ViAzNVDthwyO8woKVN2tP2tmFjg9u%2FH2%2BQaDpjjqvqbtStCXnttoQfLS%2FCwDkQ9EofK3%2BdXIiFkLvNO9r5Czy5Gnv5RG%2FwQCa7R1bHCR%2B8rGjPdipCp8JYKgQ%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327359752876",
+      "product_id": "327359752876",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$20.99",
+        "extracted": 20.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "watchers": "7 watchers",
+      "extracted_watchers": 7,
+      "promotion": "$16.79 with coupon",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/NKQAAeSwPD5qqbBI/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 3 1080p Wi-Fi Home Security",
+      "link": "https://www.ebay.com/itm/257825519715?_skw=Ring+Video+Doorbell&epid=23030325514&itmmeta=01M6AVP5WPYFQ07239NAQE6G3G&hash=item3c07993863%3Ag%3Ae9IAAeSwsjVq5LMl&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9uBckeICrmmue8tIcixIXrETB36nAll%2BoVGV8GQwj6DIbTI1a6iSKgydXPMaROhEa%2FYqFU4ZFOckt2d2dsxWbIFnQpMhBP5f2AC6D54WPiQKblr3dWbk4oiU6sBHy9wRGG5GEkFm7rZquQ4xJCaBUY0LnDDVo9IwHyMbBBiijlm24mDRIhO7Q%2Fc9ommgenj0YE6gjrT7aJwJItoLQ3kXFUM%2FhMA0fOocVOeWIra2sWVwZHm7bESuYXKTj4YdERw50%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257825519715",
+      "product_id": "257825519715",
+      "epid": "23030325514",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 258,
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/e9IAAeSwsjVq5LMl/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Ring Video Doorbell Pro/interchangeable faces-Hardwired-Used-Good Condition",
+      "link": "https://www.ebay.com/itm/407330435629?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WPMJ5TTEC7NTAHPNRW&hash=item5ed6c9322d%3Ag%3AeFoAAeSwsEBq5s5-&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BMvogrKjs2dMnwaESagPYRHodLXwU78XvegNxPm%2BfBy4WdAaFk9QKDmhmelUH2Qpw9brSuHjuiCodGqwyD7cUK8A7ox5PG%2FsJaswWJZLHVDIfKyDaLKetMPYUjJ6hr3bjvUdcc6o%2BHguBK2qAruXwYgs4LdPbS6IUSkSOzc%2FHzayWzOY4UQaWjs18OBqZ60zK3NUFLYW4%2BlmE7uiusasEGajIlOs7pU%2B10kNhKYEX%2B%2F5ybZqbeC%2Bhv2HGjkqalKj4%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407330435629",
+      "product_id": "407330435629",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.80",
+        "extracted": 28.8
+      },
+      "shipping": {
+        "raw": "+$9.92 delivery in 2-4 days",
+        "extracted": 9.92
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/eFoAAeSwsEBq5s5-/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell Wired - Black Model: 5AT3T5",
+      "link": "https://www.ebay.com/itm/800787574676?_skw=Ring+Video+Doorbell&epid=28044271835&itmmeta=01M6AVP5WPFW9R91BPRP4Q9888&hash=itemba72a8af94%3Ag%3AVXwAAeSwPQVqzRfL&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9t5cJuJMly9EMDAwzy1ZVMMIuefcmrs2T4W9%2BlnTOMRSPDC6YKJEoA1bc%2BOIo41GoBmF3WUWIOCcub37dAecXm2J1w%2FbTN4fz3KbSnO1GDXrnVKmoBWQE6HtQTtsns7vg7KPdOgrIhwVwYfjAuaiAXKK1qdU3tTmfzz5vS2ItZsKHrhzCi8Ui%2BvphgYR0s%2Bfa%2Bz8EJ3%2FOvM8qJ3QlEWDZCYY%2BxtegcP4cIYu5zDjRJsD%2FGKyRPMtDjNCzybqH3OFGgvkY6p149Re8%2B9eyFb8oIMQkKc9uduptrhUuLbESooQ%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800787574676",
+      "product_id": "800787574676",
+      "epid": "28044271835",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 302,
+      "price": {
+        "raw": "$19.99",
+        "extracted": 19.99
+      },
+      "shipping": {
+        "raw": "+$6.20 delivery",
+        "extracted": 6.2
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/VXwAAeSwPQVqzRfL/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Stay connected to your front door with the Ring Battery Doorbell Plus. This vide",
+      "link": "https://www.ebay.com/itm/377611668455?_skw=Ring+Video+Doorbell&epid=19060571392&itmmeta=01M6AVP5WQC7GPWDTG4ZHTGAFF&hash=item57eb68cbe7%3Ag%3AFxUAAeSwI5Fq5plt&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8OZkuKno1WRquKs2SvdMZpZ22DMJ%2FIHHJdnbeod3GhJIMg3oh9SakgMuKQUaNCQMBt2SfYqODLTz89nmuzc7GPASVCnD1kqtPMeHf82CZDTFCTfow3x%2FMLkVSfM4x6l8IPYYFta9YPIVeVRQ5UzVQoHc5g5qCaA1xoGxnDF79Ws9e0cnu8l3HOJ8FluRSXEkNNHUpjjGJboB6KowNoAmg9l%2FoL48iS4zAsNOjA8c4LVjeemzoxURU3PA8ckZqQpsbWCR5PupIkpdVmzNWjCi8gdQzyPHQ4i4s7BGaYcLqxGg%3D%3D%7Ctkp%3ABFBMwN7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377611668455",
+      "product_id": "377611668455",
+      "epid": "19060571392",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 24,
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/FxUAAeSwI5Fq5plt/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell Pro Hardwired (Great Condition)",
+      "link": "https://www.ebay.com/itm/267799245472?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WQYVCGG7AQPNRT3PMJ&hash=item3e5a1432a0%3Ag%3AkWQAAeSwmwpqvFMy&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BO%2BFFotdnkEo60qOheHF0cbQhXJVwNsXbSUAMiVlc3HB%2FTs5V%2FrCic25vlE0h%2BFAYj9GwKMBs6acOOHIXOEHaRZHSvT9rc%2FIQhmIF1DKmu09UyUkJeGliZ4BI4hZXhjrN8qm5doGUwxWyyOrsAthoMez8%2BQhAe2viF4vR49HdSI1K%2B8Jh8DA307ytcLFOKOT7sV9U0b37H11ocSokOfNguNEzPlV7sp6a8n7fE20mFyo9t6aUu8iELRkLvffw5SsamWyRtBNYKRcg%2FIzHvxsPyRDpNZQEyMcHq7WqHFHVedQ%3D%3D%7Ctkp%3ABFBMwN7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267799245472",
+      "product_id": "267799245472",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$42.99",
+        "extracted": 42.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Last one",
+      "watchers": "3 watchers",
+      "extracted_watchers": 3,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/kWQAAeSwmwpqvFMy/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell 720p Two Way Talk Wi-Fi Connected- Satin Nickel Complete",
+      "link": "https://www.ebay.com/itm/147654396137?_skw=Ring+Video+Doorbell&epid=12035030691&itmmeta=01M6AVP5WQEFNFV8VXWPTV2EH5&hash=item2260e348e9%3Ag%3AMv0AAeSw2hFq4RKl&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FbDEICKbEC61lPjYyewVdf57ujLYuPDQV8RUZD4XA0U1MCEZPhiQnXuPm3TqYVDP%2B02TBnUOsPJAGFUeD91FSAxbx7qD9OBHP6s%2Fs8bsUQ2RBMcbxhlejMlZVAF%2BtRdkqCEGEKVhy23I0B7jAdsPdAdiIA%2FfCSeD0nZ9q%2FhOuee70QLDO8pG%2By3C6h5SpQPPd5DzkvakBD3pPxy7rBLP0j64OzpzXu7oQ2UhbsoPQF9ixtX2Q15Xbu8gG%2FTTxmvAhhxFU553zV2s2SS1v69GEFi6NMcv7TyCknPzIq7xa33w%3D%3D%7Ctkp%3ABFBMwN7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147654396137",
+      "product_id": "147654396137",
+      "epid": "12035030691",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 401,
+      "price": {
+        "raw": "$32.50",
+        "extracted": 32.5
+      },
+      "shipping": {
+        "raw": "+$6.77 delivery in 2-4 days",
+        "extracted": 6.77
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Mv0AAeSw2hFq4RKl/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell Pro Black Wired Night Vision Motion Detection 1080p Camera",
+      "link": "https://www.ebay.com/itm/267816491958?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WQPGCP8YF9H77TVGN0&hash=item3e5b1b5bb6%3Ag%3AQ3YAAeSw2NBq0%7EYU&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BVex0sRj%2B2xWrGYrGJyzcEjrq%2Fa8tm%2FKovjcaXL8vxhR7E3GkHRmzc39E6xNQtOqVU0lZ0E%2B8yyCH5yreFDIHm65Cn5T6xcqBQn--KHpwysq3yBuLCWOo9MTRtBDot2u%2Bv6Qf8WV6DOLI7jv2ZiEqPMth5zVTdBidj8XBREmSMCbjkGguI4a7Ru1cNi9uOtYquoN6RkVGdG9nANK3klEdgofL2%2BX9D44oC%2FJY%2Bl%2BVBP9wou8%2BN8yQQALerKwjypaGu9mZbdd5DH%2BmCf2KzSthTh3mB%2FfmJBK2MxG8Y97Bwpw%3D%3D%7Ctkp%3ABFBMwN7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267816491958",
+      "product_id": "267816491958",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$17.49",
+        "extracted": 17.49
+      },
+      "shipping": {
+        "raw": "+$6.62 delivery in 2-4 days",
+        "extracted": 6.62
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Q3YAAeSw2NBq0~YU/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Wired Doorbell Camera Model 5AT3T5 Camera ONLY",
+      "link": "https://www.ebay.com/itm/267828544662?_skw=Ring+Video+Doorbell&epid=4037989021&itmmeta=01M6AVP5WQCN1E2P35P6HW90X2&hash=item3e5bd34496%3Ag%3AQYAAAeSwv8pq5OPM&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9LnTRelSgzQ07V1MwRuY73NcZsIDx6QtgLdHlsCGpy8lnvxwvCLH1FeTKXzIsfRIgDbm6avrFbZAcpTMcyMidz2fWY%2FuB27%2BLnmIC3YAUgUGmXAJq7uyuLEdBmLlrq6KI%2B8uvnMXCQLtTy%2FutDbAdtSNCR1tD5ScqezEwjtwiudVOk6SeUO04xn8i0tnpxrYa7wucTHldhYqzNm2nvxTBSWhNyodz64xDyw53HX8NOt%2F4qWCi%2BbbhAA%2Bp%2Fo5OX8nY%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267828544662",
+      "product_id": "267828544662",
+      "epid": "4037989021",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$21.99",
+        "extracted": 21.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/QYAAAeSwv8pq5OPM/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Ring Video Doorbell Wired Hardwired Wi-Fi Camera Black Model 5AT3T5",
+      "link": "https://www.ebay.com/itm/117497074003?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WQ7R688N0B07MRRY25&hash=item1b5b5f1153%3Ag%3AdpwAAeSweZpq5mN8&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8Tg69zDy%2BxnJOMtxI95cSvBWEUIEQV5NiCnygIQZ2LU5EqqXHFbk095gtI3rZgtEzBB3SkyyHfyyfNHUwIpULBiS9kIOk2fDO5A7yPcinS64TWZdDFvIwwAYykbSdaO18Xq9Z%2BFzISXrFj1O4CNB4QlOgmEwHQKYnvD%2FyPogTMy22KASmVUCkd86dSTV%2BoOCCNqZXKoOZf%2BZpLhg13RHGeZv5%2FWDX1%2B%2BvJn1QNpuWhc1ac7675m001A9ezIuvJ9RQ%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117497074003",
+      "product_id": "117497074003",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$9.95",
+        "extracted": 9.95
+      },
+      "shipping": {
+        "raw": "+$6.50 delivery",
+        "extracted": 6.5
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/dpwAAeSweZpq5mN8/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 1st Generation Silver WiFi Camera w Mount",
+      "link": "https://www.ebay.com/itm/940014288442?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WQVGNF4M6SH9NE0TKN&hash=itemdadd37be3a%3Ag%3ALaMAAeSwbm1qz7xv&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BOa9DZsnGj%2Flg1VM%2FXAdjy6EgVQL9h%2F%2BGbe%2Fi3VKr3ijKOWTbLhNdH6DMgfpP6QJnIHP7LyXrcWBDQnG46JMybOw6OLjmD8hmq%2FA5e%2BoA3QNdDY4%2FxIWVtJ9XaoAfgsQgCQkmiaQA6U0%2BGRQwNm%2BvuTA1R4exZnZVe6OEIaDZLs%2B2cg9I%2F8156PrWKKWbTVBGhTjavMwfVzshVNk9EAAffO7Ik1E6hanTDWvsWZS78be%2FL8%2F3eJSAurAIrjU3G0pYUgP4ihhX3lZ9m%2FyyEWjqCEbPjPmx0Z0xpzrcZOEjz%2BQ%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940014288442",
+      "product_id": "940014288442",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$14.99",
+        "extracted": 14.99
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/LaMAAeSwbm1qz7xv/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell \u2013 2020 Release \u2013 1080p HD Venetian Bronze Tested",
+      "link": "https://www.ebay.com/itm/880053454836?_skw=Ring+Video+Doorbell&epid=12043919757&itmmeta=01M6AVP5WQG756Q659DRF0HS1S&hash=itemcce74607f4%3Ag%3ACjkAAeSwQe1qkeVc&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8mRuWZ63L8Bm2ghPsf7CrgF%2BBLM4VRvYFj8Hl7MTIrtvm335BBwpTGqq%2FLisdTSrnbvMUHQveUsc3iJiIVizePB40BIsRgLO3q1GLnTpV2I9VhAoSnTkeK%2BZoVq16w2GH2sBEe3zgGdyGJTUdpAlz4rWxjNBaJ699NsPYHIFTpmJC8Xv8am%2F5u7cVQ727PLin1J0DF%2FUAtqFy6zhHFj3YwJx5HGihASpOdhL705W68cS526Q5pb1l2xCRfcYfW6LwXmwu8JOsijO8d4wcgo3semQtqQ7n1lZAIIQtD3qeO4w%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880053454836",
+      "product_id": "880053454836",
+      "epid": "12043919757",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 50,
+      "price": {
+        "raw": "$37.00",
+        "extracted": 37.0
+      },
+      "old_price": {
+        "raw": "$38.95",
+        "extracted": 38.95,
+        "discount": "$37.00"
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/CjkAAeSwQe1qkeVc/s-l500.webp"
+    },
+    {
+      "title": "Ring 1080P HD Wi-Fi Video Doorbell - Silver (2nd Generation) (Doorbell only)",
+      "link": "https://www.ebay.com/itm/198753025779?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WQKRY58572MZ637CFV&hash=item2e469a7ef3%3Ag%3AnW8AAeSwfYdq4myt&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FDXq5ksBNWX%2FCSXQprHn2Vuftc7Tb%2FkSJlA0FBFmamP%2FR2Jf04nKPyaXrrbmdFjSWk9xgUOl791w1i3bqjVojqP2nMGZ34HEuZL1ffNB6Xv1QycvRO3wRESagAZARYmaTGlkIGaeBtwRY1WnKpN1s1Zr8shkJBg0GFGNEB5%2FuOV1DrZ2%2BBndCojJzutsindSpmAsKjVzINgtqDuHfkbaRoAapGqt1sj%2BdQGefGalr%2BFfq%2BvoCR%2BiMTLvS2wbUFbDgc8iVI5llo8DPlX7jcVsgM0aKbGOYRuEb9W4bv2%2FG51A%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198753025779",
+      "product_id": "198753025779",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$6.62 delivery",
+        "extracted": 6.62
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "bids": {
+        "time_left": "3d 16h left"
+      },
+      "thumbnail": "https://i.ebayimg.com/images/g/nW8AAeSwfYdq4myt/s-l500.webp"
+    },
+    {
+      "title": "\u200bRing Video Doorbell 2nd Gen 1080p (Satin Nickel) - Device Only - No Mount",
+      "link": "https://www.ebay.com/itm/287568582258?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WQESHZP0S2R50AAMD1&hash=item42f46c5672%3Ag%3AfaMAAeSwGFpqnPMf&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BGyLrfarFYFFIeAfMfab8DEbBB3uoH%2FAWH8CdWaQhFfh3SpgJJztSNEJcCeMvxw4k8sJxi2a4qb7eEkQQsNFKvzBMbMROqNu2sboVFHSJsAJPq8GK3YVHCAdVPca9Rth6MVE1PHWbcQnyXnJuC5NRlsHZCHCw0N1igYtCuhzrHI84pBvs%2FXwswAooIjcTY%2BTRrotoqr7G5IXH2o0iYRRjT7LsFbEFeUodICw5Xfux5bkmKPL7HdWSAo%2Fsy%2FVVkT9QHM2EOq0Tm6BQjwvbgwolWJ4C4T2AnNFwBy9kk36zzDQ%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287568582258",
+      "product_id": "287568582258",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$27.99",
+        "extracted": 27.99
+      },
+      "shipping": {
+        "raw": "+$6.62 delivery",
+        "extracted": 6.62
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/faMAAeSwGFpqnPMf/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 3 5AT3S9 + Chime (2nd Gen.) 5AT1S2 + Battery",
+      "link": "https://www.ebay.com/itm/128145392124?_skw=Ring+Video+Doorbell&epid=16049128163&itmmeta=01M6AVP5WQ7B75RC3WJ08TP2QN&hash=item1dd60f81fc%3Ag%3A7aYAAeSwk1Jq1rFJ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BuIrjnoma8rWcCJniXvVajpHGlk3ORBRubNjYjvr9zxtRb6YWYnvg9%2Fc3CLCcRjuqnOcUgt1ueTSBBGqaj2%2BJPww%2BSPBfeoscIuSIXWdMQVQWZAN5BU18BOaW2Rxw3pVbCD9u2cuIrgBdsb1n5AS20Svd0gI%2F8gdZWCxG8BjzXzi0S%2FOmG0%2BDcSpjLrhhXV%2BA3Rfx%2FjXZy88OfuEOXdO64H0dorjzJnwtZP2wUxxhQdd2sts9QCLa31Bd5nbdCMLo%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128145392124",
+      "product_id": "128145392124",
+      "epid": "16049128163",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 7,
+      "price": {
+        "raw": "$24.00",
+        "extracted": 24.0
+      },
+      "shipping": {
+        "raw": "+$8.49 delivery",
+        "extracted": 8.49
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/7aYAAeSwk1Jq1rFJ/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell Pro Black Wired Night Vision Motion Detection 1080p Camera",
+      "link": "https://www.ebay.com/itm/267828544661?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WQ1KWBYH009NGKE0EV&hash=item3e5bd34495%3Ag%3Ai%7EcAAeSwezJq5Q8e&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FHPN%2FlLAQxJM9KIrCOUDQdI3q5C%2BsM9dSOHz8aV5CwqZ6%2BqZqcyo7ELAtR34h4W56pAzZ%2B9GRYuYhHSA8DktnFeKTCl%2FkaMeMrr64sMbekoIm3m4pkyjORJWec07QitOM8yugLzuDadKtjwP5jVWYOrLvMG5onZ%2FfC9tTSAFYgsz%2Bfro7%2F0HJygQU1pBuxWF7%2FFc4F6sZy7oqK%2F5CoKPZow8eqCQPWjBrUxSooZDokrh%2FNAbHinkgICRFJQDZyOgG930yXkOCD28kqEOgUIKY0OiP2QVxybhcraN8xMejJfg%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267828544661",
+      "product_id": "267828544661",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.99",
+        "extracted": 28.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/i~cAAeSwezJq5Q8e/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 2nd Gen 1080p (Venetian Bronze) - Device Only - No Mount",
+      "link": "https://www.ebay.com/itm/287568593708?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WQDXRCENH01X7RS6QK&hash=item42f46c832c%3Ag%3AH5MAAeSwiOxqnPVQ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde84cBhE7%2Bi%2FtjHjUm%2FivgH17xx6nEIBZpTO9yavpQdCD1jyMsYHg6KG1oRXYoeqCcAAGVOl5xN0dwZyUFd5rT1TdQaGF9VvG5r4uq7d3HtsBTcsKXeE0TFqO%2FZPDac6geGaz9o03%2Bz1qExDu2dYXT0X1Ahl5Z7Ip98DnZGPEBSobAlLpxjKvIh%2Bl9anjNl7CpXqqXXZlMSFRkAsowTYEnhVSQ4eNy6GF5AG%2F7kZi%2FgTaeFCiB2vCABicVusUtr%2BMak%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287568593708",
+      "product_id": "287568593708",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$27.99",
+        "extracted": 27.99
+      },
+      "shipping": {
+        "raw": "+$6.62 delivery",
+        "extracted": 6.62
+      },
+      "location": "Located in United States",
+      "watchers": "21 watchers",
+      "extracted_watchers": 21,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/H5MAAeSwiOxqnPVQ/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell + Chime Receiver, Wi\u2011Fi Wireless, Motion, Alexa Compatible",
+      "link": "https://www.ebay.com/itm/298671511879?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WRX2KKYEQZPQZC1HX2&hash=item458a359947%3Ag%3AD8MAAeSwbbpqpvzE&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BT%2Fw1C0OWf%2FAqJXbGd6STJPr%2FebekcSf%2F%2B0L2SmZcysQ%2B9U%2FrVND9ZYISHLtj0IQyfWEct4Rcpb5hWbA4WTx43ggtgkecxTuxvz6wuNVV6BeNOAt%2B3Tbip6aEpVzja%2BgJ45MgllwwLn0Y7t5uKZ3PvqiUZWTzHh0ixHyuc8PZKH88bMZByajuYrJBWUAgCVn47x2kZcb7S3A5w%2Fs%2FZVce2WS2LGfEVRoLAEzsdPTX8b5aSYv71gDNkD3jzw1PN63z9G7lMdO3yBoOhd4ct%2BFevdevFCTo5HPneW9pHFWVRVg%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=298671511879",
+      "product_id": "298671511879",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.90",
+        "extracted": 19.9
+      },
+      "shipping": {
+        "raw": "+$8.27 delivery",
+        "extracted": 8.27
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/D8MAAeSwbbpqpvzE/s-l500.webp"
+    },
+    {
+      "title": "Ring Battery Doorbell Plus - Working Satin Nickel",
+      "link": "https://www.ebay.com/itm/206653142230?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WR5DGB1NWYY2KZ9HDW&hash=item301d7cb4d6%3Ag%3AsyYAAeSwtkVq3jRV&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B6YOXd%2BflR39yjNvYQBri7U5v2AIV96TMbYFw56jBFAwRNEO2sDG1IOYDb%2BjwvW0KzttAx%2Bgec2wzo9SnvHoGXvWUxF4FoBap4N7YinCy7Hu6USG56IyeQBG27Reqo9lde9BF5FLhvBsUh%2Fej%2BEUJG6TVubNuPDMCjAP3lhI64Ojo73Wh7243GfL6zZRnOl9xZvTitbo6WBuXPnm4EnvGtwB2MWA%2Bwk8aXYn6bSnQ99TALI%2BoXzUY%2Bv%2BHGSWH15f1j89uGOASJnyloseZDEMOLmD1c%2B2F1Dzf6VieKMTxTpQ%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=206653142230",
+      "product_id": "206653142230",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.99",
+        "extracted": 19.99
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/syYAAeSwtkVq3jRV/s-l500.webp"
+    },
+    {
+      "title": "Ring Wi-Fi Video Doorbell Wired Black Used Condition",
+      "link": "https://www.ebay.com/itm/267804707493?_skw=Ring+Video+Doorbell&epid=28044271835&itmmeta=01M6AVP5WRGNAB0Q15FCSCPS11&hash=item3e5a678aa5%3Ag%3A3BQAAeSwHmBqxBGd&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9ifPYM0%2F20dMYZ4DXysId1UgiToNWwMVLXjt5XFTIhvpWrWC8FDQ9uaa2h7Nai2LtlwatSskzr9EttOFk5M2xBuvVSuWDcn%2Fe0QVMSUMduaYZVQdcbSST%2FijcNSUdSqb6I%2BQuo5VO87pwwStiMfqTPV6vzFM7ekEJ4Sqop2mSBGVVHw1XTE6%2Fl1xdE4NI4U3ma0PjsPLNFhFGjt7EkMhu3PZ20%2Ba0o%2FjAsDB9Hg0HQ47G6DwY3tlgWgP9Uk5mah2E5i%2F3Gw312cBXXUWuF7HlbOtEHy7T6elStImalbsyjYQ%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267804707493",
+      "product_id": "267804707493",
+      "epid": "28044271835",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 302,
+      "price": {
+        "raw": "$24.99",
+        "extracted": 24.99
+      },
+      "old_price": {
+        "raw": "$34.99",
+        "extracted": 34.99,
+        "discount": "$24.99"
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/3BQAAeSwHmBqxBGd/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell 2nd Gen Wi-Fi Alexa Hardwired/USB Mic Chime Mount Pre-owned",
+      "link": "https://www.ebay.com/itm/920055419585?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WRK8KGXGMC4HPV21QE&hash=itemd6379392c1%3Ag%3ASfAAAeSw0XBqXY12&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F4voOR858F3ja8GmEnZBpqX%2BAz%2FPEuU25D44AukmgL7zwq9Iomnj2PARR5ksFffcfN1GIP46TEghoyUwqM7Wf0eHa%2FxeVNpoMvSYmPu73btnzTF5EYqSW%2BLrffLw57VF14uIZj8rMgPX43KK0jVLa05sXUrVD1MQ40LxkKjfelxpozBY6fZTzUCSUmdICCNrPPA%2FSBACiPecXRIXPrbTvXbobc52sUK6EPh2Y5Hxie6FiCFlf3m1NtDOp5kPrjaBaMTg352XDZqcCAIkfeepTsU1Gxg3K5YH5UiCWSIx%2BJcg%3D%3D%7Ctkp%3ABFBMwN7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920055419585",
+      "product_id": "920055419585",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$23.52",
+        "extracted": 23.52
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery in 2-4 days",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/SfAAAeSw0XBqXY12/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell Gen 2 Satin Nickel Smart Wireless Camera 1080p HD & Mount",
+      "link": "https://www.ebay.com/itm/257349805533?_skw=Ring+Video+Doorbell&epid=16044625901&itmmeta=01M6AVP5WRG1KNSC5AQQ00VBZJ&hash=item3beb3e65dd%3Ag%3AsPgAAeSwhf5ph6Ej&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FCocpB6nqAEFFA60Y6MeFP6Gm4RD2Tns5scVR8U4IJJ8ixLleRU%2BxHrRXYmguahXHOBNVuF7wWso5TR29r1k6EayA3J%2BF8uDzwM%2FsFknyuz%2F524NEAU%2FMq068ywbjN2zeN8zt0rA%2F38xlH4Hwy3GyLPlxGfZdy0ux7cM8%2FUA%2Barejp5kDc4oNr69qEjBItkyfeWkAExS4BoPT1tANqzgMCHdZbLOn6qL8cnhwQ8MHpVDHbQZFYvmtQILttbhE9gQSu11hjESwfI3ycrPEo6X2Uzv%2FzMN5MQiOK5%2Fq7mOH%2FkQ%3D%3D%7Ctkp%3ABFBMwN7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257349805533",
+      "product_id": "257349805533",
+      "epid": "16044625901",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 35,
+      "price": {
+        "raw": "$50.00",
+        "extracted": 50.0
+      },
+      "shipping": {
+        "raw": "+$10.41 delivery",
+        "extracted": 10.41
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/sPgAAeSwhf5ph6Ej/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell Pro Wired + Chime & Spotlight Cam Plus Bundle Solar Tested",
+      "link": "https://www.ebay.com/itm/860017255517?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WRFTXWPS080YDK3RQD&hash=itemc83d05e45d%3Ag%3AZR4AAeSwyAFqsupg&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BaRiIxN0mR6U6vznqqXlLAiU7UnY9FRvStu3kqFTD7CuL2Be4o73D4%2B3zq48r%2Bls9fJnLtMDO2zhaAE3cepeAWRiFwfeLXsNy9ZuDTv0IQR8wt%2Bm2fHaQH4IS3L4R1jKZkZkm1fU%2B%2B%2FxXVBOMaPFbLMufmEoxVEG3IUYw8UYP0%2Fa%2B9HMmVqr5dv6Y3KLFEPJJkqFvSDBKKBoni8oUagZSD%2FSpRam6DNri48CX1SXIVGJfwPfGkBRrCT9Xg5yyfOUv5sHCPsm0AkjV7qqpwvPCoSOXsLC9yi2%2FYTWsdBBBoSw%3D%3D%7Ctkp%3ABFBMwN7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860017255517",
+      "product_id": "860017255517",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$109.00",
+        "extracted": 109.0
+      },
+      "shipping": {
+        "raw": "+$7.44 delivery",
+        "extracted": 7.44
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZR4AAeSwyAFqsupg/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nice Used Ring Video Doorbell 3 + New Angle Mounting Bracket 1080p WiFi 5AT3S9",
+      "link": "https://www.ebay.com/itm/257817122211?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WRHSTD8V2KCAA2X6TJ&hash=item3c071915a3%3Ag%3AnbsAAeSwIhZq3iBf&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B9kGk5aNcHgWHSdVPHcbS8B0RehIQcbktk8eC1Ig0tBRUvzZr%2Bk6lGOSk%2F3jRfHrtrDHZRKl8cTVCZLtJzjfFdNIFH0jVyTvgW0vnNdhMuAai%2FnzeHDRUAzxhW7bwVyZRlv4e2ooKPDdcJUTF22it98GW9jvu%2FVbF2qOyy3jgKbbXCtPxzEbqajshur65lPqKB9mClyreXj6ZPPVYkfS2MeD8VdD9FAMCX8i1meEmDNvjK1Ku%2Fq2UIrYM8kbCrAoTGXpDxEmCW9GqMn8Crkil%2B0MrHoSCWxl9wZ4qi3xIgmw%3D%3D%7Ctkp%3ABFBMwN7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257817122211",
+      "product_id": "257817122211",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.50",
+        "extracted": 39.5
+      },
+      "shipping": {
+        "raw": "+$8.27 delivery",
+        "extracted": 8.27
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/nbsAAeSwIhZq3iBf/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Ring Video Doorbell Wi-Fi Night Vision Motion Battery Hardwired Satin Nickel",
+      "link": "https://www.ebay.com/itm/128167191247?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WRR4XZA0H7HXQJR7VG&hash=item1dd75c22cf%3Ag%3AdDgAAeSwfiFq5pyi&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FZ%2FxwWqF8QYP3yVn7vGzqaKJaZbVtryJtFUutEyDvo5lI3Mw6ey5u%2BDTPpp9ibZT1SvXrkZfcOoPIlHcQPvwXG%2FyT4EpUhKE%2B55NzMC2v52GZ%2FWEguFf4Mp%2FuFRgsh96HPMD65EZv0nnFxIlRrmuHCCAmry0kkHwoNi9aXkN9kg4xeRPhGNvdthXlL1nEF7%2BIc7dRV%2BMZNa%2FRupZVGcrJl1naiL8NS9W9W9Qeluy5s%2BlVolhyBBLCQm7xnjfjk4uU%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128167191247",
+      "product_id": "128167191247",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$9.92 delivery",
+        "extracted": 9.92
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/dDgAAeSwfiFq5pyi/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell Pro Hardwired Wi-Fi Alexa Night Vision Silver w/ Faceplate",
+      "link": "https://www.ebay.com/itm/307229293306?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WR15WMMFRV3A5QVVZ3&hash=item47884afafa%3Ag%3AMyoAAeSw8KxqzkDm&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9MD3qF4%2BOVQu4xxodTMObbjaqxPsXsPJV0kWIhz4jN6RW1kyKUiMU5ZzHfqBWVLKPryEgjqJSAWvHotwbjfRxx3FcmmByyz8dhdcLDUVpFd%2BVTxhqWjmCsa9t%2FaTN6mGbEOPO190G%2FNP6kIX%2BbXasBns4vw6o5FsOTEa45nLHILhm3LbSrWwINqUdjP%2FfqOsYnoVdBbfM%2B7%2BnV32Tl5wweONP0l%2Fm9oVhbJy1AyfBNfM1v7WY6lsJ2o%2FpVcjFpjXjTp%2B1AP%2BSK%2FDjaY5wRdzMWukOf2oig0SVMXhzXqGYWZQ%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307229293306",
+      "product_id": "307229293306",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$5.00",
+        "extracted": 5.0
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/MyoAAeSw8KxqzkDm/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell, 1st Generation, model/SKU 88RG000FC100-2, UnRegistered",
+      "link": "https://www.ebay.com/itm/287580093102?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WRF28ADYRYSBQAGA0Z&hash=item42f51bfaae%3Ag%3AKzwAAeSwpr5qo%7Ert&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FTJmlOF1mss1yYQLM4Ouv48E7QJWvPq8qFDE7FANFe%2BnRnO%2F0I0LexcwMf9Bz8weYkhh%2BErIcWgRnFpb8Xxyq%2BfapDzIv7UDhEbBlqrBdgIqTHX2xTzGyGZGadCTbWeNUxDOmES9XgWk7YeznR4dGqD7xh964V5FWHLH%2BI1l%2F6R1IV%2FCm9i2%2F77R70j8IXeN1qc03G%2Fgj3yG9OSjmOk%2F87HOnowAjPoOic7RjkSlCUjCTX7oWMlgN3zlVWgUI4klcBEOksaoeAKvvjjxp9DE7PnEG7yU0zJKlO8rK5OQDy5w%3D%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287580093102",
+      "product_id": "287580093102",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$15.00",
+        "extracted": 15.0
+      },
+      "shipping": {
+        "raw": "+$11.70 delivery",
+        "extracted": 11.7
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/KzwAAeSwpr5qo~rt/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 2 (8VR1S7-0EN0) Bronze / Camera with Battery Only",
+      "link": "https://www.ebay.com/itm/257688954347?_skw=Ring+Video+Doorbell&epid=20027055238&itmmeta=01M6AVP5WRSAZ9WF0TER14XD1T&hash=item3bff7565eb%3Ag%3ALVoAAeSwXeFqhLnt&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde86auBiKiMK%2BEmmtDoKdIrV43OEZFDrpWlQp3oezieP7Tk0Qe6VZ2ZnwG%2BhQTXTbRwllnar0dw1yNyuCAyjj82lKB5Ryud%2Bp%2FBj10%2FBZWcfuyvZUwgAeGCeXjQzMjdwoCCdvKamZxp7E0KnK3Noz%2FtZ5w7EVnYNpHILkjlo1oOoOieZWBqmSvp6stpCjOIMRUiiTUyTTijShALlt0ensf7Wb8heoy%2FvnwqypbHAb3lNMn8qLmbjHBl%2BjzEbzDmT84A%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257688954347",
+      "product_id": "257688954347",
+      "epid": "20027055238",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 1383,
+      "price": {
+        "raw": "$49.99",
+        "extracted": 49.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Last one",
+      "watchers": "6 watchers",
+      "extracted_watchers": 6,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/LVoAAeSwXeFqhLnt/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 3 Home Security Camera W/ Battery & Accessories",
+      "link": "https://www.ebay.com/itm/137489829499?_skw=Ring+Video+Doorbell&epid=23030325514&itmmeta=01M6AVP5WR19506H4RG45D8367&hash=item2003084e7b%3Ag%3AKWIAAeSwCDpqTEJd&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8wWDlU5gqYX1zbntyPyWfp%2FLROuYbW0waUOwkCdpMHqqZLZKoNBJIEjxT6DqinqZV6RI32p68eXBeLXdxITlOtevYAmAUyPP7Bg5qmCm%2FiLORMT7r0tzuFojxtYksQoYN6Hcl5cfofyV4%2Fes4eAyALx%2FGDn4kUneGufvR6jWnp5QJD%2BvmkPkB3pdF5YYLXrj3LXKgkpZ8k5N9Sw17lzcl2SxEA8vidzX1xgsC3c33Rv312J1GMfalRI9oI5Wq%2BDus%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137489829499",
+      "product_id": "137489829499",
+      "epid": "23030325514",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 258,
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$11.10 delivery",
+        "extracted": 11.1
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/KWIAAeSwCDpqTEJd/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 1st Gen 5AT3T5 Smart Wi-Fi Video Doorbell Camera \u2013 Black",
+      "link": "https://www.ebay.com/itm/298696442784?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WRS4KKBGTF7HW8N3YW&hash=item458bb203a0%3Ag%3Aqy0AAeSw4lxqsdL3&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8BJ%2BS7nSFnOyGrabwD%2FCBfa1YKFBgiscsaH7zGBAHUJDzevhKgRtbHrkfOKbKVAJBFzb7jNxGeRAawdX2wBU8M1%2FOcJKbe3AxFFc0tzvr%2BY7AN8VF3tLgb8%2BUuG04ZUEavHzjr%2FdMh%2B5L0zqbpuNfAsyq5RNBOzM5zL%2BnFFyxQd2HutvzFVh3fLa7hgRexNYQkcEISbAQ%2B%2FnV%2BvWuB%2BRWLDxGTmneRDa3SgE6sGkZoWQSwemJ3FjokInDKq%2Fgx6wQ%3D%7Ctkp%3ABk9SR8De2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=298696442784",
+      "product_id": "298696442784",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$9.00",
+        "extracted": 9.0
+      },
+      "shipping": {
+        "raw": "+$10.20 delivery in 2-4 days",
+        "extracted": 10.2
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/qy0AAeSw4lxqsdL3/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell 1st Gen 5AT3T5 Smart Wi-Fi Doorbell Camera Only New Other",
+      "link": "https://www.ebay.com/itm/117420196711?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WRGG3D5SGJT3NX4G7M&hash=item1b56ca0367%3Ag%3AJTcAAeSwMYBqrDLc&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BtxFOvnOadrxgItgjUlcOMPxkNVyoL%2BH0tx8eohv91lTzn7qtCGzW6PELGa2q8tJqWE3M%2FKI0XJ83CC%2BB3kpG8oBFHG%2FirmYZVGl0yYi7vfa6Mu%2BT0PdzI%2BqERhdY%2BDElhHmJfFYZvHqwsJwHcqFR61t%2FUPOBkRv8CTAj7gq2x6N4xeL6gpKv82TMTtYZ1edV5p9O5%2FL9XSueu4NyYobRJKpOvhGGhBPoe8wtDpQ7xyb1L2WXZjvJd%2Fs7%2Fs1h9nZfAlZhTIyvWWSAKDOwQFHCp9nE%2FkBPVwDfobFIAkAYcmw%3D%3D%7Ctkp%3ABFBMwt7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117420196711",
+      "product_id": "117420196711",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.87",
+        "extracted": 24.87
+      },
+      "shipping": {
+        "raw": "+$6.62 delivery in 2-4 days",
+        "extracted": 6.62
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/JTcAAeSwMYBqrDLc/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell Wired - HD Video, Two-Way Talk, Motion Detection - Pre-Owned",
+      "link": "https://www.ebay.com/itm/820012396172?_skw=Ring+Video+Doorbell&epid=28044271835&itmmeta=01M6AVP5WS2QNF5HYCA3YVV4EY&hash=itembeec8c2e8c%3Ag%3AiMEAAeSw0Kxqgn48&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde85q1MRYHqUebhVvT9PCUX9Wd0LIuh4OhVKy8huJZOhEo%2B63WMqEYUwzX8MN64Fcn4tMePBsxTm4wtxab6B5Y9ZtYTn3ZIzZ3sN2uIX1VMTvi1Rh%2B%2FKcJXp74Tj1JJdA3qTNzW5bnFd2jBHRnG%2BCAcQsbKhsXOq71r%2FS4oY76cX3XxqvV6yTqK5wAPQ5lR38BF337Ia7d4p%2F9zrMk7hmXDzORl5WRRwZawAhvu3zihaYRh6tJryq3Is0k6cvhF9x7pOXFC44v74vPEb2jf0V5z0XWCml%2BnqZreFWjtRBCoK%2BQ%3D%3D%7Ctkp%3ABFBMwt7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820012396172",
+      "product_id": "820012396172",
+      "epid": "28044271835",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 302,
+      "price": {
+        "raw": "$19.99",
+        "extracted": 19.99
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/iMEAAeSw0Kxqgn48/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 2 (8VR1S7-0EN0) With Box And Accessories- Pre-owned &Reset",
+      "link": "https://www.ebay.com/itm/188957223390?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WSB9RYSXS47H6J97VY&hash=item2bfeba69de%3Ag%3AIwUAAeSwf9tqsFSv&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Y4XQkhqWduOEpMS3vU5MgikloGIwTtkfzMD%2BM05lxIu8X7Vnp%2FYbUtxExRE2fkutSYZ1VWh4Dm1tCnkj54WXotgfCKwsrGcS75pHv4sNhzgmAvKsNPeloXt3s%2Fix%2BrD1GUVGxA%2BaidGFEv6CZCtIilR%2F3Smxw2qqmtk0Dm8EoKHmXMRn1sPgAHymieuezjYbJJMfWPY3pFD8aEIjEf3ZiioF%2FvyfiI48gTP%2FbWyAsZIZllEdCQcpEFLAIkG2UbY5u8YmQI1BAbErJCntwqNMQgTcnz8HyseEksx%2BIy%2FOwIw%3D%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188957223390",
+      "product_id": "188957223390",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$32.50",
+        "extracted": 32.5
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/IwUAAeSwf9tqsFSv/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 3 Wi-Fi 1080p HD ( DOOR BELL ONLY NO COVER PLATE NO BATTERY)",
+      "link": "https://www.ebay.com/itm/267007858824?_skw=Ring+Video+Doorbell&epid=23030325514&itmmeta=01M6AVP5WSF0VG6D7P0QKDMP9C&hash=item3e2ae89888%3Ag%3A5qIAAOSwY3tm95UV&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F0m4GJ1YYD1MgewYqw%2FevtNOJf8FOnJiw7InJf1FXx84VgH7Oy%2FCsazYYOfXBzrWm%2Fx%2B%2B7tPF1vmQbnShDt4t1R2BmI8rGGbY25HTtA5n%2FtXfsxjPyLNtgIO03RsUqFeVnWOxVaqSCsmStWpoqnkwxHwdZ9MCBBJeyTkA%2BJHIEHX5bo8SUnWKQwVYfja9WR6tAqHWQ6psV5JsE3iVdJBU8J7691WbwQLMfXU3zfCaCsdHx9Wt7OTzKSmuZyCAke1Z6MHxsX08urTBvTBNkZpnT3Uqoyd8z2aW5gn%2BP%2FtfgwQ%3D%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267007858824",
+      "product_id": "267007858824",
+      "epid": "23030325514",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 258,
+      "price": {
+        "raw": "$19.99",
+        "extracted": 19.99
+      },
+      "shipping": {
+        "raw": "+$3.99 delivery",
+        "extracted": 3.99
+      },
+      "location": "Located in United States",
+      "quantity_sold": "82 sold",
+      "extracted_quantity_sold": 82,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/5qIAAOSwY3tm95UV/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell Pro Black Wired Night Vision Motion Detection 1080p Camera",
+      "link": "https://www.ebay.com/itm/366741259092?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WS7T9CD21D601AAYB5&hash=item55637b8354%3Ag%3AuwsAAeSwFR1q0-pm&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9Wb2GCnqSsnsU4J0hm1Bl4H4j2ry%2BZccJYvBnMahDVvRftfkd24gWXVGduodWC3JXS2vV7T945vD6cRg5TQ3EvEPHXdNFYpSlPsuL%2FmtYymp4eTSMf%2BaTo4Qfz274vOVaohEmOhQPenNC4a8rmNZnqFoDbStc0BLRjeF6jdSRopIbbma%2Bi9t38j6QA66HX7dL4LDvrjKUGEl71VAYeww7HOokAgSrsD1Zot8s0xz5%2BpO00u5y4HQ7pSWb9WU6MqJo%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366741259092",
+      "product_id": "366741259092",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.95",
+        "extracted": 19.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/uwsAAeSwFR1q0-pm/s-l500.webp"
+    },
+    {
+      "title": "Ring 1st gen 8VR1S5-SEN0 Wireless Video Doorbell - Satin Nickel",
+      "link": "https://www.ebay.com/itm/237128242007?_skw=Ring+Video+Doorbell&epid=12035030691&itmmeta=01M6AVP5WS0CDHHQEP7052NVNS&hash=item3735f1d357%3Ag%3A0XEAAeSwKcxq0ves&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FrjFOenBG48zyJ2bvKq72wZQOohFlU7LdMnAR9rHZASTojGs83KBKz%2F4iSWAPwQAmDdNSJH2aERJcmv7t7bdTlPYl93E5%2FhfLzUbqrDlHAAA9V9Z%2Bc0vYY%2FS5RMNc5hb1k5CK0oe%2FVHlQpRyTUgu9H%2FZSbyIJhE3j045%2FPmDA5p4E%2BWH4bmNlZzoKDoDheDNoG7qYOuTco%2F4WjuQoyn0uitJGKVTyS3etKkG7bKx3wzUx03r%2Ba%2FqdtREOr%2BqC5aAo%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237128242007",
+      "product_id": "237128242007",
+      "epid": "12035030691",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 401,
+      "price": {
+        "raw": "$27.49",
+        "extracted": 27.49
+      },
+      "shipping": {
+        "raw": "+$9.92 delivery",
+        "extracted": 9.92
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/0XEAAeSwKcxq0ves/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 4 5D22E9 1080p HD - NO ACCESSORIES",
+      "link": "https://www.ebay.com/itm/267827680034?_skw=Ring+Video+Doorbell&epid=5061744260&itmmeta=01M6AVP5WS2G8EAPW77ZBVWTK5&hash=item3e5bc61322%3Ag%3AkyEAAeSwVRBq486d&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BEIKUYtCRLuXd9xn7OG7f%2BPVhnoCLe6IohW5w13ds8WMjJymGtQNXj2srC7Xb3OCxQ41MVBpNBX00O2dKCEQiWncE1rlE6TTk%2Bmi46JuGUTNzLlRTrFcyUjbyXN1Y%2BGiNFIj2%2FVtxAOJs4jHDJOZ6QCBaqO47WhI3wivjZUInb7AzCjcIIp9yPuULHYZ%2FRBJPXUqYfTTAz2ZqBJdV34NwxF57YNWnUnaoWnitxHgNqXTYU6CKJt47lw%2BAbHTUQEh5b1HciX6rLi0cvagNqRFj17UlP%2B4oNhQhXTae%2FY9aLpQ%3D%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267827680034",
+      "product_id": "267827680034",
+      "epid": "5061744260",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/kyEAAeSwVRBq486d/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 1st Gen 720p HD WiFi Smart Doorbell Camera Satin Nickel",
+      "link": "https://www.ebay.com/itm/366708524517?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WSXC4ZJ3SSM8177J71&hash=item55618805e5%3Ag%3AAr4AAeSwJUJqwJHR&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2B8E7b3K%2F%2BzkGQJUjpryU0Gg24VGDDgNHH8jJ7LKV3CbTwlR8QZ8%2BKvrWP7kNtwPWM6%2FwEGwCUDGKjnFetog9HDqNtnOdVNUQ1WukhAyBCMIjuhFlz85CWWd67mqRI6ZgG7iM%2FfBCVnMdn7mE2remAArrraCPvdPgjD2sBdIG8YtqF4Usf1Kaaq0vTjvGSfPRhiSEkOJlZTeLtoa0ly69904wVWiG%2BZbUHhWw%2B1m06UlVpe46esKJiJKVth48Bjiaw%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366708524517",
+      "product_id": "366708524517",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.95",
+        "extracted": 24.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Ar4AAeSwJUJqwJHR/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 2nd Gen, Used, Works Great (Doorbell Only, No Cables)",
+      "link": "https://www.ebay.com/itm/307256473629?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WS4GNS5BMWDWY9MMPF&hash=item4789e9b81d%3Ag%3Aq8cAAeSwzzpq5B36&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FFd9d%2FMGxDpcT2p%2FOTh06OwVoHky%2BJub7hn8trDIq1a5vj3lF%2FzKj%2BDJd534fwJQyj5ybqLt4icaowJ2KseDfZFmedZfZsWFpKepO%2BPd7Tw966H75Fbys%2F2XRAbRwks9oNg35MWm0HUvInixHhHF0gV%2Be6OCFabHqyrGBX7GorKfZkfUiCrpm%2FptkKHzdImicNn3VOqhh7uQeKK748emaig5hIdUgxP%2BJRTXwiGScoe1XCt%2BcZ9i%2BhJS6JB3ATISo%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307256473629",
+      "product_id": "307256473629",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$9.92 delivery",
+        "extracted": 9.92
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/q8cAAeSwzzpq5B36/s-l500.webp"
+    },
+    {
+      "title": "Ring 2nd Gen Video Doorbell - Color Satin/Bronze Nickel Tested Working",
+      "link": "https://www.ebay.com/itm/960089318968?_skw=Ring+Video+Doorbell&epid=16044625901&itmmeta=01M6AVP5WSKSWGSHPVZ292NKGB&hash=itemdf89c86638%3Ag%3AkPIAAeSwhRRq2sQX&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BiLr2y7drcMVEPYqm%2BjQNMvGokjPXuXw5BbVCXY3MLCQ5oFhTuJbZyKZhi524GiMB7tRFwD3OcfF6ZoDOJ2l2I%2FQ0ytRuoucQdLJ8Ste65pSxp09lxpWaTUjB2SoIjkjDalOlwvRVBR7LK3kZ1U7TcXur%2B58MUsicWiJDUvbsTJMlYk2M7RySt8QsA093s5gleWuFc1%2BKcm2llqaTlRRg%2BoLlmLL%2BJe9hATOZbZpxHA2cAw4tTVpuXmTskwOEkh8AP4KpRYyx6ME6LbaQg6ZTosUpUKQSLJlN5kFvpT2jsCg%3D%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960089318968",
+      "product_id": "960089318968",
+      "epid": "16044625901",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 35,
+      "price": {
+        "raw": "$20.00",
+        "extracted": 20.0
+      },
+      "shipping": {
+        "raw": "+$7.40 delivery",
+        "extracted": 7.4
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/kPIAAeSwhRRq2sQX/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 4 5D22E9 1080p HD - NO ACCESSORIES",
+      "link": "https://www.ebay.com/itm/267827680028?_skw=Ring+Video+Doorbell&epid=5061744260&itmmeta=01M6AVP5WSPP21WZE5F4JYEK8Z&hash=item3e5bc6131c%3Ag%3AgUMAAeSw%7EDxq49Cr&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8ecY3rTSlPS0atiDUkWNR6seHKzaHYIxQ9xo4Crbnbwgl6SwNuy3LQRI%2FIslIaFwUWPsIvH92nUvT0LfvURox%2FKysieAbWZfyoT5w0TfrcRjJWXsfseSYNc3%2BaPu3LeUORhigJ6SQfd%2Bo1uRvGHnK6XS7Afelvx5T9gwhWWm7x80O8LxGOrEofMKhM1X%2FqtoJj%2FXofkow7y44FNpPIOPLtkg3tkNmru6lqw3XNaidh94E8yvl3CT9okFgc24Pn2RQ%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267827680028",
+      "product_id": "267827680028",
+      "epid": "5061744260",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/gUMAAeSw~Dxq49Cr/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 2 Tested OEM Battery Box Accessories Fully Functional",
+      "link": "https://www.ebay.com/itm/236985211447?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WS2ZQQXGKEEX0SETFG&hash=item372d6b5a37%3Ag%3Asq8AAeSwBEtqclXZ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FWeqluLRsdUza8Xs%2F6urCuktEaIhBo7421RtLBVkwQsCgtuUe%2BACdTConVaBlQ0eZqvDiwPlpfLzj0okibQBgc%2F0J%2BQWfIxhjlOC4xf94AzB%2BU12yzME9msvotEFKhNuW3T9vsuYa1xhM3Ou%2Bn5bk%2BRc%2F1xQYBm1lKpHOSH1jd4wfcAbbk1fjukC2%2Fnz7Nmfy%2FiW1YTrNjCJEnA%2FglAFWFhmf09O3hWXpKJNy12MXy1UAZ1RxRDSMkDBbUKhkAuFI%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=236985211447",
+      "product_id": "236985211447",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$6.65 delivery",
+        "extracted": 6.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/sq8AAeSwBEtqclXZ/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 1st Gen 5AT3T5 Smart Wi-Fi Video Doorbell Camera \u2013 Black",
+      "link": "https://www.ebay.com/itm/117392409457?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WSXTC45WHJWFD96QRG&hash=item1b55220371%3Ag%3AnkgAAeSwLrNqmH5%7E&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8I0ofMIc%2F07KeZKymcsn3XkyZAt58uYQQPbxdzX0tfCjM34uRu2zepjubEUut3fqirHfl8O%2BEu7ZKHlIhFi8r%2BFtzqJ6CyBM3ak5yYROF91hVsCX%2FJoWjpi%2BEXCLdPaiJU%2BiWCDWig0SIdPm7LcfBuAMd0UoyWJQidyTWz437S7auUvBr4JrLAGfbt6xf7uMcUE9IKrL2uoN96Q4PDbONqbSUldLAb4iqEo95M88ybIlrT4tFMojR6qFmIBzhdHno%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117392409457",
+      "product_id": "117392409457",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$16.99",
+        "extracted": 16.99
+      },
+      "shipping": {
+        "raw": "+$6.61 delivery",
+        "extracted": 6.61
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/nkgAAeSwLrNqmH5~/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell Wireless Wi\u2011Fi Smart Doorbell for Home, Alexa, USB Cable",
+      "link": "https://www.ebay.com/itm/398413562364?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WSD3J9QR6X7GVF1JGK&hash=item5cc34c81fc%3Ag%3AVeUAAeSwLGlqr8Q4&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Dq5zEyrblNpmz87FOBnwh2331vf6NWITruKuEk%2BCDSnjXxafGIK4Gxv%2BACPbO5DZ2D%2FBAy6DUcQbP37z6OfjPhTL56Cj4THiDg5NBl5jRbpoZ%2BRaOHGBc867nqme%2Fq0urG8EXqM5SCZ79OY7pFf51yIwg5mCEq%2FpmDejgp8UcR4bWqKqhyViHIs9Ey0BKSI9R%2BlMjk1889b0xXOmxx7mscmVL4GIqd95nVBV8gZTgczpdmwswz3p7PAE1jlYVi1vx5iFSCXI98DqqV9L38YITB2xCajYtTa9C343Ex5QkWA%3D%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=398413562364",
+      "product_id": "398413562364",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$6.36 delivery",
+        "extracted": 6.36
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/VeUAAeSwLGlqr8Q4/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell Wired Model 5AT3T5 HD and Chime",
+      "link": "https://www.ebay.com/itm/267610072973?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WS0NW21WY5G3J8G1GB&hash=item3e4ecda78d%3Ag%3AUNwAAeSwULhpuELX&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BP%2FZ8fPqzecn3viyMOavOyBxoIGsyoV%2BHy8qUDsirkRqMYyiL7gp5g2US%2FjaMZQO%2Bpa7YLhzVNP2KY5BSv8oNEMRiD2EPf%2BZwvJuV6T%2BVXdnap8PYPjV5rPbJ6K1r%2BtuETtDbvtxnMFvOcrxQ9rzCmbjVwEhGLoy023Z6ESQtNOR2Uf3A1JpDxCXiVOfRqdu48MomjWFtVONSK%2BeRuRwLohZUMSW%2Bp%2BDHlV0y0NHlZIpnN9NVJc0ZWocA993rVCS9d2dnpeMGIYGNuq1xaPXcAnm4rUis78zrnS40wbFeGXQ%3D%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267610072973",
+      "product_id": "267610072973",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "watchers": "16 watchers",
+      "extracted_watchers": 16,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/UNwAAeSwULhpuELX/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 3 Satin Nickel 8VRSLZ-0EN0",
+      "link": "https://www.ebay.com/itm/800842877427?_skw=Ring+Video+Doorbell&epid=23030325514&itmmeta=01M6AVP5WSYGMHQRW4NHE61B0N&hash=itemba75f489f3%3Ag%3A-zEAAeSwqTlq4CFL&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9bL138EL7OSPYkgMHUKWIpAc0Gzgjy0jwdoWFkEyrvv9Hwt7G2uG8uCIgksf2rZQBImzj5A2YhPcTgaAV61K5BdeT9AoCV1Sl869Z71sgwrPymsOZvWA8zTWl9axcXzvdUsteXyOQ1vneSN7O%2FuhTTzklP7x88rSrTpWD%2FMBISH5mOpgzRZqICujZdMs5oKjzczQDY4YiA5OQW5hjL4Ae5xGC91eN9ZNq1cB6YNkMm12PkAKj%2BRoE3HQ%2Fi6JU2GHXr6G8zV733dV0elXBZF%2FQ8w%2FI4xcnDlHeqnXO7onkUWQ%3D%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800842877427",
+      "product_id": "800842877427",
+      "epid": "23030325514",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 258,
+      "price": {
+        "raw": "$31.99",
+        "extracted": 31.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/-zEAAeSwqTlq4CFL/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 2 1080p Wi-Fi Camera in Box w/ Hardware",
+      "link": "https://www.ebay.com/itm/168761567515?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WTN133SGVMR05M02FN&hash=item274af9291b%3Ag%3AZ%7EcAAeSwQ6VqwsOS&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9ssSGNTgtIkQOkuECYgTXLtm%2BDP965ltH52A90EV2NeSya7L84oqQgRn%2BZc112m7a0HCShC0wPT4hpwVwe3Zn3ytuyaGh%2Bjxua3FHGJ6yV5NOne%2BXoi8hF390RUegsbxzOp4%2FDZGR0I73rAdaqGECJsCGz9wd3z2QLqmD46IVaosS0QPXXwBcOn%2Bju26vymXHmouquZOCrK00iDZEX4P4mEIoJ4rOs%2F%2BKMPlVZ5jjH64kEypktVxj4%2BkgRYsQQmrxSDIP06bJrheKbw%2F6kjp3Aq%2FZC5FplbQa94IolcFUZ1Q%3D%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168761567515",
+      "product_id": "168761567515",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": {
+        "raw": "+$10.00 delivery in 2-4 days",
+        "extracted": 10.0
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Z~cAAeSwQ6VqwsOS/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell 3 Plus Wi-Fi Black, Alexa, Battery/Hardwired, Accessories",
+      "link": "https://www.ebay.com/itm/117486422116?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WTVBXS8EM0CH4SAX4R&hash=item1b5abc8864%3Ag%3AXJIAAeSwUwlq3fQk&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8LAr2h7SEI23sRMtj2zjtxxmWAqVjao87bbgg8n3uMTKSnvJD%2F3PO%2BjZj6mDIZgeq5KHa1wRp0s6zmPGOaXmYKrxcknhT98%2BMPmIJt3p838W%2B%2Bs7gQ4RE0SolNW0SqLBgArQthGg924mJVgScbNml4NDIXuR9gOHei2vpolIwxfgPOVCJI1EHjdXqGvVOUZBYoFmz9SvXWhBWAUvb6YriuPB7tQz6ogK1oDGLI3E9KfSwxYzrE5BLjB4p1aiSwCls%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117486422116",
+      "product_id": "117486422116",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$31.00",
+        "extracted": 31.0
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery in 2-4 days",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/XJIAAeSwUwlq3fQk/s-l500.webp"
+    },
+    {
+      "title": "Ring Video Doorbell Black Wi\u2011Fi, Motion Activated, Alexa",
+      "link": "https://www.ebay.com/itm/287657055004?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WTEN6GE50QM1CQW55Q&hash=item42f9b2531c%3Ag%3AKSQAAeSwPKNqsecx&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FxIWcyvX231G34EjOrt9QYMc3piVgzCz0rYh5MgpIXGAeLn05GbAB0%2BySZhB%2F3NCyslL1YxVUqlvnmmWWzJtoNgGhALEVpNXFXN7v6fYrOTtbONSx8xruDQekHX8382g38tWh1tk78gSj4JI866CjjTGaO9epGbBwMIGMSp0v0wUahe8t1Xp1lbEdgNNlTZ%2BiSmvTmURtCD00Sp3tZsrSfS75FPslQDT3bkfRetahWY%2FjC13Ye1LEASQ%2BSgNRMO5U%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287657055004",
+      "product_id": "287657055004",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$21.75",
+        "extracted": 21.75
+      },
+      "old_price": {
+        "raw": "$29.00",
+        "extracted": 29.0,
+        "discount": "$21.75"
+      },
+      "shipping": {
+        "raw": "+$9.00 delivery in 2-4 days",
+        "extracted": 9.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/KSQAAeSwPKNqsecx/s-l500.webp"
+    },
+    {
+      "title": "Ring Wi-Fi Video Doorbell Wired Black, Motion Activated, Works with Alexa",
+      "link": "https://www.ebay.com/itm/336770303074?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WT9RMJ5A3B7HYH7H4M&hash=item4e69130462%3Ag%3AOw8AAeSwGDJqlMHr&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9sZIKfjL1SYxTOyWIzoWCwMqJmcitqsHKMu2gqUVt6WE%2FeQrtz%2FJkBaSCxMwKtizHcBRr6Vqmrzp%2B%2F2g0vSVJF%2BWUW8mAWJZF%2BiPkn1TK9%2FTyzS%2Fmp1Ihybtdenh6vqQrmRNi1DeIIKVAu0HRQD%2Bn0kU9jKW8gDLC0yJ9FSKdLjQskLrv4Jo1LnF8hGo2zEtQmfJL3EFkoutuEHCuhyEAaODGQyf99qyNuRVEWGO7qAAYJy6hidjKjVRfow4O47ks%3D%7Ctkp%3ABk9SR8Le2NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336770303074",
+      "product_id": "336770303074",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$18.99",
+        "extracted": 18.99
+      },
+      "shipping": {
+        "raw": "+$5.86 delivery in 2-4 days",
+        "extracted": 5.86
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Ow8AAeSwGDJqlMHr/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell 2nd Gen Used w/ New Battery Pack + Adjustable Mount Bracket",
+      "link": "https://www.ebay.com/itm/318312441824?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WT5C2J3ZXCCCMT5N9X&hash=item4a1ce667e0%3Ag%3Ac4EAAeSwkXBqCHEQ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BBxGukn75M3OTwNzuPOv5kJPiEZkmhaBspS17AtJbhmYo03rQTwxvz9ZlRtu8Zc5TXBKeObM0d3SsD9a3tb6A1vhDNjS%2BDbMSVsxOIEb%2BwefTU12h%2BIDaWNSYpI65Boj8wC1cfXFdp38ysopv4FWdAmgiw4uuPD1DXttNrYIdt4B6FgaX9SKh2otfceUD5A7tqyIkRMGa%2FHbH1Cnqq6%2B7PwwCu0EfcHVfFXVBfCK5nQDjPpBg23UHBttwqelfPIUmHfa%2BHNOOdfvWbvbtJWGbw8K8ezrDRvk%2B04vJPEcvNiw%3D%3D%7Ctkp%3ABFBMwt7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=318312441824",
+      "product_id": "318312441824",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$49.99",
+        "extracted": 49.99
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/c4EAAeSwkXBqCHEQ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Ring Video Doorbell Pro 1080p Full HD/ Wi-Fi/Hardwired - Used/Good Condition",
+      "link": "https://www.ebay.com/itm/336794856345?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5WT8D95XY0NZKTP583B&hash=item4e6a89ab99%3Ag%3ADUQAAeSwnyhqqUmd&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FWen8%2F5sue5OCXc3qTlh%2FRgDLtS34K6Ce1DVMyEaKjt8i8ppxPXr1nRgDAQhMNczLY2MGHyvY5r2U8uyhfFQEA8RG5Y2S9rGG2fQsJJTy%2FfvrhxUQdKhAdygxLUnQSjLAfQXxMGP%2BHoSRr4rW%2FtK0a%2BON0CTFuuPpMmvSNSbQnsxLDKr7n1ymm56OLd5kVl0bKY%2BHaIRgMja8tMiw8CmwPf88nEdAFt92iUhDG8bqnUdu4c%2FGFVMpLSv9xWehu5vU%2BwRRMJ%2FrytaCmz2YbUPF4DKWRYXuPnj8ZrMCEe5OXbg%3D%3D%7Ctkp%3ABFBMwt7Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336794856345",
+      "product_id": "336794856345",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$10.00 delivery",
+        "extracted": 10.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/DUQAAeSwnyhqqUmd/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Picked For You",
+      "subtitle": "Top selling items from trusted sellers | Sponsored",
+      "items": [
+        {
+          "title": "Ring Video Doorbell Pro Hardwired (Great Condition)",
+          "link": "https://www.ebay.com/itm/267799245472?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8N81VHRAVVVGT34B0&hash=item3e5a1432a0%3Ag%3AkWQAAeSwmwpqvFMy&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BO%2BFFotdnkEo60qOheHF0cbQhXJVwNsXbSUAMiVlc3HB%2FTs5V%2FrCic25vlE0h%2BFAYj9GwKMBs6acOOHIXOEHaRZHSvT9rc%2FIQhmIF1DKmu09UyUkJeGliZ4BI4hZXhjrMp%2BJ0105AHFT7ilO8I2KfKpGV8BynVnDz%2FwGyB9vgAAVry1fJ58kp5EWTRWr6IG1v%2BNHbv5u75dLKQyF6T9jSLuZ%2BNcO0Fi6mElYwmHhnXQDfbwLEZeoG3HV11d65EcHTdigosW0ITGnxS6RuovK3rYsncI0wNC0iLQSNU2nUNvg%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267799245472",
+          "product_id": "267799245472",
+          "price": {
+            "raw": "$42.99",
+            "extracted": 42.99
+          },
+          "stock_status": "Last one",
+          "thumbnail": "https://i.ebayimg.com/images/g/kWQAAeSwmwpqvFMy/s-l500.webp"
+        },
+        {
+          "title": "Ring Video Doorbell 3 Plus Motion Security Camera Wireless 5UM6E5 w/ 2 Batteries",
+          "link": "https://www.ebay.com/itm/267697233614?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8N6Q3E71FWAAGRFZW&hash=item3e53ff9ece%3Ag%3AoBsAAeSwV0tqLAMJ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FMM5D1vFXgm4JErQz%2FdD5uG0JPwm2UuFMAvpjLVMzJJ91JtDDRNB%2BfW7qEaKztbqB3hC6SR0e%2FPlC%2BFNAdK3349XnpX%2FWQXZfP%2Fj9%2Fv5HmUeZjlCY2viEoTZeU06zZv4vMTVtfr3YgLfkn0RDWGUqgHOM4VRhGPAOUScapzm7lWzxINCrXTlXDg1Y8Qw9yl5QtE%2FZkqlK9S6MiUY1eB2GRIV%2FZ26vWtE1ox8q5PCqYQB5wUZjcJdwvJHwsbHFuknEMQ4ePp2gkC%2BddaouytfjxzJVl9BE%2BCGvJBo2hoNOHJg%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267697233614",
+          "product_id": "267697233614",
+          "price": {
+            "raw": "$74.99",
+            "extracted": 74.99
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/oBsAAeSwV0tqLAMJ/s-l500.webp"
+        },
+        {
+          "title": "Ring Video Doorbell Pro Video Doorbell Stainless Steel 88LP000CH000",
+          "link": "https://www.ebay.com/itm/227538318127?_skw=Ring+Video+Doorbell&epid=12043227152&itmmeta=01M6AVP5Y8V7WXAAT3HV1JA0JG&hash=item34fa57332f%3Ag%3AXhUAAeSwtA5qtgG8&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Baly4d2s%2FgARNwcKyZIu9ceIXjj5kovG89QEhCtFPOLNGjyZVfkMUIg3Jh%2F%2BT1lnSuoxklodr7nhN5vlD878p3Ws%2Feov3mEiiDMMQQ%2FLgmpgyMYvT6g8PBv7xJSRfgQ6duw5aT7O4l2H1jx4UMTAihwtdx64hz0UNXFneLOtDiG2cpW93V1H6hQiV0jqjMNymJiZuZxoynnnUrz%2B7vNXIJHYdsrtYx3CdiIa5w774Nr4aQ7muMsRAsZIXL%2BfqFJrDQU1LYiXUIZPW4Cyxnhk75ERlHirdm3K5fJYvphjBkrA%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227538318127",
+          "product_id": "227538318127",
+          "epid": "12043227152",
+          "price": {
+            "raw": "$39.99",
+            "extracted": 39.99
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/XhUAAeSwtA5qtgG8/s-l500.webp"
+        },
+        {
+          "title": "Ring Wired Doorbell Plus (Video Doorbell Pro) Video Camera 1080p HD Wifi Cam",
+          "link": "https://www.ebay.com/itm/366741243062?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y81ATYGC3AXK39H8TR&hash=item55637b44b6%3Ag%3Ae9IAAeSwTrJq0-hR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FlWTZAt68%2FBD%2BOOdvPptklNeQubwlun3tQu%2BG2YtzbcCpkAAd%2B5tK9bmnxb7JOhICafVeAciCH7q5eqWZjudyOIy9%2FL0bL1oKHyd6mL2RhdyENPN9yQyMcSVH2ermRXAh91qiPjDfYhKd48SFJaVAO7Jv0rO6HGx6EFdOdPiYXRYh4ZlsFsmhfV3JysWufEJWztwuBCj7jAFFmto1KMnB4H8xnlZIypnnZ3y0f5sIT02Cnj2DzWo9cd%2BYHcuuWqcCUFUTtPM3H%2BsoIlNRlplDuVGenMBAAKzNd5%2B%2F2vEE%2BYA%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366741243062",
+          "product_id": "366741243062",
+          "price": {
+            "raw": "$34.95",
+            "extracted": 34.95
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/e9IAAeSwTrJq0-hR/s-l500.webp"
+        },
+        {
+          "title": "Ring Wired Doorbell Plus Gen 2 Doorbell Camera 5DFYA3",
+          "link": "https://www.ebay.com/itm/366759667949?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y84GWM01MSG97F48XD&hash=item55649468ed%3Ag%3ArQQAAeSwvQ1q3Yqg&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde--w723hFnNbt2EMrD2VYSeRL8eI8pjx%2FmzYw%2BHi6LFrZacVB92RztxuwlN%2BZRl1hM3RER%2FAhgVgKGsK4zo5bWD2A%2FDkqehOfsd4p6lpVp%2Br5%2F7p1i%2BvmD9xWg7WIxLlCTWjwCvTg5kSYKzkKO5AIu4MEFhaRXDB3WBP0Nvrp4Sau4g04Zm9xrPXH6nEukKH9xdZEEq3wfaY4Q9pmCYVOusDNIH4WDRa%2B6Il71zuFrhuOm%2FPD2HE06%2FUd53fdS%2FZI%2BEkhMUioo8ac8F%2Bgz0C48b8qtWk%2FxsLFwSCJAunW5aJQ%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366759667949",
+          "product_id": "366759667949",
+          "price": {
+            "raw": "$69.95",
+            "extracted": 69.95
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/rQQAAeSwvQ1q3Yqg/s-l500.webp"
+        },
+        {
+          "title": "Ring Wired Doorbell Plus (Video Doorbell Pro) Video Camera 1080p HD Wifi Cam",
+          "link": "https://www.ebay.com/itm/366741251768?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8K4NSFASFXP78NT8E&hash=item55637b66b8%3Ag%3AUfsAAeSwfQFq0-jV&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FEqs5VprxOtrXi%2B6chxguPX3PjJZOFTFWx5wmqTqP7IIVKwEi0JwwZaA9PgG6HCDkJUNXh1v8sHCjWRGmkKllOuEHVF%2Fu01Sg4rYlNLLdayDOHdP3LodQOOzz7L2%2F90KZ36ULDlT5zcUVFS4I4rgSfQJN4dURkyzX9ER8qBb34BLXuWk2Z5abZQv4eacr5RFPEiFh9t0jb9UKQkFB0Y7S5tQDqpqIArTgvUEuxW7l8rwNI0YdSkziQWVdWikXAh8rU%2BJRzwVbntzp3%2BJ8ZCoDV2KKriTTGhQtl%2Bksdi9gT1g%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366741251768",
+          "product_id": "366741251768",
+          "price": {
+            "raw": "$34.95",
+            "extracted": 34.95
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/UfsAAeSwfQFq0-jV/s-l500.webp"
+        },
+        {
+          "title": "Ring Doorbell Wired 1080p HD Video 2.4GHz Wi-Fi Excellent Condition",
+          "link": "https://www.ebay.com/itm/188467313293?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y89YHWSF4ZHR4WB9DQ&hash=item2be186fa8d%3Ag%3AxPoAAeSw5ahqvoFV&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FPhcHtFonepWzx5BN6HkfKVTeh6WsKP%2BukM1R2wF8Ve58RkvrnCK4Y%2BJ7OWCNAIf3V4wQrsLZLeTCHnKClCTXndbkP6%2B1A2GXiZM0M2a79UD6%2BuScyYNDou19PxSVBKQ1PAd2NPVapjulWgqw%2Flk3CAmKMQIdbpQMBMTWXXdBrUu3P9hy%2FKhH0%2BIxJ3x8FsXKKp2BTWmQooVPz052mbU0MGbCP7mQdoQ%2FbjFfsjI%2F%2Bq0%2B%2Fc8%2Fc8v7oqeTTP5QMZBLWI0iSeKCQZrsfs5Q7B%2F1%2FACZtEipAwEwo7FAx2LlmWA%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188467313293",
+          "product_id": "188467313293",
+          "price": {
+            "raw": "$28.80",
+            "extracted": 28.8
+          },
+          "stock_status": "Last one",
+          "thumbnail": "https://i.ebayimg.com/images/g/xPoAAeSw5ahqvoFV/s-l500.webp"
+        },
+        {
+          "title": "Ring Alarm Home Security System Bundle with Ring Video Doorbell",
+          "link": "https://www.ebay.com/itm/158309950846?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y88PP57EYE1MQDQDWY&hash=item24dc02257e%3Ag%3Ah1QAAeSwQ59qrrB%7E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BJ8%2F6mvXD9XkOmTRa%2FBo747LXqj4smlgohl4PoYu%2BIEQCF2gaa7QCUSIyNe1m37JTpwI%2BPJVd%2FLystQryJMTB4%2BniFh%2BArb%2FgT%2FJV9Tmx7Gs1autyo0lUruPyjdO39SNhZOy35knWcscgTYot5YfikNz78zmrxCe9svknI9jcqKk8Gg5koXnF5Gh%2Bn4%2FG3pf2pAaOKLzkJ5XJAjMcavd459mD04ZxNJGy7c1tR%2FKsZIRC01TLpJdeoLL4Zx7Ir0Wl8rPIYbyzHieX6BWnoXdtjKn1KFOsJwitRQJguH%2B4JEg%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=158309950846",
+          "product_id": "158309950846",
+          "price": {
+            "raw": "$119.96",
+            "extracted": 119.96
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/h1QAAeSwQ59qrrB~/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | Sponsor\u061ced",
+      "items": [
+        {
+          "title": "Ring Video Doorbell 3 Plus Motion Security Camera Wireless 5UM6E5",
+          "link": "https://www.ebay.com/itm/960137465637?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8GGJ9MGK6DNYQPR1Q&hash=itemdf8ca70f25%3Ag%3A8UcAAeSwXQFq5h5T&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9w2F1%2BFe29Iq1bWkJcYzA8qOSMOhO7GBOIJxz7GJW%2Fts%2FeHpPdSQbKFoBMpKAI9ZUK2rYDxoiwmAdasUCe6n1lk7innkj%2BS0qcBpYm6wB9zt2CMg--xRzUKBi8vIdiZycC1DWerkbIA7%2BSM5vQf6YkOWlXPFQltmVaOSAyev%2BVbTqJtIRHSmvPe%2Bs1IN0co1tZbuPj9RWaGaq0M81kptc3F76CGGuykALjAlOkiIBwMmvf5sj60y4Dk6b3sypiulKJN0BarlWMlsEl0M0LUYzZvIZr0nLKeA2Y1%2B%2BbJ3EBgQ%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960137465637",
+          "product_id": "960137465637",
+          "price": {
+            "raw": "$26.99",
+            "extracted": 26.99
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/8UcAAeSwXQFq5h5T/s-l500.webp"
+        },
+        {
+          "title": "Ring Video Doorbell Gen 2 Satin Nickel Smart Wireless Camera 1080p HD & Mount",
+          "link": "https://www.ebay.com/itm/257349805533?_skw=Ring+Video+Doorbell&epid=16044625901&itmmeta=01M6AVP5Y844SWA19WZTMNGH21&hash=item3beb3e65dd%3Ag%3AsPgAAeSwhf5ph6Ej&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FCocpB6nqAEFFA60Y6MeFP6Gm4RD2Tns5scVR8U4IJJ8ixLleRU%2BxHrRXYmguahXHOBNVuF7wWso5TR29r1k6EayA3J%2BF8uDzwM%2FsFknyuz%2F524NEAU%2FMq068ywbjN2zf8FMJRs8jhHBeHu%2FWcwO%2BZTOViWTz92fb8MYpdCTRSyEBSqRmG7AtyH5iSQAi6ShSvYvRduCi0uzWerN5St11F6O1%2FSEGbYr71T6X4acf%2BZgz0xvvprO0Uu5H6kofUQstaj%2BpBZ8S08r2DOgs99xCpc5fx4se5Fz%2BQWg9U%2Fnjxyg%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257349805533",
+          "product_id": "257349805533",
+          "epid": "16044625901",
+          "price": {
+            "raw": "$50.00",
+            "extracted": 50.0
+          },
+          "shipping": {
+            "raw": "+$10.41 delivery",
+            "extracted": 10.41
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/sPgAAeSwhf5ph6Ej/s-l500.webp"
+        },
+        {
+          "title": "Ring Video Doorbell 3 Plus Motion Security Camera Wireless 5UM6E5 w/ 2 Batteries",
+          "link": "https://www.ebay.com/itm/267697233614?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8JPSPQE1EMNSHFR84&hash=item3e53ff9ece%3Ag%3AoBsAAeSwV0tqLAMJ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FMM5D1vFXgm4JErQz%2FdD5uG0JPwm2UuFMAvpjLVMzJJ91JtDDRNB%2BfW7qEaKztbqB3hC6SR0e%2FPlC%2BFNAdK3349XnpX%2FWQXZfP%2Fj9%2Fv5HmUeZjlCY2viEoTZeU06zZv4vMTVtfr3YgLfkn0RDWGUqgHOM4VRhGPAOUScapzm7lW%2FecHd3R7aptouqrG1RBMJwcRNReyr7no%2BxKF9Ot460lDvEwJYtHjD7MFALRGZ17fJc5bmPJJP0wQG8yFDeCF9bDON8ueRfZIypZvGqG1bczMMez4FksyiBewcsC54jpbw%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267697233614",
+          "product_id": "267697233614",
+          "price": {
+            "raw": "$74.99",
+            "extracted": 74.99
+          },
+          "shipping": "Free delivery",
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/oBsAAeSwV0tqLAMJ/s-l500.webp"
+        },
+        {
+          "title": "Ring Video Doorbell 2 and Chime 1080p HD Video 2-Way Talk / Battery or Hardwired",
+          "link": "https://www.ebay.com/itm/278075053352?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y85GR5T8H29WW5BKDS&hash=item40be909528%3Ag%3AD2MAAeSw5-pqKZRI&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8pQLr5Po0xM5QU6Hc4bA%2BQIMFG%2B5IM%2Ftcu1PzO0qk8Bo37vXyjbfcc7G5uPAciGzMy0HT39G%2BzeDYSP10FYhrDmk65jhl1D5hfb04e9DULEJa3uGwJqbfAiDuxhv6ilZKZA7o1RHRbdR3%2BICrxIuuLfmu7I%2BTUZWEP6FRCjF5mUw%2BdhbTheL8nl7K7rAN%2FX7Yf04HpEUWn0cb9iMO4E9vBicjaMDMqe%2BLiZsA9Y8tGWDBE2Uwl72FYs1dSZLqJ%2Ffc9FXg%2BioXR5WyTstPs3pyJ%2Bjf2OTff0psmXr791Hcwtw%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=278075053352",
+          "product_id": "278075053352",
+          "price": {
+            "raw": "$69.99",
+            "extracted": 69.99
+          },
+          "shipping": {
+            "raw": "+$6.65 delivery",
+            "extracted": 6.65
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/D2MAAeSw5-pqKZRI/s-l500.webp"
+        },
+        {
+          "title": "RING Video Doorbell Pro 1080p HD Motion Detection Hardwired",
+          "link": "https://www.ebay.com/itm/178549847013?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y85MZ85VDJT2B92J2M&hash=item29926673e5%3Ag%3AdeEAAeSwfGNqscAl&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9wzHyOBB7eYGSfzr9p7RugCexWdVDd7Jyi4vvwQEjkEnMB%2BpO2VvyQc2neQgBQxiVFXVpPEcvk7aPz%2BDNVlQowCcm6xbHQ80pUP9Jw4QWZrDVXKvW9liZsoSBDQO%2FCt%2BxmD5aO74Sqg0w9oERfQM%2Fq8OjyKwoH%2BQ%2BK84FvXuZVL%2FWgKyqHodMwVPPPF2wjNnJm6AnZvj0%2F1uKj6NfPfJD%2FCQCZldzNT3%2FAtKXHjmADzyUE6MvIk8moA6CBv9FvzScISVPIfRMUyEnmBYJuj1d8ihoEkyafgUQu87b4khUShA%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178549847013",
+          "product_id": "178549847013",
+          "price": {
+            "raw": "$27.95",
+            "extracted": 27.95
+          },
+          "shipping": {
+            "raw": "+$9.53 delivery",
+            "extracted": 9.53
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/deEAAeSwfGNqscAl/s-l500.webp"
+        },
+        {
+          "title": "Ring Video Doorbell 3 Plus Satin Nickel 1080p HD Video Wi-Fi 88RG400FC100",
+          "link": "https://www.ebay.com/itm/820300003665?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y83TJ62BXQBVW4VPT9&hash=itembefdb0b951%3Ag%3A8hAAAeSwjINq5fsv&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9zigJtgeVnGPUzDAI%2Fj%2BR0Zz0imXnZstyTvf6BnjymJx9ebHMllt%2BILh2%2FHqyT%2F0yJY17GM5EOYxatxR8OX1g0JgSRBSNYWUuJ7bJIQTn2184oQszZotIQK7uZe0%2BZK9NDNqczI2kfIlJibyi58jPVjTlrATt3zKfsZH%2Bq4QPNSO7w1B5ycWeew%2F6ALg49RBNU4Bm9bZjlvQrlvR%2FpP5jDl6IJLKLLPy5WAtU0wG%2FZB23T5T8iygQ2VZXWZynCLLkmwioAEJmcXqoXyzE9b6W8%2FcIU3Hc3Nw%2Fp3xiuF5C%2BfQ%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820300003665",
+          "product_id": "820300003665",
+          "price": {
+            "raw": "$39.99",
+            "extracted": 39.99
+          },
+          "shipping": {
+            "raw": "+$13.69 delivery",
+            "extracted": 13.69
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/8hAAAeSwjINq5fsv/s-l500.webp"
+        },
+        {
+          "title": "Ring Battery Doorbell Head-to-Toe HD Video Venetian Bronze Pre Owned",
+          "link": "https://www.ebay.com/itm/137756263829?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y822JF48R0PSNV7K0P&hash=item2012e9c595%3Ag%3ALvgAAeSw25dqrtpB&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde86rZydcBmdJUxLzvRohNa%2FmSMt1laOJOjT68bFof9%2FtwKFaK1A9mb190Ciu%2B83oi%2Fc6PI0eEmBY5x4uRux5tIoLWrxN8TVlX4UhhhVv8qtabBbio5jGU405NtG8vGyYPxGwuJjcZuxGBzXxLCpBpO%2F1rDVI5tlOKVwo7jWrUthYTGXQ4KQ8ZylylZoD2ZcoA%2BA04cISjz%2BnjiWSCz7uBC%2BrAfp%2FwTEIZyQsNbFqalqzqItht22PkT%2BA5lah7OcTW1x7v6ijRZgyyP1eleAKj4XadghRXW65v9KD8%2FQ%2BuATDw%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137756263829",
+          "product_id": "137756263829",
+          "price": {
+            "raw": "$39.99",
+            "extracted": 39.99
+          },
+          "shipping": {
+            "raw": "+$6.64 delivery",
+            "extracted": 6.64
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/LvgAAeSw25dqrtpB/s-l500.webp"
+        },
+        {
+          "title": "Ring Video Doorbell Pro Video Doorbell Stainless Steel 88LP000CH000",
+          "link": "https://www.ebay.com/itm/227538318127?_skw=Ring+Video+Doorbell&epid=12043227152&itmmeta=01M6AVP5Y8ANVJA84Y69M7N93B&hash=item34fa57332f%3Ag%3AXhUAAeSwtA5qtgG8&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Baly4d2s%2FgARNwcKyZIu9ceIXjj5kovG89QEhCtFPOLNGjyZVfkMUIg3Jh%2F%2BT1lnSuoxklodr7nhN5vlD878p3Ws%2Feov3mEiiDMMQQ%2FLgmpgyMYvT6g8PBv7xJSRfgQ6duw5aT7O4l2H1jx4UMTAihwtdx64hz0UNXFneLOtDiG3Fq9fLNcqNm14Id4F4N6uN2EeCg2SufVGfIGF%2B79Lbq9DUFFeIrF6eQXO6x7byGRKTW0IUtrXL8huK70WNsDL03erEiL3v0iIcCk1ycKibKpb3Ij0T5ng6cei3FHtCWJQ%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227538318127",
+          "product_id": "227538318127",
+          "epid": "12043227152",
+          "price": {
+            "raw": "$39.99",
+            "extracted": 39.99
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/XhUAAeSwtA5qtgG8/s-l500.webp"
+        },
+        {
+          "title": "Ring Wired Doorbell Plus (Video Doorbell Pro) Video Camera 1080p HD Wifi Cam",
+          "link": "https://www.ebay.com/itm/366741243062?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8TJC7RYRRWWV33E2H&hash=item55637b44b6%3Ag%3Ae9IAAeSwTrJq0-hR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FlWTZAt68%2FBD%2BOOdvPptklNeQubwlun3tQu%2BG2YtzbcCpkAAd%2B5tK9bmnxb7JOhICafVeAciCH7q5eqWZjudyOIy9%2FL0bL1oKHyd6mL2RhdyENPN9yQyMcSVH2ermRXAh91qiPjDfYhKd48SFJaVAO7Jv0rO6HGx6EFdOdPiYXRYh4ZlsFsmhfV3JysWufEJVCJs8AcTgUWHgFydTUiIgP9ukzPfWh%2FXIke%2FvT3K1Kd5q8%2F2TxEJVR8xNhWOXomqlCvnEGYq6X7LD8Ie91VHednr7onekMYAmOQznWOB--Sg%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366741243062",
+          "product_id": "366741243062",
+          "price": {
+            "raw": "$34.95",
+            "extracted": 34.95
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/e9IAAeSwTrJq0-hR/s-l500.webp"
+        },
+        {
+          "title": "Ring Wired Doorbell Plus Gen 2 Doorbell Camera 5DFYA3",
+          "link": "https://www.ebay.com/itm/366759667949?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8CQC34F76KV9TX5AM&hash=item55649468ed%3Ag%3ArQQAAeSwvQ1q3Yqg&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde--w723hFnNbt2EMrD2VYSeRL8eI8pjx%2FmzYw%2BHi6LFrZacVB92RztxuwlN%2BZRl1hM3RER%2FAhgVgKGsK4zo5bWD2A%2FDkqehOfsd4p6lpVp%2Br5%2F7p1i%2BvmD9xWg7WIxLlCTWjwCvTg5kSYKzkKO5AIu4MEFhaRXDB3WBP0Nvrp4SapK74s%2BSneD5NXHWyCVrtoaPmf5vq5k%2B0VoNC2LCS30ybS8IBXB%2BO%2BFBBZZQpRSagzvT9mQL7ochMJNtyuI2m1sx308du1ryBAGJXan1v43Q0dmA0hXTkzOV9%2FfXNkCDNw%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366759667949",
+          "product_id": "366759667949",
+          "price": {
+            "raw": "$69.95",
+            "extracted": 69.95
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/rQQAAeSwvQ1q3Yqg/s-l500.webp"
+        },
+        {
+          "title": "Ring Battery Video Doorbell Model 5F97F2 Satin Nickel",
+          "link": "https://www.ebay.com/itm/366706465250?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y80NBBR7Y882GHJQE1&hash=item55616899e2%3Ag%3AWS4AAeSwO9Vqv0B-&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde92BfaNATJYnMIZe2WTwlB30cva56feVzIoyxvO0hmfgHCrsAQOsfuedfPzIvaMELpLRqe1znx9XHQcBjJhznTFt1IsO%2F1DkIg8s5keZNcUvrxo2XQIiN7zKU%2B1AK9lNQLM7aPCCiQ6iJazr5P8cusvbeTsBVpKyLxja%2Bdkz0BHELfe19hYpyb%2B0IW45lfBLH8zha62CxrhsH9LOeHkxfRwpt0uAZFPwqpAeWE0ePT3F%2FrD5iaS5WTJ%2Bu7mJ2i4QBcsh7XLtOSQCKReIbGMpcmE7FMos%2BcfxIp9Im8roOfvPQ%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366706465250",
+          "product_id": "366706465250",
+          "price": {
+            "raw": "$35.95",
+            "extracted": 35.95
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/WS4AAeSwO9Vqv0B-/s-l500.webp"
+        },
+        {
+          "title": "Ring Wired Doorbell Plus (Video Doorbell Pro) Video Camera 1080p HD Wifi Cam",
+          "link": "https://www.ebay.com/itm/366741251768?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8F8GVQ3QFF66QJ3QN&hash=item55637b66b8%3Ag%3AUfsAAeSwfQFq0-jV&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FEqs5VprxOtrXi%2B6chxguPX3PjJZOFTFWx5wmqTqP7IIVKwEi0JwwZaA9PgG6HCDkJUNXh1v8sHCjWRGmkKllOuEHVF%2Fu01Sg4rYlNLLdayDOHdP3LodQOOzz7L2%2F90KZ36ULDlT5zcUVFS4I4rgSfQJN4dURkyzX9ER8qBb34BLXuWk2Z5abZQv4eacr5RFPelege6g77xcJJ%2FdNMP%2FkT8w4Jt4lXx2w1A8vn9ImBD5ohzKi4fGeCFCtGYmlU%2FULMoNd8G%2BuKOPtCe%2FVDxIDUPtgHUxjdt%2FuFhp3Z8D8UcQ%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366741251768",
+          "product_id": "366741251768",
+          "price": {
+            "raw": "$34.95",
+            "extracted": 34.95
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/UfsAAeSwfQFq0-jV/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Other Popular Brands",
+      "subtitle": "Based on number of views and purchases | Sponsored",
+      "items": [
+        {
+          "title": "Blink Black Video Doorbell camera BDM00200U Tested",
+          "link": "https://www.ebay.com/itm/336705147971?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8DWZXWQEX8JDB1QXH&hash=item4e6530d443%3Ag%3A7sUAAeSwqNVqYqwN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde90HxTQHA8ZQESA%2F9GkbQ6GNozKlnssSyZS%2BB5jGhDBZWnpRKfNyBF2mSekXIIX6h4Q2JzUwLL3wQX7NNfTSPyUt87n4vUj2LEvsvgYhCtROovBd%2FVr7ujsIltSXRsKtkcxLEvpurx0vXBBEWSpTqvePoLODPGDp01pVVdFPSetitx9Q1qeq9O%2Bs%2FvE03sH7CAjrezgclIRuSKaKWmPCImBJ2wI20bfzjcMTmrperivD7YxBENYLLHOPVCy7i8iIsOU3DagecwWvcc5LG5NzlWGCdFaP8iGJgQtGROUCpXslA%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336705147971",
+          "product_id": "336705147971",
+          "price": {
+            "raw": "$22.75",
+            "extracted": 22.75
+          },
+          "shipping": {
+            "raw": "+$6.99 delivery",
+            "extracted": 6.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/7sUAAeSwqNVqYqwN/s-l500.webp"
+        },
+        {
+          "title": "LOT Of 97 Pc Blink Security Camera Systems Bulk Outdoor 4 Doorbell UNTESTED",
+          "link": "https://www.ebay.com/itm/840072846185?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8N3JJCMBNC0J659KR&hash=itemc3983e5b69%3Ag%3AR5sAAeSw6gpq48Zn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2F4u7W8v%2FDvMynlU39tzp0nzHiTGOJtGzUMMzay1T0UGKi2lytNcrpzvFIZNHKqZH9682ugzVizIBxbeyli8XnfH%2FchPchlZCC30G6tBcXTqlZ7MVI1gRswZE86tPL9wyqRwYvn1pFZjsk3cyvh3F%2B05613ALqPSIiae5%2B4%2Bbabxu4Hyv4KR6pbwKjG8BkL%2Bp%2FLyO2%2FkAJgqJJ81m78lpe2SpCkoGZ7Aa31aOXv6qvu2IDlCct4syqOT1s82XMaO7qrA630Y3tL47%2F2XhpIeWbFb128NkUREyHuhgFPs4tN1dRx8RaCgTWDWK%2B%2FAzwDfE%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840072846185",
+          "product_id": "840072846185",
+          "price": {
+            "raw": "$1,999.20",
+            "extracted": 1999.2
+          },
+          "shipping": {
+            "raw": "+$49.99 delivery",
+            "extracted": 49.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/R5sAAeSw6gpq48Zn/s-l500.webp"
+        },
+        {
+          "title": "Wasserstein Solar Charger and Mount for Blink Video Doorbell(Black)",
+          "link": "https://www.ebay.com/itm/266897262531?_skw=Ring+Video+Doorbell&epid=9057663931&itmmeta=01M6AVP5Y8ADRX5G22PR6CCCS3&hash=item3e245107c3%3Ag%3Az0sAAeSwYWFq2iTk&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FSR5xRvrlvLBLLCZea75t5DtTcfjV%2B7ubg3bQTnTLU9EwMmB8PlwYZDeIzgzIgkCCi%2FGup18oD0Bza19MQpevhveumQbdxCg25X0YdW60fwGMvOBxwKQRwdHWvfsjyFFPhBfMLxIUYay2fhSS21ntCQnaTgKSrsuZY%2Bw4J0yF%2BjWRu7B2gegUd4SUam9Fe7b48nMlayjtQoN6ph2mZiEC3V7%2BDi%2Fa1LNqnGhcjCQZOuovgU9BnDNW2OZRVimQeaoQuDo058vf9wZkEWQgtRzFabL9XfJ9nIkioeOQdz%2F2gOg%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=266897262531",
+          "product_id": "266897262531",
+          "epid": "9057663931",
+          "price": {
+            "raw": "$24.99",
+            "extracted": 24.99
+          },
+          "shipping": "Free delivery",
+          "quantity_sold": "303 sold",
+          "extracted_quantity_sold": 303,
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/z0sAAeSwYWFq2iTk/s-l500.webp"
+        },
+        {
+          "title": "Blink Video Doorbell Wireless Smart HD Cam Black Battery Wired Boxed Used",
+          "link": "https://www.ebay.com/itm/287553292003?_skw=Ring+Video+Doorbell&itmmeta=01M6AVP5Y8BANV8HZDVQVM8FY1&hash=item42f38306e3%3Ag%3AoDUAAeSwuVhqk1l-&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BUrs3m7UokzklERfgWWiGMi%2Fen5xwv66xMjRLRjketBOgcd5onE%2BmSjP6k80fqK17Hskq9be9r7AJzG8OYzaO%2F4uXKGhDQ8dgnlKng1LjG1j2ADEK5t4fZMeN6GXFS69WHzAuHwT10LCnetQ0CwdPuOq9qr%2BFeVmncnrwCQUgmVRH03JCdUdF8RRc0wMrQ0CTJ%2BDyIcs17%2BZuZhBDZk2lBmvsCOLUB9T68nD3W1Y63Qep3HxGlA%2FHkid39Kp%2FLOlygVxvcZ1AjlF90JSQ0dOikFC9NrJ1qwxzOfcIDdP%2FqtQ%3D%3D%7Ctkp%3ABFBM4N_Y27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287553292003",
+          "product_id": "287553292003",
+          "price": {
+            "raw": "$14.95",
+            "extracted": 14.95
+          },
+          "shipping": {
+            "raw": "+$7.37 delivery",
+            "extracted": 7.37
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/oDUAAeSwuVhqk1l-/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "ring video doorbell wireless",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+wireless&_sop=12"
+    },
+    {
+      "query": "ring video doorbell 2nd generation",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+2nd+generation&_sop=12"
+    },
+    {
+      "query": "ring video doorbell 2",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+2&_sop=12"
+    },
+    {
+      "query": "ring video doorbell pro",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+pro&_sop=12"
+    },
+    {
+      "query": "ring video doorbell pro 2",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+pro+2&_sop=12"
+    },
+    {
+      "query": "ring video doorbell 2nd gen",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+2nd+gen&_sop=12"
+    },
+    {
+      "query": "ring video doorbell 3",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+3&_sop=12"
+    },
+    {
+      "query": "ring video doorbell plus",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+plus&_sop=12"
+    },
+    {
+      "query": "ring spotlight cam",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+spotlight+cam&_sop=12"
+    },
+    {
+      "query": "ring video doorbell 4",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+4&_sop=12"
+    },
+    {
+      "query": "ring video doorbell 1st gen",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+video+doorbell+1st+gen&_sop=12"
+    },
+    {
+      "query": "ring battery doorbell",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ring+battery+doorbell&_sop=12"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Ring+Video+Doorbell&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}
