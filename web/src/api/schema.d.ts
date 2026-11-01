@@ -966,15 +966,8 @@ export interface operations {
           'application/json': components['schemas']['SignInSession']
         }
       }
-      /** @description The username or password is wrong */
+      /** @description The sign-in was refused */
       401: {
-        headers: {
-          [name: string]: unknown
-        }
-        content?: never
-      }
-      /** @description The account is deactivated */
-      403: {
         headers: {
           [name: string]: unknown
         }

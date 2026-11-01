@@ -23,8 +23,22 @@ One row per person who can sign in.
 | `is_active` | `boolean` | Default true, false once a manager deactivates the account |
 | `must_change_password` | `boolean` | Default false, true while the API should refuse the person until they choose their own password |
 | `invited_at` | `timestamptz` | Optional, when a manager emailed an invite, which tells an invited person from one given a temporary password |
+| `temporary_password_issued_at` | `timestamptz` | Optional, when Auth accepted the latest temporary password, on Auth's clock, and kept after the person chooses their own so older sessions stay refused |
 | `created_at` | `timestamptz` | Set by the database |
 | `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
+
+### `sign_in_attempts`
+
+One row per username sign-in that was wrong or is still waiting for Auth's answer, which is what `POST /auth/sign-in` counts.
+Rows older than the 5 minute window are deleted as new attempts arrive, a right password deletes that username's rows, and an attempt where Auth gave no answer about the password is deleted too.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `username_hash` | `text` | Required, the SHA-256 of the lowercase username, because people sometimes type a password into that box, and indexed with `attempted_at` |
+| `attempted_at` | `timestamptz` | Set by the database, indexed for clearing expired rows |
+
+It has no foreign key to `profiles`, because an unknown username has to be limited in the same way as a real one.
 
 ### `items`
 
@@ -208,5 +222,16 @@ The `email` column stays empty for that person.
 While `must_change_password` is true, the API answers every signed-in route with a 403 except `GET /me` and `POST /me/password`, and the web app sends the person to the Choose your password page.
 The flag lives in `profiles` rather than in Auth's user metadata, because a signed-in person can write their own metadata from the browser.
 
+Every signed-in route answers a 401 for a token issued before `temporary_password_issued_at`, including `POST /me/password`, so a session opened before a reissue can't set the new password.
+Auth ended those sessions itself when we tested version 2.197.0, and this check keeps the rule on our side too.
+Tokens record whole seconds, so a token from the same second as the reissue still passes.
+
 A username sign-in goes to `POST /auth/sign-in`, where the API finds the person's Auth address, so that address never reaches the browser.
 An email sign-in goes straight from the browser to Supabase, as it did before, and any existing Auth address keeps working this way.
+
+A wrong password, an unknown username and a turned-off account all get the same answer on both paths, so sign-in can't show that a password was right.
+A person who was already signed in when they were deactivated still gets a clear message from the API, because they have already proved who they are.
+
+After 10 wrong passwords in 5 minutes, `POST /auth/sign-in` answers a 429 for that username without asking Auth, until the oldest of them is 5 minutes old or the right password has cleared them.
+The count is in `sign_in_attempts`, so it survives a restart and is shared by every API process.
+Supabase Auth has its own limit on email sign-ins, which come straight from the browser and don't pass through this count.
