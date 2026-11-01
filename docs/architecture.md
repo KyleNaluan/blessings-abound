@@ -23,7 +23,7 @@ Update it in the same pull request whenever one of them changes.
 | Background work | An in-process scheduler and a `jobs` table in Postgres | It handles polling, retries and AI calls without a separate worker to host. |
 | Photo storage | Local folder or Supabase Storage | One interface in `api/app/storage.py`, with the backend picked by settings. |
 | Hosting | Cloudflare Pages for the frontend, Render for the API and mock channels, Supabase for the database and photos | Each has a free tier that fits a student demo. |
-| Keeping the demo up | A free external pinger, and an offline `docker compose` demo with cached lookups and fixture responses | An idle free service stops polling and can miss webhooks, and the offline demo works with no keys or Wi-Fi. |
+| Keeping the demo up | A scheduled GitHub Actions ping on our self-hosted runner, and an offline `docker compose` demo with a local stand-in and fixture responses | An idle free service stops polling and can miss webhooks, and the offline demo works with no keys or Wi-Fi. |
 | Python tooling | ruff and pyright | Fast lint, format and type checks with little configuration. |
 | Frontend tooling | ESLint, Prettier, `tsc` and Vitest | The standard checks for a Vite and React project. |
 | Checks | pre-commit hooks and GitHub Actions | The same lint, type checks and tests run on every commit and every pull request. |
@@ -34,7 +34,7 @@ Update it in the same pull request whenever one of them changes.
 | --- | --- | --- |
 | Database | Postgres 17 in Docker Compose | Supabase Postgres 17 |
 | Photo storage | Local folder | Supabase Storage |
-| API | `docker compose up` on each laptop | Render, up to three services with the two mock channels |
+| API | `docker compose up` on each laptop | Render, one service today, up to three with the two mock channels |
 | Frontend | `npm run dev` on each laptop | Cloudflare Pages |
 
 Development and tests use a local database, so each of us can reset data and run migrations without touching the shared demo or needing a network connection.
@@ -43,14 +43,15 @@ The demo reads its connection details from environment variables, so the code is
 
 The Cloudflare Pages project `blessings-abound` builds the frontend from `main` with root directory `web`, build command `npm run build` and output directory `dist`, and serves it at https://blessings-abound.pages.dev.
 Every pull request gets its own preview link from Pages, and nobody needs a Cloudflare account to open it.
-The build uses the Node version in `web/.nvmrc`, and `VITE_API_URL` goes in the Pages project's environment variables once the Render API exists, along with `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` for sign-in.
+The build uses the Node version in `web/.nvmrc`, and `VITE_API_URL`, `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` are in the Pages project's production environment variables.
+The API runs as the free Render service `blessings-abound-api` at https://blessings-abound-api.onrender.com, and the steps are in the [README](../README.md#hosted-demo).
 Each site's `/choose-password` address must be in the Supabase Auth redirect list for reset and invite links to work.
 Pages serves `index.html` for any path without a file, because the build has no `404.html`, so the app needs no rewrite config.
 
 The hosted demo follows these steps:
 
-- Connect to Supabase with the direct or session connection string, because the transaction pooler needs prepared statements disabled for psycopg (`prepare_threshold=None`).
-- Start each Render service with `alembic upgrade head && uvicorn ...`, so Supabase receives migrations only after merge.
+- Connect to Supabase with the session pooler on port 5432, which works over IPv4, because the transaction pooler needs prepared statements disabled for psycopg (`prepare_threshold=None`).
+- Start each Render service with `alembic upgrade head && uvicorn ...`, which is the command in `api/Dockerfile`, so Supabase receives migrations only after merge.
 - Before judging, reset the demo data with a rerunnable seed script, compare the structure with `pg_dump --schema-only`, and back up Supabase the day before.
 - Wake Supabase and every Render service before judging, because free Supabase projects pause after about a week of inactivity.
 
@@ -196,3 +197,6 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Answer a wrong password, an unknown username and a turned-off account with one message, and count a turned-off account's tries like any others, because a different message or a limit that never arrives would show whether a password was right or an account exists.
 - 2026-11-01: Refuse a token issued before `temporary_password_issued_at` on every signed-in route, and take that time from Auth's own reply rather than the API's clock, because the token's issue time is on Auth's clock. Auth 2.197.0 already ends old sessions when an admin changes a password, so this is a second check rather than the only one.
 - 2026-11-01: Grow the fresh set to 30 games and hardware items with 15 picked to be harder, and report each batch beside the total, so the first batch's easier items can't hide the harder ones and the total can't be read as a random sample. The factor and percentiles stayed frozen even though asking prices ran a median 1.16 times the reference on the 30.
+- 2026-11-01: Run the keep-alive ping as a scheduled GitHub Actions job on the self-hosted runner rather than an outside pinger service, because it needs no new account and spends no paid minutes, and accept that it stops while that PC is off, since a sleeping service still wakes in about a minute.
+- 2026-11-01: Point the offline demo at a local stand-in for Supabase, the vision model and SerpApi rather than adding an offline switch to the app, so no setting in the deployed code can turn sign-in off.
+- 2026-11-01: Report the deployed commit on `/health` from Render's `RENDER_GIT_COMMIT`, so anyone can check from outside which commit is live.
