@@ -24,7 +24,7 @@ GAME = ItemFacts(
 )
 
 
-def comp(title: str, price_cents: int | None = 5000, condition: str | None = "Pre-Owned") -> Comp:
+def comp(title: str, price_cents: int = 5000, condition: str | None = "Pre-Owned") -> Comp:
     return Comp(
         item_id=title,
         title=title,
@@ -236,11 +236,6 @@ def test_condition_filter(label: str | None, item: ItemFacts, expected: DropReas
     assert reason("Plain title", item, condition=label) is expected
 
 
-def test_listing_with_no_single_price_is_dropped() -> None:
-    title = "Nintendo Switch Console Only Rank select"
-    assert reason(title, SWITCH, price_cents=None) is DropReason.NO_SINGLE_PRICE
-
-
 def test_repeated_listing_is_dropped_once() -> None:
     title = "Levi's 501 Original Fit Jeans"
     result = filter_comps([comp(title), comp(title)], APPAREL)
@@ -266,4 +261,4 @@ def test_game_search_with_the_right_condition_ids_keeps_the_game() -> None:
     slug = "mario-kart-8-switch-game-conditions"
     result = filter_comps(load_comps(slug), ITEMS[slug])
     assert len(result.kept) == 59
-    assert [dropped.reason for dropped in result.dropped] == [DropReason.LOT]
+    assert result.dropped == []

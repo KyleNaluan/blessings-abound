@@ -154,7 +154,7 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Show staff their own decisions and managers everyone's in the recent decisions list, because `requirements.md` keeps every decision to managers.
 - 2026-11-01: Keep an item `appraised` after a yes and set it to `declined` after a no, because no status means "staff said yes" and `approved` belongs to the manager step.
 - 2026-11-01: Add a new `comp_searches` row on every refresh instead of overwriting the cached one, so the rows of the current month are the count of searches spent against `SERPAPI_MONTHLY_BUDGET` (default 240 of the free plan's 250), and the lookup refuses cleanly once that is spent.
-- 2026-11-01: Drop a listing that shows a from-to price instead of averaging the two ends, because that range spans different variants and no one is asking the midpoint.
+- 2026-11-01: Skip a listing that shows a from-to price in `parse_comps` instead of averaging the two ends, because that range spans different variants and no one is asking the midpoint.
 - 2026-11-01: Let plain sizes such as 34x32 or Large keep their comps and drop only tall, plus and petite cuts that staff did not enter, because a page of 60 listings spreads across many sizes and matching one exactly would leave too few comps to price.
 - 2026-11-01: Tell a game from a console by the card's product and platform, because both share the `electronics_games` category and a console's comps must drop games while a game's comps must drop consoles.
 - 2026-11-01: Show the net beside a "check" whenever comps gave a typical price, and leave it empty only with no comps, so staff can still see what a low-confidence item might clear.

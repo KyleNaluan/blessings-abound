@@ -11,13 +11,12 @@ from enum import StrEnum
 
 from pydantic import BaseModel, ConfigDict
 
+from app.comps import Comp
 from app.models import Category, Condition, Department
-from app.pricing import Comp
 
 
 class DropReason(StrEnum):
     DUPLICATE = "duplicate"
-    NO_SINGLE_PRICE = "no_single_price"
     CONDITION = "condition"
     PARTS = "parts"
     MODDED = "modded"
@@ -233,7 +232,6 @@ def _drop_reason(comp: Comp, item: ItemFacts) -> tuple[DropReason, str] | None:
         or _check_size_type(title, item)
         or _check_box(title, item)
         or _check_condition(comp, item)
-        or _check_price(comp)
     )
 
 
@@ -331,10 +329,4 @@ def _check_condition(comp: Comp, item: ItemFacts) -> tuple[DropReason, str] | No
     label = (comp.condition or "").strip().lower()
     if label in _KNOWN_LABELS and label not in _accepted_labels(item):
         return DropReason.CONDITION, f'listed as "{comp.condition}"'
-    return None
-
-
-def _check_price(comp: Comp) -> tuple[DropReason, str] | None:
-    if comp.price_cents is None:
-        return DropReason.NO_SINGLE_PRICE, "listing shows a price range across variants"
     return None

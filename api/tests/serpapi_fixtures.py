@@ -2,11 +2,10 @@
 
 import json
 from pathlib import Path
-from typing import Any
 
 from app.comp_filter import ItemFacts
+from app.comps import Comp, parse_comps
 from app.models import Category, Department
-from app.pricing import Comp
 
 FIXTURES = Path(__file__).parent / "fixtures" / "serpapi"
 
@@ -56,17 +55,5 @@ ITEMS = {
 }
 
 
-def _comp(result: dict[str, Any]) -> Comp:
-    extracted = result["price"].get("extracted")
-    return Comp(
-        item_id=result["product_id"],
-        title=result["title"],
-        url=result["link"],
-        condition=result.get("condition"),
-        price_cents=None if extracted is None else round(extracted * 100),
-    )
-
-
 def load_comps(slug: str) -> list[Comp]:
-    response = json.loads((FIXTURES / f"{slug}.json").read_text())
-    return [_comp(result) for result in response["organic_results"]]
+    return parse_comps(json.loads((FIXTURES / f"{slug}.json").read_text()))

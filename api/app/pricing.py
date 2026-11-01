@@ -5,27 +5,15 @@ The functions here are pure: they take comps and rules and touch no database or 
 
 import math
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel
 
+from app.comps import Comp
 from app.models import Confidence, Recommendation
 from app.settings import PricingRules
 
 LOW_PERCENTILE = 0.25
 TYPICAL_PERCENTILE = 0.50
 HIGH_PERCENTILE = 0.75
-
-
-class Comp(BaseModel):
-    """One active eBay listing, with an asking price in cents."""
-
-    model_config = ConfigDict(frozen=True)
-
-    item_id: str
-    title: str
-    url: str
-    condition: str | None = None
-    # None when the listing shows a from-to range across variants instead of one price.
-    price_cents: int | None = Field(default=None, gt=0)
 
 
 class PriceRange(BaseModel):
@@ -46,7 +34,8 @@ class WorthListing(BaseModel):
 
 def price_range(comps: list[Comp], rules: PricingRules) -> PriceRange:
     """Trim outliers, take the percentiles and scale asking prices to expected sale prices."""
-    priced = [comp for comp in comps if comp.price_cents is not None]
+    # A free listing says nothing about a sale price, and the trim takes the log of every price.
+    priced = [comp for comp in comps if comp.price_cents > 0]
     kept, trimmed = _trim_outliers(priced, rules)
     if not kept:
         return PriceRange(
@@ -58,7 +47,7 @@ def price_range(comps: list[Comp], rules: PricingRules) -> PriceRange:
             confidence=Confidence.LOW,
         )
 
-    prices = sorted(_price(comp) for comp in kept)
+    prices = sorted(comp.price_cents for comp in kept)
     low = _percentile(prices, LOW_PERCENTILE)
     typical = _percentile(prices, TYPICAL_PERCENTILE)
     high = _percentile(prices, HIGH_PERCENTILE)
@@ -91,25 +80,19 @@ def worth_listing(price: PriceRange, rules: PricingRules) -> WorthListing:
     return WorthListing(recommendation=recommendation, net_after_fees_cents=net)
 
 
-def _price(comp: Comp) -> int:
-    if comp.price_cents is None:
-        raise ValueError(f"Comp {comp.item_id} has no single price")
-    return comp.price_cents
-
-
 def _trim_outliers(comps: list[Comp], rules: PricingRules) -> tuple[list[Comp], list[Comp]]:
     """Tukey fences on log price, skipped when too few comps remain to judge an outlier."""
     if len(comps) < rules.tukey_min_comps:
         return comps, []
 
-    logs = sorted(math.log(_price(comp)) for comp in comps)
+    logs = sorted(math.log(comp.price_cents) for comp in comps)
     first = _percentile(logs, LOW_PERCENTILE)
     third = _percentile(logs, HIGH_PERCENTILE)
     margin = rules.tukey_fence_multiplier * (third - first)
     kept: list[Comp] = []
     trimmed: list[Comp] = []
     for comp in comps:
-        inside = first - margin <= math.log(_price(comp)) <= third + margin
+        inside = first - margin <= math.log(comp.price_cents) <= third + margin
         (kept if inside else trimmed).append(comp)
     return kept, trimmed
 

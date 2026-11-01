@@ -1,8 +1,9 @@
 import pytest
 
 from app.comp_filter import filter_comps
+from app.comps import Comp
 from app.models import Confidence, Recommendation
-from app.pricing import Comp, PriceRange, price_range, worth_listing
+from app.pricing import PriceRange, price_range, worth_listing
 from app.settings import PricingRules, Settings
 from tests.serpapi_fixtures import ITEMS, load_comps
 
@@ -35,9 +36,9 @@ def test_no_comps_gives_no_prices_and_low_confidence() -> None:
     assert result.confidence is Confidence.LOW
 
 
-def test_comp_with_no_single_price_is_not_priced() -> None:
-    no_price = Comp(item_id="1", title="title", url="https://example.com")
-    assert price_range([no_price], RULES).comps_count == 0
+def test_free_listing_is_not_priced() -> None:
+    assert price_range(comps(0), RULES).comps_count == 0
+    assert price_range(comps(0, 1000, 1100, 1200, 1300), NO_FACTOR).comps_count == 4
 
 
 def test_one_comp_is_every_percentile_and_low_confidence() -> None:
