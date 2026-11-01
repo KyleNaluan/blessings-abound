@@ -57,6 +57,12 @@ export async function choosePassword(password: string): Promise<string | null> {
   })
 }
 
-export async function signOut() {
-  await supabase?.auth.signOut()
+export async function signOut(): Promise<string | null> {
+  if (!supabase) return null
+  try {
+    const { error } = await supabase.auth.signOut()
+    return message(error)
+  } catch {
+    return UNREACHABLE
+  }
 }
