@@ -176,7 +176,6 @@ Each assumption is a guess the team made in order to keep building, and the clie
 
 - Whether the client's volunteers have email addresses, which decides how much the username and temporary-password path matters.
 - Who creates the Render, Cloudflare, Supabase, Groq, Gemini and SerpApi accounts ([#6](https://github.com/KyleNaluan/blessings-abound/issues/6)).
-- Whether Groq's vision model is fast enough and returns strict JSON, which is still untested, with Gemini as the fallback ([#7](https://github.com/KyleNaluan/blessings-abound/issues/7)).
 - What goes in the seasonal calendar table and the standard box sizes list ([#41](https://github.com/KyleNaluan/blessings-abound/issues/41)).
 - Who owns each workstream.
 - Whether the current free-tier terms for Render, Cloudflare Pages and Supabase still fit, and what the AI mentor counts as hosted and when it must be up.
