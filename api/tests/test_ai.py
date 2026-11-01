@@ -34,7 +34,12 @@ def test_get_chat_model_requires_configuration() -> None:
 def test_fallback_model_is_optional() -> None:
     from app.ai import get_fallback_chat_model
 
-    assert get_fallback_chat_model(Settings(ai_fallback_base_url=None)) is None
+    assert (
+        get_fallback_chat_model(
+            Settings(ai_fallback_base_url=None, ai_fallback_model=None, ai_fallback_api_key=None)
+        )
+        is None
+    )
     configured = Settings(
         ai_fallback_base_url="https://fallback.example.com/v1",
         ai_fallback_model="m",
