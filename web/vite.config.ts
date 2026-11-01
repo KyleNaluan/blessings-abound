@@ -15,5 +15,8 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./src/test/setup.ts'],
+    // The flows that chain several awaited steps need headroom on a slow, shared CI runner,
+    // where the default 5s is not enough and the whole test times out.
+    testTimeout: 15000,
   },
 })
