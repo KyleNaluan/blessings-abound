@@ -8,7 +8,15 @@ import pytest
 from sqlalchemy import Connection, text
 from sqlalchemy.exc import DataError, IntegrityError, ProgrammingError
 
-TABLES = ["profiles", "items", "item_cards", "appraisals", "decisions", "alembic_version"]
+TABLES = [
+    "profiles",
+    "items",
+    "item_cards",
+    "appraisals",
+    "decisions",
+    "comp_searches",
+    "alembic_version",
+]
 # The net after fees is the one cents column allowed below zero, see docs/database.md.
 SIGNED_CENTS_COLUMNS = {"net_after_fees_cents"}
 
@@ -110,7 +118,7 @@ def test_price_range_must_be_ordered(connection: Connection) -> None:
 
 def test_every_time_column_carries_a_time_zone(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_at")
-    assert len(columns) == 8
+    assert len(columns) == 9
     assert {data_type for _, _, data_type in columns} == {"timestamp with time zone"}
 
 

@@ -148,3 +148,4 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Refuse anyone without an active profile, even with a good token, because the profile holds the role and a decision needs someone to point at.
 - 2026-11-01: Show staff their own decisions and managers everyone's in the recent decisions list, because `requirements.md` keeps every decision to managers.
 - 2026-11-01: Keep an item `appraised` after a yes and set it to `declined` after a no, because no status means "staff said yes" and `approved` belongs to the manager step.
+- 2026-11-01: Add a new `comp_searches` row on every refresh instead of overwriting the cached one, so the rows of the current month are the count of searches spent against `SERPAPI_MONTHLY_BUDGET` (default 240 of the free plan's 250), and the lookup refuses cleanly once that is spent.

@@ -265,3 +265,32 @@ class Decision(SQLModel, table=True):
             sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now(), index=True
         ),
     )
+
+
+class CompSearch(SQLModel, table=True):
+    """One SerpApi eBay response, kept so repeats and tests spend no searches.
+
+    A refresh adds a new row instead of replacing the old one, so the rows of the current month
+    are also the count of searches spent against the monthly budget.
+    """
+
+    __tablename__ = "comp_searches"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.Index(
+            "ix_comp_searches_lookup", "engine", "query", "condition", "buying_format", "fetched_at"
+        ),
+    )
+
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    engine: str = Field(sa_type=sa.Text)
+    query: str = Field(sa_type=sa.Text)
+    # The eBay condition ids joined with "|", as sent in LH_ItemCondition.
+    condition: str = Field(sa_type=sa.Text)
+    buying_format: str = Field(sa_type=sa.Text)
+    response: dict[str, Any] = Field(sa_column=sa.Column(JSONB, nullable=False))
+    fetched_at: datetime = Field(
+        default=None,
+        sa_column=sa.Column(
+            sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now()
+        ),
+    )
