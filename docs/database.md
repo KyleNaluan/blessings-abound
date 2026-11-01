@@ -32,11 +32,11 @@ Each item is one of a kind.
 | Column | Type | Rules |
 | --- | --- | --- |
 | `id` | `uuid` | Primary key |
-| `sku` | `text` | Required, unique |
+| `sku` | `text` | Required, unique, and a placeholder from the walking skeleton until #37 |
 | `lister_id` | `uuid` | Required, foreign key to `profiles` |
 | `status` | `varchar(32)` | `intake`, `card_ready`, `appraised`, `declined`, `approved`, `held_for_season`, `listed`, `sold` or `picked`, default `intake` |
 | `photo_keys` | `text[]` | Storage keys, 1 to 4 of them |
-| `photo_hash` | `text` | Required and indexed for the duplicate guard, not unique because a repeat photo prompts staff rather than being refused |
+| `photo_hash` | `text` | Required and indexed for the duplicate guard, not unique because a repeat photo prompts staff rather than being refused, and a placeholder from the walking skeleton until #9 |
 | `notes` | `text` | Optional |
 | `created_at` | `timestamptz` | Set by the database |
 | `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
@@ -139,6 +139,11 @@ It is safe to run again:
 - If an earlier run created the Auth user but stopped before the profile, it keeps that user and its password and adds the profile.
 - If an existing account disagrees with the settings, it changes nothing and exits with an error, and the same goes for an Auth user with that email whose address is unconfirmed.
 - If `DATABASE_URL` and `SUPABASE_URL` point at different environments, one local and one hosted, it refuses to start.
+
+## A local profile
+
+The API refuses anyone without an active profile, and until #31 manages accounts, `api/app/seed_local_profile.py` gives an existing Auth user a profile on a developer's own database, as the [README](../README.md#setup) shows.
+It refuses any database that isn't local, so it can't touch the shared demo.
 
 ## Turning off public sign-up
 

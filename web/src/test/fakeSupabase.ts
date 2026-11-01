@@ -19,6 +19,7 @@ const auth = {
     queueMicrotask(() => listener('INITIAL_SESSION', current))
     return { data: { subscription: { unsubscribe: () => listeners.delete(listener) } } }
   }),
+  getSession: vi.fn(async () => ({ data: { session: current }, error: null })),
   signInWithPassword: vi.fn(),
   resetPasswordForEmail: vi.fn(),
   updateUser: vi.fn(),

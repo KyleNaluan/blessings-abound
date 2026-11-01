@@ -7,6 +7,7 @@ from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 from sqlmodel import Session
 
+from app.appraisal import router as appraisal_router
 from app.db import get_session
 from app.settings import get_settings
 
@@ -18,6 +19,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(appraisal_router)
 
 
 class HealthStatus(BaseModel):

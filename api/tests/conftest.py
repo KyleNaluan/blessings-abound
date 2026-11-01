@@ -3,8 +3,9 @@ from urllib.parse import urlsplit
 
 import pytest
 from sqlalchemy import Connection
-from sqlmodel import Session
+from sqlmodel import Session, SQLModel
 
+from app import models  # noqa: F401, so SQLModel.metadata lists every table
 from app.db import get_engine
 from app.settings import get_settings
 
@@ -21,9 +22,14 @@ def refuse_hosted_database() -> None:
 
 @pytest.fixture
 def connection() -> Iterator[Connection]:
-    """A connection whose work is rolled back at the end of the test, so tests leave no rows."""
+    """A connection on empty tables whose work is rolled back at the end of the test.
+
+    Tests see no rows from a developer's own local data, and that data is back afterwards.
+    """
     with get_engine().connect() as connection:
         transaction = connection.begin()
+        for table in reversed(SQLModel.metadata.sorted_tables):
+            connection.execute(table.delete())
         yield connection
         if transaction.is_active:
             transaction.rollback()

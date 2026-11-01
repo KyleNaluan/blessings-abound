@@ -4,6 +4,94 @@
  */
 
 export interface paths {
+  '/items': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /** Create Item */
+    post: operations['create_item']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/card': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /** Create Item Card */
+    post: operations['create_item_card']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/appraisals': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /** Create Appraisal */
+    post: operations['create_appraisal']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/decisions': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /** Create Decision */
+    post: operations['create_decision']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/decisions': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * List Decisions
+     * @description Newest first. Managers see every decision and staff see their own.
+     */
+    get: operations['list_decisions']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/health': {
     parameters: {
       query?: never
@@ -42,6 +130,128 @@ export interface paths {
 export type webhooks = Record<string, never>
 export interface components {
   schemas: {
+    /** AppraisalRead */
+    AppraisalRead: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Price Low Cents */
+      price_low_cents: number | null
+      /** Price Typical Cents */
+      price_typical_cents: number | null
+      /** Price High Cents */
+      price_high_cents: number | null
+      /** Net After Fees Cents */
+      net_after_fees_cents: number | null
+      /** Comps Count */
+      comps_count: number
+      confidence: components['schemas']['Confidence']
+      recommendation: components['schemas']['Recommendation']
+      /** Rules Config */
+      rules_config: {
+        [key: string]: unknown
+      }
+      /** Explanation */
+      explanation: string | null
+      /**
+       * Created At
+       * Format: date-time
+       */
+      created_at: string
+    }
+    /** Body_create_item */
+    Body_create_item: {
+      /** Photo */
+      photo: string
+    }
+    /**
+     * Category
+     * @enum {string}
+     */
+    Category: 'apparel' | 'electronics_games'
+    /**
+     * Condition
+     * @enum {string}
+     */
+    Condition: 'new_with_tags' | 'new_without_tags' | 'pre_owned'
+    /**
+     * Confidence
+     * @enum {string}
+     */
+    Confidence: 'low' | 'medium' | 'high'
+    /**
+     * DecisionChoice
+     * @enum {string}
+     */
+    DecisionChoice: 'yes' | 'no'
+    /** DecisionRead */
+    DecisionRead: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /**
+       * Appraisal Id
+       * Format: uuid
+       */
+      appraisal_id: string
+      decision: components['schemas']['DecisionChoice']
+      /** Override Reason */
+      override_reason: string | null
+      /** Note */
+      note: string | null
+      /**
+       * Decided By
+       * Format: uuid
+       */
+      decided_by: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+    }
+    /** DecisionRequest */
+    DecisionRequest: {
+      /**
+       * Appraisal Id
+       * Format: uuid
+       */
+      appraisal_id: string
+      decision: components['schemas']['DecisionChoice']
+      /** Override Reason */
+      override_reason?: string | null
+      /** Note */
+      note?: string | null
+    }
+    /**
+     * Department
+     * @enum {string}
+     */
+    Department: 'mens' | 'womens' | 'kids'
+    /**
+     * Flaw
+     * @enum {string}
+     */
+    Flaw: 'stains' | 'tears' | 'scuffs' | 'missing_parts'
+    /** HTTPValidationError */
+    HTTPValidationError: {
+      /** Detail */
+      detail?: components['schemas']['ValidationError'][]
+    }
     /** HealthStatus */
     HealthStatus: {
       /**
@@ -49,6 +259,150 @@ export interface components {
        * @enum {string}
        */
       status: 'ok' | 'unavailable'
+    }
+    /** ItemCardRead */
+    ItemCardRead: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      category: components['schemas']['Category']
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      /** Visible Text */
+      visible_text: string | null
+      /** Search Query */
+      search_query: string
+      model_confidence: components['schemas']['Confidence']
+      condition: components['schemas']['Condition']
+      department: components['schemas']['Department'] | null
+      /** Size */
+      size: string | null
+      /** Size Type */
+      size_type: string | null
+      /** Flaws */
+      flaws: components['schemas']['Flaw'][]
+      /** Tested Working */
+      tested_working: boolean | null
+      /** Complete In Box */
+      complete_in_box: boolean | null
+      /** Accessories Included */
+      accessories_included: string | null
+      /** Color */
+      color: string | null
+      /** Material */
+      material: string | null
+      /** Exact Model */
+      exact_model: string | null
+      /** Platform */
+      platform: string | null
+      /** Staff Edited */
+      staff_edited: boolean
+    }
+    /**
+     * ItemCardRequest
+     * @description What staff enter, because the model cannot judge these from a photo.
+     */
+    ItemCardRequest: {
+      condition: components['schemas']['Condition']
+      department?: components['schemas']['Department'] | null
+      /** Size */
+      size?: string | null
+      /** Size Type */
+      size_type?: string | null
+      /**
+       * Flaws
+       * @default []
+       */
+      flaws: components['schemas']['Flaw'][]
+      /** Tested Working */
+      tested_working?: boolean | null
+      /** Complete In Box */
+      complete_in_box?: boolean | null
+      /** Accessories Included */
+      accessories_included?: string | null
+    }
+    /** ItemRead */
+    ItemRead: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      /** Sku */
+      sku: string
+      status: components['schemas']['ItemStatus']
+      /** Photo Keys */
+      photo_keys: string[]
+      /**
+       * Created At
+       * Format: date-time
+       */
+      created_at: string
+    }
+    /**
+     * ItemStatus
+     * @enum {string}
+     */
+    ItemStatus:
+      | 'intake'
+      | 'card_ready'
+      | 'appraised'
+      | 'declined'
+      | 'approved'
+      | 'held_for_season'
+      | 'listed'
+      | 'sold'
+      | 'picked'
+    /** RecentDecision */
+    RecentDecision: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      /** Price Typical Cents */
+      price_typical_cents: number | null
+      decision: components['schemas']['DecisionChoice']
+      /** Decided By Name */
+      decided_by_name: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+    }
+    /**
+     * Recommendation
+     * @enum {string}
+     */
+    Recommendation: 'yes' | 'no' | 'check'
+    /** ValidationError */
+    ValidationError: {
+      /** Location */
+      loc: (string | number)[]
+      /** Message */
+      msg: string
+      /** Error Type */
+      type: string
+      /** Input */
+      input?: unknown
+      /** Context */
+      ctx?: Record<string, never>
     }
   }
   responses: never
@@ -59,6 +413,171 @@ export interface components {
 }
 export type $defs = Record<string, never>
 export interface operations {
+  create_item: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'multipart/form-data': components['schemas']['Body_create_item']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      201: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  create_item_card: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ItemCardRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemCardRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  create_appraisal: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['AppraisalRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  create_decision: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['DecisionRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      201: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['DecisionRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_decisions: {
+    parameters: {
+      query?: {
+        limit?: number
+      }
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['RecentDecision'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
   get_health: {
     parameters: {
       query?: never

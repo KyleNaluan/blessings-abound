@@ -19,6 +19,7 @@ class Settings(BaseSettings):
 
     local_storage_dir: Path = Path("storage")
     supabase_url: str | None = None
+    supabase_anon_key: str | None = None
     supabase_service_role_key: str | None = None
     supabase_storage_bucket: str = "photos"
 

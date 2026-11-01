@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from 'react-router'
 
 import { AuthProvider } from '@/auth/AuthProvider'
 import { RequireAuth } from '@/auth/RequireAuth'
+import { AppraisalPage } from '@/pages/AppraisalPage'
 import { ChoosePasswordPage } from '@/pages/ChoosePasswordPage'
 import { ForgotPasswordPage } from '@/pages/ForgotPasswordPage'
 import { HomePage } from '@/pages/HomePage'
@@ -21,6 +22,14 @@ export default function App() {
           element={
             <RequireAuth>
               <HomePage />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/app/appraise"
+          element={
+            <RequireAuth>
+              <AppraisalPage />
             </RequireAuth>
           }
         />
