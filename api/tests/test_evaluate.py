@@ -168,7 +168,7 @@ def test_every_item_records_its_photo_license_and_price_source() -> None:
 
 def test_fresh_items_are_games_and_hardware_with_no_overlap_with_the_tuning_items() -> None:
     fresh = load_fresh_items()
-    assert 13 <= len(fresh) <= 17
+    assert len(fresh) == 30
     tuning = load_items()
     assert not {item.id for item in fresh} & {item.id for item in tuning}
     tuning_links = {getattr(item.reference, "url", None) for item in tuning}

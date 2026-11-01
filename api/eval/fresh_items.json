@@ -390,5 +390,403 @@
       "sales_volume": "2 sales per week"
     },
     "note": "The photo shows a PAL cartridge, and the price page is the US release."
+  },
+  {
+    "id": "mario-kart-double-dash",
+    "name": "Mario Kart: Double Dash!! for GameCube, disc only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Mario Kart Double Dash disc 20050606.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Mario_Kart_Double_Dash_disc_20050606.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Mario_Kart_Double_Dash_disc_20050606.jpg",
+      "sha1": "c9f0a0899728430ff9828d311ebd4ea063beb5d4",
+      "license": "CC BY-SA 3.0",
+      "author": "The original uploader was Schmitt at Portuguese Wikipedia."
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 5434,
+      "url": "https://www.pricecharting.com/game/gamecube/mario-kart-double-dash",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "3 sales per day"
+    },
+    "note": "The photo shows the disc beside a second disc lying face down and a pen, and the price is for one disc."
+  },
+  {
+    "id": "super-smash-bros-melee",
+    "name": "Super Smash Bros. Melee for GameCube, disc only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Super Smash Bros. Melee in a Gamecube.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Super_Smash_Bros._Melee_in_a_Gamecube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Super_Smash_Bros._Melee_in_a_Gamecube.jpg",
+      "sha1": "eedb72bdde3e7a7c27ee67f7b51abbac8c9e9e42",
+      "license": "CC BY-SA 4.0",
+      "author": "Maxime Lorant"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 4925,
+      "url": "https://www.pricecharting.com/game/gamecube/super-smash-bros-melee",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "3 sales per day"
+    },
+    "note": "The photo shows the disc inside an open GameCube, and the price is for the disc."
+  },
+  {
+    "id": "pokemon-black",
+    "name": "Pokemon Black for Nintendo DS, card only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Pokémon Black Version Translucent Cartridge Demonstration.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Pok%C3%A9mon_Black_Version_Translucent_Cartridge_Demonstration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Pok%C3%A9mon_Black_Version_Translucent_Cartridge_Demonstration.jpg",
+      "sha1": "7dfdaf7cf977bb48e57de718e97ce1431e91c958",
+      "license": "CC BY-SA 4.0",
+      "author": "Peter Placzek"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 7647,
+      "url": "https://www.pricecharting.com/game/nintendo-ds/pokemon-black",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "3 sales per day"
+    },
+    "note": "The photo shows a European card held up to a light, and the price page is the US release."
+  },
+  {
+    "id": "pokemon-red",
+    "name": "Pokemon Red for Game Boy, cartridge only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Cartucho Pokémon Edición Roja. Parte trasera.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Cartucho_Pok%C3%A9mon_Edici%C3%B3n_Roja._Parte_trasera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Cartucho_Pok%C3%A9mon_Edici%C3%B3n_Roja._Parte_trasera.jpg",
+      "sha1": "08a2feab9cbc3a7c1f74ccc810d5c4bd1ed508a7",
+      "license": "CC BY-SA 3.0",
+      "author": "MarianoBrajoy"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 5450,
+      "url": "https://www.pricecharting.com/game/gameboy/pokemon-red",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "8 sales per day"
+    },
+    "note": "The photo shows the back of a Spanish cartridge with no title on it, and the price page is the US release."
+  },
+  {
+    "id": "super-mario-bros",
+    "name": "Super Mario Bros. for NES, cartridge only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Super Mario Bros Nintendo trasera.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Super_Mario_Bros_Nintendo_trasera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Super_Mario_Bros_Nintendo_trasera.jpg",
+      "sha1": "f2b68a4bf77d09986bc2fd7c0ce06bc656688e26",
+      "license": "CC BY-SA 4.0",
+      "author": "Emilio J. Rodríguez Posada"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 1500,
+      "url": "https://www.pricecharting.com/game/nes/super-mario-bros",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "4 sales per day"
+    },
+    "note": "The photo shows the back of a European cartridge with no title on it, and the price page is the US release."
+  },
+  {
+    "id": "tetris-game-boy",
+    "name": "Tetris for Game Boy, cartridge only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Game Boy with Tetris cartridge.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Game_Boy_with_Tetris_cartridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Game_Boy_with_Tetris_cartridge.jpg",
+      "sha1": "d99b858918069658b84595f6c8d609ac709f5edc",
+      "license": "CC0",
+      "author": "Studio Alijn"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 1440,
+      "url": "https://www.pricecharting.com/game/gameboy/tetris",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "6 sales per day"
+    },
+    "note": "The photo shows a Game Boy beside the cartridge, and the price is for the cartridge."
+  },
+  {
+    "id": "super-mario-64",
+    "name": "Super Mario 64 for Nintendo 64, cartridge only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo 64 with a Mario 64 cartridge (7973388038).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Nintendo_64_with_a_Mario_64_cartridge_%287973388038%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo_64_with_a_Mario_64_cartridge_(7973388038).jpg",
+      "sha1": "a50e83458704b1046da568836d836a915dd43b8f",
+      "license": "CC BY 2.0",
+      "author": "Digital Game Museum"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 3876,
+      "url": "https://www.pricecharting.com/game/nintendo-64/super-mario-64",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "6 sales per day"
+    },
+    "note": "The photo shows the cartridge in a console, and the price is for the cartridge."
+  },
+  {
+    "id": "neo-geo-aes",
+    "name": "Neo Geo AES console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Neo-Geo-AES-FL.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Neo-Geo-AES-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Neo-Geo-AES-FL.jpg",
+      "sha1": "fbde2ee688b46cce513df2210843610617d6289a",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 98373,
+      "url": "https://www.pricecharting.com/game/neo-geo-aes/neo-geo-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per year"
+    }
+  },
+  {
+    "id": "turbografx-16",
+    "name": "TurboGrafx-16 console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "TurboGrafx16-Console-Set.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/TurboGrafx16-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:TurboGrafx16-Console-Set.jpg",
+      "sha1": "bdf5f54dec47cd4bc00e530296c96e339e8d5183",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 18654,
+      "url": "https://www.pricecharting.com/game/turbografx-16/turbografx-16-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per week"
+    }
+  },
+  {
+    "id": "virtual-boy",
+    "name": "Nintendo Virtual Boy console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Virtual-Boy-wController.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Virtual-Boy-wController.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Virtual-Boy-wController.jpg",
+      "sha1": "a64b78189d406dc7a7c8f39f074eb98deaa05c75",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 39868,
+      "url": "https://www.pricecharting.com/game/virtual-boy/virtual-boy-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per week"
+    }
+  },
+  {
+    "id": "atari-jaguar",
+    "name": "Atari Jaguar console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Atari-Jaguar-Console-Set.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Atari-Jaguar-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Atari-Jaguar-Console-Set.jpg",
+      "sha1": "6838bc1739488ddbca285eaff58909a5bffc902a",
+      "license": "CC BY-SA 3.0",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 47279,
+      "url": "https://www.pricecharting.com/game/jaguar/atari-jaguar-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per week"
+    }
+  },
+  {
+    "id": "wii-balance-board",
+    "name": "Wii Balance Board",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "The Wii-Fit Board.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/The_Wii-Fit_Board.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Wii-Fit_Board.jpg",
+      "sha1": "7f39e1442a4c394c12648f497f9a3eb5bdeebc31",
+      "license": "CC BY-SA 2.0",
+      "author": "Ryo"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 2150,
+      "url": "https://www.pricecharting.com/game/wii/wii-balance-board",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "2 sales per week"
+    }
+  },
+  {
+    "id": "kinect-xbox-360",
+    "name": "Kinect sensor for Xbox 360",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Kinect sensor for Xbox 360 (2015-12-28 16.26.04 by Antonio Roberts).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kinect_sensor_for_Xbox_360_%282015-12-28_16.26.04_by_Antonio_Roberts%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Kinect_sensor_for_Xbox_360_(2015-12-28_16.26.04_by_Antonio_Roberts).jpg",
+      "sha1": "fe91452a25818da25361e039efcee92ed00b5fff",
+      "license": "CC BY-SA 2.0",
+      "author": "Antonio Roberts from Birmingham, Britain"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 1352,
+      "url": "https://www.pricecharting.com/game/xbox-360/kinect-sensor",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per month"
+    },
+    "note": "The photo shows the sensor with its power adapter."
+  },
+  {
+    "id": "ps2-memory-card-red",
+    "name": "PlayStation 2 8MB memory card, red",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "PlayStation 2 red Memory Card.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/PlayStation_2_red_Memory_Card.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:PlayStation_2_red_Memory_Card.JPG",
+      "sha1": "501f0abe5c4116efc6e9e235a693fd942672b4f6",
+      "license": "CC BY 4.0",
+      "author": "Santeri Viinamäki"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 843,
+      "url": "https://www.pricecharting.com/game/playstation-2/8mb-memory-card-red",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per month"
+    }
+  },
+  {
+    "id": "guitar-hero-les-paul",
+    "name": "Guitar Hero Les Paul wireless guitar for Xbox 360",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Guitar Hero 3 - black controller for Xbox 360.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Guitar_Hero_3_-_black_controller_for_Xbox_360.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Guitar_Hero_3_-_black_controller_for_Xbox_360.jpg",
+      "sha1": "c3c25e7d9da7255717b31d81987afa323ccea0c4",
+      "license": "Public domain",
+      "author": "Chipotlehero at English Wikipedia"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 6574,
+      "url": "https://www.pricecharting.com/game/xbox-360/guitar-hero-wireless-les-paul-controller",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per month"
+    }
   }
 ]
