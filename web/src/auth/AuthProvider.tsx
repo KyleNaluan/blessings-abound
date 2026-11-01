@@ -1,10 +1,15 @@
-import { useEffect, useState, type ReactNode } from 'react'
+import { useCallback, useEffect, useState, type ReactNode } from 'react'
+import type { Session } from '@supabase/supabase-js'
 
-import { AuthContext, type AuthState } from './AuthContext'
+import { AuthContext } from './AuthContext'
 import { supabase } from './supabase'
 
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [state, setState] = useState<AuthState>({ loading: supabase !== null, session: null })
+  const [state, setState] = useState<{ loading: boolean; session: Session | null }>({
+    loading: supabase !== null,
+    session: null,
+  })
+  const [signingOut, setSigningOut] = useState(false)
 
   useEffect(() => {
     if (!supabase) return
@@ -15,5 +20,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return () => data.subscription.unsubscribe()
   }, [])
 
-  return <AuthContext value={state}>{children}</AuthContext>
+  const beginSignOut = useCallback(() => setSigningOut(true), [])
+  const endSignOut = useCallback(() => setSigningOut(false), [])
+
+  return (
+    <AuthContext value={{ ...state, signingOut, beginSignOut, endSignOut }}>{children}</AuthContext>
+  )
 }

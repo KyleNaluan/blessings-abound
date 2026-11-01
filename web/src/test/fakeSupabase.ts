@@ -5,6 +5,8 @@ import type { AuthChangeEvent, Session } from '@supabase/supabase-js'
 
 type Listener = (event: AuthChangeEvent, session: Session | null) => void
 
+type SignOutResult = { error: { code?: string; message?: string; status?: number } | null }
+
 const listeners = new Set<Listener>()
 let current: Session | null = null
 
@@ -23,7 +25,9 @@ const auth = {
   signInWithPassword: vi.fn(),
   resetPasswordForEmail: vi.fn(),
   updateUser: vi.fn(),
-  signOut: vi.fn(async () => {
+  signOut: vi.fn(async (): Promise<SignOutResult> => {
+    // The real client makes a network call first, so the event never lands inside the click that asked for it.
+    await new Promise((resolve) => setTimeout(resolve))
     emit('SIGNED_OUT', null)
     return { error: null }
   }),
