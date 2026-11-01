@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "game controller",
+    "visible_text": "Nintendo",
+    "search_query": "Nintendo 64 controller grey",
+    "model_confidence": "high",
+    "color": "grey",
+    "material": null,
+    "exact_model": "Nintendo 64",
+    "platform": "Nintendo 64"
+  }
+}

@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Nintendo Game Boy handheld console",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 9900,
+ "organic_results": [
+  {
+   "title": "Original Nintendo Game Boy Gameboy DMG DMG-01 Handheld Console Gray Restored",
+   "price": {
+    "raw": "$119.95",
+    "extracted": 119.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227498526105?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDSKKH7QTW2FNH5RDVC&hash=item34f7f80599%3Ag%3AY24AAeSwvDhqihhi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FCU2r%2BaYSz1KQVix1CX5x64gMpedrjGdXlIrn2ZvC7HVIvhYDvue%2BepK0Z85DxV1cO8A8njrnvdDrcAov2cFpUGqtaoN2LI9luMQB46d%2BGNjETxPmIzFgoY5vujFjxuJRmGTb44IdY0tvVkaeh41YiJolFlmmDQNHzxP4oQHqDnSd%2BMvZMNpSLT2h49dIsVXsOcRAQ0U%2B97OmU3FkkWjw6Et5Si8TlzOIQfiMCxvFRAiQ70%2FgGEYzbHM9KhIrbuaZofUbVPVgVk8hFmW9ueT5xXiehCIZFhVKtb9HXD2yQygE47iqE3Jzpj6EssHCIpyY%3D%7Ctkp%3ABk9SR5anhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227498526105"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Near Mint Gray Handheld Console w/ 6 Games (WORKS)",
+   "price": {
+    "raw": "$250.00",
+    "extracted": 250.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227585685015?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDS2V6S4C37B8Z81K50&hash=item34fd29f617%3Ag%3AZiQAAeSwjqhq4Ke8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8VGK56uzNWK1vwCFOKQ8YGbZTM7XxKqB%2FTtjLOgO1V%2BUaAIb%2BEhbrtnfjJ%2FjaDfTVUnoA1wD%2FyeIctHlVj0XSdWPGe3Ipdg51PasA5TM4kakhjyBvuE9bJyhZr%2BaTdwrrFfWEDSqZhnm3fJ%2FPvyt%2FdjzXGQVqvfwag9mK7quyJ2WoFIlbzdkqQnrOoQ%2FgUbhcl8DXOLMPkVfIXUWBxHvBvawZQiwbT%2BI09%2F0G8Ade9ePNtaElDItafm%2F0tORBLrdSftu0%2FYFp%2Fe0wDGsxr0u7VsTfjV2ss%2F%2B6OEHQ3RkgRylqmpf24JncnGRFKskxwYT4%3D%7Ctkp%3ABFBMlqeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227585685015"
+  },
+  {
+   "title": "Nintendo Game Boy Handheld System Console Gray w/ Tetris Game Cartridge",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206664335215?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDS67RHCYPVVAHWY7JK&hash=item301e277f6f%3Ag%3AJ%7EMAAeSw6N9q5RvC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B9j6yzMs4o5r%2Bzfgmj6hJbt9UDWeUbwuZmzHsuey%2Fb4xV4nz6DXeBMgGHm%2Fr8uLPt7ARcUNpGz402OZO2bxe--5U8slq%2FbXSwI0QU5xhMU%2FYxA8cFOJtJ%2BB055Z36MzeosWlrOyBmnD09NwBEf%2BbKEsGBKsOTL5XMNaUgnl2xVArYnG1Dt6EdJSHNfkYXQeUzZssbYNzGfi%2BD4BaFjm9aqyHwyNsOgD9AEcfSAkDO7%2B26%2BBnoRXSCcipXSP5iLX9CuSKdUn19YxbgqmrOIRUVcG7XyJEORc3msyZhTecg0uAfzWQ4XcJjdWH4rhT%2BqJeo%3D%7Ctkp%3ABFBMlqeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206664335215"
+  },
+  {
+   "title": "TESTED Nintendo Game Boy Handheld Game Console DMG-01 Gray",
+   "price": {
+    "raw": "$90.00",
+    "extracted": 90.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128156972020?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDSA6RDM3GFFTC9BNW3&hash=item1dd6c033f4%3Ag%3ACVIAAeSwrBhq3v2m&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8k25Wd%2FrcJ5QG5%2Ft9R2QlzungP9N0ACeUh0SQW5x1aIZl2vNd%2FlL7VKvzGUODEEeYRILsf0jNH7MqSQxtEmW4Un8%2BvXH6jpEGqI8CZKoI%2FajByshYIFrYFUubsQ62iWWEdfStuqDK7A%2BdLSrsLI0zqAchCjzBobW8g5sPVo0LanG9LAqUaGo3d5bq%2F9yy6duKUxQNxbXM0APIkv4yKtbKp%2BK0XXU5TRoPgsrfT7WDFOlvqI762U%2F%2B5WQqaMXt93A9giZPOfYwN6ilk9kwnRw9ezk2D%2BbRAd%2Baf1xauFKbBf3Ga3Fn2eFl65MIcXqufcWk%3D%7Ctkp%3ABFBMlqeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128156972020"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket Blue Console Handheld System Tested OEM MGB-001",
+   "price": {
+    "raw": "$42.00",
+    "extracted": 42.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198762592290?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDSJGCH9X85JA9ZQ4BF&hash=item2e472c7822%3Ag%3AeN8AAeSwEydq50KA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8GvkoD0yH559hCoTAMvFsp3riP%2B1k9caZJth%2BmsDyCk82Nu0NDNdqPIxjTKAQw%2FJWMmwohQU3uAg3Mn89aVeopKkO5Ev%2B27kyqiVYXB2Gvj9vz5HHmpblHaoWdOBH7%2FFjyLuT6hcEp0etAsZOoXpmuRDS5j0zUh1E3oe92rTA%2F3%2FMYi%2F1hPWi7R3KkBCjC%2Bs7SpgNxElv2C9hg9uLsuyjtCn3LmZ%2FRf5BW7xnb6op2E9A6%2FPiJ0vJfKPiN2Fuxz8psrcFRxZ9PJa%2FxrzczQ0ETnmumOa4ThyKr7Zs1vhKrXVOSEHApITLGjwomhiPEzkc%3D%7Ctkp%3ABk9SR5anhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198762592290"
+  },
+  {
+   "title": "Original Nintendo Game Boy, Handheld Console. Plays fine.",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880068725389?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDTW4ETSEYJJGTV0PS2&hash=itemcce82f0a8d%3Ag%3ATZ8AAeSwsZJq5h6h&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fa%2FWxlKc8ZUWtGzRZUSa59bDkcvOHhNUKGE9TTHZt8Y7YRzvWnZhfrfp%2Bs5PkmyY2wSlGYY7kLJPPJ8p2opOAfCsiXXZ%2FJyGcKGorMN70SFGq21Y2Si4w8Kn1VUxsN%2BZhlEF5WnrDKoEyiz%2FcehoSuipkytaeko26Pa16wPS63KaTjmTcpevHKXGcL%2FHQhpsE85n%2FZ3zq9zLLDt%2F68rhFshLqLsLKffR0KtDKXxaUGrMxW%2FECKD5BXril89SLAgvnFpjiZmrZRmyHnaeBEI2OG%7Ctkp%3ABk9SR5anhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880068725389"
+  },
+  {
+   "title": "ORIGINAL Nintendo Game Boy DMG-01 handheld console w/ Tetris game USA TESTED",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840076674041?_skw=Nintendo+Game+Boy+handheld+console&epid=1774829029&itmmeta=01M6C21JDT50QD5D9B1JR1868C&hash=itemc39878c3f9%3Ag%3AN5kAAeSw-Bxq5TYC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BebOVzyqr584SPLpt1jdOyUrDknd0tS0RsOeowZBiGypQcS4Q6OiQUPikcfNY%2BxbwQOdVoaCH0hIBqJL%2BKMBPqXfEjyL%2FLp0rnpI0rhinj4WslepX2Pg15JKLneEjZsMX2OK86neM%2FSN8qDJDtoc%2BJ3rD5np3UiQsOt6hcweuCAB%2FQAa6H75SWldQuFKNUEWKopynPiGZi8smrr%2FkgWAcf749oNDsYsMqWHHH%2B91Ve7%2BQEI3WK3ZY7mcaLdLR3TBJeoST64FUWdtFDMQJPhUoceQ1KQZd%2F6YCgODDRvlX8TuNTSMmphT5s%2FDF8iSXeSkA%3D%7Ctkp%3ABk9SR5anhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840076674041"
+  },
+  {
+   "title": "Original Nintendo Game Boy Gameboy DMG-01 Handheld Console (Tested Working)",
+   "price": {
+    "raw": "$78.75",
+    "extracted": 78.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840039195230?_skw=Nintendo+Game+Boy+handheld+console&epid=1774829029&itmmeta=01M6C21JDT7WFRS31WV4A4AP9F&hash=itemc3963ce25e%3Ag%3AzEQAAeSwIHRq1rLy&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BfdnTW1qgmTcrnzzs4CVkBAV1CV972zKzpF7ZyPhQ5zMWtl6tJeCaPktBb1ZdEc6Aez%2BO2PvqZbUhJrUaa5FD9b1Om1kqolc7mo9A9I0IZXioIuD1FQ%2B9KkXYfo16p9WMeF%2B4nMrC3lQCHwcR%2BGQ3baMZSkwzYE3qgEHgVtaZ5reTkzHTg8irR8MwCT%2BJNrB7JyD%2BFx%2Bxahfwl9KG0enpSpj%2Fmq6nqPQ1%2BIeErISjApzSFXn3tFO9CzWz88qThX0T6zbe6CPbs3tbieC2o%2FPXq%7Ctkp%3ABk9SR5anhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840039195230"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket Handheld Game Console Only MGB-001 Red Read",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860098722529?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDTQPHX28CVWJGC29PD&hash=itemc841e0fae1%3Ag%3AhMcAAeSwZypq5PjK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde86jB5nGfxeysXZ%2BF7PHtJFlDKrvutnzY%2Bh%2F2nROiITXZk3UprgjsoY1HyxViSNGSusH5C7F58h6nGt%2B7ykacqDigt%2FbPKB6e5UhSWleJdDYJ6sXwgsaX60EQwjLOgFYyvLqfKzJRcHgIJn1y0jGVtfTlV%2FXhmpT8jiL3i22%2BQIbR59juqbqYvrfD6luiZVoybZ4d6CFqFajuZOWhVh7OXfyw2BGhI3DMfueVc1GOKDqojUNZnDxwkUwi%2FOTNhBA5Xr%2F8eojliZNRXOg66hAapPkBzFsOE2bWbrnE83iXf9MqxRJ9UlGI%2BHDp4ZLx4A08s%3D%7Ctkp%3ABk9SR5anhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860098722529"
+  },
+  {
+   "title": "Original Nintendo Game Boy Gameboy DMG DMG-01 Handheld Console Gray Backlit!",
+   "price": {
+    "raw": "$159.95",
+    "extracted": 159.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227588893250?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDTVQBJY2GV7NMSQ4R3&hash=item34fd5aea42%3Ag%3AKSkAAeSwSA9q1Emv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FBe2wAvFP0rbo96tIpKakSHzKU4rp%2FfrIlAf4An11AO1DosMERN2fSKQOqSV7yQvbyibA0kIPF7P3r7CEY1T3ZT%2FnVqnHeR5bdCFwKZEfTEEgN8ZHiAWeB4%2B3UsU2QvKbLCZwWwJfxUl%2BZV4eqEe1v6XlszUS0AWLlQ9mwZkqRA0Tt%2FBPbHf65hY6rXGC7NYJcz%2FB7IT%2FoyuW6lFcu%2BMoZ75cTXG3iYzg0pdASi4I3%2BYMmxreipmL6c3bSLgYGhCT8MOSJMthAxWlgcYgJkPgas8rgqR04cNh49yfzlNc6AF%2BUqHHDyFwc2676YSQ%2BS5E%3D%7Ctkp%3ABk9SR5inhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227588893250"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket Blue Console Handheld System with Super Mario Land 2",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168830791740?_skw=Nintendo+Game+Boy+handheld+console&epid=12000141297&itmmeta=01M6C21JDVTNS72S7GZQXHGW2R&hash=item274f19703c%3Ag%3AkpAAAeSw6N9q519O&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FycPEMRcaSxImflM8dfNdJX0K%2Fw74alZPFOo1dOEOk0lBIRB6htaMYeSjpuocPD3Q9YG47ZrGGFYT6ZqoqFvibyUZNEROYqFtnSwRd32fx66u2xaIpCs%2FbdrF2I5GlnWZ8Ma%2FwnaFU%2FJ5Bsh2cA%2F%2Bp%2BbGLnoVehRVtW6%2BDSxoaabYSk7CEosUgt0GETY%2FZIKCG%2Bn9JEk1FZhLq6dGxF%2BXixgDip2TPstxzXW0dA0AmRPWFvX83Yt6n2q1tPbG0qPKtcSYC9FnhiWD1Lkly5sxD%7Ctkp%3ABk9SR5inhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168830791740"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Gray Handheld System Console for Nintendo Game Boy",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198561504824?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDVRFR4Z72Y2H4112WJ&hash=item2e3b301e38%3Ag%3ANpsAAeSwCYxqegHM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FWAd3n9iAyH9m30EB4hejDBtjMOq6WNpja3vQFzfiskaQaClqIwU90lAVkOHXNmybi%2FwQh%2FSJF7ORhN3h6bxYJGkbCD3DGTFHMJE6skFs5n%2BknZS%2FGaYYcbalIt5zYPp3GIyFYgX9I7wGWfDlkQFAP5ngw%2Bo%2Bjt6Sx8XZ8b3DiV2zIWqgW2WlHwfMlBEIBJ2E%2F2d1Q9SDOqdSQKeYf7ySYqMGOSLTrYe6GZcWNsZE6iPygK9U87dEzFX0P8oFpl4DN6XmkVHn--sCrBa%2FGR1G%2FKgcd1MT7GH7MxXYLRd6jQCCbywK6Dhy5Jlq%2FvRLbP8A%3D%7Ctkp%3ABk9SR5inhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198561504824"
+  },
+  {
+   "title": "Nintendo Game Boy Color GBC Black OLED Touch Screen Modded Handheld Console",
+   "price": {
+    "raw": "$165.00",
+    "extracted": 165.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257794428333?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDV0G85KN78DXFPG4M4&hash=item3c05becdad%3Ag%3AOigAAeSwm%7Elq05YC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Wsun62LC1VHHVx0OgzMSCP5ldLjqfCpKe8wB5m0Hap7RvhJIQ4kKxBcEe%2F60qDElWUeCcLXigJ1utJJ%2Fe2am1bSBSoDQgcnB0NN5mlAnbi8OnG2VJESzksA0vkfZaohjPezWHllFihC48nlSp%2FOU7dxXN5Fdy0dmkI7%2F6CpHSzjsVsPwCOzg%2FsTCY37IRZHgjmydQkyjnBHilKGl2VJ6%2BXRWcNhDXTqwpuUXoTvrTjvcrPSJBkut3wMnpP%2FMmoJabZktHW0Pz4jN9tHx9IjR7VtHiT724%2FKT%2Fiyz05%2B3xuiXphvUv3l6V%2Bk8FmJ7vML8%3D%7Ctkp%3ABFBMmKeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257794428333"
+  },
+  {
+   "title": "Nintendo Game Boy Color GBC Pink OLED Touch Screen Modded Handheld Console",
+   "price": {
+    "raw": "$165.00",
+    "extracted": 165.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257794430898?_skw=Nintendo+Game+Boy+handheld+console&epid=1557421083&itmmeta=01M6C21JDV4ADSAV8SD9RWMG1V&hash=item3c05bed7b2%3Ag%3AFr8AAeSwC4Fqz8a9&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FYc9UG5FImLRN0yTFSJVqfZ6p%2B5E4xqrTIIssdNY832YqqLCshsZjQFy7idFIsy7LWTQF7%2BUNuqBITw2Kg7Z2totkIGV%2F0tdt9hrsrN8ORfyHAQLG%2BVMvjGVZiqT2YTEnlBzQJ4iTsQ%2BSvc5ISxbotVwlVISeRCP4BGKArmk8OjVbtGHn44CmJNerB81oWrASZhqOsWdrPQ9o2C3d4qxeEraq2DJx0WT5PH9b2OxTrz8TEbO8SEW1cB0uQFNOGyaYWxuUWcg9JoukPBPmbocXf68AEVN%2FQrt6mtA%2Fyq6hV7NAIjkD0gjDJtlL9plzyvkA%3D%7Ctkp%3ABFBMmKeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257794430898"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket Gray Handheld Console w/ Metroid II Return of Samus",
+   "price": {
+    "raw": "$155.00",
+    "extracted": 155.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820277563791?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDVNCWCH0J9YEAVTE4B&hash=itembefc5a518f%3Ag%3Ahw8AAeSwsjVq3pse&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BUzTBeP6wtVx2CIETFwjqRnEKr4%2Bn1cBShqIqSP%2Bmgx5bEEcOhTUd6dcTe4M9RkpI%2BHc3SfSHSOdYX8vDYXhhU28f6tTkSjzfPbCztkVPrwTj8OWAeHMUVWZGYwAn3vhpEvqlqfn%2B1I2mAvRYbW3ho10pRLgOf%2BO%2Fxx2Mc0g2PZHPOlYvksXpwz5XaQznhCc9BAuIR1g74nL3dErrtYrjXgFdZt9QFIPZdQfUC7XiN4ZgUvWxoutzjC9t8z5yXYxthQvSR%2BBCmCJor7sZrJX7%2FcfQYMDyUSsFrB0raY6WFI5DO%2F8OwUftXei0q7Yjo5Tk%3D%7Ctkp%3ABFBMmKeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820277563791"
+  },
+  {
+   "title": "Nintendo Game Boy Color Handheld System Console Green w/ Headphone Jack",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377493098628?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDWNAXN9RQ870QGEWGK&hash=item57e4579084%3Ag%3Ag4MAAeSwkUhqpu9-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FkdDLoMOW8BobmybGdAotHVB7WLiEbAB5PxfcOCZdJZgkXX6pqvQFMYVnX8I2sU3dGwYuKVMSrNiMxkTW3HuWI5vSdFKJB2zOzPJdmcwdR7KRLBJBpgHJGyufj3N%2Ba%2FZRxlrfz4tUtT23ZEems2dSXxHS34gOcWtD9Z84uGzidVPBsGkiF4e0CXW80M%2BjvRza8GN7HrOwXX0CJW31uArGdTJg%2BYP%2FO%2BIQw8kaUjVv8M9CYHhFcQAfxTh2sNBLqvQl2kAEBfg59hRGUcB%2BrMPuDDWVzEfd0QwRvpj%2BHFGkXim9EjNCcnfUlGgqBSRJv1%2BQ%3D%7Ctkp%3ABFBMmKeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377493098628"
+  },
+  {
+   "title": "1998 Nintendo Game Boy Color Handheld Game Console CGB-001 Teal",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880072217273?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDWJR9PHXYSJ9XZ5M5S&hash=itemcce86452b9%3Ag%3ALsAAAeSwm6lq520h&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde90GjDdAudiPv1dWdVZZ3OMJ8LlgcPtEeVsNCKHzxrZ1n4jTPVqSU5xf4s2619umYFse%2FOFjsw%2BOyI79tyY4WJ%2FuVfXHzGVF8WfZOXrX1Nv0lMhCVNCPdbcosLn2mB0knkL9sBvou4Z2M2SUjg8Lt0vOuHqtYKpsB%2BqdEJnZMRC7fIPVX99sA8gX71h4yzQSkJWiK6UwdcrckRDre1%2BOMvHjPNgk4uQ15KCGGtI9yW462Z5jkO4%2BC%2FronBjzeFzq1IE4emrDt6KV5SHDfz9cJ0ln0vWbwkinucucrHRDPMTkIKVascysFPwsOJVsCpAdZI%3D%7Ctkp%3ABk9SR5inhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880072217273"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket Handheld Game Console Only MGB-001 Silver Read",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860098749264?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDWYHAEF0B0XMP0XF4J&hash=itemc841e16350%3Ag%3A66UAAeSw5J9q5Zf3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FRm%2F3Mhsjmgjs1RqXJNB0NvS%2F7ds0DS5LBL4Gun8epQ7Ec1JCB3HeskKuqZ5UuoHUEhT2sacRKgsWVE9xaKRic13nRIIGkDrn%2FR2G8fIbmwbIlnep7kMT5nO8Jf11AlpI0D2U%2BU%2BamJiVzMk5n0wMJeRGtyDa5IHOS6IR%2BExoirGwYEQoKhHmVKbgBZV4SuyCCBSbWou8su5rFRsBOv19O%2F11rzcyPAedUU3QiuGow1oGteIzOePRglLm1GzA6mYfGM7azGIgMHBYy%2BnOzxw0s%7Ctkp%3ABk9SR5inhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860098749264"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Gray Handheld Console Region Free (1989)",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920084906235?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDWTD8VFYCHT2Z34Q2D&hash=itemd6395580fb%3Ag%3A4hAAAeSwXX1q42ZP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde82atX%2FBHp48H5H5vECByv1AasSx0O5XKTLk5dd99z7Al7lYMBt%2BbwLxjiNM4u2oMf56ZYLAIi%2FMVghAVDbuxQwX7sNGIOq67wD87krOEN7wSYjuI3wcPQsxvVeHQG6hPXQ8nnUItA9pcZXn%2B%2BkyyVnQ5WGfMZ6Nvp%2BHdUjJDMAupf502atwkPbOrnvnHvxLlV6nwJpIr7tJKrFyemwO9woRGDadvFdBpjMbPciEthFh2dUadaWUeLzpKY8WDXk%2FTx3QkLfSQ1z32csTJxogRgvEROZqRCe8jQ%2BlhXIu%2B%2BoFFYgfq3AHbEEIh6LttTIMxI%3D%7Ctkp%3ABk9SR5inhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920084906235"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket MGB-01 Silver Handheld Console - Tested & Working⁠",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128163636506?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDWZYG76P4QP66WB6GS&hash=item1dd725e51a%3Ag%3AzMoAAeSwCHlq5A4w&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FzYETMh%2FVwKKaLhfLWa8sftSyAIn6%2F2YTzSnrUZyU4almb5ZWel%2FYHTgLeRKewlpl1jKx%2FGsoDx3gsxuCPfcIGctqYMNzRRxr0uMj3BuRxXo5cfrBT4LDqvepfTgVpLNg4cgvDVNglTpvGR6MK109uptoWqFwPGH%2BIy8MeuFZcxVZIn%2BPuvd7hpjawPg61ziZz1a35IPLPAK4FGd0cDkXT9SLOurg4EJ4DQXC4qhohw%2BNzFkDjHvjOY7CpLX%2BBHaP6%2F3zGKue6G3qLs56mmlfQnD%2BvPkqh3A0629FFgsZDEFjNIFJBPOAsbrqY8uJEtQo%3D%7Ctkp%3ABk9SR5qnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128163636506"
+  },
+  {
+   "title": "Nintendo Game Boy Color CGB-001 Kiwi Green Handheld Console Color Screen",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237155041240?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDWHVKVJV1ECA74C9QV&hash=item37378abfd8%3Ag%3ALPcAAeSwXQFq5onS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8wXpyVWO91Q2kYMUk6Utns2h9lAcmvyQNhiQ5%2BC6fkf2%2BHXTIb8mOMnqT0K6uk%2FDY%2BYgHbnO%2Fg4jm8EF%2Fay13opsx%2FDABtWaCeN88JUNJTBcXx%2F0n9fkWgznNNyKDmB4nLO0A1a627e0e2zglSqvBF32nH1YqFau1wIlsb6KoYYN3WqpfawtoVbpCFDElGMoShx%2FQn%2FX14SuvNHGeWHgxLkRzqWAbcmkaeeGujKxZaORbRqwUkWdbS%2FMXYPXEiHAHQMNMYKYzhLqOooRP2kT3%2B%7Ctkp%3ABk9SR5qnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237155041240"
+  },
+  {
+   "title": "Nintendo Game Boy Advance AGB-001 Handheld System Console Blue",
+   "price": {
+    "raw": "$185.00",
+    "extracted": 185.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960141457257?_skw=Nintendo+Game+Boy+handheld+console&epid=604308201&itmmeta=01M6C21JDW1QBHMSPGZFD8K4GB&hash=itemdf8ce3f769%3Ag%3A6PoAAeSwqGVq53PG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9JPHvW%2FqhRbgbkYkqXNjQ57iZFkFVozagwAacPkn9Z9e3i0tgJEggaRGqCtbKzyfUHNA%2BlX16lRmyiVpwRPt3DVzBtQGo5H74v4ycNqoloVK1WO7SFI7CjVfSwnuKRjGRvXLNqVq7m%2Bo5KZTPbUWIiSG9TiyOZY%2FV5Mk6d%2FS5atx0KTVTXHkyY5M5Tn3sD1R0Ofqyegk0Cv9eDmE14SpCyDjGj567QzcjJnm2wLJcKkTFxWtDR4AUTPHHUOHTb7%2B5Ex7DpdoScU1Seu0T44Y8errv4yHmcWnMwscSJ7n6Mmpd0jd4%2FQe57CxnO22Ba4SI%3D%7Ctkp%3ABk9SR5qnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960141457257"
+  },
+  {
+   "title": "Nintendo Game Boy Advance AGB-001 Silver Handheld Console/IPS backlit screen",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307254572076?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDXK0B4SHPYEXVZRGS4&hash=item4789ccb42c%3Ag%3AMggAAeSwEPpq4ppw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BU9NAl2sWv9QjiixcvKBQVqwjQsYp7bn84wlnnZyBwBJcHEfMXBIXBOphNNDrIAMIN4OIFpHYP9T8uxHxnggxZD7LtYcG4sDVV%2BXaYCUSCpk%2BEBEhJXbaKFn5LVMAMCE6t4OkM2KY9g%2BYKEVE9qj8KdQSrmmodLQYcymB4Gk0pdDatD5dM0t709IY7yTyi9A%2B6E9n2v2Yza%2FBZQAo7iFLnDk0m3tNS1QhU3OOKsl2%2FPrpvsBxPxae7DYyfrvRbnBWU0Zi2rGgEglXfbsjiN5mE%7Ctkp%3ABk9SR5qnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307254572076"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Gray Handheld Console Read",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267816651285?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDXE0W9C7CCF086TV28&hash=item3e5b1dca15%3Ag%3A1GwAAeSw-spq1DMD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2FR%2Bq%2F0Su0%2BBbsqWvqZgwj1tqZuJJlTqOBXoDPLic%2BQGn6qXMQzea3H0b0nrNfIruGjFgCBQGN8fXDleB2m9xuQctcFNeys4dQP4VtvDF98gGjiVQY%2B8UHVvLDRl%2BkVJv08pvv7eSKuFhqsdJRBjY8KtIAS3YDGUpKpn4KrTiWTK6mYT9sGwZmXZsFvRjK6HJcHLo0cdmZf6gIYDp7Kb4f3vBTVvXzVP25E1UTwg29xNu5TNAldI73RR19DDUg8K7x13mFU364mcYZxziyFNCtSlDntLZQMbP3jSrSbSENUOyspdNzdbvY0kdRfLYbeHI%3D%7Ctkp%3ABk9SR5qnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267816651285"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Gray Handheld Console (1989) Minor Lines on screen",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227591901759?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDXD7JRBX0YNNZBE0Y8&hash=item34fd88d23f%3Ag%3A8tYAAeSwb6Bq5ncs&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Mvu6mHFkLZ%2B0x4zT1hC1if7hBHHlCK3We6XiCCr3b79cDILcKxxS49i5ZAksI9i%2FSQHp80K9za8qJ8pcZO%2BCtzKBLVjLIkPaTbkxy%2BaHmPzJb6GiuJSP9D7oJvEecdrvbn%2FK2TYi97jomW1Sf3Mu2IBcYyGvN3AQeM%2BrEsf%2FRVsMV9wixFbqXmQbRI%2B8kv0OXkdHrYaV%2Fqe7PE5ad6Mp0t0L2UGpMthVzAHwywF%2BwJdLjFtvNfvz76eZwkAXtgzLIIIAXyqpsrAeifwuQOG%2FS%7Ctkp%3ABk9SR5qnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227591901759"
+  },
+  {
+   "title": "Nintendo Game Boy Color Kiwi Lime Green Handheld Console Bundle Tested Working",
+   "price": {
+    "raw": "$199.95",
+    "extracted": 199.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336860825903?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDX3K8Y6Y6D1GJDVV66&hash=item4e6e78492f%3Ag%3AztQAAeSwfvxq3KcY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde80ICVDv7SZzH1kdcXoZebfGUPT1vRTg76YHvslbtwjofP1kGgoM4rFGSqfOk7PA3J6rhROQX0Y6OAODQ4hcUr5Nz5NmMME4YOd8EpkwiUYSnh35F%2BZL6Wp76EZR%2BIkV8RZDJJisSOpBuisbGNyIB3S7ZbSjsQCDCLpIRqjRbDh3H8PphyVboSZitNkbA1OtAccBkUkMdwQSZgMKHrxN4qVaZptAok5T5Dp%2B1BYNiFPWy2TAjdoK3P489EY%2BHWBj4wFAwQwqBVUGd13jxRiVg8zqxmOrAlIB1Ftd21VjQASZy0YDJ%2B%2FEU7yOe%2FaWsIxMQE%3D%7Ctkp%3ABk9SR5qnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336860825903"
+  },
+  {
+   "title": "Nintendo Game Boy Advance SP AGS-001 Black Handheld Console w/ Charger",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366767711640?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDXY2AHNKHDB3VKQW2F&hash=item55650f2598%3Ag%3AUdoAAeSwtBBq4oD7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2ByHFkaC9AwnS%2Byx9UzOR7bzxrt1am8GSqIuYcy43%2Fk6VIxoSbEUDljn3QpRMgq5mM6vjgjgpMOUPpcLyT9V97i6%2FUKq1kxo3S0SbPOauYdIDJpzqWQa4SHOUqH55KbeJbuiu6%2BP5OBChIF15xv%2F4qbDY2vs3IRNvP1hfGeTKofyXrCeSj6UlOk3kw9ydEfDe8z4kCQgJuxz2g0%2BpCLtIz46qbBFCfMmDAStwPTOcQQ5ckLArMxaWsKzIoNNJgKAlF%2FNE2FIIusykjdqENYyvrz%7Ctkp%3ABk9SR5qnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366767711640"
+  },
+  {
+   "title": "Nintendo Game Boy Color Teal Handheld Console CGB-001 w/4 games",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237153203056?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDYY85CCE3957YV74VG&hash=item37376eb370%3Ag%3AcWwAAeSwc2xq5PDr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9RJRzhKUA7XwYPBDQFXkEyJFZPo5k2hUq3QQe7OqLVHv%2FKL5Cx%2F0AzVMRhUVWJcXfuKL1jurodxsQulrzItVUM7Pcvj2wa4w1bZUto8el9ViYKaOIYuduQrunL0tTaLdE5fD8IhRYwNQxlzZlkNX5%2FGyrVgdXeGcUUgR8CgZXHdYqpZHp8C%2Bhw%2ByWVv3jfBphcf5ljYwP6Ox25MRLYt9Rcsy8oeZ%2FRQnMV5WQs8mZMrtJihtxHph3SCEPRTCyo14i%2FqLVjBNheO%2FCE1Bw0LQL4y0LVz3z%2FSJY3F6P0wr9g90xX4XP3oC%2Fb81Zpwy7E14Y%3D%7Ctkp%3ABk9SR5qnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237153203056"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 CLEAR Play It Loud Console Handheld System TESTED OEM",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800758046571?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDY8STH5AG2B0X1YQCW&hash=itemba70e61f6b%3Ag%3AHHEAAeSwLTVqwtY2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9j8PEDeYapuWl4C27y0HASFQiCSDD3SXGcFDwgKWMS9xEvifjBlkJhmFI6BOnotXRJBnG9vxuBs1my4TbJi5lXg1MxwZjBZCAg%2Bkaep%2BkgTe0KUzx3BfB2NL7BMl8MlmMskb2sBXD48SgR6QJd2Khq%2B7rKLh6NUuRR6%2FQOu13eWCK5PEDhOSIrcOn%2BY%2BPYDWYNxDgq6ftV6AT09oq%2B%2B95hpcyHLVjSkb%2BZzieiucl9aoNSy5lPKxDfBj3vA6n6YhA3yFzTjoCc%2Fyw%2B2fdtZJMDRL5obnir%2B2MOiBYuDB9aQcyh1N6Xx%2Fz6yvXcLDI75T8%3D%7Ctkp%3ABFBMmqeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800758046571"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Dot Matrix W.Stereo Sound Handheld Console ONLY Gray C",
+   "price": {
+    "raw": "$71.10",
+    "extracted": 71.1
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188943558969?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDYVGE0KKF10B1HSPXH&hash=item2bfde9e939%3Ag%3A%7EsgAAeSwquFqrBNf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BGWHpdvYbuuSOBMtWsCnCCDTjXGHMEvwRecLbZE7DmuOPja05SuntzdKtti34Bzu8upkkb31ZYGQ6oDgUCSIBng5zERKWBtqd2o9i%2FuohqwzRa6UTnAnSWCBH60IhTF8aOATpjOf44ll3NtxhbaEokc6ryyGiT5QOpb%2Bjtxx%2FaYxDVbGCGmbvN5SOodUyeykGSHovTVKlRoF40P71VxqI%2BA8aQq5ROeaypw%2BrYsaWk2uoOjP3LT7ilJjJwl%2Bc3Ksj2OFNtIEGZ5BdIdpNPecBtdU0wYAl8y2GH62mxNth%2Fgy2QHMX%2BVMb47QrB1%2FdhH%2BU%3D%7Ctkp%3ABFBMnKeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188943558969"
+  },
+  {
+   "title": "Nintendo Game Boy Handheld System 1989 w/ Tetris TESTED WORKS",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/189003395483?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDYT3GYMN7SG8HJTAQD&hash=item2c017af19b%3Ag%3A7a0AAeSwU1xqs7y8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fb7ZrcrVEF1P4GXPegjRxw4jGZEH6fxMuDqnMYCX8dCQxJ3LtChAIVW8a3chnjkCrI6HeRywLsR8%2FAibyp9Mb91LGmieo4RmAiD8umbXy7Vy9Ux7eeyHJvfvydoVdVUgtF3USOM%2Fxdu33ZX80TGL4G7iBjhPh6sqQm511dSYgKJDGSN2F%2F67slaXDsysNQVewtkQbzaBosCbpoOJb5vCrL5%2BefwsHPQeLMdtqHpYFEuA%2F0l2ovZYJc0etcRUJHkdRwJlnx46RAxclixe0%2BioWc%2BhUdtotUJM%2FlcYAqYzCv09eZY0xwlu%2FyGfBju8FedGA%3D%7Ctkp%3ABFBMnKeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "189003395483"
+  },
+  {
+   "title": "RESTORED! Original Nintendo Gameboy Handheld Gray System Authentic DMG-01",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/156562093680?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDYFSNS6S3VTCMDH8X3&hash=item2473d3f670%3Ag%3Aix0AAeSwARRqV--%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9B9zmHeLI1BJ2dPghquUHbbPJSy04zCgiixr1hDELpAbIjiAS14W851d5GPSVQB9UMP47xGvCTcHdoY1h%2FbwmBeQ0mAcz5RkJafotHyK90h72%2FhU9Na%2Bbr5yDwb5hKbpnV6k%2FBre%2FI1CyTUOA04onlGZYKfAsLb6Q74ljeRycvkrR4rSOSRFb1yIGCcYVpXb4YoxT2fLRoQKvo5iVarichiNGVcLJ8AjS3%2BAD2M9SBC8WOxOtbqb9EFDsQzG1%2FT7%2ByAJ%2BezG%2FTFFsRnYJyyzfF132VDSSwD5hgphKcmpo3cNk%2BMTWfzCvftNyQJ%2FX6gfE%3D%7Ctkp%3ABFBMnKeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "156562093680"
+  },
+  {
+   "title": "Nintendo Game Boy Handheld Game Console DMG-001 Gray * Accessories - Clean Test",
+   "price": {
+    "raw": "$104.95",
+    "extracted": 104.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128076060700?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDYV3SWM0HMV9G46N96&hash=item1dd1ed981c%3Ag%3ADGAAAeSwQ59qpYhC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FJTFwp4OwLp4M1mwl16Lp%2F3oQPx1r2qRdjMR%2FhH9DnSLyokJyuhzu3mahvnAzTJtdzLHoCWMmxmrwDJsG3yKduav%2BbRsmnWar1hdCQJA7frDo7mqzx4WuQRLrzMV%2B4mbpxR1GQWB7re65Zxq%2BoLX0tsauGDaKIfieqwlM%2FP2e932tJlkN6mcC3RZh5F5%2BbXyrdymzlOxC9kHgoA5MKIZMysuGwOjax5UdIO3J3Bam8BA7bV6YI5k8wXvkPGJBBZtyo45p8c%2Bwkym9Nmt2676Msaoyefr3awmAHgYeZUTG%2Fn770rjAFuMCK8gVFh%2FIjd84%3D%7Ctkp%3ABk9SR5ynhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128076060700"
+  },
+  {
+   "title": "Nintendo Game Boy Color Handheld Game Console CGB-001 Yellow",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147657164655?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDYD7K1W60TEZSV01W6&hash=item22610d876f%3Ag%3Ad5cAAeSwh9lq46G7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde98j0VXZG%2FpsFJSlh2P%2FEsQh7dBrGgT318fWGG4w%2FhCELnXu3yXb%2FG4sO%2BhsofjKneAJx7QD2VzewD2VtsUEySSs0ZYvml4nW76FRACZdr92ZtnFyUtxxgP4tGPvZOyv7mjDDp%2BwTQevz7lIuyTt0rd7TKbVBe7Aq%2B28GmvDrf3deexhvvwSP2BVYYo%2B8HxNJH48E0e1wGi2Q%2BPVy7Th0VaXoi0UNWniVy89WElerxJx4P0gtmSBxkVbFMXIkT83vMvFOBpUdwwFDBuX75K1kBQ6I8D%2B7n4z0grAL5hdcpvWFL1M5tw1NM%2FsJg2mf6DPlw%3D%7Ctkp%3ABk9SR5ynhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147657164655"
+  },
+  {
+   "title": "Nintendo Game Boy Color Yellow Handheld Console System Model CGB-001",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366764377659?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDZMZZK5FMZRQ2HPWCW&hash=item5564dc463b%3Ag%3Ai1oAAeSwXctq4JSX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bafi8PfgGRYu8rc537xt8yHrPPRL%2F7HCCmBD7Pz2XXJAsibXgEeRLXsB9Z%2FEgYfOOTYYNgTka6dzeG%2BGL94AAeRWrobVL1WjvQHYdm68ICZhwQxuTFyiz8IAwaGgkH7SN3aFA7HNZXh0sPSlvMu1qEumoyDNI9qgPC4O2IQEhlvSYZ%2BEWM1fpKm9sqve3f5DIVlhwM03J3q1sVbRRgLEQ6KlorjYcSN1JaRvT6K5i9idVXJ4kFBtoGq1BNllKFKkZHCgBPZ7TRrnrZeWozQCd0AxYNwZQE%2Fd7cnZn%2FXr67PLlGd9t93lz9KijAEtlk7Ko%3D%7Ctkp%3ABk9SR5ynhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366764377659"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket MGB-001 Silver Handheld Console w/ 2 Games NTSC-U/C",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880047402938?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDZKK6JFMSW3VVRSTV4&hash=itemcce6e9afba%3Ag%3AJAoAAeSw8oNq3Pqb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8XLkMHITK0P16DeE3ngWlEer%2BH0OU51s3f%2B8UMY9L%2BoGA6UEg3MirXdqKVmi356g3huGn%2BFVt1X6%2FvEKQUlVFzZ2GCyIfBSYM9phtyouTxIgvU1wJme8qj%2FnRYYcg6Vcl3%2BuKNGmMFZXqwJ7g5eZhHUp5Ir%2FVeupauI%2BjmplIVFGRORv%2BqdJpkz0dURwYTtN0niTHh7WujQ4ugi42yx2lkTGSr%2B3eAw6Tk5cc%2B6aoDysOp2JrqYUx1MgTILgJgZIL28vPo34S2h3R%2FTLk1Bd6m3r7JnwpEotaFq%2FrDhTcmJWvo5emGyxAnkwXYUzvFD5Y%3D%7Ctkp%3ABk9SR5ynhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880047402938"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Handheld Console Gray",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820258662441?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDZZ7S7DHZGR0TKJB10&hash=itembefb39e829%3Ag%3AyuAAAeSwf3Fq11mi&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8M9%2F8ldZQf5rOJ28pY%2BcT8W4LTSOr5PRxRJoCzauS9vsvL2AEbndvlb4awQO7TviN8nu36nXd%2BGE5CV98ONfcgM3pGh9aiLNuDvX9dfmqIQFXjb4RWAbuo6suyTHhO2Ueof4EmRN4AtN4YmwRdX%2F1MsR2sOH8VPcj3DE68e%2BT93Yzeqmlvs9VzoXGPRCf5A98aTS9Bjq3%2B1Qn7wJ%2Fd0aaK7ha1ELB7V1ycDLv3vaVEYJtz4gb5e%2BGcLOBsfXx2KJ%2BngzMnbA1GjiyT87bP4SkK%7Ctkp%3ABk9SR5ynhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820258662441"
+  },
+  {
+   "title": "Original Nintendo Game Boy Gameboy DMG-01 Handheld Console Tested Working",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900035262607?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDZSA5GJHMK92APQKHS&hash=itemd18e48388f%3Ag%3AoRYAAeSwsBtq2T8Q&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F9tSqUZ9JCX8%2BK%2BgCJQsYHUjdMr9UsjKACQnafdogu68ex9UJiRT%2F0zRHvk7UYBOLwDQK6PcivoDait%2Fscjsb6WhKyCJ%2BXBPeI7p0dFfFt%2FxRtY4Yu0pyoUcJcMrziF5l2Ml4y4oWPFk%2FWHEUygZQD7W9%2BlcH4o6tktY56j%2B4ROICn2yJ2s6zpUyWXr%2FG0QkPrDbrjFP3qwpWVOYKjdFCluXAdocNuLn9V%2BcKt9%2FiceSGYQ3DBJETiCctdZVmWf%2BjKtw3yowSFLyyPJnu2UUKW%7Ctkp%3ABk9SR5ynhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900035262607"
+  },
+  {
+   "title": "Nintendo Game Boy Original Handheld Gray Console System Good Shape Works Good",
+   "price": {
+    "raw": "$84.99",
+    "extracted": 84.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900054406338?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JDZH7AHC0DP8MF4KY4E&hash=itemd18f6c54c2%3Ag%3AdrMAAeSw-0Vq5inc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8fFyhj8cM85x9DSSIHNEx1M1%2Fe2XxC3gQX1gPvvKqodIgOw%2Bv52fwm%2FdVsQELukshZIvDwnU0ciOsEjQ%2FaQq7tDEkV8H8ctnNAD86%2FHha%2F4G8my06I0C9WMN3F%2BG1GQlLA34wIO3Hez630VeaTNvwrgRYYp574wva8yL3l3Io3pgD9snS05M7jxgKPoliVGb1eVrIQpmElezeliex5t9sbRovgTlsKOyI0kq5QTM8hE2pTWjKB5eOBodijJ0P1lJTD5YRc3ofn7e0qq9HR7Ipcz529xg5nw%2FmrFoJXsQjixOcTlXn7oFil3N2jgeYKG1k%3D%7Ctkp%3ABFBMnKeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900054406338"
+  },
+  {
+   "title": "Nintendo Game Boy Launch Edition Handheld System With Games - Gray",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/136844737502?_skw=Nintendo+Game+Boy+handheld+console&epid=219493215&itmmeta=01M6C21JDZ76ACR1Q655YMAX1E&hash=item1fdc94fbde%3Ag%3Aa-oAAeSwcdBpPMmX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9101l6Jk%2Bw35HT6CQpbSF1bDWkH6D%2FWRcEfByM6%2BbdsOpG5xFRlyl8xIk27MleZ1IZ5ytnf0ldDdGIwH22ChEHfttE9oHdY372hyX167AXHfdl%2BTTXf8IWkC%2Bblw61N6ogiHuRNOtYZaP9pqD4SWOKpHzudU8XWNTZqdhU9zboTMbL6luPQuIMudV7%2BjA%2BguOSFtjYn9P8Gt78atAfWdXkTLKD3W%2FUeAwNRYEy2OMyj1YET0TlgFWAw964C27Jz657bnBMhYbrNIxKhUzUJzLDdNDmeuj7dkgejmnoCYRNEpAUdeEe8TfzvLzhCfIBKOI%3D%7Ctkp%3ABFBMnqeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "136844737502"
+  },
+  {
+   "title": "Nintendo Game Boy Handheld Game Console Only DMG-01 White",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800823862022?_skw=Nintendo+Game+Boy+handheld+console&epid=219493215&itmmeta=01M6C21JE01RPZQ92RRHAKDG2V&hash=itemba74d26306%3Ag%3AAFQAAeSwkYBq2Y72&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8VKco3HrIa799UUuekJZEbqf266QBMRUdZgMygcSTbFGjETwC2%2FIDP39vDQ3MJv03LklFHE8TOgr8lA%2FIJf%2BFPTOM4ra6uVhGKlp21o72TDQ5BrFc5XmBW9LN2Y4DDZf05Z%2BcpNMOeqZn%2BnJtspcgWYTkPrlsteihYD4gyN1Ez%2Bd5nK9OIG0gKO44SgkCJ8zfwtc46QR3OeciH5MlK1FVMJp63eGyIZGMAobAhfKjs2w%2BXPJFYIusSXdnDaK3dKUIBQFS4WQQjdbTlm%2FevkmBx%7Ctkp%3ABk9SR56nhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800823862022"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Original Handheld Console Tested Working",
+   "price": {
+    "raw": "$65.95",
+    "extracted": 65.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820215514738?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE037SFMDD4Z7YYVEEB&hash=itembef8a78672%3Ag%3ArGoAAeSw87lqxuji&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde97puhV%2FlViI4gRsYzt1z2VfwJTKpM%2Bmga2sC06jFQzrD5TyUdI8%2F0cIOLI50lJP7cMjJiK78RxrYDyITyJRiHRFRsxP1aqKoMkrBbaek2jRplCaooENuW0qlAMNY8eUgn%2BiKBrNZtWN55Jouiqn30X5xIhgFNDWoGitC4wTgi13ub8noYYLkQit9LDXjB45jNLiVsc5zCp%2BS0t5qj6lsdN3hSDq7I7f%2B7uTPYZVRlSOZk%2Fe2IYWN3sa6%2BAhtYj24F1oetnnjIxM%2Bi5%2BRWm1xcgSFjmymPfwHejFXS3Of4ZfIcd2lKeBBXVO5yOnkMqyA0%3D%7Ctkp%3ABk9SR56nhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820215514738"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket Handheld Game Console MGB-001 Green TESTED GREAT SCREEN",
+   "price": {
+    "raw": "$55.75",
+    "extracted": 55.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880066357930?_skw=Nintendo+Game+Boy+handheld+console&epid=101810101&itmmeta=01M6C21JE0EQAABVHR8EYXVR8B&hash=itemcce80aeaaa%3Ag%3Anm8AAeSwVZVq5R-B&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FjNhgyNd76wTBmGg9Z47shXuaMd6dTsrKKn7KF%2BPN4v263gGX1UfkC2SLpnkO%2B8G%2B1bg2FQF5dDA5tzhTBzqcybMQs%2BhVOXaUIvMr%2Ff9ppH9LjViMJSYKB42ndwiIIedKKCtGqSTkD%2BqyxrNwXRiminjmMsJ7ApQwZaYL0%2FTmPQH4TJZ%2BzZCa34chOrjgNXWDU8uhRL0Lgm22Tl6%2FhvWE22rzaszNX2KQ8C0itrnSv%2FBvBaqSsXPDke9182C79tp8ohpNqxED%2F50aWUvMGtjdW%7Ctkp%3ABk9SR56nhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880066357930"
+  },
+  {
+   "title": "Nintendo Game Boy Color Handheld Game Console Only CGB-001 Yellow",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860098678999?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE0Q7JQ5FCZPZ6G64KQ&hash=itemc841e050d7%3Ag%3AiyoAAeSwgGdq5PQJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde--HgAyfYjIJvL%2FjCC4S2fN%2F5rmxHa7878UxSEs6ndg0%2Bw1DNBBi1M8uoViFt4ZxPbNLvGhPYEnGP2Q76r6perJwr%2BHCJOmDdLyCnGppSs%2BBWFENrMLCVIcA8%2B5VJ52sz8PKRUpt9wXgAwIx8%2FMj5CF%2F8sQPRTNpqXCDg7E%2FKdqRjxNAjGKSR3yU234%2BXaWOOyjUCPoTYM%2BoWlYKeT6iB%2ByWl5%2FLX%2FJyv3so4LXRbCZRvTRJ5YvE44Y8lVlwMVdOHSg%2F4f4I2SOSvkqI93gImXG%7Ctkp%3ABk9SR56nhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860098678999"
+  },
+  {
+   "title": "Nintendo Game Boy Advance AGB-001 Purple Handheld Console Preowned Working",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198755478647?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE06F92CCR0Z75YVK2E&hash=item2e46bfec77%3Ag%3ANyMAAeSwgzNq47C1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FL5L0Tf8PSTMU1lL%2FraBDO6avpI%2FspshyjtXTlOxSLvx7JGz%2FlkypHO25wcSuK%2FfNn5GoZt7Mz4Nk1mxMoQ%2BB%2FLtZuZaKtOFYhL1YS8ODfom2NaIc1RIn2hV7fyutZqqFmSS%2FzcxlSshPZJWlNSdIG7KRvxaZ2QZCKRc4lPW7br91Xl7BIsUesSlXx56MWj8FVAuvb4fU9k4SPDa1DcxtHD8ZiUn6GS32DgCSy13J2AQmfTW%2ByUKrYKMuBmfIW87xzi6chvq3pZ%2FuC9Alpf%2BozFB1Zk3NXqR86sk9hOF0AyYefqX%2FpxWpuWGAT8yjDLug%3D%7Ctkp%3ABk9SR56nhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198755478647"
+  },
+  {
+   "title": "Works!!!1989 Nintendo Game Boy Handheld Console. *READ Description.",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880020985190?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE0QHBR5X16XYKHM7MH&hash=itemcce5569566%3Ag%3AKa0AAeSwuZtq0cHE&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8dxcdRbm%2ByswyEKAMR1JGgAiDpi3vWa5JPiunONae9TModKNf6lnyj6sSUoVwGQ%2BYqBSIMmLbFSDDGjGOX%2Fdu77jZt9JvGOYNqcx%2B1rl5SIvohMJSBFnR33A%2FLIRQq4tifwaQSRAjMbqiEXpG5e6b0bIKDypN6tCx%2F6LTCKfm%2F08xqclkKbHnPvMokjE36klhZBuf%2FOM7qFXRJCtk6xYcO5XDAmicRktgEkzu2AgKYL7%2FtL75%2FIQ7HSb1fBKNTkCNzdyNPd4Kw4BQ%2BDiLwAA3Q%7Ctkp%3ABk9SR56nhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880020985190"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket Grey Handheld Console MGB-001",
+   "price": {
+    "raw": "$81.98",
+    "extracted": 81.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336864157340?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE0M31C3MQ1X93H0MQ0&hash=item4e6eab1e9c%3Ag%3AfUoAAeSw6bdq33q7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BYia4dzUQVgwMeHGNgfW3znd0qj4HVYzFVmtui6Pp5XCEhS13%2B5HgRhaYXxS3fULLfheG%2BDwqw2xzGlL6zWLrj8VzMjqBJ0UOKjN8t1se3iLiywca0IzteKcHLB%2FjTqDpDW6aofQb5nG1I4lX8KScVD8Q5sT3qsW9ITe4CUuSI2hCvOmeacKSVh7zJQJdg8oaT40zKRB%2FgNbJtnY3hBBZC1ZKe91%2BsYwqIj5kS39K7WcfRejXuLrWezrE4w7Mmo0ggTWFMX9J1%2B2nxKj%2F9Iqno%7Ctkp%3ABk9SR56nhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336864157340"
+  },
+  {
+   "title": "Nintendo Game Boy Pocket Grey Handheld Console MGB-001",
+   "price": {
+    "raw": "$94.98",
+    "extracted": 94.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336857477618?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE1XHVE37NJZ46MPNS2&hash=item4e6e4531f2%3Ag%3AKucAAeSwP-hq2i1D&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde99s%2B%2F11O%2Fx8LCcpqzNJeT0hOaHzVaOkrkF07QXzSdPHkeVfFKrR59ff7jQ7oMYyHAPQYWUXbvbp1QuR9HkEZGm6BgLwZLKLAQp3HIm6LG1sTE%2FKV0MRLZCiMm7VPKxDJpo1U7tHJ3aCBVS8rv7Xph7ebtrI4RHVpfAIIDVJXS6KoQqRhFfioRMW4NGW5W6AgxaKzdSdbemjpsNPAXmI%2BeveHf2Darvfd3rSjr8q3eUMp1KsRT7boMCqLA2L3stekZ9dRXCO3BHFgAd8i4BlpsLsoHfJsBxNNqwrQ7zLd5fo0VsnGH5x4HDTV%2BFmZgoHJE%3D%7Ctkp%3ABk9SR56nhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336857477618"
+  },
+  {
+   "title": "Nintendo Game Boy Color Handheld Game Console Only CGB-001 Berry",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960126618980?_skw=Nintendo+Game+Boy+handheld+console&epid=1601187634&itmmeta=01M6C21JE1MVF12D087NCSZ1MK&hash=itemdf8c018d64%3Ag%3AkuEAAeSwKGJq4hb3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bc0N5pbjfH0FMkoMLZhQ2JuSlezf8nVsmMVMRm0ENBGIxZ0l0ed6FSCLu6YC38%2Ff2JgTxJnj%2FPUyWnA1uoIc%2BNl5vamtORiQESKFpE8hNrxjN0GrfzGupVhpxyzI7xK6Dtmxb%2BUh%2B%2FipejV9xqh%2BGhJAOfJhlaoDaXOEqL%2FQd85KF3kbBAfnQEM8R7Il0uD3Y%2BZ7ULEWlqCvlp2y%2BuCOp%2FJA6cTPpgYvamAXGwe%2F2dkKS91t28CR%2BjUte6uai4B2xnQ354HA%2BMZ9vcNoOQnJYh1APNn%2F3Cc7NJi97LC7AjXHBPOTKYu5qoyi77tLZubYg%3D%7Ctkp%3ABk9SR56nhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960126618980"
+  },
+  {
+   "title": "Nintendo Game Boy Color CGB-001 Clear Purple Transparent Handheld Console 1998",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147657030382?_skw=Nintendo+Game+Boy+handheld+console&epid=112340648&itmmeta=01M6C21JE1NJTA5JM9HGAH2P2G&hash=item22610b7aee%3Ag%3AR7IAAeSwAD5q431F&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FUZTUvLWBx%2FnXwQitJIg0MCE0Y4Egz%2FK2uqqJaAI1ZG%2BT4pQGlQmdLxSVLjAq8jjv11xXeGC9lw3V1EfHuRqmdXnDPX2Qz51jYN8kK6iVnqJNHpbm%2FlyMHgmqjuKWT4Bpa8AdcXJi3cqA99tbApNuGx2%2FiYtX2E3vu%2FN1s%2BENLc7oeGOX7DbNj63fp2xwNsPtraDSM8v3aBYDwxC31XhJLGETCNaDNcPMRLJL9G8KS5CnUVYznkux8cxgcGLWE0J6s3uUpdgmq3vf1b9nsWOHXrjwXCibMxtha5ybIGCixYc49NXeJ698ghGHtBBkbauE%3D%7Ctkp%3ABk9SR6CnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147657030382"
+  },
+  {
+   "title": "Nintendo Game Boy Color Green Handheld System Console Q*bert Alleyway Lot Tested",
+   "price": {
+    "raw": "$74.95",
+    "extracted": 74.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366770288209?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE1P5FMWEGE056FC2VD&hash=item5565367651%3Ag%3A1zgAAeSwAPhq4-n2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FQUrJTF4AQ2nLm9zbMhqeiICyM111KYUFBCHMH3bQ8IqyLJ9eGnjFtp8zmYE2JnRXhtcuABECX2mdvDFqGJt9dtcByC6pRiLZz%2B93LaoENLKKHhT36NntV2zHroF8uO9Z9v%2Bb2I3eEhwOOU4Tf2ITlRvUB3hm2BAVwSwlHN%2Bpznbu5VEaIAHgD%2BHJ9kvbpBXGqVZVF4A3%2BqRG9okF3sWCG3VWX4WtyAU5lS8kUgrdHIBzwizy6fCy2pFwTl76rzLjS4DgEXteb%2Bx1zB%2Fw4t2duFywO8HFGElnInxKthK%2BqfEJcFEdJthT5CBC2mKgSxVI%3D%7Ctkp%3ABk9SR6CnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366770288209"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Handheld Console Gray 1989 Vintage Retro Gaming",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327425464053?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE1491J7QTAY16HB6Y8&hash=item4c3c1416f5%3Ag%3AvPoAAeSw7ztq4ALa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Jpecucvcb0gXSPrSkpAUWhKhx4pNacr6EaHpLgEb%2BtXTYneQxyi6HzKT4fhOxGJJhWCZ%2FRSJOQNCq0XjkZcps1kPwLCXOuHDAdZoWPBQ9Pbd4egrafthtT%2Fw6nYA3XiuYSsr%2FbhT0BHV%2FIWPuDHS9SEa9z2z0cEvRaQ4Q8N5F27bw9H0iG%2FWyljcc1NqVQ6XpOgKk%2BMdHvoUFNpnjq6c8R2ICh1oBqpfSoGt7noYIiIJ7VUbdvbcpNyLkjoKsMLuPElJ1c%2FwqNoQQCEPWHVNBYQ9wI0hdXrTzheE2osHme78PUGgtzFTP9rNRDjEwlIc%3D%7Ctkp%3ABk9SR6CnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327425464053"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Green Play It Loud Handheld Video Game System Console",
+   "price": {
+    "raw": "$61.74",
+    "extracted": 61.74
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800830075482?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE13KV7G3BWCQAT465R&hash=itemba7531325a%3Ag%3AsC8AAeSwKR9q25Kq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8cX5GWeb10R5aWPfe6vaQThqHBlvAmGXAceYGbG%2Fr8M3M6xcHKHFAanXnN1iMz%2BQRM1Eqo1%2BfQPyaWw8ZGNLi2rNDF19N9wPTQuCj79AeiS2cXvi%2BLraamY5Refn%2B3aMjOvV05foYc7XPwj5%2Fz0naBW%2Fnrkd0%2Fz%2Frk0WbA0UnOs4UcS%2Bea%2BOQeY4I1gdxlEO9GLcOkMeSsrJXBf%2FdkQ%2FRhQXl3NCCD0qBX4m22Lhu5jtPKfX8jS9gPViBFKspVDfzQFhZddxYc0A3%2BpKcLCHNs%2FQb4p0qmJ5F77zI3SLUimjKssoFGyAe2C%2BFjoeqcWjc%3D%7Ctkp%3ABk9SR6CnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800830075482"
+  },
+  {
+   "title": "Nintendo Game Boy Original DMG-001 1989 Handheld Console Multi-Colored",
+   "price": {
+    "raw": "$58.00",
+    "extracted": 58.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407318224386?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE26R77E4AZDK620SCT&hash=item5ed60ede02%3Ag%3AFHUAAeSwmKxq366F&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FnfDmwqpaOG2M4mX2vRj9wGa2yqV83oPfxSxe%2FvTLgKR2syUaT1Quan6BxOkC9LCk2O7JXzqMXC5zNx5xx79n1r8yhO6vcc3InETiZRh6e6tl6NvGbeTdunw1P7XfxMLWkt0lQbocRocRKE9OxPYsNM89acMG%2B4UCDvt%2BvRhnHMZHq5mgMhb6I1QstfkZT0y%2Fp1HEuuOa%2BlnbgSlgvlWjc3WGW%2BRkk4ZtX%2BbYm55rlbWqq3dL--i%2F0nuqcZxARB5lXBEpkXjvkAveNc5aeR4jk%2BgWqfex6C--hW%2F7jyVrsdAnjAlPHVHtN3PSKSPUcfsQ%3D%7Ctkp%3ABk9SR6CnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407318224386"
+  },
+  {
+   "title": "Nintendo Game Boy Color Grape Purple Handheld Console Tested & Working *READ*",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287636118453?_skw=Nintendo+Game+Boy+handheld+console&epid=587319426&itmmeta=01M6C21JE2B7VPKJA71F0BKY8X&hash=item42f872dbb5%3Ag%3AFAQAAeSwcdJqv4yu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BOx2ZtbM6Ck9LF7%2Bg6RLp6UflxA98zBa8Z4X%2Bcr9oY0q2%2FMLouHrrZaOwQyqA4Snr%2FrD%2FZAGdxk8kOWe%2FpmuYRUsTIHuNjbzwedFOOObnWlSxRnKRZN2ItF7cM0kv%2BJdEyzh3oPi7X0cKagtYl0jhe7u8D5JOweqsLvFsFvdw8DJHgJ3XFBCyf5AQEaPqp5j0DEyPCwRLyQYruk5LiIq%2BT%2FTA3SWlG1k8Bs7KJDX3Mf%2BecGY4rOpUyAqUPVxBqv6QqP6Z%2Fd%2BbB80QFwtCSF6C2zR%2F18hwnQ07oH%2BqWaVhM3vavMFObLt9RFUg%2F0SChom8%3D%7Ctkp%3ABk9SR6CnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287636118453"
+  },
+  {
+   "title": "Nintendo Game Boy Color Grape Purple Handheld Console (CGB-001) Tested & Working",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820281514222?_skw=Nintendo+Game+Boy+handheld+console&epid=112340648&itmmeta=01M6C21JE2BGZN44MM9TMT3HHD&hash=itembefc9698ee%3Ag%3AN7oAAeSw8Glq3%7E3I&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9EttyzZ1%2Bds1ze8cJ9aVPA4njiHsmPY2cajcIhsiu1kzflrhN6yg5KdzYmJLqV8%2FsPMxVp5aIawR3rPNGIzFu4uEFoONefyVdFH%2Bdd3nfMs4IJVatSiU3I20jsnTwFNWln4EvqUlPw0UligbmMJ3ownp3slZq58DtLFFR%2BmBmyubaoO0FZ00e3su%2FPS4Cruna8krNpjxW9K--qgugRX2E52sVE5Jj3MkrUwoLtYFy%2BaWtktHl5FF1FX%2FfUZgGBuZR7p3TRh4Sc3kTZnzTbQamJgnBGe4d0nFxCSdrkuawyZCSlhPZqxhyNRkFdvdOFh8s%3D%7Ctkp%3ABk9SR6CnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820281514222"
+  },
+  {
+   "title": "Teal Nintendo Game Boy Color Handheld Game Console -TESTED",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336867685460?_skw=Nintendo+Game+Boy+handheld+console&epid=100252526&itmmeta=01M6C21JE2ETGW1KP1G5RRAF7A&hash=item4e6ee0f454%3Ag%3AgMwAAeSweo5q3Y-h&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Jl9GwsAeXAKRDPAlw7bK%2Bwf2EFhyedhwchZKAgRBDG4GDID3t%2F2MTpAdjSyNW1%2BsvxTgl%2BwqUFbP%2F5Oo0R7du6abIDjCdluyAzilN0kfWw5OtShLFgyV6kDJQO3a%2B7DJK0FkQVYbMfYZX5N6%2BbQDHhWCVVvu2e1klV0uU%2BMYDydaHgY8L2AORuCR%2FDPy6YT0O0MNW%2BRsX%2Be%2Fn3igVeUQPOi5g6wDm6GvJUxG7DcU6GaPVuwD9Phsn%2Fu40ficTeY6ggxS9indYfsEzKUHHFCYa%7Ctkp%3ABk9SR6CnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336867685460"
+  },
+  {
+   "title": "Nintendo Game Boy Advance GBA Console AGB-001 Glacier Clear Handheld",
+   "price": {
+    "raw": "$77.99",
+    "extracted": 77.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267829236432?_skw=Nintendo+Game+Boy+handheld+console&epid=1577017655&itmmeta=01M6C21JE28G47GHDFMES9B3XD&hash=item3e5bddd2d0%3Ag%3ABOcAAeSwMQdq5lMm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNwa%2FU5WH8WPfrLPvs55j9IS09fRYPXoG%2FyDRFWKC%2Bn71Rz0dVhcqDLJ%2F%2Bb1VFdQ0wAr5nNINkk0vPqlGguAqxG8TUwMe8eqM9r6bvu4Bz6fBeUUsJTDYRRUtiFQLRqUu5xbYFYPBvbWTmM5JQRGRJv5tPCiGvjEJGRaW8lBgH1tPELDbPY8WROv5JcNyM2MjZtxW8mhG7RNLADsyeFHv1lLwCesG9t9qByEGxvnCGx0%2B%2FMs3NBVYAy%2FEZYaFVfiPtPwDcBaHh0SzWVjzRdBWN4cBWKW2W9MT3RBDLtpdbgq%2BDmBx%2BDbZ9J6RSZ%2B4nUpY%3D%7Ctkp%3ABk9SR6CnhoKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267829236432"
+  },
+  {
+   "title": "Nintendo Game Boy DMG-01 Handheld Console Beige NTSC-J w/ Headphone Jack",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287691018998?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE2HVAJNKYP3YV9VZKN&hash=item42fbb892f6%3Ag%3AaMAAAeSw5ZNq4%7E07&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9yXdUOLCV49dybmHXKsMJ5MfFkr7xD%2FVSCkS5irMFE8184BbIhnbxNtLrclldh%2BrK6cTUcNTuuPhW%2FIBZZ6YvOvCkkVf8Hs5PdOVzyNBjxR8YykQBTlWqRmTxLCUPXJSn7eTQk7aMD%2B5P8RZ%2F14feGpk%2BdXhib7qgBJDp4bF0KZ4vWuWt95BlM6HP93F7cO%2BvvIUVg4TF4%2FD0vWgAScNljMpo9Vf%2FHagXSZwDOqHtzqo6hOVo9yMc1UQSWAFw2CU76zO0H6Aq%2F6TAxWN0zWgAwHTVWaLnygMvKXhXf%2Ba61B%2FTEUy%2FQpVjLRKSZvXp1EzM%3D%7Ctkp%3ABFBMoKeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287691018998"
+  },
+  {
+   "title": "Nintendo Game Boy Color Handheld Console Purple 3 Game Lot Bundle CGB-001 Tested",
+   "price": {
+    "raw": "$132.99",
+    "extracted": 132.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227543681736?_skw=Nintendo+Game+Boy+handheld+console&itmmeta=01M6C21JE38QQ7WVAFXKRJM7E7&hash=item34faa90ac8%3Ag%3AYe4AAeSwxd1quump&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BAd38zO5nC1%2BZJec%2FNyRVWr7Vk%2FwpvK7YmzInd5u04kisLO76Tp1k6p3J27UNxPPMykKVAVF%2BO3%2BQGF1d3tpJU9XZ5gt0p7eRV1FlGrDEi%2BYke72yL1U3rOdTCn0GSWp%2FiSTa0%2BsvraJz13TFR81droQEjTgXtXLipzia6JpYb1l2ajl7KmcVMYacqDd%2FvLEnvbrqR5C5SlfT%2Byhv63JJ5UElwr5qC342VqRG44vhTPw0JNDfU5%2Bjc2412w%2FJXy95%2BhnqGdO466W4ktEF%2FV2u1wvFF9%2FFCVaIWl3dQ0rYPy2nw6ruHBH%2B6nRFm6aO31Zo%3D%7Ctkp%3ABFBMoqeGgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227543681736"
+  }
+ ]
+}

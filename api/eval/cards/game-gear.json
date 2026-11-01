@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "SEGA",
+    "product": "handheld game console",
+    "visible_text": "SEGA GAME GEAR PORTABLE VIDEO GAME SYSTEM",
+    "search_query": "SEGA Game Gear portable game console",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Game Gear",
+    "platform": "Sega Game Gear"
+  }
+}

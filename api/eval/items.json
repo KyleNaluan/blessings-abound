@@ -1,0 +1,488 @@
+[
+  {
+    "id": "nintendo-switch",
+    "name": "Nintendo Switch console, red and blue Joy-Con",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+      "sha1": "7a839f998c8523628815f240e7c90512b4979b59",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 13000,
+      "url": "https://www.pricecharting.com/game/nintendo-switch/nintendo-switch-with-gray-joy-con",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    },
+    "note": "The price page is the gray Joy-Con model, because PriceCharting has no page found for this color."
+  },
+  {
+    "id": "ps4",
+    "name": "PlayStation 4 500GB console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "PS4-Console-wDS4.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PS4-Console-wDS4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg",
+      "sha1": "8808cf9d47adb1646692eb8cf3dfdd27068d6465",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 10250,
+      "url": "https://www.pricecharting.com/game/playstation-4/playstation-4-500gb-black-console",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "2 sales per day"
+    },
+    "note": null
+  },
+  {
+    "id": "xbox-360-s",
+    "name": "Xbox 360 S console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Xbox-360S-Console-Set.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Xbox-360S-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Xbox-360S-Console-Set.jpg",
+      "sha1": "ef8a1fcad99ed256ce100a4b8b230fb74dd36998",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 10500,
+      "url": "https://www.pricecharting.com/game/xbox-360/xbox-360-slim-console-250gb",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    },
+    "note": "The price page is the 250GB model, and the photo does not show the storage size."
+  },
+  {
+    "id": "n64",
+    "name": "Nintendo 64 console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-64-Console-FL.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Nintendo-64-Console-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-64-Console-FL.jpg",
+      "sha1": "afff2d3d20ebea2fbf10362de2714d3a1897d99f",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 7000,
+      "url": "https://www.pricecharting.com/game/nintendo-64/nintendo-64-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "2 sales per day"
+    },
+    "note": null
+  },
+  {
+    "id": "nes",
+    "name": "Nintendo Entertainment System console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "NES-Console-Set.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/NES-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:NES-Console-Set.jpg",
+      "sha1": "8d0cf0ec525cbd6ee1d38f2df5df29497455e61a",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 9999,
+      "url": "https://www.pricecharting.com/game/nes/nintendo-nes-console",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "15 sales per day"
+    },
+    "note": null
+  },
+  {
+    "id": "game-boy",
+    "name": "Original Game Boy",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Game-Boy-Original.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Game-Boy-Original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Game-Boy-Original.jpg",
+      "sha1": "aedadb6dd2e6d1ddf0f1a90264a11f50b2ff9a07",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 7997,
+      "url": "https://www.pricecharting.com/game/gameboy/original-gameboy-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    },
+    "note": null
+  },
+  {
+    "id": "gba",
+    "name": "Game Boy Advance, Glacier",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-Game-Boy-Advance-Milky-Blue-FL.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Nintendo-Game-Boy-Advance-Milky-Blue-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Milky-Blue-FL.jpg",
+      "sha1": "8126e48fabc3f8a17de0a90dbda21aa7d20b4bfa",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 8000,
+      "url": "https://www.pricecharting.com/game/gameboy-advance/glacier-gameboy-advance-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per week"
+    },
+    "note": null
+  },
+  {
+    "id": "ds-lite",
+    "name": "Nintendo DS Lite, black",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-DS-Lite-Black-Open.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Nintendo-DS-Lite-Black-Open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Lite-Black-Open.jpg",
+      "sha1": "df752afc46cc92d1e7d6dd06e9dccd469ae94d86",
+      "license": "CC BY-SA 3.0",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 5700,
+      "url": "https://www.pricecharting.com/game/nintendo-ds/black-nintendo-ds-lite",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    },
+    "note": null
+  },
+  {
+    "id": "3ds-xl",
+    "name": "Nintendo 3DS XL, black",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-3DS-XL-angled.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Nintendo-3DS-XL-angled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-XL-angled.jpg",
+      "sha1": "64e9a4d0cc3b8d41bdb07e2350eac56eb2006910",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 20059,
+      "url": "https://www.pricecharting.com/game/nintendo-3ds/nintendo-3ds-xl-black",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    },
+    "note": null
+  },
+  {
+    "id": "2ds",
+    "name": "Nintendo 2DS, black and blue",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-2DS-angle.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nintendo-2DS-angle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-2DS-angle.jpg",
+      "sha1": "64231ab176b7706afdfb2e067cf9cc5dd6e47b07",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 10407,
+      "url": "https://www.pricecharting.com/game/nintendo-3ds/nintendo-2ds-black-&-blue",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per week"
+    },
+    "note": null
+  },
+  {
+    "id": "game-gear",
+    "name": "Sega Game Gear",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Game-Gear-Handheld.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Game-Gear-Handheld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Game-Gear-Handheld.jpg",
+      "sha1": "f95a703cc8cb53d3794d56edfd0f0a1000b3079e",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 5700,
+      "url": "https://www.pricecharting.com/game/sega-game-gear/sega-game-gear-handheld",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    },
+    "note": null
+  },
+  {
+    "id": "n64-controller",
+    "name": "Nintendo 64 controller, gray",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "N64-Controller-Gray.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/N64-Controller-Gray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg",
+      "sha1": "968380739b736b353285d9a4222ccfa0c1c47a3a",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 2239,
+      "url": "https://www.pricecharting.com/game/nintendo-64/gray-controller",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "3 sales per week"
+    },
+    "note": null
+  },
+  {
+    "id": "snes-controller",
+    "name": "Super Nintendo controller",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "SNES-Controller-Flat.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/SNES-Controller-Flat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:SNES-Controller-Flat.jpg",
+      "sha1": "54af0ca2984cd273cbd7b9fd1eca3a72b8de21da",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 1793,
+      "url": "https://www.pricecharting.com/game/super-nintendo/super-nintendo-controller",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "3 sales per week"
+    },
+    "note": null
+  },
+  {
+    "id": "nes-controller",
+    "name": "NES controller",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-Entertainment-System-NES-Controller-FL.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Nintendo-Entertainment-System-NES-Controller-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Entertainment-System-NES-Controller-FL.jpg",
+      "sha1": "8326ef703b18846cfc2cc7e3c17f40ab8125f580",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 1799,
+      "url": "https://www.pricecharting.com/game/nes/nintendo-nes-controller",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "3 sales per week"
+    },
+    "note": null
+  },
+  {
+    "id": "switch-pro-controller",
+    "name": "Nintendo Switch Pro Controller",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-Switch-Pro-Controller-FL.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Pro-Controller-FL.jpg",
+      "sha1": "f9d00faeb7ff3fb7e84951ec1cc2e184c6f39fd5",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 2499,
+      "url": "https://www.pricecharting.com/game/nintendo-switch/nintendo-switch-pro-controller",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "3 sales per week"
+    },
+    "note": null
+  },
+  {
+    "id": "dreamcast-controller",
+    "name": "Sega Dreamcast controller",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Sega-Dreamcast-Controller-FR.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sega-Dreamcast-Controller-FR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Sega-Dreamcast-Controller-FR.jpg",
+      "sha1": "ff66214866432f36f33549a67de4a9c072dcd779",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 2815,
+      "url": "https://www.pricecharting.com/game/sega-dreamcast/sega-dreamcast-controller",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "2 sales per week"
+    },
+    "note": null
+  },
+  {
+    "id": "wii-sports",
+    "name": "Wii Sports, disc only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Disco Wii (davanti) - Wii Sports.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Disco_Wii_%28davanti%29_-_Wii_Sports.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Disco_Wii_(davanti)_-_Wii_Sports.JPG",
+      "sha1": "53e431366a20b9dcc0855446b259b4acc55a875a",
+      "license": "CC BY-SA 4.0",
+      "author": "Fede13052002"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 2500,
+      "url": "https://www.pricecharting.com/game/wii/wii-sports",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "5 sales per day"
+    },
+    "note": "The photo shows a European disc, and the price page is the US release."
+  },
+  {
+    "id": "sonic-knuckles",
+    "name": "Sonic & Knuckles for Sega Genesis, cartridge only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Sonic & Knuckles Genesis Cartridge.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sonic_%26_Knuckles_Genesis_Cartridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Sonic_%26_Knuckles_Genesis_Cartridge.jpg",
+      "sha1": "dc76457d69256fb5649783e15b08a95dc2fce156",
+      "license": "CC BY-SA 3.0",
+      "author": "Julien Jorge"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 2921,
+      "url": "https://www.pricecharting.com/game/sega-genesis/sonic-&-knuckles",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "2 sales per day"
+    },
+    "note": "The photo shows two cartridges, and the price is for one."
+  }
+]

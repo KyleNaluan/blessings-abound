@@ -1,0 +1,713 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Sega Sonic & Knuckles cartridge",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 16,
+ "organic_results": [
+  {
+   "title": "Sega CD Model 2 & Genesis Console Bundle 18 Games (Sonic & Knuckles,4Controllers",
+   "price": {
+    "raw": "$305.00",
+    "extracted": 305.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860020531681?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338AM7VP3J33HE7XD7CF&hash=itemc83d37e1e1%3Ag%3AThIAAeSwc%7ERqxqv0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FUkfXWpVIgyHTpeLs4aWxASYkQdAwTwq1%2FnnPO8Tx370gVRtq2qoSu3T9ioxTUTLWwNBXYGlGy20S5AlRSaBuemckinbnGc2W3VyWPzp310Zmdt2qbohQqpkkO%2Bo2RhZWHWdspUKOHgyuG29Lf7yPSE5G2HKEXbm1bVMIc2n%2Buc3y7kMufhAt2O%2FD17FnoPSl7rVI9I%2BXI0QJZL3KTdzw5gqWUBvmeBuhIXrfpfDTuEdDYLHVNB9zeh2l7AVDl2i7YMbsE8RGkTCqtfdB22%2BZE%7Ctkp%3ABk9SR8C0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860020531681"
+  },
+  {
+   "title": "Sonic & Knuckles (Sega Genesis) CIB Tested: Works!",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198557586719?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338A0CNHJGTTSR0G15M2&hash=item2e3af4551f%3Ag%3ApmEAAeSwT4dqd9FC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FN4ZBh4Yez9nSllBqh6zacFURFLhh63CZcpjfSK1yhAlo876iK0%2F1zsbxx6vahmw7EJSTuARK2MzqXqya%2FzOf65uTzyMpOyzc4V9dQkmncuJeAQce8eX9PNjQz8TNoBrkgcYpsntdtmZoYFE3U15OBePTXXJ7eako1tsAeEg1%2BZY3rebRrP17VQ4wXKMEP0BMSFRWYrfWndmxWfrj7Wj1GShiSH%2BGE%2Fnp0%2BlQsf4x3MaKS7THiAp4C2%2BWGvspiiffYNp04nq4NsS7LteyBX1znVtcX%2BrCGjQUH5aEBzoetG%2FeNIJxBlcnB4pkP%2B9pQrDI%3D%7Ctkp%3ABFBMwLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198557586719"
+  },
+  {
+   "title": "SEGA Sonic & Knuckles Game Ad 1994 Vintage Magazine Print Genesis MTV LifeSavers",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198632744409?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338A8W3FZEDXV0YX2T1N&hash=item2e3f6f25d9%3Ag%3AnXsAAeSwSoBqovtI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9UZ3X0qrtNq%2BdZ4dOsSyqBhAGGKgg0mnDrr07gBBNguXYmGYq6cyrX3phdn7N6xqsZ08rEiaJIkZriI%2FhRfiatIuvV56Cl9%2BMI4ozj7q5gshYaIWpU%2F979p7lPvYW4wH%2F4XaPMFZ%2FFsglSd3soeucebbqFNO%2BFuOFlDmP09YPG0%2Bn7jpj7OZmD01nS2l7ex603DqcMSh1JoImJ%2Bv4GKyaE0wz1iie8eqWM5YgEbYS0cJdMkuHT2%2B5dWcQYKlRbtcTOC5n5OtRYS2XBpTZLN8hUh8rzBd0CpY8sFfYe8cqh0lZgZQgznwvYwWLB0Vhj4fk%3D%7Ctkp%3ABFBMwLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198632744409"
+  },
+  {
+   "title": "SEGA Sonic Knuckles Vintage Magazine Ad 1990s Retro Video Game Print Art",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237061691354?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338BW4HCWS229Z5QY7MY&hash=item3731fa57da%3Ag%3Ac5QAAeSwODBqowm6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BudMlrtEDNnpHFdeZOAne1upn3ppLCadOjYd7YPWaogusjO8AEr2WOeOZPRCdH%2BEQt5sn%2FZBKZZbkfm1BaZ7SkX1%2BjxoGpjcofmmjGLYFivuE1R2piPYIlQkFdchN2IHQoAkfD%2B1BmPUFKsqsNKs4FoEtuMa5uK6uy1xIhg82n09zWaIMDqqxl1g8IoiHSxrxfUD4aw1pVEeemOf%2BlA9Y%2Bu9PixNN%2FFDxiXjT4s%2BqCL5s%2FOnjko%2FcOu%2B2yMuGKk1Y18oE05pLT6xefW5saKRfGhr8cVElOnMtpJ%2BsaoB3Ez%2FHOMoIuCUjE4%2BEvfBQhOto%3D%7Ctkp%3ABFBMwLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237061691354"
+  },
+  {
+   "title": "Sega Lock-on Cartridge Sonic & Knuckles Used",
+   "price": {
+    "raw": "$231.84",
+    "extracted": 231.84
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227592612491?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338BEFP77NTA9PCBVZQT&hash=item34fd93aa8b%3Ag%3AQ0gAAeSwmaFq5yRr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde85LgyB6sbdy5QOT%2F%2B4s6N6LflWLRaM6ixe6sJ7IZ5RiMuVme2B3Amin5LGgkNQ4vKW0Z1BJYie0OEtJwEhnyQleru%2BePgTPw0kN1eBricwbFC9ItnwNm%2BfXhaHekdQT1z52pmmMtNzxRIpBt7L1TOfRtw%2Fy2o%2BSDcP1ZR89xAjBF2JQ2C3Q7Xh7%2BgLUjJdGRbG6WkfMLTHmqA9OAb2yHXSJmRVUoMNaQ14qCsD9Jbs4iJVziVBzqPcj4RuJpp68SFEas8d5uz2jATY7%2BQ36kH6sNK3nc9vcgqrSzA05bAtWkEm27IddhpCmineXVJeOoM%3D%7Ctkp%3ABk9SR8C0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227592612491"
+  },
+  {
+   "title": "Sega Sonic & Knuckles Mega Drive Cartridge 1994 Release NTSC 16 Mbit",
+   "price": {
+    "raw": "$1,047.77",
+    "extracted": 1047.77
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/397894369408?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338BFN28G6RZ1A0R8HKA&hash=item5ca45a4080%3Ag%3A1zMAAeSwAxtp8rod&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BFMd32xmHGE2VYMz%2FlIK1JyG8HYxHCgpmUETCzosK3Y%2BWb2sY3Wf4scUsU%2BVxFA4iOYefBqBH5%2FwlMGmxnT5dRkF1glwJdTyH79dTgeJnWeybCzGHvgMgty6sfY6ObRNfVjh4BmNnZKCJko%2FOemdo%2BEyA25nPUj3ngy2omdfPQIi%2F8DTZvigmD8VG8DSAwMPFhJPdUGMT1awnr0vvRKtzi%2FUr02pfo%2FQjhChpMb2pz%2FkaI60fsyBR4dX8qQYk3Th4zpbolHyPPvnPK5Yh%2BMXVMHRjTUTRfaFo3j9Vq04LaPznDZUtVB6nWM8QfXiGnfHk%3D%7Ctkp%3ABk9SR8C0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "397894369408"
+  },
+  {
+   "title": "SEGA Sonic & Knuckles Mega Drive Cartridge 1994 Retro Game Software",
+   "price": {
+    "raw": "$210.55",
+    "extracted": 210.55
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/306957319371?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338BC64A3EPR0TXB0R8M&hash=item477814fccb%3Ag%3ADW4AAeSwZPJqEbxy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bkn9awlT3BEf%2BgziAVfL6jl6rhWT0EyjLnly%2FIk9WgP3iUZDuTEuKWJ%2F9%2FZjcpocHAsSwvxPs2DxS2QK4xetmr5oCz2wdpSrQD2PNqb2iOdiJPG%2FA3FchFknILW%2Bee19m0E8OnI3hROml2GJ7cP%2B1glkhQSrQaeAM0ean0QpQtdQwrd0nKJ86JkREOWdZZi%2Btjk6V%2FYpHxX1mKlhMacCFD3LLgz737s6kbDyea7dK8MeLRj6CBXfBzgrdvNhl7%2BNTQkDMYaPNSkxPYHm4yKZxan74JXuiFmXJDT5sC4IdvJ89PRT7ulr7h7MuAAiuFdBU%3D%7Ctkp%3ABk9SR8K0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "306957319371"
+  },
+  {
+   "title": "SEGA SONIC THE Hedgehog PVC Figures Mixed Lot Of 10 Amy Knuckles Super Tails",
+   "price": {
+    "raw": "$16.00",
+    "extracted": 16.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800645447347?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338BAG63JJ2TXH2808X7&hash=itemba6a2ffeb3%3Ag%3A4YcAAeSwdAJqo%7Eix&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Hxm9Lc4LyUyuXroUPFn6WYXSCUj29sGY9QZO6axcSWXfyzRKBvYO4kzpdmhwzeV1jNwjbwT%2FvtVfC76MJRqmjC1DoqUO5pGTXLgWxE74IzleTwVpN6vr9527wylOPA%2FMvhTljjbkuMaJc4KpEJFMMJVInRcVmubVdpJnYHssdRXpHbvTzjm0KLdQjC1%2F28FHjqg0A9moInLbqk9%2Bt5AhceUfrU8sIcGOCmnzV0dg9eHbLSuedFhdZZX7THlJsJNNe4eSW7p5TR5yKX9umCtXo%7Ctkp%3ABk9SR8K0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800645447347"
+  },
+  {
+   "title": "Sonic & Knuckles Sonic the Hedgehog 2 3 Sega Genesis Old Promo Poster Ad Framed",
+   "price": {
+    "raw": "$50.77",
+    "extracted": 50.77
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/276079826197?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338C5XY64Z1T8DF7GD3F&hash=item4047a3d515%3Ag%3AFOwAAOSwoP5fr5a9&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9cCqrqtv42Mwhr%2FzmC38mv6usA1gS0G0917JliKD0vXyUEgKJ3tmBViL8ikc7AV29HWLoHw6qVTCIhXu799gAoP0%2FZ81erOh8whKhc3ZqQDC9PrAMBUooxpThFkQiGxp52pVnFDcLpPay2A2Xx39wm35RiuwvyaFdhuQLeGkUUA3P%2BnM3%2B1PDYhd9AErAy8bu3X%2BwokUe1WggFIwlwyklvYgPx4LOkrB4pC89mSKY0v5T2MbyAfUz5j2mAG3aJfvW%2Fvk7v1vKwCpQBGbkfLlpmS2uEibeayAgdR%2B9IH5%2FyBtbS94Lu%2BMz1f%2B0sKapqFO8%3D%7Ctkp%3ABk9SR8K0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "276079826197"
+  },
+  {
+   "title": "1994 Sonic & Knuckles Sega Game Vintage Print Ad/Poster Promo Art Magazine Page",
+   "price": {
+    "raw": "$10.49",
+    "extracted": 10.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287684920275?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338CH1WPE53QX78BP413&hash=item42fb5b83d3%3Ag%3A67cAAeSwE7por1VQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BY2NyVNArhYX3CCnwu%2BCzOQw5npkahyp8e7iu0ej%2BahHHbS2LlPAaJutaBbvM5owrMDqZAP6YS3Ez6B0DA5UBRYbgdS%2BbtJvvi5afhxgO7yMPRpWejP4FddrDKkKhFOJo8tBHwiVukAs6iGHtKJSdQkv5%2B%2FsL16QW8ri9II4FNz56gGdxiT3KGPEmaVY9yJbgC8sDQZAKB2OZogs3camVoGIUSJW%2FUs%2FM%2Fz0EzsMHh17Yv%2BumcR7nsAV380JcehPt2OtP51HM0Ehv07TUtUDWDauwyY8ZFwYy6VOtpks3XmUO5bGd%2BVlnTkOOeZTgWNHg%3D%7Ctkp%3ABk9SR8K0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287684920275"
+  },
+  {
+   "title": "SEGA Sonic Knuckles Vintage Magazine Ad Video Game Art 90s Promo",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237071812457?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338CE4HSE00TC9VVJB0K&hash=item373294c769%3Ag%3A%7E74AAeSwmuxqqtJB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Ldlfnt%2Fs842rJV7FpggqYoJURcXFwM02jOg5yJx%2F2zNyRXhV731R%2Bj9RKkDIJp5P2ViYETe8VNV%2FFvc2qnZUh%2Ffx5mgTjAl4e6gdee%2FN%2BvpwjsCf0ZD0WtdXivdXRCsNzehh4v%2B93BLkK%2BUbza4eNzp60QTLZsSSAl4CBIPIOiZaAQvb0waT4sdpWitJe%2Be0i8FQGo0wuFPAJYdfffWzLJ0dcvmbKwJM9%2B4lBOLgl6eWzljHmJvqnfKLwFnVJFq2XZJ%2ByziAaRgU5QpjBUdBS%7Ctkp%3ABk9SR8K0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237071812457"
+  },
+  {
+   "title": "SEGA Sonic & Knuckles GamePro Review 1994 Vintage Magazine Ad 2-Page Spread",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237071790516?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338C7S66TB1N6NP9Z6PC&hash=item37329471b4%3Ag%3Ad3QAAeSwsyZqqs9x&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8glmJUoJmlxRpzkbS5gAgPWmSbl7GiEVHKk%2BgqNDcODKaPqxAd4A60erro5FW59E3Sr%2BwTdO86J4rlxjfsv%2FshZKVjG5gir2qbGVThpvSblLYsy2N88hxmt7MjZ1z3ebT0zkep40vHWjurDFzLDajajVlWy%2F7WPr6ffoj6z7KRzo25b5l8KN%2B9ZCqHUhWPe%2BSHWWYF6%2FbeYoPGJETKA2D1jRgI8CqK24OAWuUIzKFX%2B3SCXo3c2aON%2Fch1BeehNFB%2FLYT3XBEIkj1eBg0a%2FYOl7y3wu85dG2a1wjMeyY3k%2BLj9kETagzd7lWjJ2CL87Z0%3D%7Ctkp%3ABk9SR8K0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237071790516"
+  },
+  {
+   "title": "SEGA Sonic & Knuckles Genesis Vintage 1994 Magazine Print Ad Full Page Gaming",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237071812425?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338CNBE9W76DX8C7XM48&hash=item373294c749%3Ag%3A%7Eu4AAeSwrgpqqtJB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BbvDYrEU2Vy0oMLqZVt2Se226s4sVXejppC%2BlyqmWx4Ma%2F5noE1iCiCSBRJiR2mfUrZpI3%2BVjOIBh0gWQptRRC%2Fa5lwgj9V21hL843Hfe7EbB5Fslq1Wsrk1eWPElcy50vLD7DhUne8UC5SY3f4wRmZe2xBkg6OSyV7MOX9Fpfd6Ioap1KP09RGel0bxwpykChhjVI9OPrsp%2F0kXixxSJ4AjwarlUd%2BfkqQR9HlkCkWV5xM6l6tONl%2B9a7JkgJHkPE6SrEhz9jzsBkVHppjgoazPQQvR5RqrB6Aw0jeeoUnMJd%2BIm6WgQH1D6l2qhK6Ww%3D%7Ctkp%3ABFBMxLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237071812425"
+  },
+  {
+   "title": "Knuckles The Echidna Sonic & Sega All-Stars Racing Racer Car 2024 Nkok Great",
+   "price": {
+    "raw": "$8.99",
+    "extracted": 8.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188317199002?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338C2G5529NB6SDA5JB1&hash=item2bd8946a9a%3Ag%3AxEIAAeSwEeNp7UeC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fw2XAoB1ex71iRhAY23pKfizvJsX1NFB08IgF2sHG6o%2F66dUnlbTQrrxelnDC2umCHuk7XAmBkKV7%2F7zx55RC%2FwTADEzrZyBt0bvKNPSEmLrc9dJwUSOEy0K%2Bkjk5e%2BWpsDhVfVQAiMzTlWSeWnAFRGWLs%2FzLa5EBc%2FOlurJHE06LEdK4eUwVSdoah5LxC52yQajBs3NZgdkD5IKyuezwTmd7gH7dUrGQtT1xiG07uSnBVvL3RoLk9A86Ukjy0dKO1MDBQImyUpohUTl6P0wGiNM8CD3Y--R3rxEsN7Ge30p2emx9D9RAprKG6ioFQlEU%3D%7Ctkp%3ABFBMxLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188317199002"
+  },
+  {
+   "title": "2004 EB Games Sonic Heroes Sega Video Game Knuckles Tails Retro Print Ad/Poster",
+   "price": {
+    "raw": "$11.90",
+    "extracted": 11.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/196357357617?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338DX8ZVAD9ZYFKH93A4&hash=item2db7cf8031%3Ag%3ACrcAAOSwVu9mJVY5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde87YfphZKjS3BzPvTHjENNUdAJ6e1QBpNqmVaeRDvJs7XhdquK1j5lnL2%2BurwD%2FD4DbC5vDCF6%2BjlhI4aX3uSWeYLpa5s10PxLgZOxGOynFyMweeLYRHKSl26WhOqhQFW3fJfjyXwbGhwz8IZKGKl4HmRPrWNbs5J9MqEb%2BkICdBCWChYdKNyIHhJfTxH3Xqi59hJivkP65BoA4qAkIWp4EylifT48sALV0k3s%2FK%2FppNcuE1OcQKDO1q2q5s39owNwbBvs22LTSGzfMFndlSyR2ep5JBgUckYfbycO1y8H%2Bwp6LaMQ33LCPULtMf8%2BR%2Bcw%3D%7Ctkp%3ABk9SR8S0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "196357357617"
+  },
+  {
+   "title": "Sonic the Hedgehog Spinball Knuckles Old Small Promo Poster / Ad Page Framed",
+   "price": {
+    "raw": "$56.98",
+    "extracted": 56.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287103625108?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338DP849CVP5QYCJBKEP&hash=item42d8b5a794%3Ag%3ANdAAAeSw-M9peKkw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FbWmYeaaPk2NxFTscntS6%2Fhf74C3iFkd2OLu0LiDn2emhBv2cgix4elXfAMcsPm2zHVTIZ%2Bnso13cKRYJ7hFaN7ipizt9i2VdLOkGbnmobNlrbwFvoogNpbZouR%2BrXZfB8xIVBG9pry9%2BSCvqFk7COkB7lZB1tapRc6aSWccxll5LSZPvxiff4GD6FMHIslHVsN4tm5qD8fguF11%2FoqiT8QeeaaDyxFXcZ81aHywS4i3HCQ9QfrQ68klBFNfeFsrF5%2FypJbFpAuroea%2FnQPnRv3v7MF%2Fra1BvEcbmi%2FQtyd4PCVQXuyG2n10utIXvGwR0%3D%7Ctkp%3ABk9SR8S0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287103625108"
+  },
+  {
+   "title": "Lot Of Sonic The Hedgehog, Blanket, Magazine,wallet, Sega Genesis Games And More",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820301790981?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338D5X8RNAFNKZ40ZYPZ&hash=itembefdcbff05%3Ag%3AXw8AAeSw%7ELxpcRDW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde86iuqsVDkxsgRiwtdI29VdZvagTyb%2Bvudptoxmr%2ByOCUqtwyC7BIo%2FQ7Fkpblb1ntNZoNs2KPfZ3BdWQ8SUMLgV%2FJpc%2Bt%2B1s7C3Txe7p5bl4EIuyi4vzwXD093ucmf7Vb6NyCos%2BT3r0tSQ3YZxDSlGsXZF3xDe4gjPNj0PLs0ofiPx8j20cAT4Gz5AsaxxDaAB71e%2BN3X2VUFhPnWoglmuk%2BoJHLhqLHaHAx4L7vp%2BjuOtdG0YShbaqiyuCoJpLacrQ3oU1xW3%2Fve1XV6mPA4fn3OeonEWN0yROslGF4coqaG9hSJZj6BhbPp%2BeZn0Eo%3D%7Ctkp%3ABFBMxLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820301790981"
+  },
+  {
+   "title": "​Rare 1994 Sega Sonic & Knuckles Vintage Print Lot Ads Strategy Guides",
+   "price": {
+    "raw": "$92.00",
+    "extracted": 92.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307146594352?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338EP3DXQ31RCG032Y25&hash=item47835d1830%3Ag%3AZXkAAeSwmKhqjmlY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Frdqt3w6opBMtG3scfpLqLkfecgq1zglxkhicoQbFp5IdZE6m0jWCT2f%2Fli5oeNbdvtarKrkwTN8f8ezvmgkG0qW%2BekzobLYgLBU3xb3zfumiVtg6ae%2FnqfIeHbAzZE6SRULS1Avrpe5dGZhpVuYXQOwi%2BzLgoHfHEv7fh9dixeoqfpNcfMvFSLS8zf0GTlRzr47rUpKk322BzotjejE5Lo1wnx0MYgOyMzn0lPZ9h1pdb8Yf8X359XnviemKmQeD%2Feh5emJ1Fh1Zimck4qZEo5l81cPcFj3oyw3tEX9NAanbwU5MhPTPGqx0sboMgIX8%3D%7Ctkp%3ABFBMxLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307146594352"
+  },
+  {
+   "title": "SEGA Genesis Lot of 10 Game Cartridges: Sonic Spinball, X-Men, MKII and more!",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147655598104?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338ENXTT5VPK77B4KDGG&hash=item2260f5a018%3Ag%3APNgAAeSwqRlqytQ%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8MAVY1tIN40yP%2FUVt1%2FVosmdKy9QZob3Oh06J32LcSMAMzM1jKlGvJAdms9wAI8p5zFYw%2BnmZu32XVXLW7GspibHtaxlHGkwRt32wyFEIXerGvRnE2sLlD3%2BdUHqbm57GLEMNZzeJPgpI9sSqZfCU7oNFoGd0jFR93P8Zs7gSYBRklVc8RkFfV3n56%2BcBsecliMM%2BpDPnqe0%2BvNzBNT6%2BxJoT1%2BQKBpWCckOv1tBvDZqXTgOrkIzArVWRNkTQW3uju3kHPxGqLJF1Cy4EbB5wjFaUBV9rVM3egVuB4BvrHrnRKGuhJTSNHyV7Lan4FINM%3D%7Ctkp%3ABk9SR8S0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147655598104"
+  },
+  {
+   "title": "Sonic The Hedgehog 3 Sega Genesis Cartridge Mini Playset with Tails Figure",
+   "price": {
+    "raw": "$10.49",
+    "extracted": 10.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336762983490?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338E4496EH23WNXR2DWT&hash=item4e68a35442%3Ag%3Auo4AAeSwqn9qjzeZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fn5L%2BPumjvvRbapcVBpW7EnUneG%2BjRve2vfznsuhxDhzMLWUgn3%2B9pdX4z9xssvZg7d2PCQ3di9YAK5G839FESrKNEcKFTqv%2FClqggDdctDMjLwfsZpXdIIH6cpp%2Bzgy%2FSmjnUoUnkrNKotmGd5u86oJklCnIBSVQLCSiBa1%2Fe%2F4fjWUlQMEG7lA5%2FLoCUAoUputWjKabbaoGnTZ6I4zMVEtPFuB%2Ff6zPhAv1dcJAjFjX%2B2%2BXoGGFNUDY3KdU7ylmRGoA9TxjulcepQ%2FmJChSZk0UClvOnCFi3%2FygBhlDmPkpGIBCCiR0GHFmAruLJ6B4%3D%7Ctkp%3ABk9SR8S0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336762983490"
+  },
+  {
+   "title": "Sonic The Hedgehog 3” Chess Piece UK Magazine SEGA Fragile",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318863048656?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338E9VAEJVXNHA6N2NK8&hash=item4a3db7ffd0%3Ag%3Au80AAeSwmuBqpeee&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BjEf7dWdx4P7SBNPqKbv3J6jru%2FAwRxPm1LUp35MQP8OF1oKKfccCP2cRanChoStfbtQi%2F1w0YuIeNl1WCiGicvi0YITRsn6SxzJQwik9NXxGjMNwRWnKdXEsHmvhV1QdWd0ZQpsZtvogrMsRvhgV2VT3nDg1EIEPFHreNsNdZPkaNlHMdQwfCIqD%2BCxXMBFMQW3acjv321pzTaY0wn1zW6942dQUfJ3fQzzai1WDr32rUmeRgM80Y5JKYUXG4sTf1vg26U%2FN%2BTEgDG7q0eKPX%7Ctkp%3ABk9SR8S0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318863048656"
+  },
+  {
+   "title": "Sega Genesis Nomad MK-6100 Handheld Console Tested Working + Sonic Cartridge",
+   "price": {
+    "raw": "$314.99",
+    "extracted": 314.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206662378080?_skw=Sega+Sonic+%26+Knuckles+cartridge&epid=112333033&itmmeta=01M6C2338FV59HX00GX6BHQQHY&hash=item301e09a260%3Ag%3A70EAAeSwQfRq4-em&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2FnWAg7HJf9JXa%2FNUX74rX9YtdiDdoeyWWJE5GzRuob8iPzPK3ZeUmHZhUCoGTkHoAdrSQQZbmmacXMuxUc5tlIN1nMItTMMv219ysA9l6p2hrAwUEskzYBc3ybXi9mRtFzgdUqEByz%2B8vtPoQf8kTk0UBaBEIYf6NcTLUS4OGY98NKRmhH2WqyLjgBWx2L8BBqyRu1gbJ3dUMFBQBu1F%2Fm6qdugoX%2FJzx4btcst%2Fp%2FFPM6vLRDhVZzKr9z7AMLyxvRHpUj94zjjpmBZVX9cOgGjDRQqE%2BPxoV1%2FmtH8xoWw3xMpZv3%2ByKZGsQKf6wjOw%3D%7Ctkp%3ABk9SR8S0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206662378080"
+  },
+  {
+   "title": "Sega Genesis Sonic Bundle - Model 2 Console (6-Button Controller & 8 Sonic Games",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860076491578?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338FFKSRGCE7TZG1GYVH&hash=itemc8408dc33a%3Ag%3Adm8AAeSwcUtq25Pk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B2cT51auMMpZ8bV5WzNJ9N2uZE3GfzyBClw0R3r84Z%2B%2FHLsKyZEoA%2FdF9awOMD%2FGFHHta9bFDADuor4idGdQnXGKujqAS4p0PCXWsaWRq5h1yDRClL3E6Dp%2F3EKAApJaqnjDJ%2ByOSdtH19Vp8mt7QAy%2BDhlY07psTNw3DtI9KTI%2B4McG%2BMvcLgNQKj1G2sySQQZLapdAeUG8UwN2IJ%2FdgQ95H177QKC8Eu9in%2Fn4IKh4PMeu0fMgP0I4FVl6ZgKq3yVl17sPQRLwx%2FMmyS%2FAO5%7Ctkp%3ABk9SR8S0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860076491578"
+  },
+  {
+   "title": "Sega Genesis Game Cartridge Lot: Aladdin, Sonic Spinball, Wheel of Fortune",
+   "price": {
+    "raw": "$34.00",
+    "extracted": 34.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366597441961?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338F2NBP80YHVY8Q5NW9&hash=item555ae909a9%3Ag%3AeUUAAeSwgGdqeinG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9AcxjOfHlTvVv%2BqCSyVRwg8AZh4Y0I%2BOrqWFOib9kR9l%2B9p1iSf%2Bg6%2BTl9yq6UoTIO5lltzo%2FsaWA%2BPUCqfePzkuYmvgOmTyCzaBAJkYbr%2Fg9nBpsZ9sxANBaIE%2FCQfQGegjfysDI45B4zpziDHaqSXVLbeo8H3qbRU9UznHfA%2FSFAkZhixIMjGNb8QzXOJLEU5KkSVyd0VGjKiHwLqtVc3sBDPdRRa%2BZgU%2Fs1tRjILyULFFpgYBdHV1VCIHfL0RZxdxtkXI0Bgg6961eIX1FgMSHzzl4r%2F2PLnSdFmQFbYK1HAruKYu1NWtMuZMA%2BZI4%3D%7Ctkp%3ABk9SR8S0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366597441961"
+  },
+  {
+   "title": "SEGA Sonic Adventure DX Director's Cut Vintage Magazine Ad 2003 Blue",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198625805454?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338F9VF1MQK804BTV9VV&hash=item2e3f05448e%3Ag%3A8XEAAeSwzjZqnzcv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BUuzzYwgRnBkQNQ9r1OeiXhhwwmnprscdPM3AyS4velyCgTZj884Ezg%2BGMs0Y53pHQb1dcy%2BRsYXrDiT3ZbD3msG1OPb%2BOAyMhIBA%2BI%2F7gCxlznRuSdm3VE7CUEg3a%2FXkVx%2Fjzh0mno%2F%2BCQphBbs7ubzmYZ%2FlIzMRwSEuvIfNJcn5oyuQ5I6%2B%2Fu019563%2BABPjKs6ghTVDrV1n6TLqRGqJZsAhDTsRGDBYSMP9PISIqM%2BRXrIepfQ7VfmrPcJAlKBjhLTZLX%2BVmvFZuke34rqV3AU4R6WvUru0HHPiA0Efw8tUj6DsghKDlDuhY4uaXpQ%3D%7Ctkp%3ABFBMxLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198625805454"
+  },
+  {
+   "title": "​Rare Vintage Sega Sonic & Knuckles / Blackthorne Jim Lee Art Centerfold Ad",
+   "price": {
+    "raw": "$22.00",
+    "extracted": 22.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307115118520?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338G77S7R42CKSGBPPJV&hash=item47817ccfb8%3Ag%3ATpUAAeSwYTBqd6dG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ck3NMP8PMrVs4b2Q4FSRUOcLH58jdrJKEjAW3fUV6U5iu14lgyDduTx3D1Q456bV4p7jNKcB6uZJdt1xYRgmU8zqbcPI3LzaYWrU42zYjkm6JCNochbtd0Uokm3Ch%2BEtRe5qff9B4ogh4WqZ%2FsGA9Gxow%2FjQT4WpGC1ZpqQqQaMWzo3Bej%2FP5GpmDczO2L0wUIrvKgDzFvsD329JuuMTkkKefzOshoTU9t%2FFa4aU4mA9P%2BkSmaYKcSYHHjXZ9Lptdiziizv1qdB3erTDXN0%2FId7D25rPF8xzO3z%2B7VZofv2iJkQNiBeLooJN0nzfhOHI%3D%7Ctkp%3ABFBMxLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307115118520"
+  },
+  {
+   "title": "Team Sonic Hedgehog Kids Backpack – Sonic, Tails & Knuckles | Blue",
+   "price": {
+    "raw": "$13.99",
+    "extracted": 13.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127302631357?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338GDRW3CYW0JXCXJCSW&hash=item1da3d3ffbd%3Ag%3ArJsAAeSw-55omhpB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FN9N%2FDNzWuMjJbYeCPmwLCgi05jwea3N07T3j0qd2TEiFP2iJJSYG2I1Ma5Dj%2F3vOo%2BmOwF2Ac5oCUtG8a%2FU52NDC2oq%2F4cG68uKTfPqGm5oZ%2B6VR0zmL4ZOfEFOuz0xfy%2FQ1ejlzgQJCwzbX0RstXJ2yBjUItR71lKaraZO97sNhz0g0dJ8Rrz8B7Z2fs5EGFNkovwbYN83lCwWw0vevlC6PGoWMk%2FmCYRDvEeMIFI%2BonmZCUXvA%2FD6hhCm%2FMEdRSW5Wzdy7opKudF3HLE0Scs9lNzRoWby8Vd6PGuUGUszpMHYNEZIFiW1C3tLfEnIU%3D%7Ctkp%3ABFBMxrSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127302631357"
+  },
+  {
+   "title": "SEGA Game Gear Console w/ 5 Games & Cases: Sonic 2, Mega Man, Tarzan",
+   "price": {
+    "raw": "$645.00",
+    "extracted": 645.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920021873351?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338G41RT5XEA11H2FMGX&hash=itemd63593b2c7%3Ag%3A3IMAAeSwaPtqyCBa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F6qZWQFt4O79ylW1A1M%2BiSsBgwIO7dLSPW2Xw%2BI9gPtFgKAW8KhN4LFM%2FC2WVSo%2BAu95STkIvedESVYGiYVlejkPsf8tO%2Bck--T8IhyPrEulEA1l2FduIGGMgfQcEt424puq%2BoYrFsyHa4NMZzcKB%2FY83ZlaNZM7V2bc%2FUiWRabAxbLxpaFfcqoV9Gg4tqrUBUS%2FSi%2B08pb%2F56AOBH2%2FSXjIw1gPFP54cj4n1GDDSnPDrnzCrQUTALvC0dk9p30OHTC5Y0vnQ8WzA0ObovJM8pjRjETkXAmHKf07Fj4Yx8cOFLD89RLn%2Bg6o2raPHr5MY%3D%7Ctkp%3ABFBMxrSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920021873351"
+  },
+  {
+   "title": "Sonic The Hedgehog Sonic Adventure KNUCKLES Plush Toy Network 2003 Tagged 9”",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860095196370?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338G0T39K69TVG7KTBPG&hash=itemc841ab2cd2%3Ag%3AARAAAeSwlMpqyl4k&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9WM%2BIg88h7rvDTuSttKeB2cjtvFPQlBidYw5oueeonIU1sDQ6bKYEHtq4TEYAknIWQB%2Fcqz3yjy9fA0B%2FC5I2GIrYU3JcwWH7%2FnejKKUwFuPmq4YhDrBgj8dOIiQeXHB2dALUs5gucgywkkHQxxR2rlY8NhMwHqbxVWgvJG775q05wjkOxwU09UBi6PGJrU1XmQbvzuRmBgm2pl049mJAPAqhOP429t1MnqWqTK1uJPY3WRcJrVCYFb4kmpqNN5y9I5xEmf5eQ7eYmhC5y2IAL%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860095196370"
+  },
+  {
+   "title": "SEGA Genesis Lot of 3 Sonic the Hedgehog Game Cartridges Not for Resale",
+   "price": {
+    "raw": "$49.00",
+    "extracted": 49.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198717651477?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338H3TQHVJVRZNEC21NH&hash=item2e447eba15%3Ag%3Ami8AAeSwCblq0RU7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNgznqHGq8Yj2RVIV4MbHXpFCUWDyE7ZOwMJX6Bm0EXvKshittWxoBIS47svF0TTLVwrygZy1oLBK1THZcIrenfhIAPXC%2FgWTJU1vzQ7enwJY9KDiooatPuErlx4bGsM480Kh5XySP0WebZMrq1qKt%2FFFEln5cP5tsjsCVC7lbcg7VJ8JnEpPOJo1R1%2BmsEjI%2BhpzhXMo9iYIOYOXXOLTQATVt3ywnvC9ZAgiYCHdRwj%2Bx9tJSmQFiqWOuqjrZ%2BcILu79FxCpvQcNN7%2Fo7d%2BP3Z7bvXnEQc4JpSG2bBzy1EAHLWf2lZy669w7aW7t58tI%3D%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198717651477"
+  },
+  {
+   "title": "GAME GEAR TAILS SKY PATROL GG No Box Cartridge Only Japan SEGA SONIC",
+   "price": {
+    "raw": "$74.77",
+    "extracted": 74.77
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/363441946429?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338HPQSWDT7S9CDQHXCX&hash=item549ed3ff3d%3Ag%3AeNgAAeSw9RFpwLf4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BU5S25NqCfAnAZRMtsQaVqSOFfs5qIjKcPLpl4uyvbnx8ewfCqGS96SU4gZAA4LnsyfoTvCErDYhywDw9wcUnFubsO0%2Bmoa4nSdy4%2FFBov1FcW2eZIOK6iSsn6zsCnPeiEOHV4wzkiFifXaZg2fAkH32DyuSAtg6JdgsM%2BM08LdZFrXbPZIH4K6fhXB0FhZqyZuKZL4TV5Djfbx7oYDPaUQDGqQSOzxB2DbCIHkAuUmsNJGRDsQPvuybYxSh--XK60FrcXfqeUs4Y%2FQAfZmWHkJznJsbCsT2R4gt2RndTVxxeMzfdWFzKew3XGOG5y9zI%3D%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "363441946429"
+  },
+  {
+   "title": "Sega Genesis Lot 31 Games Street Fighter Sonic Jurassic Park Aladdin Garfield #1",
+   "price": {
+    "raw": "$199.00",
+    "extracted": 199.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840042641742?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338HFGZJC67T9RCVQETV&hash=itemc39671794e%3Ag%3A3rIAAeSwd%7Epq1%7E1O&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B9QLX0rLT7s9r7Oq8LKwwwDCO5hdSptYXJPOS2cPxqT%2FmRhdDJNf4CGXrH%2BB0EG8GsOgAzwoGCrsjJO8xRC1w9cBcqJsMKrtFprEiygq2GRflNF4HHkSJqkmGSSn7yZ8ggY3m7SbzZNHh83ainI9oC874TZonwCZ4%2BKArf7EL2hEm4IGv2C4%2B%2FO6XQHckGQwmT10CjCxT5jqPDND%2FrSTkMBK9HkBR3hnpBQZB5rScv1HRr%2BpklVvOiojARipnwZ7VvXsSU7p4xV1nKqyDiY8cN%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840042641742"
+  },
+  {
+   "title": "SEGA Genesis Lot of 7 Games Cartridges Sonic 2 Ms. Pac-Man RBI Baseball 94",
+   "price": {
+    "raw": "$36.00",
+    "extracted": 36.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117416292657?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338H07HQ6XDV4Y8G4Y9S&hash=item1b568e7131%3Ag%3Apk4AAeSw6N9qq05K&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVZBdO%2FMTNb2eX7hPaVez9BCw29edhJwHOqqVUH7lD%2F0UQ5C%2BGPCC3NQWoWVxmQ9HyUSw4o4Xue8CmaX7Kkd3N80YRcH8NKOBXK8eHEZfV5rlp7kIt261lTyOWN%2Bdj2WhDguHpVNBw27zDaReMGQ%2FiE%2Bk6bMcrwWcbKUi0XdjluXpk0cZ1%2BTCBVPgp2qOkbxphttTQx2wP%2BGrBoD92gUX%2BH5TR0o%2Bz%2FlIibXvLiu7VIerPUWROmzIsOgRDFiAgMaRT7DpfkFGY%2BGP1mlgnJBT4ogym2BSDPEe2x%2FlFhGRpqFeJuOg6%2Bv1kOAFloJXwQbY%3D%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117416292657"
+  },
+  {
+   "title": "Vintage SEGA Sonic the Hedgehog Toy Island Figure Lot Shadow Knuckles LCD Games",
+   "price": {
+    "raw": "$179.99",
+    "extracted": 179.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880052524692?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338J4P0ADFVZH7HD7BFV&hash=itemcce737d694%3Ag%3AUv8AAeSwCZlq3wfO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9XQ6JRbTx1EOeA0mgTwVDdWta7UPI6vN%2FwSbAjxyNN%2BLA1nj3LrEmOMfCtePrjFZ2ofkl6CWy8TnLa67KaUqNbk4DZyczlddLjffR1dECBwjqurhCaReBEKXouV6fzsR%2FRxiZq1tVA1%2F9ux2AsD3mFiHDoY%2Baso0ZqQXM1iJZshLXvewAK6U9Ba31jkskk0iqrChj7rZbv9z7obAuxT2m%2FnWGU3h%2BRuJQVLMgSNaqicTqWd5veqSHXD6gISRBBacKVSbuKp3ieKbWR9JcI2x3KnpGqIwgruzfd%2Bo3Xo%2FJzzhsHay6AwZY8c2QWrG%2BS1Oc%3D%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880052524692"
+  },
+  {
+   "title": "Sonic the Hedgehog Sega Genesis Not For Resale NFR Cartridge Lot of 3 Tested",
+   "price": {
+    "raw": "$49.00",
+    "extracted": 49.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117346201089?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338JNPVR1F3QVAXF1YS1&hash=item1b5260ee01%3Ag%3A4V4AAeSw3DNqdhC9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8kjgofMcwuQmqw%2FBtyQTBBpSdcGVljsVOp24Rjvur1ZTYZzJCi8zoMzqoVENBWJC1W3teMhuOiA4fC6itGV85dsqiSx2cc7rxLropGJ%2FpuBZkQd0K8F6ihxhR4y1BICdajMGVR1VjxFxndWS4YqG%2FK%2Flf1%2FOMxfXGDgRsmzPo2MYIgaWJ5P2GbqHdOOGDq8ufJoYovP0I241h6iH%2FhdjMnzZuaY6O7jXHkDncPpor3%2F3Y%2B%2F5oYiCImA1HLl6NbWJa1a%2FYWchuETZFQ6%2BaQ4%2F5A%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117346201089"
+  },
+  {
+   "title": "SEGA Sonic the Hedgehog Knuckles Action Figure Plastic Video Game Toy Red",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800849105245?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338JEJQRN28E0WNWP7C3&hash=itemba7653915d%3Ag%3AQd4AAeSw31xq4kuT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9VE6n13Y2VS3AXZ3FOcWZg62Dzz43OoLc2acUieE%2F7W2hBUFYadfiLtbuJetGFvxEaW2aX2tWhLx2ky1CPPb4YuXS7GYrVE%2B%2Fs5SEaW16z%2Bgzsv0ZH8cNoy55K2lEXF1WupVjojFWVSVWykpMCZ0EwWKN7jNSsPWdmHdohixJ%2BHBow%2FVfECbFrT59NzW%2BqzpTNFTbAauR4U%2FUqdt8ZIirZCWQ4HdpsYYD7mEtbnCB7fhPG5aRt0Ju4BwvKT0dmq0Ohk%2FIOP3vbwEfufnwROcAo%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800849105245"
+  },
+  {
+   "title": "Sonic & Knuckles Sega Genesis 1994 Foldable Promo Poster",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/167878004438?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338JHDCPZ7H01MD6QJK4&hash=item27164f0ed6%3Ag%3AE9gAAeSwkQ1pB%7EvX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9e5IcFnuznj6rmnzIXAQEuoUGAvlWYEffYjJUUgjgweGbcPOI3WFuK85W14KkjaTyGM5tF1rZ7SHwwlwavQXGb1%2BgdJsU71%2F3SAA4S3vg3tOGcn5SW5Uzimur1OVhzrXn%2BmjIt8jJe%2Bx11DUxSy15SMGEfr%2FUL0yUAIx4c9mArAsryF0bVE5K3cfV0MOSlXFB32n2fNgLHvnK81ZJOTgMK5K0qwmQGw35gi%2BwI%2BBmB%2B68qnnYJmTgbo5bLvFd1djaS9ZSb1WwA0rEo88AH1aNn%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "167878004438"
+  },
+  {
+   "title": "2025 Sega Sonic 3 KNUCKLES Plush Keychain 3\"",
+   "price": {
+    "raw": "$12.99",
+    "extracted": 12.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/297801896338?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338JFVYYZXJ9716ACXRZ&hash=item4556605192%3Ag%3AGHEAAeSwHWhpKhkP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FL4JizOdzOBgYsWvJhwD2RE3%2Fe7WIw9DFNShU27t%2FAhDI%2BCk3siKM5zVJlJ82MIq9v5QfFvCCkKueTnlSB32BSvBrRkt1%2FGKSEK2r%2F8EMbcw7ZqOl0jWl8NyvbyoOvq6cVYaSFcWHz2kE5MBY%2F8LjCPtNcVx0UJgbHaFfEx4YusJWkpUYC9qA2VDe6dfY44ZXzDDp%2FD0MYFcoN1KqXvZLQ3%2Fw2f0eDET%2FBS61xiX6lizLYZfWBw63reBY28NGsZ05V59U5sV96cYoVAVDQ39or3Pd91opW17yS3SnGvqs0bMBM6IaUpp2sCctWAzuKJ6U%3D%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "297801896338"
+  },
+  {
+   "title": "Sonic the Hedgehog Saturn Magazine Page Poster Sega 1994",
+   "price": {
+    "raw": "$14.89",
+    "extracted": 14.89
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287645709980?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338KN25N8CCJAGECGKYC&hash=item42f905369c%3Ag%3A3AEAAeSwopdqzjgS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde96r8vnbC6X2H8XQr%2FqkC1I9gy%2Fa7y5AgMNa5r3IbwjTMOmpiQbQgTDdfIHJ0QOV%2FdP2Z0bFg5syPH6ZjqGBy72P4UIPDJ7KZCbiBQ%2Bm%2Bf4orbVbcN%2FM%2BYcbxfRcWKqYkiL8TfgpWR9zBL%2Bbrs4LeTRZs9A9eTrcE83K9nW6zfxM6ZF3EwGZXKx5BYzcbGiQ6fmp4hx2iqMCWZiVrqUKFI%2BajUSwNT3AQPINXafX9PL2fd1oqZd6%2B67oY6zTlgL3FURC0HAEXKa8JVL9XJIoyGeKppI2r%2Bz%2BHyhTVAelIbpqmItE7bPGOzwwXojEU%2FyqAc%3D%7Ctkp%3ABFBMxrSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287645709980"
+  },
+  {
+   "title": "Sonic the Hedgehog Spinball (Genesis)",
+   "price": {
+    "raw": "$5.99",
+    "extracted": 5.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406008503783?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338KWXX9YNV2MY1NTZ1E&hash=item5e87fe1de7%3Ag%3ARqAAAeSwHQloYfcQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8semGFyRGxofghFLh8l4OrN6yZFaV3PNSFSv99rZTMcRp1eLkvc62OvfkyOb5Ruxhl7THmiX%2BuYkeddEQGa7VyczOy8sV70ShadZ7PgKMwcS8rmK%2BMrQyA1CiLTlWV1CgCS3JF%2BdBFg9owceEd4Z9l94shl8YFsRoFldVryaWCQwOZzED4s2%2BstFd%2FZhNzuM0sm5U3iMTRGRvefQerFnjlo3h1upGxvNzwUdPjEwtFTFY7LkkaTsfuBjE78sCokOp8r%2B%2BlKqOCVwAlmsbRTEFwefqenW6s9gU0WCSLp46M5dDa0z94UfhNxNY6NRKNza8%3D%7Ctkp%3ABFBMxrSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406008503783"
+  },
+  {
+   "title": "SEGA Sonic Mania Collector’s Edition Box w/ Sonic Figure, gold ring, Card",
+   "price": {
+    "raw": "$68.00",
+    "extracted": 68.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198509736543?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338K24H981978GQCEPZ0&hash=item2e381a325f%3Ag%3Ay1sAAeSwDTBqXVAD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fy0BanKUdDxdUjXMTntkt%2FuFFgpWx65U%2Bwp5gFSePUklbnCXKPeykp5yJT%2FgM40tMmF2zuWvnzgFLDat8OiMchym2eSqku98vXKcHumo2keqR1FLWcaPWa4BbICIOfUmfC%2BRaSmdaNtrUcfvweX9iYFKNODBW%2FtTl%2F7mwuhIlSfs5h5TJOfL3H0LIcA0yR8qJUcnYj6PpiWEIYyZ9E1g%2FYcp6KAEqRu5iv3%2BVDxC1v3x8SpiYOUAqFzvMsZVG7b5gsFjBpFTZL0%2Bpzo8so6D5Vj41MPlY3Zi9%2F3WTOXexbiRfw8EHAo7xdzTYAVAHJF38%3D%7Ctkp%3ABFBMxrSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198509736543"
+  },
+  {
+   "title": "Sega Dreamcast Official Sonic The HedgeHog Snapback Hat Cap Limited Edition Blue",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267829925117?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338KDW2RDYA0AQKZGVF7&hash=item3e5be854fd%3Ag%3AcNoAAeSwYbJq5z2N&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BJiIbpPeE9XSctlp%2BAA%2FiN8rh7K8zj06XWMXVsDxKww0X8GUjv7cyaQ3%2Bsr%2FkTcWYkxrqqqFdmnPotCfIG5kVk%2BwXZFdZ4LYDlpEVNDnC5lRW5L%2BRMx4HfuR14GePO8YEhZGG8u7L2cr6dpOIyGwfEGTXM3iPL2wisL76p6olLy4lUdoBgVEFaE%2BwnjLTo52gcwkA9AyRIyptuYCFwiBj7QC9uHiMvZsV1m9jPhJw7cW2dZrivvv3mdWxYGkeGWigDyDJx%2FynwJiWaF1DAjlA4eKBn5ycb%2FAyHdOSC1RY%2BstUGQUlTqIiXlTVypVCUUh0%3D%7Ctkp%3ABk9SR8a0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267829925117"
+  },
+  {
+   "title": "Sonic the Hedgehog Plush Lot Knuckles, Super Sonic & Sonic SEGA Jakks Pacific",
+   "price": {
+    "raw": "$5.98",
+    "extracted": 5.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840070001649?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338MFHHK0CZAGHDAG9RZ&hash=itemc39812f3f1%3Ag%3AwzkAAeSw08Zq4qLr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F1XPO32rMn7Wk7%2F8r0ifrLNyLPHy6bS9cbmxMG37KEAd38oB3oKKS9wSKYaO533XBjFBGWzi1S6wvrpV6Lp8nVAsdYiKY6qfZ7h5rYcPzIRlljU1W%2B8ZVTCkxzcc5xWg5AwdRQAA0k7ZEC%2FGkPDFbcnE67tsACpfqexapIl3olVpTZ34yDYXg%2FclPOwFywHw3rcVib4mD1%2F6nP2zMviMrapQX6SACZDSHuwX3%2BXPbNV2KqdkBC0xL4sNqqNhqbHGMqMeGqsqgwke4PpPwbY6pMbemxN8E7nJuz4Uc6dHR4WMPsJ9%2FP8O7O49EKNUSeAiY%3D%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840070001649"
+  },
+  {
+   "title": "Sonic The Hedgehog KNUCKLES Plush Toy Impact Innovations UK 8” Rare Sega",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860095538167?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338MRDPTYNZ7R9N1C9AZ&hash=itemc841b063f7%3Ag%3AtNQAAeSwy-tq45H1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fo4K3SdKlkBWYDRbepNkHwuui%2B69eHpZ5LbzE8Qq2yX7KgQ6lZNtY%2FU8PYuu%2B2lUy04jH2KL%2F1VX7HTMBCjxNQ1IFgCkCPI%2FB25Iz6KfCBK3NzaDm7xfmW3zD2qU95MCXBjmtiXwFOEx7Vo3DtJ9ovzSki6zl2ySodiH81Q7Ld%2BIE1i5U6QE4mC88k1eB4vB6iGFRMJCAn%2BbhDl6LVm9o8eNJ5yKKb3oSq8ouWHyeY4SiLKUdFRXDW16nnSafTJy7W9lNvXo0ZhKR%2FlQo8ygYpTpTtdeMjvW5cSliXujYCRPZoG3BDotHn58xGghiFK54%3D%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860095538167"
+  },
+  {
+   "title": "Vintage 1994 Sonic The Hedgehog 3 Sega Visions Magazine Lot Strategy Map Promo",
+   "price": {
+    "raw": "$32.00",
+    "extracted": 32.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307123426446?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338MACMS61YMVPTW2XN3&hash=item4781fb948e%3Ag%3ApTMAAeSwtGBqfQj5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9l3NBwYHflTzFZWHJj5vJEHj94KuYS2bhKjoGmJ0vGnxxkYyr2jbfEY8qxI5WTWdYC9wTvJuD2awl%2BUnEe9jr9K3NL%2BSpTJWLiuKCN2LmXoA4TD1YuHpZ8NnLr7BxfKFOZQZMn9FUOuPmmKLMVfzNtT7y%2FaeIVcLi%2BMkRquKRr0bzHYn1nxiPPkgYmlpZd8w%2BMi4COr%2F4GJPvWmokKArt0tzxdPKKY1wDTYq8ZoGvzxLWOQ9WDBMkwwKFGJa65pakjMrq11JavVFYu1YJa87uy%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307123426446"
+  },
+  {
+   "title": "1990s Sega Genesis Game Lot of 12 Cartridge Only Untested As-Is Sonic Garfield",
+   "price": {
+    "raw": "$99.00",
+    "extracted": 99.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128137619336?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338MH0NEJFMVHTEZEZVT&hash=item1dd598e788%3Ag%3AFbQAAeSwVXFq0U-8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8GTZ4sj%2Bhjf7b8f3LSoRiydJhyTxaNrHb9owuIH0eNkPotbxnHVG4y7SI9ooKwiLdehBL4Ku8k4vDUoJ4BeiKA%2BW9SiQpNg87VCK88WbNNyN7bcwu3P1TYVL4lW8Kxa0EP4ov%2FHjgBQMKDTovtD0mqmTG8OkkYnee69pgiqmPVPPebueMUNcyJ%2FG%2FU69q7yXnxtHnSgGNhzTihiGgt0O33GCEBrJOIjnBbhZStlI%2F8lnOdHnW9DSvlapTVckEuu7ku%2BURvxTPEWImDKGzThgDN%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128137619336"
+  },
+  {
+   "title": "SEGA Sonic the Hedgehog Plush Lot w/ 2 Sonic Backpacks, Tails, Knuckles, Shadow",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800850791410?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338MEQXYRAJW92VTH5QC&hash=itemba766d4bf2%3Ag%3AjN8AAeSwgzNq4t-g&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FCQ19509augW0Ww5AI7ILFJR8GXzg5ilY0q741EbuPsbOycjnDvCMg%2BqmomvyMHTO376tsNVQrCnc%2B3vj9w9DmRMntSXyRTepZ1XAU28cEwzgjblTXMKrff%2BtaCpf5P%2FZ%2B7IY78AUEiJDWkGL8Aex%2BhBVyJBhIUdxQR%2Fl4WlHJvjl4Ni6Y4vqpOwFK8W34JPHn1B2o67thrvcAc1FsmBLYdJ7zs%2Fn97AwFUsSHr9PQlsLRR0jdA3t77gBwGhGjgRjbjQIKxTViJKTHhuA3x18%2F%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800850791410"
+  },
+  {
+   "title": "Vintage Sega Sonic Spinball Lot Magazine Ad & Strategy Pages 1995 Original",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307121140789?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338N6BDK0J1RRS7SC44G&hash=item4781d8b435%3Ag%3ABY0AAeSw0Kxqe5A%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2BNGzBgwOLs23Kib9QFrbFo2jbTK3FN3ixRfPOavETT30hNpFFbeW%2FkiSOmcWIb6aRDz9jycTzTL9ZlqrmdMUOQFZjPyNdybESPNnpvohaBAVqnWvf2He9XkUCoNkzeUpp2PIWE1XZjFVSy%2B8bntj8Izsor2Ythq4Fn5%2FoY7QULUPucu6vaKYn8cNpPUH%2FUG%2BoWvCB5%2Belj2Ae%2FCfF9pMm%2BqRUZx3oJVlQ6StZe4%2B8R%2FJJ1mXM7EM6gNR9Fx7F70z2yfDZhyHyjbmJBIBE%2FrdVifvPpz88Db%2BTX5xMwOttWbuUKnCe2UnRlIDzqGt%2FI68%3D%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307121140789"
+  },
+  {
+   "title": "SEGA Sonic Chaos Game Gear Vintage Original Magazine Ad Print 1993 Two-Page",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198662671848?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338NH8RGT8408JXE476R&hash=item2e4137cde8%3Ag%3AYqwAAeSwqYxqtFKp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde84LQVgKbH%2BSyKlHTvBDiqAxjiUWNReJttqjrLnduAX5eDwzcaHiUETxKY%2B5Umv9d2Uxf7GGJrKmKxnUYqrTWiAMtvNTv--LJAy21%2Boew1iUNkX8Ofw3P7G5DiIRGvPdeFI9XWsso%2Fvc2qBcSY%2Fm%2Bi5eKqSFYL0pwigPW6es1WwZVRBScXN3O0FWx%2FM95oc1htBICPMAiYnpN9aeFmbqUP1jX0mymjSDUz%2FXqjd8ZAYLhnKMdmESFf1LCwGdVFsNXDtxXaDSO0nkciWjs7x51TquyacsWGwQadn4oYNRM4Hq19VX5Cahk8LGtmwhbkWzIQ%3D%7Ctkp%3ABFBMyLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198662671848"
+  },
+  {
+   "title": "Disney SEGA Mixed Lot Sonic, Tails, Knuckles, Shadow, Eggman Unboxed 10+",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800698050575?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338NAJCTWAYJ2FF5B8AT&hash=itemba6d52a80f%3Ag%3An8kAAeSwS6JqnGoa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Li4vDz0WciOFBbPtBuH82fubq%2BrfxyJP92Wg1mdK9iL60LqurySVS3n915vTxHr5sfPDFMnlktjwlrMG9q0cPcaSGK3wyIotrrS5THlP9I%2FnBfepODnUYGl29k3MAaq0UBCqBJs0f6r1UNgtqrT8HEXIGNZocad6enxEuy0qQGcxfRWPvELaFyY5JTu9zLihf6GSncpRahaw6t2ytbiMzQyS%2B7Y4JlMSmwUqWvHdt41iOPkrsW9A9Zrv2%2Fm2wSHjdi2p%2FBuvuzGFZqb01A055jOFJwtgphvMypoxZdEHMy2bq2TQObT%2BLh7dQUDzBzpk%3D%7Ctkp%3ABFBMyLSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800698050575"
+  },
+  {
+   "title": "Sega Genesis 7 Game Cartridge Lot Mortal Kombat Sonic the Hedgehog + More",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820099287263?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338NPTE89J8TFZ8SGQMZ&hash=itembef1ba08df%3Ag%3Ad9wAAeSwSyZqnwJh&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FA9gow19pu7aCmrkrasrznInGW8550utGIG2aXiKkay8f7vIcJYy%2Fxye%2BFhmy%2ForBPgdXyg33EErnMX5AyvkDdMkV1RePck1n3V2odzP0Oo3VhXeIDy4VaC1002Tbl%2F27oNRbW641SuCcBShPyWIQHhlcmURWSJzceMsf6zyhU8kKVrDhJG2r0LSAWmOrRVD8JRATBDiCObKl4F%2BNEW7Xffvdu%2FYjriCE682ewlB5ieok3uqQqD2RmrUXQNHpRrOTua6kCTOhVD%2BWoP%2BGdehS2%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820099287263"
+  },
+  {
+   "title": "Sega Genesis 19 Game Lot - Sonic 3, Earthworm Jim 2, Tested & Working!",
+   "price": {
+    "raw": "$250.00",
+    "extracted": 250.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287584813208?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338NVEZVJZT234QSS55N&hash=item42f5640098%3Ag%3Ae10AAeSwLB5qp4PG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FiLL5d5GMhFHfHQOOqrdfa4qJKrhhk0SR98xsYywWfvfa526u2nC62Sme3bFc81K89A1q65L1%2BDgxBwhgFlDRtbi3eG6GkeUeB1X%2F4YWckr1zdC81NN8%2FX%2B%2FRIMKqvsnSosUyE6eo0QU0dQz4BqzcxVj%2BjzvUuR13CffMYbggttAnb%2FrdXukXCKnpHv7PNrj5qlqeMf%2BEb%2BDfrt3CORP5MZZd7MdQ9P4DMLQSzTWJFEC0%2FfW5%2Bdvui5ZvBDTXyXfrB0%2BsEZkr13i9XrE%2BMoEFGQh5ewBPRc6X2Oe9TgzQG3NfK1Kg862JVzpjx91cfH6A%3D%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287584813208"
+  },
+  {
+   "title": "Sega Sonic 3 Cartridge Playset No Figures !!!",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/389664665898?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338NXA52ECE0JJK7QF6R&hash=item5ab9d2f12a%3Ag%3AcB8AAeSwFgtpnfBZ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8yJZXNx894jTYAwJvMRW9vzJwEBWavEmKxfDYxS4xlpaB6I68Kh8j%2FA%2FLFPy14RGr%2Bpo2gKXRmuQyeo6YpNGN6yVXtbJessXGKShKoR933EXQET3bkQ6qTtA2pPJpfLwM%2Bl9lz1HSg47APS3%2F22uput0Jo%2B4FfMy8y0vJ84Qa0GozRHwQjj1ja9PyqKy2Bvuhl1wg5SOxJ7%2BZRxNKGqarSwpWSI0L0ytGaVPR2ZKDundZFn0CEApxrcDpSectqZESsXxXJZN1i9LANgwU1ROdP%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "389664665898"
+  },
+  {
+   "title": "Sega Sonic The Hedgehog Knuckles Pullback Racer Toy",
+   "price": {
+    "raw": "$12.50",
+    "extracted": 12.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168820739207?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338PG3V9NCMQN68ZND57&hash=item274e800c87%3Ag%3AykIAAeSwYNlq4ScF&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FIVKCVl7M8xl0xagkr8CJ1fHUaRgNj2FpBTQAeHbs7hoLA4C2n8tHxEbw9C5Uq%2Fc2ZXhnkac38Z%2Bvu2LUAHhwG5yztiBFAQAcRpsEczyzZKdpmeyse8swa%2BVBu%2Bctvs076QgZvhrJUF1eSAouoR9DCEw7hgeP6hIOlkM6IBv2W1qbYtEQRcEcLdCa8TONyaWMFjD871jp%2Fjvx8v06wGwIjTVeSS5Tmij%2F5hyA0Z8FQFzU90NtzC4roe2JaV%2FTwfbiq9iMLoPNlKLdXOlUHj04a%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168820739207"
+  },
+  {
+   "title": "SEGA Knuckles the Echidna Sonic the Hedgehog Action Figure on Red Vehicle",
+   "price": {
+    "raw": "$4.00",
+    "extracted": 4.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900049005500?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338PF46KP5ZVBTNFE0WX&hash=itemd18f19ebbc%3Ag%3AaG0AAeSw5J9q41vP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9X%2F9%2FgH0SffLQ1KSGyCLL1eqP%2F80AGE0qp7vtwIBmBlWWUW6jMdVC0k3HLkiSro2NVx1RHV%2BplYjEphYxHhukrV3pVG7BkWBWUzCDy2ojymPJJWSjCs8RSXboPTyGNrbsDmvXWHj%2Fo%2B%2BIynQFLM1CGnPvydvR35SGnXTYy0zB04cObkVJX6ST6JJzsfVd7O8G%2FeHpr2n0pfC5OEF2v788lrBPDzb58apEKB%2FchzK4%2FXdiQoykzhDfOpkiwog8zwn5xqcOUR8GEbtU5iCaReTGy%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900049005500"
+  },
+  {
+   "title": "Sega Game Gear Handheld Console with Sonic the Hedgehog 2 Cartridge",
+   "price": {
+    "raw": "$108.00",
+    "extracted": 108.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960102829088?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338PSMA190V4XKP0H19B&hash=itemdf8a968c20%3Ag%3Abt0AAeSwfrlq2qpL&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9fzeEwrv%2BwH2UW9MEf7sVIrFGhqkfd7lB3iCKOw35ixo7heUo0vaSd39FDbPJT5DHjPS4iGAtDT9qKGuYVa0oBdN60SkOTwcuFMMEuwcOAuJr227BwE%2FmpW4PGmQd%2BnBkOzM%2FHor1nv3ILmP8ft1kIuudcPEXXIZ6hH9dX%2BCGTfJjD6lHE9kmOahKMGjatX589p%2BrjGraY4sNWjW6yKYT5TaBMZwkqrmgnKoU%2FLGu5cB1kH3kflgPbzZ%2FEZ5WN4kJ2k1auM9ya3uEGXg9NZw9S%7Ctkp%3ABk9SR8i0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960102829088"
+  },
+  {
+   "title": "Sonic Hedgehog Plush Lot Of 8 Squishmallow Tails Knuckles Shadow Mario Thwomp",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307255636907?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338QYZFFVCZR7Q16347G&hash=item4789dcf3ab%3Ag%3AxBsAAeSwjYdqahuA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde89XJDOe07aeS0OD4ZXH53VQmi%2BVXdpbS%2BpCT7AuiHuBzEObfHiaBAsswE5IJ8BMdZKxHfIS8bCET7ihCpSUmGo8xdRHDpH6O4hehrhw3QZZhhrYUC1l7%2FVQc0UNrMDOmPbchSPXNufjf9Y1ivzHvMzIDYVsQhPIAhtpWy7bqk313CuIKtxTaRUPsjBWFCnIzsWepHWSTrsjJbzeb2rGxh6gFE2fjN9mP8gKK9ddbjRrb2jiwr4oCOP9ey12qC7UvahIHe%2F0iezgoFDHCaXyv%2B5g1LjXOYVVhp%2BHtHDxve%2BJiigo2VkXajpl%2FSfpVxicOg%3D%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307255636907"
+  },
+  {
+   "title": "Sega Sonic the Hedgehog Knuckles Plush Doll 11\" Rare Great Eastern GE-7052",
+   "price": {
+    "raw": "$43.73",
+    "extracted": 43.73
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227570959013?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338QBZ5SSRMS34DF4GCY&hash=item34fc4942a5%3Ag%3AL98AAeSwcQBqWbiP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9PHUWz114rxyHbwP2vTQBcJo9NRI%2FKIYPmbd9CoF1LpyN8Oz6PHmtnK3od5hfT8SOsDUJRoimeZpPlclskaO0avf6uSmVIGGy9dd0liLlkxhs2ujKnIwuJuEYmCybxv8B%2FSUtHqnc%2BWTaQN%2BUFaeSYo9yPb0VNR240UPJlzZbJw%2FEBCiPKgCwpG5TYKu3YR25piBm%2BKTZ4e5SWk%2BQ4Vziw4Qa6Bh98j3BimpLm5kIFvIRPCwdOsmK03BlsxOjZ0APQjkhh7%2BfUwTQo6mBt93QC3agD0N0VkTxreFNsugNS%2FcazPPXP6KtiXbBM5D9S86E%3D%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227570959013"
+  },
+  {
+   "title": "SEGA Genesis Lot of 2 Games: Sonic 3D Blast & Disney The Lion King",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366594447282?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338Q14MB2AR3G8CD7DW4&hash=item555abb57b2%3Ag%3AfSkAAeSwThVqd-jx&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BOJZYqlVTMIGUXGIDLzA0b%2B8%2Br99sRE73YTciOksYdI3QEsH3hqUpMVSoM9T6Bs9cJ9ZsdqW0GmSPOfshRBg2yIMT%2FJUZPevjAb6S9pfTnnWfLCqFp2sETqYcVIjokQA0ace10bPLyfVAQf2sSHTG4zXlZt36Gxr7m8mhe%2BJzjvE4DDEVukXEuayu2HYY2KJNVpCIXFZBI6MP9UKypRxhI8wrggHjP36H1SXM%2BWzTKoCpKvrdxemPrPQM7DzmM3UqJXSQnYjwvgoFPQEkUVsJR%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366594447282"
+  },
+  {
+   "title": "Sega Genesis Model 1 HD Console Lot 20 Games Gunstar Heroes Sonic 3 CIB Knuckles",
+   "price": {
+    "raw": "$380.00",
+    "extracted": 380.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880068865284?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338Q4HECBQSS87MBX7JZ&hash=itemcce8312d04%3Ag%3ATikAAeSwfYdq5i-a&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3iEzL34b4vjmCcqEcZILXNjO1SpQ4qU%2FpvCre8YlgQwdwWPXSNjGTI0UvF6K37uX3DGivQqAMWNArDqveKuwVw3SDdY78gO%2BP6Y8mfS36cJAwAZ%2FCZ2jJonov1BRvPny7AeUYw2za7OxChQtyYs307xC2Mmgzs%2BZR%2BwoBAZIC27NPlZfAa4vH%2BWxwqK0UKKuv4X4Jb1tR0NpPEy4pNHQwRprTBkJffzboOE7vuSXj3cgfeYH4fea1q%2B1hWAcHXkguKY3RsiP1N1IXWFHKOOESNm0Ln5yv6AJ67gU%2BO0Hc7ciMbs%2FftB2vJ8gmtJXn2Bk%3D%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880068865284"
+  },
+  {
+   "title": "Console Heroes - Sega: Sonic the Hedgehog 3 Cartridge Playset [Used Very Good To",
+   "price": {
+    "raw": "$13.43",
+    "extracted": 13.43
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188126838880?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338R4JCZE3ZEY46DM192&hash=item2bcd3bc060%3Ag%3AlY0AAeSwMA9pqsdB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9lVmFpJz0ICjkyFwSJRyAoxkpVXdb6WG9pFMT9kRPpm85VFM3YK6CtO%2B9PRI04TBuJOt3GEgQe%2BQLTJc4FR2EWdL14ph4QQ4iYnQRrDL%2BoQHw1%2Fs43caYDQqH9SLmojHDP9pRH72OgjM1elyLgcM4x69nezaDOANCIGofxz5%2B5T%2F7Cd4bGIWsE0ybQIk7Lp11FIUjiBXRf6EtshvyreHzVReUE232GkpjxzCSWzb6rp%2FWe6Hu3hQkmxebPpohjU5KCcW0OI4auQ0YMqluzwgGaqiPXPVI49Q46W3Epe4f5BpxyDMc1ytACMF35T%2BFAuS4%3D%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188126838880"
+  },
+  {
+   "title": "Vintage Knuckles SEGA Sonic X Sonic The Hedgehog 5\" Figure Toy Island 2000",
+   "price": {
+    "raw": "$13.99",
+    "extracted": 13.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336792660626?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338R70QBMBNNYVW8KVBY&hash=item4e6a682a92%3Ag%3A28AAAeSwdb9qpzSl&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FrVL%2F8HOvLcCMYALuUqTz%2Bw%2BNx8B5r26FR3aDmkaklSk3B9%2FJO2Whs5T7R9hfqdQHHLXg0JBVTILK4hEG9g4R6g2UhMTLVo8eV3eID2nM8rioRnpDtrJadg6N2xYjYonH9jweVRjQF%2FOVdtPvxYQmuKj%2Fz%2Brjm%2B3E%2BlB2sYlGAzuEjXQR7fOVajpGuruTlQqJKjryPsefyGXW%2BoeblPf4qVHBrw5z%2FV2OATCPMtROg00eeBQ4RI6SBqNGlqm4BxAwPGFNzm1HnD5P2vYJiHR7n%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336792660626"
+  },
+  {
+   "title": "Sonic Spinball - Sega Genesis - Case & Cartridge Only Tested",
+   "price": {
+    "raw": "$12.99",
+    "extracted": 12.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/389411171729?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338RNQT5DYH1M56MTSVT&hash=item5aaab6ed91%3Ag%3A7%7E8AAeSwztNpTAO8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BFMRryMAdCTAlXAlXRWCniCEOvzbkZA1ubYhC6lHIc93RclAmN72N1sRauwQhIFi6PBGUP0BHq4lqmXPTKK4BTms9c78D60bXvoO3%2BCxcdjS7iocOWBuA8wqyaJmkKuHhAHEFgZGAIjx9ieY064PDvdAI0XWEBVRvrztZEdksEL6H6hmEsArpvMWjvtFVdOGugOQEREWOBAXTALoEsKMjtXDtw9IDFlSAAFP2L1MXnyO6jCxUmz37knFzWugeWVUnHKjW0cqfhTTwqy%2Frrx3tX%2BP404J8lh9M71SOHxPRA5TKwRi8KT4J5eUFXuohMN2Q%3D%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "389411171729"
+  },
+  {
+   "title": "Jakks Sega Sonic The Hedgehog 12 Action Figures 2024 Characters Mixed Lot",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336868395548?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338SR5TEYM07FWSPHX92&hash=item4e6eebca1c%3Ag%3Au80AAeSwGTJp2H-L&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8lw425AXHkIok5aZhju70OwlIuby3p27FBCLfLEpX9sMMYrlfceCstoO3pjx8yeMJCDty%2BW2x0RNrhLZbNsNufMjHswrgY4bpkICERNFCuuIDQZVtR0xr7FaoShnqlw2AFiRDvP6P4tRvLcfpVhQfoTJuHvMimGZ3qRbmgiwwUGxVPJFRv%2BucYVWZTLvDAWyWLCL09M74vkaOm91oalLbeNuNRz2IIzxiN23oEAjBtDGuFXILl7%2F3ncTBh9lGIxzZOHglMVS1YrGTK1bAOiGEA%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336868395548"
+  },
+  {
+   "title": "Sega Plush Sonic The Hedgehog 8\" Knuckles Friend Soft Doll Stuffed animal.",
+   "price": {
+    "raw": "$9.00",
+    "extracted": 9.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128160888095?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338STMNNS8NE5G8PYS2N&hash=item1dd6fbf51f%3Ag%3ALdkAAeSwyetqzE-N&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8kvlawhnzeNNHAYjVQT%2FscIX5ykk9mjedpz2RwZJX3YT3FzACECvszAqdXpycko6OscAptjR2jX%2FXbLo4Ffo63ifdFbe0mg%2Bw%2Bb7q5CLrGQYNoSccS%2Fdh%2FoHJGHnoohnOd2DyV%2F4PQowUE8Mx9JldJI0Um1QnnT0Pezni9NBkcw6A%2Fl7oxjWAgIaJpBx0YJzIEBBJch4RycjOeHqkyFodsiVquoi136U63uqIgZOgGliMhQtiu0%2FA4mt1GBWIMHfbINKs0lL5uqyC%2FqGdBZ5LB%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128160888095"
+  },
+  {
+   "title": "Sega Sonic The Hedgehog Knuckles Echidna Chao Figures Bundle Lot Jakks Toy",
+   "price": {
+    "raw": "$16.96",
+    "extracted": 16.96
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278425703942?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338SQD2DMMPP21PGN14C&hash=item40d3771606%3Ag%3A8N8AAeSwM3FpvFhX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde94bs2%2BK9iUkss2Xtw%2FBTp7xEWmJUQcH7qxqsrtbxKETMvCYibpXIJRNPwUazrt8yS50NQtHp33vzKTXvm0Jmz8VAFYC8uNbwDOcKAgazVCZBM5MTJBpJUo9a7qKdHAWjv5MKxSEo3zCgnzsGU4svLZtmbEjbFKvyVy%2FMYCPy4COZfooj8x2DDv6H7TgswTcOkwkc22hOVuEL7oG6KvYXYCa33pvzzdNqbqp%2BT3bH0Pyo87jVy%2FL11aTe3woGpSIn%2F7NZdp0Hd3MSgEa%2BxQWQyA%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278425703942"
+  },
+  {
+   "title": "knuckles plush, sega sonic team with tags",
+   "price": {
+    "raw": "$19.98",
+    "extracted": 19.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257580286912?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338SKXC6GWZW55KCR74J&hash=item3bf8fb43c0%3Ag%3AaLwAAeSwNvVqOOah&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FerXxtA55GuMiKpRPH2NXamAPoOlDXq1T98aoppl%2F2gyJfciSI9Pw4X6aHDGZT4egTs2Fg4eRMMe03Wpszo9CPRNqe6EEjdmRwXpSxKc5LeeMK3xcjzlTRRo957AVzUZCazPJ90lgdjF4PH6JquHRz3jD1EWlVLU7luDstR8vbUcw2LaafSJk0pssmWkyJqfplBSB8gxhVchPAKnXgX4rl2%2BXJYTolUHQCrCQD8g7rtpleFF6xiTv6r%2FwA8u5zOKKo0q121bCuqsauVyYDB1ZM%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257580286912"
+  },
+  {
+   "title": "Lot of Working Sega Games. Sonic/ WWF Royal Rumble-Cartridge Only -see Photos",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307188082691?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338S0486H2Y6GTNDXT1Y&hash=item4785d62803%3Ag%3AVKsAAeSw-1xqrx36&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FFrYD9g5etKTHfRyibuVGalbBLFdyQshvIkLMv7Fia6xKlAJi5ctKimNKovrIVxc8xyVZs524phG11C6%2BJmASG9Qk2VqF5EowIF%2Bckv%2Fl0cXNw5SFl3REpG%2BiSkWwwhu71i8L6EG70C1qUV2rUwW%2Bf4%2Bf8BNeVI92z80hFUl9pQhSElXAeIhxO1cB1w6O594f%2BHf39rHgbSFBW%2FmshS80PiwJfovhbLoVpdexNquOrSp7nshp9zjlX2QaM20%2Fsw94X98qNg0do2YqLSl1ES%2FXhfND71fZepHBYOBjR1AQDrf511KhhjGbf34RzKpJt4Dc%3D%7Ctkp%3ABk9SR8q0jIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307188082691"
+  },
+  {
+   "title": "Vintage 1994 Sonic The Hedgehog Print Ad Lot - Sega Game Gear & Genesis Rare",
+   "price": {
+    "raw": "$24.00",
+    "extracted": 24.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307125070686?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338T6R479W2QTK1JF4XE&hash=item478214ab5e%3Ag%3ApoAAAeSwj0Vqfho-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BFDi0rChCLM3mIjDVepAiTG1ThBCtNplQAGKfOujqrYWJHc%2B2WS2uuwsvM90igAlJgE2aIFwB43sy9rIK27jG1L27MsoRIhxJibbiFVMxAHUSyyCsonq1h9%2FWYbMoiig%2Bc81WuG1PdfCZWcNipCb5WwU1J3%2FevK7Gtq%2FQQeBEpGggWFIbMlCxCiJiLFDxuzwLLDOoFVVb1urDc1c1f6gyMO8Hy4sc50hT%2FfR03kPEvixV6UjbuR9ksi2R1dfVCD2LiU8Of4OqZCJyjBvYjnym%2BQrAX9seG1VhWfx01%2FMEkkm59G%2FxxZ56hZYiRp7KROUs%3D%7Ctkp%3ABFBMyrSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307125070686"
+  },
+  {
+   "title": "Sega Sonic Chronicles Dark Brotherhood DS Magazine Ad Print 2008",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198675951926?_skw=Sega+Sonic+%26+Knuckles+cartridge&itmmeta=01M6C2338T5210DKHY6JAB1Q9J&hash=item2e42027136%3Ag%3ApOcAAeSwFr5qu%7E9p&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F97d8d2wyHzirmiEXk7owo4Pp%2B8JxBm1dmG%2B3AEfX3Vn9Ll4Czjrnjv4SWSivxJPyK8vJliaj8VQQuB02lU29vJaSrxDPYcFLLIhYzSP6AS8Hhf72PlNeDn1eL6pM3xJEnu96iZHmFijCbXZLkqiQfkm1FQm4uaeUJdcAZhFLnVvnCm8HrzR91cuo6zwTMWn53lRmVy5AeEBtX9KLvbe9zcv47sCIN2Of5hYJOvlRXOdra5%2BtzeBP4a%2F72f16vhHZI%2FGwWyox4O5r0Ssjd9%2BB8kLSTul4Avia%2FRgHiqRLYRqY7JlY7CF0Rp8nHksF1soo%3D%7Ctkp%3ABFBMyrSMgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198675951926"
+  }
+ ]
+}

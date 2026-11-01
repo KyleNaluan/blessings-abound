@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Nintendo NES game controller",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 9900,
+ "organic_results": [
+  {
+   "title": "Original Nintendo NES Official Game Controller (Cosmetically Flawed)",
+   "price": {
+    "raw": "$14.00",
+    "extracted": 14.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900011997707?_skw=Nintendo+NES+game+controller&epid=2043677845&itmmeta=01M6C22R2CYF5H1FHQ44RC1HD9&hash=itemd18ce53a0b%3Ag%3ARBYAAOSwEiRm5am2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bjy34x6p0aInZab01yPb0CdQCIyXfKIRoH%2BieUZRMrQqHio%2BdNj04uE%2BBOIuOP%2BIrJ1gApl0dMa%2BPoseNojXlfR5esXIObACWav7vpvmnt8kfSW1w92z1hG041APZ2CqNw6nRnb7MqGvdU%2FXAyh1Eq99SIWOa0XLSwZoBq2TWXgH7SowedblgORyzn%2BJHMtAjOCFgJc5ClZ%2F4BQNeX59VrA0MQbAhNQXQ%2FHs6y9VsEmtPDp0DW%2BgIOJrw1ciPGmon01%2Bl1jCiaFHKj7WPC9LCmX%2FDj4VrnwcKryK9KEkBMNHwfznB6sTxM6CSO%2BVS9460%3D%7Ctkp%3ABk9SR4aCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900011997707"
+  },
+  {
+   "title": "Akklaim NES Nintendo Wireless IR Controller Sensor Receiver Video Game Receiver",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237152887391?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2C25FTY01VCMS6THFF&hash=item373769e25f%3Ag%3Ai4wAAeSwVHBogC1P&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FAArhOdYFuRiPpGDl97Dt4KiQN8gLuq5wU1VzOc4l5M9yXNjN6wG09PwZgiK7IXO1zYuOl4HXVEDw%2BWog4yDwiDFKCl5utPwLLbZ9kOJstLmjMyXsKTlfon5jY76xGduvNdlpZKVVK9uv7YljG1DFMFU1bZPYiN7cEmtTMH5aY5k4iwECYK6Qsv4a1R7jECMZGqS%2FfWHs7ObYHyeAiMv6OtjltZUi26rAi%2BfKn3ApM1QkpT%2Fm1NzO4cpAnzhRt5cUZVewB4rhK47xaLPTlT0Vxwni7wfoIf6gODYQMA1FAYCt6stjKWGi%2FsAL5BY51p3U%3D%7Ctkp%3ABFBMhoKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237152887391"
+  },
+  {
+   "title": "Original Nintendo Brand NES Controller - OEM Official CLEANED + TESTED NES-004",
+   "price": {
+    "raw": "$20.36",
+    "extracted": 20.36
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920062094447?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2CJP63EJJ90KSQE1RC&hash=itemd637f96c6f%3Ag%3A0HIAAeSw5rNpzx3z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B8WITLu4oXV7NizJdxO9Di7Gba546o5jr64g3F%2BtCSc%2BdqMDHlYGXNSVF%2BG4Nh%2F75okx7TbeymgG8gazucZmMRuCWigX4Wq%2BlwJkHv0fT5bl7eizyMigOMTBwfXfACtdyvlINSs%2BMEEADKFG0qhmEZG%2FlaScJkSo98qfhvBJOXkOXd4SnOYVQ6VC7MXnIhUz3vkGAiU5UN5k2jVhZLNmq4KnMx%2FNmbsWctBeMZ67W%2BUgxTAPCKzv0J5hJQXVsXV41LWBfSGszxB0YYhX32MBUpetbtckPxeL%2FDhb%2FVgPSKXSw%2BcpGXaJ%2FYdwHXRhak%2BBQ%3D%7Ctkp%3ABFBMhoKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920062094447"
+  },
+  {
+   "title": "Nintendo NES Controller Control Pad Remote Authentic NES-004 FREE SHIPPING",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188145865045?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2DYBGSWZWGYYH5J5EX&hash=item2bce5e1155%3Ag%3ANq4AAeSwn-FpsbwT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8XE6byzMzJs6hTqLCI1kpmz3Ofq6noJDXarLMcvtAihZD5mYwJWHYrh%2FLlDlx7dIpethSKYbOkOOeJNvDLYAUhABQdlnAaH9DNmQy5Ybzwvcuimgr9vLz5EaSatB9v8gJNmk2hCUb20IW%2B917YGMl2LS04S8nE4c26RWPtolD3ckY3zKbNLEonVdUrFwPbpiQq6WLg8yMY268N0m%2BqUn%2FZOlasWQkxDkjKmNs7FuiFSj3pqE80aE3eWm%2FaCO5QAftbrz5n52fA3X3Sh1wIepenq9boaA%2FhKWxKACKPi04hEdDUPTcDDZozloDJrIgA5VE%3D%7Ctkp%3ABFBMhoKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188145865045"
+  },
+  {
+   "title": "Original NES Nintendo Controller (NES-004)",
+   "price": {
+    "raw": "$19.97",
+    "extracted": 19.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/297815687296?_skw=Nintendo+NES+game+controller&epid=1754618879&itmmeta=01M6C22R2DVC1WPE6V0N05FF97&hash=item455732c080%3Ag%3AsYkAAeSwDANpMLM7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bc6qRMH7OM7CjvYXap9CrKJ2cGmi1ECeglQygFP0cYWnY5lGCeW9MQcs946nOQHhTkfdpL6RusPngxId4EPYK64Axp2GNZryUklLGVlLCZ2yaGhNiok9oL%2BIDjfNuJQvPZthVBxBZPUYkc%2Bvxdqlm7xbryFLyaFDgnNh0gT5JX793pwi5QnCBexPgdkBXvgcgJ8ON6TfKwC2h5PO6vrUk%2BeXD2YhReeU5c3Rl2cCCQfG%2FTdUcoX3MjwQe4y5EUtVuV2omxSsmSl9b%2BBa2ZCdFE%7Ctkp%3ABk9SR4aCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "297815687296"
+  },
+  {
+   "title": "2 Pack Wired Game Controller For NES",
+   "price": {
+    "raw": "$7.99",
+    "extracted": 7.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206567043151?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2D6H81BGQR5JE3J88M&hash=item30185af04f%3Ag%3AXHMAAeSwahRqrjRt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9oxKTCoNoYlUggCVrFaBNtf7vCe2axFdUJ43sXpOiZh%2FzewpY%2BfrldgCcbahHJ6X0XHGRQ1%2B1KWRIn54PhYU4TDCq10KEVVqWICgRAUUveLQQft0QOE3IvtVGVouCdmHOlGx9cUt2NxmHYKSY1zFNR5cwasvPnbonzOn%2FYgtlQzSm2QC76wgBL2%2Fs%2B21YaUnyTW7fkkNjNAmNx%2BNB5MRoJFGDVQkLtNVys%2FTi2nO3UIAM%2FhFr1k3BIszJXk412rq8COEuyXFH3G%2Bk2E4XvpyldIUXXbh60nEtfb2F9v%2BVSTxVCSWTgrN55TzUTPgJHTTI%3D%7Ctkp%3ABk9SR4aCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206567043151"
+  },
+  {
+   "title": "Nintendo NES Advantage Joystick Controller NES-026 – Tested",
+   "price": {
+    "raw": "$17.55",
+    "extracted": 17.55
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128159873661?_skw=Nintendo+NES+game+controller&epid=141191394&itmmeta=01M6C22R2D08RGPQZHK65C0X5Q&hash=item1dd6ec7a7d%3Ag%3A5fkAAeSw02JqlssA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9D9BQNe2nv0wsV5E0Q2QSnbE%2BEOJPXwHXRwk3STQEyAHkBqCMWj5bmo8bX%2F3veNudVaRTAOKdIKHytjQlC2MqQ3Ba2FL6g27GQXAd0CnZjKpBR3d%2Bt0MCsk5Yxo%2FCy%2FgJgfS9iV5gGqbIMBJcZZeS1nR76BU5vHa5WEkG1wLKYtxoHRkrWEr2A8HkZhHDv2%2BtWkSjEHd%2FLXPmmPDFL%2FCXBt%2B5MInFa7%2BS9WxIdkZGfOFGu7uPGhHUGFq%2FLIrhE6I3etQDI0SSYlbi8Ovm6vLsBhhDJ0hLdOSj9oXgQp%2BzvpxcKXwP9AHumDSNaEdfJo%2F8%3D%7Ctkp%3ABk9SR4aCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128159873661"
+  },
+  {
+   "title": "Nintendo NES Controller Lot Of 2-Original Authentic OEM-NES-004-Tested",
+   "price": {
+    "raw": "$26.00",
+    "extracted": 26.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880062899876?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2D3G5EZP2VZ00CXTYM&hash=itemcce7d626a4%3Ag%3AZh8AAeSwc2xq49kY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BjVkjICsWsQN%2BM6wCxjaSSFMqUCEfO01VKvZjgiGrPQhxme8wDoht3buU0T%2BRTBRlr8vCF9Ptl7CTNS8Me%2FGsLxLsbHJZKS9qaJHAyEHKluZK1%2FieEuVBzvys%2FeylOWzieFD3%2FY1Qfw9jfabjWxyi%2FxAheKz8fi1GivBCZhGQHPllolaMoTN%2FanxXdmDCek4FekhOg6OiA8UAQ6LPIC3l6Tyo7G4Z4EN5E%2Fon6nMHCm6fUdcQsAqgSjf66jLDdH4hY5ZtRY68O3ZuQPAakZzum7PRMyTa17YbrOre9PJ1YJSZMIB5e7u5Fus90rMOmD5I%3D%7Ctkp%3ABk9SR4aCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880062899876"
+  },
+  {
+   "title": "Original Nintendo NES Controller, OEM Official Tested NES-004",
+   "price": {
+    "raw": "$9.99",
+    "extracted": 9.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336843041451?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2DM3JJ3W8JQ7SXXFWY&hash=item4e6d68eaab%3Ag%3Au8AAAeSwbNpqznWp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde87a2kR2fopp4LQNjwVw0E80z8wjaB1%2B77cvv%2FYLKWBTltlrLb72m%2BCynionUdcc5pbsZgISLTNpWMJNcsdc3H1Pbg2IGlyBkRXmXRkeRrTqxmbDzsgarvbVdfr8%2Bja02nwrfT9Z%2Bi7axrHL0Cv77ONrCqsUDWK2r%2BuWyIATYsQXWdGFgZWg7iN%2FExvsRVC7Qyv720xP4bM5s8SynDLN8ebjMtuWLbP8Kb9aIr1FOLa8FmWNxkO7B%2BUhDSUDBo48Y9t8ou0kb7x3mA2N9%2FWTPbHEkv8p8KzuTm7um9xEQTN0rdgx64aOEEZWttZmcvgTKs%3D%7Ctkp%3ABk9SR4aCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336843041451"
+  },
+  {
+   "title": "Nintendo NES Controllers Lot OEM NES-004 Authentic Tested",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920094007114?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2DM25SX9VJCM2SX877&hash=itemd639e05f4a%3Ag%3AsvsAAeSwQSJq5tBg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9PSyvepSxYYup9zpLBjvf4R%2B07eTwaBsK8njCtdmX%2BogzKwAdEwU47GYHlWSXdUiYYp2O1R2H5TMyBwV0gQFJTMZmyUr8prg4n4NlJONFnnEw2uF4F1oWJE2z%2BYQGU5DMi6NwpJgxWnKAWkDXPiUzWn9jfBka0qs--T9H%2BdTne1CLPnQyUmcXKgQvpSwvvU5sK%2B2sx6pvP93g2FzBbZPu9Sr65ZvAUr7rcN5jBmI3%2FWX2KxlmUogMsn%2Fk85GjK7rgUxRVETVx7ogMhPl954YxBu%2B2io52I3Hb5bz6ov%2FhCG8REtqbk1FocwnBfVcNVnpc%3D%7Ctkp%3ABk9SR4aCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920094007114"
+  },
+  {
+   "title": "Vintage Nintendo NES OEM qty 2 Controllers working. Authentic Free Ship Lot B",
+   "price": {
+    "raw": "$22.99",
+    "extracted": 22.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/226532583934?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2DNG35CSC8KVYNPTHN&hash=item34be64e9fe%3Ag%3A1VcAAeSwaIFq5ib3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F1kGh3w4MS41aVzgV2rmVkBPV6Pi8lQjr0IE%2BSISkxNEEWPbozxjCG77HXLGLHV%2FWVKifr75W60Ua1cdko7IZLyBNGn80lldTPTtXu%2F94JUgEry55JCX2qqPcyhdwlDyMz1D1QiQNbgtfxYkdzzhE%2Bjxm1BbGEvydk8YNUCyrJ4bdHNC61es4V%2FNVWABkCCbkQ1bSXaGLfqt3bHGtxk4G5fazBWP%2FsFxYYMbMPXBJC%2FhWiBDqUdhvckdzn2o9MOBpZOH3MCOv6A2W47o68McwO%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "226532583934"
+  },
+  {
+   "title": "VTG Nintendo NES NES-004 Game Controller | MINT & TESTED",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880069805413?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2D9NZK3TC6835FA8ZS&hash=itemcce83f8565%3Ag%3AsHcAAeSw7GNq5pfw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2ByGby3ufjXj3UuZXoGrIKQifeBaPUz1Qam18bGOWgaGg%2FdehLHfR2iMi%2BAI4dRlP283V2ZYR40dNEvq1bc3YPCCGlPW3iVnevIS8xR9DsaVTcUv4Fvhq7uRjWW8V9h9JQ%2FfJVigDva6Oeyk0vi0awatmtBgqKHA0Y5opNrytc7479KHnSpsQOtM38oeeTh7lKyo9uhZ%2FLbowUZT29ytZOx2jEe6X5Zc9I5cHjl98VrMnObvPlJUGdlmDOEIlNjhYwAlbMMBrGGYGXw%2BwFHF9Do%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880069805413"
+  },
+  {
+   "title": "Nintendo NES-004 Corded Controller for Nintendo NES SELLING AS IS",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117410877672?_skw=Nintendo+NES+game+controller&epid=1754618879&itmmeta=01M6C22R2EHBQP23712PWJXHV2&hash=item1b563bd0e8%3Ag%3AyMIAAeSwj0lqpuFh&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde85008%2FuTTI31LIjZBbDjw0IAzioJxEKQIbdnBPYC1JRqCnycZdQewQyRcSoB5hViQPUguuzqZDvyCwQ%2Ftv7%2F0ujA2kGIjkLr6WItePNExRxTV6cuJnNHrZXxHDYUwzl7lJboToIuxTUvQZOhRUvud2rpRF3wTxxViOFzyS0Q4XhsQcx%2FLHIu19I59kXOa74lCOyPH%2F4zoCPqCtV2UdHt6487%2BAbbq5n0JQXkcw9hC7k2LQNSjdtez9xG0J2A16O7dT6SZOHW4OrfyCnUg1qJsV%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117410877672"
+  },
+  {
+   "title": "Nintendo NES Controller (Model NES-004) with proprietary 7-pin rectangular plug!",
+   "price": {
+    "raw": "$9.50",
+    "extracted": 9.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366759619673?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2E61PJZ68R57JV4QZX&hash=item556493ac59%3Ag%3AOT8AAeSwL6tq3YCY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BDxyH76b83VTjyJhe18ZHp1lhVFxHK8bz2PvrY30gr3Wn%2FuMXsde%2FuUeyYgAeU2kawKQq8qtdAKgQcn2lGPmuY%2FpjX7%2FqZdWu0%2FVsrapyfTuaR%2F5flo1lJaWnqbG%2BblYnRSXXpNFKKTgshl57HKRPOb6ZvtSnQaHPpeIUUz%2FguMgehGQlAe3jvGIPbdL8U8Kgcq97v5TQNVF3XOO%2BG3hl7XW7SqC6CMXKTzoHHAL%2BVOUqNhBPTE%2BJ4qk%2FAjM9Yt4Z8vugXPAX1VJYjYQJ7DK4--VlciaCYHEogliVTYZof2ujd0xU61J91Rax1IsDwB7E%3D%7Ctkp%3ABFBMiIKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366759619673"
+  },
+  {
+   "title": "Nintendo NES Wired Controller NES-004 for NES-001 Console Gray/Black/Red 4ft",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860087362701?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2EPHEQHA68HV884Y41&hash=itemc84133a48d%3Ag%3AZykAAeSwjFJq4AwU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Xf2h7RuS37rfSCvfYq41OR%2B4vlnB70r0S3wGSbugF8idkyL7%2Bz6EqOwm26Z4UMiwJsw%2FrzGJh1amRRIU4S00xOVEfPmNRzwjc0nwi%2Flh6IVk44Nz5lkyOrGwshbGEQCxtwg3E8dMMN9qbrKwZc8H%2BNHY2bHDHQ3lyVAWTJ3BEAt5mR5ICOSCAgydlNjPm2mshsinprkR8DofNqaSd2%2Fduw--mneVjsP7Iu8nmY7RoOhuAVXaL9QJgOUg6uPbh776ZF3mgs9I%2BWuP7%2FCR2hAoaH3tAjTmZxpGDaPtuwLcCBzKOGi68%2BMOxjCi8BHmq2r8%3D%7Ctkp%3ABFBMiIKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860087362701"
+  },
+  {
+   "title": "28 Tested Working Cosmetic NES Nintendo Entrertainment System Controllers-As Is",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820107960661?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2E8VXMQCFADHN9HPH5&hash=itembef23e6155%3Ag%3ALsIAAeSw3Utp%7EbzN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F6aH1ypv9nHQmZcJjGS3V2SaoD%2BV3%2FIpxp5N9DRtk5m9RCH256Gikc%2Fpca05iGRWj8TdfAk7%2Bo8QeLcMTf%2B%2BPzfSarRasV9JILkJZ0yPoFEsQw5TRTA1S2rm3yjnICJcZVI6Uqiqin7ydC9UQZ9LG0QqkWiYp9oRrzw%2FJyuDISVjGLlzUxYEWPlePHIixnrGA9hjYqS01OPr1CLe8xMtTmAAaMJJ0UELUZ%2BvvC7zSU5mYdBY03kSyh%2BQliUmYKbpf6iesWwxqUOXVte13zlE%2FipxYdcg0O6ARfuUCNyu5Z%2BdwxQV8g9P6dAk18wvow2GI%3D%7Ctkp%3ABFBMiIKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820107960661"
+  },
+  {
+   "title": "Nintendo NES Controller Lot Of 2-Original Authentic OEM-NES-004-Tested",
+   "price": {
+    "raw": "$26.00",
+    "extracted": 26.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880065568732?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2EQ8XQTJ4337CSH2FS&hash=itemcce7fedfdc%3Ag%3A-yYAAeSwC0Jq5MhD&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bh1rShjxgfbfdVW32r%2B11XnRQDyeoW%2BjmIX5P6GJf2Wofd7VhC%2B33vP9qYl0OJ2GaFj2C5NKHTTBZzMdzd3BPGyhgIwmnbDOHDXJugUXu3%2Bo3aC7F5KnxQwEXsD21vvrpcEMIlfLpVPw9BoVqg9BFqKiTT7sXccPSp17IcgapHMdt8cA3R482vWVLqVYWKpdSxuERrW1B7NksAJJrin7OPwN%2Bl7On9bfyH%2BdupZFKSDyImsf3mR3Ng4YHHkYsL%2BJlMVyM0QE5KopHkgDj7trCC%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880065568732"
+  },
+  {
+   "title": "TESTED Official OEM Nintendo Entertainment System NES Controller NES-004 ML456",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227590550131?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2E5CBE2B9FMXGFWWH1&hash=item34fd743273%3Ag%3AEOoAAeSwqvhqn2kW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B4D3OApqzY7BNVOfNZbRHAyaw18U4zSPxXXaO9RWFUFdOLmzh9U53XhI7x9ZKzXHU6dOqwkemjPfxP%2BZwjsIlxt55CZxFHqQuWRUANrzFn2oN%2FYVtI16dZs4PHWftChovhWFo4yDCFrjNjkCZ55oW4qqGFFzMbXDIriy0ZPjZnefVKBCQIHmmYc%2B%2F3fpicGJbB4Q8Yfhi%2FlllFamvKLNmmrFDTXa1TFxnl3wq99UyhRWnV01eLVCLu3jI96xyfRHzTKD%2Bp606CyVlcDEY2jUN99dwGDbBznvlIDE%2FSLu7q2dxJpvhfT%2FvrZu3YarZv%2F7I%3D%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227590550131"
+  },
+  {
+   "title": "Nintendo NES Controller OEM NES-004 Original Untested As-Is Made in Japan",
+   "price": {
+    "raw": "$9.00",
+    "extracted": 9.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366771978102?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2EV7JAJDCD33J6ES8V&hash=item5565503f76%3Ag%3AuQwAAeSwondq5OFK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BH%2BnYrL2cm4BnV8wrK9pRR6iun4APkuKhl6%2BrvPcyaW3IHnSgDoiGwG9ToDwsIJGE6mW6DVW6gSu4lkC3gS0ieczo7dOcU4wugaSXMoq6u%2FXJhqCisXfBXYK%2B2utegI%2BsQqoBlUml4FkAtNXJzERTfrwYKb57VN1jkzujjoSaDSZ8gBMSggW2bB2z6uQ%2BrUBBCFRzOHeQ4hkp84i7E0l68O5FdDpyJNejZcW1qNGsm9vHGog485EUVwGAXmgvnT8eExIncL7PaxeuFKaOh4S9p%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366771978102"
+  },
+  {
+   "title": "Nintendo NES Advantage Video Game Controller (NES-026) - Tested, Works, CIB!",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267812725586?_skw=Nintendo+NES+game+controller&epid=141191394&itmmeta=01M6C22R2EWVV9Q3V7YYH562SP&hash=item3e5ae1e352%3Ag%3A9X4AAeSws4lqfLqv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9bRVznlGO4FEvwjw1o4AloYN6mh%2FSxT2xkLtu2o%2FfI8MJ%2F0Gx%2FITmiidZR0rJUZ00FegttMR8X539L00FzrlnLGI8R41KPIdoiMGKpBcnyfGuvvbE3OxG2Rrg1HHIqUnc2P7nVBTYcNdoRYS%2FzphKObVmDzCFSklgAt7QShqKGkpkBTwL67PbI94D2wn7OXa8fS22mOMV%2F9KlIsdeZCcL3w4aQAdi6NXlhE4TnlYPEQmiojvLykjPG2cz5twPDbhuPivo%2Ff2%2B6Slom1%2B7y4kOI0JeeRLbWYoRS4x0pAPAuEBKzst694d9463ezC2KZeuw%3D%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267812725586"
+  },
+  {
+   "title": "Nintendo Controller NES-004 (Nintendo NES) Tested Free Shipping",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327392015141?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2ED31GJN0TB0VBYMM6&hash=item4c3a15b325%3Ag%3AsWcAAeSwwRFqxUq8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Ud9GU83uCFCViZU8%2BbKtjYQT1XUwJB%2FlJn%2B4qEyZl4kea6JHBvSWf92ssQDMzA7ZGTiLXG8wivMgDMaXZBHNcOZxbdC%2B7hfAf40c0J9KpGkhegcWKPus5C2ex2IW9Kc5qb3G5eGvHQykFP%2BAShXcxHAOGtFrAwenxOkMKQFPZXVRuCDa5EI0sHlYBwfxuZNhDBUqqWKnyryon2Fo%2F437u3k%2FQ6%2FKxB7Lx9jhlJ3RUDNEDCgAHfVt%2Bns%2Bpguy8Fjo43yWGJe4ZhQ6Sq5NOpehX%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327392015141"
+  },
+  {
+   "title": "(2) Original Nintendo NES Game Controllers OEM Authentic NES-004 - YLW - Tested",
+   "price": {
+    "raw": "$11.00",
+    "extracted": 11.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298599577256?_skw=Nintendo+NES+game+controller&epid=2043677845&itmmeta=01M6C22R2FBHR21XQYVVTA248G&hash=item4585ebf6a8%3Ag%3AJDcAAeSwoAJqhN40&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BKRr%2By5Kw2FdvXgW03dXj%2FTiQ92MGlZBbxCzgOM7vi4E4dbhpw7S81o8TUnTjupgu8Hjyq6TqZYSoZz2IynW5QVQCKvkDaIdH%2B%2BJN%2BBLGejBY4rXwEqk%2BfzUjIGg8gUr5a0yUn6qIIQRhNmRA69hj8sSCUITT8NyTKKxTGYinUvjieg6X1EvF1JWVMkmKeF4ftjkUR7oJDVIZIBX9xYqHs4G1WCmGFWOZeyZ8CqHTHpY39IqOplr9PNZBy1MyDKKx2t2zaRo5I7EudZ%2B6MSV6K%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298599577256"
+  },
+  {
+   "title": "OEM Authentic Nintendo Original NES Max Turbo Controller NES-027 Tested Working",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147648269898?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2FR3A9E1QN7Y1Q3KG9&hash=item226085ce4a%3Ag%3AiXkAAeSwhRRq2tiB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9lp%2BD0AkT%2F3K5qAh0l6W9%2Btrh4w2s4zRuyw4zzbMlB0naawGuIB%2FKsFAG9auPjQDHFs6DQ3ivpfEAb8O7pY%2BdCa0vWnCWB1eJ1ct8uZzVDAOO2gwFYjLQpCQzTix7wyN0I8S68HCiuiAR2zHZKFY%2Fgbq0IJZpiTh4lx20hX7RGqZjV5w5fShGYPByoP2NlNQCO%2FmOUPPOvSKULcsIgmlqlB%2F6PEoMlopcDmwYPfSp%2B1z6Si%2FVmX1HFZJCYZdXTVHPsNShbd7K%2F38CI%2BOuzNV9DPYaZXsSlTe2F8tThd%2BPI6DlkqtJOYjRPKtVoz4%2Fx8TU%3D%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147648269898"
+  },
+  {
+   "title": "LOT 2 Nintendo NES-004 Corded Controller for Nintendo NES Untested",
+   "price": {
+    "raw": "$9.99",
+    "extracted": 9.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188582630617?_skw=Nintendo+NES+game+controller&epid=1754618879&itmmeta=01M6C22R2FA8N870JB24XRQNS8&hash=item2be86694d9%3Ag%3AZVwAAeSwkj1pkj2m&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8qCgQA6LsWcPppCPXDaiQe6gU%2Buz%2BMyXErqfh46wB7Ic2QWL67pHWK9H1MIADKP%2BcAayZXWN05SLRtTUczOopzE%2BMGXaAVBdHg2NSwF7S1w4ZkjuUo%2B1vX9I0hV9WD9k02JjHLBN5ASxfrBqx3DCtHaGNY1cnpqe1bRDdFJ5s2Lbv6qyXNuEWiBFcOYmQ6K43U%2FJJWwxiude%2F7gkYK%2B7RpGKXMhHz6Auy%2BLSQDMs6FFHMw4ID%2FjAwsYIrDtTR4ilr9vpD22BEWtw6MCQO7%2BcVA90OszZ4q%2FdYVWZEZRabVVCUW5ng0ZTl%2Blwk6YLkkzOM%3D%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188582630617"
+  },
+  {
+   "title": "Nintendo AV Famicom OEM Gray Dogbone Controller NES HVC-102 Japan US SELLER",
+   "price": {
+    "raw": "$32.99",
+    "extracted": 32.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407329628054?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2F0893F780YZC0PYSD&hash=item5ed6bcdf96%3Ag%3AgZ8AAeSwTuJq2ZL3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BH%2BmlvXoo5KNVBGqchValldU%2BviwDxFxjMJ3gqeAAtWnYOZxayg%2B8J7sEBPBbynDlLTmAEmx3DtJ4N6NtxaiyyBS82HCdg5K8sotv81al4%2FCS0ioGvjWMRWRvX%2B4OleGcWvPQN84Mhfgdqghmj53n0fXVGb9%2BAH6XlNmyjnV05wve0zZioSvRXqN1ZZNSftx4xRv9FonRdGeKvXMIJkMr4rGw0YmsLsLK2d7KkHpZh9mxZU2s5HiXJYswQRLiT6XhH4pie33vKh4b8riRRVyGb%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407329628054"
+  },
+  {
+   "title": "Official OEM NES Controllers for the Nintendo Switch - Excellent Condition",
+   "price": {
+    "raw": "$59.95",
+    "extracted": 59.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237153527015?_skw=Nintendo+NES+game+controller&epid=15035799050&itmmeta=01M6C22R2FCS8H5MKP8G85EQSK&hash=item373773a4e7%3Ag%3AHJMAAeSwRD5q5T65&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Rvi2yJZJfxftE3yxk4IzMfMAsrDbP8EnoUVGSeKahyYn7%2BLGWCv9naS%2BWx7bLCWTXQve9sA61BPBKg8gmPtcsshYnljcCpm5%2Bwr2kI28epbUHs6rk3IVW68sA5X06kTay7BM6CfElDfWIofxUdBIJslYTnAU0qGr1%2Fp76KCCe0YKNouUgYNykZ32vq1llxgFqOsVSFSu6nlCVnV6MK%2Bd4D1kMO69zIO4XIk4u0GglZk%2BFjUefphhKTBZ3B1NvMEZDWa2L%2B4jfCHDF%2F5LQJ7SuMO5dR4IzrpERQeQRwjOtTmqFWSc15N5Nm%2BDWlbRxEdM%3D%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237153527015"
+  },
+  {
+   "title": "Nintendo NES Controller -Original Authentic OEM-NES-004-",
+   "price": {
+    "raw": "$15.80",
+    "extracted": 15.8
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307163694275?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2FTC7W71179AZQCAYK&hash=item47846204c3%3Ag%3AIawAAeSw3Cxqboo3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fk9xMK0B06j6laPbPYQsB7CWHmRmmTpxjyKvVEU3yMYwXmXEN0M72vcya1KjdFLL4Cp90DYo4FZBNIfI4vL7rCOyf%2FEtBVMNsCpVYenf%2BzRedCrR%2B%2BFhm65okOyhe4wQWWAd0wEd4gzz2v01cXJfeLor1eUjhFL1NkxT6%2FfNAL%2BOD5VX%2BKVAmHcErat9L0aKfGPOodpPu9aFLwTmRjPBLoUgm%2FdTRKtFRTgrOad%2BHcGmDTYKzMWtLXfbjakfMn35XSApWc7U%2Bx6gCuJuivzAsoIWunYZk6oEbrU9ZHl%2Bj379uPDwZdr7KKBz7SPNvq35o%3D%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307163694275"
+  },
+  {
+   "title": "OEM NES NINTENDO CONTROLLER 100% DETAILED CLEANED & REBUILT WITH NEW MEMBRANES A",
+   "price": {
+    "raw": "$25.99",
+    "extracted": 25.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/126054067834?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2FGW99TAEMW045FJGT&hash=item1d59686e7a%3Ag%3Air0AAOSw6pZlAMD%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8z%2FxqQ7JrcqqjAyWiKf1KrpYAFOev6YriPBJwC2dhbTKw5eOZVeOYZFTKFHUw38rwmuym75yZWX2QXFQfp4baMe7%2FrijZLFzbSrUidYpAZCfhW7taiD9Vy0bblN8LIVoPDJXg3G0jObXhIXYyTYcb2V4MvQCUZPt10T4p%2F3dxvVQlQqc3NqBc1mVGTZGndHDuyU5yZx1%2BeVK9o0j%2B06%2FiCzzwcqYUW4ChW5w4VIQVsTrm1Kqd2jFt7TvwoT4PeY%2BwrgvAHU3Dqp37Opb44hMUz%7Ctkp%3ABk9SR4iCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "126054067834"
+  },
+  {
+   "title": "OEM Nintendo NES Zapper Light Gun NES-005 - Grey Gray *TESTED*",
+   "price": {
+    "raw": "$23.00",
+    "extracted": 23.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257827057891?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2FCEEN0155HC64DVP8&hash=item3c07b0b0e3%3Ag%3AD2UAAeSw2lxq5hxN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2FpStVmezW88y78IySLw5fUXXmRzDvs9DnBRTn1%2BjWI98rSDcL%2BSRxYYYvyBapknuZOTyhRU4BnCB%2BojLfoomCiW%2BXFCeUNPoM%2FQiXF%2FJq33UR6fpcuoR4el6mB%2Btk6GsNjQF9d4ajcrtJ%2FNWrwUfmq%2B45tcG0u6J%2BfH0YDVsSfX1b6ymjrGqe65FRV0v4NQaew4JSqhv5yrEn4FCmA6kKSZ2A61ymCO34SY%2ByNCuz5aHJ0CPZ3SFLFPNe0nRGotVnrNWJSs2%2FSpJ0WmZV%2BWWh0Nz%2FWg990Y2G4VHO%2BfyHAqPoKs9jMUecSA54eGusOGE%3D%7Ctkp%3ABFBMioKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257827057891"
+  },
+  {
+   "title": "Original OEM Nintendo Brand NES Controller - NES-004",
+   "price": {
+    "raw": "$11.99",
+    "extracted": 11.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407313930460?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2GJJCZENZNRNRD33FK&hash=item5ed5cd58dc%3Ag%3AEfIAAeSwOXZq3Qim&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FZGhy9y0ZNah%2FU2hr%2F4x9FJRBkSapOGWMIh3rqPn9W%2FMz0daX0aACEYZpM%2F6uuLbG1AES5lAGC5MfoZCGj4aqSrwW%2BVQMFk2XbLmh4WmlitTAqYOYJjrfR%2BY%2FU1ICKNuZARB%2FDFPfpU1Fij1CnmH7q1jOCti38tQuo8GeeSYekBRzeWJhJ3%2Bbh0QFaKU80FfIfYO22Q%2FSOKYXG5SCrkrfs4w4%2Fx%2BVV40heHC8Y95VDzccolnR%2BxJaBou3O9n3cxKQEk2MoHNWLzJxX3wsBVhiTTuzoz105oGag6mzIVFwXJBSgb8bXzg0KJdKXtEj2Jck%3D%7Ctkp%3ABFBMioKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407313930460"
+  },
+  {
+   "title": "Original Nintendo NES Official Game Controller OEM Authentic NES-004 - Tested",
+   "price": {
+    "raw": "$17.47",
+    "extracted": 17.47
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900036469967?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2GYRRGRFQ5VY5C551V&hash=itemd18e5aa4cf%3Ag%3AlokAAeSwu9pqu72Q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde880V1MCiTYNG2VEgaa01k7wPcjk7tnwhkPVkyD%2FibcXPFq4VGm8i3V1yotnWKSttNZ8zvnNsQ5d4CWOjyT5AKwjI5jM2IAAXL1hhN0ujtN5lwmc%2BzavAygNiAwzQoQfyQqbAAmc3j7a%2FsZvdckc%2F1L8R5az4lJOKQMPIbiHTOOIfv9LFNcIgLA7pRBLza0vVkhZLONLqPEzOAv61tS0lhWfIz%2Bg%2FuHcikO18bjeuhhZHwbqsXot2vUxaSFWtArzcSJ0MFHP%2FYlLRsK%2BhLms8PXn1jzvHTt6FTbJRj0o8Uu5snoVIHOfPQnVkLT6y06ASQ%3D%7Ctkp%3ABFBMioKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900036469967"
+  },
+  {
+   "title": "Lot of 2 - pair - Nintendo Entertainment System NES Controllers (NES-004)",
+   "price": {
+    "raw": "$37.88",
+    "extracted": 37.88
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257546537584?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2G06ENA50EPP4EFJ0R&hash=item3bf6f84a70%3Ag%3AQyYAAeSwmD5qIZnE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVYb%2FFU8sO0qMeyvZH1q4IQxdVD7DJlekHDmDqocq0OsTwssYWwUwej7gFm7zDVfViWcQMSUy0QYHPyNTFfKWow38w7gd1L0PyIF1bzQe9hGCoZQGvgyk60JLYkGGSHTTejPXlQV%2FRmu%2Fa75S4EFkhy2OQEJzo%2Fd4yAWQ0Ph%2FUfMYUIErPdd%2FpiN9%2FqRb%2FBA3B7vi58mT9YOhcA8f0%2FNtOsB3tJ6QT0s8vSyrEmIVV7Ax2lBStevh0u8BfdXmQPorPRiFcIr8YFgkLp83OlLqIgcrLTbB8IJXTrxbXXNEJ3s9UkJlZyFRpk%2FOOQFhNSbc%3D%7Ctkp%3ABFBMioKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257546537584"
+  },
+  {
+   "title": "Nintendo NES-004 Wired Controller Gray 4ft Cable for Nintendo NES NES-001 1980s",
+   "price": {
+    "raw": "$5.00",
+    "extracted": 5.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147657501822?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2G8VM5188E345NGN9K&hash=item226112ac7e%3Ag%3AXycAAeSwJIZq2sCi&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FplDbH2rnhLQND3eLfb%2FppQ%2BGSz4K3FplZwDxq%2Bhs60vl3Vr3PDBA02fNPnPDv59fTUW3SratE6VnDL7Nf6NvxQDDx0QGg23CyttOxfUJijRUpyqkiBhaUuzx14taCqh8gERQMnthMwtVCp6sLwYaqTFswTBk2XoCu0PnooFc1BK7A4MiloEM4PmJoBb5iR%2BcQL4zUrtMcgH1yDr9R6uGCVGYhGxPbneDWSfHlwuNck%2FVs4XRq%2FmzwxaU7tJlLVmMg3uhqUXMN9hSeVmFbhb16%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147657501822"
+  },
+  {
+   "title": "Nintendo NES Wired Controller Cable Gray/Black/Red Untested",
+   "price": {
+    "raw": "$12.99",
+    "extracted": 12.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920077205275?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2GHKATS1AM8NCSJ2HH&hash=itemd638dfff1b%3Ag%3AzVUAAeSwoitq3749&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F5QFMXo7Oqv17Yu6v8LLTNvK2g2738NGk0Z1uZtk7UFpEDZTemAZ4RqxIoSt8PIQw6FWJhp7KFsQEHHaSAtBmCV3g96qeyRFYZDo24ikOQMuEgo9a04GXxGege8Ik6v5lyRLUACdQR6%2Fa5IL8n4fLeUTKF%2F%2BMwCSxjm4BO80BBuanEsTMZzG5u2DzVEzRgTxvqcqgPq%2BdOwAUBJSaFL0Sv2b7qdsoz6z6MP1V3UO9UWffV2B6Z8d7HJHqDK%2FbLAJ3RMht%2FimnR66d6xvRpl5QA%2BORo9M7%2BNEm%2FbeHzdhaHIGZbLCCnkwESxQG8YfoGOcA%3D%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920077205275"
+  },
+  {
+   "title": "Nintendo NES Quickshot Qs-126 Controller",
+   "price": {
+    "raw": "$13.97",
+    "extracted": 13.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/374183385732?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2GC79CVQHG1ZSR7X80&hash=item571f115a84%3Ag%3Aj2AAAOSwfXZi1xZ9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9GH7%2FHBHbXxxwPiI%2FJvtPpyKKcDhSSyrDY6Hc%2F9BJlDDF8CHnEJ%2Fc3OZdi46RYktcpz1WBqPDNlKzIvmlmbJpOMuU%2Bd2HTgluTzAYMLYF1mYSZWF9efDxmh38jr9Xa4Z26ri49LT4Egit7K6Zs0JrUknM6dmokQN8kBv26IN4nEbhWmWQBpNkSP%2FqsQv%2B87SmEDwN--Ihx4fKNpFPjhEMjWo%2FTMeifnYTSEo4zZ%2F6RnbgMSSq9ZO9BDdX2udbyqf4MrXB2aNKfDpam1TgTnPc6%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "374183385732"
+  },
+  {
+   "title": "Original NES Nintendo Power Pad Controller - Rare In Box CIB",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168818431544?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2GSB4Y496Q5738GFZX&hash=item274e5cd638%3Ag%3Ao9UAAeSwcnBq3lFi&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BtDrTVf5CYOBsBSdEwuNU8kar8ZFL8%2FbNkJhji%2BcdGewAkH7o2xoRA7WJLaCUfi%2FYgS9EEMRr2l45BJEkl5cuRpD1dA3%2BVKPq3ikBouCLgtPN4MZp5xWmcDTBATVf9gPg3vL2r%2BX7yAgFabQzKQIcXBxV%2FT8Omd%2B%2BQ3UnuzN%2Bu0kwwgFTKKTopWvYK4%2F6c4H7mghUnF05N9%2BFwdfSTLnP78T49JMLhO3adpwC6YaYHsgm%2BAxptw0NMZTgZDfFAWHX2XqBrvWxt5VccUPhWMl8z%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168818431544"
+  },
+  {
+   "title": "Original Nintendo NES Controller OEM NES-004 Authentic Tested & Working",
+   "price": {
+    "raw": "$17.95",
+    "extracted": 17.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327400527593?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2GZJHQMRM9WMHM7G0J&hash=item4c3a9796e9%3Ag%3ArpIAAeSwGMFqzEx%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9cW76VlO0Wp50yKrqU3YWjkEVn2ZfyiuyMy2ARXHjlwQnMll9FHJHSrzQX66JAlGTEL8gFkRnz%2BlH61lB6LJ7y6l2l12RgeBN5E50x1Q1WTTe1kKq28T3hJI%2BjJacf8gsumx0ItlHufPU1S0CLYDH572RZXrc%2F5vcozXEFlICi2btw8WQhCDI%2F%2BJXwV4O0bnFCpK%2BOrlyhdy1h4Oy5bTf1IbQjLWTJdyhiy8GMedKWYtZJvORI23LXYV7KQLgzSi4pehS7V%2BPi2K4hjBfudY2t%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327400527593"
+  },
+  {
+   "title": "NES Uforce U-Force Nintendo Controller Tablet Device ONLY Broderbund Very Good C",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920040426368?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2GA61ADVTXNWFHN99V&hash=itemd636aecb80%3Ag%3AD2QAAeSwa3xqyn31&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BVlC6Sz%2FMLnbf6%2FbYmEKzFSq4vjmpSMA7F2hXcZKBwtB5WJesT2EducEgY3QObmLBDX7XVTifK59jSVURDWWwuFxxu%2F484a%2FMvovhStc7un%2BRKb0QQEtZAtzMtR29JwDYAWAnPbLiRsR8njuWGP8cJGjIYSj82T7ebQT76kzpt0JAwq8arsCm%2BDpuOW6bJbIOoEE%2Bupy1ExamqqIFfjEVNnU4Gj3aQEQ9AVGJ7f9G21plefpciLIfTu5lxElq83243BOKHVu0GuJow1S%2Buhi%2F5%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920040426368"
+  },
+  {
+   "title": "(2) 1987 NINTENDO OEM NES-026 ADVANTAGE GAME CONTROLLERS - EX+ TESTED",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128135633964?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2GBXNHPFHKA3FM5QD9&hash=item1dd57a9c2c%3Ag%3Ad08AAeSw40Zq1mnD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9QQYKQQy1AM3VPUyF4%2B73yD6ruykKBNIG5vqtqT%2BbWQNuyqcJdbzxzBlJzmZdk%2Fq9g1TKre7Pr2awa3mozaQRQEarNzikJvF1h9gE3JJ5GGMnzLHj%2BcI89w7EFdcCQ4QhQJ93qx8rKqSYzpP2bMW8pVh0kBLjOo%2B%2B3b3TS2JIp6N2RmVF4B%2B%2FwkT11jATWduSHR8dt5armgTue5VmovdBaBJC47HWG2tiPRQuOjjfMMPS0t%2B%2BeiwoESdTEaM0r67XJMca4x7Bfsf%2ByDTdXoc%2FzZzID%2BulXOv0BCrVCpm8ZnzlAhFLTpYpHtD5eQzOTB6w%3D%7Ctkp%3ABFBMioKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128135633964"
+  },
+  {
+   "title": "Nintendo NES Controller Pair & Orange Zapper Light Gun Bundle OEM Tested Working",
+   "price": {
+    "raw": "$37.99",
+    "extracted": 37.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960111795289?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2HXRVRNJEKSE5B9X15&hash=itemdf8b1f5c59%3Ag%3AlocAAeSwvjpq3WZ0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F7GcMUqi6GInHvek5hGXwHCChdaTaSl7WFzxe%2BzmVPiBGNOe3OJbDiyuZsw%2B5vfvNEQ4VMxY61Mu%2FyJeSooZ3JphfXJzMc0cJLgCcywBlcSQNX0%2FI15PQ8fCSXhjBC8r7IMmEwjQvR92usWwnXAloO50awnikxDdWTYbOE0LMlX5%2BLFt0JM%2BKnpmhP4VQzJgan2FDzy3l2CLXsbXJ30ntrvz4kw0W0QW6vjtVTWm%2BXiPz72gryqBlRBnRMhKPIW%2FtLnIAOJchpcnzw8dEx2BoUUsRKijXlvCkB--7hQFjREJUG2xKpzMJ8OXMb8mF2sXY%3D%7Ctkp%3ABFBMioKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960111795289"
+  },
+  {
+   "title": "Nintendo NES Advantage video game arcade joystick controller In Box",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257765671296?_skw=Nintendo+NES+game+controller&epid=141191394&itmmeta=01M6C22R2H75SYFE427PW9Q2AJ&hash=item3c04080180%3Ag%3A%7EcsAAeSwbu5qttpG&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F8nBtpB3vwzlEyOZHZVQWAmPTwHwEo7PaMe8artAJwCVPMWkkTslAbJUmSbN0xw2ZVwJQFWwZZzqx8KHB6mXHjxmeyE7iSmVRgWIwL%2BqIdrIo7ulKU4G%2FuYnyiC69t0yBDbC50TmhPudacksudFBvqfAy90gkfcmVSQGu69SM3nJ3fsr6I1oBaZXjjwCKd2eyG7JNRc5ngWvYLTtqTjHHzT690LB149VAb%2BREdYOc3Ekg8wOnEhiI%2BqpchUacLbKHx7RJG%2Fbo4wulKc9nFNnEE%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257765671296"
+  },
+  {
+   "title": "Pair of Original Nintendo NES Controller Model NES-004 Authentic",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287621541225?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2HA6DGJR8FRZ7C7J1K&hash=item42f7946d69%3Ag%3Ar2cAAeSw4Ppqv0hJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8MW55fXMKUopJMlkMl8qenk8nm9KqIr8veVQ2QL20UHn9vBUV4ZWnSAh6zsUTv3x0L48Spy4qsYxweIwBB1JKEvE%2BZK%2BqDP2YvI6lCnu55FQcH0XUQAsOkLJsJlKSeQIJdpa9lCUhTRChAD%2BlooFKzx2tN4jmWzBXgTdo8Wd4q8ihYzaKMKNOwGJotqngGkgsDSoVk6uRDi%2Fvr%2FAam60sJ1NJBeNh2N%2BOyG07jmGlv9Yjlk4cG6LxNKEuwOUyi7UQ%2FTUr2n7QS7KRM9KqdUEaBlyrzoTdRPUkZj0R1y98isdUYPGYqS74Rwvoa5tSEaAQ%3D%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287621541225"
+  },
+  {
+   "title": "Nintendo NES Wired Controller Gamepad 7-Pin Connector D-Pad Gray Black Red",
+   "price": {
+    "raw": "$7.00",
+    "extracted": 7.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820253779855?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2HWX848TRDZSZG0T0M&hash=itembefaef678f%3Ag%3A7zUAAeSwR9Rq1X1w&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8df1wbcH9EVd4HBaqOsm3f%2FZA5GU7Jmp17AM%2B18hmflhiLaVcCD85Bb8bgd9O7mO%2F4T2H4e3nIG3mpUe3GpT7AcozDZr4CwOoZ3t7SCz34opDzvEh0rgcEgyHZmojEvbdUFw2pdtZdeQMAErlzKPuW55zS8r2jPuFLu5HUsaeQidieor5ecaMyAd3rTlw02QtpoGdhTYwLrGk1%2FBvx1QMHJjoApdmx1xgGVGU7v4OkOv7mEPsGCYLMUTi5K0ghlUjE5Vh%2F3a%2F5udi54Of7%2FqXV%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820253779855"
+  },
+  {
+   "title": "2 Pack Wired Game Controller For Nintendo NES",
+   "price": {
+    "raw": "$6.99",
+    "extracted": 6.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820204723788?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2HYVV4VKX2YYNZFDJ1&hash=itembef802de4c%3Ag%3ACI4AAeSwclBqwx8S&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FX3dgbBz88o0%2FliMT6ddQMdD9uBPrh3Xa0bIAtKXUvvf2w6LvW6U1od%2BPCU8pvQO%2FVO0ayZtu1IhjDh%2B2qTIcUgMf6fw27TGOCZYCjNrA51T%2FUorTZXrSws%2BZkqvZnVIOGPwi%2FTh4CUYlknz7NrF89ZfFo%2BFcvrQGv4fBFB%2FZEH3BFuPz2Yq2G4ILZ4uV7myCLTKEh0ssZZlwM39CsUNOMM6TG9j1NnGBBXUvndXngVo18M8EerE9lItjqUGSrlSn%2F0uUrXrDgRVywQNxmMgS9%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820204723788"
+  },
+  {
+   "title": "2x Authentic Nintendo NES Controllers - Original 80s Gaming Japan Mario UNTESTED",
+   "price": {
+    "raw": "$9.99",
+    "extracted": 9.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206649219914?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2HSAJKT8WDBV049QCS&hash=item301d40db4a%3Ag%3A0PcAAeSwZLVq2%7EkK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BuvpnFtP9Ub4rx40PkcAJ9MsWZQJOFyxf80D0Jdg7WUUtL%2BJsXaHT%2FfTZhsh%2B6U6k%2Bp12LA4JaYVtbV80ZvJ6YwT5ROHcz%2Ft%2FVpJmKJd3XGsZQkGcY%2FwkYYKH7YAJ3j9r1uFBsUD3LEG%2B3m8hkg7qtA4KDZpoy3RXpa45l6zBApNzmQSUVpn3f5LpdfahBYR%2Fmjr8xmqYdm0YpZAnTzT%2Fu51sGfBuLCv3ZHqHttH9XN12Tntk1CDQ8NgR7nWU3aZ6eWVraLerpGTEBedVoZf4g%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206649219914"
+  },
+  {
+   "title": "Nintendo NES Max Vintage RARE Turbo Controller Only Cleaned Tested GUARANTEED!",
+   "price": {
+    "raw": "$21.99",
+    "extracted": 21.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/161488691630?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2HERQGFE9JXKVWD75T&hash=item259979e1ae%3Ag%3AdpcAAOSwKV9cPgSr&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9ZfV6w%2BN7s%2B8IZWpq2%2FJDquSQMEqASuzULXYWtwLR1y%2FNDND4IjrKLm0ydj9R4aIx7D4OrF%2BUxHGVG6t%2Fkswsec4FBmiVhoQtw1j%2FEtIeWyxlwXsw3JjBxO%2F9YygOqNFN%2BSd9ASyOctcXuEfOZLWXHejhbVVxfHNhdJdjcOLRXZWT7sUykGGN%2Fpn8e2xii4ggVWbhnx6Faf%2BfoRhMMl9cASofsqPtO15a4g45GoVkhTtNu6OqGDU3r3BfMDdJ6eiO7Du%2FV5RwUUiOsRbN8iaIu%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "161488691630"
+  },
+  {
+   "title": "NINTENDO NES MAX CONTROLLER LOT CONTROL NES-027 TURBO GAMEPAD OEM ORIGINAL 1988",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820250293902?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2HZQ6G1Z56K7JD82F7&hash=itembefaba368e%3Ag%3AFfoAAeSw0FRq1CPL&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8DFYYVMb2pHpxgKXVHcCyDJ78MaeRa1YXZejac0pNgJv3MAHTV3QAiTW7WwZrawIiCtO5JVQRmNPxd2xD%2F9XZg7CYLiLC%2FSgHyw0liOfGasObfaptOylALNq3zmQmQi%2BKS2Ufzym28zIwNEh3FHAnpWvDxdmlyVBI6c7VBzNanPBns2W2Xd8XNyGepa8chdQnRzpWYgyB6hEEj23%2F2wW8Y51LXckcRRnPSLppLBx2iJNhHwBOekenthGnpZAsLPjiM5AzYNzOyAhA7gIq0KA0c%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820250293902"
+  },
+  {
+   "title": "FOR AUTHENTIC NES CLASSIC ONLY | Original Controller Nintendo Mini CLV-002 READ!",
+   "price": {
+    "raw": "$34.95",
+    "extracted": 34.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227515850107?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2HHK2C3BPFAMN14HP6&hash=item34f9005d7b%3Ag%3A%7EzgAAeSwguZqjIGa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9gdNl9SKwimVrgA1bji76AdXQ%2Bb6NN6sQAGcsiPx0dLdZa0RdGLVxpo1pXwAFgLHJljZvW0yzDtQyT6DYjxMcXpCLMsfBwO6jcjIOLIeceXH9YXbqu3a7zHNJG7Z6oqUOemblmvtO7MtKYyiB%2FuWxEbQhe24GJy4AZtdzM4Fg0jU64tdlU0Mw5ZJqmgA8qVM1gyy6wDAHjKKbmoPw5nFbIEL4aFO3%2FxzYU%2B8tKG00%2Fmjgg%2FySSn4ZOFemD0rU4zseGFZ8tQpoF4HPpB9nI%2BUj15P69Ue9WZCj%2Fw1CRkeMUdDmieC2FzFsomH8eL%2BaWlnc%3D%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227515850107"
+  },
+  {
+   "title": "*RARE* Original Nintendo NES Wired Video Blaster Game Controller Tested Works",
+   "price": {
+    "raw": "$94.99",
+    "extracted": 94.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358872826234?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2J870FEBGYQK1R1E88&hash=item538e7cc17a%3Ag%3AUg4AAeSwmaVqbpn5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9bCVit2u65EIgYoWpvQ5ftUb5ZMPSqJwPGfu7UBTa%2FXOVxhal1rPlAEvNeAxVkQ8d85Cdp%2FbCP6eYBJc3Bw3J3sHga1qt24ZzqE5AUf1Wfm7sPyrmQIuV5PYtqaoBN68fxrWe5xt%2B3MrbyqQjT%2F9urDLdedukpdfs2mDRFmVeLn3da8zjQjQGo12x5etlYRjtCcz1H2%2F7wMdhTY8LRVWJO20TbCVeyGQDa7n7g39SBxEYzfHD0SE970EvTP6LfcnSq6ByIokiRFkbQVA1vZAsFgNqtiFh74yOycfKVGblJPFuDgx3J9eKBTXEztU%2B%2B5Y4%3D%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358872826234"
+  },
+  {
+   "title": "Nintendo NES Wired Controller Lot of 2 Gray/Black Red Buttons D-Pad",
+   "price": {
+    "raw": "$6.00",
+    "extracted": 6.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206668205146?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2J1JF1YS30FT78GS23&hash=item301e628c5a%3Ag%3A%7EFgAAeSwmaRq52vZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ppnvNro7hgWBgIonQ2ee6vNRLDnvLwWsy9Lfmcwo729%2BUyTFXKBZTMFk4fZy9XkpqIxK0Q405MRh57Pnwjr4bvPUpTYwpME%2BPiW4CTOaGRVRztX5CED7gLBhYJkhJggORm8gKBhtTyuNdo2dOV9fcS75uc5Q2SVPTOrQoEv9Q0q5ZRQlJ50sbiX6%2FYJ6vvxKQxAgE15L%2BS%2F6SiMprqOc1lN6DF%2FBRjorLWiy669cdSJSESV4PVnE%2FPk%2Bfw7V%2B8C4%2Fc6EEiywKYElRYU7FGmCaQmK2a%2BaahlJ0OSfwwSLolLZ1IdUM9EEl9kChDtL5big%3D%7Ctkp%3ABk9SR4qCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206668205146"
+  },
+  {
+   "title": "Akklaim Wireless Infrared Remote Controller Nintendo NES",
+   "price": {
+    "raw": "$6.95",
+    "extracted": 6.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307056224345?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2J1M9S95Z8SBE3RVQK&hash=item477dfa2859%3Ag%3AzQYAAeSwNRxqUlWK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8i2pfJt1fkSrfa15paTiSm8Dwhd0EE6dJYwYJHtg6WRPl2LUHGn0UuGiMvnvNWd7VIXvI7ifL%2BpcDf%2F4UOBV5cJ9PEK1YNPA6U2MttPd2X4FQVihl8UCDrbfZeEn5LoRplwwbkeTB%2FDEg%2BX%2BF%2BRrOJ5WIkJk43brRbgrB7c%2BtIsl4vyOlgFCUhD8UrNQV4uf5iDNtCsBcSyLipH9uisYMw26NKnkQCyZyGqmmEpDByK%2FNIBfyYy7jWwuSMEUCXDyOyJ%2FlwcSY9kEXXb0Qve%2Fto%7Ctkp%3ABk9SR4yCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307056224345"
+  },
+  {
+   "title": "Nintendo Zapper Light Gun Controller Wired for Nintendo NES-005 Not Tested",
+   "price": {
+    "raw": "$9.00",
+    "extracted": 9.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327431437205?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2J87JCJ97TS7ZZ8GYQ&hash=item4c3c6f3b95%3Ag%3AK54AAeSwFiVq4K6b&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BOmMQj8n9HtnpNV%2FYieUkq24q1rSgype48igRoW5%2F99u1LCqlEgvuBa2DWLmCSDOikS%2BOCq3xxV50ZBsDuNOZQXDaV1tR52O5uzbxjjb9qRvOpmgUphy4SGD%2BOYR7fVww52w3bPj9qoSyYaI%2Boo5cM7F16ZILQG5zQluZeMzVxFBIzBy3zkX%2FPsg8R00pJVcIK72%2F3AaNkUuovKiYSqxVzbxeF5a4THdl9S%2FvqDQw1YKskPDukPFFzyoKj9WmgeNf%2FHd96JrvlzgGPXHxjr2yK%7Ctkp%3ABk9SR4yCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327431437205"
+  },
+  {
+   "title": "Original/Authentic Nintendo NES Controllers Lot of 2 OEM NES-004 Tested Working",
+   "price": {
+    "raw": "$23.95",
+    "extracted": 23.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327400534179?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2JDF7FHPM8EKQWEHDN&hash=item4c3a97b0a3%3Ag%3AS8cAAeSwmHRqzE7e&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BiRaIUic8J9EHUspRrmLv2ui1T3EEFwblCy4P8IDrTtel1XgEaWrcaBPYywPo1Lz2NKeJTqIsAUNPt%2Fx7LWeikdoj0D72h8LO01DTG8JLk85HILBB8NAv2G%2Bawjkcl5zcDN3MD%2BcrNDtMG4cblLbmPtzTsv28%2BcamnOS%2BSxlQlL7Kr%2Ft29T8TqqLxKBKY%2BFQ8gMd6l51aSNjupNI2Clr2bYUbD%2BCqWoC%2BKNhw3N1%2Bhkou28mttBbxsPEN3%2BT%2FDBJGdqXmW%2Ba146ClvGYR0taKq%7Ctkp%3ABk9SR4yCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327400534179"
+  },
+  {
+   "title": "Nintendo Switch Online NES Controllers | NO BOX",
+   "price": {
+    "raw": "$44.99",
+    "extracted": 44.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206653353809?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2J6K9DST54PY2CH54V&hash=item301d7fef51%3Ag%3AZrgAAeSwCZlq3lEV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F7NnTdItO0bfGqxXs5eYcf7HZM96dQLRz5iZcE8BaG8LNi1DvIq7W0gusrmXO7W3yHyzoaBmsdHnTu31o2l9c8c9%2FWjr0%2FGclH%2FagYon4rPsNyiJBI%2FeafF1VfdcUjfA0Ud%2FPgGCgCj07lgucso%2F1QFMxMklJ0B0bc%2FXCQZ7%2FdWX3DmNW2wwZ0izwBb86bW5Pdt1jTorBh9jGOy4HmFO9fZBv79S%2BXFTOGSMcEeGMshVfAlOZ0KKXF6q3wV1qi3PSSgeW3H%2F4MqSAwuFOsvJ3QlK5flAiYdUT4p3Ql2rPDF%2FrS70eyp7UdSpe%2B2M3Xgrw%3D%7Ctkp%3ABk9SR4yCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206653353809"
+  },
+  {
+   "title": "Nintendo NES Wired Controller Set for 2 Players 6ft Cable Gray/Black/Red",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287680314038?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2JCV0H82V484P7N8XQ&hash=item42fb153ab6%3Ag%3A7bYAAeSwuU9q3tyl&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8%2FiKGNVxZcUuZ9a9wE%2FkVLYcZ8CquxP8Fk%2FmU0Hyn%2BAHyfkK9G8E2DSDqcv83cu7N79juhChtsY7B5kM5lPGWVOTTipFO4gvYwSlY7NPOGFApmgVGG4DBrpn4sVlZpkrqOTQagnyudUkJbDo1cQCEqwBHQ5vutwhsE6KyUBWztdSS4Qe7lRAoYsCZZq9wNYKGDdSUL2hFNdAHfrY9kM3mjs6wmTZ23vLrmQeOtQokUCSRsIrWNed0QRiOaEzimMT8SA0EyGn0ygxtfVNn%2FSfvm%7Ctkp%3ABk9SR4yCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287680314038"
+  },
+  {
+   "title": "Nintendo NES-004 Wired Controller Gray/Red/Black 5-9ft Cable for Nintendo NES",
+   "price": {
+    "raw": "$5.00",
+    "extracted": 5.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147657496608?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2JF0M2ZAA092EJ1D6H&hash=item2261129820%3Ag%3ARFUAAeSwv9Rq2r6v&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8eky%2B2yhvJ4KbVOQE%2BuetP6Ui%2B%2Bw%2BFavcpUWJLN9PZ1inoflyXMOARTqPTcGS0M%2FwcIjgLBqpynDjpTyi%2BUpXHbJXOxkczDRv1IdiVBr%2Bo88fx8TMymJ%2FHQsTWSKl4sARG1wfn17FiegyDfosS5AX%2FWo4AWUT7F%2BIiubKYaeDxNC%2F7Xqd9JCXjsxvflSw83iVh6W7pSNF6vqMd80%2FY1JfXgwUOj%2Fw%2FxK%2BMg%2FMa%2BcjJ1VsFbebhbUYSfZkuqXehSS3JEQ9tln3aETE%2BZU6B6vTQbAT24QPkxVl8z9D8IwDq7K7sANIoM9ZKtYDlzHjBbbA%3D%7Ctkp%3ABk9SR4yCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147657496608"
+  },
+  {
+   "title": "Nintendo Entertainment System Controllers NES Controllers Lot Of 2 NES-004",
+   "price": {
+    "raw": "$15.99",
+    "extracted": 15.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198507698018?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2JD09Y9WMPVBTJR828&hash=item2e37fb1762%3Ag%3AxwUAAeSwkkVqKD09&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ba%2FdItgsb6F0bSZBtaaow5399JFyxICWaRaFk%2FakoYHVk6yS2zTeDHYRaZHER8iO8G3178zlfa1JKAbnca3sfVbCyipLT%2FcyB309llOh3ftQ3uMdksk4nn9cXNAE43eLRrN63ofepVqkLNX6kn6tlcwD0JfUmR01bWPcOVCeiHWmH2JojC1Yi9i1Ek0Gt5Cz%2Fq2VwmK5o4pGBIxxLQuTMHFzp2lti%2BfpHL7GbGSfwicCK6yegrR6uVi6jdDtcu%2FM02Gqy2yVDCBSvpjThErL1fjpTzlLe1wHzciaAhijIpy3SQZrvGYoobsGsZ%2F2o%2BUM%3D%7Ctkp%3ABk9SR4yCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198507698018"
+  },
+  {
+   "title": "[Lot of 2] Nintendo NES Controller - Original Authentic OEM NES-004",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168829167370?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2KWJ4V34ADPV07NDDH&hash=item274f00a70a%3Ag%3AVQkAAeSwY89qc5em&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9HqFAwTgciDwrv6fS2mfLMtu9Q26%2FqXMRI%2Fy9AXkmLEbVXKZFc4CsqYgtbj8z7O4CuRoshWL8IU5OdUzJP3QdaG8tYFf4r5UXv1S%2Bp9edGY91xZCYEFF6eKDi%2BEaQRij44PMOPpBC1%2FdUZ8E2JHZg0GD%2BkmruvgA2zSG0Jbm9mMhJiaAlN%2BPHPsBvHuAsG%2BHQ0DpCCbddzX56PeVmhhsKghfRzBOR0K13rXRx%2Fjx2U8UkE2pbXg0LdJ%2B1RSGCNc1NMt%2BiXUuj4J84bqN%2BcqNda%7Ctkp%3ABk9SR4yCi4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168829167370"
+  },
+  {
+   "title": "OEM Nintendo NES Controller Lot of 2 Original Gray Gamepads 1 Tested Working...",
+   "price": {
+    "raw": "$38.24",
+    "extracted": 38.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127964817857?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2KNJBJ2BQ7THC3KDE8&hash=item1dcb4c29c1%3Ag%3AOSAAAeSwK%7E9qTtOC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Pb3mQ66vt4dIzgo8hXfiaRmCn3oakd4MdAE79EHiNq6gDJ8n8bWroF59b5Z1ltCeNmOL8HGw%2FgmfBXOKcBSoZTmzpPKpMxWKC6BvFMEPqH2LAy9hBzVZoXubflLZRZemRbEvHOqMhd9FBWpzT%2FLw4n%2BPZucqRX%2Be5G4PRp6rJSQC0wNn938t3D7U32xbs4kqIauL1iUR7D2UoGlvijSSAMJu4IR2yLqKg4HyQxTByzjtBJ5F6fIn%2B57Qc2f0gu8NgWN%2FCaadubJl3gH%2B4Iow17ty7kfbHwcRg0avd0go%2BvMtQGu5iXBznHsflurW8ils%3D%7Ctkp%3ABFBMjIKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127964817857"
+  },
+  {
+   "title": "Nintendo NES Wired Controller Lot 3 - 1 orig, 1 dupe, 1 max - tested works",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366736910706?_skw=Nintendo+NES+game+controller&itmmeta=01M6C22R2K92TKSTN6EZNA0YX1&hash=item5563392972%3Ag%3AcK0AAeSwuS1q0Xaf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fl0N4SyP1THVCx7MjEPLWrn14U02rKUfmYT8Uv%2FYrGZdSWKoRSgfb469K5vRdaQ3KOSJOPwG4%2FRvHLhvg21W%2FxaA457w4l2LKQj68%2FOnq9lbMdtxIHWmyLO3sijzLwl5FSF2lknR3iEua9ELdeGTujnYDGNzErliEcj6gGQ4qDwAWMZ%2BLTtohGHHGsb6OuM9qx2%2B8Ryd7EIsj2b5kSh0UVUiUSWgm%2FVCIPdgm5FTQCwr%2BTJ9ESDM5suUt0x5L7Zc2oNJxEydOpLa7fG0WShLnGfAmKfd%2F7kXUCI3noKDIcJJxeKyVIZHsxdT4N47DK56U%3D%7Ctkp%3ABFBMjIKLgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366736910706"
+  }
+ ]
+}

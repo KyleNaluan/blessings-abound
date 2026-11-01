@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "handheld game console",
+    "visible_text": "Nintendo GAME BOY DOT MATRIX WITH STEREO SOUND",
+    "search_query": "Nintendo Game Boy handheld console",
+    "model_confidence": "high",
+    "color": "white",
+    "material": "plastic",
+    "exact_model": "Game Boy",
+    "platform": "Game Boy"
+  }
+}

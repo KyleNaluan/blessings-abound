@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Nintendo Wii U GamePad",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 3300,
+ "organic_results": [
+  {
+   "title": "Nintendo Wii U Black Game Pad Controller Only WUP-010 (USA) No Stylus *READ",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168830799877?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201D6B5VZJ1ZXASWYSX5&hash=item274f199005%3Ag%3AaZ4AAeSwiWpq5qPF&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BqUoRV9aoNRnnONpB9Oi83LZkYC8r8zlK8AiIS4CfJ2iknd5HbjpKS4TIUK2zsK1VFBMmXXizEcL2wzCFZKynLu7wA%2BiaeTihib%2Bar3nFW4iXVA%2F560nsKFJpwv%2BHgRmNJP5pwqDZnhYGzNApEqanf6SkXk1NIi5yMxnNsrLUxgnmUq8EgXtgyTsONbtN2Tx742%2BE7Xa47m%2F8ASZ4DfQ6tJOZ5PAYaPBJchvJYT92EDv9UEC9JpORjGn1Wq851CtGhU6%2BozNzVjQ0aD2zmcW%2F%2B%7Ctkp%3ABk9SR4SBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168830799877"
+  },
+  {
+   "title": "Nintendo Wii U 32GB Black WUP-101 Console GamePad Bundle Mario Kart 8 Tested",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860101967245?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201E948TPBH0Z8RJZ15B&hash=itemc842127d8d%3Ag%3A4pIAAeSwLLRq5TCo&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Yc6%2BjvDNehLrYNUZjTQHzNBLhGZI4DdPaOJ4EdB6ml%2F8cPmADZUi%2Ftkh%2B022A5KMVI0MJEaRVcDAY5uBYVp1TLf5hq3TAd7178k0%2FHyTXMSpD1a7D8f3JNnxUhWQtXRwXbHxKRv6dy1W6mH6FfoDAKTGeQDOjyqFbzEiVEOPI1tmDz8mxkmAlhg4US%2FMA9C1fQGSFLwV47dB1y0Dw2IBqYaXsCdVgdLqIOSMPjo4Gn6lBbN9U6FLRWcZ5wvRCwRxP%2BYA5e%2Fuj1drqUQXqmmhbTp122RxpsgdvgFmjlqD9rg%3D%3D%7Ctkp%3ABFBMhIGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860101967245"
+  },
+  {
+   "title": "Nintendo Wii U Replacement Gamepad Only WUP-010 USA Tested",
+   "price": {
+    "raw": "$109.00",
+    "extracted": 109.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206664468209?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201EKS6VFEGT49XF2245&hash=item301e2986f1%3Ag%3ALMMAAOSwomNkBUUs&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9KbeqU65B6VdAbiEGNJU0HxSwO%2BbcoWcnamHMRKMuOTk9qJq9J9YfYK99c0benv%2F2P%2Bfc7%2FEuEK1Mr2wvfQgA2Ud3BgxUduVYaGs0a14CyNNDNu4L6stqYenODLhH3R9P1HTt%2FgUmJdUnDdd1QGuUBr7krpAlWsqC%2FiUm6z%2Bo2%2BKeQ94iGRVOeD4ln3fXSZDuW9dq6xbiNjDJDa4YGiKuGUKi8xVXFK5K2RZzOL8huM5nUX6dbBWi%2BPnJmFfTI13%2B%2BThAEcbCCgEiH5AX0IMr%2Fs7L1tchL0l5HeA7ZhT279Q%3D%3D%7Ctkp%3ABFBMhIGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206664468209"
+  },
+  {
+   "title": "Nintendo Wii U Replacement Gamepad Only WUP-010 USA Tested & Work Great!",
+   "price": {
+    "raw": "$119.00",
+    "extracted": 119.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/204673865381?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201EC0D46TCWANP4EW77&hash=item2fa78356a5%3Ag%3ALMMAAOSwomNkBUUs&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8ADJOaVCireQM1BIkU2GeZL8XdDb9uq6oR20yltK7YN8YaYbNd27ieZoKwzI7OZdPGs1kY3ZUNX2y4DOdO4CRTCi4dAvRpKTAw5Dx%2FvAu7MtjFILejFbZgGdinQa1xmM%2FVR2MzcX0eW4w5MbJmFyEnYlemJu5s72qTgdwrG5%2Fw0Hqd%2BgY3oJ1IxzCZ3uzY5xYe2PY1%2BIj8nuiOD%2B5QS%2FS4K0hTHnHfSRT83nt7maBclVIOxQ5Y%2BYJu3MEB39aJFGK4Z7Ut4aPa1BT0%2BZ%2Baajdwdgaj%2BgwhZrO%2BMStRSdGPww%3D%3D%7Ctkp%3ABFBMhIGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "204673865381"
+  },
+  {
+   "title": "Nintendo Wii U Gamepad Controller Tablet WUP-010 Zelda Wind Waker Replacement",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940053201886?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201FT2YBW05BSSQC1TRP&hash=itemdadf8983de%3Ag%3AgSMAAeSwJU5q5RKi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9VuKdjxYGgsj5sCjgyWjXE3LN%2FIvn8k0aIxoso%2Bu6%2BJcgnIl7resKdHIgRZAHkNljaA4jltpmMEPCdxce6cfypB19lG12627y48%2BDYFqtmaJqTV%2FYji4mTcwEusPTtvR5BYPtyYoNiQGVgmGacj5ghNudjG9c1rLVnsn0tg4uNWtIZae4IixDRGiXbyzBWdrldRcZQvUOYt8x%2F9dUQDhjoxJTKvhAzxZ%2Fw26Xc7gcVx3whNU7myYTEVhO79XzmYDAE4B0IqMW3jcIN0FWLavkmHjgplXyIVNSFlsAYUbcrAXGK28a2ZnFoIoporlmG8x8%3D%7Ctkp%3ABk9SR4SBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940053201886"
+  },
+  {
+   "title": "Nintendo Wii U Black Game Pad Controller Only WUP-010 (USA) - Tested & Working",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168822963243?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201FXBGTK2S6J8RY1MN9&hash=item274ea1fc2b%3Ag%3Ab6MAAeSw4wxq4ldA&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BLYdLxRPjzZYEMg7RhIn5pneG4kvA6hv3oULAsLySoLI4sucbrSPvql3LNDWt4bR2iXh2xu952QmSTpkNbfD2%2F87qO4mjayzXuz1N9n1MlokfxFw31bQXVnBTQTg5IbPZq42wqd3ghRVlhrOMNca665lHirrBDjgMHk3Jyzy7ysQLRxko08xnkhGKL8JK57WAzjWjU2r0jk4xpadOFIMZLo4OVQiDg9nltywAignzkyK08qTzacsEiWPeb6L3PjqU%3D%7Ctkp%3ABk9SR4SBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168822963243"
+  },
+  {
+   "title": "Nintendo Wii U GamePad Control Pad WUP-010 Black",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840069490575?_skw=Nintendo+Wii+U+GamePad&epid=219416231&itmmeta=01M6C2201FEZJYWQCCK7W11CAY&hash=itemc3980b278f%3Ag%3A4FIAAeSwLLRq4mPC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9thwBDJz%2FmJoUyJaJAU75aCiRiThWq%2FPCGWbQm2dU35FM77f0659fbZ1eZblfa5u4U8Q4mRwk%2FXwyKC1lkZZ08EnyeO71raqc4iWGSntqYjd%2FTkPRGyzs6eGA2RTaKsuih6nwPZDRGNAln5A3lKRXHmICBVEU7f24PQqHfKmClAasb2AfLewdB2O8rgR1yFzm0iDte8gP1dygibs2dVx5Pxw6TeLQIfrNJXvvuOQHf4s8s4rMGFNuaRwgb%2FOuH4ybTPk5LUXS%2B0%2FMZ%2Fqo7kVKv%7Ctkp%3ABk9SR4SBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840069490575"
+  },
+  {
+   "title": "Genuine OEM Nintendo Wii U Gamepad Black Charge Dock Cradle WUP-014 Tested",
+   "price": {
+    "raw": "$11.99",
+    "extracted": 11.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/326875990223?_skw=Nintendo+Wii+U+GamePad&epid=1403544814&itmmeta=01M6C2201FHNEFZFFCK84F40VH&hash=item4c1b53c8cf%3Ag%3AJEcAAeSwFaZpH6xd&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde95IEi0el79ZW%2B8hKiH3FqADY96dIm2VHvYobcsgcvqQ%2BqhtBpv0MfbccsNMr9LEWxo69EZHnoCb40Nsk7hEqmtj42a33FneGkgE4c8RDt5WoSceRU%2Bl2VQU6paLVv%2BbvWlROpfQFUBEyQHE8czzIBDclADz%2B6k%2FGLst%2FgW8M7JZR1htj0fZWinfTv49U9Uocb7g7yLq5oi5ttJXnA61xd0RiFhl54HAquEUw4HFGRU2a%2FNJnXY9Jb2Uhs5ubdaFC6BCMpaAp7HG9mwxWXUF%2BTi8tEcv1Vb%2FTLl1Es%2Fb88CYKUNBXKV5zWHnnYNs6n9OCg%3D%7Ctkp%3ABk9SR4SBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "326875990223"
+  },
+  {
+   "title": "Nintendo Wii U (Black) Game Pad Controller Only WUP-010 (USA) - Tested & Working",
+   "price": {
+    "raw": "$58.00",
+    "extracted": 58.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820276341157?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201FAM3GVVPTYNPMD4QR&hash=itembefc47a9a5%3Ag%3AQ9YAAeSwhe5q3grg&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FE38z%2FIbtQPqqvJAKS3NH9QQ9L10UbzZmJXat4usAt23TJg49dxPU8Wm5EV3iK5HhzuuNMy96iN2P0tfG5nrJ7jR5FCPYcNHzTu6ZrNw66O7AibSWU5kEQL6daNF6VgxSwB02EboTLiGLY35hWyzBTrU4hOzlq1KIEr%2BL7xpxNb3UFjCpSJW%2FFmZ6sAfpPzjDyfCX2IR0Fk8bndlh2bJ5xrnFxGgIoaNMt6d1K%2FHMsEB2djSFhOzBGah3pmCJH1jIryty42ONNckO6L%2BeNAcoJyT5LGLq8b5bWeG65rvXbww%3D%3D%7Ctkp%3ABk9SR4SBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820276341157"
+  },
+  {
+   "title": "Nintendo Wii U GamePad Zelda Wind Waker HD Limited Edition Controller Cradle OEM",
+   "price": {
+    "raw": "$165.00",
+    "extracted": 165.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820280671547?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201FF1YQZVW6TM1EE4ZF&hash=itembefc89bd3b%3Ag%3Ayr8AAeSwy-tq4yPN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde90D8e90YqVAp1cs5FkVQ0hadVhixmR0HLvv2LBM2aoo1ACTP9sZBTrkWsx3D0Qx1v1wt%2BdM%2FEhEZyGgGI2twcgTvqYnHeJp53L4od9AASlCNepzKozGFnGywCqmwobTiCbJPnhUc0Pngi%2FHu5DRtniL79APD9Y6NhjUkbMDXGcYTcwkEjgyXcq3NDwG9czMlJVq8Dlsrh5GuVLCaX9kN9gvGLvr4N%2FGvWv7UVZXjC%2FtlTIgZ7dBUi3lWThIEVt8R5VXYEWPFzJ9ahH%2BP9wyq3i%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820280671547"
+  },
+  {
+   "title": "Nintendo Wii U System (Black 32GB Deluxe) w/Gamepad & game TESTED AND WORKING!",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128165587384?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201FC9MGZFCD52CBXY0G&hash=item1dd743a9b8%3Ag%3A%7EEYAAeSwaIFq5Xeu&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde87h%2BKfgcaxOK5o5PmUKUnmBXj0WiASgF%2BUZl2OB%2FvxmIZxgRfVQPKJvphw1P5eO3gZNPyzyLMuuxS9Iklcq4i0M1C7DD6A9m7jFRc26uIeo2QOPHSF1ypkhLmvcyF2EmpBqm8oJIrksDYwf%2BdlFHEcozzdpr%2FAKAHpHvB%2Fas18A2PzGp26MRzMWD%2FPV87znyu70bMgts7SeOcwG6w7q0bBm2OdaBrZ9TFXgKVpmFdVRToB7%2B35tW9sJJC5x%2B5pTAb9C%2Bh8liLLpvj2lnu6jQYR%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128165587384"
+  },
+  {
+   "title": "Nintendo Wii U Gamepad Only - Legend of Zelda Wind Waker Edition - WUP-010 (USA)",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407327678680?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201G13FSEA6Z0MWBZAVH&hash=item5ed69f20d8%3Ag%3ARjwAAeSw889q5O6a&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BvlQV8prSELf0ZLvoqhEgfaFza%2Bovl7ssYhYIUutUzrcqQnLRw6fiDv2JLyjCBXnKEpyI%2Bdxzc5Z9sdrJ24JsMtjU0aaMSExoO51k1geCO9XCprp9Q8nqyv%2FvxKj0Thc9PL2wa%2B6OYJHeDCUzqflbCSCwt9Jj8tN5wb82xHz4iLkAIxYVxO679ltNtMOsKA1d1K7GeEci9tiR5s1X7HLJwPPSUQ3igENQE6tZtg4p1Oj5gw%2BEfHdws21YmJtwKQ8RmTgmve1IG37MMidBlYQYWE5OdKGyrkM%2B9l5a0RGMIlvk5nD5kAuXL72O4TEnPWYg%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407327678680"
+  },
+  {
+   "title": "Nintendo Wii U Black Console WUP-010(USA) w/ GamePad + Games",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336871660170?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201GB5Z698A0D8QSHR3C&hash=item4e6f1d9a8a%3Ag%3ArtMAAeSwcVRq5Yrb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9FcRlkedYIm6BowCUVf8Vk9JbFLv8ZbHSDTYtPQNIrc23Cz%2BDIZ%2FmWDxnULjcgdCTNh566LcNTJKcfEpnxVUddqBEDp3dSR3fHXGD3tFxcVGz93IC0J5w4pTpqyYPqkGbpanLT6HVAw33ltQlCplaEbS2oBkC5hW%2FTnO7gXuj1KmlCJy6%2BekuxzEhtR3JmqkiT48GJDOEe3ms3CbtIqyX5cH7wPivkQ6EJU85UBLJm26Es7Ctz4Y3ZSFQCUEOWebrX4ZPAYNvbC1poErvJM6VQDRhoashV1JhUwb%2BovP7l6q5Uv9HV77ZwY9ldQdPAmWM%3D%7Ctkp%3ABFBMhoGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336871660170"
+  },
+  {
+   "title": "Nintendo Wii U Gamepad Only + Excellent SCREEN - SAME DAY SHIP - WARRANTY",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940041008987?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201G9YCZKVT8XRCZ95K2&hash=itemdadecf775b%3Ag%3AN%7E4AAeSw4tZqxCh-&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8848UeQ163rdbaWlIymXInTmwn3TFwtLIIzadGt4%2FjB%2BjivX58F%2BuQ980xX0Sv2FcYL1jxkXEXwzqY382wahSZ%2Bl5kew429mBdQ1BC%2FH73B%2FuriyqlAqwgYtBk24ubKEfgy8q8qaKSUy26JPI6HITj3tI3t%2F4FzbYGegFckSvUExT932GeVWgu3P4mkSS%2FzQ5fpYOlRSjhKzSwgQmWcZ4%2Fc%2FUbP%2BER5tbsEjkPeAM597JvaGr4hpa8vx%2Bi7dd%2BTVkI6wPREVbK801pZl1e34B%2F9WzGb8%2B1fLMJSLBaFI0KQA%3D%3D%7Ctkp%3ABFBMhoGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940041008987"
+  },
+  {
+   "title": "Nintendo Wii U Deluxe 32GB Bundle GamePad Wiimote Mic Skylanders Tested",
+   "price": {
+    "raw": "$189.99",
+    "extracted": 189.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257825381108?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201GCZJCMTDYZ3BM0DPP&hash=item3c07971af4%3Ag%3AwvQAAeSwkj1q5JTs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BQqknso5PCc77PmsNY9RutPFupZnwDlIIPf9LVpUfakTn3yUBabI2JfPtKU0aPuXieNHScaDOR8HCo0ho3RFeFaBBLCW9cK0cKq%2FiVGR1QwUx4ni6NmB5ZIm640lG8XCiZZnQ3lTxDpmrfW6bJOBNy51UjgNq7rq8bIa%2B1EUGSlpUqw1blcGi2oAFQq8M%2BYWPZy9sFiu29cjvf3W%2BPdpEniCi9kl9pCDG4Zgf8gOlKExr1vbCYvQP6x8%2BlbxzRPZ2QR9YmkrPnonmcC8aSq4hAmGXYqi9Tm5s5Bm3DSBCD%2BCENPezXXJOYbUsR3x28LVA%3D%7Ctkp%3ABFBMhoGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257825381108"
+  },
+  {
+   "title": "Nintendo Wii U 32GB Black Console Complete With Nintendo land, Tested - Working",
+   "price": {
+    "raw": "$190.00",
+    "extracted": 190.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327432970610?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201G86MVM1C0Q2WSWDWB&hash=item4c3c86a172%3Ag%3APcEAAeSw6V1q5qJJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8bnNAkJJuQtGJhXqeGElB5Q1YEcs1I9%2B%2FyGyJD2Zh9fyksYAU2g47EWwuakqhWi9LAQ9oPZNsi8ZKFr%2Bt2OFMjsfdrcCQ2pCVWt877963JUDusWu%2Bj8OLl%2B%2Fd%2BUPmsnwltMTw9ObWhet%2FQ11hGQOgWwypIQgCG%2B1VEPFKAzO3kcoD5%2F6QlYdH5pRmVm9M46bstxyeg%2FzQdc67utvk%2B8eESGvxesSmxNLlpp8j5Bz5BJBf3Y0WYwUjDTEwt2Nrbi7RDY7Hx0d3ari2afNXSZhj8s3gMejAQlKPj%2Fz0JjwyS6442FRKwLIU%2B2PvJIGVyjD8%3D%7Ctkp%3ABFBMhoGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327432970610"
+  },
+  {
+   "title": "Nintendo Wii U White Game Pad Controller Only WUP-010 USA Tested Working",
+   "price": {
+    "raw": "$64.00",
+    "extracted": 64.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900023633408?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201H3XKGSHKXJGWVCFZ1&hash=itemd18d96c600%3Ag%3AuZoAAeSwtKBq1WnA&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9%2F04KkWkJEqW%2FKuXF%2B4vBZzn6oAEmu8rD83JJ1EfHesi%2FvNiL2XP7Iw7Xqbh02Lzijojwh7IUuod25NLdixJKNuRM0Cdo8FRm1Eu0q%2BgIEtlhedfq5VF6ks1Du4QcN5EqG4oqvDGhMZbnGnn2EPAz1KsOyASLVsK%2FE9KuMKokzqRE2ydtiS1qmqxepNfQmMhI%2FrmbZItrhREScrBGZgOcQpoVBtghBIutLt5Q0n74osd7rloiDvZ2gA%2BO8bNaSFcBHH0b0aoXg%2FcVJHoxl4OVOtkMaKzv3B8mrvZvChTiI9A%3D%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900023633408"
+  },
+  {
+   "title": "Nintendo Wii U WUP-010 Gamepad Controller No Charger W/ Stylus Screen Flawed",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960137321332?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201HG9MD2YXW5QB0EXV2&hash=itemdf8ca4db74%3Ag%3AxPoAAeSwaONqmQB4&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8hGV20j95iKjfpW0Qm7gB3k8i26atWtNwVxvixWiENi219APBjiEdrIDBqWepX6aswFUOSXELPfQKse4pBhgRVXpR41p0U06ryO2aD%2B23ybVy4cOOc2huKbWNbZm2yfkUqyAoU9o26DDo4vyXjNFu7%2BMd%2B5zkTQ1C22gt6u2zckkmvndVS%2FWDg4kE%2BlNq22XhoddcHe%2FlnSkLfiG%2Bezi%2BPvDcbLhtm3FokyQbcoDxMycnEfqgN4l7g8CudWZH9Nthb776AxOv35%2BwPeIW%2BXx1X%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960137321332"
+  },
+  {
+   "title": "Nintendo WUP-010 (USA) Black Wii U Gamepad, Stylus - Tested & Working",
+   "price": {
+    "raw": "$79.87",
+    "extracted": 79.87
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940041384029?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201HC0ETYW42MMP0PRC3&hash=itemdaded5305d%3Ag%3AHbQAAeSwbNtq3nn6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F3WWc4EaI%2BWW7Xu7MHrlvcZUQ%2FZNzrYWaLrbosGn25eCMOyjps%2FDeLhcbFS514BhVYKWT%2B5TDEd98nVp%2FBsoZmSLXCWBsch%2FCHAD%2BG%2FCsLJ8bBUXp%2FXJJ2xDJH9wFMDWw0wEay0avhmixK55%2BcO5MPB3OSPQONjHd%2FZJpBTNYnr0u355dmzyO5UidpM7GYgjphiJsrIABXwDNMusQ0hQ%2BYCo8z3qI%2FuVRKhqgKaThyY6Jd8cgHqvruYtqnsUvf6SEGGk27rnJ0%2FanGwREmqarC6PrwwEo62ivNDjQ3O8VgKWVEAKq7bX%2BOPNDA6Qg4y0o%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940041384029"
+  },
+  {
+   "title": "Nintendo Wii U (Black) Game Pad Controller Only (WUP-010 USA) Tested Working",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168822990699?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201HJ92XKR5MZ75SS3KR&hash=item274ea2676b%3Ag%3A1JMAAeSw-bJq4ltS&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2F9kshOByHe6lnvi4cpfzlkGFEjTE8w5OSDH1%2Bqu7xSVPXbhYjiejlwOmmVUcpIKrnK7p8OwNDPou7z464HPaTILbwdzCKeHTKq%2FSRYewGAgGZadbPdWA2s7aJi5HRw1jhqY9MMkN6t9ROhJwPbpsqQB%2Bsml0yIZ%2Fjq3O0ny%2Bn0p%2Fpl6RRqzA9yUmLy62dZae%2BW5L4mhiTW3TjFOAV4j3xejr2QD6BP11i%2Fb332TOJBFan%2BGkLmV2%2B%2B%2BuzL9MMfcAU%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168822990699"
+  },
+  {
+   "title": "Nintendo WII U REPLACEMENT GAMEPAD CONTROLLER ONLY WUP-010 USA TESTED WORKING",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327405352476?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201HK4F3D1VZBJ8P3R71&hash=item4c3ae1361c%3Ag%3AO-sAAeSw1ydqz-kp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BOAeCoVkUyRTcBtk0UEL%2FP8IQFTY4LPRds5XBKH6rovoCKCmlmFvngxiHCmkMvFzTlkxGr7ASJ2hY4J3zTnaudkVmM3kvfuytebXlieTrJGl889pOG9V6gwDSKteLx2L%2Bvb27ERMxWKftPA5a9HH4SNs3jixHVyIxp6vpq3WFhLMxoXCUnU%2FHekiKwB0mkO7T%2F4wuSL%2BCQtC4Zr3oZf0WYzpkpTKluQEl7kxlCwHNPFepz4%2FVTHauCyw4ShKzP8Bbixcc%2Fk4iEHx4%2FDqb1RwNqNGxWBf9WacSLqYqdMuCldQaw%2F55rV0Sj8h0UEyMM0q0%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327405352476"
+  },
+  {
+   "title": "Nintendo Wii U GamePad Controller Black Touchscreen WUP-010 + Smash Bros Wii U",
+   "price": {
+    "raw": "$115.00",
+    "extracted": 115.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840076292751?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201JBF15YTPAJGMKRHWF&hash=itemc39872f28f%3Ag%3AFEsAAeSwaR9q5Q-2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9mB61EslaCqdRcOgjAKNVgOrg%2Fidx2mmBbEN0AnRBopwhNU4Bn4JUivAJo8V0p90SIkstdc6qOBc7JMOeuRYH2n3eRyGb0o4QHNinwst9WJaKV6Ivu1q0CRZLyhqvBg1hRd7GDfgDAAU5OmrmAa1VR425O6QrW8SfsuQvz992Gn8tB3YoivYzS%2BIwYAwPX91ZBc3mAwRw2HWPaOS5E%2B79AXW1qkP%2B2kL3JrYU%2FkaAzI5XPFY%2BWxV4JrpK%2FsJVinyEHkhCMAupPDPZ3%2FROW12LCuJgHwqiSw7CaaMYjoe5vbkZgD62GmLAeK3tp7JuNaNw%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840076292751"
+  },
+  {
+   "title": "Nintendo Wii U 32GB, WUP-101(02) GamePad AC Adapter Smash Bros, tested working",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900054274902?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201JX9P196Z3SC5D93R9&hash=itemd18f6a5356%3Ag%3AJ7EAAeSwj5dq5hYz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B1bZZxMuQ%2BaIM7aDxS5pgaf36raGYiSlJsuQdbCI3h4HwcVY7PEgo0UGeTMsyfCYsU62%2FWm6ekJ5e7gZdNqkM3Q2CgiGu8ts%2BfXjD64fNU0pLTx1qNobSv53t3SdeJYiIww0Z7jRxZ5L8JeCN4UPnOAl02%2BjobX0lMtpU1LSf9WmzCAYCEBmM7cIZGKownF1anv7H9comaT%2F98fz%2FwFv9dep%2BnYPG9%2BZZr9cHmYyL%2F8o1ktn6g4pWFXPxHcnfS3FK7Tat0SeQc%2BHWfxRA8pSabBMU4G8Cp2jLpP%2B0ZWFR4z3OMg3DIs4Gzuhh4Q8OZ2hM%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900054274902"
+  },
+  {
+   "title": "Nintendo Wii U 32GB Console Bundle GamePad 3 Games Wii Remote Tested Working",
+   "price": {
+    "raw": "$199.99",
+    "extracted": 199.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940057745717?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201JEHS27A2CGW1TNN3H&hash=itemdadfced935%3Ag%3AbtQAAeSwpSZq52tO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BMc5EW6535Y%2FHnPgz5QsYvXI7gpzyO61AV3ma5tSrm1%2BnImpo9bP2ICC1AHju4T6jqmvf3%2B6UVU8veARYVrJHqqdzpP4eArIcTQZaci31XlP2ID4Icdvezl6v9MCfFmK5cqyjAY1R0zN3dy2Ou5HB%2BWVXRfvTDj2l2PkOxwsXjC4F9KpF5632uLFaCU4pxJBr3Zr7T3zmiKHZ%2F4hW2WGIQslHdaID%2FBlWZPtsiHZc0sXV5KoYwG%2FhOu3PwAMtMlESEEB8zNvCzpm02N9LhLtIv6I0pst1jNwgOv1ay1KR0Rp0cuPbiWYdog6A5JnXm7Ss%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940057745717"
+  },
+  {
+   "title": "Nintendo Wii U 32GB Black Console GamePad Bundle 6 Games OEM Cords Tested",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206659584172?_skw=Nintendo+Wii+U+GamePad&epid=224462459&itmmeta=01M6C2201JBPDW0VC66FHTM03Z&hash=item301ddf00ac%3Ag%3AuUMAAeSwsEpq4e4%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9NSIMlXBFxHdN5C1p0gmIyqH8XfY52kYR0Cswq%2FeJ%2FtVYvYXAMtQH%2BBUTno%2FQI7pngfhWKBeFLHxWUccdnh6CMHyI5mvtmnURrrHSW%2B%2BgzQSReIKEo9%2FMHwhy4VUWH%2B9P1UMUV5mxMJvJG4OCEC7a9VG0QUPwyC05iVvYjsCLRsbm7QBY1HXH0Lu59T4XiL8v6ZcXkebGWQaCaTZJxbU9d2gcEHPG2okLYW7%2FE%2BxnHOEA1H0%2B6tQPJhDh%2BIHWZkxz93f%2BjgSPi0dG3kH6ffbLi%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206659584172"
+  },
+  {
+   "title": "Nintendo Official Wii U Gamepad ONLY OEM Genuine WUP-010 Black",
+   "price": {
+    "raw": "$65.95",
+    "extracted": 65.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227540592596?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201JW31Z86CF4FD5ESTA&hash=item34fa79e7d4%3Ag%3AawYAAeSwQutquBL%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FSyP5BvawKzSMR%2F6Kd01V97eFnWFo75CxAp41F0EWdrPui%2F6EVpyG0DXLj0I8IBe5tEZhZ21n2PgoNP8RtneXK9phYXqYB353TDXzu5kw2jgWfZSJEwRDhZMXOB4ylwaRV5XUtysWhKQtDNJJi1qvixt4nqCfzpUVygjaUC34DDlwZv2%2BI68P%2F3b88sqkV3k3ZyU8ix6G7csvW1TM%2F8hgddlgcthZk3IKGyMOkZLLEMaKzpwhdVfM8NKQctKhHpdbErZPRhks8YbzAfoLKXRhK%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227540592596"
+  },
+  {
+   "title": "Nintendo Wii U WUP-010 Gamepad - [White] Fully Functional, Gamepad Only",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287690498751?_skw=Nintendo+Wii+U+GamePad&epid=219416231&itmmeta=01M6C2201KNE2HFNGNGXC4YEEJ&hash=item42fbb0a2bf%3Ag%3ApXEAAeSwvQ1q468j&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FmSPckfrkLGbN4oLngaSJAkYRQYwi51BZU%2Bs1NjDQSxEBo7IX%2BQRFj8a7NuHeijHsIJ9W3RZwQGoHz6j7Q6AnTYjZ71OJoRMrEHkwANUJ4FsnI0Wsrktp8kHajD%2BWE%2BWYPWUooQtzSy3%2FOi%2F49AmFJTU7dkEpcWWD9eWjlkOW6h2O911hzeIB11BTAdGJbeub9Cs5z5%2BFtn52BrOjQ1IE33G3FZNEgvB5fivsG9gnp6FPqsGU6ddtxVtazBTylbNo8eXlElVMc0bLd8deTAtnI6fNPK4h99VOAAjtVJfO1z0vZU%2BdKxX%2FbCwF%2B17shXOw%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287690498751"
+  },
+  {
+   "title": "Nintendo Wii U Gamepad WUP-010 Black Cleaned And Tested. *GAMEPAD ONLY*",
+   "price": {
+    "raw": "$79.98",
+    "extracted": 79.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298671225686?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201KA5QET8WTDBDN1GNE&hash=item458a313b56%3Ag%3AfL8AAeSwp-Zqptr6&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9V9zDfvCsjqSkZyJzsKJcWArZGhvnBxJacW2zUkl4rouFlQMhrXdic%2BZS%2FS1Ly1Z08HzJiQgsjESMYqy1JTRzyhvGC8%2Fm1zJoAiQ7XTSJQbjpQuV1F613o6j7%2FQMcpdVn50JGGjY4Y7aWWG8Y82puKjG2q64Wuwx5Qz%2FCxR6k%2B%2B7OxjChe39GlK6fCa3%2FgKaR5SvdK9jlyojwjIC1Y8kjsfwOuA%2FqUjy%2FYAer2HzGMaZTEUe51HSJLF18D978%2FM%2BU%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298671225686"
+  },
+  {
+   "title": "💥💥Nintendo Wii U Launch Edition 32GB Black Handheld- No Gamepad💥💥",
+   "price": {
+    "raw": "$93.67",
+    "extracted": 93.67
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137734254109?_skw=Nintendo+Wii+U+GamePad&epid=224462459&itmmeta=01M6C2201K337MR6BXBSKEWXPC&hash=item201199ee1d%3Ag%3ATnkAAeSwkOJqp0%7EC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B7U3enffsh3%2BIUUiqnNVl6%2FVdxbRKHjjaRJktD0SdogGUpJ3u8m6aBXLolsBt52%2FRKuugOi474r4g5LvFck%2F2svlF1p3NaXETOFCY3JARJl8mtI0K9lRiErLbcfxq1xYl6%2FmqvaggcBiXu7D7QhnddKmxCREFnqGXzXft8rAtOkoS1Ixmnpo8tdwPTFT%2BJMRfaYmmFlKvwHjkRIUh%2BV7MZsu1X3qW1eqBjoSEKTMtua21srvlso5y1y6uzuFSJUSmBK24wI6VRCDF6Fe4F2PtAaQAN%2BZKKFmOa49dazsU%2FyHvIUJze2rVhFAqr%2FhwWvLk%3D%7Ctkp%3ABFBMhoGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137734254109"
+  },
+  {
+   "title": "Nintendo WUP-010 Wii U GamePad Controller, Black, Ergonomic Plastic",
+   "price": {
+    "raw": "$102.00",
+    "extracted": 102.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366759207660?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201KXS1JPJ9WYMY0ZPPS&hash=item55648d62ec%3Ag%3ARngAAeSwiGdq3TQA&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9GlBvPC0RRQRvLaW%2BRlWqLrwYJLFK4bULn%2Biop%2FfNGzREfWizRLa1WC008QfEL6u2XciF2Winj49p2GaJmMt5dM29%2BFX1CjVi5CQigUwNDfQKUVFTpvsNjZpt5pzdIdINR7K4mYU%2F51ViBInhkloAtvyDRS3WRjlDtaMIWWFtGU12u2TRqrbr27D49RBkyi%2Fqdm1PypcwNP18avrESGS0rW4aywTg4eUtCX2PVjEz%2BdIlMt0bHqLHjVaWekbf1D3SAR%2FoHWI2hEgQTT22o65wB%2BioMwVLCYyShH7PvpRVcyg%3D%3D%7Ctkp%3ABFBMhoGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366759207660"
+  },
+  {
+   "title": "Nintendo Wii U Black Console GamePad Super Mario Maker Complete Tested Working",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398432378090?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201KSMRGP7FH6Y9GP7DY&hash=item5cc46b9cea%3Ag%3ASLIAAeSwXGNqtw1l&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9L2QjZReYODOHmLQVN3TqM%2F5J7kez1kLoa175kHGtRYEso9EEWHy4cmcHj0y9%2BSyW987L6NyUvsWTNACz9Pkzr8zMnJvEQIozCbsPAUBN00Vn6JnFpRtBvppNKBA66VFpv8ZtvUrtj8Q%2FJ7dpn0PW73yO4vahRUu7Oogh09pjbfIcbkypqUILPy92BFAVkIE3IXtFEGqoBRDL3XhyI84iIc6L4AXaB%2BZWTYY8xNzIvnObPjShpzgPgu5YambC2wG57u5LHgc7Ko1LIDHFsGrx1cqn3pii28pmSoax4Kg%2FOl%2Be6iJGM3EC2IAyus%2Boimos%3D%7Ctkp%3ABFBMhoGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398432378090"
+  },
+  {
+   "title": "Nintendo Wii U Black GamePad Mario galaxy vinyl- Tested",
+   "price": {
+    "raw": "$139.99",
+    "extracted": 139.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237140985462?_skw=Nintendo+Wii+U+GamePad&epid=559777820&itmmeta=01M6C2201MJV1BR8XJVV20P78F&hash=item3736b44676%3Ag%3AcUwAAeSwSiVq3Co6&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BNCNRifqGArgoXxpz7QCOmoTkBz1aJMQHRb4gfoeCerMh%2Byad40ZtEcN5fRW5QUG%2FqrRh7l92Xot99e2qWP1pC8xcAeFy9WnNeeyV0BdDoTIsxY7pC7%2FIOx2ip2dXOBEkJ2qjEYCtXdPa868zj4c%2B8s5xWv6zTIY1OkfxfI%2FmnplODkNEYCIQ%2BqclxDBOVDrhhYvEMxfBE7Mb5Bz0e1jCY50iuklD%2FRG9%2BewU6X057lQnjMbe2zVsdRFMDSnP0qOMghsWcTFkol2wzGcEgidxg7UwI1Idncozitim5qdPQQg%3D%3D%7Ctkp%3ABFBMhoGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237140985462"
+  },
+  {
+   "title": "Nintendo Wii U Gamepad WUP-010 Black Cleaned And Tested. *GAMEPAD ONLY*",
+   "price": {
+    "raw": "$78.98",
+    "extracted": 78.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307177457308?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201M5JPAJMNWHS5FMBP6&hash=item478534069c%3Ag%3AHRMAAeSwSZJqptsL&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8PQGrQptfrRsEhvmYbZW9UXx5amaJjYiPeaRJiIgI2XF3XRqY%2Fv5PPNVc3R6rzuiCxDcLVCPdPPY%2FI8fJTgvt5BL6TaylFAVYFJN2kP889Y5jV5BYcRqu18F%2F50ga9I3MDWgUqVOuoEFw%2BNqIv3Zn%2FW8aEa8x4tcFjKsBnxkJaEhTieaQSIAgMKOScsUzIhHLWo0m%2BSYn%2FKnaSJWPDF9rUOyIQniSkaBifOiwcN%2FsCbM4q9dtPEgZpLc2X8FVsJ6f%2BJpy19LixZbwfq%2FUKyPEJuuHb29g%2BRFvGe8ni1z3rIA%3D%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307177457308"
+  },
+  {
+   "title": "Nintendo Wii U White Game Pad Controller Only WUP-010 USA Tested",
+   "price": {
+    "raw": "$45.95",
+    "extracted": 45.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137633116772?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201M47GHJ7GYGJP60RYN&hash=item200b92b264%3Ag%3A-YQAAeSwZuRqg37p&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8PXv3HZqQFJ%2F0V0oFdS2Gl2TnIthTYa0awN8LjVu8JGqMBFgLVQU1X3IvCXPRDO1UnqKh9D99we1KGzdcwiQcYIDCKvxv2q8kk0WScJqMAvVzpvkTHLOpgwmVMHW87VOihf6hoFX9uwENyfI%2Bkms3K4vNvRDBeFriOybzldApqxwIm3J9ws3ppJZ3WrLrwOm8gHiy2cPwVThVZYNpDewIcUR4RZtUCYz0VTdmU2SbrJaRFpKnaeKmQ0urG00yVmQ4%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137633116772"
+  },
+  {
+   "title": "Nintendo Wii U Pro Controller (WUP-005) - White - OEM/Authentic - Tested/Working",
+   "price": {
+    "raw": "$29.98",
+    "extracted": 29.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327433452656?_skw=Nintendo+Wii+U+GamePad&epid=238408977&itmmeta=01M6C2201MTVWAGQVEEHEA6JJV&hash=item4c3c8dfc70%3Ag%3AOg8AAeSwXiZq5wkj&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FL4L7St%2F6Iz9MJHxsajUdcIRUJQavwnkyGSGS%2BwtsNzvuB5t%2FS3e%2BGaMbqnSF3RFfS%2FAtiXyedSmf%2F1ke%2F5btNAS57St0ekfy3UlJ%2FaOJRAxPSZfWiXPgTOxGROrkVHUxh5b1wWAuk1bifsWVtc6qbnjWu8jJJTfa9BRJTAP7z3y0WtZos3miuvzWWhBZfYHWL9nmq6AvgEmcehO3zIdj9k1prsI5VfSd1x9oHfGMGwqDAwi5hlC0Lcbdsw%2FPPCWkZCfVQ34zK%2BrrncBO8UL0wWwnNRXi0XpaI1zKSE8f%2Bjg%3D%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327433452656"
+  },
+  {
+   "title": "SPLATOON WII U WiiU Hard Shell Protector Gamepad OEM Nintendo 2015",
+   "price": {
+    "raw": "$26.00",
+    "extracted": 26.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117488384820?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201MHTA58SQ3KAHM83BT&hash=item1b5ada7b34%3Ag%3ApTkAAeSw30tq2p7H&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FwauPALr46OtL7Cm%2FRpH6vIhAM5UK38g2LjfRnZTQhbMqyVW7YMeRUKDLU8FSdGGpNY6Dr5urkSpaGyBfz%2BgcFE5yf0RJ7gUTBJecp6oFjWDh2P5k%2FJ8F2obZpDj1pVd0AKrmBpaUEb4H9oKkTpPgl7hCLS3Ec9WE%2BMfQk2Zx7wGrQHoYRd5Vs7T5q5YI3D37BRm9UEyHGHbJ3ODvPhU6xlioqJN3Vz%2F5VLpPI%2FSZ9HoL3xmRqHzbWFceFG8V6xtY%3D%7Ctkp%3ABk9SR4aBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117488384820"
+  },
+  {
+   "title": "Nintendo Wii U WUP-010 Gamepad - Black Tested Clean Screen No Stylus Works Great",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198733751511?_skw=Nintendo+Wii+U+GamePad&epid=219416231&itmmeta=01M6C2201MD0Z8Q5QGNS1RPDX0&hash=item2e457464d7%3Ag%3AVUQAAeSwNiVq2MOX&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Bk1fr%2Bu%2F9jcl6aYqIRHYfG3QBdREr7ZajgLro1q9zsfBOyE5OufhrtpTUKfe76Z8o3jXe6UcU1%2BKnP8Z1RPbpZSPhzyP6rTZNt4psguHe30IGcd1QWywNv4iJi4p9JJgOjp7GJZAW2Z%2BHBz6ohot%2FY39yrExWfSf8cdTJ34aOMyqiosNsU%2FwhsJ13hbXppI26Y7Zg9Tytvt58HUm3lMEb5l4Jzp6tuV2%2BBk2xpcLGo%2BeE6js00Eu1ctDi%2BbMKsClEoFL7SxG841tC6IqkoqvytlIoq6akiuedAbLBkLbIYkA%3D%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198733751511"
+  },
+  {
+   "title": "Nintendo Wii U Replacement Gamepad Only WUP-010 USA Tested With Pen",
+   "price": {
+    "raw": "$109.00",
+    "extracted": 109.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206409666555?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201NQF7H18XDV4T1MMA2&hash=item300ef98ffb%3Ag%3ALMMAAOSwomNkBUUs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8HAuwLK1TlRJrEgdmgxDUfr35VdozvBwc2heo31sqU8Uq%2Fn5dtm1PHmnDSO4kiZDb4%2BGKJoxF2LTrWwZjq6uNKYP%2FjOyYCV6blSWtQbladqeIOX2bh9BRhEzZ1%2Bzs6SkAoC%2FnMm2y%2BwsJwZLqDEDLKPyIVim0wn37iPdfDJtRMmy57GtpgeAmeGdbozO8KcQKmqThVg2xp1rjhUG0MJPI3sBvcdF4LIlSAoE3zAfgOU2GuQfg0outl2tOS3V2qqPIzEYWl8xvp48%2F0vmvLitK4UlGlCxCpLSFBkcEM%2BrTVG4Pag9tkkh86LrVdbfKeQig%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206409666555"
+  },
+  {
+   "title": "Nintendo Wii U 32GB Deluxe Black Console Bundle - Tested & Working - Read...",
+   "price": {
+    "raw": "$149.95",
+    "extracted": 149.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407325862953?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201N2E73YEJ2FWXEV429&hash=item5ed6836c29%3Ag%3AkWIAAeSwxPZq4%7ETO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FGtvFxpc0ua188fpssHpmMapAunNSqkXE9j1rJbXheWCB1v%2BL1IxHwsO4iBPUYzrNYEixluvtIouUwVJ7lL99pQvV%2FTFf5u3bCnhLvBaFSZb5LinugH6WOcvC5YEC8dhChEpH%2BE42Tmax5n1SvLcLYv3OryOSX%2FCp%2FymCiyhvfi7sw9rg8PuUEfJgMUX5rp7iMLDvaTh%2BeT1ZDgrOJQbwUV7umct5Y06jl86CskwcHJS76GbuCrJNvDDcDXEjf4fWUBdTxfpDURNfucclWTAKmga%2FccIOAmdDCQMsu4tj61wjcin4j9Nz012t3%2BEo1Bmg%3D%7Ctkp%3ABFBMiIGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407325862953"
+  },
+  {
+   "title": "Nintendo Wii U Gamepad Controller Only WUP-010 (USA) Black - Free shipping~",
+   "price": {
+    "raw": "$109.99",
+    "extracted": 109.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/204295514897?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201NNCFEQQ2MN03DBDDN&hash=item2f90f62b11%3Ag%3AQmkAAOSw79hkLOt0&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9PKtFpIIFIWew%2BlscavDqt5QAZ9x2SW4ovh57eQr1sqqOKLMcVIl5M6DfXVr1fU2M20sKntIaBHzlxURXGrotjG3SzOMY1z3WQgWCFyi3%2Fc63kPOqbCxkHwIGBGx59ZmV0%2FF3wmr%2F16Dvc%2FKNJwYYr3WVV8cP50iLAFbI6oA4o97CQbUkYmimICCIAT0t4ErZDNoaAaARtBD1CohIyVm4HFTjihKGwkGELmMnNBYUlLYZev5zQZ1LQucNZjH%2F%2BmI7pBAvXFtGx3988%2BPXtwFR99nm2sQnWtPCepMVR7bSWpw%3D%3D%7Ctkp%3ABFBMiIGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "204295514897"
+  },
+  {
+   "title": "Nintendo Wii U GamePad Tablet (WUP-010 USA) Authentic Black Tested Working",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407291257230?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201NFXZYRFHAGXTYKB8J&hash=item5ed473618e%3Ag%3AuHwAAeSwQiFq0EI0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BDdQzNgDFEGCUvBYmRzjVHthA%2BQOAcU6QNaXmUA78fMAZZNkkUu4f%2FQhRRUP87%2F8dnNkmxUX0V2qgIoY9n4lH2CWbxH8PAM8yHfPjJaQmb4CSJRcYc%2Bo572xpQA7QMm7GX%2BmZLU7UHTnlooHlJt%2FLXeq5H%2Fsqvf0SvGSAv0VdimwYAwtTU9000IMg8KdlkHy4mCjgwCZKmmEK%2BYP86Jofjy2AXuN2MD6IWk2tvrvMeHAgZfNijjy3fPv%2Bq8ZaQ%2FKsS6zXle2SOBZ8o2%2BCPa0enoEwy1nHPeANrk6yoOXScmWwCLg4AVAqEuPpcRNXQU20%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407291257230"
+  },
+  {
+   "title": "Pair Of Nintendo Wii U Pro Controllers Tested",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336864065282?_skw=Nintendo+Wii+U+GamePad&epid=129179473&itmmeta=01M6C2201NP4AMHYSX6P2YRNM9&hash=item4e6ea9b702%3Ag%3AAlMAAeSwGjJqbnLm&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8N7k%2BtMFQ8KrgeZsPHQwx4hvQPf7bRJ2EwzRtKxnIWvjoXXA%2BolFQAdEdtE7m5VxPZoAGzkcYszV3zp%2Fte%2Fm6wuE9cDPEDJewk6xuYF5QYeQgsoY57X8Hwhq2FSmD4jucGlgDYzCIWI2FIarzCUxLQeBvNJ5oJ8WIKSnLj6XgTJ1I47YOLm7hQi3kIKczzQNER8SfPOMWFk2hIcm%2Faw9zZbDuN07RyYFWXhSNh5EgCliTcfbALefmbhAw4ym2bDHeVLW1StuvlRmHEqdoP6Ns5gIRh6po0dfL2e6Jmuv9mWw%3D%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336864065282"
+  },
+  {
+   "title": "Nintendo Wii U Officially Licensed Gamepad Carrying Case Gray/ Teal EUC CLEAN!",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327425003714?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201N2P3XSW06BWHA88J0&hash=item4c3c0d10c2%3Ag%3AMxgAAeSwcuZq36JS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9n9iMlc3lJ0zBXaRNVa51l2E0vapP7lfPqxe96Kw%2BCuwDqWRsGod4UaQkS%2Bu4yVV4glzZ4q80sDXsunAIUdWBNXWAotR6%2B1xVtZDMwEzKQHQOCnDU9Ka41TWZwvdSbExKQoYHPRDqSvvb%2BOeYWrv6THKp7v3S2OtL%2F9lP0sJAsAk7kJR2xxT4CerPrCsv%2Fo4q0yg5wrOvk9itKTUGQB2Jf4jcBHdLpIUYCpkSmNfSD%2B8TBLYoqLuCXBle%2BmpmOaGflfa6v3wQMgjJANlDZxxPSIGQrWkvQ%2BRHnST7uc27ff5EMlud6AFmUxogB5hAr7W0%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327425003714"
+  },
+  {
+   "title": "Nintendo Wii U Gamepad Only OEM WUP-010 Black - TESTED & WORKS",
+   "price": {
+    "raw": "$94.99",
+    "extracted": 94.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/236561513832?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201P6WG98CM7ZMGB27E5&hash=item37142a3d68%3Ag%3A%7Ev0AAeSwAD5q3He4&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9TZE62qDKA620h3P5El9%2FGv%2FTbpJF%2FOLU414C62W9BuI8SqkStRb7YI%2FtrHcIJS8ZLnf9AgDQWPGBzjsrleExAp3MXUMFVvdLXWGhtErup1FymKiKwhRMo88drxhJ%2B0xyU8W%2B%2FmX%2BBJxyzKIyCVI%2BBA%2F7KvP9ZWh8hFAtYFSBMQ71ClRFUlf0D5khA0mTQ3kmGKCZSCfmWM1RGmmZuEd--0gS1Wb60ml8C5sDWIs%2FWQZ%2B8p13feHBYxXo7ZdDAs6AjDeOqrxrlQt0YRd8qB4rF%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "236561513832"
+  },
+  {
+   "title": "Nintendo Wii U White Game Pad Controller WUP-010 USA No Stylus Add Account Only",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336788531085?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201P43QJX1HVSWJ94CJD&hash=item4e6a29278d%3Ag%3A1PoAAeSwsbJqoxzi&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9%2FWFhCvnG%2FvacPFAl7oNHwDrxb13l8sGGkQ8zNX%2Fd0PgGyUl6azIbRsEfL3JBcsmSGcnbH4CLXMusCbUDGwJhNV7NywcIdzfJnfScLQhT5fxGPD6ApliRfAO52Lah1O%2BiYKHWv5G2w3%2BT9evMl9gg4VxHaZ2aa1iPIC%2BnpSQY%2Bl%2BYdKZcfIZH24xyXFYAexCvLX7K9ko0XESRObrFJl0Uec2hT9UOv7RCmij0tm4u4TyLAdVRF8CwIppDWh10KLPY%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336788531085"
+  },
+  {
+   "title": "Nintendo Wii U Deluxe 32GB Black Console w/ GamePad Dock Sensor Bar AC & HDMI",
+   "price": {
+    "raw": "$139.99",
+    "extracted": 139.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820297868727?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201PYG13YS0SRVK25QJP&hash=itembefd9025b7%3Ag%3AcIAAAeSwfYdq5SkG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9GS4l4aIQVqULa3s0r3MKos%2FY3vLdcZvLGbL9f5C%2FaMlQFU5qudsE4UIDIacH7OEEOLuq%2BX6hRjDyhdf8PFoEytJVRUVCjbSCSTqdfNY60ivDhxNoyW13DM3ykm0AypLjBRY5yA9JQa3zkJwIziXyG%2FlX%2FbMGFslO20cQn7CVygfuaEavnH6iNmrB5yXTwdOZFKrmCpD2O0E8nU5Wfk%2BOp0F76JkCSKnTKfb9Hta7wmkbQK%2B8qyAdFQgWTu7%2F8nkC8g8kBC4dJ8yPBiCPe3pqMoL4mRVVWJidD%2F98%2FwKshE8JA4xLTs5c5wAgaAhGarp0%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820297868727"
+  },
+  {
+   "title": "Nintendo Wii U Deluxe Console 32GB & Gamepad! Digital Splatoon & Nintendoland!",
+   "price": {
+    "raw": "$124.99",
+    "extracted": 124.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287657380530?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201PKN1QYZ4RK052B1V5&hash=item42f9b74ab2%3Ag%3AnIUAAeSwu-Nqy%7Epw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B6BCmQ8ixotmg%2FtucEomVT43eE7vvhO2b0lsAetHtOfnxiFXt%2FypbaakLpom5LGJUhxMEAq%2FTe4mkz2Nmel9D7JBjcOoOjEoNw%2BW2HTB40lYjS%2FCS8inuak9mtyTYCKHJY4IvhExW90OE4MMBeKV1AYfe8Ir3Et7K4a97wVESVL8DB1goQtlSMvs%2Bu7g94w04JqnuHB86Db8rPwJwNoZHnLcu6NI%2FvH%2BRshsP3YyEda7dkTnfrs%2FxMr8wj1ZYnfOQb18tiMIIJ42H4gPGwVllmdvLT5w0wn8XjpJpRopp9mlcKL19YGgELOYblpKl1qCE%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287657380530"
+  },
+  {
+   "title": "Nintendo Wii U Game Pad White WUP-010(JPN) (B Grade)",
+   "price": {
+    "raw": "$29.44",
+    "extracted": 29.44
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336806226461?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201PGQKDXZEFTN4G91MT&hash=item4e6b372a1d%3Ag%3A6ncAAeSwN1lqscmd&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BE2K9XvN8290qnpBZj9iVnh9d%2BTNJ8Ay3gX8lcYZV9OHLPWU3im4lzylS9UYpE0JmtQDVFF4TRFrX6KKZTMYTVpiQnMR8OVKT7np4tMkcmEwqqWKTiJ1edbp1Y11Ngx%2FK7wx4uMdUiaJCzJvhhB%2FnKCwnQJnvAN2dRwESOtTr164ZT8oe3V%2FlG3LUnaoVXkJRsW8m%2FyWBxVC1WW4ezeFxTu0Yw4FWOoJBFcxNWr5Lq40oMDRKnEa6Ogc%2FCRu6lVrFFHEkJ4Zfojssr9wtsYILiAY8B98%2BbZP%2FQdnVVIFTcGiYE%2FhH%2BWHwYM6nZl2bqUfk%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336806226461"
+  },
+  {
+   "title": "Nintendo WUP-010 (USA) Black Wii U Gamepad ONLY No Stylus Or Charger",
+   "price": {
+    "raw": "$74.95",
+    "extracted": 74.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800793316590?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201PAPR45APW6JX1WX0X&hash=itemba73004cee%3Ag%3AC5IAAeSwEyhqzwTM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8ifWIO1GzMpZhWxfcc2jWXGPpedapDy9u9cBrRksGXwMvGslDLr4WdJs77z9MHFvzx0OV9BYUXWAR1XOh5Kg%2BW%2BzBNqHc%2FyBonwvSRWFRcFblpNg9BxdYWdFsu3XU41BRBKk8J7CZXdxuleeRAJl0t1aBDQpWcZ%2BF0lRcus%2BzUe07xU4mKUN0QuzBKM0sxkGELS8C%2BUuUeTnYoLPeUe2ndeX%2BAEjOzPHqmqCB9uJYfOln0b4iX6nuWyBudjeXEMrBqpj9kfOhKeGCa%2B2w6RDJn%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800793316590"
+  },
+  {
+   "title": "Nintendo Wii U 32GB Deluxe Set Console Bundle - Black (Tested & Complete)",
+   "price": {
+    "raw": "$179.95",
+    "extracted": 179.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920094361718?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201P6TJY17H1TW3F660X&hash=itemd639e5c876%3Ag%3ALhkAAeSw3rBq53KA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Z2cG0lrcDBp0o4e1BknC0MslPtmXMHlE%2FvEAjxcQDzxisYucb3%2FW%2BV7bC0RaU4h4hG5URvXStR%2BJf0QQfa7gCs0Vh9JRXMEWYJbUHUss%2B66DGQdLxviF1Mk05o3ty7EDJchzm%2FogdvQYgPqwnDt8hl9H1SsBInNIrReCEUn2sHb7Ng%2FtcZH4j5qWmwfxaM4SI1fe2yuVZkWU7jnyMDFV2lHQj%2BmoZkj59CxZE%2FqlNTEL6m5NdCq7IPfm1H2USMlYWgc7ipCMvANAzBhV1cKz7%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920094361718"
+  },
+  {
+   "title": "Nintendo Wii U GamePad WUP-010 Console Controller Touchscreen Gaming Accessory",
+   "price": {
+    "raw": "$47.02",
+    "extracted": 47.02
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920070778904?_skw=Nintendo+Wii+U+GamePad&epid=10063812821&itmmeta=01M6C2201QM3DTZ2N8X311HY6S&hash=itemd6387df018%3Ag%3AZXMAAeSw3ftq3MUN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F4cwZrMp7z6QdA34CNiFZUNoBtkfok%2FZZ9W%2FN1k7RoIFbVL6vXQb1VTJiDSacEqI4xD2Obnl090bf4J189015LHEd2JiLvf0FN7r13UIzUZhDMLYC98bNO5Zu%2F1A80I1xZE1aOHTM0iQ7QBk%2F4eWnsLH4r7lse%2Fced1a0oGUoxLo9WOGiVhxXouJJ3belNfPhfMZCX7ZktltoH%2FVdjsujQzOG6j%2BGiqloZc%2FhDcIMXRb9Me5rMz6N%2BsNZehrznCF2A4e94wSfFCGNJhaw%2Bi%2F1uaQNXVrwAOhV7UmpNa5hQYXY8nj7uyx1gd3d5OuKCcac%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920070778904"
+  },
+  {
+   "title": "OEM NINTENDO WII U GAMEPAD HOUSING SHELL REPLACEMENT PART WUP-010 Front and back",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/355586939500?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201QGQQAYWB047EA5PMS&hash=item52caa21a6c%3Ag%3AhKoAAOSwYyZmBhpS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FY%2FF1ITdx9fNWlC6ZmMu4qFXyICxdH1bK%2F8DL6rO6PaMgu8WwYcoxH5FgKRYkYMNbOwoU02V1rNvCYX%2BxVyaTVCr6tzlD5mvpCGXzV%2FLTXLomYjEO%2FdxB8lWVkVgpinIG4KrS%2BhIcUgP4qLcYuArgkBhYwO5gLHOKwU3tc2NT1E7Fj5S91gw4KMQ5p6hZdM9W2lhn8Vv0pWSb5rQuANnIQp7K0w%2FwpVBRUA%2BUtytsDJK7j2G4zrT0mP3nuDJ2ErXbX43JvFe%2FPQwpPLgbkw2%2FT%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "355586939500"
+  },
+  {
+   "title": "Wireless Pro Gamepad Controller for Nintendo Wii U, Rechargeable, Black Plastic",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137891700591?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201QG6H80E0P9B2N3JXG&hash=item201afc5f6f%3Ag%3AGVsAAeSwC0Jq5vVS&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9s5K047dhu07sRZSTxajy76ukmlxXzEjK12BeKlrRjwutXTyGsMB6YSJZISQleZktMPT%2F2OINdBtS%2B9xEQWDvHGWh4HfuW7QYcNcshD8HhpQ4Idm1def1etKWI1Mca6Eze85bnggM6HAV4LzEBZoUE3CYeBgdg2AKt7mCNq6vkJOQj9e8itxDpGEekyXpTHr9nxNG720Ex0cPonA1KfU5sG4iMI2NAN21474CKkIJjl3V39gIZBSBsT8J1G3KsG%2F8%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137891700591"
+  },
+  {
+   "title": "Official Working Nintendo Wii U 32GB Console only (PAL European Version)",
+   "price": {
+    "raw": "$38.99",
+    "extracted": 38.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/372715551605?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201QFSNBQRMTEMAJTHJZ&hash=item56c793fb75%3Ag%3Ahc4AAOSwsnldL6Q7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BltWC6ZcJri4eaNhFBDJdy265Ks3%2FhI3mMuIPQJyeQ9VNx88rpP7o8%2BnNqIxnzW27BbgZcgh9QUxlMc9JnshKFqJch6414fpKQHMV3Z3pTnGbsfOdSCIZMi993hzU8WlE6CxB%2F4OXHu9Uid%2FjNXepQouFhO4C%2B394x%2Fx02ey0VDinkH2NfxkarRGD%2F1gL8%2FqBdko%2F8NbWa%2FUDE5OT4fxOv0A6J98JuNvJDSIzVrLU8Y8rTEbKVuzYsRq5PTWl%2BevyVVUvMmoRCzDS27RIZFS%2B7dO8ZZhUf8OnuSug%2F1px3Muf4v7EJ0sTk2AsCWwqWTgw%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "372715551605"
+  },
+  {
+   "title": "Nintendo Wii U (Black) Game Pad Controller Only (WUP-010 USA) Tested",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198747581061?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201R86CJR6F1ZFEDJA3N&hash=item2e46476a85%3Ag%3A7lcAAeSwm41q35Le&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F8X0VGEYLpS60isXSz2I6B%2FPsw7FeY5pV7F%2BUx7xQ0htRtPw0wLr%2BgOHt2JnvW2NuOfZntwV7g1Ld7OrbOG1pVm9bP%2F4oG6wLeZD1Th0A9EeJ1jaOi%2FUp8epZurmDcVaqFbpq3zagqNbZRNYgCMJ4sQJ80X44j5NEgPyoDMzv3N6wIu%2F9ynfv3YWqMX1Ykv03tSeuvhTDo4eH%2BH3DtfiPx1lFj8akS1S4QI0b9l1WhvdM98GHo6Qi%2FofXml6Rb63HcqZ%2BsKnTfZXXinBBxaEmA11KMSg4cvsdwstLZ%2BkVvDyoG1S%2BMc0FHTXxpLlUOF7g%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198747581061"
+  },
+  {
+   "title": "Nintendo Wii U White Game Pad Controller Only WUP-010 USA Tested Working",
+   "price": {
+    "raw": "$84.95",
+    "extracted": 84.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/292787652125?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201RME9QZE500HYHXEZ8&hash=item442b81061d%3Ag%3AVJQAAeSwzvhoNedp&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FyncVlOyWsU%2BDp87DvjYHJMAN9nI4Lt5LjTfqSTIx0fL4dJngltK2fRMWJ1TrA74%2F0KdyKe928MgexcGHGquR5gvsRc4DqBS5R%2BSQEGDccH55rkIwhLsb0KzSwSKNwxB8SxYB37L3xKXjO6Z6D36uNWZKnrSJjx0bEHyeCu7SmCxJKsuaVVQvTJ5KpnsAfaXa7zccUkNxr81%2F06cSPc9fKZJWS8cgmANydUd2HBoFAOz8DdQohqfGQ8zhgGvg0SPOKxg%2BcjQUCUaGD8Qv9%2FYMG%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "292787652125"
+  },
+  {
+   "title": "Nintendo Wii U Gamepad AC Adapter and Black Charging Dock Tested Working",
+   "price": {
+    "raw": "$20.59",
+    "extracted": 20.59
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327430987500?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201RSHP5K9RE5DBN0Y6A&hash=item4c3c685eec%3Ag%3APhUAAeSwJhlq5Qdx&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde82%2FZ7PD2BLXUF2cib68TBTuitHiLRc2zl4JLYhxcrsoRua%2BVwQsnLg56yqxbdBqRKkeh%2BBoM2iADb7FFK2tzoIfkokk9Q1rbWVHWXo4p7ZPMnfYgIrjO2z%2FH6PF8dNn5sHoTA90up683Ydhz4NfeC5WJ2%2BLuJBZucHy6%2FZwn5j0QhbvZhVbwKHvEpEXavbpqzJWab18%2FFx%2BlhHPsBe6008jcdsk96jnHvKTzERpn32tItwSq7FH8hY%2FS8KxnjR4Va3Y%2FMEx0MhuHBZ%2F3Ws1PT2%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327430987500"
+  },
+  {
+   "title": "OEM NINTENDO WII U GAMEPAD HOUSING SHELL REPLACEMENT PART WUP-010 Back & Front",
+   "price": {
+    "raw": "$24.95",
+    "extracted": 24.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298494644056?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201R33PX03GNVMD071Y6&hash=item457faacf58%3Ag%3AkSoAAeSwW3hqUCw7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FvACR93W6K67zaEp%2Baqefdtojaz7HM7Tkz6VECEDeM7d1qGq3NYaB2M5XUJJvEyDPrsat5YtpKL9gxUgUe6xeVtAGr9j90DJayJNqZSDXNX1Aig8qtiT1U2ips0VaQKVpdcGALvf%2Blg%2BH5rzU%2FRC9E%2FuKmRExyCYyN%2Fa6T8Alk%2Bss03kLsD9aLwUIJirl2QL0hO6NZ6JKWIgUrEtrnZKcIGsVfzqRAWKtpkBf9aQTKkrY3d4zFV1x62WuLjxsLrCeNiKtxaYgS2Qfl%2B9HOOWBaIEmtlG%2BDRf%2F3kY6AuUvhkO7P1wxjrPio6gwESv13%2BuU%3D%7Ctkp%3ABk9SR4iBiIKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298494644056"
+  },
+  {
+   "title": "Nintendo Wii 32GB Home Console & Wii U Gamepad- Black And Used With Accessories",
+   "price": {
+    "raw": "$147.00",
+    "extracted": 147.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307092459074?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201SJ7FT1FSH6QWAYCX6&hash=item4780230e42%3Ag%3AW5YAAeSw7ehqaSqz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8iVNncCmeJjlLYWDo6j33okvHZAJZhm2SdAt3LNjzrJ7SoMJD0theN%2Fx2RkTS99GId34BzJIHJhPSrbQ9JTvlYdhvDOjUVXqoQba1spG1V6v6GnLkPSEoUBa%2BV%2BHm0iKNPaIjQHcziqQIbgA5Tsvabar0sAAk7LZqTtPq3HXbCQq84EcKzaJBHTpGF%2BnemewyGFl0OHaQaxcup%2B7eYvBoYwmj5szrxHREvepMxp0kwtnS5WjG%2BXzFeDpNVv1cXd92enS1HrUGXt7x6dKtdrakhvWWPxgon0aG9VigsO2wLWcIv%2FT%2BwiUn78cjb%2B2n9JsA%3D%7Ctkp%3ABFBMiIGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307092459074"
+  },
+  {
+   "title": "Nintendo Wii U GamePad WUP-010(USA) Black Tablet Only TESTED WORKS.",
+   "price": {
+    "raw": "$84.95",
+    "extracted": 84.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/292786738762?_skw=Nintendo+Wii+U+GamePad&itmmeta=01M6C2201SNK5HKD24Q4FA15RA&hash=item442b73164a%3Ag%3ATrsAAeSwXvhoNfD7&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde94OEBd7f7mpGcWlwg%2BLTvnkVORKtAkhXQpkAK2Rs6y9dz6pG4lffxFljL2OoMmSRHIj%2BGKirshIjV6dT5YC%2Fu8lQkR%2Fu2qNW4QX8SbN%2FufCVXd4QqnSgccdnXZgEImUQ1uBW0zq41U%2F5ghugm6uuSJHDcP7Mcz%2BDsDNUGjP%2BZpbosJiiws2FSG5VPNjABIEUpwjhNd%2Fez21RSOK1YaNk6CaKBKBlGmacnYXzdHmona0VSKPkOsAsS4YAhdqzcOErSWLTXA5g6TBk7%2FrMws5bA8KF6Py9lC6B%2FBdFFEomyiVw%3D%3D%7Ctkp%3ABFBMioGIgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "292786738762"
+  }
+ ]
+}

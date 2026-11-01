@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "video game",
+    "visible_text": "Wii Sports, Wii, PAL, Nintendo, USK 0",
+    "search_query": "Nintendo Wii Sports game disc",
+    "model_confidence": "high",
+    "color": "blue",
+    "material": null,
+    "exact_model": "Wii Sports",
+    "platform": "Wii"
+  }
+}

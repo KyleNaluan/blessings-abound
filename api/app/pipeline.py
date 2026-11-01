@@ -62,10 +62,10 @@ def draft_item_card(
 ) -> ItemCardDraft:
     """Ask the vision model for its part of the card, telling it what staff already entered."""
     photos = [prepare_photo(storage.read(key)) for key in photo_keys]
-    return read_item_card(photos, providers, _staff_notes(staff_entries, notes)).card
+    return read_item_card(photos, providers, staff_notes(staff_entries, notes)).card
 
 
-def _staff_notes(staff_entries: dict[str, Any], notes: str | None) -> str | None:
+def staff_notes(staff_entries: dict[str, Any], notes: str | None) -> str | None:
     lines = [f"{name}: {value}" for name, value in staff_entries.items() if value not in (None, [])]
     if notes:
         lines.append(notes)

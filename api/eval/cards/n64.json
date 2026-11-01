@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "game console",
+    "visible_text": "Nintendo NINTENDO64",
+    "search_query": "Nintendo N64 game console",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Nintendo 64",
+    "platform": "Nintendo 64"
+  }
+}

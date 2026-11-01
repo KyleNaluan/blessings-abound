@@ -1,0 +1,619 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Nintendo DS Lite handheld console black",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 2000,
+ "organic_results": [
+  {
+   "title": "Nintendo DS Lite Handheld Console - Black - SCREEN DEFECT",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257827983538?_skw=Nintendo+DS+Lite+handheld+console+black&epid=20011029894&itmmeta=01M6C21S0648W7BDB9HE4Q651W&hash=item3c07bed0b2%3Ag%3Aqt4AAeSwc7hq5vJh&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8dMv%2Bn187xsTuwohjcxa7Cm9%2Fublp3mfUxaxzcvhYIVn57ru51x%2FbbWwWwWOOkHAlfDKeP9HV3yn%2FLBzZIarswdH67FxFuQhOb8BkiqPX9QQQJcu5g1TvEFW68QFOQ%2Fi3F5GYcJThlL3yMHK2Zf4iJGPEYwJeT9gDPCoE2IuhFXDpuItchPTtZYuH5a0nKE63avs1gW2h4tybi9UW36lB478L30bQvJ%2BBRPJXqU8WarBPK%2B4V2idBAIkzt6XS36zOP541RGOJFHqboVUEKhl58MudknQ0nkaWmD7sOn5jeTg%3D%3D%7Ctkp%3ABk9SR6yQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257827983538"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Game Console USG-001 Blue/Black TESTED!",
+   "price": {
+    "raw": "$52.24",
+    "extracted": 52.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366753193674?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S06DYB3C4DEFD8ZRE49&hash=item5564319eca%3Ag%3AT-AAAeSwEUpq2n%7Ei&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FmFXyCPaGlMA4Ax--EyN4sg1Hk3V69tUFL4ksiYdYKluomLUvaWcWhLDv2tN8c7WzpAsZ6QGgXmLr7obidn00K9LHTAix%2F7b6p9XKrcgWiyZori%2BnroD11219pNZp4kgS1mM5SVoEeE8qiYEhvx4nJEAkS7hUuxZsI3fg4RtTS%2FrMmdIYtbnOP5d705vbeZQMkDFOI97%2FCS5Qvr%2F95IMyLqwTQdgikvLgHYMf3%2FDOyrKK8VBobH5fbvdl1o1zvKkdVShgMw7ndyVSMFMZ7w%2F60fNf9H1Q3N5hh4XV%2BTQExO%2BsJjEQGGDskTBxI%2BvCWYWbgMk9R9hScg767Rd35sUQB%7Ctkp%3ABFBMrJCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366753193674"
+  },
+  {
+   "title": "Nintendo DS Lite White Handheld Console USG-001 Used",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377573848199?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S07VGNEAZ45KSD912Y3&hash=item57e927b487%3Ag%3AE7QAAeSwWUJq0YHo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FOKuhmOlICLJMY3BTkR8mY0lkwLzoDWzCrN0JEyGMCdZ%2B%2F8BXBiZr8xeyeemU%2BvEmJb7U2AGXObS4SJadXlKikqa01lC7I%2BdRo7ygYfYYvP%2Buhys2a4cHB3t36uhNiTZs8%2BpmDu7KvWS%2FtXRCZUxPVKRRXUC6GMFWblHruFOsj9TPfTw9ECEuQbg2fZayEucSfRofpRVUJb9rMjRuSY504N38yK3QK8Pzul0waWP1gpd%2F8Ogahi0Jeh59kjUA7EL%2B%2BsDzo307FAPw2wyWCyT1AR2FfTDGDB3uA24POqLXvDzZxPZj6paMyxlVAIsRAbX8%3D%7Ctkp%3ABFBMrJCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377573848199"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld Console No Stylus w/ AC Adapter READ DESC",
+   "price": {
+    "raw": "$53.99",
+    "extracted": 53.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820265309929?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S07WNY4A35WBE13CH3Q&hash=itembefb9f56e9%3Ag%3ALcsAAeSwMjFq2R96&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8rcfO3LjfOQAX5UyAbPm2e79d74fTwHOGBitYsUREuGaIxKAnqbHVZmupXZYCG11%2BetcabsQ0YYB5gcfJh9bR0UGDRUM6FLsAUBQn6M9S%2FwYxKvXBM8dccXefXhJavhQPzUTh0IvuglRAc%2Bnz%2BpdWyM%2Fe6ATucsXjDi1JH%2BnRXblgq5VsgcZn1QopNGy7QhFre1Z1FNADfSsSP5DHAx8%2FhCDR5b53KRUjjeuGyevzbW7OPtuiB4c1TryWqcySYt9qDNfLkhMv4PpdYvpgTEYPPul%2Fw7djf76mF6ZY%2BvkV2XP%2FqYIGN39i%2FZwu%2F035pnfs%3D%7Ctkp%3ABFBMrJCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820265309929"
+  },
+  {
+   "title": "Nintendo DS Lite USG-001 Crimson Red/Black Handheld Console Touchscreen",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137890566548?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S07KA6SSCC4T8YM9ANF&hash=item201aeb1194%3Ag%3Ac-0AAeSwwalq5l%7EJ&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde--um8vqmfqQx2nFIdlDWreDnGE1vu87u%2BvCkYrTIWxKdHgshv%2BDQpBeW03--W0MnISGl2xQqgPG5OzAZmxfvvZ8eXe5CaEkvfSELdT%2ByDS5GdYL--M5O002akLH9x6pvwY3iFBWUUV8BrEm96czps%2B5DRbsnd2P4zkv1C5V%2B3Uumg9MUVlsRNbG7iZwQWh0IsotvHuotI9Es%2FMptwlogUkeI%2FWClaQRRU2LEWbAiKj7YgHDCv2NYqm103sGErndaUA12%2F41HM6WB8Njl0RpQR7R8WZGa96ChZU6i%2FGvk%2Bt4SfGFJHvEEcr9DzSqkqLHm8odsDfSetVlDU13gmrDrNR%7Ctkp%3ABk9SR6yQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137890566548"
+  },
+  {
+   "title": "Nintendo DS Lite Authentic DSL Console Handheld + Charger *Choose Your Color*",
+   "price": {
+    "from": {
+     "raw": "$114.99",
+     "extracted": 114.99
+    },
+    "to": {
+     "raw": "$119.99",
+     "extracted": 119.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/144038149910?_skw=Nintendo+DS+Lite+handheld+console+black&var=443749643595&itmmeta=01M6C21S07GRBEVR6XEF9FPMCW&hash=item218957bf16%3Ag%3At%7EYAAeSwqn9ql1If&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9ly9Ec4bAoFd%2FFryYr5URmYvi8QxzCAU2k3%2BJHfrGg0mkb14me6ovLW8cft4SQ7QLUhgQ1u%2Fclx85lGoR96P%2FSRO2ENxDlEsbKjP4dS4yT%2BSGyb83APIvizoK1KQ5JAdXcCAx2uRJIOofQt%2F3lYGLLiq5p7uTBaXWKnuw16VzGWr180X3wvAp4gi5tpYIN%2FjAtYUxZJdW%2BmQ3U87xCaUNEofiJVwzrx0aplnFrPyiRPDIQYEhX7Nh9zKo%2F2vyhWlQPvg0O6LOK62aPZgV242%2FSyF5EvMVQPjZBFUkBoKQPHA%3D%3D%7Ctkp%3ABk9SR6yQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "144038149910"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console Tested + Stylus + New Charger - Black",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227580654565?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S077ASHESG1CJDS64V6&hash=item34fcdd33e5%3Ag%3A2BEAAeSw8Glq28cW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BPMR0NIQMAk9TCBlll8bpFB6t3M3sYbhgDdNNSEAAdREF3WgcHwLOzUNeqTMaK%2FznywrBT6POhP4u0KhSN2G8%2BbbIWanVK6at5L4KQXpoSV%2FT1Wu95yJuWvOieCNFeW9c7NL4raYX1hmXPFsEb3URJEBFZpBgrkF%2FrWhP9PejPYZ6%2FuDgludvU9hbVrDbeR4%2Fqj11owfqCnHsNRXE6VuZzGHT5MyEBdXMDe7wog57b08fxevIZcDg0gVaU%2BcmOALpP0ySIB2thjiddFkZVfEFTeHYJqcqzJNGusTfiMPcTBosTsJLmzab%2BFQEYCnRWglw%3D%7Ctkp%3ABk9SR6yQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227580654565"
+  },
+  {
+   "title": "Nintendo DS Lite Onyx Black Handheld Console Bundle with Charger, Case And Game",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198756615955?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S072JNS6NH3GYVGJXBC&hash=item2e46d14713%3Ag%3Av%7E8AAeSwkj1q5EmD&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9NleB6KB%2FBGyA--LDZAW8OMaTK8YE%2BylFIOwUxq7NovZPJmzZ3YirPz1KbT4AtPAIxTFZkxjKk1%2F4Sh14z9Ocp2aD0Et%2BSVw3zVAfKlJQNpwPj5mCmRoAcxuAw%2F3Vc%2BB9iU16RKL4fUUNoNIIrDWZMQMJxbNA%2FHo%2Fc44PY%2F5gTT6Piw8jtFF%2FFxfKtzUyI8HpSaNtX17OEnxzpFyvrRoprL4iM4RvbJsIDSwAgOu%2FgLMP5fR6ESbAhTJw595pxrFW0TwNyROJaQDlvGsEFixhfv%2BYl%2FlAhlXy1%2F9GF65eMfg%3D%3D%7Ctkp%3ABk9SR6yQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198756615955"
+  },
+  {
+   "title": "Nintendo DS Lite Crimson Red Black Handheld Console Tested Working",
+   "price": {
+    "raw": "$74.95",
+    "extracted": 74.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920088969113?_skw=Nintendo+DS+Lite+handheld+console+black&epid=100252766&itmmeta=01M6C21S08X48NWWRHVR5NAPVH&hash=itemd639937f99%3Ag%3ALnIAAeSwy-tq5RKJ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FN0GkD72782MicKGc5mjzfvTg3GyjvoD9rBNM0SrqGFMczUHieMS8BiFkMsISe2Sww%2F%2BKrQkCf0uPjZscNVvD2d5PYh2pLzM2D%2BbeG25T%2B9GEo9IPofNk6kZwZSWJbqI7LnK7QIlx3l4LqONUKKeVUBjHH%2Bf5frldmemtfF%2BqNR3YSHBim%2FB40%2BtY2%2BaWc8WU9ca4wtLPx73vAsutJq%2FCkFeVUo1yv5%2BE0%2BCLi3i5WvsnF2nhwi7ArZjr7McnNJPrP9hG%2B%2FEZcoCLOcs6hyCaPqcm69CEVzdfpQys9%2BrSxJA%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920088969113"
+  },
+  {
+   "title": "Nintendo DS Lite - Crimson Red/Black Handheld Console CIB - Tested and Working",
+   "price": {
+    "raw": "$209.95",
+    "extracted": 209.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237113515756?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S08RT90FY6KTMTVB5XH&hash=item3735111eec%3Ag%3A1oAAAeSw5ahqxs97&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8ITYGRU%2FEFBGyxAqfQRbOOLaakU44lCnJsCImbhYqJ4gus9CUVXvjgpK2phpZNry0ZGXe135GmbKcMchgmrK9221NdRgZxQd%2BDGGxf%2BYSbnTd2avRB%2FpUM2kOyh%2B1DT3AuWmjV8u1iiYhguE8jkZ6xIdgkNj3JeZtc513unlLci5xQWVDnLL5%2FtGCsga23RUVqDcEnBDzA7xQ23QtXOFzPwB%2FEPhGePJX70BX8sm%2B7wxN8AB7Ft7AEs3IEaGm3KzkQVbNCwsN6Hd9qLLH74kPrRjFpyaWTELgoRBOtZmFCsg%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237113515756"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console Onyx Black - Plays Games - No Charger",
+   "price": {
+    "raw": "$44.99",
+    "extracted": 44.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147631535208?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S086V9HBF5WXZB0T4JS&hash=item225f867468%3Ag%3A6JkAAeSwZ%7ElqzDAt&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BuoDVp%2BSERdCCqvadBCF2G89kyXoU2ONZJBv%2B972YAa3B1F7t69sYtnZCEL0GtNSIETKCiPAOZNeVjEkXVWqKbGgJp6vkPlQaxULDqO5re2WBNLyP%2BQnmnRmuoJQPoB8Vedwtz8I9Q%2Fo7XEVGiRJiQHEjC6oKPg84KfQ71kkzcrL1hNaWs2oB5EIMUjMhT5i3NyxQhoYXGLHqdp7X3vUhkxMIAZytxgqj%2Fxm5AASx%2FpGjH%2Ftivk6JRhIBj7Z30MYuEZl2EuYh%2FMcuptoig9wxoUhIDmRv1DIOW8q7Gt4qrnQ%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147631535208"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console-Onyx Black Tested Working USG-001",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366765030440?_skw=Nintendo+DS+Lite+handheld+console+black&epid=101803118&itmmeta=01M6C21S081N6WQ2GYZHC7ZY71&hash=item5564e63c28%3Ag%3A8hEAAeSwiEJq4N-s&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9WSYgP2gjireedx3mrU7xjsCu5uh6%2FNtIxDQPJSgG7dRw3Ssk8NQGRo%2BLMCGZ%2Fuy5tjX1tLMcbHs%2B%2B9dL7HNRsDgZEZeRUEiyvbjyPVZRmLlBYXWoXYkmoGKs6sQsqZe12lqD2aXlq8J35pq78uKwBQLYVUr%2FLKbTbd%2FPp1IAolpHzgoqA4cN7weQYHcGcoGXMRSi4wBkcavjJYvY6rJ0KXOk6mXLYjJ%2FZPxua2Ak%2FPb6o93i78mlEmWLUn8%2FO7JFtijF3PPkWf4tdTgnK12KI45ImDeMVwSa3KmmlYINjAw%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366765030440"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld Console With Charger & Case Works!",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198734186024?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S089G2XB99BBYYP88X1&hash=item2e457b0628%3Ag%3AeKsAAeSw6oFq2PWI&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BokJRTpNmdBat65IcBZD0UNL4yQUK923ZnIfA4lDW8StEoyVWp%2BSUWZnjJBJi0UjBQrXeVW1HbQg5fJSgP2v4xuXj2caS3eSSPrQH%2BK%2BDWwhFlGhElZYFY7vtgYvzxqQc6unCobIcmCPAvdJBW08BR1zgEaK5kG2fUAqG27wxIG%2F6PmG0CQB86sfaUSg6BmJN8OjibLMnes0I0oMGTsf1rmOXUuWYCQog3bkdoenaoQ8UFxbd7n7Mw7xIPHhhret6xnPJrb5aNr8jPv7GeNBgpklOg7%2FCZOLOgRsv1VEaRVlREyP3N5NLEj1PQVPOHUaxOLgY0xXjJu922vaIEQlV1%7Ctkp%3ABFBMrpCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198734186024"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld Console w/ Stylus NTSC-U/C USG-001 2006",
+   "price": {
+    "raw": "$57.50",
+    "extracted": 57.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860033659369?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S084662N3NBAANS1WYQ&hash=itemc83e0031e9%3Ag%3A%7EHgAAeSwWKBqy8td&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde82iiSWMQ8y16qAEZUsFw70xKJzfTOafY5aJWCZB5giZbniWkBrSqpfpqJ9WlFbjy495EQVclnG9LNZ2Du7r0wveTjekMM2oXVgf8H2QVIOAX0DHQbkGacc6ElWJ%2FncrmMmkV60WFFEmbQIens038UAUTqx%2FIo1IwnJlV1Ybrvrtou%2BBJrR7PuLMeH8t%2Fb2%2BY9SDYy%2BwbZWAINmfBd4skWMhkyEqc0PipZ6tiLQ%2Fvd0bcctbrOYY7%2FiHYnDGWCQZvbiHoTINGdPwKuHhMzYG7Yqvi4ngW%2BksyuVOwmRrtbX3yHNgHInna8wt1psWbIeZW1pa166%2FL6MkbsVRtXRr9mu%7Ctkp%3ABFBMrpCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860033659369"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld System Console for Nintendo DS, Headphone Jack",
+   "price": {
+    "raw": "$66.00",
+    "extracted": 66.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237033897359?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S08C1T09FNYVHE35DES&hash=item3730523d8f%3Ag%3AoDAAAeSw9fJqlcx7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FYGdz3d3TlVbg11M0Q8nws6OloxwpwWCuZzgImVTbzDGMN7Dr9vnR6pLIPHOBaViVlrL42TXyqs%2BgddOM3NAYAIZOyp3VEbuSht700gIWDhczxp4U%2BJ%2FSAyAMQL1E0WafYS1CeMIWtEaJSbpq2MbFqaAqDAvRXgx1BN%2FhqQqpG4DeFhFw3cLWeDCkgu04aO8mi1uBdr66%2Bj%2FpRk6as5EX3OoNJNIJ%2FVwzxPTHyudJwnhj76EPxzKho6NllMb7TlmrjdEZH4wTVrb%2FJixQ6AxqBZOaBbxA62zwoKJf%2B3l0SoHx8ffY0WjMIoweqaTE1DjM%3D%7Ctkp%3ABFBMrpCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237033897359"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld System - Cobalt/Black CIB Mint",
+   "price": {
+    "raw": "$144.99",
+    "extracted": 144.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307256353087?_skw=Nintendo+DS+Lite+handheld+console+black&epid=101862028&itmmeta=01M6C21S08N48HBJ9XVPY1CEK8&hash=item4789e7e13f%3Ag%3A0vYAAeSw7wxq5ADW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BmFZCe53wKBtNdyJeqHpy8in6hO5XLufJZUUxYM3jM9LhcYZlw2CnfrCoeXyWxh77oLY5%2FZi0mj%2Ba73iuT6QQHTZkftgEkH6qalhl%2F4vYVIX5fjyUCKmD9Rb5xLR8Hy3cZGy55nMvcVSVIONB2IoGJRwHTYCvQLqdQcaUgRxqzZWGEUkL4%2BdPGLxmyR1agw2MXiBgG9VbhxYqPMV%2F4u%2F3TEAGAHcNspWvprmf0lmulZLTGZHkcDqfnFj2zlz2%2F8RQfHcDTEfs5CA17Oj6Ikb7R0BFIIek4ge0j07FYan5WjiW6s4hVoLFbOyv62u19plU%3D%7Ctkp%3ABFBMrpCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307256353087"
+  },
+  {
+   "title": "Nintendo DS Lite - Cobalt Blue/Black Handheld Console CIB - Tested and Working",
+   "price": {
+    "raw": "$224.95",
+    "extracted": 224.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237113524106?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S09CJP80HKB8YJYN698&hash=item3735113f8a%3Ag%3ARsIAAeSwOJdqxtOm&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9hNjzLuzretoug9n3GSowZUTlKAq%2B%2F3l07jQ2GsQHYZf%2BX0QZ1PDoN7cOu5CzXesJoD2R7Z36EQf8AzuuzVRYQP0vxPuPR9Jht%2Fw4q%2BzBxnuoWx0bx%2FZjZVB7BBANxV8TCxcmKd1%2B5EzHBorCXZOZI3o2jQ5WhOokvIk6gtZ8gBGnQPOlvIXY5y0HhpTWnOph%2FCPO%2FEUp1hPF8i8SxZA%2Fl29PjToVbST6yPPB6noGZv4QtvI7SAfFLVFdT7jSCchvVJxGulfUZHFi%2Frh9bxbjV2Syu2SQmNGCsFZkS57%2Fppw%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237113524106"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Game Console USG-001 Black/Grey Guitar Hero",
+   "price": {
+    "raw": "$75.99",
+    "extracted": 75.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820221206146?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S09RKFF6Y9BW2YF50YZ&hash=itembef8fe5e82%3Ag%3AcLYAAeSwe2BqySRw&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8CTGqp5895H9nlFN1hR1ePf85WAauhHGeHOoNFWZDSVnGD%2FzAqLnNW02UXtjzc9LINp11%2F%2BIZzxXsA6QVVTMyM1LqUOfatGiw7ivuEh4AJI7bvOsMAce4P9z05M0QT2zfwt5XTT2hfnnKRYqSx%2BI7eGmLTajSJ4lvfMZbnfex7P2PUzUCRK8z6yuKXboMr5lvO0XTk%2F06TIT4JVc1qkP%2BdY18vjXTmw0JYJ2JpH%2ByIt0AqLV2OvjKba9uZcA6wqcpH9ZJYfhtCnMxX8dncbas6Z2AcUXbXeFPw7Z%2FDkkrCPw%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820221206146"
+  },
+  {
+   "title": "Nintendo DS Lite - Onyx Black Handheld Console CIB - Tested and Working",
+   "price": {
+    "raw": "$234.95",
+    "extracted": 234.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237112216447?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S09FTP928G1EZY1KEC8&hash=item3734fd4b7f%3Ag%3ABBAAAeSwPZBqxfiR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BY5qYiGSrcvxk5MTE%2By5k4hQ91osO5c0vr8ELamJXLsHE3e%2B4wdzViwvfPIVe0UJtSmK307lakjORWiVCkeahqupWQvXn5xntbKaNpy3kB9EGJAwpv%2FKVNWdp%2FaIHdB3OY7a4Zmby83HLpxhmVXfKxM3HXOTnPHy2YrH4gPwCrki%2FEh0k0PQC9b%2FllSLh4bMaXIN3yBXtLI8Kt4fC44GIrRBPZwBAvuRU7Ot6gMNEHjv8p9RkoxufHm66IRadNPJ49duZ7Q7iJqWo8okCHU%2B0uTdXQ3midPHAOLb1l56rWrw%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237112216447"
+  },
+  {
+   "title": "Nintendo DS Lite Onyx Black Handheld Console System USG-001 w/stylus & GBA Cover",
+   "price": {
+    "raw": "$59.00",
+    "extracted": 59.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147647577533?_skw=Nintendo+DS+Lite+handheld+console+black&epid=101803118&itmmeta=01M6C21S096RC12ZWXFM7RQZMW&hash=item22607b3dbd%3Ag%3ArlYAAeSw%7ER9q2jb%7E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BccgKlp7ITxzOq6XsQsUruJ9390q3NLEGESfaoXXK6Tk4A5mErLlepcCkdnMGyHuXRuBtiUUdCwE88WVQ1Y1eBzL0%2FwMrH48TET%2BUAcut7yd9ymTahpkviUCmMs8xEc6Qqmf0ebTyt%2BNdIExD6F%2F9hZx48eFP2goUNjBcAdob6lyFMXgchyRC6ec61vbNFzRadlLJKYfWs6RqTE%2BcAhi6Jikb9nL8jXZJqyx6TKuZaRCMHWRO6VWCMo43X7fK8x5a2P3CpmVJxLPHlg8EAh7va504ZytCHF2wbc3trloxyyA%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147647577533"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console Black w/ Charger & 1 Game - TESTED",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287628530480?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S096YNR79P7JYCZK099&hash=item42f7ff1330%3Ag%3AyhEAAeSwvTxqw8rE&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9SZLdNddhHHKwhiilaIzbaIfUlqHjpqcc4aiZilK2%2BB8VknzbAgEySODT8wizBEW8BQ1QhFcJ7hg3TYRW19CEWL%2FTRkDRqdBnFsASTG6ycqL38d3358gQ6CqoPfEKM7hMcOVIm7%2FMw4Y9X7ieXdGQ50JuvIvscYn%2F3GFnaNLYOg6o0BmL0EeePTphihliT4DQtG6%2BH3UcJZDLcQSDzBFSzjGGKuUEJLbSWWaP%2BZHJoIqX%2BTxOHleNNb0iuTFEgHAhNhD3O3HcwMI2slQxEkZ07M65Rx%2BKzF6thzL8FQgj25A%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287628530480"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Game Console USG-001 Black W/Charger, Case & Styles!",
+   "price": {
+    "raw": "$69.95",
+    "extracted": 69.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336806338913?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S093KHMJZBGTE24QS0J&hash=item4e6b38e161%3Ag%3An8gAAeSwMH9qsduy&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde93%2F0Y44GaQM%2BvGrkFOddrDJ2UbaL5zD7FkWIxmz6xvzsgecNGjbT2hEF0CXbzt1oqaXin9ap8TCC7P6292L61y3kIzpzLjBaIc7knm3TMA7YjNr0sDU9hqjVlNtN4r4mLMj7PhNmoa%2FvJuPcSLAFfqPe5fLyi%2FmFrw%2FIaZ6qlWei34dgu6eJLmIpTb42EnDdMCvqS8hjUP43bx4rKYRXj0vj7IWXtfCxQLtULPcARoCEUqcxskCqJvH0JcXoQlxt5LHXDc5Kj9kBG2FrfOIlC1gN6%2BxMzFVLDCV7daGtKJge0meBjLNzofvUK8Ofr09LDaJBdsZd5Kt2nz0Er7yQkX%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336806338913"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Game Console - USG-001 Black - Charger, Stylus, Cover",
+   "price": {
+    "raw": "$74.00",
+    "extracted": 74.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407283374883?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S092A8RR6TC1N4JC8Z0&hash=item5ed3fb1b23%3Ag%3AxvUAAeSwsgpqwr8h&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9jM4ocS1k4adcmA3JdUxQ3xGOp4nKW0ZGMBqVVMUnTFsFXRaVdZJ2Pu4RMtnY%2F69VkGOtXwTdHQPg9XCz1cuikknBPNwt5vJrtzA7Xgj1xAG%2BLLZdISWgQ68UUmE70rq9bk%2BZ%2BvESlhY3MVoA1kGFZq5zTUCn8lBc1qlVyRIw3NcfrvoTCcHtpjjdxD7gN8sPmMcMBdidu%2FYc%2F8KCjZh0aRTXHqoIh96169EtbpmEp8F9jQtS1XvuAlPxsWuz%2BmkK1J6BRLWPlCB7sUjsR%2BcKzK7IoiHygTNPwDOdvuFw7cbJJiqB7I38%2BQ2mUbgGUZyXcblF08uuTFptew9%2FKLqF4%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407283374883"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld Console USG-001 Tested Working Authentic",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920090968319?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0AB9HXC2QKYNS0E75R&hash=itemd639b200ff%3Ag%3ARCcAAeSwoMtq5b0U&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BeUMkI7XAK04wxH1l6RqwAr%2BS7qoh%2B4Tq--Y0mqYDmnVIQjVbLHxWmabrtOHMQ7PFXZRqhgINaRqhI1L9gnFW6K8n7bxv07iNe87QLoLSz%2BFbUe534HOFiq%2FrJxnmDPmChDCGrXqpu61%2B%2BIc86QMkO2luTcGWvuB2Tgm9JqnGqfGx0EdQ2zj9nxDwOvOTE3VBPAoaOOnwn2%2FuaE0DbTredZPpodX6jsw%2FHlko4hfa4naQWuoJEa%2BUUzqw9EjiBtFwVqwbtpmL8FhcqCkPjBsYmHHFRuA8teMSQjmNejxX3%2Bw%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920090968319"
+  },
+  {
+   "title": "Nintendo DS Lite Red Black Handheld Console System USG-001 READ",
+   "price": {
+    "raw": "$41.99",
+    "extracted": 41.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/236925284975?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0A5MVNV8MTBN2WY5QG&hash=item3729d8f26f%3Ag%3AgAkAAeSw5YJqTnO0&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9%2FMmFLffnuxPPWp4t--%2Fa7Lo8NGQwaTHrd5V6Rqwz8XeyoIuBkiTLExnTANNopuLaDevGyviCiFOk3Dumc2%2Bvv5gx5pViWkmO4k%2FLvbg8c14rknnbBik4lVdhJ2lJaqIFSZqjxRW1W%2F%2B%2BI%2FxhDA6D%2FwcOnofQeLVNkPIrcL53DSeuOBSZy4bxgK8EEcCmHqxI4Wd29XjmrpwmOXARmpeMek1Ob%2BZJ%2BCI53%2Bw9OjwCFHqcgG9zwNSDYNcWhhKo1eU1knDuyltWPU5nszUHT0EPEnwS21ceVJz%2FHH02uVMAMjsqfPPUZPpM3leCCWBrPE51ehkKNiQls4rf%2FKLXLlAxM%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "236925284975"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld Console w/ Charger Lot Super Mario Bros Tested",
+   "price": {
+    "raw": "$115.00",
+    "extracted": 115.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840079943520?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0A2K3HP920K24F5F4A&hash=itemc398aaa760%3Ag%3AqkQAAeSwK9Nq3PBr&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8M9AoXYwEkIel8jpujLsomNmh3AcQSJXN9pBq9%2BNSluaXlM0vGhaqqDYEmdr%2BBRd67FtdRU%2B4QLjX9KGS%2FwzkXxQ7YI1P9kaExefLsxyiaUNqJk8SKbhVRPtdryZnlPNlHGXfGf9JXRNKK3a8tyvbDCjKnxYadDnDa0skf3nBQR5izFcx1eecmWw9a406XU8GDHpdXLF2Ls%2BPf6OneEGKQFFIBoXrpNIIlmChd2mjxAGGEc6T3AzJgxJlwVu43fOhEgEV4YMupVatPQHOQ%2B6HA2In1tgWeKBJyIcowZ6yQWQ%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840079943520"
+  },
+  {
+   "title": "Nintendo DS Lite Red & Black Handheld Console – Tested – Screen Damage",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366738917835?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0AEQ8ESGE6R0JJ1MKA&hash=item556357c9cb%3Ag%3ANDMAAeSwbrBq0pcO&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2B8bMOyleOzKF3%2ByJrvjI%2Fz7I0t4VWyExDwCCvScqR2p8MNnBLUdbZLoOXLJB%2FwOwea9X31txOBopTI%2BQWQWHX4C8x3L8YR94jEmfKuNJmzXW3lF5wY0c8dyp8mpwbnqHvuJ4x%2BylxEo%2Ba4QRg2G7uKjLue2phFtKbrFKkg1uPwRnY2cT7oE0QeyEOnkEnYUXHv3fZHsQrYAWBRFRYoaY9ojyXudoKLyz7GbyuKInmoNSOJ7LIT14Ac945I5Hn9FhQGsOkEt8bzLzWh3dWRqATEa99vA5--iPQwUdYApUFRXm3dsje867gYWLrnHuU3R7n45ocq3xL5d5l5RwILHEnT%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366738917835"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console Black with Stylus NDS Lite Tested Working",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327423503276?_skw=Nintendo+DS+Lite+handheld+console+black&epid=101803118&itmmeta=01M6C21S0ASHMXZ2X2GKS3272Y&hash=item4c3bf62bac%3Ag%3AbxAAAeSwPahq3m5z&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8EEZxSCVb9oWjup%2FqvLkiwpvlPQmeFxtz3cJE%2Ba5cMXYz2mmjO1Z90xXL%2FIq3lSOsa0401se8nzrsaelARpkzvHcEDzd8D9WfqJKVR%2FUxOPkSRleKFWka8BQjDeraeUZpky66rkLcn6HqH7%2FHLpe3Gd%2FTgFNSNM90bDSGNL8G%2BML3tcBvRdn6hHc95kEWxCveU1vcM5ilIczX1Dond6eqzI6N0uVyUCQKld2i7Y8nSHCGICcmoqdnOFEL32V4IlfTzMGncm14JPm4MV0hW2DGEFz7GlNO2KB9M7K4X%2BzAE7vrYlAl4xEgKEAgWOyXIf7HpI79uofBEIbCJYg45ycVz%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327423503276"
+  },
+  {
+   "title": "Nintendo DS Lite Red Black Handheld Console US Model w/ Charger Tested",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860089550882?_skw=Nintendo+DS+Lite+handheld+console+black&epid=100234359&itmmeta=01M6C21S0AKQ2FA37NSMKVK04C&hash=itemc841550822%3Ag%3A5NkAAeSwynJq4OML&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2BgbSSn8%2Fi%2FY%2Fol3lzeiv%2FuXGX%2F4SvgX5xJgzbT3gYXYZX3sPQ6ZJSfRAbj9l1cGVpCXkzzKSHZo6JVA6C3tKQ1CooY9e4fFjE8c2jaH1SjMsrEg8z3f7lRZM%2FepNHeoFtdPc%2B7M8%2BU9s3GS%2FYYqTqqlDTCNRML7X430X5DlJBpLfB4UzAmE0oSLBYhsfp%2FoZmnGvN6V2QPko2UMLE%2B11MwFvxIVfKkkwCndo2QA6UezZC8iriKu5QuY0lS%2BX1CClEIv%2B355el%2BM1EzlfLp%2BH0Su20BsMY0Q4pVXY2no3Yq9G%2F5kQqoJPBoGofH3FWvSA%3D%7Ctkp%3ABFBMrpCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860089550882"
+  },
+  {
+   "title": "Nintendo DS Lite Pokémon Center Dialga Palkia Edition Handheld Console Black",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336745057921?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0AJNQVG6Y43D3ANPJ2&hash=item4e6791ce81%3Ag%3ARVMAAeSwsZdqgW6c&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Bj2Lo2Si3%2FDL1huyqe4Xweb6ptIz4XWHVH%2FkUwZSiFdh1RsreaCLFsgrgb0x6wsI%2F7S2t1snRZGWCxUAryWs3DQYmVNTBmh%2BBmnBAI8HHilBzO0IIEOaCGeMJrrTK9FlXzJQwUpR86EnAz34q1gzNYBtXDdsTmvg4TtUaoKsTzlPGDx%2B8jx%2FrVSdU4g838lUY2GaDnQkZ4Z6gZeMFq2Q21LLv%2FYiAyOXs0ocJYqiv%2BhC%2FEtUBp3Wrj48fHkMox8NmhnSVlEw5fvt8%2FpivLjtOoq5%2Fx0JgvWSULvWjCR3j9zsDz6TS5el6IJt9jzupiwSDAXGl4SBuaC9GFluLlphQi%7Ctkp%3ABFBMrpCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336745057921"
+  },
+  {
+   "title": "Nintendo DS Lite Pokémon Center - Dialga Palkia Edition Handheld Console - Black",
+   "price": {
+    "raw": "$109.50",
+    "extracted": 109.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168087503399?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0AFC11ABDR4N8B7NBY&hash=item2722cbc227%3Ag%3A234AAeSw7PtpamC4&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BLRyvdHYgQCg218mg7psA7lFq%2B0paIvvbqjOVBeHmiqBfS%2BHaM3GWZVsDwmJNVqhNHYV%2BBD5djziUwtBgUIx%2BeQ%2F27Esxxj8e3YkUe66JToUW1Ml5N0QWHjthgFfnX3VJhWFLnuKIoGleroPnqthdLBjkbz3SjE25AVaOEFCopkqtaRozwKa%2BzjF2ZXv%2FeVGF5JvP1KY2a4XYysSwQ2jbe%2BDN%2FrXmHYqxswFqM5Nh%2Fvz1Yytl9K00F6Lwg7hik1fYt3taN6vGSUx5PO1oViWomEAqgSwgUs8RfenjDMUAGtsEKSa6PAyfH3jAOKnDmxotLDoROFSO0DfrMxKbWbPJb%7Ctkp%3ABFBMrpCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168087503399"
+  },
+  {
+   "title": "Nintendo DS Lite Ice Blue Handheld Console CIB Manuals AC Adapter, Tested",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860101122656?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0A3922W423FEE2CDRZ&hash=itemc842059a60%3Ag%3AYjAAAeSw85dq1O97&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FHHECMGaTlANHGdXKi2q%2FBidEVlGsjkx2iQb7vAXaq5eme3CXFx2Wc3Oy2y1KBQugOTavU7gMkWMDG5nCtlAcJryJA89J66HG8N1BUfBeTErMpSJlkeilxkfugvn9y0mXAHaicj9kUVv9aYYH6iyotO3NERHtON5PnGC76I8cAK29orcyHP56wVAeEnqEFyXF8sRfwphZJJpaF%2BGA5QkIpBQz45HUDG1CDtrdu8C6RkMeyQy0cM9bHe8rfmR%2FOSlyl9phxUNd2mdpmhl8NH6Yp6vG8gKXtV6ZoVsbsxP0CqdVWY6Ri1DWpkpEchMCAHnA%3D%7Ctkp%3ABFBMrpCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860101122656"
+  },
+  {
+   "title": "Nintendo DS Lite USG-001 Black/Red Handheld Console NTSC-U/C Touchscreen",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287695457654?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S0BRX6NA0836SA5BACV&hash=item42fbfc4d76%3Ag%3AqCEAAeSw-B5q5o8A&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8LRnsBqridbFKDoq61VDoLN7jO%2F5q6xMUhFo1k5AGDzUAuLez8ppBc430AgQ353a2TJK%2BgzvG3pKRXVISUD7nJ6KsVN2EQqeZFAAr8lI645AQgg2cScDCu9aaT3U5YryG7Mlzm5YKe8uO5q79MGK4f7S4wVnvoLtbEAmmuaVxiWVuwYTL1Zyquh49NqM0sSN0WBh6bh%2FRcUlWuoJFw7jCLQ8QQPpIoONfYrcouqyAI8fzr%2BYtxQdOZ%2FY0d%2B%2FAfDjpM9QlyhdZTM6Wv6zshhtEjJXjmkpY8QlSrxmfoBa20tCF%2F8z9qqWRyArJad34gsQcQ8yLihJEQX%2FyESSHcqmI6%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287695457654"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld Video Hame Console USG-001",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407260398833?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0B3X21QWYMZM840A7V&hash=item5ed29c84f1%3Ag%3ATEQAAeSwq-JqvvP9&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde82fyKZvNjtcyUL2qhtOdWMct5L0wTlO1Ihmgs%2FKocTp87UBpUteyFwtxDDNn2W7v1n6XsJ79mQARynXnEZRNX79vtCR%2F4alQ2RebiydxoQw8Iw0WfzNeKHxdi0OmkTeU08BEcVhlfbWvOkGqVyr9434D768ezLDa4tQ%2FhI%2BYeRq35C1zOZn15Zd9%2By%2FlsKR1nhgEQgrk6yPQwdnO9uCuHIbaPnfFQG59fPQOMGPs4qmspxoRncKRh9gRD%2FrsCAsRvjJMddOUv%2BYIAyrFMszuVw%2FKMScYIW2r17lp4OXlBymg%3D%3D%7Ctkp%3ABk9SR66Qh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407260398833"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console Red/Black Tested *Needs Stylus*",
+   "price": {
+    "raw": "$71.25",
+    "extracted": 71.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860029459104?_skw=Nintendo+DS+Lite+handheld+console+black&epid=100252766&itmmeta=01M6C21S0BVBQ5NC2ZZ23NHD1M&hash=itemc83dc01aa0%3Ag%3AhoYAAeSwYQtqKaH9&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BuY%2BZ8cDKG8X2m%2BWZyK%2BpZWmjNHrTeK5FimT8pb1ys9rlFnsOzMnxkCqHixlXFRPRn%2BIvFRTx15v0MT3YmHutCi8UCYSPTu8GSfGGpSC1xrjMMTDQrDvcvs9CgBgWn5cpinGXw1kux1W0Qv5qM9MN%2BDA9cR6HxwWE%2BJH8oFafqR%2BgXhimi3xbYxat0CJlwK3KfTDj73qyS4pq5zyvFdZXvuno7Ch1aH%2FyBqs9Nrpvg%2BRBWvfpaKzWuXBLQ948Dl8lMoNLNLdGS3%2FvhfRo%2BfZAWMcVHOWdn%2BVj1adR5AeXspgqIUdItb14CJwAPQsjcz9x08IzbEO9w7f7Dc2uDJirW%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860029459104"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console Cobalt Blue/Black w/ charger (USG-001) READ",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128067971776?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S0BEPRY5495GV3YZX7R&hash=item1dd1722ac0%3Ag%3ALBAAAeSwaRxqn2mE&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FhGjpVVPb3ms7BTfszyw0CGI%2BxtE3j0yws2ic1L9HW%2BMDJl4%2FIvU2XQ2x7HYi796BKQrJG81dMqony3RBFaIsiVap4Qx2AD0C5DJYIVx3LZ6rL7Jxi1s%2F60fYMHzCps38mc913BqKq9ROc%2FJ1wS5EVJADFE%2BzmRPOKZiSnQjufhs7tvyHiJxx5OHRsgIB7JnBybfioZeoxeWXWY4UJfUV0Q3KcAB7Re3TOxCnS9t4rvm7fJhroYMMMODRirP8aoJhHossVMXiKshsfawF2gePHJy6z%2Bv7geL%2FYJCE53lk%2BOQyOrHv8Tn58YWsqLZfB9gqwARu1CWEPrj05ApPH1V80%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128067971776"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Game Console C/USG-USA-1 Black W/New Charger",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880068551526?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0BY61T5C5AG46Z8GJG&hash=itemcce82c6366%3Ag%3A5asAAeSweZpq5PQN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FPllHXukaCohN%2FmX6oPzqyfbkgcyTl5NVJ3MMC40Fk13mo3NZ0sCNYv6r99YMgR96rIUhARD%2BzSKuYKixzaiTvSGNB67lt4qFoPbh8FwC21EbA3oBxlpLpYEb8b%2Foe9iYD0jfoz8p%2B10bqid6nDQWlNvmquqroIdlsAyeKGgVa43h3pz1DXVjWyitooiph2ChZ5CHrD7itdt0ZPDkJVAFyTbh7IKA53wS%2BW3txqldaQviUNSOmVutfTEr2Se%2Bn4Y0feuIHDZ09vvI5Sp9ZRoRWFEcL%2FIE6eySv84JMqI2hVw%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880068551526"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Game Console USG-001 Black/Onyx +Accessories",
+   "price": {
+    "raw": "$59.85",
+    "extracted": 59.85
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278310883166?_skw=Nintendo+DS+Lite+handheld+console+black&epid=101862028&itmmeta=01M6C21S0BN0HKZYVD92WH8FYJ&hash=item40cc9f0f5e%3Ag%3ANoEAAeSwSptp%7EO2E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BinMHHasl2iEvxH2g0RxFFQPlbrAIerESxaftVNakkwf3o8Uv%2F1z2p4mbNEQ3eT4gBZKgWwc%2BtAsBSDCljS%2FRpwzDg7%2BjDwzUFIZ7GP9SiseriNz9Ja8UvwR241TsvQGN%2Buvn1fARSEmXFbD0NTX%2B%2FnfYYL6oq9dOs%2F96tMAwlv26Wn9TQH74uTjvesgQQ9g%2Btast%2Fo3W0D69jeaBy7V1iTSCSt%2B4DNpcX%2FnQPFlbCa%2FefvCfEKoc4ZhsJgjpGyCXW7x%2Fi2lbMJUlVwvwaOWQymVQy6iyef8Q5odfp87xuEA%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278310883166"
+  },
+  {
+   "title": "Nintendo DS Lite Silver Handheld Console w/ Zelda Triforce Logo (No Charger)",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366776527334?_skw=Nintendo+DS+Lite+handheld+console+black&epid=1500467212&itmmeta=01M6C21S0BK3S0NBA545JT7B48&hash=item556595a9e6%3Ag%3ANpQAAeSwgtRq53Cx&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2B8tuak%2FW1HAXUbC6WNDWJJVMlutFH%2B9HWK%2Fj6miy9tu71A8fsdpR2spNQsr35RzCtzhPZTQhcm4n2N5yFiEZ0L%2FhkFCa85ctW%2FuEd9bD6saHNgiM89lapdWfriLmei05HIOKT1A4i%2F61K8vNczWLS%2FkOl3MjEBkqP8n3zUwwVlMlvkURuWwxiDIaDxIaU%2FQEdQ7nX1dXT1Q3f26jmSPzgzrgiJqkLVAJF5BbQN7FstWOPaxOYBRrHylvwyslpWYm2MA8UHH3GY6K802A7GvSiDDPAV0YQsJTHkmX%2BAEgtwM5h9voGJ0plol4ptOcT8O30fzB2XpNOvtN3aK%2Bts5CCA%7Ctkp%3ABFBMsJCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366776527334"
+  },
+  {
+   "title": "Nintendo DS Lite Crimson Handheld Console Red Black w/ OEM Charger & Game Tested",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318801105755?_skw=Nintendo+DS+Lite+handheld+console+black&epid=100252766&itmmeta=01M6C21S0BRK1ZKC73PYYHVRXV&hash=item4a3a06d35b%3Ag%3A75wAAeSwRvdqlHYS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F4pbVTpyfKSYUMjA%2Fyybe62XegeUMNQ%2B4qP2iAlO4crmrvTX3wktT9PTrHz64oWkoWRJ%2BiWrEOBdMX0YZOMnxfu1ENfoy6lYYI8x7skOyjwaAy1VArXQ6M33XmlzeDgqEW%2FDl0cK1qU6l9IuWMdjCHjN4AcgiiaPv6SR1FJ9ISnJr677IlDEplXl%2FuRVoZrOBqREEQTh0EWR9TLgrbMpGjOEf2lmgC6kLvZUfr9p2cA9E7zfTp%2Bf%2BzswlnoX7gQYwgPBiI%2F5F8Zw5THt6hWQjPuWhNWWSL2QHKSFBxwgY1JTtKsTVWLFBUJ8EjA9ubNcc%3D%7Ctkp%3ABFBMsJCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318801105755"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Gaming Console (USG-001) | Black",
+   "price": {
+    "raw": "$61.93",
+    "extracted": 61.93
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336786852755?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S0CW80FPKS5KJ970ZHA&hash=item4e6a0f8b93%3Ag%3AMHYAAeSw7fpqx81y&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9rTy1VfvQy0fj0KR6uqBceRTbMmp9VgZ%2BdgFTTF2XzC3ZBviqH5mD3fEZ4trLjKFRpUH7xB%2Fhl09VwcE59vlsId6%2FT71gX0mmp07Ysr3276ikG24kQfm3sh3RmSkFeX1%2FMrXKQ4%2BpMT8RhM8EOP%2FnmZdTS5ONtlgUkCoZMOraaxc9xh%2Fqx6vBWwLwkboJ75V%2FFNMUXWW52OIVrS8Ye4TltvKtZ9beaIcOrvHFOYxRUidNUEcDrkWet0WAZGHdj8UIGpSLnQCuChb4ozLa52fFj0Xh0BOESyXFrqs2f2TH9ZvKczfry%2F6sDAPMqmqQ6XB%2BdIc7kCoRFtmtUnoTL71Xc%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336786852755"
+  },
+  {
+   "title": "Nintendo DS Lite Jet Black Handheld Console USG-001 Bundle With Charger Stylus",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307231405212?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S0CSYZ6KH7YQ9MTQH7R&hash=item47886b349c%3Ag%3AUh0AAeSwa0Vqz8o2&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Fz6%2BcsEaMqNLUStWa1f4jDc1EQIPVZgwXAgGZSvhJDisNj%2FZxUvgLs8GT6mRFjiM%2BPTKPh8MCK5zuzxeZohwS%2FPLy1OFBxXtHE%2FFXssHrUWQ6%2FaJXN%2FrOhduLrXosUcvxItff7bANbNhNVgdYHGqNM74n%2BSfhyylpv1G58uKDFw7i9zHg0WoJiu6r5kl3FjHXrRPjiboXoHfqL9PnPNiH35WKV2Gj5%2B7Yq3inYtu9S8xscR37dg6sPYmu7R%2FxtMTHw8FsaYP2S%2B5KVBxop%2FFpkmJosmRz7byNIU%2F8wYif2xQ%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307231405212"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld Video Game Console USG-001 USA Tested & Working",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117490491050?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S0C7X8C2XEZEYWZ1Q95&hash=item1b5afa9eaa%3Ag%3Aa%7EYAAeSwlZtq4Mjl&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FDIaW4CVLbjUCiKkgGr%2FtAkNHqDJTt8EiYHPAYKeUjhcexyF5Rsvxf1kQcG%2FfKCJWHsgQB5fp1eurlx2UEU%2FTFcOkR3RrnsEZKoH%2BfRJRAoURobSlT45AbLWb8lu9TI31gcbE%2F5B03a%2FrROWSoXWkfwP8%2Fj%2F6qYgZXcCoOdkJewmjpFem6vDJJ8YifE7AuDikn4Y0bb3Qq8RcUo%2B33yLP3MWXN4SVgbJGS3HDveqeARuQIB9dtrth2pbKnH2G65pMAsaLCMBuJiGc8U9p0fLmGO71XjiHQIAA6MfTtgEpxhA%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117490491050"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Gaming Console Crimson Red w Black TESTED & WORKING",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267714179362?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0CD3FZHJGYY5D9KW0R&hash=item3e55023122%3Ag%3AfowAAeSwtqBqRHNK&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8oQ1UkZn0UBnG8mezE015IFLIvvvB15Wu%2B%2BwdpFiH%2BrDbaBwYRq40kPHnHKe46t0MlluxnGwqQN9lmgKtoN%2B%2Bf0bKdsdnSRT5wzQZAGvTnx8hA9YXMIUjRqu2RrqI6lntnhcilGpGTk4NIFXo%2BZ4cfDTNUZdakvyQjC58y6ys8DC1XxwW9m8SuYjnx9hZt5bBbUGrJIbVC9PuQkSi26O%2F8xTUi6ShKiZBYR0fCa81PV34t8P7%2FHEQ7FIo9XvoAhUe8bARm4wb5%2BVL8MV3eLF6yMV7JG%2F6SJsDbEVfyAtvQo6mkxW5chyN7KKNyWSdZutUxhN6GrxzuAkfoyha0hEiu%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267714179362"
+  },
+  {
+   "title": "Nintendo DS Lite Black Console Tested Working OEM Genuine Handheld System",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127812726421?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0CE7BXBFYEJPQT5P29&hash=item1dc23b6e95%3Ag%3AglkAAeSwPw9p4Em2&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FSZy0br88bqWfNPGLNEnrIV1qv8z3aePYjes4dJJPwv4quM4NRM9GkW33ML%2FjEO36mrOiGeGuMDaZnioaoXNWbXkB9%2FtDLz88Ph1XYKp%2FlXeaIIdJnWw8VsRvhv9ZjmWPZQnR5%2Bny0y3lTmS%2FlAyKbkpGbGshJCBnoW63wHBrbccd85hpehWUS5GYs3eQxAywSM2AUQwmZdrE1x%2B%2B4%2BtzaSUnC1bLVqLSNYGBnCeFiqSuMXKe84HSHGfV8gTzhYPobDM94TivKj0EIKO1D7eYSusPohof2Qr41lwpDb%2F2pBw%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127812726421"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console Onyx Black *Tested & Working* Read Description",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147649581743?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0C6SMJTBZQJEYY64NW&hash=item226099d2af%3Ag%3ABq4AAeSwIhZq3B-O&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8VsmFYfoyAXZPLMsVUFuDE9vCaUk0TYIhmy0GMnUz%2FZoNhaRs3fx%2FmVNXRjfFFlZbTj3KB3z96Sy3JhfEsNHYze7oV983fw545sAemwmSz6o4e0cBXYUBsrFOP8ZOsdEypAOhBgN%2FNPsR8RmvaXhS3tfFBzbKdh41DCKIO4Up9mJofyyABmSZ4BLpsgIVpMqaphPpbKBs1V1K3jTGj6rD8AwtfUnaqri4qlG%2FMkov7JZmdle2%2FNoreAR%2Blh1n3paNmVZkB29gm3hUjno2npL4BRJEN1qFM7QpTCmzwADpMYA%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147649581743"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Limited Edition Pokemon Bundle Black Console",
+   "price": {
+    "raw": "$300.00",
+    "extracted": 300.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168827123443?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0CZJBT2FN6G0XSBH39&hash=item274ee176f3%3Ag%3AHjUAAeSwyMBq2CQ3&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9wkaAj%2F6k0H9KZSHmqZxlUyxLZtK7HXGCamTOIR9NKMpsSHy3h37EN8uZ0FXKnD6tActCuc0e4dyIteIeqjsA3fMOtd0P%2FvW8EApEx6ZoVFxVxZ2u7Xex138jwoLbNBQlTQO9uLI6XGfQuUiMujUufmBjN1TA8ZJ77Ias05bHD2rVYWMHS1ASbzIlGV2LWnzf7ut2DVC2Fa8llMpnvYhy8sSWdHlaj6%2FzaQIAbQFlVt8x8Iao1amMOSBDf3vnrxXXV21ayJfy7X55kPVJK60Gy0%2BRgUWZ63SzaK%2BGRi7n58w%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168827123443"
+  },
+  {
+   "title": "Nintendo DS Lite Red/Black USG-001 Handheld Console w/ Charger READ DESCRIPTION",
+   "price": {
+    "raw": "$59.00",
+    "extracted": 59.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227584876432?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0DSQ8ZV0AAT4PAPRCW&hash=item34fd1d9f90%3Ag%3ARuwAAeSwuTdqiKeo&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8pPGm76ISbjP%2FNxu12AxU6OFnbh0sQ5UmyAX2R4UP0Rg6GJsecLcQTvxI9xhB1tmUQnZw8OGfsZa6zdeMWcVKFSVB9YcbOxm2cP57bLRdgIKy6L%2Fc2t8uPkP1X0pgQ7T1%2BIcEEx7aRI627yxC8RojKD%2BiqV2l0Pm9vXyf3hIbGS5TyhEJdfoSuBMs5LcFSHGfFUarDVu82gcmbXw7oNJ%2F2Lx7gb91Bmm2qT%2BEQYs3vuIO%2FXvY8mcXsLcKkoyevL2wqax6t9U%2FdF5C4AD6FPdkGyDXsIsKvCpdnFpkkLnco2Q%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227584876432"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console w/ Case & Sudoku Mania screen has black lines",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267797522232?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S0DZE06D7AZYTJJC7WA&hash=item3e59f9e738%3Ag%3AfAsAAeSwuWBqucfx&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FPwySnBSyPTzF%2BIWS0X872Ptre9bhZNyZjl%2FFmkYYdS6RvtoKwab4%2Bfhe2Tp--cwoyP0qLlbyNTkTWyv9y2qFMdIxrCGIIH%2Bw0Q0z4ET7HEMjaRyN%2BWFlD0ShGoKhYEYjtn%2FpqwziZroISJiPvKYN3esn8z6Tjct6lR2XMCOVCtl9TBnuoJxWSAq5%2BbtXaQWBx50dlC%2Fc0AKUMyLEHTzEefSjOV5o9GFJtOatm83F94lhxWlJJinYLUij1QkfpENIQQUV7s4TCYd0Qv9vla1ByFuXAA8jJHbGlYlTmSJp67A%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267797522232"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld Console USG-001 w/ Stylus - Game & Case - TESTED",
+   "price": {
+    "raw": "$64.69",
+    "extracted": 64.69
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237089421756?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S0DGW0B5R78KGEPV41K&hash=item3733a179bc%3Ag%3Ad3gAAeSwrABqteUZ&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8Bz%2F2FpAwVxHFYpABv2wKya4Ot7Oy9zLF53osCZnRYYvXKSWt--rNG%2FzxaI9uyjoaxnOoR6NIQIIvmfye0cY%2Bc2hwyEa%2BJuywmKM4O1L1rG6qAbyRAJ5pEVexYzL5%2FlO8%2FX96RKbH4IyB9HhAk5udyjWXtZF6gRT3Geu588RpWMs0cY7YJGd1t27z8e%2F4U6310Z4R3T%2FjQNafBb8rO3AhfxzGItF5tPL8I9NUzPcr0F3bt5rlYfFO0z%2F0MyJMgx7mQUqNKm%2FKORuiIF0NAoGyXpi9j0gstQKNl8gcNWe0ANkvsNmfMdqoKeuoLUjj5gC19%2FrOPLvxll3D4bY7%2BQnKy%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237089421756"
+  },
+  {
+   "title": "Nintendo DS Lite Console Crimson Black Handheld System + Charger, Stylus USG-001",
+   "price": {
+    "raw": "$109.99",
+    "extracted": 109.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128167005787?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S0DTARPBPH30PV5XP64&hash=item1dd7594e5b%3Ag%3AK0UAAeSwq%7Edq07FY&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9bqTOqoAEhCOKp9vUHaPOtKVOTlRVtDC7JZHPdbi2A9EvVUVwTCZbmRoQPfzDhagn2JeNChhivH710sqmI1idgQeGdxX9vF5%2F1XfdphNSBLf39Tvras%2FgtsoaaMxI8%2BRJfAWJAKaaKKno%2Fsd3bmqentEssa7%2BCTE3ss5NhE4qqR8fdXWMTSC1S%2FVcaMved7v3iradN4kq%2FmqS5LgTv2dObmKjA8HvJv1nPIaAW9bmSwCowh60pTgtZtmQzYN92juVpDGVn%2Br6Jda50058Nm7XwCXF9xcLXD524AEnuEqIPBg%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128167005787"
+  },
+  {
+   "title": "Nintendo DS Lite Onyx Black Handheld Console CIB Box + LEGO Batman & Star Wars",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Nintendo DS",
+   "link": "https://www.ebay.com/itm/407301769724?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0DADQGWDXXHVMTN8FJ&hash=item5ed513c9fc%3Ag%3AFLcAAeSwWwZq2Zjy&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9JNxedq6azFQI0AIaJ%2FHulogVbVF01gvQxbtEEbFRd%2FaM2QBWqMR%2BqQA7WaWzeMhwO9yFLkqzgooSxfDFUIuoYJ2LP206kITVBAmlnY4zpXyJJXob5NUmliZIM6%2Fh4ExuU5KeoSi4%2FeHpxa6PhyZ3%2BCYFFrLPDkHJ6s8Lz4gcJ%2BLybh6tj7RWuGLR%2FlTyKoe0MvYMFJyr9MIj4jw6tZ7ZvaF%2Bi23sgg9fP5MvoxkhJKEQsINF857QQez5Klq%2BAV5Pm6BkvotSdV58PO7rKCgZ%2FvQlxyKPX1%2FiQgYnc6FjAw5%2B9f3phW4u7pq1bmPSasCAby3VSkydtz0OxHXjo71No%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407301769724"
+  },
+  {
+   "title": "Nintendo DS Lite Black Handheld Console TWL-001 w/ USB Charging Cable Wi-Fi",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920073988858?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0DSB28AR2EA9BHS9NH&hash=itemd638aeeafa%3Ag%3ANukAAeSwk7Nq3lGw&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FcYdikvqlqnC3ht637%2BN75hPMWjvV9i%2F9PW%2Bp%2BJh9MtVL6iO1Zt4da6rEXfPUQYivDTnO3AMuOs9%2FY%2BeMiRHSF8Igu3Z5f0DPfNXWWCkEzwLJ7%2Bpf3vROLKhgC8QD7Y7qVCnyMzFo7lGOcf8s4O7fuSFhE0BVcJUxKewZ77K5q6KIS%2FFCzgktCURZrfl4nZDx1BOP%2BnqS%2BrabLYIO6FOaizBjNVLwy8sU1V6Nib707cy7zbJVVuamGe7GA5m68eo%2F88iauaB7N9kUQlHPbpXkOCq3r0Iwr1uIHtD%2BarullnA%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920073988858"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console Onyx Black USG-001 READ",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/236825407868?_skw=Nintendo+DS+Lite+handheld+console+black&epid=100252766&itmmeta=01M6C21S0DYZX6NR3TXBMVQN36&hash=item3723e4f17c%3Ag%3A3-cAAeSwhIJqDIbF&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Fr9cWld3%2BqPQMiYxA3g08frA8JXOBsFTQ734pW5yER%2FNBNDpvuqC46aBy4mXsQkieJE2%2Bg551gA%2FryLRQL93G3N%2FbWVjo6jl71%2FUaq7hYS6965zSJlghq1Y3mMs717ellAJ0PUX4TcqHl7idRtyBs0K7wuxe9k52ozi9uo2EB9i5W%2BebmM2kZyRH4axNYGKSnCEuwylyX0bhgSmaqVVFOQejB%2BQ%2B%2BLFUzuKAENkHcvN44nwoyMnpDriQcAaoo%2FadGegJ16rVnRUlJIycpZEJAGOjaQRmkc0rMi9nzHMmXz9QjwGVej3xwXm3KAkbbWwxlT63RQbcxz68SMQjoXjsSr%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "236825407868"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console Red/Black with Charger, Box and More",
+   "price": {
+    "raw": "$175.00",
+    "extracted": 175.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227125958450?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0E5Y621S6K2WXXXDA1&hash=item34e1c31732%3Ag%3AdjwAAeSwRStpOb%7Ez&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9YhZNeRKp0tL2g75Ve5LeE353EY7YOkhqJFCg2PODm098k8FBeXdsQY3yC4UJCfu%2BFGpFVx1tXnX3bsYFQXN43aElBbIGUzySmYDqklpVhbM6gGuRhMLMX1uW9fwbJfPnRFpzIN66XwcvtN8OfFwDpJP5qjWnr4pCMxsBKKXawf3uNZxAlSNf1%2B3l%2FfRhzvVzcTSW6q%2FsS3l4nBr035qZkXWF6XXdyDoQOvddWewP48r3EIhKSxfU1mYmZKtMmyxSIPocd51Fp59ZrVroLVs50OJYhMDwiUZ4RRG1OgBo%2BqQ%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227125958450"
+  },
+  {
+   "title": "Nintendo DS Lite Red Black Handheld Console System USG-001 READ",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237059573343?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0EM16D4YGWFZXHDETK&hash=item3731da065f%3Ag%3AXLMAAeSw1WNqoXh2&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BcIHvmGhe90FIzbbXhhVOpoDeQL3AhVd4fjLX0Vd6H07bCqEJwNdrw1kbJYOnAqGdYJCCo%2BAicz6k0IT1BUDn0PGJawWyqL0SibwP5s3%2BMFZu0ofFwLKGsK6bm0iyt9lDUVOcKeX4IX2Q%2BYaSSaQkNmM%2B3AAlnRhpd8we%2BBJ31YtK%2BosNLNvWWLPMyNiWvR2%2BM6wuCNNOOiSfoB9cQ9WbkJciUnN5H4bQKadiI3JpgK%2FfIJCPcydluHIH8Ft8J%2FiHMw%2BPX7GedxUahJQx%2FZ8kobXdO4SKN2gryM4elUv%2F2QQ%3D%3D%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237059573343"
+  },
+  {
+   "title": "Nintendo DS Lite Cobalt Blue Black Handheld Console USG-001 \"\"READ\"\" \"\"READ\"\"",
+   "price": {
+    "raw": "$44.99",
+    "extracted": 44.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407222174013?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0E06FMA0G6CYVBB9R6&hash=item5ed055413d%3Ag%3AENIAAeSwKJBqqt9W&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BO5Ou%2BqeAOkDfEC34lGH8kgFCZkc93RmyWowmhKk1ALGOCcfEB9%2FtwHKv6lzSc%2BGuuwWB6i8X%2Fiqpvny9GgybkVnifdYqbHWUiiLmuMw3t%2BtOZaa5neYtdUYyeY4W%2FuMEv2RAZGn7tZTvVknay0ZJYqYhATfrcNYoSPsHCezl%2Fc%2Fu3gx0o1spYzPBTsL%2Bi50fCaSba0IyXG%2FUe%2BRBKvt8QrknJO7hDQkYfI5Uu8tS%2BUu5B%2B5gpNYwEn9n7hXWgMRJf2XHtEUlIpVx%2BBrGE7dceXkAl%2F53reF2aivGqh4vkvSZXx7y5HwO3iwWI27nSUT70Nib2adHXRkv1SDfPsOQF%7Ctkp%3ABk9SR7CQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407222174013"
+  },
+  {
+   "title": "Nintendo DS Lite USG-001 Black/Red Handheld Console Touchscreen, Headphone Jack",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407293061002?_skw=Nintendo+DS+Lite+handheld+console+black&epid=21021352571&itmmeta=01M6C21S0EHR9Z2K2YB1GYB4RH&hash=item5ed48ee78a%3Ag%3A0tMAAeSwKzxq0S15&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9R%2F%2Bq0GyTEzSY%2BaKNkOX%2FrKjh5cR%2F4qPrGFLTOI9xlIc5LWLxXsduMpNGdkvOuFlw0VxLSmP7%2BMKLRcxRuYZrt%2FQIfeYLjLtjQK6dnao34Q4Ht5%2B%2FuqoZ02lwGw6izxoLCWGncy4qf2CobRn%2FVaE8LFDKFhhjV%2BMbX4sBJuqtHBQo2EPVVupag1thJ20Y9zyKoocI%2FiBJ489aKc6gHfJjOTkkPU6pmYJtO5QpcqmWAM6cRUnR8XADawc%2F34Y980iR9JbZ23aFQXQqD0b1gMLbLj4v4nodMjql1yj%2B1gjJeqg%3D%3D%7Ctkp%3ABk9SR7KQh4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407293061002"
+  },
+  {
+   "title": "Nintendo DS Lite Handheld Console - Polar White With Charger",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168575978533?_skw=Nintendo+DS+Lite+handheld+console+black&epid=20011029894&itmmeta=01M6C21S0EJTGWFS498SMN1FMV&hash=item273fe94c25%3Ag%3AaVQAAeSw3yhqa7MB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fp1k5j6UEu6aleepQqIWXPBjbcU3PWKKzbBF8LF0La2zWMT6z0SqUI2CDBVE6JaU7aUc9mcteU98951jhnJbCD8efaUGgWCSJqooqGk%2BHehJ%2Brx814x%2FlWHXpMoFh9cPUxKFDe4mhAhDDsPajVg2vy19ljiBhH02%2Bk%2FopuBcpouq2YfTV2CF%2BTR3keh32x%2B1cWYhJxPwZof9xP2CPoiR5c4if7ROFQ3IUfcPncB44nEPImfDAic0eLnqvy6IAPFbBKPYZKTyLE0QgvLEqQElY4Kl7Ah%2BCffFdJ0Y7kG63rG%2BBP0bKpd6npe8zuakPhjO0%3D%7Ctkp%3ABFBMspCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168575978533"
+  },
+  {
+   "title": "Nintendo DS Lite USG-001 Handheld Gaming Console Pink Case & 4 Games Cartridges",
+   "price": {
+    "raw": "$238.42",
+    "extracted": 238.42
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188840838438?_skw=Nintendo+DS+Lite+handheld+console+black&itmmeta=01M6C21S0EHP5BSANDA2R42CM8&hash=item2bf7ca8526%3Ag%3AHoYAAeSwijdqjOhO&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9DCZEnYIMlNfqgZkdEJx%2FBH7jbQjX%2FDUGtYbY6bQRE45CtfcNFsg%2BWDMseSCpvayVnld1nyLQBGxNaRV17Hz6mLJZu1EvlI6vzkAVmGB4lV2WZ40M40wx2Vu17WVt3me98SWczii%2FOh4bpyLUfyoKQUU5gjiqWLAzHZwkAb56JkWt2r%2FYtcNZjFkeqCEIEp45kjlF8MRDTsGnRcLZoiZG87qDqQAi2j3TMVja5IBekcN8M2bD186d4p1SGS3DHJ2lFP%2FDpgTUMLdJPg8Nm4Z2sh%2Fp8yeBUXY1k8V2VoqMuYNN77S%2B%2FMwD3OUGbqAVEzTokoavaWHWN329m%2BDLnPOTi%7Ctkp%3ABFBMspCHgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188840838438"
+  }
+ ]
+}

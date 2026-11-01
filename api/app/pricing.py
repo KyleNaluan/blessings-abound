@@ -48,9 +48,9 @@ def price_range(comps: list[Comp], rules: PricingRules) -> PriceRange:
         )
 
     prices = sorted(comp.price_cents for comp in kept)
-    low = _percentile(prices, LOW_PERCENTILE)
-    typical = _percentile(prices, TYPICAL_PERCENTILE)
-    high = _percentile(prices, HIGH_PERCENTILE)
+    low = percentile(prices, LOW_PERCENTILE)
+    typical = percentile(prices, TYPICAL_PERCENTILE)
+    high = percentile(prices, HIGH_PERCENTILE)
     factor = rules.ask_to_sale_factor
     return PriceRange(
         low_cents=round(low * factor),
@@ -86,8 +86,8 @@ def _trim_outliers(comps: list[Comp], rules: PricingRules) -> tuple[list[Comp], 
         return comps, []
 
     logs = sorted(math.log(comp.price_cents) for comp in comps)
-    first = _percentile(logs, LOW_PERCENTILE)
-    third = _percentile(logs, HIGH_PERCENTILE)
+    first = percentile(logs, LOW_PERCENTILE)
+    third = percentile(logs, HIGH_PERCENTILE)
     margin = rules.tukey_fence_multiplier * (third - first)
     kept: list[Comp] = []
     trimmed: list[Comp] = []
@@ -97,7 +97,7 @@ def _trim_outliers(comps: list[Comp], rules: PricingRules) -> tuple[list[Comp], 
     return kept, trimmed
 
 
-def _percentile(ordered: list[float] | list[int], fraction: float) -> float:
+def percentile(ordered: list[float] | list[int], fraction: float) -> float:
     """Linear interpolation between the two closest ranks of an already sorted list."""
     position = (len(ordered) - 1) * fraction
     below = math.floor(position)

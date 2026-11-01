@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "DS Lite handheld console",
+    "visible_text": "START SELECT",
+    "search_query": "Nintendo DS Lite handheld console black",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Nintendo DS Lite",
+    "platform": "Nintendo DS"
+  }
+}

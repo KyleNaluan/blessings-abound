@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "Joy-Con controllers and dock",
+    "visible_text": "NINTENDO SWITCH",
+    "search_query": "Nintendo Switch Joy-Con controllers neon blue red dock",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Joy-Con (L) (R) and Switch Dock",
+    "platform": "Nintendo Switch"
+  }
+}

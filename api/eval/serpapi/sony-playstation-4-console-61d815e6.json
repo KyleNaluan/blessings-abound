@@ -1,0 +1,625 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Sony PlayStation 4 console",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 22000,
+ "organic_results": [
+  {
+   "title": "Sony PlayStation 4 Slim 500gb Console Bundle w/ 2 Controllers, Cables, 8 Games",
+   "price": {
+    "raw": "$139.99",
+    "extracted": 139.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920087857235?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1KCBNG2E8A1XZMCQZT&hash=itemd639828853%3Ag%3AcGMAAeSwkAlq5KIf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde86Kcrtq%2BZzgcUgX82q7t4WxMLKJ1gAVqfyGfdkItoo2%2FJ8QfipigHEkxnKgHO5Y3DHJuz5YhPrV%2FhvUZHPXBEdillveerfbeqaBKSQiWS7tfrHvd3Fh2h8QNJaTHyiwDAnaIDkruQrnyeWlnOSlSR3Pa5Es2lSQM1iXeX8qIOw7vYXO%2F8JA02y4OpNzRlegD7UNXPLSnd7FWOOjrMH8Q3%2FC8iQcY4KJz2R4uP9qOOw2TWzBKefmP3WUhAwh9j%2BYzoI%2BrVLQ1OD6FPADqlqMlWbs5AxE2UXeoTI4yCTexdiD4mmRKAt5h5BkV7k8alhRto%3D%7Ctkp%3ABk9SR4LBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920087857235"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 Slim 1Tb Black w/ Controller Tested—read discription—",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198762971332?_skw=Sony+PlayStation+4+console&epid=18030648971&itmmeta=01M6C20W1K4NQRHASA3Z6FDWG6&hash=item2e473240c4%3Ag%3A2tkAAeSw7Vdq52y-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9HMY1zvsCBSZCRybJNblD9AtwdKVLFKhGgwyTXZ59wyBzSmFI9j7I4IwnU62OD3sKfzbo4ekPcwj5lzioWmOPG5wsQMMP8nnJIX%2Fw9As7oAqEQZg%2BjXE9r4Ly50AjguWa5AMLuR%2FwN6AZZwkam47Jq9rDX7YanVDGyocicLSMVbspIggQQS%2FeVp3Sz5BUL22sw4LJ6h7H5kz42vN%2FgkgrozuwR2j2YMmSosPIKNTGAqhzjNz0H4i8VwDnGdlkFKp6--Lvje32%2BZ7YU0wCnP8QgzqALTduBWdrP2KiKAkszqb2zGf4679xYosEzFBsuxCs%3D%7Ctkp%3ABFBMgsGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198762971332"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 White Console Lot w/ 2 Controllers, HDMI, Power & Games",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407331511526?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1MFY3FJ2TF9H8C9RW1&hash=item5ed6d99ce6%3Ag%3A%7EQQAAeSwSqhq52yJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde94Yae595WzXfZfQi4wE19ZN5lwyyr0zrYdkbBKINRZiP%2FB7QXYiMonR0XGoiPa91XJgrF2zTxqCZGvVsowHcwMyMIzs%2FEb1rQ6V6PJSO2bX3LKI6d%2B%2Bjk1nK0FGjrRAcwSMiNa1SEWdLym5LHZFYN6eWg2lmiNoik0gA36q3qbjkz5qh2rr%2BsIniyWRXKqgjFwJj5zMuYCHTgyB%2F1WNB0iz4YKu4lt2CPTKiCjxzCc8nDohvqH7LYK7e0%2Boua691b%2BxRSz25f86oGSpOlNZHP0LnRf4AwhTlxTXQfQ20eDvlfs1wnp%2F6lQaDNtl94K2aY%3D%7Ctkp%3ABFBMhMGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407331511526"
+  },
+  {
+   "title": "Sony PlayStation 4 Slim 1 TB Gaming Console with 2 Controllers - Black CUH-2215B",
+   "price": {
+    "raw": "$229.99",
+    "extracted": 229.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198762958956?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1MX1FCJGDDP6BWP3SV&hash=item2e4732106c%3Ag%3AxBIAAeSwMFJq52gr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BhCPAqR9V%2FQPVdI5CIJRn%2BtRaFohQDeWYY5GUWG%2FjRwDAwy0Si353q61dfC5z9ZmKLnTzHHexoFGDkIsAiXC7jg5Cohj75kUsdzUpeNeY5pE2ayvNlV38T8Qiz4IQ9ZC6q%2FG1xGg0v9Nk%2FoNZNABidt7J%2F9%2FSYScYSG1AB2YctY3wFmbaYOGVjE%2BxIqY8RKFpD8L0w9fZWR6%2BTs0i1pHXwybNmMSd8Wp7AayDfa4HAB%2B9oUhfuYkReBiDSkVPizYZSsSdGWt1u%2B0A9PZshHBD08L16tE%2BdFSTNGkgsKKb3ptm5VZrQeOOXNC6Dep2kKAw%3D%7Ctkp%3ABFBMhMGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198762958956"
+  },
+  {
+   "title": "Sony PlayStation 4 Slim 1TB Console - Black",
+   "price": {
+    "raw": "$121.65",
+    "extracted": 121.65
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800799042639?_skw=Sony+PlayStation+4+console&epid=18030648971&itmmeta=01M6C20W1MJ57NWS012XNX5PSN&hash=itemba7357ac4f%3Ag%3ACUEAAeSw1rFq0UBR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BnYh61OphUbjwzENVc4cS3ItuV0mN9GHuNdxUTNSaZFNO0wojqed%2F30kLtrxUSroDBKr%2Br4DoACfFV3v2jUrGbIEFhTJsW2KoixA4GPgQNX3K3mpFXz1petvr7v11kQYy8a1C%2FqJzdW9tnvRj1wa45y1RGq5kpRLok%2BypPGpca%2BDFfpLndxCj6b5Ei7pFeyTR%2BCL13hUWNG1AHHmNrj2mfhYpMgHXAbqHzRk6fz5IO9zOaUaam149Quq5WQ2F43z%2FrwjhXN%2BKXnnsXXbcPviwU0a9%2FZBz405wekneTVJprjuts0ZYWK7WFG40%2FuS5xww8%3D%7Ctkp%3ABk9SR4TBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800799042639"
+  },
+  {
+   "title": "PS4 Sony PlayStation 4 Console 500G CUH-1102A Fat Boxed Stand Power HDMI Cable",
+   "price": {
+    "raw": "$91.41",
+    "extracted": 91.41
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137883480472?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1M3BPQ71V96TRHF87Q&hash=item201a7ef198%3Ag%3AtpgAAeSwK%7EZqfqt%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8rjZJkbyPmlCaSU8wNaPJeLRE7YUQvEIm5Xyd9PFcITFR%2B817iJWTJFzoPiY6C%2B8Gphzt25U6xHZ3js6M6s%2BICPKdsHMPk8%2BinKgG4NYsZhmBkoDHHnIx%2BD1AXyUkYtFgieb%2FV3cCBurJ0Ehmv7NpBcDAzF5%2BJccUXmFS3x8tHY%2B2DHBqPa0R2ESu5cqSaSZohOBao71WY6ZxXy%2BHIMTU4RTbhaa5yTgERghkJhkl%2F5mYHFPN%2Faq532KyGpsJC1k%2BPhaktNBiuw6GLhRS8JsAD%7Ctkp%3ABk9SR4TBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137883480472"
+  },
+  {
+   "title": "Sony PlayStation 4 500GB Black Console - PS4 - CUH-1001A - Console/Digital Only!",
+   "price": {
+    "raw": "$82.79",
+    "extracted": 82.79
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/189046703881?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1MP44P3D8H49SCG9PE&hash=item2c040fc709%3Ag%3ARtcAAeSw4-Nprf2M&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde99muUQD0ddsVfdzWVm9VB%2Be75uKNchNf9h%2FiFaV2p26jOFiw%2BuJrnHx9dT548zL7izToKavMI2QZmeJUeM%2F7hi97AkfS2g%2FMb28iMJjTp97h7ZZKpMln1ckcezbqpB8ZyYIWLVqJmAzA2fginjFm%2FCbULbSRCLZqHmy7Uy4o8F1uvw%2BPdrhj6PHTRxT%2F68uW2n0LSo9Av5I3WARCXnPPHSHMmUiubPu%2B25p4LyTv2M0LhXatkCesAxo7EMSMoyYYY0dGcgaJKRuUblWkFNcpzhj%2B8jhoehtUyuKlDP9HlSurIlPTIxgnVnSmZ0Mr%2FISzQ%3D%7Ctkp%3ABk9SR4TBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "189046703881"
+  },
+  {
+   "title": "SONY PLAYSTATION 4 SLIM console BLACK 1TB + CONTROLLER + SILENT CABLES",
+   "price": {
+    "raw": "$126.00",
+    "extracted": 126.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377610892643?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1MV8FK2YVQ5EVKNG64&hash=item57eb5cf563%3Ag%3AUX8AAeSwtGZq0NgI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BRjLoSouxLegkOdLoEPUycN9x9Ue7UEPBnMjI1khs15PJKweUak0sfh2P4SFd7OSeOZapNlxGKE3l8AMH%2BNG7OF8SI1sx3Froia5PCH1nawwVxwNV%2F1JlQsDjB%2Bemu1%2B0lMZ7QzM0N%2BpxwDw1mNPgrgcJTHAnUkKQjpeyr4TfWQMKE0h8x5ycrf3odDpc6i1Qs5UTZAEMw9v0ZGKnQLRtsJyOzyCcItkXKV5qcXofcUufk3yMKMjNk9%2FUswUmYsN15ZhVz7Xmsm7Aw2UNXehXi%7Ctkp%3ABk9SR4TBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377610892643"
+  },
+  {
+   "title": "Sony PlayStation 4 Console Bundle w/ 8 Games Crash Bandicoot, Uncharted",
+   "price": {
+    "raw": "$109.99",
+    "extracted": 109.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257816998096?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1MN90YB3RKP56G62XZ&hash=item3c071730d0%3Ag%3AgyMAAeSwfvxq3gxi&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BjpsAe7VQ2RwbJBThMnJldDrh0WudXxnPceQ54XZ9PrcC3moKWkNWFjMufMCxX88Ic%2Fw2o7wopBfEqhhwB1uBKOtEdeRYBKBQU41yaBoDG%2Feq%2BliauQOmlMHVQixRrPuaUb%2BzoMtLmD2lSQHHSN4CIb4o%2BDi8wYX6TvUCqGljbjKkbQz6WC36WMEano54qhhbHUxbNlzGP5r64zWzsUtE1kr0a94Jd7FmqDJ6DWy1TLniZtCJaaKxWDu81%2F5FVPXb%2FAnfT%2BEnMpmmmmXnV5Q8V%7Ctkp%3ABk9SR4TBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257816998096"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 500GB Console - Firmware 9.50 - Console Only",
+   "price": {
+    "raw": "$143.09",
+    "extracted": 143.09
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188983280577?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1M6W5SX6S1ME4VSXEN&hash=item2c004803c1%3Ag%3AvCoAAeSwuyVqtoai&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8%2BB8pNQKY5MejzKE6uU3kn%2BzmII5Kg0JR6sKXXUQgdFk3Dl3YgES4%2Fz4yRY0O1%2FpFhWIxiCsuqHwBEkdtRVnjnUpxITs68I8KnzpWCBoHOpT7QL3od2IwhkHTgY0EF7GJrboxYc6GX9SrY597KiX5yXd8Sd6yX3nho0KIKHbhzrc7s5KFTO%2FfdWeNXVvMOofF586kKmw7EQHHyMpBFpe98v%2Fs%2F37hdZHcfvwYyc2pB3BnPdckozzdFmOcb6FqNLZk6SFlaiFXf7hdNiG9MaN1S%7Ctkp%3ABk9SR4TBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188983280577"
+  },
+  {
+   "title": "Sony PlayStation 4 Console Bundle 2 Controllers + 4 Games Spider-Man, Ragnarok",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336701162279?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1M6RSRY2EJ8XR5BD26&hash=item4e64f40327%3Ag%3ArO4AAeSwS%7EJqX9vQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8LN07yluOOi55v2X8SNKNSIhWtxfB3f7hh8XMvY%2FcULM22DkCkEGcHy8mHKUW6UkmUSaSbfnM85SJ94EEFHh48aKnYgnEHRczW8aFV127NgcHQ81SvmWwTEOVbZ9asfeclQUGPJC6pkjUjq9X%2FiQjYg%2BRjsZTyaySW4R6REutgyNKPkOnDpr77RQx%2F%2BvEm9FUgriR%2FRnzliA7vssoSOFJ8df2nTIPsZMYKNwxap6RXOc4C1CnDvkBMe9wDDy%2Br76GdqS00zhRkC7Wj9cO%2BC0CZA1U%2Bwq7B6jNvtO9RGscSCixVqLvUD9%2BN7LtaaQr5QZo%3D%7Ctkp%3ABk9SR4TBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336701162279"
+  },
+  {
+   "title": "PS4 PlayStation 4 Console System Dragon Quest Metal Slime Edition 500GB SONY",
+   "price": {
+    "raw": "$268.00",
+    "extracted": 268.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/125516873513?_skw=Sony+PlayStation+4+console&epid=1740166671&itmmeta=01M6C20W1NC24HGNDB5N9EA84B&hash=item1d39637f29%3Ag%3AQvMAAOSw8r9jJXrf&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde84iuoq74%2F8Muf%2FDk34tNiKaeyXmwVrHjigaq5wA3N8UwW%2BoJDN3oXSnRGDncpMpxkWMgROUxdZXZOHisjD%2F26vuzUiXWU4GCiWAjq0I8M5MdLWQlEjO69TUKOYX3%2FysfWzjVsqnts846FpuNTvNg3eCsrbCR0meTInj%2FKzRbdZUCqid0I3yELFm29GuuIOwHfU3h2l3kJVPorcJdpfenBhuhIljuxYg%2FUFYrltnoZnImS%2F8k5EiQePbM35hTeEn%2BIbM%2BCPzl79gPzhLFGYFGIb%7Ctkp%3ABk9SR4TBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "125516873513"
+  },
+  {
+   "title": "Sony PlayStation 4 Console Bundle w/ VR Headset, Camera, Controllers",
+   "price": {
+    "raw": "$82.50",
+    "extracted": 82.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168818550824?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1N99VY57BCRZHRK3XZ&hash=item274e5ea828%3Ag%3AAZQAAeSwaXJq39HO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Vx9bMJUbhb9OmXw4S4XWYpCrOoFLTeteBzqHRZueRTZ761rQWSaADZ143Vl2aFt%2FgUSNtrL32uy%2B2dbJ5rEQNCPVN7vWPBEUeHVCCcn%2FTWR0RxpEjzOk0F9W40L2YoHbQTIndDe6JcY%2B1H5ZFuF4zc%2FAtkesPriSUt43UsWPE6MtpQUtbJ1pKKjOD5DNGzLgko0cCzPSP4z0MtgNvZZpaC1aH4FkRWq9kFetRPFLmEzWbWRVlxlVnCV45JNkRVqC1iHH5SOxj8B1yfzc7joQkk081Tu%2B0sDS4R%2Bqi6VgnaJbItjXmQGm%2FDArWXpyalhc%3D%7Ctkp%3ABFBMhMGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168818550824"
+  },
+  {
+   "title": "Sony PlayStation 4 Pro CUH-7215B 1TB Black Video Gaming Console with Controller",
+   "price": {
+    "raw": "$123.44",
+    "extracted": 123.44
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407320344655?_skw=Sony+PlayStation+4+console&epid=24038112856&itmmeta=01M6C20W1NTKGRZWPX946X203E&hash=item5ed62f384f%3Ag%3AB58AAeSwlYBq4N30&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9eaWq%2FQE5Jrl3nx2CVyayWp1OC%2BGB5%2F0feSUBWxXU8HEigkNdxZ5efZA3zzGLQKXJvE4MtP2yfd5AiBx10JrBIw1qXfTFxjwyhQj6zYLofx2M2UPSUo9F%2FcJJ4RFuuQVLEi%2FAOkMryEMBN9sIxtySqFgAQiRnhDihG%2Fs7VemBn9vCZjBZALPOtQgYh4mmmmll8t1NW4z4bNYeMjCuYGVJ%2FCZMJ7ZRBgxH0%2Bc2NIiK6aZfl8hxEwE6TxYuEX2buVxyYtIL1hTN5zn5tIbUv4%2FwgBLCtN5b2HhLFr7hN6%2FARvEI6X19lnFPQt8ObhxJmUIw%3D%7Ctkp%3ABFBMhMGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407320344655"
+  },
+  {
+   "title": "Sony PS4 Pro 1TB CUH-7215B Bundle, 6 Games, Controller & Charging Dock ~1 Owner",
+   "price": {
+    "raw": "$175.00",
+    "extracted": 175.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267830007795?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1NBEH3WV9NM1EXJBMZ&hash=item3e5be997f3%3Ag%3AQCkAAeSwpgRq51Oc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8zvTr1w%2BfQUtQKwRlVoIKPKhn%2BBNobn7s3OkB5TLqqa0RJrJVJQs1ZKft%2F8LmH%2BD6U5CMTfB%2FfR9OBEo86BOMBJggDM8t4jeyiZth92y22%2BLB9CF%2B%2Bs%2BcfWbcV8xihVE3Ns0ctPn6cWXxx4GwqxXkBclquvBBz9Wz%2BxUQxOL5RhE1a%2BDeCyRTWfDoKvYCK6inzsqQWEbmSDazYDCJ%2B%2FjL%2B36fyvVOaNmGHjQwdqemOt8oZ5foW5VEkMHd%2Bxf4zwtItuDqL%2BKqcNznnL8KDE%2FIXaxDg%2BNT5RInb3nF%2Fe6yiOuw4Gdz0D0UzRmYLS0aGLhc%3D%7Ctkp%3ABFBMhMGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267830007795"
+  },
+  {
+   "title": "Sony PlayStation 2 PS2 Console SCPH-37000 Ocean Blue Controller 4 games 1101",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198316651106?_skw=Sony+PlayStation+4+console&epid=23023369397&itmmeta=01M6C20W1NCRN2AJQ3JS1865TS&hash=item2e2c97f262%3Ag%3AcXkAAeSwiGdq5ymo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fe9fMJVON4ubK7t8Iw2ZfjtC3qpumvAEk1Mr2NF7kaLGrojgPCowUAGaIfeB1rKetW2y3UrALLeMUb9NpBNW2TK2vZYU32Md5Vegd15mi2Lppxb%2Fr7ansEmUofY33B4WPWKdpsZFn3f3A9ZH5VQb3476xnIx86UiiGx%2Fkha2USh6pbXH4slggBfyqx85ew4578x2gAVDTP%2F06L5f08YNuu62OAxLRd6%2B7w0khkp6nuQbigaerBv1vDdw6JrnzG8gmk6XUyPFne43CwpHfWHv%2Fcrq%2BEcVvKG8PEey7oDIbSSduswQMvrhjsqbdROqxLOGU%3D%7Ctkp%3ABFBMhMGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198316651106"
+  },
+  {
+   "title": "Factory Reset Sony PlayStation 4 500GB Console Gaming CUH-1001A No Accessories",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366551517660?_skw=Sony+PlayStation+4+console&epid=13032580571&itmmeta=01M6C20W1N4DMB2M0848YFP15S&hash=item55582c49dc%3Ag%3Aqx0AAeSwjF1qV7EU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9gHeaYeEEtDA6lKRSXRbw2g2mOBv1Ca3Qj7xgxpIO%2FsEhap89rD%2BWVT0pIJ0HBuKk9v4S4lQNzADEWAyZZ0ZvA7rITusIujAu9P3M%2BTsabR5AKiC2xVY7sX0QXOOq8smewAnLMsIdWDKCngGxpIHV--OK%2B5B2GmNXxF2zeLuwcoGzAghNZ1HRV1WdyTMSkXdwckuvHBXNrvQmSjKJgaMOxQEjwpoaB%2BUa%2FFDdC8b8WHXAsa9DapJ2EnAY5gkUWEUgZzdDxmG9VtRJnyl9U%2BQn3%7Ctkp%3ABk9SR4TBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366551517660"
+  },
+  {
+   "title": "PlayStation 4 500GB Gaming Console Black/ OEM Controller/plug CUH-1001A Works",
+   "price": {
+    "raw": "$90.63",
+    "extracted": 90.63
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278293658068?_skw=Sony+PlayStation+4+console&epid=13032580571&itmmeta=01M6C20W1N3VAPMZSE57D3ZJEC&hash=item40cb9839d4%3Ag%3A4jQAAeSwzkRqhM-1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fdx%2FZYCH7MRGtCB93MBlER%2BS7ybyIK26nkhwj8l%2Bw%2F8R5stzPlDoSb1BjJRHYJDgWBaTxOcDPGecggaEbpxz9d%2BHvOPl3lNdQ7fF7tmzwIBf94ri0l5dU5%2F1ihVMNWbVKY%2Ffm%2BtR4XZby%2BOZeUGDZbLHp3W98aBQIx3%2FGF3NHsZ6KFLoPPQKu39ILMCRSFOHd5frRljehGJClJRUGOOO6nKzUccGiKsaaLw6j7rfL3ptWmwXCR5pPQVckiSrsaYTbmmYk5vSyxZDR0rU763JOZza8BOjiKl%2BcrZkxlbm53Y6BjbeST3YvnvXPddaPtOeg%3D%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278293658068"
+  },
+  {
+   "title": "Sony PlayStation 4 (500 GB) Home Console - Black Ps4",
+   "price": {
+    "raw": "$117.32",
+    "extracted": 117.32
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327374594599?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1NVTGSVQYF3CZVBQS7&hash=item4c390be227%3Ag%3AwuoAAeSwJ05plKrT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde95CBNnZo0IXaV8IKuM%2FKgPbXfMcHLolmQwAQSN%2BEHvVWZBL7UEOW0vbemNyGIITpSWVgrdDp%2Bjmo1RPDJ%2BR1n2Y8%2FI22S2yTqe5TRUTZK5AElmXhP3ilS7jD28MrQr3%2F4syGoAuJ7yaTPvXiXk9wsHIRSImrzpm4POdJkCw6Lr4kp4Tz--aDUQhzPEBJdK8w%2B0bY%2BnGDd%2FifbTSsm09FysB7qae6cgTgXii1N4M7AujeEb9MudYpciyUI75Vs2jpSMNpGIe5VqA0jkX1%2FdUwYiEgY0yIKPdzibckMm0JQGwJGIy7xKDvRQYJL67u%2BUaRY%3D%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327374594599"
+  },
+  {
+   "title": "PS4 PlayStation 4 Sony Original Slim 500GB 1TB Console Black or White JP",
+   "price": {
+    "from": {
+     "raw": "$168.00",
+     "extracted": 168.0
+    },
+    "to": {
+     "raw": "$209.00",
+     "extracted": 209.0
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/396082892197?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1NMSSMCTPV83J35W3G&hash=item5c38614da5%3Ag%3AJdkAAOSwjdBndp71&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BCZY5b%2BmeeT81JSOHVsiGuc381c3FtqEeCrwiCMOKH1lsT24WkX1iYqoBFf%2B9X5VprA72PhTb0KB2UWJFajvBK5AJWiK6MoxBCw1JsL1m44WROhpYjVcRZk8WEa8NrYmYE3fwVOxJv8viaOmsgU33lTilEuP9vb84hHVqO%2FccCeYhL36uT%2F7nARO%2BLP4SbOt9uuLvLpDIy%2B8SKfjQYMcfYn68FhapXzKGqYC4ATYLsFwYfaW3D9YI5cBtkQJHR1Ch0SNh8FV6SM37cQFtXus3vJovk9kmQBDVKrop2BlxSVkKNHTBytN02Be968kdfI4s%3D%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "396082892197"
+  },
+  {
+   "title": "Sony PS4 Console 500GB White CUH-1100A PlayStation4 NTSC-J Excellent Condition",
+   "price": {
+    "raw": "$129.00",
+    "extracted": 129.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/375584290966?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1PGAT52AQNV6XGF6SS&hash=item5772917896%3Ag%3AoikAAOSw4aVoCkJc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9d3htVeXG8lLMwuQ1a9uosTsTjKoUZDPDitzs5wvNmFjbjsyEF6nZLWbBKcJT2NjJyhbB1YDRjuKuDvcI4X0t--zfmb1pHOnlLDFzFbR3sc%2BwAabN5Dgb7hXEY9ThkvgqIqvmc51arB%2BgsX6WcKw6G6adlcBfKEAYzqbO%2F4vMvytN3bN5jWdV9Mqk1ywyPNg8hZ1QgkqzVzzFgg4yZl%2Fsp85%2B7V%2Fk2rHdbX%2B9Z0jerlYoq5ILuCzppBHOGHFQEoM5AzFcV8n2R8mzFW0pQY1lbYdXiGmpJvF%2FbiKa7%2F5RSOv3sPabOi0yLJRv2A5xKVjk%3D%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "375584290966"
+  },
+  {
+   "title": "Sony PlayStation 4 Console Vocaloid Design Limited Edition / From Japan",
+   "price": {
+    "raw": "$273.41",
+    "extracted": 273.41
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168385514183?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1PXVG8YA1MYQ2R8JJX&hash=item27348f0ac7%3Ag%3AOZwAAeSwG%7ElqC%7EPw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9zH9naxkfLUmhisxI88W3fYRO7sIshlRtwbOtDeXou53jgnNfVTyUVAFznzAQ0H4HQWoxilhlvMuInimnrA2OxFj4iyeYk6d9J0IdeAc1SjfiXfwNgnz3QppGi4p978N3KuXdQEMwuHkQtunYGw9lFMWi6kwmav4lyXCF8qmrnFLMgoMX%2BizNbDmbwL00feLzWFF7NIfA1C4RmK1gh5Dhlrt0RKnch4gi%2B1NaGJQXV%2F6XAkoCpy4VH1GaG8BBmFzY4BTJnZmKwYYQTWLV8BRxmrQwnPM3gjt0Tgm%2BxYAj6zelE2aXWaK458dUsHavr0is%3D%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168385514183"
+  },
+  {
+   "title": "PS4 Slim 500GB CUH-2216A Bundle 3 Controllers Charging Dock 10 Games Minecraft",
+   "price": {
+    "raw": "$149.95",
+    "extracted": 149.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198760594933?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1PNA5K297G9YBYV3NE&hash=item2e470dfdf5%3Ag%3AYzEAAeSwtkVq5kxp&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9J19grpzr506PW99t2welKa%2BajcdN7fINwd5EgSx2HtFquA8LcVixdkJF8egeSQcvAVfWKQ%2Fu4Fi6vW0NA%2F8dfSlFtmFxsQrLJfyMiUVI1aR5b116q1dmHwhUdO0aa3DeWu46iL81yDFgHXoCJWWEiWoV3zxwuRe%2FTyqa2AwHloiLmao7J2X76BU%2FUKuxPwHIT6VoxhPDxQen2jJkk7ZBZ1ENJ0RINjYtP2n31FOKTrLfGdBl%2FXIRMiy%2Bwyjy0k2KJ6NLpCL5D1O14EVtklX7y%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198760594933"
+  },
+  {
+   "title": "White Sony Playstation 4/ PS4 Slim Console - GENUINE CONTROLLERS + CABLES + HDMI",
+   "price": {
+    "raw": "$158.21",
+    "extracted": 158.21
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/116724842633?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1P42PBE9R8BNSMMGEG&hash=item1b2d57c089%3Ag%3AUYIAAeSwlfZolXvt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Nr02OA98vcyrmxyxog66BA%2Fngh%2F73NTSudJCnpYO9JTv86hoef3PoqoDgb3SBHaUPMxqFgsQPpSa90sYeA2hUB1BIdgG3svKyev5VlG3gShaknxZm4nwDgRQJimEDZgbymszOt9phzfDHtbN%2B%2FitSL%2FX9yUIqF1YiZfhm9WDY3MIAOHl%2BHNzS3mopvF0NM3lK%2BCFukaVL4rN%2FbfhBZ8LjYvO%2BLQ19vkZiUfcJpl2EBITMlmtS%2BBTE2EKi2ksRjHwmCw95A559av7yG2akNYCjIUiCw1W5r9xafvTJWFsGhiGnM0rb%2FMXSxC1cMBeyhx0%3D%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "116724842633"
+  },
+  {
+   "title": "LOT!!! 6X GAMES Sony PlayStation 4 (FIRM 8.52) 500gb Console w/ Power Cable HDMI",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267798126857?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1PXDQ4MYP0RPWZ71QE&hash=item3e5a032109%3Ag%3As1EAAeSwmwpquqIT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde91RweM%2F4RhgfRf1Aj4sw38XUr%2F6FHJli0%2BUzitLMnT5NKkjNn8TBcNO1WcfqpDHAK%2FHotfsYB7zKE0a71aOfo4yYkv1D%2F0to25oZ7vaOme35OTvab19HvZmblUZo85pq8vZTLjmJVNKFlBulf5tgvfR%2FbPLs%2Bt8w4pXZWACZi70A854BZScPf%2B16rrAlaK51n5VX2k1a0XwI51g%2FcHelXsy8i1BgIv0BDGUPRFQgZqrP8eI0qsE1b0Dzhcwy5qLev7hWD4uvOONKMgLM%2BArjD8k1S1yvJppaunQaMcR%2FIIFPOa3MniB6eKSBrFc5W%2F164%3D%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267798126857"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 Home Console Metal Gear Solid V Phantom Pain Limited Red",
+   "price": {
+    "raw": "$208.00",
+    "extracted": 208.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800667097138?_skw=Sony+PlayStation+4+console&epid=219494529&itmmeta=01M6C20W1PDXM1NR3YJA5KD556&hash=itemba6b7a5832%3Ag%3A78oAAeSwmuBqqZoW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FM076uEh%2BnY6qMg1ycKrx6DwHYCW3UbIbn%2BggSQJL5bLY5jABGXYVx6y7Ke%2BO1A6UDIEJKdDlINw0bh0ImBI1BTPFaSPqJ3hYrnJ79KLUh7UPyBqxfjKb3qoj1BsM19jo1pwur91fc1XqPyHHnK3dNrhuKO6XkyEeuYoPhWJ%2FDQ%2FqiQbEeOM7ciw%2BcL3L0o%2BPTgBH4C1yWvgbmQkpnJsiJQAhigyAigjp6MCsPn3585%2BsKjjaFVlOcJMjkYOUWRQLYYTi52go05b9MlxFJyLjoG%2F6jI2VNRGR2CH3tVSU7CrBBBBVfO7FA1kwXUVPZeCA%3D%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800667097138"
+  },
+  {
+   "title": "PS4 PlayStation 4 Sony Original Slim Pro 500GB 1TB 2TB Console Used",
+   "price": {
+    "from": {
+     "raw": "$219.99",
+     "extracted": 219.99
+    },
+    "to": {
+     "raw": "$329.99",
+     "extracted": 329.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/393419045168?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1PP39112J3Q3HJCVKV&hash=item5b999a3930%3Ag%3ANzYAAOSwBPNiBoAk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fb7gxhldSZOHjclOffKVQCvIiny3kCzWnGvim9u6RfnrZ0SxNSoqN2L6wKxLZdZe7zTypHAKxOWIliv%2FIKLBneX5bI0%2F9DaDlHc%2FAQ%2FXtHLYzqPP8damrj%2BXJrLMNfIIUAesYVBRPpF2CtmVSoPYF23Kdg0iw6PmvwwAdRN6E7THDbhpWJ3%2BrCqUmc%2F5L7SF%2BMyfoi0aVICD8OCJ1aBx0STx8kW20nj2ggOxzUdWQSONY3jZovV%2B%2Be1YcOolK0D%2BttvQue5XycYcCPfzP4eSq0rdFiSg%2FuzAeSpqojqt7PSI5tF0lXW8MTDh%2FvTua%2B1Ik%3D%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "393419045168"
+  },
+  {
+   "title": "Sony PlayStation 4 (500 GB) Home Console - Black",
+   "price": {
+    "raw": "$105.00",
+    "extracted": 105.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398380738927?_skw=Sony+PlayStation+4+console&epid=13032580571&itmmeta=01M6C20W1P3PT5SB33VWCHSDAJ&hash=item5cc157a96f%3Ag%3AdfoAAeSwOY1qopJY&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BPa74oa40lmMEKP2oW1%2BqHEGSvwXSHR%2FNKZ34HHmf0QB69gutrTU6uWIisuij7Cuba%2FfQpxW6A%2BwD4kNY411oGTggSjBieu%2FMFl46mu2GD3TLe2ALgiwkU98k%2FCQM1OEMIQQ42Q8C888NtwPyg2EwyqbWNwvsB%2FRzwbDRi8VeBMaRJTuSbQLZSInKQ84yS3jrtDT9RMEcM41oX5kySeD75Zb63sTdfvgoO1XQNISMHKTVnvbwrqayrpDsdYqUSsz3gbSOECTSKysm3LwEuoU0Q%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398380738927"
+  },
+  {
+   "title": "Sony PlayStation 4 Black Ops 3 Edition Console w/ Controller & Charging Station",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407318605342?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1Q8GX26W6M99VMW19B&hash=item5ed614ae1e%3Ag%3AhtQAAeSwsWpq3-lD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BdjOwCGIgOcLwetwpNG6BaoMjUvR4A9Gxk6Im9YcS2SvOCJ0FBTG2G7jm9ggssiKfyCTcssXvTD1NZHSkRu7DOouj5z%2BMrKxaiK%2FKt2frrXoCNlJvO7z0CtjCcL27r6ELvmM%2Fw%2FfkxTlKRjAPg4q%2FDCQuXn9eiG1Fj3v1PceaviiyWmfWpMVf6%2Fxkb01%2FI2EvRAjjHi1aikk9rwIatGxsHXMazsH3GKyCJpypEM7KpSCZhkAoWcQeFFCi2cMAjDBfZ09SN86WamOPQs%2B%2BnJBQDlJHce1f1I%2FBcgGiPzsBUliXaQEVvkpwLoCfNAUu9yk4%3D%7Ctkp%3ABFBMhsGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407318605342"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 500GB Black Console CUH-1115A Tested w/ Power Cord",
+   "price": {
+    "raw": "$99.00",
+    "extracted": 99.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920091265253?_skw=Sony+PlayStation+4+console&epid=1641310065&itmmeta=01M6C20W1Q43D9GSM3BJ6VHQSY&hash=itemd639b688e5%3Ag%3AsgwAAeSwZAxq5hDz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fc6lIC2qa2cEB1P6Pp7dphKnfQ3R5N1lFLG1jcN3fg3r5HeymM4RhbmlSSZx6CPg4w57UvsAiVv7wSkCw%2B9ndkflOXGJPdv0pxNjKMQyyMW9Bb03i9TI9Tky6HTP%2FjVk%2FPSohm0AHj5jh4PGzmIaJia1uJXRJvdkq4rsku6eJqF4olToivTgibPjif1EenlkD5Aenp3%2BUGgvlBrRbYHtLKRjSR9lb7A%2FAP%2BfUe2W3k00ybFiZAqofbIzE7qhkdTXM47FPUOJYLip39U515feg5WOtI8%2FumSXR4hjNBo%2B8vIZQETp5sYRXLhT3FiT9Gqdk%3D%7Ctkp%3ABFBMhsGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920091265253"
+  },
+  {
+   "title": "Sony PlayStation 4 Pro DEATH STRANDING LIMITED EDITION CUHJ-10033 Console Used",
+   "price": {
+    "raw": "$312.49",
+    "extracted": 312.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127569978483?_skw=Sony+PlayStation+4+console&epid=15042909453&itmmeta=01M6C20W1QRCG0S05FN4NSTHEH&hash=item1db3c36473%3Ag%3A3jIAAeSw8SBqqfm2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BjkXw9n1TZ3Qd%2BBNzBiW0lmHSWz01jWBWI3oXD%2FFkN2oGb%2FGp%2FoUjqId8BKZLAzi6AIx4IJUOm%2BTRnqgBWp5MKz4mX2elqKurhf%2BG%2BGsxQJGyVyoO--f2E4uC7STFBrgNAmxdbHiul4GwIeEBWKAWFjLtpzd%2Fx6Ov8zK4nEqAXFOs7hWgJrJ3lKgJQuXyzUo5rQ7LMQiWCYCI%2F%2BvkJ07m9NS8fyqUL1b3pXoPppz4cI2U5orSDZaanNHfPQ6UCMgqNBfBO2Sx6dGZ0sSsDhMJ3L2ndn4dk5R2DxQ7j4DsqZ67IrRErb6V53RdY1VM9fMg%3D%7Ctkp%3ABFBMhsGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127569978483"
+  },
+  {
+   "title": "Sony PlayStation 4 CUH-1001A 500GB Gaming Console Black - In Box Tested",
+   "price": {
+    "raw": "$148.50",
+    "extracted": 148.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820297030578?_skw=Sony+PlayStation+4+console&epid=167317351&itmmeta=01M6C20W1QJYV58S71X9WEGT8R&hash=itembefd835bb2%3Ag%3A3JAAAeSwkxNqE4DS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BjIlcEJcLOFNVU1uKq6s0KbY%2B8XNyLS4ugPqzn%2Bxf26nK%2F2GM1s--qgcmdDLqX5VITHhg9x9ivSiQ7fTolqZAcfbaW0IoC1dWDzRZNv5qyig%2B0GwvLgD2wKV0I0%2BM2Otplfqd4yUNAHilokNF4GTidHvYFjcoXf4MsKOkI%2Bf0Wz0H1qB8Qt%2Bjq5cVBGJtQRRIVtxX8Tu4Dte3Chdlq%2B7%2BhB6fwPw7OSnuZghxvAO9XvY0Jcx%2BddFWVw5ONTTmGWCI1kwegExe541OEIDtMMG0ecSNEr2ZxDXMBR4PA1DtEiYfDEYB3MR2%2BqrgCPNwuvyk%3D%7Ctkp%3ABFBMhsGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820297030578"
+  },
+  {
+   "title": "PlayStation 4 Sony PS4 FINAL FANTASY XV LUNA EDITION Console (1TB)",
+   "price": {
+    "raw": "$399.00",
+    "extracted": 399.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/393184885740?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1QRYE1HS29MBJ05Q74&hash=item5b8ba53bec%3Ag%3AyUQAAOSwwnlgS0R4&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde94lZ6MgDR52EssIVvMc8xz853LFbY8usITicFsT9AIU%2B0y5RL7bExZjce%2BSt1d%2B2RKkt8PsVvPpYvx0cdOEAnRVRRR2ZRygccH9Fll8HFLsNxJfFONwl35VVOHQs0QT1XmhDvBdsU1oZ8uMvp32NOfhEDPmNJVWfzLn1CGCgbbKwTvCvHU44005rn7GWaMbkS23NndjLutNI1aDEbsKcb4wv4WV4Q1puF9gogucmJNOdadiFHWiVY38KRXA2mIFBl%2Fi7Kwt3oFAljyKlbkSU0L%7Ctkp%3ABk9SR4bBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "393184885740"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 Console Bundle w/ 2 Controllers & 18 PS4 Games Lot huge",
+   "price": {
+    "raw": "$265.00",
+    "extracted": 265.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/189014906227?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1QS60CQJHGQ9QA170F&hash=item2c022a9573%3Ag%3A0O8AAeSwO2lqvFmT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BPvEULZQhm1RzqaJzEt3HRhcyz6Bh1bEtcDbrouJO6Htzom7IgvH7uJ3RVfl7Nwa%2FRYflZUn6eJK2KK5NFhrLHw4uHz%2FkLMv7pfVCwrZh0h%2Fl091kmExwQ5BZxVMKETvI3An9722b6fYCLbAeP7FcAWS3Rhab0uSU%2BRA7vGq%2FP2mmmNhY95fUaI5xbbhAw681XnPhbsc2jRJm0I2CReune62%2BoLgL%2Fe8wBeYK%2Bb9qWQCPIZ1we469YoszSpC8TX3fFUfkkckkAOj5VLvSdoA2s%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "189014906227"
+  },
+  {
+   "title": "CUH-1200A Sony PlayStation 4 Console 500GB 2015 Power HDMI Cable NO Controller",
+   "price": {
+    "raw": "$276.05",
+    "extracted": 276.05
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920089753271?_skw=Sony+PlayStation+4+console&epid=2096269399&itmmeta=01M6C20W1QZRJ6KYYK3SRBD8TW&hash=itemd6399f76b7%3Ag%3AEvUAAeSwrBhq5WaU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BFM122b4J9OjdPqxJwhZnVFRnWmFWJpvCuqRRQs%2BEnwC0%2FKBj04gXePQJBr6yiKNCFW6e8DncDKPBLYeEEWRnDIrTGWjg4e0qjl3R5pG6CCmk0kjrg012R2q9rAZde9rxf9Vp7jn71tMOCAXlWaVrFrUNzOTCRhiNHDyG9esHlV9nEQYfxWef%2BNJshkmUtpTSmmCDfT3zkdkM6N2L6f1ODgVupkJEDTK%2B42HvWgBO98PyMqus6DZ0Myq4ywX8yOmpAz2r62i%2B7HYCjCXnimbPo%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920089753271"
+  },
+  {
+   "title": "Sony PlayStation 4 Slim Console Bundle w/ DualShock 4, Cables & 4 Games CUH-2215",
+   "price": {
+    "raw": "$189.99",
+    "extracted": 189.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188696518258?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1QXJ6FVEMD3T86VVFX&hash=item2bef305e72%3Ag%3AMmQAAeSwxMpqZbZ1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8V76%2FekYOWBkeNG6rwIuzrxaofpv23uNcK7rnNDZAHQ13V%2B60Qoi9wuYrWcM%2BPXrYYqdrXWqS4sHOcQSg3YqS7EogCcPrv3GoB3Ft6kdD0xzP9SOHonuYGyCiqJ%2BFClcyNsQ8ZoTJg8mDrHW%2BC1XLoSmvOyJ%2FHAe%2BVDuN3S5TiYJZXnLAr8BBWBSTuXRfaiLjaXDJPUbXsFJxxHe%2FouHeDgmrLN9WP4nNZW86QiYS6FwbEwam9b6e7tuHsRrnYeAFzuX%2Fvyb%2B5N0AqCSJBX9sz1ZyVFSttS7S3d4yl0JPpv2KZnrTYty3P4lFmw7RWaYA%3D%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188696518258"
+  },
+  {
+   "title": "PlayStation 4 PS4 Conole Gran Turismo Sport 1tb Limited Edition Console",
+   "price": {
+    "raw": "$210.92",
+    "extracted": 210.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206666006401?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1RHWN33CYER74FYK3Q&hash=item301e40ff81%3Ag%3A3SMAAeSwGcxqw8TB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BcBjZgsBLiDiQLx33VZySK5h7arH%2Bc8%2F3Izc7eKAL6X2seXNuT4oqd%2BkZ%2FHpv%2FV9D9vp53oYGf4WnnkWKqbawYubtTbuFWZwPipImfNzVg%2FFPBlxSWgpSj6zk6GnOjTgMKgYrcwwOxIDxbjV7NtEtOygWTufr3gNXQ0wAWUqKHyN4bCN4Ldp3ZTkOJeCi86j8JCquGjHAWS4sFU1pF2NDK35C%2Ft6RmxMsjLDvb6Ybx7r4OAx9ia3xz3VrIZj%2Fw0oMd%2BCconGPfAxl4eFLEXy1W%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206666006401"
+  },
+  {
+   "title": "Sony PlayStation 4 Metal Gear Solid V The Phantom Pain Limited Pack Console Jp",
+   "price": {
+    "raw": "$315.75",
+    "extracted": 315.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206320677915?_skw=Sony+PlayStation+4+console&epid=219494529&itmmeta=01M6C20W1RBVMTNDFZ7J387C9D&hash=item3009abb41b%3Ag%3AvlkAAeSw61tqIOJQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B4dj%2FzqMpLVK72MsjzRBkT1kTye%2FLtUdZ9kCYc%2FT8da8dmiZ593Lxo02t1yq9wVcFAVZnZdjAv3WgIBnRKYESWlhohFxXYGYeGNf1ZoPWcv9xjg02q62%2FbZKdsQ9yilmTG1bDnnFew1mvrcPcOcN%2FeUCoEND%2FrKt4v7nG77ijLQYH3X5OdwBcNkiJin5PbYUyEL7V1X35ocqKUGzfXDj5eO38E9CsCNe8xoZgPqL6brMZid4ORN9ilX6iK380F65wOk7IvW2NBnwEn9%2B7xSD1K0powZoWFEte0if2thtQA0wJEjgDYPFiqNL77Q3Ivrv0%3D%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206320677915"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 Slim 1TB Days Of Play Limited Edition Steel Black Console",
+   "price": {
+    "raw": "$200.37",
+    "extracted": 200.37
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178450699478?_skw=Sony+PlayStation+4+console&epid=24039872920&itmmeta=01M6C20W1R0VDE62ARCXPAM22C&hash=item298c7d94d6%3Ag%3ASJ8AAeSwPdNqkxOq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ifNqvXr%2BtNFlsfgSTDYgT2oZK9Bz6hct%2FJRZkMaMxHRMc15xqvLXhejqUHyw2fBigPwhboVpmF1Btmv4BCBDasj0nqRkuzCzBx2PEW5y%2BLkPUs2McXdYbsKOrVP%2FAD3cWg8zJ4ccBXDgQxOHI8PJPeNUivwMghRDfv2vFEDJG42MDzzy4oJUYjP8o6rxwIkzlhAKg7CRVtw0O0CngenYfLbxiprQs%2BCwxLGWa2UaC4DmQ3D2jHp8nOmVP5E3aY306Uaj%2FTT93vAZAYlu%2F42HrDr6gTNMvdZmNz2XhHifD%2B4Uel1CJIKHUaVQ0JBpuzY8%3D%7Ctkp%3ABFBMiMGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178450699478"
+  },
+  {
+   "title": "PlayStation 4 Pro KINGDOM HEARTS III LIMITED EDITION 1TB PS4 Console Boxed Japan",
+   "price": {
+    "raw": "$349.60",
+    "extracted": 349.6
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206323178393?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1R3DG048ZQWZXCWEKF&hash=item3009d1db99%3Ag%3ASVUAAeSw2r9qIi8D&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9BGzCCTERLIjQa6R7XHLKN4bE2IwkUGm%2BNrD5swEmIqAf%2B%2BJqYnScR%2BtcGaQkzp3UlajzEqLgUwVUWqekyK4UhtfL%2F4fLY%2FqZpViHJx24y2mx6Bd8N2vmdAx7cMg1GoHaHSe5NKRBUDOpljdPdc1%2FSZpxUuy4qVXNODg4hhd3onmitpIdpOJy9cD3k0PMgi2GgDfhSzYZu583Hn6k1pcicTz0BRQ%2FPo0JEugHnN3itgMdhJp%2FgiLQJj30grUj1zwVsoZ0wcp0UAQW4f39g%2Fn2vgRtJd6GskmNs4dzoIKfxgkTscdiZZHGc4nZOYgEMZ3s%3D%7Ctkp%3ABFBMiMGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206323178393"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 Console Bundle w/ 3 DualShock Controllers & 14 Games Lot",
+   "price": {
+    "raw": "$180.00",
+    "extracted": 180.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880002421249?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1RFX8XA93BGHTC0KAM&hash=itemcce43b5201%3Ag%3Az60AAeSwiFpqyX3D&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8g1P%2FCZ2DjuGOboHKtTTfXbujHUqFz18J1ARECy01tLUR9U97Bw06EdziqEonXQgWcDIUDRN2LUbqiU9hvz3zmXh%2FuyQ0fonne3icrG6SDANmNLBdtINxV4M89ZfD2HusggSVWaJfKOm7YKlXkpiCt1EseyLh5TX92DrmDLs0pgW08Euffw2s7ASjAbCDlLatgm0H2SsN5NsMs%2BCJGF%2BT8eZDMdToPBLFfc6Coic7pPYz8N8A7VfCkR3xkQzJHtikhWkDRk2%2Bcn1hqZK1tKFww%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880002421249"
+  },
+  {
+   "title": "Sony PlayStation 4 Pro Console CUH-7200B Jet Black 1TB System w/box",
+   "price": {
+    "raw": "$274.55",
+    "extracted": 274.55
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/397226163047?_skw=Sony+PlayStation+4+console&epid=24026267397&itmmeta=01M6C20W1R28K6R8T7NG54ZWGC&hash=item5c7c863b67%3Ag%3A0HMAAeSwR%7EBpnwFz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9rCaVS50CTsiSBwilKa1dVz4g4sKkOPkUxlF2MBjcSKe3vgHaGYp2J%2BO6kYz7pcrgg1uH2vqzjHm5SN0Gh%2Fmdq740Yc8B8y%2BrcuRz1X28zMXh5zYcAA%2Blz4wvmBSMaszlO%2F6KyfQYS7dDmNNVngqjJNL%2FQkutslS2cmK3khgZwy2FOaGY6ESmhkpKsgHQuBe9%2Bqk43YvVXUSvCtCTAZWhPDJqaLzltjD8lgAODUU3kAiw0U3ZUj2tZ%2BPvRtBpIijbcPHMcGAuu%2FCdSfhGE%2FTMSCTrpslSlBcG1WNthACq8U52eB8KI5H7HR9%2Bmb8VNJm4%3D%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "397226163047"
+  },
+  {
+   "title": "SONY PLAYSTATION 4 SLIM PS4 CONSOLE IN WHITE 500 GB BUNDLE (CUH-2202A)",
+   "price": {
+    "raw": "$112.51",
+    "extracted": 112.51
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800674648578?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1RX4YKH8JJF9B2H46H&hash=itemba6bed9202%3Ag%3AMJsAAeSw4%7EBqq5XI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bw6otnWJg%2FKx39tCJz7teE%2BgYHtddy%2Ba3Rr9BO0%2BvQ53Wb9dm4OmMcqTf64%2BauHTYXtgw1ChVDPqAASriZm0eDZCxGg4eW%2F4uU1GPvP%2FIwBSxDS%2FfHle97Gz0CJDzGwXg8MFPiC3DI2X89DqKS%2B69sOwVzmCgk3%2Fnyn%2BnVFXUMIwQ--P4T%2F6--batnn49kulBFttNTAD%2B4cXODHZL3SxkOdBrOp5FvVambXMzdewjSe40w997VxqWo5zFLQynPIe%2BFrEhR5VHLovnSPsBnS%2Fg6%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800674648578"
+  },
+  {
+   "title": "SONY PLAYSTATION 4 SLIM PS4 CONSOLE 1TB FINAL FANTASY XV EDITION - CONSOLE ONLY",
+   "price": {
+    "raw": "$118.92",
+    "extracted": 118.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/226633702752?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1RGSZ1V1P298CGHTDG&hash=item34c46bdd60%3Ag%3A9usAAOSwTLRnykE2&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8t23sx%2BUKQMVtYP6Ivk3EqMRhIfjCaRn0pv%2FWm5FdexdXHGu4Jo1EXlc4c4H%2Br9UOSNcgg%2FkgQSi82Yc28K5hYmG2bTJtEi106rZH%2FzilFFyR8nL1s0VxOloGTKtNGFKxBYvA6WYmS%2BPbS2b0BD5JGB11C3P56%2F90ApgcpGCGRwzmiKZUNEKG%2BKT2Bw1K2p9WE5GnUarZSDSi4KRfWPtWctyiweJtjsrI46aS6nZg3ZtVIGSQ%2Bby6YPf5aI%2BlgaEsQahMv4K7mQFuvU0vKgjh7%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "226633702752"
+  },
+  {
+   "title": "Sony PlayStation 4 Slim Console with DualShock 4 Wireless Controller",
+   "price": {
+    "raw": "$89.97",
+    "extracted": 89.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318459561863?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1RAPBM0BSTQNJJ92C1&hash=item4a25ab4787%3Ag%3Ay-IAAeSwWW5qMCoF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde93qatPtPUMFfYe%2B8V9IelqDgUr3mQCL0BOXRVHkC7oZhRmziALAVR2AxUM2IlfZLh92sVYHv6o%2BFvirj1aDGhkQJI65UHdVs%2FjustEAStmV1BDlANJGolJsTk1Y43LXLk4HgCziCkV%2BuBpLapdoFRlsXh%2FP2zXP0yGy%2BSwScjmfIxSXIYUQazq9xJlYNJ6b9PPD5ZXMD8n1LlFMW69%2BlYyYwuuRPQQj9Ce2Wr4oz66WnKKggkcc2d9o%2FKVy3Yb3x3lYrVCP8pTmsfZIwMXcbdlkmHcCiFa1gu12287CAukZgpk2nwSRq%2FDFMVDV9ocLqI%3D%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318459561863"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 Console w/ Controller & 6 Games Lot (NBA 2K, COD BO3) OB",
+   "price": {
+    "raw": "$169.99",
+    "extracted": 169.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128164342482?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1SWTR4VNFTY25ZVXHY&hash=item1dd730aad2%3Ag%3Aa14AAeSwYmBq5Ikc&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FdapILUCBXl%2F0LzkTjNi%2B%2FHJA6uPuD1zR%2Bn%2Bil6tKc5bAF5UqeHUx%2BZ7RNpZKIYM74U9Tl51nvIsLyjT%2BUeCSL15EoVSmKx4X4zPAb7fmD%2Fbt4KPkw6VCqEOVIHmTpNmI7LXOzV9pgkSa2blJnFZ9ncLjU%2F12GUrd2z2GXUkOzg0cWmSmyf3tiAFXMhqKzjT0zmDbCbx4Z4C2oeniUPFoH2c4MPJN%2FDXntHoHGNIpd%2Fq0y4%2F2BZ%2BC%2F64j999UAEslMjXpp7q2zPKCF0u1%2BLlly%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128164342482"
+  },
+  {
+   "title": "Sony PlayStation4 FINAL FANTASY Type-0 HD Suzaku Edition Red Console only Tested",
+   "price": {
+    "raw": "$249.49",
+    "extracted": 249.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168634419662?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1SVJ7H9V15JMEM7PP5&hash=item27436509ce%3Ag%3A%7EVoAAeSwvk9qi33D&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Buhz0P7U0bt40FGexp0Zc46N%2B8Krao84Sy93o511hnz4H%2FGJHSZz8m8RaZritMcDFJb8KGh0I4bHfQ93rmfxwRMNxNclO%2Bn289qkWw3xnMfYyfuf%2F7FNWV0G%2FeRJW15DxRpbTkwdoNaId0MoIMjGTwTW1C40N4di3AiD%2FgyTS9k8MNRALKaHofQe44SX6kIBaKlyyY0iQTakbiUicRTMprn%2FHdnhRwuO8OYCZlFthX7NYNFZa5urBedFhAmojPUMPjVb1aM%2Fps%2FWkruZW6tR%2FdG9qDyCZM%2FzAe0bkTl2gcKFmb%2BX47sWcFJ9p1MlmKDz8%3D%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168634419662"
+  },
+  {
+   "title": "Sony PlayStation 4 Slim PS4 Console Bundle w/ Controller, Games, HDMI/Power",
+   "price": {
+    "raw": "$249.99",
+    "extracted": 249.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377568219313?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1S44B5C5NE3TTW6Y6C&hash=item57e8d1d0b1%3Ag%3A00kAAeSwCdlqzrCQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8kKbDXG3aTc3TUX6WD0jstkKt%2B%2B%2F2R9vP9tVfEOlQ6AHSsbKc3T%2FN6tEYgklrPW1fmDtB6J8U%2B26lROw9Rh2APoBYpxsdI9KlZoNJVsmNZUuWjN4elZQeKwPpLZW2w5g9FssqNt%2F5MSaLuiH2QZpjBHyd4927PHXzaqQc6Oeirw9u0T%2FdGSZvjjiU4GAK5hT3uPG%2B2PqMZ6wYUZluzZH5%2FhnKGyBlIwJFD6pecm7GftLWsRo7hLsdMqVZDhgAAn5sexTKBT8uWqmWBB28uPCwEpWfsYKkDxOaoSR6UuOQF5yAOj8jhKpKM6AvEm8vap2Q%3D%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377568219313"
+  },
+  {
+   "title": "Sony PlayStation 4 CUH-2115A 500Gb PS4 Slim Console + 3 Games",
+   "price": {
+    "raw": "$119.95",
+    "extracted": 119.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800845558363?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1S5CH38BR7DKPY80KZ&hash=itemba761d725b%3Ag%3Al78AAeSwYONq4Qwt&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FuT5MQ628qOhAhDduifDoanMsw2fXqf49N3AfNv%2FXMnmqqLpo%2FGIP6rq6oZKCLNHTo3yHGavJpwHam%2Bq0XFksZNasQSKK%2BTE4LgQT4ilFwpsqv9a0TpNY8qWRBVTuz0Il7EPRpqqqmJz8oZ5C34H6DtAc9Zp4jRemp2ug%2BX2C%2BKxHKoOFLSALKLt%2BP5anLE%2FJS0PFmPdbwPw%2BMAX0nWi5QZwDR%2FJ2f05atonrsRIf7THmhc0qOZa8IgZQuIk5s7oQGzfBSMnGQNz1hQtQujMKF%7Ctkp%3ABk9SR4jBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800845558363"
+  },
+  {
+   "title": "Sony Playstation 4 PS4 Console Controller FW 4.00 Games Horizon God of War #2",
+   "price": {
+    "raw": "$144.11",
+    "extracted": 144.11
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278092913577?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1SP41HW0BTAMNT5EMY&hash=item40bfa11ba9%3Ag%3AoBsAAeSwQERqMJsY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8LrjwCQZNm1RF5Yr7SDatdktibA6peA8RNaekP6JTG7vKqZcFWp%2BzUuBz4hXhTAk%2F8U5uXoRaZi4Ji7AQ7BVuCw0yDjDKhuo03XFLOJTTn7BynQQPSsfnespliQv4qflg5777GYjMpNbn9dllheaplcmhLwEHzlMHaXVIwcWNcXE2HXuK8X8mkhaL%2Ba9P3zaW3eP1zzoSkKP4EMfGPerQkN8KAgj56iavJ2TR3dR6sjnA9UOJWD%2BTPg0mETvTjY3jUFammnFcf%2FiSsSqXOkqQ9laBBcnZsf7XC9O0CvPI80xiWHtfovHaqJFCBMWmdqhM%3D%7Ctkp%3ABk9SR4rBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278092913577"
+  },
+  {
+   "title": "PS4 Pro KINGDOM HEARTS III LIMITED EDITION Game Console 1TB Sony PlayStation 4",
+   "price": {
+    "raw": "$382.08",
+    "extracted": 382.08
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/395819353961?_skw=Sony+PlayStation+4+console&epid=9027530977&itmmeta=01M6C20W1SJ4C9XS44FGM1GKEB&hash=item5c28ac0769%3Ag%3An3sAAOSw2Ppf0bpL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9TBytl9lI1M45Ak9%2Bqqnr1K6bCEQhZF3S7WgkaqXNEm7mKhbmEu0HXf9jKqVX8TFDZCrWxgWevUyBedMob0H2CvXWF96bYl6nboM5OIakiw3Xk9x%2FLzt%2BC7cAZjmJerNvGNWL3xmPd6kwjJr1kMFr2apMLujEjHp%2FaHyS5nR%2Fjupzh4RLVoq4VB1lWzphEvmh57nypO9euqhLaTQ4dkETQ%2FBPwDpxkk9GWOHfLkj2joYBwsTTa%2BIskgFrJOPlt%2FB6MhUGeJwORyBnA2osIcl3%2FhEecFTLsEv8mdgfICDHJIcgpz6IpaWTx%2FpCSImFMUfY%3D%7Ctkp%3ABk9SR4rBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "395819353961"
+  },
+  {
+   "title": "Sony PlayStation 4 Console Dragon Quest Limited Loto Edition 1TB Japan",
+   "price": {
+    "raw": "$450.49",
+    "extracted": 450.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/393076474863?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1SDT49T6M7F0SQGEQ9&hash=item5b852f03ef%3Ag%3AjawAAOSw4Rhiv8BJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9tU5FuQC60Y%2BIUJGDr%2FemvJ%2FM7HpYI1iXgGl7WUyft7GW6r0ZlGq0BnBZYg3VJLh8WThfRQh0MivXQnPUAaq1e8dPkk8XhCBwyay1nk%2FULx3UyaxglhpE4UIzVsSUphS6dQfXLQWhT5nNuld61ZcR8E3yI0Z9ARJ6XoDf%2ByYiN4%2FWOacyCi5ZMmxIu1%2F0YsyusV3SXUDCRV8saTcsuwKOlHKMaOfjinf5bCGNRo%2B0qCKw22d3V0iTsGDWPDAZMHNoxJ0%2BqdDVcwCpb53F9FYEBEhzN3fVgKBMGfmoJjy3AoavCKDSPqsGKcE1X5oklPqs%3D%7Ctkp%3ABk9SR4rBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "393076474863"
+  },
+  {
+   "title": "Sony PlayStation 4 Console w/ 2 Controllers, Cables & 3 Sports Games Bundle",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287685598147?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1SZXG9GSDVAEMFS8PB&hash=item42fb65dbc3%3Ag%3A6H4AAeSwxw1q2Adv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FqrVRGRnWp1C4Y%2Bc01rulP3fqtAfj25ml3Wi%2FdUHU1JrxhwLz98maZN6wLbgWu5h65MnajwfJjZxRxxZbg%2BsAvBLtr7kVYHCVdsSz9MkS0OUX1kGNyEhoak7UzryXlytRSN7V6oXuaIzWipPmeN98aFNqGwerFXFLdgMNgMny8nnCurdhg%2FqGAubToENjArV6xoOBTNZg1EPgojh7WsFpwwxPxA1x8kScaNiRYkCc5%2B%2F%2BtZGxsK%2FhFFHfDV9hMrRp9lzyxrdALoCBC6KI7KA%2Bm%7Ctkp%3ABk9SR4rBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287685598147"
+  },
+  {
+   "title": "Sony PlayStation 4 PS4 500GB Uncharted Blue Console Limited Edition Japan BOX",
+   "price": {
+    "raw": "$417.49",
+    "extracted": 417.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/394183488096?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1T2KHNA1J21NSYR2PY&hash=item5bc72ab260%3Ag%3AqLEAAOSwZBBi5PJ8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8rW6f18nOaBbxqAxG0iBEQQCFwZ2pWFLzD1UUwcSfMaV7nd8aqXD0LaEG%2BYia%2F7jE16u1jy9nP6vx33bAStRtCcUzPautJ9vOdJ1qKutLL24Lpnw8iXzwpM25rk34xoNg4unuwFugOHVstoMc07XHJKRMkMhCyKZ6mKMmgm1Cl7ByhFigKdQMkkhCnH91W%2BH6sSvsxtBX2%2BKqWrC4f81kKfYh93wAQ%2FjEe3VS%2FeGevf3T50UpMb0QeByjHQ0W%2Foq3zBZ70q01GTjJcRr9dhOoV3MJkmoATdFstxAUkLnUTTj9LsZfhxPE3ieuQyLCh2NM%3D%7Ctkp%3ABk9SR4rBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "394183488096"
+  },
+  {
+   "title": "Black Sony Playstation 4/ PS4 Slim Console - GENUINE CONTROLLERS + CABLES + HDMI",
+   "price": {
+    "raw": "$158.21",
+    "extracted": 158.21
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/116724840968?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1TR69Y0YGWFAANBQP6&hash=item1b2d57ba08%3Ag%3AWEoAAeSwwlRolXp0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9m2JsH69Sph86oZFAt9kgIgz2L5IYfNqVQ0He1Vy%2F4rA9%2F9DXbI2Sms0scZLrzclK%2FPqd7yg7Mwkd%2Fi5m3wUSR%2FNOY4CsgzckbxDULMtr1aLe7pW%2BQaFjIs9ZH0TrZ3xruSssJWxylXKJr1g0ZpT5CBsIdbG5N4P%2F7VuBwR2gH0UBca7TbWyg%2BKq6cNKEVUXNo91vmB5fFd2IBb1kSZB7bTynN25LxEyQE67jYY%2BRkEoU5g979upQlntBiLbACkqFv2MxquvjFrSxrDsprIfS1U10snvDSB7Wji9nP1TjrC2BmXzH3feJTSfRCJdOr0Y4%3D%7Ctkp%3ABk9SR4rBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "116724840968"
+  },
+  {
+   "title": "Sony PlayStation 4 Console - 500 GB + 6 Games",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800725424193?_skw=Sony+PlayStation+4+console&epid=27032161147&itmmeta=01M6C20W1TT3JWGA5M79PS3SHH&hash=itemba6ef45841%3Ag%3ACHkAAeSw1kVquaAJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FhCmX74DSXtuas%2By5IkQzT7p%2Frq5kmFzgTsR87d2WqkhxQzFXE00ZNggeojkR9yaSxMakWc9dwHeOkmL0f3vrkRbg15pgFOHHK8Cc53fdRdKF7FNHRF%2BDG0cxrVKJ8VkkHZ3sGQ1551rWYXmxChRh%2FlUnpK79Fs6Voj6hers66cv9FDTRRIfMJGDPOcMDdYTFyFZEzfhhoTCcqLklm%2FyOc5IMoNuIXQtSwM7Ia2GtRyqJUXI018grmhcFM2fXUlG%2F4qv2RlCdVJf3KtT%2F%2BZ1tS8GcsIcXeQFlxKeqHleP8Q10ManL8AfmeEem%2FrRUz4U8%3D%7Ctkp%3ABk9SR4rBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800725424193"
+  },
+  {
+   "title": "Sony PlayStation PS4 Slim 1TB Custom Black White 2 Controllers Firmware 11.50",
+   "price": {
+    "raw": "$175.76",
+    "extracted": 175.76
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257826405473?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1T8TTXATNB1APVV7GY&hash=item3c07a6bc61%3Ag%3A2FAAAeSwfP1q5X0j&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8wfHRKePfSdsikmAqkf9jclY3GpGhQR9zuu6dWwVIfgepYFvf3qfUEoo35R6PkFb9pYuzRa7YoctpUALHFWdIeJsYW8A%2F40eWMIfcaj29zO%2B%2FFNMppX6zkehGesSXveah6kFaTUWG1XTaejOMe25FQaPE2z%2B83ojEZuer6VSRqxWWz3LwjdGxEFo49g96V3HOClHDmVrEV0jfF7pjbFlsK3P%2FfKFbxKoJK1coDmfs7u5%2Babig5M6wu8UlhMbSSNwMvOTdmy2PaelQ3BuE2HrU9RzZhc5SFVTq0k7yQttwpX4PMGzIn2DeaawURAkoLzO0%3D%7Ctkp%3ABk9SR4rBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257826405473"
+  },
+  {
+   "title": "Sony PlayStation 4 Metal Gear Solid V Limited Pack The Phantom Pain Edition 500G",
+   "price": {
+    "raw": "$280.00",
+    "extracted": 280.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900022656117?_skw=Sony+PlayStation+4+console&epid=219494529&itmmeta=01M6C20W1T889X9DQV8VM70KH1&hash=itemd18d87dc75%3Ag%3AOjwAAeSw9S9q1DWX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F8LZs%2B3aFZgra0lTwp7RhoyJitZOtrbu5xpu2MlifL2y6nBShqRIkOYJD3d5Lgl4dSQj%2BwYKxuBt37OBeiL760P8e14yTnpEdgXrpTLdaGtgxTaLEbPJ4YxPGnDYlpLO0ETWgul1VApoYA5uILN60Oygt35FPAhfhsGYoxsqy%2Bb8O%2FT9moDsszojeA5sV--g1zu4CnvvF0%2BI5vbGwqo8TcFCYGr%2Btlbj97r2I%2BVZP8iQ66NwV1Z1yEt02ToRP1GoDu84uCkQdw1As8MgTkvR0k1xY2%2Fxf%2F0uhyk2eR%2BaxTg4u6GcRNvTUXjJYseQmW11k%3D%7Ctkp%3ABk9SR4rBg4KzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900022656117"
+  },
+  {
+   "title": "Sony PlayStation 4 1TB Call of Duty: Black Ops III Limited Edition Bundle w con",
+   "price": {
+    "raw": "$127.50",
+    "extracted": 127.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318793754492?_skw=Sony+PlayStation+4+console&itmmeta=01M6C20W1TNYJ0AVYJF918GGN4&hash=item4a3996a77c%3Ag%3ADZgAAeSw0yNqki-5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F5O5pGm9%2FrPkKlcgS9JcnCLcTegia3n4YAQwzw8CVyynwzpxiBG5PC6NjUsK6thAucXeIY6Sb9AhB5XU1QEzVJk%2FTyzwdYFg1TED6lC0Yk%2B7XZDCCqJB%2Fyhm7TslVoBYFv4YHNauuavT1Cxoymb8dj1om2ZrPmQrprcJiax14%2FOAE0Krj8eKAW8jM0oZbHZRD%2Bh1X8u9Ztzr6W8V9XXv5jxlEn9kDgPzux2lnqoT85m8M2gl6AXepraM%2BmgGS7qcBx0ISU%2FNgiKXoZ5xuyWGhra8ObphL4ufAmYWBhmviB0BmOloTFQFz4%2BLeFxjYSFpg%3D%7Ctkp%3ABFBMisGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318793754492"
+  },
+  {
+   "title": "Sony PlayStation 4 Days of Play Limited Edition Gaming Console - Blue USED",
+   "price": {
+    "raw": "$210.99",
+    "extracted": 210.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198701476253?_skw=Sony+PlayStation+4+console&epid=20031985228&itmmeta=01M6C20W1TQ69PXEJ37009FGBT&hash=item2e4387e99d%3Ag%3Afx8AAeSwEyhqyQn6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8BBCA3Ip1zz1DjCmWTz%2B9Q3w6xBRm5j1L6vv1vffCR4%2F6zNV%2BI6uiv05%2Bmqk8KSXdNWgWrt9tc7bnt0L78QNBHek7QClsNj86rxKsbji3xKFrepVCHrq2uoGHBn3CdrsCz%2B2McoZzA4o228b5HsXhVjGRSncybJncVhsJPVDnk5JD9LSdxzJ8nyYV3ZR5mUTc1dl%2BAFRnKYZMA0A3wgg3uo4ZbBSUkRN68MfyZFiTJNB%2Brx9QRyB5N%2FxS9coGk1VqmGqVGBAjEXQNF9W09CT952GDqkU3hHHOBaStXgvvfZ%2Fdl%2BssFA9psbD240La7Zyk%3D%7Ctkp%3ABFBMisGDgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198701476253"
+  }
+ ]
+}

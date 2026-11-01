@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "game controller",
+    "visible_text": "Nintendo SELECT START B A",
+    "search_query": "Nintendo NES game controller",
+    "model_confidence": "high",
+    "color": "grey",
+    "material": null,
+    "exact_model": null,
+    "platform": "NES"
+  }
+}

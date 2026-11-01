@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "handheld game console",
+    "visible_text": "GAME BOY ADVANCE",
+    "search_query": "Nintendo Game Boy Advance clear shell",
+    "model_confidence": "high",
+    "color": "transparent",
+    "material": "plastic",
+    "exact_model": "Game Boy Advance",
+    "platform": "Game Boy Advance"
+  }
+}
