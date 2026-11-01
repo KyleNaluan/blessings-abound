@@ -36,7 +36,10 @@
       "median_ask_over_reference": 1.06,
       "pipeline_beats_baseline_on_in_range": true,
       "pipeline_middle_half_beats_baseline_on_in_range": true,
-      "pipeline_beats_baseline_on_median_error": true
+      "pipeline_beats_baseline_on_median_error": true,
+      "pipeline_closer_items": 11,
+      "items_compared": 15,
+      "chance_percent": 11.8
     },
     "tuning": {
       "pipeline": {
@@ -74,7 +77,10 @@
       "median_ask_over_reference": 1.06,
       "pipeline_beats_baseline_on_in_range": true,
       "pipeline_middle_half_beats_baseline_on_in_range": false,
-      "pipeline_beats_baseline_on_median_error": false
+      "pipeline_beats_baseline_on_median_error": false,
+      "pipeline_closer_items": 8,
+      "items_compared": 18,
+      "chance_percent": 81.5
     },
     "apparel": {
       "pipeline": {
@@ -112,7 +118,10 @@
       "median_ask_over_reference": null,
       "pipeline_beats_baseline_on_in_range": null,
       "pipeline_middle_half_beats_baseline_on_in_range": null,
-      "pipeline_beats_baseline_on_median_error": null
+      "pipeline_beats_baseline_on_median_error": null,
+      "pipeline_closer_items": 0,
+      "items_compared": 0,
+      "chance_percent": null
     }
   },
   "searches_saved": 33,

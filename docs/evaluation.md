@@ -18,6 +18,7 @@ These items had no part in tuning the rules, so this table is the result.
 The pipeline beats the baseline on in-range rate: yes.
 At the baseline's percentiles, so with a range as narrow as the baseline's, it beats the baseline on in-range rate: yes.
 The pipeline beats the baseline on median error: yes.
+The pipeline's typical price is closer than the baseline's on 11 of 15 items, and chance alone splits them at least that unevenly 11.8% of the time.
 Before the ask-to-sale factor, the pipeline's typical asking price is a median 1.06 times the reference.
 Item cards that would have stopped for staff confirmation: 1 of 15.
 Searches spent on these items: 15 of 42.
@@ -37,6 +38,7 @@ The first run of these items, before tuning, scored 5 of 18 in range with a 40.5
 The pipeline beats the baseline on in-range rate: yes.
 At the baseline's percentiles, so with a range as narrow as the baseline's, it beats the baseline on in-range rate: no.
 The pipeline beats the baseline on median error: no.
+The pipeline's typical price is closer than the baseline's on 8 of 18 items, and chance alone splits them at least that unevenly 81.5% of the time.
 Before the ask-to-sale factor, the pipeline's typical asking price is a median 1.06 times the reference.
 Item cards that would have stopped for staff confirmation: 0 of 18.
 
@@ -66,6 +68,8 @@ Searches saved for this evaluation: 33 of 80.
 ## Limits
 
 - These are small sets, so one or two items can move each number.
+- The pipeline scored better on the fresh items than on the tuning items, which tuned rules don't usually do, so the fresh items were likely easier and another set may score lower.
+- The comp filter still lets some wrong listings through, such as consoles among the Super Nintendo controller's comps and magazine ads among Sonic & Knuckles', and the 2DS card was read as a Wii U GamePad. Tuning didn't address either problem.
 - Only 3 fresh items are games, all old cartridges, because few openly licensed photos show a named game, so the result says little about discs or newer games.
 - PriceCharting's prices come from completed eBay sales through its own calculation, so they are sold prices from the same marketplace as the comps, not from another market.
 - Whether PriceCharting's prices include shipping was not checked, and comps omit it.

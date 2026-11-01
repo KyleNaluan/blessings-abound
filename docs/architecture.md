@@ -192,3 +192,4 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Widen the range for games and hardware to the 15th to 85th percentiles and leave the comp filter alone, because a 25th to 75th band holds about half of what it measures by design, and the report shows the width and a like-for-like row, so a wider range can't pass as better pricing.
 - 2026-11-01: Keep confidence on the 25th to 75th percentiles in every category, so widening the range doesn't turn a high-confidence item into a "check" with no new evidence about the item.
 - 2026-11-01: Leave apparel's factor and percentiles as they were, because none of the tuning evidence comes from apparel.
+- 2026-11-01: Keep the fresh evaluation items in their own file, `api/eval/fresh_items.json`, so `git log` on that file shows the list came before its first score.

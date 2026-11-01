@@ -8,6 +8,7 @@ from sqlmodel import Session
 
 from app.comps import Comp
 from app.evaluate import (
+    FRESH_SEARCH_BUDGET,
     REPORT_FILE,
     RESULTS_FILE,
     EvalItem,
@@ -17,6 +18,7 @@ from app.evaluate import (
     Results,
     SavedSearches,
     baseline_prices,
+    chance_of_split,
     evaluate,
     fresh_is_ready,
     load_fresh_items,
@@ -227,6 +229,26 @@ def test_the_like_for_like_row_is_the_same_comps_at_the_baselines_percentiles(
     for row in results.items:
         assert row.pipeline_middle_half.typical_cents == row.pipeline.typical_cents
         assert row.pipeline_middle_half.comps_count == row.pipeline.comps_count
+
+
+def test_the_fresh_items_are_scored_within_their_search_budget(
+    session: Session, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    report, results = _report_and_results(session, monkeypatch)
+    assert results.groups["fresh"].pipeline.items == len(load_fresh_items())
+    assert results.fresh_searches <= FRESH_SEARCH_BUDGET
+    assert "**Not scored yet: the fresh items.**" not in report
+    assert report.index("## Result: fresh games and hardware") < report.index("## Tuning data")
+
+
+@pytest.mark.parametrize(
+    ("wins", "total", "percent"),
+    [(11, 15, 11.8), (4, 15, 11.8), (5, 10, 100.0), (3, 3, 25.0), (0, 0, None)],
+)
+def test_the_chance_of_a_split_is_a_two_sided_sign_test(
+    wins: int, total: int, percent: float | None
+) -> None:
+    assert chance_of_split(wins, total) == percent
 
 
 def test_fresh_items_stay_unscored_until_every_card_is_read(tmp_path: Path) -> None:

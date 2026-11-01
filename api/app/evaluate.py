@@ -15,6 +15,7 @@ cards are read.
 import argparse
 import hashlib
 import json
+import math
 import re
 import statistics
 import time
@@ -179,6 +180,11 @@ class Group(_Strict):
     pipeline_beats_baseline_on_in_range: bool | None
     pipeline_middle_half_beats_baseline_on_in_range: bool | None
     pipeline_beats_baseline_on_median_error: bool | None
+    # Items the pipeline's typical price was nearer the reference than the baseline's, of those
+    # the two differ on, and how often chance alone splits them at least that unevenly.
+    pipeline_closer_items: int
+    items_compared: int
+    chance_percent: float | None
 
 
 class Results(_Strict):
@@ -254,6 +260,15 @@ def summarize(rows: list[Prices]) -> Summary:
     )
 
 
+def chance_of_split(wins: int, total: int) -> float | None:
+    """The two-sided sign test, because a median over a few items hides how even the split is."""
+    if not total:
+        return None
+    furthest = max(wins, total - wins)
+    tail = sum(math.comb(total, count) for count in range(furthest, total + 1)) / 2**total
+    return round(min(1.0, 2 * tail) * 100, 1)
+
+
 def compare(scores: list[ItemScore], rules: PricingRules) -> Group:
     pipeline = summarize([item.pipeline for item in scores])
     baseline = summarize([item.baseline for item in scores])
@@ -265,6 +280,14 @@ def compare(scores: list[ItemScore], rules: PricingRules) -> Group:
         for prices, row in zip(undone, scores, strict=True)
         if prices.typical_cents is not None
     ]
+    pairs = [
+        (row.pipeline.error_percent, row.baseline.error_percent)
+        for row in scores
+        if row.pipeline.error_percent is not None
+        and row.baseline.error_percent is not None
+        and row.pipeline.error_percent != row.baseline.error_percent
+    ]
+    closer = sum(ours < theirs for ours, theirs in pairs)
     return Group(
         pipeline=pipeline,
         baseline=baseline,
@@ -280,6 +303,9 @@ def compare(scores: list[ItemScore], rules: PricingRules) -> Group:
         pipeline_beats_baseline_on_median_error=errors[0] < errors[1]
         if errors[0] is not None and errors[1] is not None
         else None,
+        pipeline_closer_items=closer,
+        items_compared=len(pairs),
+        chance_percent=chance_of_split(closer, len(pairs)),
     )
 
 
@@ -558,6 +584,9 @@ def _summary_lines(group: Group) -> list[str]:
         f"{_yes_no(group.pipeline_middle_half_beats_baseline_on_in_range)}.",
         f"The pipeline beats the baseline on median error: "
         f"{_yes_no(group.pipeline_beats_baseline_on_median_error)}.",
+        f"The pipeline's typical price is closer than the baseline's on "
+        f"{group.pipeline_closer_items} of {group.items_compared} items, and chance alone splits "
+        f"them at least that unevenly {_percent(group.chance_percent)} of the time.",
         f"Before the ask-to-sale factor, the pipeline's typical asking price is a median "
         f"{group.median_ask_over_reference} times the reference.",
     ]
@@ -675,6 +704,12 @@ def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results
         "## Limits",
         "",
         "- These are small sets, so one or two items can move each number.",
+        "- The pipeline scored better on the fresh items than on the tuning items, which tuned "
+        "rules don't usually do, so the fresh items were likely easier and another set may score "
+        "lower.",
+        "- The comp filter still lets some wrong listings through, such as consoles among the "
+        "Super Nintendo controller's comps and magazine ads among Sonic & Knuckles', and the 2DS "
+        "card was read as a Wii U GamePad. Tuning didn't address either problem.",
         "- Only 3 fresh items are games, all old cartridges, because few openly licensed photos "
         "show a named game, so the result says little about discs or newer games.",
         "- PriceCharting's prices come from completed eBay sales through its own calculation, so "
