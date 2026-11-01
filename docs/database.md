@@ -99,6 +99,23 @@ Every staff yes or no, kept as a history, so an item can have several.
 The foreign keys have no cascade, so a person or an item with history cannot be deleted by accident.
 People are deactivated rather than deleted, so their past decisions stay.
 
+### `comp_searches`
+
+Every SerpApi eBay response, kept so repeats and tests spend no searches.
+Code reuses the newest row for a key while it is under 7 days old, and a refresh adds a row instead of replacing one, so the rows fetched this month are the searches spent against the monthly budget.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `engine` | `text` | Required, `ebay` |
+| `query` | `text` | Required |
+| `condition` | `text` | Required, the eBay condition ids joined with `\|`, as sent in `LH_ItemCondition` |
+| `buying_format` | `text` | Required, `BIN` |
+| `response` | `jsonb` | Required, the response with any `api_key` removed |
+| `fetched_at` | `timestamptz` | Set by the database, indexed with the four key columns for the cache lookup |
+
+It has no foreign keys, because a response belongs to a search and not to an item.
+
 ## Who may read or change what
 
 The website never talks to the database.

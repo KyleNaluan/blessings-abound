@@ -31,6 +31,10 @@ class Settings(BaseSettings):
     ai_fallback_model: str | None = None
     ai_fallback_api_key: str | None = None
 
+    serpapi_api_key: str | None = None
+    # The free plan allows 250 searches a month, so the default leaves a small margin.
+    serpapi_monthly_budget: int = 240
+
 
 @lru_cache
 def get_settings() -> Settings:

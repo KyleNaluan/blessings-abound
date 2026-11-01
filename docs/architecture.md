@@ -56,7 +56,7 @@ The hosted demo follows these steps:
 
 ## Pricing pipeline
 
-None of this is built yet, and each step is a board issue.
+Each step is a board issue, and so far only the SerpApi lookup in step 4 is built - the active Buy It Now search, its 7 day cache and the drop-a-word fallback.
 The language model never produces a price, and every number comes from code over comps, which are similar items for sale on eBay.
 
 1. Staff upload 1 required photo and up to 4, and a code-only blur and brightness check prompts a retake.
@@ -148,3 +148,4 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Refuse anyone without an active profile, even with a good token, because the profile holds the role and a decision needs someone to point at.
 - 2026-11-01: Show staff their own decisions and managers everyone's in the recent decisions list, because `requirements.md` keeps every decision to managers.
 - 2026-11-01: Keep an item `appraised` after a yes and set it to `declined` after a no, because no status means "staff said yes" and `approved` belongs to the manager step.
+- 2026-11-01: Add a new `comp_searches` row on every refresh instead of overwriting the cached one, so the rows of the current month are the count of searches spent against `SERPAPI_MONTHLY_BUDGET` (default 240 of the free plan's 250), and the lookup refuses cleanly once that is spent.
