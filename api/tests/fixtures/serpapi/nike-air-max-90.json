@@ -1,0 +1,2063 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7c07f8321451b0ad2f8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/ZJiiqvnJEy0745mkDNtQ1YLORRb5hMnN60Bm44COso8/6ae6d7c07f8321451b0ad2f8.json",
+    "markdown_endpoint": "https://serpapi.com/searches/ZJiiqvnJEy0745mkDNtQ1YLORRb5hMnN60Bm44COso8/6ae6d7c07f8321451b0ad2f8.md",
+    "created_at": "2026-11-01 06:10:08 UTC",
+    "processed_at": "2026-11-01 06:10:08 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+    "raw_html_file": "https://serpapi.com/searches/ZJiiqvnJEy0745mkDNtQ1YLORRb5hMnN60Bm44COso8/6ae6d7c07f8321451b0ad2f8.html",
+    "total_time_taken": 1.95
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "Nike Air Max 90 sneakers",
+    "_ipg": "60",
+    "LH_ItemCondition": "3000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 20000,
+    "query_displayed": "Nike Air Max 90 sneakers"
+  },
+  "categories": [
+    {
+      "name": "All",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_oac=1"
+    },
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11450,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=11450&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Men",
+      "link": "https://www.ebay.com/sch/260012/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260012,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=260012&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Men's Shoes",
+      "link": "https://www.ebay.com/sch/93427/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 93427,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=93427&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Athletic Shoes",
+      "link": "https://www.ebay.com/sch/15709/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 15709,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=15709&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Casual Shoes",
+      "link": "https://www.ebay.com/sch/24087/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 24087,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=24087&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Boots",
+      "link": "https://www.ebay.com/sch/11498/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11498,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=11498&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Slippers",
+      "link": "https://www.ebay.com/sch/11505/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11505,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=11505&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Dress Shoes",
+      "link": "https://www.ebay.com/sch/53120/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 53120,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=53120&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sandals",
+      "link": "https://www.ebay.com/sch/11504/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11504,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=11504&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 888,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=888&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=1&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 64482,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=64482&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Art",
+      "link": "https://www.ebay.com/sch/550/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 550,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Nike+Air+Max+90+sneakers&category_id=550&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "title": "Nike Air Max 90 Men's Low Top Lace Up Sneakers White Blue Gray Leather",
+      "subtitle": "US M 10 \u00b7",
+      "link": "https://www.ebay.com/itm/198752771377?_skw=Nike+Air+Max+90+sneakers&epid=17056176764&itmmeta=01M6AVNK6AQPMVBCHS93T5J7F4&hash=item2e46969d31%3Ag%3ADJ0AAeSw-7Bq4ka9&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2FIiSigu2HInopmhVKfFZv6kBIhnxfeDzOK%2FHO7wUvLpqrXu8jexCdyn%2BCGEUGPWWhn78aoMDNLAnYLmfw2HZS8fdz49wdEyh0KxQ77bihjhcvzTyI3H40pjNhPIPt%2BLn6%2BCmf1rxj7ogyyCVbcVaEMKsFzxwEQbmHE4QMRrGZmm9sBNPMOoqrbuyKCtmXKqXJ%2BNXeOAPCFkf%2FL9lQXZ%2BlOmWsXwXqv1Hv1GE0z66VPGfNXYdBLX5lmcTd9%2BZSepRXKoFVCJ1p%2FmPYe0Uz8u0WCL6XzgvFNJC8dwOPHaBw2ovnGyyGOmgoXPpTJXPjfO0%3D%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198752771377",
+      "product_id": "198752771377",
+      "epid": "17056176764",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$23.00",
+        "extracted": 23.0
+      },
+      "shipping": {
+        "raw": "+$12.23 delivery",
+        "extracted": 12.23
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/DJ0AAeSw-7Bq4ka9/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 QS Mars Landing Brown/Orange Low Top Lace Up Sneakers",
+      "subtitle": "US M 6 \u00b7",
+      "link": "https://www.ebay.com/itm/158294196641?_skw=Nike+Air+Max+90+sneakers&epid=23039817959&itmmeta=01M6AVNK6AHQ40DKHDT1D4DT6J&hash=item24db11c1a1%3Ag%3AWgsAAeSw21dqqQsh&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9kI%2Fg7cJGcRHwXNmlR04lYlYRWfdQLzF8XKAu3bDDfWqOK7uZNA5oNtpb9c1jgVqLKhayc4XtUH1aj2Eve6ikdsTKA0FDITAYKDAyOadcZvg0z5KQYEh%2BQWLRh4tw2Fcm9%2BwlyAtDe4aK6yCG8FrXB9dj69ktDtRdz9dGc6kILh4njN9%2B72lewLgyOmrSNdaBJW2D%2F4duMAI6%2FhUgYM%2FWdp4Fd7Mdpkks2Tw703DngZUf7Tg8LeUOzvsM6hwlwp5l%2FQAfAqPjBI9tr5G4a1nw4oZiw6NiRk%2BQBXTQS%2Fz4z%2F2%2Fcjoj7vBFCeUVhJZYBeU8%3D%7Ctkp%3ABFBMwLPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=158294196641",
+      "product_id": "158294196641",
+      "epid": "23039817959",
+      "condition": "Pre-Owned",
+      "rating": 4.0,
+      "reviews": 5,
+      "price": {
+        "raw": "$65.00",
+        "extracted": 65.0
+      },
+      "shipping": {
+        "raw": "+$10.99 delivery",
+        "extracted": 10.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/WgsAAeSw21dqqQsh/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Tokyo Blue Men's Low Top Sneakers Gum Rubber Sole",
+      "subtitle": "US M 11 \u00b7",
+      "link": "https://www.ebay.com/itm/227588360757?_skw=Nike+Air+Max+90+sneakers&epid=11039801648&itmmeta=01M6AVNK6BGKEEWGMQQXNCE7SE&hash=item34fd52ca35%3Ag%3AZeAAAeSwwalq4xYT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9hVjNHXvSqLKJYVXwUuEMiR9aCObym0%2FMws7p%2FJ8G7tOK8%2BVUNXc42FIJzvk6dXjkqV4%2BnHuM8U%2BEcFKLThkaYe3G%2BsZyZpJOFzD7P7HisUmSp3p%2FEHZR90Z5GeLozA4ZXoht1jRWyTT0PTlK2%2B3whNWdj%2FWwBAIGMTuYNoqL%2FcEjbrfYFtwkZzDSJi7HtKHUl7X5GSkD7h9n0DXyktKEnpw3zD2ZuHtCKFVXY5FGGmsfXAdxVNNIEy9eZu7%2BUZcealVmAT1Mz0D2PN6QJhWcqwmAI9R%2BDApODiCBv%2BFXHmz9AXKF81uPXFgKEdO9BFfQ%3D%7Ctkp%3ABFBMwLPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227588360757",
+      "product_id": "227588360757",
+      "epid": "11039801648",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$125.00",
+        "extracted": 125.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/ZeAAAeSwwalq4xYT/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Denim Blue/White/Red Low Top Sneakers Men\u2019s US 12 DV2120-900",
+      "subtitle": "US M 12 \u00b7",
+      "link": "https://www.ebay.com/itm/820296221795?_skw=Nike+Air+Max+90+sneakers&epid=10054316467&itmmeta=01M6AVNK6BJ3RBGJT9E2QW2Z96&hash=itembefd770463%3Ag%3A6OcAAeSw0nBq5Jgs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B60UShN%2FRPmFPPaxkwLxsDleTyjijHXLFHBN5t%2FLTLf02FenJjk3qMAdQaiP8Qhtwz30FQpgthpiTsxm03%2BoFbg4xH1sQLLREiAWNcRgtMCDDB7tsUmoVHI7UZCI86t4Z3dV7WZbKNurzYbuqX65RQjCP2JBZx1WR6pKq6Fd222SjINxh4gFtYQp2V7w2JRVDXTWJVJpFv2wTlgTKkVnEhv0SHERaAiPK%2FXxq76FZIkaqxuRKWIJCKxkkQOVdttxPPY9%2BUjcasSdLSmLc2ZAz3rqO1jl63JzGX%2Bc9BFU8GoLVL5oJW0ACIByHvervlZ80%3D%7Ctkp%3ABFBMwLPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820296221795",
+      "product_id": "820296221795",
+      "epid": "10054316467",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$140.00",
+        "extracted": 140.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/6OcAAeSw0nBq5Jgs/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Thunderstorm Blue Men's US 10 Low Top Sneakers HQ1970-400",
+      "subtitle": "US M 10 \u00b7",
+      "link": "https://www.ebay.com/itm/168821161373?_skw=Nike+Air+Max+90+sneakers&epid=5080699395&itmmeta=01M6AVNK6BHDSKBNCC62XPHD1Y&hash=item274e867d9d%3Ag%3AwUUAAeSwOkpq4W3Y&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde810Ui%2BkfuVtmdDsj0aXxjzFiGkhtptlIcW%2FXyieGj6OxS6AdG48ooeXhds02fREElUgkOXohxalzuFE%2Bk550kSRiTuFhlz41DlJcCmYDRGOp2DffULb6iFSR%2B5Gtn11qdXSXtPrqyS6vf%2Ba0%2BKR2MuPXqhT%2BWxt9U3rDc8E%2FbXvK%2FGf66%2BknBr5UTYPyAqW0C0JkwdesftZedh8cUDeBKkkn2RMP12UE3uOLXV6gflH9RDPspwXOAH%2BjASfqJE7MCSyv139gzFMCTL6ZW5t5OWUohSIsu14g1Ss0HqVCHDmkY%2F9akEdWCO10X2nrlodt8%3D%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168821161373",
+      "product_id": "168821161373",
+      "epid": "5080699395",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$9.28 delivery",
+        "extracted": 9.28
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/wUUAAeSwOkpq4W3Y/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Unisex Sneakers US 11 Black/Blue Leather Lace-Up",
+      "subtitle": "US M 11 \u00b7",
+      "link": "https://www.ebay.com/itm/237147574670?_skw=Nike+Air+Max+90+sneakers&epid=14045633622&itmmeta=01M6AVNK6BQFXDM1EZARMJZQ9S&hash=item373718d18e%3Ag%3AxmQAAeSw%7EK9q4R55&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8%2Fo%2FJDHb%2Biybj65cbCfmR%2BjvLb5gaIbsyB4ArneQk3r%2B3RMx4%2BxMElkMz%2Bn5W7ls83tOy3L8sFMCP%2FOeofpWhf%2FZetZa78emy8osEvihscTHDvxdDLibO974SuyQ19DsdfDcWv%2BmTNMIPePp33A0b9Rb78AWXO6dOJ7Tn5cLdyKw7CJIEhGr%2BcdWtQq8f5PsolOCuUjhDOzf31y98HuDIVK%2FoGOus2FgeyoAZ5vUkxgqTqgQ%2FlOnaNpofzElLzjhZQPzU9jpWj21P7sg5JfrOR%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237147574670",
+      "product_id": "237147574670",
+      "epid": "14045633622",
+      "condition": "Pre-Owned",
+      "rating": 4.0,
+      "reviews": 1,
+      "price": {
+        "raw": "$80.00",
+        "extracted": 80.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/xmQAAeSw~K9q4R55/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Men\u2019s White Low Top Lace-Up Sneakers US Size 12",
+      "subtitle": "US M 12 \u00b7",
+      "link": "https://www.ebay.com/itm/407330314571?_skw=Nike+Air+Max+90+sneakers&epid=19056183145&itmmeta=01M6AVNK6B08D6WGJCB961KE2K&hash=item5ed6c7594b%3Ag%3AoJMAAeSwCHlq5rbc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BVaTsTH9srPt%2BrmV6gmWzDhPIAkqoJ2QqraKxpswRXdl6%2BxTl1RxeiaHKsxO9XeniR32SmRlnyxPSM4dTSXJHC81rpAuLLlrW2hZHcsef0x9gp6j4V7Hrn2QxvgT6tNCyvhiERWaspe8EThpu23Gcs1ujnBvUlumL3VX1Eb1TxvNtGmJWTWYOByP%2BRTA69OdHU91%2FHIZQcgxaFAmZbnLM6Ktrw5Uqd9edLT0uWumsC0hWFCh0idQ2zo3FfJogC24fpem5IVJm5YOBCDygQ0fX%2FgUMg%2BOcZlpCDv5SM1PScrzkhP%2FUyEIX%2FbYfroIRUv4o%3D%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407330314571",
+      "product_id": "407330314571",
+      "epid": "19056183145",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$190.00",
+        "extracted": 190.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/oJMAAeSwCHlq5rbc/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Triple Black 2020 Men\u2019s US 8.5 Low Top CN8490-003",
+      "subtitle": "US M 8.5 \u00b7",
+      "link": "https://www.ebay.com/itm/840064372255?_skw=Nike+Air+Max+90+sneakers&epid=3039812289&itmmeta=01M6AVNK6BKAP6WSY94EPNV7NM&hash=itemc397bd0e1f%3Ag%3AKrYAAeSwgmNq4EQW&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BzWn9B9IcL7VQ7ADzscP1lLa9voc4cJHXjfSubI%2B%2BjroTkLe8f3jB6RYDwEe5JQeAwkzfgDxy6bzx1J5t4NyViBO3wfjm1s7vdGVkmmBpKPIIc8WWULxBsw9tWEa0gKv6Fu%2BrdykNQun42WH3IT4y0Cih8spEJg1rb2KBHYiLbgpMhY8u%2BqJOFWvkhq7zbsf6ZjG%2B3iaVcXw6qqSkDlWfbWCa%2BOjCkzT5uocd8A7OCI0%2FIMdq0mFegyVx217hk35MccYFVMYw2Z%2BEiZwJK8Wr9%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840064372255",
+      "product_id": "840064372255",
+      "epid": "3039812289",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": {
+        "raw": "$20.00",
+        "extracted": 20.0
+      },
+      "shipping": {
+        "raw": "+$8.07 delivery",
+        "extracted": 8.07
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/KrYAAeSwgmNq4EQW/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Drift Men's 10.5 Light Smoke Grey Cargo Khaki FB2877-003",
+      "subtitle": "US M 10.5 \u00b7",
+      "link": "https://www.ebay.com/itm/237145997364?_skw=Nike+Air+Max+90+sneakers&epid=7073735245&itmmeta=01M6AVNK6BT6K717E14WT0W93Q&hash=item373700c034%3Ag%3ABmsAAeSwXQFq3%7Eab&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNuOgoLwv8ETwVudwbXnXKhj2FDyxO9CzFSUmjrVpRFap4%2Ftoo6M%2Fzk35UmmRrxtyq1XElAPxUpk7DGLpbs7TmwdI2%2BXSuSjwmo5rh7j52JA685UuczSEOKEHU5WIGaKBpwzXELeTKZptNI00v0VxmMbcXd9vSR5Qhk6445QG92qFhVsWCimww2Fl7dfI%2FTr7QFdbGokGx%2FbdxjrfcVFZBDd8LfHLoBLX1yA6u6udX76FFGLdmcNK2%2BRdpuSGhlLqK6Ss8akEZXmPu23aDTqlmGH8QUs%2FUxCDOW9Z4sqAjEhPEMW%2BlNOLI2gb5zcTj7%2Fg%3D%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237145997364",
+      "product_id": "237145997364",
+      "epid": "7073735245",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$60.00",
+        "extracted": 60.0
+      },
+      "shipping": {
+        "raw": "+$11.93 delivery",
+        "extracted": 11.93
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/BmsAAeSwXQFq3~ab/s-l500.webp"
+    },
+    {
+      "title": "nike air max 90",
+      "subtitle": "US M 6 \u00b7",
+      "link": "https://www.ebay.com/itm/377605814700?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6BD4DCJ6WKT4SYYV8P&hash=item57eb0f79ac%3Ag%3AaWEAAeSwfjFq40hB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2FzjBCU7OnqNrLf%2BIyRw%2B810RaI8MDq8680HfkVr3J0660exK9xLmQkK5ek1NejQsmWdRJiAJC6oNlQQjmBWsKgdzJzsVfpmhBwieG3GIrx%2F5oqqaqVTU9oYtojNRJOlDgtDRrblYn%2B6AKu%2FesbO%2BEwVdFXayIcsogAsFg2XJ%2BO%2B6oojUoQJHpv02N5%2BaopGFBclh1VrbNKicStT%2FDBEe7Oaj741k58xwL4XDjIQe3xFrQqVKkuRYXwATczioLlHrL%2FMxc7fPhb0hBz6XIdVitia%2FZHSIPeTaunktPwXuCCdERtIUNnfgdr7aO2p9ty2k%3D%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377605814700",
+      "product_id": "377605814700",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$9.66 delivery",
+        "extracted": 9.66
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/aWEAAeSwfjFq40hB/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Gray/White/Orange Low Top Leather Lace-Up Men's Sneakers",
+      "subtitle": "US M 7 \u00b7",
+      "link": "https://www.ebay.com/itm/287681358330?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6C3Z50XY7C91NHKB55&hash=item42fb2529fa%3Ag%3Ayh4AAeSwoitq31wK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F%2BHTaHWmCQG%2B4j%2FtPUjrPEIUyV6GhPzBrGetU%2Fx5pBHA6HWWHvevep3whG1Mc7DPMHTM%2FsOiaB%2Bpa3ebkcc7FUvoXufbkmIRVIX%2Bf%2B6KoAmMB8r5mA1sOnY2T1EETCmqwEaiB5SJAD907qMSZoQEwNV2cUGbLUEaxuDNsgKGc5m%2BRVfcLxza6W6BD70hIafgtxfY7B1E3M3CUlZ0uZFdbJfmRRKU%2BjbilvBiDEKt1gHltTjtRglMGA7o8slFwj06dnFR9sEWWBg2o9cIZUB%2Br4%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287681358330",
+      "product_id": "287681358330",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$20.00",
+        "extracted": 20.0
+      },
+      "shipping": {
+        "raw": "+$10.41 delivery",
+        "extracted": 10.41
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/yh4AAeSwoitq31wK/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 x Off-White The Ten Black 2019 Men\u2019s US 10 AA7293-001",
+      "subtitle": "US M 10 \u00b7",
+      "link": "https://www.ebay.com/itm/336869971157?_skw=Nike+Air+Max+90+sneakers&epid=25039802702&itmmeta=01M6AVNK6CZ4NPJTG73FNFSV4S&hash=item4e6f03d4d5%3Ag%3ABxgAAeSwD1xq5A90&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BT%2Fhn7bk9iZ8vT5px1p0umJTz0MKCDDUWyEmtoGVqDVhLPoroN4pQW34hhdvloyXMzO%2Buc%2F3HpyKJD03jnhzySFViGN5kwPq5SPwZfwE8BKpd%2FURLsWfTKE5pJsHY66NmfyIVcgnw9as3akTixEdVwyZyOQkr5ssT5XC%2FLKc%2BTWZqv01lGVCyG6gvCZw9P6IQvUexyd0PAj%2BtwAp9T4NqyNvcyd1JlItSBHm3m5U0o6N0IDJxZb2mi5jn9HaYLkUxWR2Ybmqo%2FVRLQDcJM%2FI2a%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336869971157",
+      "product_id": "336869971157",
+      "epid": "25039802702",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 2,
+      "price": {
+        "raw": "$300.00",
+        "extracted": 300.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/BxgAAeSwD1xq5A90/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Bacon Men's Sneakers Size 12",
+      "subtitle": "US M 12 \u00b7",
+      "link": "https://www.ebay.com/itm/820298115222?_skw=Nike+Air+Max+90+sneakers&epid=3044912400&itmmeta=01M6AVNK6CZQH4S6NBR2ZZTYWR&hash=itembefd93e896%3Ag%3ASqUAAeSw6gpq5UG%7E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BhslhLDiSCr%2BQlEMCDirkHInYH2bXWqQj9%2FyFLNA5mrt01zI1hAmfh0Qmb%2BicZTdiX3l8SIETv6azFadEUPB1t8AIvbi9CJC257DXerKPaVkQDup9l5mLqkiRBltz5WIsCY0rb9%2B%2FMDSaFmxHGgzkSYl47wS2nMj7qvevitHz7OsC8toeKuPEaBo8rbRHxltWeonl2lTqjGJHAlwz%2FDGCISP9t1KJJuu5Bs%2F0fo36D7j2k0TBlWZ%2FUgjr1uF69rTSrc5D%2BP2guK2efol7gI25AKHOjGTVOXe%2BZuXPWB2pAKA%3D%3D%7Ctkp%3ABFBMwLPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820298115222",
+      "product_id": "820298115222",
+      "epid": "3044912400",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 5,
+      "price": {
+        "raw": "$60.00",
+        "extracted": 60.0
+      },
+      "shipping": {
+        "raw": "+$7.29 delivery",
+        "extracted": 7.29
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/SqUAAeSw6gpq5UG~/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Supernova Galaxy Print Multicolor Low Top Lace-Up Sneakers",
+      "subtitle": "US M 10 \u00b7",
+      "link": "https://www.ebay.com/itm/318920682375?_skw=Nike+Air+Max+90+sneakers&epid=26039817044&itmmeta=01M6AVNK6CFC0Y22TCKRHZNDRM&hash=item4a41276b87%3Ag%3A6LoAAeSw1xZqt7Zl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8GnE2xShLsnvNA%2BhOSv9U9k1NEJmI297DiQKq7eBPoMDgHdZbJrNmd9xOTUE%2B%2F9paHcQhnyJSwCvisQ8g4vcZQOygOye%2FYU3pcCvRlTuHHdokXsxpVlW1jL331FMGxTsZFu%2FDoh04tMxxJsfEm8Tdoj7PWPLnVhATkvNI8%2FHDstfUJkSPylB9v72BT2CFWGi76mv%2FGbaNLJnRzRLSBUR7GpSzgqHm26e5xRLlQ8jutnjWeJbm0kf%2BAqim75yFGRSvmHDNE0YFH4n47%2FeQM%2Bq08cmvRJ71Ay2ymzUye%2BNGBNSRGKOtijqRZRynKu9xOwdg%3D%7Ctkp%3ABFBMwLPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=318920682375",
+      "product_id": "318920682375",
+      "epid": "26039817044",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 2,
+      "price": {
+        "raw": "$180.00",
+        "extracted": 180.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/6LoAAeSw1xZqt7Zl/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Black Chlorophyll Sneakers Men's 8.5",
+      "subtitle": "US M 8.5 \u00b7",
+      "link": "https://www.ebay.com/itm/117412576207?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6CMYVZW16XW2MV6W4X&hash=item1b5655bbcf%3Ag%3A5IMAAeSwp6Vq36at&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8rbeCmjpTrK6dav9eouqwhgqZYEMkPrQwvsjE%2FQi5krXUnTXD%2F%2B4bUM4CbQUD7rtBY%2Fm9cTCYXYY31GB8dXFkRWcA6j38GVMHdptc4Q5wu6lCXiILWcdfd%2F3TmYqkHp%2F0CGbVV46tapGf2GSx7IYDDz1i5BJfmGc2ufsrFIGPlIF3WNP2FWQqMSHUrRqKYlsiB9iOuaoBRPvWMn7hSBgYLgpZe%2FOcFsQoxZHz5NpL8szxEybQcUiY4p%2BZGDaVRIzRYpb3Uf9JwvizYoSTiZ4X4psdCXERZx9HuEbah0Is33g%3D%3D%7Ctkp%3ABFBMwLPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117412576207",
+      "product_id": "117412576207",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$8.29 delivery",
+        "extracted": 8.29
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/5IMAAeSwp6Vq36at/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Athletic Club University Red Low Top Sneakers DQ8235-001",
+      "subtitle": "US M 8.5 \u00b7",
+      "link": "https://www.ebay.com/itm/960118059784?_skw=Nike+Air+Max+90+sneakers&epid=21053029739&itmmeta=01M6AVNK6C7QBXSNEJZ4YM3PW9&hash=itemdf8b7ef308%3Ag%3AcQAAAeSwj7pqpwr8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8IZxoE5Tf3p%2BKDFKflKOypp2gIdbovJLx1pToYe0HuZSL%2FcQPCFXaZ8HtP8dZ2STQblL6y2l9eOI34fbWfG5wBiRNQn%2FFRm0szpPEKr3eDjQqth14pKIdmk%2F7KR28SrxJge%2BbBXDfN9ePxzoi1TmUyFbShrZXYRuBQBmDXWUXg9UPwamoy431zQGRpBK35qkqjmSvJ8i6BEf4c9OUMY9XZrnwIdBIev%2BRwonqCS7lHQ--Hm7FD2B0YpCM8587dY3HCLzWCRilURx5oJu3wy8tmRZU8n3kIW%2FCkmimldoYzXW2dLaGFl1ROqmdC5PE9Suc%3D%7Ctkp%3ABFBMwLPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960118059784",
+      "product_id": "960118059784",
+      "epid": "21053029739",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": {
+        "raw": "$36.00",
+        "extracted": 36.0
+      },
+      "shipping": {
+        "raw": "+$12.23 delivery",
+        "extracted": 12.23
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/cQAAAeSwj7pqpwr8/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Premium DA1641-201 Hemp Sand Drift Men's Low Top US 9",
+      "subtitle": "US M 9 \u00b7",
+      "link": "https://www.ebay.com/itm/198754832362?_skw=Nike+Air+Max+90+sneakers&epid=22051943998&itmmeta=01M6AVNK6CJZ8QFZAHP6ZACZP8&hash=item2e46b60fea%3Ag%3AJ%7EUAAeSwjC5q42Qs&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9AGQnYRotYcOA0wQpLju2pJpzc5uqF3dkcRTpK19vAi5jcKySxgxtzUp87AapMtOavcqVN9o%2FEPDuY1WRV9%2FK48wsxRAYzxf7rBk8my7BctGJLh7QliP66DmBlNHxahWUgL9aNy4FsvlNHUvxYmZb6E5%2BAhVhGSTOGwFRN%2BDXaPfNgwxbBThwD%2BsyLyoCziAyFDH1ofmll5JqagF6jrwMVH8vryh6i8Io7RjlrZp4JYxKBSLtCsYcXfamskqP5P4q%2F6YmrJ230MkoEO0S1XxxC%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198754832362",
+      "product_id": "198754832362",
+      "epid": "22051943998",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$90.00",
+        "extracted": 90.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/J~UAAeSwjC5q42Qs/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Men\u2019s Sneaker US 10.5 Orange/Pink/Blue Colorblock",
+      "subtitle": "US M 10.5 \u00b7",
+      "link": "https://www.ebay.com/itm/860097973459?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6CAFZ5D5J2BCDY98VS&hash=itemc841d58cd3%3Ag%3AzDIAAeSwAeRq5KT4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BH8%2BjQKpd5Fn4DCao7Rfn%2FJb19GGBmB1f0BNPs%2BUbJ18x0ljLz1wqtfFAJK4riEbw5bl6mhLtSMDntjUSfv1OTLJOmATCA1%2FIYidPaDPFzA0IDbDaBIY383FGCqkcCs%2Br8uePxsMAqV87ICDSMul0%2FL0rEdK6dw0HNJBsHAtdtpL2cPbeW%2Bxdg9aY43TS7hw0pq9acksRInMYDvqlsJDSl1oCbJB86jD673xC9loQVcEOpXO%2FstUsu545gSPhjN44m%2BEJDPUc3Vy%2BcANPfVORkInWa4EUbQkthjQm8Wzh0R85VdkoZbaePHLY8bu25sXo%3D%7Ctkp%3ABk9SR8Cz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860097973459",
+      "product_id": "860097973459",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$10.43 delivery",
+        "extracted": 10.43
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/zDIAAeSwAeRq5KT4/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Beige/Gray/White Colorblock Low Top Lace-Up Sneakers",
+      "subtitle": "US M 10 \u00b7",
+      "link": "https://www.ebay.com/itm/128151407288?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6DRNG8AHS8KC2PEP94&hash=item1dd66b4ab8%3Ag%3Arx8AAeSwF5hq2rB0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9DG9woIrEhDVMnaDJGcAw02gM%2BywaO0xKmIL9QqJYEuz1q4slAA%2FJFqd8jQxksHjuLjYb3JAktpTaRwZZp1FnLOZt7KzkItqNeQvhQs76iZXbKY8CqeXwnyR1JQ5noo01t8rBGTm9%2BW2Bwgxdl74nQ9R4Jr%2Bi0g4BY5MPGpj6VY8YGv7cd%2FUGZrwMgWCWx79H04r5omCMdd4Qu7A1MBxc9dGslRUCq4igGE3dRFoqEcwOThfV3Y6A1G4brpBQ5fAbkSWPEdx45MBvURYov3HcGR31OqODwxzvMFAXpVud%2FUfiIBIXz89JSa5cufih%2BtRY%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128151407288",
+      "product_id": "128151407288",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$80.00",
+        "extracted": 80.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/rx8AAeSwF5hq2rB0/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Men\u2019s Mid Top Leather Lace-Up Sneakers Brown/Green 11.5",
+      "subtitle": "US M 11.5 \u00b7",
+      "link": "https://www.ebay.com/itm/880066490777?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6DBSHXG8JMX1JYBTQC&hash=itemcce80cf199%3Ag%3A79sAAeSw%7Eopq5S5B&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B8NbjpjIqIlNLDRzJu%2BeVdbNzn8pBgdFjzjFJUupcqOA0XxrKQqc9B8c%2FxO7uiOTMdubw8DdcvgzSkWhzY4jyMhVO0ifBAf5V2V3hfwSEcSPtHTclGTlzfwyBBkf0JWewtZkO3NCRcF8NX4mqaK%2BVRUCvg9pRbCqo7J9XYC3XVYCCvQbKDyEFAYyN%2FyCoMI3uaBGdNTkpb%2BTzPTOHS6NYrgp3H7DOvS6FggWXlS1S4LJlynBPFmXiKUtYgUCKxZT3Cel3f9NScURP8ESz5IC6L%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880066490777",
+      "product_id": "880066490777",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/79sAAeSw~opq5S5B/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Bred Black/Red/White DH4095-001 Men's Lace-Up Mesh 8",
+      "subtitle": "US M 8 \u00b7",
+      "link": "https://www.ebay.com/itm/128161874676?_skw=Nike+Air+Max+90+sneakers&epid=22045633184&itmmeta=01M6AVNK6DMNEGMSY8J1ZKFTZN&hash=item1dd70b02f4%3Ag%3AOnwAAeSwIr1q4rEt&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BfG391UTcJuCYI%2BWsNfLGoDbUMYd5mKUoyJyQ%2FDBA8R44RwhEpcqw09Dbkf3ZW4wgVIWgTSXiCDJ2b8Ll9OSJF0JkkWKWHxDH8RStgxikBMNL51FXcD0HN06FuYIxuW%2FW0e%2BDmi7LHBdpaROHj0sJj4UKQgFPHuu7xUHTVfdkaw9YAYJRftoqS%2B9RH%2FwGx5HrQHBMK88ITTji%2FCjyiCPQdmkVa%2BHBsH3RG5wESiLEEZCjIYb%2BrXsMRdGObK6kyHAFAWsGCZGbbnS8cLPzEgzlY%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128161874676",
+      "product_id": "128161874676",
+      "epid": "22045633184",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/OnwAAeSwIr1q4rEt/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 PRM 'Coconut Milk Vintage Green' Size 11.5",
+      "subtitle": "US M 11.5 \u00b7",
+      "link": "https://www.ebay.com/itm/960134500738?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6D3EXYJ4D2J82ET5JH&hash=itemdf8c79d182%3Ag%3A0sYAAeSwVixq5R1Z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde85IHGTnX%2FrcJ%2BkkABjEjF0qa1d%2Fxfag6bQ%2BIwHC8mWMli5EM%2FnIs64ayd7THULXaf4ix6F4NrOLkBcbTArWxC70jOGxoOw%2BcRxyOHd4ffeiDnC9jjkQbnDKi7rU45189z6JuWiNmdP29hPC9EKoOpLjsm%2Bc9zmJvoHDhiTNluQtFvOE7XkGT%2BdX%2Fh95F%2BHGGnMAbqAYc7ZUnw3HAFoxhFLWanWMMVqCnnKQwqtonKKeM7r9BsjrvE6kObldiFvsxQv6O%2B572VgkAzP9uWfvaL3TeaOWw2zEs1vA8G57ehf2NE%2BkLlQ3rgQMegjnmWxe%2FQ%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960134500738",
+      "product_id": "960134500738",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$120.00",
+        "extracted": 120.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/0sYAAeSwVixq5R1Z/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Denim Men's Blue/White/Red Sneakers US 10 DV2120-900",
+      "subtitle": "US M 10 \u00b7",
+      "link": "https://www.ebay.com/itm/198735240085?_skw=Nike+Air+Max+90+sneakers&epid=27054303418&itmmeta=01M6AVNK6DZPTAPJXCKC7AP2GX&hash=item2e458b1b95%3Ag%3AINIAAeSw8-1q2Xdz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FHVrPZ0ZUZcc67RLd61w6VDMp330%2BEXaFZ4HkysqGST6murGkZdlWlD6D4FbGrCOCS2akI7xC3QtuqmufGYrY2I2e8gkaHYzXfS%2FHjSWys0ZP9%2FT%2BQSW%2FXpnoohunD%2F16HDqKKpzxIxAnx2zcoHDGQdkfeKT5dwh2sf9PZvB4c8R0cXVnwJAEu5QNvpDLgEIPSBv66KOqzQ4dvRKwrOpOuaLRLGFkarZ5InHpgUw5ipWcnJH9jkVHH7LzQGQ0QNR3wN1BV%2FLxt4JOicwfe2xkQoGrK%2BnyxJeO%2BV%2FnLJ56MfwNmC7p8ExN2xSEanWsjGJo%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198735240085",
+      "product_id": "198735240085",
+      "epid": "27054303418",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": {
+        "raw": "$149.00",
+        "extracted": 149.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/INIAAeSw8-1q2Xdz/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Multicolor Colorblock Men\u2019s Low Top Lace Up Sneakers",
+      "subtitle": "US M 9.5 \u00b7",
+      "link": "https://www.ebay.com/itm/366761290146?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6D0XYHFCEEH1WC46MN&hash=item5564ad29a2%3Ag%3APi8AAeSwcG9q3qbV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9AkgD0p6wGA%2BoHh2R8vPF32Mh0YzSnfuLeu9FpTzYHvPTqU%2BvrsqY%2BCSwiuSj7%2BMDQWoaVnaOmy%2Bp%2BHDx%2FjnepPDK3YqRBNyCdP%2BDq7WWKMAXZzn7W%2FotohIrQM12CAZtykg7uZsR3j3s4ZsoJajA0RZMLqYVSt0AqYv35PPiBPI8Vg29xxm2WKom7b0TqCFBDvz3IxapWNKf7z5UKLrEEtWPDinNvAycdDrZvEy8M5UETtZ2y2oki3D0604znNLpicNFVFE64d82hISwC8fH4j%2F7m2YPbqhL5kBKbJeO2A3hZlfC8nTJDfndQZefbN8g%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366761290146",
+      "product_id": "366761290146",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$95.00",
+        "extracted": 95.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/Pi8AAeSwcG9q3qbV/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Triple Red Men\u2019s Red Low Top Lace-Up Sneakers 10.5 CZ7918-600",
+      "subtitle": "US M 10.5 \u00b7",
+      "link": "https://www.ebay.com/itm/820281459457?_skw=Nike+Air+Max+90+sneakers&epid=6042130124&itmmeta=01M6AVNK6DET77HXTWCZS4NJ82&hash=itembefc95c301%3Ag%3AJcwAAeSw1A1q3%7EkQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F4DJJoYtDOZo0qPl1o61a8perIyJsGCPTaMmzMfgLSaoU2eDWShC3Sg7KSowB4H28gnoWpQBd2Niau7S8GkCkmtYwuJ7jR4Feyfadq3KpiFpSTGOzS9VG2AcXJqZE%2BPZX1vrUprgTtO7VUjJLH4J4caPK3WQFRBg7U2DjiyZcqdOblsIjCftqL4bTZl2gB7%2FULWE5hUieoxedAOEePTyf3FwpSNcLTc6k9xOHCek4gm%2BIND1tqMdYnR0gZ%2BJb61gqg60vyO%2FbF3Fqu3av4Q7gk%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820281459457",
+      "product_id": "820281459457",
+      "epid": "6042130124",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 2,
+      "price": {
+        "raw": "$26.00",
+        "extracted": 26.0
+      },
+      "shipping": {
+        "raw": "+$12.23 delivery",
+        "extracted": 12.23
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/JcwAAeSw1A1q3~kQ/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 NRG Men\u2019s Sneakers Size: US M 10.5 CK5161-100",
+      "subtitle": "US M 10.5 \u00b7",
+      "link": "https://www.ebay.com/itm/117485619829?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6EX7Y964WWNZPJDAXQ&hash=item1b5ab04a75%3Ag%3AZNYAAeSweo5q3U6q&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BHAUfClsE16f4aeIvUyzHhuhxkdsR7iAjRki%2BYaeWQHKD2dAWCIIQj74NkGL3pizt9dPWh%2BvW%2Fr6Da8QGAJXz0z3le3AdsviLR%2FY7dEZ%2FCaaFQhX6kQlyalMnW17IzixEf8Fvuc88QWJ3DQVGYlfZwQjtRA0knC25fW3vjn9Ot%2FNGlEC8Ap3BBVNevnXJV9nmTH0c4LaT5tcItKI62vplsOi8YC5gLWyJClWw7idVL5HB9vMmYMeqDFITug59etbL%2BMHY33KzvKmEfgk7VXNyJ%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117485619829",
+      "product_id": "117485619829",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/ZNYAAeSweo5q3U6q/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 - Malt Blue Slate - Men\u2019s 10 US",
+      "subtitle": "US M 10 \u00b7",
+      "link": "https://www.ebay.com/itm/117497003499?_skw=Nike+Air+Max+90+sneakers&epid=15051216133&itmmeta=01M6AVNK6E7VVRHQ1JGQH5HYY2&hash=item1b5b5dfdeb%3Ag%3AWTMAAeSwmR9q5lcM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bjo%2F9eib79z2yxm%2FupWkRdhckDgjzLsWnSyewdOsAwzPEHGn2gHwietkFcwEPqCO3%2FHhvSFHjHYY2Yy21UjXvrmK1eTGZlS1mUHJDghSc9PsPea5%2BXe9crAxymCE6Rsl5vpQ2fxrsT7jLDmQJ9xN9ufwjaHWK48OR2QzaVQRWAhPZDpzuvvLzCdBF4BwdkgFMF%2Fs7epCaFZrlgUtMB6hvxwMedcqs76AGV3QX2GIwcktQ%2B5N%2FJbCifj5E0i%2FqmTEVf85diowrxIT4gPokAHA4HBs7cgU9r3uUQCnhCwuyT5gF%2FlDfzQdGLzw2rdXtIvgY%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117497003499",
+      "product_id": "117497003499",
+      "epid": "15051216133",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$109.99",
+        "extracted": 109.99
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/WTMAAeSwmR9q5lcM/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Cargo Khaki Reflective Men\u2019s 12 Olive Sneakers DZ4504-300",
+      "subtitle": "US M 12 \u00b7",
+      "link": "https://www.ebay.com/itm/287693640831?_skw=Nike+Air+Max+90+sneakers&epid=20057887117&itmmeta=01M6AVNK6E5KD516BS33F5ZXBV&hash=item42fbe0947f%3Ag%3AcPEAAeSwD2Fq5X3M&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9hGeI%2BbJHl1pd36NhYroqBlbxAjjdlhtz5iR5%2FwQgURtFR6EtTre0iCinMIVx5fQJXVzY7ojqQeEXwVLatvqKK0nNQ8AfplvLEEHPLOarOPWONaiTJvnYP4xSS1VQQ9YgPlxmPt%2FldB4ZYJ4TOcWrYtnxJTKWcf1c0PQvLHgzw8yOO%2BdyoPrtEVqrvRctxkQRooGGv2dstUkqXvB35%2B1ahQHyN8DIDeOWPJYpOiCgXf%2BNxYMt5K1JxKY1dKOmvLeMVchBcuVXyeWQBx2SosMjQZv5908yNW7bAZ6BO98apWiY5ECwQFEYY5IFzWjnQ52c%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287693640831",
+      "product_id": "287693640831",
+      "epid": "20057887117",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$87.99",
+        "extracted": 87.99
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/cPEAAeSwD2Fq5X3M/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Air Sprung Iron Grey Men\u2019s 10 Sneakers DM8171-001",
+      "subtitle": "US M 10 \u00b7",
+      "link": "https://www.ebay.com/itm/287693617503?_skw=Nike+Air+Max+90+sneakers&epid=24053559360&itmmeta=01M6AVNK6E4AEE13WWQYJD3QBP&hash=item42fbe0395f%3Ag%3A-WYAAeSwFBtq5Xl%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9bbBC106JSqjr7mEw6V1ZlUmt0xcGgKXsaTBEfswG2pab4%2Fg2e9sSrDNW4RIpYhXaMFkxAdiQMlKJf%2Bt%2Bqf5Rzv%2BJEoS1R3lgEK8OFSdy7zRXjHEE80OCW5ZUpwJqFo4yBAflPR1VtSAFsAmyyCpeEzxZpmFiAU6VnXyDNtn04eW16bXf0urPt%2FCQbWa5RN7lgMILoqRshcEqLTg8CUF78tixswaVDR38M4DaEMTJ5%2F3Z588LtPcS%2FVSy2v2goGm4B1t7kGhn2CeX0UZ9spgTMsXA0nfPJARD71Zf%2FEiBff5E8dIigEvla%2FRzlxTuWpUE%3D%7Ctkp%3ABFBMwrPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287693617503",
+      "product_id": "287693617503",
+      "epid": "24053559360",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$72.99",
+        "extracted": 72.99
+      },
+      "shipping": {
+        "raw": "+$6.99 delivery",
+        "extracted": 6.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/-WYAAeSwFBtq5Xl~/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Cork DD0385-100 Coconut Milk Wheat Obsidian White Men's Sneaker",
+      "subtitle": "US M 8.5 \u00b7",
+      "link": "https://www.ebay.com/itm/127788389362?_skw=Nike+Air+Max+90+sneakers&epid=2318230834&itmmeta=01M6AVNK6EZ9V1EXJXSFGV5C9G&hash=item1dc0c813f2%3Ag%3A2cQAAeSwYghpzxgL&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9LhWkhZBwNaQpHcw6FG40onFqYQrhZrJmud0KHIYfINrCgkINuSgH14mCge0qmdpZKpikZLoaARQ%2F2HODg9c87VNN338y8P269UKwKNEiq28s9qTstBjPr4rsD4wbeFgvQxYre9ohYvFOeKSAwCA%2BgUXaB6GwNyocqe%2B%2B7acf%2FTMgukeRTff44u38cXop6N1k88djZ0W2Nra9BcwCoJDdMUlvo4STiwyYk9obIo8mwdEUBMKSEzPSKmKi9bv4UlCF8cS3Ki2kqiayI4eKHTFeeaBgqcNiU8BqfZr9cBS1l9w%3D%3D%7Ctkp%3ABFBMwrPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=127788389362",
+      "product_id": "127788389362",
+      "epid": "2318230834",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$50.00",
+        "extracted": 50.0
+      },
+      "shipping": {
+        "raw": "+$6.70 delivery in 2-4 days",
+        "extracted": 6.7
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/2cQAAeSwYghpzxgL/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Men\u2019s Low Top Lace-Up Athletic Sneakers White/Black CN8490-101",
+      "subtitle": "US M 13 \u00b7",
+      "link": "https://www.ebay.com/itm/206467347235?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6FS06X9XCCH22X7V1D&hash=item301269b323%3Ag%3Az0EAAeSw9h1qcx9q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F9UHX6ZHwKW%2FObHsWObhlZ%2F8CzUhM08IQVzVHzBW1Z2L%2FiPLTJ0tydI5p%2Flrq8jNUeXKdDzhUgip91O%2Fw%2BOD9T7ao9gQcWvCGtck2LqlGrrtouDSQ6Lzs4aqoZLc0QII9zsZ%2FnrRIF%2FG12kjlGzSdXN%2Bw6c1JFS6XWc4L6EJpg3OgZR1d1DeKNSlDtx1RwVLsXkDO%2FY3ISQE%2BRxdJHSmp9gxfq9OtZDas6tRPJVEdLra%2BK6SKRCt5g9iSTTZ%2Fgi6%2FaR0S9tN%2BPl%2BfzWTPrPXuRuMXfezrIRKBDlNamT%2Bh%2BwwPZp81wIEmvCGrA%2BKo3czA%3D%7Ctkp%3ABFBMwrPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=206467347235",
+      "product_id": "206467347235",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$95.00",
+        "extracted": 95.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/z0EAAeSw9h1qcx9q/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 \u201cWolf Grey Kumquat\u201d Gray/White Low Top Sneakers DR0145-001",
+      "subtitle": "US M 11.5 \u00b7",
+      "link": "https://www.ebay.com/itm/206575911425?_skw=Nike+Air+Max+90+sneakers&epid=9052776116&itmmeta=01M6AVNK6FJ8G4E4Y45SGWMG39&hash=item3018e24201%3Ag%3AjukAAeSw0cFqs1Yo&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9tnWw1vykDAMLYBWEzZgIgZlaKB5d1xQuNlqR2fIrnPyA8J%2BMEC50xqkeCWnu1t0VQqa73%2FSOnrSd5DuPURWdxs0%2FN0B2KJSM8J7H1UQPizJjL4iGih0pa6Xfyl9NlScpqK%2B0bwPQdQ%2By4IXz99LupMd36UudSW4%2Bb9JGwq05lTWUXOSmysPJb1%2FDDKgeF%2FVlqoOb9oGVGrH7jn3zQnQX45ZrJGpTvjN3Ud6lKeGz9JxtyA2Hg3VvUu3VPKUZ%2Fpn8jVNnDByYMaNvo4pJPD7JzNdyoWXGZ8%2FSTCLSUNb5ziQ%3D%3D%7Ctkp%3ABFBMwrPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=206575911425",
+      "product_id": "206575911425",
+      "epid": "9052776116",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$12.23 delivery",
+        "extracted": 12.23
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/jukAAeSw0cFqs1Yo/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Men's Running Sneakers Size 12 Leather Low Top Lace-Up White",
+      "subtitle": "US M 12 \u00b7",
+      "link": "https://www.ebay.com/itm/407325894651?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6FFP2TEVP8WEZ6JYG5&hash=item5ed683e7fb%3Ag%3AvvEAAeSwMVVq5ABf&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FxG8R%2BGIQ4C%2FmVwMrNLOF87wwYBmd4g2XF4rs1hhjd20eHf%2BBRI2SdIYeL98gxUIsuk0IxEMdtcNJINzVPCMNRsL9Cui4Bl0dsK%2FZFsPUjWcCuOT1JdCk1Wk8Z7VmrK06bTVz1uAJxwnRKwa1GygyYVkGRy0BsJ8TbYLD5T3br8TwgWnhi%2BKe2XkiRGxNH7PDt3gNHYpSkuxN08A5YysTfiiT3TCasqPOPuCV8fN0JiQm1ap4HzKiWy6Tv7c%2FWymu1KVc%2FPjjVYlYDXlmw%2BkcQ%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407325894651",
+      "product_id": "407325894651",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/vvEAAeSwMVVq5ABf/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Black/White Unisex Sneakers Lace Up US 7.5 (EU 38.5)",
+      "subtitle": "US W 7.5 \u00b7",
+      "link": "https://www.ebay.com/itm/287686314264?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6FJSJD9DQGGQGCA4TX&hash=item42fb70c918%3Ag%3A4GgAAeSwgC9q4ZhL&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FzZ69c5LuoODsUlw2RMMrpuh7H6Z%2BabJejh%2BbSK0Bnqn7BZjPIN7sF3VJ8hcbCfVRY%2BQyRele00vt5hXGm4MXv6pPC%2B%2BSy68NjqbNDVAYWqcAxtM0cSBGS8vgnqbtyL6t%2Bhsy7F5GYC%2BdMfz8X4BHUdv6MX8ScyUiJPeAOKD5T2w8I8dfqTMnD0dAUs%2BLWoYE%2BT9qgI%2FZ1hefVUSBOMTfltN6iA6r5yL9UWCfBP5qSHIjrxssUNaLPkjfsv4sC1OUja9XYzBgkcZTocWkgQADk%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287686314264",
+      "product_id": "287686314264",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$50.00",
+        "extracted": 50.0
+      },
+      "shipping": {
+        "raw": "+$6.71 delivery",
+        "extracted": 6.71
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/4GgAAeSwgC9q4ZhL/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 SE Swoosh Fiber White Men\u2019s Size 11 DV3335-100",
+      "subtitle": "US M 11 \u00b7",
+      "link": "https://www.ebay.com/itm/128158094323?_skw=Nike+Air+Max+90+sneakers&epid=6055511302&itmmeta=01M6AVNK6F3ABWNQHR7VBCRF44&hash=item1dd6d153f3%3Ag%3AFEIAAeSwquRq38TT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FwwW3qcxFVlkhrNE6aImykSeCUUbyOsmw310BWHEWCn1O%2BwG65BTHE9oQJewcl3ZpWHOA%2BEN5L9Aa%2B8Wq2zo%2BpOcdVIb46uCfvEQSMa%2FQYdE39mxKBAXvJ2VDt5L69jIG6uXLm92bFNhI%2BJdCHikrhupzDR6yuP8d96BNfHsviqPjSScx%2FCmmOVWytVExdSYhnNiUDH%2FgzaC4J8t5j%2FXrvNYUoV9OmVn7i3PFYmYpJiL92TGofvU6mPej6f3hLD1L94ywm7fQobE0cufDEhNu8%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128158094323",
+      "product_id": "128158094323",
+      "epid": "6055511302",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$12.23 delivery",
+        "extracted": 12.23
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/FEIAAeSwquRq38TT/s-l500.webp"
+    },
+    {
+      "title": "2023 Nike Air Max 90 Olive Green Sneakers DM0029-200 Men's Sz 8 Worn No Box",
+      "subtitle": "US M 8 \u00b7",
+      "link": "https://www.ebay.com/itm/840057129053?_skw=Nike+Air+Max+90+sneakers&epid=23062189845&itmmeta=01M6AVNK6FW9AETK7Q2D7SZ3WR&hash=itemc3974e885d%3Ag%3AJbkAAeSwAD5q3XgQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9noNZUVx5Tuxsic2dSQ6PNRaEsy8mnUJXLMqW5SoKFwegdQiyOR3w19eztt5usEd52Fcl6s1HsmE0C%2F8hcEmTkYB5g07uWr9XDVRuGIPCBfxJ8kVJDxgY%2BCyHcOpx4cTbzBQc4dQ63sy10Qr4TyUqF0pNCXG3CI53qRdHzKFG8M7wr4cGnDS5ADpOQcH6PUbneiiQFxmjeUMIM4Wjd%2BwMO7xUWFDjtm5v9u37pTLqdotC8jRDmCufDMCz74OsZ0TKTPgvae8jlqYObzRsj7r%2FD%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840057129053",
+      "product_id": "840057129053",
+      "epid": "23062189845",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": {
+        "raw": "$109.00",
+        "extracted": 109.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/JbkAAeSwAD5q3XgQ/s-l500.webp"
+    },
+    {
+      "title": "Size 10.5 - Nike Air Max 90 Recycled Jerseys Pack Gray Multi Mesh Sneakers Shoes",
+      "subtitle": "US M 10.5 \u00b7",
+      "link": "https://www.ebay.com/itm/168829664162?_skw=Nike+Air+Max+90+sneakers&epid=8045639151&itmmeta=01M6AVNK6FFP63PBFA4RJ01XEV&hash=item274f083ba2%3Ag%3AW0EAAeSwnQhq5qMK&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FTjpsbPqJesYAkgkCmuY%2BDS1jT34wc7xjdP%2BtqrJP4BxQDkpfFBschG2uvz6oFnFcAjWcugsEOL8PWYKBs3qo7Sk0iEQ4wUOlzXuY%2FBXZUs3LnKMbCfYejzc4e%2FcpLMLudbjSlKUmIPQpu2MJrhe2ICLNWpbeXD2bT%2BW4LGUULgIFwuoChr2aoQ0lsvsoMyeJWQfjtaxupLeUkXPI0eVP59lqs66l7xVxJrU4N8XELA%2BRTzOUuweF0sSe16MoyxsI%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829664162",
+      "product_id": "168829664162",
+      "epid": "8045639151",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$85.00",
+        "extracted": 85.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/W0EAAeSwnQhq5qMK/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 OG 2015 Infrared Men\u2019s US 11 White/Grey/Red/Black 725233-106",
+      "subtitle": "US M 11 \u00b7",
+      "link": "https://www.ebay.com/itm/820280337352?_skw=Nike+Air+Max+90+sneakers&epid=4039803363&itmmeta=01M6AVNK6FC0PTY1BDK9XR0RJE&hash=itembefc84a3c8%3Ag%3AZkoAAeSwvbdq35Bs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9pv4Mgo%2BdqXvT6T3Rcndnf77zsb3DN6JnCq4dH%2F7DT4xqj752HkDpCFtJJbDNX6OqEt75YUfVX0agGmH9708VwCO%2FDEVtBLZEnHC46AxNJM115j1rELAmgHgDMj5JkAEh027lE228kpTMtpMpWbKzGbPuzsZIRMI0dWPDgtYWIW4qhroh4W0gKMwF6%2FIvFidFqEqfTZkdBxXOGTSkuDvFQxRMb%2B8U31JSD207pRqEFqBTbX7IAmYnENw2QxwyxPH2oF%2BTw0lWLNl5EzQJYzFaTtmGXEcFPjIz3Q3VK6WnAE1%2B3KcXdRipXwGv446xHURQ%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820280337352",
+      "product_id": "820280337352",
+      "epid": "4039803363",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$55.00",
+        "extracted": 55.0
+      },
+      "shipping": {
+        "raw": "+$8.71 delivery",
+        "extracted": 8.71
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZkoAAeSwvbdq35Bs/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Size 10 - Nike Air Max 90 Volcano",
+      "subtitle": "US M 10 \u00b7",
+      "link": "https://www.ebay.com/itm/237151164594?_skw=Nike+Air+Max+90+sneakers&epid=18072870585&itmmeta=01M6AVNK6GM76PTF9EZW61CMK7&hash=item37374f98b2%3Ag%3ALW4AAeSw26lq44JE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2FpeBcbrVqrUuJyK9xMve2kgBz7hGn%2ByCEMi%2FHybR9xl2JSLp2pNOeU8idXCvsFXuSbPFKmMkFzwLfi%2FOPcMf5y9DuR1mEEu5EC0P2VF56vFxdxwvO0OTxnD58iJMVG9SspRrfoST90ftmUWjh%2BjiBqgU3WjN0hQBNl0anJdMVK8C7CM%2BL7a6Rd6GQgeaGAJkQs%2Bew%2B457UbPqUtsY3SNiXI%2Ba1rql72%2Bgvn2S4siUCDAnyrKuCLI78AtFOFMbMJYkW%2B7S1Yg23rzdWq2eZjGIXCkOrWL4o6cxQPocKdhrYmx5%2B65UAQQooIfY9SCYte8%3D%7Ctkp%3ABFBMwrPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237151164594",
+      "product_id": "237151164594",
+      "epid": "18072870585",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$119.99",
+        "extracted": 119.99
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/LW4AAeSw26lq44JE/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Pink Barbie 833376-603 Laser Fuscia 4.5Y - 6 W",
+      "subtitle": "US M 6 \u00b7",
+      "link": "https://www.ebay.com/itm/227547134412?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6GF7W1ARY5BNV2W135&hash=item34faddb9cc%3Ag%3Ab1cAAeSw2t1qvgh3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bpq%2Bxq9YLao6HSy91N%2F0lwOFgG%2FfGkRV%2FyMkQ4vNoVtFGBoNkzkDzmm1yllEsUQ0RvIXucUtWM8qA8cRpPEZpI%2BpGyGWOcdhgBkQTvFjB%2Bm8Uad0ikbcpF6wLdteZXJ4ykn0udYJGNo6zM3shMAoAVroc22wV6M8%2FHceLgbU1K1Cnx5foomkZ%2BJw%2BkQYnh7mqSqdhdmR0WO05MgJHEE5aHf6UlkBD0erORwNlETEzOvMdYBi2eX6cm%2FDR7A478ALwJdvmip0D7Vv%2BgUYMwYQ2eHqi7FBdxYL%2BBEQqxFkazG8p5b8QtVXxaHXhpAPdDP6M%3D%7Ctkp%3ABFBMwrPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227547134412",
+      "product_id": "227547134412",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$69.00",
+        "extracted": 69.0
+      },
+      "shipping": {
+        "raw": "+$9.95 delivery in 2-4 days",
+        "extracted": 9.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/b1cAAeSw2t1qvgh3/s-l500.webp"
+    },
+    {
+      "title": "Size 11 - Nike Air Max 90 SE Go The Extra Smile",
+      "subtitle": "US M 11 \u00b7",
+      "link": "https://www.ebay.com/itm/900037666850?_skw=Nike+Air+Max+90+sneakers&epid=8051463007&itmmeta=01M6AVNK6GQ125Y55CJ5MDZ0BE&hash=itemd18e6ce822%3Ag%3AMIwAAeSwwqpq3M62&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BJ59Q%2FvoJm96Z7bVG%2FjaXrQ%2FdQBfM6sJHMCxPzE5WxhDHYW253q0WdpRq0qZZ35YW9SaOn1YJNlU1emiTXMPeMePo5YWMEipuThfwpGQqaJzD5iLx4PjEDw4RtJRF5bEMDkzOv1gu4yU6qM1ZQktj8%2FllIrnYyp6k1OLWuAOR5bsAX%2F5WNF3a8ZTwVOw%2Fh0pXXAbTZB4fvxAkzonowY17RWlEBtYAIaFkajfyJSINaPjKtS752scmlaZh%2FGuDUPtUGERTRjjMeFrkaGaMRYK523FafX2nri8VDxLTK9%2BDsCZ1a8OA5n8YXlBsc0wApznM%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900037666850",
+      "product_id": "900037666850",
+      "epid": "8051463007",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 2,
+      "price": {
+        "raw": "$80.00",
+        "extracted": 80.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/MIwAAeSwwqpq3M62/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Cork Low Top Sneakers Brown Red Black White Men's",
+      "subtitle": "US M 6 \u00b7",
+      "link": "https://www.ebay.com/itm/327387120618?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6GKWXM95M6DDQKBQQB&hash=item4c39cb03ea%3Ag%3AJEoAAeSwGhFqwatL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8a4nD1VeNnjS9h2nLnRBcsz2ELpztMcn7coOhovntek91O%2Fwe5MaA6%2F7pqwhjSQ420d4hEQ8WWls3eYDRPFi8K7rL18M%2BX45y3ZT8sRfZ1qeoWHwOJwpgqfb4xJE5Clkrb%2B%2FtpOlED8kY%2BmQTJ8K5I%2F32t68wk3YYakyfYVwuW5MScOiAo7VrqqMGrzpPlNllhbo3aLAoh%2B1GH0YN6WEtpUlmVyTAtk%2FyAB1iuMyJSkxIuFebyl4z9lF7k7VQus15X%2Bzf%2FB0%2FRc3J%2Fp8QAZz%2FtNyY4oIAv68FUyF85EJoxRmRm4imsHIM8%2FxKffqF4ysY%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327387120618",
+      "product_id": "327387120618",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$250.00",
+        "extracted": 250.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/JEoAAeSwGhFqwatL/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Essential Men\u2019s Size 14 Grey Mist Blue Gray 537384-042 Used",
+      "subtitle": "US M 14 \u00b7",
+      "link": "https://www.ebay.com/itm/920090616469?_skw=Nike+Air+Max+90+sneakers&epid=28039811535&itmmeta=01M6AVNK6GNV1Z071R6A5RBMPP&hash=itemd639aca295%3Ag%3A5PUAAeSw1Apq5ZsE&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8rf2bO1xz2MaZSHOulFmgthg975LC3ghzEqN0L6guo7LUXUqUY%2Bj1uxZrO72yU6XdVjjgvhlxHRnxrmyZMTUGyP7pnf%2BG1njINBuPMUeMs5iveAodT77NjCG18pHs59YvzkEOj9rWxCdwT5gu3G4CQ5XXGrXLF4kb%2BOt5scx7TY7aE454w3VmKhwW7LVIa4wy%2Fj0Wol5%2Bt8VGILIikg4a%2BUnc1yExnEgmW09%2BsUIjUMe7OQEAq9bgRRt%2Ft0%2FW3lJrlcKVLc2tK9kHuL4Cx3mvG%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920090616469",
+      "product_id": "920090616469",
+      "epid": "28039811535",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$79.99",
+        "extracted": 79.99
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/5PUAAeSw1Apq5ZsE/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Ultra Essential Mens 13 Coastal Blue Running Sneakers 819474-402",
+      "subtitle": "US M 13 \u00b7",
+      "link": "https://www.ebay.com/itm/307235208287?_skw=Nike+Air+Max+90+sneakers&epid=28039812534&itmmeta=01M6AVNK6G85CBH3797HQ4PHYN&hash=item4788a53c5f%3Ag%3AIs4AAeSwPghqRENV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Q993%2F01W7%2BPLizfB%2Fs8GM28QVJ4czFdUvZCoKpL5Xp%2B0Kh4JmuJMpw1NannzIGcDzvAPSGRWPrcfZDqZScWjP8VfRwPtum48USBe4LyC20LxkyXw9IyJvLzElKpopoGxkWoXU%2BhyJf3mEaRNDfKDeUZgbFn7%2FJLWIa6J39sQIaewe6f04BTJdQbchoHFlVWn%2FcNQEm3kcH%2FuKz8FVz88%2BWU8nhACdV9jK5se4%2F1zTRkGmkUFni3wvA9xBZr0cZBXCsZyVtuG1MwuMRa7b48bj%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307235208287",
+      "product_id": "307235208287",
+      "epid": "28039812534",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$76.99",
+        "extracted": 76.99
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/Is4AAeSwPghqRENV/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 University Red Sneakers Size 11 CZ7918-600",
+      "subtitle": "US M 11 \u00b7",
+      "link": "https://www.ebay.com/itm/920074143703?_skw=Nike+Air+Max+90+sneakers&epid=16042114681&itmmeta=01M6AVNK6G1KHTH383JKJ4D60W&hash=itemd638b147d7%3Ag%3AKF0AAeSwjjtq3mdq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde834dqTHFo%2F%2BWI%2B7tisioW%2Fr%2Fl8sLKwedDJGcx18EQpy6GQpgE%2Fx6lDD2GwPSlV4qTu%2BIUBA6s%2BCWO88hH%2FUy0VKfI0TPN4y0kTOu8zpA1d4HpMz%2BNodW0uHwb3AUf8YqRLTD1GIihg6fT%2BNlrA19YPhz7YAwyU%2Fop%2FR6O4A0%2F6MF%2F2MAwAK1ZXpX9ASAUEja6oC%2Bp%2BMbCvHiCR9YO%2BeYU1vN4IgqF9FteHx9NAtT%2FhzUxbEY9qkVITgPck5CmcLJHvbZFOzpH%2FJbkUki2kXxs8wdkc9WlHA%2BzZyie2CDIcMaTTEcUQ7nnPB%2BQIare1hXE%3D%7Ctkp%3ABk9SR8Kz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920074143703",
+      "product_id": "920074143703",
+      "epid": "16042114681",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 2,
+      "price": {
+        "raw": "$68.00",
+        "extracted": 68.0
+      },
+      "shipping": {
+        "raw": "+$6.70 delivery in 2-4 days",
+        "extracted": 6.7
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/KF0AAeSwjjtq3mdq/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 OG Reversed Infrared Black/Gray/White/Red Men\u2019s 11 725233-006",
+      "subtitle": "US M 11 \u00b7",
+      "link": "https://www.ebay.com/itm/920092849368?_skw=Nike+Air+Max+90+sneakers&epid=7039814490&itmmeta=01M6AVNK6G4ABM3WNFT6819CFD&hash=itemd639ceb4d8%3Ag%3ArasAAeSwXiZq5sRp&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8CidhOu%2B3%2FIFa%2BYLBd0gueFA8ORkvr8nuk1z1Q9QqCZdcG4Vxwtoyo%2BK2eYrGMYErahws4eNdTA0gWl0aXrRLzwUJxyge5x4s1kWwGD5Om57Hogf%2FFbB1mkVh9%2FK6Jy0tqJ538SKo7i0ouj8NmCQJo%2BlGF93ThlY7fQ7mc3vTbb9QW8fCUR1eTfv%2FQHBQ3SzfjC3gdC%2BgLtTd3ndXNaBhikdrlsapkPqeM7uieHaYcaiEbp83fGc3fUxa2z9edNc%2BywmCIvbSQei3oOXCCdiLI%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920092849368",
+      "product_id": "920092849368",
+      "epid": "7039814490",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$285.00",
+        "extracted": 285.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/rasAAeSwXiZq5sRp/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Men's Sneakers US 7 White/Black/Gray Colorblock Low Top",
+      "subtitle": "US M 7 \u00b7",
+      "link": "https://www.ebay.com/itm/128161623706?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6HDY4DA4BVAMQX8BBZ&hash=item1dd7072e9a%3Ag%3AunYAAeSwSIlq4nu0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8n4AMZuBtRDTesGew2eJySXJhlzvewCRE%2Fo9z9rpl3IhPALzSbhGQXjV6doRIR3DNAaxm2rEwKFOuRfbwHmjraAkquAdpAg0BdLIGa%2BtOlEMcbcHgP9PnJ1yJHtf3R6UYWCv7IB9zlR1XB4VEZHBTfFHEFJ0EJSnDJRcQR6UnGk%2FkOTVyTvEbeBjKs3Swfv7ZIkXExTJG1TUHl93woP8VVSP0Il1Kk%2BWCBbronHtJOe%2FoKHSGf%2BR9xgimvQNa6Q5VIzef01Tfi9fSkfxBdJcIvS3uD90HUU9yNMgMOOQC7NFi5aJ4fiFemYxMsJ86XuXg%3D%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128161623706",
+      "product_id": "128161623706",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$32.00",
+        "extracted": 32.0
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/unYAAeSwSIlq4nu0/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Terrascape Men\u2019s Sneakers Black Pink Volt Gray Excellent Cond.",
+      "subtitle": "US M 9 \u00b7",
+      "link": "https://www.ebay.com/itm/318642287545?_skw=Nike+Air+Max+90+sneakers&epid=22056179096&itmmeta=01M6AVNK6HHREH4C20JJQMM2GP&hash=item4a308f73b9%3Ag%3AgzEAAeSwOPZqZ3xU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9O7cFvANLHqMYyOEuzAY3qZmspA944FXnmhIgWbEP6W%2F3oQ2lMJm28y5WddH208yDRIjA2bxn2jsp0D2GgB1PZG4Nvc9D7DOMSBDOJoO%2B5AymaTCpA3myCeyl6igVxRswGaYQ22giWpIBIzxxk03TRk5U7YU%2BUpc4Fppm4kWZ8Fe2%2FwH2XRoX6bCT0uYNLZimBzgC3sf8NBP51UdImSD1qJChNLjJlGdi18ioCZuHRxXTUOsDZ8AGBwEL7lWQ6dDCV5z2idj68bbk6NdicZnUi%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=318642287545",
+      "product_id": "318642287545",
+      "epid": "22056179096",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": {
+        "raw": "$75.00",
+        "extracted": 75.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/gzEAAeSwOPZqZ3xU/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 sneakers in black and white with speckled texture Size 12",
+      "subtitle": "US M 12 \u00b7",
+      "link": "https://www.ebay.com/itm/377600414433?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6HF80PXRP49J6ZB0P7&hash=item57eabd12e1%3Ag%3ADZoAAeSwhe5q4EU-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9RLmH6kj32YLgCO3R%2BYdcjGWK9Wh%2FhHEL3IUexFFZI0xGQ5dwWqTISf94RX31kWQOJA6iADB6CSLkzjD5yAer9ICr6V%2B1RjZ9s4J7HRt90CA1boLcLMEoLcG9GILgW8xzPLW1SD91eoPl9STx6R2eNLrfxC11nJEDbNlxfl6epZFO049yeHV8nhAza5lJskuByzQ%2BIEimeUDRUY9x%2FNkhsJXX%2F1iPZB4tF89VejyXNvMZQ7LRNxHrgJMZq0woqAw0kTkkmo2lcrzhdz8XeZUmA%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377600414433",
+      "product_id": "377600414433",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$12.23 delivery",
+        "extracted": 12.23
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/DZoAAeSwhe5q4EU-/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Men's Black/Volt/Gray Colorblock Low Top Lace-Up Sneakers",
+      "subtitle": "US M 12 \u00b7",
+      "link": "https://www.ebay.com/itm/257709590891?_skw=Nike+Air+Max+90+sneakers&epid=2321335116&itmmeta=01M6AVNK6HZBZKKMC9A9V78M5M&hash=item3c00b0496b%3Ag%3AM2cAAeSwEQFqkoou&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde97L3r5L07%2BOk0qant0ujPaDAMoT9nj1SBGSIq0z0Pst42wFMu978KhLUpkGDI0ggcov6mTIONpTXFUoeNwjI454GjmVnd5n2u69M1dUA553vCK%2F1KXLEAnHogsRDx%2BThE2G0NsQNEH2H%2FOm9oigi53wWxjt%2FlCRHccjR2Gq93umgwSyZZO%2F55L1ZBUEX9mahgWbCoO%2FM%2BW29JUMKmq%2Bxe9xmmBQRRjrp%2B9yDFOlO9Ej%2BCSXipyzxaF%2BGZlSrwZUZBaiXKnlybPm4lJIih1D8Cw%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257709590891",
+      "product_id": "257709590891",
+      "epid": "2321335116",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$160.00",
+        "extracted": 160.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/M2cAAeSwEQFqkoou/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Premium Men's Size 10.5 Hemp Sand Drift Sneakers DA1641-201 Used",
+      "subtitle": "US M 10.5 \u00b7",
+      "link": "https://www.ebay.com/itm/920060652137?_skw=Nike+Air+Max+90+sneakers&epid=14051941324&itmmeta=01M6AVNK6HW1ZWSGXKMV1J27PW&hash=itemd637e36a69%3Ag%3Aso8AAeSwjv5q2G0O&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9I46our4aaspAMG5vEJKUkvE143r0Di4PgATmjX9jAsqxreHRblAWNc7by%2BewhTm5%2F2wFau%2F6v%2B%2FobF%2BZhDFKkOrfPIS9tToohtsY8IBffqIXeN3%2BZN2xwlxmDcS0tsaVdtkZXudsjPdmei%2B3N7yDd2NHGbrMPoQ3mFQeTy%2BRmKLf1sa1IBy9BAqUNCd3PO6V8nGSnJ5n3ER1ZzTYbRC9YTHfewlB0V3dzckBpEYf5IIAJ3WOuzjMyYLj4http0BabS%2BkCsSebpEVrgRsbg%2FvpzXp%2F89iH8LIL%2BxTTKYLOsrXsnxU0LYrinhFp%2FhNn9Hk%3D%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920060652137",
+      "product_id": "920060652137",
+      "epid": "14051941324",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$89.00",
+        "extracted": 89.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/so8AAeSwjv5q2G0O/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 SE Air Max Running Club Roma Green Orange Sneakers Size 8.5",
+      "subtitle": "US M 8.5 \u00b7",
+      "link": "https://www.ebay.com/itm/267828259660?_skw=Nike+Air+Max+90+sneakers&epid=18052782578&itmmeta=01M6AVNK6HNN5Z8PJ772792P6A&hash=item3e5bceeb4c%3Ag%3Ae5wAAeSwC%7Etq24Zg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde989L2Fsj1KhOB0E8B64lu%2Fx4QYOBrMnU%2FX%2BNFk1NG3bmcAWmbLhS2YwcMoWDxZ3MquXi74ERcMhtU3h6gUYIYswQ2qRvr074rNVR6QlOGGObo7FyrMkAkw4dM3VO%2BcokcQhUQIUmfHrduuqPrnN46VBNLeCox0rEzvCHYyEK9XywEwQzo7qUjH5xfa7wOAXeTUryuNCv95jndShGENlAri9KuL%2FuWwLslZlFIzYntrR8TtVwt0XCyoCgL2Thybnok9686d2aW9QDRkmfT2P%2Fr0gGqjNcOIOs8Pv1GSIQTXIklOx75b1g7XlAy%2Fg3Ryl7A%3D%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267828259660",
+      "product_id": "267828259660",
+      "epid": "18052782578",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$99.99",
+        "extracted": 99.99
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/e5wAAeSwC~tq24Zg/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 DX2313-200 Tan/Beige Camo Low Top Lace-Up Sneakers Men's 9",
+      "subtitle": "US W 9 \u00b7",
+      "link": "https://www.ebay.com/itm/920073726908?_skw=Nike+Air+Max+90+sneakers&epid=16057121302&itmmeta=01M6AVNK6H3SBSW0GT3EHY8DE1&hash=itemd638aaebbc%3Ag%3AVooAAeSwRR5q3jBa&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9pvY4ZOe9CHRF1KsSZveX2bidXLYbBhiZO%2BI%2B7%2B9G7htDbcZDJuEWaWFioS9mSR0%2BHXIPplWjmYz1lww6cTofEh8aIYDsKn2BOz%2FIRR6pb1jZcFW391cJ6gEa6fiBaowwZqlI%2Fguw40ZzXViPpC1Tei5dix739pzViH7cqLm5awbAZuNlLDpApqhKVeNkGANmHNwCFPIp86GHILJvTnOvAYPIxe1ltHyNhouPgW0aDOmfaYaVYUGxAxbZhyBHIrUhWhSTucsbFgH9ol%2BTTa2MS%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920073726908",
+      "product_id": "920073726908",
+      "epid": "16057121302",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$6.55 delivery",
+        "extracted": 6.55
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/VooAAeSwRR5q3jBa/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 SE Washed Denim Light Blue Red 2022 Men's Size 9",
+      "subtitle": "US M 9 \u00b7",
+      "link": "https://www.ebay.com/itm/820293387173?_skw=Nike+Air+Max+90+sneakers&epid=3054315998&itmmeta=01M6AVNK6HW5120PJ2VYWVM6FX&hash=itembefd4bc3a5%3Ag%3AI8YAAeSwj5dq475J&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Jqr02vbW2FY3YxclXVCqw2ft6x7E9urvl%2B1IWGm%2FfSlNs5JLlW%2FExQgMGKoeJQH82TJQgtY%2FIvEibz%2BWtoLTXGSFxS3oHiWwijO6i2uf1SbiArZCqu5yNDbzYpGinDKHpjGhnfz%2Ftsl5MWKHDgCW6jMMLuUjeW5WdCgtkxr1wpcsU9UnRaWVcdvQb4em3vr1DunNmpc1dQhBuzfpAZpgKHh41NoDOcSB%2BgjE42x4nydrNBVLJQ0RBaoW5IFUns0%2BO3i7RMk%2FMlLl9co9%2FkNyj%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820293387173",
+      "product_id": "820293387173",
+      "epid": "3054315998",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$99.00",
+        "extracted": 99.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/I8YAAeSwj5dq475J/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Denim",
+      "subtitle": "US M 13 \u00b7",
+      "link": "https://www.ebay.com/itm/880057820802?_skw=Nike+Air+Max+90+sneakers&epid=23054319998&itmmeta=01M6AVNK6JNCB4V8GQ06NYWDF4&hash=itemcce788a682%3Ag%3A4x8AAeSwgmNq4UHZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2FKVh7kQf4%2BCqOh0AjyTS9AZOS5dWifyubeUGmZC0MSr%2FfM6S88U3lHV2E%2FejvwVNxY6Lk6vwGvxIUQxhQv5sqB9DHpyNjE2BA9yQtv8An9aQz9IBIGOSUWhtbGc%2Fd5JgZTLMKsAHQsXCTRrJyxLzssPMaqbhwHFUU8wp1A5OvtdG5SEsL0Hk2Z%2Fm%2FjVjGA0uXeI75yao2VjbKHfuQ7cuHEV3vpDPlUeZ0DFQraxtqKx8KyY%2B0MLCWAm6YJV4dO1MZQsFe8Wf%2BnodgsnjZTY056WXN0I%2FzfRifDU36KN0wqdqcG%2F7oaiBF0ejc%2BPhV2gk%3D%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880057820802",
+      "product_id": "880057820802",
+      "epid": "23054319998",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$165.00",
+        "extracted": 165.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/4x8AAeSwgmNq4UHZ/s-l500.webp"
+    },
+    {
+      "title": "Mens Nike Air Max 90 Premium SE Varsity Pack University Red Size 9.5",
+      "subtitle": "US M 9.5 \u00b7",
+      "link": "https://www.ebay.com/itm/147657233780?_skw=Nike+Air+Max+90+sneakers&epid=22039811505&itmmeta=01M6AVNK6JB16JVF0ZN0XS636C&hash=item22610e9574%3Ag%3AnQAAAeSwkAlq47PW&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BsGsvmmcQh0CCTFlhSpBZdFW5wRbpN5VCW1dOwS4C2FxB9wwa5hPRnM74CXm%2FOlAkLwTqixGD38Lc71h%2BEUoDoWfHwFeVEvzs89ymxCH2o0s%2FuQPH6bor246Pyv2U6U7lIkRYycE0RsAff6TrKfblH6ezy%2FGyw3WTRzCZHnRmJ%2Fro%2Fys8%2F5PHbKtrq6nwoqjQRKy%2FCv31GA%2BRbRW3W4LLJQ1YLhsdCVOwQ7HWM09B%2BYrvGq2CSsmCTSkGqgK24tQFiVk7PKvbplmwLwtCN0IkL%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147657233780",
+      "product_id": "147657233780",
+      "epid": "22039811505",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$150.00",
+        "extracted": 150.0
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/nQAAAeSwkAlq47PW/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Men\u2019s Size 9 Blue/Red Low Top Lace-Up Sneakers",
+      "subtitle": "US M 9 \u00b7",
+      "link": "https://www.ebay.com/itm/800838262979?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK6JJ2PH1CEME5GVG87Q&hash=itemba75ae20c3%3Ag%3A%7EyAAAeSw-bJq3nnU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9qZIBaOANPhvYiMuTh5IElaTbEdw%2F0NAH7bzGPMmYgd4YDaGXQdrqNeMRfuXXDpID8BC393Z%2Fv%2BOfPdLmFzgrVUYgh7dsYTgX0hHQMtkgHWxqRSaHFZjjlf3R%2Fd0wwC1sPumasfNxkEZ9VDwSITz6gi7WKJmVqmH34mEObTso0A63l0i2G%2FFPvmodmuDQfVfixDE1OInQDgKZpIjyf4yZ9AS1vScqiP6sfn7JIGIJopJMTFiWJ3QtkTefwrDy3AW0Uiry3edPvPxhaI8Ee8%2F1%2F%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800838262979",
+      "product_id": "800838262979",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$6.70 delivery",
+        "extracted": 6.7
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/~yAAAeSw-bJq3nnU/s-l500.webp"
+    },
+    {
+      "title": "Nike Air Max 90 Premium Obsidian Navy DA1641-400 Men\u2019s Size 12 OG Box",
+      "subtitle": "US M 12 \u00b7",
+      "link": "https://www.ebay.com/itm/128112851281?_skw=Nike+Air+Max+90+sneakers&epid=15045872666&itmmeta=01M6AVNK6J2JRK83PDTR6ABNEJ&hash=item1dd41ef951%3Ag%3AJtkAAeSw4ZdqpZ3E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8d7LZ2ZSf0YTEwDRAYsu6%2Bl3os7N0jgifoVkRBEm01XChtiJ42YxYviGJXkbmOh%2B0Co0RNbot9%2FMEcb%2BnHS52evYz1%2Bzq%2BcQ%2F%2BvvaFDcoL8Rqg3qblUsKMxydQLk8woiDZamt5x9ZjAWjT%2FVNT2Z35%2FIjg11JINLIDuaeV%2FB%2BGEPYs2l%2FdCgdQUu3z55zgg7id%2BMi1wBBjcSUMSy4x2jWMBEtjaeuAJ23pYAbLXRvXiB%2BrUaqDqRA%2FRImwBAgaD2ryPIOcIuiT9P8TCZ6MfQTVjAU5KbnllUB64Qf%2B7IOuzESbSPt4GToUL%2FnQMpYIfg8%3D%7Ctkp%3ABk9SR8Sz1tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128112851281",
+      "product_id": "128112851281",
+      "epid": "15045872666",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$129.99",
+        "extracted": 129.99
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/JtkAAeSw4ZdqpZ3E/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Icons DX4233-001 Silver Bullet Red Men\u2019s Size 9 Running Sneakers",
+      "subtitle": "US M 9 \u00b7",
+      "link": "https://www.ebay.com/itm/327429187602?_skw=Nike+Air+Max+90+sneakers&epid=23060006173&itmmeta=01M6AVNK6J1FSD3974JVJA8EHJ&hash=item4c3c4ce812%3Ag%3AHPkAAeSwBK9q440L&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9dObys58G%2BwxgquFjkn%2BISzv12m3fYGBBrzymg6cpgvuEhrwi78gQNGjUS7bzGk%2FUhu8eFd70%2FbCisspfeIigGPAn4z72YS%2Fbg4cFOuEFfHFooJP9VP1aWY%2BiVjuCLAsnaP0Uae0W%2Bt2PtctJ3xRATQPaw55J3YFHfahv6McU8ndr5H7duo%2Bz3vsQ5YTDixfOxyBpSlb7%2BBlp62Pr%2FEpxygXfCASDcS80R%2FJ5LV0N4Rjp1Im8Q0u7uuUo3KDgjyDEX3WGz%2FFVXHYdHpMo5Ub9ww%2FcQSNxlq6YEK7teeUL%2BFw%3D%3D%7Ctkp%3ABFBMxLPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327429187602",
+      "product_id": "327429187602",
+      "epid": "23060006173",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$59.99",
+        "extracted": 59.99
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/HPkAAeSwBK9q440L/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Nike Air Max 90 Mens 11 Triple Black Sneaker Pristine Sharp CN8490 003",
+      "subtitle": "US M 11 \u00b7",
+      "link": "https://www.ebay.com/itm/407299340910?_skw=Nike+Air+Max+90+sneakers&epid=5039821246&itmmeta=01M6AVNK6JC4HJ2Q3G3EEW9HS9&hash=item5ed4eeba6e%3Ag%3Au5kAAeSw3yxq1QXP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FUoXgMeQvOrumufk5DM7KC4N40SQoytb%2FIvofqnUGbJ43TwAM4Cb9yoEkSpioYbsVR%2FG8nUHBvqs1tsIddkOXdBOxKbS0fIlWSPh7%2F3oNTbyf9%2FL5%2FwTMaEWy6%2BWo54xj9ydemHRwxLSlpmV08dv5WJvd3Nt6FhRrWD2D8ORQ%2BkrRPB3oYADFvtXLhxGORj%2FPn7t4IxHZhHO7sXdUwqfPLCmhrOHKwBq70OugpIUW8%2BIKzHw9DkFlExuRcIa69XPbtgn%2FLfmxxHqNz4hiqoz3TXsTw5FuS3gXRhscahOhyqg9TW%2B5dDHNWEN4BrWg7xPU%3D%7Ctkp%3ABFBMxLPW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407299340910",
+      "product_id": "407299340910",
+      "epid": "5039821246",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 3,
+      "price": {
+        "raw": "$60.00",
+        "extracted": 60.0
+      },
+      "shipping": {
+        "raw": "+$12.23 delivery",
+        "extracted": 12.23
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/u5kAAeSw3yxq1QXP/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Best selling products",
+      "items": [
+        {
+          "title": "Nike Air Max 90 Chlorine Blue",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Chlorine+Blue&_sacat=15709&_productid=17053386795&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/ITUAAOSwEJtnupDO/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 White Leather",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+White+Leather&_sacat=15709&_productid=10053401345&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/lXMAAOSwxeBnupCE/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Essential Black Gold",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Essential+Black+Gold&_sacat=15709&_productid=19053392231&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/5YMAAOSw4NBnuo89/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Essential Wolf Grey Rush Pink",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Essential+Wolf+Grey+Rush+Pink&_sacat=15709&_productid=2324438653&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/KUAAAOSweCZnuo8r/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Terrascape Black White 2022",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Terrascape+Black+White+2022&_sacat=15709&_productid=12054682103&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/u-IAAOSwpoVoAdD3/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max Terrascape 90 Obsidian",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+Terrascape+90+Obsidian&_sacat=15709&_productid=23053844131&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/2nUAAOSwpkFnupAm/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Essential Wolf Grey",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Essential+Wolf+Grey&_sacat=15709&_productid=24053384304&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/cdwAAeSwH8tpWCBd/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max Terrascape 90 Pink Swoosh",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+Terrascape+90+Pink+Swoosh&_sacat=15709&_productid=2327286121&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/2nIAAOSwEWtnupC5/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max Terrascape 90 Pure Platinum Hyper Royal",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+Terrascape+90+Pure+Platinum+Hyper+Royal&_sacat=15709&_productid=4061068535&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/ik4AAeSwjOZpIfZ2/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Essential Midnight Navy",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Essential+Midnight+Navy&_sacat=15709&_productid=28053401157&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/YNMAAOSwwYdnupAO/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Total Orange",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Total+Orange&_sacat=15709&_productid=11053388153&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/FY0AAeSw1Clol6bN/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Tunnel Walk",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Tunnel+Walk&_sacat=15709&_productid=15058801107&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/35kAAOSwAHZnuo-0/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 SE Running Club - Roma Green",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+SE+Running+Club+-+Roma+Green&_sacat=15709&_productid=25053378016&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/PrcAAeSwK39o9rmS/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Leather Black",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Leather+Black&_sacat=15709&_productid=28053401996&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/PycAAOSwxt1nuo-y/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Triple Red",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Triple+Red&_sacat=15709&_productid=3053395392&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/KhQAAOSwvjdnKzNF/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 USA 2020",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+USA+2020&_sacat=15709&_productid=2324445734&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/0k0AAOSw3W1nuo71/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Essential Gym Red",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Essential+Gym+Red&_sacat=15709&_productid=28053394888&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/rCsAAeSwIZJpGhSK/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Cargo Khaki Reflective",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Cargo+Khaki+Reflective&_sacat=15709&_productid=18058127579&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/mRsAAOSwS-xnuo6Z/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Atlantic Volt",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Atlantic+Volt&_sacat=15709&_productid=3054691677&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/KAoAAOSwLltnupBX/s-l500.jpg"
+        },
+        {
+          "title": "Nike Air Max 90 Ultra Breathe Total Crimson",
+          "link": "https://www.ebay.com/sch/i.html?_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_nkw=Nike+Air+Max+90+Ultra+Breathe+Total+Crimson&_sacat=15709&_productid=5053397266&_productIdType=ms",
+          "thumbnail": "https://i.ebayimg.com/images/g/RHUAAOSwB0tnuo6j/s-l500.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | S\u061cponsored",
+      "items": [
+        {
+          "title": "Size 9 - Nike Air Max 90 Ultra Noire Men's Sneakers Bright Crimson 819477 600",
+          "link": "https://www.ebay.com/itm/168665018432?_skw=Nike+Air+Max+90+sneakers&epid=15039811918&itmmeta=01M6AVNK7NRY6FHSSEJ48BFMX9&hash=item274537f040%3Ag%3A8qwAAeSwoTxqeT81&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9xukbbLd0%2FoPpI5IP%2BLrJ8eL8Z6prQbCIMTH1bW2EonJg98hF33eGmZlM%2BciXRMgXiHs%2Bdglr8GSCOLLOT4dKsxfGzfh06gBXFNPVRJmktd3XBecdwT%2BmsJ59%2FBOwfcCx8O0j41JgS6Fzg25zpSpozMyUFWwKTGMCOzEJ9HUmgnBm9d8HbDrZ0CdXqUMXU%2FCEF6H5LMza63gZWttX4vaT5bkrcTntuWPM2FDx4zrdTjJMGyqHBMUlf4iBcsmXl64vXD1rLR986oVixINdDC2CLOfHQ5egUoxhKYMexwbTSeK%2BE2uLGXPzVe4v33t%2FYkKA%3D%7Ctkp%3ABFBMxLTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168665018432",
+          "product_id": "168665018432",
+          "epid": "15039811918",
+          "price": {
+            "raw": "$88.88",
+            "extracted": 88.88
+          },
+          "shipping": {
+            "raw": "+$14.95 delivery",
+            "extracted": 14.95
+          },
+          "condition": "Pre-Owned",
+          "extensions": [
+            "Authenticity Guarantee"
+          ],
+          "thumbnail": "https://i.ebayimg.com/images/g/8qwAAeSwoTxqeT81/s-l500.webp"
+        },
+        {
+          "title": "Nike Air Max 90 Triple Grey Mens Size 8.5 CN8490-001",
+          "link": "https://www.ebay.com/itm/188864081800?_skw=Nike+Air+Max+90+sneakers&epid=12051936603&itmmeta=01M6AVNK7N1GZJR1FF3WBNZFA4&hash=item2bf92d2f88%3Ag%3AVVkAAeSwsDVqlNK4&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FbtnGBvwWI4yhSTujGEd%2B5BqGB7Mztm1e7ZYcCDerc7NAcoL8aUJvikzmvynrT7A%2BB%2Fu0v%2FFR1s%2FIuKfbncQye6%2FTZQh3wUaahGlxyOmDKwAstyn2TjlNL3CAEfs62vP6BCZoqpXIRgiBEv1tSvo0HV6aELClmhWrX%2BqosL8C5ijMAzM9H0YGSJxnxAFFNZ2QCQYEbDcQnfGUfQKwh%2FEqTdJzl81neXI3MjyXV0R0sSJwHy1%2F%2B6TJFZ1OYDYITlrSrf9CYVXDKeoGYnkKqf3mtBo99zhaJLmNp0q5HV%2FvVOQ%3D%3D%7Ctkp%3ABFBMxLTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188864081800",
+          "product_id": "188864081800",
+          "epid": "12051936603",
+          "price": {
+            "raw": "$75.00",
+            "extracted": 75.0
+          },
+          "shipping": {
+            "raw": "+$14.95 delivery",
+            "extracted": 14.95
+          },
+          "condition": "Pre-Owned",
+          "extensions": [
+            "Authenticity Guarantee"
+          ],
+          "thumbnail": "https://i.ebayimg.com/images/g/VVkAAeSwsDVqlNK4/s-l500.webp"
+        },
+        {
+          "title": "Nike Air Max 90 Retro 2020 Laser Blue CJ6779-100 w/ Hang Tag - Men\u2019s Size 10",
+          "link": "https://www.ebay.com/itm/287687118122?_skw=Nike+Air+Max+90+sneakers&epid=5042126101&itmmeta=01M6AVNK7N8PSGTRAJGADSYMMJ&hash=item42fb7d0d2a%3Ag%3AowMAAeSwsf1q4gXS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9u1VJILCn9TlB8HVvpSdXLmpDQ9hnXbrmD5IqeZzUsKQdURg%2BM8l3tedWOsNTPKVPM%2BYdwa%2B7AJZ6I%2BfoxNPqKU%2B0GGC3N79Pj3MSfIo%2BOhBC28wOxfIa90y4Q7hZeKdnNFI02SF0FMLMFGG8Ji5qRrZK1%2FJ2q5tXI8484nFIpHxyP12aIsT9wfKL%2FDmkA4t5%2FVCX4NPbcGIX6QhfHvNDdl0uoS5QaZ1RcI3711RwjXuU5b9Tz5z8EyACxlA5lJ7WAPO3qyfEC15qUfZhiT7Xpk2EUoQpnOwx06l0YTroiCerF2qoiTFrJocKTmYCMZt8%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287687118122",
+          "product_id": "287687118122",
+          "epid": "5042126101",
+          "price": {
+            "raw": "$99.95",
+            "extracted": 99.95
+          },
+          "shipping": {
+            "raw": "+$14.95 delivery",
+            "extracted": 14.95
+          },
+          "condition": "Pre-Owned",
+          "extensions": [
+            "Authenticity Guarantee"
+          ],
+          "thumbnail": "https://i.ebayimg.com/images/g/owMAAeSwsf1q4gXS/s-l500.webp"
+        },
+        {
+          "title": "Size 10.5 Nike Air Max 90 Current Huarache Hufquake Mens Shoes 375576-011",
+          "link": "https://www.ebay.com/itm/407317694315?_skw=Nike+Air+Max+90+sneakers&epid=2310882861&itmmeta=01M6AVNK7ND0V2FNQHTKC1GQH5&hash=item5ed606c76b%3Ag%3AhJ8AAeSw9tNqt1PZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8c9jXpzc15hZtp1mYn8Ce5M5BIcHOW0OX6coOWR82E3T5z8fE%2F6Q76J3fHtldIBeM20nxPLFNCXEgSmX19%2FKkG80ddi8eWI65fkJJjvwgLE4VbyrQ1mRkaGVIh%2Fvex6UdDtOx%2F96KF2lJWrYba6TId57SGVmA84q85uHZrY6orehey7F%2FYJfQbke63ucbMCIlP7BfoG64kJztDbQ4Ws9YfMlNuoJWqYVPOMSJ8mdABZ%2FsAyOJ8GSkvpxk%2BZgNMNh5KYVCwH4zpbVgMj1r4vl8jiZFWDMKjFC6XLa1Gybr5hnuomKPLn6Ckk8B89CeLNhM%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407317694315",
+          "product_id": "407317694315",
+          "epid": "2310882861",
+          "price": {
+            "raw": "$111.99",
+            "extracted": 111.99
+          },
+          "shipping": {
+            "raw": "+$14.95 delivery",
+            "extracted": 14.95
+          },
+          "condition": "Pre-Owned",
+          "extensions": [
+            "Authenticity Guarantee"
+          ],
+          "thumbnail": "https://i.ebayimg.com/images/g/hJ8AAeSw9tNqt1PZ/s-l500.webp"
+        },
+        {
+          "title": "Nike Air Max 90 NRG Bacon Mens Size 7.5 White Red Pink Athletic Shoes Sneakers",
+          "link": "https://www.ebay.com/itm/307255946661?_skw=Nike+Air+Max+90+sneakers&epid=26044914420&itmmeta=01M6AVNK7NVGDGXBDC9XWBMHW7&hash=item4789e1ada5%3Ag%3A3hAAAeSwwWFpL%7Ecn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B4OaPHQ9AgiEunXBOeAj2rndmduPIXPnL5v4a2fjjATWW0f2XD9CsaB2A1AMZUyBYt6IgPya8frRXbPqwdCHigCOM%2BYIZM5fmaKhJ9MOK2lc6u3fT0KO5VNDuLnCO%2FhPU7xQDxGdzRCVD4Y0Fa16intoBkKQVqw9%2F6A%2FRe%2FDGKo0af%2F61kL18BepG%2BGneHjiXubkQrZyVE9FIhl9hGH0sto2QHQQk2%2BhixW1q9gzrUr0cD8I5uomHETbkdAYcwCL3AQmXIHt%2FFFJ4AQ%2Betnq%2BS9UgRjYbJY2QvbGHVI4NS6zCaP5xZZZWyfeo4JihzN9I%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307255946661",
+          "product_id": "307255946661",
+          "epid": "26044914420",
+          "price": {
+            "raw": "$79.99",
+            "extracted": 79.99
+          },
+          "shipping": {
+            "raw": "+$14.95 delivery",
+            "extracted": 14.95
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "extensions": [
+            "Authenticity Guarantee"
+          ],
+          "thumbnail": "https://i.ebayimg.com/images/g/3hAAAeSwwWFpL~cn/s-l500.webp"
+        },
+        {
+          "title": "Nike Air Max 90 Drift Men\u2019s 10.5 Light Smoke Grey FB2877-003",
+          "link": "https://www.ebay.com/itm/307212383750?_skw=Nike+Air+Max+90+sneakers&epid=7073735245&itmmeta=01M6AVNK7NXYJW6Y0QVRGPT05Y&hash=item478748f606%3Ag%3AYbcAAeSw2t1qwXbJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8wypGKsC2VmT7Mrsx8aEHZMNWlWbQuL1DJDTqx8B4tg1VLOU2eGIaELrcpCoWkyZ%2F7bliVal9%2B6SThdnOFqizFStGvvE9%2BGYlppvIvF%2BPUhC5cZdxpKxWWqa9W7Q1B9RTM2rrqTwb9jVbDVvaOSLwuSE0mlZw2OdeGUDSmre0F%2BrhyfdhjaChl%2FwzeN%2FhVqj1EKPjA%2B3OEOySdaefxtHo1G7Yknx0OXXBgeA6HBSPegvYuWSGS0XnoKZ30ingGpN7vc1SAWhMzXupVkI2fFgJQqFWgDGTP4tjCFrUybnbpzpF1xH2VTBwa%2BXqLVThQuB0%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307212383750",
+          "product_id": "307212383750",
+          "epid": "7073735245",
+          "price": {
+            "raw": "$124.00",
+            "extracted": 124.0
+          },
+          "shipping": {
+            "raw": "+$14.95 delivery",
+            "extracted": 14.95
+          },
+          "watchers": "11 watchers",
+          "extracted_watchers": 11,
+          "condition": "Pre-Owned",
+          "extensions": [
+            "Authenticity Guarantee"
+          ],
+          "thumbnail": "https://i.ebayimg.com/images/g/YbcAAeSw2t1qwXbJ/s-l500.webp"
+        },
+        {
+          "title": "Nike Air Max 90 Essential \"Triple White\" 537384-111 Men's size 9 US",
+          "link": "https://www.ebay.com/itm/307123402344?_skw=Nike+Air+Max+90+sneakers&epid=21039809216&itmmeta=01M6AVNK7N197RB9R53S153XGP&hash=item4781fb3668%3Ag%3AiPwAAeSwVnNqfQIc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9owvKKBhUZVge8DAAItRA%2BP8p9ecdtgjoiy6AdJ4o4tDk7exnR9WZBZJj79Zl9ADGGGZ%2B3GU1Z4ul2PwyVwfNg94gJYx%2FLf2N%2BY0D2DoXPz9NjPGZ9YwOuhKfX3xM%2F9%2BSxGsjr5JMV2hZUalX3C4JZ5u7IUN6X3JgJKTbt49m%2BFqR2VhCY%2BtWVqJ9e1ey0jVGL2Ipwzs65fp5RdjDhmOnKtOOsOlwgN4lh0GlPT0FGSkTYVZ895AWDWF9lfxuuEtUj7OafkewGLgFgBYUwW0bdSN7vo4zDdOcv8ncnBIfFQef1ClW%2B4l1UerwbW7HAcww%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307123402344",
+          "product_id": "307123402344",
+          "epid": "21039809216",
+          "price": {
+            "raw": "$74.88",
+            "extracted": 74.88
+          },
+          "shipping": {
+            "raw": "+$14.00 delivery",
+            "extracted": 14.0
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/iPwAAeSwVnNqfQIc/s-l500.webp"
+        },
+        {
+          "title": "Nike Air Max 90 Ultra Essential Mens Sz 9.5 Infrared Sneakers 2015 819474-106",
+          "link": "https://www.ebay.com/itm/287581459080?_skw=Nike+Air+Max+90+sneakers&epid=12039796741&itmmeta=01M6AVNK7NQKEKYB0HJR1C5CSZ&hash=item42f530d288%3Ag%3A2%7E4AAeSwkUhqpMr%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FsOAia7FqadqC4eO9ysFG%2BxsZixksENrXcW5UNKMdlYGLzL1Kg%2B4JPZWtnlDxG%2FdkbSP7mvNqxBNcbUzECMcrsvo0wgauMMJY%2FdyCzCzjrGt1j7TGLYOxWzzhIwzKWyxvqbkfGPzRp62kK1RABOyeMdRp39q%2FDepfXv50lxpUenjoY4T7VhTy6BTeVFjDZ3lKEZeZsCuC0L31ppnN850OBYE2ivLT5bk%2BNzxplBFU4s2UbOdA8r867XVzjNg7hg%2BD9ZvVksDvc1GEwbLU1Pih8wvsAUjSXLDe6%2B7hwHRTA3aTuc5DXK38S71QuvFG6Vaw%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287581459080",
+          "product_id": "287581459080",
+          "epid": "12039796741",
+          "price": {
+            "raw": "$114.99",
+            "extracted": 114.99
+          },
+          "shipping": {
+            "raw": "+$14.95 delivery",
+            "extracted": 14.95
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "extensions": [
+            "Authenticity Guarantee"
+          ],
+          "thumbnail": "https://i.ebayimg.com/images/g/2~4AAeSwkUhqpMr~/s-l500.webp"
+        },
+        {
+          "title": "Nike Air Max 90 LTR Premium Polka Dot Men\u2019s Size 10 666578-006 Gray Blue Crimson",
+          "link": "https://www.ebay.com/itm/257684379965?_skw=Nike+Air+Max+90+sneakers&epid=7039814698&itmmeta=01M6AVNK7NCJFSSMEHW7JWW30A&hash=item3bff2f993d%3Ag%3AAPMAAeSwls1qgfpQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bsd4YWcIIfrqkxM4KrR7r9IIrKjQEi8IhBuA8ANV51hXY1ecraa%2Bta0LR1FHcwnWnZlkaXcJuG7oSNaxPY%2B%2BQ%2BcKtufh7hPh0IG55irwNwFPB3b9qxVy1ZoYcFe4PBekMwQDYf2QhohOb53GVTmeFlowAGqAC2VdnVRLgDLXAsPkO86cgjOlJigj0m0SiuxDVfusn9WuxnFJQvXLhHwKWpabZ2r%2B7PO%2BIYyTgqy859wO45hCDV3hRrTvLT6JYRCd57BkUPovM7f75w3yC3JdXSvztZTOhODFLYPRzwp1%2F6FtVqBZ1QRsOcnIm8ZsdL4S8%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257684379965",
+          "product_id": "257684379965",
+          "epid": "7039814698",
+          "price": {
+            "raw": "$119.95",
+            "extracted": 119.95
+          },
+          "shipping": {
+            "raw": "+$14.95 delivery",
+            "extracted": 14.95
+          },
+          "condition": "Pre-Owned",
+          "extensions": [
+            "Authenticity Guarantee"
+          ],
+          "thumbnail": "https://i.ebayimg.com/images/g/APMAAeSwls1qgfpQ/s-l500.webp"
+        },
+        {
+          "title": "NIKE Air Max 90 SNEAKERS! Gray/White Men's Running Shoes LOW PRICE\u2026 $135 NEW!",
+          "link": "https://www.ebay.com/itm/287590858213?_skw=Nike+Air+Max+90+sneakers&itmmeta=01M6AVNK7N6837A5A3M93QSRN4&hash=item42f5c03de5%3Ag%3A6KAAAeSwf55qqwvS&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BJzqFQyXdtRSaav2b91wTMyipz997ipqzlujYLepmTiPtEH4i0AQn7SkAw6phFnK7yucR3cNHzuA0zCD%2BSldbs811ef%2FGJbPiJMyRN8wS5jMBbqr8nebI5XYpNwivooj4cdmJu1VlSZPkw%2BM%2B5sQWEmeQ1yXdpKMAWW2mGj7bxg7yWLnqUcprBV4tGTL1zCozge71IKU4LtMa88DKv0f%2F3lwIFvRlg%2FI33jbug4Z8pgGVIc10iEr9%2BHFwaBcD4mQGCy3Pk%2F9mJuxVJV1TiCH8i4X302a7ou%2FKu%2FXb5rcZo8Q%3D%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287590858213",
+          "product_id": "287590858213",
+          "price": {
+            "raw": "$65.00",
+            "extracted": 65.0
+          },
+          "shipping": {
+            "raw": "+$12.23 delivery",
+            "extracted": 12.23
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/6KAAAeSwf55qqwvS/s-l500.webp"
+        },
+        {
+          "title": "Nike Air Max 90 Icons DX4233-001 Silver Bullet Red Men\u2019s Size 9 Running Sneakers",
+          "link": "https://www.ebay.com/itm/327429187602?_skw=Nike+Air+Max+90+sneakers&epid=23060006173&itmmeta=01M6AVNK7N03CGZ97J8B9DH2YS&hash=item4c3c4ce812%3Ag%3AHPkAAeSwBK9q440L&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9dObys58G%2BwxgquFjkn%2BISzv12m3fYGBBrzymg6cpgvuEhrwi78gQNGjUS7bzGk%2FUhu8eFd70%2FbCisspfeIigGPAn4z72YS%2Fbg4cFOuEFfHFooJP9VP1aWY%2BiVjuCLAsmTYPk3B4ehLl1E%2FizryxGpWD1%2BV%2Fej4swbRFFBJeFqUGYoLCPXQVvN2G5FS5EeuO5SXpcagGYt95KMsNgfAIFr1VhpSq%2FNwBYpooxhAJ9XlMhc8kEu311Pz4WsCceaF3tgVQ4FZEyy6Na2Mh4xC1cCaV7huhkfVXtSfJ3zv9jAHso%2BNey2GkTUUZSOec7UNps%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327429187602",
+          "product_id": "327429187602",
+          "epid": "23060006173",
+          "price": {
+            "raw": "$59.99",
+            "extracted": 59.99
+          },
+          "shipping": {
+            "raw": "+$9.99 delivery",
+            "extracted": 9.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/HPkAAeSwBK9q440L/s-l500.webp"
+        },
+        {
+          "title": "Nike Air Max 90 Steelers Black Yellow Men's Shoes Sneakers Size 9 EXCELLENT",
+          "link": "https://www.ebay.com/itm/257822381726?_skw=Nike+Air+Max+90+sneakers&epid=11067347626&itmmeta=01M6AVNK7N2AZ6Q08HW2P8PJFZ&hash=item3c0769569e%3Ag%3Av2QAAeSwUS9q4lfQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FJh%2FsDrFmzWZLwzK045CGzHyHfqiXLI6RSUtynnFOMvmkKrdo2wXwf2OeCgaVLRLTJdU0g3tXTpPsPaV9mcsA5KKYg%2BDt3zXvubrY2U0WMybgAIVoPD%2Fj1m0PcY0U4c5ydvEObpTeYvl0%2Bn9m%2B7IwWAgSVPgVpiJZHDbIzI%2B9m43AEmwcFaZPndIRE%2FvzTOzd0r6cb54kztuM2fcyKZNlTb0ozPwr%2FCFVukeRnhXuts%2BiEnCEfr%2BSqVnVTt8SXIIbHaTf2rFzDnOVHXZNVWbmoSFy0CWvwIQmJ36TmvsgWnwMlBa7rSwZJwODl%2B%2FJt8no%3D%7Ctkp%3ABFBMxrTW27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257822381726",
+          "product_id": "257822381726",
+          "epid": "11067347626",
+          "price": {
+            "raw": "$74.99",
+            "extracted": 74.99
+          },
+          "shipping": {
+            "raw": "+$15.00 delivery",
+            "extracted": 15.0
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/v2QAAeSwUS9q4lfQ/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "nike shoes air max 97",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=nike+shoes+air+max+97&_sop=12"
+    }
+  ],
+  "popular_filters": [
+    {
+      "name": "US Shoe Size: 9.5",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25209%252E5",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25209%252E5",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%2525209%25252E5"
+    },
+    {
+      "name": "US Shoe Size: 10",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252010",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252010",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%25252010"
+    },
+    {
+      "name": "US Shoe Size: 10.5",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252010%252E5",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252010%252E5",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%25252010%25252E5"
+    },
+    {
+      "name": "Black",
+      "parameter": "_dcat=15709&Color=Black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=Black",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DBlack"
+    },
+    {
+      "name": "White",
+      "parameter": "_dcat=15709&Color=White",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=White",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DWhite"
+    },
+    {
+      "name": "Blue",
+      "parameter": "_dcat=15709&Color=Blue",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=Blue",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DBlue"
+    },
+    {
+      "name": "adidas",
+      "parameter": "_dcat=15709&Brand=adidas",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Brand=adidas",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Brand%3Dadidas"
+    },
+    {
+      "name": "Nike",
+      "parameter": "_dcat=15709&Brand=Nike",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Brand=Nike",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Brand%3DNike"
+    },
+    {
+      "name": "Jordan",
+      "parameter": "_dcat=15709&Brand=Jordan",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Brand=Jordan",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Brand%3DJordan"
+    },
+    {
+      "name": "W",
+      "parameter": "_dcat=15709&Shoe%2520Width=W",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Shoe%2520Width=W",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Shoe%252520Width%3DW"
+    },
+    {
+      "name": "M",
+      "parameter": "_dcat=15709&Shoe%2520Width=M",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Shoe%2520Width=M",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Shoe%252520Width%3DM"
+    },
+    {
+      "name": "US Shoe Size: 8.5",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25208%252E5",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25208%252E5",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%2525208%25252E5"
+    },
+    {
+      "name": "US Shoe Size: 11",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252011",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252011",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%25252011"
+    },
+    {
+      "name": "US Shoe Size: 12",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252012",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252012",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%25252012"
+    },
+    {
+      "name": "US Shoe Size: 11.5",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252011%252E5",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252011%252E5",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%25252011%25252E5"
+    },
+    {
+      "name": "US Shoe Size: 9",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25209",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25209",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%2525209"
+    },
+    {
+      "name": "US Shoe Size: 8",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25208",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25208",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%2525208"
+    },
+    {
+      "name": "US Shoe Size: 13",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252013",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%252013",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%25252013"
+    },
+    {
+      "name": "US Shoe Size: 7.5",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25207%252E5",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25207%252E5",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%2525207%25252E5"
+    },
+    {
+      "name": "US Shoe Size: 7",
+      "parameter": "_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25207",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&US%2520Shoe%2520Size=US%2520Men%25207",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26US%252520Shoe%252520Size%3DUS%252520Men%2525207"
+    },
+    {
+      "name": "Gray",
+      "parameter": "_dcat=15709&Color=Gray",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=Gray",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DGray"
+    },
+    {
+      "name": "Brown",
+      "parameter": "_dcat=15709&Color=Brown",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=Brown",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DBrown"
+    },
+    {
+      "name": "Red",
+      "parameter": "_dcat=15709&Color=Red",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=Red",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DRed"
+    },
+    {
+      "name": "Multicolor",
+      "parameter": "_dcat=15709&Color=Multicolor",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=Multicolor",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DMulticolor"
+    },
+    {
+      "name": "Green",
+      "parameter": "_dcat=15709&Color=Green",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=Green",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DGreen"
+    },
+    {
+      "name": "Pink",
+      "parameter": "_dcat=15709&Color=Pink",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=Pink",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DPink"
+    },
+    {
+      "name": "Orange",
+      "parameter": "_dcat=15709&Color=Orange",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Color=Orange",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Color%3DOrange"
+    },
+    {
+      "name": "D",
+      "parameter": "_dcat=15709&Shoe%2520Width=D",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Shoe%2520Width=D",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Shoe%252520Width%3DD"
+    },
+    {
+      "name": "Standard",
+      "parameter": "_dcat=15709&Shoe%2520Width=Standard",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&Shoe%2520Width=Standard",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D15709%26Shoe%252520Width%3DStandard"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=15709&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Nike+Air+Max+90+sneakers&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}

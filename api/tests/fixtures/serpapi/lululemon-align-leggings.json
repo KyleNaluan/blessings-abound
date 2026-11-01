@@ -1,0 +1,1897 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7c91b6c6eeec38a35c1",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/3qJqtSitk_ARjZrnHWlgVVSnlSrkcmdI0SRuwqhQsTA/6ae6d7c91b6c6eeec38a35c1.json",
+    "markdown_endpoint": "https://serpapi.com/searches/3qJqtSitk_ARjZrnHWlgVVSnlSrkcmdI0SRuwqhQsTA/6ae6d7c91b6c6eeec38a35c1.md",
+    "created_at": "2026-11-01 06:10:17 UTC",
+    "processed_at": "2026-11-01 06:10:17 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+    "raw_html_file": "https://serpapi.com/searches/3qJqtSitk_ARjZrnHWlgVVSnlSrkcmdI0SRuwqhQsTA/6ae6d7c91b6c6eeec38a35c1.html",
+    "total_time_taken": 4.96
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "Lululemon Align leggings",
+    "_ipg": "60",
+    "LH_ItemCondition": "3000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 22000,
+    "query_displayed": "Lululemon Align leggings"
+  },
+  "categories": [
+    {
+      "name": "All",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_oac=1"
+    },
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11450,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=11450&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Women",
+      "link": "https://www.ebay.com/sch/260010/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260010,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=260010&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Activewear",
+      "link": "https://www.ebay.com/sch/185098/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 185098,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=185098&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Leggings",
+      "link": "https://www.ebay.com/sch/169001/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 169001,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=169001&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Pants",
+      "link": "https://www.ebay.com/sch/63863/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 63863,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=63863&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Outfits & Sets",
+      "link": "https://www.ebay.com/sch/260011/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260011,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=260011&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Jeans",
+      "link": "https://www.ebay.com/sch/11554/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11554,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=11554&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Jumpsuits & Rompers",
+      "link": "https://www.ebay.com/sch/3009/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 3009,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=3009&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Skirts",
+      "link": "https://www.ebay.com/sch/63864/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 63864,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=63864&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Intimates & Sleep",
+      "link": "https://www.ebay.com/sch/11514/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11514,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=11514&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Shorts",
+      "link": "https://www.ebay.com/sch/11555/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11555,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=11555&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Tops",
+      "link": "https://www.ebay.com/sch/53159/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 53159,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=53159&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Dresses",
+      "link": "https://www.ebay.com/sch/63861/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 63861,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=63861&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 888,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=888&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11700,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=11700&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=1&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 64482,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Lululemon+Align+leggings&category_id=64482&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "title": "lululemon Align Black High Rise Flared Yoga Leggings Women\u2019s 12 32\" Inseam",
+      "subtitle": "Size 12 \u00b7",
+      "link": "https://www.ebay.com/itm/267828263535?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRS7QXHSWND1TAP6M0T&hash=item3e5bcefa6f%3Ag%3ASqgAAeSwoVlq5MH0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8VJtRumewNHyHrx2xCnzzMmKmxUu6YrE2hlksrPP364y4jhCZBaNX5x%2Bs5TobcqmdIRYkwKdAvlEu6N4NNOUuGEzChoy5GSPAiqcyVbzc7HDx24WdtHUxB3AlzAjz31fHdrAxj6fK%2BWmEKxsjKlqTxx%2FXS6r9xftOiQTsR87mePDdDoyb%2Bf63t%2FQBv7N0K8whW%2BSgSIOwfG4Qe0nAlWK5yZ0%2BRb1QX22G8lviaGRBcjXoc91LeEmNfyVGC4RMwrRKl78JDP7ZO95M7nxeS5hAsn9j--jBNJRZDKy%2BVyM8mgoLpNQFNhVkNcgzStKM9%2F7g%3D%7Ctkp%3ABk9SR8Lc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267828263535",
+      "product_id": "267828263535",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$15.00",
+        "extracted": 15.0
+      },
+      "shipping": {
+        "raw": "+$6.36 delivery",
+        "extracted": 6.36
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/SqgAAeSwoVlq5MH0/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "LULULEMON Align High Rise Leggings Womens Size 2 Navy Blue Yoga Pants 25",
+      "subtitle": "Size 2 \u00b7",
+      "link": "https://www.ebay.com/itm/860090622029?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRSF67SS5PJT9MFCXMT&hash=itemc84165604d%3Ag%3AUnMAAeSwfmdq4Vr2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BeOM790tfRWFIUHpCCpIR4Y7xZNfVCph9553Fk7%2Bg2l5sITMm%2FzuhX8HygAgoy13YL3S69c28g8kEzmYxTtbKg5%2Bp39bj1uufbvz%2BDH301imYUUfnQ%2FXq12qJ8yLk4c0RXZHwQ7NKaQdeVjae7ZGqI6jCtQvSyzV2SXtC9AJwuhVPziVnit5xxDVBjjwSP%2F34EJOqnf5ePXUpR5w2KtD%2BYJmtraPtZ4glY4opjj%2F%2BN1r4BeqM9oPzKbJrrEcwOCE2BcqU%2FSMJZG26RY5Cdd0IC42QUKEiXnoZXlBxwufd%2Fak9BP5RexeTo3VXubdfiBd8%3D%7Ctkp%3ABFBMwtzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860090622029",
+      "product_id": "860090622029",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.27",
+        "extracted": 35.27
+      },
+      "old_price": {
+        "raw": "$41.99",
+        "extracted": 41.99,
+        "discount": "$35.27"
+      },
+      "shipping": {
+        "raw": "+$5.99 delivery",
+        "extracted": 5.99
+      },
+      "location": "Located in United States",
+      "promotion": "$33.51 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/UnMAAeSwfmdq4Vr2/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Align High-Rise Full Length Pant Leggings, Black, Size 4",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/147604713334?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRSV72VK4KFYR986FQ4&hash=item225ded2f76%3Ag%3ArzUAAeSwHgdquihk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3jZKl9C1eX9n9V5elmkO%2F3aFio1tnOgUFEcbYjMwDkinprlpOaVrHY5TTv9zTxDQJDa8VP8Rya7jEkKLR%2BOofbHzk8Pw1VuE%2FBOWgXsxEm6g3dqZnRbVwZ11VHuXDXz%2FkJuCULRcLlFVBZKhjgH43jc19XiAXyCWDi%2FT1HBocoet8lcLzYhfXEz%2FDLTY9S3lsquZ8%2BT1wQAc1UwPPdRzZynV%2Bl%2FkWC0MTR3bmW91ft0pTwUROyhjMmD5aQNDIdHuspK8yPL%2Fs6xjd9XsMKQMuP--tBGBIYbLjQBEws%2B6FcpMgVpNm5Vft4SIO1YJxeTE%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147604713334",
+      "product_id": "147604713334",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$23.09",
+        "extracted": 23.09
+      },
+      "shipping": {
+        "raw": "+$6.07 delivery",
+        "extracted": 6.07
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/rzUAAeSwHgdquihk/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Pants 6 Align Garnet Red High Rise Leggings Gym Yoga 21.5\u201d Inseam",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/287645514898?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRS36ZSQKPR9K5DMA2S&hash=item42f9023c92%3Ag%3AJUgAAeSwMndqUobJ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9LUPV5XyChXa5bMtSekqbEzfK1mVGe5u0yxV16a52SJQV%2FlRVSg0StXdTKQya1YIUqrx91vsufIdwcgQ%2BI5ztMpFM%2FyIdGsw6wGN9%2BH75K55dbXbgLv7RA1kw%2B3tCWrsGHM1N6%2F4%2F1H%2FddBXfEAnU3aovyu6Nrz%2BGyvu2zN7Cvw6gpW7dWbl8G09Nbc7WIfmcH0Q3JXhCXSyxvBEeUgK8qeMS9Gdry2VhsWy7%2BX7G%2B1aOWAe5oTx6l50qEe15JpzatRMBDuGtIEZlz1AnZ9OmuqC3%2BQmr1rPnwqkGrX2uxsQ%3D%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287645514898",
+      "product_id": "287645514898",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "old_price": {
+        "raw": "$50.00",
+        "extracted": 50.0,
+        "discount": "$35.00"
+      },
+      "shipping": {
+        "raw": "+$7.95 delivery in 2-4 days",
+        "extracted": 7.95
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$28.00 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/JUgAAeSwMndqUobJ/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Black Align High Rise Leggings 28\" Inseam Size 8",
+      "subtitle": "Size 8 \u00b7",
+      "link": "https://www.ebay.com/itm/327426217331?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRSVT70XJ044ZMCBABR&hash=item4c3c1f9573%3Ag%3AR0gAAeSwPahq4KXE&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8pIVgJBNyfwFK15Sz22ku0km42EBrmI6aWIfedqoAfjmSOA%2Bkfko4StukhpNl1jMFNoQ9O8gtMxQNVRGTze1dSE3I%2FgsB56SZ3lBGqAL%2FcsLHTh5NKKC4xyRk3BSVHxnsQ0H5%2BcXv87ggCywMB3Er6T8XobrQoJX7ynyDUwkkOEZ1eWFUsANR2eEiBABKEMg0pH47K0r6UkEyHv4ibAkBuU0PQx49jAcK5fSV0WeEoN1bSUPO6ipA%2BqiT7eWW50SDI%2FzpkbrHfoUBEnWztlvsO%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327426217331",
+      "product_id": "327426217331",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "old_price": {
+        "raw": "$40.00",
+        "extracted": 40.0,
+        "discount": "$30.00"
+      },
+      "shipping": {
+        "raw": "+$5.97 delivery",
+        "extracted": 5.97
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/R0gAAeSwPahq4KXE/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High Rise Leggings Blue Size 6",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/820283892311?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRSM8G3JWXAVSDHPFCS&hash=itembefcbae257%3Ag%3AmOMAAeSwakdq4LfO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fvh2h4Gm55HsoKF4WEMOPwkYYR%2BcghQzF7xD%2F%2Bov5bqudaKdhfLE%2BhaaEuqyeuFj5weLen3s%2ByfkwwCDm07%2FA7%2FPDUUvzIYAA41nZ%2FyMhgU47xcoGzpezZOVsLLfclohx8kxJWF%2BQh80GWYjK579sGCwmZ8Xqj0ODQqK5XksKf7dGM00jWHXJNCaTL%2BZrFhu7OR2Q8sHcIiN%2BPuyJ4ALEmuwjlCQlI2BLIHcOJtSCLmWr6QCi2MR0QbJytB%2FxTfoHjnMOsWA%2BaGVRjxn77dqunZXxyA9g78XmIWbawYX2APgZQsrOnHE%2BT8xZrUjC1VfA%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820283892311",
+      "product_id": "820283892311",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$17.00",
+        "extracted": 17.0
+      },
+      "shipping": {
+        "raw": "+$5.98 delivery in 2-4 days",
+        "extracted": 5.98
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/mOMAAeSwakdq4LfO/s-l500.webp"
+    },
+    {
+      "title": "lululemon athletica Align Purple High-Rise Double Lined Leggings 6",
+      "subtitle": "Size 6",
+      "link": "https://www.ebay.com/itm/407325622395?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRT3ZJWA67TJ2PCZ30C&hash=item5ed67fc07b%3Ag%3AXBEAAeSwfgxq49Lj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9XQhZEo0Eric3TchNc%2BWOho8DdDjIw4lAPoNpcVtJdJQZeLcXx7EYGcHYMZkaEYVHqz5uPOU%2ByF1vVzO3OqGacM1dpDLDWsh5o8goFsjSgQsGz%2FSevRv69tvg4sZx6JggDIe06PskpaI%2FeLWQvqLVw4lFnCKxsoL7Tj%2FxrKMBtb9pELneljUl3Fh5MQAgJ5Yv7I7AsJnHxeRk%2FdP1Ja0TC6m2cb3U1Z2wgZnDIHD1TFSlRqnnRj1nb4lNmJxWmwJu%2F8XBRcF09Nlx7Zjvb91uXhnGu%2ByD7eWalE8X00405z%2BgN9xFWuVddtuxdXGeufbo%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407325622395",
+      "product_id": "407325622395",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$18.00",
+        "extracted": 18.0
+      },
+      "shipping": {
+        "raw": "+$5.88 delivery",
+        "extracted": 5.88
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/XBEAAeSwfgxq49Lj/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High Rise Maldives Green",
+      "subtitle": "Size 2",
+      "link": "https://www.ebay.com/itm/920082970338?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTJF81P33Z99NV33CT&hash=itemd63937f6e2%3Ag%3AHCQAAeSw15dq4my7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BLTc4joIbf3BC6oQl6qWc8%2BL4Qb2wI2mHxRNlz0OCEwqXXPMwen2%2Bm2i4sRVjCcZid3%2BR%2FxIpPgbPZxUDGkAa%2FkHo3Ixf6f8oQSCf70O3qlgbC1wB3KugdIq6wTZztDb%2BVOdN7Yqf%2BO%2F8XLwIke3OTq8CUmgouyY5Sfpq%2BKhF%2FM4hDUAMMXScbBF10XSicpVAn994QblGfUtrQdWU1PyrW0smTJTA2oK1ao3N6FZbphmvGZr%2F9qzp33%2BFd9Iz7dulgJ4jChMfu4EjA87sMaHnP%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920082970338",
+      "product_id": "920082970338",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.00",
+        "extracted": 24.0
+      },
+      "shipping": {
+        "raw": "+$6.61 delivery",
+        "extracted": 6.61
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/HCQAAeSw15dq4my7/s-l500.webp"
+    },
+    {
+      "title": "lululemon Align High-Rise Pant women's leggings in Navy blue Size 6",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/860098342317?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTX1YTPAZWWBRA4Z6Z&hash=itemc841db2dad%3Ag%3AutYAAeSwP7Nq5M%7Ea&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9wR0h7%2FTEtijfuaJp2C3uZYpRfJ%2FNaqX9%2FyHc6SZYXf8Dys%2BY6zxT48ZudgzEqUbCOeRGBrokV0XqJ4Li0JdpfPr5Bj%2BVoosHXbtG4iRT%2BLoWYN5ilkwVvrQ25e9JKadz421Nf7cAnCS%2BZrSEdb%2BIGF6TXYiKKuPYzfPDcLbDzhay7XecgGGTImd%2F1x5slcUeOLptesQnLsv7oiupwCcHTC41TVNejkpBefcBdKcgvr8Lp2ihMgNENYW%2F6yLoY0GBh95np4y97duNBe9NfzsuR%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860098342317",
+      "product_id": "860098342317",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$6.12 delivery",
+        "extracted": 6.12
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "bids": {
+        "time_left": "5d 12h"
+      },
+      "thumbnail": "https://i.ebayimg.com/images/g/utYAAeSwP7Nq5M~a/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High Rise Pant 23 Nulu Blue Leggings Size 10 LW5DITS Excellent",
+      "subtitle": "Size 10 \u00b7",
+      "link": "https://www.ebay.com/itm/377610665452?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRT6R1M3FGP0S8QT3TW&hash=item57eb597dec%3Ag%3ACcsAAeSwYNlq5fgY&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BPttNWvofd%2BkwZjKlzurfBvJTwPv4Gee2q2O8MICZCLq2hN3vEWf4M5%2B9AdyxVi7noof377nUmDebcfo%2BDuHH%2FO6jHP8BzgN8mheLWt2umP809DLmLy0eeFcElkgwA1dZvIEEoCv3EPSTQXIq3mGu4OuTo2xsj9EbMI%2B42omwo8pGykfFR8Fd0oj3wzWOBC4JkoUC99AnHJvpnndRLVqrEmecqYiWRuWy8bvZRq5fHgmuv5G0t7d%2FaGJKEO3hM9a9nkp02rlSdVB47XGpgOebH%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377610665452",
+      "product_id": "377610665452",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.99",
+        "extracted": 19.99
+      },
+      "shipping": {
+        "raw": "+$6.99 delivery in 2-4 days",
+        "extracted": 6.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/CcsAAeSwYNlq5fgY/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align HR Ribbed Pant 28\u201d Women\u2019s Size 6 Black Leggings EUC",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/227584689393?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTP028HS13C4J1ZQ14&hash=item34fd1ac4f1%3Ag%3AKcIAAeSwfYdq37xt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FhgVznxBYhLjsnikE187Zr2oVA44y0lxUsCPV3AyD31qvDVgtlGHFRchbFX%2FnnqJfjTD2myg5fS6o374mxUSj4H%2FN7stMnoxcVxSnEX2CskOZTW8kXBHidrdg5dyFfZXEyuVnkw0ic4urjDKsCxF78CTqsDRuvONX5pvkFmSA7OsKKNfazXRQbQ--fRenTYSXKFSEzbJXm6QpILPhOAq6Rr0pGg4ZEE7PfkR37GH0za7Q3zoMUh1FGObUrxjr1GFeFOVnZM%2BbposLhpTFp04AGNSpHlHkRCf1u1arEaW1ZggvRXVqvKJ3warNVaNs%2BLyE%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227584689393",
+      "product_id": "227584689393",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/KcIAAeSwfYdq37xt/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align legging 6",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/820300414743?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTSMQSTV7M83RGSHMA&hash=itembefdb6ff17%3Ag%3AqeEAAeSwjclq5isG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BUm4f2Fl8ZntSQfsgsJacSkMPNFWDtotychjdIOjkQO16D2Wo7KQUIx%2FFoqSPl3bNjwL5S9Sw4gZS77tHPM7mu6u6ntUTBTYcEGvE8SJ0TLmWZ6NX2qDdEMmPcMjKFxiQrhmh1T5hgVHvA3IsqdK9tNKHpwvigMeLaxBCsL0Mm3jXptJbnLwjIKe5G%2BvOwswCDxfGmGGFk3lEDy8wRGq3aYcRaWfIuWNBX72SO3ElXIg9R%2BW9ySekY4K%2BrhVT1YcfBc4qArKJBlS%2FnIoXxmNQ5IRwJqPmFFbB5esT2LDsoV9If3zCnI%2Fk56747Hwg0Z6E%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820300414743",
+      "product_id": "820300414743",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$20.00",
+        "extracted": 20.0
+      },
+      "shipping": {
+        "raw": "+$5.58 delivery",
+        "extracted": 5.58
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/qeEAAeSwjclq5isG/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Align High Rise Leggings Pants Womens 4 True Navy Nulu 27 In Inseam EX",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/227562674230?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTKYFCVPJ9Y9WBMEN2&hash=item34fbcad836%3Ag%3APwQAAeSwyExqy8Vq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hjkWVeJGW3IzBiP6DHOfBwnNykM7bOGDtG5fTa1tu5Z7RkckAi05rcrAsnrEhRyIh9UptNOqt4%2FXWEL5KUBMUoYYC1Oy3lkWR2nXUPbWlHlwTnsG%2BUzeLI9cAkwfug4Bcd0l0C8lXqfUb0WPtKooDlxDfX%2FUmVl2wKrGk7FYuzdIgDh2qfGb2hLw6qCFyWuuaU%2B2c8BtQv9hib3Zro4fc1KjS8%2FcXuDB%2FTpzzRaRvOujPn%2B48eG6QH6tXGedNrKNeyNk4I9sm%2FSTPqx%2BkP08q8DipwTfp3fXeYjdrQjvz%2FJq2ow4fXsrGvDmY9G%2F66uQ%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227562674230",
+      "product_id": "227562674230",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$49.95",
+        "extracted": 49.95
+      },
+      "shipping": {
+        "raw": "+$6.12 delivery",
+        "extracted": 6.12
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/PwQAAeSwyExqy8Vq/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Black Camo Align Leggings Size 6",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/168799554803?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRT5GV73NQ7C2GN0EWS&hash=item274d3cccf3%3Ag%3AZmoAAeSwtKBq08bV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BZeNk6IaN4LMbxMyoSITaEuivXizJHwr4CW7psZCrxYJ%2BnYYYjZ%2B9TqenN8RUrZ42AGpUoByWL8bQ2LaDjluEbv7wJwyzWH6GxCrRys3SC1Itcy%2FJwIH8gMRpjWmpFu1mc%2BWjg8hJLtJlQnZ8iw6Sp81c4kkOUx5iT%2F6zGkKyd1My6mJ1b%2FuFMmaX0w%2BxTVSfyFq%2Bxgj3c3BdWunGbnL%2BUM%2FhweveqAffGEua1e2a5vgPS%2F2r0GLpWyaF8gl8H9tG1OMBdORg3I%2FB2JHE0EKX18tBAA4cI7Y3BiDeKdZ64XgVqYXtQQ9Z%2FlP8GYOhLoww%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168799554803",
+      "product_id": "168799554803",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$18.00",
+        "extracted": 18.0
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZmoAAeSwtKBq08bV/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "lululemon Align Pant Black Leggings",
+      "subtitle": "Lululemon",
+      "link": "https://www.ebay.com/itm/227590294333?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTHXXN9GFSC2QEMHBZ&hash=item34fd704b3d%3Ag%3AUxsAAeSwQxxq5M48&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FZSVP7bQVSm9RfKUMNHuPFl%2F7vi0QKtMRPycqtcsP53P19BepeVXijiQFkC6hodqS%2FqTQj47sYhQLdr8AW%2Fim07BWB%2FFf%2FL2UTgrl1AN99h5qEMKhr65UFIDBCTAKEAV1%2FwV7CAYe5sLj9qS%2FYkjCJuLEQWlxh2WC2M0T%2F4ve7wM8DLgPsb5sleyY4yHBQIMYzdLguvejjtfGhc8hoNDer9ic0lx2kuBcsixM4aqVnkdpyYvUyMp2oHgn8GjbY4lPjoUMZ0ViMlKhS9XCTE%2B2BW2v65tVYd0JBiNRZXnrD0SGnqAn4DNzfL8l7bvr0%2FTI%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227590294333",
+      "product_id": "227590294333",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.50",
+        "extracted": 35.5
+      },
+      "shipping": {
+        "raw": "+$8.99 delivery",
+        "extracted": 8.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/UxsAAeSwQxxq5M48/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Align High Rise Pant 28\" Womens 6 Navy Blue Nulu Leggings LW5DITS",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/287596923233?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRT5K5VEDPM794806QV&hash=item42f61cc961%3Ag%3AvVsAAeSwt3xqraKG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fltzcw4RT%2FegmQoAEjQkjwQ0fKQhZZteXvVW2esUbT6zrTpl%2FAk0o5U9AQMod9YKPhDKhyhhQpnKd36U3qF6rTmF8CQ7%2F8yokLrLhyAOia41snb%2BgkQT08rGvtFmvXhmWdYRc27gwmkS2k1EI%2FB2ZmU8soVuYqJpiogoOiyZ9FUYQwF0ZUKyrHgRLpFJAFUGrq9cE3gH0muPuGtOzSm0Rrxzqo9C7jVKvkpOpqpCcI8WVziPskDGKhjgFVgbxv9XF9oUXXl%2FhzWDuVZf4f60lBO4Q%2Fo6Z1f2yY007B2oW%2Ff20StiHv1LKIEjChbhzt7j8%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287596923233",
+      "product_id": "287596923233",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$31.99",
+        "extracted": 31.99
+      },
+      "old_price": {
+        "raw": "$39.99",
+        "extracted": 39.99,
+        "discount": "$31.99"
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery in 2-4 days",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/vVsAAeSwt3xqraKG/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High Rise Leggings 25\u201d Black Womens Yoga Pants",
+      "subtitle": "Size 4",
+      "link": "https://www.ebay.com/itm/920091140537?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTQA8ZWJW6WW926RTT&hash=itemd639b4a1b9%3Ag%3AJo4AAeSw%7EnNq5ga9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fl1Fgg7IurCx5SdwLZEqAvekaSKPgiV3oW0ze4R%2BCAnVILhevbtEJiLRhltG5aBwM22DfTfpRQOhcZ%2FVkL2e8be6NRntTQvak1kbaMzxpFDHm%2BlaeZkB%2FefF0Xj%2FI5YDB8HyzExFb6XFsvRkjF4serTIBQbVtTk%2B8tzey5Cz6%2BhK%2FUEg75O22VHTDj1YxwFQKTvEg2VDj1BTKb%2BMsrJ82c4%2Fj7K0Bn5oijH2y1kmaNNp%2Fe46R2nFVWVDT6RWAQCRNkIJNsGCKVqa2oVMaW6mJG%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920091140537",
+      "product_id": "920091140537",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.00",
+        "extracted": 39.0
+      },
+      "shipping": {
+        "raw": "+$6.61 delivery",
+        "extracted": 6.61
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Jo4AAeSw~nNq5ga9/s-l500.webp"
+    },
+    {
+      "title": "lululemon Align High-Rise Burgundy Ankle Yoga Leggings Size 4",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/860092676390?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTQYQZBX0G9T7C43Y7&hash=itemc84184b926%3Ag%3ANgQAAeSwXctq4jFD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B--iS1W%2FYdXJhkFfZU5AOhMusnZ0lZl0JHuXmqEoXG0Ludv0OjnPJ1EKWaeuDXrz7nRkAWs2vRKvYZjLlK1JlCMeVfGKbM61ryjruWpnY%2FzyrYe7G6u3zRWeaGluUW9lnwdQyl6nCXPxsj9sRahqLL7cEQPpb3XhUNfQnSsAg87FR7kQOEAP0b9Mqzfb1Q%2FJjalT3W8epoczuuAuujHI5EidjRc0wQKKQejmtSmc5jC%2Bx2QSqCdA0MHyocQfjGoPtn8HJKzS34WhT92dTY%2BQvIPjxiPOUpROsiXIA4Xj4s8m%2B4%2Bgk%2B%2FjnFNpVHxbe7eCA%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860092676390",
+      "product_id": "860092676390",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/NgQAAeSwXctq4jFD/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Leggings Size 8 Blue",
+      "subtitle": "Size 8 \u00b7",
+      "link": "https://www.ebay.com/itm/327432423635?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTEH1XH5RD3Y9Z5PCR&hash=item4c3c7e48d3%3Ag%3AN4YAAeSwqNNq5h-8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9g4%2Fren%2BHO6YGSS28f0f3apUzt%2Fq2y6OFrP1u806cD%2FAMO%2B%2BPjyxwZ%2F0SuZvXInhz9TaZY5RJwBUuJcTGHtbslB3fYxd5WmKLfJSttxXN3MuVpKtgzGi%2BqI%2Bj%2B%2BxATNJabn50VaNU6cwVH5qmGXSYCH2qk2tPiZHKOo6HEi5BqOEuT4lAX4%2FVX4VC5DfMnbSxFKHVi8sC45Y845b%2Bh9SqyVX9YmoigYWdjyqpCA84KtXTDpxsZiPqZsxFZ5VzwqkJUBKIhxC3ASBRf9kBM4I%2Bv%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327432423635",
+      "product_id": "327432423635",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$15.00",
+        "extracted": 15.0
+      },
+      "shipping": {
+        "raw": "+$6.99 delivery",
+        "extracted": 6.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/N4YAAeSwqNNq5h-8/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High Rise Leggings Pockets Full Length Brown Size 6 Fall color",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/920077033450?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRTS1434MY4TSZJWA39&hash=itemd638dd5fea%3Ag%3ALjQAAeSwmOtq36bT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FAdESKMmPJoJsdQuVxBZGkZGq3DGjF8dLNVm%2FhYuO53FP06rdmaQdr86yvE7uLIAZmKferw3J%2BuEMV%2Bf%2B6ZsHEOK%2FYQGIc4LcsZQFKnjVElWq5G7fuIqEln05Ti2Pk8gccxvZiKAO03Z9nhL2j70lGQb6pcZAkoNdVhF7%2FB8393jGFqRCsCo9Fxbac0%2FPsBCdLexYwMTWV3eKBPAxt5g%2BAQMSH8xbKGVDjXSJTcv4IbUlNe56mkfwaaS4oMQqd6qKWEn6Xn9%2BriqAjS%2FER8Uo8%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920077033450",
+      "product_id": "920077033450",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/LjQAAeSwmOtq36bT/s-l500.webp"
+    },
+    {
+      "title": "lululemon Align Ribbed High Rise Ankle Yoga Leggings Purple Women\u2019s 4",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/860083368124?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRV8SK74WBX30MEKMVF&hash=itemc840f6b0bc%3Ag%3Ae1MAAeSwZsRq3nAN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Wg2tSNp%2FelLkkm8%2FxL%2BxBa3%2Bjm55QsEr9VveLgnCIezd5UmcZHeW9chRyaXKyzrEy6SZbbUOfq39EXJyd%2B7P6AfV5Blq5%2FzL1bPJfTyl6Ke2GwBUTSloA0HSkBX2fkROpTRGMk3K4pYdz2zwxAZHWl9piVveQSQ3fhfIWFSPv%2BpXhuTlX0nKZyT7ALH3MJiHFScu5gAfMMQpZViLZvUPhPeNcubyVI9zKmFiDGrEFsr351GHYKq3bQW0ujeZi9kWMMxy%2FV49dORoVnfP26zWc2geRfGYMFMZRoBq69zb%2FTTCgqzEqD8AoWtkOpRJZ9hc%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860083368124",
+      "product_id": "860083368124",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.00",
+        "extracted": 28.0
+      },
+      "shipping": {
+        "raw": "+$5.82 delivery",
+        "extracted": 5.82
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/e1MAAeSwZsRq3nAN/s-l500.webp"
+    },
+    {
+      "title": "Lululemon womens Align high rise pant, size 12, 25\" inseam, grey/mauve, good",
+      "subtitle": "Size 12 \u00b7",
+      "link": "https://www.ebay.com/itm/880068937603?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVD9CEQ43VF4G31JF8&hash=itemcce8324783%3Ag%3AzBwAAeSwUNhq5jb7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F85VbOnqVE1kbXlJgXLFeSYQ%2B4ERNs1EtYKugxmlHs7w%2B1xxj318XVZrJUuomSAH75h1twU%2B78XsUuSXvqryjBxGoMzrZEoGgyd1KEDVk%2FLRxdUv61v9qCB%2FXoZYvdo0y5qyyvS4WKnaystIbMn1xagrEaaNh9XR4i6bzAGZR%2BBp5H%2FMGtVSsZYXILueEwaPtgtE672opjvy%2FfHw6Swg8Zn4nhn9PkVasZTQ2gbcrZa6EjYQayZ4enAsIgEIO%2BdEJhAvqzH6TJtvmS%2BJSWA%2BSv%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880068937603",
+      "product_id": "880068937603",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$18.00",
+        "extracted": 18.0
+      },
+      "shipping": {
+        "raw": "+$6.57 delivery",
+        "extracted": 6.57
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/zBwAAeSwUNhq5jb7/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Leggings Womens Size 4 High Rise Blue Yoga Pants Soft Workout",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/920080643219?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRV3AMH65F08QQ4XWT1&hash=itemd639147493%3Ag%3AyScAAeSwrptqVz%7Eq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BXRtkVE0keKYoY2QZT8PFOTJdaybyEpIKHn4gyJDnkuTEPbToYradS%2BKWSyq0N7lHxjukQCCh512rFyVAb%2B1O8I%2BKHAhwzS%2BAUsaeNHwe7cLdKpPwSesYuKRH%2Bmx28kl9ZiJTHDzqrud6n1XBNq%2FcFKhnNfg7qQZaDKqnj5YDZNRT1q6hxVZ%2FPpYAcTAGeiKPSwDVYDgjWGDAk1bEMTXZTdXKbzuqo6gbVWJ6yuIT4I2rmmL4V8koSHHMEuFNe9Bromolt8JWP5Mc2i%2F02%2B5pn%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920080643219",
+      "product_id": "920080643219",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$15.00",
+        "extracted": 15.0
+      },
+      "shipping": {
+        "raw": "+$8.75 delivery in 2-4 days",
+        "extracted": 8.75
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/yScAAeSwrptqVz~q/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Size 4 Chocolate Lova Brown Leggings Side Pockets Yoga Pants 24\u201d",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/960079616476?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVMZXYARMA0TKBCE98&hash=itemdf893459dc%3Ag%3AFEIAAeSwBaNq0nKG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hZc%2Fsn61PRnpQPjOmFjWIWNkF4Uc7JD3BASrUrSd8vr31GTHW5PAiPNfBHK2ReXukn0EO6Lo0wfADqT6DR4X8O4m7hP7%2BbKdexmEYrUn4D7%2FfG5yqEbtdWzY50iDMxse53eGTErQrBrfQB%2BEjX951uusq9EhdfMPrSiUMuEv%2Fcn8SN3MAk9arPngyBsNbmerO8CJ2D3KOMoSsmnOdV74mv8WMts0Kwzg%2FIRS01fr5Y8mB83lHtya40OM5oxRNbo5otydu5xTGX0esVf8AfXwqFlWSuGu3r7rAUALWRmzkK4huc8eiij7cVVTgKFAqrXo%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960079616476",
+      "product_id": "960079616476",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.00",
+        "extracted": 28.0
+      },
+      "shipping": {
+        "raw": "+$8.40 delivery",
+        "extracted": 8.4
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/FEIAAeSwBaNq0nKG/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Women\u2019s Sz 2 Dusty Purple Align High Rise Leggings HAWKS Athletic Yoga",
+      "subtitle": "Size 2 \u00b7",
+      "link": "https://www.ebay.com/itm/900054624650?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRV1H5VD1R16TX7VH21&hash=itemd18f6fa98a%3Ag%3AWEAAAeSwwetq5kdj&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8gehPH3KX5NVJ4SRtZcJdFnjLnMyHuGT2fXgAdfOUXhE4yF3%2FlWnu1P4tbnqhWRJ2ayioSSCtoHrUqg1AGhORWe8ZS6UmVxlbKzM80pcB9fIAuV%2F26MUEqxtpCLT2tnbFpeQoQouKTz58%2BOHMyKogjfjgUqNjB5Uog6%2FSpkZ4o7MTKucjPEaamNrlqbuY0tHHgivSjQgijzQltgLN0KFU0JhbIuOVsB1v3k6I5wExhTvBKboUK9IP2XxxEeAdNoaItLYr%2BUX7C%2Fxf2bBh3LEIT%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900054624650",
+      "product_id": "900054624650",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$6.07 delivery",
+        "extracted": 6.07
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/WEAAAeSwwetq5kdj/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High Rise 25\u201d Leggings Pants Nulu Lightweight Tan Rose Size 6",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/287685687215?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVHXQ2GTZDBHFRMBKX&hash=item42fb6737af%3Ag%3A%7ET0AAeSwKRtpvsT%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FwyHbUzVGkr3JF76LGWMKsHdWYVszHsDMpjWku4eWHYDVOIaWOeacy7mP9javTLYRL17VzC7raGsD2MyoasIDTkckpYL2ubnH4SqF94GfC66IPGaYG%2BzuHSkn7097yFxpCs%2BhU5563T21cYMJYN9BR4tRTNarJdrL8jmxD2likmv9wEgpFpYzu3%2FQe%2F3ygfoScPECdAVpluba4dmrOZTsgmg3%2FKhKqt1zuEvkLhjB8xURy18f0cefW139w9URsha7BFK4sxcAC7jSUcvhMQS5kzkAaWIgJyJ5M9azYBxLcaNH%2BtxhyPKNkitzrmnm6W6g%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287685687215",
+      "product_id": "287685687215",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$23.00",
+        "extracted": 23.0
+      },
+      "shipping": {
+        "raw": "+$5.96 delivery",
+        "extracted": 5.96
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/~T0AAeSwKRtpvsT~/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High-Rise Pant Size 4 Black Camo Leggings",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/920089661662?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVJP7CH644QTJ51SC0&hash=itemd6399e10de%3Ag%3AQlwAAeSw08Zq5Vr3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FPocbupOnlU4zIOOsuwnIJN5SYIYg8JQzinCCZoAPqwSb9DUD%2FHudiR%2BL8EjN6GOhE0lRYMmsYZz7%2B4jasBteQPjAiCnBid3Bat%2FnumOUEzwinbea7Ls5n0pyNBZwGVRpPYd%2BGCeSkMbiCqZYyZAopyGPO5BIL5CuAqhSA9d7cJxqHw%2BUC0ZRHfAN8cKed5915dqCRrTqe7i9SzoCVgkWfe032%2FrSCJEjFYVtuAnsc4FqvjqM%2FQbiPj8QHVwpEbU5DNbdJ3mN5ZjKWYlu2SUWyn6zx8N6l2drVDm1qfXltH0VBrEskaG14DteQRs2hHD4%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920089661662",
+      "product_id": "920089661662",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$22.00",
+        "extracted": 22.0
+      },
+      "shipping": {
+        "raw": "+$7.25 delivery",
+        "extracted": 7.25
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/QlwAAeSw08Zq5Vr3/s-l500.webp"
+    },
+    {
+      "title": "lululemon Align High Rise Ankle Leggings Orange 8 Stretch Elastic Waist",
+      "subtitle": "Size 8 \u00b7",
+      "link": "https://www.ebay.com/itm/820281029663?_skw=Lululemon+Align+leggings&epid=9055256920&itmmeta=01M6AVNXRV1598EPA7RFZ7Q39X&hash=itembefc8f341f%3Ag%3AlWQAAeSwSIlq39ID&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9faAaaaGMzETZaY1AX7c80Kj6uMhBg2gzkuNEg6Id2t0G4PGWftC4r5g38fsL9J8ldmkcT04yyeIyQpzDfuXpis42U%2FfCO8y6GNs2AS1suWFSL2AHrppqjiX07HdY6jpWMJtsxVaF4%2FKhNUJWsALJqPKAPH3fmfcT9VzluR9oLFbAd2FScYOW2uuHf6JU6ubPgckDa22R%2FO8rJYlhM8b4zHtC8T2ZZmgUeX3Dpsega7eMy4QbCxy%2BxN0nb5i1GmU6NWAhuHxqsM85tLvCUxYZqL9gGVAfFK9DPEkcfJzsVEWXwU5bHOKGysgdJ1k7Bc6E%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820281029663",
+      "product_id": "820281029663",
+      "epid": "9055256920",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$23.00",
+        "extracted": 23.0
+      },
+      "shipping": {
+        "raw": "+$5.69 delivery",
+        "extracted": 5.69
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/lWQAAeSwSIlq39ID/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Womens Align Tight Size 4, Black, Inseam 25, Minimal Wear",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/406962735493?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVR3EZSK8VX25ZWDFD&hash=item5ec0de8985%3Ag%3AoUIAAeSwYV9qG1Gf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8F43xO5keJdugBDxKlXEBODWwS6gU%2Fq1FQxdZ%2BLtK02iDVx17qfBqLTuCeOH%2BrEnbp6mrDXXmPPktj3KRhRumWJwJivstvXA0kd5DHcnGK8aanFUPZyQRXeEyoFzg3qUtkVEL6bv8i8oBZ36KxA%2BhzuLh%2B17xi2%2FtyttZf%2BYNKQu7cAXe7QsGQKTsiQcJdd%2FydyVvGRiY78XC8UWVEEs68253Q6X1KIlwFbUY8bdDsdGNA%2BTttw1Fo6hecP8WIdPXf4rXS1XcN21mog6OxbQMj0nYdqgSyOCa7SbldQl%2BCtP8tTuwMO3NNRppq4U1Cs3A%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=406962735493",
+      "product_id": "406962735493",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.00",
+        "extracted": 28.0
+      },
+      "shipping": {
+        "raw": "+$6.12 delivery",
+        "extracted": 6.12
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/oUIAAeSwYV9qG1Gf/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Align Capri Legging Black/blue Size 8 Mid-Rise",
+      "subtitle": "Size 8 \u00b7",
+      "link": "https://www.ebay.com/itm/128161787258?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVEDB382G3AB5DHHD1&hash=item1dd709ad7a%3Ag%3Aiu4AAeSwsEpq4pt7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8oMndpKlh7qU8Gk0Fc%2F0rMuPNNiw6%2FgIBnozrmxho8Zr807kCN0ZVvdiQI5y%2FBpCzDiAuVs3splYolsp6opQyulA6w2vVDjZuqT6V7rAe0Nwmumd%2BTiBD2NodSF73LSDXXMn42Q7WohxwJnvMWcqS9S09QNMgwEcmFZTD7v1pAFXg9CHsxU9x2anTyHW%2FQePWmY3cEyNSn3%2BL09vdgRUc1iLj59cacnj2gEUtlJIiVVtT%2B%2BqM2nQMvk7ePGHnbkdOGiGU4nktoSUY9hcmZNKVYeDjWFpkqV43RvcM39%2FLJcQy%2Bz2zmGcF%2FujudcG%2FFmm4%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128161787258",
+      "product_id": "128161787258",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.00",
+        "extracted": 19.0
+      },
+      "shipping": {
+        "raw": "+$5.97 delivery",
+        "extracted": 5.97
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/iu4AAeSwsEpq4pt7/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Align High-Rise Pants in Brown Women's Size 4 Nulu Fabric",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/358559259835?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVK55C6PG6MHRSS66Z&hash=item537bcc1cbb%3Ag%3AhNwAAeSwqOdqB0EJ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Cf6ZvzP%2BNifX1zk6UebT2S5KS%2FnBoQNWCKzGCAsp5%2Fb9D2JiK5Wbk1XN%2FA7PSDCe1mG7WhjInpp%2Bdg3TgFwkchXcm8LQg0vWUNvLuH3rz7vTJvvogJdCgQyHl2XIVdVYkfVPKIzId3kEuujVq8ap6bsTQOfC6nK3%2FllL%2BiCjohDkw2JQcLVYodPAyqEh4H1iA%2BvMZz5NH4fN0nVWHFuXDlNA%2FQp8HICnfptSdpHHXTPBOM9KFPAo%2FZwVnqg3arKw5ZQOwscM5xhr%2FLI9mfN%2BKf%2Bnafw%2FXQNDnw571ApMAEQ%3D%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=358559259835",
+      "product_id": "358559259835",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "shipping": {
+        "raw": "+$5.58 delivery",
+        "extracted": 5.58
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/hNwAAeSwqOdqB0EJ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Align Pants Womens 4 Green High Rise 28\" Ankle Leggings Yoga Nulu",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/178193682528?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVWS0N2RECAEQDMXRG&hash=item297d2bd060%3Ag%3AjpwAAeSwziRqIek8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8bk5iWAulXUP4%2Bk8eJemQNfkkGv31jyhNGXIe2rtAVG4jQdKL6Dd2s8lo7K7aojSLKxtKlwoj265X945Vh4A8sG%2B3pty5gMkxRR9ylLaPCAyJaXAIuNGCjv0VikC%2BbYSJxXBOFR1Q0yFcBh7Qk7xTsua9WigL65tD1p%2FeJzJKBq%2Bz5Puz41ecC5Vxn1qvwTYnygnCAkuPlGz0pPMXvhyDfhH%2B7YfgAP5Tar1QuYNSOCQWCZF%2BlZvr%2Fp%2BgCvEvZWBehKwCioRqqsxJXmtynLCFMKg7P9Oko8r81ohuMNJxVOIRiNfLVcsjZwzCtki4dx4w%3D%7Ctkp%3ABFBMxNzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178193682528",
+      "product_id": "178193682528",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "old_price": {
+        "raw": "$49.99",
+        "extracted": 49.99,
+        "discount": "$39.99"
+      },
+      "shipping": {
+        "raw": "+$7.69 delivery",
+        "extracted": 7.69
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/jpwAAeSwziRqIek8/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Legging 25\u201d Size 6 Black LW5CTAS",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/168820623793?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVRM9K2BQVX30TD3S9&hash=item274e7e49b1%3Ag%3AgTwAAeSwIvJq4RT3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FDOv8vgOweYtBPRI%2FOYx6all2cj%2BMzZGYJT3rguNZVKqvoQDwirrzHGdGSBmIpR9EjcJ0bsVQ5Woc0RsRNhODElrKsr7JNDir51Cy4XpeTIgki2pn5%2FC2RdMT0wB5Sbju4HCRB5xS%2FWCgWg9IkNFIv0CiazdcNIpnvN8mvp0Ztg1KLBs22mUpwXJ21n89k8AtN4yELUmru0ldIvpE1f%2BmiMQU7l0Xs9bDw1rkFyhL9U%2BSAoETgp3ZEgEJenqbdm5RfyjUY48f0U3yYJOlJalBPMsJ5n0TmoFhvGIckMBYpH%2BvGixgO3BMTLeW%2BRet1d3E%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168820623793",
+      "product_id": "168820623793",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$6.41 delivery",
+        "extracted": 6.41
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/gTwAAeSwIvJq4RT3/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Women's Leggings Align High-Rise Pant Size 6 Incognito Camo Multi Grey",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/860098328506?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRVSVEKFXMCCDQWF4RY&hash=itemc841daf7ba%3Ag%3AXd0AAeSwSqhq5M57&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FhvjvtgvfAZUCtSAFBehejCRxUujPouge%2F8k%2FGkV2HiMJhVS3irYCj%2BZtSs7BLA71L7I8jijolXEO%2FJRggQQ9SOW3YpJVslubE596p1lZ3uV9aUqob7AGiHx08DJAN%2BdHx0gClAyesBBswrMs7qVu4G2LuObZEEYRfVHHwwi%2BZS52kC8ed1C4X%2FwdjoePRMuKEdWDBgNqkLE0g2QGOUtJZeRN8U1zoUQ76t8SzkFGjOcEj8FvFpIpaK6KfHL57QaxSvGGCkvD0WzMXRTMr6o7B%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860098328506",
+      "product_id": "860098328506",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$6.12 delivery",
+        "extracted": 6.12
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "bids": {
+        "time_left": "5d 11h"
+      },
+      "thumbnail": "https://i.ebayimg.com/images/g/Xd0AAeSwSqhq5M57/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Pant 25\" High Rise Yoga Leggings True Navy Blue Size 6",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/960062576936?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWT8T2WPYNRGRMFWYM&hash=itemdf88305928%3Ag%3AQKgAAeSw9mNqzlfz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BRMBibQHrV%2BlWlaGoRBPDMMV8UdZiEuLfAHgg49tGrdPKv9cUkhNqbX3QqTqcyNpLl07nfejxhuuhMd%2BGnSUvrkxSnGTCCbnrlZdwt%2B%2BOgOVSGwakyon1tg0wKeBzQDVG1qXeM1TmLDFzulSvfsrMma1lxuTIYnTEUIF85LgctikgGuIX1isB2k038eoC6nfepAoySd%2FHuLRBsTgUG81ZzL7dxCHWUlpCWPrlNVLjbxO6URkyDfr58Dw7j0r4w2aFZ9M7hwykD5cPH5U90jbU8%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960062576936",
+      "product_id": "960062576936",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$26.97",
+        "extracted": 26.97
+      },
+      "old_price": {
+        "raw": "$29.97",
+        "extracted": 29.97,
+        "discount": "$26.97"
+      },
+      "shipping": {
+        "raw": "+$6.59 delivery",
+        "extracted": 6.59
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/QKgAAeSw9mNqzlfz/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Ribbed High Rise Pant 25\" Womens 2 Black Leggings",
+      "subtitle": "Size 2 \u00b7",
+      "link": "https://www.ebay.com/itm/287632068944?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWNW1VSJFSQWSVG863&hash=item42f8351150%3Ag%3AukQAAeSwoW5qvcZR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Tnag1elmDhzbntYG0h7WKynkpZ%2B2mQa3uM1gWA6d02MPaS5ligkOR3lrAUDgO0l8Z8qkp%2FqIbbuXVGwY0Z%2FpUcYQ0nguo%2BVbVP992kjJMH138vr0JQ2lbFVvrYtL8vHPaIyhcBgzyV1kMqe7pw0ah48pasnjGPncjuh1Mu9oPd%2FBWfySFFWGyOlbGjL3lg3sSkU3yMs2HLtLwYs24lqCFAWj2eANVJ9xCXYnl%2FUO7%2B%2FuY%2BnNGRiC70yYm6ebKYw1ARFfUHhinE5ykmGlvIxhUGsRQatxNX5QgWEYpUYCiA6PJole7KoPYEBPGdD3ua5Q%3D%7Ctkp%3ABk9SR8Tc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287632068944",
+      "product_id": "287632068944",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$23.99",
+        "extracted": 23.99
+      },
+      "old_price": {
+        "raw": "$29.99",
+        "extracted": 29.99,
+        "discount": "$23.99"
+      },
+      "shipping": {
+        "raw": "+$7.99 delivery in 2-4 days",
+        "extracted": 7.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ukQAAeSwoW5qvcZR/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Black Align Pant, Size 10, 25\" Inseam",
+      "subtitle": "Size 10 \u00b7",
+      "link": "https://www.ebay.com/itm/168765607309?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWYDBVNSVWW156NZJF&hash=item274b36cd8d%3Ag%3AzSsAAeSwAUNqxBtT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Sk%2FSnvkiFoWXMxApBYRX6uDZ%2Bb5mufi3j%2FpEs4HfF0tBinRs2OmmHFxX%2FtTjJGYO77fGUuLvgwRyZaEPpUazDViRZ4pzFr0z9QS8pHjJyoUNcNYciYYe5x6IKpJNnsRfE7oP8A1FwRNHJ0W%2BGZ%2F2ZuYyv83ILgRP2RwsUmaXvLLgeb5D7pXpWwQv%2FHTKE7V%2FkxOaKrqbZn5ykNzrfPTOX405fX%2B5ra2tFaw3dgc%2BZmL3VVo7OVrU78BsHrp4fJj6hpMGko0my0uMqXvw4XOA9kIK7QKQ5O3BbARosamcPBAGKF0pFDkDAX4%2FXaKY%2BPGk%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168765607309",
+      "product_id": "168765607309",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$36.00",
+        "extracted": 36.0
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "watchers": "10 watchers",
+      "extracted_watchers": 10,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/zSsAAeSwAUNqxBtT/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Leggings Black Women\u2019s Size 2 Stretch 25\"",
+      "subtitle": "Size 2 \u00b7",
+      "link": "https://www.ebay.com/itm/237154591815?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRW0TQYVG953A0PZA3K&hash=item373783e447%3Ag%3Ah9QAAeSw0X9q5igm&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BMTPdW8uvMeZ%2BrIc97QnYKDQLZ2jairhpgL9DOzuOEv00YcW1XK50H%2BKifh4XFOtOkVbsPyViBTTOLvGYjnkJTN4a1fU%2BDIYrYt%2FECViyMkX%2BXRSMKK5i2G5dQy8MiBgOPKgjFd6X0fi%2BzEDqMxKK5uvFdD0UXKK2LsITkcdWZCCBgQXUzwfqhXmhWKlugqDPFcIuUKw%2Bk4NUp61exp8zMRmbQUy4aB8jdWkShaoCPVqMOS%2BBHTLrbkX1YEwrQx5%2FLnQTy8Xi8djncC6HSRpnHGHaFdNAtO%2B8JRWPPo1HO6Q%3D%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237154591815",
+      "product_id": "237154591815",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$8.00",
+        "extracted": 8.0
+      },
+      "shipping": {
+        "raw": "+$6.61 delivery in 2-4 days",
+        "extracted": 6.61
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/h9QAAeSw0X9q5igm/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Align Leggings Pant II 25\" Nocturnal Teal Size 6 EUC",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/237140712959?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWNX9RQZWJVKPHXY0E&hash=item3736b01dff%3Ag%3AFfgAAeSw69RqsWT1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9DVQbq9A2LdqoSedh39kLTdribKo3WklL8RzU5wg1dDZkHL2EBlRLuAUzll%2Fua631dXlsQcBJuSkxXBskGWExJxdUGk2hg%2Fs3MOx6cTHOp2eYJCvotXgBLp%2BmjOGN68E7kPdG5GQyTMSYfYxu2NqGKkjb7uUDaNpfj9QmOWx118JQQuKSIFjMhsG1aoJlVNzdUn%2FDjWrwLb%2B%2BZp%2Fkf0rGl0HAeuUYLCBnTKpc3frOdcvAeg4sJb2lJkvBbma%2FmHsxjaIfmaTHnucoJvspHjmLcO1%2F0hUQF9trDCTY69JmKEtHtwgKUArKFAaoawBpy7Ro%3D%7Ctkp%3ABFBMxtzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237140712959",
+      "product_id": "237140712959",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "shipping": {
+        "raw": "+$7.59 delivery",
+        "extracted": 7.59
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/FfgAAeSw69RqsWT1/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Align Leggings 25\u2019\u2019 High Rise 7/8 Nulu With Pockets Size 2 Women\u2019s",
+      "subtitle": "Size 2 \u00b7",
+      "link": "https://www.ebay.com/itm/267793042255?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWVCWXMZ4W53T25REV&hash=item3e59b58b4f%3Ag%3AB4oAAeSwzXFpcr95&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9M8UnkXrjPpX96g9nl5wrnR%2FdJDdEuQ8iliVmQnkYvJsdYIiN8X8X1i12h%2FpeVSgSZkVe%2B1r3qN0KHso8vgq3RGqPmpAAaq3ehIb%2BPOz6on2vJIYE9TpTB2P9yGQc3ALyz8KPljZ8VtsinbngMbadSOq42aX9K5fT%2BxjXvt7QGpOSe7gW7sVVX7i1Sy0OOzzDOJ4KFxyvSA9GBX8hWK56kBiAXcYmEeoKVk15QpA6tSvDklLfCXEtLFBLrweCr0BdnK8pX63mExghjNrShvntxUtzeoGdSuHE1rMurKts1EGzzNbq1GcN3wtY9Qp%2FGywo%3D%7Ctkp%3ABFBMxtzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267793042255",
+      "product_id": "267793042255",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$12.70 delivery",
+        "extracted": 12.7
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/B4oAAeSwzXFpcr95/s-l500.webp"
+    },
+    {
+      "title": "lululemon HR Align Leggings",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/860100926065?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWSHPDYVAQ9XGXAJ5E&hash=itemc842029a71%3Ag%3Anp0AAeSw15dq5hrr&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8BhvaTcztT3JYm1gr17MMepiuu8QjFUsLQgGBaULizjwV3fRwiUUAI7aH497TwDtTP%2BKmatu1MM8AsBHE3nAlneXfbSGfr2Zfk7V9DhAF47RyDz7mGLkLEDJQmOemCxnFV3N%2Fs83xPBZJZeagC5FJIQCg71FLj9TwuI8yutCBGerCWCdDN7HzDsodfDEmnq7k1LjeMbaL2MfccTKEOuYK8wPQ%2FV2JjFeYGnbJR7oTP%2Fl8EmuTnFxZeBohH2yWHn1IkQBL%2BKwKCk%2Fne6hExXE4k%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860100926065",
+      "product_id": "860100926065",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$15.00",
+        "extracted": 15.0
+      },
+      "shipping": {
+        "raw": "+$6.61 delivery in 2-4 days",
+        "extracted": 6.61
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "bids": {
+        "time_left": "6d 11h"
+      },
+      "thumbnail": "https://i.ebayimg.com/images/g/np0AAeSw15dq5hrr/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Ribbed High-Rise Leggings 25\" - Wild Indigo - size 10",
+      "subtitle": "Size 10 \u00b7",
+      "link": "https://www.ebay.com/itm/198750970258?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRW4NMZAZ019HZ727R2&hash=item2e467b2192%3Ag%3Aj-AAAeSwDAJq4WKr&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FSyIvv%2FnzWhIruoTbVqMmpUOplhN1XB%2B44zEBTI5V88cVAc2I7j5a0QQq9VS6xHlePIA3Hc%2FSdTKkC6nkD2DBs3KF0WTJBUG2p%2B8bLT1xyGhoC0Br9vUXU%2FJK%2Ffh37dwxdohNDgoY8vRdsPOrbHUTSGxiUDb3yj6wxVDixczA7dm3C4AGUrtJ8ZeN0lDd58KI9IQkzfldu6UAvTHGk%2FAlTx3Rmr2V6W6J0pjKB5oa7WOQeXNDIZLXlvFR5ldVI48QoIWF4DshF%2BFAFvn2qPyAe%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198750970258",
+      "product_id": "198750970258",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$32.99",
+        "extracted": 32.99
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/j-AAAeSwDAJq4WKr/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Women's 25\u201d Align No Line Charcoal Grey Leggings Size 8",
+      "subtitle": "Size 8 \u00b7",
+      "link": "https://www.ebay.com/itm/920091722801?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWYCTZ2ZGYH2Q1SDNF&hash=itemd639bd8431%3Ag%3AKOcAAeSw%7Ekxq5kiP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F2oR6nMuppGeIC4TMXMHWqoxbhevfIw51Rwum3L2N5ZvyJpFkDs%2FXG22THSdsxtAK09XGfAJ%2FlFTyueCK71%2BluZj3Y%2BOh3hpF6MyO1m2DHacG9pqprrLbzeC5Th29pUx4u37u3YtuSU72lW7Fg2%2B%2FaCVGZmLiIiVTitdA8IPvF0ZAu7kwTFrv8LLiylgiqW8ks6GTjIaWJWWsglekx9my8pPbWm%2Ft1bEc7OMQyR3d%2Biyvj8D3UY%2FGbr0I3ICHuyrSYwFzaTIuuu8718T4Mhf%2FsLNYnewFOh1xSuJBRAsJxDrZmIGMIymYW6ckaL2iwg7E%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920091722801",
+      "product_id": "920091722801",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$65.00",
+        "extracted": 65.0
+      },
+      "shipping": {
+        "raw": "+$10.20 delivery",
+        "extracted": 10.2
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/KOcAAeSw~kxq5kiP/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Ribbed Leggings Womens Size 4 Black Medium Rise Yoga Pants 28\u201d",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/960124855004?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWHAN46Z262FS7DWN1&hash=itemdf8be6a2dc%3Ag%3AbZcAAeSwGwBq4WaH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BLQnFy%2FKZGSYR3mBjAj6G8sMuPFiaJTMBtQBqP8PCvxgOT4UUSRl79MpADladeXI7d7Ne90xrJW7eKuWFO80pcf7HGAJZoqd083vJB8AQyrhcwvvlAXsAynpGekiCiLNmSO8bsHP0K8kwuDUnDsFP75d2Qxzu53tynuA0hQfoF5%2B7lzkMS1t7nOoMnqHdnud7Qb6IDbhwq4XobpKjpImqaVemnknvfwt1OgFzr5vbyMdPuPC25EAskufpy63fXRTYn8W2yABvWUrSk0hy0aHEkJFgP7NuXEyrSaFRlt7TJRhqmFookis8iKW4pDl6BjBg%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960124855004",
+      "product_id": "960124855004",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.95",
+        "extracted": 39.95
+      },
+      "shipping": {
+        "raw": "+$6.83 delivery in 2-4 days",
+        "extracted": 6.83
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/bZcAAeSwGwBq4WaH/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Women's Align High Rise Pant Leggings Size 2 28 Black",
+      "subtitle": "Size 2 \u00b7",
+      "link": "https://www.ebay.com/itm/860096309793?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWF7CC57209PGMCJZ6&hash=itemc841bc2a21%3Ag%3A-osAAeSwsKZq4-X0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8AHvs8fUJsHiQoPejMRAAaMYy5Q04mzP5XgdBnJLdOcOnR5zx5fjQerPFsFIwboyhIc8swEFnyQSyFIt3mdsmplgjep1YpEbu%2BUtu1Sy8F%2F%2BJStefYlR2TOH7Jt0FogPIS4%2FbGT1VP6yzRYbMqpN8ABn3uPptr4AJldSGoHZoZJGpDrWQz8DlRcT2CkuVHXj6iMqgW7bbb5zyoW8evEyL%2BlfCLRk8RZrdFOf8Ag9gEDQXG%2Fc4J%2B1WemktE3%2BRZptg%2FS1cjwiMi35%2FVTmgMJHB4Ey1JyYu6j0JzHVSKRIsotMRrVPSqzFjPRMvuEJ%2B4upg%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860096309793",
+      "product_id": "860096309793",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$6.12 delivery",
+        "extracted": 6.12
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "bids": {
+        "time_left": "4d 19h"
+      },
+      "thumbnail": "https://i.ebayimg.com/images/g/-osAAeSwsKZq4-X0/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Women\u2019s Align High Rise Leggings Navy Blue Size 6 Activewear Casual",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/137617925729?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRWQ8ZDTG6Y36KAPP8B&hash=item200aaae661%3Ag%3A%7EQMAAeSwJvdqfhxV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9mP4DV5Hm%2F8XO927T396%2B%2B9P%2BQZsR%2FbwNUdDzt2fv5SqnwciNwRp2NhwReloiy0DQgvuXBgbZ0dm8SjhRLJj136l6aUZweY8sLfoS8zdm8VIxVkBfRiFcfCaIWMArer4q4%2BoYyjpR2MDF5%2BRhOfUIouR77fF%2BOTFwhIqUi0hKLRlasN0cM0nGcoE7%2FuZYRHuxawjQKI3a3u%2BhzEww9NCyhcs3N5fd6VHa1VtE0Axnk2W1cCnhDo9oKM%2FPVvMLP6dmnu63ygmCnBakr36KrM7IB%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137617925729",
+      "product_id": "137617925729",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$19.99",
+        "extracted": 19.99
+      },
+      "shipping": {
+        "raw": "+$5.99 delivery",
+        "extracted": 5.99
+      },
+      "location": "Located in United States",
+      "promotion": "$15.99 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/~QMAAeSwJvdqfhxV/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High Rise Leggings Black Nulu Yoga Pants Size 4",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/800837813796?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRW9QMK7CPV367AFGFA&hash=itemba75a74624%3Ag%3AYTMAAeSwveVq3lKV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Vb3Se6RDuuOLz32aGdosaPvqOPMSYHqhK9u7EuzoOiK%2BujgxJ%2BMs0mTtbOvRn6WWQtQJjLPsciTiGr5yGwIzquTY6UUlv1UQ5p%2FMiZhhKYZXZkTPddILEKMaVtbzCZAcjDeTPMXJ10dk7qYI9ZIr65VsAMqkvnEJNsTZYVU6GwfpU80dTPwA2%2BG5TMCKB%2F4%2Frns06uNGyjJWDVTMgldijEkxTYt%2BVpFf7jWOHxu3hQIEc4nJCtYZp05AO8ZFIkp93XUjIrP2ZViwut664No%2BlAotvY6f%2FyEWht3Uecj%2FLGxsr3kVsi0qLemS1LQpB6ME%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800837813796",
+      "product_id": "800837813796",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$11.00",
+        "extracted": 11.0
+      },
+      "shipping": {
+        "raw": "+$5.97 delivery in 2-4 days",
+        "extracted": 5.97
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/YTMAAeSwveVq3lKV/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High Rise 25\" Women\u2019s Leggings Berry size 6",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/960115199892?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRW5MTJJ73E5NQ1SKQH&hash=itemdf8b534f94%3Ag%3AmhwAAeSwQX1q3mYI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FV5%2B%2B8Z96G212FN4tPPVzY5H1oALxvn%2F0JPd1Zv92LD%2FDrqH--7o2sjn0tRVscgsQ7CmAlb9bFTPAeDDWaeRSOAWWAynmbvI%2BoXLI%2BU4HJBUtxA%2BpEy7yRfm5fWsfG7QTcpMKsqwjKFIYc%2Bs5OtEl948z04JGBFSnzrXwOFhc71zV73Hminyq7ng1rAmXxNpGm6E%2BTXQUuuZ0MGXBeXur5VzgY8f4EbPFvFrjSfZb2VCRDg4nHyzSTmqgfRc3SnrFSN96Ja97grWeqCTxIC%2Fhc%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960115199892",
+      "product_id": "960115199892",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$10.00",
+        "extracted": 10.0
+      },
+      "shipping": {
+        "raw": "+$6.12 delivery",
+        "extracted": 6.12
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/mhwAAeSwQX1q3mYI/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Women\u2019s Pull-On Yoga Leggings Gray Size 4 Nylon Blend Stretch",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/206665805334?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRXRHTV3ZCMKZRYH5DT&hash=item301e3dee16%3Ag%3AmWMAAeSwJ7tq5gor&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8B%2FJ5KB%2F2iHDkPaAxGtiusmV4gjbUs0ey%2BmGFaZekKH%2F4Eq168TfKencLXHYCgwewJRc6b87g%2F3ssvOW1WvXJkyGBqbF9n1PsfYkj0Spit8jT%2B3RPMYStWJiD72SOjjpqUiQTlxQlG0Pu2AVaxHglirnmqaswRfCJjpOj7SEN1UQ5taILgk36s%2BgKugta08IpX%2FSIDEdJU0NbH9d4KHlEFgJRiFktVRCSyi829mM%2FoJpzJmXYamWyCrg5GapPCT%2F0TNFzqbF%2BKs%2FC0KhH9CKGy%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=206665805334",
+      "product_id": "206665805334",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "shipping": {
+        "raw": "+$5.88 delivery",
+        "extracted": 5.88
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/mWMAAeSwJ7tq5gor/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Leggings Size 2",
+      "subtitle": "Size 2 \u00b7",
+      "link": "https://www.ebay.com/itm/366740721685?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRX6J5PGPNARME744AM&hash=item5563735015%3Ag%3AVT4AAeSwmXNqpwyC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BFuhLLA86ggJTk8scmoCPEf6FPuvbLrXZgaZDEWYCE7lOAu2W5mLaB2gkmrPGh%2F68N2ZpcMb%2B4JI8SmNT%2B9BUnEgvUggg95F7qvxMXH8wgdWAvWE05kQezAZB%2BKnMaeA%2BwTLdn3vOAlWfUs%2Fun7urQMz0CNjJdLK5snmtC%2FEJ944gaDxPIybJlJjd0x2sg6g1tZVlWDiQ06MCPk5371RC3OCJzFKMjyKxiaDakFtUA%2Fy7w0mauZdXWJQcdpnl1NXfvvrz%2BIZA%2Brwg45Av0dnji7NAdKkfyLwqkmitDtO8C7PSUGOk1Taa1xm3pWiyjzIw%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366740721685",
+      "product_id": "366740721685",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$14.00",
+        "extracted": 14.0
+      },
+      "shipping": {
+        "raw": "+$5.98 delivery",
+        "extracted": 5.98
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/VT4AAeSwmXNqpwyC/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High-Rise Pant with Pockets 25\"Everglade Green Size 6",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/900052312553?_skw=Lululemon+Align+leggings&epid=27055510276&itmmeta=01M6AVNXRXYAZA5XZXSAM9K8R2&hash=itemd18f4c61e9%3Ag%3ApM8AAeSwJshq5QK7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B95OcDrBefqhiXUlMxzkfLqu8Iw6IELNrWcW5J2fIzVertJyi1mU7ERparm5AmtdGGf1BtN2x3csLw9xO90E%2FOBkSSO%2BT4Vx77ou6%2BxS0SKFq6BL9KoIIDYBmjaUGQpwDMYb0hlJoE9YXkNVg2SjGALHrmKLv4715ENGWkhVnkuRbiSO6Q0zB1DJjVQ4af%2BZQ9gmoqAmdVhIhYMuR1O0iTeXIQZm%2BOI1GXIIf0O1BHFbNKB19zojjbGmbqfVm%2FAtm0KLWkBNf3JmbbUDqOoNuCVO0n0a%2BscfA4Ec%2F%2BPzea7PLV3tM72Ldq3QXy17W%2Bpa0%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900052312553",
+      "product_id": "900052312553",
+      "epid": "27055510276",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.98",
+        "extracted": 34.98
+      },
+      "shipping": {
+        "raw": "+$5.99 delivery in 2-4 days",
+        "extracted": 5.99
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/pM8AAeSwJshq5QK7/s-l500.webp"
+    },
+    {
+      "title": "lululemon Align High Rise Pant 25\u201d-Washed Mauve- Size 4 preowned",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/168828940777?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRXQC7AME0D7BHEMZP8&hash=item274efd31e9%3Ag%3AzFoAAeSw1nVq5hAo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3a%2Fq78R1eicWssG32V9WsHa0xuCdbIv%2BUZO9ndCe%2Bq5izJzkMWN8Gpyo2ZBPM2IbueaS1RSzNkSHZET99uK8m86cBVDmkHCduMVqDlEnQWW8rgNR3RAy%2FGQQWvcwZjCSlZStSLFixjPX%2FQQqK3pEILMVAqglvsYTMcw2heehozO4kLljTHvznjsKBDrTDUh3uHrSm1OiLgLxQSHrxM6pBoW4--XGRVY3lXeW8gH579LLTJ%2BAvev8g0Q33AU7z%2FRpRHj8u%2BpouAzG4J%2Bu%2BqnI7A1av9rVjWSrYtU5VDCjg3v5ENKqohQRcytabPoj3ICE%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168828940777",
+      "product_id": "168828940777",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$65.00",
+        "extracted": 65.0
+      },
+      "shipping": {
+        "raw": "+$6.12 delivery",
+        "extracted": 6.12
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/zFoAAeSw1nVq5hAo/s-l500.webp"
+    },
+    {
+      "title": "lululemon Align \u2122 High-Rise Pant with Pockets 25\u201d size 2 EUC Legacy Green",
+      "subtitle": "Size 2 \u00b7",
+      "link": "https://www.ebay.com/itm/237130926847?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRX80NFS0TEV09N0WQ0&hash=item37361acaff%3Ag%3AwD0AAeSw0VBq1RIC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8qDHuwc%2FVILnlm31jKS5RXzrfkll2Olm5zpLyHn2%2FzQy50UqPZrp0pSHHz4sklhBS%2FMWLy9u%2Bss5yHGk3fUYOMaaRV6janmPVXFXzLRFsxxl%2ByA7XmMZ0XY79b61DKZEddLsk2pMeaUXaIwoVgxwwzTEIpCEF4LiTMbnCx2HlYSWkpL79UaGTbKyKQpLi8Bm6oyywZe9yEzAqh6VKGwWkqLCKSQ1gI3l7COlO9808%2Fi%2BSnWWbfq4HZPE4QciHzFIxCAFxG3bLC0Yf%2B0%2B5z%2F3pE%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237130926847",
+      "product_id": "237130926847",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.99",
+        "extracted": 24.99
+      },
+      "shipping": {
+        "raw": "+$6.62 delivery",
+        "extracted": 6.62
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/wD0AAeSw0VBq1RIC/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Women\u2019s High-Rise Align No Line Leggings 25\u201d Black Size 8",
+      "subtitle": "lululemon athletica",
+      "link": "https://www.ebay.com/itm/920091726966?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRXX0V86KJN3DQE7862&hash=itemd639bd9476%3Ag%3AsB0AAeSwnMdq5kmw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8boEbxM%2B9FnwEMTDx4MUqgzZ55RzadHnSobtQLluROu4xABmRTm6Rf0CNuaekCu5YCbkm7loNL7nmcGXb%2F9Zx6JpLUBxtvCI2odCaIKJ8PSlMJESI6f%2B9kHDzde2eWv4kLdJiONDsd3H3%2FDDX5IH69M7pkEd2Lj1tSgYpOdMahyIew3bwSsW3K5UiAm%2F02bSF0jTnd7kNwL7evVsYnPYo9PubCF87rfMmWhKvp8cg37UZhruWWpfCYw%2FzURKsXMi3ZPcIsjFW1KfXT7Rbf45o153kMN5lua%2BRkWyOyx3LeHlPRHn2vWHY4b7Rr%2FrRCf5M%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920091726966",
+      "product_id": "920091726966",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$60.00",
+        "extracted": 60.0
+      },
+      "shipping": {
+        "raw": "+$13.65 delivery",
+        "extracted": 13.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/sB0AAeSwnMdq5kmw/s-l500.webp"
+    },
+    {
+      "title": "Lululemon HR Align Black Camouflage Leggings",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/860100943684?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRX05YXQ8K585C8XF8M&hash=itemc84202df44%3Ag%3AUkQAAeSwPhxq5hw7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9e4HLCIOpgAFR%2BXiabHCHu8RrOb%2Bl9RETHrQd5BakQesMYKmqU0HDotbNdskbeCfjQ2eZ92tiFsG6Jcc17nIyuz3zR1%2FuzxOgKZpT9gIBuIc4EFFVWkIdA4OhjDpzTgokxmRbYr4OkoBaZ84esQcNfiWYxvjlvilSqLrxq4AuzE3tkaEnsD49p4o%2B%2FaFUaaPwlCv%2Fxyh0oDcZ%2FCFAUtmB8jr5ehR0QtSE9KsRE4wN%2FAIApWGqd32SiYUEa76kWiC5ZdDGKa0Lfd%2BlsKRw8NXEk%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860100943684",
+      "product_id": "860100943684",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$20.00",
+        "extracted": 20.0
+      },
+      "shipping": {
+        "raw": "+$6.61 delivery",
+        "extracted": 6.61
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "bids": {
+        "time_left": "2d 11h"
+      },
+      "thumbnail": "https://i.ebayimg.com/images/g/UkQAAeSwPhxq5hw7/s-l500.webp"
+    },
+    {
+      "title": "LuluLemon Legging Size 0 Align High Rise",
+      "subtitle": "Size 0 \u00b7",
+      "link": "https://www.ebay.com/itm/800849520439?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRXTBJGEKE4Z80XGAT8&hash=itemba7659e737%3Ag%3A6K4AAeSwhxBq4nGD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FQhw%2BGrAWwOhOTZhKEsAL%2BwhzYiCprb0ygcbSYkXLBZ6VWrtBJeBEX3vSWTFhqi9GyPnzI9ZfwqQKdlHOeg1tBjGYvU7QcTqARCpurcT0O--l%2FXKXI1w8N6k2jLIOiGD0cjhaia5YEwpOtqGE9Bc6sC9h5oV3WPP6abEuZItEtaFVRKnLT6wpv0ZcQzE%2Bf%2FTPOQfGTpuY4UzeOI96lmVIUtVLXcTtNbhusCiC37Lw3FaGgXkOdpJL0Yxn%2BLg0Za%2BO%2Bnx4zTyi8V%2FAaUXYkcpUoL8WeV%2FmDoAixLlDhBSRnJngNcs%2FX45HuteIFY1DPHO8%3D%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800849520439",
+      "product_id": "800849520439",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$6.83 delivery",
+        "extracted": 6.83
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/6K4AAeSwhxBq4nGD/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align High Rise Pant Womens 8 Orange Nulu Full Length Yoga Leggings",
+      "subtitle": "Size 8 \u00b7",
+      "link": "https://www.ebay.com/itm/128166868231?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRXQA8ZH25J7EZ6FKM2&hash=item1dd7573507%3Ag%3AMaUAAeSwnjxpzayA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Q%2FmvKCDFBrkV1yvlPyvFEjVvNxsEuCzH8uP95oqkC36KK1RaDqAyYikWu3OqHBb04DOsiwBkBRJrlkBf%2FQbcPKfTyBBeiGphdm0JyLT5eFOGeFdYHUpo1zsU0qtD6LcGkmbPnrbZgCVtsyGKm1NaVeCGhXb%2BWxaJ1UePyBWMS0ZJvQNMJHl4SbC5QPNV9QE%2FDhTtgPiRFzaHOWsfLN8X2fe5Xn0fKCMu0VLgDtbtSUXck%2FFVErbyp%2BfNZaUaUenpQCxhErY1hbwUFcSqS5cmO%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128166868231",
+      "product_id": "128166868231",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.99",
+        "extracted": 28.99
+      },
+      "shipping": {
+        "raw": "+$10.15 delivery",
+        "extracted": 10.15
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "10% off $40+ with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/MaUAAeSwnjxpzayA/s-l500.webp"
+    },
+    {
+      "title": "Lululemon Align Pant II Leggings Womens 2 Black Gray Formation Camo High Rise",
+      "subtitle": "Size 2 \u00b7",
+      "link": "https://www.ebay.com/itm/920078314887?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRXPA17CZ4WGWN870HH&hash=itemd638f0ed87%3Ag%3AaXEAAeSwLo5q4EcM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9DJIiBFNp%2FgzM4%2F%2BxCxx6VidbfHl4rgfaBiJaTjib1dey7FnfSNEVDajifylfNsnnC8NSWjCPevlMTN%2BZQxH1yFSNoO7ehtgDkavHulorrwZ79TfpDePKdhb5AmpBvWGgEeF64miE7Wx6pWeeD5BsDoYfm3ZCWWTfoHccMy%2FYb2mkDjpHQYKeSX1lFJt%2BbdVTCxz3U9URss1fKPwZTMVrDWGrMnb%2FBI9R7Na4RMHlEM5cngoAXgWp4fk8ibfjwjOvLQPYuEsOCFqgKc3y7Pilc%7Ctkp%3ABk9SR8bc19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920078314887",
+      "product_id": "920078314887",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.99",
+        "extracted": 34.99
+      },
+      "shipping": {
+        "raw": "+$6.99 delivery",
+        "extracted": 6.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/aXEAAeSwLo5q4EcM/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "LULULEMON Align Hi-Rise RIBBED PANT LEGGINGS Shine Blue/Black RADIATE FOIL sz 4",
+      "subtitle": "Size 4 \u00b7",
+      "link": "https://www.ebay.com/itm/127919360482?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRXVDGWGWHHF259JQJ1&hash=item1dc89689e2%3Ag%3AZSoAAeSwx-5pmA1B&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9hv3IvuNdr7KoJ8DB17GU4Hb3nwKOpqFy8XbRjgCrvT9%2BQBBTNOV%2BJrQgOJcep5gTtImT1IY%2B6nktLCzYAsTZTpLuuHOR%2BdbrzVxb0Axgv%2F8OtzEjO3vnnZ5kpWy%2B5e9Euk3elrGmZVQL3TFcyN31Drvf0knRCzUXR3EveukTMIJD8afkVrq9tIz4b6hRQHCWX6%2BFvdzUfJi7pcREY2W7bmkNe0BdOaVpTeaJw4VRirvrs739fo3NrOuT535uVcecE7QCK%2BAFXD4x7qoPPx4%2Bzma1tfhmJgkwD2jyXHkprQQ%3D%3D%7Ctkp%3ABFBMxtzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=127919360482",
+      "product_id": "127919360482",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$36.00",
+        "extracted": 36.0
+      },
+      "shipping": {
+        "raw": "+$8.72 delivery",
+        "extracted": 8.72
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZSoAAeSwx-5pmA1B/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Lululemon Pants Womens 6 Blue Leggings Align Tight Running Run Yoga Ladies *",
+      "subtitle": "Size 6 \u00b7",
+      "link": "https://www.ebay.com/itm/257704561383?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXRX37JZH0SH915G5R2K&hash=item3c00638ae7%3Ag%3AyRUAAeSwGatqj1SJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BRWy8uMjP5MVvf6NrNJbd72UpUXU9oVoKasfpm0l13QTEO3GxMB%2FVMKcA54q0Mg0y8gjfuECpC6qcNX5XpuF0%2B%2BhbiVCtCyl52Nt59SqUluqlcgyaUp2I056LrglI8G8R2WgTxE%2BLawBO9n%2Bt5FmeDSfCdmWFSqIaXYfwRRTiSK%2BTmpU%2F1HTsICiozBfxVjNvlKxjcZBOwKceNIF%2F0ApyGTVxpjs2xTfhEPiFXKUF42Jf5CdDbpKHHiJPVK9SpKe%2BCWJ3Pw%2B01MFRJwHMPKtYCH0q5TJIDxA6%2F8PrEQdrxXx%2FK2nJGfIOKQASUIeSMhP0%3D%7Ctkp%3ABFBMxtzX27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257704561383",
+      "product_id": "257704561383",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$9.96 delivery",
+        "extracted": 9.96
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/yRUAAeSwGatqj1SJ/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | Sponso\u061cred",
+      "items": [
+        {
+          "title": "Lululemon Align Pants Full Size Yoga High Rise Sport Fitness Leggings Medium",
+          "link": "https://www.ebay.com/itm/267786750044?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS50MR0BW9275V6WY8E&hash=item3e5955885c%3Ag%3AoPIAAeSwQR5qqhuc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8JGbG1rUTfYn9AovKjs9%2BUAYkLsioV6wjUQilmD4RlgKZhq2rk4Vmridunvx2JE2KYSy2QhfpV%2FKQChrY7kRNy8OOZbib8s2rY%2F0RKX5qWA4fmHkVzOau2vRCsOhDYgqwcVSGsZj35OzRt%2FfaFOpYf5TMydEH3QATvGYblV5CEbDZSki%2FLMOciqtkknHN0SSO17Thd2eMyItvUEJEW1OTfYQEsy1D9Qbc73fSB8DYF978mXBaM2mew8p576k%2Bfrn617N8dyIrCJIdzdhXA0u5EwnKhhOXRbM0%2Be9HzKq0U9YMv8wmhxijgrWz%2FP41jm5E%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267786750044",
+          "product_id": "267786750044",
+          "price": {
+            "raw": "$23.00",
+            "extracted": 23.0
+          },
+          "shipping": {
+            "raw": "+$8.73 delivery",
+            "extracted": 8.73
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/oPIAAeSwQR5qqhuc/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Align High Rise Leggings Pants Womens 4 True Navy Nulu 27 In Inseam EX",
+          "link": "https://www.ebay.com/itm/227562674230?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5SQZBJJJ86DSVSC2E&hash=item34fbcad836%3Ag%3APwQAAeSwyExqy8Vq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hjkWVeJGW3IzBiP6DHOfBwnNykM7bOGDtG5fTa1tu5Z7RkckAi05rcrAsnrEhRyIh9UptNOqt4%2FXWEL5KUBMUoYYC1Oy3lkWR2nXUPbWlHlwTnsG%2BUzeLI9cAkwfug4C40rEq0y9GO1UV42qzfjfQEf2IkAiM6AAozDKS1D8kbJL4wO1jKO3LSJ%2FuhItCaODJPG3cMa%2FzozRu5s%2BtVkvEq38bWmzUoGIJyGlMpILRNruJnBE1bD%2FTczS49BFRzDMV0b4kAFjDkvEvogSASo0N5Hwf1dRKEckFR%2FW22oEQTAKuV7pr9y9ggu1DXVwq4yg%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227562674230",
+          "product_id": "227562674230",
+          "price": {
+            "raw": "$49.95",
+            "extracted": 49.95
+          },
+          "shipping": {
+            "raw": "+$6.12 delivery",
+            "extracted": 6.12
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/PwQAAeSwyExqy8Vq/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Align Pants Womens 4 Gray Textured High Rise Ankle Leggings Yoga",
+          "link": "https://www.ebay.com/itm/178119654607?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5QGVXJMMM9TBNZW5J&hash=item2978c23ccf%3Ag%3AFHsAAeSw2Cpp%7E5RQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fx7x1BUBvw8lNcKiJf1pdrPwXDeBdDQBZ%2FyAmXJkNnFxDqFXFJZXBWaW4bAXnzOYiRFcGsYOopl5Gtxw9P%2FmDDPfy14JgXFoMVzBSNLUUU3JkV8AKXWXcl%2FJVP9M3y5U9oe41FxZGI6rUoBjaJLP%2FP%2FczTXQYfnBy7OFruNJwvz2Ul5%2Bz8%2FCOUfGh%2B6ZJSdAPS4PDEujBZlX00usBUDGk5jgKyDGC%2BqkhUaMdZ%2BfiUC0oaEaQsyrapIWnNAO4KI7lEPLba7RP7N5IsVrfu9TA6rKvRy7jeGpsUPIgdWna6Gpovry%2BYnB%2BWvoSyxxcm6Ls%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178119654607",
+          "product_id": "178119654607",
+          "price": {
+            "raw": "$31.99",
+            "extracted": 31.99
+          },
+          "shipping": {
+            "raw": "+$7.69 delivery",
+            "extracted": 7.69
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/FHsAAeSw2Cpp~5RQ/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Women Activewear Pants 6 Black Align HR Legging LW6BKK Yoga 23\"",
+          "link": "https://www.ebay.com/itm/137847912508?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS50EBDZF8JVTW6RJ12&hash=item201860383c%3Ag%3Au7EAAeSwp3tpP3tZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B0bU2aQxsXRg0yBOFZ5rV7rmLwudr0trTDAwqiUKUUdM9pZHxT%2FYTku%2FVFcNRfz7l7TYm02Z8Q98YkZkyJgE%2FQY0CfW%2Fv6R3TdIEyFfJ9A%2B4rNrL0%2FCUZ%2FXgK0njSW%2FyvojvKoftPVHB3S7g6Rs9M5U8HXlSbg0E%2F8%2FHl2Z5JEG0pVH8egSBiaUtBkR3IciNP4iRgd83h6qV9gtyaCMb0Z2c2O0oELyCKt0wpBGBFEpP22Nj18%2F0DrHg9aQwAxE%2FecJuOcRy9Wn48yaO1011OcLyyzA8fNwRlHdrHUA42K1YOAPCPcOs4NkPt6lDVTyag%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137847912508",
+          "product_id": "137847912508",
+          "price": {
+            "raw": "$23.30",
+            "extracted": 23.3
+          },
+          "shipping": {
+            "raw": "+$7.99 delivery",
+            "extracted": 7.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/u7EAAeSwp3tpP3tZ/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Leggings Womens 2 Align Ribbed High Rise Pant 25\" Mango Dream Yoga Run",
+          "link": "https://www.ebay.com/itm/168783734421?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5EMGTFKPXV9VPSVMS&hash=item274c4b6695%3Ag%3AYo4AAeSwDxNnqlil&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8PTBXVXpqKGXAwSd8bHjUWT2ebYI%2Buv34WDVOvBJM45qKg3L6v0huu7AUFN%2BeQPCWSwQL1SvcDK6yttijBgspcI4EVzZV88S1b9ParQICzs4yhxqcAiGULdroCZVyWGKdZvRqiZaZ5SDSV3MIaE5ENxL8FUw6Bxyx78vLJxskNqjrC9RzG9f90ToUxgA31%2BmZLQT29VVxEW3MC96%2Bu6X2VsVkIcKISR1ciBfEVEH86kd3uJlv7Iin2KkMluluiuryfDlmrh65jW063Uq3DZviJoh23YxG2%2BUkBVmZknVn3R%2FNtFjFnd4u9aOUHQOIoWCE%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168783734421",
+          "product_id": "168783734421",
+          "price": {
+            "raw": "$37.62",
+            "extracted": 37.62
+          },
+          "shipping": {
+            "raw": "+$6.95 delivery",
+            "extracted": 6.95
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/Yo4AAeSwDxNnqlil/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Pants 6 Align Garnet Red High Rise Leggings Gym Yoga 21.5\u201d Inseam",
+          "link": "https://www.ebay.com/itm/287645514898?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS56WZWZSQA9AB0G29C&hash=item42f9023c92%3Ag%3AJUgAAeSwMndqUobJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9LUPV5XyChXa5bMtSekqbEzfK1mVGe5u0yxV16a52SJQV%2FlRVSg0StXdTKQya1YIUqrx91vsufIdwcgQ%2BI5ztMpFM%2FyIdGsw6wGN9%2BH75K55dbXbgLv7RA1kw%2B3tCWrsGFe5O24j0i31RBhpXjKXEk%2FMAtjZVOgCW8ghhrV2uXg5g3dIpDwULyjr--iRFKUy2RizorT0sgIbRLMd95PiMztTu9GjR1qAfXhTc%2Fkb0zN9DwAxLvewMdG5P%2BnNhGSgrXGcKw%2F4N3grQds0fKok7VU9C2xpfdeRxv0BHCJckBcK9uxD2V474ML0htWFzxrjo%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287645514898",
+          "product_id": "287645514898",
+          "price": {
+            "raw": "$35.00",
+            "extracted": 35.0
+          },
+          "shipping": {
+            "raw": "+$7.95 delivery",
+            "extracted": 7.95
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/JUgAAeSwMndqUobJ/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Leggings Womens 6 Align High Rise 25\" Yoga Run Rip Wave Purple Thunder",
+          "link": "https://www.ebay.com/itm/168794524639?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS54Y8H9F6E4F0FG38D&hash=item274cf00bdf%3Ag%3A2DoAAeSwKRVon0Oy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fma4RfTUuYL72rmOvsHlR5ZUTFSxagqF0sZypmBmpM93xCovwnWvM2waBwJVUth2phquaNL4xbmXMZE71KM5ZDzPd5mYi59abP3aTBiR46K4zjKpiDcn5YiZZg03y1ba3QKloDRf7vcPwk5AxgVssKA94Tpe68N7LExXgsfeukKLR798kadyuJQHm9SRBqBf7ESXGd%2FLfN8i%2B6v6t2Mxa280yn4jdQnlbvP8KLfvTUeC%2B2qLJLa4G4ZPqYABxPcqHJxAVZ2Y99FWRlqDdEi97M0WO5bWvC3zDRQbqqO9q5L0EY7xD0s8OaMP4nBniOeGw%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168794524639",
+          "product_id": "168794524639",
+          "price": {
+            "raw": "$39.49",
+            "extracted": 39.49
+          },
+          "shipping": {
+            "raw": "+$6.95 delivery",
+            "extracted": 6.95
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/2DoAAeSwKRVon0Oy/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Leggings Womens 0 Green Align High Rise 23\" Ankle Yoga Gym Pants",
+          "link": "https://www.ebay.com/itm/178473577116?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS54CN1TY37FEJZBT67&hash=item298ddaaa9c%3Ag%3AE0QAAeSwEU1qmyb7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde83hKpz4tQq7Jalu5JZvgh%2FdcklrfN6%2Fy2gkU%2BlNbYmvEStxcLJqwQrbtVHZxgB7ViyK%2FrSbb8Y%2BouFdvTV96RC9ulOiZbrxidSsWfPvJWa%2BvfQvk9z8B0Cf%2BDZeeRhENH8dja%2FMO2zt2PJ5i1ZX8Z%2BOdhd1pfw0itfziGlTQZHziv3sordCCSa2PDOHDcAOM3I7Sq5laKYwaATWY1c%2BkbgTkgR1FayqHWSkvMOrkASVh1e%2B2cBVEddHhuj9UNavgfjGfkmw%2FTHH6JJLqvPVbp5XNpp58EFZC8vy9lWimeUOKHEfSJktn6tP%2FzDXzzu5Wo%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178473577116",
+          "product_id": "178473577116",
+          "price": {
+            "raw": "$31.99",
+            "extracted": 31.99
+          },
+          "shipping": {
+            "raw": "+$7.69 delivery",
+            "extracted": 7.69
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/E0QAAeSwEU1qmyb7/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Align Leggings Women's Size Small Gray High Rise Yoga Athletic Pants",
+          "link": "https://www.ebay.com/itm/278339387725?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5PGYTAG3M7NM0B1GW&hash=item40ce52014d%3Ag%3ADQwAAeSw529qdCCy&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8o7%2BCEFF4LRtpwpUOYnclcIljWiqVwVKmJiZjjvvuyIC6qtYt9668INXNvAMxtKh%2BZEXam2EWyJbWP%2FTD26TOO92a%2F%2BheL%2FX2oMn5OKTV1oxJwxSNd2I8jvRiOQOMOg56a1z8p9SRFbAHeclaAKO%2B1cg6fxVgb8%2BrifXEZJozUeHJr%2FBiiovnn21gXWHLYNKy%2BC%2FGyd2eB%2FfQGisNTbETqMXKcny52sfTFnCkjbgVKAQbuQn4bzbWnkJ5tBuBxSZJeeIgGifTVTMAwPOfwj0mIHp2m6%2BjxAoohpz0TR8p1qg%3D%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=278339387725",
+          "product_id": "278339387725",
+          "price": {
+            "raw": "$32.90",
+            "extracted": 32.9
+          },
+          "shipping": {
+            "raw": "+$7.88 delivery",
+            "extracted": 7.88
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/DQwAAeSw529qdCCy/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Leggings Womens 2 Brown Camo Align High Rise Pants Pockets Nulu",
+          "link": "https://www.ebay.com/itm/178464609259?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5F7KR6CSW8MHV9013&hash=item298d51d3eb%3Ag%3A6AIAAeSwFh9qmJhp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9rPJLJmwtBdsx04Yfh%2BbNIq0oIuZ44w%2BpcJ5zddFy%2BYAUeo1PIDmDNrtcdX8X%2BAq87o8x%2BqUZSjUPdTUL%2B6h4yZkxRgHz6OoTxGjpMifv0BhWX7kydOf0%2BxZCIe2LREtvHBq7Yxu2j4FxE5hZ25gxlmcG4fN3XDtDSxvLj4NruJQz0hnviNYm81zWZLguWOHtmuoqdDXOhhQzK4zMakk9L2ow9oObCRu7DyaAH7kaDpU3iYvMTFzMPHnFHSi2Oesc6YTdomKWHqeVkiEy5JKM50l%2BEpvJhSryAjZGhs6AyFntf77nB57Cmi39uyzgS2lE%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=178464609259",
+          "product_id": "178464609259",
+          "price": {
+            "raw": "$35.99",
+            "extracted": 35.99
+          },
+          "shipping": {
+            "raw": "+$7.69 delivery",
+            "extracted": 7.69
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/6AIAAeSwFh9qmJhp/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Align High-Rise Pant 28\" Sz 4 Diamond Dye Pitch Grey Graphite Grey",
+          "link": "https://www.ebay.com/itm/267655230386?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5W52JBM00ZB6TSAXG&hash=item3e517eb3b2%3Ag%3Ag1IAAeSwAnFp85XP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8JRr8FukGHEFpsp0WS8Vl1M6EY3Eak--s8Onj1C6Y1mqVdvNyKHzf5anE5poqqR6UIRaUVdovDEdTpbu1deA93eBbI6qWOK4npOnZga54EggZo%2FM8nhwUpSlMidFJnJNQtE2CbwKlMfOfE5%2Byk21HYtuKs2xKcosbIL3aMkc99%2BxTCHRny%2BR5wMfvUswrMI00owpt0mvAiIbv42uoI7DjrLpvMhu6GK4F%2FIKdGiCcMN64oKIdTjCemupXTeUp7ySZCCsHLgIbUD020M5AACk5%2Fg0UojQnRNhZMW6K3xCv%2B34vgc6VnMNOO3DM5KU59f34%3D%7Ctkp%3ABFBM5N3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267655230386",
+          "product_id": "267655230386",
+          "price": {
+            "raw": "$44.45",
+            "extracted": 44.45
+          },
+          "shipping": {
+            "raw": "+$7.00 delivery",
+            "extracted": 7.0
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/g1IAAeSwAnFp85XP/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Align Leggings Womens 6 Black High Rise Ankle Yoga Lace Dot Embossed",
+          "link": "https://www.ebay.com/itm/358432766104?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS56BHZYQMN4JD766T8&hash=item537441f898%3Ag%3A06kAAeSwgV5pz-2O&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FdfOuo2JM3%2BkL8lnxisWcL4NnbCwnVNKdmd1eQzWqhu%2FPKKX0nxxugXgmlG9DivhcyWFQVYai2JmeW1I9IQNjtb2fEHhM0WZkoW6yL3hcE7%2BQ8AcrcwsiQCN3JtzDkNuH%2BCoGQXyCVSavJaRJIUt%2Fh200TxQBURIVdHmbXaVnAJBnOvuGuGceEjb%2FNS6oTrUA1Q%2BkmulIfCemDhh94fTYLPHrvYDFMAa6uG1Ok8KtuIF2bXzxAdbWHXRu8BNRkkWOC2%2FlC%2FihEcZffYCfzC1d6nK%2Fx1onaSifM4I9IaCLDgCuulddMrbBwxI5Ztu7BiOk%3D%7Ctkp%3ABFBM5t3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=358432766104",
+          "product_id": "358432766104",
+          "price": {
+            "raw": "$34.99",
+            "extracted": 34.99
+          },
+          "shipping": {
+            "raw": "+$7.95 delivery",
+            "extracted": 7.95
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/06kAAeSwgV5pz-2O/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Other Popular Brands",
+      "subtitle": "Based on number of views and purchases | Sponsored",
+      "items": [
+        {
+          "title": "Lululemon Leggings Women\u2019s 2 Black White Blue Luminesce Splatter Capri 22x22",
+          "link": "https://www.ebay.com/itm/167853551965?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5YPFCXCCVA6SWZD8C&hash=item2714d9f15d%3Ag%3AFYYAAOSwPjhmEbni&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BBoT%2FH3tS%2B%2FSHeY4tujcqfi7vkMzzszKRxo6OkTYio3O8nLvSuSRm8BBBt3%2Fj7OcJsrSXYZciqQFQInzT5nW9gNTq8S50W0at03NbS5iRv7eXjH1sMbUdD9Gd%2FKMlS%2BDlCrfVKsmZPRMfgvKN4Q7t9uguxrinRkaMj1OMZMYrOeiS2s6rXxKwxYBXQbDpa6id9nUvw%2BpCBVTKQnEyCPyz3EwAuk4Ef6DBmx%2BVp5fuxr0aStRq6DR1DKDSGAJpH4MpN2b5ohvtUjTG3pvzGITMTxMMdhf8m9OpvZcBqTeyFeObQFShTp9reu3WRqbhl1ac%3D%7Ctkp%3ABFBM5t3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=167853551965",
+          "product_id": "167853551965",
+          "price": {
+            "raw": "$26.97",
+            "extracted": 26.97
+          },
+          "shipping": {
+            "raw": "+$6.50 delivery",
+            "extracted": 6.5
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/FYYAAOSwPjhmEbni/s-l500.webp"
+        },
+        {
+          "title": "Lululemon Athleta Black Yoga Womens Ribbed Leggings Size 6",
+          "link": "https://www.ebay.com/itm/800167191491?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5P563MJJW8PK61N4T&hash=itemba4dae63c3%3Ag%3AaPEAAeSwov5qHslw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bl0WE7rlw4b%2BTYzKQIBZ4PSJu4sz5ocR37tb%2FFPULFgsrc7M2%2FI7svYN3SiLhN8Poqfqd9wh7kvh1EFvXv511SH1Ei%2BHFpJyJiQ%2FnuJQtrkpqFJsUdBQ09CmdYIFLAVRnytgkRqT%2BbzG%2Fv%2BSxoXkI8A%2BBkp0FTAUXqnQ9dyLHcdANGrfwF4CtbkhoGraaWS%2FRJN59gFv1nMDY%2BbYzed6FX%2B0XFSDByhuJFwDy1ln%2BWf0ihNOlLvJboi8KQYwivTE0Hp9L3epwYZG7eLAy9ZDnoqFuB4eeU3vqp%2BrJ%2BjB%2BeyzvOgQvUe4Y8b5cSnkWv4SE%3D%7Ctkp%3ABFBM5t3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800167191491",
+          "product_id": "800167191491",
+          "price": {
+            "raw": "$45.00",
+            "extracted": 45.0
+          },
+          "shipping": {
+            "raw": "+$9.50 delivery",
+            "extracted": 9.5
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/aPEAAeSwov5qHslw/s-l500.webp"
+        },
+        {
+          "title": "ATHLETA Women\u2019s Orange Ultra High Rise Elation Tight Legging Size Small Style #5",
+          "link": "https://www.ebay.com/itm/306737982033?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5W16CKFKAJB7JJ4MN&hash=item476b022a51%3Ag%3AAc8AAeSwF6Jpe7B2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BpxCUzsSRJOVe7aaiECzEjgpPF1qvJlKiz%2BBsQaJ4ghsjIien5QoWs9QZ6K5mHxaJ2qhLOA2t4hLsJ3rh1Yia2dSIDcirR%2BYYhZeI4jGsW6gvPmLv6jnf2gM1yxHFQIAWZd9KFIg4RuMy3ivclykp5cCzGSevIiV9u8rA4I0unRLf6BjaTU0WYDWm72WWbCit9KWSc%2B3Kj%2BjX3udBOzmpG6JDDzcYnbmdxlkv%2FqFDFu14T5JDcB5GFaWDiSMr%2BwdTVgswmP3enD0WRtdOQd3CZVWoVPl8uw8OGFgZEVczEAmJ0NEul4rrLPZcsv57IZCM%3D%7Ctkp%3ABFBM5t3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=306737982033",
+          "product_id": "306737982033",
+          "price": {
+            "raw": "$42.00",
+            "extracted": 42.0
+          },
+          "shipping": {
+            "raw": "+$6.19 delivery",
+            "extracted": 6.19
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/Ac8AAeSwF6Jpe7B2/s-l500.webp"
+        },
+        {
+          "title": "Free People movement legging xs Hanalei High Rise 7/8 light green active yoga",
+          "link": "https://www.ebay.com/itm/236057123644?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS55TXTSENMY0JM52P7&hash=item36f619db3c%3Ag%3AZEEAAOSwcpBoAAe2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8JeHivWIvDIeqiIdnsWpAtMNf7O3zYM5XsoqGbpMxl%2FPKpp2L7I3TbZUmN6h2%2FSQtmo1kum7xTo4GjyAh4bpLb%2BWajHbbVWEy%2FXgU8jVt0CqvBRWYMJKIos0GOs2nb5tH2fFNuOmUvV5dQFwS7zjdl39esHgjEGnC7sooRs8sjQcfAhqikNn5XUOZnYfZFBbx54v66yPPVLC%2B1MN%2BfxjRNjIuXmAQGV4RB0aHBygfJdVyiOXUYQUikIaUdIohhUozz1bnpcUSJssigz9ZxIrQMqXHHQnKoz%2BlsBTKWN0QOxBT0Ax8MgueabUQK1S%2FsQlk%3D%7Ctkp%3ABFBM5t3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=236057123644",
+          "product_id": "236057123644",
+          "price": {
+            "raw": "$29.00",
+            "extracted": 29.0
+          },
+          "shipping": {
+            "raw": "+$6.83 delivery",
+            "extracted": 6.83
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/ZEEAAOSwcpBoAAe2/s-l500.webp"
+        },
+        {
+          "title": "Athleta Women\u2019s Size Medium Cropped Navy Blue Leggings Pockets Zippers",
+          "link": "https://www.ebay.com/itm/389026425420?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5AAP876MAGTPCX81P&hash=item5a93c82a4c%3Ag%3AZCIAAeSw4g9o2WvH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNF33qpsNUqAFwA8ZzQPOIfnPxahhCYEGAf0MLKddM1Kd%2FGp%2BkDh9h5NfDEiECr0AShTgaEz59kDxcWx12JIJzG4FCyglCyYFuuzAZo%2BGsc9KgKFcKN--6LHLaG2tWZpFLpbcQtmtTyWmTR052UnTRAucLx4X0183aNkW%2BjxNhm4FAFWzqPJ6n4sOq52hbnECzsR%2FRUXYYOUPHAASUSggecCUXDjMA4MHjaARsTZ7xyIuTqhHmfjz52DAN5SnvMK%2Fao1fksS7rJpbOm2L1ATgIrPuX0MNJ5yzNjWl6yWfCuA1SS2VzHD%2BwuA%2BqwAqSQDI%3D%7Ctkp%3ABFBM5t3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=389026425420",
+          "product_id": "389026425420",
+          "price": {
+            "raw": "$15.00",
+            "extracted": 15.0
+          },
+          "shipping": {
+            "raw": "+$6.42 delivery",
+            "extracted": 6.42
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/ZCIAAeSw4g9o2WvH/s-l500.webp"
+        },
+        {
+          "title": "Alo Leggings Women M Black Run Lounge Gym Yoga High Waist Vapor Resort Travel",
+          "link": "https://www.ebay.com/itm/365846329151?_skw=Lululemon+Align+leggings&itmmeta=01M6AVNXS5HGCW9TK4ZF5Z3BYE&hash=item552e23f73f%3Ag%3AEQ0AAeSwZLpouu1P&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8YeUoURHUaE8Vahn0ytsGZ9IkrLoMqRr6ZKGJZImC3VEwQlCn6ZQUIVmVVA5azH5AQnEdAEf4QVDaR9SEOeOvNEPKOR1S0AUcocw2PSuYSdRjAbvcN44iMuAWzaNRQ1IZ%2Fha3XJ4gEVyvsXPgpGam9qXGnmkvMY7Q2zwf3VxbxjJAmGVwVNurzRej1Oj99OrgzZ2KjuhaifGZjt8mjB5oQFPphKZDZ7zZRO25nGCUIOGjLGf02yKZgRUebCWGsBM8BAJ6AfaoxcUtz6Ajb%2Bd4l0qwQQYsATv30e4NtZ8dTVwaHf50r05HTdarOyOag2Bs%3D%7Ctkp%3ABFBM5t3X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=365846329151",
+          "product_id": "365846329151",
+          "price": {
+            "raw": "$23.99",
+            "extracted": 23.99
+          },
+          "shipping": {
+            "raw": "+$9.35 delivery",
+            "extracted": 9.35
+          },
+          "stock_status": "Last one",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/EQ0AAeSwZLpouu1P/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "lululemon align leggings 8",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+8&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings 6",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+6&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings 4",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+4&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings 2",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+2&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings size 10",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+size+10&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+black&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings size 12",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+size+12&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings 28",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+28&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings size 4",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+size+4&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings size 8",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+size+8&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings 25",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+25&_sop=12"
+    },
+    {
+      "query": "lululemon align leggings size 6",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=lululemon+align+leggings+size+6&_sop=12"
+    }
+  ],
+  "popular_filters": [
+    {
+      "name": "Regular",
+      "parameter": "_dcat=260954&Size%2520Type=Regular",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Size%2520Type=Regular",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Size%252520Type%3DRegular"
+    },
+    {
+      "name": "Juniors",
+      "parameter": "_dcat=260954&Size%2520Type=Juniors",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Size%2520Type=Juniors",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Size%252520Type%3DJuniors"
+    },
+    {
+      "name": "Maternity",
+      "parameter": "_dcat=260954&Size%2520Type=Maternity",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Size%2520Type=Maternity",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Size%252520Type%3DMaternity"
+    },
+    {
+      "name": "Black",
+      "parameter": "_dcat=260954&Color=Black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=Black",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DBlack"
+    },
+    {
+      "name": "Blue",
+      "parameter": "_dcat=260954&Color=Blue",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=Blue",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DBlue"
+    },
+    {
+      "name": "White",
+      "parameter": "_dcat=260954&Color=White",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=White",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DWhite"
+    },
+    {
+      "name": "Green",
+      "parameter": "_dcat=260954&Color=Green",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=Green",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DGreen"
+    },
+    {
+      "name": "Pink",
+      "parameter": "_dcat=260954&Color=Pink",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=Pink",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DPink"
+    },
+    {
+      "name": "Gray",
+      "parameter": "_dcat=260954&Color=Gray",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=Gray",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DGray"
+    },
+    {
+      "name": "Brown",
+      "parameter": "_dcat=260954&Color=Brown",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=Brown",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DBrown"
+    },
+    {
+      "name": "Red",
+      "parameter": "_dcat=260954&Color=Red",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=Red",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DRed"
+    },
+    {
+      "name": "Multicolor",
+      "parameter": "_dcat=260954&Color=Multicolor",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=Multicolor",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DMulticolor"
+    },
+    {
+      "name": "Purple",
+      "parameter": "_dcat=260954&Color=Purple",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Color=Purple",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Color%3DPurple"
+    },
+    {
+      "name": "Petites",
+      "parameter": "_dcat=260954&Size%2520Type=Petites",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&Size%2520Type=Petites",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D260954%26Size%252520Type%3DPetites"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=Lululemon+Align+leggings&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=260954&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Lululemon+Align+leggings&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}

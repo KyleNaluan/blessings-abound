@@ -1,0 +1,1779 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7c3d18169f708d93c91",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/qsMtsRluQoVv1x32cgl8YAdBgw1iZlZi4h3wTBOG7CM/6ae6d7c3d18169f708d93c91.json",
+    "markdown_endpoint": "https://serpapi.com/searches/qsMtsRluQoVv1x32cgl8YAdBgw1iZlZi4h3wTBOG7CM/6ae6d7c3d18169f708d93c91.md",
+    "created_at": "2026-11-01 06:10:11 UTC",
+    "processed_at": "2026-11-01 06:10:11 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+    "raw_html_file": "https://serpapi.com/searches/qsMtsRluQoVv1x32cgl8YAdBgw1iZlZi4h3wTBOG7CM/6ae6d7c3d18169f708d93c91.html",
+    "total_time_taken": 3.41
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "Patagonia Better Sweater fleece",
+    "_ipg": "60",
+    "LH_ItemCondition": "3000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 20000,
+    "query_displayed": "Patagonia Better Sweater fleece"
+  },
+  "categories": [
+    {
+      "name": "All",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_oac=1"
+    },
+    {
+      "name": "Women",
+      "link": "https://www.ebay.com/sch/260010/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260010,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=260010&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Men",
+      "link": "https://www.ebay.com/sch/260012/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260012,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=260012&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Kids",
+      "link": "https://www.ebay.com/sch/171146/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 171146,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=171146&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Specialty",
+      "link": "https://www.ebay.com/sch/260033/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260033,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=260033&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Baby",
+      "link": "https://www.ebay.com/sch/260018/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260018,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=260018&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 888,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=888&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=1&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 64482,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=64482&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Home & Garden",
+      "link": "https://www.ebay.com/sch/11700/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11700,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=11700&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Movies & TV",
+      "link": "https://www.ebay.com/sch/11232/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11232,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Patagonia+Better+Sweater+fleece&category_id=11232&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "title": "Patagonia Better Sweater Mens Medium Red 1/4 Zip Fleece Jacket",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/128164159028?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQT908JQQMYZ1EABZ6KM&hash=item1dd72dde34%3Ag%3AR7kAAeSwDHNq4o3O&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BMbKXxMhYoWr6jBfzyRsaKSDkxxu%2FGUAaVETsayPrDSxp0zLXoM35Q4rhUcVVvusdn0lscpGb4jRKcAXMm04zvqI9eqMwveLcg5MkMgWgxzeVTqZEJf4cm0AR5%2FDpP9UUlrjK20R1WyxeRLHpctfJOHEPPGzMuSCEfaa7avvxlHlMJqVO9z7m%2FTqlH501qE0KN%2FKe6ddOY0W24Oyir6FYXBJq0RyEr8p1OOLLs4YVAFcQ5TAfDuyKJUOXoZxKVFVNMpcliEPm3wyWBjK%2BICibxy9swXnrmtyiQK1XWJGOilQvlLZ4m3t1ccQOgb7z%2BTlw%3D%7Ctkp%3ABk9SR7j91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128164159028",
+      "product_id": "128164159028",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.99",
+        "extracted": 24.99
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/R7kAAeSwDHNq4o3O/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Mens Medium Gray Fleece Pullover Jacket Gorpcore",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/366772592022?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQT93F0Z3KMXAHR5P01B&hash=item5565599d96%3Ag%3ABvUAAeSwvjpq5T1h&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8MA1Y77eMbCzwaQa7umtJyWg9DstFBpnGKSkafg3JMrGMMZPKpUUv3WJhmEEz47NiDdvHsPpAHxgZOXA4diG24dgaNd7HVdfFhhW2iI3TL4ThlXnxxfKgG%2FA1Qu6glciL7CjPYKfNf%2BYlJ3Jaxd0ovWxkF5k03cbepX0PauEIFUkeoG0qyiVG1o3Pids9wksTVct6NIktjx7gnIfD8BnSxGXKGbC6SmNYA0SOVgH5Z9d8e8xX7mJEmTr7PatbyNR6Mj2axC%2B6corHq%2Bp8nCRJlEciTQdyyLmFhDHY9HkmDf5GxwAUcDxDzP6YKN9rKun4%3D%7Ctkp%3ABFBMuP3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366772592022",
+      "product_id": "366772592022",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.90",
+        "extracted": 39.9
+      },
+      "shipping": {
+        "raw": "+$10.99 delivery in 2-4 days",
+        "extracted": 10.99
+      },
+      "location": "Located in United States",
+      "promotion": "$31.92 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/BvUAAeSwvjpq5T1h/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Mens Gray Better Sweater 1/4 Zip Fleece Pullover Jacket Size Medium",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/257827258041?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTA1VV9R2QQ2T4YSJZQ&hash=item3c07b3beb9%3Ag%3AIVEAAeSwFiVq5kkU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fy9yciofsjfoPQ%2FXmaHh1V5y9c84xKqLCj%2ByZwVq24dRjmlxikF588Vn4Ql5ltnH%2FZ5qksO9hYIZDnci%2FPiY3j8piFj87bdUd0DJzz4GgdRrw7dPH8LwHq7W5K5rJlrk5fAzYTz4%2F55z68NyaeQcXnt8dNl2p%2FNj7%2BH6p2EMjJub%2BWT3Jk6ENN6ZjeTw4qUbUvx1D9g%2FfZWEtY%2F3zcW8aWARGFP5FlmQquPhtjJb6jWUqd%2BQwj0xhmo6kQyx4V9EfjNcyk5jVyjpmLN414gT9CCPMYbFsuF9KdEgCD7MS9TV8i5SLqbLXbHnNz%2BOjA2EI%3D%7Ctkp%3ABFBMuP3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257827258041",
+      "product_id": "257827258041",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": {
+        "raw": "+$14.85 delivery in 2-4 days",
+        "extracted": 14.85
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/IVEAAeSwFiVq5kkU/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Men's M Green Full-Zip Fleece Jacket Zipped Pockets",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/840075242315?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTAC7KBTYS224Y264PE&hash=itemc39862eb4b%3Ag%3AX8IAAeSwDKtq5LQX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FKaJ%2FdI9NTgykNYXaEShTA8S%2FTZj0iTAm8jcP4VmxhzgUXPBWlpPMycVH%2FTalT5D0OSBeiazNbLstiCRb578V%2FuZczszvSYiJ6ktK1Cs2bROkUx81YxpdotakveeM4Mp9%2B786LEr7DxpcUw450sS0iOdP%2F4JUm181N0F%2Fk68ekW%2F4NiiqBnRI4iSGWzvGgLnvzV3xeFeLaND3aSJ2Ar%2BZT1JulcrHl2rBlO8A0oB5OrDC8LxEycq7uXRdrONpZa7EtaPpuGxQQDa%2Bketo%2BMuA6mW6kVhGgcizCuCKxkEwdOmLIrzuiTb0KxaI3A2ef8EQ%3D%7Ctkp%3ABFBMuv3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840075242315",
+      "product_id": "840075242315",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$89.98",
+        "extracted": 89.98
+      },
+      "shipping": {
+        "raw": "+$8.27 delivery",
+        "extracted": 8.27
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "bids": {
+        "time_left": "5d 10h"
+      },
+      "thumbnail": "https://i.ebayimg.com/images/g/X8IAAeSwDKtq5LQX/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Men's M petrol green Fleece 1/4 Zip Better Sweater",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/336870892395?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTA7RDY7TQ288X01TM9&hash=item4e6f11e36b%3Ag%3AyTMAAeSwMOlq5M4R&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FTkfIgmo5ZjT43gPsZalys4zthxSvjhYf8LDtKdqrnhX103s6FP1LGOVt67FJVzFU%2BKtrNSI%2BfeCrL369JPBRjkt1ac8zJW4xbXnpol%2BYt47fw0Dy4IXs0q7graP2PQUQd6k949SdqUxy37JOrrifyPs13UBe%2FVbRN7Z7hZipwBj3OUIxyswPZBlM5g3NPlZm0aT6h2v3aEC8nBH%2BmJnkW7jgP6Y6pJUejMMvx1h3pIUiPja9u0AXixyRo5uvVbJLQh4m0ksGtVrwVhOqpQavx%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336870892395",
+      "product_id": "336870892395",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$6.83 delivery",
+        "extracted": 6.83
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/yTMAAeSwMOlq5M4R/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Full Zip Fleece Jacket Mens Medium Black Knit Sweater",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/198757689014?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTAFS77JDTWZEW509KE&hash=item2e46e1a6b6%3Ag%3Aj3wAAeSwbVRq5MsP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FHbjDgRTt8gM01CRuQW72gdSkYiTuv5FvCzPI%2BU8nRXwGYiqiTXCHpU75SchHCq93CTJ3B6tyZsieosF%2BIGwJAOFdst%2FS2xk4w3J9Hwhph7NynbFx48yl4aljqkieKxLqp2hGUZKrlZL%2F7eboks4kx0NNvRnKVxwL6qm9%2FdwhJYMBVYtXI1pAz3VOfR7bPXUjzOyHhmqbp4QsESXehkIkLRbKmKE7%2BYAIfogkt4YTVDJhAxQM9A%2BBXfOl6E9wzCJ5ywFTooKmMPLxap%2FTQxEIVAbRXvTF87MiXcVFGklD4waOJjEyqpWvVUyU1qFADtx8%3D%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198757689014",
+      "product_id": "198757689014",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$6.49 delivery",
+        "extracted": 6.49
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/j3wAAeSwbVRq5MsP/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Mens L Blue 1/4 Zip Fleece Pullover",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/840070158540?_skw=Patagonia+Better+Sweater+fleece&epid=27041226959&itmmeta=01M6AVNQTAE3SWBNH5ESEQ6P2Z&hash=itemc3981558cc%3Ag%3AMooAAeSwRb5q4rlY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FbNDsJWeYsAgzcuRd13M3fhIpI2StYu0G8BgeO6gGxg2LWQCoZhCaT0GxVSAey9fHoIVFf0t0ffT3jWIdR4kuLDfUWeth0LxwYwJhEF47hk%2F2rHvx7CaQzoO5LQ5ig5bghyWsI2Q8uc%2FX4%2FFIoVojuT7i%2BzClXHxP74bjNc0Gr6JeGP%2FMVUS7NWfQPAiN2RRi9x3WGkUevcMHh%2BIHqgtsuB9U3awUU6CB6YaScyngIhyhBQWCAjERGZmRer96KekT3pN1EJqFpGqsge%2FmoZIJoU5A6SA7LEf9gPakjIOo5sZWdu6nvaT%2BejQ5K3x97C0g%3D%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840070158540",
+      "product_id": "840070158540",
+      "epid": "27041226959",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/MooAAeSwRb5q4rlY/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Men's M Gray Hiking Outdoor",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/880056781278?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTB0E6XBBS2YRT9FX7A&hash=itemcce778c9de%3Ag%3AMDUAAeSwbMNqJIbj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BxjhpE1j3m2KoA1lNNinliceOXzLAFU9sXyHVDUEolINAXH%2BAkSpEzempJaaaHQK6st3iIemsss6g%2F4kucszV%2BkwPVouXw0ijGG%2Bv3FfDWjElYRyZkOvredO99iQZDVabncaF6%2B4mHfPVoVYfBzpnVxcz7a6HXvzTbOJ%2BqxaiKtp2etxOTeURrp9ktWULNg8EHrGjdnAnZWGf8OaMEU4UbLdrSkD%2FyXDZgvfV3qsFmktKQyz%2B5Nvv5rRvNpbkH3eDkb%2FnZ%2FA1fA49jia13S%2BogOyAjvpnYpUJxwhoSVhGueiBNLyVx6eqCC%2F9BX6Wbymc%3D%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880056781278",
+      "product_id": "880056781278",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$30.00",
+        "extracted": 30.0
+      },
+      "shipping": {
+        "raw": "+$9.50 delivery",
+        "extracted": 9.5
+      },
+      "location": "Located in United States",
+      "promotion": "$25.50 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/MDUAAeSwbMNqJIbj/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater - Men's Medium Gray Quarter Zip Long Sleeve Fleece",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/267829415410?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTBH6Y3TK7E7A3ZD62B&hash=item3e5be08df2%3Ag%3ALuAAAeSw8wpq5qb9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Jm6ft2wL4%2FDLd2XhN1Y0iEiQGTtOj1gYIJ%2BZg%2BzWdZK8iimsumXcXBWe3eNXpsY3UeTEEvxCwYP47f%2BvrFHjAkvFYZnMCPgl%2FNGP0K8i9r8%2FrUGAXDHINEO%2BEszeDnRz2HZ4ZSz9ZuwKvvJtrDEy%2B8GU5YkNtPvW%2B2VoA1GwObKL6PCoepouatBLZX2zIAXUrG4elFXHe1VJpBIGxa9PXw%2Bjz9UQvAOJOD8MStd6EGGrP8gfoUYuPq1mriax3uq0i0fH%2FqfzQ%2FQhoMKDFjUfY%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829415410",
+      "product_id": "267829415410",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$10.00 delivery",
+        "extracted": 10.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/LuAAAeSw8wpq5qb9/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Full Zip Jacket Green Fleece Mens Medium READ",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/128165035907?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTBBDC9A0H0VVYWBNW3&hash=item1dd73b3f83%3Ag%3Apq4AAeSwsp9q5Qil&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F4IECjCosCoVS5T6hw5lLPGCxkjPtgH1LLVKyV7jg%2FdSkoD4s%2BkjAO7bI%2Bod12BLjJO9c%2BWv4s91Bpjrg2rsSNhehscFU8NbJVZnv%2BQfMTBeaMklYSJnSGMMUfC7jqoLN9y5UOrwYMF9q6%2BB1SO6%2FSamL6y9U77AYrMH7AqbKa40fLO91HWhsiwy8K9g8AOPV87zsxTO7JjO1IBPDzWYS%2FQpGp59FHWqof4rq62UHY66YodaU6XsUOHCRCCj7Ite9IiilvCo4K3RjUMP4YzUSv%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128165035907",
+      "product_id": "128165035907",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$8.99 delivery",
+        "extracted": 8.99
+      },
+      "location": "Located in United States",
+      "promotion": "$22.00 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/pq4AAeSwsp9q5Qil/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Men\u2019s Full Zip Fleece Vest Black Size M",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/198760469132?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTB0DSWJC5Y2K1MRVW6&hash=item2e470c128c%3Ag%3Aq60AAeSw-CVq5jjm&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FdLO6yhylmcW3IypXoQhUHAqsdu7K%2FUwanB4PkZpYU%2BVQxJ2PSFk4Foeu%2BQlIA4VIFZ9qZDsMVqoIXdtvGs%2FSuazuIzTKsj%2FjQ4itXnUlVKsJNkdLLL20AbCvCdawpxBw5Y1KOYUfjGr6EnQM7Bv%2F3tgClI0y7tHimDm7xgqIvxGA1LWgVWsXJWpeD8Pc%2BBVnUmQ%2Byi0IWRB%2BGsy%2FQDIfxUPQU9w0HBOrRm1Ck0O%2BovHmQcUYvpJff709higL%2B6sH1p9jqbK8x8cPvmavVHJ%2Fr%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198760469132",
+      "product_id": "198760469132",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$6.36 delivery",
+        "extracted": 6.36
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/q60AAeSw-CVq5jjm/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Men's Better Sweater Fleece Vest - Navy Size Large",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/407329853059?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTB3V8DQCGNR5Z2ARJ4&hash=item5ed6c04e83%3Ag%3AvyYAAeSwQxxq5mZZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9731SOCwRLIsP77%2F6xm6Zsxl8YXw2kkYj9cY02WSNkd%2FdRsz%2FN9KLRJp88ulhUtt6arV1gd50UF5WXyA719iQPKCZc7VNgaLGYfm6z9QXPdbDyKGocTc0Zwjpwqsq0sLh9qX%2FCHtaMJcvv07eJkqK6O7QotPJMnVeRBwubZsJtHcKlYv7uQVORwVobLi9Nx0DuAF%2FjaXSSx%2BHHxq7ek3pzz4HF1El4sCntljhv19hX0jYomp2tTfQjAnafYqaGj6IXfPe1F5KTo9L85yV3qSVqzq2T6ycGEYpdhurXIuR2Dp29gFFoELvSMYcr%2BwWBM3U%3D%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407329853059",
+      "product_id": "407329853059",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$6.62 delivery",
+        "extracted": 6.62
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/vyYAAeSwQxxq5mZZ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Jacket Mens M Beige Better Sweater Fleece Outdoor Camping 25523",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/407324255024?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTCWAA3T7VX80QVEFD6&hash=item5ed66ae330%3Ag%3A0CsAAeSwycVq09ER&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8qp1A1ihiOChsKjzU%2Fo6igPPzsk1f3Vo5csY17mdHN8iJMYZfeLcQqvXvrqykWfEuIJs9CqPJWc9HWuaWos8I6Zzl0oR30HNOam%2BJUzE7Z17xRnEsyylTpmpOi0odjnYjs7Q9QmrPynh1wz3PyawK5O9ndUkTIkhL2WQ%2FcuJOvFD%2BpV9bKPaZhUFLTgh7WB%2BzazS1gQlIjlkjR7fHYjAA2aRG87Lc68OiERI9UuteB4Dx3nePWhtLtk5hmQB6dMHC73%2B%2BV2%2BbVpUwvRdI9JOX1kyGqRwdtewPHBSH6rFkh6XeRQGobedkwFl082hYtviw%3D%7Ctkp%3ABFBMuv3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407324255024",
+      "product_id": "407324255024",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$49.95",
+        "extracted": 49.95
+      },
+      "shipping": {
+        "raw": "+$8.99 delivery in 2-4 days",
+        "extracted": 8.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/0CsAAeSwycVq09ER/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Mens Brown Brown Jacket Fleece Quarter Zip Outdoor",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/336866486547?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTCJSBKKEEKRXRBKCQD&hash=item4e6ecea913%3Ag%3A9YgAAeSw6Ydp-jkb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8TGcdh%2BFvOQgs%2BTcQjU2%2BGlNmrXnFWhJ%2FUpdyOAI80pSIXGusz1Q%2F1jMi7qMpDNYOB40buJrjZpheK2F0FlNje2IGk4sI%2B4RtQllN69nao6dPbuB99QKflERc%2FfRg%2BN9GibQdtrOE1WbDcTGxJbsWrLUYDIlt0F%2FHgl%2FkPQC0C5bK6siakN6oQyR8SpeKlIuXB58ikPxN%2Flhk5KO0en8h2GwbS169xZwSGhmD8l6jRysbkAh2c478kW565buFeqOM3mFfvZrLJW9dG103%2FY%2BcoV4jiqLYJ%2FTsXwlzQAPXMB8%2FBd0ApWEvl%2BGmv0TByVcA%3D%7Ctkp%3ABFBMuv3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336866486547",
+      "product_id": "336866486547",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$59.99",
+        "extracted": 59.99
+      },
+      "shipping": {
+        "raw": "+$9.75 delivery",
+        "extracted": 9.75
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/9YgAAeSw6Ydp-jkb/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Jacket Mens Medium Blue Fleece 1/4 Zip Outdoor 25521",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/900045665859?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTCJJ3EAWB3ZYW9ZMFA&hash=itemd18ee6f643%3Ag%3Alr0AAeSw8bFq4QuN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9G4GCwqdcmACsRsqk9gC2cYcHQJ6FIxkNilKmSWNcUH92ObRR4ks%2FGgyCOM2eY13aDiP6R2g8lHoEEYzo4AOcTkiVJ4FJhhHFPWmNIUpuHZj2DGZT%2FuOpkKowMyKeLcuRRI0nnEIgzQFK94psbuvnX5YkNY%2F5A1gZAGa8hGdOQIr7dTMdHJ9hnPCvwDG349qJKichbNZgU1ac0YQQ4On88m9D3D6wl3MLmlXJ29tAyaYwu7L4jzerVWzsC9KiO%2BQgf8oj6Xb85IRYM7tk41vZ5YChm2GfIrVRz2u5Go6w7qJylUqwGb3feLXpAP1bSwTo%3D%7Ctkp%3ABFBMuv3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900045665859",
+      "product_id": "900045665859",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "10% off 3+ with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/lr0AAeSw8bFq4QuN/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Men XL Blue Heathered Full Zip Fleece Jacket 25543",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/168826666511?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTCWGMRZHTN3TPK8XM2&hash=item274eda7e0f%3Ag%3AHYMAAeSwPhxq5JX%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BeBX0dHUIfirXScHEMDeyrAj0GPudz77iFu%2B3t%2BN2jDhFAhv0%2FmJ6NDFgmHOtcHcsLCDGxmH0%2B%2FdC%2BW%2BKfF4b29zFDELTVe5TypA0yYWU4iRA7ysescYC3lUKzE5oVWMtemAEr6vlu0X75UwFJj3B%2B3BLyA%2BjtkTuy%2FVQF3upiekWBWT9yEZqF4OIV3bDrtoU4hDmk68PvygYIibzFqbS4YitwZReNK5KwqReJ8r%2Ba4ot97Hn3YNbA3N8kzZX%2Fjs9KlZUqJ5bY1n5QKvbz%2B6p1Mj%2BLz%2FHWK4iVrlNk7fFEqFCXGBRgAslYdZ19b8TOOac%3D%7Ctkp%3ABFBMuv3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168826666511",
+      "product_id": "168826666511",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.42",
+        "extracted": 45.42
+      },
+      "old_price": {
+        "raw": "$90.84",
+        "extracted": 90.84,
+        "discount": "$45.42"
+      },
+      "shipping": {
+        "raw": "+$8.70 delivery",
+        "extracted": 8.7
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/HYMAAeSwPhxq5JX~/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Men's M Gray Full Zip Fleece Vest Zipped Pockets",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/198760467539?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTCCR1Z67SFJ8ZCCEDQ&hash=item2e470c0c53%3Ag%3AhUwAAeSwkAlq5jiN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8o7mR15RVf6aHrpM3L%2BlLgOHcu4HIWWCu0%2FBbMimdxIRtHR7alNwrUXtDffgiy4QlO%2FSuZ5ZZ7R2PaWbczFo%2BAoVPDxhYWQlsVl%2FMJgOHok6fIPKhYNqCNhaSVcqbW%2B6ukuu4eVTemqYdZclvsCVESmxuqqdFsh%2BeJtehSaSrkxNRQ1yWEaGTWfVA5uiNbq3MK1CDeXl%2FCzbLZPLCZSyKeZr0VqJPSH1cv46HcCypwUj%2BIOg2WGKZljpBmLM5%2F5ZhoxAF9PRDb3eHkPAz02Zg7iljyXZhxMtZrwMiqNOABzIrUlMVHwmfUxXyVSyqgodA%3D%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198760467539",
+      "product_id": "198760467539",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$6.36 delivery",
+        "extracted": 6.36
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/hUwAAeSwkAlq5jiN/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater - Men's Medium Tan/Gray Quarter Zip Long Sleeve Fleece",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/267829416380?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTCQ8MQNSZ7YASC3G6H&hash=item3e5be091bc%3Ag%3A5c4AAeSwIcFq5qjL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9uTuSsTfQkjIcNk9PEqMvdx0fQGv0ySF1hawj9GLAxdINyMY19ozoaHlDIKysDNyqixkbfNGOQ6Z8R2mK34jIQjz93EkaVzwfM0ccPbki9rqPkZXUHhkh7xjz93lNFYYabNMhnEj0NSlH3XOli7IU6y07ByW1hvZ%2B4IscWCODS5H3G92IOSv%2BJR78nmNU3obEmNHNsF24WPfsYx%2B%2BiN0FyeeFDGmDIK7ES9yC2bwWvGXQhr3HU%2BuR93u%2FLyCvC1JJoCjWP6povC5solx8dSs9Q7ihA%2FzvCQQGJeU14ApU%2BiDk90FtqJkSn%2Fo%2FbpJeAekY%3D%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829416380",
+      "product_id": "267829416380",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$10.00 delivery",
+        "extracted": 10.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/5c4AAeSwIcFq5qjL/s-l500.webp"
+    },
+    {
+      "title": "\u2728 Patagonia Men\u2019s Better Green Sweater 1/4 Zip Fleece Pullover \u2728 L",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/820297412079?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTD7Z0RBSHV8BJTDAGG&hash=itembefd892def%3Ag%3AmE0AAeSwVVBq5P1R&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9KA2iPzpZ1ZZokiZcsdWenqim3UE6prJac%2FtJ5wtYMKz4SJrZ0%2BlTa29OwD%2Fy8Jkyif5ivIhxQ71%2FCQZL6OwJSwdDek6mA7fEYLnedIONbentGBO76fed%2BmuhaumS5YsrdYQtnOlSGaBpmmOuasS47eY7e3nxCOwVpCtjQPozjTK7aeO%2BOddODiW2HXWGPffRSej0l2vfAHPqXsTf0KHEXlBxD8HuMnI5pOdmbZI%2Fs7hUvzgXZQFj1ZlZ6A3MnHD%2FzAk1RU5oJ6fBHKQ1PLx%2BUPQ%2B3HC11h3a4OOw2BVtESkGuiJ8HIH7WrRpg%2BWrbo1I%3D%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820297412079",
+      "product_id": "820297412079",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.00",
+        "extracted": 28.0
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/mE0AAeSwVVBq5P1R/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Jacket SZ Medium Gray Full Zip Fleece Sweater Knit READ",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/227583922284?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTDZJDSBBY0H9HF9D0F&hash=item34fd0f106c%3Ag%3A4boAAeSwwyhqoZW-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FkXEdhHjheYFsnNnT019p0F8ck9ReoGbOL%2Bd8UGG3onf8ne0AQuApFC9R5b7WhBKqW6Ziox6js6%2FYCaRyFaAwsaKpNb8ZGfbtRha%2Fsz9Jn2Ohzv5PtFK38X9OA%2F5s3M7mBrTLX4mpgp8SkosQJh0ZGPT1QAuYD9wU5x5CQ3C3Ek18nE%2F8EjMKOpg6V9EAc8HsA0KgqQNFx1SSgHMWqVhzgiub4ZgUV%2BP0p2hs2c8OQJ%2BHvJm2vCxz1cqvUm8o3f0BVSTS9WnsPUCHk0rjBSzMq%7Ctkp%3ABk9SR7r91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227583922284",
+      "product_id": "227583922284",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$37.63",
+        "extracted": 37.63
+      },
+      "shipping": {
+        "raw": "+$8.00 delivery",
+        "extracted": 8.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/4boAAeSwwyhqoZW-/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Fleece Full Zip Jacket Mens Size Medium Gray Logo 25527",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/287695213991?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTD648ARM2ZSBFN0Q9R&hash=item42fbf895a7%3Ag%3AL8MAAeSwcnBq5mSc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVmxd7S17bvruhmOqee86LFsSkT4bJqYcKZru%2BbSGAD89mv4VEZQEmD6ZjASxmtyG5K49QJd2hknaxVohDJnreVvrBXf5vUShvjU7qhK%2FJFpslMzL9AaokBZ5loSlYI1ECzZ13fhUPNv4o6XSsRq0xlqpwlafwjQkUvxEgYZSQ7ShR%2F3JXKDMPvTcyVuvOahrXRIQFB2VAaHMtOiTJiNyG19Th3FjhRLArjSS%2BSKkGdmfdZ4hvkOqqKufI8IVM3OpsFrzCZy%2B4s7QO63QuxjGTbYgkeJok5WRhjtJaY8FgXbi1iwijJWkl48UbJ5jHigs%3D%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287695213991",
+      "product_id": "287695213991",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.88",
+        "extracted": 34.88
+      },
+      "shipping": {
+        "raw": "+$8.80 delivery",
+        "extracted": 8.8
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/L8MAAeSwcnBq5mSc/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Jacket Mens Size L Black Better Sweater Full Zip Fleece AlphaSights",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/920086451951?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTD9036M59CMX25DG79&hash=itemd6396d16ef%3Ag%3ABbwAAeSw919q5App&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hxpCBTT0n%2FZRY3Dz07ZeGjVuPA24DkDkjFYa0rdJDPY3iKBA0NYmc%2FTVDdy7GaEgRpdAIcTuu6UMbKvrdZqf2JGVgxChgymONi0UobG0%2Bozv5ynJsxazIZrDvzt5W8wl%2B073Q2P8JwlpJrlUAeU01Dy1J6jXbAe6cjyJdzEe1iUq%2BaYMvkgaGSIS7OYaryeal3eoruUmNW39xBbiLSGM3zHm6e6qDmKQh0PDs2%2Fv6SOlK%2FjbzR%2FY5xfOpOVT4Ak1Ha5TVT9onSO%2B8fjeFE9uBebnmHLWbkRXASzsgMxU3RewCTLx840FQeoRS9wYKnFQ%3D%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920086451951",
+      "product_id": "920086451951",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$7.99 delivery",
+        "extracted": 7.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/BbwAAeSw919q5App/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Men's Fleece Jacket Full Zip Size S Black",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/366767459072?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTDRT84KYPH30DPHMCT&hash=item55650b4b00%3Ag%3A0a8AAeSwm6lq4mHg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hRRrNy9ZlRZBo5sNfFfWpQabi6uRgbXazh%2FiqkZufIeQN9bN7i8DSeMOPdgoB%2BWBH4nlQNfk6flUzC64UhiS5%2BHd8fbPTR9KNWIuijbCHQWNlwRVGYGGk%2BIPPJ1UoeEHtz0jXIVC%2Bzi7JlEZTeRbK5uFEHO%2BvUDk7M3QMOb%2B7fTDeB2pIrt%2F%2BhGzb4QhKCK8%2F14ukf8e9tks1ZyX09K1OHwAZUj1fjCaGWROadKQHOAIZEQaidLwn1q4udyULsxczFQo4BQVstsaMQ77Dlspnc7fbk9vgUIJH8pv8CJ98AzIEKsGdibBWyVOBDsAxUII%3D%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366767459072",
+      "product_id": "366767459072",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$24.00",
+        "extracted": 24.0
+      },
+      "shipping": {
+        "raw": "+$9.66 delivery",
+        "extracted": 9.66
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/0a8AAeSwm6lq4mHg/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Jacket Mens Large L Black 25523",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/900043528251?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTDG21GPHGQJ02FCCQN&hash=itemd18ec6583b%3Ag%3ARzgAAeSwIvJq4ArB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9pwgD6Zs4azvNJKdOA6ma11IDCZ08ITVVvNuelka8skPNwuaChkNPaRZI4afOU3ExYVXVM5TnzlyO7io2goqhFCUf7s5fBxaTyy6s%2Bph9I%2F7qt5FtCSWaSQYaf7Vw97mHUNPRmCFdmS00MjiinAgZGjyqod6B3OBy5kGN4sS9pKtIijNJyOlfC4tWRWcKYtUGgLNQYKdnx3iuJ3Tf5QVsNJZJRg3XtVQiEiQoJ4HgXCaleZ9%2F9JX98FNV8a1oaalSkbelFWCPasiOpD96TVVtansJbJbLfJCNFalkqOYH0pVQRycAaSiBI5NHu1l4hPOo%3D%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900043528251",
+      "product_id": "900043528251",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$46.80",
+        "extracted": 46.8
+      },
+      "old_price": {
+        "raw": "$52.00",
+        "extracted": 52.0,
+        "discount": "$46.80"
+      },
+      "shipping": {
+        "raw": "+$7.99 delivery",
+        "extracted": 7.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/RzgAAeSwIvJq4ArB/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Men's L Black Full-Zip Fleece Vest 25882 Outdoor",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/820300084313?_skw=Patagonia+Better+Sweater+fleece&epid=16035247885&itmmeta=01M6AVNQTEWMJ0BAB98EV2DVJ5&hash=itembefdb1f459%3Ag%3A%7EaIAAeSwondq5gOw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BJfB27iObsf7%2Fv9R9Gc%2FXjjPWu4BZy0EkeHgWlPCCobNYNqPTc7vq9RYhbBROy2uOsB9bPp6vBxiK0Aj6YypD779M%2Fx0TI%2BpxJ30inQmxO3muOOUX9o99L4Gv9N5r2npy88AtXDxoQcFFUZmEqUVOZPpiDKZ6kjpn9N4ePoS67qFYgfvnGu%2F49K98JCZ86kMuc2w48QGF4uHVkJpX47hMSjWcRiBQueXP36CljY2KZktJqUBrmIrRYYLBl7VzFiUtRLfJMHJuipbHhsNRGKkW4u6RNBoXCy3YsD%2Bu72njMUMs2JGg2Y5%2BPUwF--qLKEdE%3D%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820300084313",
+      "product_id": "820300084313",
+      "epid": "16035247885",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": {
+        "raw": "$37.95",
+        "extracted": 37.95
+      },
+      "shipping": {
+        "raw": "+$6.83 delivery",
+        "extracted": 6.83
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/~aIAAeSwondq5gOw/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Fleece Lined Mens Large Gray Heathered 1/4 Zip",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/366774020218?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTEJ1QH0C0A5PR1NQN4&hash=item55656f687a%3Ag%3APecAAeSwjtlq5hkc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FZdZ5ybmKcXDSYO8%2F%2BnoWBNP7XR70gDGxf4dqGacrhkR3%2BECCw%2B6pMbnR6V8AwGxuw4n5SZiIXU%2BZiG7KqwhAocDAM9G21%2B12oA7Ns5%2BGJ%2BJ6g%2BZMPNGu4R4Y8jrdwjPrHgKn%2F%2BQH023%2BJC4uj8vcrJycWDOSMq6ecRs9zkoCBM%2BpYV4uob4k2XinzAjOGOXqvK5MSglEhmoYFCYKwknog%2BvwdrwTzrZCIjg10YJ79YOWGxfcx12JNGxDA0Eak9EomQbUAK%2FfzFtDqcOW1ok3%2F8CbPXEU2Tkg2b5IBkMb%2FxDsp71KHOHVt59ea%2Bi%2Bzl2Y%3D%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366774020218",
+      "product_id": "366774020218",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$28.88",
+        "extracted": 28.88
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/PecAAeSwjtlq5hkc/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater 1/4 Zip Pullover Mens Medium Olive Green Fleece 25527",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/860095608371?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTECS7J6QH5CPWG62M5&hash=itemc841b17633%3Ag%3AV3gAAeSwncVq45kp&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8PBiEyQ7FVJhjp934mlRhIAXAH039TZtb5jHo6CG6z7toRFlCyDdSOURVeHnXxWlSKJ6pnDeH4rjhsKS9INjHleZRF15B7Y24wSr1htXj09Bf6Tp1Vfd4RLHX0l0I%2FHew9Eb0YOjXqDlldYUyOKMUHEYzRuj4IwkzHcoAjBFj2V6I8q8FrdemFH8KFmb623be37waBcy71b%2FtjvXCW3Sc9t3disWYTD7y3EWtcnJZH4CcFK7XYzc4ihPIj5UIKEfupqlX9eWk%2BmCzy6TpJYZ%2Bz%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860095608371",
+      "product_id": "860095608371",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$44.95",
+        "extracted": 44.95
+      },
+      "shipping": {
+        "raw": "+$7.99 delivery in 2-4 days",
+        "extracted": 7.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/V3gAAeSwncVq45kp/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Hybrid 1/4 Zip Fleece Pullover Mens Medium Grey Blue",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/860083753565?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTEQKF5292BPJD3WWQR&hash=itemc840fc925d%3Ag%3AY80AAeSwaR9q3p5P&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FxAO2hDFUA9xOEtcSUKpz200PIgLgkK7kTcOpVVWpsFmWUTVaNGnE4zgaQ30i%2BUszKsflGSUOs4UrRCpUQ9hYfGVgHt8oHpVJcH4dSOqY8XwwJUHG1FaQFk7gqmqf1p3vQngUtnZZRykwCflckGpElL1%2FIYNDEcGcesc7FuXJGutdUZTXtqNuf3SKUvaQQKp%2B46MN5%2B8Gk3dVgO3yaZZW4c0bPCkAftWrc0ylxE4dpXTuPBJjrBWD%2B8uul1sfxdf4w8ZhxfPEFrzbE9oGVNy%2FG%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860083753565",
+      "product_id": "860083753565",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$25.00",
+        "extracted": 25.0
+      },
+      "shipping": {
+        "raw": "+$6.65 delivery",
+        "extracted": 6.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Y80AAeSwaR9q3p5P/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Full Zip Fleece Jacket Mens L Blue Warm Outdoor Coat",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/820301252600?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTEDS4RX0PA0C5NHX0G&hash=itembefdc3c7f8%3Ag%3AEdwAAeSwJuhq5oEY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FN3uA6Tf0ChpH4wzfvlm%2Fee7FOmwWh91hyfA3A3LxNLXwjEEhRu0bBtVIhA4fnJhUexYS0YthjX3FsdRjKewjcQE9kxQkJm6hmo%2F56dZ2plXF9fsqQZFrMWjyQw6uWZvT%2BiTK2uCNR9e%2BC0qNscPW9Y94KaxkmT1CKhOr6bNL5gTUhGP8SmMdLGH%2F4emm0dDYMEOVZfVyC%2BdTLWGTUr9pTuCrH1%2Bj5Nm38R8SqEJDPGHnOC3uuCIQ7jN2FjwdhGn29y5k4R7QUj1d5onFma4fizCbS7anc8z6djyn%2B5CxkXzM9nNasIgNgwG9mNTjPjhs%3D%7Ctkp%3ABFBMvP3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820301252600",
+      "product_id": "820301252600",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$37.99",
+        "extracted": 37.99
+      },
+      "shipping": {
+        "raw": "+$8.27 delivery",
+        "extracted": 8.27
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$30.39 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/EdwAAeSwJuhq5oEY/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Quarter Zip Fleece Bleached Stone Pale Khaki Mens Small",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/128162652383?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTEYFNDVMD3600FWY61&hash=item1dd716e0df%3Ag%3A%7E2kAAeSw9%7Epq418U&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde99QBraqYrixfi1wWylMJM7m55i5%2BgiOxAXBPUBeHlCx2mumriSNww8wlFqeQv%2BoefLhxCrQAC1KgHTAIfONgs%2B1ElRqE2fnCF7tLXL19LMVBkkG6LH05IeOeQ5z7iKKAjuyC6qr7IF9N4j7--dpo0ZL6AMBAi7bBIaDb%2BsgoCyQFK8LdpzWkshbE1TQizQW%2B3I3pQ3LKYzM7RrL9Q0pE2ySmYI654cgT03LLEl2R%2BZfSHcOWgAWItEBpyl61cWyN%2FLGGNW2RZ%2BjwVmFZP4jAYWYyzEbMxUg2buGjCtZtYZ4Y2ttP7HH%2BvUvNlK%2FOtXkUU%3D%7Ctkp%3ABFBMvP3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128162652383",
+      "product_id": "128162652383",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$22.00",
+        "extracted": 22.0
+      },
+      "shipping": {
+        "raw": "+$7.75 delivery",
+        "extracted": 7.75
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/~2kAAeSw9~pq418U/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Mens Size Large Brown 1/4 Zip Fleece Pullover 25522",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/940046643853?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTFYQFFB89SJHZ43XR3&hash=itemdadf25728d%3Ag%3Af7sAAeSwiMFq4TWQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BOPVotbwFfRqOUpenp2HO4ajKmHsDzH2ezbO0z%2Brvz%2B1PeCbXKuy94zF003ZLanta%2BdrR1Des7%2Bbuah2kWPh7J%2Bo9GTbFdVKJY4b9SkqhNzRp%2F4pcQh0fVmUPUWrLk9wJUiGK8%2BhOVXNO8UkSBbNUD7A5RK%2BGq1Oda%2BHosL2CUXx2QlXFgK9RKUIl9YpspBB9%2B1PSXjy4S21G58cwfKS4IsxMlia031OgSopqa5D7h%2F5i0%2Fm9QmzTy69zW8Vl87Du%2BJzRqL4rGc6ndMIW11LpOfZwqzzUm180GFjQE64LO1ldSF5sCiDd%2BsXwLKR8%2BnkM%3D%7Ctkp%3ABFBMvP3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940046643853",
+      "product_id": "940046643853",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$49.99",
+        "extracted": 49.99
+      },
+      "shipping": {
+        "raw": "+$6.65 delivery in 2-4 days",
+        "extracted": 6.65
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$42.49 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/f7sAAeSwiMFq4TWQ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Mens Large Gray 1/4 Zip Fleece Pullover Jacket 25522",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/920072360247?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTFV1VB56QHEMGXE2GY&hash=itemd638961137%3Ag%3AvooAAeSwAGlqtfIw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BOquq9AkSo1u1cz%2B9G8aYQ1lTma%2Bx61Fu4M2iU6r0PaJlBWRLw%2BLPszcaMZH68bkSVSd%2B57fu4PfswzARISlw0eFTQVuugws4Xkl5tptyc7cdGXXAyPYu6TBDxTzRkaflTS8rojwpJkhMkRmlQ%2B3nnhz4p5B%2BUv9vgh9X1y2rDZ8KXsE2I0Wz6zmv9oRUv08tU%2B%2BuT7t9Vyx86sqWPY%2FXc29oYBGw%2FWXACQG13RWBAmxx8Tg3ptBJ%2BiSCwFZb1wPDUgMDcy75XZdRSf3HGz6hoi6Ee9POqw4Afu%2F820kR7VXkAILLpSC0bUupZTCLR7k0%3D%7Ctkp%3ABFBMvP3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920072360247",
+      "product_id": "920072360247",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$34.16",
+        "extracted": 34.16
+      },
+      "old_price": {
+        "raw": "$37.95",
+        "extracted": 37.95,
+        "discount": "$34.16"
+      },
+      "shipping": {
+        "raw": "+$12.00 delivery",
+        "extracted": 12.0
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$27.33 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/vooAAeSwAGlqtfIw/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Mens M New Navy Blue Gorpcore",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/366770497642?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTFXWBAMMJ1YEV2QSKE&hash=item556539a86a%3Ag%3AaTgAAeSwuhlq5CFy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F%2BmG0FcempT4wkIie3lQJT3gZ8rn8O7ii2GafMqAo5ftpelf3FdiWfIU0K1GRaTtez%2F3a34cROv%2BZmNbhOEy4bhdXzODiSCOVBpVskXlSYZaUZZ2qVtFoQ6XBRkxeQ2UKqwIbKmRtntjVvyLS5PO14rFhEsO%2FlBhjbcrV3H9H%2FJTuy941KUy7rCHX9rc4EzZwSvRi%2BhXKa3gs3WfmGYFZqMcp6uw95jsoSlv77RMLePCO%2FblURxHGmpEnv%2FOPhVIveGCrY0amIhoSlVi%2FhZBW53htZyPyv5ph6%2FmsbK%2BotFgtVqfdPccc8ThcZSnPHzQ4%3D%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366770497642",
+      "product_id": "366770497642",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$31.00",
+        "extracted": 31.0
+      },
+      "shipping": {
+        "raw": "+$6.65 delivery",
+        "extracted": 6.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/aTgAAeSwuhlq5CFy/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Full Zip Fleece Jacket Stonewash Grey Mens Large",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/366772295807?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTF7DYPVDPJRVC9SGMM&hash=item556555187f%3Ag%3AllwAAeSwcVRq5Q7s&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9pEgoHm7QgsRIqxgr518a6TJfGvWtAkwbq6WV2668s08hWa2YXqFNOT6kGORQ3O%2F2yh7B3cxBgGwCKyH4fNjqB67KWow48kZ5ZerdDg6YFACm%2BGk%2FdZMs79DmJhp%2BIImiZFau3XhvLNpOwLZC6TSd2pSYcR6SmTFemAmnskH%2F4zOi%2FjDC8wNhYcNV424sl65Hfjpmt5cup0acrqcGWQAm01rwjCPAonR5SQFmT28Gqs4Nb0m4Hp0NxqPjmoojLMSgEqxxcO%2BB41cGIAo%2FRmuYW%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366772295807",
+      "product_id": "366772295807",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$59.99",
+        "extracted": 59.99
+      },
+      "shipping": {
+        "raw": "+$6.49 delivery",
+        "extracted": 6.49
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/llwAAeSwcVRq5Q7s/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Quarter Zip Fleece Pullover Green Men\u2019s Size Large",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/117488995221?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTF8HCMKR8CFZ64837F&hash=item1b5ae3cb95%3Ag%3AnA8AAeSwO3Rq38qk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Qzy4nJ%2FczWATQn9W2KU6OdPBAlukMi9DyKC8sVZMUGs%2BsRK6yl0CZXBeJTVMSPO%2FrqBBzEWTYD8DgtI%2FUJR1WAm%2FAjRUdZQwQubdRl6P0TvRhYX5eMFUbKtRm%2BaBqDG68uth9ASTDLcTkLgQSISxrGjZgW5ilRM%2FrEg8oqIQxsJf6d%2BEG7WIALhUvNER8ew1V2A7A%2BK3Rm59huYGSXFGn8J6xsQ6DNLW9FrblCo1G02KDu07d4GoH1a4f5bouSD188w3ijswYldRJbnhNhFNa%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117488995221",
+      "product_id": "117488995221",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$53.99",
+        "extracted": 53.99
+      },
+      "old_price": {
+        "raw": "$59.99",
+        "extracted": 59.99,
+        "discount": "$53.99"
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/nA8AAeSwO3Rq38qk/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Jacket Mens L Brown Full Zip Fleece FA12",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/198744964245?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTGJ0BKA8AXGZ687HWG&hash=item2e461f7c95%3Ag%3AM60AAeSwo25q3kEK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BunzFLq3fA3c6Q4NZJe0eKX5LjGg%2FqTmZgjP1sC0o7WhZYYbEwNmKPhdpAs6GnlHPeXpgx2SkrIjkdVZr43WKCr5obunILrceq4RmiMDQE3DFoQaJnsaOSTVw2K9z8CMLBfHELrfkUbXIbVmVaCV7XyVMMnUYa2cqujUUka9d8MUdOqIgpLf8B2wF8foydCZp--IHlXe8lkcocQETKyTPkXmEr%2B9AbtFs9XUzkjttjD41d8nQeDOdJfpTSnH1g6bz0kgyO8O6%2BIZj%2BZ0lhfyuDYnXcg%2FGQr77myjpiEbkJbmGAtGq5n5iPstUGZc8%2Bzuc%3D%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198744964245",
+      "product_id": "198744964245",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$42.08",
+        "extracted": 42.08
+      },
+      "old_price": {
+        "raw": "$49.50",
+        "extracted": 49.5,
+        "discount": "$42.08"
+      },
+      "shipping": {
+        "raw": "+$6.62 delivery",
+        "extracted": 6.62
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/M60AAeSwo25q3kEK/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Jacket Men's Size M Better Sweater Fleece Gray 25527 SP18 zip pockets",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/840066808731?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTG41R64BDC59KF4WNN&hash=itemc397e23b9b%3Ag%3AlGMAAeSwCYhq4TD-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8jRF%2BDCDT8Et51gBo2ptSFab45Z5UpaFAmX3TQ0pidqNqZEBQuWfa%2BapNX3o8IgtmafBwYwngJ5n1I%2FChv6MGYGqBhfu5pCZ5qtAihlVev%2BMaea79Ir4bkeMjikUYxIA8NtdXGRD5JVnGFGNW6%2BZM0pfey48iOnILA5LX65tPmhiVq%2Ft1xBPRUAumgEjva9bun1WIQLtcOhcToWjaSdCIQPgsLy0oNdcltVUGyMa8YMknqRz4TZW%2F1uiHrxJeFaFV13QPITyt4QkRDK5KRm93j%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840066808731",
+      "product_id": "840066808731",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$22.00",
+        "extracted": 22.0
+      },
+      "shipping": {
+        "raw": "+$8.50 delivery",
+        "extracted": 8.5
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/lGMAAeSwCYhq4TD-/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Men's Better Sweater Quarter Zip Fleece Size Medium",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/117490058447?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTGQEXYG63NYNZ47PEF&hash=item1b5af404cf%3Ag%3AdOQAAeSwAD5q4KKe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8e9r22dBu%2B8tGMZpUovU3dSrkf7XGMtYXXFg5LDvK1gYDxbIooRrHKtQUk95SM3hId9vThe8QG31RBVRt68b0DzNATGaU%2BzTNKfaNcqgCbPCdtH8Tt1P%2FkvsiqxF%2FCCxGCbSbAkBwo62ApLpPGEwwLiSXHnIvGhIoMeROLvLyWvoS03feaubbJ%2FbB4OXoSPngGv2V5OrswhYtI4FGQDpe28%2B6AoYL12pQXS0TM2pjE7e8O3XLv4AQyFwZAAAXXzkkBCcNznLoEyngymRzmODS1%7Ctkp%3ABk9SR7z91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117490058447",
+      "product_id": "117490058447",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$32.00",
+        "extracted": 32.0
+      },
+      "shipping": {
+        "raw": "+$8.38 delivery",
+        "extracted": 8.38
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/dOQAAeSwAD5q4KKe/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Mens Large Stonewash Gray",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/168829228120?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTGTK4PKZDY33XZQCEV&hash=item274f019458%3Ag%3A%7E0MAAeSwqR5q5k46&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F515lvoyo2SKviyayHR41O7F4W7tYV%2BemToe0suOMrpea2Hn21tS%2FTaLM2ilXe%2Fr1LXYfnBwUpGWKMZVYr7jZ%2FOexeIX2z0Ju%2B%2BYynUbVZ5HXH%2BxEX2qyFY1J9GyfrUnzqtw9iTZRWaKDUKiOWghwF5wmjAjWAdBioBEyKN0zPnSZVt8rTjASrWWF0LW9jsziZp9LDDr%2F143AKyFQtsrOmAwmq7VLmsnj%2FqVYE0WkKlLjoKz4hIuXPaioaxaiA458o25NdWkZ0%2B6UU2KgN8if83nFQRVdW2CEB7wdPWAuN0VqZjGizxiRorQGLqI2fyAw%3D%7Ctkp%3ABFBMvv3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168829228120",
+      "product_id": "168829228120",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$49.99",
+        "extracted": 49.99
+      },
+      "shipping": {
+        "raw": "+$8.17 delivery",
+        "extracted": 8.17
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/~0MAAeSwqR5q5k46/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Jacket M Grey Full Zip Fleece 25528 Gorpcore",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/227590275689?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTG2MQM3DGYDCXF9VNW&hash=item34fd700269%3Ag%3AeYcAAeSwIaJq5Mpf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FZdM%2BAGmHxPycYW7KzjNQGmEI75zrxa%2FSfmQG0YGJ12HeJ8FOzVOq%2Fesq81Y9%2BoB3yCHXpxfxeTvXoX5xOl6RJ3uhxnWQqH1A%2FNl3bzrLfooa%2ByAe8XwkcSvrf4W5gRzjHZyMY9nEv3gWzXWzGDZnJYI1%2FUYe2me0ZT%2Fcz9Cxitam1hqeQpMjBl1icaRUMg8xnXVuxzLdYpudI3R5jaKe%2BboUGN7Yuwuon23AwIg3AK37gUcVXv9MBL3%2FIds42674H0r%2FtuW7Iw3wjNeRC1YTA%2B%2Bjv0JHdOCvKP83DWuXUz1NHiJfAuPWj4O43ngpCJT0%3D%7Ctkp%3ABFBMvv3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227590275689",
+      "product_id": "227590275689",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$82.00",
+        "extracted": 82.0
+      },
+      "shipping": {
+        "raw": "+$8.00 delivery",
+        "extracted": 8.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/eYcAAeSwIaJq5Mpf/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Men's XL 1/4 Zip Fleece Pullover Chocolate Brown FA16",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/960139425512?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTGTJWMNGQZMEJS861S&hash=itemdf8cc4f6e8%3Ag%3AvocAAeSwpPRq5sd4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BYSZOEqqb5Cukw%2FeGyW1aG2ZeGRrWpkNc14fnqd85%2Bdl%2FX%2BTTC9Jwi1NjyBqmSOo4FhBOvDKR7JEGGvDVyQv7hhWX0BYLZCq7%2B3qFiOAmW5u5DapcBA64BxZqx9FPcv5cxRb0OVanNBKiwflHVLabqq1TM%2FdtocmeDVgHGu6B8dCpdR0W4J%2Bj7nfVC3CUK9cTVhRDzKR32KEWorWgvSLOYi%2Bhi%2Bgl2If32QhDq66Bz9HEKLofU7e7SWVQISf%2BNboJUoABis5xhXsDslHd2kEFhbwO%2Bq9yWrsSVngY0aL3HV5eSjweGkJ2Gk%2FF%2F0FZJOzE%3D%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960139425512",
+      "product_id": "960139425512",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$49.99",
+        "extracted": 49.99
+      },
+      "shipping": {
+        "raw": "+$7.95 delivery",
+        "extracted": 7.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/vocAAeSwpPRq5sd4/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Full-Zip Fleece Jacket w/ Pockets Unisex XS Gray",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/407329633880?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTHGMVVM4DM8RMGABRT&hash=item5ed6bcf658%3Ag%3AfDgAAeSw54Vq5jrn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BzeX9D2%2BgcKgPJ68pVXvL7bB4ttE8N7ypnelQwBXu3eSkNewihBU1l6hejhFNTfIN2rRpasYZAf7FAcT4XpIN2%2BRhNo9OYKVmRdpcY3sQmBjzOmTZGicwnB5LOLPM9byX%2F1keq62wGxMXpStuRCo4Q4JWlea4RNxX4PBSfW8qN2az3XfrSurmoISzWed%2Bp8dI9rsOIDeZBZgcNMd11MXswj%2BQliAzNlh5MbrJmcgGnDhnC%2FhNPsKoL%2Bz1k4RetVLPQ%2FJjXtD5dIyOFYCc6KjZFI8nL1YOWo%2BMuw4Vus0MKpE%2FK%2F4BcZHoE%2FsR8dcOIRwM%3D%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407329633880",
+      "product_id": "407329633880",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$20.00",
+        "extracted": 20.0
+      },
+      "shipping": {
+        "raw": "+$6.65 delivery",
+        "extracted": 6.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/fDgAAeSw54Vq5jrn/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Mens M Full Zip Fleece Jacket Navy Blue Knit 25527",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/227591544701?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTHQYXACVYZH7ZC5WRT&hash=item34fd835f7d%3Ag%3A9TAAAeSw4bRq5iZK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2FSqdpxSXfB636vjFkIG50pVpveoEVh5aKJ%2FbcXPfddg8%2F77ZzC3WK82t%2BySm8SH%2FonWyffIud%2BuFtvqveJRhR48gCwqebxZWC9ZnptsTC4IGld5n%2BBfZHzgUnJeaMZley8qzt44xZwnUPj3d7ZCKxltPknAqk38OXAUsW2cURtxfQWTUqwyaxb4mnkVrYXYkcDL6Lupji3M9uvYriT76fSBbXWX09S92Ru62TMa%2Bsz0PcvzC5BK1%2BaMRM4Tnxk7jHNNXOLoci8xQz8Gmww2up%2BIIPox54tvnaj9pLLp8ukp57eOfraFQXCziq5DWC3Qo%3D%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227591544701",
+      "product_id": "227591544701",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": {
+        "raw": "+$6.92 delivery",
+        "extracted": 6.92
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/9TAAAeSw4bRq5iZK/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Mens Better Sweater Full Zip Grey Stonewash Fleece Jacket Size L",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/900054673428?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTHSF9TJKBK6H8XFEK0&hash=itemd18f706814%3Ag%3A4YAAAeSwSMRq5k3p&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9DMBpCUqInKtPe%2BceBUyaBTSzlEdM5HK98%2Bas9BIRlldYt6VagN9Wu5puahxjXNf1cl1cBObL26I%2FF96xdGLnN2wPkMqMGt0CkKvazHpYPdHom50CTFMjLzWsKPenXuFcfjqN%2BSbL%2BzhLdbu%2FyKO8wm4kNU7Csv42psDPS3FSDrtY3x%2FA3Cec%2FAMBdhXrnHGXYXnDLSQJCzWViBpM5YZdlBEOKxkATKQUoTHQfxNFxWZNJG1XiRtFat8JD38peYHWO3PUuClH%2BkGMBRuwidAcD%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900054673428",
+      "product_id": "900054673428",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$84.00",
+        "extracted": 84.0
+      },
+      "shipping": {
+        "raw": "+$9.28 delivery",
+        "extracted": 9.28
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/4YAAAeSwSMRq5k3p/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Fleece 1/4 Zip Pullover Men\u2019s Size Medium Dark Gray",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/336827947030?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTH3H8EABS82NBQSNCG&hash=item4e6c829816%3Ag%3AlugAAeSw-CpqvZnt&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BUn3tprZaDv6L7B0BCAUbxcVa07auPJMXKzY7OPZ1yz9odPc%2BLVRKDZXIBVCv3pjNWuaRU8jgSJvn9a06O3RXL3C3D130Z343yXYQnBllyTQZjxmE60sdJrMY5wo5X5oPJaCo2LmquaK7AbcnubPUvW4%2F1p3HR%2FlDPx5yaC6mQcQlzHeX5wLbXCYtrzw3xF%2FgpwDvIbd9m5VJ60P1Mbcop%2FYC%2BvX0DP34PRBHHnqOCl49SlkJYKGyXs34gkNPHk4ZXVbHKzDKTSZxlLgEAHkNO%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336827947030",
+      "product_id": "336827947030",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$9.00 delivery",
+        "extracted": 9.0
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/lugAAeSw-CpqvZnt/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Fleece Jacket Men's M Black Full Zip Stand Collar",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/900029375875?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTHPGPX4RE2HWKC6ENZ&hash=itemd18dee6583%3Ag%3ANHEAAeSwWBlq2GzA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BdGc8EMGxFoFjggiFDi8DeBf7T7zWIE76lQwqZXmByP6WDIJhJWNM%2Bz7deQXMM5UP2xpeMZX%2B8SrmC0xNc285UCwVpib%2B66N5xk9XvBXkIKYSFSDPOZDpkW2xZrBKSI0nt0NP3amem7Y6WRqXmHpamL%2B2Pwe1qV2apfyJ%2FvuwdivPl13wnlmHzexofx5DLtobpAZ7ILPI%2FcZLsgDbqIFuF0I44VTwiIxkjCJWDMydR1vL%2B9%2FFXgRCm3r4XeK%2FM7n9H3eR6zVEKWQW0cYBzKSWB0AAeBws9TPZ30eOSHzUngMiakqocS3h%2FzstOAkyhGx0%3D%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900029375875",
+      "product_id": "900029375875",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.99",
+        "extracted": 45.99
+      },
+      "shipping": {
+        "raw": "+$7.74 delivery in 2-4 days",
+        "extracted": 7.74
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$39.09 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/NHEAAeSwWBlq2GzA/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater 1/4 Zip Black XL",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/920082013409?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTJ8AN55WRK1XDDYT2D&hash=itemd639295ce1%3Ag%3AvrEAAeSwnZFq4d-f&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bg%2Bl8sFhT1cT6iHlTOch3OkyweFnl8IpAZEU451JSKvMS%2BAUgnHzTb4CGfef%2F8j9ihoy1KWiLj55TbRMcbIBKd45XRpaX1dDEWHlpxZEVaUzC3M2sewPfvIRz7i32xdhJ%2BDFWrOdEfUfeGKAwqifM8R3leoU9sNErsBVYCysi%2FMe5S2rXI1LsO%2FxVULailuDntfj%2FG8LC7pAfe3Xw3xQGMTWCvUcEVOuZEhpxCpLpIltbzTdENhTwg6qyQzj7ErBFJyyvtexZUVaMlCJ6AiZiU%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920082013409",
+      "product_id": "920082013409",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$45.00",
+        "extracted": 45.0
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/vrEAAeSwnZFq4d-f/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Mens Medium Gray 1/4 Quarter Zip Pullover Fleece",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/287690753091?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTJ2WX2FNX3YFYSH6Y8&hash=item42fbb48443%3Ag%3AAp4AAeSw9Yxq49TM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F76SGzKUJQH4FYjCrj67ZXqR%2FF2p9m3gX6C0znccgRLPn%2BEKIDuoddmwZLnTmruoWqgeg6xxgGIYttn1cZWcj3%2FOAJPRNdYs8YLsy1Ms%2FJo6X4aRjS2tV3Lzmu2FABSray97GzQVToimnJ%2FIwez0CziPgxFM8oDdTu0wdrUoSDPu2Xh3v9lrGrRewGbbMB2GCkNxD4gpsonau1Agsv6W3h8GYJDBH5VxZ8Zh3oO1J6w9GWWQ8Xh%2BlPH4MrLdtV6Ff8DCnnOF%2BItEFlXhOklmZJ%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287690753091",
+      "product_id": "287690753091",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$29.99",
+        "extracted": 29.99
+      },
+      "shipping": {
+        "raw": "+$6.99 delivery",
+        "extracted": 6.99
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Ap4AAeSw9Yxq49TM/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Men's Fleece Vest Full Zip Zipped Pockets M Gray",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/920082542618?_skw=Patagonia+Better+Sweater+fleece&epid=4048490303&itmmeta=01M6AVNQTJVE75131BK1CBHY3Z&hash=itemd63931701a%3Ag%3AbqcAAeSwnv5q4i5r&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bv9Q%2BjfB3g9VR%2B9iijV%2FNP0tX9qHte6Vw%2FGfW3Pt%2FQNgAqIb%2Bsg9bY3Pkcc%2FZ5THb6mNA7seWEShKxk56lspS%2Bax%2BpFNyc0fLth9FiKlN7JxLAmZ3E54NYzX3XZUNccs%2FN0yxF0D7dAHb3b9BHDJE0IMGEtCKA%2BKRwO5pZL2GqJKyvFnqQDnlJMJnwZDJPsOq68kcjH4WCLxgtDinwOGrZzr9scid8Y3d4ohOrD7kH2luprQpvDuZjNzN%2Fi4x1tneALFcaol2cRHy6Pr4H0hS19RrWMztzmwyABYcKYB%2BChttbAlTa0Foq5cLJvbyOHgA%3D%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920082542618",
+      "product_id": "920082542618",
+      "epid": "4048490303",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 1,
+      "price": {
+        "raw": "$75.00",
+        "extracted": 75.0
+      },
+      "shipping": {
+        "raw": "+$6.71 delivery",
+        "extracted": 6.71
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/bqcAAeSwnv5q4i5r/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Pullover Brown Heather Men's Medium",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/820300895111?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTJP6BKNJVC8SXFKNQA&hash=itembefdbe5387%3Ag%3AH8sAAeSwWuJq5ltE&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FPqrNiF0yxCXxLSQ3jDNlUZXAODiykiwjU85jmWVUd71T18bXmiZfgBzSYFnPwDKfx3M2jO%2FyzBXffhp1a5bnbcUqQoC53Rnr7EKb8sjwUg1hDu1z37JLB%2BEIBo5pt3hAIFtmGH9UH%2BD8dxay1eh9AHOwJ7StezUbB2mHWmnKwpuYpMV%2FlrTiAcyleDTB5i%2FE3eoeSftf%2BX75r2lgYbt8%2BBeaspKlP2LS0R4e6s%2FzsxXKizs%2BaZfQ5JfshqG%2F5REP%2FjdP%2F0IBpjW6hSAbA6%2BzH%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820300895111",
+      "product_id": "820300895111",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$40.00",
+        "extracted": 40.0
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/H8sAAeSwWuJq5ltE/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater 1/4 zip Large Grey Green",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/307256091007?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTJ1ZWRJ4BXZ40797ZR&hash=item4789e3e17f%3Ag%3AH1QAAeSwi1tq48Dz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde99m61ZE1rKhqmqLa5%2BCr3hWBqqE%2BldWxk%2BMlZ8SJ7bNT4khD7O4SpvBtQ6ACegVdIB2Y4jnzkxT1%2FUq4RL%2FNIwHw3DuBkLnFu%2Fs1yM5gKNtWVf78Zz2WaLcluaWiv7aUj%2BUEdtLVJsq%2FNYr1QpT%2F4HIyLbjQfQeOWXwGNSR3RnvhUBkAkUDm5XPhConya9HsY46KhPJ0L0PJjHBwX0h9%2BYhLOu7aKAOtABL%2F%2BihtlgnR7DYJERWOmH6x5EuB%2FHvfWhls735WKWzM4rRLCk5Q7I%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307256091007",
+      "product_id": "307256091007",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "shipping": {
+        "raw": "+$12.00 delivery",
+        "extracted": 12.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/H1QAAeSwi1tq48Dz/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Women's Small Purple Full-Zip Fleece Jacket w/ Pockets",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/227589136193?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTJGVGXV4YX5CG750WF&hash=item34fd5e9f41%3Ag%3APvcAAeSw1nVq47fY&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde86k0zMtuVGINwgbJtnHc66rS69voMzI%2BAlpxucGop0M%2FlvoMU%2BdHP%2Ftj0xWv6osdV%2FMpjtrBIs6bmyFJCB1BQrIIcY7Wd%2FxqrCtBds2yogEOVH04%2BeohVkju10LuWKB3PcL%2BBg970kc28hi63jEuxbCW1Zocgnx%2FBVX3Kkr7xbEDejDK4n%2Fhw24VZu90iD%2Bz2dL2ap3fQMTZgLGjxe2M5OUf1L2KmGK3M%2ByMGz6K4s45rdQtixewro1B4L9reZ1yz5iMRDWkx1c2MN%2B4%2FMojRU%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227589136193",
+      "product_id": "227589136193",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$35.00",
+        "extracted": 35.0
+      },
+      "shipping": {
+        "raw": "+$6.36 delivery",
+        "extracted": 6.36
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/PvcAAeSw1nVq47fY/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater 1/4 Zip Fleece Jacket Men\u2019s Medium",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/287692135386?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTK3MWAC7YY417R5A32&hash=item42fbc99bda%3Ag%3ABiYAAeSwHF9q2Cjj&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BbPgnmMOx9XEqAjkTtmue1dG8l7%2FSsZmVBadOmIw6hOnX9Equb0ZQRyrc3WotJaL0CcklcvRxdgHXV8mbcQENHDnU%2FbIE0sOlwGxVB%2FMj6f8w%2Fz1MnQsMG8UvsorFtEwbW92SvTRCxHLdSp%2BEHNxNMyZav6iye9kIOwdMyppnKSs4djXuwiIFT1YUzCOyKsF834aEn8rOvbFAg%2BdfQRexWnf%2BniOWGVIEEgm32nOA0cemknfWxChBIZVRrQRBMX4roRbtOOX8gXJblDq35vUiQ%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287692135386",
+      "product_id": "287692135386",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$36.00",
+        "extracted": 36.0
+      },
+      "shipping": {
+        "raw": "+$9.00 delivery",
+        "extracted": 9.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/BiYAAeSwHF9q2Cjj/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Mens Fleece Better Sweater 1/4 Zip Pullover Black Medium 25523 Hiking",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/137890035455?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTKRS28ZMD5PA2S44F6&hash=item201ae2f6ff%3Ag%3Apq8AAeSw15dq5h2K&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8KMmjyTl97whk7karA%2FcA8sBnqLd7ZHdyk85fKcqrrDdY00z9yw8GOp7lF2mcw8tizg7PVtYhgyPfg4cqN%2FTQl1MCKHtDDJ%2F4lEvrOnS2Ytwkk8ZoYf3BlQ0HBU3fWtE%2FJ8zuNY0fwEwH%2B8BZYChBFWrPBloCA7%2BYrLpOFVVNLwEDBuiJkUTkY47rBCihz0Idda%2FOGmDuBH9jUc%2FvFvuvVc6h%2Bm6Ay1rco7QaQM1fFMJnyh4i1x5a6OvL1YhQr6aYZRJmXbWEvgkwHDpuMh%2BHu%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137890035455",
+      "product_id": "137890035455",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$38.38",
+        "extracted": 38.38
+      },
+      "old_price": {
+        "raw": "$47.98",
+        "extracted": 47.98,
+        "discount": "$38.38"
+      },
+      "shipping": {
+        "raw": "+$7.49 delivery",
+        "extracted": 7.49
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/pq8AAeSw15dq5h2K/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater 1/4 Zip Pullover Mens L Burnished Red",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/900054492516?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTK3TM3YC1ZB06KTVEJ&hash=itemd18f6da564%3Ag%3AkvsAAeSwGqJq5jZ8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8BBJQ9VzFeMX1%2Fh09Y839CN1b8Q3irVN%2B32WoqEtkjiYzPfVkBkPjKIwGX3xiHhdbGHbVNvWFyR8SnOomkIZfdi%2FZQkua4dQetDzHHAiyQmneOkGW%2FztEGeNjk%2FfR0qVPegrIqdNr9CSYarvDKw8emvmZsgIq18BVVR%2F2sV6IsMRaRNp8JEjB8rl1y407UXwIR6eOmZqn6bUtNDCM0pZ4Tyh9vmZ4Ti%2F89AQL90KMz7XWRB%2F8%2FS%2Bn8tVVaikWa0Jirqr4Ooo8OkFTUy8ZHhbh3%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900054492516",
+      "product_id": "900054492516",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$75.00",
+        "extracted": 75.0
+      },
+      "shipping": {
+        "raw": "+$6.19 delivery",
+        "extracted": 6.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/kvsAAeSwGqJq5jZ8/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Full Zip Jacket Men's Medium Blue Fleece 25528",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/940055489561?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTKXJ1BKFN3XGZ61DPS&hash=itemdadfac6c19%3Ag%3AbocAAeSwoMFq5lIo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9UdQfsJr86b59gv08OWMjf5fRlk0sN6BkC0QrOevWsETe%2BKCul0q58Y1fPzmdZtSvi5gX%2FdLU3F48lOZWDeglk1Ib4ovQsf09AsPy5i51GnPkcQtxZAt%2B4aJD0bHmph9GnomHUruZ4JQhj7zsv2lgzqXEyZqSyWHt7UgdU4uL9Z96qnHtcE4iOhaLpOkYSzJ8zFAhRqRvsfSWh%2BblLJtWtRRYXTN%2FLwZ2pNDBQhTOIr627Yohh6ll1g9FWK%2BAopvHL31payBmFNlSZtxoulY8D%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940055489561",
+      "product_id": "940055489561",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$39.99",
+        "extracted": 39.99
+      },
+      "shipping": {
+        "raw": "+$6.65 delivery in 2-4 days",
+        "extracted": 6.65
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "promotion": "$33.99 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/bocAAeSwoMFq5lIo/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Jacket Mens Large Orange Full Zip Fleece Outdoor",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/206653186169?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTKW3AZP7A2WQF79V7N&hash=item301d7d6079%3Ag%3A4r8AAeSwRDBq3jqu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F2ayRSzspKhiTlmrF22aQuTR6jvyFuc2ARFOQZzLchv44qIxln8LOxqmU%2FMZv6O7liXI9PQacHAgh6BG%2FiNZQeTBMZTg86XcKlU5kvM95WnqbfOBThbAvnpUQmvhUK0VDuOox0wROuESSoEXNhO%2F3ricTYN3jFb2c3y5z0UX6fs29vmhu4GbAqVBI%2FHagfmp4npmtTqt88qD0yY%2B5AIUgFSlGYgwEiJf7o%2FpZI6X75K1Vak%2BwFwOqnjZnl3OqLgMeUmh22mxdDadTO4qL%2Bw0bh8C7fG0DCuD9idA%2FSYkrisFVdNSvZk3euwzGkM3HkYro%3D%7Ctkp%3ABk9SR7791tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=206653186169",
+      "product_id": "206653186169",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$49.45",
+        "extracted": 49.45
+      },
+      "old_price": {
+        "raw": "$54.95",
+        "extracted": 54.95,
+        "discount": "$49.45"
+      },
+      "shipping": {
+        "raw": "+$12.10 delivery",
+        "extracted": 12.1
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/4r8AAeSwRDBq3jqu/s-l500.webp"
+    },
+    {
+      "title": "Patagonia Better Sweater Pullover L Grey Gorpcore Hiking Fleece 1/4 Zip Heather",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/940053390881?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTKBF4S8DC3NZ4CFTGD&hash=itemdadf8c6621%3Ag%3Au5IAAeSwPhxq5S-n&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FTgtwWiAl%2Bg10lfFLBRUEI%2BSUMFlJSAHwb%2F37n0gly%2BJ95TSN87HILJYQNyY%2BcuLZaTzdGK74MN7w8fKmxYg0Tt4pbCUY1XTbOS%2FpYMAiU6mqtwtSyuw%2B2ncPhN9bFkYcvB%2FLnnF%2BxDyPdsogZf545DxzM%2FwjYMfJ6bjCVWl1Zx1m%2FNl9c1o5xBYfQ7n7J%2B09X4A7foCaB83IGSeb5kjSnh1W4naAsOExxX%2Bfr5uAGIBWJTk7oQlGjoJlK%2BR1f14KbZ9tDgeiOBGmQ--day9H3%7Ctkp%3ABk9SR8D91tuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940053390881",
+      "product_id": "940053390881",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$43.49",
+        "extracted": 43.49
+      },
+      "old_price": {
+        "raw": "$49.99",
+        "extracted": 49.99,
+        "discount": "$43.49"
+      },
+      "shipping": {
+        "raw": "+$7.68 delivery in 2-4 days",
+        "extracted": 7.68
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/u5IAAeSwPhxq5S-n/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater Fleece Jacket Full Zip Pockets Men's Small",
+      "link": "https://www.ebay.com/itm/227589187820?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTM69JPFZKBEYHTQ5GR&hash=item34fd5f68ec%3Ag%3AS7kAAeSwR35q48KZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZVfyEtcziDMeShgx8xzdjUDG4Rd43b8B8alAaj9xmWOL9xJIUCBKRLq%2B6YUvrQbbkhfA7Lg8btQllv7fHRbjnc4WTODTV%2FyyxJ9xs5hrm4Nde4t1ZoHimlkEJ9LN4lbQHCT1Jjx4O1OUsHreNVenEc1riMfmFfahz3Y%2Bq64tg2QW67JBEYZDw6Gt3o3Ra6YLRAPZmrRxeCaZ6vgVG%2FMqfG0JE94ROU%2FvTZ6EuNowFSVeLzC1KX8oauLnTTnHdqk2JnikdjfM4vjesnXBfWR98SlWQYGVgsiKEdTsZU9N2IeYaIeINlZqCDUOIxdehQLQ%3D%7Ctkp%3ABFBMwP3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227589187820",
+      "product_id": "227589187820",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$55.00",
+        "extracted": 55.0
+      },
+      "shipping": {
+        "raw": "+$9.00 delivery in 2-4 days",
+        "extracted": 9.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/S7kAAeSwR35q48KZ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Patagonia Better Sweater 1/4 Zip Pullover Fleece Men's Size L",
+      "subtitle": "Patagonia",
+      "link": "https://www.ebay.com/itm/407327706384?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQTM8Z13955NFHF57K1A&hash=item5ed69f8d10%3Ag%3AxnUAAeSwcKtq5PM%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BXEaZFSPRcieYf%2BhzNw8friHKx9t4st3VdWlpkwq0WI5NlxgAL4D2FOf0qde3HfO%2FT4W2s8rNMJInRGiCUXrog277l5BDCAuGoxjqzTIglInD7CzXWVSq2jIIXgs%2BsYP7YGhePQPZNIUDrqOvl%2BT8TmjMHivh5scsghUA8E1YOdRGYmsMtGme3fEqDIi3UKDi6eZoW9vAVohpX2%2BjjPXOiyqW7FpKh2RjrMvJUDLEvuAyRQi5s7639fo%2BGLtkc1s1jplAY%2FYO6OnGVZZ22dYUfmMi1uD1wgmwtFofAqSg5lVjdekb4vM6VO9LyMUXyvOM%3D%7Ctkp%3ABFBMwP3W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407327706384",
+      "product_id": "407327706384",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$36.00",
+        "extracted": 36.0
+      },
+      "shipping": {
+        "raw": "+$8.17 delivery",
+        "extracted": 8.17
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/xnUAAeSwcKtq5PM~/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | Spons\u061cored",
+      "items": [
+        {
+          "title": "Patagonia Mens Gray Better Sweater 1/4 Zip Fleece Pullover Jacket Size Medium",
+          "link": "https://www.ebay.com/itm/257827258041?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV1GNAR6Z1JH469T3E2&hash=item3c07b3beb9%3Ag%3AIVEAAeSwFiVq5kkU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fy9yciofsjfoPQ%2FXmaHh1V5y9c84xKqLCj%2ByZwVq24dRjmlxikF588Vn4Ql5ltnH%2FZ5qksO9hYIZDnci%2FPiY3j8piFj87bdUd0DJzz4GgdRrw7dPH8LwHq7W5K5rJlrk7JcUiSeFU7%2FXlCqu2xRrbVfwvVpm8zo0DY4b5jxXGW6UKHP%2B9C%2FTEd7Xs2lwum50nLZ6mn4hhlm%2FG6S7vt8qMNdd3PP4qFNjmBn7lX4t0FTbDDLT3vvRl0wceN5LNkynYoot6zNeN5vYJo33ZQA7hOva%2FttPO9OOge7LlzLm4eS%2FrAhls8jZimI2OeQUJQuoc%3D%7Ctkp%3ABFBMxv7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257827258041",
+          "product_id": "257827258041",
+          "price": {
+            "raw": "$39.99",
+            "extracted": 39.99
+          },
+          "shipping": {
+            "raw": "+$14.85 delivery",
+            "extracted": 14.85
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/IVEAAeSwFiVq5kkU/s-l500.webp"
+        },
+        {
+          "title": "Patagonia Better Sweater Mens Medium Gray Fleece Pullover Jacket Gorpcore",
+          "link": "https://www.ebay.com/itm/366772592022?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV11VYM6KNVFJC09050&hash=item5565599d96%3Ag%3ABvUAAeSwvjpq5T1h&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8MA1Y77eMbCzwaQa7umtJyWg9DstFBpnGKSkafg3JMrGMMZPKpUUv3WJhmEEz47NiDdvHsPpAHxgZOXA4diG24dgaNd7HVdfFhhW2iI3TL4ThlXnxxfKgG%2FA1Qu6glciLe6VtVwcd7%2FcArngWhjhvL2PLHbDbkYlkPYamZk%2BxMBBSByGwViy%2Bt1k0UQnYTiOVhjGUYvjj6bPP1lb1zsWHVX8kg6RG2iJ7gxwiHA5B%2Fw1TyE6J%2Ba%2FGXgwzVhmSxIfvR4Ja8HIrkTX3uNdPKMyPgBsHpLEelD5XvCU3RLswmIQqqojr7lIj%2BqJfDwp5qjuk%3D%7Ctkp%3ABFBMxv7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366772592022",
+          "product_id": "366772592022",
+          "price": {
+            "raw": "$39.90",
+            "extracted": 39.9
+          },
+          "shipping": {
+            "raw": "+$10.99 delivery",
+            "extracted": 10.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/BvUAAeSwvjpq5T1h/s-l500.webp"
+        },
+        {
+          "title": "Patagonia Better Sweater 1/4 Zip Pullover Fleece Men's Size L",
+          "link": "https://www.ebay.com/itm/407327706384?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV183B3KWBYD0J8PRVG&hash=item5ed69f8d10%3Ag%3AxnUAAeSwcKtq5PM%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BXEaZFSPRcieYf%2BhzNw8friHKx9t4st3VdWlpkwq0WI5NlxgAL4D2FOf0qde3HfO%2FT4W2s8rNMJInRGiCUXrog277l5BDCAuGoxjqzTIglInD7CzXWVSq2jIIXgs%2BsYP773wF8Jl%2FRdQO%2FGWo%2BdsjErBTGX9M9xQFAMlEfpNZIFg%2BHve3baOakiI6x%2BSwPVYU8pBjAj4dnK3jyVkzrqbhEhpxY7%2FBG%2FlAtJPfHC0eBnu6N8371faEfGMXx1qcPfF7RBvsGspuR1J%2FVECBXaM2P6QVhcRxFOF0otMNdCYpQXIUL7731PWFb8cS89%2BVG%2FBM%3D%7Ctkp%3ABFBMxv7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407327706384",
+          "product_id": "407327706384",
+          "price": {
+            "raw": "$36.00",
+            "extracted": 36.0
+          },
+          "shipping": {
+            "raw": "+$8.17 delivery",
+            "extracted": 8.17
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/xnUAAeSwcKtq5PM~/s-l500.webp"
+        },
+        {
+          "title": "Patagonia Better Sweater Fleece Jacket Full Zip Pockets Men's Small",
+          "link": "https://www.ebay.com/itm/227589187820?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV19T9CEF3ZDDP8CCNN&hash=item34fd5f68ec%3Ag%3AS7kAAeSwR35q48KZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZVfyEtcziDMeShgx8xzdjUDG4Rd43b8B8alAaj9xmWOL9xJIUCBKRLq%2B6YUvrQbbkhfA7Lg8btQllv7fHRbjnc4WTODTV%2FyyxJ9xs5hrm4Nde4t1ZoHimlkEJ9LN4lbT4TGVpVxKSOoByA5%2B%2Fne5tS%2BGrHuSkGYVqdtZZdq7zK5yGF59NrY6asQ8x2G%2BwOSb6OTDacZQ4f3Zru9BgXkaGes4ujk8kaDezIc5I%2FuFou5NhRqB5TVo%2FcXHzKRT3lyzneadAJk774NeQFanskPZQbxZQs4Fl8LmHpFuztMh4YGHKZckZ3tIOvIrLuESXqrI%3D%7Ctkp%3ABFBMxv7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227589187820",
+          "product_id": "227589187820",
+          "price": {
+            "raw": "$55.00",
+            "extracted": 55.0
+          },
+          "shipping": {
+            "raw": "+$9.00 delivery",
+            "extracted": 9.0
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/S7kAAeSwR35q48KZ/s-l500.webp"
+        },
+        {
+          "title": "Patagonia Better Sweater Mens S Gray Full Zip Mock Neck Polyester Fleece Jacket",
+          "link": "https://www.ebay.com/itm/940049174500?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV1F6JNSZ1F8VKWW435&hash=itemdadf4c0fe4%3Ag%3Ae7QAAeSwiwdq4QPR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bi2yAJ5ZFluMeaI3DMa1sGxZHi5XRGUjDAaTE7bxCwQc8WVA0%2FyjvONUffMKWX2WHMRic4T%2BqoiYRzuzUijUsoQ5fqUXyxpUytpIewwLkRiC2tJhYjaJh28g8iNzmRkUmYfSE0gXnGgzaYCyV3T4EjEe5C%2BIR%2FVSH9zw1KpRCwoUFFNBuNvPwfpWaG8Ktcdb7KBAqC48cfm3xCR10JXzgKlUVwUKJak1N81W9qxAhWC7PC5u7mzNCYdGpvHxirmO7HAT%2FLl3AskxNnSeXB4mucyykFKcUijH2J%2FKoGxv7%2FdSoy78R8wirgt2LcTlb0fFo%3D%7Ctkp%3ABFBMxv7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940049174500",
+          "product_id": "940049174500",
+          "price": {
+            "raw": "$49.97",
+            "extracted": 49.97
+          },
+          "shipping": {
+            "raw": "+$9.97 delivery",
+            "extracted": 9.97
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/e7QAAeSwiwdq4QPR/s-l500.webp"
+        },
+        {
+          "title": "Patagonia Mens Size L Performance Better Sweater Hoody Blue Hooded Jacket 25960",
+          "link": "https://www.ebay.com/itm/267828413719?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV1X4PTB6W12GD1KS1H&hash=item3e5bd14517%3Ag%3AO94AAeSwLHlq5O7J&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fl2UH%2BGpQheeNwtQotpuhEaDLLv5f5XdXEkK6dASFqE8sXfEcOUWovMVmeAAvVDdNKPsy4wfCf3WFAvoOsmRxccMxR0e5s5AZC4t8ZmPdjDamTzTOq%2FXn4bH9OOIfNs8Ql0Zwmlu0StZM67ATlzm3RG8964dRruIATmzG1BLYi6S8bTHiuWQJla4sBeUhPnwDDqdMVFHxIxzgcoGi4WMd6RvQ0rR9eiS2inFDLswva5zHI6QWvRgeAfe2JyJT5z3lw0uFIc4Fh09lws8%2BaCR8GBlInR%2BO1RQtLWgxNDOr1UXquoALVLfSxTweQhe0NDqg%3D%7Ctkp%3ABFBMxv7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267828413719",
+          "product_id": "267828413719",
+          "price": {
+            "raw": "$58.99",
+            "extracted": 58.99
+          },
+          "shipping": {
+            "raw": "+$8.80 delivery",
+            "extracted": 8.8
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/O94AAeSwLHlq5O7J/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Other Popular Brands",
+      "subtitle": "Based on number of views and purchases | Sponsored",
+      "items": [
+        {
+          "title": "The North Face Jacket Mens Medium Blue Sweater Fleece Full Zip Chest Pocket",
+          "link": "https://www.ebay.com/itm/306535192257?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV1VBCHPHMDQBVR7FNG&hash=item475eebd6c1%3Ag%3A99wAAeSwpoZo3yY8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BpmD57MTKqLcGwUbaM7McuKfzHuUvbNOGLGMG0sm%2FimZUJ0su8ptryiTtsRKLGgbVOm0TuAZfc0q3rl1LtAFtCsH80XOo1ht6NDNjkTwpJNhTW7wUQELLNa68r%2Bxv3mCwsUWSfmMleLv6nbSP%2Fwh2K1122wJTr3Sh03rBNc0R4x4z8enE2tHkaxte9paeUliGm1rYM7QdNvOVyKWReZqUzDqIaf7JI44No8NolJb7GzYPeOL9TJEBrZdyV2RegXXxnY49DATJnOIYSuluBa7FZ8zVnFcW48XyibKPj%2FKNn%2B3w%2BpO4UOzy5FBgMVrAo%2FxY%3D%7Ctkp%3ABFBMyP7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=306535192257",
+          "product_id": "306535192257",
+          "price": {
+            "raw": "$44.99",
+            "extracted": 44.99
+          },
+          "shipping": {
+            "raw": "+$8.99 delivery",
+            "extracted": 8.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/99wAAeSwpoZo3yY8/s-l500.webp"
+        },
+        {
+          "title": "Columbia Mountainside Heavy Weight Fleece Jacket Size XL",
+          "link": "https://www.ebay.com/itm/364837181589?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV1HY4DJA826GGHW7A8&hash=item54f1fd9895%3Ag%3AfIMAAOSw64VmGBVS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Feqc%2BQj6iCkZWlqs4QVMycM9ODha34gEPkEjxHKQUT9b08c5xGkJYP86med51tx00UU9ST2u5mL%2BsC2pd8rEMUVdfrtGjIJl%2Fumgdrj0kvu9iZQ%2FuV%2BYvEsvIbRJi8aowTvJz0Mn1olR%2BwjhDOADAjDODMyYy8kuuCxDtzFJE4Lvb0rNrK%2FUj%2F4bP1qig1JenMgtPTVLZzC92jAnlUNQ7OmUgfH5Gf7%2BTpXMWYIKyIT2XBOea4DNxJXDOZ7WPV36rpGNJtGFotXADmPByHt7dAy0f1SVgrY1o12WPiuEpf81r5NiDNu0Yuon5oOgA5xzE%3D%7Ctkp%3ABFBMyP7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=364837181589",
+          "product_id": "364837181589",
+          "price": {
+            "raw": "$17.99",
+            "extracted": 17.99
+          },
+          "shipping": {
+            "raw": "+$15.85 delivery",
+            "extracted": 15.85
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/fIMAAOSw64VmGBVS/s-l500.webp"
+        },
+        {
+          "title": "Columbia Fleece Pullover Mens Size S Grey Heathered Quarter Zip Mock Sweater",
+          "link": "https://www.ebay.com/itm/398368395323?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV133NP2R4SCMJ29YWA&hash=item5cc09b503b%3Ag%3Ag6IAAeSwJFFqnmzm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BZBrUQc1zVq4BrFqQ1tw2OfBFmcOFskvv4%2BjjvSU5ZvkLHyi%2FBm1rPO1g4I%2BniPtbVRUVgPBM1UltXdvWE82kQ1y%2BIQxwG0PsIZ4lpDyHZa2FQUuzb48utSjRsGWMCarkm2Ok8T9uVl%2F31Lgfsh%2BGlYJJdTBuHPQz29N96RTQa1VuOTvd4CBQS9g3czZ9j5KBMQ4SgBXKGHrKKPdrLXImeSIOINvglap%2BGuNnPBvJguERk42%2FJAKiGmTkHadlITDzXX%2BCXPsVHm3u0VGc%2FmB06YuhVp22nYWdlVQQi37bss6i6KT3ZGimpbmHJm0qGpI4%3D%7Ctkp%3ABFBMyP7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=398368395323",
+          "product_id": "398368395323",
+          "price": {
+            "raw": "$25.50",
+            "extracted": 25.5
+          },
+          "shipping": {
+            "raw": "+$7.99 delivery",
+            "extracted": 7.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/g6IAAeSwJFFqnmzm/s-l500.webp"
+        },
+        {
+          "title": "The North Face Fleece Mens Size S Maroon Burgundy Quarter Zip Pullover Regular",
+          "link": "https://www.ebay.com/itm/398402516844?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV1TGXK84HCWA6C9YP5&hash=item5cc2a3f76c%3Ag%3AsgMAAeSweGhqq058&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F5%2FjrXGRlnhdFzGjPBNC3js5bsoFIdOzU4nCNRFDulV4oIWitRNt2Zrz%2F2fZYyXinhXwvgy10kJ8EvV6WWCWcpNMqY2z35LSVNB6yhsB94Optceir14C%2F0EmUkAEsJzsk3efXbGJqk6TUDUsb67xeRIJV56Ssdd0lcD5q9R6SxORhLEr6K13qbCz9fDpg36JWu4m34o5wF9QQ0GD45POs6R0BnJ2cPU5AftYS4xZQzAkK9Jy2hkfBJhPaZWIpezJfYkkD1O%2FCbOz02OLhwspey8SnO7yE2e1qBB%2BmaaSJLJ8w58pXtgekdn%2BS5pmdWSyo%3D%7Ctkp%3ABFBMyP7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=398402516844",
+          "product_id": "398402516844",
+          "price": {
+            "raw": "$25.00",
+            "extracted": 25.0
+          },
+          "shipping": {
+            "raw": "+$7.99 delivery",
+            "extracted": 7.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/sgMAAeSweGhqq058/s-l500.webp"
+        },
+        {
+          "title": "LL Bean Vest Mens XXL Blue Marl Sweater Fleece Knit Full Zip Slightly Fitted",
+          "link": "https://www.ebay.com/itm/198760921365?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV11727Q0TJBKJPGPBK&hash=item2e4712f915%3Ag%3A5qgAAeSwRvdqlhiq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fj6KApaopb6tRGoOSLzR8EFs3fv8kcxUTkkE845JqEItMlzz%2Bri2T5EeqUQQpUahXlAJNSCn0FiE2zkCLG%2BaPBjS%2FfWEzKPIqe%2BMydoS0Fb8UVqMbOit0vqI%2B3sgf8VMiCv6%2BF1v%2BF382Pa0qV02YXwPbslCHqJj8cjB6hDDb9Lp7GRsT5ssrvZQLrX3n3RfOQ5Uvbufig57AAhOukk8KymA1tE8dgrB9WUto37kZgqcjyFpLtaPzBwJZbKZ2volFtSmFl%2FNj0zarIAh6%2BhGHfD0oJctKe0x0gUjAkzYpEw5wvBsgoDM65JbwJWAxl1pI%3D%7Ctkp%3ABFBMyP7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198760921365",
+          "product_id": "198760921365",
+          "price": {
+            "raw": "$25.00",
+            "extracted": 25.0
+          },
+          "shipping": {
+            "raw": "+$8.17 delivery",
+            "extracted": 8.17
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/5qgAAeSwRvdqlhiq/s-l500.webp"
+        },
+        {
+          "title": "Patagonia Sweater Womens Large Gray Fleece 1/4 Zip Pullover Camp Gorpcore",
+          "link": "https://www.ebay.com/itm/358556733758?_skw=Patagonia+Better+Sweater+fleece&itmmeta=01M6AVNQV11KJREKJB4GTRRYVG&hash=item537ba5913e%3Ag%3A48UAAeSwzRxqBjfy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BV7UxwYqa8i6jQO%2B22ey9epF23DaTvsOi6V%2Fm%2B%2FuNOQzBdPZ98tih9Ni%2F%2B57qXnqkcT8PJwsdcb29JyQVjK9yJxRkN5ssC7ZC0DAVdU7SqJtMtplsKwVFBsv8AWJEoatjD6PT4W%2FWIIHKtu3SI%2FW96Iq89rngoqv7vtXdGqkesCO0mrcyayk2dRMEngKpzj0PsJbQaaWTvmJnStMM30LqABwMxZELMB%2BgJi%2BQQlpSY0gc05MRl2RNCDxyZM3tnoc99Ga8ytwaUVa%2FfWCmDrFLoV6ZOATokcNbFNTmy2%2BtymqkjUkSHaVOoPGU6eId%2BkxA%3D%7Ctkp%3ABFBMyv7W27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=358556733758",
+          "product_id": "358556733758",
+          "price": {
+            "raw": "$34.88",
+            "extracted": 34.88
+          },
+          "shipping": {
+            "raw": "+$7.99 delivery",
+            "extracted": 7.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/48UAAeSwzRxqBjfy/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "patagonia better sweater fleece full zip",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+fleece+full+zip&_sop=12"
+    },
+    {
+      "query": "patagonia down sweater jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+down+sweater+jacket&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater fleece jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+fleece+jacket&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater fleece large",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+fleece+large&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater fleece mens",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+fleece+mens&_sop=12"
+    },
+    {
+      "query": "patagonia better sweater fleece xl",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+better+sweater+fleece+xl&_sop=12"
+    },
+    {
+      "query": "patagonia women s better sweater fleece jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=patagonia+women+s+better+sweater+fleece+jacket&_sop=12"
+    }
+  ],
+  "popular_filters": [
+    {
+      "name": "Regular",
+      "parameter": "Size%2520Type=Regular",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Size%2520Type=Regular",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Size%252520Type%3DRegular"
+    },
+    {
+      "name": "Big & Tall",
+      "parameter": "Size%2520Type=Big%2520%2526%2520Tall",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Size%2520Type=Big%2520%2526%2520Tall",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Size%252520Type%3DBig%252520%252526%252520Tall"
+    },
+    {
+      "name": "M",
+      "parameter": "Size=M",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Size=M",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Size%3DM"
+    },
+    {
+      "name": "L",
+      "parameter": "Size=L",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Size=L",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Size%3DL"
+    },
+    {
+      "name": "S",
+      "parameter": "Size=S",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Size=S",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Size%3DS"
+    },
+    {
+      "name": "Blue",
+      "parameter": "Color=Blue",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Blue",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBlue"
+    },
+    {
+      "name": "Gray",
+      "parameter": "Color=Gray",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Gray",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DGray"
+    },
+    {
+      "name": "Black",
+      "parameter": "Color=Black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Black",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBlack"
+    },
+    {
+      "name": "Cotton",
+      "parameter": "Material=Cotton",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Material=Cotton",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Material%3DCotton"
+    },
+    {
+      "name": "Wool",
+      "parameter": "Material=Wool",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Material=Wool",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Material%3DWool"
+    },
+    {
+      "name": "XL",
+      "parameter": "Size=XL",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Size=XL",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Size%3DXL"
+    },
+    {
+      "name": "Beige",
+      "parameter": "Color=Beige",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Beige",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBeige"
+    },
+    {
+      "name": "Green",
+      "parameter": "Color=Green",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Green",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DGreen"
+    },
+    {
+      "name": "Brown",
+      "parameter": "Color=Brown",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Brown",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBrown"
+    },
+    {
+      "name": "2XL",
+      "parameter": "Size=2XL",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Size=2XL",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Size%3D2XL"
+    },
+    {
+      "name": "XS",
+      "parameter": "Size=XS",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Size=XS",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Size%3DXS"
+    },
+    {
+      "name": "Red",
+      "parameter": "Color=Red",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Red",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DRed"
+    },
+    {
+      "name": "Multicolor",
+      "parameter": "Color=Multicolor",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Multicolor",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DMulticolor"
+    },
+    {
+      "name": "White",
+      "parameter": "Color=White",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=White",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DWhite"
+    },
+    {
+      "name": "Orange",
+      "parameter": "Color=Orange",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Orange",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DOrange"
+    },
+    {
+      "name": "2XS",
+      "parameter": "Size=2XS",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Size=2XS",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Size%3D2XS"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Patagonia+Better+Sweater+fleece&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}

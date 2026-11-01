@@ -1,0 +1,1920 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7c74e12bd5db5304f32",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/_9FrEYnZxl2FSDsL_dtvfiK3-tk6lKSLvhxiBf-LlCA/6ae6d7c74e12bd5db5304f32.json",
+    "markdown_endpoint": "https://serpapi.com/searches/_9FrEYnZxl2FSDsL_dtvfiK3-tk6lKSLvhxiBf-LlCA/6ae6d7c74e12bd5db5304f32.md",
+    "created_at": "2026-11-01 06:10:15 UTC",
+    "processed_at": "2026-11-01 06:10:15 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+    "raw_html_file": "https://serpapi.com/searches/_9FrEYnZxl2FSDsL_dtvfiK3-tk6lKSLvhxiBf-LlCA/6ae6d7c74e12bd5db5304f32.html",
+    "total_time_taken": 1.9
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "Carhartt Detroit jacket",
+    "_ipg": "60",
+    "LH_ItemCondition": "3000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 9200,
+    "query_displayed": "Carhartt Detroit jacket"
+  },
+  "categories": [
+    {
+      "name": "All",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_oac=1"
+    },
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11450,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=11450&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Men",
+      "link": "https://www.ebay.com/sch/260012/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260012,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=260012&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Men's Clothing",
+      "link": "https://www.ebay.com/sch/1059/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1059,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=1059&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Shirts",
+      "link": "https://www.ebay.com/sch/185100/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 185100,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=185100&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Activewear",
+      "link": "https://www.ebay.com/sch/185099/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 185099,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=185099&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Shorts",
+      "link": "https://www.ebay.com/sch/15689/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 15689,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=15689&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=1&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Crafts",
+      "link": "https://www.ebay.com/sch/14339/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 14339,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=14339&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sports Mem, Cards & Fan Shop",
+      "link": "https://www.ebay.com/sch/64482/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 64482,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=64482&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Everything Else",
+      "link": "https://www.ebay.com/sch/99/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 99,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=99&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Sporting Goods",
+      "link": "https://www.ebay.com/sch/888/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 888,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=Carhartt+Detroit+jacket&category_id=888&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "title": "Vintage Carhartt J02 Duck Detroit Jacket Line Faded Workwear Black Size 46 XL",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/377606352112?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWA60NM6C35ZKZ66TKE&hash=item57eb17acf0%3Ag%3A68kAAeSwV0xq44ke&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FqNu1jkmrnECggvmLed31G30x0ZZOXecdkRFrWvO9Hpgtm%2FQ4WlEeBCjBgSrwabL3V7Ug56rbW3ZS1cy5bVaOxnYfwIqUMOd0TyjcF%2FEU5OnCnivaBcXGrUvpj7fW9rYNAn0q82lsBs7WkMONq%2FyhgsevY%2BA%2B%2BsTx5VNkRuPYQrhQNIocvVV2fqaxHRHQPPFZ0uCGj8hGTngcdNQ7tIckB33YEVuU4TumPU2SzAZVhPSCwMZgFVMoyXBMEtbec6aC%2FGaA6ZopZ4aTUPGkWr%2F0grNP%2Fh5xeMGSyY9oHV5Kz0sLm%2FUmlSwF1hTbb%2BV6eynA%3D%7Ctkp%3ABk9SR8ae19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377606352112",
+      "product_id": "377606352112",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$120.00",
+        "extracted": 120.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/68kAAeSwV0xq44ke/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Carhartt J164 PTL Arctic Sandstone Detroit Jacket Petrol Blue Mens M",
+      "subtitle": "Size M \u00b7",
+      "link": "https://www.ebay.com/itm/800861161509?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWA91N5819ZYSR96JAA&hash=itemba770b8825%3Ag%3AdtwAAeSwpdZq5poo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BffytlhqX7Z%2BxqtMnQ8v%2FP%2BJi3F34HLUmDgFUDSrM93aWKXjlD8PGnhwV5CjbpbDokdBq9s2meiQYMqrAEBVCQtU54RvsbUxRsJUbweisrC0mjBgDfUq9EcYXlfkQ8fuNpIR9L7qaDbN9JzuuxDPaquD7fStSPwGUvnZua6OeuLVXCurFD%2BvlzoWwASJR5MjWYAzi954%2FbUqTUy8QCF%2FwZFiRkfcgdwNxyYrP7%2FBBkEeKcJZBkKmQgq4mUg3UZ5KYzDLqciG8H8v%2BhzYvDvXY8lWnr8x8wxGerT0hnyJOgZ9s2rrZJLyoH5y5I92FFpZE%3D%7Ctkp%3ABFBMxp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800861161509",
+      "product_id": "800861161509",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$150.00",
+        "extracted": 150.0
+      },
+      "shipping": {
+        "raw": "+$7.10 delivery",
+        "extracted": 7.1
+      },
+      "location": "Located in United States",
+      "watchers": "13 watchers",
+      "extracted_watchers": 13,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/dtwAAeSwpdZq5poo/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "\ud83d\udd25Carhartt j97 ptl petrol detroit jacket size xl big patch blanket lining\ud83d\udd25",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/880069055374?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWA2MRHHRTR2RFK196E&hash=itemcce834138e%3Ag%3AC-sAAeSwJ7tq5kT6&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8BrHI3bzATkXmzd2hcYOe0bYQGUtTiWFFxA85hhD7fa3msaKSg%2BbaQ7MCAEB4GiKMI4Fx6JqqpCxfVL7DMhAcVudZQ4axq7Cz%2BAZWPSS59C2q8Ka%2BcmyNQlcCkTotHttc2gUZAMQxY08WZUnqf0znNWE9FKXTmBnWCejfDE0sZx0sCsS%2FzLYRAxtDj8xyRRWHQGCPzHNTErxq5hyCUND8733EVp2%2BM56AhoT4eRU616ndHkbTZ5iIZl46j3NvwNeBtRqf2QNF%2BGVq%2B1sa6BeeipK1N6oHDVBEAoHYpleVqRg%3D%3D%7Ctkp%3ABFBMxp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880069055374",
+      "product_id": "880069055374",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$249.95",
+        "extracted": 249.95
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/C-sAAeSwJ7tq5kT6/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Carhartt 6QLJ Detroit Jacket Men's Size 38 / Small Brown Workwear Coat",
+      "subtitle": "Size S \u00b7",
+      "link": "https://www.ebay.com/itm/900054900620?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWBH3KQV82FE5E0TXKV&hash=itemd18f73df8c%3Ag%3Am9sAAeSw5ZNq5m6c&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8ViGDfZ5U1w7S5Mhz5hgW8SU%2BwPN0TzqCJlIz4ckGUOgfQqSN5EY2nPl7V5nZ0cMb3q1TyF%2Fw71PsQVjwVG4qxpKEEIiUo%2FGzo3q6M563GqktutsHQoTOsQTcJIPpTmDkS9RmvaPVxwm2vbhPtHhlm0Wh%2BHUOq7l5vmptaYz0O6oCrp9ShSZCNXBpN8F0dAMx1I3yepNWgxCBQVvSLRPDSEyZlPhzaGK4xLJ7A02AnKTeuQZ5Xw6miAGc1Ql8l3vbejZw8GnuHUW2ji30HW30%2FQLlHRLBm8T--ewDTtfOiMQ%3D%3D%7Ctkp%3ABFBMxp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900054900620",
+      "product_id": "900054900620",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$155.00",
+        "extracted": 155.0
+      },
+      "shipping": {
+        "raw": "+$12.00 delivery",
+        "extracted": 12.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/m9sAAeSw5ZNq5m6c/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt EJ097 DKB Detroit Jacket Dark Brown Small S Blanket Lined 22x24",
+      "subtitle": "Size S",
+      "link": "https://www.ebay.com/itm/307251824569?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWBYB37J05MPNM801KH&hash=item4789a2c7b9%3Ag%3Aio4AAeSwOJJq4KeR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fn18O3KHUgsGXeL1vc8hcQNJHPcmHm8hId0%2BSWRvD1iwDpfZ5gvBeZL1QCKApYCkaZP6pO4LJWaGMgmVfAO7S6oza3T4uDCdiMLcuqINLMoSndEcgJc%2Fsm0G%2FueZKFlXwEg40QFXnFs6zZsxW3OT9noUs5HqFjf7nADQqWyjFsyrm%2F1Y7vrx7rfTV6cEk1O9OIbZID0BXGjVVC67WbW3HGD0BU7amZ7uWcd0bmcltcbuMWdEBf34ztmBr3YRbb48alPDMnTx27ZNUEs9U7znb2%7Ctkp%3ABk9SR8ae19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307251824569",
+      "product_id": "307251824569",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$549.99",
+        "extracted": 549.99
+      },
+      "shipping": {
+        "raw": "+$14.95 delivery",
+        "extracted": 14.95
+      },
+      "location": "Located in United States",
+      "watchers": "13 watchers",
+      "extracted_watchers": 13,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/io4AAeSwOJJq4KeR/s-l500.webp"
+    },
+    {
+      "title": "Vintage Y2K Carhartt Detroit Canvas Jacket Men\u2019s M USA Made Faded J97 PTL",
+      "subtitle": "Size M \u00b7",
+      "link": "https://www.ebay.com/itm/960138452563?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWBYZA1W105KR5B8JXP&hash=itemdf8cb61e53%3Ag%3AitIAAeSwGkdq5ncm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8fsHS3VV6qiKSUeT4K4I5StU4TpCk3q0f8f5DQ%2FpiqtOSd2O0o8Mjm%2Foto6cIZ4%2F3gH1%2BOE74M6gDchBar3VUteW6nkiycq7cYeiN3HjpGr%2F5tprUTAho4d%2F6BrDZ7SAumJo6w9ttnk%2BpafZwU7wNesr%2BG%2Fwrs6yat6y0vSYB3%2F8yio6atihLCZ%2FC0tWJB12PCQoT%2FHnyqvICuW9YYrGqBsGq7gEsZvHF%2FBXFPZZNDc%2FJS0skthRuDr%2Fh%2FzEO2zz2J7%2BPvhfI5utglV7AIKegS%2FsEB8BFiZoot3ud0CMbEV%2B6cWV3jzB7pqPwB0Dj%2BJzQ%3D%7Ctkp%3ABk9SR8ae19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960138452563",
+      "product_id": "960138452563",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$616.66",
+        "extracted": 616.66
+      },
+      "shipping": {
+        "raw": "+$37.17 delivery",
+        "extracted": 37.17
+      },
+      "location": "Located in United States",
+      "watchers": "10 watchers",
+      "extracted_watchers": 10,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/itIAAeSwGkdq5ncm/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt Detroit J97 DKB Workwear Blanket Lined Men\u2019s Size Large L RARE",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/800860800557?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWB03PK3TJYPPDVZJXD&hash=itemba7706062d%3Ag%3AzxoAAeSwq8pq5ndz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8O%2FEQ9gcubbbwXmEWnscmrmObqpXORPO1ks396LqEzEyeaWHPxlVYQRDBUhoB596uUo2PFhc9VLWTjb3RapDXW59wS2KIp%2ByiZBXK6egowpWMNUlssfv%2B5opFoxc8zIEdUydMLTxN4WOl%2Bpjd6D%2F8IpqFCGuvKTq4dDDwBObY8E2vUnPMqYmSwMYzRE7YpLuyVTp%2FA%2BQetwZ5WMFTs3F7ie58AKl%2BwJ3TVLlvf5Zr0uK9oFEQohMf1f%2B4Bz9u0v3LU%2BnGH1%2B%2FuGLsOuVSp%2BNJF1j7U5sE7ob1raeukUHKHnaZmJMe5ghFOmJQX5VDMhZY%3D%7Ctkp%3ABk9SR8ae19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800860800557",
+      "product_id": "800860800557",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$475.00",
+        "extracted": 475.0
+      },
+      "shipping": {
+        "raw": "+$10.77 delivery in 2-4 days",
+        "extracted": 10.77
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/zxoAAeSwq8pq5ndz/s-l500.webp"
+    },
+    {
+      "title": "Vintage 90\u2019s Carhartt Detroit Jacket J97 PTL Workwear Zip-Up Men\u2019s Size 2XL RARE",
+      "subtitle": "Size 2XL \u00b7",
+      "link": "https://www.ebay.com/itm/800860780877?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWB4FT3CJSJCBKNXGXC&hash=itemba7705b94d%3Ag%3A8y8AAeSwOXZq5nTn&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FG8IkOq8d5wHhb4J%2FC3lM3D1JiokJnzlFVmHD2ntlgyrbovsWn82%2BexL8dWks24SazsW1k2m4B%2Fp9WPyWiGtYO2KtDclFtwelLSWXKqYcgrTK8sMn%2B96ym9J6PeUKLj%2BDJqsmXdS%2F%2B4x7PxdshtCUG5TNA%2FoZPHy5vOumK02yt7BekxQiB5zsRIGx8DRoxt%2Bfcfmp%2BOsA5Ymto2JbEq4rHySX6RCY2ed6%2Bg3n4raOtwmbXTgko3C0LFvEy2UNhcJPmmNii%2BE2svQhwlC%2FOx05R%7Ctkp%3ABk9SR8ae19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800860780877",
+      "product_id": "800860780877",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$299.99",
+        "extracted": 299.99
+      },
+      "shipping": {
+        "raw": "+$12.04 delivery in 2-4 days",
+        "extracted": 12.04
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/8y8AAeSwOXZq5nTn/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt Detroit Blanket Lined J204 PTB Workwear Jacket Men\u2019s Size 2XL",
+      "subtitle": "Size 2XL \u00b7",
+      "link": "https://www.ebay.com/itm/800860780458?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWB615C5W3HB34B2JVF&hash=itemba7705b7aa%3Ag%3AQ1cAAeSw9bRq5nTY&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde89K2orqVc8Kwbz15Qpa3Y3HEWyfF6f8y78C%2Bhlk1Ha%2FZzKvS%2FetQi8J5GRqy0g3lgtXnPO0ZLr61DjvQhigKFZyHnvcjZsThpHLbVyjkLNmnzgAwNif0U0oz9qln2n9dUCTICTCWdsBR3zYhPqgOY%2BMTkjOhwKu%2BjhjlNi1cd3Ux7aECoksK%2FrOrWHUj7a4c4hWvModQhvbr%2F0V62WH7S3S3zZo61WWenG%2BY%2FZktMr%2FZmv6no1L1aM476RSFPh7u0O61wXRx6mzUcVbQwRHHCJ%7Ctkp%3ABk9SR8ae19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800860780458",
+      "product_id": "800860780458",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$299.99",
+        "extracted": 299.99
+      },
+      "shipping": {
+        "raw": "+$12.04 delivery in 2-4 days",
+        "extracted": 12.04
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Q1cAAeSw9bRq5nTY/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt Detroit Jacket tan Brown Blanket Lined Workwear Coat",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/900054846088?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWC2Q3Q3T0G2SKS8C3F&hash=itemd18f730a88%3Ag%3AzqMAAeSw5J9q5mbe&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9SYq9HNQrMDPY0GH6Uwo5RbeH3zkHzvM%2BW7N8VEfmZZextZfQkIpPaf4hgp9KDJSntbimjDbDukSpyx1VH56%2BUHA%2FgJYJ8KrLzmAx%2B11V7sbjZQwO4T0BOSisHtXK8mpB7wHRc1juoL0yJ3ykFcFL4azIdWFgxdoqUm98xE0sLLgjnZdiZmLjZCm%2BegyEDxMNXd7cXNmeX%2FCeekJDVMgXWXDlz2XmD80Sg8E7NIdtswrOXKDdgvfLalf87B68VrItRlAkNDeKrKQZaS1ljSRoIiSij%2FcoYOBFGZrAbxcJtI2%2FwjUV6pPJX3W%2Ba3MN1eVw%3D%7Ctkp%3ABk9SR8ae19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900054846088",
+      "product_id": "900054846088",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$145.00",
+        "extracted": 145.0
+      },
+      "shipping": {
+        "raw": "+$17.21 delivery",
+        "extracted": 17.21
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/zqMAAeSw5J9q5mbe/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Detroit Jacket Blanket Lined Duck Canvas Black Mens Medium",
+      "subtitle": "Size M \u00b7",
+      "link": "https://www.ebay.com/itm/287695017534?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWCPTYHCF3HVJDW5QE0&hash=item42fbf5963e%3Ag%3AeLUAAeSwD2Fq5kLj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8S7BwWpmKqvk45PKqhdI4ntKQMLkjWMbnTryVe5D1rP72dhBw8Qv9vKOjCYwjgiSe46TEp57qZyqQc%2FLRVCPZKG2z5QsjUB71pHkmavls9vUrmRpHiJY2EczS78w3HmxFoOD0VAdq0o9fsGPdUYCQy8whjz2O0g%2FQXx6dmr1Ccz2JzBDsO77zZKzj3VRZtVA%2B9RKL7KqXLOUQ%2BjgEp74m2XLyD38E%2BUNXhxpjR8ku%2FWLtgChwhCgPyaafjumycSemz7nTaiJ5zgzpXzRQ5Gwn2LPIjvNCtj7wMqZNO5%2BGMRlEHGhqGNUB0c12skWaNRCo%3D%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287695017534",
+      "product_id": "287695017534",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "watchers": "15 watchers",
+      "extracted_watchers": 15,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/eLUAAeSwD2Fq5kLj/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt J97 Detroit Jacket DKB (Dark Brown) - Size: Small. Made in USA",
+      "subtitle": "Size S",
+      "link": "https://www.ebay.com/itm/168816637640?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWC6GAV8NB5EDXRPW2Q&hash=item274e4176c8%3Ag%3AsucAAeSwfvxq3qCY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9LMzX3JH7To60VPIDWybAU22kjdPrPWTkDGKR0tEzlCszK0ZrtMmC5OB%2FoIVtvv73AZQsBEyfHIxwbzAlHBdXlQPspmt4dpGBqGw49z0bFSKPbK2EKljNQelwiFqRt9EL5gHzrJQrsJzw8K5W6ZS8z0dBioINKLi9ttpUVw4cI0ra7JFBI5oo3glHG5C2rJ01NWZFbqyyzn3CrdtOU2%2FPhii6HD6tdCU4nt6yhn%2FPwrchd3fVzwsBvwY63zgaUtq8JmkEBCg5BxrvRboBDMpnc73tdJxWTnC7c7AxzcOlPZTghvkPf2qbKdK3jXUI0Tlc%3D%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168816637640",
+      "product_id": "168816637640",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$715.61",
+        "extracted": 715.61
+      },
+      "shipping": {
+        "raw": "+$32.49 delivery\nImport fees due prior to delivery",
+        "extracted": 32.49
+      },
+      "location": "Located in Canada",
+      "watchers": "19 watchers",
+      "extracted_watchers": 19,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/sucAAeSwfvxq3qCY/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Carhartt Men\u2019s Detroit J01 Blanket Lining, Size 48 Regular, from 2005!",
+      "subtitle": "Size 48 \u00b7",
+      "link": "https://www.ebay.com/itm/800554076712?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWCGKNF24RFWRJ1VS2Z&hash=itemba64bdca28%3Ag%3AhvUAAeSwiX1qi8cW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde899xLCcaMiVAUPLTNmY2kshvKmUWTs4jYqs9L6rmqePhpPLs0l5Zur%2BGVWXyTE20iYnx8sknATN464HzwDKt0KsItAdX0KN%2FWYTaGF0wEUZwP6nGsgLAVp%2FHWQJJQxxL0d2cs2Gynbr%2FaXNY0WXNPQs5dVz2%2BfSb770p6sn1%2Bk--R6yU3krVcr8T2M3v2ZjpLSIn25tcZtfoca2n0%2FM3m3OWUbbKCuvzMJhQM3tQh7MRLKBR7JSQcjouFDK6h77%2FhnF8eTfRc2vQWjTBfOkgazV76UjgSg3pspo8btpkwFIHF29OYrmAXx%2Bl71yo5IZlQ%3D%7Ctkp%3ABFBMyJ7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800554076712",
+      "product_id": "800554076712",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$185.00",
+        "extracted": 185.0
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/hvUAAeSwiX1qi8cW/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Carhartt J01 BLK Blanket Lined Black Detroit Jacket Mens Size Large",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/287659624865?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWCT36NPWTMGEJBCAAE&hash=item42f9d989a1%3Ag%3AymMAAeSwhbxq1r2K&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8nwOSGLHWpgH5h9N25KynE5WZU90I%2Bd7qk%2BmgFgoCC6H1k%2FJFEmLjBig22tJYn32gH6%2Fdc8kPH6MLo6DgbcIIKnwv5fTPf%2FF6Fah8cAWQaoKaDFestcZpAU5mV5Z2gIU%2BAXRn6BlAuMYWnDRTjydaELcucOOnc9JfSf5BEbYai56B5llpqfL8cr1vKG8%2BwMqSjMFnZHqiBk83a5b1S2mbrxF7NJLqqEl7vM2tc5o24mVeWnM99ZwJlj3cYXC%2FvRUsmkE0VgUb6l4dt9v54Mx9c5cLfWSCwYSEgzZMOlV3zdIQcUp%2Bj%2Fg8LpkA1pBkygqM%3D%7Ctkp%3ABFBMyJ7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287659624865",
+      "product_id": "287659624865",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$225.00",
+        "extracted": 225.0
+      },
+      "shipping": {
+        "raw": "+$8.91 delivery",
+        "extracted": 8.91
+      },
+      "location": "Located in United States",
+      "watchers": "23 watchers",
+      "extracted_watchers": 23,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/ymMAAeSwhbxq1r2K/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "2006 Carhartt J97 SDL (saddle) Detroit Jacket - blanket lined",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/307138454837?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWCFFCTYCATVKAZ17ZA&hash=item4782e0e535%3Ag%3As9UAAeSwTclqh8cT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BvNDs8o%2BhlrPmW2lEK05KxDTULZoQUb%2Fqb2Ud9hiv9tavpc66BZPPn9wL%2FPYno2503yF9Y7AoCkAYBOdoMNtldVFLhqCIHNZ9HvkQJTBYZQrrCGXZC4U%2FMEaxV54MBlt8zM8p3FMccGEhLWH1nPYl71521a%2Bo%2FiyhUv%2FyuVpc7VF%2FvPlDTM8Flm4cPS%2FydGMuxbCqGOOLz%2FG%2BXciaI9fdV43oPydyxj%2F95RNCRL6fAj%2BxWoWWqL932Cn9JXomUDSELzY1fwXLYUO1I%2BSt%2F2fCzvxr3wNrzfYgQfWQo711M%2BSB0FRjKw3plCAqkx1ApnkA%3D%7Ctkp%3ABFBMyJ7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307138454837",
+      "product_id": "307138454837",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$250.00",
+        "extracted": 250.0
+      },
+      "shipping": {
+        "raw": "+$12.79 delivery",
+        "extracted": 12.79
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/s9UAAeSwTclqh8cT/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Carhartt Detroit Jacket Mens 40 Large Blanket Lined Workwear Zip Up 90s",
+      "subtitle": "Size 40 \u00b7",
+      "link": "https://www.ebay.com/itm/860065787393?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWDP4CA33Q06DR029X8&hash=itemc83fea6e01%3Ag%3A8UEAAeSwdNVq1l4A&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9PDcNP7CPbeZVDMtsu%2Bgs%2Fmzyqt9SgHvoMgxKY%2Btm73XCTc44e3FY4QV7uc4vAszMJbtFIL%2Bjr1n8ih7EWGAhXkOXN0eZhwLGCdJUvWiIF2VxckVAoHBXmhKrtKn1YjQbfLQgS8sgGP1i36SHx2Onb0E%2BxglZtIGke19Jmj3KVl5qBazXNymPYpYdLqqRI6VqTicZ5de7KLy0PNEfVci7GiYSUEReQp%2FiB6Jr4AobnayJAxGQVpOc3R%2FkjzMrTU9aC8vyVtqqsdkAmXw8D%2BtSlsHxNjiqskZ0sw%2BJn6o75l%2BG7b1R5VlpcxCrgPY3UDm0%3D%7Ctkp%3ABFBMyJ7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860065787393",
+      "product_id": "860065787393",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$219.98",
+        "extracted": 219.98
+      },
+      "shipping": {
+        "raw": "+$9.49 delivery",
+        "extracted": 9.49
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "14 watchers",
+      "extracted_watchers": 14,
+      "promotion": "$197.98 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/8UEAAeSwdNVq1l4A/s-l500.webp"
+    },
+    {
+      "title": "vintage carhartt j97 ptl detroit jacket size men\u2019s xl flaws pictured",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/960137671853?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWDN3XRFJH9F3W0VJZH&hash=itemdf8caa34ad%3Ag%3Aoe8AAeSwc8Nq5jD0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9IIoW%2FGJXU%2FHBVbjK8ZlSSpyoIi75i7jNWJyPXXuShQx9JcjeMveuoQNzmIPvKFqPfBJio7G2L2rfq4VrwgJPZVnv2CJb97edSICxyat%2BpmH9X0WAH1l5uE942k80uIr%2BHMOnFVsNgVNAUlatOv2%2F4mnSMw7tJNMSRxL4yRHFauQxOyVNSZNamD6CRSr64QZgfUbyMEblkHA49anRrm0TOjJToUCu50FBKbhlzF22DBgd9NHTDuRBlVCL1vHamYGwGQfrvAW1WRWa2k2AKD8Zo%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960137671853",
+      "product_id": "960137671853",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$225.00",
+        "extracted": 225.0
+      },
+      "shipping": {
+        "raw": "+$17.21 delivery",
+        "extracted": 17.21
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/oe8AAeSwc8Nq5jD0/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt J01 Blanket Lined Detroit Jacket Distressed Faded USA BLK Sz 44",
+      "subtitle": "Size 44 \u00b7",
+      "link": "https://www.ebay.com/itm/287693579551?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWDHJ49H0J0ARMQ948Z&hash=item42fbdfa51f%3Ag%3ARwEAAeSweZpq5XM0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BsJlqgLrYFoy9YE9yMRzJxoX3OMbW4hX4m6ftHrJSU%2BVZeW5VkrCYwKWIGwigZ4LoaT9lEautzwe9VhnRzFvhRrz%2F%2BiT8usHhle%2BTQ8Qsx%2FEgiM2IEDmc%2B3DqKp%2F1PA95CZL6450ptm13uV3warV%2BSy3oJBE8PTvmZbsNf6CB94w1vmPBwgLoBlu5acfBLM95im7ZCzxC8E1IoUOVKrtTA3JrtrZ%2BWdrkuvwkaJ%2Favtqn4GNGQde%2FWWFgqDn4GdcG5fHnNz5MRBGEG1K%2BV8rZS%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287693579551",
+      "product_id": "287693579551",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$175.00",
+        "extracted": 175.0
+      },
+      "shipping": {
+        "raw": "+$25.65 delivery",
+        "extracted": 25.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/RwEAAeSweZpq5XM0/s-l500.webp"
+    },
+    {
+      "title": "Carhartt WIP Detroit Jacket Men's M Brown Cotton Canvas Full Zip Lined",
+      "subtitle": "Size M \u00b7",
+      "link": "https://www.ebay.com/itm/366768584916?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWDF9FJ6KYGWREM3DMR&hash=item55651c78d4%3Ag%3AC2kAAeSw65tq4xZ1&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9zuJuKehPpESp7VVvfToZ2tRVwTJTWOuTYmWg3qCB7VNZso9MyIXEhoBhALEepemYhDDGNFmFqZp8DTrDPyxXkznNdXPCMJ6dl7Gm4KyWJAo7YMkQZBJqvVe9XR1%2FRpFwOHX3748hUgH%2FZGIUJdnFW5laLbLXU861faNz%2BKvDYjLYwzdBdUn3YlOYny40kB4Vm6z3nEa8EuJ13qTZ6IUScqM3cP9dsgRxMlMRfomgWQYJWg18hN18XYhtChRSy9lkuLOqVrJjfmkbMECYN3ZUJ%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366768584916",
+      "product_id": "366768584916",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$220.00",
+        "extracted": 220.0
+      },
+      "shipping": {
+        "raw": "+$6.92 delivery",
+        "extracted": 6.92
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "extensions": [
+        "Authenticity Guarantee"
+      ],
+      "thumbnail": "https://i.ebayimg.com/images/g/C2kAAeSw65tq4xZ1/s-l500.webp"
+    },
+    {
+      "title": "Vintage Hunter Green Carhartt Detroit Jacket Size Large Tall",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/377606874458?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWDZ0HBQEEFWZA72YMD&hash=item57eb1fa55a%3Ag%3A-nkAAeSwXWVq49Kf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8uswmxS6gM3ZFZ2NuyWaNzY50NeuCX%2FfltpuaLv%2FDNMVUIHvICP4lHGZsYBT1zaNxmkhWzfqaHwZFf%2BFSvCd01K5RzmAhvQeCKMgp13F2ysRKnSM5J8obKuiPG573dlnIgUlRtMiX2EPQLuVrtusoljM%2FZQn1k3%2BtA2WQaI0YQlnnlL4xjShO%2Fpo5QGCxM37PjlBgdbdMAQYpbaO8Y9HDHFjMOTHvK5nDSNBu3MKX6Q2l2tRPSAjNTwubmbaZ%2FnkybInpqv2rOjnTvDbd4IO%2BgiU37ruJJarG9DwgK5%2BpnX%2BhSAHkULJ%2F3RbM3OFwzigo%3D%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377606874458",
+      "product_id": "377606874458",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$700.00",
+        "extracted": 700.0
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/-nkAAeSwXWVq49Kf/s-l500.webp"
+    },
+    {
+      "title": "Carhartt J001-BRN Detroit Jacket Large Tall Near Perfect Condition 2018",
+      "subtitle": "Size LT \u00b7",
+      "link": "https://www.ebay.com/itm/257817520509?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWD8E9AF007QCQ7AHNV&hash=item3c071f297d%3Ag%3A6EIAAeSwpgRq3nCu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FW8LLTt%2FbIPTafw0ARQKbsRt7sdh0p1LK8Ef0349gf2Uk2j%2BP5V24y7Ejrq0Tn6DPjl91%2FXk3EVvfuWv8%2BAN%2B7%2Bxr3cX3Vamcek0pUKW9lPDoPXeOsUMV4y5tdsifkPKNtQG9cD9ZvMI3oPpo5M51FXAV80wKRPbtLlyPv%2FnOthCNUjrgAlSbcVTf2AuTIgJDP84mR32OfLdHyd2%2FbtYJ4HH5A%2FAKGBzjV17w6gQFRml2spcwG03q8tE6h3TI%2B4i%2BuI8hizXTPwS%2Fqhp1UxMGRiVnG9mM%2Bn6J8DAW4cji3NQJLctd8Gzfc3Jo3Td7lT5c%3D%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257817520509",
+      "product_id": "257817520509",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$450.00",
+        "extracted": 450.0
+      },
+      "shipping": {
+        "raw": "+$15.09 delivery",
+        "extracted": 15.09
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/6EIAAeSwpgRq3nCu/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Detroit Men's Brown Canvas Cotton Lined Full Zip Jacket Size L",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/237147687574?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWD4GFWYCD9H1NX71DM&hash=item37371a8a96%3Ag%3AZwkAAeSwZe5q3wVn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVFGw2ZshcE3amPLyLP1PG%2FoiyIQnXp07SvSY1Tc31zV8aCa%2BHguKyPK4mPYV%2FwiZAkGpMlOqaHNeB7uerxEhXWsP8HcVa4dOPHb4REI4scvg3KYDBkvbaVftFidSVzBNAnxoYnXg5UtUS2jFgh0z8SLsqhyYCgj%2FB%2BLqZGcY%2BGHKuCyeAwyQ8e2wjSPo3kO5YSw1c963Fwn7EdViwRvC55f%2FeStgNDr6elmZ1MsHYT3nZMYMrWg095uTMNz1%2BiX3ID3XwUnWMe1vRBuGAISN%2BDItXq5tdF4Pokz2tnyuF3auRebzk69Det0%2B%2F6yom8S0%3D%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=237147687574",
+      "product_id": "237147687574",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$110.00",
+        "extracted": 110.0
+      },
+      "shipping": {
+        "raw": "+$7.61 delivery",
+        "extracted": 7.61
+      },
+      "location": "Located in United States",
+      "watchers": "20 watchers",
+      "extracted_watchers": 20,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZwkAAeSwZe5q3wVn/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt Detroit Jacket Mens Large Black Blanket Lined USA Made J001",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/840069492908?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWEV1R41JT4VZD8N726&hash=itemc3980b30ac%3Ag%3AQhoAAeSwFiVq4mQM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fx4ux6CwPiK12OG%2BEPFWNULD6f9WVTSGr9576TE9aY%2FbEy0C7CwOQ4WREFL4UcGZxeCv9BlORH1g2fZQE6j8QbsD9SLqq6RAFe0Uo7XeRyVLPIYHDaQUTju9odGJxs0V7p5aV8bSBjf9E7ohkrZJclMOtLmP1bq1o3tgj%2BkozFju5NZFZU6FBfwA%2FZb1KCMptL0qYlqxo8%2BNlkbldZ13zRYEqTBOjMG4qSJe%2FAZka8o9hfp%2FIlAysvQZDmH88AwbiZWjPVAglZJrVuWR73FKVh%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840069492908",
+      "product_id": "840069492908",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$280.00",
+        "extracted": 280.0
+      },
+      "shipping": {
+        "raw": "+$12.04 delivery",
+        "extracted": 12.04
+      },
+      "location": "Located in United States",
+      "watchers": "26 watchers",
+      "extracted_watchers": 26,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/QhoAAeSwFiVq4mQM/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Detroit jacket J01 BRN - Blanket Lined",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/168818205493?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWED0A9S7SDBMA1810N&hash=item274e596335%3Ag%3AHAsAAeSwQPhq34ub&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8rWS7tU0PQ0dW3JpxYCopwG48tcVc5wvCHSKzmpflKrEH4dXdQHbarOZ1bDmY5doHXEtBgcvS7IcCgkHHt6mpHagb862jWFi6JhvQ8OgtxPdnmXhmeP3pfcEDlmkJgsoBK4NOHZw5zNTObOovVeIMsy%2F29sU0FAmhlkszON4t5rZk3mxdNWgbbLzn2AP4o%2BqgVOEl%2F7NLkJ3%2BuaQAzlcBJ36w4m0heTETnT2lf7tYpCYR1l6qf3X5%2BXK%2B8VDckXNDNITeZD1Dtjzpgt4xR34Io%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168818205493",
+      "product_id": "168818205493",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$115.00",
+        "extracted": 115.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/HAsAAeSwQPhq34ub/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt J97 Detroit Jacket Youth XL/Mens Small",
+      "subtitle": "Size S \u00b7",
+      "link": "https://www.ebay.com/itm/206666426196?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWE72RC09FPQQDVQWHV&hash=item301e476754%3Ag%3Aod8AAeSwEohq5mfy&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9ZDssWl%2FRoqjzuUqgQ%2BTCgy5pfc0bkgPsHPP2scUw1MANd6lj6D24yuq8xWfOIyoLcXzKUDj3Xwl3I%2BpzNnFBGmkM8%2FV%2B4Ufmp2qcw58Rl4YHLJlBziwez7dG%2Bw4iEzLLNanT1U96ysMomrzg5BoQIQZdqZkuBUYWTaGCzbYCBY6UC3%2BuD%2Bm%2BQ%2BTd%2B31wkhgFpiAUBq3TZ0xcl2OPEHoS8lFldrpY9%2FyL1O4gjFNY8zQF%2BGJtuQy2HbjpdykcAHbfZFtYiw8Rf856%2F6uJRan2H%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=206666426196",
+      "product_id": "206666426196",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$230.00",
+        "extracted": 230.0
+      },
+      "shipping": {
+        "raw": "+$11.24 delivery",
+        "extracted": 11.24
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/od8AAeSwEohq5mfy/s-l500.webp"
+    },
+    {
+      "title": "Carhartt J001 Detroit Jacket Large Tall LT",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/900048233759?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWE50Z56GPH5TQFMACD&hash=itemd18f0e251f%3Ag%3ASzUAAeSw4NFq4vtt&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde89EJMLT4vVi3%2Fe%2F2yoMPZ1%2BZZfte2RwRmUdtdJaGeeP%2BoJ0jAEsLpRRYR2OklgdX%2Bh%2FtPDWZ8%2BRjMBc%2Ftdu3E6DdlrnJuQDdtR9yAk4fsPh5qcSdd2xzR6bzm%2FO0Q24m3usz1AcbjpJd3GifDQwBzGfVGXdeVChQ0QW8MpOlWqf1%2FcbTiJARdsg9OXlEkqf3aChNfvL9t2vLg0B0zVYE12jQ0XR8YXA7ieF6Qi2sMdxB8%2Fm8%2B8Dv7itcFRADNDuOysAI%2FDGIZ%2FmRHz7IPQpBPX%7Ctkp%3ABk9SR8ie19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900048233759",
+      "product_id": "900048233759",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$280.00",
+        "extracted": 280.0
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/SzUAAeSw4NFq4vtt/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt Distressed J141 BLK Detroit Size L Sherpa Lined Hooded Jacket",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/800831621245?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWE4VAFFXZXABZAS9QX&hash=itemba7548c87d%3Ag%3ACWUAAeSwfYdq3CL3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BPRMoio1hAD5EdCbayTQqI0AOUmOc%2BKuBRR0PQHY7FBGk4ZCGlunHJ4ufTOfkDDotWrnwGTHoHUpjCa3q%2FpC6DvPxMKTjxoLjaLl6cY5EQFOL%2BqPq8HYG%2BlS43TBvRPPqOPLU5fKuIIFmdLVMD0lRvKy58u%2F6rVG5KCjNoBEThDarcdc%2F4BIkURAzrDqZQc4PrMdjmIrRBwZfumwmsJO49clPmSNtwHVtjLT6wsx3d3a9aavuaciZaHzBWwp0DMcV32ZbK9ngl1ivxamXZOjL8%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800831621245",
+      "product_id": "800831621245",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$179.99",
+        "extracted": 179.99
+      },
+      "shipping": {
+        "raw": "+$9.66 delivery",
+        "extracted": 9.66
+      },
+      "location": "Located in United States",
+      "watchers": "12 watchers",
+      "extracted_watchers": 12,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/CWUAAeSwfYdq3CL3/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt J97 PTL Gray Detroit Jacket Mens XL Amazing Condition",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/820281270881?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWEY79CQT8QCNC28PQJ&hash=itembefc92e261%3Ag%3AVmUAAeSwVnJq3-pg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8JbtOGD2niw2n3LS7Vk9Vnqx3PZ5%2BYNS0F7n9E0or2N1INVy637vr5ASXp%2B6fSAK62sSoGVXg%2B1%2BR8PVZ9cWyU73J7Zm1P8lMF1t0CDsn1wEpX5dET4Eh40F6Eq9w8wS7AjjVwrYwsjNDtpODEX46XXD4sYWSAKvJaT3LkyWeUTHgPEXsM5DieB05DV0ADep3X9blq1gyDVif5vnesnErmccpV%2FxCA9xX3iSPrPmXXuOnUkqTeGLAPlD9moE39ImZ50hCBg%2F7QDrWNUIi7tfjV5kE7pQ4NiOl52aZjRRgpCIy6gin57XbkPjGAcxFr%2Bo8%3D%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820281270881",
+      "product_id": "820281270881",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$400.00",
+        "extracted": 400.0
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "watchers": "10 watchers",
+      "extracted_watchers": 10,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/VmUAAeSwVnJq3-pg/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Carhartt Detroit Jacket Men 46 Tall Black Blanket Lined J01 Heavy Duty",
+      "subtitle": "Big & Tall 46",
+      "link": "https://www.ebay.com/itm/147653195183?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWFWA47661XHKK7S1BF&hash=item2260d0f5af%3Ag%3A%7E6IAAeSwpgRq3hXs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9D0ylJW2OvFaHwMLExwQmUbpqryJLAD6GP9CLww9SGxEDUB68gGeMJ1GYqOAeDkiWuMkZASWFx9VEyKA46QV2LMko0LiBczRUFWTf%2F0%2B3TpWbxa%2B%2Bfi%2FOFZ3Cz7xCEFpKTcOFeh01e2lfQKetUdvcK5HdBJ2BOFA46rhmXWJyqpbHjomw3I%2FTS9mnppbhP0Qbpnpsf2QA5tGs1JaGsxRZwKl7D%2FDIMeNdRO53jwFpZRDHUgaRZjDPi7lwi3HPvKL%2FlcBFFzx86gQtacdLp2pNudEAaRSRGWfGmV3Z3MCXZqPGbt4MP6tdeeAUFQYKCxC0%3D%7Ctkp%3ABFBMyp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147653195183",
+      "product_id": "147653195183",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$249.99",
+        "extracted": 249.99
+      },
+      "shipping": {
+        "raw": "+$14.99 delivery",
+        "extracted": 14.99
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/~6IAAeSwpgRq3hXs/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Carhartt Jacket L J165 MOS Green Detroit Corduroy Collar USA Distressed",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/147652990289?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWFAR3SMW0605XW9TA2&hash=item2260cdd551%3Ag%3AfzQAAeSwJRhq360l&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8bpbiyI0EebMPF0AndWhz0JgfImsSEDhG7acriJ2ZxPubqM1aFE0%2Fey6hXu%2BwggJM29gQb0wp%2B4hiFxdICFp3LFQ9qiifENNYKQP63cCV44Uoem8i7Dgiug7ClMmPzZHpCZUSJVK1FuX6G8NUGrQThDDN5jQ0MuJB08b2pDeJvuDei0Q6NKyhTlAVEY3vCOUYLZjtbAZ2DCcnVno8Qn9VNQGfPUAnNvdfiUki5w6Zf4hK388r%2Fu1%2FsiPuahtxQwC7KmvHMm58zuNFKOrqZso9NOjhMhJwi1aowB8NADybT5g%3D%3D%7Ctkp%3ABFBMyp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147652990289",
+      "product_id": "147652990289",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$200.00",
+        "extracted": 200.0
+      },
+      "shipping": {
+        "raw": "+$7.95 delivery",
+        "extracted": 7.95
+      },
+      "location": "Located in United States",
+      "watchers": "10 watchers",
+      "extracted_watchers": 10,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/fzQAAeSwJRhq360l/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Carhartt Detroit Jacket Mens 52 Tall Tan Canvas J01 Coat Workwear USA Vintage",
+      "subtitle": "Big & Tall 52 \u00b7",
+      "link": "https://www.ebay.com/itm/820102859978?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWFBBK9EBFCEY0X0GT1&hash=itembef1f08cca%3Ag%3AVYkAAeSwFJZqjdxE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVcKmje9bQ%2B52Gelbt7kVzBFeAtwoh%2Br8XMOKz2Ht278WXeNraBrCFt3Tz98EqJXRoaxOT22mlzc6wXfJFyhylCiMCyVmAIs78PAXS9bNBYKzFvrDaRMtzJuI6RdePjHuMJaGvGonKjM2N7BpusUet2wEnybdDdJN8bqrCeQWWvlwJhOfRxxmwowEVVQZd84MH08EZnlC0ZEc3jXWAvejKKj4NGANGbFZPV8dkCpdZ72hjNck4cksWU0hMyAaUHewMUm%2BOPjk1lERQ79%2F21FS%2B1JAS%2Bt02W6B3c%2FkNppv7vcaVnYKSb0yxkwo8FvCqNCw%3D%7Ctkp%3ABFBMyp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820102859978",
+      "product_id": "820102859978",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$169.99",
+        "extracted": 169.99
+      },
+      "shipping": {
+        "raw": "+$12.88 delivery in 2-4 days",
+        "extracted": 12.88
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "top_rated": true,
+      "thumbnail": "https://i.ebayimg.com/images/g/VYkAAeSwFJZqjdxE/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Y2K CARHARTT J97 48 XL SDL Brown Canvas Blanket Lined Work Detroit Jacket EUC",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/820211538468?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWF0Y0KFNRCM84J78FB&hash=itembef86ada24%3Ag%3AJvsAAeSwQ6JqxWO1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9aCuHwkNY66GVP2mfo0GmFxLs5UV1UkeeJkddb7er%2B%2FQmWZXcY5NT7HrIFD3s1mijPDsSY0QD3vtGAb8W3ofQ%2Fugt0UjgoqZxlYo0%2BQDbsEqUXyQcEMI8CXGPKZfQNjGnJgVJsAkLu1VjNStl0MHsl478bk5C3yJ54f3Z9N%2B3hjCsm9yzDhlxU93s%2FKv2ZJAaN5fw6u9tVNKXL93GXgCpFpyABic%2Fic6DJGwW3jT8HubXONITAjjw2m7nuADsBN%2BZVRqsIKkzUUaidMcPHXGwqPo%2FfzGAxAY2y1Ijz93474HO7HmO%2FSMlC05V%2FQH3PU04%3D%7Ctkp%3ABFBMyp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820211538468",
+      "product_id": "820211538468",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$199.99",
+        "extracted": 199.99
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "promotion": "$179.99 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/JvsAAeSwQ6JqxWO1/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt Detroit Jacket Moss Green Blanket Lined J97 MOS Size Large Tall",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/377597533939?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWFX4ZA15XBZQAZSEXX&hash=item57ea911ef3%3Ag%3ASsgAAeSwZAxq3qnR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BmQcm7whLoR7OMg29kGRRYAry5arZ8hHsXOpJwRnY3OsBIdMeMEayc%2FHUIicHtoKJCgd4zxyDiaDwkYoGU7IAzFE2XF0YaBvlpvqecRh36eZ3qkM%2BdgYl7RaW5w6eDLdwCoPJ4PzMrc5ezVfaWlZtML8CH9qP%2FPJtQZMax9M9iKe7Bx5xFB9gQ%2F7sIaHAea0BZQiq3dRjZhVtC7PKtV7fN6WCA8O2nlbAk31mW4il%2FaBsiSRWbZqZA%2FRso3LgT2jAMJGH85pC6%2FFmD6RjJCQsgeWRMmp8phPwLUcSxgtSt7PcXqm0rD5x7wR%2FVPPIq9xA%3D%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377597533939",
+      "product_id": "377597533939",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$360.00",
+        "extracted": 360.0
+      },
+      "shipping": {
+        "raw": "+$30.00 delivery\nImport fees due prior to delivery",
+        "extracted": 30.0
+      },
+      "location": "Located in Australia",
+      "watchers": "15 watchers",
+      "extracted_watchers": 15,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/SsgAAeSwZAxq3qnR/s-l500.webp"
+    },
+    {
+      "title": "Vintage 90s Carhartt J01 Detroit Jacket Custom Dyed Green USA Made Blanket Lined",
+      "subtitle": "Size M \u00b7",
+      "link": "https://www.ebay.com/itm/267828369272?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWFWNBRBBBWSYZA4VDV&hash=item3e5bd09778%3Ag%3AHekAAeSwoP9q5OKC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hmZAwrFaDiOvEJiNwu%2BXxQedGQdjg3UFmL70J40bR4OBKEteliFrOEHsMfLQOejliTZhf2EM7GRPH5POcQ9L%2FSvqZv7UoLbF%2FP78kSBRDRFHV7z3KwhLHrkWtVps2IuIR%2FxMReGfN1a5g5tuwf6oAGFuxG4Kqojq%2Bn4zQvntBLw%2By6kI9VVw0oy9dw%2BkCgHkWfjh4wvDWIBCvGiCKivhKBqLi6VO%2BIQxUeXL9gQoRBobr55queUwzACxtXRVa42K9KGpnTejteccI5NOiLxttcnGRvjfZY2QaXSqzP8KOiSnpT0YymCzK5fc4IJ576%2FQ%3D%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267828369272",
+      "product_id": "267828369272",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$264.00",
+        "extracted": 264.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "watchers": "26 watchers",
+      "extracted_watchers": 26,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/HekAAeSwoP9q5OKC/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Men's Detroit Jacket Size Small Blanket Lining",
+      "subtitle": "Size S \u00b7",
+      "link": "https://www.ebay.com/itm/960138308999?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWFSEMWDSRZ0QFTTT7A&hash=itemdf8cb3ed87%3Ag%3AMHwAAeSwWx9q5kw%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BDx%2FI9r2BgFpn%2BjW7Lpvz1zDDYFW4SDOL7xvls2KXjmnTygzAKyqdSeb363Ad%2BawmaFGT2rBT9fwW7KdCwiHnU35WWMF4lYS9%2F7JEChni5g0vxgEZsNcb%2BJbWLamBHBQ%2FEHZYGUqPXi%2BPwikulV4WzLJ7OhoU5ChsJbuk0yZfS6bZejobiBRxp6mJ2lqqWJyiRMSr5NDYOl4SgHx85iitf%2FUvgLMSy%2BAiAo%2FQh5068WxJPrG%2FoL0ovMwxbbK8bltYlYb0p%2BE1K3Fuaj4qZetn0%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960138308999",
+      "product_id": "960138308999",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$110.00",
+        "extracted": 110.0
+      },
+      "shipping": {
+        "raw": "+$8.07 delivery",
+        "extracted": 8.07
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/MHwAAeSwWx9q5kw~/s-l500.webp"
+    },
+    {
+      "title": "vintage y2k green hooded detroit carhartt jacket",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/800861401802?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWGF96AD7BXQARGJKBS&hash=itemba770f32ca%3Ag%3A2GsAAeSwL3Rq5q6b&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FpGaoC%2Fcty4yl%2BZdzMb5orB9RQyFkZ%2Bx2haiK2vIuJ8qJxpDEUzdnoJC3%2FJOqya4H0Wal7M0YR2zYdUNXBKX31i1HfgPlngxgk9Zb0nC1xFeFM6BDBsByGxNQcQDzxAFo2SqCrG0hmGjQKA5RrFpN0VbmB8ZI1zodms7Z0Au9am4GCgIrw1LzZuYLGHhzOyxRC7rHaZPcbyb9sWtL0Ux82kZ%2Bfuv8JS2eNa59jmWz5tKzibacJyqlt%2BXOl2wFmbZczpOL%2FoR4rCyyHTTDsXCIC%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800861401802",
+      "product_id": "800861401802",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$150.00",
+        "extracted": 150.0
+      },
+      "shipping": {
+        "raw": "+$10.31 delivery",
+        "extracted": 10.31
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/2GsAAeSwL3Rq5q6b/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt Detroit Jacket, J97 PTL, Blanket Lined, Sz L",
+      "subtitle": "Size L \u00b7",
+      "link": "https://www.ebay.com/itm/880068331486?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWGVZV6ZN8XBPC71WFW&hash=itemcce82907de%3Ag%3AqcwAAeSw9%7Epq4Wqb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde91hpy0NUzT6ptzspcQg6yhW%2BmYQj%2BZgQVPVBsv7mApIgHaS%2FZ9VTpqVzqi%2FUJfr79ZlJ1P8tZE8PEaCtjGnzHYd3N%2B0krWtz0OyNUaOEwgkZfFEzahTo54zJ1vO5q8wHIsFXocUsV3ZaULEdqBtYVq6%2B%2BPoYCjnRZ8XOuyc09CXFtFI81CcLM1JJJKiAx%2BQBUyU91sKtrU60mlhzE4kn65bLMsNMiWp3qTGGtD7mML--TonVvGbPyEeK5RAjRKAIBK5DZLhaxjWnmEL7X59o9BZ26KR2iN%2BrkKU1sR1DY6McTxlhuVrTazsfBnHN5NM%2BE%3D%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880068331486",
+      "product_id": "880068331486",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$315.00",
+        "extracted": 315.0
+      },
+      "shipping": {
+        "raw": "+$10.69 delivery",
+        "extracted": 10.69
+      },
+      "location": "Located in United States",
+      "watchers": "10 watchers",
+      "extracted_watchers": 10,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/qcwAAeSw9~pq4Wqb/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt J97 CHT Detroit Jacket Small Sun Faded Patina Rare U.S.A",
+      "subtitle": "Size S \u00b7",
+      "link": "https://www.ebay.com/itm/267829123747?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWGX39SDEDGK53YF8B6&hash=item3e5bdc1aa3%3Ag%3Avy0AAeSwOZxq5iSa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bpo7txf97PEpjIWGJd9kXRUXhJlw%2F7rP6INi585bYcJZA%2F92aXqXjP%2FHJM4WTRIAJ6gOtO4VkHoD7fyvQs4nnDSCwt5XN5qFiXVtOWfEfUjbxqRBXhLFgyto%2B8yq1%2BbhFmPAzDzSBtZCpK65LcvDvbhkHKVp0b93fqzuwG8bRwKo6ijqMQMlyc%2FI9mjEualmGL2B3jA2toqiR4sz3FSU00MTMMvVE%2FuBBZ4KuwBWWXEeE5KiXFXvjTLt7HLoiUV%2F%2BXUn52ZNdxjEX7zo71Xet6YfCFFwmkhqfnw9vSsRM00LVnKn0%2BOTJU1IR29Wefmqo%3D%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267829123747",
+      "product_id": "267829123747",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$649.99",
+        "extracted": 649.99
+      },
+      "shipping": {
+        "raw": "+$10.77 delivery",
+        "extracted": 10.77
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/vy0AAeSwOZxq5iSa/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Carhartt Detroit Men\u2019s Jacket J01 Model Size 44 Regular Distressed Worn",
+      "subtitle": "Size 44 \u00b7",
+      "link": "https://www.ebay.com/itm/800814952917?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWGX417B6YE7SRN5ZWR&hash=itemba744a71d5%3Ag%3ARM0AAeSwVaBq1qfl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9mMf9HGpEqgvXM0l%2BXZgM0qAKRTpKZKVz28RtlbbXo2gkchTyrqXfwn96oJRmE87jLkMHVBK2I%2BavKL5aPB5Nox10UbEDry%2BcBgbhxwvun48eB1tabhRTuJ%2BXewBLDl%2FxclpuoMMko6BMjiiGoJVsnQerI%2F%2B9wVAyVcQ7hvrdaY752RN%2FOiqVD8S5%2FEfOp9X5KVTEaNYQNUNTSOm4xdkOxpOL%2FOE97ibFW9U6L8YsfRctouaOtt8ytKLSKzQ8M045ueAN--EvdEKMihVGvgcunZmQUsl6lsNRiVmwy8dR9jV24%2BRm%2BbtZXZkfF3MkAA5U%3D%7Ctkp%3ABFBMyp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800814952917",
+      "product_id": "800814952917",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$175.00",
+        "extracted": 175.0
+      },
+      "shipping": {
+        "raw": "+$12.04 delivery",
+        "extracted": 12.04
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/RM0AAeSwVaBq1qfl/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Vintage Carhartt Detroit Jacket Blanket Lined USA Union Made Men\u2019s 48 Regular XL",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/820038525024?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWG7RFYDNRPX7QG3XHG&hash=itembeee1ae060%3Ag%3AUk0AAeSwu3Zqi0bg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FSkASzAG5etfOM3gJzieSVl0FzDKWu40lSA%2B5SFYIu3s3T9fFN6w7i%2FhCwuXIx%2BKn2fx7dgv9JoVOo52%2BikrfIrMWax8ksKZ05YcTQfMkwJlC4%2BIxANnBtEw1U%2B2Pugd3RwU%2FxzZ3mGMfF77R39JPRj8uCKdVbGSqKVT%2BTk4gP%2Fu%2F2H7HJYm%2BnWSWDU8esKA1jnebX5DQBHNSjW3bItr3VQ%2Bapvvw%2BxoMIBDZbbcgWfatXtkPxD6DO0UAFYnqvy5pzOE6PgxEHYRiYPPa0NqLV%2FlD16Afd5Li5iTKsnWnIzNEKoLNzMpvLkiYWgPJ%2BGdg%3D%7Ctkp%3ABFBMyp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820038525024",
+      "product_id": "820038525024",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$165.00",
+        "extracted": 165.0
+      },
+      "shipping": {
+        "raw": "+$14.36 delivery",
+        "extracted": 14.36
+      },
+      "location": "Located in United States",
+      "watchers": "11 watchers",
+      "extracted_watchers": 11,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Uk0AAeSwu3Zqi0bg/s-l500.webp"
+    },
+    {
+      "title": "Carhartt J97 CML Detroit Jacket Camel Brown Duck Canvas Blanket Lined Medium",
+      "subtitle": "Size M \u00b7",
+      "link": "https://www.ebay.com/itm/168827882930?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWGK6K2FE5FHYHAYVVV&hash=item274eed0db2%3Ag%3AVA8AAeSwWWtq5WDv&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8SopsXt0INJQN5Am9WbXS0tLaeJwjsnTXL%2B%2F1S%2Feu7A7I5sFQEfMJFk0ZUO0XxLcc%2F9ZtBPS2Gx8VfA9xsYPj3%2F5nvAeOS4f9BdKJ3kag5r8pjyyJIpDONJCH3zL9MixqLeaZguNtPyofJTiUeFpbwu1Ev5SKiL3o9MFlN0rVsaJFd9eigaf9qb8%2BMx%2BZca1UET2JqCdIOmstzn6l4LFDBCyCVdcIGdlJJ%2BD3HnvNJ4uWkScokrLu6ydAFGaBKrwI%3D%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168827882930",
+      "product_id": "168827882930",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$250.00",
+        "extracted": 250.0
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "watchers": "12 watchers",
+      "extracted_watchers": 12,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/VA8AAeSwWWtq5WDv/s-l500.webp"
+    },
+    {
+      "title": "Carhartt J001 DETROIT Zip-up aztec Jacket Acid Painted Design One Of One Size M",
+      "subtitle": "Size M \u00b7",
+      "link": "https://www.ebay.com/itm/940043796586?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWGK879PK73KNHDNHXP&hash=itemdadefa006a%3Ag%3AJzoAAeSwbTpq38U-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F7uq2WuoZ%2FlugE0jlHlQYP%2FWcNFgKtkPXwRICgUfCLr4x1%2Fh0Z6Ro%2BHDr%2FESzhNHHw5HO2O%2Bfg6nc8PKRICTDqYHdDJ%2Fg02Bog%2Bt6Y28rvGETNBYlUba3S2jKAiZhOo3X--xrvdM%2F6250Mxvuiqc9MHP4I4KkepMzle6vFn3EZWF2ooML57T69svv2GdS9U%2By66zAwf83pgYuIaZwYPsLtebNEiEIIjtedVXbhslP93Fe5MiFGx6CG4kdJk4%2Fq4tl5ajtY4nRRVteGXPtA49b3j8Ps7lLjlFgo3gj%2Fve6vzFXP70RGKAka9%2ByGwoWqBJM%3D%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940043796586",
+      "product_id": "940043796586",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$262.00",
+        "extracted": 262.0
+      },
+      "shipping": {
+        "raw": "+$13.89 delivery",
+        "extracted": 13.89
+      },
+      "location": "Located in United States",
+      "watchers": "30 watchers",
+      "extracted_watchers": 30,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/JzoAAeSwbTpq38U-/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt Detroit Jacket Mens 42 Reg Blanket Lining J01 BRN Distressed",
+      "subtitle": "Size 42 \u00b7",
+      "link": "https://www.ebay.com/itm/880066793646?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWHHR8SCH5SXCAV2DDH&hash=itemcce81190ae%3Ag%3A5rcAAeSw-CVq5UxB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8wKsTk0ZNhLYHfmc0PPKvJh3qPYR1HZLtUTCs2ec81P7OCmJ8kt6h%2FNF2X8LngzR%2FlZinTO%2Bl4DxG4gAUqkCSMfDn%2F2zDv%2F7HNsQFbeWyYoI9C2ixVQ3ecd%2B1VeKPEtyAtWnXo4YhNDiTN5BUiddhIplGOV6xOI4O9hunlotvOSoD0dq0xkiGJZPzzZdIkyShrxZllvNUaBlqwDhtQCS3OKiIeTLVlBxw%2B6hdysmmA92IxF414Ym%2By18UrdNHbDqQiKHFbWDekjq%2Bowez43z3T%7Ctkp%3ABk9SR8qe19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880066793646",
+      "product_id": "880066793646",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$149.99",
+        "extracted": 149.99
+      },
+      "shipping": {
+        "raw": "+$19.70 delivery",
+        "extracted": 19.7
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/5rcAAeSw-CVq5UxB/s-l500.webp"
+    },
+    {
+      "title": "Carhartt J102 TMB Mens Detroit Jacket",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/407316378594?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWH0AJP2WC6K0NJX234&hash=item5ed5f2b3e2%3Ag%3AwpsAAeSwYh9q3sV0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BOI4NdOVhWTXbYZPHOMHDJU9n29LBcIyYgqV3V8UQxkCOutl88I7OreT2ahSl1zE5Spuoby47cBzaSg6ZGf3EHvn2pcHcCRmw%2Bf5486KctuHlxm%2Brf8lDza0fVkYkAPbbFGvnCeY6VtJJoDGiI5gyJoYudHsLKu0rFoGzi3afWnnsMOnYHfprZ1fTilRwUNe5rCnJIYkSo2W17rbrdS7PEy0G64ZZGFnIlv1V%2FJ9QYFOrBYYw2zNoNFhkLmtJ5uMmzMgjQrIJQCybE30IwSiMv5q%2ByvjDq748aRAl2Vdf7jOyFEARjxTF4NDN5QDYbBNA%3D%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407316378594",
+      "product_id": "407316378594",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$215.00",
+        "extracted": 215.0
+      },
+      "shipping": {
+        "raw": "+$12.04 delivery",
+        "extracted": 12.04
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/wpsAAeSwYh9q3sV0/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Detroit J97 Mens Tan Canvas Blanket Lined Zip Front Work Jacket",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/820298185456?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWHDWZA7BCGT2ERV4MZ&hash=itembefd94faf0%3Ag%3AUR8AAeSwUbtq5UjC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F5wZF4asIhXlThDoj46LAG68Yg5iAF%2B1r4D%2BDwMyIsM5R%2BNgANJuWXLw9NtvUSXfyG484v8AojG5fR5oRVhDRZoZVhCeFx2iDfTd42BxzZt11Gt0yXELTuMZSodmNwsnSGjs1YpDafbPSVn1b1EmWb%2BpsroQcCff5txQpdLE32jr47o6kB8tt9PNUZE0nHHV7zaSph94YLmsZZMTU5B2V%2FH86hFZapBLyWqI3uesu2uzIH2f58%2FF%2B%2BjqtQ1eaWrpI28Q7yGiqdqhWKo1mQRo2n%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820298185456",
+      "product_id": "820298185456",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$200.00",
+        "extracted": 200.0
+      },
+      "shipping": {
+        "raw": "+$12.04 delivery",
+        "extracted": 12.04
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/UR8AAeSwUbtq5UjC/s-l500.webp"
+    },
+    {
+      "title": "Vintage early 2000s J97 MTL metal grey Carhartt Detroit jacket Size L/XL",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/820276306583?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWHB82KR9D63162FBKG&hash=itembefc472297%3Ag%3AP74AAeSwWKVq3gWt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9qoCX5xMjesv8sfM8np8ITDEmc7BRLGJ20QJV%2FjOTi%2BanzxoBaZCDaTsmGBeGlmqxAlfMJzNq%2BXs9NOcS%2FfzRPkl7Enk15Wf%2BTOmrne%2Bd68N6i5ulzGUKtgP1JbNyMgO4pX9zzZ4vzRBg0dc951N2Phv3WggO%2FtX4yZKRaARuCjnm7F3H36jBx0yeGkOcVp260B3B%2Bh5p9vrgtmAz2vsHDOv7py5WPV44Bt%2BCONW5IVzc8IumQaEEBp0VOzfTU%2FnIM86pXJLWKqjtuZWxvhaXAZkF4Zm8y6gymPx%2Fq%2BwlZ5e3KbcKsCXpRkz2FUe5N1QE%3D%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820276306583",
+      "product_id": "820276306583",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$315.99",
+        "extracted": 315.99
+      },
+      "shipping": {
+        "raw": "+$7.86 delivery",
+        "extracted": 7.86
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/P74AAeSwWKVq3gWt/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Men's Relaxed Fit Blanket Lined Detroit Jacket Black XL OJ3828-M",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/307254326857?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWH5KGMXC6HRYPB88DS&hash=item4789c8f649%3Ag%3A6JkAAeSwXWVq4mRn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8TK%2FZmbwEc1zkuhgjX1zBOglm4BQ9qGtBIBa0UryLJ3QesayKLt7Bc5tlU6%2Ftv6z3Q7fxBdEijIc9TK3oIoAIaHwyvDSiAoi6oGNiKr2xys%2F3jbSzqSIWa0ivBw4pA%2F25nsyo%2FzUjBu%2BdT6xFdTkSGpUa%2F0RxfMpB2bQ88dNhpNmKmqL%2BAmYe4%2FZwZ%2FdJyTr5PqMx17F5Vjqsf0qm040Vrf64zVW5JrqHWKCBkLJRKRLRDih2XBgPn1qFCWhuFjx7OCAooyRaCHJX2tS%2BfqNALX3QLHuDYJR9nVVfEmAUbox8snqbUG9qjSiGF%2F5ZlEdI%3D%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307254326857",
+      "product_id": "307254326857",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$20.00 delivery",
+        "extracted": 20.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/6JkAAeSwXWVq4mRn/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Detroit J01 DNY Men\u2019s Navy Blanket Lined Duck Canvas Full Zip Jacket 48",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/800838045453?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWHVH05K96ECETW4XM9&hash=itemba75aacf0d%3Ag%3AtMoAAeSwfjFq3mcI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9DXLNjmlP8xxX7aV0mL9iCMszWD%2F6%2BnBwTKRAMcULghXQO8Opwh2bhal6PQtLilbzTITd61AEkxvZQo8sAb0aqi%2B8nSJqdPMyknXOhd2pcu2aZ%2FDUvfLE7S1d4KpMnYR6SGMCcV8Q64ar44YlzNOpvl8Jqf3aFhQBwB%2F5vT3dCh5PwSYRdx2YAexu5cUX7GfIZ%2B3T44DqgwsK1E%2BcJ%2BCedEEb6vFFU0S%2Fas0PvGjh4lnYQYx8qP4TwpusRMx1M5A8YmazKDLl6JDnAOH5wEzhlChv%2BS4Iz6P7%2FKdoQIVgcqF7YDLbj%2BSjoU%2BQxsZX7dXI%3D%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800838045453",
+      "product_id": "800838045453",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$195.00",
+        "extracted": 195.0
+      },
+      "shipping": {
+        "raw": "+$7.17 delivery in 2-4 days",
+        "extracted": 7.17
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/tMoAAeSwfjFq3mcI/s-l500.webp"
+    },
+    {
+      "title": "Vintage Dark Brown Carhartt Detroit Blanket Lined Jacket Size S/M",
+      "subtitle": "Size M \u00b7",
+      "link": "https://www.ebay.com/itm/800848299760?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWHCSWB9HGM6WJ3418Q&hash=itemba764746f0%3Ag%3A77MAAeSwD2Fq4gHy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9BZ6THRspe%2BEaqW399Twvi609ZFTlE1YQUdVM5Qjk143kotNIgwNxfvO%2FxGsMniFAYOPUYs87n4X3JwTu2UJAqT5qIJfv49Gjb%2Bzlxdxyt09goAND3GZIp8WrMHfWCiRDdDBfJVBlajL7j7LhFX9%2FIfjxxhRz14F4VgwSeZLCrzbArus4UvrrMWXMOYCd7GHZtYAe8cR6%2FT0SO4gojGI%2BH9Mk2Ve1%2BAwfkg%2BGi0NhEDybh48ggyWPSrUybVEaFdSX8p8NfzAO%2Bnr0WJlRtO4siqhesZmNIGnckW9fKmqMlLGSXe6%2FzCaN0CRssd9yA%2FLA%3D%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800848299760",
+      "product_id": "800848299760",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$400.00",
+        "extracted": 400.0
+      },
+      "shipping": {
+        "raw": "+$13.56 delivery",
+        "extracted": 13.56
+      },
+      "location": "Located in United States",
+      "watchers": "14 watchers",
+      "extracted_watchers": 14,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/77MAAeSwD2Fq4gHy/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt J97 Detroit Jacket Petrol Blue XL",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/198759305903?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWJ0S69K4MKVYE59YKY&hash=item2e46fa52af%3Ag%3AH%7EAAAeSwSflq0YJN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FBDa8WHK1qrmLSHVPSBjdgiBhA%2BxKSZoDbrWNxvDMrwpRHpS5DVeNqE0yNHkIyHCuX9nAez4Cd23P5%2BT50nY7T5M9VXMmoVWsV3jwJsZn5C2Xn2pazpVIqD91kGRdgOjHs4W31Nmzgx%2BoD5%2BSuTNce08M%2F9SYQFLGqZDAWDLKGGipInq8ghMPN6Zf1SrYXX0xsjC5G5SciA4QfqskE8Zx1PfZP6BW0nDUWoHFQwMdrCeHekkzNlIPVGGOQaK6%2FCZWZNLQf32L--W83p43piMUF%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198759305903",
+      "product_id": "198759305903",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$282.99",
+        "extracted": 282.99
+      },
+      "shipping": {
+        "raw": "+$10.06 delivery in 2-4 days",
+        "extracted": 10.06
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/H~AAAeSwSflq0YJN/s-l500.webp"
+    },
+    {
+      "title": "Vtg Carhartt Detroit Style Arctic Jacket J02 BLK / J185 Black Work Jacket - 38",
+      "subtitle": "Size 38 \u00b7",
+      "link": "https://www.ebay.com/itm/860098478370?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWJFNAS9NJ73PKVWAQE&hash=itemc841dd4122%3Ag%3AP5EAAeSwcJxq5N6T&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8oUXLY54%2BCgLp7apx%2Bh1AhkngXY0FUAwk2xcKk5KmcAeqU1FQXLeThpi6p0hESGBawuCLpJPpxP3yf0NQJqxTasxVSmCNKMO9kPLaYNG271j%2FZmBApMJpftlP1xRzUDUwgaHd6Mon8GuQOU7baWii05ZIpMOJ3ZRmvvpaTdTN2oYXT9G8m%2F8ma5cz9oY%2Fr8n%2B7YJ5uUJsGjz13mRApfmMFcCvsPKOefnw0R3b5JyCEVo5KPqp1drvV2ivFExd%2B%2Fth%2F2zZiOaYauuSsc4DfIVsr16JiXbL6bq%2FAx4p%2FfE64EJzOruQRgtjRbwvVvCdA1nE%3D%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860098478370",
+      "product_id": "860098478370",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$269.99",
+        "extracted": 269.99
+      },
+      "shipping": {
+        "raw": "+$14.36 delivery",
+        "extracted": 14.36
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/P5EAAeSwcJxq5N6T/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt Detroit Jacket, Brown, Sz 40, Blanket Lined",
+      "subtitle": "Size 40 \u00b7",
+      "link": "https://www.ebay.com/itm/880068339692?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWJXVXC61YRY6CVXBS5&hash=itemcce82927ec%3Ag%3AgeUAAeSwMUxq4WTx&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9KhleXCE2wzV2WJchD4hWPybMRR4SrTRF7OKYP7Iur7RSl44a9K4ULT6Xk4MDMtN2WRNk%2BZDbTv0SZVmD5%2BfF%2BZaa2YCDKABHxuyR0AwXyZS6yVX2Y6C9Ag6J%2Fur87SkFibKZZ5xt8egtYk4BDH%2FvTyM1VW2gdJ8UtI9u40SBdQBbhUXifj3ivbqICFR5COc9I9htchptfaZLAMN7ZNIyXsAg216Whui7SlzIpmOgCAWjBv3szz98dnvOSD1OpZ4Up0mDycIcBW6jQb8LgZIXm%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880068339692",
+      "product_id": "880068339692",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$225.00",
+        "extracted": 225.0
+      },
+      "shipping": {
+        "raw": "+$10.69 delivery",
+        "extracted": 10.69
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/geUAAeSwMUxq4WTx/s-l500.webp"
+    },
+    {
+      "title": "Black Carhartt J001 BLK Blanket Lined Detroit Canvas Jacket USA Made",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/307257978821?_skw=Carhartt+Detroit+jacket&epid=1000864902&itmmeta=01M6AVNSWJYT2BBR03T4P84XRP&hash=item478a00afc5%3Ag%3AHzAAAeSwcJxq5VbS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8lMADV5znVTbegd1YPdr3MdbU99FTooGaby%2FP4r1wgKmcfi1a8U9P9bxZwynxTzcsx8eAyk8XP5BUHGbu88ROYDYeQlQaRwv7I6vgGz%2Fm1bee7UiLn9A2%2FTx%2BdAXbjSI152RT%2Bcf8yoL5p142uRJQYCqVJPSWTa3KXC3uJ4RD94LITrK4ooUsrFd0YEVqW2kx94ToFPaA%2Fwa63HqjMovziPsE9Rz%2FwXd8pTnvoHNjaCwqbZoBge5dOI81pD4bj0IwCzwhbidzzhMh8UTgnRKG%2B1WROvEig%2B1rTnA6h7RhDS0W4HbaFcvYsfhoFUJN7bAw%3D%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307257978821",
+      "product_id": "307257978821",
+      "epid": "1000864902",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 4,
+      "price": {
+        "raw": "$279.99",
+        "extracted": 279.99
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/HzAAAeSwcJxq5VbS/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Detroit Men's J22 BRN Corduroy Collar Zip, XL",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/147654499662?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWJ347PRMYS24HY9FKD&hash=item2260e4dd4e%3Ag%3AowkAAeSwIvFq4TrC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8p2CXSMTuVTestgPYt4OWZIjB62t6tJFl%2Bg9aNN8A8ahG2c1p%2FlimZun%2B8vyinZrQxtZNC94E5d7zZtA4faWET%2BxIgSptxkvsDeGS7hY%2FKg7mWxmE%2FNWDb89ynDgTPzr0lz4QeTvGoCwQj6nNGU90ACGwPKkFZtlhrTI6k36j47sLUQPZdlKqtOfkCIf6mWjk6ATrsISNbN%2BJS5rhqEG4mXYkbrng3SmRxnsGmMN64yKqEPkWDAegT9TClAumOli8cRN9YqrIg4GEVL69fYUF2%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147654499662",
+      "product_id": "147654499662",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$139.99",
+        "extracted": 139.99
+      },
+      "shipping": {
+        "raw": "+$9.66 delivery",
+        "extracted": 9.66
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/owkAAeSwIvFq4TrC/s-l500.webp"
+    },
+    {
+      "title": "Vintage Carhartt J97 MOS Detroit Jacket Moss Green Canvas Blanket Lined Mens XL",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/147652006610?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWJMSN30ESD96T4NKYY&hash=item2260bed2d2%3Ag%3A%7EeIAAeSwgvRqeW69&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8fLCcJd948IryG%2BJ5A5nEd3Yfzr3JkWn7jIu31PRIMz%2BJ%2B2wZt6EdUMtGXNjMBiqUzjD8fU2pitxte5%2BRrzKbmpP8y8jNi82eggoLBbpSXg4Z0fO27zkRom76fOsctS5Ku3FgA9rzPjitewwdSk8Jxmu5XLiEXEdF9VWLHaSD6QOj0t6AqFC%2FvYjOd%2BY08LJDXZRvX9ADzmZf9xjK79iJsKPleFkAVnq%2FWtjerJ84Yqzlda%2FxuXI7%2BBubeNBNcYjbPaZENZlaZabTbRbVkIRt1%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147652006610",
+      "product_id": "147652006610",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$250.00",
+        "extracted": 250.0
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "watchers": "25 watchers",
+      "extracted_watchers": 25,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/~eIAAeSwgvRqeW69/s-l500.webp"
+    },
+    {
+      "title": "Faded Tan Brown Carhartt J001 BRN Blanket Lined Detroit Canvas Jacket USA Made",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/307257981625?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWK4GRFJ99799G694W3&hash=item478a00bab9%3Ag%3AcFgAAeSwrKRq5VfV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Tmbnn8tVByPyS%2FBy3%2Fv7SQsgQZ2q6bTc4wpv%2BnSxaryf06FY0LDfAamjBjV8%2Br6NnD813TeLfznnN0K9witdqcNACdB135nbcvLK8RkU43BCeihq%2FQkwTfE9zhcks5pdjrH5wy0F4VjvAJfYI%2F7MEQB%2FLBG76yHX3rOmTVacdvRsE9584lc89aBCY4B7TVSOYrn5uIUZKhbYPrlmQUA0wm0LqkdAYKmjbgYXBQGSt5zNsrsQLdk%2FHC13nZ0JneyY%2BAzhImvTYLIWeFWWw84%2Fb%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307257981625",
+      "product_id": "307257981625",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$239.99",
+        "extracted": 239.99
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/cFgAAeSwrKRq5VfV/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Detroit Jacket Canvas Full Zip Lined Bomber Jacket Black Mens S perfect",
+      "subtitle": "Size S \u00b7",
+      "link": "https://www.ebay.com/itm/820280193787?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWKFF6K8YHP98R6VJ8J&hash=itembefc8272fb%3Ag%3AiLQAAeSw-Bdq34Eo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8%2Bd6dCIkzq4WK%2F0IyrqSyyjpmmgWTNfu2Kvsqa7jRuR0EBVCrw4f3GahFl%2FRf9x8pZdEHEW%2BQM3sKlv0CWA57w72ZNhPlaW3moYSRB17eIuZth2IlR%2BlCjYTyls9EvMNmIKjscYzlDu3lWtoTgg6PalapxkzKymC8K2a8BpkEBhhLD69fR32BCuazh82n8LrCkJtSp0aCQq98dfcfV59mRdtA0qVW%2Bxs%2FnVqGm9HixHmCPAzQ%2BGvptf6qc%2FKu2UD85yiIRRYNqMO7G8--nj400%7Ctkp%3ABk9SR8ye19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820280193787",
+      "product_id": "820280193787",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$400.00",
+        "extracted": 400.0
+      },
+      "shipping": {
+        "raw": "+$9.99 delivery",
+        "extracted": 9.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/iLQAAeSw-Bdq34Eo/s-l500.webp"
+    },
+    {
+      "title": "Carhartt Detroit Jacket Mens XL Black Canvas Cotton Full Zip Collared Bomber",
+      "subtitle": "Size XL \u00b7",
+      "link": "https://www.ebay.com/itm/860094527005?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWK5S17X1CDRNYA339A&hash=itemc841a0f61d%3Ag%3AdioAAeSwJjJq4yuX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9MhahTmxYAVpJoP%2FX7ilBpwFgZVKtLTiAL1y0B%2FlkQEfEBMdQZz0WtNP%2BirYfz9kArGsxVdQ68irPOjx5G7zgOrqCI3Nbgar5SPTVukkaMz1IO%2FNDkCvq%2FW6mNe51irobPCSd%2BW3IOCmTgLRfwHOyN1%2FHdFT0ALkuFdWLuG5hXoy0InAmggtzaxV8Lg1DkKkNJz%2FtAiAoIGrF38X1BWFkanQGe%2BrECXU96gtQbHPq8zqIB5ApqrKqSTmHgbaj5nuhrcPkneaTaKrOLSVgI4raRYXDuredXAFFN7ny7ol0v%2BjGObAFSE6jxca66CgRMKW4%3D%7Ctkp%3ABk9SR86e19uyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860094527005",
+      "product_id": "860094527005",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$160.00",
+        "extracted": 160.0
+      },
+      "shipping": {
+        "raw": "+$13.00 delivery",
+        "extracted": 13.0
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/dioAAeSwJjJq4yuX/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Carhartt Sandstone Duck Blanket-Lined Detroit Jacket Mens Medium J97 SDL Saddle",
+      "subtitle": "Size M \u00b7",
+      "link": "https://www.ebay.com/itm/287685206296?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWK96NHG0MT18WXN0T6&hash=item42fb5fe118%3Ag%3AsFMAAeSwXQFq4Qvt&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9n9VZpxOxXBQIS4t7pxuISVueGFkO4Hq5MB97ET5y%2FI72fJcTP8hT4cGvgUX1w7pyRSBfoM94Xem%2FSTGgBoYrwfqWTJujqUCgFSPr9z9LNlSgnzlhMznUYFHyBIpHfFWS%2BzFpyVDYpO8kcoLKyEXCtuBop6o1PGkES8sh8uQwIRQwSGmw%2FTL4raM1CDcTbTiLxw8LvyVxWE4Ajjj%2FpH0I7BAM91J5DfwEyk05cw1poLgsDuYtX403G%2F%2BhaAWPQhWWJ%2FZxjp0CerbjYlKRrnK34kfMGTEakQfRvKZaIQIQXaA%3D%3D%7Ctkp%3ABFBMzp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287685206296",
+      "product_id": "287685206296",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$329.99",
+        "extracted": 329.99
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "watchers": "33 watchers",
+      "extracted_watchers": 33,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/sFMAAeSwXQFq4Qvt/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Carhartt J01 BRN Detroit Jacket Made in USA NWOT Pristine Brown 54 2XL",
+      "subtitle": "Size 2XL \u00b7",
+      "link": "https://www.ebay.com/itm/128133794886?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSWKSE6GH68SS0XX7JCX&hash=item1dd55e8c46%3Ag%3AQYEAAeSwV19qzqdz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9lrdDttbNBrHdNhLQrWnsnnvErGKmNXvuvfGbjPkT9ypq4fwi539RGchstOnDCSlgesnK%2FR71ujaeRmhrELa97WsBu7oOJhKfdgKLR9X69ZRSnrHeWa8qoXtCru6PaHe7UWGcIROCi%2BJCf0Rm7McoN1aqI0H1pbPWbChgPVAhVmt9OaCCsx8xhrzK1m3XyD0u7ZVnY2WmVT3jPsydM0pnSA1xAcf9FwxgZfCovzkYDIIEB0e192NI%2F3TFObQL2eK2xLb9IKTvMHT5A6gV7ntFy%2BE%2FsuPofBo8iZU%2FTGKlggqgowy2QGaaY0QM6V3Xazks%3D%7Ctkp%3ABFBMzp7X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128133794886",
+      "product_id": "128133794886",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$149.99",
+        "extracted": 149.99
+      },
+      "shipping": {
+        "raw": "+$15.97 delivery",
+        "extracted": 15.97
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/QYEAAeSwV19qzqdz/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Picked For You",
+      "subtitle": "Top selling items from trusted sellers | Sponsored",
+      "items": [
+        {
+          "title": "VTG Carhartt Detroit J97 CHT Jacket - Blanket Lined Chestnut Brown Gray USA Made",
+          "link": "https://www.ebay.com/itm/227547969422?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXG6MEQSFG52W6T9F73&hash=item34faea778e%3Ag%3AjGQAAeSwIVdqvq60&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B6NceNA0GvJei7byZ3Z22%2BMA30nvhgXD3vrI30Lmu08yW9PCj%2B9rMEh1glw%2Br9rYiClPo2Umtd0CCPHCyNjuflxTjuExxZGfI%2FsjzjXx%2BNJ1NOEe7wRloiK1CyWzkMoo0DyBRXjejGNpNXKJl60JKeI9Mnvu0eTW%2FEOY8Pa1Booqlu%2FK2vOzAdLydm1sEK3ie1x%2FYsNpxVPsBJ57UOWGHNJNSxDsL7vwWClFkl9YNlrG37MjET1ZZPwCUNlXb7c8qDZyZ6Gy2%2BrXYXfExlsSJOSpo1oqzxevTlqVq8D40hvw%3D%3D%7Ctkp%3ABFBM-p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227547969422",
+          "product_id": "227547969422",
+          "price": {
+            "raw": "$299.00",
+            "extracted": 299.0
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/jGQAAeSwIVdqvq60/s-l500.webp"
+        },
+        {
+          "title": "Vtg Carhartt J01 BLK Detroit Blanket Lined Jacket Distressed Thrashed USA 2XL",
+          "link": "https://www.ebay.com/itm/137880290522?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGNYJ8J7Y1M988MARF&hash=item201a4e44da%3Ag%3AZ1UAAeSwMUxq4PQn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FzEO%2F8XKSvecbuQz3BxPKBsuYRNLK7MDFG6hHKkW4CRyxitMZU2NcQciBZjgvQcYuh3m%2FZsy9fcxJL0XefLqT57TrTsTYJk0HSbRZS55tiO3lxTMMIFje3AcadYEGDx7Qf3Xs4IXuiTY0PSFH0I1hp9d3YNySZkQLEZAdrLAR2coM9q4sdm307crpmEVyNv7GufPNhhZxodhzwSN8att9yEtu8tojI6fH60M%2FikNTt6%2BylPrjA63Wfpdiaej7umKebk4PS44wDbi60ejRZGQ%2FBkXuaDXB%2BTyDEJHPkNwObLTGCGXl0mG0Iwh5r6R6cShM%3D%7Ctkp%3ABFBM_J_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137880290522",
+          "product_id": "137880290522",
+          "price": {
+            "raw": "$174.71",
+            "extracted": 174.71
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/Z1UAAeSwMUxq4PQn/s-l500.webp"
+        },
+        {
+          "title": "Vintage Carhartt Detroit Jacket J01 BRN Blanket Lined Size 48 Tall USA",
+          "link": "https://www.ebay.com/itm/407176338888?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGH7X3JKXPA3KMB840&hash=item5ecd99ddc8%3Ag%3ApJwAAeSw9OVqkIQC&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9H7rTcZqthcW5wxagqs00Aksb9spNYjLlHCreiRR32VuHoLgOSZzcrFPXp9sjbGO5t8bsgMWSV3oIf04vkKGUs3iFwywEDUdl3kruvhkvYxnTNlMEsMFJJE%2BOGcI2fh8DyGRMLzg40O3S98OmvzNjGYpq83mvwD2hRk9g4cMY%2B5OOxs7QdGAr4tm1VeA%2BkRpLSsU0T56epbmKmeobkEX1buMpg%2BknbtObTleC2ZKmXWNkA8COgF36%2Flc9LIkumZySTe0NwS9xiq5JsahehSehV9nX0sVD51H7MFE7peI2TAQ%3D%3D%7Ctkp%3ABFBM_J_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407176338888",
+          "product_id": "407176338888",
+          "price": {
+            "raw": "$175.00",
+            "extracted": 175.0
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/pJwAAeSw9OVqkIQC/s-l500.webp"
+        },
+        {
+          "title": "Carhartt Men's Detroit Blanket Liner Duck Canvas Jacket Khaki/Tan \u2022 Size 42",
+          "link": "https://www.ebay.com/itm/880038703088?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGV9PJ0V9Q5QCWCSRQ&hash=itemcce664eff0%3Ag%3AgpoAAOSw1LFkndCT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bmy7NMWPgzaUjyDF0%2B7CKr05%2B70Q4oPre4ZxHhe7LfSf0o2z%2Be78CVud6BPIW%2FP1CnVnZM456sp3ebElWic2ySpmDOSo2Ww6F%2B8AirT7VDKX8C8NBtH3gFWaZJ1hQimlvW8pire0xXQHI9kixBR2Ru4g4Xro5UMTtCx5fxYHn08aNElUlf0nu3buC9gSkwF4urzTR8yMoKCQBArBSP1JcFpjTW6ed49U5UkJ4xdChQ0N%2BRSWxl5QQU%2FO3EnfdDF91b8Dx%2BF1uE2b9Vbxd9xkj9wwp8ZLam0npXT47iKdqmigt1J8Fs39wR95pLBLSV6tQ%3D%7Ctkp%3ABFBM_J_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880038703088",
+          "product_id": "880038703088",
+          "price": {
+            "raw": "$208.99",
+            "extracted": 208.99
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/gpoAAOSw1LFkndCT/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | Sponsored",
+      "items": [
+        {
+          "title": "Carhartt Detroit Jacket Mens 52 Tall Tan Canvas J01 Coat Workwear USA Vintage",
+          "link": "https://www.ebay.com/itm/820102859978?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGFSFB24T431EM2878&hash=itembef1f08cca%3Ag%3AVYkAAeSwFJZqjdxE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVcKmje9bQ%2B52Gelbt7kVzBFeAtwoh%2Br8XMOKz2Ht278WXeNraBrCFt3Tz98EqJXRoaxOT22mlzc6wXfJFyhylCiMCyVmAIs78PAXS9bNBYKzFvrDaRMtzJuI6RdePjHu1j9MOYGVW7rsFJEJ3%2Fh%2FLrk5qSOC3mxoa9Z47GAq%2FZmIZlvwO49Z1okD4bLhzEcTTCOyTjS1xHEA79Z2lONgtI0cmfgGxLNssWZNBTLH4ml1Mg6nAJlsCuy5fTBG2L4LBwquJHHNX94wVOt102esyEiVeN2PKKrkf%2BS1i1W3OYtQ1m0N3QhbZRQGQA9ftdsY%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820102859978",
+          "product_id": "820102859978",
+          "price": {
+            "raw": "$169.99",
+            "extracted": 169.99
+          },
+          "shipping": {
+            "raw": "+$12.88 delivery",
+            "extracted": 12.88
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/VYkAAeSwFJZqjdxE/s-l500.webp"
+        },
+        {
+          "title": "Vintage Carhartt Detroit Jacket Mens 40 Large Blanket Lined Workwear Zip Up 90s",
+          "link": "https://www.ebay.com/itm/860065787393?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXG64E9XGC6XVQJ743T&hash=itemc83fea6e01%3Ag%3A8UEAAeSwdNVq1l4A&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9PDcNP7CPbeZVDMtsu%2Bgs%2Fmzyqt9SgHvoMgxKY%2Btm73XCTc44e3FY4QV7uc4vAszMJbtFIL%2Bjr1n8ih7EWGAhXkOXN0eZhwLGCdJUvWiIF2VxckVAoHBXmhKrtKn1YjQbaLf1oT8I34LUwzFsFcUMywT50CRjioZtqkoTxrxyFGbHe6oz4msbPP8V2kh5CjZTfBQVPzbW4Sf4E0od7R1vTzk8GS1doJBeLWgGeKgW4MDAfcUIRFmWr9lv4pnvieQGYkvw6%2Ffwkyr66z%2Fm94oC20Q9vFnIqIu0lyYaYqn0vozkmAaT6LUOmICs5AFgzPeE%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860065787393",
+          "product_id": "860065787393",
+          "price": {
+            "raw": "$219.98",
+            "extracted": 219.98
+          },
+          "shipping": {
+            "raw": "+$9.49 delivery",
+            "extracted": 9.49
+          },
+          "returns": "Free returns",
+          "watchers": "14 watchers",
+          "extracted_watchers": 14,
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/8UEAAeSwdNVq1l4A/s-l500.webp"
+        },
+        {
+          "title": "Vintage Carhartt Jacket Mens 52 Detroit Blanket Lined Workwear Heavy Duty J01",
+          "link": "https://www.ebay.com/itm/406442358586?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXG94B7TR8YFAR89XYW&hash=item5ea1da373a%3Ag%3AzMcAAeSwvxlpLx7x&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde89xIppA8Q%2FIXzIe39fNKR%2FDXMHggtvM8GlYY257GCJPDJq2iBkpIadGADUZMfopkfLDK2mXK0DtRJmN54JDOwpeVyUvWkj5HR2XJMScXz8h3HIPo%2BJWchxml1L2pidIw15ap3FO9BWRXfNAL%2Bn5soTo2bC95C7F%2BeFiwdsu%2BK2N4k9pi%2Ff6Jh1Widji3gfef4vbXCxoTGCOCD4zjiA%2B1HRGCxBB5%2F1YbAuc0h7SoHDR%2Fso0HBCCYIW6Bke9QhbbwucDDbgvXilHG3DNbojH60p8ouWWDgwKCBERXDEZc%2FtmYa1myRMUUk0Crff3%2BIj%2Fns%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=406442358586",
+          "product_id": "406442358586",
+          "price": {
+            "raw": "$224.96",
+            "extracted": 224.96
+          },
+          "shipping": {
+            "raw": "+$8.99 delivery",
+            "extracted": 8.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/zMcAAeSwvxlpLx7x/s-l500.webp"
+        },
+        {
+          "title": "VTG Carhartt Detroit J97 CHT Jacket - Blanket Lined Chestnut Brown Gray USA Made",
+          "link": "https://www.ebay.com/itm/227547969422?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXG2R9JZR2Y6G8VFC4K&hash=item34faea778e%3Ag%3AjGQAAeSwIVdqvq60&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B6NceNA0GvJei7byZ3Z22%2BMA30nvhgXD3vrI30Lmu08yW9PCj%2B9rMEh1glw%2Br9rYiClPo2Umtd0CCPHCyNjuflxTjuExxZGfI%2FsjzjXx%2BNJ1NOEe7wRloiK1CyWzkMoo2k2WwKIe8VdOEOVSY1N9zL93GbgQ0qqWlsWTz073V48avj20W%2BnR7Wt55D1S2lQ4%2FAsfQ7kvVg7wGKBWQm8PutYjkfHBzz1m6t5Mn1zZ2iyUzYxT5dWtsA0VtL7BwqG4zqJbfR4XdkKqvuHnN86JjaZaB2hC8fC8V7QCDgKXK9aQ%3D%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=227547969422",
+          "product_id": "227547969422",
+          "price": {
+            "raw": "$299.00",
+            "extracted": 299.0
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/jGQAAeSwIVdqvq60/s-l500.webp"
+        },
+        {
+          "title": "Vintage Carhartt J001 BRN Detroit Jacket USA Made Brown Duck Blanket Lined Sz L",
+          "link": "https://www.ebay.com/itm/920088566026?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGK3159745SER04G7C&hash=itemd6398d590a%3Ag%3AZeQAAeSwcJ1qlfpb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8vWX5K3EdoZ6RsmvUxvPpWQo0CQmjm5WMGI6Zm8wrpCPJ7CubyCRjMFgDaSq0m999J%2BYYfgpUp%2FuATl9oC5747ar50qrcc5%2F1ryGtVBmqvTiefdDgHLVMi6blQIt5sG1CtzG1IJbnXXNkk2krHmKYRLLc1vnnxMTti9fkBFD6GnoPonvumz2DenZzFPVne%2BKJtntdbWpCp8ONdSJ8Z%2BhhE7TmIICu2f44i4z1MNFfBBk7zqf8Fo%2BlSlcD2f2yGk4Sk71LTotvqg7YAJ8p7TYyWw5fltOnrklCh3q26NOe7oEfm4nkj0VAncVr5%2BwTuDy0%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920088566026",
+          "product_id": "920088566026",
+          "price": {
+            "raw": "$169.15",
+            "extracted": 169.15
+          },
+          "shipping": {
+            "raw": "+$15.97 delivery",
+            "extracted": 15.97
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/ZeQAAeSwcJ1qlfpb/s-l500.webp"
+        },
+        {
+          "title": "Vtg Carhartt J01 BLK Detroit Blanket Lined Jacket Distressed Thrashed USA 2XL",
+          "link": "https://www.ebay.com/itm/137880290522?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGDH320NEMJ9Y2XYES&hash=item201a4e44da%3Ag%3AZ1UAAeSwMUxq4PQn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FzEO%2F8XKSvecbuQz3BxPKBsuYRNLK7MDFG6hHKkW4CRyxitMZU2NcQciBZjgvQcYuh3m%2FZsy9fcxJL0XefLqT57TrTsTYJk0HSbRZS55tiO3lxTMMIFje3AcadYEGDx7Sbqwl0XKbtcbkpc3ci3PVtTWMtRKBuH56w4V08WAsLavWqzqmtLbXw0yoRR4oPXeWwgwNHYCdSB1KNijQnNr1dh2ggci2iPO%2FLwg%2BcKKxVslj3%2FuxfwmUh8AagTFLaF1GRrpopda5UUiGcnPGMJQ2xnXwgjt%2BX427U3pN0Wr4dHA3q8DY0QODhLiLA2etnkR8%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137880290522",
+          "product_id": "137880290522",
+          "price": {
+            "raw": "$174.71",
+            "extracted": 174.71
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/Z1UAAeSwMUxq4PQn/s-l500.webp"
+        },
+        {
+          "title": "Vintage 80s 90s CARHARTT J18 6QLJ Medium Brown Quilt Lined Detroit Jacket",
+          "link": "https://www.ebay.com/itm/820127009180?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXG5355H0VJPJ6WHXX8&hash=itembef361099c%3Ag%3AWAQAAeSwwlhqqD1I&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FNsPMrS9lOPlGwjJf%2BoFrA%2F8KHSiF%2B%2BQX9CoHqJtksTYRgcKKv57TEyIrysNx9P4TlNZaxAgA6nXZmUSA72iixf2d4sPR3Rj%2B4f2fhFgGZD%2BctjWNCwGsFHcXZDFqgRFGVhtYfSZQE%2BhP%2Fh4%2F6HjnK32J1%2FMyQ6flOLFMeX6FjGKrRa%2B7P8OJ3q%2Ff2nansdrVG55eoUF4cQNhScS3J9Y6cP6f1PcUDNmSIWkgkE24o9uDuzqI%2BCjRVnIYtlJiN60DdnPoSZGenZIvgdofE7V8DFP%2BQMWMmChdwqmRJZq1WwEZuTqytp1RV02ZsZT%2FgkVY%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820127009180",
+          "product_id": "820127009180",
+          "price": {
+            "raw": "$199.99",
+            "extracted": 199.99
+          },
+          "shipping": {
+            "raw": "+$13.89 delivery",
+            "extracted": 13.89
+          },
+          "watchers": "26 watchers",
+          "extracted_watchers": 26,
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/WAQAAeSwwlhqqD1I/s-l500.webp"
+        },
+        {
+          "title": "Carhartt J01 BLK Detroit Jacket Black from 2005, Lined, Size 44 Large L Distress",
+          "link": "https://www.ebay.com/itm/128040939931?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGAJWN5XS6F0BW7H0Z&hash=item1dcfd5b19b%3Ag%3ABaYAAeSw%7Eadp6oUy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BQ4h9AGy8aGok9rkqSvXwTxfDHXMglGkqq9Nyx8Lo9k3kjGXLIFK9a1pM%2FDijnVYbd3RrjRMXa3zHqZu0iZPqGTADlK3MHsCTxrdqinqURvQvwVd7teDs%2BwP6aCKjIt7CD0ASMB6OPrtnJAgtGsW1AAu8nchTzaQ3SQ8ETbP2MXt7e6wGdW50%2BrpktK%2BKeud8H5DVLE6CZNr9Ijog1PZWnYEgvptOUrSN4nP2HG364q2JVmXJtIi%2Fk59GapQe34ZsVTa3uGXT7M%2Fj9kIjO20iToemFjW7B9nF4f%2FO9t7y6hrASxWzuhIyoTBQJweFBA6A%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128040939931",
+          "product_id": "128040939931",
+          "price": {
+            "raw": "$329.00",
+            "extracted": 329.0
+          },
+          "shipping": {
+            "raw": "+$10.00 delivery",
+            "extracted": 10.0
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/BaYAAeSw~adp6oUy/s-l500.webp"
+        },
+        {
+          "title": "Vintage Carhartt Blanket-Lined Detroit Jacket \u201cPetrol Blue\u201d J204 PTB Men's XL",
+          "link": "https://www.ebay.com/itm/327380454837?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGMVR1822QTB8SM30J&hash=item4c39654db5%3Ag%3ASEsAAeSwyIRqhJxT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FDgmggBuSMDKLvKvIYTRn7pMXjl3Q88CyJWRhW2b%2FqAr24ytvJQEIdLwYVMoOFd3sV8LJiGRHzR%2BUAZ%2Bcmtugch%2BFdYJTqC2Wnx9Bt7LyGFvq88sAldraKlEoQb70LAFn2pGGQTDg5mMZlhXXdiGMgoaNJyh9kv2mMU92mVMfnw4JKIrkbi3aV3ESYmSGBB6w8%2Bpj%2BPtYWqxqun6x2QJXZpN%2FQbdvHlTwBaGlHHS%2F1qXG%2FCQj1YS%2BaDiImhJFll0r9tiVcTAvpBgibn69%2FGa%2FNsPYPIU0G5kNJOJGJFw9IUl4lvVhxyGt7WCxO9IhaAvo%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327380454837",
+          "product_id": "327380454837",
+          "price": {
+            "raw": "$429.99",
+            "extracted": 429.99
+          },
+          "shipping": {
+            "raw": "+$10.06 delivery",
+            "extracted": 10.06
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/SEsAAeSwyIRqhJxT/s-l500.webp"
+        },
+        {
+          "title": "Vintage Carhartt Blanket-Lined Detroit Jacket \u201cCamel Brown\u201d J97 CML Men\u2019s XL",
+          "link": "https://www.ebay.com/itm/327368214696?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXG0J27K3MYHG55E33G&hash=item4c38aa88a8%3Ag%3AcjcAAeSwFqxqsVmv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BI%2Bw%2BKG%2BoLhGRBfMwhEB%2FAwvFPX0S3DyZXwJebPJSLUGQ4GoiR7sOWuzIkmCozNi7DEEMSTiSFDEOHQx4qVt84fVR%2BH0zzAEnusguOu%2B0HWdrpzuHzadk3xwXCxzjefLcbYKjFmHcOflfzZSLTtkYMXxKXQVtVhfAtL0brQ0kq5%2B0avKNcUO0hdRi9lHpcLFgoKAosjsHXHQrnrB3hQtF6MpjM5smPF8e0IUAutTEVOz7G6Hnb0XsEYW5gb%2FXbilFNLokYvSwWH%2Fxfh3toCnioLvNyDH6XK4azFocdAsNPTkdAP%2BA3GjejBwM7UG95D%2Bc%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327368214696",
+          "product_id": "327368214696",
+          "price": {
+            "raw": "$279.99",
+            "extracted": 279.99
+          },
+          "shipping": {
+            "raw": "+$10.06 delivery",
+            "extracted": 10.06
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/cjcAAeSwFqxqsVmv/s-l500.webp"
+        },
+        {
+          "title": "Vtg Carhartt Detroit Jacket Mens XL J001 BLK Black Blanket Lined USA Made Work",
+          "link": "https://www.ebay.com/itm/327325205021?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGQ0P07EQCNF3PVF81&hash=item4c361a421d%3Ag%3AzcQAAeSw0DZqjTxc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8p%2FT2T8GF2cRSoqeX%2BnK%2F9BxzF9nZl7T%2FNxqm85PUc%2BcBLb0AyeHtJgp2deH%2BFQ1Mqx2tGkjKwHclM1KkW7or8xPBpuLI19AinaevgTzQcFmLb6Z%2BN7vdnJcU%2B6wDSNFySWQLO3ULI2yw44Bv%2BRXqITUVq0JVngQXLTC7kHLcHq0fnBf3pNOWqTcVBnr6qg8WLuz4glXqP3xPr2Hxc9su0mjJlsn3bhg7CK5ZCBw%2B3HlBXMqzJeh9Ss%2BIH%2Ft7OJHvfzUPFQtLjzk0zUKErCi9bcCB06lEH%2B82Tf7HXAzmsS7kzuYjMg7quwdCwLPnX5Vs%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=327325205021",
+          "product_id": "327325205021",
+          "price": {
+            "raw": "$199.95",
+            "extracted": 199.95
+          },
+          "shipping": {
+            "raw": "+$11.99 delivery",
+            "extracted": 11.99
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/zcQAAeSw0DZqjTxc/s-l500.webp"
+        },
+        {
+          "title": "VTG 90s Carhartt Detroit Jacket 6QLJ Tan Red Quilt Lined Canvas Large 42 Faded",
+          "link": "https://www.ebay.com/itm/840063226973?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGJBB5X38VHGAYAXX7&hash=itemc397ab945d%3Ag%3ARlQAAeSwIhZq382R&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F63ePTC8Ujert2alYNCpIXbKIZCR40JYMn4nytIUmbCHPczem%2FwzqmIn%2BytL2EwIwBBZLpHjQo3gqYSTUb%2FVaWbFG%2BgaQqtud8j0SbDQ5U%2FOD%2Fj31oxiLnEkbCC7ONoY4wwOaAV3yPLI9oGPsKSp%2BWoiumey7n19N3en15Yavoel0U7ClSHxZOUcwx8m0r%2FymulpcMgUS80ALYOwMpEnzNbNFGVcNua9wY4%2Fr9gaS8%2BaXb2oC2JYNaaRbEFgD4ZoZ%2FQYV6%2FNeKbq1uvlEJfoSmvKu%2BZim7uVJ4eiel76xRT2yMVZD6%2FzY3rAMbt4950hE%3D%7Ctkp%3ABFBM_p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840063226973",
+          "product_id": "840063226973",
+          "price": {
+            "raw": "$199.99",
+            "extracted": 199.99
+          },
+          "shipping": {
+            "raw": "+$10.99 delivery",
+            "extracted": 10.99
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/RlQAAeSwIhZq382R/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Other Popular Brands",
+      "subtitle": "Based on number of views and purchases | Sponsored",
+      "items": [
+        {
+          "title": "Levi's Indigo Blue Trucker Denim Jacket Men's Size M",
+          "link": "https://www.ebay.com/itm/198258475742?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGTTJQ46JHTW4D60CB&hash=item2e292042de%3Ag%3AotAAAeSwIAhp0wBb&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9jwjCGZ4M4R7OaU8DHTtxbGhg8ZckEH%2F0OTw4k6RASJFKD9f6P1eInzV9hvzAAton2AyFWL0kV%2FeIC%2FsyhUi7YfVqMaeTj9pXX17IrphuiGBKwobCKttyQOpFVvGy3TSomUl%2Fota7NAN3ndy2FyT2czyNnlwMobpYxlXlOam%2FEqB2AOilzwnRPL6Dh3sFlWU5%2BtFkS0nhrU9DH6miNa5E%2FAlFFpT2m9eb3e%2F682O%2FiAbFjIj24FUdGtvFLpx5iAn0BL7NZSsXelKsZLKUJ%2FeorZDpYkma910UMFeQpfHYqPg%3D%3D%7Ctkp%3ABFBM-p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198258475742",
+          "product_id": "198258475742",
+          "price": {
+            "raw": "$65.00",
+            "extracted": 65.0
+          },
+          "shipping": {
+            "raw": "+$15.65 delivery",
+            "extracted": 15.65
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/otAAAeSwIAhp0wBb/s-l500.webp"
+        },
+        {
+          "title": "LEVIS Sherpa Denim Jacket Men Size XL Workwear Americana Preowned",
+          "link": "https://www.ebay.com/itm/840065499219?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXG156Y65M4QE2PSZ1D&hash=itemc397ce4053%3Ag%3AkNIAAeSwhq5qmyWA&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde96KnyOlGdt4i5dUCO8CkSjgGoQlAUq40CNjh3xXCEU7gbg%2BOkKHJQsOb%2B%2FDQuTo0QM1WXh4B08iheWk8I%2BhGJsHD6rrUbi9u5km6mPyYjD2hMn%2BPL1UoWW5auQzf8c3pmEsr%2F3fKC9nSX8%2FRiYBwO1SnC9I%2FJh8iMTF7QWaY%2FWkYqHa64fNwg5PUgk1INmIH%2FuYW0PHD7Cnx82zW0aPec6gdYZ6ubU8DMP3FnEkKnemxtD2YrBKeDk2uzTnkDyh22itaVwwZE3x9Y7bJ4YoSkaL2Aia1jpD2sUHaFnkoHFIg%3D%3D%7Ctkp%3ABFBM-p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840065499219",
+          "product_id": "840065499219",
+          "price": {
+            "raw": "$42.00",
+            "extracted": 42.0
+          },
+          "shipping": {
+            "raw": "+$7.50 delivery",
+            "extracted": 7.5
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/kNIAAeSwhq5qmyWA/s-l500.webp"
+        },
+        {
+          "title": "Dickies Mens 2XL FLEECE Jacket Relaxed Fit ZIP",
+          "link": "https://www.ebay.com/itm/406696210240?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGK7KWTPWKKCRM2XME&hash=item5eb0fbaf40%3Ag%3AlBUAAeSwfVVpj9Pp&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BRCAvVPX%2B1Fx7sT9IVD4qv8GskodkKFvZT11Vknp7gKgpvKRcWK%2FoB1hh%2BQNfkx%2BnPL61NGCehv8CEt4bBgI8CNwmKyCaQV3NiUenxRgwzOaqrTR3wGPpDpypt44PCD9WmViEy7jzhRbRDNNXXYpmPxMtm3PKWtMIs0%2BCf1eYrkwOVlbxedeLB7QTJSzq%2FdU3Dl8xTrVL1YYHiby%2FBUMvepY64oVR6wQKJjDITFZIa4yCCEtPFHNLUAJYots31VPWv0VVHV%2FXZQEFs4KeNXS%2BkxxIDSfyDL3eQ3%2FiyUAC9Sw%3D%3D%7Ctkp%3ABFBM-p_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=406696210240",
+          "product_id": "406696210240",
+          "price": {
+            "raw": "$29.88",
+            "extracted": 29.88
+          },
+          "shipping": {
+            "raw": "+$12.88 delivery",
+            "extracted": 12.88
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/lBUAAeSwfVVpj9Pp/s-l500.webp"
+        },
+        {
+          "title": "90s Vintage Nike Zip Up Hoodie Jacket",
+          "link": "https://www.ebay.com/itm/377179408251?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGAM8D2985B2SSQJBT&hash=item57d1a5077b%3Ag%3AmIwAAeSwamJqAyek&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9zrMuArTim8XrAjsEfk8%2F%2BIZdXq%2BNFIWmv89%2FyFMZKhNUqYgF0UaIGcHvzoMJlQXkZOh7O%2BAukjPbgcyf%2BUQZ6N468bdxedVxKtwjuiWAs2TjUoo7V5f6yS6IQjRC5XxkFHWXXAS2o1cAnG4ha9alkpOph4wpUntKeFR8ZhwtjXnoR1TfU0%2FnbuuY8kVMiczO3fMsFJ6fe0UxXu4o66INeyafXnjTu7jLkNT%2BH2PN59IEjU3vpSBX5xYcGDZhL9KVi0c8X8b86Ng%2B9t1ENvgoPgsE1ITHAs4UhO4MuWrhG0w%3D%3D%7Ctkp%3ABFBM_J_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377179408251",
+          "product_id": "377179408251",
+          "price": {
+            "raw": "$35.00",
+            "extracted": 35.0
+          },
+          "shipping": {
+            "raw": "+$12.00 delivery",
+            "extracted": 12.0
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/mIwAAeSwamJqAyek/s-l500.webp"
+        },
+        {
+          "title": "Vintage Nike Men's Windbreaker Jacket Full-Zip Beige Cream Black Size XL",
+          "link": "https://www.ebay.com/itm/167870981444?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGGZ2SGYSZBW1T6R0K&hash=item2715e3e544%3Ag%3A10IAAeSwxUxo9QEC&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BwlUjdOaqpKS4MuIjko8QFV7GadIjeemqbmVG5L%2F5bPwZpDzuv%2BCa%2Fh3CAuOOZkg0vBZTQv9lN85SYmi1VrchG%2FjlvRlWgYbAz6vwv%2Bp4U6zbyuclG%2FEMFMThc%2BmWYxbHLcO%2BRyCIKKqfhu52z1aRONoFTjFXO0AR1Tdgrl7JDl7%2FaGizRDhVNOXhpsXbAYM8hYaUvhE4EX0lHa%2BUr0jE1Hq%2B3J%2FQXdEyvLUJn0dnhYJ187UX754CSozgn3OsJmYwWZMWIxvwsYNYoRQPt58LY%2FMOop%2Bb76JWwf8U2PMXC7A%3D%3D%7Ctkp%3ABFBM_J_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=167870981444",
+          "product_id": "167870981444",
+          "price": {
+            "raw": "$58.00",
+            "extracted": 58.0
+          },
+          "shipping": {
+            "raw": "+$8.24 delivery",
+            "extracted": 8.24
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/10IAAeSwxUxo9QEC/s-l500.webp"
+        },
+        {
+          "title": "L.L.Bean Full Zip Track Jacket L-Tall Gray Quilted Plaid Flannel Lined Preppy",
+          "link": "https://www.ebay.com/itm/188754828290?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGRHAR7E5NEVY37AV3&hash=item2bf2aa1c02%3Ag%3A76IAAeSwDzRqdUnH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BRxEcpQI0JNkwOqwlHFw2aHDj0rtlgxLbSTEXOwF2UDlGv4UGv7vMFko0kkrn%2BdcJtF%2BrPpEbHxYsUkZcYPBVUdEaL56huYhvjA1VypqiHowf24Lo1rLdqGdfoY3lsK1WXGBtoQaOvC%2BDjObF1DDdjqUcbdJfAp7HCWwT8CDoStKsfUZM2ddzxZLCRpkhsda1TcLwMDdDbbeU7Reyt9exyr6WAJt6NRUY4ISnNQVmoQN3TRgH0a8A7cCewqrdkDPlu7WU5HlPRIzkLED%2BA2WkGXteefc7v%2BTwAUrNy84ljGGORMqLAX%2BZZLTqLXr4MsOg%3D%7Ctkp%3ABFBM_J_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188754828290",
+          "product_id": "188754828290",
+          "price": {
+            "raw": "$35.00",
+            "extracted": 35.0
+          },
+          "shipping": {
+            "raw": "+$12.79 delivery",
+            "extracted": 12.79
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/76IAAeSwDzRqdUnH/s-l500.webp"
+        },
+        {
+          "title": "LL bean Jacket Men's XL Canvas Chore Barn workwear Corduroy collar lined green",
+          "link": "https://www.ebay.com/itm/880069936080?_skw=Carhartt+Detroit+jacket&itmmeta=01M6AVNSXGR2RR88X3VYS5VJZY&hash=itemcce84183d0%3Ag%3AsK4AAeSwsWpq5qS2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9cUr0rN%2BgTybpJwLZiLO%2BAI9FIJxizB%2Fas4SCPUv4iFeLdz4na1fJ8iQoWNepAx%2B80ybu87%2FCAQZM5hPBpd73jOQDn5jAPabyJGljPiWid%2FP%2FJzlbq3K7p0MrtrO0MZbFpXmBKIOj96gZPuC1z3zoB%2BIJYHUhZ8jh8QTLv3qcB3vcwYffJpwbAjcbHUUrf%2FWRuwmiEenrFn08q6LvoXSOx2ZgzOkXO5Ns0oZsXz19Cie%2BQj2UHOSuiypgdba1tbqaHRXcBFYXao5NY9jlEauURT3BmVoM6JrXWc4Mhom0kmXHi6tHYlNWEWuo1bf%2FXDak%3D%7Ctkp%3ABFBM_J_X27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=880069936080",
+          "product_id": "880069936080",
+          "price": {
+            "raw": "$89.99",
+            "extracted": 89.99
+          },
+          "shipping": {
+            "raw": "+$12.04 delivery",
+            "extracted": 12.04
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/sK4AAeSwsWpq5qS2/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "carhartt detroit jacket j97",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+detroit+jacket+j97&_sop=12"
+    },
+    {
+      "query": "carhartt detroit jacket medium",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+detroit+jacket+medium&_sop=12"
+    },
+    {
+      "query": "carhartt detroit jacket large",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+detroit+jacket+large&_sop=12"
+    },
+    {
+      "query": "vintage carhartt detroit jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=vintage+carhartt+detroit+jacket&_sop=12"
+    },
+    {
+      "query": "carhartt detroit jacket xl",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+detroit+jacket+xl&_sop=12"
+    },
+    {
+      "query": "carhartt santa fe jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+santa+fe+jacket&_sop=12"
+    },
+    {
+      "query": "carhartt detroit jacket small",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+detroit+jacket+small&_sop=12"
+    },
+    {
+      "query": "vintage carhartt jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=vintage+carhartt+jacket&_sop=12"
+    },
+    {
+      "query": "carhartt j97",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+j97&_sop=12"
+    },
+    {
+      "query": "carhartt detroit jacket black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+detroit+jacket+black&_sop=12"
+    },
+    {
+      "query": "carhartt detroit jacket xxl",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+detroit+jacket+xxl&_sop=12"
+    },
+    {
+      "query": "carhartt hooded jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=carhartt+hooded+jacket&_sop=12"
+    }
+  ],
+  "popular_filters": [
+    {
+      "name": "Regular",
+      "parameter": "_dcat=57988&Size%2520Type=Regular",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Size%2520Type=Regular",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Size%252520Type%3DRegular"
+    },
+    {
+      "name": "Big & Tall",
+      "parameter": "_dcat=57988&Size%2520Type=Big%2520%2526%2520Tall",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Size%2520Type=Big%2520%2526%2520Tall",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Size%252520Type%3DBig%252520%252526%252520Tall"
+    },
+    {
+      "name": "Black",
+      "parameter": "_dcat=57988&Color=Black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Black",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DBlack"
+    },
+    {
+      "name": "Blue",
+      "parameter": "_dcat=57988&Color=Blue",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Blue",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DBlue"
+    },
+    {
+      "name": "Brown",
+      "parameter": "_dcat=57988&Color=Brown",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Brown",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DBrown"
+    },
+    {
+      "name": "Leather",
+      "parameter": "_dcat=57988&Outer%2520Shell%2520Material=Leather",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Outer%2520Shell%2520Material=Leather",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Outer%252520Shell%252520Material%3DLeather"
+    },
+    {
+      "name": "Cotton",
+      "parameter": "_dcat=57988&Outer%2520Shell%2520Material=Cotton",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Outer%2520Shell%2520Material=Cotton",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Outer%252520Shell%252520Material%3DCotton"
+    },
+    {
+      "name": "Wool",
+      "parameter": "_dcat=57988&Outer%2520Shell%2520Material=Wool",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Outer%2520Shell%2520Material=Wool",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Outer%252520Shell%252520Material%3DWool"
+    },
+    {
+      "name": "Jacket",
+      "parameter": "_dcat=57988&Type=Jacket",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Type=Jacket",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Type%3DJacket"
+    },
+    {
+      "name": "Coat",
+      "parameter": "_dcat=57988&Type=Coat",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Type=Coat",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Type%3DCoat"
+    },
+    {
+      "name": "Gray",
+      "parameter": "_dcat=57988&Color=Gray",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Gray",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DGray"
+    },
+    {
+      "name": "Beige",
+      "parameter": "_dcat=57988&Color=Beige",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Beige",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DBeige"
+    },
+    {
+      "name": "Green",
+      "parameter": "_dcat=57988&Color=Green",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Green",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DGreen"
+    },
+    {
+      "name": "Red",
+      "parameter": "_dcat=57988&Color=Red",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Red",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DRed"
+    },
+    {
+      "name": "Multicolor",
+      "parameter": "_dcat=57988&Color=Multicolor",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Multicolor",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DMulticolor"
+    },
+    {
+      "name": "Pink",
+      "parameter": "_dcat=57988&Color=Pink",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Pink",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DPink"
+    },
+    {
+      "name": "Purple",
+      "parameter": "_dcat=57988&Color=Purple",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&Color=Purple",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=_dcat%3D57988%26Color%3DPurple"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_dcat=57988&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=Carhartt+Detroit+jacket&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}

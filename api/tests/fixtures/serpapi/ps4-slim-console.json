@@ -1,0 +1,1931 @@
+{
+  "search_metadata": {
+    "id": "6ae6d7d1e6dcec91142f700b",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/C5wGG4bX6WlQyzupky1dxvr0FnHMz0U5WF-w3Y4GQ0M/6ae6d7d1e6dcec91142f700b.json",
+    "markdown_endpoint": "https://serpapi.com/searches/C5wGG4bX6WlQyzupky1dxvr0FnHMz0U5WF-w3Y4GQ0M/6ae6d7d1e6dcec91142f700b.md",
+    "created_at": "2026-11-01 06:10:25 UTC",
+    "processed_at": "2026-11-01 06:10:25 UTC",
+    "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+    "raw_html_file": "https://serpapi.com/searches/C5wGG4bX6WlQyzupky1dxvr0FnHMz0U5WF-w3Y4GQ0M/6ae6d7d1e6dcec91142f700b.html",
+    "total_time_taken": 1.37
+  },
+  "search_parameters": {
+    "engine": "ebay",
+    "_nkw": "PlayStation 4 Slim console",
+    "_ipg": "60",
+    "LH_ItemCondition": "3000",
+    "buying_format": "BIN",
+    "ebay_domain": "ebay.com"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 5600,
+    "query_displayed": "PlayStation 4 Slim console"
+  },
+  "categories": [
+    {
+      "name": "All",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_oac=1"
+    },
+    {
+      "name": "Video Games & Consoles",
+      "link": "https://www.ebay.com/sch/1249/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1249,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=1249&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Replacement Parts & Tools",
+      "link": "https://www.ebay.com/sch/171833/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 171833,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=171833&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Video Game Accessories",
+      "link": "https://www.ebay.com/sch/54968/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 54968,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=54968&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Mixed Lots",
+      "link": "https://www.ebay.com/sch/260000/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 260000,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=260000&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Video Game Merchandise",
+      "link": "https://www.ebay.com/sch/38583/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 38583,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=38583&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Computers/Tablets & Networking",
+      "link": "https://www.ebay.com/sch/58058/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 58058,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=58058&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Cell Phones & Accessories",
+      "link": "https://www.ebay.com/sch/15032/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 15032,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=15032&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Consumer Electronics",
+      "link": "https://www.ebay.com/sch/293/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 293,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=293&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Collectibles",
+      "link": "https://www.ebay.com/sch/1/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 1,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=1&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Business & Industrial",
+      "link": "https://www.ebay.com/sch/12576/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 12576,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=12576&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Clothing, Shoes & Accessories",
+      "link": "https://www.ebay.com/sch/11450/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 11450,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=11450&ebay_domain=ebay.com&engine=ebay"
+    },
+    {
+      "name": "Toys & Hobbies",
+      "link": "https://www.ebay.com/sch/220/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
+      "id": 220,
+      "serpapi_link": "https://serpapi.com/search.json?_nkw=PlayStation+4+Slim+console&category_id=220&ebay_domain=ebay.com&engine=ebay"
+    }
+  ],
+  "organic_results": [
+    {
+      "new_listing": true,
+      "title": "Sony PlayStation 4 Slim 500GB Gaming Console with Controller - Black",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/377611641177?_skw=PlayStation+4+Slim+console&epid=18030119365&itmmeta=01M6AVP3H7AXVSSSA24QN7BCAJ&hash=item57eb686159%3Ag%3Auu0AAeSw8Adq5o6B&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Qq%2Bd8d9P9TNCZmuOTFAPzIdUXLDfFyIeb8e3OCc4%2FG%2Fu4gff86fps1sfkDvudiUjritc%2BRyrOU1Ugz1ICvDGV%2BPYbQw%2FRBmu4MT%2BVt5KJgbMW5HuSiP%2FtHjJ6710G3s%2BjOc%2BF6y99YrTzFcoW6sqHkCaE9CltD2BT8tnwdvGNg4SbbVpF5CTvKWcPN8bMXjCRh8ezBzNayorT4RP7yAmw%2FKrRBzTSmjgz8EMGAQAZhge1QLreCe6n4G%2BGaLUiKS7YkppFv%2FadhwloViOKDcGVm1mVw7bbagA%2BlyuaEScbDVeSN0YdNB0UyQF9qtXe6%2Bg%3D%7Ctkp%3ABk9SR-q42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377611641177",
+      "product_id": "377611641177",
+      "epid": "18030119365",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 241,
+      "price": {
+        "raw": "$99.99",
+        "extracted": 99.99
+      },
+      "shipping": {
+        "raw": "+$13.76 delivery",
+        "extracted": 13.76
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/uu0AAeSw8Adq5o6B/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 Slim Black Home Console, PS4 Platform, HDMI USB-A",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/168823354839?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3H80NJMCJRVW2EJHFMC&hash=item274ea7f5d7%3Ag%3AQ6MAAeSwezJq4pGq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FEqd1OJfOxLoWRJBpBRd8cnH3FYjCrpn7HfbpeAPzy3O2bCPGMflVRyuSghwwo70Og3m2CHFpvwRH%2BNEX55KphzEspqI9tf14HPrdw8eXHkQ0jQ8Hgebod5YXyp2L4kzfpJe1wxyG%2FAn7myQ99VnMTOfRqmpiX4fpAifmRFnl0aRaOlynkYjZ4%2FwsUyvRfe0BkcQtsy0dwGdzKsaAR1u7z5uqKeYDMrXCGCzupRmq7BV0jkuLXnZGR5N54oo90MWn%2Bi4o6pbBpH14ODoyCX5HR09vgW8JUEyFL9e19ileCBNqOA4kNCS1uqOTAVScGFEM%3D%7Ctkp%3ABFBM6rjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168823354839",
+      "product_id": "168823354839",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$121.00",
+        "extracted": 121.0
+      },
+      "shipping": {
+        "raw": "+$8.29 delivery",
+        "extracted": 8.29
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Q6MAAeSwezJq4pGq/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 PS4 Home Console Black w/ Controllers HDMI Connectivity",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/137785798291?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3H8W3VS2M1WR79H1QAS&hash=item2014ac6e93%3Ag%3A5ewAAeSwMTNquTfq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BYty9IVIFB3%2F7hN2GZ%2FIm0WZD5as%2BA2V2o7iCPaRsBnh3JidL2Noj36YmVEfb1cMbN9ufoxaOU8YwObhIBdR9CZYD2RlYmBSYDheuFKkWUafSiSFbiGXWBvY7U8SLN2xiWZoaj58O9n8GtIg6e2rbQgYXvup7Q2QI2H8r1tgSHkUVQfqfUyQEYKx1RuDHtJvR7RrydI%2BTa8Bu%2BjnyeK8UaZfaVMEiKokFvYX5n2rqd3szKVL7PrP0ODQrKKK65KTJJC%2BMtAAbHoxQ%2BDATANIS%2BVmY039LO5nZgxc9hXBeBWBQL6zQ2%2BcTPos62LmEKyrM%3D%7Ctkp%3ABFBM6rjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137785798291",
+      "product_id": "137785798291",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$115.00",
+        "extracted": 115.0
+      },
+      "shipping": {
+        "raw": "+$8.69 delivery",
+        "extracted": 8.69
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/5ewAAeSwMTNquTfq/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "Sony PlayStation 4 PS4 Home Console - Black, HDMI Connectivity",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/860101533258?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3H8VS470RNJAJQVE8CJ&hash=itemc8420bde4a%3Ag%3AY%7EMAAeSwjk1q5m3L&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9IwEyILWVEtTM0rZnG%2BWtm7qV481vZUqvpljx8GasukUCC8RqEMq2Jd6QCHM3edwssk17qyUuwQG3aZyDmOsBnfHQxUrVZhD6JuCAQ2GuUZ8wJ2w2C63noIf01W3I93y2ayrmF6z%2FKAR5YtPIai74IpLvy9NaA8x3SYD%2BZWhgVSKbzQtMN%2BwmnrOxDR6K20%2FTmNW%2FuzLXPBp%2B4upRqd6VCEofQks%2Bsdj0NzPOZ%2FDzg9S1IAmwi7nTZXX9g%2FrQeoZG5d%2F8ZG4NRiB7o3hu7wrjaMEvOzuZnP%2Fh7%2F1GVLF257PPtqiCMcSO%2BU1dZg93PkhQ%3D%7Ctkp%3ABFBM6rjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860101533258",
+      "product_id": "860101533258",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$8.69 delivery in 2-4 days",
+        "extracted": 8.69
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/Y~MAAeSwjk1q5m3L/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Sony PlayStation 4 Slim 1TB Black Home Console HDMI Ethernet",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/820301352647?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3H8T8246FVZ3M483FZ2&hash=itembefdc54ec7%3Ag%3AuZMAAeSwnQhq5ows&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BWxEptBxNF49PrQdwcjAmt%2BuARxt4wJ01%2FQGcjTfpvJaYkcOD7mltvUeiXaLs1bGbbHqHMPSrGfXxKVz98ccxPLLNpn%2B3kE20vD95q9AwaT98iQlRw2QhwAJ8QPD%2BNh3hXqy4O0SwgBGh3pfMPR9HC2yqh4XbzB3DRjPBs%2BW7aPn6FEvmrbu6NgwckuZr1cShD6lyok2wg7VDB8QVW2tpmgjjeutuNZTG3rtpMijyb6OKi6hd0raTLlgkeww7XRGEOwdmqomhSyhwWwAcYIlfE%7Ctkp%3ABk9SR-q42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820301352647",
+      "product_id": "820301352647",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$95.00",
+        "extracted": 95.0
+      },
+      "shipping": {
+        "raw": "+$12.97 delivery",
+        "extracted": 12.97
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/uZMAAeSwnQhq5ows/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim Console 1TB -Frame Damage - Fair Condition",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/287692772754?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3H8B8TQJRR507S8EH37&hash=item42fbd35592%3Ag%3ANOIAAeSw4Bpq5P%7EV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2ByUN1Hc83wH%2BWANxXANrFI%2BQPmXCoEfpM5AtGJdijWipcfsP4iuJCkUMoyiGsElE8wIyFglatriLDUN%2BA%2B5Bb%2FSRD91tH8flpsA7TZ9agsMxdL81IruARb4ynnbQTpUVkNa9rTvWS3IajfmR5EtvQgmDJ71TLI6IXO0gAe2DfU7B39qTTOPaVdthtuSs0EuvRsuner5pdhHzCpeTXIYeKrM3mCS%2BoPtie0e4BRYdDqAFC2CSortjEd8Fxl%2BpJZQhbBKERqOxpQxrJ26TYvAKbxT5dsHdzQN5giHfM3lz6hpxQBCwIEvDvDbxXCm0%2FdFbI%3D%7Ctkp%3ABk9SR-q42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=287692772754",
+      "product_id": "287692772754",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$119.99",
+        "extracted": 119.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/NOIAAeSw4Bpq5P~V/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Sony PlayStation 4 Slim CUH-2015A 500GB Black Console w/ Blue Controller Cables",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/940056159446?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3H8RMX6FQHP0F6BJD9X&hash=itemdadfb6a4d6%3Ag%3A%7E0oAAeSw-EZq5rA-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8H7%2F4TBnthemP6dvIRGXgc3EYZ0f09Cnc5O2XOhJaIC%2FeENDIMxqSffC%2F1CaT7VfAHI8h55EADR0RJywxRp1Ren8e2qIrpYRWConiSW6VEVgszuME%2BOWsnbA87UzP6OVMSY1tjpmQ6Qr7hDPnIF%2BPK9rYdI8DW182A4lGojQmsD7Z%2Bc8cvkT%2Bw6jhhCr3SKag1epxSo%2FP9zGAGOiqaVsTBPJGzO7bF4JcdbKKQ2gLIGLHDWCXps6AjGlnXOVZNp58%2BTUVGc6Km6QEEY6gAi3rNJ8yA4TAEcKWgPjd385gBLkUzvwuO0fqf1e4eiJyUn8Q%3D%7Ctkp%3ABk9SR-q42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940056159446",
+      "product_id": "940056159446",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$19.65 delivery",
+        "extracted": 19.65
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/~0oAAeSw-EZq5rA-/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Sony PlayStation 4 PS4 Slim 1Tb Black Console w/ Controller Tested NO CORDS",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/407329655836?_skw=PlayStation+4+Slim+console&epid=18030648971&itmmeta=01M6AVP3H9ZP8GBFQ35Z06X5RW&hash=item5ed6bd4c1c%3Ag%3A0HAAAeSw%7EnNq5j7j&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8aoTIDfYwR9dkfU4g7%2FSq09GkPhoVxfBPL4yQGmgZS0NL7tKzhECTWNxgoN%2FNfoG8UjUoIJPagkWwZaGzd4KQLC9pc7yvrt4TOUjZw6u4M9Au70IM9wOtrj4i0Rtup0E7NsrMw8h%2BlZKOQ%2FS79v%2FlDhGr1ZYKkcH%2FrBvE4yJSLe64WZVoNvQ1WfPc3%2BG3zH%2Fdt7DW8Weo2v0eIdtl4TGg0nqvtQQrD4Vt7NYVHpKJYRkcwFm8DsOR9YhcrdEF%2B9a47iBCS6gsEvgaEk6U8xk%2Bk1I%2FYm7G%2FX24Khoni4unHiqM16SrcT%2BxZowJa3Y%2BOSr8%3D%7Ctkp%3ABk9SR-q42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407329655836",
+      "product_id": "407329655836",
+      "epid": "18030648971",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 29,
+      "price": {
+        "raw": "$119.99",
+        "extracted": 119.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/0HAAAeSw~nNq5j7j/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "SONY PLAYSTATION 4 SLIM 1TB Complete Console PS4 SYSTEM Black - WORKS GREAT",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/800861705895?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3H9J7V1W28SA6PBF51D&hash=itemba7713d6a7%3Ag%3An6IAAeSw8eFq5smQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9rEsZ%2Fpc6O9EDc3Kp5XeSVQtPsQ5Vut6%2F3PqaGBXLyaLpydR4vJc9m3Oz8FS1yzvKGNyuDZ3d92WWjSsMpuajSbO1yUNNaROZ%2FkibAFPiXTfzIQly7YZQ5DBL2oyPvoI2wbB%2FLOdX3KMPkFQtIHvQ6M7jU%2F9uH7YsnaMLKk9uhv9FxbaMAlglaoOd31UaJ8ex7%2FZ%2FmaRMzBx312hMG4L8mucnALwtU7ui%2BZV%2Bs8OfYvv3aHIDAAQtMJfsqWF8HE%2BeqhF7RxYtn2UIB%2Fz73FoezIzpt9uzZ1RqGv3yOTIiVb0bL3j4iLRDWliBcDjcjwKU%3D%7Ctkp%3ABk9SR-q42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800861705895",
+      "product_id": "800861705895",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$114.99",
+        "extracted": 114.99
+      },
+      "shipping": {
+        "raw": "+$16.11 delivery in 2-4 days",
+        "extracted": 16.11
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/n6IAAeSw8eFq5smQ/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Sony PlayStation 4 Slim 500GB Gaming Console with Controller - With Games",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/137890025362?_skw=PlayStation+4+Slim+console&epid=18030119365&itmmeta=01M6AVP3H9X490EJ60GX4WTFTY&hash=item201ae2cf92%3Ag%3ABucAAeSwVKBq5hvN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8pVTuKIwO%2BYyAz2yJmq5iVghdFSe1teyhCAENXCkaDXy%2Fzqg%2B2mE8svywv5I8Ml6SkENhj6Qp7X%2FXMDgnd0655l6WtejYkUo65hddhzSrGByIa4CFlAwQmJ6XYYnEFce%2F%2BLI3R%2Bk6Tc9qkWr3xzSjJ0fFyx3K%2FFLMQKY9nidT1DywGzC7z2sltyvaWm75n2RErrPM0cSYHJj9TZSzaHEf6iEmhaAeHR6qfA06m7RTqeBleLmcDOnE43xKtIWEsK60oAL0tqQhg6oBXIeBfbVRuyXkozFE0Pp6GAfzMSPU1eyAKOAvIm%2FOZk5vu0ge06Lo%3D%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=137890025362",
+      "product_id": "137890025362",
+      "epid": "18030119365",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 241,
+      "price": {
+        "raw": "$200.00",
+        "extracted": 200.0
+      },
+      "shipping": {
+        "raw": "+$10.95 delivery",
+        "extracted": 10.95
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/BucAAeSwVKBq5hvN/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim Console - Black, Clean And Work",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/920074724678?_skw=PlayStation+4+Slim+console&epid=13031982632&itmmeta=01M6AVP3H9HF0QM3H5ZNZ84RQT&hash=itemd638ba2546%3Ag%3AfbwAAeSwGY9q3rO8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FeN8d7xxgT6Q%2Brg9dutTEpwzUM6MnRq6wbeXr6R49uSk3R7FU1itIHdvi5akp%2Bf0%2FJBqSebH6Clj2FPSycac1T3qiy11FEs8bbkNZPgGJPqCrAMZeuVpL9jDMiMF7MpQsd014g57KykOugFfyj31s6%2F4%2Bjiyg4yiXlMAzpel4MRU736TsTyFmgsfS8SA%2BzTYNx4iGlv3GS5ny26jZ9hp0FUgvgQODvRKLt4GLslBGPV5Q1GrhgaGi443Dl8jd3BNx2PGP7BTalRkJhJtuYo3ES%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920074724678",
+      "product_id": "920074724678",
+      "epid": "13031982632",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 2156,
+      "price": {
+        "raw": "$109.99",
+        "extracted": 109.99
+      },
+      "shipping": {
+        "raw": "+$11.07 delivery",
+        "extracted": 11.07
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/fbwAAeSwGY9q3rO8/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 500GB Black Console Gaming System CUH-2215A",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/860074976184?_skw=PlayStation+4+Slim+console&epid=1585470577&itmmeta=01M6AVP3H9N3FJPJNQGHGF4KJB&hash=itemc84076a3b8%3Ag%3AsYQAAeSwiAVq3F4Z&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fs01TIiMC6a2Aq3Ophl5%2F1panlsqepgVGVXrtf%2Bj9bAbnIwOh1TjdObgTfdQ%2BdWpJKL6Gj4EZsBWs5cIo0TRjlHnyJpsPArAbWT6BCSAkEKACHXnP9oKCp0WhaLxCyGWZ%2BD1OEGfg4Cg1VavN7FVNrXPz05Z%2FQDQ9NKvstTvYQqxv75fn7eUZSId0UKthHm3xMbQJylqk6ubqwNKJRxhLS5q%2FoiWbX55JJpgHQACkN8RanHMY2OfPMJWEPY892P9OirSc5V%2FgRnb4PiMbmet5N%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860074976184",
+      "product_id": "860074976184",
+      "epid": "1585470577",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 12,
+      "price": {
+        "raw": "$113.99",
+        "extracted": 113.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/sYQAAeSwiAVq3F4Z/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 PS4 Slim Console Bundle w/ Cables & Game (No Controller)",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/128161902805?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3H9XM6M30SZPXWZ62HB&hash=item1dd70b70d5%3Ag%3AeSYAAeSwzDVq4rWl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8uuzBjIH%2F%2BOsdo%2F8pu55FexiburkwsbchHTT1IUeHUA9beh1c2QycWikifST0PQsVSSb%2F1%2Brd62YPIZx%2FzDVU3zv2DOeuq3TIpVhFyUxQdFLe7IF873TPbIcIwWeO1BRWxUywWnqCEBPYDqk%2B8Ym%2BcbXDnNGd2j0yQ2ceo3lv7TQOHh6%2BFksZszy7wTHlrtheIjTIwy1A3qH%2F9YWM81XZ2PXDRcxlj6XNkmdahy%2BoZ5L3MutoHy5Eo5u9t4ecVwFZxhdDWE%2B1ieazY1J0nSk3QxFsyN0Ck4QL3vzd6YpV6vIiL3IkPKdeCfDuWsPw9Pic%3D%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128161902805",
+      "product_id": "128161902805",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$110.00",
+        "extracted": 110.0
+      },
+      "shipping": {
+        "raw": "+$8.29 delivery",
+        "extracted": 8.29
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/eSYAAeSwzDVq4rWl/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "new_listing": true,
+      "title": "PlayStation 4 Slim 1TB Console - Black - W/ Cables - CUH-2215B Firmware - 12.50",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/407329874604?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HAQ8DH8T5JMF9NYYQM&hash=item5ed6c0a2ac%3Ag%3AxE8AAeSwzbFq5mDd&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8rZ6XOb8QdBni7ibA%2F2WLF%2BF22fVT4HCXYohsVJ88Zd3zUcMD2JlDRQesCfWQ27sXZ7hNyo87Rmnv0JVszWlj3WorKqsQHiyPIlg8DACCMlkLsVZfYif3hIhOsmw6RZW%2BU%2BpxLjT3x7nsaVhNG8%2Fjno6o27Prkn%2Fp1j9fRybKnKb7ul6cx96WRksfEG6gRMpTGkkKfJFOjuUXrnLIwvPes4fMj2zPHkKINNroI%2FEX%2B578O0qL%2Fw4FFKD6KIZRnDgzBGTitRttgdeLG%2FdWCw2s9VWUljjs6wt2X1tLhuG6A67iGG2vsk%2F5SGiNAurv%2BlpU%3D%7Ctkp%3ABFBM7LjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407329874604",
+      "product_id": "407329874604",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$148.88",
+        "extracted": 148.88
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/xE8AAeSwzbFq5mDd/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 Slim Home Console Black HDMI USB-A Ethernet No Cords 2 Contrs",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/307254521591?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HAB4T9M68Z3VA65CCK&hash=item4789cbeef7%3Ag%3AOgoAAeSwM2tq4pEr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BFpsG%2BjcThGsSigNOYSA8G%2FPOD0ZOOAmGkkHQrGV6FqwC2isVAIVWcU5dN9fq1TUnjGvr9NwZgr2q6mPcc3Dqb3lvNCFJmRf6o%2BuR4RL%2FH9GJPbYJBlNIN%2Fshd3wa9RgXPDu%2Bo5ZABS2ZP2TqKPiM2fPhNyryOCLKNDNHItITKq2iafb3X4BMOrlkI05q1ekv0%2FXLCZX5ojQmougZCNmTgqBd4QZEXsRlIy6Y%2Box5fEODWhwS0XVMHo0MBHmhhnFWiLoVkTeNZx5nenYRk2b%2FdPCLO0%2Bcufublsz9qB8TBuZqCQoEYjzxhdjmVZ2yoB5Q%3D%7Ctkp%3ABFBM7LjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307254521591",
+      "product_id": "307254521591",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$100.00",
+        "extracted": 100.0
+      },
+      "shipping": {
+        "raw": "+$7.85 delivery in 2-4 days",
+        "extracted": 7.85
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/OgoAAeSwM2tq4pEr/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 Slim CUH-2215B Black 1TB Video Gaming Console Combo TESTED.",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/168536062023?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HAKBHCNQVCQD17T6KQ&hash=item273d883847%3Ag%3As0IAAeSwaStqVrAr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2FcXdsLn4LZLrjHdHhuLXnklQvnzRAaWlvP98hF6qnvLxHleYFsjT3JmEK2Mge3%2B%2FMpWW21b7SnekE7yg8KcMjYQySQpIBlXYPKmzVG0vzFW3qG1IcE6S5rLuaiYFCKUNnQLQ4jmmaYHidm49FGRenkBi9%2FrknPj0Ku56AVqpYK3%2FvlXYl1NNLAyATrznhcWhY0sFT7KqsR9hcfzR7k21%2Fp6zs%2Fdmz9iYJMP9zRDAZ9nBbSqBh7ZcaZFpLXQNVCpz9%2FKSDLYoIELSHELxZEtkbO2Nettf97ywUqG%2BXqGcl4VZzZ6ceY76MJ0eLbb3CzYY%3D%7Ctkp%3ABFBM7LjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168536062023",
+      "product_id": "168536062023",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$159.00",
+        "extracted": 159.0
+      },
+      "shipping": {
+        "raw": "+$19.00 delivery",
+        "extracted": 19.0
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/s0IAAeSwaStqVrAr/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 1TB Black Console, Headset & 3 Games CUH-2215B",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/860055689180?_skw=PlayStation+4+Slim+console&epid=18030648971&itmmeta=01M6AVP3HADE50563BNVJRD762&hash=itemc83f5057dc%3Ag%3Agu0AAeSwoJtq0%7Euj&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FyheqRmcqbb0CE%2BQj%2F1GolHQQUtu61m5i%2Fsk0Z2Z92s%2B7gYHqvxU%2FCCHSWksl1UM2Ybqr96QT2TL%2Fat2QW5Jflw%2ByNC0KhyIVzfhwSXC2KzxejbU3%2BPP8krO3JNEOhTgyBn90NioG29M5TrMhIOfAxyxLBMgsOg6gsnINVlKh9Gmq4w2zf4fMUbTfOjYRj0qt%2FFJiC1wUrUsQtAXs0GuSO%2BgZwluxP5ORqjMLxw%2Banml9GHs4wwTLqe6eMDYZL59%2FP8d9aDi7KLizMP3S%2FYLg1%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860055689180",
+      "product_id": "860055689180",
+      "epid": "18030648971",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 29,
+      "price": {
+        "raw": "$149.99",
+        "extracted": 149.99
+      },
+      "shipping": {
+        "raw": "+$9.69 delivery",
+        "extracted": 9.69
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/gu0AAeSwoJtq0~uj/s-l500.webp"
+    },
+    {
+      "title": "Sony PS4 Slim 500GB Console Bundle w/ 2 Games Tested",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/960135066405?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HAG4NVGNMPCGYDNSD8&hash=itemdf8c827325%3Ag%3A8UgAAeSw5ZNq5U6P&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8zouOuIb9ulSB2F67VkEnTK95oGpK4zcaLfEipknHW8PET7ES0FrX9Bh4HQvQ7wnPgCNqoeUiPEsjGIbKqlubyjniACUFttpsj4Rqa4qpNIbfXfjyQlp00cPtGrZxk6t%2BF%2BfkjpIBaG16UZlI%2BUapf%2Ff7ZYZ2xskfmt9BEdzFUP6U32kurvKOfdH7Nf9KkiyEbX3YTZpCMAI0DSVLrgUB7U%2B8o0QF%2F5dffde2DamcJ6NLAR%2Fwi%2F3Cfyh%2FlEIj17tuqpK2moUQDKLXF787pbSO2%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960135066405",
+      "product_id": "960135066405",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$129.99",
+        "extracted": 129.99
+      },
+      "shipping": {
+        "raw": "+$17.25 delivery",
+        "extracted": 17.25
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/8UgAAeSw5ZNq5U6P/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 1TB Black Console Gaming System Only CUH-2115B",
+      "subtitle": "Sony PlayStation 4",
+      "link": "https://www.ebay.com/itm/860098402666?_skw=PlayStation+4+Slim+console&epid=8057462449&itmmeta=01M6AVP3HAGRX2T50RPJAMG7PH&hash=itemc841dc196a%3Ag%3AajwAAeSw%7EJtq5NQ-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9GfxplLcsRUYM2mWRsW0ks1EfTJWGlznbWdtCwxHZfGPBtSxYXgWGOQaHEJ7yXUivWo65Pl1MaPlCFuImwn1ZkJbh%2BSwPM9YvsnHI6SGhrLHxyX9Oo6%2BPReyY1E7HEm5UWNK7Kj2JCtYRodhaCmd1AmCrTnKjt7mNxSvGlEvyG21v3fcXXUglxCe9YBr2DdcjIiJwBlUn%2B%2FCLnW3wca2davvOAh2zU01dcQmlLKu7uuGiCDZTxjXzhwit9fT4DqJKSbZjH980PWFQeAXYj%2B9rolqgnnlCvMvCmmc%2BZC1ql5OOPkMZ3u45G%2FygdOtBN36g%3D%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860098402666",
+      "product_id": "860098402666",
+      "epid": "8057462449",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 3,
+      "price": {
+        "raw": "$129.99",
+        "extracted": 129.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/ajwAAeSw~Jtq5NQ-/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 1TB Gold Console Gaming System CUH-2015B",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/940053165564?_skw=PlayStation+4+Slim+console&epid=238216785&itmmeta=01M6AVP3HAW1B8QNBGB6SEQPD7&hash=itemdadf88f5fc%3Ag%3AD6cAAeSwa9Jq5Q8u&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BDAbZSrh%2Bg9tI0rrM30niOKhgjvhxyQes0IMjzgaISNcPJGwwDGhQ9iVF37jdyrAjX6XQxOWEE8e7YGmbVQA%2BlojVeAlqpZ4lYBkY6TEQS3oC95e0%2FreFS5HHwiHZvAw%2B8UFToFPL6Idq3KElRv9mzB9g%2F%2BoDod9wIW8Mt%2B38Pde5KnqN7UTuLeRcbAmfFICyI%2BZP1tsYmRNOvn%2Fmt03FhzQ40%2FpDR429RWrUr8m1E7a0siE2%2FbTnP1NVg68zZq7qrF1mLC76okLwLE%2FxsHx4GsBv3XDmwTcUZEXRfZS6l1YVK6mPg1o2adKT%2BfruI2rU%3D%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940053165564",
+      "product_id": "940053165564",
+      "epid": "238216785",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 129,
+      "price": {
+        "raw": "$159.99",
+        "extracted": 159.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/D6cAAeSwa9Jq5Q8u/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim 500GB Gaming Console with Controller - Black",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/336635918772?_skw=PlayStation+4+Slim+console&epid=18030119365&itmmeta=01M6AVP3HA5YS2C3EFDV0B777E&hash=item4e611079b4%3Ag%3Az%7EoAAeSwfgZqLCR7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8QZBF2D%2F%2BQ89bgtB2%2FS7XTRelj5XSYXJY931gskzRIWvqljjr4w%2FA9qfOUtGgAQhFpi%2BjPJYzzgdZW8RxWXi8YTiqM8g8m2DCMp61y6vfa5oJVg7uTM%2BkfsHDNXfrRO1bXaO7AN7aITNln8IlU2PMgZFkoBPaBeNeC8QDI2xxIfG81NY5wWpZ1M2qAoW5yYEVGfaeV3Wo5NhZ8x6m%2FhjWK348fEqWgaPX%2B5WMynrpXcNc8GhAwtRQMY%2BuJhsRRPFsMAzCMvSulFAea98E%2F9VCtKtziWRRkATFJiEdhHweCIMWTgQgeVcvE4dgDp0s5B5s%3D%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336635918772",
+      "product_id": "336635918772",
+      "epid": "18030119365",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 241,
+      "price": {
+        "raw": "$119.99",
+        "extracted": 119.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/z~oAAeSwfgZqLCR7/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 1TB Black Console Gaming System CUH-2215B",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/168814271283?_skw=PlayStation+4+Slim+console&epid=18030648971&itmmeta=01M6AVP3HAV932C6KY4MQDRKYB&hash=item274e1d5b33%3Ag%3A7vYAAeSwGwBq3RF4&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BJNBIqfGcvChZCRt0vD7SaH4GqrTqunIYtOJ0m4xApamYZF%2BPtV%2BPuc201Viq83%2Fkl6D8n2cxrKn%2B%2B3rJJSoD47aTIG6sZwRAzztCBVTVAjaONKR65d8deSg5aNfjo%2B%2Ff1IOI0Krg%2B9Q2Vr48RbOxRAW5Xg4Jb1Urb2YS%2Bwrvc5LolFt1q%2BEk2QUrIi6ff3jvxOxXtAU4zUSThEq8%2FvXyWkA0bGWsaZtOvDXWjdwg%2BCZggdqsk9YtdA00Vjdrp9PXeagAifjky6ZH6hvcOromB%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168814271283",
+      "product_id": "168814271283",
+      "epid": "18030648971",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 29,
+      "price": {
+        "raw": "$139.99",
+        "extracted": 139.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/7vYAAeSwGwBq3RF4/s-l500.webp"
+    },
+    {
+      "title": "SONY PLAYSTATION 4 SLIM GAMING CONSOLE | CUH-2215B | 1TB | NO POWER CABLE",
+      "link": "https://www.ebay.com/itm/366747567915?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HBVDX8SR6DGR27W4CD&hash=item5563dbc72b%3Ag%3AqEoAAeSw%7EK9q4zKO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9qjTNCPz4ELM066xhPdtM6KWTTfCL5Bq0wbKwf9NODqKVB43FJZYD6pybpbGhXH4uF8cdTtAFp%2FVz3jvnZN2393ekcsAvup6jkkCRPP2VnSpGSwKjEutD2oDI6MPqoXfzAJDPuAhtVmtz3KjKT7YRyirdTdYsKxprYEL9gWCS0B1y%2Fo9IGYLz%2B4hETMUz1avfKAD%2BXtrEJcboM8B4pnSJJHwN503Iefz7jgFcNgf4d9c0KJdCrIlYGuJzmPHer8RBI9W5V2jr6%2F1FA7bVTwyjNv9hlS4YjODsOzbkJrs4nHsNPO%2BJVKH7BzzKIsw2PgSU%3D%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=366747567915",
+      "product_id": "366747567915",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$99.99",
+        "extracted": 99.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/qEoAAeSw~K9q4zKO/s-l500.webp"
+    },
+    {
+      "title": "13.50FW \u2022Read First\u2022Sony PlayStation 4 Slim PS4 500GB Console",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/377599152755?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HBK0977FGTYTPAY45K&hash=item57eaa9d273%3Ag%3APRIAAeSwRONq34ho&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde83lMEzuilaJ%2Fh4dY8eQn5b8kaGao1Rl8agXIgfabrnbx%2FxkqQOzIuAekmot5Xr0yeTpMoVnK6jk65%2BLuY2JYzcBKpBSYRTSNq9FnIBkeK%2Flut2rlToNQvVZZgzjamx5%2F6PAg8J8UaWfXExjUBlEnZfo16iMFzIffBvRhfMsNtDmd0PT3viIFzr%2FhXxHRshSRyJwByz23Z4jDIhrm1TYaKxJqwgZsEhhdwaNT%2BDp2o6L6Pdc3pS%2FwZbTfvbvDmzZoEJ6u5gcEUlEygcpO1st%2F5X%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377599152755",
+      "product_id": "377599152755",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$94.99",
+        "extracted": 94.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/PRIAAeSwRONq34ho/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 1TB Black Console Gaming System CUH-2215B",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/920088674069?_skw=PlayStation+4+Slim+console&epid=18030648971&itmmeta=01M6AVP3HBD2HFB1N8MXXFHWDZ&hash=itemd6398eff15%3Ag%3AL0AAAeSwcUtq5Pdl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9uLVgEC7Rvlj6awXgbYNS1b2tPdc4Hfx5h3T8o8V8PO3yyGQ28CfmSXysqy1TvR2x2KNoMXXylIS4UVVzSjs9r1iq%2BdvwgVxsVrFNeDBk1sRvzMI65khL9vCJFIchDcWYE2BuQCvOfoIyw5RqPYBMsB84ZWg3Iyq5x8GhQLUOGNlcW50dHzWk6zgkKho0PRsx2Cdebj9lHp4zhaL8s4EwtyU1zBZIVXfaMqBX40SNDXD%2FA4bmD5feycZEQbaUlLXna5%2Bco1j41GEFCIo3L246zQhXZ8Mcyofv8C4Nf3WwOr5lgdw1EaFhUtxE8qcv4MbU%3D%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920088674069",
+      "product_id": "920088674069",
+      "epid": "18030648971",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 29,
+      "price": {
+        "raw": "$139.99",
+        "extracted": 139.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/L0AAAeSwcUtq5Pdl/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 Console Bundle w/ 2 DualShock 4 Controllers Black",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/800852513698?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HBWA5FHRAXZZGYKB6X&hash=itemba768793a2%3Ag%3A1LIAAeSwc7hq44Rf&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde86QNBGuxwKhpAs%2Bw1eUj39tZpwm6brjIFISPOgGPJA8M6G6f4151VcO8xO43QrL%2FKXguDlfOLSy%2Fs%2FndgOlqn58yF6B7p9UmGzLq9cgvD%2FWvPMFNuCSMGFpF%2FbCd8Y%2B3g1lRG2vR4ESFHAqDEd5zhNyW%2Fy9IjFPWl7Ww9alDmtTVhVOvVmXCbgfDrSpKhBLN0ykwTWWNVMc4%2Bf2cnxI3duEpwrYjH1V8OoMuhkR3LrwT1vJAlLTAVhb%2B9HJNy80YFcYORT9345P2Tl%2FtnUxU3I%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800852513698",
+      "product_id": "800852513698",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$140.00",
+        "extracted": 140.0
+      },
+      "shipping": {
+        "raw": "+$11.07 delivery",
+        "extracted": 11.07
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/1LIAAeSwc7hq44Rf/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim 1TB Black 1080p NTSC-U/C Console + Controller Cables",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/800838249957?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HB7JA6SC96GFNJNAMN&hash=itemba75adede5%3Ag%3AB2kAAeSwiv1q3nif&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Dn8ez0gpOa%2BANDem3ZMKfQjSZB%2Baehp0D7wqzI3d6knd%2BdYAiMLMW17QTscEwi%2BRakVhmDslIA9Us5owDNPPQ3ygiBDbuvEAOaQHDLrzM%2FYZ5dgNh7f5kTvfHNyODAKBqAl3KRoGRUBpciONdk4csoln50EHZIOScfijQUzMPOgUld6I%2Fy4e5YWAnR2U55zduXElXRz1Fme%2BQbyS0D6hX1g88hPwRTaO2WtGD%2BQG2Afh%2F2%2FTT17XjfLYOE6eSm3RdEQHIHc7%2BQ1ADHDq6A4BexPgICZ5SfwKekJW99XLVPgmmXZrLkG5Ain7Zx6q8YHw%3D%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800838249957",
+      "product_id": "800838249957",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$140.00",
+        "extracted": 140.0
+      },
+      "shipping": {
+        "raw": "+$8.29 delivery",
+        "extracted": 8.29
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/B2kAAeSwiv1q3nif/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 500GB Black Console Gaming System CUH-2115A",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/860067427504?_skw=PlayStation+4+Slim+console&epid=22057351950&itmmeta=01M6AVP3HB9P87A3H7WTXHBRWJ&hash=itemc8400374b0%3Ag%3AueEAAeSwyLdq2Cax&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9XwIs0m8AkX6QtAcU8OJTkReHR4eYgoRNBil1f1UbVOH%2FnOINEOdg7iJPdUhxkC087AvYmh2yg3ie8on07Dd15Ck2gXxEmKbz3gd%2B789evs7oIhB7gWWLMySIObn3GLIR%2BrmX4wgpWKbOIibCqw4d%2BRROl7OIalkmUIKyns30lXuVWUweH2tQXPoxik1z352DzTUuekH8zRHfWqK0tQe3jJBQuplHvq831w2V5%2FDKVpKyfcikFhBNRbUwIVm%2Bsfxqlypk%2BmdWNlah9DsmhJ3CKlW3ttJzi%2FCaSuXQ56NUluzu1BDRJREd0s10M1XGF1VU%3D%7Ctkp%3ABk9SR-y42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=860067427504",
+      "product_id": "860067427504",
+      "epid": "22057351950",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 4,
+      "price": {
+        "raw": "$119.97",
+        "extracted": 119.97
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/ueEAAeSwyLdq2Cax/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 Slim 500GB Black Console w/ 2 DualShock 4, Wi\u2011Fi HDMI",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/800740586000?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HBMF60AD8322SYHMY9&hash=itemba6fdbb210%3Ag%3AGlQAAeSwgZ1qvaS9&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8MQ8dJJvBcJOzkX39wu17k%2BMm6JHOpDIR99LKtuPfu52pAZDQIWAgIRdDjg7jeUmq1As6p5IG4R1bwQzt6tul3On5MK%2BJe9bMh0ZWj%2BwPvDpt9wb3JQTJsJHAtCEOa20dU6j0TAyJd4OuYwzO6dT%2Fs3QqQKVXLRQG8e0u%2B3OtkUE%2FOCm3AL4AkY0KP5UQBwpRqnZ2hfWpOYoV6NEw1X9BiXz9E17etxXels7GF6j6VSEcXeVxfML6nCiypTXKig3lB9eflv6ySD6z3Xv%2FwF12wjPsu1KUGXQBxZq%2BZMFZ4yKygSQu8euRHLdKWGty1zyU%3D%7Ctkp%3ABFBM7LjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=800740586000",
+      "product_id": "800740586000",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$154.99",
+        "extracted": 154.99
+      },
+      "shipping": {
+        "raw": "+$7.58 delivery in 2-4 days",
+        "extracted": 7.58
+      },
+      "location": "Located in United States",
+      "promotion": "$123.99 with coupon",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/GlQAAeSwgZ1qvaS9/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PS4 Slim 2TB Upgraded Console Bundle - DualShock 4 Controller Sealed Game",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/407323220055?_skw=PlayStation+4+Slim+console&epid=18030648971&itmmeta=01M6AVP3HBFK8B2YDKJ5Q7ETGC&hash=item5ed65b1857%3Ag%3A1lkAAeSwmaFq3%7ER8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8AK66%2Bv2OigdjLdqWdYuejBv9K2mrBCkURdwswcJWM8RHwFbwNS%2FKnz8%2F6UkS9pFjUKw6rpzZ7s2LG%2BsQ%2Bv5IYrGSwpjU%2BbRl8JB%2FVhEhI9UCmGI7gW0pVEFDdFHFPxe6OD6eAu3nyEjaR%2BxtRjhPsUb1znzH%2FWSSpfiyRLjDdUlSeiTIx2NXXFnGKK5pWXyCkqLqrskDdFVobJOJwdQlgwU11VQnoABmF40%2Feykfox2fp%2FoQ0KX0NQofaIpCUtkd9VJ35xSKVfBMyEm6duP1bWGSnXVL2wk3Ep4exuvf6VKxSdfaFgeKlBxeopYnPbe4%3D%7Ctkp%3ABFBM7LjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407323220055",
+      "product_id": "407323220055",
+      "epid": "18030648971",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 29,
+      "price": {
+        "raw": "$169.99",
+        "extracted": 169.99
+      },
+      "shipping": {
+        "raw": "+$12.16 delivery",
+        "extracted": 12.16
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/1lkAAeSwmaFq3~R8/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 Slim 500GB Black Console w/ Cables Wi\u2011Fi",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/820096974335?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HBPC70T0DQJ6AWF8SE&hash=itembef196bdff%3Ag%3Aul8AAeSwSUNqnkNZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8CfDnoaFMUxQh7E8EatauaH%2BlI7KFatYt%2FslZx01UGPsH1PijZUtMW5551VSOTwm6OKcWjq3sl895uNT2mLzFHTGjczhu5XHLdQ1iyAZmXF77b17p3%2Bp7L8iFffNKOnba6aWnGgTEPizxxZ4D6glAOSO3nXQVRjn9mkmk3o35Lxv9nZKYqESxH9uGeOZWyg%2F6%2FC72RMmMj%2FKw%2BPxc4IkBnIJad1mNC%2Fl2vd%2BxK2GOKTH67Bvntngiv4o0HONg9YV3Y5tUqvWAuSNzcj5PKRfxNKq1cHx2AatVbtYV010KKU5f1ArjDKdPN1nMlNYLT6bw%3D%7Ctkp%3ABFBM7LjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820096974335",
+      "product_id": "820096974335",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$105.00",
+        "extracted": 105.0
+      },
+      "shipping": {
+        "raw": "+$7.85 delivery",
+        "extracted": 7.85
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/ul8AAeSwSUNqnkNZ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 Slim 500GB Console Bundle w/ 2 Controllers HDMI Tested Fast",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/318285998519?_skw=PlayStation+4+Slim+console&epid=18030119365&itmmeta=01M6AVP3HC59TXG5V1P36YVG5G&hash=item4a1b52e9b7%3Ag%3A1vwAAeSwVqBqAexH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Tq9mUBPbsuWM2eLXcT1EF8yAy1YvpBA%2FXog4LCXKExZ3H7KfxzLVBVjWU43gnTHV18v2lb2bZFTes4DyETj0GysU49XNevGAoPgwt1EK1HPmmhU%2FIMj6G2uSLO0EikEArvWRdCzsh%2FRqdiWK66APkRUyFnlgKUzhGDOmx1cZmEZprJQ%2FvxMCum4rxS%2FBIaO468HlmeRzTtGBd4yOE5uQfCo0fHI3RmOjV%2B5IJfWR2ZXpykdLJfy9iJD8EnIpr9jJjzd4EHgIpDF6miiykWIYIl8aYWr4s8elIFjQ24QqZasJdBh7Y5egeEhNWLKTbJSY%3D%7Ctkp%3ABFBM7LjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=318285998519",
+      "product_id": "318285998519",
+      "epid": "18030119365",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 241,
+      "price": {
+        "raw": "$175.00",
+        "extracted": 175.0
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/1vwAAeSwVqBqAexH/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 500GB Black Console Gaming System CUH-1215A",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/940051153865?_skw=PlayStation+4+Slim+console&epid=27032161147&itmmeta=01M6AVP3HC7JE6EWA9B8JBY0DR&hash=itemdadf6a43c9%3Ag%3A-xAAAeSwcnBq5A3X&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BVn0hyXDwUjYA9voF9gy0sSHsf6rCgGaRfrjwMZGVX6gYRmasSlKoJEd4bsz7Zeb55DbDE7qOxJHMoxw1qZG8RpFoqLhMfyMBn%2BPpNgwXD%2FvkJ2EK0eQ9eFStNn1%2BsT1uZAL4YDYEsCwODTVJvZaNq7Gi63Cf0jgL15o2%2FX%2FnjRbxx1gZx7YMZBx040miIO8%2FQQNYN%2BJV25BiUoJNLOwMTY5ratL7cHj5%2BmCZZILHSExQLCiZd4CH2xIFsDbiEk36fS%2BdxA%2FL6F2Fm3qc3B%2Fc%2B8S55PJ3u294Y9Ze%2FVBQOkBiloUUNyIp63Ud8tYVvRIM%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=940051153865",
+      "product_id": "940051153865",
+      "epid": "27032161147",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 244,
+      "price": {
+        "raw": "$108.00",
+        "extracted": 108.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/-xAAAeSwcnBq5A3X/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 500GB Black Console CUH-2015A w/ Controller",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/257737405018?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HCE354ZZYKXYTK5JXZ&hash=item3c0258b25a%3Ag%3AkPIAAeSwCJxqpHVt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BMGtj3oqBsMyzCxim8SSPItM1YkqrS6bbFgqs4voE7AH6L8dH9Lude%2BkbbKwJXlzlwWNHbufUXnA3pjItO4gQ8NZUkWq500JHBVabKWHpsEBhTRNwXLjYAxX9t8%2FnSx%2FbEvkccyIVmFxbGQC%2B4qiIkiWRq5jcDvZxjr4QcsX%2BMkxe4v%2FGLzedCodWy51uGkajk9z1R0VjgM9HcKT3ymfVo7MpyUVjeViICZ4k0QfCNZCQ3KDz6t%2Bordp6YNCZHFODySUPz6PhziK0WjkBBTqD9riI1LAIksJGBgiN0P8wExEY9mXpOWoBpLhhyPfqvWeg%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257737405018",
+      "product_id": "257737405018",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$120.00",
+        "extracted": 120.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "watchers": "11 watchers",
+      "extracted_watchers": 11,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/kPIAAeSwCJxqpHVt/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 1TB Black Console Gaming System CUH-2215B",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/128103944294?_skw=PlayStation+4+Slim+console&epid=18030648971&itmmeta=01M6AVP3HCQ09ZH3J1J76K8TWG&hash=item1dd3971066%3Ag%3AHfoAAeSweVZquuEW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B1vD%2BjvXA09qNLhdhC%2FcgypPY6IR15nTHuNdiNBa%2FaW6FnPl3kxn9oSYIaSrBnuc12c1SsLsgntyJqjkdRkXXevgS%2F9wVszVY2L66OLOljwlVWj%2B9undGGuQlBHhBz24mBWfwvcrUKX%2Bb2v0oQfn1bajpZ%2BOuIRLzVj4arx0P0V5eN%2FuQwSATdbOifdtcuRjj9yELKPe2rFMX3wA1GeiYPt6qAvRR%2F7rz--Jcny4eDvUQ0VbyaC058es4yz3lhKLsvZAJA89cHiZuGH8b3iR7wJipBsdXUiEUdvVsWR5fC7q2JDGCE8ekn5r6qKV7U6zA%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128103944294",
+      "product_id": "128103944294",
+      "epid": "18030648971",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 29,
+      "price": {
+        "raw": "$140.00",
+        "extracted": 140.0
+      },
+      "shipping": {
+        "raw": "+$25.20 delivery",
+        "extracted": 25.2
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/HfoAAeSweVZquuEW/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 1TB Black Console Gaming System Only CUH-2115B",
+      "subtitle": "Sony PlayStation 4",
+      "link": "https://www.ebay.com/itm/377609412560?_skw=PlayStation+4+Slim+console&epid=8057462449&itmmeta=01M6AVP3HCRNH138ZJ666RD9WF&hash=item57eb465fd0%3Ag%3AQ-IAAeSwTJFq5T42&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9gXkBTviUMYai4HPriNaJV5HOL1Yn%2FYNZQdXH1WWLYaHlHvgCWSxRiWut2rc3afVSglciD0BsG%2B%2F9vl1XmPi1B%2BbS%2FUYv4QwzIAlCE52OKb9rBiGqZpz7C75jZPCrNqsyEeyq2ddyj%2BwXO%2BbVDhFsOT8pMIf3Q%2BGGM1Dz9oURmx9Vk%2FIBoI0TL7JZK%2BvaawgJtOhIgcb4Z0ApEWD%2B4JKuj5HkTb2Algr3gO9egXrr7IkYTtZ%2F3eUTxU%2FV%2ByGx%2BNG3Z9U66NHF%2Bu8MSJ7M%2FhyNzbvuXX4aoUt5VcgD8pRoXNd2CDAbFXpMOPIoWtGzhj3g%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377609412560",
+      "product_id": "377609412560",
+      "epid": "8057462449",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 3,
+      "price": {
+        "raw": "$119.99",
+        "extracted": 119.99
+      },
+      "shipping": {
+        "raw": "+$8.29 delivery",
+        "extracted": 8.29
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/Q-IAAeSwTJFq5T42/s-l500.webp"
+    },
+    {
+      "title": "13.52FW \u2022Read First\u2022Sony PlayStation 4 Slim PS4 500GB Console",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/377601375518?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HCCTE9AV5KWW7ZXMF7&hash=item57eacbbd1e%3Ag%3A814AAeSwhe5q4MSe&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8jNtGn%2BCMX6O46SJH2JtcS2Cz3s8xO3bYaq4AS2Lki%2Br3iGEpRl9M4xSzefykFeGkislp1678XDOdsh4GrlIrnvhnffdZhHMq1295txpecmX9YO%2FsiMZM5r48r%2BycetM8q0dQ%2Blp8yoFYY24cTwz8358Ja5bjr0VXS3dQUi62RLiN3%2FHDLWJoZZpNYW12OYiJuwmG%2BNgqfyugyAoSgeFk%2BfSewvQ15vfQpl7eQO17KvwUWGCXSEqOTCxrBn2%2FuW%2FwuCCClBl2oPezucCoHehJaE20DLV6VgYTNS%2FMTGEkT2UecHjk9UVFRmnFgcLgKKrs%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377601375518",
+      "product_id": "377601375518",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$94.99",
+        "extracted": 94.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/814AAeSwhe5q4MSe/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 PS4 Slim Black Console w/ Controller & Cables TESTED, WORKING",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/900041241601?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HC8A1F6D25DNJ0CV00&hash=itemd18ea37401%3Ag%3A9CcAAeSwiMFq3uJr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9aOhgxuIz0VZS12bJcaPCxw1OqDGTSweOZQPRAvKowbaWoaJEcpUvzHi95sKgAXItHwfZylCKkBqJIQuQvumQoalix45nmzCzA1jjMbR3j%2B404ZrAZkiqV3HArxRaGrW50EBBYFQRZF%2FaLlij4xzI1dKPQV6ODddBUjK9rjdrGlhrWXghvVfawYA39JL0xXtHoFiiV5I894R6rb8M0Ndl1%2Fg3hxg7nSHNs1n83nbdPCxlPanvnb4C2EUs2SZ3a9lC341hPPudIAxXnQLBtHdNk78M8QrUcvHbXxPxHoqZe6ejCb0KEu5tKdR6W87Jxois%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=900041241601",
+      "product_id": "900041241601",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$120.00",
+        "extracted": 120.0
+      },
+      "shipping": {
+        "raw": "+$16.19 delivery",
+        "extracted": 16.19
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/9CcAAeSwiMFq3uJr/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 Slim PS4 500GB Console CUH-2115B Controller Game FREE SHIP",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/198739445161?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HC06TB1EHT5D49P5B7&hash=item2e45cb45a9%3Ag%3Aw-8AAeSwD2Fq233Q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8bvP6lkaHMKqw0fBGlVYpBFW7Wak4wYnIRPqfvfnEBZ7Xdn2dqjzE5D%2FZGbbjCuAsHQiDT479kg5797iX6%2BG1G4097AVQWfy2QH8GvCM1Eo55m6Np1e9Be%2FPqXsyhCx9A0NVOoeGwjEWZS5Gn2FVQUBj5uMAxjx6gt9mAXYThb6pQrJwSsKbmMrdzbgAlYEzbo4DsPT16AK1Bl%2Fm3jM%2BWlnAeaRpvmn%2BnraCKrMssRgAlEybE%2BXS7t2ylRa1zyG8vqs8RRS5BdkXHinlhSy3BIo3UWGAeWGzJ4IwN%2B7gm40kmcrQ9GeDRYzaZezbl8LD4%3D%7Ctkp%3ABFBM7rjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198739445161",
+      "product_id": "198739445161",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$144.95",
+        "extracted": 144.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/w-8AAeSwD2Fq233Q/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 Slim 1TB Console - Jet Black USED Tested W/ Controller",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/267823671308?_skw=PlayStation+4+Slim+console&epid=13031982632&itmmeta=01M6AVP3HCCA4D3V11EN650TD5&hash=item3e5b88e80c%3Ag%3ADaEAAeSwIr1q3j1Z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8qCKalq7UaT3Wp%2F7oOoE9UYhJly6NvXnw0iC97zRTVX%2F%2BLst9%2BYinQdVUcOFNL%2F8%2B18ZhPf7ZGPsM%2FTJYqvoyP4MAepvAztOw3AJXuxP9yGUZKfzLlUCvGAXXRPWm8MjKaJOnnxV7a5t4oskgn1cyWFmjEfuhZxRi9iLxlBTAL%2F8KplaBqhY1axoD21MyucR2qEf1IwgUKqc5lPG8m6udRuB4OPc%2FTtMSwnQ%2FtjYNA9sEcRrrJhrBS7sKlZpYJHO7Fr%2B39AW%2Bz0chs3gwQhWix1ftNvjxC3PTDAOKC1U15Q5EN1nZPtu46kK0qz5PxBbk%3D%7Ctkp%3ABFBM7rjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267823671308",
+      "product_id": "267823671308",
+      "epid": "13031982632",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 2156,
+      "price": {
+        "raw": "$144.99",
+        "extracted": 144.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/DaEAAeSwIr1q3j1Z/s-l500.webp"
+    },
+    {
+      "title": "Sony Playstation 4 Slim 500GB CUH-2015A Console W/Controller & Cords - Tested",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/127989203265?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HCN9764Q3NSB17JN9B&hash=item1dccc04141%3Ag%3AmqUAAeSwfkxpcURn&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B6Z1RaEz40Fg4AJYKM1nsm%2BJ6isqWb6geBFx9j%2FcPKn0fujJk67iPz4crC60JedL1kockAP5li2FXTSDgQ0Q3TyJCV3zcUYdP03BMca3L%2Bp3rHrYp9J%2BcpvJ41HbvEQLEzgImD3iUu079%2B5PNbrny6rshjpE3HU4ivGjhULN8opks3psDyXnuR%2BEFsl0ceucQbMdq79TPxD8WVpXb%2FFm1upJSZoP8%2B3geObSX72h%2FPetIWvgRa6Xyrhx5x7yDaEO9cTegME%2BqognEN%2FRQtAK%2BH%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=127989203265",
+      "product_id": "127989203265",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$85.00",
+        "extracted": 85.0
+      },
+      "shipping": {
+        "raw": "+$21.65 delivery in 2-4 days",
+        "extracted": 21.65
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/mqUAAeSwfkxpcURn/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 1TB Green Camouflage Console Gaming System CUH-2115B",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/960083737513?_skw=PlayStation+4+Slim+console&epid=239086650&itmmeta=01M6AVP3HD4V063KQR6A0MV16F&hash=itemdf89733ba9%3Ag%3AUVkAAeSwrjFq1N4e&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8lp68GtZ1Fhb%2FNQPdRDWtVzcY7XbrSL5uQU0oqZ8p1fqRzpj9zB6FVdbRaXCvS5KHXXe%2FLrU5LnAKts%2B4iQdgqSKRSeCXFhzskRbbk5RVyzV8G8lKdKUj9OLPdBldciLEYWs%2BVfmBJLsO5bscwtDC9f%2FpffduyeF82Rupa2cTQEUwVW%2BQcQ4ogRJjAKmLSJZyqoGTtVOQMQAQwIjeBLQaj5ZJcLZPMKLzUDsyqDQHEpaBaQfCMsiJftNRTmnlNcIgkCyoVRi4ppUKoe7IpiHpg%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=960083737513",
+      "product_id": "960083737513",
+      "epid": "239086650",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 104,
+      "price": {
+        "raw": "$115.00",
+        "extracted": 115.0
+      },
+      "shipping": {
+        "raw": "+$8.29 delivery",
+        "extracted": 8.29
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/UVkAAeSwrjFq1N4e/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Sony PlayStation 4 Slim 500GB Black Console w/ Blue DualShock 4 & Overwatch",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/307259538813?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HDR63S9Z2QA19W1MA9&hash=item478a187d7d%3Ag%3A9hEAAeSwO-1q5piS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BcCgT9SkLB7jJqEmKkDzuzNJ5PeEXS26FyK%2FJlxsjiL4OQ3jjMorb6jT8%2BmoulUhbI%2Fs0pfbo1NHUFOrT3MZMEwWtBnApkMsDuYCgfTovvmigkhWVS9zqS%2BC0TV9GBIxGPiHUl0%2FLW%2FqB9ntstgsbj8gv8YeEwFG3GrgCgT5%2FOLusLsj65pVVaBnXwc7OiwdYW9L9FhAggnTp--DUG5cnN62breLrOL78qtEyEPRgO3d%2BEuxIkJA3jeVMpLF9BsPZ4kATbRCmyUxhMO7mwVcuV%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=307259538813",
+      "product_id": "307259538813",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$180.00",
+        "extracted": 180.0
+      },
+      "shipping": {
+        "raw": "+$20.85 delivery",
+        "extracted": 20.85
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/9hEAAeSwO-1q5piS/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim 500GB Home Console W/ 2 OEM Controllers Games Cables",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/336824602987?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HD0JB0ASA9WBRR57ZJ&hash=item4e6c4f916b%3Ag%3AyjQAAeSwK7lqwF%7E-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fzc5XzS9GzIl5syJytDSEENB3JzlaTDEZsyY09mvzwgKg2Mo7yqa9EF%2BdXMgu6QVlFVqMXYkzzzuby3055nkqqGcbKcpLSajtLP%2F2Pv8nFMhvbqic5E8g0oN317Y4UDNQFy1xKR%2ByxaZz6xn3Mm6toFHNx0P6YR%2Bbjkt9m9SHlaVT8YwA0f0CQW9xIoDz8IJ9sXrzKk1N0TkRG1iGrzV%2FwCljdwQP%2BzeWAFY2f3g3P3TiSJwdOIYiJy8pSja6euhWKSByjAbgXoxsriM%2Bumw0v%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336824602987",
+      "product_id": "336824602987",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$135.00",
+        "extracted": 135.0
+      },
+      "old_price": {
+        "raw": "$300.00",
+        "extracted": 300.0,
+        "discount": "$135.00"
+      },
+      "shipping": {
+        "raw": "+$20.90 delivery in 2-4 days",
+        "extracted": 20.9
+      },
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Last one",
+      "watchers": "5 watchers",
+      "extracted_watchers": 5,
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/yjQAAeSwK7lqwF~-/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 1TB Black Console Console Only CUH-2115B READ",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/336824275884?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HDD29J2NJA02SYH7GQ&hash=item4e6c4a93ac%3Ag%3Ayd4AAeSwdvtqwBZ5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Yya1h6XnmMphlrHKAsNSvXG4K0AR%2F7GbNRSNHWXmjNDkq0Nw85h8uFIxS8ahH4PW73J6moNUSyORp68GB1fRtxJ6URZ2A0V0HE69JPkSprTFInQSSPhYMMS%2BIVqsVVVa9rHwZm%2FZzulYKwpIB52nKnnaZmrEtqf03aOeVIZuWwWBImkv2dkDMFheM5XrlUJ5rbXItySfV%2B2amcZIvVLPZEz152kEFpHVJ49TCEB4sYIjq%2Fow%2BmJ7eBwW%2BaH9qGGd78%2F1F6My%2FRO5p%2FFRBapHgMyQs3ko1ttVBhwCNHPNBMwj%2FK9AOsshIgTATKEQzbhw%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=336824275884",
+      "product_id": "336824275884",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$109.99",
+        "extracted": 109.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/yd4AAeSwdvtqwBZ5/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim Console Bundle Controller And 3 Games",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/188630285499?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HDW829PGC4S9YDG2CK&hash=item2beb3dbcbb%3Ag%3AX30AAeSwfRBqUtYe&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde90LCfoN4Y%2BijiPR8vlQ9w2PZOmjLCuhitP2W3xDVwPe9ZZF8Q%2F1SoM22Mn6DZMuf8MV9DtjlRJLdDDn%2B5OX4A8ibkpxBG4kY8MIBk6d%2BbE98iHg5KRNFjUc3OaKCw5k4d8z6yBFRbKZ0c5mj7yGsqCsSEBfj5kcgy4StQKSr%2BWMKNIb5U7h%2Fp6TZxMpQCj3NFlFt1LWad%2Bh4vrve%2BSH2kCm7HOf15lxIyC%2Bqt3yPBjCT7QEBzqxpQei2KAhdAlhEUcfBgbG8d2s3i4zJ4Aj%2FqHwJhUQh5LMXvPz%2F5k2fgWstGRP3qHL%2Fpbd7BWoINN2z8%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=188630285499",
+      "product_id": "188630285499",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$128.24",
+        "extracted": 128.24
+      },
+      "shipping": {
+        "raw": "+$20.17 delivery",
+        "extracted": 20.17
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/X30AAeSwfRBqUtYe/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 PS4 Slim Camo Console Bundle 2 Controllers Charging Dock",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/820292559526?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HD7ABVT5WHH5NZ374P&hash=itembefd3f22a6%3Ag%3AYC0AAeSwZXxq43%7E7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fodp7AAlvEFuEQ8nAqhGGDeQfasCl1dDGDUuvtnUsRfgMdElBZsQ2ANjMgl5Baizz09ixX%2F7X9EpH9gyqtbBjtHoXnM3S3BPdkGeeN4YN%2Fmm0BkZONyQrJ7T0KqELVvIwejxcpPKDHY%2BKyNJIbO3PgvMXROGlqHg%2FNwkDn3JgV69EnjrXDlH7FT%2Brm2XuwxdYwfUW0ZEZlA4lr9qIOKeBlZM587rJx6LQP4xvN55eMhhAsiIiOdIR3nUWFMPYMkUBtS1sxD8N1G5D1kuA%2FpN6pMslJRezq%2FVuFldDs0WcUKysPRjtVOn%2FULkZ3MmPRwzo%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=820292559526",
+      "product_id": "820292559526",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$149.00",
+        "extracted": 149.0
+      },
+      "shipping": {
+        "raw": "+$8.61 delivery",
+        "extracted": 8.61
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/YC0AAeSwZXxq43~7/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 500GB Console CUH-2015A Controller Game FREE SHIP",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/198758869796?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HDYMJFV1P373QPN3EE&hash=item2e46f3ab24%3Ag%3AJHcAAeSwsEpq5U2o&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2BBMT2Bw0nkAlZSE8XFAp4TH5Q76WLn7jz4uG%2F3BOCPcCcHLw7qmtqkbgdJAuEvrWToBzS1d1DxzHXgernkGo8K4ifSMI9CfQ1XCdyrkT68c0B0RKsfAgg%2Bf9hrIwwtRK%2FrAi9u%2BEDMLVfErgYz8PUOJMAOejB6LT9Mtonx191sh%2BZ8tjz32B6oGXiWXVqngk%2FWmdQwn5ggHdPnfZf0PkV%2BZ9aXJ7lrOsgI5FTlmrgBLz768VVm3zQR7c2vzaL8UM4hT2h2PVMxPczPTg13GeXOKc0m53dZ9Reu%2BDsCBMvQCvliyfbSwDk%2FXZFW52X2wI%3D%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198758869796",
+      "product_id": "198758869796",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$139.95",
+        "extracted": 139.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/JHcAAeSwsEpq5U2o/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim 500GB Gaming Console with Controller - Black 242134",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/257820861372?_skw=PlayStation+4+Slim+console&epid=18030119365&itmmeta=01M6AVP3HDW8RD2P5B3D0DBSPK&hash=item3c075223bc%3Ag%3A3%7EQAAeSw3FFq4Qul&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FIZcn3CJVWkwvX8XYyyiGstvVvdfW3Kh4dUxPXPpHWgjcHZAJnmHm%2BK%2Fg4s7deE0xjIunXj%2FH7Pr8%2FnfjSjtfoRA90c9nMsNMRAw7GG3NCVNJl%2F5G5%2B6B%2FpgyU4XMY4LLbX5X7p%2B%2BmqfSqWy4gbR3KwbqG3tSIgVG8PucIGNs3yskMqGgrJLSGg7RmFWdHEKDfdsQNfOhtQijDLEnu5iOUeK1ObeK0%2BlPT7ZHGHPkqWgacdjHcCv7wGGUveVkylrYbFyveyL%2BsBUFvVDmXNy6g%7Ctkp%3ABk9SR-642NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257820861372",
+      "product_id": "257820861372",
+      "epid": "18030119365",
+      "condition": "Pre-Owned",
+      "rating": 5.0,
+      "reviews": 241,
+      "price": {
+        "raw": "$125.00",
+        "extracted": 125.0
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/3~QAAeSw3FFq4Qul/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Sony PlayStation 4 PS4 500GB Console All Cords Controller Works",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/128167511342?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HEP0Y7VWRNXEP81BR7&hash=item1dd761052e%3Ag%3AlX0AAeSw2l9q5tVR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FoorGMuTSCak70P16jbZ4fGhjHrRzlcZ7pP8Os4Ic6Wm0tVpvpAA6g21a0dJqBm4ELL3t8FXXrK1pE7rE8UTiLWofIJWh2D0U245lU2vfSUnjJJNimD%2BSQe0cw3RVNwaF0W2lQ0fDH2Fqug0aL1jf%2FVOPQ1M%2FAi33vKyo6Ghp3RX5HCbUk6mc0z5hzmDAzhQB6H5%2BXC7dsQtYi%2FUeN6XXhGK4bbQynYF0gejf1HpMkckvZHXp6o7lZ5XbOFXSVEz8R92rc0UjtQXdPsQ2bOiNj%7Ctkp%3ABk9SR_C42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128167511342",
+      "product_id": "128167511342",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$99.99",
+        "extracted": 99.99
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/lX0AAeSw2l9q5tVR/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim PS4 500GB Console CUH-2015A Controller Games FREE SHIP",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/198758762915?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HE0RB6Q19P0ZMWPJRR&hash=item2e46f209a3%3Ag%3As7kAAeSwNYRq5Uka&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FMITM1k%2FKRDEpsvRDLahUB2IqLCXk1Z6RkAd2kgJ%2FS9sU0TUOxDnNMuEqyenkpMPBXLUJaUMPiXaksULTZMD9dcxaZAc7cWrD1WuZCIjKHnCZRyaN9qw0tR7HUlKBxngUtWf8Q%2FoEwGGr10smRQb%2BAK4iFcQymqH6Vvtbi77XZ9oPMglbfCBV73Er8tA1E37Y%2BPs3TMHqKHNFcXMsLwgSDHt%2FvwaaeMUkIDWuYdoWHSU8aBghXDeTLaP6ahwwDcyPYv1IYNEnq5qgqSlnLH2bjZ9I3RpPbMKMvWb3sBSTgJIyyuAUYd2UQwPWiRR9uj10%3D%7Ctkp%3ABk9SR_C42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198758762915",
+      "product_id": "198758762915",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$139.95",
+        "extracted": 139.95
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/s7kAAeSwNYRq5Uka/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Sony PlayStation 4 Slim PS4 1TB Gold Console System CUH-2015B Firmware 10.50",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/128167247584?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HEVG15WZ4ZEE7VKHFY&hash=item1dd75cfee0%3Ag%3AjGUAAeSwlFtq5qWK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde--IM7caUn15dyUBYAFRoDVBnBoTJmUqA%2Bn5ye1JX7ac2C1L6lIGJMTGQIJx2XI9fcAQXQq3jFO%2BIe%2ByX8HbB26y9jMwsVlSzwjcGZ3AcAcJdY7XPVyHYC%2FvMvEVFUggcrjjwYLLLliPA1XLccDm78vbAiIUZNpTvMpzUlItrHa86np3GBHjK%2BR1gr2g%2B4Yq0G5YMyqZE8nD1fHo7bie42KxSWobI8q7uwE3%2Bizhli3s8WCKLYwMSYFwtGqyddBOfEdIIcwbZmxZ%2FrLyMGctfLxvwTjKGLjjex%2FGt1O%2F05M7akNayn5sPw0qbHMdM2Avbw%3D%7Ctkp%3ABk9SR_C42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=128167247584",
+      "product_id": "128167247584",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$189.00",
+        "extracted": 189.0
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/jGUAAeSwlFtq5qWK/s-l500.webp"
+    },
+    {
+      "new_listing": true,
+      "title": "Sony PlayStation 4 Slim CUH-2015B 1TB Gold CONSOLE ONLY",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/257826999388?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HETV2TC6RSZF1PV4KZ&hash=item3c07afcc5c%3Ag%3ADK4AAeSwNlRq5hIx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8l7dydqJ5rTBuaBVJy6LfnKpawiyuWE91NIaryvJloUu%2BTJtoWuv3Mek64p1N6W%2B79TU1VzmwztE%2BQW%2FIal7Eg%2BnFMGeUJE3p%2FwXX3%2BArQaBSiA%2FCwm1OToxso0ud5tszmoAsRfGNRkg5h%2F5i%2B0RJDHRnD47rml7tKFohr3%2FN8QdYO7tVgAmZKUOhE6YzP5UtJ%2B5kHuUR7yVbXeiH9OnRT9mPTAsWX9IgMlodeewftDqajfUV5gNbsV1n3mTrLVw1onwQJKks2cFtQhc1AMXz3IgUrZt9k5l7jTNTsvgTQvMIC1aMXJ%2FM%2F6ONkRCTRTpw%3D%7Ctkp%3ABk9SR_C42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257826999388",
+      "product_id": "257826999388",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$134.97",
+        "extracted": 134.97
+      },
+      "old_price": {
+        "raw": "$299.94",
+        "extracted": 299.94,
+        "discount": "$134.97"
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/DK4AAeSwNlRq5hIx/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim 1TB Gold Console- Fair",
+      "subtitle": "Free Shipping** 1 Year Warranty ** Free Returns",
+      "link": "https://www.ebay.com/itm/147599011787?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HEBAFEXT2V78KK5HV2&hash=item225d962fcb%3Ag%3AZfYAAeSwFEdqttDe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FLrCo%2B92Rx2GnodVUJszExyM5xyKZ9f%2B2g8FOjVEgATMDoxatFzw2J2t%2BvSpxiVUayt2LGbKHKOfJI1Xl1G7JZdj4zoALqB5k8jt1Rgguvx9u4RKlEkZbukj%2FfVqRO7zxKqzIF1E3XXtbcRnDBmtXvRGSXKp4KQARvOXkRk1FAHRKuPVGuSOQPAMFVW0dbLtFYm7uoFenmIVJOFz6FYmNSreep59rAoULawFF%2Fqt5E5emXsl9ct753AYw6NWmKrf61cEYvJAmcks1pw3eWC8co%7Ctkp%3ABk9SR_C42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147599011787",
+      "product_id": "147599011787",
+      "condition": "Sony PlayStation 4",
+      "price": {
+        "raw": "$189.00",
+        "extracted": 189.0
+      },
+      "old_price": {
+        "raw": "$1,699.00",
+        "extracted": 1699.0,
+        "discount": "$189.00"
+      },
+      "shipping": "Free delivery in 2-4 days",
+      "location": "Located in United States",
+      "returns": "Free returns",
+      "stock_status": "Last one",
+      "watchers": "43 watchers",
+      "extracted_watchers": 43,
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/ZfYAAeSwFEdqttDe/s-l500.webp"
+    },
+    {
+      "title": "14.0FW \u2022Read First\u2022Sony PlayStation 4 Slim PS4 500GB Console",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/377603734533?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HENFM9FBW5F4TB9NFR&hash=item57eaefbc05%3Ag%3AkQEAAeSwUxdq4g38&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FPSyFfqazGNeH9Dmzczh%2FZ9PITFfetb2jlKRfGAZXguV7lD22PhtSLYRa9HDUQ8QdJycYOKmP6Cw03gHmi1u4eEYt5DsFeMybg4a1c9DgAe21UOGRi1AV3Q1A2Az%2F9TN6Rdphm3oNReC9x1EjMPo8GaiTwY2UzWuPBHr00YPASdVVLeHjWsGMnGLj9USqQgRbnRMuF8qIhwlXbwcT%2Fj6%2FFSRmGz6XOo%2B8ScMgbujr9uo%2FCyS0dXa1O81vJjhyxA1mq%2BojoIBwjlgTTVQcdFmGYKXN%2BOtSahP77g4qMxJVdml5dkUHrQkgFQilAybqg9bE%3D%7Ctkp%3ABk9SR_C42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377603734533",
+      "product_id": "377603734533",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$99.99",
+        "extracted": 99.99
+      },
+      "shipping": "Free delivery",
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/kQEAAeSwUxdq4g38/s-l500.webp"
+    },
+    {
+      "title": "Sony PlayStation 4 Slim 1TB Console With Controller And Cables",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/377599411906?_skw=PlayStation+4+Slim+console&epid=13031982632&itmmeta=01M6AVP3HE9D17YAPZP3CS939B&hash=item57eaadc6c2%3Ag%3AtbwAAeSwi2Vq28Fk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8wAyMzDdYn9m55uXZWde74pe7ECkvWpyB5x6F1hSobYF%2FEBtgAvUYeqL9Gta83bOI7wdmEz47oU26tuR9uLeDYd%2B3jkUgaRQcCFdttnnlMgZb9jQQk4rGpmM1LsdM--3oLLb5SCwxJQsghFLySHCkui%2F2y68rQmMoJ1fQJgNNAEuP7hxJUkkLlwfdNvv0Ya7AzzPd7AEs01JcGNpwDdgqd5QTzH76XmR9JN1Y0i3lew5dgFSgUw3iklsjMRM8SJzf1lkkS5cwpfZC%2BSRYfNBVo%7Ctkp%3ABk9SR_C42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=377599411906",
+      "product_id": "377599411906",
+      "epid": "13031982632",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 2156,
+      "price": {
+        "raw": "$125.00",
+        "extracted": 125.0
+      },
+      "shipping": {
+        "raw": "+$29.75 delivery",
+        "extracted": 29.75
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/tbwAAeSwi2Vq28Fk/s-l500.webp"
+    },
+    {
+      "title": "PlayStation 4 Slim 1TB CUH 2215-B Console With Cables & Controller LOW FIRMWARE",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/840073827737?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HETRD7GA676KZARG2R&hash=itemc3984d5599%3Ag%3AINIAAeSwjSVqvTBA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FLwKsWwNFJ0Nrt7qCXIx7epmzc4AAAcLKYab7Gf7mndyLk4wbgNPiCihuUKli3gIFiEdps0KOel7yVjfRLNFFNitCpqqCrvDAGE%2FSjFkmxoxeoEvJyNcIzXd0%2F8dsSQGBgsKSiCWrGIEwBzCnEcCozyreR09ZoZXrEeqsPOASXk5a5e19%2Fu3UJ4zOEZQev8pMolrO0a09uJfb8ny8ZLbWh8ATq5uDf5YgzAuB3nnm9dtYXUmHaYqRNOzlStgqz%2FmPX4Te6hMa6QC8cIeP5Twdp%7Ctkp%3ABk9SR_C42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840073827737",
+      "product_id": "840073827737",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$149.99",
+        "extracted": 149.99
+      },
+      "shipping": {
+        "raw": "+$14.40 delivery",
+        "extracted": 14.4
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/INIAAeSwjSVqvTBA/s-l500.webp"
+    },
+    {
+      "title": "Sony PS4 PlayStation 4 Slim 1TB Console CUH-2215B Controller, All Cables Tested",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/117461928251?_skw=PlayStation+4+Slim+console&epid=13031982632&itmmeta=01M6AVP3HEXCTFCT8J118XZGYA&hash=item1b5946c93b%3Ag%3AOhgAAeSwahNqzGPJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde89zblOBw%2F1XemXxXcsQZc%2BwIrbTdawf3XiIpbgJSemrAxP37qkG9OFvVxDUh2yfu00sCDoJk1TUs4SuWbNPGkr%2FWzzjMaFW49ASTOdmUWIHk2GWX1RMGS1sQsXcZYudt8id8eFTZJ96pVBp5DUbU6uFTXpnKEh%2BVHRy0SVNoyTcn0kXuWUMT8VJhNySTUdnaj%2BWf%2B9UzgGTyqO9xV%2BLtZCOhhoVSUPScKKnVp1IOkqSjazHUm9OQNpIWdOzdS57Bz2hOT4Pp9%2B472zvv%2F85FCINvuwR62lujCRDkDbT3UoulkfoCYZFhjyApylixFwdP4%3D%7Ctkp%3ABk9SR_C42NuyaA&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=117461928251",
+      "product_id": "117461928251",
+      "epid": "13031982632",
+      "condition": "Pre-Owned",
+      "rating": 4.5,
+      "reviews": 2156,
+      "price": {
+        "raw": "$109.99",
+        "extracted": 109.99
+      },
+      "shipping": {
+        "raw": "+$16.99 delivery in 2-4 days",
+        "extracted": 16.99
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/OhgAAeSwahNqzGPJ/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony Playstation 4 Slim Console W/ 2 Controllers Corded .CUH-2115B Not Tested",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/267783639701?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HF6HC1YD13NQSRCAQZ&hash=item3e59261295%3Ag%3A51IAAeSwKjZqpfUv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bvk0Mt376UZipYmLbjY7%2BEm2pWooTlNT9iZa6SyfB5Nh56V19HGgNoWv8dhP7IYFfSBSG00zYSWco%2BOEp0WMqQVsiG0vgI2v0G7Gf8g2NVUIoWjwTlv8i9Yb2B1OSyAJip2B04k6bd96GYUbwdJI%2F6YlJDu9kFaV5Gji1vXUG%2FR7nrmtB0YDs9BxNYXVtQ2cpE5RPjy2XCdJwrBEv%2FMZl7CtYU0hckNwbmBcC2Nle0XOk9fm8Hv4sqo2Tw5PXh6%2F%2BCwgEh1bI4jAdb0YA86bPNdLUCic2st7Zfd4gBs0EuTRrp%2F0utjkSJlMuH%2FEY0q%2FQ%3D%7Ctkp%3ABFBM8LjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267783639701",
+      "product_id": "267783639701",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$117.00",
+        "extracted": 117.0
+      },
+      "shipping": {
+        "raw": "+$16.02 delivery",
+        "extracted": 16.02
+      },
+      "location": "Located in United States",
+      "buying_format": "buy_it_now",
+      "buying_format_text": "Buy It Now",
+      "thumbnail": "https://i.ebayimg.com/images/g/51IAAeSwKjZqpfUv/s-l500.webp"
+    },
+    {
+      "sponsored": true,
+      "title": "Sony PlayStation 4 Slim CUH-2015A with Black Ops III Controller.",
+      "subtitle": "Sony PlayStation 4 \u00b7",
+      "link": "https://www.ebay.com/itm/398323589063?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3HFZF5H0GPAD8BVZ9P9&hash=item5cbdef9fc7%3Ag%3AQdIAAeSwUjRqjcrL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9hpovywHPw6g8o8XhZe4qwdbHyQtbh5XAvfskhlrYrvZcrQydRlU3WWqQPuRD4sWowlz09p6s1Ajd580m%2Fa4jnh%2Fwq8H--l1je%2BnIZDEhXkKmza%2FNVfPoOQhdYgJu8i5Os8DHY3VoCFNJXDpcw3CGQSzOJ3prwvW2GFpPxx0rCIV70mg9lw53zZUx979Lm9ZnDxLWUXB0QEWqjRudNiK7c0qxBJLbUN9iRUe9cm0Hs7Z%2FCzhTD7ZZoHw8UC8EOrOEu8pIN9karDZ2rwZXZm6Ap73kjqVSRJmgg6Yju4Wrj9brUXSZnWK%2BPCNJUPjpEiOg%3D%7Ctkp%3ABFBM8LjY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+      "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=398323589063",
+      "product_id": "398323589063",
+      "condition": "Pre-Owned",
+      "price": {
+        "raw": "$150.00",
+        "extracted": 150.0
+      },
+      "shipping": {
+        "raw": "+$14.18 delivery",
+        "extracted": 14.18
+      },
+      "location": "Located in United States",
+      "buying_format": "accepts_offers",
+      "buying_format_text": "or Best Offer",
+      "thumbnail": "https://i.ebayimg.com/images/g/QdIAAeSwUjRqjcrL/s-l500.webp"
+    }
+  ],
+  "inline_results": [
+    {
+      "title": "Picked For You",
+      "subtitle": "Top selling items from trusted sellers | Spons\u061cored",
+      "items": [
+        {
+          "title": "PlayStation 4 Slim 1TB Console - Black - W/ Cables - CUH-2215B Firmware - 12.50",
+          "link": "https://www.ebay.com/itm/407329874604?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZVJHQ8BKZPSGCWHXE&hash=item5ed6c0a2ac%3Ag%3AxE8AAeSwzbFq5mDd&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8rZ6XOb8QdBni7ibA%2F2WLF%2BF22fVT4HCXYohsVJ88Zd3zUcMD2JlDRQesCfWQ27sXZ7hNyo87Rmnv0JVszWlj3WorKqsQHiyPIlg8DACCMlkLsVZfYif3hIhOsmw6RZW8zp8Ok34KOp2US59ttzEyNvSYabjl5fD2gnWNJpLVtQnIe8h9xrUqhiYQYzTjFEeLzuI0lvX9%2FYu6APr%2BTNG9UUFd9QldLg91GBkD8fl63BytuTwCM%2Fm8xA%2B2Qp4CMm8fPtL9FHOtCLyf6ZuFwz8YjVPtX28R6NdygCigF8BPsE1BW2HpEpT3CSIJRK1Ni80c%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407329874604",
+          "product_id": "407329874604",
+          "price": {
+            "raw": "$148.88",
+            "extracted": 148.88
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/xE8AAeSwzbFq5mDd/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim 500GB Console Bundle w/ 2 Controllers HDMI Tested Fast",
+          "link": "https://www.ebay.com/itm/318285998519?_skw=PlayStation+4+Slim+console&epid=18030119365&itmmeta=01M6AVP3KZEG5Q17MNTV5TPADB&hash=item4a1b52e9b7%3Ag%3A1vwAAeSwVqBqAexH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Tq9mUBPbsuWM2eLXcT1EF8yAy1YvpBA%2FXog4LCXKExZ3H7KfxzLVBVjWU43gnTHV18v2lb2bZFTes4DyETj0GysU49XNevGAoPgwt1EK1HPmmhU%2FIMj6G2uSLO0EikED3rZeInJ40G7ghkDdIkQ8kKSGeq3kRoGhw0uEO06bmQvG4v%2BDjhhQXaac14jzMnFsBmPAt4ih8R5dXeyC30RCW0HQMToo1AtTrDajo4Cv4LbElKtibD6QNdN8l8Tw7dfa9sUemMstXZChHIbQrt1VGsos5XLFv0nChDo0FEViXoSegXp7PQ66M7HT3%2FFM4VEM%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=318285998519",
+          "product_id": "318285998519",
+          "epid": "18030119365",
+          "price": {
+            "raw": "$175.00",
+            "extracted": 175.0
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/1vwAAeSwVqBqAexH/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim PS4 500GB Console CUH-2015A Controller Games FREE SHIP",
+          "link": "https://www.ebay.com/itm/198758762915?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZD3RB5ZK99YBA1XHK&hash=item2e46f209a3%3Ag%3As7kAAeSwNYRq5Uka&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BBxIAoxG93eh7zb1m2enLP1N%2B5Kg4NwCbaCnZ4gOEVtd1PDzGzYEJJZqOU09voyoUdSJnLYX2clHuhv%2FAVxrTThJ6zoXzaY5ezb0maF%2F5DL4Mke%2B4Xk4tFRDxhJ%2BZyh%2FSLq9OK5i9M37BajkjcrciX3d%2B2MWzOLGgYoqcVg5dUfPI89a1ZfdMKTtPO6RTq4eiHkyOwK7V69oODWDJFiS8DwLfcUZOXdJbHNXBTfza4TPU0D%2FVEReS0F9r0NrAbuTvu3IgdI7cLpoOLipsOHzZM0SxwDN7DQ%2FcPET1P1G5xUsNHm1AkU790LiLnwydc%2B4w%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198758762915",
+          "product_id": "198758762915",
+          "price": {
+            "raw": "$139.95",
+            "extracted": 139.95
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/s7kAAeSwNYRq5Uka/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim PS4 1TB Console CUH-2015 Firmware 11.52 FREE SHIP",
+          "link": "https://www.ebay.com/itm/198758755544?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZCMRYVDQ09MW28WV1&hash=item2e46f1ecd8%3Ag%3A4JwAAeSwwvJq2393&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FExPi4din6DWqm8I5UJu22%2F6tgJfS1F0zIJRopHmVwyh7jRKvx7oyPA6ocaADHy8OMqUj2jsRBmcfCqnFg00PBeCVJvU1vtA8DsiXGZABtah6JLTq6gGbLjR5S%2FuzCsh2n%2Fo7Y1yVMyBPpRmAvEfb7GYvkiUEmfIay5shGzT65%2BMcWnR8%2FzNDLbxebZasph0nkgNR87wEkRjmrgkX9HgwEGwsYOWX5wmVamG%2Bj00a%2B0xMPEqLJAH1Arp2bqbp7TFk34FejbtGXMCG21of3XUiul1biwuMIhNYG1Tcc1t3HpscxKtSyvUI%2ByW06Spa3e9o%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198758755544",
+          "product_id": "198758755544",
+          "price": {
+            "raw": "$154.95",
+            "extracted": 154.95
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/4JwAAeSwwvJq2393/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim CUH-2015B 1TB Gold CONSOLE ONLY",
+          "link": "https://www.ebay.com/itm/257826999388?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZ7S43B34T6AQNQJ09&hash=item3c07afcc5c%3Ag%3ADK4AAeSwNlRq5hIx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Uc1Kvyf7FbUAL%2BcGcKw25UsAb6CxXMOl5xttVkxn3RBa6tcRXh4nUhSSEdnUOtU7ei42TEVwqg1sZNPxXeforUZ5YdW9r%2FZBdmdahweqcthyd66tUB1e9m6vuoc5%2FO02bMDa%2FlcvnjRSe%2Fscr2XBJLYCtfPZdsjeM58nkCa9HREhp6m1ZP%2F9cSx6J0kxlQTUSt5pi7wVWBd%2Bnd%2FTr6DZQsAu2pP1lAPEVu2ndjDDxrUDMobL2if8q%2BLr7qH41ikRhFeNK5LUt3gBEvirQjz1QUQf0D43rql3UeQ8r13YRjvPrVZn2eH1bW%2FGTQKnrYww%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=257826999388",
+          "product_id": "257826999388",
+          "price": {
+            "raw": "$134.97",
+            "extracted": 134.97
+          },
+          "thumbnail": "https://i.ebayimg.com/images/g/DK4AAeSwNlRq5hIx/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Quality pre-owned picks",
+      "subtitle": "Exceptional finds, exceptional savings | S\u061cponsored",
+      "items": [
+        {
+          "title": "Sony PlayStation 4 Slim CUH-2215B Black 1TB Video Gaming Console Combo TESTED.",
+          "link": "https://www.ebay.com/itm/168536062023?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZQ1MTS6JVTCMZ7M9P&hash=item273d883847%3Ag%3As0IAAeSwaStqVrAr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2FcXdsLn4LZLrjHdHhuLXnklQvnzRAaWlvP98hF6qnvLxHleYFsjT3JmEK2Mge3%2B%2FMpWW21b7SnekE7yg8KcMjYQySQpIBlXYPKmzVG0vzFW3qG1IcE6S5rLuaiYFCKUMoC6PVPkvPXlF8e%2Fstb4yT88xLFVy629NbIMNYZ%2Fd3izbmTTPxmwZTpiBybENfcHPvktFsEP%2B8sMSNp%2BNpG1gi4Snq%2By9XACM%2BgnnBZW%2Bs4xU2uue%2BBq61S0wWe8NBWJZXt8Hokxm%2FK%2B2LznFYRXt3fcltAp9eOcfu92I0ArQno1g170tzTNtCwsAT2CsB8uw%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168536062023",
+          "product_id": "168536062023",
+          "price": {
+            "raw": "$159.00",
+            "extracted": 159.0
+          },
+          "shipping": {
+            "raw": "+$19.00 delivery",
+            "extracted": 19.0
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/s0IAAeSwaStqVrAr/s-l500.webp"
+        },
+        {
+          "title": "Sony PS4 Slim 2TB Upgraded Console Bundle - DualShock 4 Controller Sealed Game",
+          "link": "https://www.ebay.com/itm/407323220055?_skw=PlayStation+4+Slim+console&epid=18030648971&itmmeta=01M6AVP3KZZSSKX9Z6M44E0TE1&hash=item5ed65b1857%3Ag%3A1lkAAeSwmaFq3%7ER8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8AK66%2Bv2OigdjLdqWdYuejBv9K2mrBCkURdwswcJWM8RHwFbwNS%2FKnz8%2F6UkS9pFjUKw6rpzZ7s2LG%2BsQ%2Bv5IYrGSwpjU%2BbRl8JB%2FVhEhI9UCmGI7gW0pVEFDdFHFPxe6%2FErlMsmOas5G%2BqXEBC%2FcLj8LWhsQL7eCUci2LVhOZUSYjzUIBXsDGOACvbjEn%2FkJH1b0mMer%2FFcjbj8VOCTUXEwx020A4hYB8S7%2F%2BD5XZutfNr8QAjaUpUNMkwqmDCbAA%2FFrrRtagoO6TS%2FubUkjMbK9nclHmwpYLvi8e%2FBcWqqmRmAHhWDf2dbwBeAQq7rc%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407323220055",
+          "product_id": "407323220055",
+          "epid": "18030648971",
+          "price": {
+            "raw": "$169.99",
+            "extracted": 169.99
+          },
+          "shipping": {
+            "raw": "+$12.16 delivery",
+            "extracted": 12.16
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/1lkAAeSwmaFq3~R8/s-l500.webp"
+        },
+        {
+          "title": "Sony Playstation 4 Slim Console W/ 2 Controllers Corded .CUH-2115B Not Tested",
+          "link": "https://www.ebay.com/itm/267783639701?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZND9YHB6XFSNHYH8W&hash=item3e59261295%3Ag%3A51IAAeSwKjZqpfUv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bvk0Mt376UZipYmLbjY7%2BEm2pWooTlNT9iZa6SyfB5Nh56V19HGgNoWv8dhP7IYFfSBSG00zYSWco%2BOEp0WMqQVsiG0vgI2v0G7Gf8g2NVUIoWjwTlv8i9Yb2B1OSyAJj2BLf%2BYFs5Hvy92UHDilhDsNiTva5wW1gtIN4aa81OT2IiXqWUNlqzANigvTLoArdwhSgLq9Vm%2B0g7HtzoQgmEfR01NPm3mdGv%2BP%2F4oCfwO8syL31k55nGkfEnDQpDLJSOMayDGIAbL4FLoitIJtEC6j60bJGUlCOK8JQUk7YPpCOHf%2Bh%2BGJyc09HPO6FHscw%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=267783639701",
+          "product_id": "267783639701",
+          "price": {
+            "raw": "$117.00",
+            "extracted": 117.0
+          },
+          "shipping": {
+            "raw": "+$16.02 delivery",
+            "extracted": 16.02
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/51IAAeSwKjZqpfUv/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim 1TB Console - Jet Black CIB Tested/Working",
+          "link": "https://www.ebay.com/itm/920085373379?_skw=PlayStation+4+Slim+console&epid=13031982632&itmmeta=01M6AVP3KZFDXJN82S0P090HTV&hash=itemd6395ca1c3%3Ag%3AxVgAAeSwnTlq45bJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F03mqI7hQmRClwEtkjPuBUGvD%2BOcz3duEL5UGiJ7p3EJQOMdPQXmSBnlVfWbBfbJ%2Bi%2Bo8yHapKPEtzFo%2FMTHGzt%2BtlsLXuWCHhi04nhb4G0ojdvy8m1VU8Zjl85Lea9fU%2F14uVYTQ2zqVjHDZBIx6ywkR3SEpMknvhVeRYgUq7mSZ7CDD5FQJLsRU91206IfXJ%2B4r%2B9%2FoFx26yNCrrkvubrtggQeEDYs1MiTEwayzTsrTFW7Mkn%2B9Dd1nYhopSBeVTycBlsHIQsOAj%2B7tEIdE7YdYGv4ShlSf4NLKVoTKQjMRAXVkfxkfvr1bzIuvcPcQ%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=920085373379",
+          "product_id": "920085373379",
+          "epid": "13031982632",
+          "price": {
+            "raw": "$179.99",
+            "extracted": 179.99
+          },
+          "shipping": {
+            "raw": "+$7.44 delivery",
+            "extracted": 7.44
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/xVgAAeSwnTlq45bJ/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim Console 500 GB Console Only Tested CUH-1215A",
+          "link": "https://www.ebay.com/itm/198442356798?_skw=PlayStation+4+Slim+console&epid=18030119365&itmmeta=01M6AVP3KZJEK1DEBEKG12BXVX&hash=item2e3416103e%3Ag%3AsMkAAeSwpfdqNv%7Ew&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FAJ6r4RPvzgwI%2BkZEFX4R4NNj7yCPqQB0iAm4veQ3GEp7HKfPJuiucuUkJbZeSdihAqV3rz%2B6emaDByfNQH3Bm5g1TeNT8HyfF2d7fgsub%2FYhxOq7AD9b%2FVZHKMc1UJQ5bHon625CuDty5JoSLUU8MD--GxM3eM2KMqxk6nDJpffSrPA%2Fx6n53Xf2JcGhbmcp4Bedy70VgG6T3H6eYR63sT%2FbL%2BJJUepXja1MWyKH6QAMbbQmqkIbusQUsHg4IC%2BseHlRc1w%2BRiWy7P3brB%2BcFaBDJcvdqXeolbJ0RQgoIH7KKnFjxp%2FSn9LXIfltiQb0%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198442356798",
+          "product_id": "198442356798",
+          "epid": "18030119365",
+          "price": {
+            "raw": "$109.99",
+            "extracted": 109.99
+          },
+          "shipping": {
+            "raw": "+$18.65 delivery",
+            "extracted": 18.65
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/sMkAAeSwpfdqNv~w/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 PS4 Slim 500 GB Black System CUH-2015A Tested W/ 2TB HD&More",
+          "link": "https://www.ebay.com/itm/147621881489?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZ147CY2KCJESFHAGZ&hash=item225ef32691%3Ag%3AZwEAAeSwhINqW8y%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8bcBEepSDHV53FtHaUPfyzbjdIszVteX4yIbRbmAWh7CjKxAikC6AtpDkHltucZ2NvjJkvlblu0vckQev6qwAp5BksIZGtBuJ71MJKtW0BFkwgvwLmap1tBth5nCnj9w10sXqSasF5R5XO62F1f%2B06h720W3ggE5nlJ3ezTbE03KRfPiPRNKIVdLzr7a00rL8AwvvPJQWWjqZCkyCs%2FvTDmXbzp04R5u%2Bdj7nuke%2BaM3Jl6B636w%2BdIJod1LNYDBXZJfT7EtUyx%2FwtqIZbR6b4xRCjz5tgHb7lBZm%2Fy5aQhgI0ycPHNFCPXit%2Fy59IMyA%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147621881489",
+          "product_id": "147621881489",
+          "price": {
+            "raw": "$137.75",
+            "extracted": 137.75
+          },
+          "shipping": {
+            "raw": "+$8.69 delivery",
+            "extracted": 8.69
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/ZwEAAeSwhINqW8y~/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim CUH-2015A Black 500GB Video Gaming Console Combo TESTED.",
+          "link": "https://www.ebay.com/itm/168536084999?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZJNXM6T8NM0WRRDN8&hash=item273d889207%3Ag%3ArDEAAeSwW0ZqVrMC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8t%2FP%2FFhQsoCI2kQABDOGe4bRWloDGj7c0ECGZsGb4MV7ksUyGgQd5KB76U63jm0leYKj6suUNqkLPQRz6cWjOu6iZIddUDCIM5OymJ5uL1wFV5v8sCyGVtL8D6yKR7Z5K7ZqwAs5E4nX2B%2BrucFVyzoiC5tlR59ZgxGp4gowL2khS%2FLWS5kfIp16Qoy57x36qYIHvSOebdmmdRGGJGxlx%2BAYssyDi%2BlEjNI3yCl%2FxKvvpioZnfi4V0icgm41bEIt5Ty2WAYiPC9vpuQly2NvR3fBZd9wOh%2FHC6D2xWXzbd0VmAvZtGsdCPt3EqYlUTOtM%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=168536084999",
+          "product_id": "168536084999",
+          "price": {
+            "raw": "$149.00",
+            "extracted": 149.0
+          },
+          "shipping": {
+            "raw": "+$19.00 delivery",
+            "extracted": 19.0
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/rDEAAeSwW0ZqVrMC/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim PS4 500GB Console CUH-2015A Controller Games FREE SHIP",
+          "link": "https://www.ebay.com/itm/198758762915?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZ4KDT48JZJ1TKGTSM&hash=item2e46f209a3%3Ag%3As7kAAeSwNYRq5Uka&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BBxIAoxG93eh7zb1m2enLP1N%2B5Kg4NwCbaCnZ4gOEVtd1PDzGzYEJJZqOU09voyoUdSJnLYX2clHuhv%2FAVxrTThJ6zoXzaY5ezb0maF%2F5DL4Mke%2B4Xk4tFRDxhJ%2BZyh%2FT7QqhA68LhA3JgMAFGib6FnkcXzXtMWnMzt%2Fkosq69RfzwcIQroPx41Vm65oMiRkc0t7NwLsxM4yk4VN82X4ZnM8Ec7OaFuMQ2ITsv97HrBMtv3C%2FEXf8VwWoYGrSKBw0vi6UKEDP0Pg1vmoLOdD8AwHxSjm4DiMNAy2IfiEreWWlzej7mKaKYJpQdDNfZEMc%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198758762915",
+          "product_id": "198758762915",
+          "price": {
+            "raw": "$139.95",
+            "extracted": 139.95
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/s7kAAeSwNYRq5Uka/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim PS4 1TB Console CUH-2015 Firmware 11.52 FREE SHIP",
+          "link": "https://www.ebay.com/itm/198758755544?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZJ97PWAV2K3D9P0B5&hash=item2e46f1ecd8%3Ag%3A4JwAAeSwwvJq2393&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FExPi4din6DWqm8I5UJu22%2F6tgJfS1F0zIJRopHmVwyh7jRKvx7oyPA6ocaADHy8OMqUj2jsRBmcfCqnFg00PBeCVJvU1vtA8DsiXGZABtah6JLTq6gGbLjR5S%2FuzCsh2E7NfRTi4rS7AB%2BdJzRAC9j6rofhJKs%2FZD%2F0w30FWN2PYPG%2B9ggY%2Fs%2Fh5uXiIptOEO2gUdZ%2BkNeF%2BZKvKoS7Os2fVP%2FMYUz4EHQTlldrgMAWlSw5cv%2Fdh7FYwsiXSmkkK09vjjTSct%2F127kqgXOmPXgmfeex%2BMUaurjTht6i2y4XoXHGgNgMGRLfrqVvNtHJU%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=198758755544",
+          "product_id": "198758755544",
+          "price": {
+            "raw": "$154.95",
+            "extracted": 154.95
+          },
+          "shipping": "Free delivery",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/4JwAAeSwwvJq2393/s-l500.webp"
+        },
+        {
+          "title": "Sony PS4 Slim 1TB Black Console Bundle DualShock 4 Star Wars Battlefront Cord",
+          "link": "https://www.ebay.com/itm/407323220044?_skw=PlayStation+4+Slim+console&epid=18030119365&itmmeta=01M6AVP3KZKAJE608ZAYWPVBCE&hash=item5ed65b184c%3Ag%3ADOsAAeSwmOtq3%7EfU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F62tg9xGe5%2Bqb9Ygu%2BxliZrbpGlnZuEH4RqYpZqExSXL8YRRtM2%2FZsS1lx5EnsCKvz2WiFJ9dp6vcimD0Zyo9SeUpzUcGsZmb9Rm0rHQIYstVGIJ2gJcL1ibF3eCCedw6PkX1oLKlccCjVMrJr5Ynt0t3niISB3vI80%2Bpx96nyEG%2FOpUaqP%2F0L4kevEsYOY66zAIDQ6J6eSMu1uxeE81ipbyqEecZEYFMK%2FtiLxlLfEEoqxA6PC4Jqpi1kxf%2BsnpnzU9nYtnEIsyIPjjsWjwWEY0k4uSI4X7Y4Y5GDuxKJNYtQxkPvuVEa5qtsW4IMLEM%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=407323220044",
+          "product_id": "407323220044",
+          "epid": "18030119365",
+          "price": {
+            "raw": "$149.99",
+            "extracted": 149.99
+          },
+          "shipping": {
+            "raw": "+$10.71 delivery",
+            "extracted": 10.71
+          },
+          "returns": "Free returns",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/DOsAAeSwmOtq3~fU/s-l500.webp"
+        },
+        {
+          "title": "Sony PlayStation 4 Slim PS4 Console Black w/ Power Cord & 2 DualShock 4",
+          "link": "https://www.ebay.com/itm/147496831122?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZYJPDEYEMX0TM8Y4S&hash=item22577f0892%3Ag%3A9KUAAeSwfCxqcsug&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9JnI4AuKmbhY1D%2FGPezBcqSS0F9zrmg5v5gvKEZ52aQZOlBA1NkILOEe63wsexvQOdp489ptBHx2gfqms%2BQHn9%2BfIXtZgTU2Jw134BkRsVM19tRu2%2FUcYHzIvhgBR5FF1k81UrpGNcPT4hnGREvO8lqOC1ZqOsgr2iGK97%2BrkKa1QriQ4LdHSLaofq2nn8Do%2FskKCOkIm0aVhMWrSVbiANsYpNrtMALjprWHqjlaLAy0NPm8wlAoYdGpZuKJ41Mggd2aHrawIarVW4RY7T66%2FyXYB1zi76MYOv3PCFWMAf5BMNRngGQtqYxP33NV0rkR0%3D%7Ctkp%3ABFBMoLrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=147496831122",
+          "product_id": "147496831122",
+          "price": {
+            "raw": "$198.76",
+            "extracted": 198.76
+          },
+          "shipping": {
+            "raw": "+$29.75 delivery",
+            "extracted": 29.75
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/9KUAAeSwfCxqcsug/s-l500.webp"
+        }
+      ]
+    },
+    {
+      "title": "Other Popular Brands",
+      "subtitle": "Based on number of views and purchases | Sponsored",
+      "items": [
+        {
+          "title": "1985 Original NES Nintendo System Console + New 72 Pin Authentic & Clean!",
+          "link": "https://www.ebay.com/itm/154188521796?_skw=PlayStation+4+Slim+console&epid=101801921&itmmeta=01M6AVP3KZX2V7B6X63CH9ESHW&hash=item23e65a2144%3Ag%3AgHcAAOSwAmBfq3Bv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9F1kqh5zdcCZ7Xw%2F0h4S732lBk7RaGtdXaCthRCAuVpUKvFpy%2BNSuGTbULNv9krrJMOctFcV%2FiFy1sPxqdSfjP1xsWLkuXFyWJqijZrJMeuVyVJxtU3GMVlEANNUtw5EA4rBuBn1ryGRYBHrwlRJmZsjnLeWwlBgQlRcKYPkfG6X7SUhcC29CngiRbE9qUzFrnQkumFCJQObTTXO3sme9KoOJgO25wn6FfiovA5y1f5FDQWXbXH6A%2FFzYwAAzZ03A1caEVpmhwP9zyjrKp60tG1y6x--x7E4%2BhPrVTlyTBnFTS3VukZ1isamPm%2FGbLKBU%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=154188521796",
+          "product_id": "154188521796",
+          "epid": "101801921",
+          "price": {
+            "raw": "$179.99",
+            "extracted": 179.99
+          },
+          "shipping": "Free delivery",
+          "quantity_sold": "1,013 sold",
+          "extracted_quantity_sold": 1013,
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/gHcAAOSwAmBfq3Bv/s-l500.webp"
+        },
+        {
+          "title": "Wii Classic w/ 3 Controllers and Accessory Extras [PLEASE READ DESCRIPTION]",
+          "link": "https://www.ebay.com/itm/177830880671?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZRJV4GVJDA8VT40BJ&hash=item29678be59f%3Ag%3AJaAAAeSwEfZpgT5d&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BPVawskx%2FRhZrI8nnuEmpkeH%2FPwcKRJZSn8B%2FwB6jwWK29zOnUPj%2Ftd3OAeLY5rbcYLz0d7mT1TVpL0%2BDyDbz2mjU%2FIXBMQAO%2B2GmEpJe5XawAfoZw2DCOTGI26ja5m3DG6G4g0nmlHmq3BtJ%2BXzdcBRYfpSJkuBNiREcT2dYY533hdjreJd5L5SUAQNQx9Jnzw4n%2FiQe9U9pEHq5fgGSQbBCL7TTbjuqu5M9NuGAroK3HIr1tr1mGsBNolfUxaE8bXEnG1fsnQd8NN4ZbYJf1DtU5HJUgzj9Dbui4LUwalgOrA5dSpV%2BZEcwVpqDXpoE%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=177830880671",
+          "product_id": "177830880671",
+          "price": {
+            "raw": "$120.00",
+            "extracted": 120.0
+          },
+          "shipping": {
+            "raw": "+$9.92 delivery",
+            "extracted": 9.92
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/JaAAAeSwEfZpgT5d/s-l500.webp"
+        },
+        {
+          "title": "Microsoft Xbox One Black Home Console Bundle w/ NBA 2K17 & Madden NFL 17",
+          "link": "https://www.ebay.com/itm/840079868385?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZC8CFE0A43H8NRKGA&hash=itemc398a981e1%3Ag%3Ajk4AAeSwZypq5n56&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B9%2F77ImTJxDYOXTanJXvzs%2FdNWkZOaLA69kiZRYF5c1R5ZLAvkplCTvXS0oJWwwHNQmxE2GZ7vWw5CpwKErBrtzQ5FbNpj7IBfa0n1L3vSd67ZPe7rp%2FRrnQ55NafN24T6r4YIAuPdXaBz5Qz9eo2zyPcaW3Y5F24Y34HxTtRA3czbxgZ%2FazjU%2BRCDy9TykPzR5AxfTCDvbZhwJfwETeaxcTdZzsdflxoix5iCOWt05FhlrBy5him6LYb7VwyGKo3dzkKf94R0eMVbpFeoWfTzIOsNR1jpaAgz8IcNCKlCGXL39ApGsxliiszX9N53b%2BQ%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=840079868385",
+          "product_id": "840079868385",
+          "price": {
+            "raw": "$100.00",
+            "extracted": 100.0
+          },
+          "shipping": {
+            "raw": "+$12.48 delivery",
+            "extracted": 12.48
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/jk4AAeSwZypq5n56/s-l500.webp"
+        },
+        {
+          "title": "SONY Playstation 2 PS2 Console Complete Video Game System WORKING +2 Controllers",
+          "link": "https://www.ebay.com/itm/314088083230?_skw=PlayStation+4+Slim+console&itmmeta=01M6AVP3KZFT5N7EPZQDMKRKSE&hash=item49211bcf1e%3Ag%3AuBIAAeSwD1Jqx5Ts&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8mE4i%2F92g7S8IAkgNGU88YHJZYevRIaLnvZ9FJHKikVMCB%2BG5%2FtYldQP7lDM7oeer0sf8ceP5MusAQFdrxLo4WGFA8LV5%2FrZW5DIydBnrfgkzDoqTBeWLJ%2Ffd6AfBJ8Ldg7918LZrZ5J1UOrPeJsGlwdIh8IItnYoiqfRqQf8VSOclW1X2WGb2JiWwuMhJoKAcHIibJJYonTzgOsmWZMsCjlwZp1XH9g6rLuWeezXq6GfrjP%2F4W35r7ln1UCdDz4H9vf%2FDDfpPTwFaUbXy3RBRkmAf%2Bn2kMtBo9%2FQ%2BHTLvjseqbpySrapmM35PohSYKxw%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=314088083230",
+          "product_id": "314088083230",
+          "price": {
+            "raw": "$207.75",
+            "extracted": 207.75
+          },
+          "shipping": "Free delivery",
+          "stock_status": "Almost gone",
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/uBIAAeSwD1Jqx5Ts/s-l500.webp"
+        },
+        {
+          "title": "Microsoft Xbox One 500GB Home Console - Black (1540)",
+          "link": "https://www.ebay.com/itm/357486395333?_skw=PlayStation+4+Slim+console&epid=15032166801&itmmeta=01M6AVP3KZK95B4T6XYD5NNE82&hash=item533bd97fc5%3Ag%3AVQIAAeSwbVlopKQa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BJOZD4FnTVXD3roCYGvDP%2B3I06sWJ22hAM5AzF2i4lUuFynRs58lMFCRZe%2B7mAWhMgcKMVRWQPPcr%2FQlm%2Bdj8F7Z8YAjcsxw7cEVkqyZSyxB6VGeO0kkj7dkq3m1MOJFH%2BVtcOl53EBG60m7lPEdD2N3tlJqm4792TtLSXaWK9bKDLJawPOiPxAGSwep5tyBUggcPpoSLhAbHn07XwtcpV0vu%2FQRCEoTQbsf3K8DyLSC8YA8nB0j12HPRH67qyNC0MITxHNPHmBk1LEv6FVjr5MdHgNbSV7bav7CNCRIo9qiM5V9okMwDYSboBj%2FGuBMY%3D%7Ctkp%3ABFBMnrrY27Jo&LH_BIN=1&LH_ItemCondition=3000",
+          "serpapi_link": "https://serpapi.com/search.json?ebay_domain=ebay.com&engine=ebay_product&product_id=357486395333",
+          "product_id": "357486395333",
+          "epid": "15032166801",
+          "price": {
+            "raw": "$140.00",
+            "extracted": 140.0
+          },
+          "shipping": {
+            "raw": "+$29.38 delivery",
+            "extracted": 29.38
+          },
+          "condition": "Pre-Owned",
+          "thumbnail": "https://i.ebayimg.com/images/g/VQIAAeSwbVlopKQa/s-l500.webp"
+        }
+      ]
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "playstation 4 pro console",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=playstation+4+pro+console&_sop=12"
+    },
+    {
+      "query": "playstation 4 slim console 1 tb",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=playstation+4+slim+console+1+tb&_sop=12"
+    },
+    {
+      "query": "playstation 4 pro",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=playstation+4+pro&_sop=12"
+    },
+    {
+      "query": "playstation 4 slim console only",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=playstation+4+slim+console+only&_sop=12"
+    },
+    {
+      "query": "playstation 5",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=playstation+5&_sop=12"
+    },
+    {
+      "query": "playstation 5 console",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=playstation+5+console&_sop=12"
+    },
+    {
+      "query": "ps 3 console",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ps+3+console&_sop=12"
+    },
+    {
+      "query": "ps 4 slim console",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=ps+4+slim+console&_sop=12"
+    },
+    {
+      "query": "playstation 5 console slim",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=playstation+5+console+slim&_sop=12"
+    },
+    {
+      "query": "playstation 4 controller",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=playstation+4+controller&_sop=12"
+    },
+    {
+      "query": "cuh 1215 a ps 4",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=cuh+1215+a+ps+4&_sop=12"
+    },
+    {
+      "query": "playstation 3 console",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=playstation+3+console&_sop=12"
+    }
+  ],
+  "popular_filters": [
+    {
+      "name": "1 TB",
+      "parameter": "Storage%2520Capacity=1%2520TB",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Storage%2520Capacity=1%2520TB",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Storage%252520Capacity%3D1%252520TB"
+    },
+    {
+      "name": "500 GB",
+      "parameter": "Storage%2520Capacity=500%2520GB",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Storage%2520Capacity=500%2520GB",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Storage%252520Capacity%3D500%252520GB"
+    },
+    {
+      "name": "2 TB",
+      "parameter": "Storage%2520Capacity=2%2520TB",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Storage%2520Capacity=2%2520TB",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Storage%252520Capacity%3D2%252520TB"
+    },
+    {
+      "name": "Region Free",
+      "parameter": "Region%2520Code=Region%2520Free",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Region%2520Code=Region%2520Free",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Region%252520Code%3DRegion%252520Free"
+    },
+    {
+      "name": "PAL",
+      "parameter": "Region%2520Code=PAL",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Region%2520Code=PAL",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Region%252520Code%3DPAL"
+    },
+    {
+      "name": "NTSC-J (Japan)",
+      "parameter": "Region%2520Code=NTSC%252DJ%2520%2528Japan%2529",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Region%2520Code=NTSC%252DJ%2520%2528Japan%2529",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Region%252520Code%3DNTSC%25252DJ%252520%252528Japan%252529"
+    },
+    {
+      "name": "Sony PlayStation 5 Blu-Ray Edition",
+      "parameter": "Model=Sony%2520PlayStation%25205%2520Blu%252DRay%2520Edition",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Model=Sony%2520PlayStation%25205%2520Blu%252DRay%2520Edition",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Model%3DSony%252520PlayStation%2525205%252520Blu%25252DRay%252520Edition"
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "parameter": "Platform=Sony%2520PlayStation%25205",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Platform=Sony%2520PlayStation%25205",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Platform%3DSony%252520PlayStation%2525205"
+    },
+    {
+      "name": "Sony PlayStation 4",
+      "parameter": "Platform=Sony%2520PlayStation%25204",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Platform=Sony%2520PlayStation%25204",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Platform%3DSony%252520PlayStation%2525204"
+    },
+    {
+      "name": "Sony PlayStation 2",
+      "parameter": "Platform=Sony%2520PlayStation%25202",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Platform=Sony%2520PlayStation%25202",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Platform%3DSony%252520PlayStation%2525202"
+    },
+    {
+      "name": "United States",
+      "parameter": "Country%2520of%2520Origin=United%2520States",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Country%2520of%2520Origin=United%2520States",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Country%252520of%252520Origin%3DUnited%252520States"
+    },
+    {
+      "name": "Japan",
+      "parameter": "Country%2520of%2520Origin=Japan",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Country%2520of%2520Origin=Japan",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Country%252520of%252520Origin%3DJapan"
+    },
+    {
+      "name": "Sony",
+      "parameter": "Brand=Sony",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Brand=Sony",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Brand%3DSony"
+    },
+    {
+      "name": "Microsoft",
+      "parameter": "Brand=Microsoft",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Brand=Microsoft",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Brand%3DMicrosoft"
+    },
+    {
+      "name": "Black",
+      "parameter": "Color=Black",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Black",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBlack"
+    },
+    {
+      "name": "Pink",
+      "parameter": "Color=Pink",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Pink",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DPink"
+    },
+    {
+      "name": "White",
+      "parameter": "Color=White",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=White",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DWhite"
+    },
+    {
+      "name": "Sony PlayStation 5 Slim Digital Edition",
+      "parameter": "Model=Sony%2520PlayStation%25205%2520Slim%2520Digital%2520Edition",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Model=Sony%2520PlayStation%25205%2520Slim%2520Digital%2520Edition",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Model%3DSony%252520PlayStation%2525205%252520Slim%252520Digital%252520Edition"
+    },
+    {
+      "name": "Sony PlayStation 3",
+      "parameter": "Platform=Sony%2520PlayStation%25203",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Platform=Sony%2520PlayStation%25203",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Platform%3DSony%252520PlayStation%2525203"
+    },
+    {
+      "name": "512 GB",
+      "parameter": "Storage%2520Capacity=512%2520GB",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Storage%2520Capacity=512%2520GB",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Storage%252520Capacity%3D512%252520GB"
+    },
+    {
+      "name": "Microsoft Xbox One",
+      "parameter": "Platform=Microsoft%2520Xbox%2520One",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Platform=Microsoft%2520Xbox%2520One",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Platform%3DMicrosoft%252520Xbox%252520One"
+    },
+    {
+      "name": "Silver",
+      "parameter": "Color=Silver",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Silver",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DSilver"
+    },
+    {
+      "name": "Sony PlayStation 1",
+      "parameter": "Platform=Sony%2520PlayStation%25201",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Platform=Sony%2520PlayStation%25201",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Platform%3DSony%252520PlayStation%2525201"
+    },
+    {
+      "name": "Blue",
+      "parameter": "Color=Blue",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Blue",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DBlue"
+    },
+    {
+      "name": "Red",
+      "parameter": "Color=Red",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Red",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DRed"
+    },
+    {
+      "name": "Purple",
+      "parameter": "Color=Purple",
+      "link": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&Color=Purple",
+      "serpapi_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&buying_format=BIN&ebay_domain=ebay.com&engine=ebay&popular_filters=Color%3DPurple"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+    "other_pages": {
+      "1": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=1",
+      "2": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=2",
+      "3": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=3",
+      "4": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=4",
+      "5": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=5&rt=nc",
+      "6": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=6&rt=nc",
+      "7": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=7&rt=nc",
+      "8": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=8&rt=nc",
+      "9": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=9&rt=nc",
+      "10": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1&_pgn=10&rt=nc"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "next": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+    "other_pages": {
+      "1": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=1&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "2": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=2&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "3": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=3&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "4": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=4&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "5": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=5&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "6": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=6&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "7": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=7&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "8": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=8&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "9": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=9&buying_format=BIN&ebay_domain=ebay.com&engine=ebay",
+      "10": "https://serpapi.com/search.json?LH_ItemCondition=3000&_ipg=60&_nkw=PlayStation+4+Slim+console&_pgn=10&buying_format=BIN&ebay_domain=ebay.com&engine=ebay"
+    }
+  }
+}
