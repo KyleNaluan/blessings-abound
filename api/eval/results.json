@@ -2,44 +2,44 @@
   "groups": {
     "fresh": {
       "pipeline": {
-        "items": 15,
-        "priced": 15,
-        "in_range": 12,
-        "in_range_rate": 0.8,
-        "median_error_percent": 11.6,
-        "median_range_width": 2.08
+        "items": 30,
+        "priced": 30,
+        "in_range": 21,
+        "in_range_rate": 0.7,
+        "median_error_percent": 19.7,
+        "median_range_width": 2.27
       },
       "baseline": {
-        "items": 15,
-        "priced": 15,
-        "in_range": 8,
-        "in_range_rate": 0.533,
-        "median_error_percent": 23.8,
-        "median_range_width": 1.94
+        "items": 30,
+        "priced": 30,
+        "in_range": 14,
+        "in_range_rate": 0.467,
+        "median_error_percent": 31.2,
+        "median_range_width": 2.0
       },
       "pipeline_middle_half": {
-        "items": 15,
-        "priced": 15,
-        "in_range": 11,
-        "in_range_rate": 0.733,
-        "median_error_percent": 11.6,
-        "median_range_width": 1.66
+        "items": 30,
+        "priced": 30,
+        "in_range": 18,
+        "in_range_rate": 0.6,
+        "median_error_percent": 19.7,
+        "median_range_width": 1.67
       },
       "pipeline_before_factor": {
-        "items": 15,
-        "priced": 15,
-        "in_range": 13,
-        "in_range_rate": 0.867,
-        "median_error_percent": 14.5,
-        "median_range_width": 2.08
+        "items": 30,
+        "priced": 30,
+        "in_range": 20,
+        "in_range_rate": 0.667,
+        "median_error_percent": 24.8,
+        "median_range_width": 2.27
       },
-      "median_ask_over_reference": 1.06,
+      "median_ask_over_reference": 1.16,
       "pipeline_beats_baseline_on_in_range": true,
       "pipeline_middle_half_beats_baseline_on_in_range": true,
       "pipeline_beats_baseline_on_median_error": true,
-      "pipeline_closer_items": 11,
-      "items_compared": 15,
-      "chance_percent": 11.8
+      "pipeline_closer_items": 21,
+      "items_compared": 30,
+      "chance_percent": 4.3
     },
     "tuning": {
       "pipeline": {
@@ -124,8 +124,8 @@
       "chance_percent": null
     }
   },
-  "searches_saved": 33,
-  "fresh_searches": 15,
+  "searches_saved": 48,
+  "fresh_searches": 30,
   "rules": {
     "ask_to_sale_factor": 0.645,
     "games_ask_to_sale_factor": 0.94,
@@ -711,6 +711,576 @@
         "comps_count": 59,
         "in_range": false,
         "error_percent": 45.3
+      }
+    },
+    {
+      "id": "mario-kart-double-dash",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 5434,
+      "search_query": "Nintendo GameCube Mario Kart Double Dash game",
+      "queries_searched": [
+        "Nintendo GameCube Mario Kart Double Dash game"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 6006,
+        "typical_cents": 6580,
+        "high_cents": 8060,
+        "comps_count": 26,
+        "in_range": false,
+        "error_percent": 21.1
+      },
+      "pipeline_middle_half": {
+        "low_cents": 6133,
+        "typical_cents": 6580,
+        "high_cents": 7520,
+        "comps_count": 26,
+        "in_range": false,
+        "error_percent": 21.1
+      },
+      "baseline": {
+        "low_cents": 6500,
+        "typical_cents": 7500,
+        "high_cents": 8500,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 38.0
+      }
+    },
+    {
+      "id": "super-smash-bros-melee",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 4925,
+      "search_query": "Nintendo Super Famicom console black",
+      "queries_searched": [
+        "Nintendo Super Famicom console black"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "low",
+      "pipeline_recommendation": "check",
+      "pipeline": {
+        "low_cents": 2226,
+        "typical_cents": 6110,
+        "high_cents": 14675,
+        "comps_count": 30,
+        "in_range": true,
+        "error_percent": 24.1
+      },
+      "pipeline_middle_half": {
+        "low_cents": 2866,
+        "typical_cents": 6110,
+        "high_cents": 13157,
+        "comps_count": 30,
+        "in_range": true,
+        "error_percent": 24.1
+      },
+      "baseline": {
+        "low_cents": 3496,
+        "typical_cents": 10650,
+        "high_cents": 14371,
+        "comps_count": 58,
+        "in_range": true,
+        "error_percent": 116.2
+      }
+    },
+    {
+      "id": "pokemon-black",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 7647,
+      "search_query": "Pokemon Black Version Nintendo DS cartridge",
+      "queries_searched": [
+        "Pokemon Black Version Nintendo DS cartridge"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 5442,
+        "typical_cents": 9163,
+        "high_cents": 12217,
+        "comps_count": 52,
+        "in_range": true,
+        "error_percent": 19.8
+      },
+      "pipeline_middle_half": {
+        "low_cents": 6942,
+        "typical_cents": 9163,
+        "high_cents": 11397,
+        "comps_count": 52,
+        "in_range": true,
+        "error_percent": 19.8
+      },
+      "baseline": {
+        "low_cents": 6750,
+        "typical_cents": 9995,
+        "high_cents": 12332,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 30.7
+      }
+    },
+    {
+      "id": "pokemon-red",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 5450,
+      "search_query": "red Nintendo Game Boy game cartridge",
+      "queries_searched": [
+        "red Nintendo Game Boy game cartridge"
+      ],
+      "model_confidence": "medium",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 4362,
+        "typical_cents": 6251,
+        "high_cents": 9400,
+        "comps_count": 50,
+        "in_range": true,
+        "error_percent": 14.7
+      },
+      "pipeline_middle_half": {
+        "low_cents": 4759,
+        "typical_cents": 6251,
+        "high_cents": 7050,
+        "comps_count": 50,
+        "in_range": true,
+        "error_percent": 14.7
+      },
+      "baseline": {
+        "low_cents": 4800,
+        "typical_cents": 6399,
+        "high_cents": 7500,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 17.4
+      }
+    },
+    {
+      "id": "super-mario-bros",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 1500,
+      "search_query": "Nintendo NES console",
+      "queries_searched": [
+        "Nintendo NES console"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 4653,
+        "typical_cents": 8455,
+        "high_cents": 21993,
+        "comps_count": 17,
+        "in_range": false,
+        "error_percent": 463.7
+      },
+      "pipeline_middle_half": {
+        "low_cents": 5169,
+        "typical_cents": 8455,
+        "high_cents": 13160,
+        "comps_count": 17,
+        "in_range": false,
+        "error_percent": 463.7
+      },
+      "baseline": {
+        "low_cents": 8999,
+        "typical_cents": 12900,
+        "high_cents": 16999,
+        "comps_count": 53,
+        "in_range": false,
+        "error_percent": 760.0
+      }
+    },
+    {
+      "id": "tetris-game-boy",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 1440,
+      "search_query": "Nintendo Game Boy Tetris game",
+      "queries_searched": [
+        "Nintendo Game Boy Tetris game"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 6768,
+        "typical_cents": 8460,
+        "high_cents": 10622,
+        "comps_count": 13,
+        "in_range": false,
+        "error_percent": 487.5
+      },
+      "pipeline_middle_half": {
+        "low_cents": 7990,
+        "typical_cents": 8460,
+        "high_cents": 9400,
+        "comps_count": 13,
+        "in_range": false,
+        "error_percent": 487.5
+      },
+      "baseline": {
+        "low_cents": 6000,
+        "typical_cents": 9250,
+        "high_cents": 14999,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 542.4
+      }
+    },
+    {
+      "id": "super-mario-64",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 3876,
+      "search_query": "Nintendo 64 console grey",
+      "queries_searched": [
+        "Nintendo 64 console grey"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 4548,
+        "typical_cents": 6955,
+        "high_cents": 9398,
+        "comps_count": 30,
+        "in_range": false,
+        "error_percent": 79.4
+      },
+      "pipeline_middle_half": {
+        "low_cents": 4928,
+        "typical_cents": 6955,
+        "high_cents": 7990,
+        "comps_count": 30,
+        "in_range": false,
+        "error_percent": 79.4
+      },
+      "baseline": {
+        "low_cents": 6499,
+        "typical_cents": 8495,
+        "high_cents": 12900,
+        "comps_count": 57,
+        "in_range": false,
+        "error_percent": 119.2
+      }
+    },
+    {
+      "id": "neo-geo-aes",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 98373,
+      "search_query": "SNK Neo Geo Mini console",
+      "queries_searched": [
+        "SNK Neo Geo Mini console"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "low",
+      "pipeline_recommendation": "check",
+      "pipeline": {
+        "low_cents": 2819,
+        "typical_cents": 10107,
+        "high_cents": 25145,
+        "comps_count": 43,
+        "in_range": false,
+        "error_percent": 89.7
+      },
+      "pipeline_middle_half": {
+        "low_cents": 4042,
+        "typical_cents": 10107,
+        "high_cents": 20100,
+        "comps_count": 43,
+        "in_range": false,
+        "error_percent": 89.7
+      },
+      "baseline": {
+        "low_cents": 5248,
+        "typical_cents": 12700,
+        "high_cents": 23392,
+        "comps_count": 70,
+        "in_range": false,
+        "error_percent": 87.1
+      }
+    },
+    {
+      "id": "turbografx-16",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 18654,
+      "search_query": "TurboGrafx 16 console TurboPro controller",
+      "queries_searched": [
+        "TurboGrafx 16 console TurboPro controller"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 12922,
+        "typical_cents": 23970,
+        "high_cents": 49115,
+        "comps_count": 31,
+        "in_range": true,
+        "error_percent": 28.5
+      },
+      "pipeline_middle_half": {
+        "low_cents": 17765,
+        "typical_cents": 23970,
+        "high_cents": 35787,
+        "comps_count": 31,
+        "in_range": true,
+        "error_percent": 28.5
+      },
+      "baseline": {
+        "low_cents": 22150,
+        "typical_cents": 29999,
+        "high_cents": 44750,
+        "comps_count": 59,
+        "in_range": false,
+        "error_percent": 60.8
+      }
+    },
+    {
+      "id": "virtual-boy",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 39868,
+      "search_query": "Nintendo Virtual Boy console",
+      "queries_searched": [
+        "Nintendo Virtual Boy console"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 29327,
+        "typical_cents": 32900,
+        "high_cents": 48824,
+        "comps_count": 25,
+        "in_range": true,
+        "error_percent": 17.5
+      },
+      "pipeline_middle_half": {
+        "low_cents": 30550,
+        "typical_cents": 32900,
+        "high_cents": 42295,
+        "comps_count": 25,
+        "in_range": true,
+        "error_percent": 17.5
+      },
+      "baseline": {
+        "low_cents": 32500,
+        "typical_cents": 37499,
+        "high_cents": 58125,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 5.9
+      }
+    },
+    {
+      "id": "atari-jaguar",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 47279,
+      "search_query": "Atari Jaguar game console controller",
+      "queries_searched": [
+        "Atari Jaguar game console controller"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "low",
+      "pipeline_recommendation": "check",
+      "pipeline": {
+        "low_cents": 4699,
+        "typical_cents": 7174,
+        "high_cents": 51700,
+        "comps_count": 20,
+        "in_range": true,
+        "error_percent": 84.8
+      },
+      "pipeline_middle_half": {
+        "low_cents": 5992,
+        "typical_cents": 7174,
+        "high_cents": 48152,
+        "comps_count": 20,
+        "in_range": true,
+        "error_percent": 84.8
+      },
+      "baseline": {
+        "low_cents": 7124,
+        "typical_cents": 21000,
+        "high_cents": 55000,
+        "comps_count": 74,
+        "in_range": true,
+        "error_percent": 55.6
+      }
+    },
+    {
+      "id": "wii-balance-board",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 2150,
+      "search_query": "Nintendo Wii Dance Pad",
+      "queries_searched": [
+        "Nintendo Wii Dance Pad"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 2082,
+        "typical_cents": 2820,
+        "high_cents": 3845,
+        "comps_count": 28,
+        "in_range": true,
+        "error_percent": 31.2
+      },
+      "pipeline_middle_half": {
+        "low_cents": 2353,
+        "typical_cents": 2820,
+        "high_cents": 3759,
+        "comps_count": 28,
+        "in_range": false,
+        "error_percent": 31.2
+      },
+      "baseline": {
+        "low_cents": 2499,
+        "typical_cents": 3098,
+        "high_cents": 4144,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 44.1
+      }
+    },
+    {
+      "id": "kinect-xbox-360",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 1352,
+      "search_query": "Xbox 360 Kinect motion sensor",
+      "queries_searched": [
+        "Xbox 360 Kinect motion sensor"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 620,
+        "typical_cents": 1221,
+        "high_cents": 1818,
+        "comps_count": 29,
+        "in_range": true,
+        "error_percent": 9.7
+      },
+      "pipeline_middle_half": {
+        "low_cents": 752,
+        "typical_cents": 1221,
+        "high_cents": 1410,
+        "comps_count": 29,
+        "in_range": true,
+        "error_percent": 9.7
+      },
+      "baseline": {
+        "low_cents": 728,
+        "typical_cents": 1299,
+        "high_cents": 1999,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 3.9
+      }
+    },
+    {
+      "id": "ps2-memory-card-red",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 843,
+      "search_query": "Sony PlayStation 2 8MB Memory Card Red",
+      "queries_searched": [
+        "Sony PlayStation 2 8MB Memory Card Red"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 796,
+        "typical_cents": 1297,
+        "high_cents": 2195,
+        "comps_count": 50,
+        "in_range": true,
+        "error_percent": 53.9
+      },
+      "pipeline_middle_half": {
+        "low_cents": 939,
+        "typical_cents": 1297,
+        "high_cents": 1784,
+        "comps_count": 50,
+        "in_range": false,
+        "error_percent": 53.9
+      },
+      "baseline": {
+        "low_cents": 1020,
+        "typical_cents": 1408,
+        "high_cents": 2218,
+        "comps_count": 67,
+        "in_range": false,
+        "error_percent": 67.0
+      }
+    },
+    {
+      "id": "guitar-hero-les-paul",
+      "evaluation_set": "fresh",
+      "category": "electronics_games",
+      "reference_cents": 6574,
+      "search_query": "Guitar Hero guitar controller black",
+      "queries_searched": [
+        "Guitar Hero guitar controller black"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1700,
+        "typical_cents": 2820,
+        "high_cents": 4700,
+        "comps_count": 43,
+        "in_range": false,
+        "error_percent": 57.1
+      },
+      "pipeline_middle_half": {
+        "low_cents": 2130,
+        "typical_cents": 2820,
+        "high_cents": 4697,
+        "comps_count": 43,
+        "in_range": false,
+        "error_percent": 57.1
+      },
+      "baseline": {
+        "low_cents": 2471,
+        "typical_cents": 3500,
+        "high_cents": 4999,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 46.8
       }
     },
     {

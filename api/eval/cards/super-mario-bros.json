@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "NES console",
+    "visible_text": "Nintendo 1985",
+    "search_query": "Nintendo NES console",
+    "model_confidence": "high",
+    "color": "grey",
+    "material": "plastic",
+    "exact_model": null,
+    "platform": "NES"
+  }
+}

@@ -18,6 +18,7 @@ from app.evaluate import (
     Results,
     SavedSearches,
     baseline_prices,
+    batch_lines,
     chance_of_split,
     evaluate,
     fresh_is_ready,
@@ -168,7 +169,7 @@ def test_every_item_records_its_photo_license_and_price_source() -> None:
 
 def test_fresh_items_are_games_and_hardware_with_no_overlap_with_the_tuning_items() -> None:
     fresh = load_fresh_items()
-    assert 13 <= len(fresh) <= 17
+    assert len(fresh) == 30
     tuning = load_items()
     assert not {item.id for item in fresh} & {item.id for item in tuning}
     tuning_links = {getattr(item.reference, "url", None) for item in tuning}
@@ -239,6 +240,19 @@ def test_the_fresh_items_are_scored_within_their_search_budget(
     assert results.fresh_searches <= FRESH_SEARCH_BUDGET
     assert "**Not scored yet: the fresh items.**" not in report
     assert report.index("## Result: fresh games and hardware") < report.index("## Tuning data")
+
+
+def test_the_report_shows_each_fresh_batch_and_they_add_up_to_the_result(
+    session: Session, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    report, results = _report_and_results(session, monkeypatch)
+    rows = [row for row in results.items if row.evaluation_set == "fresh"]
+    rules = PricingRules.model_validate(results.rules)
+    first, added = batch_lines(rows, rules)[2:]
+    assert first in report and added in report
+    total = results.groups["fresh"].pipeline
+    in_range = [int(line.split(" | ")[2]) for line in (first, added)]
+    assert sum(in_range) == total.in_range
 
 
 @pytest.mark.parametrize(

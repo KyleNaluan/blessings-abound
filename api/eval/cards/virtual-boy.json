@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "handheld game console",
+    "visible_text": "VIRTUAL BOY",
+    "search_query": "Nintendo Virtual Boy console",
+    "model_confidence": "high",
+    "color": "red",
+    "material": "plastic",
+    "exact_model": "Virtual Boy",
+    "platform": "Virtual Boy"
+  }
+}

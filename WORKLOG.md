@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-01, [#11](https://github.com/KyleNaluan/blessings-abound/issues/11), Add 15 harder fresh games and hardware items, score them once with the rules frozen, and report each batch beside the total of 30
 - 2026-11-01, [#31](https://github.com/KyleNaluan/blessings-abound/issues/31), Refuse a session from before a temporary password was issued, answer a turned-off account the same as a wrong password, and keep the failed sign-in count in the database
 - 2026-11-01, [#31](https://github.com/KyleNaluan/blessings-abound/issues/31), Add invite-only accounts: username sign-in, manager routes for invites, temporary passwords, roles and deactivation, and seeded demo accounts
 - 2026-11-01, [#11](https://github.com/KyleNaluan/blessings-abound/issues/11), Give games and hardware their own ask-to-sale factor and a wider price range, and score them on fresh items that had no part in the tuning

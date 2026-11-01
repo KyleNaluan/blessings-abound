@@ -65,6 +65,9 @@ COMMONS_USER_AGENT = "TurnstoneEval/0.1 (https://github.com/KyleNaluan/blessings
 # Outcomes that say the run itself went wrong, rather than that the item has no price.
 FAILED_SEARCH_OUTCOMES = {"budget_spent", "not_configured", "search_failed"}
 
+# The first batch of fresh_items.json, and the harder items added after it was scored.
+FIRST_FRESH_BATCH = 15
+
 EvalSet = Literal["fresh", "tuning", "apparel"]
 
 
@@ -611,6 +614,28 @@ def _items_table(rows: list[ItemScore], by_id: dict[str, EvalItem]) -> list[str]
     return lines
 
 
+def batch_lines(rows: list[ItemScore], rules: PricingRules) -> list[str]:
+    """Each fresh batch on its own, because the added items were picked to be harder."""
+    lines = [
+        "| Batch | Items | Pipeline in range | Pipeline median error | Baseline in range "
+        "| Baseline median error | Pipeline closer |",
+        "| --- | --- | --- | --- | --- | --- | --- |",
+    ]
+    batches = (
+        ("First items", rows[:FIRST_FRESH_BATCH]),
+        ("Added items, picked to be harder", rows[FIRST_FRESH_BATCH:]),
+    )
+    for label, batch in batches:
+        group = compare(batch, rules)
+        lines.append(
+            f"| {label} | {group.pipeline.items} | {group.pipeline.in_range} "
+            f"| {_percent(group.pipeline.median_error_percent)} | {group.baseline.in_range} "
+            f"| {_percent(group.baseline.median_error_percent)} "
+            f"| {group.pipeline_closer_items} of {group.items_compared} |"
+        )
+    return lines
+
+
 def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results) -> str:
     """The results as Markdown, generated so that a change shows up in review."""
     by_id = {item.id: item for item in [*items, *fresh]}
@@ -641,6 +666,8 @@ def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results
             f"Item cards that would have stopped for staff confirmation: "
             f"{sum(row.needed_confirmation for row in rows['fresh'])} of {len(rows['fresh'])}.",
             f"Searches spent on these items: {results.fresh_searches} of {FRESH_SEARCH_BUDGET}.",
+            "",
+            *batch_lines(rows["fresh"], rules),
         ]
     else:
         lines.append("**Not scored yet: the fresh items.** There is no result until they run.")
@@ -690,6 +717,23 @@ def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results
         "- The fresh list was committed before its first score, which "
         "`git log -- api/eval/fresh_items.json` shows, and the rules were not changed after it.",
         "",
+        "## How the added fresh items were picked",
+        "",
+        "- The 15 added items were chosen by their shape, because the first 15 were likely easier "
+        "than the tuning items: 7 games, 4 rare or thinly sold consoles, and 4 accessories that "
+        "aren't controllers.",
+        "- The games are 2 GameCube discs, 1 Nintendo DS card and 4 cartridges, and ordinary "
+        "photos came before white studio shots, which brought in cartridges shown from the back "
+        "and games shown with a console.",
+        "- Each item's photo was fixed before its price was recorded, and no search was run or "
+        "listing looked at until the list was committed.",
+        "- One item was replaced: a Japanese Sega Saturn on a shop shelf has no PriceCharting page "
+        "for its model, so the Atari Jaguar took its place.",
+        "- This was one person's judgment of what is harder, so the 30 items are not a random "
+        "sample of what a thrift store receives.",
+        "- The added list had its own commit before its first score, they were scored once, and "
+        "no factor or percentile changed.",
+        "",
         "## How it is scored",
         "",
         "- The pipeline is the vision model's item card, unedited, passed through `price_item`.",
@@ -704,14 +748,24 @@ def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results
         "## Limits",
         "",
         "- These are small sets, so one or two items can move each number.",
-        "- The pipeline scored better on the fresh items than on the tuning items, which tuned "
-        "rules don't usually do, so the fresh items were likely easier and another set may score "
-        "lower.",
+        "- The first 15 fresh items were likely easier than the tuning items, and the 15 added "
+        "were picked to be harder, so another set may score higher or lower than these 30.",
+        "- The asking price per reference is a median 1.16 on the 30 fresh items against the 1.06 "
+        "the factor came from, and the factor was left alone so that this stays a test of it.",
+        "- The vision model reads some items wrongly when the photo gives it little, and nothing "
+        "here corrects it: Super Mario Bros. from the back and Super Mario 64 in a console became "
+        "console searches, Melee became a Super Famicom, the Neo Geo AES became a Neo Geo Mini, "
+        "and the Wii Balance Board became a dance pad.",
+        "- A game shown with its console can price as the console, even from a correct search: "
+        "the Tetris search is mostly Game Boys and lots, and the comp filter kept them.",
+        "- A rare console can have too thin a reference to say much, and the Neo Geo AES page "
+        "shows 1 sale per year.",
         "- The comp filter still lets some wrong listings through, such as consoles among the "
         "Super Nintendo controller's comps and magazine ads among Sonic & Knuckles', and the 2DS "
         "card was read as a Wii U GamePad. Tuning didn't address either problem.",
-        "- Only 3 fresh items are games, all old cartridges, because few openly licensed photos "
-        "show a named game, so the result says little about discs or newer games.",
+        "- 10 fresh items are games, but only 2 are discs and none is from a recent console, "
+        "because few openly licensed photos show a named game, so the result says little about "
+        "newer games.",
         "- PriceCharting's prices come from completed eBay sales through its own calculation, so "
         "they are sold prices from the same marketplace as the comps, not from another market.",
         "- Whether PriceCharting's prices include shipping was not checked, and comps omit it.",

@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Guitar Hero guitar controller black",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 5500,
+ "organic_results": [
+  {
+   "title": "Activision Guitar Hero Wireless Guitar Controller Guitar Black/Gold CE0700",
+   "price": {
+    "raw": "$13.50",
+    "extracted": 13.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198745638245?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKX938AA5EYJ7APJMZT8&hash=item2e4629c565%3Ag%3AV7cAAeSwh9lq3qdy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8BtJCHGrsXL%2FtxE0SlWKmlqXi9%2FdMdH%2F1XhqzOlAsM9mjpfsZzZCuuVOkjzke3krgdsMOaBsJYCbMk%2B%2BI%2FGxd9KwBiarLLkf1tnOuRpZCVDzmbkDA2Q4vYfq8F6uUlA4dbhL%2BYouKWiiQF44xiAeiqWu%2Bno%2Bvya9%2FGhgb97njF5CBB%2B2xuqnEeO8y0sq2i2nXn7kMZZYEx%2FAAO%2FWGx8M8QzdDJa7yM%2B3b9cbYa0XgGXgw31jGU6w5TAc21wUaXg8p4PFSSsMdYVe0igvuxn3cukDvXr%2BGhbpj0WwkMUqIeRN6hZR%2FiBgN1PudCP7WAFEI%3D%7Ctkp%3ABk9SR4q_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198745638245"
+  },
+  {
+   "title": "Kramer Guitar Hero Wireless Guitar Controller Black FCC ID BA00915362 excellent",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377611501833?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKX99VDMFTD5T0TMYFKY&hash=item57eb664109%3Ag%3A21EAAeSwZmdq5NaU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9TlFMeeg8sU39PLoIhqFUPx6ARB3jfkVhsENnyqiSBoX2AQgM63lru0k4qz84m%2B9EZXhDBOu9kh76TS9oY1oKdzWsGlI2MJGodnju%2FIZFor7xFc1PrrT6DVzwyfpQyzqcngtjGnXz3%2BmKVRzpyKZjhLHxnYB2%2BBjxIUhzVKjDeFufYSWhXprGJi46kuAHio1oJlSpa59d2uX%2BZRXS8%2B0TF1gkwBPdjt8%2ByM0k2xHxr81tWKy64KhzXojk64mPsObtaCoKxAiZvHdOq1DS7ioYNCObAmJoC0ImyK7knpiye%2F5ASo1vIel4f01b4HDvfP%2Fw%3D%7Ctkp%3ABFBMir-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377611501833"
+  },
+  {
+   "title": "Lot of 2 Guitar Hero Live Wireless Guitar Controllers Black Activision W/Straps",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940026633900?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXADTH4PQGCZZ481W9K&hash=itemdaddf41eac%3Ag%3ALRIAAeSw4nRq1qRM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8s94RuAoH04EBoKz9lpZ8oEnf4k3eE0y%2FHwI2jRt6%2Fh9JGyYVd5ylsdD%2BZqsRYrEWiYaSww6%2BXcjkeBShrsiN6U4MCkMEAzvmY04%2FrQz0NOoM4YTnlz%2BWSO6x3pDhHyjAZWhbYh1RRFfpAlu5BdPHxVfn9j%2Fqa6kZe2kmOkEW%2Bgg3ASHgVNRhcWwgYxT2SlZe%2F9V4GgsrUm5JlusMENNoOr%2FRAyfWcVUbVSxgMaHV6Ip36G4gNyXO7xadRnomt4bKWvJ5xa2wtZQj8cxbJVMd9btIcXwojzmhrhalza1cxGZIQ%2F10q7IAH64HpOUpBiAE%3D%7Ctkp%3ABFBMir-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940026633900"
+  },
+  {
+   "title": "XBOX 360 Wireless Gibson Les Paul Guitar Hero Controller *Untested - NO DONGLE*",
+   "price": {
+    "raw": "$34.00",
+    "extracted": 34.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137892241629?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXA0Z0Z89GJQP1J0D94&hash=item201b04a0dd%3Ag%3ADOwAAeSwCHlq5jKC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde98CM1DvkgOiliZfc0T2dypsH0QPrs7%2BynWSe3fniI83nuXFiCAu--fVyN%2Fg1QgvczB1mS%2BiDI4Bqtg%2BfCbbUkLmueYVWKMjEoVxdytMuyViRbVz7niN1%2BTAAE0ps7iCSowpkBDhgHfDwIZWne3z6SzhVJd646MJHIyWfgqmSaYT63wgvn7pzituLDA%2BLRTVlXBwyJCtM7V6t0LNgq4nUfzD1160whDiVgHrCL7bH5lBuC4SnmgQ3NfRtfagZncwf70qDTRdFHAKuWA4X3WoC%2FrjlFINCdHSHudKFUUSS9PVlSLTU4eH2m48eLNJP1MWIU%3D%7Ctkp%3ABFBMir-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137892241629"
+  },
+  {
+   "title": "Activision Guitar Hero Live Wireless Guitar Controller Black Gold 87421805",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287692355361?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXADRK0R4RNWX8FJENM&hash=item42fbccf721%3Ag%3Ad-oAAeSwFuJqa4fc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9uPO9CLdJIryasNkw0mOm5EdVn9JlWD40MN%2BGJVdbjQrGkZXkiwnoiLmEe0YC51OoutB6zd4p03ps8GA4fY72wh41QYrnGR74JeJOTkT8Iz34u9j%2FBiIOP8uG2R3jIeqwb1A3YxblJAvRXBnv2%2BklJIaTIitY9UtEO9vtzZRS0UgiW%2BJ72CmtNQxPvEG4%2FROWbc8sBCKuURIj4hBN20AVG20%2FHBcU1%2B8KbVzMH8OxiUI9qX1lBz6uiOjZMh38hoLQg9G9QZhQtKLIq%2BmKsv0rL2IKCqYqcvXJOX6Jva7sAIpnuO%2B%2BUCFZfX565FKtdiVE%3D%7Ctkp%3ABk9SR4q_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287692355361"
+  },
+  {
+   "title": "GUITAR HERO Black Les Paul Wireless RedOctane Controller 95123.805 XBOX 360",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168830819348?_skw=Guitar+Hero+guitar+controller+black&epid=1524010650&itmmeta=01M6CBCKXB5KK9RPM64GWZCGYE&hash=item274f19dc14%3Ag%3AoTgAAeSw4Qlq52S-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9fhQS8uaIISfDtSRfh%2FVYu1%2Bb0GHC4FPrGeB0KvJljIpn8xzG0X0Q6aUndgPRPdeYJeiFFPbN7pDXPsrcO1i9bt9N4l%2FLLPy0kFbUvAAHd5m3Mb3AaUJN%2BiwioVG7LMArNPk6PbbUao3h8E9qJaXR4sBw5Zim8WuXZduyNf%2BFDeOVjJf4HIEH%2BX58FhWFZ6EQ3xk5QP1Ol4wF8yaQ9prjN1DCtgpZ4QoYNc02Mt1bL4e2UsxI3%2BQC%2FBuRvwfnJXpeGIO7meHpwinrUZgspIfyNjd5IlqtjCG3csaM848mVmTp%2FJSzwe%2BF3NUjFOK%2Bq%2FqI%3D%7Ctkp%3ABk9SR4q_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168830819348"
+  },
+  {
+   "title": "Guitar Hero Live Wireless Guitar Controller 0000654 Black Gold No Dongle",
+   "price": {
+    "raw": "$16.00",
+    "extracted": 16.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188961821578?_skw=Guitar+Hero+guitar+controller+black&epid=15035047683&itmmeta=01M6CBCKXB18T6XGQ9TRK10RBX&hash=item2bff00938a%3Ag%3AQpYAAeSwfmBqsb%7EX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9nULFsJMrRaDQEV309ujD%2FV4SLziXGzi6Sa2Uv8eyIVH9smoUpxHa7jwWeStRIO%2FGk0S7fg5yjXTcskI%2F%2BZQBwKRp5p421vqiRlALadlWWDBiCIK2WRWzuBdhowmJzd4vTWhuPpMRM7pX2I0byBbbF7hbH02Lhwea88d8TwnT--FojRmHt383JmjZ3KL%2BWHifAcPrSbwfB6N%2FY4%2F8VBJTjwmonXEywqkIwfiTogOkxiDiipXYIQJRfEh5yjqv7Sol8%2Bb3JOvGRJ9y%2FXdGeKAD4UXWYEl9tutDBTtaQSHtUZJDwy3dofyeOUCZY4KfhqU8%3D%7Ctkp%3ABk9SR4q_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188961821578"
+  },
+  {
+   "title": "Guitar Hero Wireless Black Ergonomic Guitar Controller CE0700 for Games",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307168011224?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXCRTB6BGV7T89CC483&hash=item4784a3e3d8%3Ag%3Ac70AAeSw9vVqnu6l&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9qmUt0H3IhtBkXjkuw4U9yUelS6qlQ%2Bi%2B6rvl8c7DuwsZaS5%2BJ0IpNu3WteInyYkMBDA%2Fs9kqK%2BMPVk1Fqo9WMjZF6x5UyzV%2FBBOS4zvCB0eyaB4DlP0Fx90Qx%2BdKX5RKTP9wSVeRNZh0No70pfpUdDPGCGbjJlpF0WxaSoXjCTr8Frq%2B13R4CzObIqUYRoXM2oXzLkyfJhV8hlXptw246SA4Eph8Pz46z9cjEjKfgnMM%2FWaEtF%2BywCgAF8uYwZ9GPEHyHcWLkhqr2P9hnKyfE%7Ctkp%3ABk9SR4y_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307168011224"
+  },
+  {
+   "title": "Guitar Hero Gibson Les Paul Wireless Guitar Controller Black Untested No Dongle",
+   "price": {
+    "raw": "$34.00",
+    "extracted": 34.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147652841121?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXCA0VNABTZ1Y7QM3K2&hash=item2260cb8ea1%3Ag%3A1VAAAeSwiWpq34cS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8cutG6cMliU%2BB1z76sFKdt4%2BKBnF7rJgeO9zplaXcEDqDIcIm2E735on4%2B%2BmIEvRdGDfwO1V0fhZke1T3HLCeNGUu9KU9vJuT4X8BUr1uTKERq9xeEj5zPRmqBXUja9xjlmyAJ1RmyblzmO%2Fw353KT9FpeEC3SxaICzcT%2FLcYYzPxPCM40k5aLkV52qmuPMwFkeE7tTSkOcoIGH0zVvs9OPefW3M2rDAkEKAmrnzWV6G2Yh1nVudXBaS%2Fl2i%2BiR9fIv0%2BcvCPPr1jrItHzUCrVd2WbY0YM9SGnaRZfp9vh28gOqXsszDcIhDgjseRXlQM%3D%7Ctkp%3ABk9SR4y_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147652841121"
+  },
+  {
+   "title": "Guitar Hero Black Gold Controller CE0700 Wireless",
+   "price": {
+    "raw": "$23.31",
+    "extracted": 23.31
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168830564545?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXC0RATZBCZXQG8A38K&hash=item274f15f8c1%3Ag%3AwuEAAeSwtAZqKy9U&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FBfIKpiEUJf6D6fJS4KDg3gyLZDCwixlxzQFYG4QdVzcoSjPM1c1vQVIrClRAihpxCr0Sa0s7RNipdAIDUnjAA7PouauHlmWLt0ZGGJUVKZ3o44iPXUOHxWnAm7XIWZbL7eEDxcRBGIPX2%2FfqqKETY%2B448K%2FbI%2FkVTaFyBF9tg6xH8Hsqg7T3EDn1ZYhEoFSzmBFqenvAXnZ2%2Ffd9wRENCwBBL1t1ZEsAbj5xB1JmFgqGO5A3iwc%2FeeB5UZQn20GWOI16iz5Ivj17FL9JEjRxDFBhUwSoaojp%2BhnBepzfkalrDdcQt3mt61TR%2FcJC7YP8%3D%7Ctkp%3ABk9SR4y_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168830564545"
+  },
+  {
+   "title": "Activision Guitar Hero Live Wireless Guitar Controller Model 0000654 Black Gold",
+   "price": {
+    "raw": "$17.50",
+    "extracted": 17.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920068541063?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXDFSF6A5TBBT917W3G&hash=itemd6385bca87%3Ag%3Ar-sAAeSwN7lq24Nl&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F%2BJDqtft8juY%2F08FQyZ3iDI2zAU185TAROw0mxvlPzucRErjYXY49130E8GiJdA%2BBCGjDWK9iqb2wZiI1Snz5JoyRCO8yNn2iRvkKUEkNyoibpor%2BOZCbcMkkfuv8iF91MzxfwD6i1sCYh6umV2X2dibqSH049xzX7UXCqLz%2BfLFqO9jB%2FG%2B31OCX19M1T4rSbXbb6PEHik1%2B1%2FqI4R5YFTq03dMpB0QxJp7vcgDAGi8nt15L1zJOdKkcRk%2BcUNYyMUiIiDcNHEl5FxNP0IISf%7Ctkp%3ABk9SR4y_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920068541063"
+  },
+  {
+   "title": "RedOctane PSLGH SG Wired Guitar Controller for PS2 Guitar Hero Red W/Games",
+   "price": {
+    "raw": "$99.97",
+    "extracted": 99.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198758985745?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXD757RXTBVPTW4TME6&hash=item2e46f57011%3Ag%3AJScAAeSwCjxq5WF6&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FG2ocgTVWetYgTAnITKtt%2F4KwLMXWE6UN6F9zeqlbwUrjN%2BoA4SCY5iNGASrrad81Wyh90iHQiLhVn41VMdir8ed6s553Bi7OW2OPIxHTqTuLhsf8ohcZvSulyNb69bGKTQ4w1wmil4svHqvLO1Hoa3EmxuMT0cXROz2P%2FPMFo2uTHbL%2Foesx6e6t8deQlJwEG%2BYKhftDMGBJgOv5o%2BWOiCsfUYDxHB%2FpmyEStKXr0LY0AVqXByNiOzsIwEKBpMMSKu3pISSLyrOLr7hGfq%2Fom%7Ctkp%3ABk9SR4y_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198758985745"
+  },
+  {
+   "title": "Lot Of 2 Guitar Hero Activision Controller Guitars",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/116931378349?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXDBD1YJ6B0E0M27565&hash=item1b39a73cad%3Ag%3AkGUAAeSwZDdpQcY5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9lbtFv51Vyq%2B28PHQIVL%2FhNANnXvb3xMFIrMqt5YBC%2Bu0cL3o15sXpwFNe2N06GU05ADpK7HUEYcxt2uapG47y4Wc3Kn1GtKSxWvMKc%2Fnw5bnxpJLzH3UkKTY4wE4S32whrXknFZ3y5%2FbxAo4gxsFS1P9tFSDk6UN7BIHdL24h09q57PJcoc3lK%2F9bN6idMIrtF%2BcEGodpuINWSeJFnzfHDDcvUHXtW%2BhKy1l9Ivfjn4z4aEgLIKv4IDc3y6oTLT5mRAZPI1vN6kOCiKjwtiAykUyJpZhkratv3M7LkAmKHgzgihNqbsfDX%2Bl3oTheO44%3D%7Ctkp%3ABFBMjL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "116931378349"
+  },
+  {
+   "title": "PS2 Guitar Hero Red & Black SG Wired Guitar Controller Bundle – Tested & Working",
+   "price": {
+    "raw": "$105.00",
+    "extracted": 105.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227592888137?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXEFVXH4Q0SQBPDECXE&hash=item34fd97df49%3Ag%3AlAgAAeSwVnJq515q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FTDA4BAnz5OnoaiHLWwJCzBAjyMT7G74Xwh7%2Fw6wOx0bvysRAcg4PkQ9YC4dQkOa4rb8JOu3E0JO%2BKSjyzwTHevGdvAQvP9fq7I9ZKO1TVKviAfMRpmSAFHcx%2FqKEOYuwipB7cscgyIi0BejBXrbsRU0%2FEysM8O%2FoFR3AoWaVzGxw8BshdzQusg0A1Ki6wssk95oBhkrLWvxGe8uUvNaOlt8v7qgI%2BPaMKEu6bLM%2B3vCNOeszFgRJq46bbwfoeAkdY9k7i4BXYxA1HluPpxKPXGLjJbDnqzsFoZYPReLNFcLX3zXlLaoXWbYIhrFlPB3Y%3D%7Ctkp%3ABFBMjL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227592888137"
+  },
+  {
+   "title": "Guitar Hero Kramer Striker Wireless Receiver 89119.806 Red Octane PS2 Dongle",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407330124668?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXE9DH5HZ7AAT57YFQA&hash=item5ed6c4737c%3Ag%3AhRYAAeSwuXlq5pT6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ND%2B3LpXHKQYu8j3DjtJjie1Sh4LBmfN9e7D6HQ3LTNN7aYMpkpI2LM1%2Fjod3XHPHiwspp8QOdOXPV1ga6AYIGJktFIADJBQ93n9xwkvwLqNRaUfCAaQrye9FemAIlgVdz5l0aW%2FQsaVrU5Nl3amZ4Lh1MkdGouqzsKHChBB3xVwCaL6zU6S%2FuIgaGK2U0zvAwAvjfXcTYjNJe7f%2FJ7CdtRU1sVeuL%2FK7Qh%2FaLTTK3a1p%2BecK3VJSeBgWcQqMGzynh32NGHK5GLhdErJ4GHkqxtwEqf5782By8FO8yvmewoeSnmHbSFqL%2F%2B8VOJ5tRcXs%3D%7Ctkp%3ABFBMjL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407330124668"
+  },
+  {
+   "title": "Set of Two Guitar Hero Live Wireless Guitars For Console",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158365839491?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXEBF5CWSDD3YKN9WQK&hash=item24df56f083%3Ag%3AlmkAAeSwPAZqbCY4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bc31NY0Uk9uFmtmhOkd%2BphTEV14gucb2uOjxMvbJTQ%2BrC5F4wEsBt1AsI4BfgdJeP%2B05q1rHVYcOZe9Hu15dkVmaIKXDaZBxJcDvLyIBPL9ci%2FH1gefQtdL6yM6bNM%2FL9YJ%2F4bMN4DKJQdI9C4C1GhG%2BjTJ52N8ca3q9kTO%2BLJH%2BkvxYesccUnups4xuU0ftKgCNOBERid7jADZgWh%2BpPCtBjK2Hx3KvBgQUonMBaG%2BJobhkmJL3wBoTMUrJXbaV%2BscAkOAwcMeD0w%2B%2BS3eQEGCHPhlDx9bOd1cMLSSfqEfMhvX4v%2FfIMgU%2FX3RE8n6Rs%3D%7Ctkp%3ABFBMjL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158365839491"
+  },
+  {
+   "title": "UNTESTED RedOctane Guitar Hero Wireless Guitar Controller PS2 White Black",
+   "price": {
+    "raw": "$22.50",
+    "extracted": 22.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237136264991?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXETVC4AZ2E5D9G5ZVM&hash=item37366c3f1f%3Ag%3A1gUAAeSwKktq2QRY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2FxUMtUvJad%2FT8QLS--SguHd1nIKYt%2FdnsYgsUDuOLN%2Beu%2Fq1hxwv7u4mjFKW9uUKkd7SZJJLjh9xlkmjSL98E9XlVWqMqz2nJblrz3sKD24OmCPiGwrBhMMkKJ9FjkMtlwM4x3aCZ9UnA1w2LXe%2FfY7JrlRlbWDcUIyfG8LvlJoqdjfw2JHPvygLSzm7Faj2IMjZSndv9R19f%2BtZ54PhesCn7F2f14HIzmD%2FRlkIOPjCKOeGbsdWcrFBef7l5qLdMD%2B8QR1WbJbFp0HRbIrYNW%2BAdW79Ccxqdg1ZLIOGbnPw5sFiIrILFJ3TQFVs3BBA%3D%7Ctkp%3ABk9SR46_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237136264991"
+  },
+  {
+   "title": "Guitar Hero Xbox 360 Gibson Les Paul Wireless Controller 95123.805 Tested Works",
+   "price": {
+    "raw": "$39.95",
+    "extracted": 39.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377613317025?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXE6C6MWPD2S7S5GFR9&hash=item57eb81f3a1%3Ag%3Ase8AAeSwQeVq54lA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde--w5M1kDv1p0LK4s9qj3CgfaiMis2QEC6658fgRo%2Fpt0HfKozH7TMa7wWBACTtWkr7r%2BdGBC%2BjvvWVocyHbzNuql0zrHxZ1k8bHpZ%2BxtAyx%2BdndMbUlP74jP2x9BMjLvjsRk3J%2B1vBanp3Nr4MzDy0vBNh0yNoM%2BqeX2VsOg62XkCYV7f4j%2BjBEAvDjx3pQukhjExAJbNKmJWDWDCppyT0NjGNNPT9CKtCgNQyxbCeLJLcViQTHdi4wyvCsgS9TDSTeh162e4Nhqm07b%2B5vrV7%7Ctkp%3ABk9SR46_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377613317025"
+  },
+  {
+   "title": "Guitar Hero HERO POWER Wireless Guitar Controller Black/Gold w/ Strap",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920006605157?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXFE64R12MQWJ7T0EZ2&hash=itemd634aab965%3Ag%3AfgoAAeSwqNZquYyF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9qKFzqPDcyWQdLCPwcwFGo1tz%2B%2Fk%2B5w%2FNMvKLmELENiMCN1MF3UznwuyzDKYPEoDoM1jydeAIOnAYtbf%2FPR9EqUDrzXkc%2B2n6H2h82eKFr65C6pim5c5LeaY%2BQI%2FaqhLSn9KZ93WYWbmUTJ8%2FjSH4Oxqy1z3WzRN0AfVIoZ8xJLL7%2FcPye4qA9eR8amkSNPW7DyISfCzk5vnpLwDBaFGA0OMUf%2Ftmb%2Fr%2Bj8Ix87C%2FZKQ8EdzPvhKvnNu0JXoKjkTaXhtvpkSNla0CrrcZRbok4HTytsL%2BO%2F8%2BuUgsV0hhfzgIV54h1l26xnKmtrRiEvyA%3D%7Ctkp%3ABk9SR46_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920006605157"
+  },
+  {
+   "title": "2x Guitar Hero Wired Guitar Controller Red/White/Black (Untested)",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227531559571?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXFWYTN00SVW7Q9V52Z&hash=item34f9f01293%3Ag%3AOzgAAeSwGdhqsG9k&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9MBOxc78Vfe0Bhi3G12nLuAMMkMMJHOfUpui%2Fxs4a%2BVRd8BsvAozv9dmgR72zfQa20Xnwlt87PCb6RjB5F6A4rcMC91Li8SMNQq%2FDPaswjVJ5vzCW6fRh9mlnafpV56DK2vhbvICd44MIroezgac4pnVDJJOxrfeCKfviQ5UNv6mbl%2FK1fIL5nbYuaEhz17H7AYLBbAJGUPXoP82lBWotLu6HejaKuiwox4jUqqgGndsL%2BD0rrtVKvWyb5lV9e8mbec2bHX7132E94rqhhpbzF%7Ctkp%3ABk9SR46_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227531559571"
+  },
+  {
+   "title": "Guitar Hero Wireless Guitar Controller Black Activision Untested No Dongle READ",
+   "price": {
+    "raw": "$13.79",
+    "extracted": 13.79
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198762847728?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXFKTWB6NEJVCJ9CJRW&hash=item2e47305df0%3Ag%3ATzIAAeSw9lhpf7SL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Y2bI5gCsmyMOHb0P%2F2HQ6RhcLrVfW7kcH8oH3zbGDIiZDQwfz8qmdohPXAmTsdFDvX0nz59BlRWdRuCEAttt7ozH8yBzlrzMI2T%2B5QXkvcuqQ3gy%2FBE19cAS82kfDcoWnBRlBpNCd24BM8Rioib5hvBbYWcHjTa0vju9ysvgwAPQ8US0W5V8VG06v5DSYMel59vbLf8yVN3hqXjtWcdE4ALVQTCUFnKy5BCHBpBK%2BzQmyqJuw%2F1M1B7TyFFP3sAR%2BwjpqExzl9r0gwHmdhGm85pxG5DvWnp4%2BIAiu68uQXVUn46tY%2F9yqPtQNt1RrUik%3D%7Ctkp%3ABk9SR46_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198762847728"
+  },
+  {
+   "title": "Activision Guitar Hero Wireless Guitar Controller HERO POWER w/ Strap, No Dongle",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336861307443?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXGAVT7VJYF6GGVCZDG&hash=item4e6e7fa233%3Ag%3A7-IAAeSwwnNq3RMz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8QjHsLH%2B0eM7TaoTScGC3pZQv%2BMc0nqI78BJ35%2BWBOf02vb%2Bzxd1HtNLQLZLNf651kZSEYkyOx18AYjvAQF3Ux4E903giFy5eo1Ud7%2BC4g%2Fnv%2FQNiyGu9JlDMd%2Fl%2FquAoFILEfcO63hKFk55HQhuI4eWh7GIhZOOpkviW2GCH6T%2BcmX9oLzb0H1oxRYgjhcbnhGgDQuIxQXmJQaAZAMoryAZN15Zu9upFe2HtF0b5K7vV8Dq5UkxiyFRdlHyXETuvUI1qOZTy0ta%2BlxmjrHJjj%7Ctkp%3ABk9SR46_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336861307443"
+  },
+  {
+   "title": "Guitar Hero Wireless Guitar Controller, Red/White/Black, PS2 PS3 NO DONGLE",
+   "price": {
+    "raw": "$47.00",
+    "extracted": 47.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206655945211?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXG7KP1Q1FC3XNYHGNJ&hash=item301da779fb%3Ag%3Anx8AAeSwWKVq36yu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9C1FoEOT%2BoI%2Fy3UWUQD136gkFJ%2BuuaFj9aqz0BxRAvZXtc%2FKHkApQlmIofbXABOYUZzDfDJ64Nz9tN9rGOvCtJPmAlDDcJlq0egq5v4Id6kL0%2F4whAMYnJcWP1iyhRw2rhZ8TapybRTgEvo2Yz7J3ApYZikzwzvZL%2FqxjBR65LTfFwBv4GdwsSQXEOhGz0yqQUVRjxZG4P3v2%2FV7m%2Bx4gXXXNEsHzEh%2FDLAUu2%2Bj6vZCLDJvzJ0XAzkY5OfukTpXBpSBX%2B1Y8LldqYfHSCMza%2FSU0n9pk534Wjvycgv7cS3wULaIw0SA7s9pHyyurTpyk%3D%7Ctkp%3ABk9SR46_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206655945211"
+  },
+  {
+   "title": "Guitar Hero Live Wireless Guitar Controller Activision Hero Power Tested W/Strap",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128002557956?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXG54RMMRCGRJZQ5F64&hash=item1dcd8c0804%3Ag%3AbhgAAeSwEbBqa7vO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8xLUe%2B6GmetEpbXoyZrNb3Z1E15SLonDhmIbXxyX8aoH7boqw08ObXUxfbd3Bt%2BKmNvF8v9%2B1Fo3mNpfh4QIF3fWjSTzUQnZe4hCIfku5I5vwNe49SzaMOJpGtL%2FTXsnzW%2FVZy8Bq52TCaq%2BZzxIvQa22mS4n%2FRVwXB%2BhC9au65WmXLmX27atYp%2FaR1ZZjw3783R4mX0iAMkvHfRu86sAOIjWv0a1kRr3%2F1Ds2cYDItEs--2r%2BcIqVSIeSMez77cxtol2eutYLC5UM5OB0rbJHeC0BAjfiRH%2ByxLOd4FYL4LBEu0%2Bwc9NpPsQ%2FASxtQkI%3D%7Ctkp%3ABk9SR5C_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128002557956"
+  },
+  {
+   "title": "Guitar Hero Les Paul Wireless Guitar Controller Red White Black for PS3 NO USB",
+   "price": {
+    "raw": "$49.95",
+    "extracted": 49.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206628658648?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXHE80PXHA03ZE6W4M9&hash=item301c071dd8%3Ag%3ACwYAAeSwc6Bqz41G&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9iOpL0tDhgPmVXPmhcg2dPfLcvSvjFOMPyy7ByoTYcmz7z8v1hfA6nPr5UUOg8l0b173ElMfUDjBSwpedN3XVZX4UaAkoQvEuVnZYEBqbcQpxWV%2B2MQx9EshjzCL3Ghk3WAR28GZYSiYktUIl00D1n8CLNqBX6gVVy8gxyAkBdaapn9irL817mIh5xT4%2BF%2FCHXo7r0959MiS2uEIRJoWWQSTs4Cun7aFR49r97ozJYj3%2FTgjQP1ILPtEqpNVGAfhh7FoFmc2mi2c8b6brMDVYx%7Ctkp%3ABk9SR5C_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206628658648"
+  },
+  {
+   "title": "Activision Guitar Hero Live Wireless Guitar Controller Black Tested Works",
+   "price": {
+    "raw": "$24.00",
+    "extracted": 24.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358714592579?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXHWZS797XYP7PSJYGW&hash=item53850e4d43%3Ag%3AvqQAAeSwWW5qOunX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fh%2Fi4dYExBKBztRepYsxFFZIi3lQpRayzRpfQtZYEN8PyQR1owj%2BMgVg20bkMU0qUJbBf7LoaSao6wpp58Wk426bDCcdppMm%2B2frWM71RAkqlN2GlrN48oayMdRdGbDisoUkZW8axRYbnilKNfTO%2FhkPnhS%2FrrFvvVdFM1hVDi%2Bi%2F3aNmZU%2FeJfQTOPxr7vm3OF58ZiywBNQ2EPM5vfSzErIBYm627HafvngedFL3efAaUMOcXDMBmzO69vxm8Ri0DM83rdgcuNARDdW3Ir33P%7Ctkp%3ABk9SR5C_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358714592579"
+  },
+  {
+   "title": "Activision Guitar Hero Live Wireless Guitar Controller- Set 2- No Dongles",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158339037766?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXHC3326VDC6YPNAG7S&hash=item24ddbdfa46%3Ag%3Au3sAAeSweM1pTdoB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9MJhQS%2BpVlV%2BIvXfxhz%2FDMeOpGnc9mZZqBWgnwHcWKm57O%2B8Nh8mT23v1E6YPjDIALcfrxi3ko7IzH6bpHbVTq7CpKRV6pM5OZHcJsgOgVFH1d8yW7WouqZLUY%2FdKRiBkSaVp%2B42bhdpb6aQXYYqPnsND%2BUInUewHUAgttdOyyRtU8coX7AXvo6eY8YeCHB5pCnORpxxE6ArknU2G3M%2FYG%2BBHhh2Xfn4Ubw5bmV1GjkcQEz%2BFtUYNdlWn9RQbcLQq7OEJ3F7lQ4L0oOD67%2FNAE%7Ctkp%3ABk9SR5C_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158339037766"
+  },
+  {
+   "title": "Xbox 360 Guitar Hero Gibson Les Paul Wireless Controller RedOctane with Strap",
+   "price": {
+    "raw": "$62.99",
+    "extracted": 62.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860101700471?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXHQP2STH602FYDSVH9&hash=itemc8420e6b77%3Ag%3Ad10AAeSw3rRq5oQO&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BGDmp%2FIUzH0W%2FcvlebFluYXUDFOGLWq7m8RgmrKsJxpQTPW0ex7GlyALLFcMVnteXeSoLgSh1f%2BPA7HXnmlDkQAAREdoQ8gySfH%2FjQQkCft%2BUEjoPEymdwaZBbuXliiLPuS6OdwxoAkuR%2FOGhXe%2BhFoP83OG9t%2BMJiN2VblqLa9ff71VZyBwA6EjYS0Aoh3pu284ARb7%2BcRi%2B4JzBE3ZsB1gMe%2FtHRmAoASaea1VTCtP0nXUlgzRo4c%2BHg6a7%2FxSHbQvtnfAeXHBQ6CSuo7zHH%7Ctkp%3ABk9SR5C_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860101700471"
+  },
+  {
+   "title": "RedOctane Guitar Hero Kick Pedal Bundle w/ Microphone & Wireless Receiver USB",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398435692914?_skw=Guitar+Hero+guitar+controller+black&epid=1503632952&itmmeta=01M6CBCKXJW77X263608F3VDHF&hash=item5cc49e3172%3Ag%3A540AAeSw3MtquICD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZcplRScENEL7Pnb1FOL9rnhnhes6RpGyXq7It82a%2F2J1ehoiI3Ita5vlAyfPSAEQWB1ge2rXfpul8AHLHq%2BWPi5suXWgxr%2B%2Ful0WA9m9veivOe6nWssV6fC4D9WfkTwDll890UBj75u4FHudjSR9oy8UPCcj6QVs8jhv5STygI0%2FR5SUlTtCZGOjKFndQ2EVbCFHHlTNQCt0D5nrbXz8kqbrJEOqjiOYaHZj6HJ%2BltPEuWbUzxqZnuWOn7ZR2hhWrYbs3OmHJ280dc3izD3pzKr1w43rd%2FpCZItu1o87NqT3EQSCrKYa0Q%2FNuYswJzRk%3D%7Ctkp%3ABFBMkL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398435692914"
+  },
+  {
+   "title": "Guitar Hero Live Guitar with strap and Play Station Dongle excellent condition",
+   "price": {
+    "raw": "$74.95",
+    "extracted": 74.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147603483731?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXJS5FD5136702CR0WJ&hash=item225dda6c53%3Ag%3AuhUAAeSw-YBqtWlM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8pj3maheFvwYyN9y6dfWK8TAxnp71kWd79vQa9Pp0Nj8teMombQ2iI9oFZ25%2Bt80%2B1%2BUOVuTMkhWwCDZMehVcGZD4JIVr5FtToI2fBALYZ1069gai%2B5Abf6R6QMieprftkEmexthbuXiPrtshp4voAV92BqcO9OVG0jSSP9alwuH%2BiM9TjEvvGbwRV2dqBWTmzb897boQG0iiog2dM4Iw%2FTwUNCfDe9PnjsLAvScgHKMQilg%2Fqirhv9JqDgXjP9u9yNfKWkssU4muNNmPE4S1jHLSaVd%2Bdk36LfN5NnjFu34srarg1BIL0ytp3qLKppF8%3D%7Ctkp%3ABFBMkL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147603483731"
+  },
+  {
+   "title": "Guitar Hero 5 Nintendo Wii Game + Wireless Guitar Controller Red/White/Black",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940050932965?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXJQRE3564GAEKM350R&hash=itemdadf66e4e5%3Ag%3AiWEAAeSwVnJq4-3-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde86MUG6aU6jYn4FtlTGDindxeoHp9Y375nlDAeU%2BGNZDXRCx2AkgTejh366zI9w6rK0pbTZwbJWrgd3sjvXXyjD5Vnm%2BqwaLeBE99TiAONU%2BOOp7R%2BPWyzOXrcBoXHMauWuFU%2Fsv%2Bp2oQ%2BykWNaAzk%2FdFb1a0uybORjx0W4SfSiDn7tOuXPsYajbqDV7n3jSAC3KMk%2FtpEN7soFSs%2Fd7yK%2BRgHALmmMp7DZfxF3KKdUJmYZRqFwxLahZy2CiolMZ11xbVDXy04X6k%2FSTI7kBwmM%2BcIIwrkZysqOAVAwY3xyNIxVz6wiEzx5PSsriEO4uuw%3D%7Ctkp%3ABFBMkL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940050932965"
+  },
+  {
+   "title": "RedOctane Guitar Hero Controller Wireless w/ Whammy Bar (PS2) Tested no dong",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920008120753?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXJGV3AV2SD1F3NXWTB&hash=itemd634c1d9b1%3Ag%3AOPoAAeSwZOZqwrFm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BeO%2FgnSa6jhKNkDVin%2FLNxHI06qElDnEBqvW8KmvncqjoSKqJmCRMXpi%2FUuGp1hG7W0eHjdmN6H%2FCKHACsOfDB56VdLs4maRXNINGOz9RjohhuxipvMzimZ%2BX6K4pv3glkk9tU6bGXxPTuVefQuvWt4%2FjbFDhTqDJuPTptLjHYibhRt8XYWvRt0A7%2FNrLBP%2FT1Ijyn56VJbMIvbevUHTrDCg7r2rbCm%2FDt3Km5zhWCeMLSjRh21bgsPqUqE%2BKqA0jMSAS2fuL2TVwQscjeiAOKR0Qgp4oA%2FONWjkOYIzV1hvIQ7rhsAKKXbfl1yTjaBLU%3D%7Ctkp%3ABFBMkr-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920008120753"
+  },
+  {
+   "title": "Tested Working Guitar Hero Power Controller For Xbox One (With Strap)",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407309597493?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXKMN3J3WMYY0RM6Q04&hash=item5ed58b3b35%3Ag%3AwScAAeSwzgtq0nqy&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BqFN2Y90tP%2FF8s2twYHMMJKQrdakGz4lKFCr1yfWCf1tNYpE%2F4sio%2FvRnTZj1ZgukoTuR8Kr%2FmbvIZLza7ZQ%2B8kt3awExNZ7YxWjnui6%2Bhm1EnIwO9Vc%2BPJhNYcDeZ2uxMALJC4y%2B7xJiU4YeSTedDxrm2lIo1M8Ye0dg%2Bp8q%2F3W23u4hBgXbzm%2F1KcpPMQ0eASifVhYP0ViZNH2%2BNhNd0vZ8a%2B0U%2B0Fj3d4Z0%2FDlQJkAmLGTFILXBclbRv0iHZRG5wlPeB74fTWAQ%2BMkuTZ%2Fv%7Ctkp%3ABk9SR5K_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407309597493"
+  },
+  {
+   "title": "Guitar Hero 6-button Power Guitar Black",
+   "price": {
+    "raw": "$53.99",
+    "extracted": 53.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820142389892?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXKJ2E1VCHJCGN6VN1N&hash=itembef44bba84%3Ag%3ATI4AAeSwyXtqrUAC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FmeXRYsalL2W9suJO%2FW9cJd8oyBej5qzFrL5kihL3kOAEh9tKzw74Hy93ps1IHBkU%2FVIlsiD%2F2M507CQwa3QMYefnd05ZvtdJC%2BO2vwaeKe0z9tuO4lDV0Sbr2Y%2B03OKizL9IAAuJRYw%2FUo0B3PCd4wqQRBdLUuSCWcJaZyAahm00M%2FvqywN0MFhyeHuNOkiZH%2FfSN7T6Lp9d%2BOyK1km2TDGuCc5NfymYS6MWHdJv1XIeakA5jkHs%2FY9Sz66pM0Eu2WUYi3anz6QvWy8seaoZA257bS%2ByuFw1kTebqt%2Ba0X3h1NpyDW5cv4pPaMgQoFdc%3D%7Ctkp%3ABk9SR5K_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820142389892"
+  },
+  {
+   "title": "Activision Guitar Hero Live Wireless Guitar Controller(Model 0000654)- NO DONGLE",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198745629159?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXK0HG5S22RE5CH4ZE5&hash=item2e4629a1e7%3Ag%3AsQ4AAeSwlHlq3qXA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde98zl15dubud5c0I3pZhL44f0%2BemFA0AJ8hgtLzKiE8HEtrq3%2BSPs7bI2X%2F%2Bxs5no5Wqxn14lRHPaMWG8UaqSCvC%2FHqiNVWFjWgDrQgm5cdwDf4e8mtaGkZMTPw6oW65hDE6m6NXGPIgvVYDOitLDn2ZV7uRzt1C0%2Bz9RQjH7xWvXFUAnGOS9ndxt8nms4a9eJA0UpZeTiGoJ4zffsGHsna7VgChGhs8TaNrb8GLMW1j1u6XNnhPGx6z9bOCU%2FggnerQ28eMhJPn9y0evdrlv8a%7Ctkp%3ABk9SR5K_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198745629159"
+  },
+  {
+   "title": "Guitar Hero RedOctane Wireless Guitar Controller Black for Nintendo Wii + dongl",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298562651539?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXMHYN2K43B1QRZE2RY&hash=item4583b88593%3Ag%3AsVEAAeSw459qc7Nu&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9SPZNuBNvGjk4rYzTny8i9c52DLmDZrAoh0JXRUn83gTIExnLslInkiO%2FPyoRbehmQE8crSL0SkWtSptlD7eRfxmy4o8GPbKRirBDhqI%2BIpd9p9O9ZGU9RCH7%2BZrmo2ggeCw1vzrd2z4MMnFP%2Bqg3Slc8Rc2RETs553Lerzq0U8traPoO068%2B%2BPTI4x0dv37mYZsZmxPDAKW4u4OW7NEOMfm55zK%2FJnDUu%2FItqiCbYPsD0EbZGaSQlOLIZhLi%2FROWOZruvmmOD%2BKRaFXbJZTbk%7Ctkp%3ABk9SR5K_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298562651539"
+  },
+  {
+   "title": "Activision Guitar Hero Live Wireless Controller 6-Button Black W/ GH Live Game",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920007561932?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXM160S8126FNGFEKYS&hash=itemd634b952cc%3Ag%3Ay7QAAeSwK4BqTTC%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde81CJPVk6%2FQYLVPosSdKVD6LwN%2Boyg1MyTP84MHgXNby0G7lUMRutZAfWm6cWkW0Xqzl7H6gwB9PVw7Op06SqKoNU6GYlF9zysNUr4KJm8nGRtOXLMI4b57pcITzJPx%2F6xZftjHCMJjHiPq2hhGw6XH4p4vlUE907P0HBEheWyOA5NM2YWyKRvMnIDSDVuc8b5RM%2BoByRslFYUHVOntIN%2BM0uPgaiXlXcXtsOAeCa2lZYcj3OWHTnLCU5mCjALw8xwaLJ5gwJH8fzPCqBMwdmoT%7Ctkp%3ABk9SR5K_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920007561932"
+  },
+  {
+   "title": "Guitar Hero Live Wireless Guitar Controller 0000654 TESTED w/ Strap NO DONGLE",
+   "price": {
+    "raw": "$29.95",
+    "extracted": 29.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278250234234?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXMS3FBR9NMPR75N4VH&hash=item40c901a17a%3Ag%3A4CEAAeSw5oRqc1f4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FdoF61JZGd72uuhhYwaVIslr3OgQNGEBxURHaadN%2BstwGT8K3H2P3pz16JXRAHnBuvyxNy2DNOvXLs%2BqTGhalkYxGdirl%2B8WnpzVRIgES02XNuFVgQKHkRUWteC7Ch2l48XyVzOCPNUv2tfnaXy8CfTO8U7EfwDLkj%2FP%2FeRGqIqFZAA9DeI2rUTchBSnsCiMCsroOkqT1RlSceZWX4VqxSmTnbRRbufAQB2x0l7%2BKbi8H6NZKuEES%2FbdVwkkzKCIU3P7rcwEk8OrbMwPX0vHdcQ4zsnPvQGnz2SL7bRDS2jlpHxMhZ9%2BAVHd2jUnNGYSw%3D%7Ctkp%3ABk9SR5K_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278250234234"
+  },
+  {
+   "title": "REACT Rocker Wireless Guitar Hero PS2 Controller Blue Black #RTPS241- Untested",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377610505839?_skw=Guitar+Hero+guitar+controller+black&epid=2212130306&itmmeta=01M6CBCKXNWBMESPH3S8CPGSM3&hash=item57eb570e6f%3Ag%3Ash4AAeSwZe5q5d8E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8IaMuy1Y5TeVKjnRvw2R%2FXlPmvcRPGKuBus2PRluKAdHvNOkioEA0pszrB9CjgLHdmFO7jV%2F4Hjb77dkr9VNqY9gfyJOzkJoWadOpTzZz6izj7uy3dDFH5JwW2TKy%2FmMvo6FcDW1brUGF96dCLa1f6NiAdcP5bqX%2BZDDEknHjQngUwNmoJtIt0mZOvnIi%2FRyGVvUn01gaHk51T7i%2BgqNpV8Tlw2tYBtBUWRo9F8cHp0FJDpNcEFd5vXDJPN1YrWVO7ttXH3obxslUT%2BSCUlaFjIU9yikyCMQn%2FNkvV2srNQsmT774251jR0eKvGUkjoIs%3D%7Ctkp%3ABFBMkr-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377610505839"
+  },
+  {
+   "title": "Guitar Hero Live Wireless Guitar Controller Activision Hero Power Tested w Strap",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/306979052821?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXN3FWRRWWC4SJ74720&hash=item4779609d15%3Ag%3AqrYAAeSwS89qH0nN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9x50mlh3GsqvgCKNKiycQC3M6Q1yMwatwnDp6BqCH3GfhmN245QCSwHNaQiP%2B03VW%2BkP7MBVIJg1UlaULzaXKLX%2Fu78QXPn2pSjy77Hqo64l2e%2B3Y9aU4vvFGuWNrqkHzgpp56VK7eRp1LA7Q1QfOkoaMl6HTiAsjNHE7AZyufalI7GqBA1vrxSH%2B4IXDENJ9no47PhlLOetz05kp%2FthxKyiAW2Fsc9lE8PTI8l3YvIBTDV7fMmUKVP1DJ4v6flsp0yzFtprOkjIcf7AYtDxIeE1pYk--7jxDJO6tvJx5wkAxysSNLROqfWndsG3noRuU%3D%7Ctkp%3ABFBMlL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "306979052821"
+  },
+  {
+   "title": "Activision Guitar Hero Power Wireless Guitar Controller Black Gold w/ Strap",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188858703423?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXN2VR2V4Q9WNGAFAY0&hash=item2bf8db1e3f%3Ag%3ACZEAAeSwjhxqkzQd&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fr5gcqp3AFIl0xh2FnSc9nPofFOTOf1Z64CSXAytb1LuTjivqBs9JPH8geNCewjH26ho1%2F5lh1q0YB4Aoejb7%2F4LelskWO1Q%2BIF7SIDeWVINY%2B5ankAP6lG7zh%2BJelqE%2Fcvy01%2BGZWzFtHJRwKxgCUvqAEvlQlzEUdKieEkNqY1dnZ88J1vKsZJDx74VxScM%2BAurZppr15clws0jmgkZsN%2FsZDCMc0HnQG%2BsscAHJSDltsBTz%2B9zxmjLZZYKVmFBmNpXN3vdMFovsiIDbiWjez%7Ctkp%3ABk9SR5S_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188858703423"
+  },
+  {
+   "title": "RedOctane Guitar Hero Wireless Guitar Controller White/Black for Sony PS2 PS3",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168736893970?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXPWMX7M7TYXD73FZFP&hash=item274980ac12%3Ag%3Akf8AAeSwPolquuY0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BbnzSi9lbpXfZoIfTxu7JaFaq%2BR7ofino2J8WvrgmpJ9RwGyqyZHwx0GGAthXZvrb7nPpZ0A6658oY7ksfIkDE%2FNUXMXhfV5q3fPhiA4CkygRJ4DPo2eJiFRIdwJWEjojMCYZ2Y3lb0mpbCZDWCKPGiADNt8dfRHOomAjPl2%2FPRFLog5YaR2HQ6cWdPvPipIYWvkdtqH358pbuluFeNb3XVds64U58K2hFqHowYlVXp%2FbxenZ2KBZx%2BDtv2fdo3XP7z7La%2Fwct33ieJsFO3xYY%7Ctkp%3ABk9SR5S_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168736893970"
+  },
+  {
+   "title": "Gibson Guitar Hero Guitar Controller for Nintendo Wii, White/Black",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237074255143?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXPSCDQSRS1YAWN32G6&hash=item3732ba0d27%3Ag%3AvwQAAeSwdo1qrEgb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde94BbU7IeNRKcwEVq%2Bl4yTrRxhpn2znE826zk%2BNiOaLTrIq%2BcrZ7wZ%2Bou9g5WazvcFUou8K1Kw2t2%2FJuhu1UB26PlfqxqB%2FxA26Zfk4I95tTVtBqSYBi4i3LKCS1cpdDmd6zzH5%2BX0plNCWMNMaYk3Q6mw3cU6qdLLyxta9Y%2FcO5RQfU%2BXwgTrJHpaP%2FBo%2Fmy2b%2FOZICtFNe05%2BsUAvUGqGI0mjEN%2FDj7%2FMwRszdGv4f2ZkB9tP5HlP83nixYVRJ%2FU0rK3BV8aAzVlk7RjwhkYpGawizx0uy43IviQrvJ2DDqMgrkzBVZUVr02mbrWo%2BbI%3D%7Ctkp%3ABk9SR5S_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237074255143"
+  },
+  {
+   "title": "Activision Xbox Guitar Hero (Guitar Only) Controller With Strap. No Dongle",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407240423359?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXP6GK9B4PQY4GB3V19&hash=item5ed16bb7bf%3Ag%3ALKgAAeSwS5VqtIOb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8DiNI33TRk30b4OuNWAiZSOPNYv3Qa3qOZ%2FHHDJmINCWrdablRYLrZMUyjQPzMw9kC07AU1lYk%2FT6iWooJBzmh7Qw6V636l2fpHi1z0XEzQsqs%2FChLGL1exdcQPczf820wulIOXtGrzda7eFDvcR%2FhcH0hXeCPQc3aAOm0vAZ4nElQrUc4BfkW70nTU63ECSRENWhxZZozN%2FawWdyqVa7waTiMTUqiw6sgkUIebgCiJJ2I7nVESWZakgq11DWf40ge2ABLuMApgR2V%2FDoRK6Rs679dhZadodE3W%2F2iOdrLmcpoawEvJaZnH2X0%2FRAE5zk%3D%7Ctkp%3ABk9SR5S_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407240423359"
+  },
+  {
+   "title": "Guitar Hero Live Wireless Guitar Controller Black No Dongle",
+   "price": {
+    "raw": "$22.00",
+    "extracted": 22.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158297060512?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXPCTKTDDAWQYTM9R32&hash=item24db3d74a0%3Ag%3AhVYAAeSwWP1qqh6T&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8lIW%2BQU%2Bbd%2FdwBtmqnQVH2X7YXF9gnzTWDdnInrd1uF8KeM%2B5QEWjjE76a%2FxPkD%2BXca8tb7TSmAMmK5Bhegf4EYhP3CO0q9wNRtgEgktqrHV67xbtGypP8WmQhGmZcw8B284AGKRN08FQf0qGdZJexZK4wOvmaMPAbDCe%2BnS%2Bi4deGJh7uJkpQlK1O0GzFAdjbSJcT6ji6ZIs%2FfZAT%2FPCTJRh8PEJRfJy6KKSkgsYF98Gnm9ZOzy8iECQUEVJBcZfVBIBvL0Q4%2Fa6pATNA9WAo%7Ctkp%3ABk9SR5S_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158297060512"
+  },
+  {
+   "title": "Guitar Hero Ps2 Controller Black Wired W/ Box and Game",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860098611817?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXQZS8Z5NN8WZGPYCVY&hash=itemc841df4a69%3Ag%3ACP4AAeSw6Ltq5OvA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8s0MYSIGL4Jx2ypxaFclbAG7AFWfQiMfdPz6Y2tjICl%2BkwHay6sfI5yfMj1CqSLFJMKRYVMC6VnOhrp92IH%2BEK5d%2BasciUa2np41%2BOE%2BGBhszbZ7qJawBiA0F4Hsa6HYr60W3j9EPFCkiW0EXLL6bCQaEw4dFIDGIHFvcW8lcWzK55jbUvgrSyyrC%2BkDu1glLm0Si%2F6MD2Gxyp%2FfUt9DRv3cT9zHJz65p7cbOcRCZfPXVPyeTWc1Ch2uwSqF1h8NHB%2FC%2B844X%2BBzTAfYXs5snR%7Ctkp%3ABk9SR5S_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860098611817"
+  },
+  {
+   "title": "Guitar Hero Power Wireless Guitar Controller Model 0000654 Black Gold No Dongle",
+   "price": {
+    "raw": "$14.00",
+    "extracted": 14.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257762741653?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXQFH7YTPXAWXBTB8JZ&hash=item3c03db4d95%3Ag%3A26sAAeSwndBqfnsS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9AcQanlIY3NCkqphDhpkRE4O3BTaRdv4cRjRUVueZCuAaQczs4DwenwCY1UdiXgAmJjHV%2FGZ%2BPwC5yrUdr7RZcHVuplHZk1Mqnj8CnfZL3dqa3PYZhKfmlDzNjrxxShIdc7%2BPyNI406Wh5r2IIpToafMI8rnywufL91IxK3QRtTWVY87b76lpPgaalelTXd7kW2Afy5M%2Bggcu0quuqxnN5n9wr59RLGugS1yyw1k7Fh%2B7dNYJkZ3%2FMmo7NSJpExrYUbreiAWdJ6ziRJcSLdBNm%7Ctkp%3ABk9SR5S_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257762741653"
+  },
+  {
+   "title": "Guitar Hero Live Wireless Guitar Controller 0000654 Black XBOX Playstation READ",
+   "price": {
+    "raw": "$21.00",
+    "extracted": 21.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147649381560?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXQ2Y8WC6KM0W4PQKTG&hash=item226096c4b8%3Ag%3AEogAAeSwLv9ozIF4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8pNxQdN49KOgnGC77fKy59c6Hxt0ceH0QWfeRZ8Fb%2BSO5K0qRx7HQsgjT3UAmfqJm%2FUi8KT8ubAYdlM5Zo6yi49PTJJCeWqQV62Yng98QYmZkbGRdmLfHhucpsE3MhRzd6uXds112gzrYzirzcBVWZJCBryhd%2FAMzlDTXvR03pACU9qXOIKOwG%2BtvHX6RMyoXTeA--5gCbha6i9hgfFHHVLb865aJYRNni7UuA1%2FtRbH%2FARvANdVUAx3DAtPfoerjvv1De6rmffF0LyP1c5yWYOcXf1uTyAcQX8kNjAnfKPnmQj772ygKSUbNqQQioD0I%3D%7Ctkp%3ABk9SR5a_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147649381560"
+  },
+  {
+   "title": "Xbox 360 Wireless Guitar Hero Controller Les Paul Red Octane 95123.805 Tested",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198758992655?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXQJ0F3GJ9V7FC2DEPS&hash=item2e46f58b0f%3Ag%3A3X4AAeSwi2Vq5WJP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9DrKJocTuzJoXQThuPljVKlN8od%2FkKR8t%2Fdk7v73WW6OIEJoVnC1EjRAZr9PyD5ZwqEMuNWp5HrO9i9vyPySJPzsFxy12JhoiLCWOwuBSXrAJBil480tiEadcp8sJYFu3C13bWYYTdiSLmXUN4gPTVywz2P6uCipCTqXbPQUyuJzjvfdtpxSFC1JaVnDLxFmKnOKjR8pNTAkGxs%2FHoYCSrPR4jS8yB%2BOk3k2b4x1iZiHs9JnU5jMxZrMrVZg14MJvg%2BBsLt8LLebZTRcGRdQixslEe8vL6c9h5SbUILAnt%2FxFbhmXr1jbTqwuVUuWNqRo%3D%7Ctkp%3ABk9SR5a_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198758992655"
+  },
+  {
+   "title": "2015 Guitar Hero Live Video Game Wireless Black Guitar Controller w/Strap",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257073195505?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXR67KF1TSXWQHPRDJ1&hash=item3bdac1a9f1%3Ag%3ATKEAAeSw9QNooUz8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ct%2ByiFQq4LPHzefRy6fJta94oJHJln6HzqTP5RcUtfug4THBmyqWLrGapTdQ0XNdYfvZssdUXbIOQ4nF440LAgwbvGGT%2B%2Bmj6Edm2RTfoCZkBmCsDpQKEKwzdhpJZxXbJ%2Bd%2FQ3%2FNTIZMXxsWxFzMYGr0W%2FKV5dC6YE0kx2WgTnUewLkwSAgrvmU1r54mSxSRp9q57WN2arONRmOc32gmDy7VAioktU9YEbpRvyiKkFqB7g48r474lXzUVB6dB6VM9Q8%2BRlWGmTGBWcbX68EgnNX5eVHC9vhhe9N4NDnbxV8CePqihorChfl6u%2BP%2BS%2Bnw%3D%7Ctkp%3ABk9SR5a_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257073195505"
+  },
+  {
+   "title": "Activision Guitar Hero Power Wireless Guitar Controller",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257703725651?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXRBZ4ASCFBW15KD2NR&hash=item3c0056ca53%3Ag%3A9QoAAeSwskFqjtbU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2ByYYQnaLOjHyii9VxLG8XoIpwIF9gSFewcKbZFGvXLXy%2FLOFXPcbEmE5qMloOW%2Fv9uRMlDc%2BJ9fxG4Xa7BdgZvuQmFPn21xr2k6fIl4FyPmM00xCLQSGAkBhtGdPQJAVVxiH8oJteBg61bxX6ZJEME7w2blqEmkwG2I3YPSMsAWVDsaNVAsOoo9gJx83ndW735MXCktopesDLpOo6OZKl0xaMJ8pXsn91gqs2SLHI25Xa9kmCvJeyyZYooD1aWB13SAO0%2FDeQ%2Bp%2Bj2iigexMG4nLTE9ZpWCxiZ7o%2BCrjaCSbWebJu6aeKaKzv35aF4SKo%3D%7Ctkp%3ABk9SR5a_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257703725651"
+  },
+  {
+   "title": "Activision Guitar Controller Guitar Hero Xbox 360, No Dongle Included",
+   "price": {
+    "raw": "$28.00",
+    "extracted": 28.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940057498141?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXR966N2GCTQXV9MBX8&hash=itemdadfcb121d%3Ag%3AtlcAAeSweqFqEHye&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BE5nVVtC9Nml6zEE9m5b0csYPG%2FC2hWSbr9sBusCM9flkKoBMfAwSb013W9XulIDoSZyAB%2B0%2Bp9y4FPx7nuwH8RSdqHta%2F9rGuBNQb2vn4qPOVqN83xlNrezzpWbpGaHa8%2Fu2VqAbngEexnlHvE1K4wTA8xk9VUqOm1ggZZXY4oVB9oDE1G%2FpY%2BB7TCE32B%2BbUFris%2BfJT4VH7AkDIytSqsKMF9tOA%2F6rPtRb3SUV5hkyqsCNWXE33kG7fQcObDqubEMzt0P%2FrkBMIWSJ3ow0VqUbtioq8%2B1qUjLmUMYK9fwnmmobfE580UtRrk4Owbww%3D%7Ctkp%3ABk9SR5a_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940057498141"
+  },
+  {
+   "title": "Activision Guitar Hero Power Wireless Controller With Rechargeable Battery Pack",
+   "price": {
+    "raw": "$24.95",
+    "extracted": 24.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318888121319?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXRQZKE2JYWA7EWCNVN&hash=item4a3f3693e7%3Ag%3AkEYAAOSw9exhdylo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fnv3IrJUXHkvLRwETgy3r1EX%2B48%2FY9xHMeJSYJKxubbEXIZYV9lTouBeVAsgrJpFqDINYh%2BwiUrKacL7zlBwzHInZUu99cIA2JIlthuXHtXSVq%2FCW6C2EApPLf5wGe3iRCC4rvAIDp5n82ebTAj5BKgoOVERDJQ7H55mYqkoO9J%2B8cHEhaBWOEalhNAlZv%2FfYISQGFULPRXSJlUMrZ%2F7j6BZS%2BxkzVTYkAWgVsKYzSjo2CJF0d6FyU3wID8K%2FfFw0fwj8mNtm%2FJ9I229t%2FWcOcXFSYyGLdfzpYj557n2vViL9vcP%2BbbQ9I0nM4xQeUu5k%3D%7Ctkp%3ABk9SR5a_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318888121319"
+  },
+  {
+   "title": "Gibson Guitar Hero Style Guitar Controller, Black/White Plastic",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398094117526?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXRP0WEVZ9BSCRQ6BFV&hash=item5cb0422a96%3Ag%3ATH0AAeSwrXtqOS%7ED&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FN5Z775vgvobWB5CItPamwwWCa4p16%2B8znXS5IfDeKJb6%2FOMo7B%2F%2BcgfxLnRxZaETIK5x6IPhlWpIidOsau8ML3yll%2F2XyjtpH5QaFOtoSqOo7fPNtxXQBpHnIuNIHWLOcH3xwDB4eekcEXZfKV2TUqgqYLiIqxv767UT0xKtTP%2FsMc4Q%2BnbaPQAfTgmA%2B8cBG1zp5bdbvQ1GT%2FX9lGZE4OUp%2BB5PaHIoVIrsroC2ls8D%2BVvzM9RCArQHV1yPLxudWbIe6vhzk2%2BIb%2FPKYuLSw%7Ctkp%3ABk9SR5a_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398094117526"
+  },
+  {
+   "title": "Activision Guitar Hero Wireless Guitar Controller for Sony PlayStation 3, Black",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267810858572?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXSY0ESTQ631EZEDW8V&hash=item3e5ac5664c%3Ag%3AyacAAeSwJiJqy9BU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FyGjhUzUXnf0Y34dfT1ufFuXV85pF4oRQUVgMdyo0AqYgUSGQbi8I%2BYaAfaITMc8VJmZAmGzOaGnlkjbAPq0YvP5QCqcryM5UPVvZp4Ky38El1XRqU9BhtZb9DwBv2iUtEZMdKW7WhQcr5H3BbgNn9%2B9fnz9P12fKO23kUbKgRg29m%2BrhqSvgCFrcVsS7kC5hXWBkyLILUPAwWVaV6E0D8%2Bt9%2BKgzJMVs1r6QyVmvCmahsTM5VLMOBh8PCVJ3RTFDZY2ptizVLUkkn7k0Ga9l4E2nNzbQ6NTthRZKqNjsIEACLJdZQJQWfIKqCJ5KzgS8%3D%7Ctkp%3ABk9SR5a_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267810858572"
+  },
+  {
+   "title": "Guitar Hero Live Wireless Guitar Controller Activision Hero Power Tested (LOOK)",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128062054033?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXS47TG97K1XY88SBB1&hash=item1dd117de91%3Ag%3A72QAAeSwM6Bqmwm4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fr6LJ0oF7XmpweNGGE%2B3L9XahAEXx9figSak93LHed8vbkjCIjpMhBw1AM%2F8I3nDQzgFjhDiGW1Z5DlGVudn%2BjSCabSKymJOyi5QXugE8Cw%2BxNmUo7R23%2BkVENZqTQWAcgPf6vo2BJAaCqEs1BGcDK3YaZha3LhTYuTdvLcZe4%2FqkaM2hKN37YtXzZ2KPjOtPa5Frik3WB2b%2B951O16p6acDGxsNAD%2BiidYi%2FewIybGc80UiSFyAqYkYSMLXbn2pNUqCGarFXfsbQGD7j4cfA8CqhMK3niFVOc5%2B41Mn8PiUF0wtbo15mXn%2Bhaa3helZE%3D%7Ctkp%3ABk9SR5i_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128062054033"
+  },
+  {
+   "title": "Activision Guitar Hero Wireless Controller Black GH Guitar NO DONGLE",
+   "price": {
+    "raw": "$18.27",
+    "extracted": 18.27
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178508676469?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXS2WMPZ9KR9KD7XT5E&hash=item298ff23d75%3Ag%3AD5cAAeSwXz1qrcaA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bu1CECKG4sX0ckVwoT5pU%2F43q5YL5Z5knjllUtzrFOEKbeSaexJrtyx6wAsT8HViL4Bq4aDU9o5JvqM1ONdAFUeegQhJunIDl%2BZmEvpZSzEEeaN9O2DG2BWdVVvKZXq49TiB2DVHk7NGumnP5iIKY9GE7aaQ4r9URb%2FbnegvWtuSHr4d4eRdQBclFPXSCc66bGzGk67ULci3nuJXJw6VE4XBle7ul9XObHl8EJlzk2rj2QUHbV2xOuCt6%2BTOz%2FKW58hDCbXmUUSkxYShDw2FvubOY9tg1bzKhHh3qq24a8Yz%2FX2J5nE35dZD8qDE952%2B4%3D%7Ctkp%3ABk9SR5i_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178508676469"
+  },
+  {
+   "title": "TESTED PS3 Guitar Hero World Tour Wireless Guitar Controller Strap Sunburst",
+   "price": {
+    "raw": "$84.00",
+    "extracted": 84.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920027275482?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXSAVA4885EQ3XZSB5E&hash=itemd635e620da%3Ag%3A%7Em4AAeSwId9qym1V&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BtQm81pH1iUaAqWWShK1VoFgRTvGxXwAM%2Bl4jloXEwrQ5XJVQZ%2FPhh7L3TBdUu6oEdxS0qsNNpfXXhubebkNJbzsvNNB88dBSForUAF9dg0DfidCq1uLgHmHbkujIhQJ5Ki3gOLjOHKMPpNm054Pz1zSL0Yc%2BJ4szTqKncc4PoO%2Bh37owmOHQvjDYQwfKbRq4CwuXtto9K%2Fph0O6IlVrz1Eg1K4xZS35klTsnqEGBjiY0IobYwpkta57DSzeNwkp7%2FeWst9J3GzBdaO453DTOX%7Ctkp%3ABk9SR5i_souzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920027275482"
+  },
+  {
+   "title": "Two Guitar Hero Activision Hero Power Wireless Guitar Controller Tested Working",
+   "price": {
+    "raw": "$38.50",
+    "extracted": 38.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178383588018?_skw=Guitar+Hero+guitar+controller+black&itmmeta=01M6CBCKXSHWA6HT1R0QBYX0G8&hash=item29887d8ab2%3Ag%3AEigAAeSwU21qdi9E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2BnwrrSJMifDU9lgXsk4uY%2FT%2BJNYj%2BgtlYZ3FwjjZNpuII%2FI9UIxiAfyLVPTXdaeY8mTUPOMyutqbo1B8%2F%2B%2F6eyp54TAMNZ34EZPWNVKBeWVF6jd6kirsa7VLAq9%2BfXA9lnut%2BwhtZTQshwBfWogUEgoKIz25ybjsYpmtRHzBgbZMyWR3pddKfGZ2YNd3%2F5SCg2DxGfayHqur7ZKVCHaABvGCt6cFhTUsZ8k%2FWSI1muLKGzLADly47%2BZH5rijdqIj9Ly1coE5PRqiCCmRwJwVUU44TeJQsN7YL503pOvNjmQCGyBmmC%2BeGbJ%2FyquZhk4M%3D%7Ctkp%3ABFBMmL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178383588018"
+  },
+  {
+   "title": "Nyko Front Man Wireless Guitar Hero Controller PlayStation 2",
+   "price": {
+    "raw": "$28.99",
+    "extracted": 28.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257771594918?_skw=Guitar+Hero+guitar+controller+black&epid=134985499&itmmeta=01M6CBCKXT6BMJ7TWQ5QV2K9P3&hash=item3c046264a6%3Ag%3AdIYAAeSwe1Np7mBn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9jLdJPH8ot%2BRfCpL0hp6XDmJT3akqyfxIfcBT%2F75RkL04%2B2Fdkjmm0mxoj7au1TPt0Q%2Fu5qjxgqHZizv8TEKhn9%2FvWSpv087XGpY7dRsfdEqO5ls3S21LLxiV9Pf%2FkozKOgvE9gtt%2BeYD23ijq0AvEwbIzod86lBQQQJmpX1CI93GE1uCHIZd7Nk5aryUUl%2FvHTprbEJegVicldlO9VULnzwxHSlQmjMHKnRW2T0l2xOXbZHKguR8U1CkGehdJUIBYHM0npvtjZghKoOH0c2CDPk44gShF--0LZTZ9US4YzvAftsPsrImIQNbmV%2FZwt8Q%3D%7Ctkp%3ABFBMmL-yi7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257771594918"
+  }
+ ]
+}
