@@ -97,6 +97,7 @@ To set the API up again, create the Render service with those details and a heal
 - `CORS_ORIGINS`, as `["https://blessings-abound.pages.dev","http://localhost:5173"]`.
 - `WEB_APP_URL`, as `https://blessings-abound.pages.dev`.
 - `SUPABASE_URL`, `SUPABASE_ANON_KEY` and `SUPABASE_SERVICE_ROLE_KEY`.
+- `SUPABASE_STORAGE_BUCKET`, as `item-photos`, which is the hosted bucket's name.
 - `AI_BASE_URL`, `AI_MODEL`, `AI_API_KEY` and the matching `AI_FALLBACK_` settings.
 - `SERPAPI_API_KEY`.
 
