@@ -42,7 +42,7 @@ from app.listing_drafts import (
     parse_draft,
     template_draft,
 )
-from app.models import Channel
+from app.models import Category, Channel
 
 DRAFTS_DIR = EVAL_DIR / "drafts"
 RESULTS_FILE = EVAL_DIR / "draft_results.json"
@@ -183,7 +183,9 @@ def summarize(rows: list[DraftScore]) -> DraftResults:
 
 
 def eval_items() -> list[EvalItem]:
-    return [*load_items(), *load_fresh_items()]
+    """The games and hardware items, because Channel A is the only channel drafted here."""
+    items = [*load_items(), *load_fresh_items()]
+    return [item for item in items if item.category is not Category.APPAREL]
 
 
 def run(directory: Path = DRAFTS_DIR) -> DraftResults:

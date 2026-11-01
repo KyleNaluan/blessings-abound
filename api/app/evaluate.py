@@ -26,7 +26,7 @@ from uuid import NAMESPACE_URL, uuid5
 
 import httpx2
 import sqlalchemy as sa
-from pydantic import BaseModel, ConfigDict, Field, TypeAdapter
+from pydantic import BaseModel, ConfigDict, Field, TypeAdapter, model_validator
 from sqlmodel import Session
 
 from app.ai import ChatModel, get_chat_model, get_fallback_chat_model
@@ -61,6 +61,9 @@ SEARCH_BUDGET = 80
 FRESH_SEARCH_BUDGET = 42
 # Groq's free tokens per minute cover about 3 photos a minute, see docs/architecture.md.
 SECONDS_BETWEEN_CARDS = 22
+# The reference rule for a sold search, see the report's section on it.
+MAX_SOLD_LISTINGS = 10
+MIN_SOLD_LISTINGS = 5
 COMMONS_USER_AGENT = "TurnstoneEval/0.1 (https://github.com/KyleNaluan/blessings-abound)"
 # Outcomes that say the run itself went wrong, rather than that the item has no price.
 FAILED_SEARCH_OUTCOMES = {"budget_spent", "not_configured", "search_failed"}
@@ -108,18 +111,25 @@ class PriceGuideReference(_Strict):
     sales_volume: str
 
 
-class HandRecordedReference(_Strict):
-    """A sold price a person read from a sold-items search in their own browser."""
+class SoldSearchReference(_Strict):
+    """The median of the most recent matching sold listings, read from a sold-items search."""
 
-    kind: Literal["hand_recorded"]
+    kind: Literal["sold_search"]
     source: str
     price_cents: int = Field(gt=0)
+    sold_prices_cents: list[int] = Field(min_length=MIN_SOLD_LISTINGS, max_length=MAX_SOLD_LISTINGS)
     search_url: str
     recorded_on: date
     recorded_by: str
 
+    @model_validator(mode="after")
+    def price_is_the_median(self) -> "SoldSearchReference":
+        if self.price_cents != round(statistics.median(self.sold_prices_cents)):
+            raise ValueError("price_cents must be the median of sold_prices_cents")
+        return self
 
-Reference = Annotated[PriceGuideReference | HandRecordedReference, Field(discriminator="kind")]
+
+Reference = Annotated[PriceGuideReference | SoldSearchReference, Field(discriminator="kind")]
 
 
 class EvalItem(_Strict):
@@ -128,8 +138,15 @@ class EvalItem(_Strict):
     category: Category
     staff: StaffEntries
     photo: PhotoSource
-    reference: Reference
+    # No reference leaves the item out of the scores, and its note has to say why.
+    reference: Reference | None
     note: str | None = None
+
+    @model_validator(mode="after")
+    def left_out_says_why(self) -> "EvalItem":
+        if self.reference is None and not self.note:
+            raise ValueError("an item with no reference needs a note saying why")
+        return self
 
 
 class SavedCard(_Strict):
@@ -426,7 +443,11 @@ def read_missing_cards(
     items: list[EvalItem], providers: list[ChatModel], directory: Path = CARDS_DIR
 ) -> int:
     """Ask the vision model for each missing card, with the staff entries as notes."""
-    missing = [item for item in items if not card_path(item, directory).exists()]
+    missing = [
+        item
+        for item in items
+        if item.reference is not None and not card_path(item, directory).exists()
+    ]
     directory.mkdir(parents=True, exist_ok=True)
     for index, item in enumerate(missing):
         if index:
@@ -449,7 +470,11 @@ def _item_card(item: EvalItem, draft: ItemCardDraft) -> ItemCard:
 
 
 def _middle_half(
-    item: EvalItem, card: ItemCard, search: dict[str, Any], searches: SavedSearches
+    item: EvalItem,
+    reference: int,
+    card: ItemCard,
+    search: dict[str, Any],
+    searches: SavedSearches,
 ) -> Prices:
     """The pipeline's comps, from the last search it read, at the baseline's percentiles."""
     rules = get_settings().pricing.model_copy(
@@ -458,7 +483,6 @@ def _middle_half(
     response = searches(search["queries"][-1], search["condition"])
     kept = filter_comps(parse_comps(response), item_facts(card)).kept
     price = price_range(kept, rules, item.category)
-    reference = item.reference.price_cents
     prices = score(reference, price.low_cents, price.typical_cents, price.high_cents)
     return prices.model_copy(update={"comps_count": price.comps_count})
 
@@ -467,6 +491,8 @@ def score_item(
     item: EvalItem, evaluation_set: EvalSet, session: Session, searches: SavedSearches
 ) -> ItemScore:
     """The model's card goes straight to pricing, with no staff correction of its search."""
+    if item.reference is None:
+        raise EvaluationStopped(f"{item.id} has no reference, so it can't be scored.")
     draft = load_card(item).card
     card = _item_card(item, draft)
     result = price_item(card, session, searches)
@@ -492,7 +518,7 @@ def score_item(
         pipeline_confidence=result.confidence.value,
         pipeline_recommendation=result.recommendation.value,
         pipeline=pipeline,
-        pipeline_middle_half=_middle_half(item, card, search, searches),
+        pipeline_middle_half=_middle_half(item, reference, card, search, searches),
         baseline=baseline_prices(raw, reference),
     )
 
@@ -511,7 +537,11 @@ def evaluate(
 ) -> Results:
     scored_fresh = fresh if fresh_is_ready(fresh) else []
     scores = [score_item(item, "fresh", session, searches) for item in scored_fresh]
-    scores += [score_item(item, _set_of(item), session, searches) for item in items]
+    scores += [
+        score_item(item, _set_of(item), session, searches)
+        for item in items
+        if item.reference is not None
+    ]
     rules = get_settings().pricing
     sets: tuple[EvalSet, ...] = ("fresh", "tuning", "apparel")
     groups: dict[EvalSet, Group] = {
@@ -558,11 +588,13 @@ def _in_range(prices: Prices) -> str:
     return "yes" if prices.in_range else "no"
 
 
-def _source_link(item: EvalItem) -> str:
-    reference = item.reference
+def _source_link(reference: PriceGuideReference | SoldSearchReference) -> str:
     if isinstance(reference, PriceGuideReference):
         return f"[{reference.source}]({reference.url}), {reference.tier}, {reference.sales_volume}"
-    return f"[{reference.source}]({reference.search_url}), recorded by {reference.recorded_by}"
+    return (
+        f"[{reference.source}]({reference.search_url}), median of "
+        f"{len(reference.sold_prices_cents)} sold, recorded by {reference.recorded_by}"
+    )
 
 
 def _summary_row(label: str, summary: Summary) -> str:
@@ -601,21 +633,29 @@ def _summary_lines(group: Group) -> list[str]:
     ]
 
 
-def _items_table(rows: list[ItemScore], by_id: dict[str, EvalItem]) -> list[str]:
+def _items_table(
+    rows: list[ItemScore], by_id: dict[str, EvalItem], notes: bool = False
+) -> list[str]:
+    """Each scored item, with its note when the note says how its reference was matched."""
+    note_head, note_rule = (" Note |", " --- |") if notes else ("", "")
     lines = [
         "| Item | Reference | Source | Recorded | Pipeline range | Typical | In range | Error "
-        "| Baseline range | Typical | In range | Error |",
-        "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+        f"| Baseline range | Typical | In range | Error |{note_head}",
+        f"| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |{note_rule}",
     ]
     for row in rows:
         item = by_id[row.id]
+        reference = item.reference
+        if reference is None:
+            raise EvaluationStopped(f"{item.id} was scored with no reference.")
+        note = f" {item.note or ''} |" if notes else ""
         lines.append(
-            f"| {item.name} | {_money(row.reference_cents)} | {_source_link(item)} "
-            f"| {item.reference.recorded_on} | {_range(row.pipeline)} "
+            f"| {item.name} | {_money(row.reference_cents)} | {_source_link(reference)} "
+            f"| {reference.recorded_on} | {_range(row.pipeline)} "
             f"| {_money(row.pipeline.typical_cents)} | {_in_range(row.pipeline)} "
             f"| {_percent(row.pipeline.error_percent)} | {_range(row.baseline)} "
             f"| {_money(row.baseline.typical_cents)} | {_in_range(row.baseline)} "
-            f"| {_percent(row.baseline.error_percent)} |"
+            f"| {_percent(row.baseline.error_percent)} |{note}"
         )
     return lines
 
@@ -781,17 +821,35 @@ def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results
         "- Live searches here go through the saved responses, so they do not add `comp_searches` "
         "rows and are not counted against `SERPAPI_MONTHLY_BUDGET`.",
         "",
+        "## Apparel reference rule",
+        "",
+        "No automated source gives apparel sold prices, so a person reads each reference from "
+        "eBay's sold filter, sorted by most recently ended, in the same condition the comps "
+        "search for.",
+        f"- The reference is the median of the {MAX_SOLD_LISTINGS} most recent sold listings that "
+        "match the item and condition, or of all that match when there are fewer.",
+        "- A listing matches when it is the same brand and model, in any size. Lots, parts, "
+        "fakes and other departments do not match.",
+        f"- When eBay has fewer than {MIN_SOLD_LISTINGS} matches, the same rule is applied to "
+        "Mercari's sold listings, and the source is recorded for each item.",
+        f"- An item with fewer than {MIN_SOLD_LISTINGS} matches on both is left out and listed "
+        "below.",
+        "- The prices read, the search link, the date and the count are kept in "
+        "`api/eval/items.json`.",
+        "",
         "## Items",
         "",
-        "Prices were recorded by hand from each linked page, on the date shown, and the script "
-        "never fetches them.",
+        "PriceCharting prices were read once from each linked page, on the date shown.",
+        "Sold prices were recorded by hand by the person named, from each linked search, on the "
+        "date shown, as the rule above describes.",
+        "The script never fetches either one.",
         "",
     ]
     if rows["fresh"]:
         lines += ["### Fresh items, the result", "", *_items_table(rows["fresh"], by_id), ""]
     lines += ["### Tuning items", "", *_items_table(rows["tuning"], by_id), ""]
     if rows["apparel"]:
-        lines += ["### Apparel items", "", *_items_table(rows["apparel"], by_id), ""]
+        lines += ["### Apparel items", "", *_items_table(rows["apparel"], by_id, notes=True), ""]
     lines += [
         "## Searches",
         "",
@@ -805,6 +863,10 @@ def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results
             f"| {row.model_confidence} | {len(row.queries_searched)} | {row.pipeline.comps_count} "
             f"| {row.pipeline_confidence} | {row.pipeline_recommendation} |"
         )
+    left_out = [item for item in items if item.reference is None]
+    if left_out:
+        lines += ["", "## Left out", "", "| Item | Set | Why |", "| --- | --- | --- |"]
+        lines += [f"| {item.name} | {_set_of(item)} | {item.note} |" for item in left_out]
     lines += [
         "",
         "## Photos and item notes",

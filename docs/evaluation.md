@@ -96,9 +96,20 @@ Searches saved for this evaluation: 48 of 80.
 - PriceCharting's prices are cited here for scoring only, and the app never reads them.
 - Live searches here go through the saved responses, so they do not add `comp_searches` rows and are not counted against `SERPAPI_MONTHLY_BUDGET`.
 
+## Apparel reference rule
+
+No automated source gives apparel sold prices, so a person reads each reference from eBay's sold filter, sorted by most recently ended, in the same condition the comps search for.
+- The reference is the median of the 10 most recent sold listings that match the item and condition, or of all that match when there are fewer.
+- A listing matches when it is the same brand and model, in any size. Lots, parts, fakes and other departments do not match.
+- When eBay has fewer than 5 matches, the same rule is applied to Mercari's sold listings, and the source is recorded for each item.
+- An item with fewer than 5 matches on both is left out and listed below.
+- The prices read, the search link, the date and the count are kept in `api/eval/items.json`.
+
 ## Items
 
-Prices were recorded by hand from each linked page, on the date shown, and the script never fetches them.
+PriceCharting prices were read once from each linked page, on the date shown.
+Sold prices were recorded by hand by the person named, from each linked search, on the date shown, as the rule above describes.
+The script never fetches either one.
 
 ### Fresh items, the result
 
@@ -211,6 +222,41 @@ Prices were recorded by hand from each linked page, on the date shown, and the s
 | Wii Sports, disc only | tuning | Nintendo Wii Sports game disc | high | 1 | 42 | high | no |
 | Sonic & Knuckles for Sega Genesis, cartridge only | tuning | Sega Sonic & Knuckles cartridge | high | 1 | 30 | medium | no |
 
+## Left out
+
+| Item | Set | Why |
+| --- | --- | --- |
+| Levi's 501 jeans, medium wash | apparel | Not recorded yet. |
+| Nike Air Force 1 Low sneakers, white | apparel | Not recorded yet. |
+| adidas Stan Smith sneakers, white and black, with tag | apparel | Not recorded yet. |
+| Converse Chuck Taylor All Star high tops, white | apparel | Not recorded yet. |
+| Dr. Martens 1460 boots, oxblood | apparel | Not recorded yet. |
+| Carhartt Active hooded jacket, black, heavy wear | apparel | Not recorded yet. |
+| Polo Ralph Lauren button-down shirt, multicolor stripe | apparel | Not recorded yet. |
+| Lacoste polo shirt, pale green | apparel | Not recorded yet. |
+| The North Face Arctic Swirl down parka, navy | apparel | Not recorded yet. |
+| Barbour Endurance wax jacket, green | apparel | Not recorded yet. |
+| Birkenstock Arizona sandals, dark blue | apparel | Not recorded yet. The photo shows the sandals being worn. |
+| Timberland 6 inch boots, wheat | apparel | Not recorded yet. |
+| Nike Jordan Jumpman kids T-shirt, white and red, with tag | apparel | Not recorded yet. |
+| New Balance 990 running shoes, gray and pink | apparel | Not recorded yet. The photo shows the shoes being worn. |
+| Red Wing Iron Ranger boots, amber | apparel | Not recorded yet. |
+| Puma Suede sneakers, black and white | apparel | Not recorded yet. |
+| Nike Air Max 90 sneakers, white | apparel | Not recorded yet. |
+| ASICS Gel-Kayano 19 running shoes, gray and pink | apparel | Not recorded yet. |
+| Crocs clogs, black | apparel | Not recorded yet. |
+| Patagonia Nano Puff jacket, orange | apparel | Not recorded yet. |
+| Polo Ralph Lauren plaid wool peacoat, red | apparel | Not recorded yet. |
+| Under Armour T-shirt, navy | apparel | Not recorded yet. |
+| Hunter tall rain boots, brown | apparel | Not recorded yet. |
+| UGG Classic Short boots, sand | apparel | Not recorded yet. |
+| L.L.Bean duck boots, tan and brown | apparel | Not recorded yet. |
+| Sperry Top-Sider boat shoes, brown | apparel | Not recorded yet. The photo shows the shoes being worn. |
+| Columbia hooded ski jacket, blue | apparel | Not recorded yet. |
+| Levi's denim trucker jacket, light wash | apparel | Not recorded yet. |
+| New Era Boston Red Sox 9Twenty cap, navy and red | apparel | Not recorded yet. |
+| Clarks Desert Trek shoes, sand suede | apparel | Not recorded yet. |
+
 ## Photos and item notes
 
 | Item | Set | Photo | Author | License | Note |
@@ -263,3 +309,33 @@ Prices were recorded by hand from each linked page, on the date shown, and the s
 | Sega Dreamcast controller | tuning | [Sega-Dreamcast-Controller-FR.jpg](https://commons.wikimedia.org/wiki/File:Sega-Dreamcast-Controller-FR.jpg) | Evan-Amos | Public domain |  |
 | Wii Sports, disc only | tuning | [Disco Wii (davanti) - Wii Sports.JPG](https://commons.wikimedia.org/wiki/File:Disco_Wii_(davanti)_-_Wii_Sports.JPG) | Fede13052002 | CC BY-SA 4.0 | The photo shows a European disc, and the price page is the US release. |
 | Sonic & Knuckles for Sega Genesis, cartridge only | tuning | [Sonic & Knuckles Genesis Cartridge.jpg](https://commons.wikimedia.org/wiki/File:Sonic_%26_Knuckles_Genesis_Cartridge.jpg) | Julien Jorge | CC BY-SA 3.0 | The photo shows two cartridges, and the price is for one. |
+| Levi's 501 jeans, medium wash | apparel | [Levi's 501 raw jeans.jpg](https://commons.wikimedia.org/wiki/File:Levi%27s_501_raw_jeans.jpg) | Michael Carian | CC BY-SA 2.0 | Not recorded yet. |
+| Nike Air Force 1 Low sneakers, white | apparel | [Nike air Force 1 white on white.jpg](https://commons.wikimedia.org/wiki/File:Nike_air_Force_1_white_on_white.jpg) | HI 622 | CC BY-SA 4.0 | Not recorded yet. |
+| adidas Stan Smith sneakers, white and black, with tag | apparel | [Adidas Stan Smith wht-blk.jpg](https://commons.wikimedia.org/wiki/File:Adidas_Stan_Smith_wht-blk.jpg) | Blunt. | CC BY-SA 3.0 | Not recorded yet. |
+| Converse Chuck Taylor All Star high tops, white | apparel | [Converse All Star High White (4649858686).jpg](https://commons.wikimedia.org/wiki/File:Converse_All_Star_High_White_(4649858686).jpg) | Magnus D from London, United Kingdom | CC BY 2.0 | Not recorded yet. |
+| Dr. Martens 1460 boots, oxblood | apparel | [Pair of brown Dr Martens 1460 boots.jpg](https://commons.wikimedia.org/wiki/File:Pair_of_brown_Dr_Martens_1460_boots.jpg) | Nick-D | CC BY-SA 4.0 | Not recorded yet. |
+| Carhartt Active hooded jacket, black, heavy wear | apparel | [Carhartt.jpg](https://commons.wikimedia.org/wiki/File:Carhartt.jpg) | weeniebunvintage on depop, real name Isaac Barbosa | CC BY 4.0 | Not recorded yet. |
+| Polo Ralph Lauren button-down shirt, multicolor stripe | apparel | [Multi Color Polo Ralph Lauren Shirt.jpg](https://commons.wikimedia.org/wiki/File:Multi_Color_Polo_Ralph_Lauren_Shirt.jpg) | Menswear Market | CC BY 2.0 | Not recorded yet. |
+| Lacoste polo shirt, pale green | apparel | [Vintage 90's Lacoste Polo Shirt.jpg](https://commons.wikimedia.org/wiki/File:Vintage_90%27s_Lacoste_Polo_Shirt.jpg) | Quercus acuta | CC BY-SA 4.0 | Not recorded yet. |
+| The North Face Arctic Swirl down parka, navy | apparel | [The North Face Arctic Swirl Down Parka.jpg](https://commons.wikimedia.org/wiki/File:The_North_Face_Arctic_Swirl_Down_Parka.jpg) | Adenosine Triphosphate | CC BY-SA 4.0 | Not recorded yet. |
+| Barbour Endurance wax jacket, green | apparel | [Green Barbour Endurance jacket.jpg](https://commons.wikimedia.org/wiki/File:Green_Barbour_Endurance_jacket.jpg) | Robert Sheie, Menswear Market | CC BY 2.0 | Not recorded yet. |
+| Birkenstock Arizona sandals, dark blue | apparel | [Birkenstock Arizona.jpg](https://commons.wikimedia.org/wiki/File:Birkenstock_Arizona.jpg) | Elmschrat | CC BY-SA 4.0 | Not recorded yet. The photo shows the sandals being worn. |
+| Timberland 6 inch boots, wheat | apparel | [Timberland 6 inch boots.jpg](https://commons.wikimedia.org/wiki/File:Timberland_6_inch_boots.jpg) | Dough4872 | Public domain | Not recorded yet. |
+| Nike Jordan Jumpman kids T-shirt, white and red, with tag | apparel | [Nike t-shirt.jpg](https://commons.wikimedia.org/wiki/File:Nike_t-shirt.jpg) | Ssu | CC BY-SA 4.0 | Not recorded yet. |
+| New Balance 990 running shoes, gray and pink | apparel | [New Balance Women's 990 Running Shoes.jpg](https://commons.wikimedia.org/wiki/File:New_Balance_Women%27s_990_Running_Shoes.jpg) | slgckgc | CC BY 2.0 | Not recorded yet. The photo shows the shoes being worn. |
+| Red Wing Iron Ranger boots, amber | apparel | [Red Wing Iron Rangers.jpg](https://commons.wikimedia.org/wiki/File:Red_Wing_Iron_Rangers.jpg) | User:Steven Walling | CC BY-SA 3.0 | Not recorded yet. |
+| Puma Suede sneakers, black and white | apparel | [Puma Suede.jpg](https://commons.wikimedia.org/wiki/File:Puma_Suede.jpg) | LeDroider | CC0 | Not recorded yet. |
+| Nike Air Max 90 sneakers, white | apparel | [Nike Air Max 90 women - white.jpg](https://commons.wikimedia.org/wiki/File:Nike_Air_Max_90_women_-_white.jpg) | Ssu | CC BY-SA 4.0 | Not recorded yet. |
+| ASICS Gel-Kayano 19 running shoes, gray and pink | apparel | [ASICS GEL-Kayano 19.jpg](https://commons.wikimedia.org/wiki/File:ASICS_GEL-Kayano_19.jpg) | Tiia Monto | CC BY-SA 4.0 | Not recorded yet. |
+| Crocs clogs, black | apparel | [Crocs-synthetic-clogs.jpg](https://commons.wikimedia.org/wiki/File:Crocs-synthetic-clogs.jpg) | Skyeyemx | CC BY-SA 4.0 | Not recorded yet. |
+| Patagonia Nano Puff jacket, orange | apparel | [Patagonia Nano-Puff Jacket (51011161655).jpg](https://commons.wikimedia.org/wiki/File:Patagonia_Nano-Puff_Jacket_(51011161655).jpg) | ajay_suresh | CC BY 2.0 | Not recorded yet. |
+| Polo Ralph Lauren plaid wool peacoat, red | apparel | [Vintage Polo Ralph Lauren plaid jacket.jpg](https://commons.wikimedia.org/wiki/File:Vintage_Polo_Ralph_Lauren_plaid_jacket.jpg) | Menswear Market | CC BY 2.0 | Not recorded yet. |
+| Under Armour T-shirt, navy | apparel | [Under Armour T-Shirt (Blue).jpg](https://commons.wikimedia.org/wiki/File:Under_Armour_T-Shirt_(Blue).jpg) | ARitchie10 | CC BY-SA 3.0 | Not recorded yet. |
+| Hunter tall rain boots, brown | apparel | [Hunter rainboots.jpg](https://commons.wikimedia.org/wiki/File:Hunter_rainboots.jpg) | Jen | CC BY-SA 3.0 | Not recorded yet. |
+| UGG Classic Short boots, sand | apparel | [Classic uggs sand.jpg](https://commons.wikimedia.org/wiki/File:Classic_uggs_sand.jpg) | Tinton5 | CC BY-SA 3.0 | Not recorded yet. |
+| L.L.Bean duck boots, tan and brown | apparel | [BeanBoots.jpg](https://commons.wikimedia.org/wiki/File:BeanBoots.jpg) | Tom Fish · geo.fish · Fish Eye | CC BY-SA 4.0 | Not recorded yet. |
+| Sperry Top-Sider boat shoes, brown | apparel | [Girl wearing Sperrys.jpg](https://commons.wikimedia.org/wiki/File:Girl_wearing_Sperrys.jpg) | Kaitlin Lewis | CC BY 2.0 | Not recorded yet. The photo shows the shoes being worn. |
+| Columbia hooded ski jacket, blue | apparel | [Columbia Sportswear Jacket.jpg](https://commons.wikimedia.org/wiki/File:Columbia_Sportswear_Jacket.jpg) | US CPSC | CC BY 2.0 | Not recorded yet. |
+| Levi's denim trucker jacket, light wash | apparel | [Denim Jacket (51079649933).jpg](https://commons.wikimedia.org/wiki/File:Denim_Jacket_(51079649933).jpg) | ajay_suresh | CC BY 2.0 | Not recorded yet. |
+| New Era Boston Red Sox 9Twenty cap, navy and red | apparel | [New Era 9Twenty Red Sox Hat.jpg](https://commons.wikimedia.org/wiki/File:New_Era_9Twenty_Red_Sox_Hat.jpg) | Andrew Lindquist | CC BY-SA 4.0 | Not recorded yet. |
+| Clarks Desert Trek shoes, sand suede | apparel | [A Pink Desert Trek Sand Suede.jpg](https://commons.wikimedia.org/wiki/File:A_Pink_Desert_Trek_Sand_Suede.jpg) | Peachyeung316 | CC BY-SA 4.0 | Not recorded yet. |

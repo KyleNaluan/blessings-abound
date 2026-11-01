@@ -13,10 +13,10 @@ from app.evaluate import (
     RESULTS_FILE,
     EvalItem,
     EvaluationStopped,
-    HandRecordedReference,
     PriceGuideReference,
     Results,
     SavedSearches,
+    SoldSearchReference,
     baseline_prices,
     batch_lines,
     chance_of_split,
@@ -72,32 +72,71 @@ def test_an_item_with_no_price_lowers_the_rate_but_not_the_median_error() -> Non
     assert summary.median_error_percent == 10.0
 
 
-def test_a_hand_recorded_apparel_price_loads_with_no_code_change() -> None:
-    item = EvalItem.model_validate(
-        {
-            "id": "jacket",
-            "name": "A jacket",
-            "category": "apparel",
-            "staff": {"department": "mens", "size": "L"},
-            "photo": PHOTO,
-            "reference": {
-                "kind": "hand_recorded",
+SOLD = {
+    "kind": "sold_search",
+    "source": "eBay sold filter",
+    "price_cents": 4500,
+    "sold_prices_cents": [3000, 4000, 4500, 5000, 6000],
+    "search_url": "https://example.com/search",
+    "recorded_on": "2026-11-02",
+    "recorded_by": "A teammate",
+}
+
+
+def jacket(reference: dict[str, Any] | None, note: str | None = None) -> dict[str, Any]:
+    return {
+        "id": "jacket",
+        "name": "A jacket",
+        "category": "apparel",
+        "staff": {"department": "mens", "size": "L"},
+        "photo": PHOTO,
+        "reference": reference,
+        "note": note,
+    }
+
+
+def test_a_sold_search_price_loads_for_apparel() -> None:
+    item = EvalItem.model_validate(jacket(SOLD))
+    assert isinstance(item.reference, SoldSearchReference)
+
+
+def test_a_sold_search_price_needs_its_link_date_and_recorder() -> None:
+    with pytest.raises(ValidationError):
+        SoldSearchReference.model_validate(
+            {
+                "kind": "sold_search",
                 "source": "eBay sold filter",
                 "price_cents": 4500,
-                "search_url": "https://example.com/search",
-                "recorded_on": "2026-11-02",
-                "recorded_by": "A teammate",
-            },
-        }
-    )
-    assert isinstance(item.reference, HandRecordedReference)
-
-
-def test_a_hand_recorded_price_needs_its_link_date_and_recorder() -> None:
-    with pytest.raises(ValidationError):
-        HandRecordedReference.model_validate(
-            {"kind": "hand_recorded", "source": "eBay sold filter", "price_cents": 4500}
+                "sold_prices_cents": SOLD["sold_prices_cents"],
+            }
         )
+
+
+def test_a_sold_search_price_must_be_the_median_of_the_prices_read() -> None:
+    with pytest.raises(ValidationError, match="median"):
+        SoldSearchReference.model_validate({**SOLD, "price_cents": 4600})
+
+
+@pytest.mark.parametrize("count", [4, 11])
+def test_a_sold_search_price_needs_the_rules_number_of_listings(count: int) -> None:
+    with pytest.raises(ValidationError):
+        SoldSearchReference.model_validate(
+            {**SOLD, "price_cents": 4500, "sold_prices_cents": [4500] * count}
+        )
+
+
+def test_an_item_with_too_few_matches_has_to_say_why() -> None:
+    with pytest.raises(ValidationError, match="why"):
+        EvalItem.model_validate(jacket(None))
+
+
+def test_a_left_out_item_is_listed_and_not_scored(session: Session) -> None:
+    item = EvalItem.model_validate(jacket(None, "Only 3 matching sold listings."))
+    results = evaluate([item], [], session, SavedSearches())
+    assert results.items == []
+    assert "| A jacket | apparel | Only 3 matching sold listings. |" in render_report(
+        [item], [], results
+    )
 
 
 def test_saved_responses_hold_no_key_sellers_or_archive_links() -> None:
@@ -164,7 +203,7 @@ def test_every_item_records_its_photo_license_and_price_source() -> None:
     for item in items:
         assert item.photo.license
         assert item.photo.author
-        assert item.reference.price_cents > 0
+        assert item.reference is None or item.reference.price_cents > 0
 
 
 def test_fresh_items_are_games_and_hardware_with_no_overlap_with_the_tuning_items() -> None:

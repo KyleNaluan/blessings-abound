@@ -2,7 +2,7 @@ from typing import Any
 
 import pytest
 
-from app.evaluate import EvaluationStopped, PhotoSource, SavedCard, load_fresh_items, load_items
+from app.evaluate import EvaluationStopped, PhotoSource, SavedCard
 from app.models import Category, Confidence
 from app.vision import ItemCardDraft
 from app.vision_accuracy import (
@@ -11,6 +11,7 @@ from app.vision_accuracy import (
     VisionLabel,
     accuracy,
     check_labels,
+    labelled_items,
     load_labels,
     normalize,
     product_text,
@@ -136,7 +137,7 @@ def test_a_wrong_category_is_wrong_with_no_near_miss() -> None:
 
 def test_every_evaluation_item_has_a_label_with_its_photo() -> None:
     labels = load_labels()
-    items = [*load_items(), *load_fresh_items()]
+    items = labelled_items()
     check_labels(labels, items)
     with pytest.raises(EvaluationStopped):
         check_labels(labels[1:], items)
