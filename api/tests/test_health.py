@@ -1,10 +1,12 @@
 from collections.abc import Iterator
 
+import pytest
 from fastapi.testclient import TestClient
 from sqlmodel import Session, create_engine
 
 from app.db import get_session
 from app.main import app
+from app.settings import get_settings
 
 client = TestClient(app)
 
@@ -12,7 +14,18 @@ client = TestClient(app)
 def test_health() -> None:
     response = client.get("/health")
     assert response.status_code == 200
-    assert response.json() == {"status": "ok"}
+    assert response.json() == {"status": "ok", "commit": None}
+
+
+def test_health_reports_the_deployed_commit(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("RENDER_GIT_COMMIT", "abc123")
+    get_settings.cache_clear()
+    try:
+        response = client.get("/health")
+    finally:
+        monkeypatch.undo()
+        get_settings.cache_clear()
+    assert response.json() == {"status": "ok", "commit": "abc123"}
 
 
 def test_health_db_reaches_postgres() -> None:

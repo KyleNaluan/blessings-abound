@@ -21,7 +21,6 @@ from app.settings import Settings, get_settings
 
 ENGINE = "ebay"
 BUYING_FORMAT = "BIN"
-SEARCH_URL = "https://serpapi.com/search.json"
 CACHE_DAYS = 7
 MIN_COMPS = 8
 MAX_FALLBACKS = 2
@@ -98,7 +97,7 @@ def serpapi_ebay_search(
         }
         try:
             with httpx2.Client(transport=transport, timeout=timeout) as client:
-                response = client.get(SEARCH_URL, params=params)
+                response = client.get(get_settings().serpapi_search_url, params=params)
             response.raise_for_status()
             body = response.json()
         except httpx2.HTTPStatusError as error:

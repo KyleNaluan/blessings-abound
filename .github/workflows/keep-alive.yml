@@ -1,0 +1,25 @@
+name: Keep the demo awake
+
+# Render's free plan stops a service after 15 idle minutes, and Supabase's free plan pauses a project after about a week.
+# /health/db reaches both. This runs on our own runner like CI, so it spends no paid Actions minutes.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+  # A schedule only runs from main, so this proves a change to this file on its own pull request.
+  pull_request:
+    paths:
+      - .github/workflows/keep-alive.yml
+
+concurrency:
+  group: keep-alive
+
+jobs:
+  ping:
+    runs-on: [self-hosted, linux, ba-ci]
+    timeout-minutes: 5
+    steps:
+      # The retries cover a cold start, which takes about a minute.
+      - run: >-
+          curl --fail --silent --show-error --max-time 60 --retry 5 --retry-delay 10 --retry-all-errors
+          https://blessings-abound-api.onrender.com/health/db

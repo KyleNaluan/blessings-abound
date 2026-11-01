@@ -92,10 +92,14 @@ class Settings(BaseSettings):
     item_card_min_confidence: Confidence = Confidence.MEDIUM
 
     serpapi_api_key: str | None = None
+    serpapi_search_url: str = "https://serpapi.com/search.json"
     # The free plan allows 250 searches a month, so the default leaves a small margin.
     serpapi_monthly_budget: int = 240
 
     pricing: PricingRules = PricingRules()
+
+    # Render sets this to the deployed commit, and it is empty anywhere else.
+    render_git_commit: str | None = None
 
 
 @lru_cache

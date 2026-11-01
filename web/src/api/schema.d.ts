@@ -334,6 +334,16 @@ export interface components {
      * @enum {string}
      */
     AccountStatus: 'active' | 'invited' | 'temporary_password' | 'deactivated'
+    /** ApiHealth */
+    ApiHealth: {
+      /**
+       * Status
+       * @enum {string}
+       */
+      status: 'ok' | 'unavailable'
+      /** Commit */
+      commit: string | null
+    }
     /** AppraisalRead */
     AppraisalRead: {
       /**
@@ -1273,7 +1283,7 @@ export interface operations {
           [name: string]: unknown
         }
         content: {
-          'application/json': components['schemas']['HealthStatus']
+          'application/json': components['schemas']['ApiHealth']
         }
       }
     }

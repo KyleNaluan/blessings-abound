@@ -31,6 +31,18 @@ test('shows the API health reported by /health', async () => {
   expect(await screen.findByText('ok')).toBeInTheDocument()
 })
 
+test('shows only the username for an account with a hidden placeholder address', async () => {
+  const session = fakeSession()
+  session.user.email = 'demo.staff@accounts.turnstone.invalid'
+  fake.reset(session)
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async () => Response.json({ status: 'ok', commit: null })),
+  )
+  renderHome()
+  expect(await screen.findByText('Signed in as demo.staff.')).toBeInTheDocument()
+})
+
 test('shows the API as unreachable when the request fails', async () => {
   vi.stubGlobal(
     'fetch',

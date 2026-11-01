@@ -31,9 +31,13 @@ class HealthStatus(BaseModel):
     status: Literal["ok", "unavailable"]
 
 
+class ApiHealth(HealthStatus):
+    commit: str | None
+
+
 @app.get("/health", operation_id="get_health")
-def health() -> HealthStatus:
-    return HealthStatus(status="ok")
+def health() -> ApiHealth:
+    return ApiHealth(status="ok", commit=get_settings().render_git_commit)
 
 
 @app.get(
