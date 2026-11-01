@@ -96,6 +96,201 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/auth/sign-in': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Sign In With Username
+     * @description Sign in by username here, because telling the browser the address would expose it.
+     *
+     *     An address in the sign-in box goes from the browser straight to Supabase Auth instead.
+     */
+    post: operations['sign_in_with_username']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/me': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * Get Me
+     * @description Who is signed in. Someone who still has to choose a password can read this too.
+     */
+    get: operations['get_me']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/me/password': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Choose My Password
+     * @description Set the person's own password and lift the block a temporary password or invite puts on.
+     *
+     *     The block lives here rather than in anything the browser can write, so it can't be skipped.
+     */
+    post: operations['choose_my_password']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/team/people': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** List People */
+    get: operations['list_people']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/team/people/invite': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Invite Person
+     * @description Email a link that signs the person in once to choose a password.
+     */
+    post: operations['invite_person']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/team/people/temporary-password': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Create Person With Temporary Password
+     * @description Create a username whose temporary password must be changed at first sign-in.
+     */
+    post: operations['create_person_with_temporary_password']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/team/people/{auth_user_id}/temporary-password': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Issue Temporary Password
+     * @description Replace the person's password, which is how someone with no email gets back in.
+     */
+    post: operations['issue_temporary_password']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/team/people/{auth_user_id}': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    /** Change Role */
+    patch: operations['change_role']
+    trace?: never
+  }
+  '/team/people/{auth_user_id}/deactivate': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Deactivate Person
+     * @description Stop the person signing in. The row stays, so their past decisions stay too.
+     */
+    post: operations['deactivate_person']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/team/people/{auth_user_id}/reactivate': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /** Reactivate Person */
+    post: operations['reactivate_person']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/health': {
     parameters: {
       query?: never
@@ -134,6 +329,11 @@ export interface paths {
 export type webhooks = Record<string, never>
 export interface components {
   schemas: {
+    /**
+     * AccountStatus
+     * @enum {string}
+     */
+    AccountStatus: 'active' | 'invited' | 'temporary_password' | 'deactivated'
     /** AppraisalRead */
     AppraisalRead: {
       /**
@@ -180,6 +380,15 @@ export interface components {
      * @enum {string}
      */
     Category: 'apparel' | 'electronics_games'
+    /** ChangeRoleRequest */
+    ChangeRoleRequest: {
+      role: components['schemas']['Role']
+    }
+    /** ChoosePasswordRequest */
+    ChoosePasswordRequest: {
+      /** Password */
+      password: string
+    }
     /**
      * Condition
      * @enum {string}
@@ -190,6 +399,17 @@ export interface components {
      * @enum {string}
      */
     Confidence: 'low' | 'medium' | 'high'
+    /** CreateWithTemporaryPasswordRequest */
+    CreateWithTemporaryPasswordRequest: {
+      /** Username */
+      username: string
+      /** Display Name */
+      display_name: string
+      /** Email */
+      email?: string | null
+      /** @default staff */
+      role: components['schemas']['Role']
+    }
     /**
      * DecisionChoice
      * @enum {string}
@@ -263,6 +483,17 @@ export interface components {
        * @enum {string}
        */
       status: 'ok' | 'unavailable'
+    }
+    /** InviteRequest */
+    InviteRequest: {
+      /** Username */
+      username: string
+      /** Display Name */
+      display_name: string
+      /** Email */
+      email: string
+      /** @default staff */
+      role: components['schemas']['Role']
     }
     /**
      * ItemCardEdit
@@ -405,6 +636,36 @@ export interface components {
       | 'listed'
       | 'sold'
       | 'picked'
+    /** PersonRead */
+    PersonRead: {
+      /**
+       * Auth User Id
+       * Format: uuid
+       */
+      auth_user_id: string
+      /** Username */
+      username: string
+      /** Display Name */
+      display_name: string
+      /** Email */
+      email: string | null
+      role: components['schemas']['Role']
+      status: components['schemas']['AccountStatus']
+      /**
+       * Created At
+       * Format: date-time
+       */
+      created_at: string
+    }
+    /**
+     * PersonWithTemporaryPassword
+     * @description The only time the temporary password is shown, because it is stored nowhere.
+     */
+    PersonWithTemporaryPassword: {
+      person: components['schemas']['PersonRead']
+      /** Temporary Password */
+      temporary_password: string
+    }
     /** RecentDecision */
     RecentDecision: {
       /**
@@ -439,6 +700,28 @@ export interface components {
      * @enum {string}
      */
     Recommendation: 'yes' | 'no' | 'check'
+    /**
+     * Role
+     * @enum {string}
+     */
+    Role: 'staff' | 'manager'
+    /** SignInRequest */
+    SignInRequest: {
+      /** Username */
+      username: string
+      /** Password */
+      password: string
+    }
+    /**
+     * SignInSession
+     * @description The Supabase Auth tokens, which the web app hands to its Supabase client.
+     */
+    SignInSession: {
+      /** Access Token */
+      access_token: string
+      /** Refresh Token */
+      refresh_token: string
+    }
     /** ValidationError */
     ValidationError: {
       /** Location */
@@ -648,6 +931,327 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['RecentDecision'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  sign_in_with_username: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['SignInRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SignInSession']
+        }
+      }
+      /** @description The username or password is wrong */
+      401: {
+        headers: {
+          [name: string]: unknown
+        }
+        content?: never
+      }
+      /** @description The account is deactivated */
+      403: {
+        headers: {
+          [name: string]: unknown
+        }
+        content?: never
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+      /** @description Too many wrong passwords */
+      429: {
+        headers: {
+          [name: string]: unknown
+        }
+        content?: never
+      }
+    }
+  }
+  get_me: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PersonRead']
+        }
+      }
+    }
+  }
+  choose_my_password: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ChoosePasswordRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PersonRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_people: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PersonRead'][]
+        }
+      }
+    }
+  }
+  invite_person: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['InviteRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      201: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PersonRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  create_person_with_temporary_password: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['CreateWithTemporaryPasswordRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      201: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PersonWithTemporaryPassword']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  issue_temporary_password: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        auth_user_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PersonWithTemporaryPassword']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  change_role: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        auth_user_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ChangeRoleRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PersonRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  deactivate_person: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        auth_user_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PersonRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  reactivate_person: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        auth_user_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PersonRead']
         }
       }
       /** @description Validation Error */

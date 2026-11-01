@@ -7,9 +7,11 @@ from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 from sqlmodel import Session
 
+from app.accounts import router as accounts_router
 from app.appraisal import router as appraisal_router
 from app.db import get_session
 from app.settings import get_settings
+from app.team import router as team_router
 
 app = FastAPI(title="Turnstone API", version="0.1.0")
 
@@ -21,6 +23,8 @@ app.add_middleware(
 )
 
 app.include_router(appraisal_router)
+app.include_router(accounts_router)
+app.include_router(team_router)
 
 
 class HealthStatus(BaseModel):

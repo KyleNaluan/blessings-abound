@@ -27,6 +27,13 @@ class Role(StrEnum):
     MANAGER = "manager"
 
 
+class AccountStatus(StrEnum):
+    ACTIVE = "active"
+    INVITED = "invited"
+    TEMPORARY_PASSWORD = "temporary_password"
+    DEACTIVATED = "deactivated"
+
+
 class ItemStatus(StrEnum):
     INTAKE = "intake"
     CARD_READY = "card_ready"
@@ -131,8 +138,20 @@ class Profile(SQLModel, table=True):
         sa_column=sa.Column(_enum_type(Role, "role"), nullable=False, server_default=Role.STAFF),
     )
     is_active: bool = Field(default=True, sa_column_kwargs={"server_default": sa.true()})
+    must_change_password: bool = Field(
+        default=False, sa_column_kwargs={"server_default": sa.false()}
+    )
+    invited_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
     created_at: datetime = _created_at()
     updated_at: datetime = _updated_at()
+
+    @property
+    def status(self) -> AccountStatus:
+        if not self.is_active:
+            return AccountStatus.DEACTIVATED
+        if not self.must_change_password:
+            return AccountStatus.ACTIVE
+        return AccountStatus.INVITED if self.invited_at else AccountStatus.TEMPORARY_PASSWORD
 
 
 class Item(SQLModel, table=True):

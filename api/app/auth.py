@@ -10,7 +10,7 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from sqlmodel import Session
 
 from app.db import get_session
-from app.models import Profile
+from app.models import Profile, Role
 from app.settings import get_settings
 
 # Supabase Auth answers these for a token that is expired, malformed or for a deleted user.
@@ -72,15 +72,15 @@ def get_token_verifier() -> TokenVerifier:
     return SupabaseTokenVerifier(settings.supabase_url, api_key)
 
 
-_bearer = HTTPBearer(auto_error=False)
+bearer = HTTPBearer(auto_error=False)
 
 
-def get_current_profile(
-    credentials: Annotated[HTTPAuthorizationCredentials | None, Depends(_bearer)],
+def get_signed_in_profile(
+    credentials: Annotated[HTTPAuthorizationCredentials | None, Depends(bearer)],
     verifier: Annotated[TokenVerifier, Depends(get_token_verifier)],
     session: Annotated[Session, Depends(get_session)],
 ) -> Profile:
-    """The active person making this request. Both roles pass, and a route checks any more."""
+    """The active person making this request, who may still have to choose a password."""
     not_signed_in = HTTPException(
         status.HTTP_401_UNAUTHORIZED,
         "You need to sign in again.",
@@ -104,4 +104,23 @@ def get_current_profile(
     return profile
 
 
+SignedInProfile = Annotated[Profile, Depends(get_signed_in_profile)]
+
+
+def get_current_profile(profile: SignedInProfile) -> Profile:
+    """The person making this request, ready to work. Both roles pass."""
+    if profile.must_change_password:
+        raise HTTPException(status.HTTP_403_FORBIDDEN, "Choose a new password before you continue.")
+    return profile
+
+
 CurrentProfile = Annotated[Profile, Depends(get_current_profile)]
+
+
+def require_manager(profile: CurrentProfile) -> Profile:
+    if profile.role != Role.MANAGER:
+        raise HTTPException(status.HTTP_403_FORBIDDEN, "Only a manager can do this.")
+    return profile
+
+
+ManagerProfile = Annotated[Profile, Depends(require_manager)]
