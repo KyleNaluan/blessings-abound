@@ -234,6 +234,7 @@ def create_person_with_temporary_password(
             email=request.email,
             role=request.role,
             must_change_password=True,
+            temporary_password_issued_at=datetime.fromisoformat(user["created_at"]),
         ),
     )
     response.headers["Cache-Control"] = "no-store"
@@ -255,11 +256,12 @@ def issue_temporary_password(
     password = _new_temporary_password()
     try:
         # Confirmed too, because someone who never opened their invite couldn't sign in otherwise.
-        auth.update_user(auth_user_id, password=password, email_confirm=True)
+        user = auth.update_user(auth_user_id, password=password, email_confirm=True)
     except httpx2.HTTPError as error:
         raise _auth_failure(error) from error
     person.must_change_password = True
     person.invited_at = None
+    person.temporary_password_issued_at = datetime.fromisoformat(user["updated_at"])
     session.add(person)
     session.commit()
     session.refresh(person)

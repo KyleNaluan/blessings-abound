@@ -87,9 +87,10 @@ class SupabaseAuthAdmin:
         response.raise_for_status()
         return response.json()
 
-    def update_user(self, user_id: UUID, **attributes: Any) -> None:
+    def update_user(self, user_id: UUID, **attributes: Any) -> dict[str, Any]:
         response = self.client.put(f"/admin/users/{user_id}", json=attributes)
         response.raise_for_status()
+        return response.json()
 
     def delete_user(self, user_id: UUID) -> None:
         response = self.client.delete(f"/admin/users/{user_id}")

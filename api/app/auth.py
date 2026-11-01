@@ -1,5 +1,9 @@
 """Who is calling the API: checks the Supabase Auth token and finds the person's profile."""
 
+import base64
+import binascii
+import json
+from datetime import datetime
 from functools import lru_cache
 from typing import Annotated, Protocol
 from uuid import UUID
@@ -72,6 +76,23 @@ def get_token_verifier() -> TokenVerifier:
     return SupabaseTokenVerifier(settings.supabase_url, api_key)
 
 
+def _token_issued_at(token: str) -> int | None:
+    """The `iat` claim in seconds. Auth has already vouched for the token, so it isn't checked."""
+    try:
+        payload = token.split(".")[1]
+        claims = json.loads(base64.urlsafe_b64decode(payload + "=" * (-len(payload) % 4)))
+    except (IndexError, ValueError, binascii.Error):
+        return None
+    issued_at = claims.get("iat") if isinstance(claims, dict) else None
+    return issued_at if isinstance(issued_at, int) else None
+
+
+def _is_from_before(token: str, moment: datetime) -> bool:
+    """Tokens only record whole seconds, so one from the same second as `moment` passes."""
+    issued_at = _token_issued_at(token)
+    return issued_at is None or issued_at < int(moment.timestamp())
+
+
 bearer = HTTPBearer(auto_error=False)
 
 
@@ -101,6 +122,9 @@ def get_signed_in_profile(
         raise HTTPException(
             status.HTTP_403_FORBIDDEN, "This account has no active Turnstone profile."
         )
+    issued_at = profile.temporary_password_issued_at
+    if issued_at is not None and _is_from_before(credentials.credentials, issued_at):
+        raise not_signed_in
     return profile
 
 

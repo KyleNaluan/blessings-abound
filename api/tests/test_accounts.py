@@ -1,7 +1,9 @@
 """Accounts and roles through the API, against real Postgres and a stand-in for Supabase Auth."""
 
+import base64
 import json
 from collections.abc import Iterator
+from datetime import UTC, datetime, timedelta
 from typing import Any
 from uuid import UUID, uuid4
 
@@ -10,13 +12,22 @@ import pytest
 from fastapi import HTTPException
 from fastapi.testclient import TestClient
 from sqlalchemy import text
-from sqlmodel import Session
+from sqlmodel import Session, select
 
-from app.accounts import SignInThrottle, get_sign_in_throttle
+from app.accounts import MAX_SIGN_IN_FAILURES, SIGN_IN_WINDOW_SECONDS
 from app.auth import get_token_verifier
 from app.db import get_session
 from app.main import app
-from app.models import Appraisal, Decision, DecisionChoice, Item, Profile, Recommendation, Role
+from app.models import (
+    Appraisal,
+    Decision,
+    DecisionChoice,
+    Item,
+    Profile,
+    Recommendation,
+    Role,
+    SignInAttempt,
+)
 from app.settings import get_settings
 from app.supabase_auth import (
     BAN_DURATION,
@@ -32,6 +43,7 @@ MANAGER_TOKEN = "manager-token"
 STAFF_TOKEN = "staff-token"
 PASSWORD = "the right password"
 SERVICE_KEY = "not-a-real-service-key"
+COULD_NOT_SIGN_IN = {"detail": "We couldn't sign in. Check your details or ask your manager."}
 
 
 def auth_error(status: int, code: str) -> httpx2.Response:
@@ -47,6 +59,11 @@ class FakeSupabaseAuth:
         self.fail_with: httpx2.Response | None = None
         self.sign_ups_on = False
         self.tokens: dict[str, UUID] = {}
+        # Auth's clock in seconds, which a test moves on to separate one session from the next.
+        self.now = 1_800_000_000
+
+    def timestamp(self) -> str:
+        return datetime.fromtimestamp(self.now, UTC).isoformat().replace("+00:00", "Z")
 
     def add(self, email: str, password: str = PASSWORD, user_id: UUID | None = None) -> UUID:
         user_id = user_id or uuid4()
@@ -56,6 +73,8 @@ class FakeSupabaseAuth:
             "password": password,
             "banned": False,
             "email_confirm": True,
+            "created_at": self.timestamp(),
+            "updated_at": self.timestamp(),
         }
         return user_id
 
@@ -98,6 +117,7 @@ class FakeSupabaseAuth:
         for field in ("password", "email_confirm"):
             if field in changes:
                 self.users[user_id][field] = changes[field]
+        self.users[user_id]["updated_at"] = self.timestamp()
         return httpx2.Response(200, json=self.users[user_id])
 
     def _token(self, body: dict[str, Any]) -> httpx2.Response:
@@ -106,7 +126,8 @@ class FakeSupabaseAuth:
             return auth_error(400, "user_banned")
         if user is None or user["password"] != body["password"]:
             return auth_error(400, "invalid_credentials")
-        token = f"token-for-{user['id']}"
+        claims = json.dumps({"sub": user["id"], "iat": self.now}).encode()
+        token = f"header.{base64.urlsafe_b64encode(claims).decode().rstrip('=')}.signature"
         self.tokens[token] = UUID(user["id"])
         return httpx2.Response(200, json={"access_token": token, "refresh_token": "refresh"})
 
@@ -178,11 +199,9 @@ def client(
     admin = SupabaseAuthAdmin(
         "http://localhost:54321", SERVICE_KEY, httpx2.MockTransport(auth.handler)
     )
-    throttle = SignInThrottle()
     app.dependency_overrides[get_session] = lambda: session
     app.dependency_overrides[get_auth_admin] = lambda: admin
     app.dependency_overrides[get_token_verifier] = lambda: FakeVerifier(auth)
-    app.dependency_overrides[get_sign_in_throttle] = lambda: throttle
     yield TestClient(app, headers={"Authorization": f"Bearer {MANAGER_TOKEN}"})
     app.dependency_overrides.clear()
 
@@ -228,7 +247,7 @@ def test_a_wrong_password_and_an_unknown_username_answer_the_same(
 ) -> None:
     response = sign_in(client, username, password)
     assert response.status_code == 401
-    assert response.json() == {"detail": "Your username, email or password is wrong"}
+    assert response.json() == COULD_NOT_SIGN_IN
 
 
 def test_an_unknown_username_still_asks_auth_with_an_address_nobody_can_have(
@@ -241,12 +260,76 @@ def test_an_unknown_username_still_asks_auth_with_an_address_nobody_can_have(
 def test_repeated_wrong_passwords_are_slowed_down_for_that_username_only(
     client: TestClient, auth: FakeSupabaseAuth
 ) -> None:
-    for _ in range(SignInThrottle.MAX_FAILURES):
+    for _ in range(MAX_SIGN_IN_FAILURES):
         assert sign_in(client, "helper", "wrong guess").status_code == 401
     asked = len(auth.requests)
     assert sign_in(client, "helper").status_code == 429
     assert len(auth.requests) == asked
     assert sign_in(client, "boss").status_code == 200
+
+
+def test_the_failure_count_is_kept_in_the_database_under_a_hash(
+    client: TestClient, session: Session
+) -> None:
+    for _ in range(MAX_SIGN_IN_FAILURES):
+        sign_in(client, "helper", "wrong guess")
+    attempts = session.exec(select(SignInAttempt)).all()
+    assert len(attempts) == MAX_SIGN_IN_FAILURES
+    assert all("helper" not in attempt.username_hash for attempt in attempts)
+    # A refused try adds nothing, so guessing during a lockout doesn't make it last longer.
+    assert sign_in(client, "helper").status_code == 429
+    assert len(session.exec(select(SignInAttempt)).all()) == MAX_SIGN_IN_FAILURES
+
+
+def test_failures_past_the_window_no_longer_count_and_are_cleared_away(
+    client: TestClient, session: Session
+) -> None:
+    for _ in range(MAX_SIGN_IN_FAILURES):
+        sign_in(client, "helper", "wrong guess")
+    # Just outside the window, as an hour's wait would leave them.
+    long_ago = datetime.now(UTC) - timedelta(seconds=SIGN_IN_WINDOW_SECONDS + 60)
+    for attempt in session.exec(select(SignInAttempt)).all():
+        attempt.attempted_at = long_ago
+        session.add(attempt)
+    session.commit()
+    assert sign_in(client, "nobody", "wrong guess").status_code == 401
+    assert len(session.exec(select(SignInAttempt)).all()) == 1
+    assert sign_in(client, "helper").status_code == 200
+
+
+def test_the_right_password_clears_that_usernames_failures(
+    client: TestClient, session: Session
+) -> None:
+    sign_in(client, "helper", "wrong guess")
+    sign_in(client, "boss", "wrong guess")
+    assert sign_in(client, "helper").status_code == 200
+    assert len(session.exec(select(SignInAttempt)).all()) == 1
+
+
+@pytest.mark.parametrize(
+    ("failure", "answer"), [(httpx2.Response(500), 503), (auth_error(429, "over_limit"), 429)]
+)
+def test_no_answer_about_the_password_does_not_use_up_a_try(
+    client: TestClient,
+    session: Session,
+    auth: FakeSupabaseAuth,
+    failure: httpx2.Response,
+    answer: int,
+) -> None:
+    auth.fail_with = failure
+    assert sign_in(client, "helper").status_code == answer
+    assert session.exec(select(SignInAttempt)).all() == []
+
+
+def test_auth_out_of_reach_does_not_use_up_a_try(
+    client: TestClient, session: Session, auth: FakeSupabaseAuth, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    def out_of_reach(*_: Any) -> None:
+        raise httpx2.ConnectError("no route")
+
+    monkeypatch.setattr(SupabaseAuthAdmin, "sign_in", out_of_reach)
+    assert sign_in(client, "helper").status_code == 503
+    assert session.exec(select(SignInAttempt)).all() == []
 
 
 def test_auth_being_down_is_not_a_wrong_password(
@@ -492,6 +575,75 @@ def test_someone_on_a_temporary_password_can_do_nothing_until_they_choose_one(
     assert sign_in(client, "new.person", created["temporary_password"]).status_code == 401
 
 
+def reissue(client: TestClient, auth: FakeSupabaseAuth, person: Profile) -> str:
+    auth.now += 60
+    response = client.post(f"/team/people/{person.auth_user_id}/temporary-password")
+    assert response.status_code == 200
+    return response.json()["temporary_password"]
+
+
+def test_a_session_from_before_a_reissue_cannot_set_the_new_password(
+    client: TestClient, auth: FakeSupabaseAuth, staff: Profile
+) -> None:
+    old = as_token(sign_in(client, "helper").json()["access_token"])
+    temporary = reissue(client, auth, staff)
+    asked = len(auth.requests)
+
+    response = client.post("/me/password", headers=old, json={"password": "taken over password"})
+
+    assert response.status_code == 401
+    assert response.json() == {"detail": "You need to sign in again."}
+    assert len(auth.requests) == asked
+    assert auth.users[staff.auth_user_id]["password"] == temporary
+    assert client.get("/me", headers=old).status_code == 401
+
+
+def test_a_session_from_after_a_reissue_sets_the_new_password(
+    client: TestClient, auth: FakeSupabaseAuth, staff: Profile
+) -> None:
+    temporary = reissue(client, auth, staff)
+    auth.now += 1
+    new = as_token(sign_in(client, "helper", temporary).json()["access_token"])
+    response = client.post("/me/password", headers=new, json={"password": "my own password"})
+    assert response.status_code == 200
+    assert response.json()["status"] == "active"
+    assert client.get("/decisions", headers=new).status_code == 200
+
+
+def test_a_session_from_the_same_second_as_the_reissue_still_works(
+    client: TestClient, auth: FakeSupabaseAuth, staff: Profile
+) -> None:
+    temporary = reissue(client, auth, staff)
+    new = as_token(sign_in(client, "helper", temporary).json()["access_token"])
+    assert client.get("/me", headers=new).status_code == 200
+
+
+def test_a_session_from_before_a_reissue_stays_refused_after_the_new_password_is_set(
+    client: TestClient, auth: FakeSupabaseAuth, staff: Profile
+) -> None:
+    old = as_token(sign_in(client, "helper").json()["access_token"])
+    temporary = reissue(client, auth, staff)
+    new = as_token(sign_in(client, "helper", temporary).json()["access_token"])
+    client.post("/me/password", headers=new, json={"password": "my own password"})
+    assert client.get("/decisions", headers=old).status_code == 401
+
+
+def test_a_token_with_no_readable_issue_time_counts_as_old(
+    client: TestClient, auth: FakeSupabaseAuth, staff: Profile
+) -> None:
+    reissue(client, auth, staff)
+    assert client.get("/me", headers=AS_STAFF).status_code == 401
+
+
+def test_a_new_temporary_password_records_when_auth_issued_it(
+    client: TestClient, session: Session, auth: FakeSupabaseAuth
+) -> None:
+    created = client.post("/team/people/temporary-password", json=NEW_PERSON).json()
+    profile = session.get(Profile, UUID(created["person"]["auth_user_id"]))
+    assert profile is not None and profile.temporary_password_issued_at is not None
+    assert profile.temporary_password_issued_at.timestamp() == auth.now
+
+
 def test_changing_only_the_session_metadata_does_not_lift_the_block(
     client: TestClient, session: Session, auth: FakeSupabaseAuth, staff: Profile
 ) -> None:
@@ -676,8 +828,8 @@ def test_deactivating_stops_sign_in_and_the_open_session_and_keeps_decisions(
     assert ban == {"ban_duration": BAN_DURATION}
     assert client.get("/decisions", headers=AS_STAFF).status_code == 403
     answer = sign_in(client, "helper")
-    assert answer.status_code == 403
-    assert "turned off" in answer.json()["detail"]
+    assert answer.status_code == 401
+    assert answer.json() == COULD_NOT_SIGN_IN
     session.refresh(decision)
     assert decision.decided_by == staff.auth_user_id
     assert session.get(Profile, staff.auth_user_id) is not None
@@ -690,8 +842,38 @@ def test_a_profile_turned_off_without_a_ban_gets_no_tokens_either(
     session.add(staff)
     session.commit()
     response = sign_in(client, "helper")
-    assert response.status_code == 403
+    assert response.status_code == 401
+    assert response.json() == COULD_NOT_SIGN_IN
     assert "access_token" not in response.text
+    # The right password never reaches Auth with this person's address, so no session is opened.
+    assert json.loads(auth.requests[-1].content)["email"] == NO_SUCH_ACCOUNT_EMAIL
+
+
+@pytest.mark.parametrize("password", [PASSWORD, "the wrong password"])
+def test_a_turned_off_account_answers_like_a_wrong_password_whichever_password_is_given(
+    client: TestClient, staff: Profile, password: str
+) -> None:
+    wrong = sign_in(client, "boss", "the wrong password")
+    client.post(f"/team/people/{staff.auth_user_id}/deactivate")
+    answer = sign_in(client, "helper", password)
+    assert (answer.status_code, answer.json()) == (wrong.status_code, wrong.json())
+
+
+def test_a_ban_left_by_a_deactivation_that_stopped_halfway_answers_the_same(
+    client: TestClient, auth: FakeSupabaseAuth, staff: Profile
+) -> None:
+    auth.users[staff.auth_user_id]["banned"] = True
+    answer = sign_in(client, "helper")
+    assert (answer.status_code, answer.json()) == (401, COULD_NOT_SIGN_IN)
+
+
+def test_a_turned_off_account_reaches_the_limit_like_any_other(
+    client: TestClient, staff: Profile
+) -> None:
+    client.post(f"/team/people/{staff.auth_user_id}/deactivate")
+    for _ in range(MAX_SIGN_IN_FAILURES):
+        assert sign_in(client, "helper").status_code == 401
+    assert sign_in(client, "helper").status_code == 429
 
 
 def test_a_failed_ban_leaves_the_person_active(

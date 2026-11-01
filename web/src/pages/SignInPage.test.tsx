@@ -8,6 +8,7 @@ vi.mock('@/auth/supabase', async () => ({
   supabase: (await import('@/test/fakeSupabase')).fake.client,
 }))
 
+const COULD_NOT_SIGN_IN = "We couldn't sign in. Check your details or ask your manager."
 const ACTIVE = {
   auth_user_id: 'user-1',
   username: 'demo.staff',
@@ -125,9 +126,20 @@ test('shows the error summary for a wrong password, and clears the password', as
   submit('Sign in')
   const summary = await screen.findByRole('alert')
   expect(summary).toHaveTextContent('There is a problem')
-  expect(summary).toHaveTextContent('Your username, email or password is wrong')
+  expect(summary).toHaveTextContent(COULD_NOT_SIGN_IN)
   expect(summary).toHaveFocus()
   expect(screen.getByLabelText('Password')).toHaveValue('')
+})
+
+test('a turned-off account signing in by email gets the same message as a wrong password', async () => {
+  fake.auth.signInWithPassword.mockResolvedValue(authError('user_banned'))
+  renderAt('/sign-in')
+  fillIn('Username or email', 'demo.staff@example.com')
+  fillIn('Password', 'correct horse battery')
+  submit('Sign in')
+  const summary = await screen.findByRole('alert')
+  expect(summary).toHaveTextContent(COULD_NOT_SIGN_IN)
+  expect(summary).not.toHaveTextContent(/turned off/i)
 })
 
 test('signs in with a username through the API and never asks for the address', async () => {
@@ -167,8 +179,7 @@ test('an email never goes through the API, so it works without one', async () =>
 })
 
 test.each([
-  [401, 'Your username, email or password is wrong'],
-  [403, 'This account is turned off. Ask a store manager to turn it back on.'],
+  [401, COULD_NOT_SIGN_IN],
   [429, 'Too many tries. Wait a few minutes and try again.'],
 ])('shows what the API says for a refused username, status %i', async (status, detail) => {
   stubApi({ 'POST /auth/sign-in': () => Response.json({ detail }, { status }) })

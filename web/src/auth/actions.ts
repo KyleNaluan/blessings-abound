@@ -9,7 +9,8 @@ import { supabase } from './supabase'
 
 const NOT_SET_UP = "Sign-in isn't set up on this copy of Turnstone yet."
 const UNREACHABLE = "We couldn't reach the sign-in service. Try again in a minute."
-export const WRONG_DETAILS = 'Your username, email or password is wrong'
+// The same for a wrong password and a turned-off account, so it can't show that a password was right.
+const COULD_NOT_SIGN_IN = "We couldn't sign in. Check your details or ask your manager."
 
 function message(error: AuthError | null, known: Partial<Record<string, string>> = {}) {
   if (!error) return null
@@ -21,8 +22,8 @@ export async function signIn(identifier: string, password: string): Promise<stri
   if (!isEmail(identifier)) return signInByUsername(identifier, password)
   const { error } = await supabase.auth.signInWithPassword({ email: identifier, password })
   return message(error, {
-    invalid_credentials: WRONG_DETAILS,
-    user_banned: 'This account is turned off. Ask a store manager to turn it back on.',
+    invalid_credentials: COULD_NOT_SIGN_IN,
+    user_banned: COULD_NOT_SIGN_IN,
     email_not_confirmed: "This account isn't set up yet. Ask a store manager to finish it.",
   })
 }

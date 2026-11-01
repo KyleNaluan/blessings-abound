@@ -15,6 +15,7 @@ TABLES = [
     "appraisals",
     "decisions",
     "comp_searches",
+    "sign_in_attempts",
     "alembic_version",
 ]
 # The net after fees is the one cents column allowed below zero, see docs/database.md.
@@ -118,7 +119,7 @@ def test_price_range_must_be_ordered(connection: Connection) -> None:
 
 def test_every_time_column_carries_a_time_zone(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_at")
-    assert len(columns) == 10
+    assert len(columns) == 12
     assert {data_type for _, _, data_type in columns} == {"timestamp with time zone"}
 
 

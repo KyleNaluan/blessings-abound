@@ -142,6 +142,11 @@ class Profile(SQLModel, table=True):
         default=False, sa_column_kwargs={"server_default": sa.false()}
     )
     invited_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    # On Auth's clock, because it is compared with the issue time on Auth's tokens.
+    temporary_password_issued_at: datetime | None = Field(
+        default=None,
+        sa_type=sa.DateTime(timezone=True),  # pyright: ignore[reportArgumentType]
+    )
     created_at: datetime = _created_at()
     updated_at: datetime = _updated_at()
 
@@ -152,6 +157,25 @@ class Profile(SQLModel, table=True):
         if not self.must_change_password:
             return AccountStatus.ACTIVE
         return AccountStatus.INVITED if self.invited_at else AccountStatus.TEMPORARY_PASSWORD
+
+
+class SignInAttempt(SQLModel, table=True):
+    """One username sign-in that was wrong, or is still waiting for Auth's answer.
+
+    The username is hashed because people sometimes type a password into that box.
+    """
+
+    __tablename__ = "sign_in_attempts"  # type: ignore[assignment]
+    __table_args__ = (sa.Index("ix_sign_in_attempts_lookup", "username_hash", "attempted_at"),)
+
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    username_hash: str = Field(sa_type=sa.Text)
+    attempted_at: datetime = Field(
+        default=None,
+        sa_column=sa.Column(
+            sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now(), index=True
+        ),
+    )
 
 
 class Item(SQLModel, table=True):
