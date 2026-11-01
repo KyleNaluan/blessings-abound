@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Sony",
+    "product": "8 MB Memory Card",
+    "visible_text": "PlayStation 2, 8MB MEMORY CARD, MagicGate",
+    "search_query": "Sony PlayStation 2 8MB Memory Card Red",
+    "model_confidence": "high",
+    "color": "Red",
+    "material": "Plastic",
+    "exact_model": "Sony PlayStation 2 8 MB Memory Card",
+    "platform": "PlayStation 2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "Dance Pad",
+    "visible_text": null,
+    "search_query": "Nintendo Wii Dance Pad",
+    "model_confidence": "high",
+    "color": "white",
+    "material": "plastic",
+    "exact_model": "Wii Dance Pad",
+    "platform": "Wii"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "video game",
+    "visible_text": "Mario Kart, Double Dash!!, Nintendo GameCube",
+    "search_query": "Nintendo GameCube Mario Kart Double Dash game",
+    "model_confidence": "high",
+    "color": null,
+    "material": null,
+    "exact_model": "Mario Kart: Double Dash!!",
+    "platform": "GameCube"
+  }
+}

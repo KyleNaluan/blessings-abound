@@ -1,0 +1,631 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Nintendo 64 console grey",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 4100,
+ "organic_results": [
+  {
+   "title": "Nintendo 64 N64 Home Console Gray NUS-001(USA) NTSC-U/C Multiplayer AV",
+   "price": {
+    "raw": "$29.50",
+    "extracted": 29.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407329763598?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBMQ90RMARKPJ3TBC7F&hash=item5ed6bef10e%3Ag%3AeicAAeSwiB1q5gNB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8pHXC%2FiH%2FsSBFlHLq1Zxe72IGI%2ByMaWvol%2FODPgGZQW%2B15CijWP4mwr63h5cwVxM3%2B%2Bs%2BDiAhtVz8pVUtggaWDhVcDs2aUwO0n7HtghIGOI9T6MF2fGslGA0ayTt8bTo9EE2eqtWweXshHzKcsMLyOi2CTduuDA%2F0qDLQQKkUUB7EKxhmx0w3UciTvqaVdEDZjxTm%2FxswpKd4%2FZp8AFAzBYSI7GMtojOG%2FW6ipDVQHSNgO1izBT1r3LyImxOQPm%2BzV6Yz8oeYD5FzEmIPjmzYUR6GNuGIE%2BTgiEA5QRYXayTqixd3C0p%2FwB%2F4LP4Spwdw%3D%7Ctkp%3ABk9SR4SmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407329763598"
+  },
+  {
+   "title": "Nintendo 64 32MB Home Console - Gray (NO CABLES/CONTROLLER)",
+   "price": {
+    "raw": "$49.87",
+    "extracted": 49.87
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860101164950?_skw=Nintendo+64+console+grey&epid=1754291509&itmmeta=01M6CBBJBM5X78NRTVB9WMVMRM&hash=itemc842063f96%3Ag%3AK4YAAeSwD%7E1qlga7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BXecsPCiub8GzWemmDea4fvObpeAaHUCAuLzyB6IDC%2B84TgxU56dk01Ikl%2BMsUmyx6bIPZ0d%2B%2F262l91ND912Yus%2FWrCpehAiztTsIFwpQG%2FF8OxsGIZB967ykA7xkW8Ne5W7fhDVJg2Ycke5isP3egwbvXz5WPT1ufiUvvVc%2B9kTPsCabv4Oy0lYfHBaAUUww0r4PW1h3YNUuHU1FXRswPw4DWxc8vYkJvRFVXuqcFbgRy8idMB%2FW6f3i93TMEZsEpoTy7rKAaoYbFk9goUcUcL2y5ObGpvkP6mdjeY%2FzJILYuI12baom9FXZwo%2BcAvM%3D%7Ctkp%3ABFBMhKaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860101164950"
+  },
+  {
+   "title": "Nintendo 64 N64 Home Console Gray NUS-001(USA) NTSC-U/C Expansion Port",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366770972831?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBNY6NVKYFA1FNMWTPD&hash=item556540e89f%3Ag%3AyngAAeSw8M1q5GSA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9GhTeUs8nazuRa6326tQS1ImTZlQ4jDo0NQ6mEnoF9yrGmLA5xMKpsWrm8ZKMXoXiqUgasi6YI9OM2IZ%2F2CCQgwJjR8Swh99frpSAtIDl60LY0sFKuq7eDcr7q1L8DNVEEamoCigADbc8rzrWXQzYpi%2FN%2BlrxvGuAmX355MVbCZNz3jCRA%2FIy13PI5%2BIlrUkrLEgECNFjP56Ve8wDGd0Ji1U7DoSbBlvI5wFCNnGq5AV34gp%2Bu%2BUxX7B0aIRkAWo%2BRXvSF8n5bp5nWhaOk%2FRfmnl1Kq3ym%2FfHtfWt1m03ye9tIWQaoJbUXcYdcMdncxNU%3D%7Ctkp%3ABFBMhKaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366770972831"
+  },
+  {
+   "title": "Nintendo 64 System 32MB Home Console - Charcoal Gray With Controller And Cables",
+   "price": {
+    "raw": "$78.29",
+    "extracted": 78.29
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377529621269?_skw=Nintendo+64+console+grey&epid=1754291509&itmmeta=01M6CBBJBNX897B5ZEDK81T4XS&hash=item57e684db15%3Ag%3AeQQAAeSw6XBqus2F&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B1qwGDAa%2Bwdj9P1MCjdsd4yqEMyWZaOy0O%2BGgLi22t2LXD7MVhDtQzriAQCWeLGc3KNCzbxH7cDzPCv5lNPrZfEm%2FmewPS%2BXClfasFbbOEPak0DNWmzQTCUdrPiS%2BrwqoBKEU0gXG1USq7vo6VH%2Fqyq7VdS4KvjXLMyBjotxt7ZiQII%2FWt9bbz5QhilECtTt2rX2ny1gGwfq13dkeT2Xm84U9igF2y%2FkVcI95TlHGGoR6QWMGtmkpiSKCeyFpO67e7S0bcEoYkhh7GVMri3d6gEju2sw%2Bk9wtMzbYQRs6L6Q%3D%3D%7Ctkp%3ABFBMhKaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377529621269"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Charcoal Grey Tested Working W/ Tony Hawk",
+   "price": {
+    "raw": "$135.00",
+    "extracted": 135.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880072397588?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBN0GQNEPKRTG48XNTA&hash=itemcce8671314%3Ag%3Az9wAAeSweYFq5346&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FTpi%2FXry4ncT3zvwFSDJC%2BrrnMghaP11JN1BVaDgg2a--OrOc%2FEal92Wg9DU6fmXdTMUPORwrDFiEZCXdmqB8HzyJkiFhvHuuOdKI27bUA0Hr0K5ZHXGL%2Bk6%2BPXjAci1yK2Rh0ECFGUSQ0w55PFoh8wf2bDXyB50DaEbFykxcUdbzSvBYpt84qvaFNxX%2FdE6kXWGa2rpmNPJtH2ltgu3NcKJL1MxZD%2BN%2FJAhby49WIoGUslMxsIiRZrGasfyhnVka6FisNGYenen8qhpC1JxdnP8dsu%2B5cWfXg4PFoAlEbhnlQ--zlK4%2BUEJz2vZxTbIk%3D%7Ctkp%3ABk9SR4SmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880072397588"
+  },
+  {
+   "title": "Nintendo 64 NUS-001(USA) Charcoal Gray Console with cable - Tested & Working",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820303877029?_skw=Nintendo+64+console+grey&epid=787664609&itmmeta=01M6CBBJBN01YHC2C72W6YF65X&hash=itembefdebd3a5%3Ag%3AXcIAAeSwJ7tq53Zn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9eImtHkNaqsoZz90zehTEeHqb2jFTGAlqfe5sXjYkQBQX8fw5uAmUgb17uok5TpEE9QowK0EoGBO2bksKWrxWB7b5paGPqWg2C0t06nq3TbYsvx2FSqsc%2BYvZXp%2BDxK6jNnpyt%2Fi07ewXAST1%2FsEgI7RjrVQriqcgx1StTjuKZixcF9Es0N3%2FUl0OC5fqmXs272fFskrXMHg%2BEIHwnitOBtOsz0orYv%2FN6PsD%2BsKt--pa3FF9MCWXKitLaXeHn2YMrENPgnN6%2FWOpJJgeDWYckymDGhp4ydDzkLgkOpSdGDYu4QMa0HSTz3PwdBm4Jtcs%3D%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820303877029"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Tested w/ Expansion Pack + Grey Controller Bundle",
+   "price": {
+    "raw": "$99.95",
+    "extracted": 99.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800856558403?_skw=Nintendo+64+console+grey&epid=1754291509&itmmeta=01M6CBBJBNH48ZQR21AKJHWK8M&hash=itemba76c54b43%3Ag%3AnV8AAeSwCZlq5KmQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8S4TZG2T4LewXThHxNnP%2BREoe9Qw5NU%2BZO5VRiSCtb7aJQcBtDjlGozXvITXb8IoWaVbmd4lb1fTnxpLVmRRn2SKxkzl9Mrl2uDfFsDpF%2FqOoyQjRq6rEXrAglPUjRrCpwBa87Oywcab4mkmSNOgujN%2F9YIMNjibr0Pm84bxG9h8cP8drBncGcaEsaQ6SQ%2FemS6HTMLuZF4dhuKfgQFiK7N4d6XVdd0MNT%2FuUkMi01yC0XVdIrZlWmzfChzThvl9zqIvWGjzx6nTuBa9yeo6gADqsuYnAx3EMVZb0GW%2B7y5dBuJ42Zh%2FZObq9kGhZe7RE%3D%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800856558403"
+  },
+  {
+   "title": "Nintendo 64 Gray Home Console w/ Jumper Pak, Expansion Pak Slot",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307255602758?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBNV86S39421EYE5TB4&hash=item4789dc6e46%3Ag%3AiMQAAeSwAD5q422w&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9NmNAxPxrfbMJ7gA7WflXxioT--1Yy5PMm7NWC%2BYA3sarl8bWKFi32iH1gVJczYfjLfcnJUnvTQCqfnsS7AzEWmEMQR3sGqyMnByJ3I5NavfahpQXErRO2MvYpjOqU0tzOq3vsVoMFQDiRK%2BOhM8beX82lliKoMa%2BUAfZ7l6D25xvasmkG%2BItorhCoJJAlI0BwZAFFhUngc20Binzq%2FhzmvbFdb%2BeNUldch6P6ceIeec3hVoR9ZM9RVSLms97O121WPtwRIVJ89pH5vZ1AKlOy%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307255602758"
+  },
+  {
+   "title": "Nintendo 64 System 32MB Home Console - Charcoal Gray W/ Controller Tested Works",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366776767341?_skw=Nintendo+64+console+grey&epid=1754291509&itmmeta=01M6CBBJBN6K9GETSPX90DWB15&hash=item556599536d%3Ag%3AEZ0AAeSwQR5qrYOR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde94xxVh47Oc0lt1CLcaZ7TJLaht5ZsZq9cTuKFjrP6ZbdDMRHKVyJlzVStCygjKo3%2F68NdpYqR7SPF6c7r4pqhjj604hB47%2B1qvKm1%2BCKWsWg8dj5Bo0U%2BY0%2BWaodX8b52ncXwq1k9MXH3jve4vFkc7sCxOYg54Uo9x%2Bz4zTny1zeJjUyDSYBxhQSHEkc5ftFfwBL%2B7hkZDAVwJO%2F2j48WbnY6ulplcpPCjh4XAz6g1zXh09mb5VyTnd4V3WqHB%2FmVIf1FBQDKNu8qLMoz%2FlZem3HhDxls%2BoRkRQx8fiSr7O1iXdUNbdD8hX%2B06kHJNNz8%3D%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366776767341"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Grey With Cables And Controller + Game - TESTED!",
+   "price": {
+    "raw": "$84.95",
+    "extracted": 84.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178268020017?_skw=Nintendo+64+console+grey&epid=110635016&itmmeta=01M6CBBJBPP6R7PY36XG4JTEH6&hash=item29819a1d31%3Ag%3A92oAAeSwrBNqQ-nW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FSgUo%2BzocPswSbl5rs8VScdPHy%2FaCC56IyaEAFznRTNVDAugCvzaF6sUukfzbqAxuoxxO%2FpTFbe7TD5E%2F6TA4wLsJInC9fUf%2BIFdhKKvbY54Q9MMEMe%2BBnOPNGuB1V8V4NzOV9FLFfI9%2FWAB9dMt%2B7N3d6WVwQBRGfA4LdC7XmD1XejEACNgtD3xcT0xwFiAXZ2PHRf4NWU9vXDs6CfG%2FlGEDldYB61TsZ7jL7SELkL8s%2FDX0SuJsReeNE5GrOM9OEuzIXbTzLE8yYmIXfDz6Hw02dA2jMX11pOCXGUmcRa4NvF%2FPVUL8DKXKicvPpi%2B0%3D%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178268020017"
+  },
+  {
+   "title": "Choose CUSTOM COLOR Nintendo 64 Console + Up to 4 Controllers + Cords! N64! WOW",
+   "price": {
+    "from": {
+     "raw": "$149.95",
+     "extracted": 149.95
+    },
+    "to": {
+     "raw": "$209.95",
+     "extracted": 209.95
+    }
+   },
+   "condition": "Nintendo 64",
+   "link": "https://www.ebay.com/itm/195587315074?_skw=Nintendo+64+console+grey&var=495471826378&itmmeta=01M6CBBJBPNZJGF6VCX6WZARGK&hash=item2d89e99582%3Ag%3ARY0AAOSwGuRj4Vb8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8PJKQBoYwCJXidK9h5lluVAVCMm22xyT%2BHyTS20vLfyog2O%2FMyGQVeS0sv2fteiGpUrRvQtaBw6lerx7UBhTP1IpxuZIMrVTTTFDHhVhJiLRf1mjcqAlO%2F47Uv419r8hn8WP9i1%2B7yqoM8wSVYQBwVCg8HQrV7u8PMvL8iJ3Mu1fJbEu0E%2B05QER%2FN00grrwD2qt3BSuFiAztP5eq19oy%2F3qAqKECfnFotQLXMl9Qdg7CyNju%2B0pK1jYvQTXCwHAZ6Heci8kGx15zxbvmnIvxy%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "195587315074"
+  },
+  {
+   "title": "Nintendo N64 Console NUS-001 Funtastic Smoke Gray W Purple Controller",
+   "price": {
+    "raw": "$139.99",
+    "extracted": 139.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800862380451?_skw=Nintendo+64+console+grey&epid=787664609&itmmeta=01M6CBBJBP4CXHYBAG020V414P&hash=itemba771e21a3%3Ag%3AXMIAAeSwL%7EZq5v%7E5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BfrPlQJXOAgqwnr%2BQ2NmJN0sFgV5A%2FaovO4byDJJACgoTtSnGmE7gw2Mhm%2BQQO7OnNV1JwrHdF5GhsCvLlJwH5WBGHcrq2qcfX6jrkEk%2F3OfMALAY%2BRhJ1QJ6BeLOJ0RDY9fuBDwEioigF80EnIPT2cKrdfOSrfkRiAkeCQyhIr%2FfSDvwOI9TzzVCcBor2v3%2Bt1YoUGTx6jINI2JMRgYolooyEm%2BwIV3nj%2B5xueSvi98ar1G%2BM6KcpZ21mw7qDta5jgRhA%2FoOA%2FBBPCyu8GAGX%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800862380451"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Grey Controller With Cables - Tested & Working! *Read*",
+   "price": {
+    "raw": "$78.95",
+    "extracted": 78.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168661719103?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBPHK7E69CQ4Z2MV56F&hash=item274505983f%3Ag%3AE9sAAeSwGUtqmePd&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FR09of0hxtbEUWSX4t%2FsHzQwP3P7TfInWkADJWBgFbPMG8NUjmoGhoLdoxDflIQHUIjU0YUFV3Fid4yYndIZX%2FQmaIlu8qrnKs512fW%2FYJaVSXZ5GcDDuiMvsYpkA6V6%2BORiL2g9%2FdyTpXrbEhCb5XHSqaip0gHGkvVt15%2Br69EUztK7QGqBWiE10ZzlDp1oxq5IInoIflD0h4sKPEvRZleuufm%2ByeO4P1g5nPTpZTRQqWA4dqjHo66gSYgOpCRr5hivCUsws0ib7XoeB3XjDv%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168661719103"
+  },
+  {
+   "title": "Nintendo 64 Black Console w/ 2 Gray Controllers, AV/AC, NTSC-U/C, Expansion",
+   "price": {
+    "raw": "$135.00",
+    "extracted": 135.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960054616237?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBPCFR6M22RTPW758BT&hash=itemdf87b6e0ad%3Ag%3AmfAAAeSwH5RqzCQN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ND0yVPSX37xtjJRwCzcf2IECtzE%2FathWksAS0PQyJptt%2FPW300o0b3hF5D9G%2FQMjWP2FCXGBbORKHOc0MrG9Qg2OTcizcB%2FZ03flkt2KIvR0lA0t%2FFK8hQrjexqOSHp0FDAujmxyIj41LZRdKtFLtFkbGVkk1cNtucPjkkSqQcA0GrMDF4UaEzRvPxdsLteIJ4gNQwnYnP300aASkaQoKAVzIEXfsOoWQCV7etgBLKVL6HfMVoLBhZzeObiUdHrWGIK2uKFVwuDBjc8ZW0IQsMCexclGApboxocSqDOPaQs3LTQ2uRqzEVWSAnrzRN4E%3D%7Ctkp%3ABFBMhqaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960054616237"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Gray w/ Controller, RF Adapter, Memory Pak, Rumble Pak",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227537492775?_skw=Nintendo+64+console+grey&epid=787664609&itmmeta=01M6CBBJBPKF1789Q6RF430735&hash=item34fa4a9b27%3Ag%3AyysAAeSwSL1qtVY5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde89%2BN1yEd2ALQw1BzdqWZn%2BuQ%2BPwJymdHxzLaH200ntGsfAg7Qbx6DmuiKyLDelbyL4eCGq3r6BuW5j%2BtRKJPDZ0VT6fJLc5S1dMDAWbkhPbo3O3dq6V7JCG2JejDBpFx98yUcVSYeowtQGN3JqG64hYeHw8BgGkQoJCaNdB7dtpeTGjNSYbbKJCL2QtA5NAEoClAqYWLw10FjBOwdLMx1wGN0CUsokXIQRF2a4qHCk1VPuNtcGIbVeJ8Wf2zsyWiSrrn2PQ94NbXro0oujBQhqxDJCxBP3B2DoyXFFMViK8pNS8R8IVejBrRUlnXx6Wcc%3D%7Ctkp%3ABFBMhqaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227537492775"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Bundle Complete with 1 Official Controller Works",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206165330263?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBPSD6XGFR7JKN1VRQM&hash=item3000694957%3Ag%3A2fcAAeSwOKhpw2z1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FTfNsYRJS3gQDSHVhprVlkAg2x4VGuHq4yrh0ziNTXH2B4r5GJ5twC9rGdVdJnjXSdU%2FQ4AXXrZASR5ogaGINZ5gzQQr13PmVOSojS7ulFaM9TamMz9icqPnrjj4f%2B2lF1laK8G3slgxPKCPMDfHumDggw0hyqC98EmCz9d429fkLULvnPJlEHIqKG%2Fg8CZoTpIJH%2BwtKW739vO7XzFl0o%2FSCiHY6lI7XZlNwcY9q3vscby22TOyQkhmpBqzblUKuqKW8K7U2gYs94rIBaegjexEJUygnleLjm14%2BygJfcP3XZFzBvqa43ewOvWCQJZyw%3D%7Ctkp%3ABFBMhqaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206165330263"
+  },
+  {
+   "title": "Nintendo N64 Console w/OEM Controller - Cords FULLY TESTED Free Shipping",
+   "price": {
+    "raw": "$89.95",
+    "extracted": 89.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206667915169?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBQSW1WERRAQQX76XC0&hash=item301e5e1fa1%3Ag%3Ax8EAAeSwRWxqwpuU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FpuVeodkV0un11WEvBHSf9pddAInynmhTEgNR2ntiI1Xw6JeiqUo%2FQn9Yqvl6uv8dFSCxQrUkmynrQctCtnLp7rJQhsolcDvGTrqLLABwOG7GN3iCwM2H%2BkvUF7mFv9dBbd8yvWgCdrHWY61KzKkuukviczTYKXrzR0NQ1EpTs1kgpS1ZzO%2FDT30tS1XJbsqgOH17X6XHs0354PYQYURVlJ80gagl7faWl6fcCeUHToMq%2BuXqbrADkjMTGkMYLoc63lz2526bbYikeq1R8Qfmj%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206667915169"
+  },
+  {
+   "title": "N64 Nintendo 64 clear Grey / Smoke Funtastic Console Re-Shelled Region Free",
+   "price": {
+    "raw": "$144.99",
+    "extracted": 144.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407330093942?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBQYD7XNBRQP7FSPB5K&hash=item5ed6c3fb76%3Ag%3AkJAAAeSwzM5qZ70c&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BaXidW1O9OzRrAytdLvaShgT%2BaroHviBYJYatywwIdtk%2FdNm%2BBc%2BcuXYlIlVTxV2jtPMd9v3bjl4kqeXyUGoyQA91dqVaieJ6uaA8BoLcVuxfeHsPi7%2B2YTAfJUnzEegp1hPHHmjlYqhEUrSBm3QHRa8jHkQ0Ju4wrTUOLInG0bZefcwm3sqkItAerfCv9jUWWNa6ajrDgEdj932%2Fx6bn1iDScPnd53IIHNwyW%2FuWIQJIpKv5ZCWCQ1P478quGI86%2FMMRVetDTVTcxT8cJFCBA%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407330093942"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Bundle Gray Controller Power Cable NTSC-U/C Multiplayer",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287694852378?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBQAWQZYQJAP844MQ17&hash=item42fbf3111a%3Ag%3AlvUAAeSwaR9q5ias&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FA74%2Bm%2BqcQzBq0D7U3%2FPvWkRZInU6fzaMTCPuJ0oxGCkVvFE0zoUc3AEnSO%2FG2BV4JsKNxHcPIsbCGr9l00TO2320n42mf32jltdmJmPlL81mzY4814wyiylNAOk9ciTf7gXrdoIZknz%2BxB47XFdJ7cYWv5428aosJEJ7bINzR%2FKn9w5E4VtT114tC3qRx%2B4JzuljbCwg7Re9KmBLriXNZg78UPmZbVl0EcuSJYdyZsOG%2BtixjQd3D09cxB49X0tduPDq1DM%2F3rN6drlBQri5bduTBhZwVvBfkE4ou%2FPbu60p%2Bk8uEGt7saaVrKu9lJuE%3D%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287694852378"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Bundle Complete Missing Cover",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137882502049?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBQPH57H08QNB6VFSQ6&hash=item201a7003a1%3Ag%3AU7sAAeSw-Khq4Sb7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FshqhLlPT%2FylttTLthrjGVIgAc8s419fEOprx6u72OtgZX2%2BEhJt9WBtzmXu6fettK1mdivfIXS7uQP1Ru7Jf2EJZK7rzw1hsUiLFNQtNZ5E%2B8unO0oqZUe%2FKzfxS%2B%2BlHYUnNgP3EnXVRRoPzFjgpPSmGwf%2Bnoa%2Bnehhpwcdgq1nJO6iY6t0e4lhMkKv%2B8fxwSysb0D9nmnoHBilPz21gy5SQvD9ENPnArxsHMLm%2B9JHFaDXka%2FOAJeoPw3mRh556PaYdy3SC2%2B4tDZ74%2BfK6f%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137882502049"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Gray W/Power Supply AV Cable Tested Working",
+   "price": {
+    "raw": "$51.90",
+    "extracted": 51.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336869343028?_skw=Nintendo+64+console+grey&epid=110635016&itmmeta=01M6CBBJBQ4JZH19C287KHKF2T&hash=item4e6efa3f34%3Ag%3A2kgAAeSwNlRq45zr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FyOxi2QF2cdq1DCAtthoWtL1GpgB66EtZ%2Bu2OXpjUN%2BWswls97tsrQz0I6f6t65dBUts8mXzjKhE1LATuyHBf%2Bc7N0dINvZdfaFuyxc3vgg4rhYQSXVec%2FzHPpojGAsDtxlI8NzFhIH5NWPiyQPkEImbxNt0Kyi%2BADQODpTLRww0jYLjS4C2gysYk28u1Qy6tXmOnZ2ZBYy9JIUwtqPpcn92Ph78hC1p0iGhAWr2KfjlPGffEDCk3rFhHWPQgxSI8qMyHHAR5fEUZ6%2Bq5B%2Ff8xVsE99E8BZ6OGDLvVL1DHAIFaEr%2FDU08MMZ4PSJgAFic%3D%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336869343028"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Bundle TESTED 2 Red Controllers Zelda Mario Kart DK64",
+   "price": {
+    "raw": "$219.87",
+    "extracted": 219.87
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820304123567?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBQVDGXBC8B8XXM0EHY&hash=itembefdef96af%3Ag%3ALukAAeSwAX9q540u&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FkiqFDzL0ufNeXjYHfJetxCqVPBnyB57%2Bk1Ke9hHzPQ9Wu597HcxxPq8VhB3HT4vdKmY8mrGUfNzTTybVj%2BTAJ7hZ8ZFL6jCOCuUwI%2BL2L0HaPA38C6KDw1JfbKb37BCUn%2FZkvYSdnws7tRyLJaa5FUDbfuuBXAgN3ERkTd2lukAltIwZF4McL5YQlo43j3OzyF81dFNUONW%2Fk%2BlBjYKlNSE09%2Bc4Smub5CgrAjIrZeQcK6HftgUuOEcB%2FxCd8l6LIrtcH6VWBOfr1RCP2eOuxeW%2BK3k68XCBSOTAlaC4uGyUmk4TChJrzS%2FnauR4MHIA%3D%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820304123567"
+  },
+  {
+   "title": "Nintendo 64 N64 Console NUS-001 Gray Replacement Console Works",
+   "price": {
+    "raw": "$58.00",
+    "extracted": 58.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407221922517?_skw=Nintendo+64+console+grey&epid=787664609&itmmeta=01M6CBBJBQ0VKNH0E2J4S760VV&hash=item5ed0516ad5%3Ag%3AvNAAAeSweP9qqsXe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8M6tbsOChLCeuf1rfHHFF7bMk3IPv6Fdq%2FnYS2LtgbLYrTfnkT7FiboGeHUVhvQcP29CDdq6EoiNwl4mbocloYS1NY72RbO%2BnN5z%2FcKSNnDQTVpvllYdTKrkJJOskHNXbmbxX8Rh2CPPfwSFPZYT3DvdtypLXtjzOXhXvVX4e%2FPXFcA8U6zDDvMp8%2BKkcNrJm%2BAWLPPWRsOKWpglYfQSI8rLqRVUQYrPud6b%2F88G4dr1vb277Key3rSMuvxDfNJVnkL5VSEj8Kv2aepcfgozhf%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407221922517"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Only Gray NUS-001 Version Tested",
+   "price": {
+    "raw": "$47.58",
+    "extracted": 47.58
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800846725395?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBQVE29FTSTHAGWJ523&hash=itemba762f4113%3Ag%3AfCUAAeSwsjVq4Xh3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8roSojJGVqG6s8RTFfDr4mJUrqV1B4VYVwEaVzCqqgXdR0%2Bm59oxfV1lR1Vt8VgCsTuf31sJ2yfzNtQRBPB9an7dtm97lI8RYdxQcK89CN%2FQwNRXy%2BUPsQLMm5Pmik1rQnOfUn1UunwjDDy%2FTvGcToui%2FJ2WMoIpvz%2FenKj8olNiRAdam%2BuNJarS8W%2BW0Z4oO%2B0Bu1rlm5EgqGiewjks3NeU4PDzuwf5K1sHTsIjvqJiwD3lQ%2B6WjjA8PvYddUJZBxt5WdDUmin0KOo7GBlp77Bv7MaXh70pDGNO%2BzPuhmaGd06ErEigcqyt9L%2FP1GFKM%3D%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800846725395"
+  },
+  {
+   "title": "Nintendo N64 Console Gaming System NUS-001 JPN Version Gray",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307228647183?_skw=Nintendo+64+console+grey&epid=787664609&itmmeta=01M6CBBJBRHDTS1NMBF6S3SX48&hash=item4788411f0f%3Ag%3AKYQAAeSwYu9qzd5q&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8lKpQ9Iy3oS6Z0dJSZwWFYFXuBr%2FfOuwEsT0HCGHpuZLZxaurOofCgb86ry0KlLQhmNCYOYRK09%2F5RbbNnEmo7v6A8BVKcodqvF3xnA4uPZK2LmEOfKLqwCK5JI%2Fz18aGmh5ehAu4DDWZRmSb%2FUJ4j8EhSj%2BkgtoCf2JxQCvb6H8gxkYufcP9RU0hEAOZEEftWG%2FBn7Cniqh2fWMxZ2Y%2FmMdOLzsAil7U4DQ82JY6tisM8OYcr%2BLDUS4%2Fg3hPHvFhhjvqGr2KIGC1DBW1scEI6%7Ctkp%3ABk9SR4amrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307228647183"
+  },
+  {
+   "title": "Nintendo 64 Dark Grey Home Console Bundle w/ 2 Gray Controllers, Composite RCA",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168814717560?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBRDKJYMNVJCCQWRRFW&hash=item274e242a78%3Ag%3AJZ4AAeSwCCpqxGpU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bl0DMOIf0jwJ3i6xuFbUUUv42oWw2PtRuMNS1vMaEDIlDlVNmiC1OUuY0nNNZaO7goc2yNBeD7FHlHZ9ZIjDSf2eclM%2F9q49y2ZHsPAOKzO1WvCyior9fM8L8kQ1zwdlyoXIw5uiXunrJSE4550jScc1gAJhh6VzWa5pNmc7uMMYuL%2FlDUw%2BxDWKOlicDlIyktuzyG2F%2FsPjp7Y33CavEeYw3iLyoiOKfd6fnXoGRuZtZ4wyUHIFzpY8S6WhUouhFJIGJslGi766g6cLSBjd7U%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168814717560"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Only Gray NUS-001 Version Tested Working Good",
+   "price": {
+    "raw": "$39.00",
+    "extracted": 39.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267826357065?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBRPMH0PDGXJ20PW8J2&hash=item3e5bb1e349%3Ag%3A8U4AAeSwLuRqvscZ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FqId43ogeeiMQV2VGZeJ07bG7Sz4E4PdCa8IrsbJ7l7DGrBXZfyqfbdBGmrH4V5oRqgwCNQxhz3si07Xa7KzJ9GzTAfQjnO3fJCCe2jkK8Rr%2BoRyjAKjjnRcXkATIjieevUrbKczSBTBqIGG25Mj6HsyO9brSKgJXTBvBBBJCw8ZE82w%2BV96rwXBNKF45JjYv5jwTY7TACOmtkCa50qHWzSdZBo%2Bd8re4h678xBXiYIdFW%2FCcVUvDFTR738vSt96tphVYsEDY7aOs0F4ZhkvXY%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267826357065"
+  },
+  {
+   "title": "N64 Nintendo 64 clear Grey / Smoke Funtastic Console Re-Shelled Region Free",
+   "price": {
+    "raw": "$138.98",
+    "extracted": 138.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336634307587?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBRQTN9BKVEJPKPWCKZ&hash=item4e60f7e403%3Ag%3ATW4AAeSwt81qKug2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2B1pLlAdUKsVx26WSespSEzqCXMHm4IltaA%2F%2Bw%2F9GlrhD4anKf8zuBRXZkECR9l2RB40WNaZTlEu5Pk1nVUWnnDBmHpNIICMDIRJyS6WRu5Go2VccvB3n0m%2BMEmwuPXSvy80FHLI6rPOBty70j2xryh6luGPYvxEI0R%2BiJndlDRgvrcKNSt0P%2BxJgC33aPM4D4Z5Gs%2B2twMnfHbSeficgPs3HAta%2BMIWtH2fC835IC%2BDaRigi3Z0PJUale7dyz9KgMXhatJVrKpUvWTn01DITfpbTAmMjJ%2Bo%2BAgV5JFUtdSt6qomPC%2Fj4uu9nZGuq%2FWoA%3D%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336634307587"
+  },
+  {
+   "title": "Nintendo 64 Console Bundle w/ Controllers, Games, Power Cables & Memory Cards",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820303602514?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBRB53CWR1DNDTG2X87&hash=itembefde7a352%3Ag%3A8z0AAeSwrr1q51PC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FKycAGiNJvkhXDc%2BTaAsvghzYGYzBa%2BddbrQ48nwBNn5fWEwesCqHNqo8F%2FBsaASH%2FSFUfnARXnoTS5FGngiVrbap%2BK81rF7j877mLvAVhh09nanVJVGY%2FA1fYoBxO8Wb18Y5LF0zAcQZ4%2Fdts04q5aXEY6HTEvLDLSouZDQ4SxtoLiT%2FMGOh8ssz4RSDp1x4wvPlv27Zcn6ZyZLz9x%2Fov6xuZeo%2BHeVNDAvbgrlI%2BcZ8SbQ7Z9xOJ0LvsCmLEX92wnMmp1acUzeHDIUfdlWndnnamVhsOJUh4c5BK046P5Sz7WSBW9xy7UTyy%2BxrzbSg%3D%7Ctkp%3ABFBMiKaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820303602514"
+  },
+  {
+   "title": "NINTENDO 64 N64 CONSOLE W/SHARKPRO CONTROLLER -TESTED WORKING - READ",
+   "price": {
+    "raw": "$53.99",
+    "extracted": 53.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298613583540?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBRZY07Z3MNAMY8YRG3&hash=item4586c1aeb4%3Ag%3A9B0AAeSwu3ZqjRQD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hwd%2Fo6BNVtMAox3Zn0wDYb7tIsQufB7jSXIaxS5eh4CpFtQjlMwqQiYELV3jaQ4fgorQy4vrhtxOZBk%2BqnAJTiKBecjmPrXjpr%2B1GGugxks8u8mplZ%2Fx5VSdoSs7T03m3zKj6JltLfGU2hxZ16SzqmpcnN4b5N3%2FVGvhyVPpADjrjX1Wl4ekSYGDZG1o%2ByS5OmZMWyVhQ4xk2g1ff0%2Bw%2FYjdVPaFR4H6fRtp1bCDCcIyD2axbhvuMplrsFswo%2FBH0K27GbVP37fdNTELxWH%2Fl5fzSjcjBSh3UsbUqrPu3d3INFlWOr97ovzi0Zdgv1FU%3D%7Ctkp%3ABFBMiKaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298613583540"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Bundle Gray Controller OEM Cables Tested Works Great",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117273762185?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBR58RSQ5ST8DS9WRQB&hash=item1b4e0f9989%3Ag%3A5RsAAeSwubhqQWuT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2ByU10gKDo0HF32vlJxDG4nNUDrGLgiEJns6aXGOogDzzDVk0mUamh2eyFa27X9iJLbM7VEE0h1kVxiwBWPtJYa6VL4S1aUyQ0gC3I0dxWxVNaYAlEzuhO9eEU0aIpzfzSw7WelzyO13KH1R2OMbkIJ1OYSjo2tnY9GHSmNPPTnDoT34%2FRFOCG9EvwQhp%2FKPh1cioiZKBoBMFgvBQSmmEl0--qGnYUNGhAj%2BeVziJ6pE97d0NNh%2BNTxYdA5A6YLx8EJr9JVRVqPLPtdl6eNLT5EmxeGzXE3rC95E3eBck%2Fx0z61mvPb4msydgN1dCNp%2BM4%3D%7Ctkp%3ABFBMiKaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117273762185"
+  },
+  {
+   "title": "Nintendo 64 Gray Home Console w/ Expansion Pak ULTIMATE BUNDLE",
+   "price": {
+    "raw": "$158.00",
+    "extracted": 158.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407284298702?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBR9RFJ759XS6PRDF8G&hash=item5ed40933ce%3Ag%3AkiAAAeSwC05qzHU4&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde901nAA7Wc9PJ8a8LCIqoANuhTucC9%2FQeGBotWY8T22E3v%2F8wAeshvf4f7eRK8adx17KZ6afDxC1Baw03wEzVKJIq63DVNuISov3t7JvwyqrZ4h%2B7RR8MwKTVb7Yl7MypsEyoJ2yJkbpvtcKiS2edV9%2FKEYIhULwmhuGWVK9Y1YBuA%2F5jX7kM4e1nUuIZq0qG6DC6M%2FNKB7N716C%2FcOzhT%2BFOyliQIDQP3SJpHIDnj4m9o44l3XQBkPIjHyQteW0xPq2Yr%2FLdtCQdG9Au61Wt4%2BNtihA78HIVaWzhJhIoNCow%3D%3D%7Ctkp%3ABFBMiKaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407284298702"
+  },
+  {
+   "title": "Nintendo 64 N64 Gray Home Console Bundle w/ Controller AV Cable Power Supply",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860103392688?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBSTRFBS7V0SG1Y7G9B&hash=itemc842283db0%3Ag%3AikAAAeSwIR1q50BN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FPmKcEOdPFQxTHYDMHZZX5nb3Pim6gedk%2F3Mg4OGh475J%2B%2B%2B02n%2B4JkI1fPc4lej%2BOlIgmh9KhO%2BuOkR8IGt%2Bqz76%2Bt3rJVoXj7w1oqzDhyXH1prW2AsR5yUxzJr2hm0s%2FhmmX8%2BdwAR%2FdhR%2FH8LeWQl9HUUtBmOppaYHeVxV3fEbitev7e2cYe8r%2B93YHdRhoDNVzeNz%2FvgM%2FviKy9%2B3gIAIieWj4bmGShrHMu6zNX8fQn3f3fScnvBPXgjbyxWlq35h811sD4gXhLtJYkzkE%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860103392688"
+  },
+  {
+   "title": "Nintendo 64 N64 Console System Gray NUS-001 Console ONLY No Jumper Pak",
+   "price": {
+    "raw": "$44.99",
+    "extracted": 44.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920080626542?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBS255NGKNHGD438SHN&hash=itemd63914336e%3Ag%3AN3QAAeSwtkVq3U8y&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bqhi9TFvkFKjmTTawrsxNGn7z%2FdJRrKvMrYVmhlfHUhfX6zs8MCUuVGLX71JIyx9rNQ%2FEXhSLZKqMBgEINpx6eSyytzDNg9IGmB0mRHniGcsKi2WnEsBVjJHjvFBdCMW3nHSzHBaT3JzbzlCDc3eLtdvkFz%2BPuTvLFQMNua8xtdw5%2FOl8OyBrVteKYejT9dEEjpXNWN0eXJpKPY2KzyMRvArxZt60apuXvmPfagYrtxfb2Y9cp5gLSYOq9VNz2LbF5HT3zxXiwCF3rzvu7Knbn%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920080626542"
+  },
+  {
+   "title": "Nintendo 64 Gray Reigon Free Console Bundle",
+   "price": {
+    "raw": "$140.00",
+    "extracted": 140.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407326759860?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBS08N0GH1F0WDSD7DW&hash=item5ed6911bb4%3Ag%3AdsMAAeSwFBtq5HKY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8tSY2GZyNvsvQzTgizO%2Bl5EVwblrk81D%2BNi%2BZ96%2BLgOcBAanOlLevT8GPaFbJWjtrmqMsTvCKiwVTllkO%2B36VKJMK%2FRpqky2gzGXe4bENCtwCpimXCA68uAOB7giQron6kj9SLZUV0a2j06GNtfBInR%2FRzzH3LAbbDBJ32gyQDOmNMg94oZdNnoxD44kWC%2Byx%2FGk3nIxYIhZg%2BNwlzS9K716prK8DXIvL2nMnelLgn9P1gwYCvFkOYW9OEboGP9GznfG31nMfgRxMNWC8doV%2FSHN6ZLGs9MpwUxnpzzTSg3LIf9h%2Fr2D5PUkfETBfslIw%3D%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407326759860"
+  },
+  {
+   "title": "2 Nintendo 64 consoles Limited Edition Gold, 4 controllers, 5 games,more N64 USA",
+   "price": {
+    "raw": "$414.99",
+    "extracted": 414.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860101234946?_skw=Nintendo+64+console+grey&epid=1756756203&itmmeta=01M6CBBJBST3DSGHFFESCWS4JJ&hash=itemc842075102%3Ag%3Ao4AAAeSwjk1q5j86&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8iEDO9G2ShkIP6ozhco5rjJUosVyaO2XLyUaegfiqpAeNaG5E8a5x2%2FhRAijgiJMrPg701nVkKBAJB5mwiJRvd1y2OPvE%2BbQy0FnBPT5sciEuOfvJRT%2BoJeTyKQJuPk98n%2BZNY%2FmGwg98Y7PzXEkxeC8qfv7B90%2BqUxo57%2FIileWHFHjqfbErBTPN9BWm4e%2FeEbw%2BNdY1UIrZbs%2Fp7PqGJPpr2CCyUqYx3LFz%2BTETK7B0TRt8R%2FyWuSTpzVsgM1acg8RIW1ZrcD3oe0em9BSid%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860101234946"
+  },
+  {
+   "title": "Nintendo N64 Console Gaming System NUS-001 Gray (HPG056535)",
+   "price": {
+    "raw": "$76.00",
+    "extracted": 76.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206649295576?_skw=Nintendo+64+console+grey&epid=21047490056&itmmeta=01M6CBBJBS9R47DVH4VW1WZ8TC&hash=item301d4202d8%3Ag%3AkWAAAeSwVDtq3AKg&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8zhiCgSSDYAdXI7LZvD9HispSGEEiJXnwriRy1HLXkGdtDhTZythFQsslkdvFQix5te%2FVX2UV0Qgaibdm4Y02NFnkfKzpxSaIIz3dEnfT1fyhTIvX3ywfX8%2BYQDlbIA2tSgnjxSB3Ixb2Y8hs%2F7ecmo5vMkeNtk1tLu%2BqldrFh1CYKjOPFSyV1MaZUtAaVVW7SjxBnMpSlUjZ6iz%2F5Vq9mC1f8KmNe12VU2fpNHB%2BKocn05Awt%2FHLYFocaUgSnOkuxNcipn%2B8wKAoeyRzudqQA%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206649295576"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Only NUS-001 Charcoal Gray Tested Cleaned Working",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257801267918?_skw=Nintendo+64+console+grey&epid=1754291509&itmmeta=01M6CBBJBS3DG80EH4GWRFW7KP&hash=item3c06272ace%3Ag%3Ag%7E8AAeSwP8Fq0iuA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9nzpG4gS%2BklS%2BXEf80SWdom%2FWPVlh1op%2FCrx8WG06UwP5G6ZRPQtJ84VF5eD0m%2BLb5d5Jms4evxtIWC6swcJtiq%2Fo27rJMNWDeDjOLyP0gd8GojlC8aAThpyiPKRtDo4qbWCOdAP%2F4Q2%2Bnv8kRyNXlDVCChQ0ubqH1uAV9ftxPuTVBdJPlGu7PZHuEajdtb%2F9hyVrKpEYoCeyVSfSYKUgvy9uUwTOrJ4T9mtM07E1UwG84zrFM1VMTMo%2FiHBSd4znvb%2FSl6sFVlXEcTO%2FMLXijlyjyYcc3pNJ%2BV5KBAP3icy8W5VUoKHpjN%2FNzJVp0sWU%3D%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257801267918"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Bundle OEM Gray Controller Power AV Cords Tested Working",
+   "price": {
+    "raw": "$119.95",
+    "extracted": 119.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117477256482?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBS5YA695MF77JGQ7ZE&hash=item1b5a30ad22%3Ag%3A0oAAAeSwofFq18X3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Mjcyn%2B8o1V6cdyud5HOPU7u83vXIcX1RxWdR%2FJzjjb3RNExKjHbmc4Im7JcOqIBsiR%2BjcQKVMdb5Kh22Zja4y90lfewIZl0SAqHnQkUeUkVUjUqdamEesNQDg3AS%2BJFbFGGIFtrXSfqnsFGvWHW9jkzKiMp8il%2B4TiVREcMF2J4%2BfCnBefEBGSpAvr0%2F8fjZFGB%2BZOTHWembkWWbTm0I3kbPOePM3SiyzGf1JJ1RZpYQeGxZQ5eRLn26g7GMq2Vlvt1%2FwKavF8oquO%2B4FfFnb7A22IqAj%2BTrShCYLCEfXKGO%2FmuP3jXJfpLD4mG%2FX7V0%3D%7Ctkp%3ABFBMiKaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117477256482"
+  },
+  {
+   "title": "Tested N64 Charcoal Gray Console NUS-001 USA Power Supply and AV Cables",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327404293922?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBSMXZJN73YP2F2H7JA&hash=item4c3ad10f22%3Ag%3A9PkAAeSwVgdqzvla&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FlpZn0MZ9n0ClFuPHVqii%2BHLku2vDjOuiuhW0Ev1Le9fRefUoxEgSFi1v6PwLvxcuXBi124GtBDp%2Bc9wTDpkJOO8su6ebZynMM3XtQw7reCJM7m%2BoKeHXhjDo5atGTfGYL5nxnCrDJSoMXupPatGp8P3ctrcCe0zDyjPueTc84RJnvdfw%2FnoI%2BRau%2BZKhQgrbC83WckWjyE5xbGO%2B9AMq%2BzH3uyUs6l3RhhALqktkn0k1XNr6xA9Pbh96Ybzdnik3c9bzxhN%2BxFi7rK75mp%2FmruUqQ%2FB2XAzUfsyeKnLjerEPVFi9BNRwmfI9aawfy6uA%3D%7Ctkp%3ABFBMiKaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327404293922"
+  },
+  {
+   "title": "Nintendo N64 Console Funtastic Smoke Grey NUS-001 lot with controller",
+   "price": {
+    "raw": "$129.00",
+    "extracted": 129.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920077603715?_skw=Nintendo+64+console+grey&epid=100236331&itmmeta=01M6CBBJBTPPHJ5QS767GV5J4E&hash=itemd638e61383%3Ag%3AlBUAAeSwSMRq3-7P&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BwaWOXu%2B4oFex%2BgxeRIQGtUJr1OXI13bfTiC%2BZgf12dxn2kM%2BzRIePDoE8ME%2BxJaBeirZhV3sw97f2b2zV%2FQqQ1Igxljw%2BnibwMevK7yOAWDe4d6ovrU3y20ttIMgiToNkmCHwuyuy6CNch6O2PdbsfwoplhWL1%2FsOLs9hLYDUjT8RnLBbdfvobt3H%2FFy3qYzB5fHy%2BYkAplTz5RcE%2Bc5bGXBgGr8hEX3qVpQVwW1W%2BGqRSAKK7EQvitPPFR%2BtovUCyKMzeOrUZ4aph%2FpOCYyGsNFDyskE7B%2Bev6WxORjRDKGz7VfBFnOUYQAiCU3rr%2Bw%3D%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920077603715"
+  },
+  {
+   "title": "Authentic Nintendo 64 N64 Console System Bundle Clean with Controllers US Seller",
+   "price": {
+    "from": {
+     "raw": "$94.99",
+     "extracted": 94.99
+    },
+    "to": {
+     "raw": "$159.95",
+     "extracted": 159.95
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/146746518538?_skw=Nintendo+64+console+grey&var=445369632904&itmmeta=01M6CBBJBTYE09Z92JXF74DWQN&hash=item222ac62c0a%3Ag%3A5vIAAeSw%7EQpojdFS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8OtLmHfsxE6gF1WocbIBveBL1iDh%2BYf0nHBo8eV51837xqinK8wIdfndxJECVaA%2BzSeexISPUuU%2BTSDnvdh9Mg0qSXX%2BEaWCdbfvPpox1q%2F6Yue79FLLvxjDY9Rc6BXjWg6wQ9qVxhgfMRH9dB4h4VxrUDWt274yWzcRAv2Za1jv9T7agGIGtyHy3evrSV2stysecCN0%2FHUO%2FYKD%2BbitFe66alw418TZFvNCWucIBRNEqegMEqaFqjOlxw55LR%2B99PVB%2F%2BOLFLAAkH%2FMh8TIQm%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "146746518538"
+  },
+  {
+   "title": "Nintendo 64 Console NUS-001 W/ 1 Controller, Cables, Expansion Tested Works READ",
+   "price": {
+    "raw": "$99.95",
+    "extracted": 99.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366774555518?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBT3S7VYN79XEKJG664&hash=item556577937e%3Ag%3AdMcAAeSwtG5q5mZI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BN3HFLMORqFNwvBnMYJm8DHyRlX2EFUXUYUInkSEcgYqpPTWySFgcVcN3pZ7MmGYQ84buG3XQ3H1y%2FUogVdEVc3OIVVGRQhkY1eXqBpo8IGb6vGdHw0VQXz0okeGmFMNZNFJ9eX2XJoJyK1CMuiiGGrgIWq4USHmUH7uk%2BYPfxnhwX5f493iLF%2BwPuPQ%2FzxrSnSFoYOE4isCZ%2F9G1kiIbpG2VUURQnrAJaEJoTqIT7v9BFDAaZ3YPI53bL4sKC8CRM7CTMCpEvWHAPBsNYVE%2Bp%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366774555518"
+  },
+  {
+   "title": "Nintendo 64 N64 Charcoal Gray Console System Bundle 2 Controllers OEM Cords Pak",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128162727659?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBT9JE6AN4VM4B9GVH8&hash=item1dd71806eb%3Ag%3AHJgAAeSw26lq42y-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bwrdc4QJE%2BMP4lalT412i%2BpGQilJ6KdDcd3N3Rar%2F%2BsBb9dcTebDHZmXM5bMnnD8ImAEdF4420lrhlhULDYSJBsIY4p%2FL4KWNcFI1ULWrDUQWwkzXSdrI3DOH4X0Tsm2MFJTJ6N4tRDfYt%2BmPxRQ0cJ1nrJFsQ%2FkE5lvmykeNyVVYjmx2C%2BhUKdmgeQXkgGZVuts55UI%2BUam%2BjmFGMzaHpo0mpjqZlmRetfYreIlAajZdujwu4F5D4i6FVwQV%2FRCai8cXl2zsqObJOQ1G9N4vQTjD7H4hU5ogHxRrKOnZRYqAuXOoWCRMeXOlgrzyDy84%3D%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128162727659"
+  },
+  {
+   "title": "Nintendo 64 N64 Console System With Jumper Pak Bundle- Cleaned-Tested",
+   "price": {
+    "raw": "$84.35",
+    "extracted": 84.35
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327430119872?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBTW121JD2TRFCE7V6Q&hash=item4c3c5b21c0%3Ag%3A1ioAAeSwBVtq5FC-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9fAZtK0UD9TwalW90bWt1PmVwZKcNvXHuMw4TE1rHLdwmh7VOtrrRiBZNob7ZNOCsWuqLaFVELdI4OephLesLUz60TG5R2OjjqxISVYyhN6xIKXRI%2FGwV6Ce9YlXrLykyHQYWaG8iCmpO2HkHl4s3HCpqVE%2BhQ4h7jS7pqpyGuYRavWvj9YHwOH75LhAY5zupg%2B8GI4DeWZJ8Y%2FGdXrBE9Ta6tB5hko3wF4PfUTNtFoDCZN1RbVRLw2THrFFiclthIVIRpty%2FKjwawhrpDxSu%2F5B5BhpYxI47nH1aV9IzcZstcqfpP9djET3AJbsWihq0%3D%7Ctkp%3ABk9SR4imrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327430119872"
+  },
+  {
+   "title": "Nintendo 64 Console + Complete N64 Game Library Cartridge",
+   "price": {
+    "raw": "$160.00",
+    "extracted": 160.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128147580937?_skw=Nintendo+64+console+grey&epid=100236331&itmmeta=01M6CBBJBTDVM88GK0DD4SX4R8&hash=item1dd630e809%3Ag%3A%7ENkAAeSwWbBq2DEl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bjt%2B%2FWjtPmV%2BSGgVbcXdoI6GGeYiu17L6CX2J1FHXuBoQKTbZuCDxTKdykLCTLL1FVETaLRb2EEIu71zFVySa8Nf7Rw5%2BlRTXTcVY%2Bu7b2BCo2G2T5HzsWHGv8DoqvFnkvrUS3E8Z2fE76Ub5zvFi0bjQmGmXNLto1uBCPZxAeQLRghD%2FQVbburYo%2FfBhJqOYnYylSxn%2Bu2c1UTlt9GeR7tS7WeGsEl3A8gUPJN%2BKxGho%2BZUZyNFiAoC91LF%2FbT40xXBljFicBBgvGbWRuFtb7v%2FnpmjUKuWR9rwifMMYWK6JdrGz9fcnfUsbT5MgppQw%3D%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128147580937"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Only - Works, But No Jumper Pack",
+   "price": {
+    "raw": "$40.58",
+    "extracted": 40.58
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800846699523?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBTJHCYJXC8XKDF9E8F&hash=itemba762edc03%3Ag%3A9s8AAeSwwqpq4Xbe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8%2Bg2TXcnTV5UyWj4SgTu9frYzy3Aoxyc9u%2B4MmGy6XNHmeLvz6YBuyPqjJ%2BQD1yUwVSXq9JD%2FdmZMiOSf3vwH7t4N5wHUoKZxGr47V5kGKwSWs6tv1TI%2Bgee5AED%2Fg4inSAA2kIV%2FMy%2FhKexmwf4H9%2FjWYl%2BhU4Zk59%2BrQcLei39PCioZWd6lxmeu0qhJxOiO9iB09%2F7lqsbEu1QX3b7wJO8wPohCQog1U%2Br8Y%2BnivUpcOkw4%2BzQuUNCo7m5vSfmbJBtBuSiimqLDZdlixzJxe%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800846699523"
+  },
+  {
+   "title": "Nintendo 64 Console N64 Gray Tested Works Model NUS-001 USA Grey",
+   "price": {
+    "raw": "$72.99",
+    "extracted": 72.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920052491891?_skw=Nintendo+64+console+grey&epid=1754291509&itmmeta=01M6CBBJBTGSW27XGA9TNS9YJE&hash=itemd63766e673%3Ag%3AIQUAAeSw6z1q1XIi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9zbj8MmFYWno%2FM0i1ED5TJJFJoNh07U9woj6sJ0%2Bvqfe%2BqD%2BPyWqT%2FkrsVd82CkirFblTYTX77vDPogrRzEUzxmVlQ7fTDqbYxFqSaomiWWWHWMfWfXlPMu0DUTepnjhefbxbP8dSOpA%2Bf1LWdOrKs9nClNkUhpK%2FXSBlMtWV345fp2roaphaMN4UFadbDkovv%2F1K9xg95U95cWZXhnAGoYjU36RHomUSyoE3TWG8zWQJR9ydGIQJzbY70XeSct47CxTSPafMZSR6d%2BEeHIOsnVXefWiomm7nbdD3FMGu%2F4jfhTqBGJssLLvB9vSrL2kY%3D%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920052491891"
+  },
+  {
+   "title": "Nintendo 64 Gray Console With Box Tested Works! CIB Fast Shipping Authentic",
+   "price": {
+    "raw": "$189.99",
+    "extracted": 189.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307256859675?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBVG9MM4AX6RP7J5Z6R&hash=item4789ef9c1b%3Ag%3Arn8AAeSwjW5q5Hdr&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde81wQPyZh%2FyWuvimBh1IQmnVySR82XWZjkhxpgV1o8VHxryq5KlY70LKMtCS%2BBpy37ur4eyvWTS24xnJEGdMIuohOuQC2uWsdZuhW63NDRiATNDaUnD63Mj6E2p4K7TyzcxBJEr4nsfyVzrcCC2pg3yRYWb4F29CT0N9vg%2BPKPcD1yGOBCc3MypsK%2FNQRJIydCRz%2FJuioLqufgLFYl%2F9CxGgDjYjvinc6hNbdid1I3f82nXqp3NDyoqsiJdBDs62AFGFqgWpSz5cPrkOrWCZF87%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307256859675"
+  },
+  {
+   "title": "Nintendo N64 console bundle With 1 Game And 1 Controller Gray Tested",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257800982488?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBV2WH713TE4JTNCEMF&hash=item3c0622cfd8%3Ag%3AR4IAAeSwm2ZpmIYy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FL3rGOttKuBDBCuYqw5ujhK9zPEjciUueAzLncnDgkHHxpasOugRh5PUgfvjWM%2F4d%2FxGL9R3y9bbJosdo%2BU5v3txAw9vA9rWHg4VYY4eOG99PbpjYCyVIENw%2FqEHILzuWr%2FB5uYMTZS3GOZzYhqXPVZ0x7PpY7CYJTk7%2BdNUe74HkRqQ%2Fyy9LJW%2BXpxAqW7cQrf0lGZq1bggv9IM7WT4onQMm%2B3z9Ff8avHvOXwi%2BAuDpvt%2FMsRXhSr5phtIuOgOAihyO8K5bO8eDkoFphLEaKtTTwGermsRZiFPFeat9m3qBXjWpQlnMELb0ZtYRazpQ%3D%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257800982488"
+  },
+  {
+   "title": "Nintendo 64 N64 Console Bundle Expansion Pak 4 Controllers Cables Tested Working",
+   "price": {
+    "raw": "$109.99",
+    "extracted": 109.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407311925358?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBVVMTB0ZBQYD7DHW7J&hash=item5ed5aec06e%3Ag%3An10AAeSw9yFq26Fe&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FqiWNPNhT2RATY95vTiWOFM5gUOgpdLQIYzl2%2FQFWPLuVaHQhktXR9ooG1lob87djEHHQT0UMQC3tQnYcgdS8GwEjQgBFiR9DO3CPdaucBnQxLkEXiNbNJipeaQzEw7E9rKomQIaawjtr3HWQ3Xtwz%2BG0TJF%2F7NHixAP8IgVurtOx2RqsPaYPn6MAOztR554gWv%2FnFPw%2FiPdw6qbgiWV2gNBrsq2Udo5tc6pMlCXxT3zi4vv6jutf%2FZ6jo4n9j8vtLdScfmf5TgWJMker6PHVYtGEoyORDalW0mbicaUnn2UKdm4RQzo6YJpRQ4hcmUxw%3D%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407311925358"
+  },
+  {
+   "title": "Nintendo 64 Video Game Console Tested And Working",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920083147869?_skw=Nintendo+64+console+grey&epid=2284516042&itmmeta=01M6CBBJBV55V47DQK50P1798Q&hash=itemd6393aac5d%3Ag%3AZ2cAAeSwMVVq4oxD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F3Al9xxuJH0jP4h4yXB1ZQETz6poNeSvV4bMJBfAY1DIf%2BN8nf%2FuaCH%2Bn3k1csBLHexY42FsAQ6coZPf6GhnzaB%2F3EaLGRCPxWsbZX6VD5LRLL87yxnc8kuSP5o8%2B%2FGtnhW8xtyU9FVP8cVp21kFxKHye3TiI%2FP6uvKvs9GlQGrgRvIZOKsg5siAh66PqAQBsjYCN%2BxKgY1fWdht9WkICagOpub8xF212QRgjqoqPAg8MH25hGXTk6nPFkGt7clLbRh8gUymtyT%2FVAAAASuazPYDf2V%2FQvA%2B57OzZAyPzh96eAwv34D5Qow4UKdbFkmcM%3D%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920083147869"
+  },
+  {
+   "title": "Nintendo 64 N64 Gray Console Bundle w/ Controller Power Supply AV Cable & 5 Game",
+   "price": {
+    "raw": "$161.99",
+    "extracted": 161.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407199826165?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBV4DG6ANJQEYHRJ8MN&hash=item5ecf0040f5%3Ag%3Aso8AAeSw14xqnvxm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F6y7eAD9xrEc9bX7Wj5A74uNuQPOensx0txad%2FnSBDQxNsrtqxrXS0OZ%2BFqzLVLg8DtKBjRYU7bYteeAOqJk6rncobdiIGchkEeMnVmZFOdKmS0y5Ds73lnPaBXB5peBcfrsHKIWQW%2BZ3H%2BOLLNHzXWlmvBbOWZTmjg%2BDYNk2IWAJat%2B1rcbr0Hg0aYb5uqB%2B5cIz3TOl%2FGxtLDwcd41jaFczP90n4Nl948JB%2FCEdyeLAnBdpGvM3rbdfC%2Bn0AWXYkvncrmAvPZc8igNOoJmESTD0Dg1xqtx6gnZq4IdSH3f3F61IbkQuxMgRBgPQBd74%3D%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407199826165"
+  },
+  {
+   "title": "N64 Console Only",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407330342015?_skw=Nintendo+64+console+grey&epid=1754291509&itmmeta=01M6CBBJBV95PSGE1B33X31RN9&hash=item5ed6c7c47f%3Ag%3AwRgAAeSwPtFq5rzL&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BnVN9lw7QJRaKJZqwLIho4CfjhrUe4Qtpfc5MAajwLY%2FIlB3TQBeNsYUSAler5dj8LuW8cZa5kOFmXWuzD0PX8CgdNeucz%2BzgtRqqJSxXr0ijF%2FgVtq7Fhgw%2BXn5Bed2ujOnddtnwjJoV9JuPuM4XO8SHRSBLFYx900T7GeXQ6k7%2BAq0skzmGD8Wkkc9oUmhQT8JRAbSc8RCGP88F18r7xijamQ%2B5tUYhOAgkjCfSNKd91JibVo7K6vDtT1PfY8uqNVFU2cLWNKXeXFh7sFDzK%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407330342015"
+  },
+  {
+   "title": "Nintendo N64 Console Gaming System NUS-001 Gray",
+   "price": {
+    "raw": "$84.99",
+    "extracted": 84.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298695912402?_skw=Nintendo+64+console+grey&epid=787664609&itmmeta=01M6CBBJBVG2HKSVF2BQVR8JSZ&hash=item458ba9ebd2%3Ag%3AEMkAAeSwCZ5qsYuN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BORAiD2axoGk5JkMh1ZpIMS%2FsFIIU%2BHS0LAPm0XHwgxEVJnFJPhXH82lsfVSZe%2FV8Cc2xs5mK5GoWVUSnFNF%2B1HOOyLKnpzgbDDuzPMzNiB2XnD4ikUMr%2Fdnv82KKO2RnNfltjMTIZyEgP0Q%2Bnm2d%2BHoYjwhAWzlD8Dhpyo9iaBXxXftZjAHo4cfey5VQhk9aNUDDFSetzPpb8llIqs1OsCDEhxC%2BpTui1ANmJ7hSrmKiZdusHhAoA9QhK0UJ51qCPCdmuCHqI6%2Btzn8uF1K9a%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298695912402"
+  },
+  {
+   "title": "N64 console (working) 5 games, grey, controller, jumper pack, AV & power cords",
+   "price": {
+    "raw": "$140.00",
+    "extracted": 140.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820285631307?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBVVM0C7HBKCV5GBFR6&hash=itembefcd56b4b%3Ag%3AWfwAAeSwP1pq4Tia&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9a%2BEs%2Bt7t3mahOrfRUvywzucMCUfUJ4pNG7yp6D5cF3gumvj9%2FwP%2FDQgWEdDZrMYv3wyKTGf1EK8bva4y5MFwgCKuYNwAgxS%2BknbgB3X1Xuja6fQIwn9OkFnbK9xfBB4F4k8zKAaHIeRAqE8t7CZF%2BKpu7zNla719rZB1PwPKGdjMekY%2BAbnRcTKCWvVlqhQ3oqlcqi74PEhgkLSqsRETje2nYt%2FoYBgZbhfXuBVRXUmRbA64MEyErAUBpZL556%2BtiooIuYib9PHWSRJmtLH7Z%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820285631307"
+  },
+  {
+   "title": "Nintendo 64 (N64) Console Bundle W/Game, Remote, Expansion Pak & Cables: Tested!",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227584666455?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBWT86TGVBR9A70D99A&hash=item34fd1a6b57%3Ag%3AKu8AAeSw%7El9q37QZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B5L3tZ119%2FlNB8Ng4niHS%2FtcqohH%2FGvE9zrgnSiZeW8goV6igZHqpGu25wNk6tcw95EC2u9%2FbMsGV3pDY9Yy7KQJfSiZS%2Be5eK4D3v1koCuiau%2F%2B7i0TsTNfzE%2FrI3bSiB3GDaqq0raq98K5cH5PDPKLQRm4%2BlRUJVewtsNLuc6vZCoUBw4PIcg80LCjsYiPXcs%2F2HryEtMrqGcjU%2F7jyHcblYY%2B68rr6RQ7VPy4Gv9YpGVUTvnQ2ChmmyQCjjh7cYY7PShfftFo1vZmabPbQQnuZJEErLWRp%2Ftm7u78qsov8WFzG3oAMmZeTuejYWknE%3D%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227584666455"
+  },
+  {
+   "title": "Nintendo 64 Console Charcoal Gray OEM Controller AV Cables AC Adapter- Tested",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267827727328?_skw=Nintendo+64+console+grey&itmmeta=01M6CBBJBWQPRF2CMB1TC7KMNA&hash=item3e5bc6cbe0%3Ag%3AYtUAAeSwVKBq4-dY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8sq850oSvAOsLs5Ak8lam0NzrVM8dJwzXOF2LEW4117hh%2F4Kb7ENH7GwrfzuBXyMPGy36A4cQQFgE9%2Ffz9wLGGIf7UndVa6hGd8hFjHGHsD5jjX0%2FNdrsSONsXrMr%2Fzyl76rS7D9kuDd4jFmeu0IT%2F5ObDSl1dD47GqWVgaziJ9MY6jLQP2ssfUrWlXoQRHTZPLIFkBQwyZSsPsxqf93TwkoutLlG02%2BSih0BG5kDWlhDMLbQXI5Ij36fXyY7Ms1vArqa2uCvKELSPvotFSbS7vbiTsltRCQ92mqLUKIiul43sLOWWBh2kbbnntHvNrBg%3D%7Ctkp%3ABk9SR4qmrouzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267827727328"
+  },
+  {
+   "title": "Nintendo 64 N64 Console System Bundle + Up To 4 Controllers! 100% OEM Authentic!",
+   "price": {
+    "from": {
+     "raw": "$89.95",
+     "extracted": 89.95
+    },
+    "to": {
+     "raw": "$199.95",
+     "extracted": 199.95
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/297834828166?_skw=Nintendo+64+console+grey&var=595102493379&itmmeta=01M6CBBJBWBTG5J0BD8X6CD40Y&hash=item455856d186%3Ag%3Aa1YAAeSwMIJpOhk2&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F95MhraSlCM4r34y9TpCXsUVwSxhuiQCpL6F4C3DQAUpSJSBcEEfX9j1D2IsvtC%2For8rEtzWbqSbbGBjHsjo81slz%2FL1dDLBjk%2BkJrcBw%2Bc4Qfb%2BV2%2FAyaG4CPa%2FrL28OK4dneuGrpVh0eD%2FJGlsQYGZ4oM1Q%2BSPVis4hU9JG9NaQhMGJ4PxIRXPHd33wJ1SJ3pt6Z7p6mx1uR8arybLG1KKaWCrjNSJlzI5Tqnp2BtrQEaTBidulo7bUnc7f2PBQUIMmWY4G1FBIaoGGge4Zz7jgWjF2lnL0xSnm88qWzig%3D%3D%7Ctkp%3ABFBMiqaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "297834828166"
+  },
+  {
+   "title": "Nintendo 64 Home Console -Charcoal Black Tested",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840031618327?_skw=Nintendo+64+console+grey&epid=110635016&itmmeta=01M6CBBJBWGVCV5SMEEECVR11B&hash=itemc395c94517%3Ag%3AYBQAAeSw6z1q09LQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9pIx3ONHJNtppMe5zdHKoN5XjWtTwMkhfK7flmoOHPuds72ULd3IcxNZi4zxCe3iK0oal%2BS2kp7haC7L6viuWZHzk6LABpMMpIxOgEA8RJ6%2BjNeQJC1ztS0jNusKgnxC%2F0P3gVXlhmwGTiHuXueoQU2j61z7LYZBh0%2BdaIxeFaRGshTBzNHe%2BCzt%2FmszEJhZ7wB37jMN0jov89mJJZlcdRhxY0zyJ1u0yTXYm0JuyeHmrEzP0wggGH9UP8%2BRH5YXF3MtPM0%2FFEOsmbZ99gNSXvJ7bwDv%2FU73sSRJQlWGecPH04A%2B%2Fl9auILK4nbMXeMDA%3D%7Ctkp%3ABFBMiqaui7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840031618327"
+  }
+ ]
+}

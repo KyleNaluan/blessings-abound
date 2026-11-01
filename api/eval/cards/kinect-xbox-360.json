@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Microsoft",
+    "product": "kinect sensor",
+    "visible_text": "XBOX 360",
+    "search_query": "Xbox 360 Kinect motion sensor",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Kinect for Xbox 360",
+    "platform": "Xbox 360"
+  }
+}

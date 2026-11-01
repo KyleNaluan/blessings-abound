@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "game cartridge",
+    "visible_text": "NINTENDO DS, POKéMON BLACK VERSION, TWL-IRBO-EUR",
+    "search_query": "Pokemon Black Version Nintendo DS cartridge",
+    "model_confidence": "high",
+    "color": "red",
+    "material": "plastic",
+    "exact_model": "Pokemon Black Version",
+    "platform": "Nintendo DS"
+  }
+}

@@ -10,18 +10,18 @@ These items had no part in tuning the rules, so this table is the result.
 
 | Method | Items | Priced | In range | In-range rate | Median error | Median high over low |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pipeline | 15 | 15 | 12 | 80.0% | 11.6% | 2.08 times |
-| Baseline, raw asking prices | 15 | 15 | 8 | 53.3% | 23.8% | 1.94 times |
-| Pipeline at the baseline's 25th to 75th percentiles, not a rule | 15 | 15 | 11 | 73.3% | 11.6% | 1.66 times |
-| Pipeline with the factor undone, not a rule | 15 | 15 | 13 | 86.7% | 14.5% | 2.08 times |
+| Pipeline | 30 | 30 | 21 | 70.0% | 19.7% | 2.27 times |
+| Baseline, raw asking prices | 30 | 30 | 14 | 46.7% | 31.2% | 2.00 times |
+| Pipeline at the baseline's 25th to 75th percentiles, not a rule | 30 | 30 | 18 | 60.0% | 19.7% | 1.67 times |
+| Pipeline with the factor undone, not a rule | 30 | 30 | 20 | 66.7% | 24.8% | 2.27 times |
 
 The pipeline beats the baseline on in-range rate: yes.
 At the baseline's percentiles, so with a range as narrow as the baseline's, it beats the baseline on in-range rate: yes.
 The pipeline beats the baseline on median error: yes.
-The pipeline's typical price is closer than the baseline's on 11 of 15 items, and chance alone splits them at least that unevenly 11.8% of the time.
-Before the ask-to-sale factor, the pipeline's typical asking price is a median 1.06 times the reference.
-Item cards that would have stopped for staff confirmation: 1 of 15.
-Searches spent on these items: 15 of 42.
+The pipeline's typical price is closer than the baseline's on 21 of 30 items, and chance alone splits them at least that unevenly 4.3% of the time.
+Before the ask-to-sale factor, the pipeline's typical asking price is a median 1.16 times the reference.
+Item cards that would have stopped for staff confirmation: 1 of 30.
+Searches spent on these items: 30 of 42.
 
 ## Tuning data: the first 18 games and hardware items
 
@@ -42,7 +42,7 @@ The pipeline's typical price is closer than the baseline's on 8 of 18 items, and
 Before the ask-to-sale factor, the pipeline's typical asking price is a median 1.06 times the reference.
 Item cards that would have stopped for staff confirmation: 0 of 18.
 
-Searches saved for this evaluation: 33 of 80.
+Searches saved for this evaluation: 48 of 80.
 
 ## How the rules were tuned
 
@@ -101,6 +101,21 @@ Prices were recorded by hand from each linked page, on the date shown, and the s
 | The Legend of Zelda for NES, cartridge only | $34.95 | [PriceCharting](https://www.pricecharting.com/game/nes/legend-of-zelda), loose, 4 sales per day | 2026-11-01 | $15.97 to $23.49 | $22.56 | no | 35.5% | $19.99 to $40.24 | $24.99 | yes | 28.5% |
 | Pitfall! for Atari 2600, cartridge only | $14.00 | [PriceCharting](https://www.pricecharting.com/game/atari-2600/pitfall), loose, 1 sale per day | 2026-11-01 | $12.42 to $23.16 | $15.63 | yes | 11.6% | $14.99 to $26.99 | $18.54 | no | 32.4% |
 | Donkey Kong for ColecoVision, cartridge only | $6.88 | [PriceCharting](https://www.pricecharting.com/game/colecovision/donkey-kong), loose, 2 sales per week | 2026-11-01 | $6.01 to $14.27 | $9.40 | yes | 36.6% | $7.00 to $15.36 | $10.00 | no | 45.3% |
+| Mario Kart: Double Dash!! for GameCube, disc only | $54.34 | [PriceCharting](https://www.pricecharting.com/game/gamecube/mario-kart-double-dash), loose, 3 sales per day | 2026-11-01 | $60.06 to $80.60 | $65.80 | no | 21.1% | $65.00 to $85.00 | $75.00 | no | 38.0% |
+| Super Smash Bros. Melee for GameCube, disc only | $49.25 | [PriceCharting](https://www.pricecharting.com/game/gamecube/super-smash-bros-melee), loose, 3 sales per day | 2026-11-01 | $22.26 to $146.75 | $61.10 | yes | 24.1% | $34.96 to $143.71 | $106.50 | yes | 116.2% |
+| Pokemon Black for Nintendo DS, card only | $76.47 | [PriceCharting](https://www.pricecharting.com/game/nintendo-ds/pokemon-black), loose, 3 sales per day | 2026-11-01 | $54.42 to $122.17 | $91.63 | yes | 19.8% | $67.50 to $123.32 | $99.95 | yes | 30.7% |
+| Pokemon Red for Game Boy, cartridge only | $54.50 | [PriceCharting](https://www.pricecharting.com/game/gameboy/pokemon-red), loose, 8 sales per day | 2026-11-01 | $43.62 to $94.00 | $62.51 | yes | 14.7% | $48.00 to $75.00 | $63.99 | yes | 17.4% |
+| Super Mario Bros. for NES, cartridge only | $15.00 | [PriceCharting](https://www.pricecharting.com/game/nes/super-mario-bros), loose, 4 sales per day | 2026-11-01 | $46.53 to $219.93 | $84.55 | no | 463.7% | $89.99 to $169.99 | $129.00 | no | 760.0% |
+| Tetris for Game Boy, cartridge only | $14.40 | [PriceCharting](https://www.pricecharting.com/game/gameboy/tetris), loose, 6 sales per day | 2026-11-01 | $67.68 to $106.22 | $84.60 | no | 487.5% | $60.00 to $149.99 | $92.50 | no | 542.4% |
+| Super Mario 64 for Nintendo 64, cartridge only | $38.76 | [PriceCharting](https://www.pricecharting.com/game/nintendo-64/super-mario-64), loose, 6 sales per day | 2026-11-01 | $45.48 to $93.98 | $69.55 | no | 79.4% | $64.99 to $129.00 | $84.95 | no | 119.2% |
+| Neo Geo AES console | $983.73 | [PriceCharting](https://www.pricecharting.com/game/neo-geo-aes/neo-geo-system), loose, 1 sale per year | 2026-11-01 | $28.19 to $251.45 | $101.07 | no | 89.7% | $52.48 to $233.92 | $127.00 | no | 87.1% |
+| TurboGrafx-16 console | $186.54 | [PriceCharting](https://www.pricecharting.com/game/turbografx-16/turbografx-16-system), loose, 1 sale per week | 2026-11-01 | $129.22 to $491.15 | $239.70 | yes | 28.5% | $221.50 to $447.50 | $299.99 | no | 60.8% |
+| Nintendo Virtual Boy console | $398.68 | [PriceCharting](https://www.pricecharting.com/game/virtual-boy/virtual-boy-system), loose, 1 sale per week | 2026-11-01 | $293.27 to $488.24 | $329.00 | yes | 17.5% | $325.00 to $581.25 | $374.99 | yes | 5.9% |
+| Atari Jaguar console | $472.79 | [PriceCharting](https://www.pricecharting.com/game/jaguar/atari-jaguar-system), loose, 1 sale per week | 2026-11-01 | $46.99 to $517.00 | $71.74 | yes | 84.8% | $71.24 to $550.00 | $210.00 | yes | 55.6% |
+| Wii Balance Board | $21.50 | [PriceCharting](https://www.pricecharting.com/game/wii/wii-balance-board), loose, 2 sales per week | 2026-11-01 | $20.82 to $38.45 | $28.20 | yes | 31.2% | $24.99 to $41.44 | $30.98 | no | 44.1% |
+| Kinect sensor for Xbox 360 | $13.52 | [PriceCharting](https://www.pricecharting.com/game/xbox-360/kinect-sensor), loose, 1 sale per month | 2026-11-01 | $6.20 to $18.18 | $12.21 | yes | 9.7% | $7.28 to $19.99 | $12.99 | yes | 3.9% |
+| PlayStation 2 8MB memory card, red | $8.43 | [PriceCharting](https://www.pricecharting.com/game/playstation-2/8mb-memory-card-red), loose, 1 sale per month | 2026-11-01 | $7.96 to $21.95 | $12.97 | yes | 53.9% | $10.20 to $22.18 | $14.08 | no | 67.0% |
+| Guitar Hero Les Paul wireless guitar for Xbox 360 | $65.74 | [PriceCharting](https://www.pricecharting.com/game/xbox-360/guitar-hero-wireless-les-paul-controller), loose, 1 sale per month | 2026-11-01 | $17.00 to $47.00 | $28.20 | no | 57.1% | $24.71 to $49.99 | $35.00 | no | 46.8% |
 
 ### Tuning items
 
@@ -144,6 +159,21 @@ Prices were recorded by hand from each linked page, on the date shown, and the s
 | The Legend of Zelda for NES, cartridge only | fresh | gold video game cartridge | low | 1 | 38 | high | no |
 | Pitfall! for Atari 2600, cartridge only | fresh | Activision Pitfall Atari 2600 cartridge | high | 1 | 40 | high | no |
 | Donkey Kong for ColecoVision, cartridge only | fresh | Colecovision Donkey Kong cartridge | high | 1 | 46 | high | no |
+| Mario Kart: Double Dash!! for GameCube, disc only | fresh | Nintendo GameCube Mario Kart Double Dash game | high | 1 | 26 | high | yes |
+| Super Smash Bros. Melee for GameCube, disc only | fresh | Nintendo Super Famicom console black | high | 1 | 30 | low | check |
+| Pokemon Black for Nintendo DS, card only | fresh | Pokemon Black Version Nintendo DS cartridge | high | 1 | 52 | high | yes |
+| Pokemon Red for Game Boy, cartridge only | fresh | red Nintendo Game Boy game cartridge | medium | 1 | 50 | high | yes |
+| Super Mario Bros. for NES, cartridge only | fresh | Nintendo NES console | high | 1 | 17 | medium | yes |
+| Tetris for Game Boy, cartridge only | fresh | Nintendo Game Boy Tetris game | high | 1 | 13 | high | yes |
+| Super Mario 64 for Nintendo 64, cartridge only | fresh | Nintendo 64 console grey | high | 1 | 30 | high | yes |
+| Neo Geo AES console | fresh | SNK Neo Geo Mini console | high | 1 | 43 | low | check |
+| TurboGrafx-16 console | fresh | TurboGrafx 16 console TurboPro controller | high | 1 | 31 | medium | yes |
+| Nintendo Virtual Boy console | fresh | Nintendo Virtual Boy console | high | 1 | 25 | high | yes |
+| Atari Jaguar console | fresh | Atari Jaguar game console controller | high | 1 | 20 | low | check |
+| Wii Balance Board | fresh | Nintendo Wii Dance Pad | high | 1 | 28 | high | no |
+| Kinect sensor for Xbox 360 | fresh | Xbox 360 Kinect motion sensor | high | 1 | 29 | high | no |
+| PlayStation 2 8MB memory card, red | fresh | Sony PlayStation 2 8MB Memory Card Red | high | 1 | 50 | high | no |
+| Guitar Hero Les Paul wireless guitar for Xbox 360 | fresh | Guitar Hero guitar controller black | high | 1 | 43 | medium | no |
 | Nintendo Switch console, red and blue Joy-Con | tuning | Nintendo Switch Joy-Con controllers neon blue red dock | high | 1 | 41 | low | check |
 | PlayStation 4 500GB console | tuning | Sony PlayStation 4 console | high | 1 | 33 | medium | yes |
 | Xbox 360 S console | tuning | Xbox 360 console black controller | high | 1 | 20 | high | yes |
@@ -182,6 +212,21 @@ Prices were recorded by hand from each linked page, on the date shown, and the s
 | The Legend of Zelda for NES, cartridge only | fresh | [The Legend of Zelda - Golden Catridge.jpg](https://commons.wikimedia.org/wiki/File:The_Legend_of_Zelda_-_Golden_Catridge.jpg) | Dave or Atox | CC BY 2.0 |  |
 | Pitfall! for Atari 2600, cartridge only | fresh | [Cartucho de Atari 2600 del juego Pitfall.jpg](https://commons.wikimedia.org/wiki/File:Cartucho_de_Atari_2600_del_juego_Pitfall.jpg) | JoRgE-1987 | CC BY-SA 4.0 |  |
 | Donkey Kong for ColecoVision, cartridge only | fresh | [Donkey Kong Cartridge.jpg](https://commons.wikimedia.org/wiki/File:Donkey_Kong_Cartridge.jpg) | Onderwijsgek, cropped by another Commons user | CC BY-SA 2.5 nl | The photo shows a PAL cartridge, and the price page is the US release. |
+| Mario Kart: Double Dash!! for GameCube, disc only | fresh | [Mario Kart Double Dash disc 20050606.jpg](https://commons.wikimedia.org/wiki/File:Mario_Kart_Double_Dash_disc_20050606.jpg) | The original uploader was Schmitt at Portuguese Wikipedia. | CC BY-SA 3.0 | The photo shows the disc beside a second disc lying face down and a pen, and the price is for one disc. |
+| Super Smash Bros. Melee for GameCube, disc only | fresh | [Super Smash Bros. Melee in a Gamecube.jpg](https://commons.wikimedia.org/wiki/File:Super_Smash_Bros._Melee_in_a_Gamecube.jpg) | Maxime Lorant | CC BY-SA 4.0 | The photo shows the disc inside an open GameCube, and the price is for the disc. |
+| Pokemon Black for Nintendo DS, card only | fresh | [Pokémon Black Version Translucent Cartridge Demonstration.jpg](https://commons.wikimedia.org/wiki/File:Pok%C3%A9mon_Black_Version_Translucent_Cartridge_Demonstration.jpg) | Peter Placzek | CC BY-SA 4.0 | The photo shows a European card held up to a light, and the price page is the US release. |
+| Pokemon Red for Game Boy, cartridge only | fresh | [Cartucho Pokémon Edición Roja. Parte trasera.jpg](https://commons.wikimedia.org/wiki/File:Cartucho_Pok%C3%A9mon_Edici%C3%B3n_Roja._Parte_trasera.jpg) | MarianoBrajoy | CC BY-SA 3.0 | The photo shows the back of a Spanish cartridge with no title on it, and the price page is the US release. |
+| Super Mario Bros. for NES, cartridge only | fresh | [Super Mario Bros Nintendo trasera.jpg](https://commons.wikimedia.org/wiki/File:Super_Mario_Bros_Nintendo_trasera.jpg) | Emilio J. Rodríguez Posada | CC BY-SA 4.0 | The photo shows the back of a European cartridge with no title on it, and the price page is the US release. |
+| Tetris for Game Boy, cartridge only | fresh | [Game Boy with Tetris cartridge.jpg](https://commons.wikimedia.org/wiki/File:Game_Boy_with_Tetris_cartridge.jpg) | Studio Alijn | CC0 | The photo shows a Game Boy beside the cartridge, and the price is for the cartridge. |
+| Super Mario 64 for Nintendo 64, cartridge only | fresh | [Nintendo 64 with a Mario 64 cartridge (7973388038).jpg](https://commons.wikimedia.org/wiki/File:Nintendo_64_with_a_Mario_64_cartridge_(7973388038).jpg) | Digital Game Museum | CC BY 2.0 | The photo shows the cartridge in a console, and the price is for the cartridge. |
+| Neo Geo AES console | fresh | [Neo-Geo-AES-FL.jpg](https://commons.wikimedia.org/wiki/File:Neo-Geo-AES-FL.jpg) | Evan-Amos | Public domain |  |
+| TurboGrafx-16 console | fresh | [TurboGrafx16-Console-Set.jpg](https://commons.wikimedia.org/wiki/File:TurboGrafx16-Console-Set.jpg) | Evan-Amos | Public domain |  |
+| Nintendo Virtual Boy console | fresh | [Virtual-Boy-wController.jpg](https://commons.wikimedia.org/wiki/File:Virtual-Boy-wController.jpg) | Evan-Amos | Public domain |  |
+| Atari Jaguar console | fresh | [Atari-Jaguar-Console-Set.jpg](https://commons.wikimedia.org/wiki/File:Atari-Jaguar-Console-Set.jpg) | Evan-Amos | CC BY-SA 3.0 |  |
+| Wii Balance Board | fresh | [The Wii-Fit Board.jpg](https://commons.wikimedia.org/wiki/File:The_Wii-Fit_Board.jpg) | Ryo | CC BY-SA 2.0 |  |
+| Kinect sensor for Xbox 360 | fresh | [Kinect sensor for Xbox 360 (2015-12-28 16.26.04 by Antonio Roberts).jpg](https://commons.wikimedia.org/wiki/File:Kinect_sensor_for_Xbox_360_(2015-12-28_16.26.04_by_Antonio_Roberts).jpg) | Antonio Roberts from Birmingham, Britain | CC BY-SA 2.0 | The photo shows the sensor with its power adapter. |
+| PlayStation 2 8MB memory card, red | fresh | [PlayStation 2 red Memory Card.JPG](https://commons.wikimedia.org/wiki/File:PlayStation_2_red_Memory_Card.JPG) | Santeri Viinamäki | CC BY 4.0 |  |
+| Guitar Hero Les Paul wireless guitar for Xbox 360 | fresh | [Guitar Hero 3 - black controller for Xbox 360.jpg](https://commons.wikimedia.org/wiki/File:Guitar_Hero_3_-_black_controller_for_Xbox_360.jpg) | Chipotlehero at English Wikipedia | Public domain |  |
 | Nintendo Switch console, red and blue Joy-Con | tuning | [Nintendo-Switch-Console-Docked-wJoyConRB.jpg](https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg) | Evan-Amos | Public domain | The price page is the gray Joy-Con model, because PriceCharting has no page found for this color. |
 | PlayStation 4 500GB console | tuning | [PS4-Console-wDS4.jpg](https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg) | Evan-Amos | Public domain |  |
 | Xbox 360 S console | tuning | [Xbox-360S-Console-Set.jpg](https://commons.wikimedia.org/wiki/File:Xbox-360S-Console-Set.jpg) | Evan-Amos | Public domain | The price page is the 250GB model, and the photo does not show the storage size. |

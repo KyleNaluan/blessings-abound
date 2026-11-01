@@ -1,0 +1,625 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Nintendo Super Famicom console black",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 228,
+ "organic_results": [
+  {
+   "title": "Nintendo Super Famicom SFC Console w/ Super Mario World [Recapped]",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960108056484?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDNJDK3FS01ARWS3VEA&hash=itemdf8ae64fa4%3Ag%3A01QAAeSw6Ltq3EN-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FbHf%2FSMl%2FmeMMTp9HN7mv%2B9zLKpmalG4i43gO8hM1U7JQ9v9ec5IYhz0Zv0T5GIXUmCYC7qg54jxHkrtaBjoX5gPTVLTdIBWWmks9iDWm%2FBHvWJXOm4bmQ04fRQ8zQXXaYx9q%2B6RRQbTo5tZTxjbOPyKGtwwNZbY35iwWl1AaFwBeT4qKtsVTJnCYkBEQ71ZZCNQU03xmduZ53JLuSDw1RggUFrdFn5sA40DNX6avUmpuVENMFTsU5nVAmq%2Bdplco3T2oIoO0yVh7Wf3nBM9g7QxPQQQgJxFCUsfulLl9aA6i%2Bp%2Bs2p929poUatWyBuzc%3D%7Ctkp%3ABk9SR5Snq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960108056484"
+  },
+  {
+   "title": "Nintendo Super Famicom Console Bundle Lot + 11 Good Rare Games 👀",
+   "price": {
+    "raw": "$225.00",
+    "extracted": 225.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188974200779?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDN1YDJ8RVHRQYEVE5T&hash=item2bffbd77cb%3Ag%3AAcgAAeSw7k1qs%7E0d&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9MQ%2FV79sWLqnmoJBBqeoUcg9AiTs4cuID5CZExPxw%2BLLyZxsynlI9lE%2FJ931g6xPPdWXptsq5Cc08YfzlzqHIl2DqCHfDoEg4Tekxzo2Ax6UcJqiKIb8yfRSbhdZ2Pr6Z0KAo%2FMl5LCKDxWkKkv8C5gF0e%2F33ei55rHOLwhgIvGs60opm82mYC%2FqjBEAEO5RMRgqOXcqIKLPHUDqQmbZno30mM9E3MSDnMPwgB9dsDS98tS%2FoInXT0D7NLSJ8Ae%2B2fEzSyqHp9mjiWOvVwCrw9BAbBjNt0F5RCgRh4H8qQ2%2FJ1U6NCf5YuO1m5jy1CTyM%3D%7Ctkp%3ABFBMlKeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188974200779"
+  },
+  {
+   "title": "Nintendo Super Famicom Console Bundle 12 games 2 controllers & cables SNES Japan",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336520918290?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDNRMQPSEXP46V8R0ZY&hash=item4e5a35b512%3Ag%3AG3AAAeSwkXVp0zfI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BGcs64hesJaWwG9gnh1Ze6ASUnNfXkoBTNIQMGA%2BAdPIAejxJLjM6MJaOgN%2BWkLoNFD1mhxgMt56YdFmkGDf5CLs8SRFf0rl6SPoYIdMiqgPHamWO42r7V2f8TBLG7RVq83jBqsjtA5qNTm99UmZF1LtzNQuv3p8%2BlAiGSlb7dM%2B%2BzDQuJCmwUde8BK0I5Bhz9pskJv0j2vE6XCzdmYwY%2BNvFo6ncby6LkYDCZbnqaLtbC9xs9qtei%2FXUrZgj52vJbffIBi56k--e3DxFiQIebFg%2FuFppFSOyQEjWzZrT6ddKFCXrV1wjXkUMsbK2jCjc%3D%7Ctkp%3ABFBMlKeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336520918290"
+  },
+  {
+   "title": "Nintendo Super Famicom Console Bundle 6 Games 2 Controllers & Cables SNES Japan",
+   "price": {
+    "raw": "$134.99",
+    "extracted": 134.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900007372261?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDPYC3HARJC64PB2344&hash=itemd18c9ea5e5%3Ag%3A9FEAAeSwZ%7ElqzHei&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FjRME3XxphVkn5LVPzNIRYx%2BIExvCMrlKssc8cWHA00lHWebfZFiB1AfUxOEJ%2BLiFf30ONc2m%2B3xbNjsnWHiSTEasmHIAWHu9JsyUpHhFu8LO29d27hftm6ZvSFo9Qdujl0cIjn5dYdMVkGaqEVVFuNCUUHk5d%2F4pyQHxQDgVD0HOlGNV50qevaF0lZisIDBJ9ESIpcBY%2B03AWB4ZURTKS510X3Iqh0DKtmDTJYA%2BoH8TL9eMAOBm0YkJpYhTCccynWStwVoLoskKurTps4yBZ4ZPRLvsBLNnTc8r4ZcXDQ6oGvjG3v5lh6VBEToTkhAM%3D%7Ctkp%3ABFBMlqeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900007372261"
+  },
+  {
+   "title": "Nintendo Super Famicom Clear Console Play Both US SNES & Japan SFC NTSC-U/C & J",
+   "price": {
+    "from": {
+     "raw": "$15.99",
+     "extracted": 15.99
+    },
+    "to": {
+     "raw": "$99.95",
+     "extracted": 99.95
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/167131689212?_skw=Nintendo+Super+Famicom+console+black&var=466877512939&itmmeta=01M6CBATDP1WJWC5RZJM790HFB&hash=item26e9d330fc%3Ag%3AL9YAAeSwuZlqY8BC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Gej4CB4aVGsUD9LT%2Bn%2FBD9d0H2ws%2F2ZJ6Plf%2FlLXWSz77SgZow0IaGhQxWyJ6ilMw5y0bm7lW%2FLtnyitpcsf60m%2FMiUDMCJ3ThALuPR0G6N8QlZVEU6dlkyMj8IDYT%2FsO%2FWTrvbZPW3V7LVijdVYeeHGfxyvYIP0CEb4HAWOZUDXmnJSBl6hFldLTWj2oyAFU2MIYjAstIo0bd5EnN37IrIy2a4a9O09P3YO9rbMRwM9Tk4qylRapBYkx9Jt%2Bj2oXoEl6d8XiaCviGg9SeIUw%7Ctkp%3ABk9SR5anq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "167131689212"
+  },
+  {
+   "title": "Nintendo Super Famicom Clear Black Console SFC SNES Controller Yoshi's Island AC",
+   "price": {
+    "raw": "$144.95",
+    "extracted": 144.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158207481489?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDPMP9SXW8BN8369Z6Q&hash=item24d5e69691%3Ag%3AEYsAAeSwjPFqhl93&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8by0WpVp3MrrENyw7RXrPgpHgFOqlfvu2%2FvarqRtLgQMXnkmbLZpcEM8ZOHJN6%2FBqmXwF2BXwPTihP%2FwNCQiSph%2B5q%2BC%2BThnuXGZcAqlYgWRtoVy6FYnHyFJovtfghV%2F%2B8AglB6%2FVqZh89Dqq8kPMmRLBn0%2BNwLhd2V02ZTO%2BB95frC6DTWInnQR4Lhh6zmdYmrW6LhYFcdTSdmlPR0bMlNOwOCCAVEgF%2B6vlOceWPjCUMlGSpEqr2Li8yd%2BdC%2F6Hhwwj6XkpCzObgeqYojmKr%7Ctkp%3ABk9SR5anq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158207481489"
+  },
+  {
+   "title": "Nintendo Super Famicom Mid-Model Repainted Matte Black Console w/Box Tested",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800759042150?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDPX3WRP7K0VMM7YD6F&hash=itemba70f55066%3Ag%3AayYAAeSwrz1qwzA%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FVeEwXv4q3dYKMJdCoGarE%2F7c9jOnDLC5s2VizySOU7XsI5YcayfpMSPOaSwsovkz8UdWeGYS3B5PR5%2F2FlvLVV%2FiEj4SfKA2ErLoIHuFyGU4DLloTQwUO60%2FSn1muU62KVv8LN8MhoZRt7BFwUwbU5eYpXlyUxu6nXVxyHRfyaL3VfrI96lPJcUENVcWUpnaBhGA%2BlBuINQul0UXHogxR6D1i1NoGT%2FOnFDiMHc9pWf0L0qhj3S8mHE%2FybZOmOeg78yeK%2FXSeOjANMSQq%2Fv%2Fn%7Ctkp%3ABk9SR5anq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800759042150"
+  },
+  {
+   "title": "Nintendo Super Famicom Console SHVC-001 SFC SNES Translucent Black Shell w/Cable",
+   "price": {
+    "raw": "$139.99",
+    "extracted": 139.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/315760183020?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDQ0K6EK05QYCQGMFX6&hash=item4984c606ec%3Ag%3A4n4AAeSw6FJqW4kK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8sTiwinxbMNYUgMhvsBtcuhpooY8HFcClb%2BVQsvsJflu3eT11IPkOohmm3a3dZKQJoXqat4pjSJwGzOjZgkR5W4LXkC1GNpL3aerH1cNzZN3n%2FM3q5FdHJ79H6nrgfVhFVHW2Ns5rXyH4cnaHZVTBsnREjAcSsk7BAVTr6kwHS5ts7wo0o%2FdenWoOi68hRV2i71EF5cfU4a13hep%2BSk7Apwe7aEC4M87GXrJeBNC1oUtRSIippFKygzhn4BSUJrPtfjLPwJpX%2F9fZ80zOVTnyWfOeJg4%2FyNcVsenSTK%2FfGdeLLYbj%2BZVOnsdRrkqawZfM%3D%7Ctkp%3ABk9SR5anq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "315760183020"
+  },
+  {
+   "title": "Nintendo Super Famicom SNES SFC Console Matte Black Painted [Capacitor Replaced]",
+   "price": {
+    "raw": "$160.00",
+    "extracted": 160.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900051328507?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDQP7ZMC0A253WP8KDX&hash=itemd18f3d5dfb%3Ag%3AWgUAAeSwC%7Etq5I54&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9PAO071pW3vmqN13ScJlZ%2Ft0GHkIdfa3B7iUOkHYiq3hvPxb7jM7HcUf%2BxvWDAOWF4q0zUSL1RSUid9JJhqJgy4X0xEurkPcy3N95C0zStsxeP%2B6ZWHDF58PUa9zjneafgoCLnBn0t5LtW5BQ4j5Ti5wc1aNkLE98NW%2Bt46Aa8DzOCfKgct6Y44IN0fAVaPLPW6VPYhYzH%2FKpEtVMUOs2BeC8I5x%2Bx13B2bNeJuGZSYRTPUi0yzvMR5nT927Vf9pKWd9oNP9YA4dWC88P5SMc9%7Ctkp%3ABk9SR5anq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900051328507"
+  },
+  {
+   "title": "Nintendo Super Famicom Console SHVC-001 System Body Used From Japan",
+   "price": {
+    "raw": "$53.30",
+    "extracted": 53.3
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920070272257?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDQR21KNWS4MD3PR8JT&hash=itemd638763501%3Ag%3AsXsAAeSwsKZq3ImE&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Ft2oih%2BeMzD1tDOMBgUoKR6DC4NdWMISDAzlCH2zJuQ%2BHRdJJbAG9%2F07bI%2FuuPOLX7CxdIQA8k9lx360T3WyzbTVioIG8kew%2BimWAhxQm90%2FMC%2B2QW7ErCzrOv%2B%2Bdr0tEBtc8bgG6X9rq4JOxQo4M8cnJMFvLlSZcvAJcRgixMIqW8O0JQ%2BwpJ3VnGrnJTanLA1CJFuSAtUA5lt7ch27Jey4FvwQphm%2FVEFt7nF83KXT%2Bh4IH7pE5nXJAxyDINnnFk0Ayjtav8rmOOHf5gjcJL%7Ctkp%3ABk9SR5anq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920070272257"
+  },
+  {
+   "title": "Sharp Twin Famicom Console Nintendo AN-500R 500B 505BK New Belt Tested +7 Games",
+   "price": {
+    "from": {
+     "raw": "$154.00",
+     "extracted": 154.0
+    },
+    "to": {
+     "raw": "$209.00",
+     "extracted": 209.0
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298421787192?_skw=Nintendo+Super+Famicom+console+black&var=595430267644&itmmeta=01M6CBATDQRJZVD1FA66TH10Z1&hash=item457b531a38%3Ag%3ASY0AAeSw7PpqvShM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FG0OIwQfESpQknfHZ0%2BRwOVx7lX4uVcBEQz4IPkK4tiRSUOoKq1qxl%2F1izpbs1jDhlM9vS0%2FQe4tgMWg1j3HbT1V9M9%2BzSR4jxu%2FU5UVrPWZ9pMvzBkhA8ofHFsXF0adoCXVLRNB0CbLkrUMI7U3P%2FVU9B6e8JSsTjJQsB9M%2FB%2Fo1a6R0EDI0nW%2BIueDZTvUg3apgNm5LNA4TrMGlgk6HVPqh7X0XXknrzS5x%2FWZDmaSMACuawuQGdH0MwRQvL6j60O6Y5BoUg2C76Mz2izMy4xIUFwK55yakoyMMYyfD3eoWsRgr9w0EF6EAkBfUARnw%3D%7Ctkp%3ABk9SR5anq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298421787192"
+  },
+  {
+   "title": "Nintendo Super Famicom Box PSS-001 Console Key 2 Controllers Japan Commercial",
+   "price": {
+    "raw": "$2,189.17",
+    "extracted": 2189.17
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960117210575?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDQSHP7C1JRQMXPJ015&hash=itemdf8b71fdcf%3Ag%3AQ9EAAeSwzzpq3wEn&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BeRKxXS5x6s62pl4oCt6ZP5p1ix50uAUS2n1TcA57ktE0jos95jGdhPAP3qTkDATHbyrKq8EYQ%2BMq%2B%2BBQ7FkYRjE8gcETgd9TfBe%2F0%2BE6r6uG3kjGfSP4FKNhRf0txr8Rz5ylZdFTDFvk69NpMgRMp0MDhEhPdGBfeXjYQYT5wC6nRWTVu5H%2B9nHUDUsFja2Za9a7VwFUc0wI3qLnvQDmq5CZeKjZ4pI0qLeyVBD06pWJo7chtXEzPbX9UbwvuGtX5XpoqebecNrYmzXftGJtCw58bky%2F7Utl58LZ5jPPA%2FA%3D%3D%7Ctkp%3ABk9SR5anq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960117210575"
+  },
+  {
+   "title": "Nintendo Super Famicom Console & 10 Games & SuperGameboy 1031",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198528204180?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDQS6N6AAJH7K0H6T9S&hash=item2e3933fd94%3Ag%3AagkAAeSw7vBq5fdP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B55hbB5Mk8q9z3s6ljkTq8A3MD%2FEbDl4fWrwhw6QDGNqlxFFH0DcKoihe5aWDCCOueXIJDNwgduJM39yO5qDHRceGyBYLPRH9qbl8u5wt34NZQIdqlTJt8w0WseKtCfi5c1wXnJPn511%2B8kpZi%2Bz23DLW8F3PFX9LCFBZXirh9CHAYWxaeex%2BcKuLWs5aHFnNbmdEf0fT6suKkz47vCk%2FtQfFjadixTvvYGK7HHHaxEnA%2FsMYIrRsKAE%2BdPe0kf6kEBuTljZognYbYwQ8GwEmF33UguNoqoECtAXhOUZVzETPHfjugfORy6THTNcO3Gis%3D%7Ctkp%3ABFBMmKeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198528204180"
+  },
+  {
+   "title": "Nintendo Super Famicom Console & 10 Games & BOX & Manual 1101",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206633650654?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDR9YF3VETAN5HM9YTY&hash=item301c5349de%3Ag%3A470AAeSwfjFq5yjX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9HIXkbmXhnXeWQp3IkM3VoSt6ngkHXheKGoDwfwPCb%2Buoa1KHnIVpsbaX3GL098ltMOMSlddZcnw%2BXMZbYLjzLtPtjFEugoOHseW5tTgFDCVoxyt8yQkKwKEl%2BsWJgRZ%2Fqv%2F0a%2BnrQEIr9Nu8YkMTycu451ElVDcdOLQvLeUq1gwTIxV6%2FqcNm%2B4nElUG2afGg%2B6lgO0Xw3SHAZ7MA%2FAoKCY%2FyarbSmIZ%2BmlPLtqJ%2FmyxC8jUjB1WLfntdIbwXCONfML1%2FFOZ%2FfbFAxwN8hPo5tfvc6QbrRDkwyRxJ60S78xnLUzYZMaT%2FM7q80waZGnQ%3D%7Ctkp%3ABFBMmKeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206633650654"
+  },
+  {
+   "title": "Nintendo Super Famicom Console + 62 Games Lot Mother 2 FF6 Yoshi Island",
+   "price": {
+    "raw": "$459.00",
+    "extracted": 459.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147516468951?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDR714MPYGXJ82DXFCV&hash=item2258aaaed7%3Ag%3AQAcAAeSwqlBqhliD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9aL4dZBbKIbHJ0ePmkzrBXAmyJN1YP115%2BZK8aYIGNp0oMS3z02ZvKAnGsDkQCrF9Oj5B%2FyxtqeJ4oUNlxfcEelDm5CATMLDlTRowz51IK0rU4FoINZKgp8u%2BX5h7R6C5Wsr51hGQNHt%2BzEBpnWdsBYQjDSWBCrxVXU39h4Z5lplb645L%2BE2Gz7K4dFKlgKMIR4VUDGADr0mCh%2FGDtTLVBBATX3Zn5Eg%2Ba%2FknCpIzi86r%2BzJTShshE3%2FUfqAgB1SnJ9hRQf9vkh%2BqfrbLleuK7Q0Aj%2FyLV3F62Y4sq%2BYEBMm7uaFUluleXh73oL04V%2FcQ%3D%7Ctkp%3ABFBMmKeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147516468951"
+  },
+  {
+   "title": "Nintendo Super Famicom SFC Console Bundle Set 5 Games Cleaned & Tested",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198741885527?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDRW7WSDWGC3Q9R1FW4&hash=item2e45f08257%3Ag%3AaYYAAeSw6glq3J0E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Ff6Oo8tWYpq5mTQyB1dMUXDp%2BzoSWs2zizckMydr8CqeuCAeD4bf1JPHGHtbuZG9JMuBbNcLtBMw33Qq5FZN6dIoG%2FrcyKe17LFXadt8zEYv2K9zAPPYHldLv4sMCW5kRWP%2B5jr5KDPr7Qy%2BHJGhQFBb55n%2BPC%2FWZhG1EjA3wpWP6StO%2FfhJ2CHtA%2Fp1Ps5iMFG2bBRoU4ErhD1FxVFt0U7PI99kxX6s5SZ29iEv8ral7oXv1pQkAi%2Be3Wx7%2BpiMRzC02jtMOhd7SRonxHvLT5hYhKMbO9af6ITxtg0KtGxjK3EYpqzkfWl2iAll6m5oI%3D%7Ctkp%3ABFBMmKeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198741885527"
+  },
+  {
+   "title": "Nintendo Super Famicom SNES SFC Console Matte Black Painted Japan",
+   "price": {
+    "raw": "$149.00",
+    "extracted": 149.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800859471586?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDR0VYPNFW8Z5PN31DQ&hash=itemba76f1bee2%3Ag%3AedkAAeSwcChq5fNd&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8tmkGyEvNAGXO8%2Bx8Tg5CFC3r3p1m1XoIJ%2Fos8SCU3Y7qDZTOk3QY6cDKd0HtHU5U%2FWCrSXJ%2B6WZVsqQKPyL8ZebiU%2FQP77hjiW3J0ng44E7nTYhcxE%2FE0PEdrZ2cpsLrSjqNB8P7tEIlvkcosEILsVh3azr254aszUJnJ%2FPBkk6u7wD7oRpy%2Fo7L0PokmsMhAd0yeJg82otJKGR8qHl61wQWelo0%2FbFHbXNspql%2FouTOycYgRMuXl9hlVvD7v4Nj%2FsYNjngfEsReMU5DhDyKsNzUfbOiy%2FJf4pCzcPUnT8IeEF5itH82SszH8MCfEv6o%3D%7Ctkp%3ABk9SR5inq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800859471586"
+  },
+  {
+   "title": "HORI Nintendo SNES Super Famicom SFC 64 N64 GameCube S-Video Cable HSC-05 Tested",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128155875321?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDR6QQ6SW2GH9QV4PC5&hash=item1dd6af77f9%3Ag%3AZdAAAeSw0VRq3i62&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FTVFyl5F%2BUrbliHqBe%2FvDH%2BHDpGj2sGLygL6K4vrD6JHpoQbTiYhyrAhw90ISv1hJqJlqUL1s9vnAojLYH%2BM1UbfuYAaf%2FO5XHuj6bBp1xqD%2Blb6v3lT8XM5t%2FiGaEI5%2BTTSo4CF2hAPqFCNllMQ1oZ9ZhjC1X6QwHmSuTsSv7w3KxYjuzPrNvN631yBJL%2FQ%2BHOOJBabTO5%2FA7y7pZS3zD7oDnvcBCkbKkuQk4dfaXCs9u7PNPgZYiipIjruW8uSTfO6qtd1r6n0ttb3mVWgCu%7Ctkp%3ABk9SR5inq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128155875321"
+  },
+  {
+   "title": "Super Famicom Console Early Model Tested Japan",
+   "price": {
+    "raw": "$133.99",
+    "extracted": 133.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407308763718?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDRDGM6D1PGEQNQT7H6&hash=item5ed57e8246%3Ag%3AUqwAAeSw-Jlq2fau&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde94%2F405vJDXiLbbKuqxAZgRV0VBsGAteu0OoZcPLHc%2FtDlajp3%2FBzIB6j9Ld7zVUp05NrFlbVe6xWal%2FKa5f22qOS%2B184bS33wqhGAI%2FftOvSlLs96q7oyQc1vW7WItT0QtjOqQorLRuO1OT6hJLZ2N9s8tP3Zy8cxSo2z2AqxT0LM%2Fugbe7tQEgD96llGZDAxRKGoQyXnNkWbmHTjR9JC8rSa6lP3JxeDOOdOKFql2kXrtBZqd9pDhGjQ87DT%2B0QLqgYskDDSTGc2q6L5GFmx%2F%7Ctkp%3ABk9SR5inq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407308763718"
+  },
+  {
+   "title": "Nintendo GameCube Wii SFC Digital Controller Pad Super Famicom & Black Adapter",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/167174973652?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDSW828TH4BMZANE4E8&hash=item26ec67a8d4%3Ag%3A2sgAAOSweWNnXMLr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ODkZGRnaS63UeZw%2FANr9o39qfzYIf%2B9HwmaP9s%2BQZ9QzfIdqX5GgWEU%2BUTGUivJpsrnB3pv8ns7PT2m%2BHqpE8XM4o0S7J0qeU%2BlA1qm9eMh3U6RG354OmbUgd2a9DdYdwo%2B%2FhgrX2LPFmivk6G%2B7ay29QRlOoGrNilKMlQcUbbHkxFDfCp30J%2Bws%2B4gEsYsIXHJFTuZzySAC%2B%2F2xfi5U0z1%2FoObuou2UyHxct4G1LRg6U15vrFF7Dl1Rlqn4tmfs0OlSZrmAmSZcuMTY4nzdf2oqRgxR%2BAHWfnwbCN4qpznVWbtsMpw0%2F4r6aPy1uljU%3D%7Ctkp%3ABk9SR5inq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "167174973652"
+  },
+  {
+   "title": "Nintendo Super Famicom SNES SFC Console Matte Black Painted [Capacitor Replaced]",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900048151998?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDS9NPT2DE40QABZ35R&hash=itemd18f0ce5be%3Ag%3AWfkAAeSwiB1q4pr5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F%2B4A44%2BErpWgVv8JPvsocuBYK55%2B2Kv4uN%2B6B4Oq7AVxx3AIphSxjNsd3HNzbn%2FHnebQ3%2Bagnxps%2FN1rk%2BFXlZ4geNMwXAQwFjzM4Qy8yrPW6XJDLB9ugkQ2R0m%2F4j1hDu%2FXkGqGJQ93lrxe7P4jaI%2Bojvij1dtC9fA6GDaWc2uK2fYl0%2ByqDZlCVMB1B6w%2FuWYSCQlODS8EWGKpQXXktyAO8wjIqphXbEp7zSY0nRZZmJNz%2F9ZVXBSWQCAceHhKFI%2FJ6aqXPFeMX%2BRBA8Ilq6%7Ctkp%3ABk9SR5inq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900048151998"
+  },
+  {
+   "title": "Nintendo Super Famicom SFC Turbo File Adapter ASCII Complete CIB JPN | US SELLER",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128071473596?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDSMSVWF1N3C8W5ZWFC&hash=item1dd1a799bc%3Ag%3Ai2kAAeSw6nVqn-C6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde89V%2B08XEpoRaQCdLRUXCtxqogpFvXRhgyG5jrdGjHrykIrBFqBo3%2BiuI3BsZPPzUHtaRzlyYAPFV2xihgR5Er3q3xH1Atyw85p7mO%2F92XGd4wzmkDCBid6tXdCJYgqcGBlQQxxsT2EMdwtQbSHfWGUaUB6Ocwxl0UmyaACKq2wBt%2FlCpewfD4VNVHPpiCVWpVYGQTdSi15errMfF8%2BZ07xJxhxwaDW%2FaKDqXhSYBz3NjXNk1easdpEDwyYn8cQo1JpL3TBs0hIGYrZxMe832Os7P2WcC2p5HO%2FCQSgGnjtD%2BowRnAccp7ACMekxgHFUsY%3D%7Ctkp%3ABk9SR5inq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128071473596"
+  },
+  {
+   "title": "Super Nintendo Transparent Clear Black Console SNES SFC Converted AC Adapter AV",
+   "price": {
+    "raw": "$159.95",
+    "extracted": 159.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/167921195025?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDSMRFN047D3BHDP3NF&hash=item2718e21811%3Ag%3AqSMAAeSwBB9pE5rX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8OfRfRig7AMaZxS%2FOjMaJp8tM667J97a4RHl87U4TgGpuKJvrFk%2Fwe213fhKf%2BCnF%2Bd9APyl1CwTcmDVWRmLcxhSaGXIop14rxlYhxXI35Eu0YMsYnhAgLgWnb%2BeDz8dU1Ko5OQWZVTd5ETC8bvkKPs91T5MsqVn7Fn7LS2oH02QVQyIPVkiKVvBJKOCOzU9Qp0GdvMFz6sNcCxkUAh8uCZ1%2FYCuvRJznnQ6zUBf5x9QgECNBB9XxBhPej5AFdxmNpG%2Fjeu9eR3n1dS0yVyUHIvEe6Pw%2BTosKODB4bcd%2FN%2BnwYqtLoh0oCcArYS%2BVqptg%3D%7Ctkp%3ABk9SR5inq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "167921195025"
+  },
+  {
+   "title": "Nintendo Super Famicom SFC CPU-01 Custom Black Recapped Clock Fix Tested",
+   "price": {
+    "raw": "$118.84",
+    "extracted": 118.84
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147647897466?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDS68S7PFQY9DKVS5CF&hash=item2260801f7a%3Ag%3AeXAAAeSwMyRqdpTf&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Tzujy9k6rtVSnXYnjcASDza3DK1HmA5EaeEk48GMH4M1ipqV3O8wTQPOFBxZLd9wBE4vrnDAoB3N0Xf0qiEQc3UNAWRSviTogOQlvF5YWS73CCHobBvD8lbKcF2NrcMJbW6Ej0cbbr1FpPsPsNeHGql1Ooz8CvP6%2BBy8IKqmX9CNqJe27vdLrx6NhV4bbtSdRFnTLzp52Q6TEtltc%2FCYFfpWdBrJvPVxB8Hc9ksZTuNRzsKbuZ117JZOO7IPgGOZ3v%2BsV0vMfc0JNuIIqgYq5%7Ctkp%3ABk9SR5inq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147647897466"
+  },
+  {
+   "title": "SUPER FAMICOM BOX Console Tested System -wz Maintenance key, Panel Key- PSS-001",
+   "price": {
+    "raw": "$1,500.00",
+    "extracted": 1500.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/317769811945?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDSA40059K2QCQA697W&hash=item49fc8e87e9%3Ag%3A6ikAAeSw2OBqZwet&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FLKbUzTZI%2FH9pSFuaX07sPKJ5IIrO1P3oKb%2BwkIkEseJ9gN6H8AbZqRdvV0q2LFBZYaK0Qsnl5grSzj6lAmgsozcnXqtADV5wglDQ8qvUJB0CscBuLfn8Qn8j5eSYPC%2FOs1lCjNBQhymppW2VsHXD%2BonRck5lCkd%2Bu2iDBsJd%2FkSczM3hdq8K6oB9M2M8hgLsht0tUOf%2BFM%2B1AlClcwoudmXXigp3nm8zy2BOWgYCjSoDl163qoPByOs5%2BKi%2FQDqt37lYzFaSDftjXIMHo6m%2F3%7Ctkp%3ABk9SR5inq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "317769811945"
+  },
+  {
+   "title": "Nintendo SNES SFC Clear Black w/ 8bitdo 2.4, Multicart, Power & Video.",
+   "price": {
+    "raw": "$299.00",
+    "extracted": 299.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900054790623?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDSJ2K4S1WBTZETYFSZ&hash=itemd18f7231df%3Ag%3AFVwAAeSwi1tq3SL8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8AaiJcnErg8UXoVk6Z56FVzYUTqy7fposaoLsZOW5yfG4fIgxtjHeYvUylzOUOtzN74Aib%2BQoak3%2FAKGKedmS0gbmBCiuIT0drc3XTwmmzZKeY5m2AuPyTtyoN%2FUNIpMGw6RtNQI1XCW%2F1U5SIHxko4op%2FfaCsy07NyRjr2zPNYFb4yA2mkLnyfuz3d3V0JRK0Zs18hEvuxd3b1OMQQwCsTRzHfhbmnhDJFf0%2FwqOegc3PbzBMn9JO%2FU9XpSDceQU9Hw1xVvzS%2Beyd1uJsvGbv%7Ctkp%3ABk9SR5qnq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900054790623"
+  },
+  {
+   "title": "FC Twin SNES Famicom Compatible Console with 2 Controllers AV Adapter",
+   "price": {
+    "raw": "$156.16",
+    "extracted": 156.16
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880017955686?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDTGF2M9G9YD2SB8SRX&hash=itemcce5285b66%3Ag%3AK8oAAeSwNNZq0Dhk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde89vnbBVCNDJlWv50wOzCO869T43Q9e6q4Jq%2FADPgF%2FDGli1bA3Vfx6Cl%2BCNJOPvd%2BH0PLxunmhRk0NnrXLsaW0ifqMloJmtYOtsoY%2BNggvi1ANyLSjGvceAUzU%2FiZoM%2BpuA%2FcU%2Fw2PPHWmjsRrG%2Bw%2BkxwoQvCzBtzHyGR95PtBWmNYJvGP1W6UhLkwCb29ylnKt%2B3koqXJLjyf4zFoI9lErQmwsKofMV0hgXTSdN%2FjWWEw24nz6CkpnPyg7O9ZRaFGj7msT6MJng1tzcKsvg02ZJAzyu0jtFWp4GhQUL247Z%2FZmYIpKQKLgRW2O5qUZ4Q%3D%7Ctkp%3ABk9SR5qnq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880017955686"
+  },
+  {
+   "title": "Super Famicom Super System Rack Yoshi's Island Japan BOXED",
+   "price": {
+    "raw": "$138.00",
+    "extracted": 138.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336584353460?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDT9D02B6MJ3JW2PAMC&hash=item4e5dfda6b4%3Ag%3AXU4AAeSwPZBqBqQq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F29l%2BYaEKtAqSfXcx%2FMFmaNBlhOGn1zeeCX8N%2FibwhUbExIlcAIRlui1IgAiKkjo8VrdSYFgNNQzPfteYzs77ibIPAq1%2FZNB15xcxiLBy95x%2FG4gViZhcLvdwLO6hdYlxTegUj9eD4%2FmKEynbpEZR5fG4Cwo9fpS8ZhqwBCN2IZ%2FgAws5ClbntlWR%2BQOcLQo%2B8CJ7UYBsRsbXxGRrfWNcEE8m4t1E6ORxli34TjDZ2yVeI4THmHtS8OtucNLv2GC2VZpQteCRSghfizrh2K7uQvp90v7qoSy71FxmnQ1jgQKD8bYhU%2F9ZOT3CWXu5Vu0U%3D%7Ctkp%3ABk9SR5qnq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336584353460"
+  },
+  {
+   "title": "Nintendo Super Famicom Console with Mario World Storage Case & 6 Games Japan",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336793072746?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDTGEMKPX9T4YBQENY4&hash=item4e6a6e746a%3Ag%3AFQMAAeSwM-Nqp6UN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F9H3ljKLfN9dNeT9C07hDqAAV15yQpd5JUuE6M%2B103kQepykgKexOY%2BrfPvB1pSqPaS7sN8Ld0%2BQPVQOAtcUrOoGi3MBhgDN80skPxTNQMgobAdP412h%2FEvZ0ccZGcJmNGTUWJbaJODoUc%2BZ%2B1%2Fu5QQAsOrOq3r1k6IdXRbDlWwTautXQrPjYrTCjTm6XmQaEPn6V490Y7%2BlehUmDqOU1zzxh58XUIU%2B0eW%2FnSuQKn%2Bd%2Bq8KxNrEW2hRTKWHUzvvITwSKjnv1Pswngsyu1DVm2gXprcAUnUrVXGCabb9JbxDJ8QeamTADPpWfBIxFqSkI%3D%7Ctkp%3ABFBMmqeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336793072746"
+  },
+  {
+   "title": "🇨🇦 CANADIAN SELLER Nintendo Super Famicom Jr SHVC-101 + 2 Controllers + Games",
+   "price": {
+    "raw": "$221.12",
+    "extracted": 221.12
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278437610420?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDT0E8DXC04CF4E8MPF&hash=item40d42cc3b4%3Ag%3ARkYAAeSwERVqxDbB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8HhBgkoxLHZXrAqvD1XDooho36tEI%2F9OzxtI6kaZOmILSh--6i4P8uN6vvGeiQTX5EssZZjPXYQvsZzohwZhuv%2Bu4S7juhALXmrHaPPJ3uaeNAl7qx%2BA%2BgCU054fE%2Bxu9WVB5zupOR7vPbQAxZ7%2FUHL9agv8LJCKZCKws9nRYznQFLGNl4%2BSIbTeYih83zGZOGQ1GcBCfiB6zqFd3OuCjLlDVb2kRpHDdEEdoyLmDZT6VHKLFLqQqjsfkljJ8gq%2Bgk7bU6oglvvUbYioz%2B9SZ%2BrN8iyjT9Flyz1qslDRih10CV52CoiYg0ZnUL9sYdAcM%3D%7Ctkp%3ABFBMmqeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278437610420"
+  },
+  {
+   "title": "Japanese Super Famicom & Famicom Console Bundle with 8 Games Dragon Ball S.Mario",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336867392818?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDTE0DJVVEKEC52CEP6&hash=item4e6edc7d32%3Ag%3AwwYAAeSwKGJq4gjv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B8tbhxpelp%2FxMCQgN91ocToegrQSlp4CfoLgvWZp6hT%2FA9lXcoFV0N54DIhxPxUO70Q3JrYiSiD4bxsIzUtP6l33haovLbViFZZpvAiVpm%2Fu2WsR8OM5SDzBw2TQpb3w%2FipUPkaspHESPLymwfeMOZxyD6Lx5cCKCKogTHNjE14I2u%2FWtGN2o4WWKVuS6eEk1jXHMNjrsMioj%2BEtFm62QjbRti6bhPSXlr%2Bcr8DGoF6Ogxif3rlWVOB0SQYaVbv6VnwfXYbpqlX8r2uxFPq0YLZs5ONWTas2HBBuel8x9zy8%2BsONmqiDcLPT4%2F1nXJt9I%3D%7Ctkp%3ABFBMmqeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336867392818"
+  },
+  {
+   "title": "Nintendo Super Famicom Console W/ 2 Controllers UnTested U.S. Seller",
+   "price": {
+    "raw": "$99.00",
+    "extracted": 99.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137488464549?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDTBHX00DZ9E5QSEK38&hash=item2002f37aa5%3Ag%3A6k4AAeSwJxVqS8oy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bvb%2BWfp2XZy4vV%2FfD64QNIafARJNAIqNQr%2Fn76a%2BwnqOZOOkk6k0iIU26JRCrWFsHkfXNoGSJFzd%2FwEvwbBDzQnPy4XkEqHe7QIOt%2Fb42woKYOesQfGj6QeWWPPMv6H%2BE1GqgXvCDYz0LGov2%2BbZozSNhlWYBcQnvjITeVdabLKCZqVndaK9jPyBMhSCBpP5d%2BPkMoIpZSoFI13%2BEpNRgnc%2FahxLwfbeDqJqXpbMvqJQcfmasxymO49BDfshjllaQPb0PHWmuRnyUDPwLfctcx6Bc8tTIm%2B2r0PMIHDW8HPkH%2BU0i5%2BvRAyYq4XjKfu5s%3D%7Ctkp%3ABFBMmqeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137488464549"
+  },
+  {
+   "title": "RetroN 2 HD Gaming Console for NES, Super NES and Super Famicom - Space Black",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117459204387?_skw=Nintendo+Super+Famicom+console+black&epid=18034612350&itmmeta=01M6CBATDV4T5XZ6XDEKJ4P24Z&hash=item1b591d3923%3Ag%3A8f4AAeSwrsFqYOtk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9mSScHjN7vR4tbLGEiT8YLHAfDiuvN%2B16u5aZxRHigR3CKU%2B850isuJOKHByGsXMfEyGt2RTOop4Wy6cWjlqmXJHc9eAbnBJ5Q1EmZFD7aJ5KEiTU70BWhhc5FCzs5plqX7e0P3j6mSpUbJdUl0juXMfNBO65ZcqOQJe%2B2cRlc%2BlF%2FzJMMjTi7EuGyvRXVq2oNEc0%2BGCqHBau%2BWAmXH1QPH1Z8Nl7Gxd20Wd56VMIqGf2fhL5zZusc3aewRhI9209f6e4IU%2BnexGSwAlsx7aLC%7Ctkp%3ABk9SR5qnq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117459204387"
+  },
+  {
+   "title": "Analogue Super NT Black Console + Super Famicom Controller",
+   "price": {
+    "raw": "$499.00",
+    "extracted": 499.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336847574462?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDVEF9ATB0MB0VG5TBB&hash=item4e6dae15be%3Ag%3AgOEAAeSwdoZq0mIr&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BLdBI6SPTTHYXw4Fw3nU32yauW67gUJtxJE1sluR9hL1Z5F83nKTtR7xdy5sTIG%2BDJyq66s%2B%2BlvHqb45yorKNhm3Sc59VCEzX6Jd4gGZJ0ps8pmY7QMnVf%2F6orDYzcz1vpLYuuuKV6niqmH5afBXQNXlxWztq%2BkYrXygFcwM%2Fuog7m%2Bk9bA%2FgqZ6CkwzIBY3R9GtzS%2F4UrE%2BI3aRH%2FyJoEjMcb04y%2BZlkzbQy1qeGb5UIIMwbrdRgWEbqNGTgXSpForodP3eCKxAD1nubxKlfi%7Ctkp%3ABk9SR5qnq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336847574462"
+  },
+  {
+   "title": "Nintendo super famicom 64 n64 GameCube Stereo AV Cable Japan game Japanese games",
+   "price": {
+    "raw": "$15.99",
+    "extracted": 15.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/187452805332?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDV7H4D2J3WHDRHYADA&hash=item2ba50ed0d4%3Ag%3Ad50AAeSwH7Boi4YR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9A6qz%2B1dYBG5j7JPTOQfY0ZZBLP02Yy8BOtzejS%2BaEREqGJ7wElU0SYQH2rqm8YCd2ZsiaUkZ%2FCS5lm9Qk2sg6fE3nV%2BdyROfIgzG05CkENB6%2FrQmHBLZSsMJ0pC4VGxUO87HIIqQS2iZRekyPnN1qxlOaapOnaVCU3xJ4YTnbNiCDih0PCpepRGx3RgEyKmj4LNnDl7eHm9%2BS00e5G7vXYTiIF5ANkcMzepDig1s6Typ5I9kF%2FwAeeSRwlxboLvuEG0PFcGdET7JilQHJKebu%7Ctkp%3ABk9SR5qnq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "187452805332"
+  },
+  {
+   "title": "Super Famicom Power Supply AC Adapter HVC-002 AC100V - Tested & Working",
+   "price": {
+    "raw": "$22.98",
+    "extracted": 22.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147640700357?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDVJVHXGQS0D6VFHJ33&hash=item2260124dc5%3Ag%3APwMAAeSwSflq1D7a&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9kgFZwTDFy%2Fo6GlYMnY3iu%2BKLarQ7QfXSkge8qdQ%2BLZX%2BtUWiFRetYB%2FoCp9AUg4X7tRO6XPNN4Jtgsmst0K7i48JVz1eqPe1%2FByRQ9h1bQpv9urxXUXOJ4XTp9mbj63YQ6gHEK1il2J6Yu4P36Lq1y5s1w%2BZ0W4oKROH2BqKJL165V7kHSjlDUJ7RV3eo2UYsn%2Fw7DCYTfCxBHsXruZm0rz9s92xkTLn7d7fR5PJjx2SRRqzPJHa6oHkyANdIRlbnvBhZa1rlLc7VEijNg53E%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147640700357"
+  },
+  {
+   "title": "Official Nintendo Super Famicom Power AC Adapter HVC-002 Japan Import - Tested",
+   "price": {
+    "raw": "$24.95",
+    "extracted": 24.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257135045985?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDV1E2MQPPBTQMQDHQS&hash=item3bde716d61%3Ag%3AqAQAAeSwQFNo3BNa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9SWDhDqv1SAjhAMRamLjyB9fmZg%2F%2Bj2Mf2Uvk0ybzrLtDp9kI7DdxWh7kYiKf9WlH19KzwavUnpLxosC3DJpWqHWUW1go5TKEQPipPa2QvemXkaC8dB%2FU7kHbDYwz5l3%2BzEkbzM6Aq4agwlR06wtnVik%2BEn5M42mVy75N6LExuR6pj45Cs%2B1mhXcd6%2FSY1hJHwobV0641o%2FTGscWnpdq2Yw0vEqDl65UPjg%2BP2UQqRn6Z9xdWpUspZ9IoOMAPenmqb31oNk46s3FCCWwp9sI1vi4V5A6aGfcB%2FsT58X0HGhBNw2ZzvLseaktOLPTRPBAk%3D%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257135045985"
+  },
+  {
+   "title": "OEM - Nintendo Super Famicom AC SFC Adapter HVC-002 + Box JAPAN - TESTED & WORKS",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257824237794?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDVJS3Q2TQTM89VCA53&hash=item3c0785a8e2%3Ag%3ATrcAAeSwZLVq479Q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FDueH74wc7z6v2%2ByzIjv%2Fc0ineJLV6xaaAVggbAKDszEnoToxbueUzlr05ciGxhUx43jBYLn0IafTLljTKf8b1pQZfNv9vD0UbgAM9QjRBw7sDZkT7sAyiueSiEW389Xus4FzfhjVBnvwae01E4g9PQiB3kdYQ3rI0PGJ1mTbMZSoQaeOMw6ewOAEtBv8uAiUydEuuRzKZT1mr9ceHwiug%2B974ZIhVHjhelq5cI2LKuJHlhf%2FRiQG%2Fxx8k67f12YCMYiosCelQzocrci55JNdVLuF9V9KlUMnemIreM7CQo5rL5hVApaIsFbqrhlpWzpY%3D%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257824237794"
+  },
+  {
+   "title": "complete! 5Games+Nintendo Super Famicom Console System Boxed Ship Free!",
+   "price": {
+    "raw": "$139.90",
+    "extracted": 139.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/264249323123?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDWEQ2BRHG9QTAD6N4B&hash=item3d867cae73%3Ag%3ACqAAAOSwuq9ZazSh&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVfKzmVafV0ddS58Iufsn0d0SQqgTuM2XzGsOlRzfnJ2PaCEXIM1BZLczh2nm6o45xJ%2BzE5og%2F%2BUVQX3mfFOvnLmXYXHT7lwS56y5KChU7kqcSivAKLUmJi1weaf2lJd7dskwGhu4Uo3betKYr10certt5gzoTEEGFIs4lDx%2BZyVD3llFpY%2FxAzwqah%2F4DNsj8wk78ssDLzI9cbjljI0OWOSleTVc5n3xSr6rqjrkVXSl%2FU1dQmgfmshxYppglSf%2FEtQL2sSLJaNA7wKTSB3tv%2FBmJcAGj%2BZg4oftPVhhyiuEZEy%2BJtKGMEdPsO6gGTHE%3D%7Ctkp%3ABFBMnKeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "264249323123"
+  },
+  {
+   "title": "Nintendo Super Famicom SNES Console Bundle 4 Dragon Ball Z Games Cleaned Battery",
+   "price": {
+    "raw": "$114.00",
+    "extracted": 114.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198685396751?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDWWK0DZEJF86PQ2BMP&hash=item2e42928f0f%3Ag%3AwpIAAeSwttBqwQpy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde80vmnPviiaJcfazeWxHWfiMLlWopXiJNpnSsh%2FH9ip0mPPZbzj8Uzu0Z%2BIM0S5miVXOFbcYct2zoS2ut4nEJUCHM1pFGzbvgOzjmyuEZ1oamcaq5Y206dCx9TcrpkB8Qb1pf2PHrcDtgmmNcjqodoQLkk9qnmD78MB5n%2BJSEdOwo3GTKriBeRPI6KmFkh9MefoL8vAnKl0i4UwPt4MK1rtjojdfGFqKk6SwFqOH7pK3P6%2B7Koqr0B6TsDvX%2FqxgN%2FRG3Vut9PWpsbuCaYw1%2BSIrL76HPqoG%2BC0YEsTrep2W9ocXnX%2BghbtPawTKgApA%2Bc%3D%7Ctkp%3ABFBMnKeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198685396751"
+  },
+  {
+   "title": "Authentic Nintendo Super Famicom Power AC Adapter HVC-002 + OEM AV Cable",
+   "price": {
+    "raw": "$34.95",
+    "extracted": 34.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/266291113467?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDWZAKV0V9MK9AVTA3C&hash=item3e002fedfb%3Ag%3AUDEAAOSwsl5kgksK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FDN3nojX7eB%2FwkvTGut8JJpWvJ6oXXpG6OqP%2FW%2BcUFJ4Zu8a9SmsnEmkVxDtNBJnwlsbzSKY3%2FRFxxpWI%2FLHZftxshfPpcgeuDjaLvvB7Sdceyau4DdX0JIr3M91GYvK4VtYxMOlGc4TkmWvWL8wrLAN3VqHke10p960Uw9FNNGC8BSTUzjyYC5GE1GCi9O61UjYz4qxg4CITj6Y%2BNbkKjZUI444hLyMTh7%2BmFaUIDpoMrpalhHJbTkKZacdQt0F0Oah6RKphUuOuy4KqLlCgyWt6KFICncFHS8gKrMgFlNzCngrNKD2S4PgkJI2cjWLk%3D%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "266291113467"
+  },
+  {
+   "title": "Official Nintendo Super Famicom Power AC Adapter HVC-002 Japan Import - Tested",
+   "price": {
+    "raw": "$24.95",
+    "extracted": 24.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/255909554590?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDWXD4F8JVPWHSR2JAZ&hash=item3b9565e99e%3Ag%3ABMUAAOSw8ENjtCvI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9IV19XnMfQ65TZPxdzaFQM7xDmI0sccy85VJN1UQwdioEm5sWe9GZtpdUUtwP1JZUH7dYpEpKahlpi4UxFTSW0a1rGwgYk1K%2B%2BBI35CJ8ccnxFcy1winOkMlXT%2BBu7VOdJnS8a4GzlmwNaXUpEbPlmzpXDeVbgcnW3RpctgwIj2Sp32f%2FFFa04OItcbZZbBam7Gng2XAyihASqqk5g%2BFzRSlwAjr7N1RylMRt7DzYsThMLDTqqeslUfMnvtZD%2F9y32kn8UdJ6BkLFY0tm9%2FG7n%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "255909554590"
+  },
+  {
+   "title": "Super Famicom Mono AV Cable Untested With Box SHVC-007",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178236540490?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDW2W0DD51DG8FTSXEV&hash=item297fb9c64a%3Ag%3A8mkAAeSwkEFqNVUP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BsVG%2Fk%2BCeEKJYZs%2BHt47yplmoXIoW4cZxXguvsaNwC93400bfEUjjbcYrjwfFIiEe8l3YbGWwW8%2BRcZUsht09D3sZPPmeyOO9%2FzMEbizPvxmKEpi9Bpx2%2BhwsVFwrXnhWVCaQqc41nyV47atjdgS8XL0DAMUBl3n9wq%2B9fTSBxhoYFHapgndr%2BjiFVxGZ5u2aYX%2BjvkroXcqGim0c0RE%2FHdJDBVpKBEJ9bCzpKZwNb9Zau1hKFyHRlCjgfRjrQ2%2BeOSjpC23FGKu74h3yE3Y2c4yvGBxzfiN6Xv4ma4iQDMHeUResxuQNZ%2FVRnU9nczuA%3D%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178236540490"
+  },
+  {
+   "title": "Super Famicom Power Supply AC Adapter HVC-002 AC100V - Tested & Working",
+   "price": {
+    "raw": "$22.99",
+    "extracted": 22.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147640695507?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDXH77QDSRQYGDRKA98&hash=item2260123ad3%3Ag%3AwPYAAeSwY95q1D1S&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Oc%2BfUx9e6Ecy8XQPrwdqJo4IYmPVLM2cFS88IMGSXVJmojv98HBvqDOEDdiYcIA%2FJEhQBPkrA2VXPiu2ybF201tDZuYg3hn6%2ByiwQLrS6FRDRG%2BtFfH1MlLY4NYx8ibVirSEc8DnJLS78WHnJb4%2FT0cHgvPIMLt%2FewjqMH9vL1aYmjmgVciLsoZSFutC8qsopRFHwQjuFNDstcasCJ5vClA55%2FP6VksLCWyICYwG1IDJzU7bUJqDhSWm5w0V1TSX2OjZrzLF0yCQ5ETqf54xU%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147640695507"
+  },
+  {
+   "title": "Nintendo Official S Video Cable SHVC-009 Boxed For Super Famicom GC 1031",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206110410664?_skw=Nintendo+Super+Famicom+console+black&epid=1240085378&itmmeta=01M6CBATDXH9R8NB4QY5VHDDDH&hash=item2ffd2347a8%3Ag%3A%7EHgAAeSwrr1q5fXo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FrOzNPCAGe8areqPX%2FnJTS0cKVH91Cxc00XuTIxOebCns%2Bl3tsjcMzyMyXC%2FoLdeb%2BT69J4Gmkwu%2FLYR4QCzG4iVqkaAgK6FuwCLzkZXNBZwBxbCpFLpEGutjYuHE48hs%2FlXcmjYJaybizea%2B2hi32rcdyiDqTXMMTrMxNOPVkqubr%2BwWVGr7QnAYWusFt7Ww%2FXq3McSUFQZv5K8ywPYZFrU4Gqcj%2BSiyfl2KkZuj8n6%2FlwnfgZ0P6aeBl3HJ7chjOTG0WqMXHWG1N3ASvfkHbQJFnALEjf60a1w%2Fbzp36Tvp8wzf3O3SttEbmyBt4F1U%3D%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206110410664"
+  },
+  {
+   "title": "HORI S Video Cable for Super Famicom SFC Gamecube N64 Tested Import Japan",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267816347674?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDX8WC1PWF0TMJ2XJZR&hash=item3e5b19281a%3Ag%3AmNwAAeSw1bVq08LC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FFiuiLI0yTQEEmimyXGZbQM1yuaJynQpT6e%2FNWF1B7d8q2fjV1KLLsL8mLZgpXuU4QrRkiqOoGVtZNboKApcgEkrDi7i2byUXBK2or4TYQcPQPK%2B495zRcAnLWUtbX3VW1CJNSv7BHI%2FVUp29Ht50TnKnewUZ4%2BT%2FtvPMUBQGebIRQvdlyPcR9NQ%2F%2BQ3XuwsVdAAE1rJJ2Rsz8R%2FnblruepMlw6%2BBgH6fW6kfU06FAi6cyWGcG92kZhM2eHHL%2BUuWNejzTFEsCmDyE8088hT8Goqwu8VWYwK22VfmOBqv%2FSnVEEuFgAWBpz%2BF9KMLWHis%3D%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267816347674"
+  },
+  {
+   "title": "Nintendo Official OEM Video AV Composite Cable for Super SNES Gamecube N64 Used",
+   "price": {
+    "raw": "$17.39",
+    "extracted": 17.39
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/166161175918?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDX8NEGMCPVJWZXAM2G&hash=item26affa556e%3Ag%3AuysAAOSw5SJkg38v&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BFdSE0LuJfgHJCw6omucKTCpGSK1uTtRh9xp6J6tz3Ga%2FGKa26FGLhDWwOqq3kYYABxfNrVbRCFpmvpJzGlHYgIZOw8lo52NaI213wCIbtRAurmoSHWODj9ywbh918qS5p5tSxgOEwqr2cQZA35mo827eBdj7LFSUjaAEFsK%2BJy8yMZRiyhevVIQ4g1y9fxo0nUZLYBFVVwkFcPuhMTWvreWbbYPi7JmKOZk3goVTR7IFDMBiBkUY3Zig0R2aMIV5DNw129bTI%2FajxzEpKexZ4ySwOc4BAi9T9Hm258y%2BFK8bPoRlNPfNC69Gyp85UCVs%3D%7Ctkp%3ABk9SR5ynq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "166161175918"
+  },
+  {
+   "title": "Official Nintendo Super Famicom Power AC Adapter HVC-002 Japan",
+   "price": {
+    "raw": "$22.80",
+    "extracted": 22.8
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800783983755?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDYY80GPZTWHB3Y26CK&hash=itemba7271e48b%3Ag%3AAjgAAeSwKT5qy9vU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8AQqGe62xU9L00KVspIsVD2AzjYScB8W6nKawOkxdfQeL1YJKrMQ1DBNH9YtnEVH1n6yUvcGBjRckwQyNEdQw3Dgwi6GId6VFQYXb6DX77OvtLqH%2BM8IVIekvFS05BE5hru3vpv89SDQaRjrJ0orfGzEMMR2vuClU71vmEUNoCjNTOSH880JCOAPNtv%2BWAil9%2FSclVBNeE%2FaXz8%2FhvP4jrG9%2FAgYytA5%2FQtoMYLc7OwIiJlZqxrkA2idqZ26ElnzuJgtZ7ci0ye%2BlXo7SjbGEt%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800783983755"
+  },
+  {
+   "title": "Official Nintendo Super Famicom Power AC Adapter HVC-002 SFC FC OEM from Japan",
+   "price": {
+    "raw": "$29.00",
+    "extracted": 29.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/235707613152?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDYA60YTH5JR7EQH3M0&hash=item36e144bfe0%3Ag%3AJqkAAOSwOL1m71K2&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9hmQULZd4Rk3dmdCjtzDBMbKvMNXMHWWT1%2FH7%2BzrU8SPkM%2Bu7FdpBSgkvHk1kDemzhgPFbxD8gqyN%2FdTGwdHtL4a8qRgAJNruMoW3cXRBfP0BhWVEa8rif1XKbw8OVkMPDC4agI8nFU8rts79ZZC8zlR0mJ0p3WprEIYzuB%2FSVMEJ%2FDDkWTS8NLtE7%2BGVQ0n%2Bj74Jgj5hDXgljB2k7KvU7%2FdJqDvwjkxBvl22WaEuySp9UHO2UVKXrOB7jPhZe73R8UHzoHgxem%2F8AXvYzSJZX%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "235707613152"
+  },
+  {
+   "title": "HORI NCS-001 Fighting Commander Nintendo Super Famicom Mini SNES *No Dongle*",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407155154550?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDYFWCMVP3GK86ZEH2M&hash=item5ecc569e76%3Ag%3AA4UAAeSw1PxqhUiM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8z5707eEVe1M%2Br2SCNVv6uj%2BVMy4qYiiYksjkISyUWMkgF2WBt9azvnhr5qO8i1a0Rsoiv0oQaSRsszdVC58G87Ny9PxJL30%2F528wGDc1xcm51buzSOsJP5J3ZCZXCzwxLZ%2BRhWR2UjShtW%2FGdjXVgfbKmbBb6tUcMovyb5rdWk00%2ByL8N1FUV919vhj1W3UHE0JJwoYEQSIy%2BMnc5d5%2FaNvfHJqGQRLX3ZyLp9aSZQOxQ%2Fd5i7ZC%2Fl9i4XgF%2Fj%2BjgP0HZGbH2yFf5iIy7IghKMRZzN39NJxIzb1RBrBQqyR07mE%2B7vxZC46870fXPxLY%3D%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407155154550"
+  },
+  {
+   "title": "Super Famicom RGB Cable SHVC-010 w/Box Tested Nintendo Official 0512F",
+   "price": {
+    "raw": "$65.88",
+    "extracted": 65.88
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/335962188382?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDY66FPBBH88S6J1R1G&hash=item4e38e82a5e%3Ag%3AWHgAAOSwfhloJah6&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FPusNl%2F8ilZ3qTW2AugrYqKa6ZwZYagIumMiMXxWujXiPEnBZE%2BCO4JPJuIpMSsCt8KhsvScs7fEZHl7XX9Kn6ZR77y6CUvQH9Cj0oHEXBTYjzJOqNxUfxexU4OctIM3yzYWwEVuYhcc6El9YCagjW%2BbX2E4DIkLnTaB2qXto7JqNwnmPgG9iIOaJOw8dGXwkVEV5Wgj4Adza84EeENCtznFJju6mg6ecgJ3Y%2B4H059smPuWXnaMY0iV2Q2au7RFdv9yZ5kZt90fsteIOxZJKG%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "335962188382"
+  },
+  {
+   "title": "HORI FATAL FURY 2 Garou Densetsu 2 Commander Controller For Super Famicom 1659",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257792299722?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDYA41TFN3X2J1DNPK4&hash=item3c059e52ca%3Ag%3AtzUAAeSw7XxqynHZ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bmg6fw%2F556Lu%2FBmr0DeLp3zJsQ8Ztv%2B4EeW41GgD5gof5jdVFUcV%2FPYduniyP21IJ0lv8EeZfeFIDa7LVu6UZeon9VdbQwB0gh3witm4Bz9%2Fa2JapOjz5H28QdpNxS90PE73iH8GuIWc8yNOImFNuhgboihcCtkyAhGa8mSMENzSZGXWdoqQ9P6wbj3dzFkX46%2FVfiGA8zcy5%2B17Y78Lk%2FS75gP6P7vUVe7LPRl57lKsNLfYRShH2MkjYP7%2Ff83%2FxaVjJrynVdlzsh93%2FO%2Brhi%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257792299722"
+  },
+  {
+   "title": "Official Nintendo Super Famicom AC Adapter Power Brick SFC HVC-002 US Seller",
+   "price": {
+    "raw": "$20.95",
+    "extracted": 20.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257185931666?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDYE35J62QVN57CK9CB&hash=item3be179e192%3Ag%3ARwgAAOSwHYFneI9o&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9zaU%2FcMIagsTrINYtEvBzZGBipzLeE9l3JRcEalhPP9UXTxPhIQ31RgKRLtZDL38J3aTiNSzeOrB5RL9uH7%2FjrRJk4nX39LrbSp%2BZvBYqhlDtSF%2BC2o8TdV1qJCQR%2BrhL9Hd5AgiEGah8jH1RudDV%2Ff52V1DK%2B6DEbjnWVBUFZsq3pWaUX%2BfDISXaqb%2FFZnLI%2B0fQcAsImG2LI9CXNA4TN%2FNTl7U5vsz6uTUJLFo67UF6x9y8BzESXWjFkFjHR%2FBcYgc4FMW2Pl5nUdfCjvep%2F%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257185931666"
+  },
+  {
+   "title": "HORI FATAL FURY 2 Garou Densetsu 2 Commander Controller For Super Famicom 1659",
+   "price": {
+    "raw": "$29.45",
+    "extracted": 29.45
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257664651022?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDZ7YF6B1GNYJ6EF8R0&hash=item3bfe028f0e%3Ag%3Aem8AAeSwkN9qdAE3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BvAMUYHMlHfCB5qWAtYsZrDplVdqQgXaORbER7plghzru%2FvPZYOz0IahwZmEblbwueixmAu%2FQPYJU5bXZSM5RP4Yvtc4PBOWjPodYtXHeYT%2B23JnS3ap78%2B5OkrEOwYMo5FfQy89UMWe9mZf5HwculfSpCsk5n6XIAfgyr2fI3o8od%2F0pVao72OGf4Euc5RF7IoCmBmTDC%2B3buCis%2FzwLHnC%2BY%2F9j5Hrritdk2A4yG9uEb1EOqLxpsF2HVReQH%2FeUqMGPq84p8AY47CVJgLRpa%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257664651022"
+  },
+  {
+   "title": "Nintendo Official S Video Cable SHVC-009 Boxed For Super Famicom GC",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206376939254?_skw=Nintendo+Super+Famicom+console+black&epid=1240085378&itmmeta=01M6CBATDZ7PBMZGX3PEWB1XJ4&hash=item300d062ef6%3Ag%3AYDoAAeSwFU1qP94w&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8BtO51D4FgH9Fm2R3FRVJI94DjQ0rkZamWoBXLL2d5UXz6iuCrYFCCPh1uZPrGqNU8v%2BDy6UiVEPCumxdvKlD99YTDWgVXRmUsl8ROsavExVneSEIhRnjtJXZiwydCBxv0wGmubLAoHa6bUvO4PJPIha9PucWtqhhsinAAsm56aih6Y4CT1mE33vdvnMSgqyUrHF2OhgyBKsJ1bB8Xx31h8uVxolDSCNs5mQ8XKbK30uFBFIgtQd4nxkFzhIatK7AZmcIS0XXbNRE6qjlzTWQR%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206376939254"
+  },
+  {
+   "title": "Official Nintendo Super Famicom Power AC Adapter HVC-002 Japan Import - Tested",
+   "price": {
+    "raw": "$20.99",
+    "extracted": 20.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860048040618?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDZH4PD7F0R16W73QZ9&hash=itemc83edba2aa%3Ag%3AHgQAAeSwaDxq0TNG&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BwQ%2BjPVOe3Xom9UA0szJO4mttOlGgM%2Fx6b4Dbhj1v5M%2FcX4WJxX%2FLOI9c%2FAPUhkZq4qhxB90XBEGT2gp0Sjo70enRUQrCregLqJLvTG6L2Ew2INvVc%2BI9HPa5uXiZrS0pLtHJTuUDvSXaovrQd2l9%2BwP718oeF7gFp6mCMxJGrtLDaaNrn05hQz60KmUqieO8DKg792AouQLU78NZU8rTFZjCXI0NBRuFvJx1XVwvKxE1dShszoxeu1CtQm7fytNINggHQ7aYcHBqefNRyaRWC%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860048040618"
+  },
+  {
+   "title": "Super Famicom Imagineer Pro Pad",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227216354943?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDZVH4QRKYHH9WWNZJ1&hash=item34e7266e7f%3Ag%3AmoMAAeSwUalpj9Sq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Mh4V1A4uNyHphwWWLsPYZoWF2Nq75flc%2BF3Hjd99VaYQEuSQPVsdpMsFt4r9VIjDEQRxtws1n0eQsPPwxKBGnGngP2Z5uAL%2BK9dWHO%2B9TXqaNuF0avM%2FKvVnUl1kjB4wN1IGpOtJG%2FUBzXLiiromjUhTDb91iR4XBejUm3ZYmhSsS7FzhmSj%2BcE8maHNMMrBKn2WYgTPwf29mKAJ4XcoL4UFQBJLdnHn5rW2qB2yaojTRvO%2BV2DAQx%2B1iqYpbQBDLuMY7BU9bwuh8Yqla5RedAA2skqS4xD8E7poMKZsSnJCV5BSJPNuqNe%2BixCEYdIo%3D%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227216354943"
+  },
+  {
+   "title": "OEM NINTENDO HVC-002 AC ADAPTER - SUPER FAMICOM - BOXED - ORIGINAL",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206340293862?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATDZ2JYN80MEMMNY1MYQ&hash=item300ad704e6%3Ag%3A4jUAAeSw4PlqK1R-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ptooJZReeQP%2Bw05CtGOmHUoNRfdXMmquNbAMuyGH4aWn07z1OQOHo25ILV4yEBPZlSUabifFLfSoXx2tnMqTK6dK6muj121uAWRaF%2FevoTF%2Bw7InlFsORbcZIRL6YoBlVW5ynENBKDdfoF%2B9P7MaLZT54XiaUj0gfa8QYC2vUXJ7CacSflUPSizFHqe3Da%2BgUJEVT2jCntbB5be7BA2qdo2dkiqVjIzS5Ziu8ED4p9XNKdIfteqXeLJdZ%2BJSkzuIJ%2FutZWIwXAoErI41JcqI3V6jFcRcBC9sPuYyuZzjZKWw15nUtGNS6o%2BoNu%2BWKdAc%3D%7Ctkp%3ABk9SR56nq4uzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206340293862"
+  },
+  {
+   "title": "Nintendo Super Famicom Console Tested Working Gray NTSC-J w/12 Games from JAPAN",
+   "price": {
+    "raw": "$268.88",
+    "extracted": 268.88
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158315425702?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATE0ECJ36Y8J2DCK67RT&hash=item24dc55afa6%3Ag%3AHs4AAeSwuqxqsI3i&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BaUG9xIAwfdWHxFMtdTbvB2Zc2SmDvk%2FVLcgAMG0%2BM9VuYy%2BOUNyZ6wij3WR7mZwz7eN0SA59GjqE2zJl8RoqGbC1EnPuZFCT7l%2BquGjiWW%2BazvVp7nHUSdpkiQD2ImrCm8TKZ48zH7%2B93v%2BXUt%2BVB5%2FboGM2wUZlQZwsjExhUntb52Z5qXTzrBpQvEwxrIeod%2FXfRe5Y890OOwYaabtzPGpedPvpb9nzd3cJcV1%2FeUS37lQ3FmZ62rAXUm18whRC3CrWDuBGya1Yd%2Bt%2BSFQlchkSppcSO%2BWTOcdkuIbOZSeGr00fOp%2Bl9iHJxG%2Br3cX4Yg42qtF2oPL%2BA5MOQNnvd%7Ctkp%3ABFBMnqeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158315425702"
+  },
+  {
+   "title": "Nintendo Super Famicom VIdeo Game Console & Controller Bundle Japanese Import",
+   "price": {
+    "raw": "$88.95",
+    "extracted": 88.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/401924718449?_skw=Nintendo+Super+Famicom+console+black&itmmeta=01M6CBATE0D620WVCFSE4HGGCD&hash=item5d94947f71%3Ag%3AhS4AAOSwCFZhYKDV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FqJcv%2FpSAW6aoRc970rMEHOuYzzD9sU4DmzaPj9RQ8s9abyDLq8xW%2BZDDRvbwrNXqEZTsaNWhPHiQ86ZyJqp5zvGNguG4UTmoX1RaDDjbt9w45t%2FL9d4zU9n9zxhJaRkE8kz6SXS078SREDaDjnciiXGQ0USfH0LtcS2gWkk6TSfubLX69ShyeWA4JTIoIITLE1Hki3KYSxMWnQ8i4SQA8nf%2BdzrNfuZ0mk%2BvQXpFKDCMOP6n%2B7W7VArNlropQUNszDCiNKL7LinkcsF2FsN6yf2ulltZnQlqSMx6Ufjojm%2BrfcvK%2F5uGylRzI64RKDeI%3D%7Ctkp%3ABFBMoKeri7No&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "401924718449"
+  }
+ ]
+}

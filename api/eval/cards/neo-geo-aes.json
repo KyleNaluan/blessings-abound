@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "SNK",
+    "product": "Neo Geo Mini",
+    "visible_text": "SNK Neo Geo Mini MAX 330 MEGA PRO-GEAR SPEC ADVANCED ENTERTAINMENT SYSTEM",
+    "search_query": "SNK Neo Geo Mini console",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Neo Geo Mini",
+    "platform": "Neo Geo"
+  }
+}

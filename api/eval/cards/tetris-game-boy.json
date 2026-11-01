@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "Game Boy",
+    "visible_text": "Nintendo GAME BOY, Tetris, DMS-TTR-FAA",
+    "search_query": "Nintendo Game Boy Tetris game",
+    "model_confidence": "high",
+    "color": "grey",
+    "material": "plastic",
+    "exact_model": "Game Boy",
+    "platform": "Game Boy"
+  }
+}

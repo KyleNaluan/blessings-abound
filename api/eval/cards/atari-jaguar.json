@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Atari",
+    "product": "video game console",
+    "visible_text": "JAGUAR, A.C.T.I.V.E. MULTI-MEDIA SYSTEM, A WIRTUAL IMAGING SYSTEM",
+    "search_query": "Atari Jaguar game console controller",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Atari Jaguar",
+    "platform": "Atari Jaguar"
+  }
+}

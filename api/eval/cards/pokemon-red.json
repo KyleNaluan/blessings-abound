@@ -1,0 +1,15 @@
+{
+  "provider": "generativelanguage.googleapis.com/gemini-3.5-flash",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "game cartridge",
+    "visible_text": "MADE IN JAPAN PAT. PEND.",
+    "search_query": "red Nintendo Game Boy game cartridge",
+    "model_confidence": "medium",
+    "color": "red",
+    "material": "plastic",
+    "exact_model": null,
+    "platform": "Nintendo Game Boy"
+  }
+}

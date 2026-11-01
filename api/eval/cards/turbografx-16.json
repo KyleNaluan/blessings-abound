@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "TurboGrafx-16",
+    "product": "video game console with controller",
+    "visible_text": "TURBOGRAFX 16, TURBOPRO, Select, Run, 1, 11",
+    "search_query": "TurboGrafx 16 console TurboPro controller",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "TurboGrafx-16",
+    "platform": "TurboGrafx-16"
+  }
+}
