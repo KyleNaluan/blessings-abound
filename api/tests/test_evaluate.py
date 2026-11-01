@@ -13,6 +13,7 @@ from app.evaluate import (
     EvalItem,
     EvaluationStopped,
     HandRecordedReference,
+    PriceGuideReference,
     Results,
     SavedSearches,
     baseline_prices,
@@ -26,6 +27,7 @@ from app.evaluate import (
     slim_response,
     summarize,
 )
+from app.models import Category
 from app.settings import PricingRules, get_settings
 
 PHOTO = {
@@ -160,6 +162,22 @@ def test_every_item_records_its_photo_license_and_price_source() -> None:
         assert item.photo.license
         assert item.photo.author
         assert item.reference.price_cents > 0
+
+
+def test_fresh_items_are_games_and_hardware_with_no_overlap_with_the_tuning_items() -> None:
+    fresh = load_fresh_items()
+    assert 13 <= len(fresh) <= 17
+    tuning = load_items()
+    assert not {item.id for item in fresh} & {item.id for item in tuning}
+    tuning_links = {getattr(item.reference, "url", None) for item in tuning}
+    tuning_photos = {item.photo.sha1 for item in tuning}
+    for item in fresh:
+        assert item.category is Category.ELECTRONICS_GAMES
+        assert item.photo.license
+        assert item.photo.author
+        assert isinstance(item.reference, PriceGuideReference)
+        assert item.reference.url not in tuning_links
+        assert item.photo.sha1 not in tuning_photos
 
 
 def test_the_saved_results_match_what_the_code_produces(

@@ -675,6 +675,8 @@ def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results
         "## Limits",
         "",
         "- These are small sets, so one or two items can move each number.",
+        "- Only 3 fresh items are games, all old cartridges, because few openly licensed photos "
+        "show a named game, so the result says little about discs or newer games.",
         "- PriceCharting's prices come from completed eBay sales through its own calculation, so "
         "they are sold prices from the same marketplace as the comps, not from another market.",
         "- Whether PriceCharting's prices include shipping was not checked, and comps omit it.",

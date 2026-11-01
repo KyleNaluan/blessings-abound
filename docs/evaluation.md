@@ -52,6 +52,7 @@ Searches saved for this evaluation: 18 of 80.
 ## Limits
 
 - These are small sets, so one or two items can move each number.
+- Only 3 fresh items are games, all old cartridges, because few openly licensed photos show a named game, so the result says little about discs or newer games.
 - PriceCharting's prices come from completed eBay sales through its own calculation, so they are sold prices from the same marketplace as the comps, not from another market.
 - Whether PriceCharting's prices include shipping was not checked, and comps omit it.
 - A loose console can differ from a listing in what comes with it, such as a controller.
@@ -113,6 +114,21 @@ Prices were recorded by hand from each linked page, on the date shown, and the s
 
 | Item | Set | Photo | Author | License | Note |
 | --- | --- | --- | --- | --- | --- |
+| Super Nintendo console | fresh | [Nintendo-Super-NES-Console-101-FL.jpg](https://commons.wikimedia.org/wiki/File:Nintendo-Super-NES-Console-101-FL.jpg) | Evan-Amos | Public domain |  |
+| Sega Genesis Model 2 console | fresh | [Sega-Genesis-Mk2-Console-01.jpg](https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-Console-01.jpg) | Evan-Amos | Public domain |  |
+| Original PlayStation console | fresh | [PSX-Console-wController.jpg](https://commons.wikimedia.org/wiki/File:PSX-Console-wController.jpg) | Evan-Amos | Public domain |  |
+| PlayStation 2 Slim console | fresh | [PS2-Slim-Console-Set.jpg](https://commons.wikimedia.org/wiki/File:PS2-Slim-Console-Set.jpg) | Evan-Amos | Public domain |  |
+| GameCube console, indigo | fresh | [GameCube-Set.jpg](https://commons.wikimedia.org/wiki/File:GameCube-Set.jpg) | Evan-Amos | Public domain |  |
+| Nintendo Wii console, white | fresh | [Wii-console.jpg](https://commons.wikimedia.org/wiki/File:Wii-console.jpg) | Evan-Amos | Public domain |  |
+| Game Boy Color, Atomic Purple | fresh | [Nintendo-Game-Boy-Color-FL.jpg](https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-FL.jpg) | Evan-Amos | Public domain |  |
+| PSP 1000 handheld, black | fresh | [Psp-1000.jpg](https://commons.wikimedia.org/wiki/File:Psp-1000.jpg) | Evan-Amos | Public domain |  |
+| PlayStation Vita, Wi-Fi model | fresh | [PlayStation-Vita-1101-FL.jpg](https://commons.wikimedia.org/wiki/File:PlayStation-Vita-1101-FL.jpg) | Evan-Amos | Public domain |  |
+| PlayStation 2 DualShock 2 controller, black | fresh | [DualShock 2.jpg](https://commons.wikimedia.org/wiki/File:DualShock_2.jpg) | Evan-Amos | Public domain |  |
+| Xbox 360 wireless controller, black | fresh | [Xbox-360-Controller-Black.jpg](https://commons.wikimedia.org/wiki/File:Xbox-360-Controller-Black.jpg) | Evan-Amos | Public domain |  |
+| Wii Remote, white | fresh | [Wiimote-Safety-First.jpg](https://commons.wikimedia.org/wiki/File:Wiimote-Safety-First.jpg) | Evan-Amos | Public domain | The photo shows the remote in its silicone jacket with a wrist strap. |
+| The Legend of Zelda for NES, cartridge only | fresh | [The Legend of Zelda - Golden Catridge.jpg](https://commons.wikimedia.org/wiki/File:The_Legend_of_Zelda_-_Golden_Catridge.jpg) | Dave or Atox | CC BY 2.0 |  |
+| Pitfall! for Atari 2600, cartridge only | fresh | [Cartucho de Atari 2600 del juego Pitfall.jpg](https://commons.wikimedia.org/wiki/File:Cartucho_de_Atari_2600_del_juego_Pitfall.jpg) | JoRgE-1987 | CC BY-SA 4.0 |  |
+| Donkey Kong for ColecoVision, cartridge only | fresh | [Donkey Kong Cartridge.jpg](https://commons.wikimedia.org/wiki/File:Donkey_Kong_Cartridge.jpg) | Onderwijsgek, cropped by another Commons user | CC BY-SA 2.5 nl | The photo shows a PAL cartridge, and the price page is the US release. |
 | Nintendo Switch console, red and blue Joy-Con | tuning | [Nintendo-Switch-Console-Docked-wJoyConRB.jpg](https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg) | Evan-Amos | Public domain | The price page is the gray Joy-Con model, because PriceCharting has no page found for this color. |
 | PlayStation 4 500GB console | tuning | [PS4-Console-wDS4.jpg](https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg) | Evan-Amos | Public domain |  |
 | Xbox 360 S console | tuning | [Xbox-360S-Console-Set.jpg](https://commons.wikimedia.org/wiki/File:Xbox-360S-Console-Set.jpg) | Evan-Amos | Public domain | The price page is the 250GB model, and the photo does not show the storage size. |

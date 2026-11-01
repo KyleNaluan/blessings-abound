@@ -1,0 +1,394 @@
+[
+  {
+    "id": "super-nes",
+    "name": "Super Nintendo console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-Super-NES-Console-101-FL.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Nintendo-Super-NES-Console-101-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Super-NES-Console-101-FL.jpg",
+      "sha1": "8a5cb3f3a3205bb20170e248e8dd8a8ec3fb9b32",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 10250,
+      "url": "https://www.pricecharting.com/game/super-nintendo/super-nintendo-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    }
+  },
+  {
+    "id": "genesis-model-2",
+    "name": "Sega Genesis Model 2 console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Sega-Genesis-Mk2-Console-01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sega-Genesis-Mk2-Console-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-Console-01.jpg",
+      "sha1": "12626f0c96d98dbe287d9499199bf1ed6da0b13f",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 6000,
+      "url": "https://www.pricecharting.com/game/sega-genesis/sega-genesis-model-2-console",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    }
+  },
+  {
+    "id": "playstation",
+    "name": "Original PlayStation console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "PSX-Console-wController.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/PSX-Console-wController.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:PSX-Console-wController.jpg",
+      "sha1": "3c0dbab7dbd2b6d42321bdc2162b75e8c406a685",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 6255,
+      "url": "https://www.pricecharting.com/game/playstation/playstation-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "2 sales per day"
+    }
+  },
+  {
+    "id": "ps2-slim",
+    "name": "PlayStation 2 Slim console",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "PS2-Slim-Console-Set.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/PS2-Slim-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:PS2-Slim-Console-Set.jpg",
+      "sha1": "1e0885f3df980bf0d3289003f3734aaa947fa880",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 10499,
+      "url": "https://www.pricecharting.com/game/playstation-2/slim-playstation-2-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per week"
+    }
+  },
+  {
+    "id": "gamecube",
+    "name": "GameCube console, indigo",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "GameCube-Set.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/GameCube-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:GameCube-Set.jpg",
+      "sha1": "3b981d45bc5db21f2e3e50b47af7f088c731dda3",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 10295,
+      "url": "https://www.pricecharting.com/game/gamecube/indigo-gamecube-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "6 sales per year"
+    }
+  },
+  {
+    "id": "wii",
+    "name": "Nintendo Wii console, white",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Wii-console.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Wii-console.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Wii-console.jpg",
+      "sha1": "d0f968377768174f5a6c0a556e971dd75772a723",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 5845,
+      "url": "https://www.pricecharting.com/game/wii/white-nintendo-wii-system",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per month"
+    }
+  },
+  {
+    "id": "game-boy-color",
+    "name": "Game Boy Color, Atomic Purple",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Nintendo-Game-Boy-Color-FL.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Game-Boy-Color-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-FL.jpg",
+      "sha1": "c8ff74fe80bb4371842c1efe26d50f12a64b4d9a",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 6950,
+      "url": "https://www.pricecharting.com/game/gameboy-color/game-boy-color-atomic-purple",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    }
+  },
+  {
+    "id": "psp-1000",
+    "name": "PSP 1000 handheld, black",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Psp-1000.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Psp-1000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Psp-1000.jpg",
+      "sha1": "24d57dd7036aeb9cd2c5c3f38f19259936baf01c",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 8883,
+      "url": "https://www.pricecharting.com/game/psp/psp-1000-console-black",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "2 sales per month"
+    }
+  },
+  {
+    "id": "ps-vita",
+    "name": "PlayStation Vita, Wi-Fi model",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "PlayStation-Vita-1101-FL.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/PlayStation-Vita-1101-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:PlayStation-Vita-1101-FL.jpg",
+      "sha1": "e3c943f227affcc803ad274ffc2c4fd8ca6c5994",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 15469,
+      "url": "https://www.pricecharting.com/game/playstation-vita/playstation-vita-wifi-edition",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per week"
+    }
+  },
+  {
+    "id": "dualshock-2",
+    "name": "PlayStation 2 DualShock 2 controller, black",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "DualShock 2.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/DualShock_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:DualShock_2.jpg",
+      "sha1": "5823034105ff1d1a248ff87274cf3f21968b1185",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 1878,
+      "url": "https://www.pricecharting.com/game/playstation-2/black-dual-shock-controller",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per month"
+    }
+  },
+  {
+    "id": "xbox-360-controller",
+    "name": "Xbox 360 wireless controller, black",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Xbox-360-Controller-Black.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Xbox-360-Controller-Black.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Xbox-360-Controller-Black.jpg",
+      "sha1": "166791aaa9a5fec7af50094b8cb7ae38d274c07f",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 2247,
+      "url": "https://www.pricecharting.com/game/xbox-360/black-xbox-360-wireless-controller",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per month"
+    }
+  },
+  {
+    "id": "wii-remote",
+    "name": "Wii Remote, white",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Wiimote-Safety-First.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Wiimote-Safety-First.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Wiimote-Safety-First.jpg",
+      "sha1": "6c52d04d524b55c93f478fdb816b17638669e470",
+      "license": "Public domain",
+      "author": "Evan-Amos"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 1740,
+      "url": "https://www.pricecharting.com/game/wii/white-wii-remote",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "2 sales per week"
+    },
+    "note": "The photo shows the remote in its silicone jacket with a wrist strap."
+  },
+  {
+    "id": "legend-of-zelda",
+    "name": "The Legend of Zelda for NES, cartridge only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "The Legend of Zelda - Golden Catridge.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Legend_of_Zelda_-_Golden_Catridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Legend_of_Zelda_-_Golden_Catridge.jpg",
+      "sha1": "813d4a678f09b8080ae273441633eab069fe803d",
+      "license": "CC BY 2.0",
+      "author": "Dave or Atox"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 3495,
+      "url": "https://www.pricecharting.com/game/nes/legend-of-zelda",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "4 sales per day"
+    }
+  },
+  {
+    "id": "pitfall",
+    "name": "Pitfall! for Atari 2600, cartridge only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Cartucho de Atari 2600 del juego Pitfall.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Cartucho_de_Atari_2600_del_juego_Pitfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Cartucho_de_Atari_2600_del_juego_Pitfall.jpg",
+      "sha1": "94a85fbef68e0b9f1ecd44beb3770f8ae141e690",
+      "license": "CC BY-SA 4.0",
+      "author": "JoRgE-1987"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 1400,
+      "url": "https://www.pricecharting.com/game/atari-2600/pitfall",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "1 sale per day"
+    }
+  },
+  {
+    "id": "donkey-kong-coleco",
+    "name": "Donkey Kong for ColecoVision, cartridge only",
+    "category": "electronics_games",
+    "staff": {
+      "condition": "pre_owned",
+      "complete_in_box": false
+    },
+    "photo": {
+      "file": "Donkey Kong Cartridge.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Donkey_Kong_Cartridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Donkey_Kong_Cartridge.jpg",
+      "sha1": "98140a2df06e1b22cf475e172fbee6e63bec1e1d",
+      "license": "CC BY-SA 2.5 nl",
+      "author": "Onderwijsgek, cropped by another Commons user"
+    },
+    "reference": {
+      "kind": "price_guide",
+      "source": "PriceCharting",
+      "tier": "loose",
+      "price_cents": 688,
+      "url": "https://www.pricecharting.com/game/colecovision/donkey-kong",
+      "recorded_on": "2026-11-01",
+      "sales_volume": "2 sales per week"
+    },
+    "note": "The photo shows a PAL cartridge, and the price page is the US release."
+  }
+]
