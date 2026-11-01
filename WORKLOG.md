@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-01, [#14](https://github.com/KyleNaluan/blessings-abound/issues/14), Price appraisals from the comps lookup and the pricing core in place of the placeholder, and save an honest check when there is no price
 - 2026-11-01, [#12](https://github.com/KyleNaluan/blessings-abound/issues/12), Filter comps to the same kind of item, turn them into a price range and confidence, and add the worth-listing rule (also #15 and #16)
 - 2026-11-01, [#10](https://github.com/KyleNaluan/blessings-abound/issues/10), Read the item card from the photos with the vision model, and let staff edit and confirm it before any search
 - 2026-11-01, [#7](https://github.com/KyleNaluan/blessings-abound/issues/7), Check Groq and Gemini on sample photos and add the item card JSON check with retry and fallback

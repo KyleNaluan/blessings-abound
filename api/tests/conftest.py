@@ -20,6 +20,12 @@ def refuse_hosted_database() -> None:
         pytest.exit(f"Tests only run against a local database, not {host}.", returncode=2)
 
 
+@pytest.fixture(autouse=True)
+def no_real_searches(monkeypatch: pytest.MonkeyPatch) -> None:
+    # A key in .env must never reach SerpApi from a test, because searches come from a small quota.
+    monkeypatch.setattr(get_settings(), "serpapi_api_key", None)
+
+
 @pytest.fixture
 def connection() -> Iterator[Connection]:
     """A connection on empty tables whose work is rolled back at the end of the test.

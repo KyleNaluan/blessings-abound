@@ -16,13 +16,16 @@ from PIL import Image
 from sqlmodel import Session, select
 
 from app.ai import Message
-from app.appraisal import get_photo_storage, get_vision_providers
+from app.appraisal import get_ebay_search, get_photo_storage, get_vision_providers
 from app.auth import AuthUnavailableError, get_token_verifier
+from app.comp_filter import filter_comps
+from app.comps import SerpApiError, parse_comps
 from app.db import get_session
 from app.main import app
 from app.models import (
     Appraisal,
     Category,
+    CompSearch,
     Condition,
     Confidence,
     Decision,
@@ -32,6 +35,8 @@ from app.models import (
     Profile,
     Role,
 )
+from app.pipeline import item_facts
+from app.pricing import price_range, worth_listing
 from app.settings import get_settings
 from app.storage import LocalStorage
 
@@ -93,6 +98,53 @@ def model_replies(**changes: Any) -> StubChat:
     return chat
 
 
+FIXTURES = Path(__file__).parent / "fixtures" / "serpapi"
+
+
+def serpapi_fixture(slug: str) -> dict[str, Any]:
+    return json.loads((FIXTURES / f"{slug}.json").read_text())
+
+
+def listings(*dollars: float) -> dict[str, Any]:
+    """A SerpApi response with one pre-owned jacket listing per price."""
+    return {
+        "search_metadata": {"status": "Success"},
+        "organic_results": [
+            {
+                "title": "Carhartt canvas jacket",
+                "price": {"extracted": price},
+                "product_id": str(index),
+                "link": f"https://www.ebay.com/itm/{index}",
+                "condition": "Pre-Owned",
+            }
+            for index, price in enumerate(dollars)
+        ],
+    }
+
+
+class StubSearch:
+    """Answers every search the same way, where an exception is raised, and records each call."""
+
+    def __init__(self, reply: dict[str, Any] | Exception) -> None:
+        self.reply = reply
+        self.calls: list[tuple[str, str]] = []
+        self.on_call: Callable[[], None] | None = None
+
+    def __call__(self, query: str, condition: str) -> dict[str, Any]:
+        self.calls.append((query, condition))
+        if self.on_call:
+            self.on_call()
+        if isinstance(self.reply, Exception):
+            raise self.reply
+        return self.reply
+
+
+def use_search(reply: dict[str, Any] | Exception) -> StubSearch:
+    search = StubSearch(reply)
+    app.dependency_overrides[get_ebay_search] = lambda: search
+    return search
+
+
 class StubVerifier:
     def __init__(self, tokens: dict[str, UUID]) -> None:
         self.tokens = tokens
@@ -133,6 +185,7 @@ def client(session: Session, storage: LocalStorage) -> Iterator[TestClient]:
     app.dependency_overrides[get_photo_storage] = lambda: storage
     app.dependency_overrides[get_token_verifier] = lambda: StubVerifier(tokens)
     model_replies()
+    use_search(serpapi_fixture("carhartt-detroit-jacket"))
     yield TestClient(app, headers={"Authorization": f"Bearer {STAFF_TOKEN}"})
     app.dependency_overrides.clear()
 
@@ -514,6 +567,7 @@ def test_an_unsure_card_stops_the_search_until_staff_confirm(
     client: TestClient, session: Session, changes: dict[str, Any]
 ) -> None:
     model_replies(**changes)
+    search = use_search(listings(*[50] * 12))
     item_id = upload(client)["id"]
     assert add_card(client, item_id)["needs_confirmation"] is True
 
@@ -521,6 +575,7 @@ def test_an_unsure_card_stops_the_search_until_staff_confirm(
     assert refused.status_code == 409
     assert "Confirm the brand and model" in refused.json()["detail"]
     assert session.exec(select(Appraisal)).all() == []
+    assert search.calls == []
 
     confirmed = client.patch(f"/items/{item_id}/card", json={})
     assert confirmed.status_code == 200, confirmed.text
@@ -528,6 +583,7 @@ def test_an_unsure_card_stops_the_search_until_staff_confirm(
     assert confirmed.json()["staff_confirmed"] is True
     assert confirmed.json()["staff_edited"] is False
     appraise(client, item_id)
+    assert len(search.calls) == 1
 
 
 def test_the_confidence_bar_is_a_setting(
@@ -610,6 +666,259 @@ def test_editing_needs_a_card_and_an_item_still_being_appraised(
     session.add(row)
     session.commit()
     assert client.patch(f"/items/{item_id}/card", json={}).status_code == 409
+
+
+def carded_item(client: TestClient, session: Session, **card_values: Any) -> str:
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+    card = session.get(ItemCard, UUID(item_id))
+    assert card is not None
+    for name, value in card_values.items():
+        setattr(card, name, value)
+    session.add(card)
+    session.commit()
+    return item_id
+
+
+def assert_no_price(appraisal: dict[str, Any]) -> None:
+    assert appraisal["price_low_cents"] is None
+    assert appraisal["price_typical_cents"] is None
+    assert appraisal["price_high_cents"] is None
+    assert appraisal["net_after_fees_cents"] is None
+    assert appraisal["comps_count"] == 0
+    assert appraisal["confidence"] == "low"
+    assert appraisal["recommendation"] == "check"
+
+
+def test_the_price_comes_from_the_filtered_comps_of_the_confirmed_card(
+    client: TestClient, session: Session
+) -> None:
+    reply = serpapi_fixture("carhartt-detroit-jacket")
+    search = use_search(reply)
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+    edited = {"search_query": "Carhartt Detroit jacket", "product": "Detroit jacket", "size": "L"}
+    assert client.patch(f"/items/{item_id}/card", json=edited).status_code == 200
+
+    appraisal = appraise(client, item_id)
+
+    assert search.calls == [("Carhartt Detroit jacket", "3000")]
+    card = session.get(ItemCard, UUID(item_id))
+    assert card is not None
+    rules = get_settings().pricing
+    kept = filter_comps(parse_comps(reply), item_facts(card)).kept
+    price = price_range(kept, rules)
+    assert appraisal["price_low_cents"] == price.low_cents
+    assert appraisal["price_typical_cents"] == price.typical_cents
+    assert appraisal["price_high_cents"] == price.high_cents
+    assert appraisal["comps_count"] == price.comps_count > 0
+    assert appraisal["confidence"] == price.confidence
+    worth = worth_listing(price, rules)
+    assert appraisal["recommendation"] == worth.recommendation
+    assert appraisal["net_after_fees_cents"] == worth.net_after_fees_cents
+    assert f"{price.comps_count} similar eBay listings" in appraisal["explanation"]
+    assert appraisal["rules_config"]["pricing"] == rules.model_dump()
+    assert appraisal["rules_config"]["search"]["outcome"] == "priced"
+    assert appraisal["rules_config"]["search"]["queries"] == ["Carhartt Detroit jacket"]
+
+
+@pytest.mark.parametrize(
+    ("dollars", "recommendation", "words"),
+    [
+        ([80] * 12, "yes", "worth listing"),
+        ([20] * 12, "no", "isn't worth listing"),
+        ([80, 90], "check", "Confidence is low"),
+    ],
+)
+def test_the_recommendation_and_explanation_follow_the_rule(
+    client: TestClient, dollars: list[int], recommendation: str, words: str
+) -> None:
+    use_search(listings(*dollars))
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+    appraisal = appraise(client, item_id)
+    assert appraisal["recommendation"] == recommendation
+    assert appraisal["price_typical_cents"] is not None
+    assert words in appraisal["explanation"]
+
+
+def test_appraising_again_spends_no_more_searches(client: TestClient) -> None:
+    search = use_search(listings(*[50] * 12))
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+    first, second = appraise(client, item_id), appraise(client, item_id)
+    assert first["price_typical_cents"] == second["price_typical_cents"]
+    assert len(search.calls) == 1
+
+
+def test_a_spent_budget_saves_an_honest_check_with_no_price(
+    client: TestClient, session: Session, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setattr(get_settings(), "serpapi_monthly_budget", 0)
+    search = use_search(listings(*[50] * 12))
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+
+    appraisal = appraise(client, item_id)
+
+    assert_no_price(appraisal)
+    assert "search budget is spent" in appraisal["explanation"]
+    assert appraisal["rules_config"]["search"]["outcome"] == "budget_spent"
+    assert search.calls == []
+    row = session.get(Item, UUID(item_id))
+    assert row is not None
+    assert row.status == ItemStatus.APPRAISED
+    assert decide(client, item_id, appraisal["id"], "no").status_code == 201
+
+
+def test_a_failed_search_saves_an_honest_check_and_can_be_tried_again(
+    client: TestClient, session: Session
+) -> None:
+    use_search(SerpApiError("SerpApi answered HTTP 500"))
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+
+    failed = appraise(client, item_id)
+
+    assert_no_price(failed)
+    assert "search failed" in failed["explanation"]
+    assert failed["rules_config"]["search"]["outcome"] == "search_failed"
+    assert session.exec(select(CompSearch)).all() == []
+
+    use_search(listings(*[50] * 12))
+    assert appraise(client, item_id)["price_typical_cents"] == round(5000 * 0.645)
+
+
+def test_a_server_without_a_search_key_saves_an_honest_check(client: TestClient) -> None:
+    app.dependency_overrides[get_ebay_search] = lambda: None
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+    appraisal = appraise(client, item_id)
+    assert_no_price(appraisal)
+    assert "isn't set up" in appraisal["explanation"]
+    assert appraisal["rules_config"]["search"]["outcome"] == "not_configured"
+
+
+@pytest.mark.parametrize(
+    "reply",
+    [
+        {"search_metadata": {"status": "Success"}, "organic_results": []},
+        listings(50, 60)
+        | {
+            "organic_results": [
+                listings(50)["organic_results"][0] | {"title": t}
+                for t in ("Carhartt jacket lot", "Carhartt vest")
+            ]
+        },
+    ],
+    ids=["nothing returned", "nothing the same kind of item"],
+)
+def test_no_usable_comps_saves_an_honest_check_after_the_fallback_searches(
+    client: TestClient, reply: dict[str, Any]
+) -> None:
+    search = use_search(reply)
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+    appraisal = appraise(client, item_id)
+    assert_no_price(appraisal)
+    assert "No usable comps" in appraisal["explanation"]
+    assert "Carhartt canvas jacket" in appraisal["explanation"]
+    assert [query for query, _ in search.calls] == [
+        "Carhartt canvas jacket",
+        "Carhartt canvas",
+        "Carhartt",
+    ]
+    assert appraisal["rules_config"]["search"]["outcome"] == "no_comps"
+
+
+@pytest.mark.parametrize(
+    ("values", "condition"),
+    [
+        ({"condition": Condition.PRE_OWNED}, "3000"),
+        ({"condition": Condition.NEW_WITH_TAGS}, "1000"),
+        ({"condition": Condition.NEW_WITHOUT_TAGS}, "1500"),
+        (
+            {
+                "category": Category.ELECTRONICS_GAMES,
+                "product": "Mario Kart 8 Deluxe",
+                "platform": "Nintendo Switch",
+            },
+            "2750|4000|5000|6000",
+        ),
+        (
+            {
+                "category": Category.ELECTRONICS_GAMES,
+                "product": "Nintendo Switch console",
+                "platform": "Nintendo Switch",
+            },
+            "3000",
+        ),
+    ],
+    ids=["used", "new with tags", "new without tags", "video game", "console"],
+)
+def test_the_search_asks_for_the_condition_on_the_card(
+    client: TestClient, session: Session, values: dict[str, Any], condition: str
+) -> None:
+    search = use_search(listings(*[50] * 12))
+    appraise(client, carded_item(client, session, **values))
+    assert search.calls[0][1] == condition
+
+
+def test_a_new_item_is_priced_from_new_listings(client: TestClient, session: Session) -> None:
+    reply = listings(*[50] * 12)
+    for result in reply["organic_results"]:
+        result["condition"] = "New with tags"
+    use_search(reply)
+    item_id = carded_item(client, session, condition=Condition.NEW_WITH_TAGS)
+    assert appraise(client, item_id)["comps_count"] == 12
+
+
+def test_staff_entries_reach_the_filter(client: TestClient, session: Session) -> None:
+    reply = listings(*[50] * 12)
+    for result in reply["organic_results"]:
+        result["title"] = "Carhartt canvas jacket tall"
+    use_search(reply)
+    regular = appraise(client, carded_item(client, session, size="L"))
+    assert_no_price(regular)
+    tall = appraise(client, carded_item(client, session, size="L", size_type="tall"))
+    assert tall["comps_count"] == 12
+
+
+def test_a_model_staff_named_is_not_ruled_out_as_the_wrong_item(
+    client: TestClient, session: Session
+) -> None:
+    reply = listings(*[150] * 12)
+    for result in reply["organic_results"]:
+        result["title"] = "Nintendo Switch OLED handheld"
+    use_search(reply)
+    item_id = carded_item(
+        client,
+        session,
+        category=Category.ELECTRONICS_GAMES,
+        product="Nintendo Switch",
+        platform="Nintendo Switch",
+        exact_model="OLED",
+    )
+    assert appraise(client, item_id)["comps_count"] == 12
+
+
+def test_an_item_that_moved_on_during_the_search_is_not_appraised(
+    client: TestClient, session: Session
+) -> None:
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+
+    def item_gets_listed() -> None:
+        row = session.get(Item, UUID(item_id))
+        assert row is not None
+        row.status = ItemStatus.LISTED
+        session.add(row)
+        session.commit()
+
+    search = use_search(listings(*[50] * 12))
+    search.on_call = item_gets_listed
+    assert client.post(f"/items/{item_id}/appraisals").status_code == 409
+    assert session.exec(select(Appraisal)).all() == []
 
 
 ROUTES = [

@@ -56,9 +56,10 @@ The hosted demo follows these steps:
 
 ## Pricing pipeline
 
-Each step is a board issue, and so far the item card in step 2, the SerpApi lookup in step 4 and the pricing functions in steps 5 to 9 are built.
+Each step is a board issue, and so far the item card in step 2 and steps 3 to 9 are built, and `POST /items/{id}/appraisals` runs them through `price_item` in `api/app/pipeline.py`.
 The item card in step 2 is read, edited and confirmed by staff, and the SerpApi lookup in step 4 is the active Buy It Now search with its 7 day cache and the drop-a-word fallback.
-Steps 5 to 9 are built as pure functions in `api/app/comp_filter.py` and `api/app/pricing.py`, with their numbers in `PricingRules` in `api/app/settings.py`, and the app does not call them yet.
+Steps 5 to 9 are built as pure functions in `api/app/comp_filter.py` and `api/app/pricing.py`, with their numbers in `PricingRules` in `api/app/settings.py`.
+Step 10's language model is not built, so the explanation is the code template it falls back to.
 The other steps are not built yet.
 The language model never produces a price, and every number comes from code over comps, which are similar items for sale on eBay.
 
@@ -69,7 +70,8 @@ The language model never produces a price, and every number comes from code over
    Staff can edit the card before any search is spent, with `PATCH /items/{id}/card`, which also confirms it.
    The appraisal step refuses a card with no brand or with a model confidence below `ITEM_CARD_MIN_CONFIDENCE`, default `medium`, until staff confirm it.
    Any staff entry the model sends back is dropped, and photos go to the model as upright JPEGs at most 960 pixels on the long side.
-3. Code builds the eBay search from the card and the staff notes.
+3. Code builds the eBay search from the card's search query, with condition ids for the card's condition and for whether it is a video game.
+   A pre-owned item searches `3000`, or `2750|4000|5000|6000` for a video game, new with tags searches `1000`, and new without tags searches `1500`, or `2750` for a video game.
 4. SerpApi's eBay engine returns active Buy It Now listings filtered by condition, and if fewer than 8 survive the filters, code drops the last query word and searches again, at most twice.
 5. Code filters the listings by title, dropping accessories, lots, parts and similar matches unless the item itself is one of those.
    Department, tall, plus and petite sizes, and complete in box are judged against the staff entries, a plain size never drops a listing, and each dropped listing keeps its reason.
@@ -81,6 +83,8 @@ The language model never produces a price, and every number comes from code over
 9. The worth-listing rule says "yes" when the typical sale price is at least $30, "no" below it, and "check" when confidence is low or there are no comps, and the threshold, fees and supplies live in config.
    The net after eBay's fees, which are 13.6% for most categories plus $0.40 per order, and $1.50 for supplies is shown beside it.
 10. The language model writes a 2 to 3 sentence explanation from the computed numbers only, and code rejects the text if it contains any number that is not in those facts and falls back to a template.
+
+When the budget is spent, the search fails, no key is set or no usable comps remain, the appraisal is still saved, with no prices, confidence low, the recommendation "check" and an explanation that says which of those happened.
 
 Staff see the range, the comps as links, the confidence and the recommendation, and they make the final call, which the app saves.
 If they disagree with the recommendation they choose a reason from a dropdown and may add a note, and a rejected item gets a destination, which is the store floor, seasonal storage, or discard or donate onward, written to the triage log.
@@ -163,3 +167,7 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Let plain sizes such as 34x32 or Large keep their comps and drop only tall, plus and petite cuts that staff did not enter, because a page of 60 listings spreads across many sizes and matching one exactly would leave too few comps to price.
 - 2026-11-01: Tell a game from a console by the card's product and platform, because both share the `electronics_games` category and a console's comps must drop games while a game's comps must drop consoles.
 - 2026-11-01: Show the net beside a "check" whenever comps gave a typical price, and leave it empty only with no comps, so staff can still see what a low-confidence item might clear.
+- 2026-11-01: Save an appraisal with no price and a "check" when the budget is spent, the search fails or the key is missing, rather than answering with an error, so staff can still make and record a call, and appraising again costs nothing for the searches already cached.
+- 2026-11-01: Give no price when a fallback search fails even if an earlier search found a few comps, because a retry reuses the cached searches and a price from a search cut short would look like a finished one.
+- 2026-11-01: Search new items with their own condition ids, because the used id `3000` returns only listings the condition filter drops for a new item, which would leave every new item with no price.
+- 2026-11-01: Cache a SerpApi response only when its status is `Success`, and turn every search failure into `SerpApiError` with no URL in its message, because a cached failure would last 7 days and the request URL carries the key.

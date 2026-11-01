@@ -13,6 +13,7 @@ from app.comps import (
     VIDEO_GAME_CONDITION_IDS,
     Comp,
     SearchBudgetSpentError,
+    SerpApiError,
     SerpApiNotConfiguredError,
     condition_ids,
     fallback_queries,
@@ -22,7 +23,7 @@ from app.comps import (
     searches_spent,
     serpapi_ebay_search,
 )
-from app.models import Category
+from app.models import Category, Condition
 from app.settings import Settings
 
 FIXTURES = Path(__file__).parent / "fixtures" / "serpapi"
@@ -72,6 +73,19 @@ def test_condition_ids_per_category() -> None:
     assert VIDEO_GAME_CONDITION_IDS == "2750|4000|5000|6000"
 
 
+@pytest.mark.parametrize(
+    ("video_game", "condition", "ids"),
+    [
+        (False, Condition.NEW_WITH_TAGS, "1000"),
+        (False, Condition.NEW_WITHOUT_TAGS, "1500"),
+        (True, Condition.NEW_WITH_TAGS, "1000"),
+        (True, Condition.NEW_WITHOUT_TAGS, "2750"),
+    ],
+)
+def test_condition_ids_for_new_items(video_game: bool, condition: Condition, ids: str) -> None:
+    assert condition_ids(Category.ELECTRONICS_GAMES, video_game, condition) == ids
+
+
 def test_fallback_queries_drop_the_last_word_at_most_twice() -> None:
     assert fallback_queries("nike air max 90 sneakers") == [
         "nike air max 90 sneakers",
@@ -103,6 +117,60 @@ def test_request_shape_and_key_stripping() -> None:
     assert params["buying_format"] == "BIN"
     assert params["api_key"] == "test-key"
     assert "api_key" not in response["search_parameters"]
+
+
+def test_seller_names_are_not_kept() -> None:
+    body = fixture("airpods-pro")
+    body["organic_results"][0]["seller"] = {"username": "someone"}
+    search = serpapi_ebay_search(
+        "test-key", httpx2.MockTransport(lambda _: httpx2.Response(200, json=body))
+    )
+    assert all("seller" not in result for result in search("a", "3000")["organic_results"])
+
+
+def raises_on(handler: Any) -> SerpApiError:
+    search = serpapi_ebay_search("secret-test-key", httpx2.MockTransport(handler))
+    with pytest.raises(SerpApiError) as caught:
+        search("airpods pro", "3000")
+    return caught.value
+
+
+def test_a_failed_request_is_a_search_error_that_never_shows_the_key() -> None:
+    error = raises_on(lambda _: httpx2.Response(429, json={"error": "out of searches"}))
+    assert "429" in str(error)
+    assert "secret-test-key" not in str(error)
+    assert error.__cause__ is None
+
+
+def test_a_connection_failure_is_a_search_error() -> None:
+    def handler(request: httpx2.Request) -> httpx2.Response:
+        raise httpx2.ConnectTimeout("timed out", request=request)
+
+    error = raises_on(handler)
+    assert "ConnectTimeout" in str(error)
+    assert "secret-test-key" not in str(error)
+
+
+@pytest.mark.parametrize(
+    "response",
+    [
+        httpx2.Response(200, text="not json"),
+        httpx2.Response(200, json=["not", "an", "object"]),
+        httpx2.Response(200, json={"search_metadata": {"status": "Error"}, "error": "nope"}),
+    ],
+    ids=["not json", "not an object", "error status"],
+)
+def test_a_reply_that_is_not_a_successful_search_is_an_error(response: httpx2.Response) -> None:
+    raises_on(lambda _: response)
+
+
+def test_a_failed_search_is_not_cached_or_counted(session: Session) -> None:
+    def failing(query: str, condition: str) -> dict[str, Any]:
+        raise SerpApiError("SerpApi answered HTTP 500")
+
+    with pytest.raises(SerpApiError):
+        search_cached(session, failing, "a", "3000", 2, NOW)
+    assert searches_spent(session, NOW) == 0
 
 
 def test_a_cached_response_is_reused_for_seven_days(session: Session) -> None:

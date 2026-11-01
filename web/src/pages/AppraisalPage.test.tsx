@@ -34,7 +34,7 @@ const appraisal = {
   price_high_cents: 4800,
   net_after_fees_cents: 2834,
   recommendation: 'yes',
-  explanation: 'Placeholder price.',
+  explanation: 'The expected sale price is $35.00.',
 }
 const savedRow = {
   id: 'decision-1',
@@ -127,7 +127,7 @@ test('takes a photo through the card and the price to a saved decision in the li
 
   expect(await screen.findByRole('heading', { name: 'Price range' })).toBeInTheDocument()
   expect(screen.getAllByText('Canvas jacket')).toHaveLength(1)
-  expect(screen.getAllByText('Placeholder')).toHaveLength(1)
+  expect(screen.getByText('The expected sale price is $35.00.')).toBeInTheDocument()
   expect(screen.getByText('$35.00')).toBeInTheDocument()
 
   fireEvent.click(screen.getByRole('button', { name: "No, don't list it" }))
