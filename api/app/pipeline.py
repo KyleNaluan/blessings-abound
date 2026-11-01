@@ -1,6 +1,6 @@
 """The photo-to-price steps behind the appraisal routes.
 
-Everything here is a placeholder from the walking skeleton (#30). Each function is the seam its
+Each function marked PLACEHOLDER is left from the walking skeleton (#30), and it is the seam its
 issue replaces, so the routes and the web app stay as they are when the real step arrives.
 """
 
@@ -9,22 +9,11 @@ from uuid import UUID
 
 from pydantic import BaseModel
 
-from app.models import Category, Confidence, Item, ItemCard, Recommendation
-
-
-class ItemCardDraft(BaseModel):
-    """What the vision model proposes for the card. Staff entries come in separately."""
-
-    category: Category
-    brand: str | None
-    product: str | None
-    visible_text: str | None
-    search_query: str
-    model_confidence: Confidence
-    color: str | None
-    material: str | None
-    exact_model: str | None
-    platform: str | None
+from app.ai import ChatModel
+from app.models import Confidence, ItemCard, Recommendation
+from app.settings import get_settings
+from app.storage import Storage
+from app.vision import ItemCardDraft, prepare_photo, read_item_card
 
 
 class PriceResult(BaseModel):
@@ -50,20 +39,31 @@ def placeholder_photo_hash(item_id: UUID) -> str:
     return f"placeholder-{item_id.hex}"
 
 
-def draft_item_card(item: Item) -> ItemCardDraft:
-    # PLACEHOLDER: #10 replaces this with a vision model call on the item's photos.
-    return ItemCardDraft(
-        category=Category.APPAREL,
-        brand="Placeholder Brand",
-        product="Placeholder hooded sweatshirt",
-        visible_text=None,
-        search_query="placeholder brand hooded sweatshirt",
-        model_confidence=Confidence.MEDIUM,
-        color="Gray",
-        material=None,
-        exact_model=None,
-        platform=None,
-    )
+def draft_item_card(
+    photo_keys: list[str],
+    staff_entries: dict[str, Any],
+    notes: str | None,
+    storage: Storage,
+    providers: list[ChatModel],
+) -> ItemCardDraft:
+    """Ask the vision model for its part of the card, telling it what staff already entered."""
+    photos = [prepare_photo(storage.read(key)) for key in photo_keys]
+    return read_item_card(photos, providers, _staff_notes(staff_entries, notes)).card
+
+
+def _staff_notes(staff_entries: dict[str, Any], notes: str | None) -> str | None:
+    lines = [f"{name}: {value}" for name, value in staff_entries.items() if value not in (None, [])]
+    if notes:
+        lines.append(notes)
+    return "; ".join(lines) or None
+
+
+def needs_confirmation(brand: str | None, model_confidence: Confidence) -> bool:
+    """Whether staff must confirm the card before any search."""
+    # A missing brand counts too, because the search would have nothing specific to look for.
+    order = list(Confidence)
+    bar = get_settings().item_card_min_confidence
+    return brand is None or order.index(model_confidence) < order.index(bar)
 
 
 def price_item(card: ItemCard) -> PriceResult:

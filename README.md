@@ -105,7 +105,7 @@ The tables are described in [docs/database.md](docs/database.md), which also cov
 
 ## Pricing
 
-The pricing pipeline is described in [docs/architecture.md](docs/architecture.md#pricing-pipeline), and the SerpApi comps lookup and the comp filter and pricing functions are built, but the app does not run the pipeline yet.
+The pricing pipeline is described in [docs/architecture.md](docs/architecture.md#pricing-pipeline), and so far the item card step, the SerpApi comps lookup, and the comp filter and pricing functions are built, but the app does not run the pipeline yet.
 It needs a SerpApi key in `SERPAPI_API_KEY`, but tests never call SerpApi, because they read committed fixture responses instead.
 
 ## Contributing

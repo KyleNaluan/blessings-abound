@@ -12,9 +12,19 @@ const item = { id: 'item-1', sku: 'PLACEHOLDER-1', status: 'intake', photo_keys:
 const card = {
   item_id: 'item-1',
   category: 'apparel',
-  brand: 'Placeholder Brand',
-  product: 'Placeholder hooded sweatshirt',
-  search_query: 'placeholder brand hooded sweatshirt',
+  brand: 'Carhartt',
+  product: 'Canvas jacket',
+  visible_text: null,
+  search_query: 'carhartt canvas jacket',
+  model_confidence: 'high',
+  condition: 'pre_owned',
+  color: 'Brown',
+  material: null,
+  exact_model: null,
+  platform: null,
+  staff_edited: false,
+  staff_confirmed: false,
+  needs_confirmation: false,
 }
 const appraisal = {
   id: 'appraisal-1',
@@ -30,8 +40,8 @@ const savedRow = {
   id: 'decision-1',
   item_id: 'item-1',
   sku: 'PLACEHOLDER-1',
-  brand: 'Placeholder Brand',
-  product: 'Placeholder hooded sweatshirt',
+  brand: 'Carhartt',
+  product: 'Canvas jacket',
   price_typical_cents: 3500,
   decision: 'no',
   decided_by_name: 'Demo Staff',
@@ -56,6 +66,13 @@ function stubApi(overrides: Record<string, () => Response> = {}) {
           return Response.json(item, { status: 201 })
         case 'POST /items/item-1/card':
           return Response.json(card)
+        case 'PATCH /items/item-1/card':
+          return Response.json({
+            ...card,
+            ...(await request.clone().json()),
+            staff_confirmed: true,
+            needs_confirmation: false,
+          })
         case 'POST /items/item-1/appraisals':
           return Response.json(appraisal)
         case 'POST /items/item-1/decisions':
@@ -86,6 +103,10 @@ async function pickPhoto() {
   })
 }
 
+async function confirmTheCard() {
+  fireEvent.click(await screen.findByRole('button', { name: 'Confirm and get the price' }))
+}
+
 beforeEach(() => {
   fake.reset(fakeSession())
   URL.createObjectURL = vi.fn(() => 'blob:preview')
@@ -102,17 +123,18 @@ test('takes a photo through the card and the price to a saved decision in the li
   expect(await screen.findByText('No decisions yet.')).toBeInTheDocument()
 
   await pickPhoto()
+  await confirmTheCard()
 
   expect(await screen.findByRole('heading', { name: 'Price range' })).toBeInTheDocument()
-  expect(screen.getAllByText('Placeholder hooded sweatshirt')).toHaveLength(1)
-  expect(screen.getAllByText('Placeholder')).toHaveLength(2)
+  expect(screen.getAllByText('Canvas jacket')).toHaveLength(1)
+  expect(screen.getAllByText('Placeholder')).toHaveLength(1)
   expect(screen.getByText('$35.00')).toBeInTheDocument()
 
   fireEvent.click(screen.getByRole('button', { name: "No, don't list it" }))
 
   expect(await screen.findByRole('status')).toHaveTextContent('Saved your decision: no.')
   const row = await screen.findByRole('listitem')
-  expect(row).toHaveTextContent('Placeholder hooded sweatshirt')
+  expect(row).toHaveTextContent('Canvas jacket')
   expect(row).toHaveTextContent('Demo Staff')
 
   const decision = calls.find((call) => call.path.endsWith('/decisions') && call.method === 'POST')
@@ -123,7 +145,7 @@ test('sends the sign-in token and the photo as a file part', async () => {
   const calls = stubApi()
   renderPage()
   await pickPhoto()
-  await screen.findByRole('heading', { name: 'Price range' })
+  await screen.findByRole('heading', { name: 'Item card' })
 
   const upload = calls.find((call) => call.path === '/items')
   expect(upload?.request.headers.get('Authorization')).toBe('Bearer access')
@@ -140,6 +162,7 @@ test('a failed step shows the error and retrying does not upload again', async (
   })
   renderPage()
   await pickPhoto()
+  await confirmTheCard()
 
   expect(await screen.findByRole('alert')).toHaveTextContent('This item has no card yet.')
 
@@ -148,7 +171,9 @@ test('a failed step shows the error and retrying does not upload again', async (
 
   expect(await screen.findByRole('heading', { name: 'Price range' })).toBeInTheDocument()
   expect(calls.filter((call) => call.path === '/items')).toHaveLength(1)
-  expect(calls.filter((call) => call.path.endsWith('/card'))).toHaveLength(1)
+  expect(
+    calls.filter((call) => call.path.endsWith('/card') && call.method === 'POST'),
+  ).toHaveLength(1)
 })
 
 test('a failed save keeps the card and lets the person decide again', async () => {
@@ -161,6 +186,7 @@ test('a failed save keeps the card and lets the person decide again', async () =
   })
   renderPage()
   await pickPhoto()
+  await confirmTheCard()
   fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
 
   expect(await screen.findByRole('alert')).toHaveTextContent('Could not save.')
@@ -170,6 +196,83 @@ test('a failed save keeps the card and lets the person decide again', async () =
   fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
 
   expect(await screen.findByRole('status')).toHaveTextContent('Saved your decision: yes.')
+})
+
+test('stops at the card, with no search until staff confirm it', async () => {
+  const calls = stubApi()
+  renderPage()
+  await pickPhoto()
+
+  expect(await screen.findByLabelText('Brand')).toHaveValue('Carhartt')
+  expect(screen.getByLabelText('Color')).toHaveValue('Brown')
+  expect(screen.getByText('High')).toBeInTheDocument()
+  expect(screen.queryByText(/isn't sure/)).not.toBeInTheDocument()
+  expect(calls.some((call) => call.path.endsWith('/appraisals'))).toBe(false)
+})
+
+test('sends what staff changed and shows the confirmed card', async () => {
+  const calls = stubApi()
+  renderPage()
+  await pickPhoto()
+
+  fireEvent.change(await screen.findByLabelText('Brand'), { target: { value: 'Dickies' } })
+  fireEvent.change(screen.getByLabelText('Exact model'), { target: { value: 'Eisenhower' } })
+  fireEvent.change(screen.getByLabelText('Category'), {
+    target: { value: 'electronics_games' },
+  })
+  await confirmTheCard()
+
+  await screen.findByRole('heading', { name: 'Price range' })
+  const patch = calls.find((call) => call.method === 'PATCH')
+  expect(await patch?.request.json()).toMatchObject({
+    brand: 'Dickies',
+    exact_model: 'Eisenhower',
+    category: 'electronics_games',
+    color: 'Brown',
+    search_query: 'carhartt canvas jacket',
+  })
+  expect(screen.getByText('Dickies')).toBeInTheDocument()
+  expect(screen.getByText('Electronics and games')).toBeInTheDocument()
+  expect(screen.queryByLabelText('Brand')).not.toBeInTheDocument()
+})
+
+test('warns about a low confidence card and needs search words', async () => {
+  const calls = stubApi({
+    'POST /items/item-1/card': () =>
+      Response.json({ ...card, model_confidence: 'low', needs_confirmation: true }),
+  })
+  renderPage()
+  await pickPhoto()
+
+  expect(await screen.findByText(/The model isn't sure/)).toBeInTheDocument()
+  fireEvent.change(screen.getByLabelText(/^Search/), { target: { value: '  ' } })
+  await confirmTheCard()
+
+  expect(screen.getByText('Enter the words to search for.')).toBeInTheDocument()
+  expect(calls.some((call) => call.method === 'PATCH')).toBe(false)
+})
+
+test('a failed confirm keeps what staff typed', async () => {
+  let failing = true
+  stubApi({
+    'PATCH /items/item-1/card': () =>
+      failing
+        ? Response.json({ detail: 'Could not save the card.' }, { status: 500 })
+        : Response.json({ ...card, brand: 'Dickies', staff_confirmed: true }),
+  })
+  renderPage()
+  await pickPhoto()
+  fireEvent.change(await screen.findByLabelText('Brand'), { target: { value: 'Dickies' } })
+  await confirmTheCard()
+
+  expect(await screen.findByRole('alert')).toHaveTextContent('Could not save the card.')
+  expect(screen.getByLabelText('Brand')).toHaveValue('Dickies')
+
+  failing = false
+  fireEvent.click(screen.getByRole('button', { name: 'Try again' }))
+  await confirmTheCard()
+
+  expect(await screen.findByRole('heading', { name: 'Price range' })).toBeInTheDocument()
 })
 
 test('an unreachable API says so', async () => {
@@ -187,6 +290,7 @@ test('appraising another item clears the last one', async () => {
   stubApi()
   renderPage()
   await pickPhoto()
+  await confirmTheCard()
   fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
   fireEvent.click(await screen.findByRole('button', { name: 'Appraise another item' }))
 

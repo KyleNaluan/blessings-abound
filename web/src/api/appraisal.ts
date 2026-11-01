@@ -3,6 +3,7 @@ import type { components } from './schema'
 
 export type Item = components['schemas']['ItemRead']
 export type ItemCard = components['schemas']['ItemCardRead']
+export type ItemCardEdit = components['schemas']['ItemCardEdit']
 export type Appraisal = components['schemas']['AppraisalRead']
 export type DecisionChoice = components['schemas']['DecisionChoice']
 export type RecentDecision = components['schemas']['RecentDecision']
@@ -40,8 +41,17 @@ export function createItemCard(itemId: string) {
   return unwrap(
     api.POST('/items/{item_id}/card', {
       params: { path: { item_id: itemId } },
-      // PLACEHOLDER: #17 adds the staff entry form, which sends the real condition and other fields.
+      // PLACEHOLDER: #9 adds the staff entry form, which sends the real condition and other fields.
       body: { condition: 'pre_owned', flaws: [] },
+    }),
+  )
+}
+
+export function confirmItemCard(itemId: string, edit: ItemCardEdit) {
+  return unwrap(
+    api.PATCH('/items/{item_id}/card', {
+      params: { path: { item_id: itemId } },
+      body: edit,
     }),
   )
 }

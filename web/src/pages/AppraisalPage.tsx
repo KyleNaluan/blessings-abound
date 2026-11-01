@@ -1,7 +1,16 @@
-import { useCallback, useEffect, useRef, useState, type ChangeEvent } from 'react'
+import {
+  Fragment,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type ChangeEvent,
+  type FormEvent,
+} from 'react'
 import { Link } from 'react-router'
 
 import {
+  confirmItemCard,
   createAppraisal,
   createItemCard,
   listRecentDecisions,
@@ -11,9 +20,11 @@ import {
   type DecisionChoice,
   type Item,
   type ItemCard,
+  type ItemCardEdit,
   type RecentDecision,
 } from '@/api/appraisal'
 import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
+import { Field, SubmitButton, TextInput } from '@/components/site/form'
 import { SignOutButton } from '@/components/site/SignOutButton'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -31,10 +42,116 @@ type Progress = { photo: File; item?: Item; card?: ItemCard; appraisal?: Apprais
 type Status =
   | { step: 'idle' }
   | { step: 'working'; label: string }
+  | { step: 'checking' }
   | { step: 'failed'; message: string }
   | { step: 'ready' }
   | { step: 'deciding' }
   | { step: 'saved'; decision: DecisionChoice }
+
+const CATEGORY_LABELS = { apparel: 'Apparel', electronics_games: 'Electronics and games' }
+const CONFIDENCE_LABELS = { low: 'Low', medium: 'Medium', high: 'High' }
+const CONDITION_LABELS = {
+  new_with_tags: 'New with tags',
+  new_without_tags: 'New without tags',
+  pre_owned: 'Pre-owned',
+}
+
+// The card fields staff can change here, in the order they are shown.
+const TEXT_FIELDS = [
+  ['brand', 'Brand'],
+  ['product', 'Product'],
+  ['exact_model', 'Exact model'],
+  ['color', 'Color'],
+  ['material', 'Material'],
+  ['platform', 'Platform'],
+  ['visible_text', 'Visible text'],
+] as const
+
+function CardForm({
+  card,
+  busy,
+  onConfirm,
+}: {
+  card: ItemCard
+  busy: boolean
+  onConfirm: (edit: ItemCardEdit) => void
+}) {
+  const [category, setCategory] = useState(card.category)
+  const [searchQuery, setSearchQuery] = useState(card.search_query)
+  const [text, setText] = useState(() =>
+    Object.fromEntries(TEXT_FIELDS.map(([name]) => [name, card[name] ?? ''])),
+  )
+  const searchMissing = !searchQuery.trim()
+
+  function submit(event: FormEvent) {
+    event.preventDefault()
+    if (searchMissing || busy) return
+    onConfirm({ ...text, category, search_query: searchQuery })
+  }
+
+  return (
+    <form onSubmit={submit} noValidate>
+      {card.needs_confirmation && (
+        <p className="mb-6 border-l-4 border-destructive pl-3.5 font-bold">
+          The model isn't sure about this item. Check the brand and exact model before we search.
+        </p>
+      )}
+      <dl className="mb-6 grid grid-cols-[8rem_1fr] gap-x-4 gap-y-1">
+        <dt className="font-bold">Confidence</dt>
+        <dd>{CONFIDENCE_LABELS[card.model_confidence]}</dd>
+        <dt className="font-bold">Condition</dt>
+        <dd>{CONDITION_LABELS[card.condition]}, the default until the intake form is built</dd>
+      </dl>
+      <Field id="card-category" label="Category">
+        {({ id }) => (
+          <select
+            id={id}
+            value={category}
+            disabled={busy}
+            onChange={(event) => setCategory(event.target.value as ItemCard['category'])}
+            className="h-11 w-full min-w-0 rounded-none border-2 border-input bg-background px-2.5 text-foreground"
+          >
+            {Object.entries(CATEGORY_LABELS).map(([value, label]) => (
+              <option key={value} value={value}>
+                {label}
+              </option>
+            ))}
+          </select>
+        )}
+      </Field>
+      {TEXT_FIELDS.map(([name, label]) => (
+        <Field key={name} id={`card-${name}`} label={label}>
+          {({ id }) => (
+            <TextInput
+              id={id}
+              value={text[name]}
+              disabled={busy}
+              onChange={(event) => setText({ ...text, [name]: event.target.value })}
+            />
+          )}
+        </Field>
+      ))}
+      <Field
+        id="card-search"
+        label="Search"
+        hint="The words we'll search eBay for."
+        error={searchMissing ? 'Enter the words to search for.' : undefined}
+      >
+        {({ id, describedBy, invalid }) => (
+          <TextInput
+            id={id}
+            value={searchQuery}
+            disabled={busy}
+            invalid={invalid}
+            aria-describedby={describedBy}
+            onChange={(event) => setSearchQuery(event.target.value)}
+          />
+        )}
+      </Field>
+      <SubmitButton pending={busy}>Confirm and get the price</SubmitButton>
+    </form>
+  )
+}
 
 // PLACEHOLDER: #17 replaces this screen with the full appraisal design, keeping the same API calls.
 export function AppraisalPage() {
@@ -79,6 +196,11 @@ export function AppraisalPage() {
         next.card = await createItemCard(next.item.id)
         setProgress({ ...next })
       }
+      // Staff check every card before a search is spent, and the API insists when the model is unsure.
+      if (!next.card.staff_confirmed) {
+        setStatus({ step: 'checking' })
+        return
+      }
       if (!next.appraisal) {
         setStatus({ step: 'working', label: 'Working out the price' })
         next.appraisal = await createAppraisal(next.item.id)
@@ -99,6 +221,19 @@ export function AppraisalPage() {
     void run(start)
   }
 
+  async function confirmCard(edit: ItemCardEdit) {
+    if (!progress?.item) return
+    setStatus({ step: 'working', label: 'Saving the card' })
+    try {
+      const card = await confirmItemCard(progress.item.id, edit)
+      const next = { ...progress, card }
+      setProgress(next)
+      await run(next)
+    } catch (error) {
+      setStatus({ step: 'failed', message: (error as Error).message })
+    }
+  }
+
   async function decide(decision: DecisionChoice) {
     if (!progress?.item || !progress.appraisal) return
     setStatus({ step: 'deciding' })
@@ -114,6 +249,7 @@ export function AppraisalPage() {
   function retry() {
     if (!progress) return
     if (progress.appraisal) setStatus({ step: 'ready' })
+    else if (progress.card && !progress.card.staff_confirmed) setStatus({ step: 'checking' })
     else void run(progress)
   }
 
@@ -182,22 +318,25 @@ export function AppraisalPage() {
 
       {card && (
         <section aria-labelledby="card-heading" className="mb-7 border border-rule p-4">
-          <div className="mb-3 flex items-center justify-between gap-3">
-            <h2 id="card-heading" className="text-xl font-bold">
-              Item card
-            </h2>
-            <Badge variant="outline">Placeholder</Badge>
-          </div>
-          <dl className="grid grid-cols-[8rem_1fr] gap-x-4 gap-y-1">
-            <dt className="font-bold">Brand</dt>
-            <dd>{card.brand ?? 'None'}</dd>
-            <dt className="font-bold">Product</dt>
-            <dd>{card.product ?? 'None'}</dd>
-            <dt className="font-bold">Category</dt>
-            <dd>{card.category === 'apparel' ? 'Apparel' : 'Electronics and games'}</dd>
-            <dt className="font-bold">Search</dt>
-            <dd className="min-w-0 break-words">{card.search_query}</dd>
-          </dl>
+          <h2 id="card-heading" className="mb-3 text-xl font-bold">
+            Item card
+          </h2>
+          {card.staff_confirmed ? (
+            <dl className="grid grid-cols-[8rem_1fr] gap-x-4 gap-y-1">
+              <dt className="font-bold">Category</dt>
+              <dd>{CATEGORY_LABELS[card.category]}</dd>
+              {TEXT_FIELDS.map(([name, label]) => (
+                <Fragment key={name}>
+                  <dt className="font-bold">{label}</dt>
+                  <dd className="min-w-0 break-words">{card[name] ?? 'None'}</dd>
+                </Fragment>
+              ))}
+              <dt className="font-bold">Search</dt>
+              <dd className="min-w-0 break-words">{card.search_query}</dd>
+            </dl>
+          ) : (
+            <CardForm card={card} busy={busy} onConfirm={(edit) => void confirmCard(edit)} />
+          )}
         </section>
       )}
 

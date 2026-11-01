@@ -56,8 +56,8 @@ The hosted demo follows these steps:
 
 ## Pricing pipeline
 
-Each step is a board issue.
-The SerpApi lookup in step 4 is built - the active Buy It Now search, its 7 day cache and the drop-a-word fallback.
+Each step is a board issue, and so far the item card in step 2, the SerpApi lookup in step 4 and the pricing functions in steps 5 to 9 are built.
+The item card in step 2 is read, edited and confirmed by staff, and the SerpApi lookup in step 4 is the active Buy It Now search with its 7 day cache and the drop-a-word fallback.
 Steps 5 to 9 are built as pure functions in `api/app/comp_filter.py` and `api/app/pricing.py`, with their numbers in `PricingRules` in `api/app/settings.py`, and the app does not call them yet.
 The other steps are not built yet.
 The language model never produces a price, and every number comes from code over comps, which are similar items for sale on eBay.
@@ -66,7 +66,9 @@ The language model never produces a price, and every number comes from code over
    Staff enter the condition grade, using eBay's values, and any flaws, plus the department, size and size type for apparel and shoes, or tested and working, complete-in-box and accessories for electronics and games.
    Those come from staff, never from the model.
 2. The vision model turns the photos and staff entries into an item card with the category, brand, product, any visible text, a search query and its own confidence, and it proposes the color, material, exact model and platform for staff to confirm.
-   Staff can edit the card before any search is spent, and low brand or model confidence needs their confirmation before searching.
+   Staff can edit the card before any search is spent, with `PATCH /items/{id}/card`, which also confirms it.
+   The appraisal step refuses a card with no brand or with a model confidence below `ITEM_CARD_MIN_CONFIDENCE`, default `medium`, until staff confirm it.
+   Any staff entry the model sends back is dropped, and photos go to the model as upright JPEGs at most 960 pixels on the long side.
 3. Code builds the eBay search from the card and the staff notes.
 4. SerpApi's eBay engine returns active Buy It Now listings filtered by condition, and if fewer than 8 survive the filters, code drops the last query word and searches again, at most twice.
 5. Code filters the listings by title, dropping accessories, lots, parts and similar matches unless the item itself is one of those.
@@ -152,6 +154,9 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Check each request's token by asking Supabase Auth at `/auth/v1/user` rather than verifying the JWT in the API, because it works with both the older shared secret and the newer signing keys and a banned user stops working at once, at the cost of one extra call per request.
 - 2026-11-01: Refuse anyone without an active profile, even with a good token, because the profile holds the role and a decision needs someone to point at.
 - 2026-11-01: Show staff their own decisions and managers everyone's in the recent decisions list, because `requirements.md` keeps every decision to managers.
+- 2026-11-01: Make saving the card with `PATCH /items/{id}/card` the confirmation, with no separate route, because staff have read what they save and one call is all the screen needs.
+- 2026-11-01: Treat a card with no brand like one with low confidence, because a search without a brand spends quota on a vague query, and keep one `model_confidence` rather than one for the brand and one for the model, because the schema has one and the prompt defines it over both.
+- 2026-11-01: Resize photos with Pillow before the vision call, because the 2,300 tokens per photo in the vision check assumes 960 pixels and a full-size phone photo would hit the provider's limits.
 - 2026-11-01: Keep an item `appraised` after a yes and set it to `declined` after a no, because no status means "staff said yes" and `approved` belongs to the manager step.
 - 2026-11-01: Add a new `comp_searches` row on every refresh instead of overwriting the cached one, so the rows of the current month are the count of searches spent against `SERPAPI_MONTHLY_BUDGET` (default 240 of the free plan's 250), and the lookup refuses cleanly once that is spent.
 - 2026-11-01: Skip a listing that shows a from-to price in `parse_comps` instead of averaging the two ends, because that range spans different variants and no one is asking the midpoint.
