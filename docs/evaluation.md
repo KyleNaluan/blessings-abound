@@ -23,6 +23,11 @@ Before the ask-to-sale factor, the pipeline's typical asking price is a median 1
 Item cards that would have stopped for staff confirmation: 1 of 30.
 Searches spent on these items: 30 of 42.
 
+| Batch | Items | Pipeline in range | Pipeline median error | Baseline in range | Baseline median error | Pipeline closer |
+| --- | --- | --- | --- | --- | --- | --- |
+| First items | 15 | 12 | 11.6% | 8 | 23.8% | 11 of 15 |
+| Added items, picked to be harder | 15 | 9 | 31.2% | 6 | 55.6% | 10 of 15 |
+
 ## Tuning data: the first 18 games and hardware items
 
 These items set the rules below, so their score is inflated and it isn't the result.
@@ -56,6 +61,15 @@ Searches saved for this evaluation: 48 of 80.
 - Apparel keeps the factor of 0.645 and the 25th to 75th percentiles, and no apparel result was looked at or used.
 - The fresh list was committed before its first score, which `git log -- api/eval/fresh_items.json` shows, and the rules were not changed after it.
 
+## How the added fresh items were picked
+
+- The 15 added items were chosen by their shape, because the first 15 were likely easier than the tuning items: 7 games, 4 rare or thinly sold consoles, and 4 accessories that aren't controllers.
+- The games are 2 GameCube discs, 1 Nintendo DS card and 4 cartridges, and ordinary photos came before white studio shots, which brought in cartridges shown from the back and games shown with a console.
+- Each item's photo was fixed before its price was recorded, and no search was run or listing looked at until the list was committed.
+- One item was replaced: a Japanese Sega Saturn on a shop shelf has no PriceCharting page for its model, so the Atari Jaguar took its place.
+- This was one person's judgment of what is harder, so the 30 items are not a random sample of what a thrift store receives.
+- The added list had its own commit before its first score, they were scored once, and no factor or percentile changed.
+
 ## How it is scored
 
 - The pipeline is the vision model's item card, unedited, passed through `price_item`.
@@ -68,9 +82,13 @@ Searches saved for this evaluation: 48 of 80.
 ## Limits
 
 - These are small sets, so one or two items can move each number.
-- The pipeline scored better on the fresh items than on the tuning items, which tuned rules don't usually do, so the fresh items were likely easier and another set may score lower.
+- The first 15 fresh items were likely easier than the tuning items, and the 15 added were picked to be harder, so another set may score higher or lower than these 30.
+- The asking price per reference is a median 1.16 on the 30 fresh items against the 1.06 the factor came from, and the factor was left alone so that this stays a test of it.
+- The vision model reads some items wrongly when the photo gives it little, and nothing here corrects it: Super Mario Bros. from the back and Super Mario 64 in a console became console searches, Melee became a Super Famicom, the Neo Geo AES became a Neo Geo Mini, and the Wii Balance Board became a dance pad.
+- A game shown with its console can price as the console, even from a correct search: the Tetris search is mostly Game Boys and lots, and the comp filter kept them.
+- A rare console can have too thin a reference to say much, and the Neo Geo AES page shows 1 sale per year.
 - The comp filter still lets some wrong listings through, such as consoles among the Super Nintendo controller's comps and magazine ads among Sonic & Knuckles', and the 2DS card was read as a Wii U GamePad. Tuning didn't address either problem.
-- Only 3 fresh items are games, all old cartridges, because few openly licensed photos show a named game, so the result says little about discs or newer games.
+- 10 fresh items are games, but only 2 are discs and none is from a recent console, because few openly licensed photos show a named game, so the result says little about newer games.
 - PriceCharting's prices come from completed eBay sales through its own calculation, so they are sold prices from the same marketplace as the comps, not from another market.
 - Whether PriceCharting's prices include shipping was not checked, and comps omit it.
 - A loose console can differ from a listing in what comes with it, such as a controller.
