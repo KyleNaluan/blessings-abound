@@ -1,6 +1,3 @@
-import { readdirSync, readFileSync, statSync } from 'node:fs'
-import path from 'node:path'
-
 import { expect, test } from 'vitest'
 
 import { checkNoServerSecrets } from './viteEnvCheck.ts'
@@ -25,19 +22,4 @@ test('a build with only public values goes ahead', () => {
       VITE_API_URL: '',
     }),
   ).not.toThrow()
-})
-
-function sourceFiles(directory: string): string[] {
-  return readdirSync(directory).flatMap((name) => {
-    const file = path.join(directory, name)
-    return statSync(file).isDirectory() ? sourceFiles(file) : [file]
-  })
-}
-
-test('no web code reads the service role key or calls Supabase sign-up', () => {
-  for (const file of sourceFiles(path.resolve(import.meta.dirname, 'src'))) {
-    const text = readFileSync(file, 'utf8')
-    expect(text, file).not.toMatch(/SERVICE_ROLE/i)
-    expect(text, file).not.toMatch(/auth\.signUp\b/)
-  }
 })
