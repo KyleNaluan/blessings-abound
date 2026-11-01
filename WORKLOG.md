@@ -6,6 +6,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 ## KyleNaluan
 
 - 2026-11-01, [#7](https://github.com/KyleNaluan/blessings-abound/issues/7), Check Groq and Gemini on sample photos and add the item card JSON check with retry and fallback
+- 2026-11-01, [#30](https://github.com/KyleNaluan/blessings-abound/issues/30), Add the walking skeleton from photo to saved decision, with a placeholder item card and price
 - 2026-11-01, [#40](https://github.com/KyleNaluan/blessings-abound/issues/40), Rename the app to Turnstone in the API title and package description
 - 2026-11-01, [#4](https://github.com/KyleNaluan/blessings-abound/issues/4), Check SerpApi's eBay search for apparel and electronics and save the responses as test fixtures
 - 2026-10-30, [#46](https://github.com/KyleNaluan/blessings-abound/pull/46), Update the requirements, README and architecture docs to the 2026-10-29 plan and the Turnstone name

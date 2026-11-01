@@ -47,6 +47,16 @@ Open http://localhost:5173 for the landing page.
 Signing in needs `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in `.env` and an account in that Supabase project.
 After signing in, the page at http://localhost:5173/app should show the API status as `ok`.
 
+The appraisal screen at http://localhost:5173/app/appraise also needs the API to check your sign-in and find your profile.
+Set `SUPABASE_URL` and `SUPABASE_ANON_KEY` in `.env`, then give your Supabase Auth user a profile in the local database:
+
+```sh
+cd api
+uv run python -m app.seed_local_profile <auth user id> <username> [staff|manager]
+```
+
+The Auth user id is on the user's row in the Supabase dashboard, and the script refuses any database that isn't local.
+
 If port 5432 or 8000 is already taken on your machine, set `POSTGRES_PORT` or `API_PORT` in `.env`, and update `DATABASE_URL` or `VITE_API_URL` to match.
 
 ## Tests and lint
