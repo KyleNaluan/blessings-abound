@@ -12,6 +12,13 @@ import { usePageTitle } from '@/lib/usePageTitle'
 type ApiState = 'checking' | 'ok' | 'unreachable'
 
 // Where people land after signing in.
+// Someone with no email has a hidden address on this domain, see api/app/supabase_auth.py, and only the username means anything.
+const PLACEHOLDER_SUFFIX = '@accounts.turnstone.invalid'
+
+function signedInName(email: string | undefined) {
+  return email?.endsWith(PLACEHOLDER_SUFFIX) ? email.slice(0, -PLACEHOLDER_SUFFIX.length) : email
+}
+
 export function HomePage() {
   usePageTitle('Home')
   const { session } = useAuth()
@@ -27,7 +34,7 @@ export function HomePage() {
   return (
     <AuthLayout end={<SignOutButton />}>
       <PageHeading>You're signed in</PageHeading>
-      <Lead>Signed in as {session?.user.email}.</Lead>
+      <Lead>Signed in as {signedInName(session?.user.email)}.</Lead>
       <Button asChild size="lg" className="mb-7 max-sm:w-full">
         <Link to="/app/appraise">Appraise an item</Link>
       </Button>

@@ -1,0 +1,51 @@
+# The offline demo: no keys and no network once the images are built, see README.md.
+# A stand-in answers for Supabase, the vision model and SerpApi, with public passwords, so run it on this machine only.
+services:
+  standin:
+    build: ./api
+    command: uvicorn app.offline_standin:app --host 0.0.0.0 --port 9999
+    environment:
+      OFFLINE_PHOTO_DIR: /data
+    ports:
+      - "127.0.0.1:9999:9999"
+    volumes:
+      - offline-photos:/data
+
+  api:
+    environment:
+      SUPABASE_URL: http://standin:9999
+      SUPABASE_ANON_KEY: offline
+      SUPABASE_SERVICE_ROLE_KEY: offline
+      AI_BASE_URL: http://standin:9999/v1
+      AI_MODEL: offline
+      AI_API_KEY: offline
+      AI_FALLBACK_BASE_URL: ""
+      AI_FALLBACK_MODEL: ""
+      AI_FALLBACK_API_KEY: ""
+      SERPAPI_API_KEY: offline
+      SERPAPI_SEARCH_URL: http://standin:9999/search.json
+      CORS_ORIGINS: '["http://localhost:5173"]'
+    command: >-
+      sh -c "alembic upgrade head
+      && python -m app.seed_local_profile 00000000-0000-4000-8000-000000000001 demo.staff staff
+      && python -m app.seed_local_profile 00000000-0000-4000-8000-000000000002 demo.manager manager
+      && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    depends_on:
+      standin:
+        condition: service_started
+
+  web:
+    build:
+      context: ./web
+      args:
+        VITE_API_URL: http://localhost:${API_PORT:-8000}
+        VITE_SUPABASE_URL: http://localhost:9999
+        VITE_SUPABASE_ANON_KEY: offline
+    ports:
+      - "5173:5173"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  offline-photos:
