@@ -71,6 +71,7 @@ The language model never produces a price, and every number comes from code over
 4. SerpApi's eBay engine returns active Buy It Now listings filtered by condition, and if fewer than 8 survive the filters, code drops the last query word and searches again, at most twice.
 5. Code filters the listings by title, dropping accessories, lots, parts and similar matches unless the item itself is one of those.
    Department, tall, plus and petite sizes, and complete in box are judged against the staff entries, a plain size never drops a listing, and each dropped listing keeps its reason.
+   A listing returned more than once is dropped by its item id with reason DUPLICATE, so one listing cannot weigh twice in the percentiles.
 6. Code trims outliers with Tukey fences on log price, skipped when fewer than 4 listings remain, and takes the 25th, 50th and 75th percentiles as the low, typical and high price.
 7. Asking prices run higher than sale prices, so code multiplies the range by an ask-to-sale factor of 0.645, which is one value in config rather than one per channel, because comps always come from eBay.
    It is labeled an assumption, because it comes from Poshmark data with ratios from 1.21 to 2.93, and a re-measure on eBay is a stretch item done by hand.
