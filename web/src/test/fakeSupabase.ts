@@ -24,6 +24,8 @@ const auth = {
   resetPasswordForEmail: vi.fn(),
   updateUser: vi.fn(),
   signOut: vi.fn(async () => {
+    // The real client makes a network call first, so the event never lands inside the click that asked for it.
+    await new Promise((resolve) => setTimeout(resolve))
     emit('SIGNED_OUT', null)
     return { error: null }
   }),

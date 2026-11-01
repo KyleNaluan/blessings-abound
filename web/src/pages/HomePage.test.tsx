@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { MemoryRouter } from 'react-router'
 
 import App from '@/App'
@@ -54,9 +54,9 @@ test('signing out goes back to the landing page', async () => {
     vi.fn(async () => Response.json({ status: 'ok' })),
   )
   renderHome()
-  ;(await screen.findByRole('button', { name: 'Sign out' })).click()
+  fireEvent.click(await screen.findByRole('button', { name: 'Sign out' }))
   expect(
     await screen.findByRole('heading', { level: 1, name: /keep every shop in sync/ }),
   ).toBeInTheDocument()
-  expect(fake.auth.signOut).toHaveBeenCalled()
+  await waitFor(() => expect(fake.auth.signOut).toHaveBeenCalled())
 })

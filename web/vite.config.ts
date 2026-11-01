@@ -15,8 +15,8 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./src/test/setup.ts'],
-    // The flows that chain several awaited steps need headroom on a slow, shared CI runner,
-    // where the default 5s is not enough and the whole test times out.
+    // The limit for a whole test is a plain timer, so seconds lost to the shared CI runner freezing this process count
+    // against it, and the first test in a file also does the slow cold start. Only a test that hangs ever waits this long.
     testTimeout: 15000,
   },
 })
