@@ -1,4 +1,11 @@
-import { useEffect, useId, useRef, useState, type ComponentProps, type ReactNode } from 'react'
+import {
+  useId,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type ComponentProps,
+  type ReactNode,
+} from 'react'
 
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
@@ -12,7 +19,8 @@ export type FieldError = { fieldId: string; message: string }
 export function ErrorSummary({ errors }: { errors: FieldError[] }) {
   const ref = useRef<HTMLDivElement>(null)
 
-  useEffect(() => {
+  // Move focus during the commit, before paint, so the focus lands synchronously with the summary appearing.
+  useLayoutEffect(() => {
     ref.current?.focus()
   }, [])
 
