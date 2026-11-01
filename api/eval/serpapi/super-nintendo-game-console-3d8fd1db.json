@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Super Nintendo game console",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 3900,
+ "organic_results": [
+  {
+   "title": "Super Nintendo Console with 1 Controller, Cords, Tested SNES SNES-001",
+   "price": {
+    "raw": "$135.00",
+    "extracted": 135.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206668021408?_skw=Super+Nintendo+game+console&epid=12081097652&itmmeta=01M6C4RFC1TK8TQ5F26WRX65DC&hash=item301e5fbea0%3Ag%3AzhIAAeSwrx5q1qge&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde98ht--4LbBuwKkCDGMk4DyHoChhCWowrN3J50fbCTe4g0Kjr3eCgX1Fgp0TtZ5L6p1UIxIkeOOswMyEKl4bL16svC38kPV13RTeZ0AjKZzmmvJ19G6fQuGtncxsKsU8LKrg%2BriW6aBI%2FNzR7S8%2Bb85dKqHsSY6%2FMbQOfFcJ0qsQyMS1704nhr--VZdY9eQJKio%2FW3%2BB%2F1b3HuRub9ifCXi4itXFEXfZb9VkHZCwGKB2C08%2Fq9EVpVPvrIJ%2BcX6poCn36U0CKZiMHGisccl4%2BXTxKlGLewhSenwxGxV29SdhqIXSPFvtpwCDy80uADS8hI%3D%7Ctkp%3ABk9SR5T24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206668021408"
+  },
+  {
+   "title": "Working - Super Nintendo SNES Original System Console w/ Mario World!",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960139268778?_skw=Super+Nintendo+game+console&epid=219532720&itmmeta=01M6C4RFC17X6S1HEX0SJXB38W&hash=itemdf8cc292aa%3Ag%3AcWgAAeSwVYlq5r6G&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8CMKZMyTyjffpwYn8d1zY8sLqsdUFCoKVRRZvFbphj%2FSoA%2Fkj6XRN1emcGvveiVGkiKe7IZniBkqYxMpShQRKh%2B2Y0yVJy0qdZuy40G6NNXUQl5kcEAdidaihZ1UGx1dE%2FxbdJnQEs1D%2F2%2FP9r9i47m7c5qsqKilPzzPLQ6Xgl4BBgPcRATcu6E%2FpI%2F3VBPOBkedqub13BrmDSd7gfsTy6NEvXhHPT%2BYl9Aj2PAWlXL0QQ7So6J145RQUhdw7bZxkV67%2ByjGdLF6sul2zvYTj8Xo0vxLY7%2BEfuCXHi%2BtJA--UqeCrfAoHbSWXHp7GUQm0%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960139268778"
+  },
+  {
+   "title": "SNES Console + Super Mario World & All Stars Bundle - Super Nintendo Guaranteed",
+   "price": {
+    "raw": "$209.99",
+    "extracted": 209.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/226141056285?_skw=Super+Nintendo+game+console&epid=110615432&itmmeta=01M6C4RFC1MD86E9G8SDB4JBTP&hash=item34a70ead1d%3Ag%3AAOgAAOSw1q5mP6fy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde85uqZea3ZywlZOQygoctV9By%2Fl5XF3RsiHYxy8SqKpzyc3kwhZbSIRnFTms6JH0iHh7kUkS8s5YyX9WGBpWllNcRUPj6%2BR8lGNhPOcGFzPPedEWujOaBUKW4kkGSFvV1H0o%2Bl4HrBzCeFhg2UdVMsnJ6YvQhwme6iZDg6AuYXYbttHGc3p4TL0n8c03N5EJucBJ9rHylAqqqj2sWY2kUkhgm1qb4Bl0vxtW6X768PTYp%2BIWJGRCF9%2BHCh3VpPMT02GT%2FMsbB%2FIjCjWcVfoKzUXQcvATXZnc%2FJ6eG0w0lEfMrw3RN6V0318VlVEPjxnkHY%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "226141056285"
+  },
+  {
+   "title": "Super Nintendo SNES System Console With 2 OEM Controllers Authentic & Clean!!",
+   "price": {
+    "raw": "$264.99",
+    "extracted": 264.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/153688647582?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC1BA3M0099AA52F3QV&hash=item23c88ea79e%3Ag%3ANfUAAOSwzy9dymLH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8fitBklccDr6SnR9CQTNOoF9ku0%2BG3AxCUcsbG9U5Vh9kT55Eb7cHdPgLO5FcyKczQq8G0zHoNo1WIFUd8oSrsckmOPE8HBSFb87AtYUgw88yZCzm1rW7%2BYOJTw4KhNUpDRf1sYWCvy%2FFZhnMQolBKMJfII7kay6Ij7R13irF8RXA7A8%2Ft%2F7aDyAb6MlMMnNWiYQz%2F5%2FuHeTYyqR827L4bTcGMk%2FDv8Q12uEpOGHy8cWzJaZ8cli3lpp9f9DMN9CPgBbHvNHZOxfxtINMkiMazDRSJkTKhRvIRVAKXMI%2FQZ0C1EXfexFmZNuYPafMgP1k%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "153688647582"
+  },
+  {
+   "title": "Super Nintendo SNES System Control Deck Console Bundle - 2 Controllers - Tested",
+   "price": {
+    "raw": "$124.95",
+    "extracted": 124.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920094122918?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC1M68NXARJ876E1HBB&hash=itemd639e223a6%3Ag%3A6H0AAeSwVVBq51ag&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8WL%2FVrnc697%2B9L3Dg7i%2FMgBp9y2brcbv4AfetA9rLAATLDO19K6e0PRCSLKCCkIYfecI9JnTWvIJFHVyuKgj3f8wxl2dBXLISiePt4ygXo%2Bxpm%2F7yHBC%2BicZNHFDFJkOFlsI3%2FdRqxcqbqdstpZ3r7UHcsXnjwVkqWJqjUTv0kbWI3jNJbQiYidzAwZhViil9CTfjdHIhcOf5Fm79iPnREdm2UMtwEMJfc5KlBqRGbQt3zf9UUmOXNJ9l7JSrMMmwug3P6mH53mlGAwx%2B5tZJu%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920094122918"
+  },
+  {
+   "title": "Super Nintendo Entertainment System SNES Console SNS-001 Bundle",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117497122984?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC12YEVE905PDVFQ9JT&hash=item1b5b5fd0a8%3Ag%3AySQAAeSwRONq5myX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FajhJosYvojKvA%2FVN6E36hqseppfp5hL2PsXau2xfnul7gEzPwuPMoQZzyROw8Z1MDlvJitLwbOHmn%2BlqLZzjFyDCm7cV0oStPhpJQgPr9y1dyW%2Fq6rAzuGra%2B%2BtPwveScrEXviQJWEPMZN3IBoHDn4IZIeIFK3vjsgWb0j3QIMW0WWSCNrNz%2B2ENs%2B%2Bb%2FU5ZGZtJzry4G%2BhC2ZeYqOt9b2w8202ncZ5uMmsXBUYoF6TeKGpC5CcUpsUsIdAvu%2F8rf55e%2Bz8rVf6HtR1iwcUFNBOu7t4XHO710v9nbiMrXeic62GO2EIybpCb%2F3Wujk%2FY%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117497122984"
+  },
+  {
+   "title": "Nintendo Super NES Control Deck SNS-001 Console w/ 2 Controllers + Game, NTSC",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287694862647?_skw=Super+Nintendo+game+console&epid=12081097652&itmmeta=01M6C4RFC1YNCP3R4CAASA23MQ&hash=item42fbf33937%3Ag%3AoVcAAeSwZLVq5iet&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8ghVlyo1wLUuH0qHdhnIIu5AtbIt%2FF%2BE0BUR3OVrVgGq%2FhDPx3TOHLA3PRtcOaX5jCLFVJD7n%2Fiw47TGT%2BTyw1NIu8jFfYeKjKQzyCmttfaNvtkisZoyuq4MJTGvv6Hf8G099WVym%2BL60x2NnPr22ZkEIg5NduKQBA3epMWp4ecvdBt2c3MAPs1QUQFdSFhQf%2Fnmwi0ZidCl5GKySWMT%2FU9fcuLhnz5MvU6c0IP0Kr2EkEpW8ilI7sAIxfbi1lXd8KlhnskJ1eowHZ4DK%2FngLW%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287694862647"
+  },
+  {
+   "title": "SUPER NINTENDO SNES CONSOLE BUNDLE W/ 2 CONTROLLERS & 3 VIDEO GAMES TESTED",
+   "price": {
+    "raw": "$169.99",
+    "extracted": 169.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227592548427?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC1S864MM8B41GBNFYB&hash=item34fd92b04b%3Ag%3AxqIAAeSw%7Eahq5x1j&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bm9Cmc51%2BJ0xtWCB4d%2BGDDsnXdu0iqWHirJRJqZpWS1pnUwJHBk%2FZw6hjPCLBC6Qsj2r%2FHfMzliJJqTSgQd%2FeBMtITTtq3BzbyLkeEaYW9jXHU0BqBlxKstcia2OZwznINq83bTHv%2BsA41oPFU4bpCMkUOOBTfNhTpwCQMWF9WEsGMC%2Bgba8tQecd3VUQfSEqmK3CzL%2BzePzxb8FZJrapP8LEYjEJvyXyJC3rFmaM5BleJunTFJ7PLqa8BE1wZi0LCjGU4RwI%2Fq6nK1XLbHh1T%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227592548427"
+  },
+  {
+   "title": "Super Nintendo SNES Console Only SNS-001 - Tested Working",
+   "price": {
+    "raw": "$91.99",
+    "extracted": 91.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128160011042?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC1RRM56PCCZEVBV3Y1&hash=item1dd6ee9322%3Ag%3AxhAAAeSw1Nlq4TnA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9O7LcDt4bX6eSp2yPoTt9iopKTCYyDG22EOGyxCZ9oGzsZjbF95EcwLUzz2UNakSQXRd6X1186qyRZxT0HVeK1oHBoNSy3CojfQED5CX5bky8aOu%2BYyIXCwn8vdJ12jt1Npkc5ieGi6%2F9FcJSfCjhhmFDdcSj9pZvRsm4Qgb02Phqx8uMBf62Cd1TNTaoPrkZt6CQPAczArxQSJxUZWIJefCm%2B3jkmvBlH%2FyUT8WxmsIvidtUrOyRj0z5sTy06MtuI45n9eagGSxc6Jb76MdeqWqbJAPSpJoauw8vLQ4kp30lw8EbfWtyUkK2dMjbPFuk%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128160011042"
+  },
+  {
+   "title": "Super Nintendo SNES Console Bundle With 2 OEM Controllers Power Adapter RF Cable",
+   "price": {
+    "raw": "$115.00",
+    "extracted": 115.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820301552208?_skw=Super+Nintendo+game+console&epid=12081097652&itmmeta=01M6C4RFC272X6Z541XDTQ5CF3&hash=itembefdc85a50%3Ag%3ARQkAAeSwWylq5qBK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8UUOjiSCtFnu1CgpMM92y7QUl58sD4MVBpb6n4Ageo8tYyiIg%2BBR4%2ByPN6D83shtjIe%2F%2BPIpLysY8jvcjnBOTvbfGD32RnjsEZUqIEehRJ7M0H%2B%2FkQuzHH7ghdCKrEx5XHFSBeKh41xFXZlvVNCjZ6VnT0BozzeIBZPvTLF7xEF5xIwQvfc2Ral0%2BDIrrLXeHBuoj%2BU7MimcHAdqocRbygheIck7bd2hyI1QTaSf%2B4cU3G73P2Yt8APTnqQNPW2sFfIn3NJjMMwJVXJhgD%2BL1x%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820301552208"
+  },
+  {
+   "title": "Super Nintendo SNES Console Bundle | Cleaned & Tested | Mario World & Kart",
+   "price": {
+    "raw": "$179.99",
+    "extracted": 179.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800860002754?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC2D6V9X0YTHYBKT69H&hash=itemba76f9d9c2%3Ag%3Ab4UAAeSwldpq5if4&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BCD0p81YfihgqeTEQVAQzIV9sfeIAeAlRNgfncxXLlksXWyjJUpKtOtKI7hJSWUAdryRyUfkkGixU4B99JOf%2FKEBrcY0TZCVF98CA%2F9VdSc93ZZFWgk9bGRp%2BxtGrhwvd6ORmVWEueiMZjfZoL6ZwCTEJpyptdvrpeoAhwPOSxZFKM08YuNFTXNnSgCDrnr2i4ZeMt7Lo%2Fyn6uNtdezCGw1psQD85jvdQabDw5VAsJm2ZLHmATS6TWWgyqCPQ4g8zjxYlzxgXhX%2BbW%2FcFOuUM%2F%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800860002754"
+  },
+  {
+   "title": "Super Nintendo SNES Console Bundle 2 Controllers 7 Games Tested Working",
+   "price": {
+    "raw": "$265.00",
+    "extracted": 265.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137890224006?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC2VYJ3XQXDEDCH82YN&hash=item201ae5d786%3Ag%3ApPQAAeSwWMtq5fzd&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8OQ2%2F%2ByayoKsBEjut8Y2bkUe5EpiL%2FomU3yaE9RR4d6ctVc%2FNypdKqtWSz0hpJypUCYFrLo%2Fb28CeM5bZPktlR781A2b4sbOq3bOEjDozXo6wl5PYX8nBbQmmKtxOkF6YYjN2KV0ByrE9iV%2FUuW%2FXCtsJekguVP6eadSoEjn7cOhPFKkVSeAlyGkCdY4xIjAjwsQ6MS5DdiXyge4P%2Fh7REDUxVNkVIBcQPstQsY9AK0xHCVLZw7rfZ1AAyqc6kCmN9DwmIYXIusSEW8bFOAcR6%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137890224006"
+  },
+  {
+   "title": "Nintendo Super SNES Control Deck SNS-101 Console W/ Controller & Power Cable #3",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128164983707?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC2CCJTRGN4QCAQW917&hash=item1dd73a739b%3Ag%3Aty0AAeSwbjdq5PTc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8HYt2T2kvtMJq%2Fvs5s%2FXUBbdkKDfcx7fN%2BqZuU8kmRF5BzHp6UUJ6FBE1UmjsflYsWgm%2BZegLae%2FNL6MTIdormyknx5HXLaORs%2FSu4ncqRexw2IbICshOlTgRjOIdxH%2B0Bw6OYZxem5b0EKIGgauMeZHKNgbiEdhdt0CoEOnW8mTRVewaBrWs3Z01yieYZf6anFp2hxD5JQLEU0zMuNuGucrT1QGlSH5ftURxYABnwIFy8f5v9M97aFttJHVASsT4H6Fwm1M7VFgAW%2B7SbWqxWgzwD3fTFiLqVX%2F2YtHML7IBisfwPoVRFj6zKfj0UrDs%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128164983707"
+  },
+  {
+   "title": "Nintendo Super Famicom Console Bundle 6 Games 2 Controllers & Cables SNES Japan",
+   "price": {
+    "raw": "$134.99",
+    "extracted": 134.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900007372261?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC2B6B3AXRNVWEDHFWC&hash=itemd18c9ea5e5%3Ag%3A9FEAAeSwZ%7ElqzHei&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FjRME3XxphVkn5LVPzNIRYx%2BIExvCMrlKssc8cWHA00lHWebfZFiB1AfUxOEJ%2BLiFf30ONc2m%2B3xbNjsnWHiSTEasmHIAWHu9JsyUpHhFu8LO29d27hftm6ZvSFo9QdugOOThIGK06gh59OMYUfbFAOk%2FybAoL10%2FXf4IpOMeDCSeItpRHoG8utXRf6Yhw38yiULE9nI%2B7HrgZszqoCdWFvNzmXE0yUWyg%2FZRz42rEIL74ZOdz7czgq0e%2BXDcIahqD9GGDrwadzNMFEOSrcTsUh5Vvmyd8%2FvhZLuvl1hn5TDqC7XWC1Z1TLjWIq4SjMrI%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900007372261"
+  },
+  {
+   "title": "Nintendo SNES Console w/ Controller power AC Adapter + Super Mario World works!",
+   "price": {
+    "raw": "$136.99",
+    "extracted": 136.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407316257442?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC2NBDBWC5GZPH3SG63&hash=item5ed5f0daa2%3Ag%3AUwMAAeSw%7EK9q3rQi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FMFJQtxcopzS%2BtAH9vqfoS5KJAtNUSQ%2FE43kwOt7dEybhDzApmgeTIG8Or5By5XrTGQJN78vXeejNlaf7bRvT%2Btq0gw3ByfKmpsZbNqweHT6%2FfH3NQuSOK1WOueI38KpwK5IkfPwqgAnn5wK45SuQ5TFApadoi87298oPfyyrrvmCZrI2nz%2B%2FBBnZPQvktmL8LZ0WoGLqYZnTBPX%2FrglTRWiTm4mcHqrV4eRetvuNxGXSDOY2TD1FfaSb2UwJgAMGXzI6p9VGO1XU3Ig39Qq5aFGI2R5eG72EjVlqkbF4TKLfXhLEe5hnZvdiivj02jdk%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407316257442"
+  },
+  {
+   "title": "Nintendo SNES Super Nintendo Console Gray w/ 2 Controllers & Super Mario World",
+   "price": {
+    "raw": "$150.99",
+    "extracted": 150.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198744525386?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC27WGJBTW5JG4YKYBK&hash=item2e4618ca4a%3Ag%3A3poAAeSw-7Bq3g89&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde83NzqQCyuSVxDiZQLMrGWf9xYoUd5D2gagkXTEkqr0d0N%2FuvW6VEZeQPbWurOVud%2BS5MHrCApdUPJORaRtx4LU53YkLdOVyUG%2FOh2WnPpkemyHDtsZXu7%2FPCqWHHJw%2BsBFbuBqmtptYHWfpsVuWl84qxjT8kXqRROaBCmVIv6%2BGWu0gxUAeStSsNbH%2FkWABMJ5dv3dBIRVjoWFugxxOsELetdSLb9iTFwh4HhgGjVW9cefteMdFtmCIDWW2z3VQNrbIdP%2BnmAoZfZphaV33j9R1ahB4qgEnwuMKXTJBIulAKD4Z%2F26XPoNVIpPPU5UqEg%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198744525386"
+  },
+  {
+   "title": "Super Nintendo Console w/ 1 SN Propad Controller, Cords, Tested SNES SNES-001",
+   "price": {
+    "raw": "$135.00",
+    "extracted": 135.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206668020133?_skw=Super+Nintendo+game+console&epid=12081097652&itmmeta=01M6C4RFC2A4G4M8PY2YQHQ3PG&hash=item301e5fb9a5%3Ag%3Az%7EUAAeSwUlhq1o9r&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9I8N9Jz8ai83TBGfydXmmUX805SJnF2ecnwphc9%2FI5QFnNX5UrhFRpIgommGYE7r00rAs68SwMG%2BkJo6ykVOhX%2BfDYFUROo8SKZ0EwL%2FX5EuYoCrJcIoXwsZudSJbwxY6LaA4RuAoBonyMYeFeiIxjDHsEeSDhr6GUIS%2FNjJ%2BUf8V%2F2d5Zuy8VF4al1PIPAcaVlpSWjVXi1FGgTytf%2BAF74hkFJWFMGF8piLDEL1Wz74rLpeDXKbi4RJXSxEuuGYw%2BAEeplNYopnEra9QKfTB0hoQi0FQR0aOCvDa%2FnOOAxwQYSJHEHXeEyGb0SXXYXeo%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206668020133"
+  },
+  {
+   "title": "Super Nintendo SNES Jr Mini Console Control Deck SNS-101 Complete CIB",
+   "price": {
+    "raw": "$229.95",
+    "extracted": 229.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407329489714?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC2DJA8HWBN56HPWV3P&hash=item5ed6bac332%3Ag%3AfFwAAeSw8Adq5h0K&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F6RYcALkpASY3FuR8KbMo78jrNuJj2YygVOGR%2Fsf4coMHNq79g7sPfDWPs6NN1vVfLiMF2sBOcPuWZ1r%2BCT19ntVXMipaN7NmOOghp6uAZNnKrmz6eqgkDFMTj0rXLJaaa5oSuH7aJCwG%2BZp0GUD5Jpr4o0XzcFgmunNUuf%2B3Xyk4YzTR7T%2B%2FtCkLGzKgHTHQP%2BbOThF5dZ%2FYCRulDhSAcc9nkoXHVR6yK8nCw3T%2FsjS7r8JVoDIuC16dWGw31F87dOvMytDK3MyYVhmXUQ6AkWdXft1ZFgGw%2B1FQEPEFFNNoBN%2FcNO1L3YcusJb1XtWQ%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407329489714"
+  },
+  {
+   "title": "Custom Super Nintendo System SNES Game Console Only SNS-001 Restored and Tested",
+   "price": {
+    "raw": "$135.00",
+    "extracted": 135.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206668018714?_skw=Super+Nintendo+game+console&epid=219532720&itmmeta=01M6C4RFC2JRFKPW0EPR19JGJQ&hash=item301e5fb41a%3Ag%3A63AAAeSwBK9q3sRc&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8HIOpfmcjwEGBFBJvL2q856D8Nskc8cV6cHJRDGzx%2BSIVZL8lS35iZTwoj4vl--OOwMTd0seqvPKM8I1k0skRznVdPrfCmIbw%2FJ10XQAZcQiJI4%2BMfEfSezRUejmIhawM8WNUnZnOYYB5FiUFnZP8ETGMlZ3V59xkpjugr%2FfkXOigCs4oi%2FJ0fNCYw9qFsG%2Bj%2FVYv9zXDcaw6TM87Zu9Er6QVF%2FCo9eiEPD072hzpzwxcQneXtSwGvkqVNF3GkXnzLY7ww1G3FQ728YDbFVjHN%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206668018714"
+  },
+  {
+   "title": "Super Nintendo SNES Console Bundle Games Controller TESTED WORKING",
+   "price": {
+    "raw": "$160.00",
+    "extracted": 160.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237142298557?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC2PGW0W8689W48H1KA&hash=item3736c84fbd%3Ag%3AgLUAAeSwQi1q3QHC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9MjvzHtXDDBq7b5fOpS9Qc0ihpriDzhvdP6rou1S4xwVCN4p9x5Ax06Az4Xs9Xu9gbQsmY3lX%2Bb4%2BZ3%2F3Ukpmr3jQT%2FxWal%2FeOq2eO8zkSzooOycxdW0w1B3VBdBqRjaDqo7qwYM0EZ%2FWT--4aY5MoBcJvKr3%2FUm3D0MWBdqgduFLMXhycSP6eEn7nD9RLUU%2FdSFfsmjVSD5lroUVSp4PaTphZBISlYdz8zX8jiFfdxXvESofuR3PUGs9lw2i%2B3D7WvwNiGryhOd7n%2FEKmSLIPk57noZ%2Fz%2BuOCfrs4%2FUpupNxmHlgkPewfsr6M%2BENNEGA%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237142298557"
+  },
+  {
+   "title": "Nintendo Super Nintendo SNES Console w/ 2 Controllers + Mortal Kombat II",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117498245374?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC2ZKFP8MTPHBJ3B00P&hash=item1b5b70f0fe%3Ag%3AEfIAAeSwW5Nq50SB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FWNnZDkaDOw4Aj2a%2BkZ5jnu1YMRnNX5arCLW%2Byu4YDFDD9bEoL%2BwWjJ5y890UP%2FT5icHep9JEGQLzQn60YtalQQFU0ZbXmt0CxT3Y9jfCEkGmgUxdTphcTbjjqMcMUwi0V%2BTzBABN9teN--gC9QRn42oag3Xi6C7y%2Fdtw0JIddzj8UmgyB788%2BeIX5VZkSQhFfelOfxjk6rXHW16RJ1WJUoqbzsPr7prv8PIbbyPUy4V2yApb7bXCflOxJ4HEgqq9WDfUGB6fFtdX3KampiuEt6Xoh3WN3q8uJkG9qE5uUKPH0tLtSgyTxQ9SfmNr1s%2FM%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117498245374"
+  },
+  {
+   "title": "SNES Super Nintendo SNS-001 console 3 controllers 3 Games Testd",
+   "price": {
+    "raw": "$144.00",
+    "extracted": 144.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336872655892?_skw=Super+Nintendo+game+console&epid=22058547170&itmmeta=01M6C4RFC2C3RPTC5Z5WTPFAGQ&hash=item4e6f2ccc14%3Ag%3AIbYAAeSwldpq5obP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FNoYPHeAVK84MESQdvqJMsolsECVpCsVwagUK72u6707OIOC6rNnCDPVG1ZXXR62bVefI67bIXLqNw9iX7Ee6TK6D1zLc5gvbPdZXPWUUUL7D%2Fg6pVACaj2hQfP5iUACn%2FjdtJxzMyzYrDL1DHcMDqi1Vtvl4CIPqfRjHUUyRDfo4lgAyvGBI5%2BoYwn3eN0Yl4EB%2BqInXB4BaGEHISwJB33EYCbF2fpbEKOBzbSQAHgDXWUXZ3cQ%2BmcyLftSdi9h313hLndANQjwOfXFIxgSdi2K%2BOn7RXIR6WGS7IV6uGi9MEmeHw9n0cTQm%2Fc%2B5dCRw%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336872655892"
+  },
+  {
+   "title": "Super Nintendo Entertainment System SNES Bundle",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840072726514?_skw=Super+Nintendo+game+console&epid=23065129873&itmmeta=01M6C4RFC35786MF2AY2QCCNHX&hash=itemc3983c87f2%3Ag%3AZ%7E0AAeSwSYRq4pdD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde92KRKt6OkZAqnGj16Z4lkcB%2FoFgqJNYwZYRbv2ZA5vbGIJVI%2Fm5h26Jf%2B4jn5ulJHWMgIy%2BstvETs03yB4dkdTyepVb3XprH8nZAaS8zfLscuCSahrKP5kNBreb7kzKelBb%2BdOBRvwYseVXKUhtDV5DBZ00L40jSs3EPkfxX9b8Y8XJ5rDz28bnuZBY0PeikjFglMa8PSslQ0mPjwnvUr02twoU7kts%2BWtC80SmZ7aeX9lXbb62evnkifvpAh%2B%2F6dCgVGG%2FLGj3uDUNKWdc8Yk5uz16nIfSLwUOyIfmO4twR9c%2FIZVmfiLckV7ajMbeM4%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840072726514"
+  },
+  {
+   "title": "Super Nintendo Entertainment System (SNES JR. 1991) CONSOLE ONLY + FREE SHIPPING",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336452012363?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC3PHQPAKVRRMAMHYQD&hash=item4e561a494b%3Ag%3APrgAAeSwLW1pn0XC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde89M6H4AuJocSrAoASvNRA4VlagAVJiSXklinIZxVVPqClcoHwXHfT7of%2FpryWk9QKKOX%2B86L2z%2BHENHE4ki%2FiyFgzAz4FGhStTpaWll1HYkQltJ0IoWyIh%2Boab9k3lVfWSLRPgFF%2Bhaowfmvw52xtVX%2BhEbGr7T1oxdjwXbYgWF2coD7WriwXYsszABnYeeQWAcRaXUj1mk71plHCyiMInxC9Y2aosRdju1QKiN%2Fs5gV5QGzgj%2FgdCUXdroWRr3o%2BcVBPIjmtwWV9ej4rbCaTi%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336452012363"
+  },
+  {
+   "title": "Super Nintendo Entertainment System SNES Console SNS-001 Bundle",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117497134504?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC3YFMMXKVZYCM953BG&hash=item1b5b5ffda8%3Ag%3AmvcAAeSw889q5m%7EB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8oyLsghFGBYvQi05SXknQ1She7mO02aXol%2BZDaAa4M8odk7PWRhN2Ph%2Bt2%2BGDsVXk4mcSkXCHJl%2F7L7%2FNEJWGotAT7uLxZpP%2Bzt2kT6MgwdkP7q9uNVj4iTH3MMuDR5mn3ayDcqkYMAWJLEsUgQmIcY%2BrSemnNX5L8991e44Re1QpF%2BtOGF%2Bpm4djHjFRJCwGztvaa4RjIZY3L8bI3CuGAu%2FIyDCNZrmZuezn3nBePoY5Xh22rRWF6cg4b09qjzAdo%2FITwLHv4S69ZzyWYbpRT%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117497134504"
+  },
+  {
+   "title": "Super Nintendo SNES Jr Slim SNS-101 Console OEM W/2 Controllers And AV Cord",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327433077467?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC3ZZDJNB906B0FTDHE&hash=item4c3c8842db%3Ag%3AqIQAAeSwJhlq5rtk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FG87bxvEcChxudxet1rdK8AGICBVwsGKy1xZhgtKnrhnwTgOMFVIFoE%2Bos0mGQEXOUUjK95xPXJdpqdhRH62jP3KaDC%2FGn%2FqcnTofaSiwKUI4ywc%2FFjcv%2F3%2F1lYBIzGVbxPZLyZwqons29WnIzSw8C9LiOhlCgEVueRiUZ0A%2Fp2Dq5HCCulPYdIn9pIhYOR7c0p2fc9%2BTYk959FbEb6%2FDfAdHwqx3B%2FyA621fYRb%2BVAGBRg23Sa5jmyB7rCJs%2FoKWbz8tBDoY82ZnVbQL%2ByXgzu%2FW8eYBxeINsWeBqKhciLXLHn%2B7CmvZBqymayHU1q%2BE%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327433077467"
+  },
+  {
+   "title": "Super Nintendo SNES Console Bundle With Controller Cables Tested",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880047621566?_skw=Super+Nintendo+game+console&epid=12081097652&itmmeta=01M6C4RFC316NYVAG4G7J5Z26R&hash=itemcce6ed05be%3Ag%3AYuMAAeSwCjxq3Rbu&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9%2BoTpECHGB4WnWtTOXIHb34%2FJH6%2FpZSeQlvs40dOnmt7TO%2B%2BDs4xeQYhsUAWBPMphDDK3PvKDzFOuzeGfG2S3%2B9XJ0aHax4KFdU3OMf3jhaB2Pa%2FlFI8zwV%2BIHjReuNb244yfeW2Qomunj2QplF2jvZuzmPgvOM7seqvwE1ATR%2BaRzOd%2BCZTVuO0Ut0c%2BLJalkGm4Zf%2F1WWDSSR4bzdyHs3WRnt9f%2FphOqpleGRvyJSPKl04RRQoXZObXiTk3uMXRqgitzFaF6a%2BVpJbcckW9J%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880047621566"
+  },
+  {
+   "title": "Nintendo SNES Console w/ Controller, AV & Power Cables, 2 Games",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407330120244?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC3JHB1ARA4R2NQWNFK&hash=item5ed6c46234%3Ag%3ARlQAAeSwxPZq5pMv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FSKNkN86Y1W6Nwm8JwS3evUsH81VTxGMaC53%2BD8DBINpvJW7Gp4gspGIddx3eS2fir1sqamumDIeaZUcVZpe%2BSsPVl1g71t6QeNWCbsgZG8xjOMq0jy9jaumhJHeL3mgrV3pAzXEmzdI%2FUYH2u%2FRtR7cV3h1aZ0SPWDvOHaqz%2Fy4wK32Z5NhvFLQeMh2ke%2FNa0LXzS0d%2FXo7OvXwd2v0G6SN98zZ%2Bj6mnYd9cEFPacap9bKtSVOzyrVO0d8A2nMunGCBACIl3jYYFyY%2FLDSLb8%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407330120244"
+  },
+  {
+   "title": "Super Nintendo SNES Console w/ OEM Controllers + w/ Mario World & All Stars !",
+   "price": {
+    "raw": "$319.99",
+    "extracted": 319.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/153703325088?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC3ABFBT3PCGFKXXB7V&hash=item23c96e9da0%3Ag%3AfGAAAOSwc7tduM3A&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8xZIS%2BZoHlR3rx8kyhjHJ3RmpPLTDsXYgyyv64SROUBlJEyk5v8R1BfOrfhNPWSA3huBSYKL9G9i6UWZ%2FN4pDi7yQV%2BcuMeE5NefonypHMuKZw1XrAFMWVT6DafvFJidgARjbbm5waHxZEAmxTWnihRMT9yVaS%2F5KbuKvk4Jz7CXGPVdWlpWBVTJd03sbjnIdIVdlwt1FASW383vcG8Hi3HydMh701srXzWEYFpTy7%2FKttjjmTk9Z0d5CbyBg3AthoTf35rKYByaXU7WIUUqLsx78%2BuPQFB7bsph7c5CV5tosQgRONQfZHIXJGYtSJy3Y%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "153703325088"
+  },
+  {
+   "title": "Nintendo SNES Home Console Super Nintendo System 5 Games Bundle Cords Controller",
+   "price": {
+    "raw": "$134.99",
+    "extracted": 134.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920033285550?_skw=Super+Nintendo+game+console&epid=219532720&itmmeta=01M6C4RFC35HBG0PYENH9063F4&hash=itemd63641d5ae%3Ag%3AjDMAAeSwQQxqfOKq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FNNWVOPX0Uzss0IkhM5mhuiGneKD7eFIry7WvaSW4niozgkuIjpsMp2rYFi32jTXXJ%2FvwLQZFK89QPtMQvy30xwG4LiTjnZm1guckcPt2QRLlrPHoFZHlpJoX4h45dAeLh6YtyU4DuV8%2BPXg%2Bnwf8CSPDK%2FK5rYagPwtRdCbMXteU9xFZyvHAFyvsFGKmBApw4pPP8a2Ku9gjHLeJPax0Nx5KpPpNBhzC3RyeIk3kXz87ea6ihcjuqehxmRMpbL%2BotNEfQDPb5bFgnocth5AGvvegiHjJblE2KPdUhkLBKxEZ7Y7W3lZ9RJjMxwNwfT5o%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920033285550"
+  },
+  {
+   "title": "Super Nintendo SNES Console with Power Adapter & AV Cables - Tested",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820278123117?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC30ED1YZFP9TYFZXHS&hash=itembefc62da6d%3Ag%3A708AAeSwHc9q2WGa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bu4o%2BI3aPLeB%2ByOCWewmpuhA0A42klMkF4S4WSQbugGVkC4kxtZfKAshm8gq6df72UtPi0kyEZ0D3pja63PP%2B26Fbvgf9VBDjyF4GKgwq6V5fj2geYoIALbu5KbrlAktiir%2B4VGZmLBe1JOmngOGpJ6RTdLw4v2oTNGbBTSXhsPmOxowTgb4ikTPptvVJhQ0sXQmXgOJ0exT6B9S1aA05HOS6ZAINFmnVewcBl%2BwVKBxT1yc%2BqwK6JN0cb4E5KBiga0N8bmmgJL%2BAjyWrX6UoE0iY2jTM1P4APzCEJmDjcbZuBAwji%2Fdv3JkUpjtuGplQ%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820278123117"
+  },
+  {
+   "title": "Super Nintendo SNES Console w/ OEM Controllers + w/ Mario Kart & Donkey Kong",
+   "price": {
+    "raw": "$349.99",
+    "extracted": 349.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/153703335871?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC3FZHWTQKMNRRPD6BZ&hash=item23c96ec7bf%3Ag%3AlIcAAOSwRS9dwm1Z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8OIyBFV941E6l%2BvE8dwZPIpuMuBDSROenUx0q%2F5eQi%2B275inMjgNcJhfkpIG%2FWqrFeUf19N8Qtk%2FrVIHHNMb0%2Ft4pvR9ikGe8bQXVkyuDE04YNREnZ4ofCwXB%2F7lL6DFNQEc4Y4pkoH65PGPUffR9N3NOyd3yq95OZoiD0KRHca5lpj2XnhLSONIPLLsLG4%2FWxyQy6ssUJAWr2MOsemXiPwIx6bJogNG9OXQbdBMdncmKaIQgc95TQunnIaAJlNdCVg693rFhFQImbMVuWFYysx15xd99MHXY8OlVbvpxo5Ev9esU1qR6xrgBwvqKnvI4%3D%7Ctkp%3ABFBMlvbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "153703335871"
+  },
+  {
+   "title": "Super Nintendo Console SNES SNS-001 CONSOLE ONLY - Tested",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336872150424?_skw=Super+Nintendo+game+console&epid=219532720&itmmeta=01M6C4RFC3C0GSWCX629X3KC4P&hash=item4e6f251598%3Ag%3AD0MAAeSwqGVq5gYN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bf27VX8p9Kxsc0Lq6jqAo3zXiYVZBylWoMb335FoUeF0xpoXEwoE5xpDDKZIttKR241Lrkyx%2Bm1WP7M0ZiZL%2BD4SwdP%2Bia7i6R32lSW2012AhClNKq%2FAaozmgPdgAWu01qoIw1Cwj4fiFj80xUnWDZTLqA7%2BBIp%2B55BCU%2B52YBr2%2BomW0Yh6y0FviGco5tNIOzLvaoE6QoLV70HP3hP95YcQXdtDAirVII7BChbZrFnsyfZUYdwgKVIznxSd3s3u6TIALvt7e8PG5Vspa%2FVgelmENfAVfrW1%2F1tJ6mertyHaaBjLmdp0d4Dc0%2B64FMHts%3D%7Ctkp%3ABk9SR5b24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336872150424"
+  },
+  {
+   "title": "Super Nintendo SNES Console Bundle In Box With Mario World Controller Tested",
+   "price": {
+    "raw": "$240.00",
+    "extracted": 240.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880031413555?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC36DRXJJ34FNGQ64GQ&hash=itemcce5f5b533%3Ag%3AYw4AAeSwVaBq1hEZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FUlDuhDMId6ThJAHJEqvAnqdkt1PRtFMiNoWQcU36yFUpiKMinDp3DE2S3VTQKLKj3aRK33RnfS%2Fuz8SWeKPFSWiq1BSWpKA2%2BPsG%2FzbK8ANfuZhNnMZ4ekwZ0D%2FkpKfWl9n2pTHB4y4xfcYKcZxSGxCMDfOQdqQbAoUQho8pvUQax96%2FhLQva%2BLsflfsyTLRWSgDz3wUKRL30VcH1evXtXz60XgWXrCyyohJBPnF4CFh0pzhVfnoQdBm9JxjCabRXv5wNCfYpBSkd%2FpOAxaQ39rwnr1xvDjD7WArup6G86efClXc2BBP6buoQAt0afxU%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880031413555"
+  },
+  {
+   "title": "SNES Classic Edition - Super Nintendo System With Controller - Tested & Working",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198761369860?_skw=Super+Nintendo+game+console&epid=11047982666&itmmeta=01M6C4RFC3HTASWXY4Z44Z3WB6&hash=item2e4719d104%3Ag%3AvP4AAeSw-Bdq5rNV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B6wnOk2eCBZRN3FqBSD2sv470wYoWG%2F1YI%2FMNcV74qxEkUPg4BZ6i%2Fgmr%2FSwd6V1Gaj%2BzPtQ0fRwmtQg%2FIjYPubRxZE3VV1tTIqC4YcwXAyosBoyqZVIz0%2B%2FFXncaZErnwtYmkNRDqpvf3u0gJM9BiVjh%2F5u%2FY1yWd8ZkGkfbTbhgf%2FgDm7CJetSU8C3Gz5N7sZTEPKKESkftKVj9wPQhWJgdL0Rk5r4HC67wu4i1osQ8jyPQm2zz5PAeJxt0Qp%2BhaghWcEehha0y4%2B9vU7DD3%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198761369860"
+  },
+  {
+   "title": "Nintendo Super NES SNES Video Game Console Bundle Controller Cables SNS-001",
+   "price": {
+    "raw": "$109.24",
+    "extracted": 109.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800826036037?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC4CGAG21MV8H7TNST7&hash=itemba74f38f45%3Ag%3ATtEAAeSwoP5q2kEr&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BLl0EiSW4VfpL%2BaG4ESOHZbltOeVjOVuW%2FL3bp2XPgT0smokgRvGE1Ti5MN9S7r0BsW8ZxfL2vDSnsIvXK6MfMOrECagWsCviREq59BF6PQfyPqsFpqk7CxR6VWQb1gHPd03YdGtGyE56NKGN1AC9GTiSme8yhGDKxQCgcJIlAfX56ZufaIIYAWo5tej27mUX2uLJg5Ba8VDkk5gQPbErfu7gj3LG%2BqMNes7A7zqiYKHNJGgKatyssVfZOqkkrs6LCgFMCY%2FkCvaXBx2kLLS9s%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800826036037"
+  },
+  {
+   "title": "SNES Junior Jr. Console Bundle Super Nintendo Entertainment System Good Working",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900049475847?_skw=Super+Nintendo+game+console&epid=22058547170&itmmeta=01M6C4RFC472PE52DZB7AYM3M5&hash=itemd18f211907%3Ag%3ABBMAAeSwuV5qzlLu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FZr2NVF50GhLR13o1gowCNBlPnv40FWok9n05utEUerAXZcbtmmYFvci9iy06iRJfyMsfPPLXRdhlSuu45cRBbUsPm2mzdMUcEsEx2xyMVzept1%2FRGUdGlAuyvklqAr7FpU012VtUFNO0S1gwOVU17OokcfqeEpzwu3A3c5YilEd0xFndsQQU2ZoA2OYTVWYZpZyyFJ2I2FMRO2n7%2FgCOCvk5yGTk8AkUmN0AHCSb3Hxx%2BNWwGr7DIhwBnO5dVBspr9V7DeP3vsWPRwXKj%2Bu7fZSg5aQa%2Fj8vZUI31eNTcnweNT6d49DrgURfgLBd%2B0lo%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900049475847"
+  },
+  {
+   "title": "SNES Console Lot Super Nintendo Bundle Tested Saves Heavy Wear Plastic Damage",
+   "price": {
+    "raw": "$115.00",
+    "extracted": 115.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900040465770?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC44N0GBTZCPEM95E8H&hash=itemd18e979d6a%3Ag%3AY3kAAeSwA21q3m6e&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FXAwgUdN6WV2Q%2BfDl8x4UG%2BBCfnSwLWk%2BmGjbojW0UVoPzTTF%2B8Bq8surXnY6JxAMp6M2KxMdp9nHq7PKsiwSkaU3hSE%2FhllRU%2B9zk3DsOXOxgx4ZWH7ZgNQRIgWBjon3SZwfg15y7ZhC6H8v5zK8Z56XmoE5eA%2Bjv1wvBb8hO%2FvZmqefK9jDohPHv9HiKQDsfw8A%2FLHnxlLeHCcgL3je3FOEm4EPtr1pxw97AMmf7c6n%2Fbd7eUSr9h1Cwypuv6gWpBw%2B6CNjH7Wf9rVy1cbnz%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900040465770"
+  },
+  {
+   "title": "Super Nintendo System SNES Video Game Console Only SNS-001 Tested Works",
+   "price": {
+    "raw": "$139.99",
+    "extracted": 139.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188576922955?_skw=Super+Nintendo+game+console&epid=23065129873&itmmeta=01M6C4RFC4WHA252RHYFRC44P4&hash=item2be80f7d4b%3Ag%3AKeEAAeSw0FpqHsrr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde81THfu9LnwFd%2FHOsKAM6djf3rVj7hQmI5I2UROSVyQzhZjHz1szguJeAHK1%2BqoKERZXlmNPsQBF4etn7WGFAQkdo%2FEmuhi%2FxGYnX5VWdkF2YjSoj7iPacP5nCIc5vXAxtnEnVxX%2B9J5WiaV%2FKdTKivHIgtXg%2FpED7meGjjfVyP5AMJ2espeITqu8mRZU%2Bp0sT%2BGsK62DUPxUxc7ZDuUX3l34Ee3k9LNMZ%2FghJXqlBgyxRP2i4CF5hanUH1en58zrjViwBQz5rI4LadPPeAaTWwDzjghKpBS1ZqpEvie4cFsKNS479MgztyCyEjG0l%2BAoo%3D%7Ctkp%3ABFBMmPbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188576922955"
+  },
+  {
+   "title": "Super Nintendo SNES Original Console OEM System Set w/ Mario World & Donkey Kong",
+   "price": {
+    "raw": "$334.99",
+    "extracted": 334.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/153715598884?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC4AAP52822JPB0QGTP&hash=item23ca29e624%3Ag%3AgmsAAOSwdb5dxKX6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BW3EfnlBykBJLH32Bw5i2blSO5P2zbVliZpRnmwQwKzqDQB%2BHl2o4ClG8S70dhV4TAJpV7q1hCZ2hoUiy2vQbT277Th4%2FvvAgUNZab%2F3%2FqiTV3bT2WWL1eoNtN9RvnRcq9gZCbg2nR0kZZWv9HAypt6lcXYpgbaC1V4FJsugvXKaTi%2F0fEwo2WvMVj0VsxRqo5eZiHxcRLLn8O6lhOprB8rlbEsg2DybM1SK8a1Ia0xWuCtF3pnCBlRpV2fN%2BwD801MrP%2FW44BNRptRnB%2BMJzEkdRPRJrKWC%2Bl2KNMRXd6I5ivDxnX1Oxhb2ltv3iX4Ac%3D%7Ctkp%3ABFBMmPbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "153715598884"
+  },
+  {
+   "title": "Nintendo Super Famicom Console Bundle 12 games 2 controllers & cables SNES Japan",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336520918290?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC4ABQSYACJR6E1NXF6&hash=item4e5a35b512%3Ag%3AG3AAAeSwkXVp0zfI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Qyg%2BIVhjgJLz8sm4%2BpHpmkg15R8g6Grc%2BUKzhO3shyy1EbRR4daZ5D%2BMfQI%2BnvEiI4GVT6hmdba9F08yfvuqNwqrBTUysNyo3tbYrZF07KlqydRprM6reXlEsECawm4saBqsifKAApEkbkCeDVz9lkRd4sEeMOHgdalL6PwBf6kPI3g3QJQLxbY8Ep%2FsTetBR1O%2Bk7Vs8lyxOyWBtl7E3uDn%2FVbA82RFGYq499X2CP58WMt7WnTQGVlAQuauEPzM68OmG26gWTgrJFVaGqVdD%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336520918290"
+  },
+  {
+   "title": "Nintendo SNES Console Bundle w/2 Controllers AV Power Super Mario World",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237144189367?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC4HT7D7B7TQ0F46BFB&hash=item3736e529b7%3Ag%3A3ScAAeSw76lq3pvV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fbg%2B8qpuF%2Bwsn4zDi9HTm5CKSBLr5i06H5bs5MdPGChvkWE1CeQsvsvLLccVq06VknZxaO1M5lFFVfHr8pOR%2F3FAYhSafT1JRZqFJ7Ie0ue%2FWcc0BxE30e7%2B78dv3oD9%2FoJC4DXW6RnFKoyojO%2FTcrRYvc4Wuf%2B2vlNYJV29rArXrfhP9sPKHQJcxE54G1MN3xGtKjZXaIdRMyXpXV%2BX1bXQNdayCGObm3oSQiSZOZzD7m7XRvE4Tvz390I9LLq0%2BiNFD8an9gIqsvfVN0rsytr%2BDNXB6D9WTAIS2Ck3b%2BSQS1zF%2BJMuSJlsRnYnw%2Fn6U%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237144189367"
+  },
+  {
+   "title": "Original Super Nintendo SNS-001 Console w/ Controller, AV Cable",
+   "price": {
+    "raw": "$109.99",
+    "extracted": 109.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168823425799?_skw=Super+Nintendo+game+console&epid=219532720&itmmeta=01M6C4RFC4CNRQ5N67VP8KBMT6&hash=item274ea90b07%3Ag%3ABP0AAeSw0X9q4h8-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Wja3cf3h10ao%2F4dBdB%2BbrroTYcEpkRmDcOD78InRmQTR1JW2Vsl%2BcpyugVuP279fm%2BvTvsIzsusUrWjEySDNvUj5hdU%2FRGUMwgfGf1FJ2tbvs5GVWMFliikwFlfKxcgsNn5IvYYkGBs848Jgzt%2BXVjI0wakQpOyxtSG5Rp7SO4x6uiHwvlMB8%2BUaIAHXs0Zn1Tmjxh4bOJX48UIpecaG8JVIOZSakqdnbXN9tuwa1s6qJ6hytTgLpe4jRvTkKyc7VFFkiwx%2FzqM1Vhna06d3nsXTJduZLwnKgA0X%2BWjdfj2l9ajuQKdaHZwyHMjyuIL8%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168823425799"
+  },
+  {
+   "title": "Nintendo SNES SNS-001 Console Bundle 2 Controllers 6 Games Mario Tested Works",
+   "price": {
+    "raw": "$178.50",
+    "extracted": 178.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307258843990?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC45JBQXCDCXGZHA0CB&hash=item478a0de356%3Ag%3A7w8AAeSwoP9q5fvw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Ks2PCMtny9e492V0lSjtiarPtD0PoKgMGwGTutvvjd%2FuB7kKvQLLuLGY3sHSih2%2FahgoRthFgv%2BAGpqQzuUWkSVNzbdPTbKmvCs56Um0GaN3T2lB1VXeRjxZuJgQCbZ1kKLe9KRRhOfjyYh16eYl15u7qEO3AGBBaaEAAVKKbiuF5N%2F2Ofq%2BPOYjUfV3IPs5DMgyqvY7QXFHSqRSOmJ1ot5ehBKvXRS%2FoyMwPi7c92rmzve6sy1qw2LXpKtX3J8LXGeKFTr7nD5xGzj%2FHkVHr%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307258843990"
+  },
+  {
+   "title": "Super Nintendo Entertainment System SNES Gray/Purple Home Console (Tested Works)",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327371550215?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC4AZQBZ61GDE5WHEYW&hash=item4c38dd6e07%3Ag%3AS2AAAeSw4LFqtGVk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8s2pIVKxoIzVWvzsrvW9%2FritwApBXKf2EklGIyyK5ks6mWo10Qeox2ryTXMPyg6pRJWkB3laqqeswD0lloM1qdNnVE7ogtJr4%2FKmwbEa0UBVR3B7Jhny6i0IurOQl8S5TQ5mbhWOEh%2Bc3z63VEf0ZIh1aHoa3TB6NxZypai9JkQrPZ%2FV28AMsGZ0cKh0PAzSHfJmekbveCVqzQh%2FXJ8qBzIAwyUClqbSF--mJCPCmOcL0PAMfFy3ZDTdav5rfzWQSu7QcJ0g2znbUx50HX1XnFi1ZRFTKhEl38%2BgZWx8ZTAnEVafRwqyrWYkwNpeeRwJU%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327371550215"
+  },
+  {
+   "title": "Nintendo SNES Super Nintendo Entertainment System Console SNS-001 Gray NTSC-U/C",
+   "price": {
+    "raw": "$62.69",
+    "extracted": 62.69
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307258860310?_skw=Super+Nintendo+game+console&epid=219532720&itmmeta=01M6C4RFC43ME2BD2BY1C8SJM0&hash=item478a0e2316%3Ag%3Ad%7EIAAeSwGqJq5RLF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8u3OPXlvacG8sgqXp2VYTZTWPbCYVwQv3hwHdSdTbG769o3YmwF13zeXuBAv8XwcaunP74axhzhEgOmHMlK%2BfpD%2BB8q7bIYTSRpv6wAa%2FKUKZTiX%2BhNm0BX0ybhNV0KtpIu9bjXiID4HhF%2FLo8z0a3jKf5Av%2BsaZ6K%2BQB3ZYHS0%2F80p4aiqjb%2BBQaJ3Jsy6K5VyLwJBEv3mZI8kRzFYjJ2Hd3SMC4ySiWjZi7FJzCEpNcU%2BTXeXQz0kQ332pkdY7wogZtvkMJuhZrYWkvJH%2B582bTaDoRDfccVTPN26E7fv7zWVzuaJI5YMKRH2OeU4MI%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307258860310"
+  },
+  {
+   "title": "Nintendo Super Nintendo SNES Console Gray SNS-001 AV Cables Adapter Controller",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366719571413?_skw=Super+Nintendo+game+console&epid=219532720&itmmeta=01M6C4RFC4ED7P245ZPBBCWGW8&hash=item55623095d5%3Ag%3ABwkAAeSwc2FqxrzN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9fBiFXoRTzmkMYdv0n2gm6%2BB72Ip%2Bpns1aAedARSP2sk1F0lVPj6Pz0vbrD%2F9byUB8%2BCUYR7B%2F68dIRzYyeWsmghculg3RBdj6g5k56IXhtM%2Bari5BDt0ajIDQShlG--2G64poPC48ay8PrreP2NweedzfbZLLVgiSqRO%2Fc7myHd0LERDwchNSV2YdT6HFFrIGymLPfh0T60rqpe1so66LuEGfZVAlC2WO2naLiCuStt2rue9c1BEr5xMuq%2FCAp%2Bh%2BudbxZWnkEHHoVweGv4tD%2Fk51U%2F8DxdrN8Xg0JO7JY580dJdYOn5uRN%2BKYSfSe%2FA%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366719571413"
+  },
+  {
+   "title": "Nintendo SNES Super Nintendo Console AV & power Cables OEM Controller Tested",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960127204501?_skw=Super+Nintendo+game+console&epid=110615432&itmmeta=01M6C4RFC4RJ0T3T62B26HT2VG&hash=itemdf8c0a7c95%3Ag%3AGeEAAeSwFUlq4niE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FtIMlJ3fK%2ByZcvyC1Cv6kkdpEglukbOm24HobE9oUC1Uqx%2FfG%2B8ak8fVmJV93o4Uqy28wGN9F4t%2BPMGsE1kkKhWET7NV5cDqhwgU1i6TZxQq5Da9GlTUHGHkrVod0L6LX%2FizJhBZoPgN%2FMEtW7p3Vy8SPxC%2B9iS2jUuBv3GUQ7G%2Fpt7oYxUaHQhTSrDHkrglwCgVnAradlWvbVeabAb4uheibAquXdP4aUXGYk09qqazIAr2Nkmf1U0D46EdWRJLpFGQ%2FBlT7xkKK5n8B1JKr7FxTlIZLzY4u2SyFVinVcfrr6ygwvAxteI%2Fs1PxBVG4k%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960127204501"
+  },
+  {
+   "title": "Lot of 4 Super Nintendo SNES Consoles - Cleaned, Tested, Working",
+   "price": {
+    "raw": "$349.95",
+    "extracted": 349.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227591634540?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC5DEMHC6M8Z5731MX1&hash=item34fd84be6c%3Ag%3A-5QAAeSwIJBq5jah&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8QMv691klQWtGaZyGtUKoBdJoMSzhRHEVQ8H7Nwd63TfzEzHFRhHRV8i6Bx4rjJ086G%2BiHpqMRTRkOTD3dHOx1yEvoGgjnQMbsxMWtYqgEEZrcAz%2FI4qIUrPJshG3kGUrFk5Qx2qfbo%2B4LjNb6xbvBbIG%2BYbFDM%2Bm7DR5OmxS%2F8UTQhqmICG0GiBy7umHgeEkt3DLYSc7xO5hudrk4gdXfP44UDzCV4YL03CBfnn8MU1AbOTjMYirZIxwaRHSoL8QRfimStOj5tIu%2F0yeJHh3BubcmhMkKQJY7x%2BQWeCgYr1EVhnXb6atpXVhWPlCImV4%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227591634540"
+  },
+  {
+   "title": "Super Nintendo Jr Top Loader SNS-101 Console Wireless Controller Mario All Star",
+   "price": {
+    "raw": "$134.99",
+    "extracted": 134.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407323220042?_skw=Super+Nintendo+game+console&epid=22058547170&itmmeta=01M6C4RFC5JZV288WN4QTHVGJ3&hash=item5ed65b184a%3Ag%3A2j4AAeSwbLhqrB6s&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9jyjr1OZpCM3VvlMAg2WAfCCIOpRJOwTka5FcLO21PhcCSldgNuAnhXrQa6YxCCMjpbWkt5zslT4mLao2WI2cHXMB0DQL%2BrsKbi4UG4nAJNtYlt7R8vGJOB2f7395%2FQLInanJ7FBSAnTqVQdcFwDtikHY6efA5ijHmq9gftygGM%2FkOYRZ24FaUQV6sQGZ%2Fjf%2FBJaK1q8tUx7iqkXB7I9E4rnDdqhffenKQY45KORj7GOZ5kW0QU1xrHQGtbsuJnv2h6T0hZoEcLcNwnfTDAH%2B4%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407323220042"
+  },
+  {
+   "title": "Super Nintendo Console With 2 Controllers Tested Working Great Condition!",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880070094485?_skw=Super+Nintendo+game+console&epid=219532720&itmmeta=01M6C4RFC5V1RHTGKZE2C8DXG3&hash=itemcce843ee95%3Ag%3AaoAAAeSwCYhq5rOa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FoHuI2C3i%2FM1DjHsMuNkMFgOBsvPmhBDNqVhvSrxQQf%2FpCc4z2PtmA%2BMzdYpoQW6KCyqrI7FAMeBAS6IMSdkKPRcpmbizToGw9JyJFGw40TEZ82necaUuX6tlHQRu5ivTyTjUD19uI8kvG6Vm382tYXPeczE2IzPWOPrjd%2BAbAj94ueCfz4heQuO2jIibjv3Yx%2F%2BD2KrlR%2Fin5Vk8HJUw4QRtbSOID%2B797gytSbwEHVQZW7Pvpv%2BWVnV5a4iQPBCOQyiAdGiEfN%2BDyeAkvTUtqM8U8HMufLXGvolgtEunXV759mZxLNoMHefxb4WMi0Ik%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880070094485"
+  },
+  {
+   "title": "SUPER NINTENDO CLASSIC EDITION CONSOLE LIGHTLY USED NM/NM- Star Fox 2 Zelda SNES",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377604362289?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC5YK78641TT7HZY2G5&hash=item57eaf95031%3Ag%3A9jMAAeSwn6dqw9tQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8%2BZhX7pis3EJfDReZ0mC9U6uaWDKkJwk9FLPbCjxXs1J0nqnB5C30fwLlxa%2F4I9L%2F5sA%2FoyK4QbxMlT2OsypVd8QEdvBf1Gnsy%2BM5ra%2BSlTWR%2FyFaZ2lJ5%2F%2BDw1cm5CnUvQcqLTJWcEKd551ufvukgjxRfrew1QY4IXihH5d8xQk%2Fnydqxfk8BF4kLFabxweRvf14HdqRcfVY1EajUGItsQRVtQQH7O18WYC8UXA7a3dF14q%2B4TDqMzFkI%2BYFxz4HkjYKt%2FqNyTbVYkqLff2cC%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377604362289"
+  },
+  {
+   "title": "Super Nintendo SNES Console SNS-001 W/ 2 Controllers & All Cables + 7 Game LOT",
+   "price": {
+    "raw": "$204.49",
+    "extracted": 204.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377603475696?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC5JV1K8ENZ35T57V9A&hash=item57eaebc8f0%3Ag%3AFOsAAeSwgC9q4elE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FW8PJ%2BgBtBZoISzgFIQM3cXJS7GhMm0RKtm7mDErF8e%2FhXS4it1DVzjiqZGOFy01MTQXxUqQSc0%2FJ9AwciSFH1LX%2BElqMxoJ48XBDFgvWyY5%2F7kOyMjFyePqfpA28C4mys%2FupBIeMSz4E8yHNgMaPzqYeLIt2b3E07vC8p1RBQSJhA%2BJPpH2qUuZTbw66vxEirSr3ftOQi9hp0IilfYWCLW36NEXNs7%2FObY8IjH7tlvULL1sIc4jlgO5KbKihZipO0SxORM2cm6vM9n04blkTh8Fa6ahj%2BuqCgZi2xVE6JXy7kptUhd08uuHXSvy9kCP0%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377603475696"
+  },
+  {
+   "title": "super nintendo console, console only works",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960126877918?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC5RNM272CFGYN3JHJ7&hash=itemdf8c0580de%3Ag%3AtwQAAeSwZe5q4j4G&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9WcjnwtMe8bPcUcY3Kfzke68zs5wtOZXEISoHW%2FNMug1%2FHnSitGFzj988mxcDaVGFCPiEFEk0tzwuM5R7MkXYlGGC4Q5nnJ5ofPN08cJ7tl2XLYTyC1wZR7pxpd0ah%2B2AXjeonzQ9BvZhqYE577dvoQCJSDselpMXOWu9vLyTuR%2FFi9ei7GPMtEGgUd0IBgpbjX%2B%2Fo4pB%2Bvn2Po%2FAn7%2FXNT1dSdwrKAV034lh%2BhHTW9Ak4fA%2F7p7tDzFGK0VVo6Hd%2BYSq0iMfWeX%2BJEus3QhQObAGTisN6kMimrjxnNSiFCQ6afA5aC0BZlsJD9UV0g7Q%3D%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960126877918"
+  },
+  {
+   "title": "Nintendo Super Nintendo SNES Console SNS-001 NTSC-U/C w/ OEM Controller AV AC",
+   "price": {
+    "raw": "$134.95",
+    "extracted": 134.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147654613637?_skw=Super+Nintendo+game+console&epid=12081097652&itmmeta=01M6C4RFC5S3GD0820GHJRQYZ2&hash=item2260e69a85%3Ag%3ADQkAAeSwMUxq250E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde--fHxlebdBef%2BTsLM89BBsVrk2fQZH3wAjUTa7YUJDLwTP4wPHbra%2F7LUAmTi3t757iKOaxtoErhOYLei54%2BlhAmTgkSrhIPBd%2Bbw7guuPZNBxzkFFJrvrQ2Uh9AzGvGZr8%2Fi30N2Kw4GnftZ7%2BqeOkBwXPoJw%2BsjZAOMtdztUQbbTT%2BI7vRGVS6%2FN8vzLG8YsR03UInFIiT8HO7o43zIgUI17MeUPFtn3ac9VSeYl72dAb4fSVNfRivpJ6Tx4eY0DffvgEGNvUbBSAs%2FX44vW%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147654613637"
+  },
+  {
+   "title": "Super Nintendo Entertainment System (SNES JR. 1991) Cosmetically Flawed Console",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336789886197?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC5P3X4KNM60V48JNVC&hash=item4e6a3dd4f5%3Ag%3AIOUAAeSwmH9p4QJs&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8MVMFKBtwXQXqJ1EWXP12J8bP56BWlzvGd%2Ft61W6AnQmq1jj%2Be%2B4TBVlHBZb53h9vBukhCtRikAU84%2FQ6JVD9odBRd5jyP7QeWqM5mM0RcDoCbrXfvr27gfDfYIuZl6jn%2F%2BjDDDaZzAfB1fg%2FAQotEqDrI2zpq%2FnuihaLFshKPyP7gJEMty1zjv4g7OjvFYnDB%2B28XbF6Iz8jSVJu%2FyO5VF1Zhfwi9PWZT9QXA24bSZhCCiqe6x8j8XOP9hLuQZOioMD4YZbn23ntpn%2Ff4uRQx%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336789886197"
+  },
+  {
+   "title": "Super Nintendo SNES console System Tested Controller With 2 Games In Good Shape",
+   "price": {
+    "raw": "$140.00",
+    "extracted": 140.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128160189684?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC5C1B886J2G58SG50T&hash=item1dd6f14cf4%3Ag%3A3RcAAeSw9yFq4VtH&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde90cRKHRU2vFaRin3Nl2onZ%2B0lJ3TSiwV3jaHGQw6n%2FhkSnBv90bqNB05yIAvYIg8Dy4upnCyDhCb1laX6ujsw%2BxZm9xm8yfQcGBgiVUFPNjNUB5HsxpuKqO3Qkw7dgyWwFcROg2x%2FL9t3DAZfTd%2F1IpekaQ1%2BYbWysx0jNU7jAhr6RB9X1SI035ggBWj5pptopkWpvgv8h7YSeW%2Fwn2WuuyMftjPkvVQGXhK%2Bo7Z1s7H3MDQZz6GweMpzWFtDnCZwHn2DPKbkDB7IzUw6ftbys%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128160189684"
+  },
+  {
+   "title": "Super Nintendo SNES Console TESTED WORKING Great Shape!",
+   "price": {
+    "raw": "$118.75",
+    "extracted": 118.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117490649635?_skw=Super+Nintendo+game+console&epid=110615432&itmmeta=01M6C4RFC57Y6M18KCX772FWY0&hash=item1b5afd0a23%3Ag%3A5n8AAeSwiv1q4QwW&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8KyFN%2FkIFRwJ5Z2jv%2BrRiw0xYl3GEntRQ2uwWo%2Buo3o%2BV0bIRJC%2FeH14F9Z5CWR%2FBmEFOBxqiZwYjdI0YnfuTOVM7tTrhyN%2Fj113vfXQJXosmO%2BbbiYFVpZKIEbqoHWz0fQ8vxsnTnqi9LRaEySNvsm5vyIraIK8ct57M6CzRztk68ZCxHGtQoVTj43axiDc2g4LFOLNRF5LIExdUpmhwUtYE3RXRV4o3IpTezpaSz5r6%2F4sn9AZF5vnuns4Qu6zVl8xJ5%2Fvrs4jlZYyIbKpUo%7Ctkp%3ABk9SR5j24YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117490649635"
+  },
+  {
+   "title": "Super Nintendo Console System SNS-001 BUNDLE with Mickey Mania and Controller",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267761877475?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC5DK3FW81QCAQ9M1CX&hash=item3e57da01e3%3Ag%3AU0QAAeSw131qhfDI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Ft4iP7Y0pMsvNj9yCTIZ0wyRV7csC5RnK8Ud%2FV3c%2Fi%2FpcQdqwuk6cljt9TZTPGJx8yn75%2BtMdJrF5nI5M%2BxBHh9Otxz8XILuwQOcfOj265duyeY6kXvy7tBzjwLybqSyTXtwEHuIC8icWROwvAB42HGSilfrO7tJfsLXa%2Fz%2FgWEngZoS3jzvWrsFHv05WdzYKDRxSWTEYsX6Q6I6aM21gHCDfZtPeDaM7iR0hLftrg7ulIcz2mpDs5mLZgITzRJLJotPh6XB4jYxvFuITwkOPFn6REar4Gy4ZT3gP5yVp0GBTEB5mwuFz9oW3zPX7ILJ4%3D%7Ctkp%3ABFBMmPbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267761877475"
+  },
+  {
+   "title": "Super Nintendo SNES Console w/ OEM Controllers + Mario World & Mario Kart Bundle",
+   "price": {
+    "raw": "$349.99",
+    "extracted": 349.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/153702120226?_skw=Super+Nintendo+game+console&itmmeta=01M6C4RFC55J2505KX7F435TKW&hash=item23c95c3b22%3Ag%3ASrIAAOSwOFZdwQSU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BaLkL49MOoeIfa5VFCVipqjp8yI1DmQ%2FRpdO%2ByY9IOhfJIuUu4TdywhFI9vJ4eM7KvS%2FYXGgQtVrURlFxENElkb3P9GZ3zpPsKWO49n07W8Rf7hYhvM8VEU6fokdJntRyCPQ1KUGoCcC1xLUFF237r3DnZ3Sk0uvz0YgBx0ohEdHGL62QyzsobXDATNdGw2lXOy7bEzLQNPOS%2FY5A0NT7RIm7IFsxcyM3EXpK6uA8AiC2PVAUqTT2XJEFS3Bpr%2B9AtBzD4Ly71iG2smdru2TdpYAaoE2%2FSGSJwn9Mree0EzaEvRZ19DqG7r4ey30PWzC0%3D%7Ctkp%3ABFBMmPbhhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "153702120226"
+  }
+ ]
+}

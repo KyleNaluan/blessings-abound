@@ -1,0 +1,649 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Nintendo Wii console white",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 9700,
+ "organic_results": [
+  {
+   "title": "Nintendo Wii Console Bundle GameCube Compatible Pick 1-4 Controllers Tested USA",
+   "price": {
+    "from": {
+     "raw": "$62.99",
+     "extracted": 62.99
+    },
+    "to": {
+     "raw": "$144.99",
+     "extracted": 144.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278225391521?_skw=Nintendo+Wii+console+white&var=2560935018150&itmmeta=01M6C4RYTNQWRQP8T5EZAXDA3G&hash=item40c7868fa1%3Ag%3AV0IAAeSwz-BqaMt%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FhwOxzK5mDjShvtmTjz6fcmsZe%2Fcd3YjIIIO7LS04ON2BTHzxsLuJQ6xihE8G28g28dBrk6ODrcGyaxqxAB1i%2BtDJGsiBW4trh5C%2B2it6EVeBSDUJQgQD%2Bq7WeYNf7cLRZYIGt55w8Wt3lr4%2BsgDXMiHaMp0rRLx1I8HWBZIQt6rRmI%2FE9sFglfsKtTFf8D9sKyQ2cna31NWOx0qTpq%2BLvi6MpvNwEifb531OaS50iHAZ7cDFo2AU6wtzvEIKt814sAwQgk3czb7AA2PDTGKKQ%7Ctkp%3ABlBMUMzt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278225391521"
+  },
+  {
+   "title": "Nintendo Wii Console Bundle Genuine OEM Remotes Wii Sports Mario Kart RVL-001",
+   "price": {
+    "from": {
+     "raw": "$104.99",
+     "extracted": 104.99
+    },
+    "to": {
+     "raw": "$264.99",
+     "extracted": 264.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/285951495186?_skw=Nintendo+Wii+console+white&var=588026101067&itmmeta=01M6C4RYTP04MFWMBD4Z4GNA8Z&hash=item4294098c12%3Ag%3A6YMAAOSwalxm%7ETf0&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BhZ4P2vqCTyE2xN%2F8DXoAWcP19jvHtvoUPNfJamf1SbT8laB6TvuggrKV6VhJzlRBhU%2F8X%2BSZacK3DNa7NfdMzJvBBIZim8MwMho0kB4PZbaK5lR%2Fzn0W5Mi0CXKqFGUbVLmZjQPye2zJAwKr7VX90VrC4zfhshk07o%2FTD61xu%2B24qDBvuwyqVgtGbzGB9Kbz7TARR2Z7qKiYSJAmAi8iykajfdTU8z1qqTX5IQzQHem81Lzfm74i1C5i82Lnaij0%3D%7Ctkp%3ABlBMUMzt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "285951495186"
+  },
+  {
+   "title": "Nintendo Wii HDMI Bundle Motion Plus Remotes Mario Kart Wii Sports + 5 Games",
+   "price": {
+    "from": {
+     "raw": "$129.98",
+     "extracted": 129.98
+    },
+    "to": {
+     "raw": "$239.98",
+     "extracted": 239.98
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/286741436509?_skw=Nintendo+Wii+console+white&var=588912044885&itmmeta=01M6C4RYTPHMAEHC1FHC3GF5CC&hash=item42c31f185d%3Ag%3A4SAAAeSwqCto9k%7E%7E&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8hJUrS%2B%2FVxP7Z0a7H%2FivTZNPha49EHCC2JlD1fOY0XLtMgy8lzg1xcUz%2BASbVOeiAPxmleLk%2BaE8szE%2BYaeq6Q3PxEKz07HF96pKL3JlswwUoFHGXAF3di%2B6LZe%2F4j8oU6kPd3Rv9kDMkEV5nvwOxzZdY26B1TBVfYpVp%2FaiCxpEOiLFvMx2aqZBfbz3NAF%2B2R9z1JXzdUlEpDvtBiX7Mat5xwKG3hA3X7%2Fo%2F6Yvi1PnWKEkHXFWphNR7QM1jQu98%3D%7Ctkp%3ABlBMUMzt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "286741436509"
+  },
+  {
+   "title": "Nintendo Wii HDMI Bundle Genuine OEM Remotes Wii Sports Mario Kart RVL-001",
+   "price": {
+    "from": {
+     "raw": "$109.99",
+     "extracted": 109.99
+    },
+    "to": {
+     "raw": "$264.99",
+     "extracted": 264.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/286578816185?_skw=Nintendo+Wii+console+white&var=588631429924&itmmeta=01M6C4RYTPPASMCVVEQ95M2R4D&hash=item42b96db4b9%3Ag%3AYfwAAOSwXPhoKhql&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8tLIJgZ4vFGBYCuxQhQfrifHWcAY2FJcNYm6H21e%2BLqx3AxeBHbtSRae8TdP4VFk1HrKbI4l6bK2xEH%2Bo2B%2FQfitD90IReT5Y3d8hobDc0cxK15TWC9xX67WH0I8RD1P6JAmJWA9P%2BDDs8STZX3F88h4lGSnbuAmvRbtRWbKzVY5oLW8ywo31xxbtZwWyQvsOgTnxB9vWxJ2M4xwzrW%2BcVLTsAU2sJe1gNiH6IiKhr2gFU3VaE5xn67JfYYBChhYs%3D%7Ctkp%3ABlBMUMzt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "286578816185"
+  },
+  {
+   "title": "Nintendo Wii White Console Bundle 3 Games New Super Mario Bros Wii Power Adapter",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147659751524?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTQFJZ71RMQG83JGVGP&hash=item2261350064%3Ag%3A6FYAAeSwb6Bq5kFM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde845lBaPfH3TJlXcdv%2B05o3mY7UoR7sEg%2F3BrGfub0ZRoKVtbzNXHNfWQOeULiMys%2Fd8XSU2%2BwqBswMhz%2Fmr80GvlqtsDgCjwghcuocBuxV71dO8hd14o%2FGOqAdO2OjCQpUc0%2FBhtZcvzLF9TvK1GZatilEzsOT5KhAyH88GAt56qfrUzVWt5ssxcsZ%2FTUyA3ZRUNSVlCBnPzmLRoWBN53W3h35iOFmrpSkpldnACvwaiJZk%2BnFLjYImOO%2BRe%2BEqqKWoepuL1PFajavCfr1kqIb%7Ctkp%3ABk9SR8zt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147659751524"
+  },
+  {
+   "title": "White Nintendo Wii Console Bundle w/ Wii Sports Game + 2 Controllers TESTED!! #",
+   "price": {
+    "raw": "$135.98",
+    "extracted": 135.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307260486362?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTQN0CM63T88FGWAH0A&hash=item478a26f2da%3Ag%3Abe8AAeSwc5lqb6li&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde90jz59lpx%2FmtLbA9Uv4GPxIUzZ7Gq0Nk8JWrr8UUxepasA3Gcmov8McKMMKaXJ6d67b97QtNlv%2FJNZETlioznMwy8blVuHvVOhAVyJdiV0MvCayPq%2BmjrmUmvbqWImVXwJXSyYcbWZ6A0M7RmSQ7yLmesEnQaf5FEkOx7OrI%2FIUMo3QPtZxULMSZV12nZ0fksv2hm32n9kSJR8SCs9IuKvmzVIQuOtGRgthqrffycSAGGFj%2BB%2FKYveE0SCBqnJHg0JDVDepDnhx%2BW6vcIyhzXK%7Ctkp%3ABk9SR8zt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307260486362"
+  },
+  {
+   "title": "Nintendo Wii White GameCube Compatible Console Bundle Super Mario Bros Smash Bro",
+   "price": {
+    "raw": "$84.99",
+    "extracted": 84.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237153766186?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTQQBJVJJBC5H7D5GPV&hash=item3737774b2a%3Ag%3AYqYAAeSwYjlq1DUB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BMggEnZethpzJ%2BX0rJr4wpGFHyt8kz75y9ULoJ2mFU3%2FLNOTlWVO6lYWg0AwNBRO29X0XQuZ4qljJJDAz9ukhgAEDkVr%2BdA7kuBhpEX%2BybUVAvJgo%2FWkxcZ5%2FkFMvCzA%2Fmoag%2FcOAnHuOI%2F4is2G%2BYUOFaAail0AYir9cPPpz6tSG9kiwkG7bYMgrlIiVa7OhsP5xSOmGG3Y9xpYMl2VncAjR5ISo0GFV8jZWJy0JgkBMmaZp7JbKIeZtL8OZP0MrUbIZ2kwILqd8CRL1X8TEV%7Ctkp%3ABk9SR8zt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237153766186"
+  },
+  {
+   "title": "Nintendo Wii RVL-001 Home Console - White Bundle! Tested Working Condition!!!!",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840058902768?_skw=Nintendo+Wii+console+white&epid=13052964778&itmmeta=01M6C4RYTQ8W46N0HVCQWNXHBG&hash=itemc3976998f0%3Ag%3AhDAAAeSwP1pq3jIV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FXacv5t9%2BkLB--mXRany8xJy3dNHTwgRPgG9YWo4TB000UR9sYzuXRaxtZed7Pq2F68uWGVM5nxOuuk%2B%2BpwFq5lH552G60mH5EnlhkJTVe50MMxFz%2BdUh7lAd9PZC9%2F8UJY23a1AmFUKjAQLRwhcZ15isFtF94a%2FBGWSSrPjaKwEETJqRj11ViTNgqCmk%2F1sbCi8YJbX3ScoAyVOxsk7d6y5w2z5ZyBISMCxQLYCKXT6%2Bdos3Cy9yPlojLzBR%2B39mxh%2BxdIeGo31vYQ2ASQFSPp%2FtFEAde1akMRhWD7LX0uqgZgUeRVGHYOTwxVGoyK4g%3D%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840058902768"
+  },
+  {
+   "title": "Nintendo Wii Console Gaming System RVL-001 White",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920094457962?_skw=Nintendo+Wii+console+white&epid=27059669511&itmmeta=01M6C4RYTQQ6YEFAKWR89ZSPEV&hash=itemd639e7406a%3Ag%3AiP0AAeSwGV1q536u&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fz1QZFn8M9CXyeKdSnb53yKRtC7zmSCGw8mILrg5AirDYTszwtNS4II4LPKosSkrU8vuZC4x3iVGnY3xJ2niNuErUWOp6L9ausgqtmWB1oW7MhlI1NK1e2dvrkTauQmDWzepbDONqeUZuP1teFBd5kD5OIDLZmPIZHGmps9FI1Bn9KoNYpO9ple7KNbYbI%2BfumdjJGkZfAQrcYuikUejYCvOsebwc3PhqZlQmx5l9tcMMAHVzvcHsy5klt8q0xmCSWv3jbDkbw1kSO2jFxS4t9f8m3twC%2F4vR930Pc7Gk%2FDpczsuhdoBtfSZSQKM2VTWQ%3D%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920094457962"
+  },
+  {
+   "title": "Nintendo Wii RVL-001 White Console Bundle - Remote, Cables and Sensor - Works",
+   "price": {
+    "raw": "$59.95",
+    "extracted": 59.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880071578088?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTQQVAECQBRRJ68RWTQ&hash=itemcce85a91e8%3Ag%3A3gsAAeSwxrdq3NvW&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BoXwWdK6Mo3lkPau56QsV9sRMOVWp0KVS3ZqUwSVeC7n1J4XurFjV4ajsHnO3gdRHA0ntAVa2gQuY8ApdDG%2F6zS7JoOoXP30QFJovSXcPXIBN%2BJ0QgRlPUPyg4h%2BJERN9BT%2FuDBgsLuXxJRrPwVTnn16RkAHuMr57CCmtLXJpsISgrKIgGLPImCzfoRr8WeCC%2FJccPZexeWNDleqmYuE%2FSDuAmosIzfPu5t7wSc4KP4GqER5HRmI6kIkTQ3%2BUUTbWCrWDyMuSBOm6HcuLbxKQR%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880071578088"
+  },
+  {
+   "title": "Wii Console Bundle With 4 Games Wii Games, Play, Sports Resort, Wipeout Tested",
+   "price": {
+    "raw": "$91.99",
+    "extracted": 91.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168830638460?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTQE3DTY8WSDBQ7Q76S&hash=item274f17197c%3Ag%3AsIIAAeSw-Bxq50DP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9eMiTPB9xihZGtXDzBLWI8sIPad2k0QodVvzdAOa1i5O8l%2BIGLJUjgw5IK69I3W2mkb3FSXch1SQK93XxPZruifM07LHwSe5%2B6v7IiU4Ciniijkp1FHiMf4EoqspTyZ1pBQnEo6qsxj1G4Qa5OYBUBWKAup4%2F6x3aX84jIaN%2Fc565vOC1iz1z1nTJhIq79HZyI3OEYYnVZ%2FKz1KbAimBygNilDBIHuOKnQvBB73d9pe%2B%2F6VvNSvxSaNUaMEBJdpsfUEu%2Bh05imajrV%2ByS3wyiY%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168830638460"
+  },
+  {
+   "title": "Discounted Authentic Wii Console + Controllers + Cords + USA Shipping",
+   "price": {
+    "from": {
+     "raw": "$44.99",
+     "extracted": 44.99
+    },
+    "to": {
+     "raw": "$74.99",
+     "extracted": 74.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/317639899219?_skw=Nintendo+Wii+console+white&var=616209015829&itmmeta=01M6C4RYTRAQXRJ8WN4ZKC9PMC&hash=item49f4d03853%3Ag%3ApQ8AAeSwWWtq5j0P&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9NZuUISIKy0WHUXe62dNzSN1xcVQJsieTz2U10c3CrF5BSB4HwMil1NOKHodrnLuKw9m8BvaSgxR--2bsMHAdmvvG3wQks%2BELtc7wGcH2J7REo3tRDrl6RXR1ihDqKJXKSpB7cZ1%2B5viGSMjT8T77%2FiIMt1Y8rQGw8uCeQKbfaopg9ER2LPlc1USbLZ%2Fx%2BEjUOFANlUyIz%2Bt0fXETJDHiT5C%2FDmcOghaEk62XtW4S1TpOXf4SUh6hjm9LCWol2hD53Q%2BWaFCukAr6Z0dx487YV6QhzWO7BYXBcqsTuwtyCj5MUA%2B%2FJvZH9c10VRrTErao%3D%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "317639899219"
+  },
+  {
+   "title": "Nintendo Wii Console White bundle RVL-001 All Cables, 1 controller Tested Works",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820303873644?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTRHPG94XEQDTTX2HFA&hash=itembefdebc66c%3Ag%3Ap3QAAeSwJU5q5t%7Ea&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B7lV%2BqI%2Bgb30XnknMnYLqumoKEndYeW02ZlOfv6GsLvOjmGyebn71r7g%2FIXnKqAimsdKHUwSC7I84pHAadic4p5GQpZ5%2FEZke25oXGQ48fBHQ8otQdrFZC7L51CENAgeu1IDh8SZfTCDqP4Snm%2Bl4ZmXOtreZt5ya9SIHberrORnWY0r%2F%2BgHLjPN59kA2baq%2B%2BAbIgQJ6wk%2Bhu1ddeMejK%2FZ7lG8qKe6NXCzeMSq7%2FMWddX2jwa%2FUph55%2FqJl%2FTVbKbXyG7EPLEyNvMbChuptfUHgNygcLYYDC1KvqEIcqLFn549dv09MpzbpdbcA0cQQ%3D%7Ctkp%3ABFBMzu3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820303873644"
+  },
+  {
+   "title": "Nintendo Wii Console White RVL-001 GameCube Compatible Bundle w/ 3 Controllers &",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860103762993?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTRRF1TZVHP2QJM5HV4&hash=itemc8422de431%3Ag%3ASncAAeSwj1Fq53EV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B5AnAfztFg4nB63jHkb79PH5nHxY4q91ky7N0RDCfBpkThr7IoN6KP3Kn%2Bf25IAnLu3rmxxjqQbMS%2BFTO125I9EGoHpvZ8FzACg0%2Bb6pJVM8eFI31sdqSiEJvf6cVEO4ZueWQnVAS%2FUh35Cjrd45ZUhQ%2B7XEkXRgGx%2FNc%2F7cb7nddVpVUf0dBC31ZuYQlhrXD3ifAK1sTWy0th5XaUNVtjdewrQauheM2rAvuZ4276Ss0YmtX8DS8i94ERiyvIw0eVgJNS3dDWS5ibKj2qJ2nJaSUpj5cp0HLI4xJ2nWgSVLzji9Pde%2BS%2B8TCOrJw2NJk%3D%7Ctkp%3ABFBMzu3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860103762993"
+  },
+  {
+   "title": "Nintendo Wii RVL-001 Console + 4 Controllers + 1 Game + LOTS OF EXTRAS - TESTED",
+   "price": {
+    "raw": "$199.00",
+    "extracted": 199.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880070158064?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTRNVW3FGR2ABW44248&hash=itemcce844e6f0%3Ag%3AEHwAAeSwj1Fq5raO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BMj8ItxGx4fL%2F7%2BLgdX9KyjZUgz8x5F6swAwHxNcvJYVjkZ%2B%2B8%2FmABRgAekM3k8L1bU%2BQXFs8CA9bNiKyELERj2MOCajSQCleM%2B72iGiKn2BJczyhqs%2FBJnjq8MUMMNCfIhga8N8NEMsn3knsdABdEGohRE%2Bc23Ets%2FBmyl5Ivfq%2FmdrZtKTG80rctjv3FmjhnhoaywWG1XJlFRd6cV5l%2F1xGpMh05njF4m1pyoi7va3%2Fy%2BHtQRZgc7VhReiAHDkbwA%2FLMv8besBLsuJa1%2B%2FKpZsHqWQMHPPgQwHFewv59zJ0ZrK8iliLsmqncfG9NNbs%3D%7Ctkp%3ABFBMzu3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880070158064"
+  },
+  {
+   "title": "Nintendo Wii Console W/ 20 Games & More",
+   "price": {
+    "raw": "$175.00",
+    "extracted": 175.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188567694569?_skw=Nintendo+Wii+console+white&epid=16017499961&itmmeta=01M6C4RYTRQ6JD43HJE12XRAEK&hash=item2be782ace9%3Ag%3ATBQAAeSwArRqP-PN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F10KvVA%2FRlQHfFqCa1rNNRxKB8xZv8EyXyVaPS1XOn6aQelV2s07mXtyRb2FjGUyNvlY6kvy4jOcclJZTUe4n0uJrVDUeMfjaZskQ6o6iQZFqKm4fjvkp5LqfbQuAAft8fvSkFZG5jpy8QXlJplq4HClP2IMr3TmRy%2FlCH0XX6uwglcnMDgBUcWqPXOL4MDWlgv9S%2B40E8MngTm5McqKI5bHlssGcP5EDj34mCBEt%2FadGvvhco96YFKFmxeI65cOSHI1VXf3yMJA8QeMFtA6K%2Fr%2FKQEHlrESRYr5xgPxKH7rt1xBgPB1a5p8SN9NDu7DQ%3D%7Ctkp%3ABFBMzu3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188567694569"
+  },
+  {
+   "title": "Nintendo Wii Console Bundle White RVL-001 In Original Box - Tested With Remote",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137892880499?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTRE0YPZTCNPMMBDXK3&hash=item201b0e6073%3Ag%3AmPAAAeSw7Vdq532D&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B6iQ%2FyQgboZIg%2BUtBoG2VhJXEqva%2Fp5FZs8hwaRnQgo0SKdliYIkAy92tlwHXPyj3hkd37xaKSqAGYK8Zo2aV49ZSA7ERi4jqdyqA00od1boeb7paozuHAcHSG4J5u7RsV9Mcx59atjLMOh3o8sptz2o6PmimvREBPgsv82QEiOet%2BHfJIkm7qnyaD%2BJlhlWl3V9NaETwa4tHR1XMqnG1VM%2BZWVuzNAIybYK9rB5%2BRfuuGUm3DVZnNpIUVBEo8uiJJ2xO1fLslHPp9YCmO6%2BVW%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137892880499"
+  },
+  {
+   "title": "Nintendo Wii RVL-101 White Console Bundle Remote Cables Sensor Fan 1GB SD Card",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820295775908?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTRQW036YG5FWG2PQG5&hash=itembefd7036a4%3Ag%3AjzwAAeSw4xxq5Hxa&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8oLj%2BmPqSfoKiTs6%2BT3YSOli3wPHSgUS9GvGgHWTIa7YlTykJScYEzQfRP6AonhfwULvTGHX%2BeDgAvKMO8k7dR%2BWRygaSjQSIR%2F5r9vH3C%2FtnDHyer%2Fp%2BmNFVxX5cmysIIvPbzjRSn7Icxvn0TMHlU2l4i3uliKVv8tt3nZz%2F0vKnovtoqKSRBCJAIy5RnUFlWmAFVOzcPFaRPRe1E46VmJfOlzP5Atlme9SXF0uwgZcx0clyZg3%2BoOtj9SxxWxsymWi6t8dq%2FM1HxBELipoXn%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820295775908"
+  },
+  {
+   "title": "Nintendo Wii Console White (RVL-001) - Complete in Box (CIB) / Almost NIB",
+   "price": {
+    "raw": "$129.75",
+    "extracted": 129.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840071570496?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTS5R412BDJ3G5ZPTBE&hash=itemc3982ae440%3Ag%3Ag2AAAeSwfP1q41LS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8SSiGXGBDlvp9TNE5WJ8%2B2HrjPchmBTlVOAbLFnUjtwKWpVK0MjIZkaSNTHe4atyQkH03YwPkcHLLfs1SvrhMqfSX6bX4bTOz7sfVhjvPCCbhszuPW38dIANCXv0bFwMTxdzxYpq7%2FyofflLgSiKiYp69n3eN%2BRsdhk1n2JFTqnmBLKGXh1%2BV5iYbJsqkiEgBidKzY8oepKtTD%2FSC80gi9myfBaFLLbuLi%2FXTSpc28ux0OcIFFRTAxTcvYcF7%2FMkz4B9p%2BjTKSi4u%2F3KY22j5Ybf01LmN%2F41UwaRHgLjkiZ1YE8bnU%2B7hVfOv0sU0lH2I%3D%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840071570496"
+  },
+  {
+   "title": "Nintendo Wii White Console RVL-001 USA LU Serial GameCube Compatible Bundle...",
+   "price": {
+    "raw": "$54.95",
+    "extracted": 54.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147651676399?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTS0HBB0GKT722C7SMT&hash=item2260b9c8ef%3Ag%3AJ-gAAeSwCjxq3l7k&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8S20aLRBuuDh9Cxjj%2F0nbSlGLWWhjD8bhAXiCiky7uYCQy8cfVmaIRRc%2F8AlFFoGJOu1ehQHiaIK5oLKbOn3OGksSey8rD23r74LAZ4CwEr90FjTcUJpceUftB2tH%2BCv%2FzHdij41H873zRbLECyLyw58dQ7OPL3947lMVvBKgQ51OG6Iy03%2B1PpixwVMXerwhe7MKO0fwYCDuUJIxVnR%2FK5jGrFjFviZ6RAWfGqP9gDlKa1c0yFNXNE0xEudHOzz66UWvK1RGymR8ljayE6TjG%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147651676399"
+  },
+  {
+   "title": "Nintendo Wii Console Bundle White Wii Sports Play Nunchucks Rechargeable Battery",
+   "price": {
+    "raw": "$109.99",
+    "extracted": 109.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237154984813?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTS9WKKSBMFP10NW57N&hash=item373789e36d%3Ag%3Am2MAAeSw4NFq5n2X&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BVKJ61tAJbYyHgcsiH9S4Ix9c6zl0b0o0AwF82njnukmj%2FXG4JqkYqcQz3OF2Qv11apk7IXAwe6VwFFIC7nLIEq1CYY8mugk%2B62sDqFBiwM1KIvBm3tdWQKpmej%2FgLVPcNxYRXDSwejmFswJ7Xj60ARTTEAgKIpuExj60BWXyGB9ctFgGNuIPibjrXvTdccoNiybS9ovnFCGN4D0PX6SCplUMm8SLhr%2FhQn83mLXqTVze6FEoWoNSaRScTCG3%2BCgzj85jA9YQT%2FOGzuqjpsM6H%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237154984813"
+  },
+  {
+   "title": "Nintendo Wii RVL-001 White Console W/Controller 1 Game, Power Cord Tested",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920093959770?_skw=Nintendo+Wii+console+white&epid=13052964778&itmmeta=01M6C4RYTSR59HFZQ0HY8EHS12&hash=itemd639dfa65a%3Ag%3ArB0AAeSwDKtq50Nn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B17ytppu2huQHTLq30KCIsOmapIHa5HIKs%2F3SFY6KS%2BjzNCLC79RphpO%2FNCw9sr8lZMlzb97oyNduk5hCKkyhxwtn1iAEfkDxOJi249onFaI24CtM6bsJGmMbXZIEo1A2vjGKjNQGELmX3KipRQPP4iQuDlqm1X1d9vZGRguwJh33xohfp2NS6aEnZSART8b3YrLAQ5PH9L2JvT5sukJ1aBU1ErPYW4L1vN6s2BNZVa8iJwemCbtiAnPuJ%2BN%2B6QxrVIOnJ--Z7CwtgYGShgj%2B7IiM%2BEha9tvU5P%2B1CnBuWxZ6ArSo%2F%2Bjru%2FYkSICipGnI%3D%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920093959770"
+  },
+  {
+   "title": "Nintendo Wii Launch Edition White Console RVL-001 CONTROLLER NUNCHUK NICE! Works",
+   "price": {
+    "raw": "$59.95",
+    "extracted": 59.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257827252753?_skw=Nintendo+Wii+console+white&epid=223459468&itmmeta=01M6C4RYTSCDTBP0WCZDGKRK92&hash=item3c07b3aa11%3Ag%3AF%7EoAAOSw4OFiWlm4&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8V2BfNL2ilF92SSXZOZKVECMFbx84zWvi%2FmkakZybEhlxkwSFbisVAqxxsPdC9dksbaFf3f6QPKckUcPfhgzCWWfC2wOMhHXbKhf3YtQMaP3qiSKutUF49b5irXgipRt0U7263BAjjhFj3zGu%2Brgkm2Vdy9%2Fk9USxXVkFH9Y9XOD1ln27LedOd2wldwtvl%2Bo4Oj57ayU%2Bz8LH1b1cNDt1quQ40XYz4zklCZtFUknStuDezMEgkJclJPYKJxP1gN6%2FPp2Xb3Jfw6D8Vn57v4xLC%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257827252753"
+  },
+  {
+   "title": "Nintendo Wii Console RVL-001 w/ Transparent Blue Shell (Includes Extras)",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267829979859?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTSWG6KECK9Z7GF1660&hash=item3e5be92ad3%3Ag%3AmLMAAeSw3rRq5003&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9m3r8dCe0mXmCpF5LoAy1aT81ZchoA0ZVlqsJGfiDB6KF1d2VZj6GKDtEZTCWtZkeBSGzWWC%2BsorZOniKPYxdOkE0ue%2B0gfZ6S8h04qn3853LhUkA4Spa2IOCJ8DSmt%2FfdupBRUFViuzA830es8U%2Fd02avOIG74hzE1tTKxc7AWxIuxlIDS0mygRNKvR3Zq9XT%2FMmq2WUaCM8U09Vub8idnohdp7ZXEluy%2Fv7aJATLbMGi108EY%2FYf%2FoyqzT2eTIjgrqNWuSkxqWtEsFU0mmPB%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267829979859"
+  },
+  {
+   "title": "Nintendo Wii Black Console RVL-001 Bundle MotionPlus Remote 2 Games Accessories",
+   "price": {
+    "raw": "$74.95",
+    "extracted": 74.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820300911960?_skw=Nintendo+Wii+console+white&epid=1800347612&itmmeta=01M6C4RYTST7JVXDS377Q33RZ7&hash=itembefdbe9558%3Ag%3AFFgAAeSwsEBq5lxX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8W0l5RuTvp9sC0Vj15e31f7XRdR6CnXHN7RbtJtNXUnAcYAsJTBeQOlL5h2TozX28TeX2cs4IqvpgSKtkilhqjpPcN9YuiDeSOLTUma2zK7RSftWfv1vrKvdcQ%2FjDniegSv8Z86zjMVf8jtbd4gBhAeIV7SqdIh9R5FNvPvcYjiIAhlpVz8KyInGHlHItiVKveGrPpQV9f%2F%2BGnr1GhVQWVmzKIgd1JVeWKwmO8IvV8%2FBu4Er4SudDwRVoE2R5UNdVGTxhfoYj--F6X3V24%2BiKF%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820300911960"
+  },
+  {
+   "title": "Nintendo Wii Console 2 Complete Controllers Nunchucks White Cables Tested EUC",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117422751048?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTTPG03R9YNNGV21RV5&hash=item1b56f0fd48%3Ag%3AUi8AAeSwLGlqsFBN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9NBwlbJTHky6vxHsLBRxxjsJTJwc4B4fwdJ%2FSX9mrmrAV2uLWEo0M6%2BmSn7x2OhW48AU7xsCZhJaz0Pntb%2BXBpArCjG%2FIPgKAUJf9a%2BEON6C0W8xdwPRkqnKxTvsnH75OOf4dSfECMmcjgIrEmTqbjCp5yg%2F8MBQNkBctbamBEIMaofL0M1%2FHPNEXIvqRXEW3oDjPA05JbQ9UShjA%2FM0x%2Fehjwfqg8UH2F7HPitUPVLPCmyasghfoUc--AvFXHvo4FYGWFJH9uwg%2FlnAvEOaphwbjqLOKcgr1rTqw9Ez65Hfm81fsyz%2BUCa6nYXvDz18s%3D%7Ctkp%3ABk9SR87t44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117422751048"
+  },
+  {
+   "title": "Nintendo Wii Console White with 9 Games Bundle Tested Working RVL-001",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880057512172?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTTD2JKMJD0DZ841YMR&hash=itemcce783f0ec%3Ag%3Ay7sAAeSwEydq4R2S&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9EMjqzmA%2BkT4TMSJc4xlyybGxgLoZfcnUcOyAg49ZV63HoWYjWHgr%2BVTyPaC5HYCMUkhZVwGRhrKyf%2BoLP4V%2BVSjm%2BHBviTG1bSl01RiuoWUvhsRndM4GQwPKHMrgAEQd8DfaDn5YsJN7hT71ZKp%2FI4oFsYqI3wnmUFehiMx3KXapKZ2bH%2B5xhnYhX1crlqqPomGvxYdyoOr20p0c%2BlqiILqpej1IZhm1pFO5cMObWOA3d1fm2oqeh5vyVp3Zuho7O2cQfxLU0C5Wa5c30hGFi%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880057512172"
+  },
+  {
+   "title": "Nintendo Wii RVL-001 512 MB Home Console - White",
+   "price": {
+    "raw": "$35.20",
+    "extracted": 35.2
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227522905289?_skw=Nintendo+Wii+console+white&epid=13052964778&itmmeta=01M6C4RYTTNHXE5J7YR96FB79H&hash=item34f96c04c9%3Ag%3AK5QAAeSwdo1qqWST&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9cQpP65wdVfW3r4m0m9XZAW2y%2B%2Bfb%2BlPel6tShNZhes3ciuX8fI4Fbhao1bbgC4lGq%2FtXicee95hKuRoUWXvCgG0naLISR8gNQHaUhCyh%2FJdQxWzBrwJjqVvLyzziqwiohFsYw9unRCyVazMyb5KWXDYb4Bb2fA0GA77SgeKxjBnsnMtP%2F5DHlmCPVgGNeaB7KZom5SDqMiTY%2FHIlHvBDAISP%2F3GMvnwYG%2B5DPwKFNKR%2Bxu%2BSZVDm8uA5kd%2Ff0cipZguCMR1QcEpGE6wOC5ln7GRzFkBAMK9b%2BhI4PGeDRc9dEKrJ%2BG6GjJREwsq6Sq%2BM%3D%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227522905289"
+  },
+  {
+   "title": "Nintendo Wii Gaming Console - White In Original Box",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168628619784?_skw=Nintendo+Wii+console+white&epid=14021692356&itmmeta=01M6C4RYTT022FD3JKNAAV9GD6&hash=item27430c8a08%3Ag%3ASp8AAeSwVzdqh0uU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BeCeB4cg8U2BZo4Bd8neBaCrH8Im1fVEfljizrfMQZN9pYt6MJ4gbf6sphWr9IVB2W%2F1gPhzkmA%2FPlXQrBfIzCW0sOjpdnxUZNpkKnhObJHq3JciybZXwDzQDNA9z72lGqO1%2FcvnpkBj8uSbZGxN3U8fTRu1S9sk7D2QEpca1KtvOrT5WNZKRArYKx6VCampk9cmJj1cogY8Lygo3u7GUgZStTPKdS5SJ77avO4HIZyeg5eaJDspq9FKeeN7XiW9wCb6ykjmF1W8K08%2Bkhca28WcZnRj1Ej79qZ8RgZBWx3utIJaykCiX80woXPKHgM5U%3D%7Ctkp%3ABFBM0O3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168628619784"
+  },
+  {
+   "title": "Nintendo Wii White Console CIB Original Box Wii Sports + 4 Digital Games Tested",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137880199570?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTTFE8J2RNFQV60RG17&hash=item201a4ce192%3Ag%3AKLMAAeSw5J9q4Oka&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FeSzJXGJ0Cw5VQYJCp6MMwGg3h1lH%2BRJrdg8gsb18KFAmr2D4txvqq%2Fb8qoosuN1dxGbj%2BssQY%2FnEadhW5%2FWJQ13BZnZpV38QdAdFLayD0E8qwi17wLeJaSxk6Vpw2YvbTDzqJJirsHmqXHXnjEr7wvs6SCFXreNMrVvolxveoZaWfajOSZvg%2Bwtqguc8S0ZhXseyImyljj1o0qFsmKKJ0YYZmFZtY12Wk%2FtK40BdVG7NDSdXgPnhwl5GY49QJqCCzW%2BL8zGINoMPe%2FAhq0g6SqWtA4iuECB2yQxRdz6nWHQ%2FnvHwSLrpK5fIKwNV%2B1PQ%3D%7Ctkp%3ABFBM0O3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137880199570"
+  },
+  {
+   "title": "Nintendo Wii Console System Bundle CIB White Boxed Tested Great Sonic Wii Sports",
+   "price": {
+    "raw": "$127.00",
+    "extracted": 127.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147660095238?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTT9611F470A11WYKXJ&hash=item22613a3f06%3Ag%3AAn0AAeSw-Bdq5pWA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bxw5jb1HlNBWrUYfFGvdM1AJ%2BbNCotI62p3pW4Tp7AViQbwurQijc0k6h1Huhz7CiSUGp43vzBxcjoG9UKbrO1TOR9EQfb6c8UIHSi0kojen9m%2B7ixsQHCDLYwlN394pFzAiSPKJRFA5vHJ1Ktut3hPOC4B2477YhcXx71s4Gi3P0a%2BzrEFrsKl6DPuRxu%2BSuKKqIT6WdqU0E578UeCC3JLws2c3xvg6JshZq3mBP2QafSQ65iAIQX4qae%2FpMXDHIx6EUQ84qMjft8Wvh4zaUBKsTytN%2B0kH3%2FkSJl1uf%2Bo5U0hvNm1jHm3et3B8UNias%3D%7Ctkp%3ABFBM0O3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147660095238"
+  },
+  {
+   "title": "Nintendo Wii White Console RVL-001 Working No Cords Stand Included",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147657206117?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTTXQBHT39RQ46XG7VN&hash=item22610e2965%3Ag%3Atx8AAeSwRONq46se&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FcNZkzaWiwZhl5nVDTIIsE%2Fxx%2BnzVKaKpHdN39P1Nq2sdekFL4IJpQH2bSEZRZIUPvwEz6xy7MNwYPkSxTkXGXQhL8Kfv9ltVnvtOJJE0b8QjuxeCeXHlSwxgeb6Sw6vrHxuXk0syC9MhC%2FtZnrTRjwZZCBvR9uLdhFaJ9kmX0ULXrtI29weGlDg36X9kWdzc9ecgng9FGSOUCJ5qvEXxHCjYwZbSzIS5A%2Bmkc6aE4VME8Gr06hAPYaCU773MzfGIliNzzV1u4C%2BU%2B%2B3ECsM5rotdy6hhbfibOLPrO580J5rClyOeW6YWkWwnqrWhWq18%3D%7Ctkp%3ABFBM0O3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147657206117"
+  },
+  {
+   "title": "Nintendo Wii Console RVL-001 with 1 Controller, Nunchuck & 7 Games *READ",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168830799620?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTVW9JN2G0GCASXMS3P&hash=item274f198f04%3Ag%3AkmcAAeSwjtlq5qmV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9xaSnfQnQz39VrE%2BfIbj0ILmmaVSZoyvHYw3Nu5rjNLDznYUAfof9dnl5WGq3%2BdXWYiesPpGEdupZ8EyOZm4Aemzs%2BqbQnEzUALWhi8ybnurkiQd%2BSnbrLdNRgrWcsuFMrvXS26giHD5M%2Fj2ECdC%2BThTTqKueS2cHFhCpqojn8bC49dkHR8Qe1cT7Jj6p7qxik3WJ6rdyL0QcwBxtkVYojKst7GBHhIQwXOArrCW%2BybiDiYVUEbeWLrZLVkWBgImKX0ot42y7jfY%2FTFKLCI%2FoF%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168830799620"
+  },
+  {
+   "title": "White Nintendo Wii Console System RVL-001 W/2 Controllers, Nunchuck, Wires, Game",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137890221814?_skw=Nintendo+Wii+console+white&epid=27059669511&itmmeta=01M6C4RYTVNCPN43FPPD01E470&hash=item201ae5cef6%3Ag%3AswYAAeSwZKtq5jlI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9brbE7Uk0IqKon6KdzwU7DkLh7s3QYsPZh9n%2Ftua8Lix6l3pEsASEVEBCIuTIgiMTHlCqc8lihc2LLve6Q%2B3t8GZoIQcL3nXGdZZ%2BuA%2BgH9yZdJNTBMZydbPwYOChprc%2B9EaS6GhcEAE6FuRO3fOICE4n1Ov%2FU9n%2FOmbxyTaNMiyAfzVDAgOpB9rV6uebP22jhvXpl8cTJ4bJ5iFtqk4hGvROiPnm%2FimvsM4XrUwaxqA5BxELbdu1AhdBn0YztN%2BjAPi9FzKL4RTPLd3MO8Tn0PeaeRtRLVcHfuxIg4gZ1BcIZEU6pV3TZQmAMc2TjacE%3D%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137890221814"
+  },
+  {
+   "title": "Nintendo Wii White Console Bundle w/ 2 Motionplus Remotes, Cords, Sensor Bar",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900056654796?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTVSZ1VZFGW2YX2R9SE&hash=itemd18f8ea3cc%3Ag%3ABf4AAeSwtBBq5gBb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FfMJYk9AN74aiK%2FWdYjXe6BDio0tP66TJhg3gszaRjwKQlDNXj7Xo1NQW9VI0HD6jhTphrYuNq5HFZofaYvjilGgJ4ia8GShgAQ4B62E2PdwsAzizI2%2BhoSf1I12TOjHPMrD12wNk1CiHvM1XeySIirbar7vU5ifHglfu%2B6q1LOxCt4nnY9%2Bp1IhAVnWMGcals4a3F2M03R8Obg52tW%2FRDSp1pnFYdSpWjJkTPm6%2BpCcSCdAc7FrTPzXUWZA8d1c91zw8MB4BpWZaW71RNSqGr%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900056654796"
+  },
+  {
+   "title": "Nintendo Wii RVL-001 White Console NTSC-U/C, console only, tested working",
+   "price": {
+    "raw": "$32.00",
+    "extracted": 32.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267830193436?_skw=Nintendo+Wii+console+white&epid=13052964778&itmmeta=01M6C4RYTVY9CWHT50ZY97M491&hash=item3e5bec6d1c%3Ag%3AF7UAAeSwlHlq53Y6&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde99og2jKTUh9f2AoWEILuUIgpwdNRMCnG5xBR85QgPnkjl9xan2au%2B7vyT2mFm7rX3F5fESoOB3M4PpES%2Bf8YWml08xJtaxTVfEN%2BbHPOFcYmcy0Ed2EYdv5wyZKSyMIusSewMjX43vuyF%2F%2B9TT3o7JQ1tGv2Y9EkVE7JSKN2panKX4Nv75E%2FHM%2BoBpIy%2FvttYUdNQ78jgeQnni8dh36VI4P4GUnA8hyrGX5CE9eCyugRm5A1ghTCbugeuwlh1cTzlKfEnTtkTkb0SnQODDHINZ%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267830193436"
+  },
+  {
+   "title": "Nintendo Wii Console Bundle - Remote Nunchuks, Draw Pad, 6 Wii Games",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147654555007?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTVT7JZ7NSTFGNWVBNY&hash=item2260e5b57f%3Ag%3ApQwAAeSw3ftq4Uaq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Nb4SGGBjE7OXpDGeXclHWQw%2B89l9dcYa9FxrIr4l1kX37AosumQ%2FqrYf0wMOypCsn6Gi%2BThpY32HowgYJqsdGExAl9NgmXkz4myf7A7NvtllSgFhavAziF0sfxfoc7fRKCiRDoq1vXZ2Y%2FLGo5g75%2Fr2D0GWFROFFN4h91hfXVgzDWaiglPFZcPxFgtan2uFgIYsMSGNBQuB7lKDqgq15X%2FTP2Ab6G0RdxrGVkwtN0RohXdGltm8f%2FvZemy2GxVthDqUNVKrvuP%2F0pCWFC6w3o7rP9xH38vXf9JoWJZaBokXjEW06AGl3C82%2Fyfye8ls%3D%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147654555007"
+  },
+  {
+   "title": "Nintendo Wii Console Region Free GameCube RVL-001 Used Select Bundle Authentic",
+   "price": {
+    "from": {
+     "raw": "$74.99",
+     "extracted": 74.99
+    },
+    "to": {
+     "raw": "$134.99",
+     "extracted": 134.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/394905889280?_skw=Nintendo+Wii+console+white&var=663473831941&itmmeta=01M6C4RYTVT80DV8AK15GDFQ4Z&hash=item5bf239aa00%3Ag%3AcbcAAOSwsZ5lFY3H&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde95mOao4Ljhpy%2FfwwIJQgQN6mubKz4wWCjK3hDlCl56LepVYrXEFZrYwP9uroiJE73vJzc0yfWd1kD6dTVEcFDlEpbbI1cY3QJJMBL1lv1BXl2zg%2B5m5dWD3CFQ9dcBxAQGQn0%2FoHQfQ%2Bz7DK7%2Flf3c%2B5RA3Hk3uS86MGnhWVn--Jo1NKOVJkJF4RcWa%2BR6ijp5JAfSojbfNOvwb84qGGc3FZysLW4ryoD5k%2BTop78BkSzOy916xNMvnFkHe0kCZJZSC4RC6sptG3GoyAuVga%2BRVGXp74CkvkBCw2fjTVa77HdugZSvAxXi0ZvOkje0XYo%3D%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "394905889280"
+  },
+  {
+   "title": "Nintendo Wii Console White RVL-001 Bundle with Wii Play Original Box",
+   "price": {
+    "raw": "$97.90",
+    "extracted": 97.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227306656802?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTVSNT5Z71HQB2PSS2E&hash=item34ec885422%3Ag%3AycAAAeSwxChp474r&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde99U%2B2sd8Z2NoF2LDtK9tII0Qucj3yXNoSQzeK3sx7hcWFzMdZFXKH5FvZmSxIcng4aF2W5vkKcEkcWS8bYJyvEkuOvJhr72yL%2BIQ2exvk2X0gGDNvbdFBNSEP2%2BYud5JNqV2HeyYkiGtxVh7yFKaObNFyNxPBDlEyYgoeTc31eb4NUo%2BGBbkRU%2FA7h%2BrjwLXhd6CpxE0m8IwP2Os8T3J1s7F9eImZaDwxWA%2Fq8ssJV0DNOCjuR1er55v%2Bevtlr6CkPKkZL2LoYbEkjuxM1r94OIDOXEsBgCpcu2vKqHXxyKOm0K%2FZHSMkhUv936b5Na4U%3D%7Ctkp%3ABFBM0O3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227306656802"
+  },
+  {
+   "title": "Nintendo Wii Console In Box Bundle w/ Manuals + Games Fit Board See photos",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198761370411?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTW5KX75DT05XPC3SR4&hash=item2e4719d32b%3Ag%3AsA8AAeSwrBhq5rWC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BfiE8D2AQtr8SDIf0QTWicntDfIToOB4%2BZN8JKlj6ZybHvB7VPmk7cioUuC55IhE5LdntrhXEfIQUNVwgvatAAuEUih7QGlAwdV8hNleNhpUPsFmNPmZMjMx0sUvOgYdgYyaS0CrJeH1YzHnYZHfZNkDdID%2FYfAapVXCj8HOFe4A0UWSGHGaNeoW5yyQsAzKOVWwiJvamI14MrGNtI0ve6q9rJsFIzoZx6drECFhw5r6oqa89JMn5fwzO18NKURCVwjBOuM%2FmcXfcPztCBa0j86XuHurzUQVmDZbUkf8cYJYlTfG8fok90F%2FAXPWny1VA%3D%7Ctkp%3ABFBM0O3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198761370411"
+  },
+  {
+   "title": "Nintendo Wii Console Bundle Tested GameCube Compatible - Games Included LOOK!!",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366775096607?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTW69WGJ4G19SJQWDME&hash=item55657fd51f%3Ag%3ALgUAAeSwP9hplJiz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FKmO0aOdf6Ko4Jf6Urv3oaID%2F4Cl23HaCkFSZvMjvrsunATalo6nLbOZFjJZONvkicmqEG%2Btz7%2FDZFIZQ6oAxvj7jsNl0mmOOyv%2FHfhOBHyBu%2B3PDogu%2F6gTaZfZ1ZuPrJxM%2BCd3q6f09zAwT5Qj0V%2BL92LBp9rgJYDTAOJOPcLEbrNuzgPjH22gx%2BH4ql%2F6UqNUosuxQ%2FBvgP73g%2B0zHgf9jWwhJjPsNIKldseMpYLQZp0fRB05DstiSYqhd4bVeO6n9wRiscawvyB8bRPU4U%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366775096607"
+  },
+  {
+   "title": "Nintendo Wii Console White Bundle RVL-001 Controllers Nunchuks Cables & Game +",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900056831664?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTWSW9NNGSKKMMAQPJF&hash=itemd18f9156b0%3Ag%3A3pUAAeSwcnBq52tR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FTaGqdZEVHHuX5hU9saAXojNR%2BLIG%2FDeueA48U7qkBcHMA1KsbLZLMjPja0VKOPmuU8%2FdPvuSaaXn6dtrp6sdAQmD61PGwgxQXZ3jVonexrBWkz5imUtaSRXtBr5g8pCCLQplZCAAtgo%2F3bTpaOO0y9hy4qSeNBnA2HhhNKwDDl7pzeMbiglAIVwTpS35TL1nF8fI6jvZYhM%2Fe7sRowqz%2Fu35VIm3ocaDkEeZDzkOAEZJC9AYRQSxOi0h9sFel864stCeoYGYouHebCfa%2FhneWtRvCwR4XRfhGlhNTOuxV4oNMBBJrOVTv7Oiz2V2cQ3o%3D%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900056831664"
+  },
+  {
+   "title": "Nintendo Wii Console Only White RVL-001 GameCube Compatible Tested",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137877955082?_skw=Nintendo+Wii+console+white&epid=13052964778&itmmeta=01M6C4RYTWHF7CN4VMKVNV2M5E&hash=item201a2aa20a%3Ag%3AF2MAAeSwJGBq2PgE&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde96VGRZXT2l0ChN5%2BmxFVHSMdsnM%2BTnE0N0kMETwHjNILb1F8%2FkW7Hyirv5psaBnZy3zw1PVVvs%2BcF0VxPy7q1HTTpBvVZ0n%2F9Sfi%2BKcZnH3zwE1FHSrJ4QUTfH0dkrrPeqmM0%2BxYknOtDJNdsWeleboPBmkM8cZzHnBIuoXLYXsOPFwdOf8TGrgq%2BgEs6F6AZ42I3xTEuFccSWpTiSf0G5nyIveKa8WmH5pb3LxlnFsa7d2QS9QJtVqMzTDcaGPJ1gTyo%2FDS%2BokHbYdSGTlYLH%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137877955082"
+  },
+  {
+   "title": "Nintendo Wii Console AV, Power Cable, Sensor Bar & 1 Controller - Tested & Works",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257826396729?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTW47MDCBH9XAQGKZ52&hash=item3c07a69a39%3Ag%3AJkoAAeSwExVq5XvJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B0E%2BxQ728a7nGEJEqA51vjihb2XtYfggdG7B%2BQNqivmr%2B0znwKzpg1eXr2%2FjyHfiedpr0%2BZYx%2F1s7FDuksqk%2Bcj2jPEY1ShFqU3Jy783Kqc8TOQfc6BlX%2BCW176aWACQ%2B8oG86j%2Fi%2BUVWeRAXdum9T42%2B%2BhHkjYltExRUxqcpDPjH48Wv46lAGM9Yiccq5WsG3ZAh54GC97nB91reFVXitPyda0LgqvgV%2BvO46mKHVXDZ91W3CguEqSGGgVM5WKDG0ZlKD71kVOOfTvljkfbTe%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257826396729"
+  },
+  {
+   "title": "Nintendo Wii Console Tested Full Set Working Model No RLV-001",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137841089757?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTW9GCQE6KHQ9CJV3P3&hash=item2017f81cdd%3Ag%3A3iwAAeSwK7pqrUSR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9MmCplav%2FPL0T9Au0ol4yobgph0aX5VhtB91nCKGBWPvWhAaT%2FI5trgUy3n6yG66MzdOU7GCwG8DqTtVdArMT4aWwe9tYWQYftI90JT3WKdIzN3O4wdKj8ew%2Bo0ns4ems30DyeVECShwLU0oGJyxjJAD8EuSw3rBiE6P%2B1vN3UwwhFAmRJ%2BcpYMBSLNCbzn5RYW5LSPXppHDw9lKMHVUsgvuYKkW790y0LwOKRrYogKBisrarharPb%2BtNplaaJWxD7o3Z162mmbKj8WLB1sBbyBazK3XHOaQUAJuyNfX0zNF8oeYDgGA8WsiFU2AMewbU%3D%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137841089757"
+  },
+  {
+   "title": "White Nintendo Wii Console System Bundle w/ 6 Games Nunchuck TESTED! Babysitting",
+   "price": {
+    "raw": "$67.98",
+    "extracted": 67.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298732958794?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTWC293Z88K3BHFC03T&hash=item458ddf344a%3Ag%3Aci8AAeSwU9tqwrX1&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8ZUqPNOuKnAVuerWwJInyjQMS2984Pl4srZOD2QcbWc6EBcvnc7UX0my2rpMCJXHw9PHRR0n25ALJHyNWYxpRazr0OaOo%2FfDQdUcnMka0A%2F6XgVOpWhxrIjaDBzuUnSrwtZTbkbtjkXY7GtnqaHV9%2Bgs12%2BaQH6CBdzVuplMPL%2FQ3Gj4LVtK81uHgmBrN2oBzHVRDoAJoW6SI14XpL96ex4HbR1F%2FcgfV6nyOS0eFjizbNjTmOcC6RM880TdZ5PrPuqifyS55ZEdmY6d9BQuxC%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298732958794"
+  },
+  {
+   "title": "Nintendo Wii White Console Bundle with Wii Sports Game & Controller TESTED",
+   "price": {
+    "raw": "$97.50",
+    "extracted": 97.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237154766818?_skw=Nintendo+Wii+console+white&epid=14021692356&itmmeta=01M6C4RYTWSS5TJB1C1GMRMRTZ&hash=item3737868fe2%3Ag%3AIu4AAeSwTJFq5kx4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FrROpD9l1wsbDFVZssRBQvnp%2BEFGhTcSUsIedAe%2B2Btjdzf3pK26IvqcBdde14cgR1UAdsjf4pWv2Nx1SS2oMRnh8YsXckQI75n%2Bgz9fTdX0f6b9k47KzO2qLj3hUFtCC6xHK5mn5xaufXFDaUoSxk%2Fa900H1DUwdDLuOmAikI7OUcJBeMu13r6YkeMiUlAh9YJlvh2ORaqwr536kaxkwbyymxzcIpjkSyHlf7aQ5O%2F0QtkVDqeGkBeMmcug4IGvSXtUXujNs0e%2F5VdQSYeqRo435GnNlc8Fhhaw09t3IUBFo6vzEplyPidlapcqO0lN0%3D%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237154766818"
+  },
+  {
+   "title": "White Nintendo Wii Console System Bundle w/ Controller + 5 FREE GAMES Tested",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/286953763096?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTXTPD1ZXP56SJ7HM8G&hash=item42cfc6f118%3Ag%3AbpgAAeSwD39pHoXa&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8dt8xne18ErpA2nYHFTKxzatyzyROU9mtw7wzFox1ExPKJ59GRWow1Bm8Q9j8P8Z%2FFZDmCATNCoDBpnHBeJ0xWns43%2Bt6cBGlq37R%2BBeDHkshUa33njQc2rJ1GbZe0iRNLMlwt%2Bhn1qjkJF3Dn4jjwTNvNcpScOI1%2FN4nFD51JTnZxv8PEHtCQOHnjFrQwTvtNXYkrDACjaRxzWAtRsAplONLT0gLd8II89eTeKAWwh23A243igegrHVX3hFm51eVguc%2BgrlNcmW%2BDq2THbB%2Ft%7Ctkp%3ABk9SR9Dt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "286953763096"
+  },
+  {
+   "title": "Nintendo RVL-101 Wii Console White W/ Cords, Controllers Tested Working",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257812695778?_skw=Nintendo+Wii+console+white&epid=1100044231&itmmeta=01M6C4RYTXKPFTDQA5Z3K51VAW&hash=item3c06d58ae2%3Ag%3A3sgAAeSwviRq2rYP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BBBh59%2F4ZJSRpS1YMK%2BxhLzAbAjo%2Fbaln7VR2AFEwkdYIjjIMfqEcSbpKUGFGPlgFkfFD0hZ6TQ6IXm0fbTcScJIqwHuETHT4e3Nn5dNfVjhP%2B3vfWV5FhfOVLgUCW7KC3L0UiYGOqb5VoqqSWIFw1oh3xCcEX5xXZaBDfbu%2FzOQeGUx3e3vikMcy2RVR3rUijSHhisKRBUSuYemt0asb%2BAeRO9PKzpVCCYeAoBLe0T0coygEZW%2Bz7K574XZbXIsvtG8S7MdLycNxgcYVnfqkzZ%2FkbuIiHB985YZDLlVpMlnD3xCqgnI0pTbZ26m0TQhw%3D%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257812695778"
+  },
+  {
+   "title": "Nintendo Wii Console White bundle (RVL-001),3 Controllers,3 Nunchucks, Tested",
+   "price": {
+    "raw": "$114.99",
+    "extracted": 114.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860086935376?_skw=Nintendo+Wii+console+white&epid=1000503186&itmmeta=01M6C4RYTXTR5QYK8E1RBMNTM6&hash=itemc8412d1f50%3Ag%3AESQAAeSw2ERq3-Xa&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BObEUR%2FqcZvRJ%2FXZNmNOch5%2Fzc6hJe4sU0ZKPG3ElBfbecT%2F6xvFSw37FbVv4E0ZhS3iEYforRGDu1TSEZ2SjFo2m5meTOV5I6cFph1NT5SiIis3x8IG8Mpj4U8AURwkI8QOqosYwFXUsVYJY74dPqu9bEC%2F009IS393OSnRrXpEe21ZQ1IaPO2zNTLHPqjAWHaryd4sIT2fkJ0VYol4Vhxo8nTMy2IE4YYcMebORPji%2B5Jwr0uJoakH0lFeRhKM6ZgF8OQogrCkhws8Ft9IQw%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860086935376"
+  },
+  {
+   "title": "Nintendo Wii White RVL-001 GameCube Compatible Console Remote Nunchuk Bundle",
+   "price": {
+    "raw": "$42.49",
+    "extracted": 42.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267826157012?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTXRQW16GV6M60548R9&hash=item3e5baed5d4%3Ag%3Axs4AAeSwAGRqvlCZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FnXNrDhOuSwX7B2b0PqZKsw2xdjV5U2StbveRlf0Y68Id6F5kPlf7Q7R%2B43Q5UJeXMu2E7oUkNq6dYYI1kwO9lX4p%2BEdHQu4wz13w961Yhr8kPexbEyXYDFLTiafriAQAZy4Y6S4pxdKSl4M%2Bxxlqx8MRBHgGp7aYZSt9JfGv4okMMz%2BkKZdGdcw44KSCj34ulT6BxnkZ%2FTEohXDABsG%2FbWZeX%2Bux%2BOqAR5ROj3yP1XC3CAJ9AcB--RqPcHFNaS1fMVx8GZ%2Fvox7GLDZ6Ia97g1QvAQvpPSfrCnpM5YFNN1FJtCRXuAvPi9wFa0svM%2BSg%3D%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267826157012"
+  },
+  {
+   "title": "Nintendo Wii RVL-001 White Console NTSC-U/C, console only, tested working",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900054296761?_skw=Nintendo+Wii+console+white&epid=13052964778&itmmeta=01M6C4RYTXT955S7CB4BPY7YSA&hash=itemd18f6aa8b9%3Ag%3AmfYAAeSwyIJq5hhB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9lkjkTGDs%2FSshLU%2Bsszmh8R2mJuRO5BCY6yVUkRLpIm55b1haSpq%2FUtF9%2B2JgY3FnVUa5InTIgOcIt2cuywnp4CvUOHu55hL%2BD3swamOXpbfPlaGC2NT47es%2FRlwGZW5TAWeQRvMV6CF7BpwESMLCIEI4%2FLARC%2FyWB%2BDMch41AzBijAQ9gKOdWRLmGHJ%2FVUmzKoimQCI%2FH5H7ccXmskhmp4mY63uH3nQ6ZYW6umQ5TcukH6zmsZvJ%2BHIih75dq1mMMOM1UMtMcAg0PxxbuHgl4%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900054296761"
+  },
+  {
+   "title": "Nintendo Wii Console Bundle 15 Games Wii Remote Nunchuk Cables Tested Working",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298727958521?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTXVCGPYVDYRJX0MVT8&hash=item458d92e7f9%3Ag%3AipoAAeSw7odqwB48&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BDOziOZo3VFT31a%2FNFx6tVNux0fWptFVuEWV%2FMvbbYSRydKUNucbWe%2FrAo8s3KLPFhyBO5mYBZeD1MUi5Et2764%2F%2B4Y8UsKfZDD33ffZmXLztZY86D88id5MIvnFETU3beXbOOUvUPwe9Ww5L6H677O26xZ10iVnAAJP1GGrWTZ09mznLAdrlN0BE4WSgEUzS8lrjU17GTAw2FPdmNUAO4H5Vn8UbN2y4cD1wUU73F3OtrqeMn%2FE1mI%2FwzwzMPX5wDCtoqJG8uWkSCQjfu2B9BoH2oiNbXC6mksvWAyygP9nNhptgeAVMYwbQnyh88ufM%3D%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298727958521"
+  },
+  {
+   "title": "Nintendo Wii Console White Bundle w/ 2 ControllerS, Nunchuks, Cords & 8 Games",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336871560322?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTX711D3SNMTYY6YFPD&hash=item4e6f1c1482%3Ag%3AamgAAeSwVKBq5W5r&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9psbENjeX6sjEBQTup%2B2BAsYEiOoENYN5Xh9waZUJk4lNwT0VAPIYZ3nLL9WgfOav8wk9IDJ1lzmWN5%2BIHIn4ImRGWs9V3ZlcMQuAxjf52vABIm3V0R3m%2B7x6x8qDGn72K621UjoEMvI7XAbg8UU3zmhj0Qhh2%2F5jQhG1TCA%2BtPyyrHkBsQIuRG%2FlyQ2a9V4Ub6Aw0FgHmMDm6MENnMVt%2BrBWIg9cK6mEGmwvcdLhkyv6IjVtMixrzzkSmxU2cqk0j%2BNv1H7%2ByIJB%2FQvYKob8W%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336871560322"
+  },
+  {
+   "title": "Nintendo Wii White Console Bundle 4 Games OEM Remote Nunchuk Cables Tested",
+   "price": {
+    "raw": "$63.99",
+    "extracted": 63.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267808424427?_skw=Nintendo+Wii+console+white&epid=14021692356&itmmeta=01M6C4RYTYG3BM92S186KK1G46&hash=item3e5aa041eb%3Ag%3A34kAAeSwfglqyEaX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9LXgy5GAXXdEIw3uUfh5z64%2FlJLCMROz4tjWE7J00X9XXuz0ce1iCBV30--74Q74r44P%2BRtei14GdsLgHQmLH0vO4SeRaA%2Fem0Vq9WUq1kMDaJC%2FVGwSiN5dt1G6OT3wtez05z8JVzlbluGh6YTudaOdpHIZIVbkDy%2BGW%2BLMpVXjr8PczliD8rWXeI3Gerg%2FFwOxHfp3vA57CuadoL5t5zdxlNVtABLX87RbnorZk9n8RtFE%2Bla6MIX0rdbGt6zyxG3ZsR4LryUxNIR8wslp4VLxTVcT80nYLLftwGPKZ%2Bwcpkl%2F8z4rxK%2B3C5Y%2BK%2FChg%3D%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267808424427"
+  },
+  {
+   "title": "Nintendo Wii RVL 001 2006 White Console with Accessories",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237151323088?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTYYYPKWRANHGSEY8T8&hash=item37375203d0%3Ag%3AQ88AAeSwQfRq5Da8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Br%2B54aLGZKmzhetEzJBVCciNBjCC9473eZE0hoCSFmZH%2B1UCG%2FSipdsNuT6cYJL%2BtfrzO7saNqe01jnGKjrV3TyjWfJ6qWeIEWrQ8xmGQaPXA0i9jizOaDtsMCUrEvxRNo2svyD%2BbnICr2pDDB0lYaEWz8WzXdovWWd7lfQzBBQj--aC5Or3bQ28aQE1MdaM%2FXC5yBSJKEuUkBh%2BLCiuVlrXhaHhXFT7ytBGcjSzFsaXNXQ1wsAIECeC9ZrWNskyOhOavn%2B29CJaoK2SNk0WrEry1nVyp%2B8k0XyBA1jMR7KS7s5k9FbJexecBn6P8QHSU%3D%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237151323088"
+  },
+  {
+   "title": "Nintendo Wii Console Bundle White Tested RVL-001 GameCube Compatible",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287692340203?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTYN5QVWAFE6Y0XQPRF&hash=item42fbccbbeb%3Ag%3AZtUAAeSwAe9q4BVt&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BxWHWuRhS%2FF7NhA6PDGyJ45Fka6u0ny%2BKbsj9o%2B86v69eJAK9alw7JQi7XxY2JCLpC9DiH%2FXpOVQaPZKmr3GhLG6xqQFFOFIQLGEP7cC3QNsI8OWvJ%2FhVprNhK9bU9pAj8R8eFS%2B6uNREcBxbXaVULk8plw1in7N3nOoOK0X%2FsM%2BW8cFMnoWhX6k3sHuscoDBR8K03Zb5o5f3wc1UWf4yo3J5g90cRFDrJpt0rmLc0m0WYxQzJBzX%2FqSkB16%2Blj6rZGUm%2FqOsXNyuk51v%2FlCq1%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287692340203"
+  },
+  {
+   "title": "Nintendo Wii Console White RVL-101 With Controller, Cords, 6 games Tested B3",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358443900384?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTYVFCHKA18TQGMR3W1&hash=item5374ebdde0%3Ag%3ApAsAAeSwqZVp3ZJf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9tWfazgP14BtURazbt1GOebEO0w%2FQIQCHbVV68fhjgyiM0uEKuZHtVbcx0QdHt%2FM2pcvlQr%2F5ydBb5O%2F9wsNkrC2gGpWCuAaZqGt88UfYc9TDzQO79VVJsiVENGcfreMr2z%2BU0MBwpBVb1E7AQLO0zDEEdhbsAaEE4kzEXzSAmJVEvtmfDdb4JUH7w2%2BAYEjAdwXUDF2J4O19XG9Le%2FXmYOpDRbWsfE24Fkib1Vj5A5fBfKph5ZkATqFKRa%2FeUCC58s5OQ7qZUYCXt7%2Bb7do5sW3eDvjDJBtbwgB%2BAGxDIXkY8uBOJGJiUXkVLtHJWM3A%3D%7Ctkp%3ABk9SR9Lt44SzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358443900384"
+  },
+  {
+   "title": "White Nintendo Wii RVL-001 Console Bundle w/ Controller, Nunchuck, Cords TESTED",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940053486332?_skw=Nintendo+Wii+console+white&epid=1000503186&itmmeta=01M6C4RYTYFJ7BZXKMXFCKNFN2&hash=itemdadf8ddafc%3Ag%3AQdIAAeSwwnlqXWGJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVYaI8hir7sdzQSDs8894YxbAhdKPkg7v2eKyvAksPKovJaOTQpBFjQWBX3JAyYk5u72H8RQTP9Xtz154iZxizBWTeul2nKnOtiaHxkaoJQQMAy%2BRNfvzd7iXegS%2BFwTg%2B4b7ch1W36228jQN5ANKA2uqKZlqRZNogVfkPR%2FCQgovmZtjnxhMnvV1JY%2B%2FmJghu7Wy4MPHDCwQj6IuXPyaqhUy75lAyHUW%2F2JS%2FpsNWrvBrQd6jm94QP1Wg9dUMe0L6kpRv34%2BxmzNC%2BYZ5XLGc3QswnfSQD726BBnnZT6xjp%2F%2BWcX0lZgfzn55KtGaKTE%3D%7Ctkp%3ABFBM0u3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940053486332"
+  },
+  {
+   "title": "Nintendo Wii RVL-001 White Console, GameCube Compatible, Cables & Sensor Bar",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920086093914?_skw=Nintendo+Wii+console+white&itmmeta=01M6C4RYTYKH9Q8NR5686Q5W2P&hash=itemd63967a05a%3Ag%3ASQgAAeSwpdZq4-BO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ZX7KlcT%2BJsQ%2FIKqyWBXd930iuEduTnxxbWeYQGNzpvU69UPBLiPgl16v9vdGRpPK6GtAdKnn10Fkhc0t5Rztdm%2BfSJW%2B0WWfkTOfmQS296UX3lzLqlqhtKRtevZtVkRtjxDKLYkyUWFoGMKUfC0gBa4XAJjp9vXip%2FORRb3JujGa76i8i42ItNMMxssJORac6gZPMkfsAVLmXs0YC9jvy6x%2FrRrWbz7n5SOsi6s2zSrj531TDjUGGqYbLE9QZqo28CiNIadIARGAzVpNOvbG6TuJBG2dV9LcD%2BJVd%2FsklxcF9tk2uWaF8jM4%2FSnJpGfg%3D%7Ctkp%3ABFBM0u3jhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920086093914"
+  }
+ ]
+}

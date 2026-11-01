@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Sony PlayStation Analog controller",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 3200,
+ "organic_results": [
+  {
+   "title": "PlayStation2 Dual Shock 2 Analog Controller White. Sony. PS2. READ",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168810120455?_skw=Sony+PlayStation+Analog+controller&epid=1924551036&itmmeta=01M6C4SB1T5J0DC9Y6RMNZR1R4&hash=item274dde0507%3Ag%3Aft0AAeSwDptq2kcn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BzjjMmakdSJsckT%2FTcujlnssmomBAEU%2F1c7osrfNlAGa9Tupt54VC%2FMBHpmiR3VcJBku%2FBBbNX80jMIAWne6cNFU1CZ0V29smPSHENVTjXElxSH4Iroto8eaZN%2BF1Rob3rFA3TsvMBrRif1likbS5A2kc7eSHpv%2Bvr92TESy3yyT7hR6HU2JDrFNF04yVWBM8%2BuEAyhrgqqolkb2tpG%2BTuLI7HU8J7GCrrRPmUF3OLlifk6209KfUC4BvWYZLE8TJfG6KkoLMofcy%2FjruFfjLJjOkGN0gWHl6a4OCt4Mb3S9nloAcH3YYZ75i7%2F8Nm4Xo%3D%7Ctkp%3ABk9SR46x5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168810120455"
+  },
+  {
+   "title": "Sony PlayStation 1 PS1 Analog Controller RARE SCPH-1180 TESTED WORKING",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128154317465?_skw=Sony+PlayStation+Analog+controller&epid=1801876441&itmmeta=01M6C4SB1TCAYQR838VMSD1KBD&hash=item1dd697b299%3Ag%3AkrQAAeSwOXZq3PzA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bx0QjFoAVet2UxlrBX7zrnn%2B51caYofw3cGvS9TtnH9W36St2b%2FQ%2FrJ%2Fgf0xcyRQSeIrCeKI5HWz5zLEJDxgl0RPgFPesHH8TOpZUuUMENLRIvEHQ%2B6OyUFHnnhJHrJ0%2FavMT7Brnk90Cr9OgdkOdhenLJg9MpmnMP%2Bjd%2BHYDGgkfg0q39C8PM22GSoj1rl1bD41oBaqPabW4sjlIB1Mx1th0cN48NyjYNgtJBdW09%2BytM5nPy%2F4Deb6rUcbBT6zSMGKvHAwWPoexUYnp9den1euIZBWsWzYZGPUktG02o7BSmWFpGrxPbJeLJ8B39drs%3D%7Ctkp%3ABFBMjrHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128154317465"
+  },
+  {
+   "title": "Nickelodeon Patrick Star Pink Wired Analog Controller for Sony PlayStation 2",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377522819250?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1TCMRAWECN1MHBRDP9&hash=item57e61d10b2%3Ag%3AN8UAAeSwxxxqtsjy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F5PwgmxJSWqH5EP6%2FI2lVFQAZknImh5gaqUFfcy79gmPqaZlliGq9U6Rt0pw6CO6QmboJXJi5cGC5LfGs8K5VD4Jmclvm7PT%2Bt64nrioXX5SrAJJAimZYzl032u4Yxs3CTGvUE6nbBXZraOd%2BOmdBb5m3goNdKLM%2FBFNa1i1kHjP3wesE7JMoWTXdmxYpbpdaIgXWgZKFyJ%2BvV%2FUNLDUg%2FFbBWb0GVkrJdkzSnjf6JLwbfnnChyFt075b%2Ba81DNeqwcJ%2F4jfz1AcLJN%2BbRc4Cp%2F6%2B4CBsDUKVjmrO4uY2wsNM%2FMWgk4tT%2BBjWTZfw6Tkw%3D%7Ctkp%3ABFBMkLHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377522819250"
+  },
+  {
+   "title": "Sony PlayStation White DualShock Controller In Box SCPH-1200 W Japan | US SELLER",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128092021926?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1TV1YAGSQP007N8WAR&hash=item1dd2e124a6%3Ag%3AM9EAAeSwquFqsUOg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B35PMe8t2bijbBwoD8A2s9ISkiKFGUUweA6tPX2Yw33%2BzUCbg%2BlKQwQH0piP%2FUk%2Bs2TRdtl9%2Fd137mAOtlz5cEMwuk0Fg2m2GybZtgW48BxCzWb41pc9qY2BwJjOxPlD4Vv9SU4ISOlIOwQbmgm8aSehSKgnBkHIGZBck45WbMqnvik0JngE2gjkwDLeMhRyrLqghGBFHm7ClAdZ92VsQ%2FeNs0P7HdQEw2fZKiNBDZtAheczBMc9qavIKs%2FFGgbLW5%2BmDokN52MqM%2FF1lkA9ajUxx%2FiNZTy2LWmFgnD09%2FwlBiX9EsExMoRT5L0Gy12PM%3D%7Ctkp%3ABFBMkLHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128092021926"
+  },
+  {
+   "title": "Sony PlayStation DualShock Controller SCPH-1200 Wired Analog Gray PS1/PS2",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800853887642?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1TNB7HSSYZWD72J42C&hash=itemba769c8a9a%3Ag%3AVWsAAeSwLipq5AFu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9MoqNlGWE7uOaWOhClih4t1bR9hsTvHV%2FNZxEHkkDrZhtC7ag6Cq3mMNX26iiignbI6fy7uC%2BY1KR%2FkTBJ%2FM3IhGBRwD%2F8ej2zevJI8%2Ff7hDdcgnTwAGmUJEUSnGoAjbt1%2BS8blzhOeKk28ToHeb4oRFxFbXoydVTQtUb74IzPMz3B8gT%2BO9PdViZxlZV%2FQpF4Ot2i1Qy%2BgriVVmY3tjn7NLKwCXIR9w84V%2BlEpv6CzC08%2FBNp82tehsKlLzaD7lDajfuGKYy--mIN8Xc%2FFpaXG3jRTDuhQJZ0OUp9C3GupQ3EWafXxur0cgzpR9mDp18%3D%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800853887642"
+  },
+  {
+   "title": "Sony PlayStation PS1 Dual Analog Controller - SCPH-1180 - Concave Sticks - CIB",
+   "price": {
+    "raw": "$139.99",
+    "extracted": 139.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880060409896?_skw=Sony+PlayStation+Analog+controller&epid=1801876441&itmmeta=01M6C4SB1VZ00D8YEAW66YFQQ3&hash=itemcce7b02828%3Ag%3ALdcAAeSw1vJq4rPb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BF2fAZU0LwtQ4DTuILVD0ejsb5D6QyP8Rjzpr0l3MdXr30VK9va0JhxXOIjA41R5cYwh4OeOym7yC%2FsAa8n9LulY3xr4nFR%2FzUJiMeuGCpTVgoqXWl877826RXBrfcC2NPogH7PKptgmd42BnjtLO6VTON6gHMOfNlDOABL3Cma8ughCdd1xrhKIumSCUy48giCVT%2B%2FcnTMEuvJsDYI5f7h1Oh%2FzexpI%2F7OZhWk2O5YS%2BxHPiJzOfVr4ER85sl4yRVQADaa2gQ9sb03kerqBZG%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880060409896"
+  },
+  {
+   "title": "Sony PlayStation PS1 Dual Analog Controller - SCPH-1180 - Concave Sticks Tested",
+   "price": {
+    "raw": "$59.95",
+    "extracted": 59.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147641871435?_skw=Sony+PlayStation+Analog+controller&epid=1801876441&itmmeta=01M6C4SB1VY4HBCB2H6DS37G38&hash=item2260242c4b%3Ag%3AOGsAAeSw1wtq1XX3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8CLGlNQ2lPonBQVtl85tNJVpL318SCYBMGBecMxgB1Ajn4P3tzDvU6ryvNnFW--eOIwSRI%2Bf%2FumCQ43mnwIjEcJpoz%2BK8vjyRCu5qgmO%2FpBSGE1PhZyXqHtfisSBGtVevpWsm0AOBZVkRpJymTfAIygAPKMqnWj19FLRmdSWX9pF34dXQBXjaLi32UvguslUGwZUEK%2Bv7UxemPewImnkhamtzstkWIBZQIAQja%2FxYqiTVNEGED8Mb4ueTKIFg9E%2F9yaLajaZ%2Bt72zsI3yiHAlt3GZTipK5WObTlkI0dTHrrH6QJkPZrzbRrU%2BXvq4lIUg%3D%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147641871435"
+  },
+  {
+   "title": "Sony PlayStation 1 One PS1 Gray DualShock Analog Controller SCPH-1200",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168787869110?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1VM3DBMJR3RCQ3NXS4&hash=item274c8a7db6%3Ag%3An5sAAeSw0odpDMD%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8atjmgZ9WenNvXXJMABUOHsXVacCtetYctFBPDJOSbaWKhMmZVANIwcBwpSwOCFKsZzoB9UShnjoGYdiMK4VYXBz%2BdfiiZfw2ZrajEYHKH7owI00SfHY32uvr6zBYHt0%2FDOnxAy5C9GSe%2BP2E4QdVmfU1Gcd9SVptHAcWfdPCuiSd8TjcLed1Lq9J%2Fb1uaXTpJTTi98Cd%2FP7%2FjQ2INeOwYHidcNPyqDbh8MqUjFvxwOiQNGc60F9fbc1C88AqEj3N9fuDwNDWQQWzlM9BtU9kuo7xMnuaBClCkXtFYaaw%2BXAgfx5nDpm%2FWNQKnNjeWSJk%3D%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168787869110"
+  },
+  {
+   "title": "SONY PLAYSTATION ANALOG CONTROLLER SCPH-1200 - PS1, Tested & Works",
+   "price": {
+    "raw": "$11.87",
+    "extracted": 11.87
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257753505877?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1V8WB1VEB4DJE2BNPK&hash=item3c034e6055%3Ag%3AO2cAAeSwwlhqrvey&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8jFAEpDh8s5AaLbG1UpOztB%2FGXz%2FEVDNjVXqvjxLKuSmLuxoCUFTl7RXMBgvpUTATinyyNxd4WVVDGEBZovkgcAX%2BjgFnDXQdit6i84NaSipgJxncTBkhfQramCJLL6MiW899q2OTBAPdkg63KNoIsDdx8Xyd0Gd73enMAvsjvwJfqj9asXstmkj9TJ2g%2Fkpdncq%2FOAiD%2B0zoPUCU6sjDfJi9nd857dW1o4XoCXOWNc%2B1Dt1XRV23xWz1xBppvRoxGslA3XUpRae3wKgM2xxBF%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257753505877"
+  },
+  {
+   "title": "Sony PlayStation Analog Controller SCPH-1200 Wired Black for PS1 PS2 6ft",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198720800485?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1V9G4XJE78K1YXP517&hash=item2e44aec6e5%3Ag%3A0NUAAeSwUdBq0nsK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde81qIIUYMdy7BEzsBad2LlQBenwJAD8A6rWBpoWrnXAVNsO%2FBXE2FLv1%2BE1EGwjZNWpNj%2BPxFNW94ml%2FXQjBBvCy9%2FsshCX8qbOcuXA4DvN56nVKC9dyRRl9qr7q7AIzFckNIQeIOb8ew5iWvfC7zn0wuARnnt2g%2BbRPtS6KDPuryFvw975LysGCtt8NDdYG7Z97%2FBtlPRt6L7kuIbt1iAVtAPYdxXFfCnMqryt0W6QqnOkXLuiGgHWje7RLOotq15Ptb2MbUk%2F5IgN%2BLEIX%2FR7LDsMlN8yigAisUTXM%2FACz8OGpXxGZK9cWskYSP5A68M%3D%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198720800485"
+  },
+  {
+   "title": "SONY Playstation Analog Controller",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820242367457?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1VAZ2VGQ3E4WGZAR7F&hash=itembefa4143e1%3Ag%3AnqMAAeSwfSxq0QbD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8OWDPndhMKcuQ9Z9LIw4W%2BhN%2Bfc4I%2FAILsDTAKcUYbWf9bKHyKb%2FriT4FISyV2IPJNUYecjB0C4P%2BYnf%2Fkkv6zVd4hnE27w1TNqagDpKwY6Tl2QnhlAw1Qd02s18q1ctNCQraKv9IUL6xw3jjQ9QEDz7cWW1L%2BOmPuPC3hh9ZIdx9JDzGgxfaZ8QCIJ2vJ6UuYqF0TTCckv2vyLSRK2iv1PWqGi%2F8MNNoaK5Wk%2Bu18CEzIqDFZ45ntcyqgE1IlFB76N%2Fs5%2BotPAVslgaaM%2F3H5APICPhleWDZZPgqgZR5JtUwr5eZfalnROdJpToo8IJ4%3D%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820242367457"
+  },
+  {
+   "title": "Lot of 2 Sony PlayStation 1 One PS1 Gray DualShock Analog Controller SCPH-110",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287692671817?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1VDKS2FDY0YJQW6NPE&hash=item42fbd1cb49%3Ag%3ANQ0AAeSwsjVq5OxS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8JS9zpnRbFs1Y%2BcjVWzlYw1CJ%2FQb0GuWZiVDHjNH3DZJSaiXTWzi7KVkqPrvS5WB93nJs9a04h%2Fjllg9Gxxfv6Kf6XECHYrinBGEw%2FfRQX9zI%2FyVycrT5KiXQyhhvGKntQ4bLPJ4eHzCVAOPXenBn74wOGSpFacBK7mAHjjEG%2Ba0GsUtiFYRlmp57JfDlX6dRD5WEOSw1%2FudJtTB7XgoW16%2B1BtGdNHqHcAuhb6uaFMeH3ZCzCAQhwCtwDF9pnnC7Lfed1dC4r%2FQdghNQzgVHm%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287692671817"
+  },
+  {
+   "title": "Sony PlayStation DualShock Analog Wired Controller Emerald Green Tested Working",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377582634164?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1V6XHP165HQQGPSNTX&hash=item57e9adc4b4%3Ag%3AZyQAAeSwbjBq1jq6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BYDsyu3u50W%2FQBcnhGDohZ0%2BdyEfCjkN7jsqA%2Ff5wKizvPyBTxBsgLAvS6pSOZmvP5%2Bnds9LobGRZ7%2F1d%2BMhxwPGttdCkClHxfvsm8HTvMmpe3P2UrUbQFuTTsBgqE%2FWVrwbNiWHa4P8j3IzZ1CfmZbBVHBPFcWB5zhrv8WzYOJqGO768ANH39Cwemo4NTzt6zFLh79AvUjo9%2B7%2BMybixyNiweHpuYb1YZe8r7pvn7Nog3vtJNGYdGDR74E4vuglBk%2BfN6v%2ByA2H6ITWaRUu%2BIwkZuJ45yZagvsJJI81qg%2FSNa%2BOnZaR6E40GWxoQwWUc%3D%7Ctkp%3ABFBMkLHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377582634164"
+  },
+  {
+   "title": "sony playstation analog controller scph-10010",
+   "price": {
+    "raw": "$12.95",
+    "extracted": 12.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336825391778?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1W1PXSZ2F6CY3AC4D8&hash=item4e6c5b9aa2%3Ag%3AqRAAAeSwJHBqwRLi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVnBc%2Fx3hGpNnXe4uPurUhyrL4fgSWuXJx%2FgYVbXJQu33VZmwv0wqFXiKAcZqfMklLN8XWMaizzxLAqvV9r1lzE%2BvsiZJEmbK7Uf0yPky3N2hoL9BSl6IeQcHW1j89FwFQkQtAdcukXkWUMua7Ymm3zgocTI4j%2FYnjsS3z30iNkwz%2F1YtUOCfVAzb--yv3FnzCJwVuv2M3NLoWB9zgdXILS7tVBYtUKrWLcCxDiUeoTD7IJmasQa5Ej8X%2FvT2DOLWPJtDfXiERzuuCP37jlTbQPTWCgZ15LeIzHJCbiX6DEEGddU3n7Q%2BXpXm8gcrZ91I%3D%7Ctkp%3ABFBMkLHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336825391778"
+  },
+  {
+   "title": "Sony PlayStation Dual Analog Controller SCPH-1180 (Concave L3 R3) *Tested* READ!",
+   "price": {
+    "raw": "$78.99",
+    "extracted": 78.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206539550687?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1WBB4VZWRS3X2CGVDR&hash=item3016b76fdf%3Ag%3AUU8AAeSwGGJqnWIk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde820N3h9fhy8D8c5GvOSwfwAJxi1yOuvgaspL63ZG51dmRtjC1qvUUFKXw9%2F10I1LDzynmci%2FVF7GvZJah%2BP0FCmEo4ryUcfMoff7d%2FEAryhOwjhDraY1ohkChwn3yClV3Mmde99rqeGL10SZj8jKTMC4FHKsR27QvUoJa%2FHdAxoyGWRvU0t0y9%2FYUrueI0HEMsEZxqdi9Jrsb6ZNp01v9pmKj5Etjw6dE%2BZ5Uk8gArAwksB7aQf2krSRxPQ%2F6Wo%2BU72TGCeobF%2FO5j5IDbdLjfGq2x8sPA8goPR%2F5nnWmf75UmVE7%2BqDbETlS1%2F4Uy3W8%3D%7Ctkp%3ABFBMkLHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206539550687"
+  },
+  {
+   "title": "Sony PlayStation 1 PS1 Analog Controller SCPH-1200 Gray Wired Original OEM",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287601882528?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1W70GGC41N2MF3KWJZ&hash=item42f66875a0%3Ag%3AjO0AAeSwbYhqspJR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde941tjM%2BFkdmE%2BRlNB2Yp4Dt8uNHPkzigrOn7f%2FvtkGjlyMvRZNpFXMn04TkFFAISOwfrLgDW2pxySY22U%2FOIlu374TXOVM6ZOhcRuv0vitkM2oCpfq8PuLSpWSy4SNuawhUHss70AtksSzU29653lGRrV940z4oZ7o3zSdiauPCgzVKfAQK4R%2BGrPdh4VEhnb2gENKCxSMXvILUjdhxK96A7VDa%2BFHMo917puKB6Vi6XVno4N63lwVqbtZ9PNDTg9FSKhmyLE7wGKOAT8gs1ONJ1LMWlSVIHmWkCzwfuw93B8YQi0S%2BCL9TTFxy82VE%2F0%3D%7Ctkp%3ABFBMkLHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287601882528"
+  },
+  {
+   "title": "Sony PlayStation Analog Controller SCPH-10010 for PS1 PS2 Tested",
+   "price": {
+    "raw": "$14.95",
+    "extracted": 14.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287690991547?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1WEHWE3PY56ZPY5K92&hash=item42fbb827bb%3Ag%3AvsgAAeSwKGJq4%7Enz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B6Plf1VURIbs402Q6BUlSisIAl9KAnJv6I%2BPskjC01AvVOFJlB00rDTbYE2J5LG2N9lF6soXvOY%2BM%2Fc0QnfZ5aDOsAaksvG3HVqjoOvnabVLafFOBzSeq8Hbi65RbJxfs4ZxQT36iznTrl9lfPQy9BKsXrepe19kuy4ts9hCd0gZO%2FjmcEjqRYngvA6qz7kwYkgxrhPF9TjpwbGoD5CdTYlQ6j5OwyT4BQGAlyCmk1vHk78X39%2B%2BO5EatCfrsz8EaX1WbC8dryVetLbNlTlq8H%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287690991547"
+  },
+  {
+   "title": "OEM Sony Playstation PS1 DualShock (SCPH-110) Analog Controller PS2 PSOne TESTED",
+   "price": {
+    "raw": "$14.95",
+    "extracted": 14.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287690989323?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1W73MB91N7M1PV9SGY&hash=item42fbb81f0b%3Ag%3A8IcAAeSwHTBq4%7Em2&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9SGIdTDrOBi1jCKC3J3lnsyvaT73JMlVUwdL7dinBPErcBPNavwN5M2Jv3qHQ5NPAjPCLQD3%2Be3QCf0QjNUkzxHX15i9ocB2iVuFMOqRbCyyfsrOwl8PPX8JRKOyx%2FLrlsN0sNireeMNNJr1BaW9ydw86WXNJZfIxvuJl%2FaWDwrgowaFdaovOpAwmtmm3%2BZD6R8iXi0Yf99k4JgVeCuqeU4%2F7mHvOrMnnfcwRpP26z4gjxec7ShrwmGbZBLxgBuD5nHsKaRYi%2FZilefAciFSgR%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287690989323"
+  },
+  {
+   "title": "Sony PS one Analog Wired Controller Gray for PlayStation 1 & PlayStation 2",
+   "price": {
+    "raw": "$9.50",
+    "extracted": 9.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168829231066?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1WMQ20M28NHBV2QHGN&hash=item274f019fda%3Ag%3AH6EAAeSwqGVq5k-F&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2FdlMc%2Bhd1Bt6o1e5%2BTlfnHqEdG0bjjztWZ%2BKcImJc%2FfQ40ax6nb6MX1CYgQTzPBIlgd%2BiisBCRTaLFfv2LabyHziaN1dzYoHSoetmgDlJlPjn3dCEpwofEyqRznPcXTmgMs2zHD3C4ZkU%2FUUgVJWVm%2BT6dJUMSKpZWRC51RHBWwvjYqLjC680IXs7rPIZsWDCS%2F12bX6NyziCV1%2FyZfamHwVnhzc4agcBZdqcOBttcT%2B2yL%2BaWtQx5DuvaIOLSmHUwVESgh9W2EZn0k8PMfyhcDerHOWKfEBAeeZZJ%2BsahRGhDYBRlLtX7IrWhGZuMLg%3D%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168829231066"
+  },
+  {
+   "title": "Sony Analog Controller SCPH-1200 Gray Wired for PlayStation 1 & 2 ONLY FOR PARTS",
+   "price": {
+    "raw": "$4.25",
+    "extracted": 4.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168775582932?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1WPYPANRJ23RRTAJRP&hash=item274bcf04d4%3Ag%3AhPIAAeSwPGFqx3YB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B9OfqAY6o53EzywarXVtz16Vu%2B3iZ2NDUVzLFQYyEI4phx003x2EtvhNxrxvMLbp9gSlJP5mkpzbrDJYZyAM0ocknQdhHqZsErtD2%2BBaVT9ZUQTFo%2FwJXjAg3Pfi%2FlvIqDC8Ho8tc9WY5KY6%2BFjnu4da1tG0485AbhXHL%2FKAKmT2kujN6637jJ90Kws4l1Z014jlXSn7pH5euxsTtWvbd3VUQjpio6pgsfwYjjgPuECCHxnTdlACrwNtZ8gYa2ouZLQe3hVHqlABvWfDTZHFus%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168775582932"
+  },
+  {
+   "title": "Sony PlayStation Analog Controller SCPH-10010 for PS1 PS2 Untested",
+   "price": {
+    "raw": "$16.00",
+    "extracted": 16.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318929800869?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1W3RDPPQKHM4EVDFRS&hash=item4a41b28ea5%3Ag%3AgNMAAeSwaENqsae0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FLa%2FnAL6%2BXrmyLIm67CpfWmqNBmCZVePaO1F7SmUOZmpp2W2eiVkGqfQ6uxq4a3X%2BQ1Dl1lJPBDH9aMELgOQ%2BQslsMziC9c1S4dWbNTbtyBhd8LW8kcmsoTj2f07d3HqZi4aIbotC54jI3A4iIK3Ywsexz4oH4mffGPvYNP8ST--DSbKlGyO7r%2BJT9wUa4vtpk%2B%2Bd78fPO9LDWIWP6kRMYWpiIWk0n6SrLBNHEfUbbQi19rHFTdUkL%2FtPHlITMDXCA%2Bqu7SSJGXb5yhuae4Ts0%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318929800869"
+  },
+  {
+   "title": "PlayStation2 Dual Shock 2 Analog Controller White. Sony. PS2. READ",
+   "price": {
+    "raw": "$18.99",
+    "extracted": 18.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168812588835?_skw=Sony+PlayStation+Analog+controller&epid=1924551036&itmmeta=01M6C4SB1WQDERZWP9R8BFQQ7Z&hash=item274e03af23%3Ag%3AIAMAAOSwK7pnVRgU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BDnzNPdPT61amCvU67uKu%2FxzaDs3vEnkCHm1aFDpkhqG28%2Fl9YBrdQwbpGZKaOR%2F5cma3Tn9tDRhKo0D%2BHCIBv8Jecj3y3biQC%2Fh3cXucKqVXyTyyozrQuRIC%2Fnw7hEuWkNsJxptj9O3JpaIX%2Beq3x%2FNMHylSEYgcBcsk6K7sbmcKvCyX%2F9B7a%2FXYccnyD5JlXiY8X1OZMjofkzcVX0Pbp6WsESay%2F4LO7zfO09e8OyxigAcvUXbx7o1sjnUjp82ePvEGq%2FI%2FXr6ghMktjLJ8h%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168812588835"
+  },
+  {
+   "title": "Intec Wireless Analog Controller Gamepad for Sony PlayStation 2 PS2, Black",
+   "price": {
+    "raw": "$11.00",
+    "extracted": 11.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960114554239?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1WKVR2S679ATBYF6CW&hash=itemdf8b49757f%3Ag%3A0i8AAeSwCSlq1QFE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FT3V0gcKSheb2ygIUQu4Odo%2BwXpTzfLyIDNR%2BDgapiIIVTf2KzMfbYdIncJvfXx9an4giVwYhhP%2F%2BfOZlQe7mTO3Ekfc3hr0ue5dhaO9n%2FtTgdfc1STovkij5QSL2mFhCe84XeOZ0pyFxZ4o3W9iC2GP%2Flae36nmAnsFzOFo80Ak0oZmU4CYh27FgoOq%2BKHPN0CV0HzzlZhV%2BMxjjh30DF9G6EuQwTcjtkMIi6MX%2FLuG3MH9gBsMBCUBW7xke32i7QVVEW9Qqi7yxtf7J%2FQGsHAiitXou0MPr%2BPCnLAm4oOxLKMCsiSCooD9ZSgYOv3BM%3D%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960114554239"
+  },
+  {
+   "title": "Sony Playstation 1 Analog Joystick Analog Controller SCPH-1110",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307166279327?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1XJN0M04EG92HTNK9P&hash=item478489769f%3Ag%3Axa0AAeSw6NFqnbcW&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Aa1BlayGiU%2BRndzzlguNZcRkZsAJ6H71OC2OZFjUMKCMtQPCvtT6B%2Foudq7dxKqOyCKpRhBA%2FDtAsfJzX217Xd0FAH2lHfr2H6QGW37xVqKy%2FAsQYCPlKRHGsKJaBLxIKQxzp2Ep5LyZHYzF7ckftpAe%2BlldgKtqUwvzM1NR7UZwpnprjwQ%2BaoLc1grbW760iV07C1I78bNMcQlJ33ALF4JK3Zuo8jLbqbjb5Zrzlo6qf%2BTGToVZ4ex7zvrFV0WsU2s12nHJuKQ7VzLnIFMbh%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307166279327"
+  },
+  {
+   "title": "Sony PlayStation Analog Controller SCPH-10010 for PS1 PS2 Untested",
+   "price": {
+    "raw": "$16.00",
+    "extracted": 16.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318901131587?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1XPRCK8A3YKHNFMGGM&hash=item4a3ffd1943%3Ag%3AnEsAAeSwMyBqsaqd&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BZemZC0MlDk9%2B3giK2NdPp0o9QAE4JlebOaXqJukklJF0mAIZIkM83YprNHT1msGfLE8G%2BaEDnlJ16pMa0%2BOSOp%2BUGFcAHqo7SrdCjG%2FIHNsH8lnAhbR9aAsEAsr3XqLBGBwwT1GDfHrugoM%2BVTJ5OAsph0qDS29L3Evu9kwy5SeM2VCuhL2XzKjHIkPLjS%2Bkus4%2BGK2SsRt5qXxpiLeg%2B39qVhYzjdTh6TEdIlxdHo%2FCOvo7%2B1ffM0AZXITnEOse76k3pCSit%2B9am28CssmVQ%7Ctkp%3ABk9SR5Cx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318901131587"
+  },
+  {
+   "title": "Sony PlayStation 2 Dual Shock Analog Controller - Black",
+   "price": {
+    "raw": "$18.99",
+    "extracted": 18.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840069426438?_skw=Sony+PlayStation+Analog+controller&epid=1004141565&itmmeta=01M6C4SB1XP59FT64BN07KENPN&hash=itemc3980a2d06%3Ag%3AOEEAAeSw9tNq4lnp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9iDrxj3DMQLF0qYYLgRq6VVo8SGIYBe6OSpcUOM6Ra410vcbOXBPxhABFqlW5Qg6D6kC5KkL6bU9%2BemWRwFjyIuoYLeNNoABpXqZ6RwR55KI4M3UC60vsfr19O9l07NvGbgYXtzERZM7PVDRoJfnwDOW4lGWS%2FdT%2FBlG8GJ9EMnYbmteB%2FoiwkFC2qsAjtzRzm9YvPpph9RVxsUKnJVNf%2BJ1%2Bf3Cj1NAgvHsjrGwzxLmXJsCAgbow3FQpPpfIrHcu3tc5RVKXLHgxwkpu7Xsk9uKG3A%2BfAqe1STsgaSSgF5bz0RCbdGxfHLz5joUFsGhQ%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840069426438"
+  },
+  {
+   "title": "Sony PlayStation Dual Analog Wired Controller Gray for PS1 PS2",
+   "price": {
+    "raw": "$10.50",
+    "extracted": 10.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366745587214?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1XZTM1HSZXQHG74TFP&hash=item5563bd8e0e%3Ag%3AlfMAAeSw1C1q1l5O&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Br0rYYl86163cmDnw4z2YNMn0hUf2KiPqM%2BAE4wng--wDbkAus7ylwXQUTjQo0KIkJDoJ9omkdn6dmFBJIudge4ZNIA%2FirRfsOsOpij8njDcqD%2FLgR310xLcyjW4%2F941UqLw427L1Kc5Vbib%2BKuG2Bzzsu2yzWThqPfvF2FEWET7weg8uWNmi%2B0IMcjePU4oacm7ToPSaUbJEd47OWgfdnUccH7pYtxtRSjk%2BABcdhBoa5bpTkDxbSLWFsFFN5fjPa%2FlwmE1--7BOT4h0z3LOP%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366745587214"
+  },
+  {
+   "title": "Sony PlayStation 1 PS1 OEM Clear Green DualShock Analog Controller SCPH-1200",
+   "price": {
+    "raw": "$24.95",
+    "extracted": 24.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940044035801?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1XQ3ZH6E4QBTAVRNZ6&hash=itemdadefda6d9%3Ag%3A-DQAAeSwoP9q3-Ul&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B5m%2F9IFyunyT7zh0rhfvJCDHxOx4l2Dj7dQXJ1fs16BSqI2RuJ9Aab7AtpSISQkhUfqGBBWf9ZP%2FP%2B3WVj0Ac9q%2BNi3Z7r0z%2Fs9rBT99nKgnJztmdAkAMxP956%2FmSl4xtZTXrnJecMXv7tfRFJnaJO8NTUwJJYQKxZlpQJCuo2huQTmjzrZ%2B%2FU1g3yhH0PoscdmYFpPPetIsJivzEqsRWUSeilRQWlIUYRtWz6q51CIYFng47SGVWff%2FchtJDlNjVsvDeGDqlP6b7%2FKSdkeZjsbubLPnaUPbKfKWY0OQ7fHQ4VEe3SEq7K7q5kt8Gv4oc%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940044035801"
+  },
+  {
+   "title": "DualShock Dual Anolog Controller Gray for PlayStation 1 & 2 In Great Condition",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820274697296?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1XJEGE7DH02PQ7QBHN&hash=itembefc2e9450%3Ag%3AIGUAAeSw8Glq3Vmo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8QHb9fdCxLoy2qvqF5EPb%2BOjNjQVSyzGhyOj670Hz1vM6dPff19R22FSm4weHN7yvoJunZ64gYkRqiPEAsO8iJhfKYIMS4TwBd51gbbYXnYfRdWYS%2FvXNVy22U1CsQwWLcU6Rb06zIhvYQNfG7KHCBYjrKe2FG8nv9Ax2OdAxyj2I8MGru0wWWzgSKK9xs%2BllGbjR3OkcQTfi7VwAMMGOuRHjx0rO%2BYb5cGd8MLUBG5M9uaBoFLV5lYhjuIOpHgaFj7noAZJRSCd97E%2BSl%2FW%2F3WHubtcQ3pVZiQviVE7202X9FMb9wTM4jKxR8zz5kU50%3D%7Ctkp%3ABFBMkrHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820274697296"
+  },
+  {
+   "title": "Sony DualShock Analog Controller SCPH-1200 Emerald Sealed PlayStation PS1 Japan",
+   "price": {
+    "raw": "$165.45",
+    "extracted": 165.45
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920062606825?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1XYJBA0E8FSF4Y63RG&hash=itemd638013de9%3Ag%3AbRAAAeSwr79q2XTp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B8%2F66toCLP68mYf8bKFkTCmOKvpjCGSVjJ7BHlPJxHcalVxilil6EYmk1Wi%2BvifYRCpryUyPrmYJj1HW1HuJtDYki27DEdoHtLvFnOLIuMQ7843NaQld9c14e53RSRsRn%2BCKugoiV6CK8%2BIpCw5lvo5oT77i1chd8L%2BDXf3CGKnYhpB%2B2atw7jO0qq%2FmvMnEMfdGCTGbGLmZXiDg869EHJI1BkUMtM4btQVVv6W5zm0RCfBqvQEnddTPUrLBhj%2BPiLGBA8hMUXblhgXEXPs159WVkXA0eOK70fidkDLpoR0m%2FYwXGQaIs6fU01MoRwzIE%3D%7Ctkp%3ABFBMkrHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920062606825"
+  },
+  {
+   "title": "Sony PlayStation 1 PS1 Dual Shock Analog Controller Clear SCPH-1200 - Tested",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128155763361?_skw=Sony+PlayStation+Analog+controller&epid=3004566407&itmmeta=01M6C4SB1X7PT45HE4S66MPKWP&hash=item1dd6adc2a1%3Ag%3AAq4AAeSwAndq3iVv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9cMNUuq%2Ftn3bebZD7C7%2FoDTKNysWmqqHjfUaK4QkQMvYO9oFkVVyCcyT3rax%2BKlTLLl3Neeyhk47qWr0PU%2BMjwm3UiejFm2vN4pCWe0zn6xOA6kei2Qyh6nylyyLH7wiykIlAK0iyAtHtbk3ruHnAZB3p83OoG%2B%2F6%2F023%2BdocPKtny1UMaDGi53FjGJ6ykdqxMUBb1RLTHWENcxr4TmLE6GBl2WimXLCtB5i8ooIe2gwtGpHpPIUUrAWUj0X%2FZ4fHo4Qqyy7Dg8qqq7vVGsiMw2EtuGwqgZhqG1%2F9DR2aMqR1U85edi2vCykHniubj%2BuU%3D%7Ctkp%3ABFBMkrHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128155763361"
+  },
+  {
+   "title": "Sony Playstation DualShock Analog Controller: Gray (SCPH-98050)",
+   "price": {
+    "raw": "$12.50",
+    "extracted": 12.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800821747772?_skw=Sony+PlayStation+Analog+controller&epid=10009500933&itmmeta=01M6C4SB1YKR775FV56TYC21AV&hash=itemba74b2203c%3Ag%3AJhEAAeSwg3Nq2OCt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8kVS2brYgcywcLox%2FhowV0FU%2FOC%2F3nVRmeszTtK%2FH6qR3BxTTkRHb5WpGccb8qUrxu%2FNLRAV8LkzDWjWw3gvnTOjiDeLeNfOB6MJlUznD4xKDw%2FI2o5LRvaNV1ik%2BQhkc3ZhTTWVx6yOk9uVrnc5ffxY8mMJQ6yoMnCL8tVhY2CgqHSo75SrwBlfTPNOtTeeW2Fhij08CU9wUSZ8PhZmjwValai5IAy8kobeMFIuluU1nbcLQIiiJTwWNPYL4Vnl%2FYMh7AlPz%2F6NdvPEolRvGh1NNO6BJ7nZeusmtvC3yW2RmOZEahH%2BGDypxpRMiHJPQ%3D%7Ctkp%3ABFBMkrHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800821747772"
+  },
+  {
+   "title": "Sony PlayStation DualShock Wired Analog Controller for PS2",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800845695288?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1YWGPMJ2NB2B6Q8HHY&hash=itemba761f8938%3Ag%3Az5gAAeSw3ftq4RoM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FqV9u21y5zt1O6amdGZ06LOkOo8PRxm4z2I0UTtBRoFxf8fA91695zI8ry0DV9BPBdvZYjWR%2FZywoqu9OKfUm64CPY4X9L5MCKMWwqh5ox8ZKlg67khFFiddmqu1kSdgFhmefqXSEkizA2KN%2BUlo6SDFAKDN9xSknpuiaJM7qhgM%2BsVREzc1f1uksaUrtzqiGU8TjtsJwz7al%2BSgPIjePEOmFS0wxtARabNGl%2Bb0%2FcuTF3q5YBBPrjZ5kYdlCeEeylwhM8QjTY8CZWpeOk%2Fv6IvJ31Csr8AL23rAoQ27XHPGwCuR1nanQdJp4WNDww3nA%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800845695288"
+  },
+  {
+   "title": "Sony Analog Wired Controller SCPH-1200 Gray for PlayStation 1 & 2",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840072416057?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1YGZKRM8JH9AZFKXTG&hash=itemc39837cb39%3Ag%3AC9QAAeSwYsZq45vj&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FytWmjgMh2IUaBK5RDr3zeObGfceqrSuq5Ikjzs4qKaG6gf%2FSofqsVf1HoCuDcuw5WCIn9Y3adtFVO8mUIVge2yzu9pbNmKnORLsrcqRNfvPAVWa0D00a2C2XGtGfNS1SL6zB1lu0%2FODBSX5zvyqJKTUK%2BH9e7j2bOqYnT%2BEtVJqNs7K%2FTKFR9h4KaAyHcWZzjPvVpWO%2FYDvLiG3QopgTF%2BfGfzH5Km479TDptTzQ0PyHXFea0bf%2F5YPOI4GcN8kljx5XfYvO12jeNcRrU2H2X%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840072416057"
+  },
+  {
+   "title": "OEM Sony PlayStation 2 Dual Shock 2 Analog Controller Black Tested Working",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257827160428?_skw=Sony+PlayStation+Analog+controller&epid=1004141565&itmmeta=01M6C4SB1YQYHJN892XRD5HZJW&hash=item3c07b2416c%3Ag%3AGgYAAeSwtBBq5jOr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9t%2FlBANRzMc%2FXVhQGmj2cMjxhfuqufUH04IcKo277SBptdjcluN82Hpvuh6PeWseAvTa264fb3TMaUVfgDVFpNXI6xjW0x5QFpK%2BPKLJecqjhzFmalE4w4idlA5lFOlIsQNRkPkt7SbieFqxHTG2W7eWEXX7dnWeNFZivAQ%2BG5oD4xK%2BgDe8D0D70B1aFheIMys5wu4lv16%2BA%2FcNi27Dd0BVyIUsCJ%2BHW8hzPI8hsDwFHSkrnIq1nDw1b%2FWieZShLHkvAEUM3C7feitQImeOH%2F66fTaPHx2%2BqCuSQlk1kPgS1S%2FtYWdO01UWOQMTT0m0I%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257827160428"
+  },
+  {
+   "title": "Sony Playstation DualShock Analog Controller: Gray",
+   "price": {
+    "raw": "$13.00",
+    "extracted": 13.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860089903827?_skw=Sony+PlayStation+Analog+controller&epid=10009500933&itmmeta=01M6C4SB1Y5Q9H82KA8EMT3N45&hash=itemc8415a6ad3%3Ag%3AqlYAAeSw8nNq4RFI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9vvGFz2cfnSpg9x2IxyWhhlz%2FDD44ND7hYwoUlVD8nLQAriNLx78ctBZ0I6kHMnUtDtioLn61eUBzcEXdCKsmV228i3OB75h9sUtEqnVvst3Wdry7tt1zP7wa442f81Cz6NHxTDMF%2BydilUfMQzLpiTACl0F%2BpmPsFxC6297kr53nzZL4Qw4cIVv6K9WT%2FIAlw1shOhKwTcxImkL5chQkHwUbxbSIFS2TYJLTkCslmuBoocO3FzupD9Jf8spfpJ8tNrueKWttoit%2Fg2Et3QuH9qrBnCs%2FR4eJsGuaNJg1EPOGwQ3QIH%2Fl21LYryhj%2F2U4%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860089903827"
+  },
+  {
+   "title": "Sony PlayStation 2 Dual Shock Analog Controller - Black",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407324657035?_skw=Sony+PlayStation+Analog+controller&epid=1004141565&itmmeta=01M6C4SB1YQAF5V9VN2W7REN04&hash=item5ed671058b%3Ag%3AnYkAAeSwsWpq3jNj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B2jpZcNb3uOikSr3ymqNWU8aoJbDq8I7j%2FkETRl%2Bo4QrHYXu9j8dfP%2FcggDloSwcxywPZp8ls8o7J%2BfdUSqWhC9UdrCyT3mcl6DKW05nMuF0Yxec6wKhM2XL9i2UQvXa%2FoNiWjj4%2Fy86r2y8tfgEpNIf4nE63Lr1xhohvenOBj4Umj8aLQ7NUz6a744%2Fzynt4JWtB2wOQMr8s4oYRgINYviZLCzQNh4Rzjvxj7yds6By6LbavjdNnSZEaRNzi1o5DLpj%2B7rkXORne7%2F1QDxEJVxZJ2IPcy6Hs87pf9N5b23%2FNNazPI%2FmT9m8EcxpgLe00%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407324657035"
+  },
+  {
+   "title": "Sony Playstation 2 Analog Controller SCPH-10010 Black",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117483563205?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1YCQX8S70SYFH51YEQ&hash=item1b5a90e8c5%3Ag%3AtfIAAeSwe41qY9xk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde94h5N6G%2FCJbiH%2BpzXG1oFFIr2pfQUXpI%2FO0aLtIucbShlq0dBBoKv31dpuqJDVpWcxNY2Zg2nxzDGQJibo50dI5Us5e7uBTIaCEd6qCXvT3cEXdjWGyWtnztR0xL7kSHybUxk0S2LNatTERGJtuBbB3SBjCHJyGjTAD72Y85LhK%2B9aYWJ3kq%2Fs3WSNh8e3NBEwLDTzY9MRZYfFMiwsZKli777Hi%2FPvcDQgEupYJ%2BiF8YjTsStVCNZDOfUSS54xiiz8kjwJi6IhTNM7VxgwOA%2F8%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117483563205"
+  },
+  {
+   "title": "Sony, PlayStation Analog Controller, SGPH-1200, Good Condition, Putty Color",
+   "price": {
+    "raw": "$28.99",
+    "extracted": 28.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267570789093?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1Y9FCWR1M6FTSDJ9KH&hash=item3e4c763ae5%3Ag%3AxR8AAeSw7clpiKu4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8cdM7ADMxRogOQPMaPdh3A90mnC2NIBKbes%2BPi0KOqoHQL150ztkp7zZr5TGmayaurqhb4K6EL1Fi0aVhLyVUcGDheiuS%2B8XQBC1K42kQka9M9nquOFYE5Er20b8OVAKCiEcXrREhe%2FsqqTmDoOkT0DPPvQrU6UY5pmz%2FZoebeNg3egab0F0OGE5GG0MnUIohe5z%2FhexiDvcb6zdSyu1rrPGVbbKaZNbfAQcZ%2B7tnwtOnfEecB7ojU6qp%2BqAyXaLjfGVpFQV4cdabIxp7yaCwdYHNqsbHG%2FU91lW3sbrHAcX0i6%2FlYpKZUpjSpI31orUc%3D%7Ctkp%3ABFBMkrHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267570789093"
+  },
+  {
+   "title": "CECHZC2HA1 Sony PlayStation 3 Wireless Game Controller Black Dual Analog Sticks",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366775475826?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1YK7FAE01553CZTQPY&hash=item5565859e72%3Ag%3A1tsAAeSw919q5veS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B5urL%2BOdlhZwh%2Bym5eAGoBHFTse1pDjuKSIfhTLH7z7Ggj%2FUkNXrqb%2BLolXKR%2FdqfQlFXVDIVx5cCPsNfSP2AEpuF0h%2FzrYgValk2qDEmAMKJ5cfwcSM9jKt4DQgIncY6EemGJfd7U8J8H04TsYoDjCBoizP04nFOQnsg7F0R8b4s%2FzJ1Ac6%2FRXoEjTKVz6WxIinM4IOltNf4n8W9599yK4F%2BIFih0fZtk0H1CkUOGJ4xJxiOZ2IY%2F68QJH1SRMZAKg0IKryrCuB4DGMGsfru8in%2F3IToBTZSzo6zzEVRlLF4gkeT6s1uq43YbPK27xII%3D%7Ctkp%3ABFBMkrHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366775475826"
+  },
+  {
+   "title": "Vintage PS1 Sony PlayStation Analog Controller N1158 OEM Black",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820207967249?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1ZF1302REHJQXTV32Q&hash=itembef8345c11%3Ag%3ATZgAAOSwmZ5nddLO&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde98ucAMRAcsAbfOxBA5aH%2FcTgITz64MQ4%2FuC%2BlsJ6URzNd4qfm1%2FeyapODMrLi3YqMrVWk%2BMsRSsYGY5kmRlfFnMKTXhD7ndIHq45F6OyV9s2o5Nhb1w8ofLjK8FEPFHgIlbqgztzF1VNoZuVDb7EiJIxa%2BTXQbqYEw0cUMEz5lxZVCjNbTnKLW9n%2BhiqxV22%2BTEfqr2w4HOZ7HY7AZpYSDWZk54oZseRycW2e7bRwyuCW2CJo4RVDgBeyimHMg%2FMKMeGQWRQrqGAyAYl%2FVLMr7%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820207967249"
+  },
+  {
+   "title": "Sony DualShock Wired Analog Controller Blue for PlayStation 1 & 2",
+   "price": {
+    "raw": "$16.00",
+    "extracted": 16.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257824279119?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1Z0YN4CPWWY06Y9EM6&hash=item3c07864a4f%3Ag%3AHjwAAeSwULNq48Pk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BugMIm%2B864%2BI503nn08%2BuhQIfUq2RubHYKpT78ycPY9JdgosJhrShizlxMjx6CyDXVgI6Ir9JzaATEdOFIx%2FriBYanmdAwwxTSXBF%2FUYyKrEx21aRew5L9fS8vSWUh%2FUzsB0RAT%2BeGaxkndiES9TEafHPlePb1wl18qdhSMCRpTv9%2BYHM74jdlBN54MnROJ7oNDuEJl0XrAbX%2FrVTdkPY7bbjWp7JSsVFXwZ13Zcyr%2F0DSNfnP7zn0FCOdTlZb8GO42wjlTMWVOHJUAzTJyEGP%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257824279119"
+  },
+  {
+   "title": "Official Sony PlayStation Rare PS1 Dual Analog Controller SCPH-1150 Japan Made",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128092274133?_skw=Sony+PlayStation+Analog+controller&epid=943891451&itmmeta=01M6C4SB1ZKE5JEWH1FQTQQDJH&hash=item1dd2e4fdd5%3Ag%3A%7Eo0AAeSwZFZqshV8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Qz0WralqgcDNyjZMXppFdAT5RuY2DwG5%2B4pr3ml5CQ0NxjjpKDao0RnSu0u%2F3NC06I86zjNrW9cFS5es%2Fvoo0d8TZbt8N%2F5Z3Z%2BNYXDztlT2nXn7YdTcIWTvN87WlHjsBAHCJtbD8srexIgUy9hVph%2B4tJEC9xF8lCf5Jl4C0r9ahY1RgsN960DFvd7HV9FBwCpXmmCauUQZP5RXbdZnxx2FpWrYI4euxHYfapOFdTqkYBG3Ko2s3Hi2bRypkSGotNqwtjLUFRRr8ZePtQRzU%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128092274133"
+  },
+  {
+   "title": "Sony Playstation 2 Analog Controller SCPH-10010 Black",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840076091962?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1Z53PFHZWR48E0BCDZ&hash=itemc3986fe23a%3Ag%3ArLwAAeSwqNNq5P8f&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BhYjILRk24PO8dIGdlodmAKEGVM2KKyIWQ5g7YY0uZX8%2FpsPp9Jrr7LTL9xDWOA39In0gcfsehM%2BrAqvmXqfXUiWdcKGjMLgDq%2BK%2F%2BaoSXxYLbws1t%2FFeFjhORS5JBKJ%2BXJmO2dECCLb6UsKEyeWah73%2BagYO3yGKRgq7tUKkCJSTu1to3BLlcv98VKm0%2BRiAAi%2BHUbBcb4LMBQRbVG1vHx%2Foplz5U%2BjHNoPWyub01Fg7oSSAfMdnSAZcrWxsMyoVABFKU9nefPCtTrlYkM%2BJfAMzEtTcZaT5YBZGB5quRIDht0HHiwMjsHsXq3gHtv%2FU%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840076091962"
+  },
+  {
+   "title": "Sony PlayStation 1 One PS1 Gray DualShock Analog Controller SCPH-1200",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198678715058?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB1ZBMJG6JQDRK4GSGA0&hash=item2e422c9ab2%3Ag%3AM%7EUAAeSw-ftqvX8R&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde92tTpcK%2FuRO%2F4O3lca3ERMZbXFhoCYZotUymSDN4N%2FOvCiN%2BhNrAebnDXDuEyHpG%2FkJwVithOQv0jpCLaZjItQU1vH9Wf%2FkrojgqWTgT8cW522oS9yYOH6x0IdGGy%2FiJWpzLeW%2F94el%2Fum3ONtcKrWkfFsIELEoBOf%2BZAQtJEsxOKMvS%2F8ddOszNLEGYuW1AjiLZbLExEaHM0uz64ppspA4xd2t8Naw5E%2FvBHkb68w%2BkAdASX2h9oT5bG3ohE4FMzzfhG6E86r7uWDJlznji1M%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198678715058"
+  },
+  {
+   "title": "Sony PlayStation PS1 Dual Analog Controller - SCPH-1180 Concave Sticks *TESTED*",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137882667202?_skw=Sony+PlayStation+Analog+controller&epid=1801876441&itmmeta=01M6C4SB1ZB0DJ4B2NVBFWDG5R&hash=item201a7288c2%3Ag%3A9VsAAeSwSqhq4lKS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8c02Gh433WAS7X5hJE%2FVdq4p9i18v%2F9JCbWsJF6jgXlRI6CWbsEtGosa10a2Mzyre%2FPyKBoMiBgqf2d5n3LRFaHLusKW3mLU%2BckI%2Fx8IT8CoAqT3CLIeLrs0taKBygU9ANsPQrq1tzbfV1OqMB5O5KzCoEOPZfp%2BOjjcu7r%2F3EX%2F7TYIaKIcgI46AQXiZtw0j3bzSpu%2FaVWnaZt%2BAXjTC7cvGR3O5C4oQYhaAnn2ejVA9Tw6TsfZccaQg3ubdfTSfMmTEkg%2Bz1AcbFIOxer%2BZt%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137882667202"
+  },
+  {
+   "title": "Sony PlayStation 2 DualShock Analog Controller Black",
+   "price": {
+    "raw": "$12.75",
+    "extracted": 12.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407314436618?_skw=Sony+PlayStation+Analog+controller&epid=1004141565&itmmeta=01M6C4SB1Z9TZY9FM95R0CBQ5R&hash=item5ed5d5120a%3Ag%3Ak4wAAeSwoi5qZChI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B74kCOV8MmEahK4DziA11zQMqfSqAz5mNpqa4nn72XmcKgc2esrrKk4D1RFXlUmYNac6ejYTF%2FXzsNdhwg832ivvf%2BAcoZRzAhgV1lb%2BgVQV6YEhhb2QNxw%2F3erbSamnTNXgnaBkuNHPbeoBA%2FR67HZI8OYXAuYoPaao0cfBehrRinDynQVKu0TQ4Zh8Om62HXlA9bC9Q9to%2BsiTOIEXDAmeB%2FIJQRne5jhPJdNmepy1hrACJqK%2BI3MpguYj5Q00eYIigcMxJW%2FNrzAKMHlloy%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407314436618"
+  },
+  {
+   "title": "Sony PlayStation DualShock 2 Wired Analog Controller Silver & Memory Card",
+   "price": {
+    "raw": "$27.99",
+    "extracted": 27.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407325845918?_skw=Sony+PlayStation+Analog+controller&epid=1004141565&itmmeta=01M6C4SB1Z0K7W7A65NC2H9V6D&hash=item5ed683299e%3Ag%3A3m8AAeSwRb5q4%7Ebc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde80A1RBBM7C%2FnBWeOzTaY1q5GUDKzP8eVKZDpnt42SXCkvBO86CDp5%2FFr8X8WXOJ4PN6Sf7DQP28E%2BSSFYMrczWs%2BXTudajqhcGNYsh9Dp%2Fc%2FkLv1isHcFYrktF7UV4UbqTiQCBvisgE01uekMkgEstNOd%2BH6WRrIzWQOjEBlF9IqzMACEvmyW1rVgauQV6iQ6FfId3LRsaaMoyk7pVmT7UMlOijvEGtb9EQZtQdUXZZixc%2F2YSe6kPO4qYn4YWHUFACZLIKdcNE0nm1WEvOkEFOhFqG1EzlOU1A7ZUZ9TMDXjfzazewky2ZqIM8OQ7W6M%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407325845918"
+  },
+  {
+   "title": "Sony PlayStation PS1 Analog Flight Dual joystick SCPH-1110 Working Used",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407245761546?_skw=Sony+PlayStation+Analog+controller&epid=1801467367&itmmeta=01M6C4SB1Z7J1Q23ADQGFTCMJQ&hash=item5ed1bd2c0a%3Ag%3AqoUAAeSwnTpqtuzC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9gmfoTTwkJs5fp0CrulZqu7rV31Z9Jis0l4uVU5zaJuKwDW5vumUsLPbrkHz32POu48cbHQR1JRi5ahmtmbzHrJ94fXOkTeFLwjd%2BAKwMF908%2BPOXBn3LCLKU%2Bb5saU78hYxEERm8%2BGSGfHhPvRM4LIi1WUR0T8L7T5otTrtS0eOvbM6dmRoq3CbH8%2Bn%2BIgowCxTYJAqMiUYcUkULLmU4j4FUIYF4KZUl6n7ubCXNBnYK7NYURl0xz%2BJrdJUjV0dBK78lewGTFxtNeEUHUb18x%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407245761546"
+  },
+  {
+   "title": "Sony PS1 Red Wired Analog Controller PS One OEM SCPH-110 Official PlayStation 1",
+   "price": {
+    "raw": "$23.00",
+    "extracted": 23.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336840343084?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB2087TAR41RRCHKEVCG&hash=item4e6d3fbe2c%3Ag%3AphAAAeSw3NFqzCei&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BSDYxiIyFFg4zhUlve%2BN1mUZeKvquoNWUeMRuUwPOEYB3vrRO4D9PA2NcTcIfOB9TlZLkbOt2v9hSNmJygeedt5nA9EeX4M%2B4tZQ3DjU5hdYAc7w%2BJUPN5Z4BFN7TTvS9DcNlUnKURQRDXf8gT7bWkAJVeZtsN4sCLTCBzV19dhS58JwsTujFKaIce6cMgUSUfS5XXynOlPoFNIggGTDutt4M9S802R5xzSW24gY6Tq1UqXTEYb8TzV6pGQvx%2FDRr4Z67NnbKAlcNdO8wzJx3m1UFWNDr4CnYVfNfow4BRlJybP3Uesn69uMjN2u3GJeA%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336840343084"
+  },
+  {
+   "title": "Sony PlayStation DualShock Wired Analog Controller for PS1 PS2",
+   "price": {
+    "raw": "$9.99",
+    "extracted": 9.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800845694283?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB20XHPVR9QW2VMQBGHP&hash=itemba761f854b%3Ag%3AavkAAeSwiGdq4Rml&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8SwZvOrLXxCusBIvuEE17hXz4xh%2BFI39ejxqaUS39bp1JqN%2FZXS8pk6VIl0S0q7RKB6OIwQ0iMyLGZ63D7RuSm66s9cFBuNBN3H0eU%2F3GuC3kDkIx6Mxh8ciwz9d93%2BqzA%2BVMc09dGzkHJZdqMrLozWQbI%2F2Byr1SgbFH2saP9OsNO0kkAgtcxmhfcuuvqRXJhFa2zsPgX7tH3W9%2B7mrVfCVQxccb2PPL12wnz3gBKgGat9GQcrdTDAtmd4UTkPA0YAnTB9nc35kMRQkphnlZAlcc8%2FvOqV%2BrHh2q3oGiolCdSEY2rzCDYwYlNW3b%2BdMk%3D%7Ctkp%3ABk9SR5Kx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800845694283"
+  },
+  {
+   "title": "Sony Playstation 2 Analog Controller SCPH-10010 Black",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/236971300319?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB20EQ8XKZHBWRS5TN2P&hash=item372c9715df%3Ag%3A1ewAAeSw6JVqaN6j&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2BcmSOKOCih7IsvLt0YV%2B6lfToH11KDtXsWiEhrL75hOzgsiekYRbzcJpRRkrw2OemDn4OkLFeQzk7KT89zOGGedbifWDrB46xu5jTTslk3sLMbud0PX9GfBacIRXbRMAaNzPzYrEq3g3R3dadP4Z6Rmhw5HFzGcrAz3OtmBPxJT68klqUb5pTDmsWkYZFRGFrJOKhT9dTMXbqn4bzYdxvTF7sogqINjHC6p97fOub7o%2FAYYWrTsQMUAviAOfkjWOAM%2FJaQdsA%2BuZIIyP%2FVf2TJNgEeHPXmR3bs6XuGt3jLi0%2FU%2F9ak%2FzaLq6HWoJydT0%3D%7Ctkp%3ABk9SR5Sx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "236971300319"
+  },
+  {
+   "title": "Sony Ps1 Controller Emerald Green",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/189054132734?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB20MS2G5N88XR1NJCBC&hash=item2c048121fe%3Ag%3APu8AAeSwzF9qxdN2&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde82G7lS%2B4UlCSR8EVlkjqNx2uKXJOIsegqpk5x%2BmBeVG9fRMoI4ohS37n4vZvm4UMGGu9eKrtXQKAZZCzfzvl82vYSa1S78IBPJ6dxT9Pnbc4tQlFjXabiySsQQhkUKlyFHVAtnmDm6VpkD8d%2FNGH8BiTdFpE9Gdsc2oi6AzMXwPapraoqMsMlGuAqllwt7OWcfDPf1%2FwLXG5pp0M7PLiNS%2BzAvgQrvd3C8qPS0MAz8T6%2BGxul%2FS4KYNWPHECE5%2BUTE%2FZWyXHFdyyUtwQ2Qxb61%7Ctkp%3ABk9SR5Sx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "189054132734"
+  },
+  {
+   "title": "Sony PlayStation 1 PS1 Gray Dualshock Analog Controller SCPH-1200 Tested Wired",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128137477298?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB200ETGN6WBEJA8XCRD&hash=item1dd596bcb2%3Ag%3AZLUAAeSwCapq0TPP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fj%2FLdC6UgfMfmnnvEkJbr5dq9s2QKFNPAai2sh7rvRHjERrx1lNP6xNo7K9t7VPxjc3FVRnOvHzWxlLs6Ttpt26tcSgaJSlPWI3%2B4r2yZgbtY0UNXe14XC1coJXUlLFR3gQKHEVGQSpXvkI%2B6T3kFVoPiqpYZ7Zyq9IvMjJLsnGLnVh0KVQZZni9HEhtTQvSgBRvAoL1tiQSKO%2FA2kI63ScHBjd8mA%2BWoSB31lUPkZpPPNFY%2BTYrcaK%2B6hSw%2B6Af89hOSeJFu%2BTN1sbyvw0UEv%7Ctkp%3ABk9SR5Sx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128137477298"
+  },
+  {
+   "title": "Sony PlayStation Analog Controller SCPH-1200 Wired Gray for PS1/PS2 Tested Works",
+   "price": {
+    "raw": "$14.98",
+    "extracted": 14.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137838821002?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB20589K4R1MWTM4XV5B&hash=item2017d57e8a%3Ag%3A53MAAeSwhFtqzWmp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde85YIyhKgjav343%2BUaOV577fR0SWMV4m3zJr804ip8nlWZ%2F6I327mVmR0QqcFO9lJOeWtob6TXS%2Fx%2FiarkdepFLlZ7aBSOZo2ne%2Ba4jiOE4aO%2FeSjPBUThF2H1xtjsFserFVcOFdY%2FJlRA2g7pwv01KwErPadOyFnKd8vuWWGayKVp%2BeGk0gaqSqjkUfuX51PVub%2F5CNzzjw9OjQ84IFfGt37hobU4Uu%2BCVvP9kU9toQNmNCnmh5WVToII%2BR3jTkgoQ5RCfRz8wbUlzcVGup%2BbEIsPfhnLUVK484rw%2BMDltM5V3WnEdroIAA5wp%2Fae5VXw%3D%7Ctkp%3ABk9SR5Sx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137838821002"
+  },
+  {
+   "title": "Sony PlayStation 1 PS1 Gray Dualshock Analog Controller SCPH-1200 Tested Wired",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336840333977?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB206RH3FQ9CZK46WSBY&hash=item4e6d3f9a99%3Ag%3AIFkAAeSwoC1qzCUn&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9O6HGXDYytD7Tp3bMPxkuQ1uUl4iPD9q%2BLR0I5bcOrQkNPZpPKPDHQmE3QAQ1iScSnsei9qgncgcTjbmhQau5qFbK3MROsdduVrzRPON%2FXMdOO9v9N5%2B79OZ8iapP67M%2Buu15q7YW%2BUnnTTV4Oq9nRZnUtIFDOlLcnKNHcw1HbCAlOHOJoDCXQdbu2C09%2F4RFCCZclln2EWTpQIW32ILdJbdShDrQVSh57Eu78RROwKxH%2BSCX5nSvmawzqKQrHagGsM4etGT1V8iU9MEDIhqD4%7Ctkp%3ABk9SR5Sx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336840333977"
+  },
+  {
+   "title": "Sony Analog Controller SCPH-10010 Blue Wired 6ft for PlayStation 1 & 2",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407318434634?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB206MJTBHNS1VZ4SQCC&hash=item5ed612134a%3Ag%3AEIAAAeSw6glq387O&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9xAw7oBh%2FlAVU4YQ5adfAyYXYNNoFDaWHpPriF5t2aYGZTN1pf4sWEgYULLTGg8b1GsN%2FXPKTmT3QTHpiyMfFJUjKqhCA5lYUgnZaiwmP6nniT7rS1Fy46HEjSTFbgimsvQu3hfFQhrtTo%2Fr7r6aLdVh%2BBSfb5FBNuKNva8KODBBPIa5n8p0ZI5yIwjMyw3dupJWB22tQfOARCdEGKiVi8UBlOVy2kVv0Px4NVB4HAVUXxcJoj%2F9NKgMC30EBCpjt7oBt%2BLU3dhSZStVQyVhIRqXNbQcYQwqzh4ECqEROoh7t2YfYuSnO4u9mbauGY2Ao%3D%7Ctkp%3ABk9SR5Sx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407318434634"
+  },
+  {
+   "title": "SONY PLAYSTATION ANALOG CONTROLLER N1158,SCH 1200 TESTED WORKING",
+   "price": {
+    "raw": "$17.95",
+    "extracted": 17.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377586522317?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB20Y01X9WPH15W534GK&hash=item57e9e918cd%3Ag%3ANNwAAOSwN2BjUjqR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FiKRBmV4mvt77OWPPiGgjP37XOO3CA9o8cFwHeQDxEiscuUS6wYSPOa0Tvt0LmJ7sfbPa1gTCPQwVduFQos6144JKC6kZ0RKDcmrhygdnBB9icvONxIQP%2FjcojmcVFAKO%2FF1wii17X0bQ9AAatXiF085uWyg7379WlME1XvgNVe%2B50zs9sChEAgV0JiXagOtD3l6xwCEfHXOiSZOKa3IdVYW5ngBfEFt%2FKTbXTbtHIiVXE3zuJobKBn1WlojygyXPZZKVoqdAy7aAubZD5vbA7%7Ctkp%3ABk9SR5Sx5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377586522317"
+  },
+  {
+   "title": "FUJIWORK ANALOG RENSYA PAD Sony Playstation 1 PS1/PS2 Controller TESTED Grade A",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900052167637?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB20R0MFQ0T3CN6F757Z&hash=itemd18f4a2bd5%3Ag%3A%7EQYAAeSwULNq5NSC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BGTalBI6le89Wh1N6Ku%2FtL2LIaVSRIvvmEGANXa%2BxWiJvveN20fE9qRXKCgLXDKR96ZMUyWnjuOgLUKWGltRVogY5QLGq72XRvosv4%2FDDDFDeTGqSo1CnkxVEQS70LUkB2HDGJcZ94ZvsTrSOpbasnwKZ4GlEAzUldhcUK6wvSTQnfCg5HpDZ60veubOhqT2UNNt2YxTu4n87bHr1At3Nw7FzdhBfTXx11Ce9ti907r%2BQL5xZvUg5siN%2FjweEae3wJRGjdMfkqWSCp9Q8zqqTtaKtfinbD64sixUUIsoBL1aVvYH2OfrHpZ91jQjHVnEA%3D%7Ctkp%3ABFBMlLHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900052167637"
+  },
+  {
+   "title": "2 PlayStation Analog Controllers - SPCH 110",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227471847565?_skw=Sony+PlayStation+Analog+controller&itmmeta=01M6C4SB216SX2NGRVRRM77HBY&hash=item34f660f08d%3Ag%3AalkAAeSwls1qe17g&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BN7P0i9gUFW7bY3lRI5ZOHdwaDIR8AiZLSFL2Sxwr6CgWB5BQZQIjnAI%2F9MT%2BoLOvkKu0USgDjqiFm3gmObXRdIPKyILtUHQXdQyj7K2RTDja9bH8quZSNNvP7%2Fx3uTyYj0uer48dyuILP9CjC3X2gtksZV6cuRPYrN%2Fn080NVcSiUi%2Fx3mdsUxUOMdWmEBJywrNwWRjPMoVH073OOPgmduI%2FYulJRXpZOAz5JV3yu9W%2FAEgInqXihSKYqSJRrN2pcRoypXJW%2FHFD%2BsUK%2BU9Nydtu6ZwRXeIH37HUKu%2F3TrPPDwCLsyBsK9nTwtMGps9A%3D%7Ctkp%3ABFBMlLHlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227471847565"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "game console",
+    "visible_text": "SUPER NINTENDO",
+    "search_query": "Super Nintendo game console",
+    "model_confidence": "high",
+    "color": "grey",
+    "material": "plastic",
+    "exact_model": "Super Nintendo",
+    "platform": "Super Nintendo"
+  }
+}

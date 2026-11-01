@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "game console",
+    "visible_text": "NINTENDO GAMECUBE",
+    "search_query": "Nintendo GameCube console controller purple",
+    "model_confidence": "high",
+    "color": "purple",
+    "material": "plastic",
+    "exact_model": "GameCube",
+    "platform": "Nintendo GameCube"
+  }
+}

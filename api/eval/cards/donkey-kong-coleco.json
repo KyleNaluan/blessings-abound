@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Colecovision",
+    "product": "video game cartridge",
+    "visible_text": "CBS COLECO VISION DONKEY KONG Nintendo FOR USE ON PAL TV SYSTEM CBS ELECTRONICS CC241101",
+    "search_query": "Colecovision Donkey Kong cartridge",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Donkey Kong",
+    "platform": "Colecovision"
+  }
+}
