@@ -1,20 +1,38 @@
 """The photo-to-decision path through the API, run against real Postgres."""
 
-from collections.abc import Iterator
+import base64
+import io
+import json
+from collections.abc import Callable, Iterator
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 from uuid import UUID, uuid4
 
+import httpx2
 import pytest
 from fastapi.testclient import TestClient
+from PIL import Image
 from sqlmodel import Session, select
 
-from app.appraisal import get_photo_storage
+from app.ai import Message
+from app.appraisal import get_photo_storage, get_vision_providers
 from app.auth import AuthUnavailableError, get_token_verifier
 from app.db import get_session
 from app.main import app
-from app.models import Appraisal, Decision, Item, ItemStatus, Profile, Role
+from app.models import (
+    Appraisal,
+    Category,
+    Condition,
+    Confidence,
+    Decision,
+    Item,
+    ItemCard,
+    ItemStatus,
+    Profile,
+    Role,
+)
+from app.settings import get_settings
 from app.storage import LocalStorage
 
 STAFF_TOKEN = "staff-token"
@@ -22,6 +40,57 @@ OTHER_STAFF_TOKEN = "other-staff-token"
 MANAGER_TOKEN = "manager-token"
 UNKNOWN_USER_TOKEN = "no-profile-token"
 INACTIVE_TOKEN = "inactive-token"
+
+
+MODEL_CARD = {
+    "category": "apparel",
+    "brand": "Carhartt",
+    "product": "canvas jacket",
+    "visible_text": "Carhartt",
+    "search_query": "Carhartt canvas jacket",
+    "model_confidence": "high",
+    "color": "brown",
+    "material": "canvas",
+    "exact_model": None,
+    "platform": None,
+}
+
+
+def jpeg(size: tuple[int, int] = (20, 10)) -> bytes:
+    output = io.BytesIO()
+    Image.new("RGB", size, "brown").save(output, format="JPEG")
+    return output.getvalue()
+
+
+class StubChat:
+    """Answers with each reply in turn and repeats the last, where an int is an HTTP error."""
+
+    def __init__(self, *replies: str | int, name: str = "primary") -> None:
+        self.name = name
+        self.replies = list(replies)
+        self.calls: list[list[Message]] = []
+        self.on_call: Callable[[], None] | None = None
+
+    def complete(self, messages: list[Message], *, json_mode: bool = False) -> str:
+        self.calls.append(messages)
+        if self.on_call:
+            self.on_call()
+        reply = self.replies.pop(0) if len(self.replies) > 1 else self.replies[0]
+        if isinstance(reply, int):
+            request = httpx2.Request("POST", "https://stub.example.com")
+            response = httpx2.Response(reply, request=request)
+            raise httpx2.HTTPStatusError("stubbed", request=request, response=response)
+        return reply
+
+
+def use_model(*providers: StubChat) -> None:
+    app.dependency_overrides[get_vision_providers] = lambda: list(providers)
+
+
+def model_replies(**changes: Any) -> StubChat:
+    chat = StubChat(json.dumps(MODEL_CARD | changes))
+    use_model(chat)
+    return chat
 
 
 class StubVerifier:
@@ -63,6 +132,7 @@ def client(session: Session, storage: LocalStorage) -> Iterator[TestClient]:
     app.dependency_overrides[get_session] = lambda: session
     app.dependency_overrides[get_photo_storage] = lambda: storage
     app.dependency_overrides[get_token_verifier] = lambda: StubVerifier(tokens)
+    model_replies()
     yield TestClient(app, headers={"Authorization": f"Bearer {STAFF_TOKEN}"})
     app.dependency_overrides.clear()
 
@@ -71,7 +141,8 @@ def as_token(token: str) -> dict[str, str]:
     return {"Authorization": f"Bearer {token}"}
 
 
-def upload(client: TestClient, content: bytes = b"a photo") -> dict[str, Any]:
+def upload(client: TestClient, content: bytes | None = None) -> dict[str, Any]:
+    content = jpeg() if content is None else content
     response = client.post(
         "/items", files={"photo": ("item.jpg", content, "image/jpeg")}, headers=client.headers
     )
@@ -298,9 +369,253 @@ def test_the_decision_list_limit_is_bounded(client: TestClient, limit: int) -> N
     assert client.get("/decisions", params={"limit": limit}).status_code == 422
 
 
+def test_the_card_comes_from_the_model_with_the_photo_and_staff_entries(
+    client: TestClient,
+) -> None:
+    chat = model_replies()
+    item_id = upload(client, jpeg((2000, 1000)))["id"]
+    response = client.post(
+        f"/items/{item_id}/card",
+        json={"condition": "pre_owned", "department": "mens", "size": "L", "flaws": ["stains"]},
+    )
+    assert response.status_code == 200, response.text
+    card = response.json()
+    assert card["brand"] == "Carhartt"
+    assert card["search_query"] == "Carhartt canvas jacket"
+    assert card["color"] == "brown"
+    assert card["model_confidence"] == "high"
+    assert card["staff_confirmed"] is False
+    assert card["needs_confirmation"] is False
+
+    (messages,) = chat.calls
+    text, image = messages[0]["content"]
+    assert "condition: pre_owned" in text["text"]
+    assert "department: mens" in text["text"]
+    assert "flaws: ['stains']" in text["text"]
+    encoded = image["image_url"]["url"].removeprefix("data:image/jpeg;base64,")
+    with Image.open(io.BytesIO(base64.b64decode(encoded))) as sent:
+        assert sent.format == "JPEG"
+        assert sent.size == (960, 480)
+
+
+def test_staff_fields_from_the_model_are_dropped(client: TestClient) -> None:
+    model_replies(
+        condition="new_with_tags",
+        department="womens",
+        size="XS",
+        size_type="petite",
+        flaws=["tears"],
+        tested_working=True,
+        complete_in_box=True,
+        accessories_included="charger",
+    )
+    item_id = upload(client)["id"]
+    response = client.post(
+        f"/items/{item_id}/card", json={"condition": "pre_owned", "department": "kids"}
+    )
+    assert response.status_code == 200, response.text
+    card = response.json()
+    assert card["condition"] == "pre_owned"
+    assert card["department"] == "kids"
+    assert card["size"] is None
+    assert card["size_type"] is None
+    assert card["flaws"] == []
+    assert card["tested_working"] is None
+    assert card["complete_in_box"] is None
+    assert card["accessories_included"] is None
+
+
+def test_a_bad_reply_is_retried_on_the_same_model(client: TestClient) -> None:
+    chat = StubChat("not json", json.dumps(MODEL_CARD))
+    use_model(chat)
+    assert add_card(client, upload(client)["id"])["brand"] == "Carhartt"
+    assert len(chat.calls) == 2
+
+
+def test_the_fallback_takes_over_when_the_first_model_fails(client: TestClient) -> None:
+    primary = StubChat(429)
+    fallback = StubChat(json.dumps(MODEL_CARD | {"brand": "Dickies"}), name="fallback")
+    use_model(primary, fallback)
+    assert add_card(client, upload(client)["id"])["brand"] == "Dickies"
+    assert len(primary.calls) == 1
+
+
+def test_when_every_model_fails_the_item_can_try_again(
+    client: TestClient, session: Session
+) -> None:
+    use_model(StubChat("nope"), StubChat(500, name="fallback"))
+    item_id = upload(client)["id"]
+    response = client.post(f"/items/{item_id}/card", json={"condition": "pre_owned"})
+    assert response.status_code == 502
+    assert "Try again" in response.json()["detail"]
+    row = session.get(Item, UUID(item_id))
+    assert row is not None
+    assert row.status == ItemStatus.INTAKE
+
+    model_replies()
+    assert add_card(client, item_id)["brand"] == "Carhartt"
+
+
+def test_a_model_that_is_not_set_up_is_a_clear_error(client: TestClient) -> None:
+    use_model()
+    item_id = upload(client)["id"]
+    response = client.post(f"/items/{item_id}/card", json={"condition": "pre_owned"})
+    assert response.status_code == 503
+
+
+def test_a_photo_that_is_not_an_image_is_refused(client: TestClient) -> None:
+    chat = model_replies()
+    item_id = upload(client, b"not an image")["id"]
+    response = client.post(f"/items/{item_id}/card", json={"condition": "pre_owned"})
+    assert response.status_code == 422
+    assert chat.calls == []
+
+
+def test_a_card_already_made_does_not_call_the_model_again(client: TestClient) -> None:
+    chat = model_replies()
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+    use_model()
+    add_card(client, item_id)
+    assert len(chat.calls) == 1
+
+
+def test_a_request_that_finishes_second_keeps_the_first_card(
+    client: TestClient, session: Session
+) -> None:
+    chat = model_replies()
+    item_id = upload(client)["id"]
+
+    def other_request_finishes() -> None:
+        row = session.get(Item, UUID(item_id))
+        assert row is not None
+        row.status = ItemStatus.CARD_READY
+        session.add(row)
+        session.add(
+            ItemCard(
+                item_id=UUID(item_id),
+                category=Category.APPAREL,
+                brand="First",
+                search_query="first",
+                model_confidence=Confidence.HIGH,
+                condition=Condition.PRE_OWNED,
+            )
+        )
+        session.commit()
+
+    chat.on_call = other_request_finishes
+    assert add_card(client, item_id)["brand"] == "First"
+
+
+@pytest.mark.parametrize(
+    "changes", [{"model_confidence": "low"}, {"brand": None, "model_confidence": "high"}]
+)
+def test_an_unsure_card_stops_the_search_until_staff_confirm(
+    client: TestClient, session: Session, changes: dict[str, Any]
+) -> None:
+    model_replies(**changes)
+    item_id = upload(client)["id"]
+    assert add_card(client, item_id)["needs_confirmation"] is True
+
+    refused = client.post(f"/items/{item_id}/appraisals")
+    assert refused.status_code == 409
+    assert "Confirm the brand and model" in refused.json()["detail"]
+    assert session.exec(select(Appraisal)).all() == []
+
+    confirmed = client.patch(f"/items/{item_id}/card", json={})
+    assert confirmed.status_code == 200, confirmed.text
+    assert confirmed.json()["needs_confirmation"] is False
+    assert confirmed.json()["staff_confirmed"] is True
+    assert confirmed.json()["staff_edited"] is False
+    appraise(client, item_id)
+
+
+def test_the_confidence_bar_is_a_setting(
+    client: TestClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setattr(get_settings(), "item_card_min_confidence", Confidence.HIGH)
+    model_replies(model_confidence="medium")
+    item_id = upload(client)["id"]
+    assert add_card(client, item_id)["needs_confirmation"] is True
+    assert client.post(f"/items/{item_id}/appraisals").status_code == 409
+
+
+def test_staff_can_edit_the_card_and_clear_a_proposal(client: TestClient) -> None:
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+    response = client.patch(
+        f"/items/{item_id}/card",
+        json={
+            "brand": " Dickies ",
+            "search_query": "Dickies canvas jacket",
+            "color": "",
+            "exact_model": "Eisenhower",
+            "condition": "new_without_tags",
+            "flaws": ["scuffs"],
+        },
+    )
+    assert response.status_code == 200, response.text
+    card = response.json()
+    assert card["brand"] == "Dickies"
+    assert card["search_query"] == "Dickies canvas jacket"
+    assert card["color"] is None
+    assert card["exact_model"] == "Eisenhower"
+    assert card["condition"] == "new_without_tags"
+    assert card["flaws"] == ["scuffs"]
+    assert card["material"] == "canvas"
+    assert card["staff_edited"] is True
+    assert card["staff_confirmed"] is True
+
+
+def test_sending_the_same_values_is_not_an_edit(client: TestClient) -> None:
+    item_id = upload(client)["id"]
+    card = add_card(client, item_id)
+    response = client.patch(
+        f"/items/{item_id}/card",
+        json={"brand": card["brand"], "category": card["category"], "flaws": []},
+    )
+    assert response.json()["staff_edited"] is False
+
+
+@pytest.mark.parametrize(
+    "body",
+    [
+        {"search_query": "   "},
+        {"search_query": None},
+        {"category": None},
+        {"condition": None},
+        {"flaws": None},
+        {"model_confidence": "high"},
+        {"staff_confirmed": False},
+    ],
+)
+def test_an_edit_cannot_empty_a_required_field_or_set_the_models_own(
+    client: TestClient, body: dict[str, Any]
+) -> None:
+    item_id = upload(client)["id"]
+    add_card(client, item_id)
+    assert client.patch(f"/items/{item_id}/card", json=body).status_code == 422
+
+
+def test_editing_needs_a_card_and_an_item_still_being_appraised(
+    client: TestClient, session: Session
+) -> None:
+    assert client.patch(f"/items/{uuid4()}/card", json={}).status_code == 404
+    item_id = upload(client)["id"]
+    assert client.patch(f"/items/{item_id}/card", json={}).status_code == 409
+    add_card(client, item_id)
+    row = session.get(Item, UUID(item_id))
+    assert row is not None
+    row.status = ItemStatus.LISTED
+    session.add(row)
+    session.commit()
+    assert client.patch(f"/items/{item_id}/card", json={}).status_code == 409
+
+
 ROUTES = [
     ("post", "/items"),
     ("post", f"/items/{uuid4()}/card"),
+    ("patch", f"/items/{uuid4()}/card"),
     ("post", f"/items/{uuid4()}/appraisals"),
     ("post", f"/items/{uuid4()}/decisions"),
     ("get", "/decisions"),

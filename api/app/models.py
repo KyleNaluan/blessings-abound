@@ -203,6 +203,7 @@ class ItemCard(SQLModel, table=True):
     exact_model: str | None = Field(default=None, sa_type=sa.Text)
     platform: str | None = Field(default=None, sa_type=sa.Text)
     staff_edited: bool = Field(default=False, sa_column_kwargs={"server_default": sa.false()})
+    staff_confirmed: bool = Field(default=False, sa_column_kwargs={"server_default": sa.false()})
     created_at: datetime = _created_at()
     updated_at: datetime = _updated_at()
 

@@ -4,6 +4,8 @@ from pathlib import Path
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+from app.models import Confidence
+
 # The single .env file lives at the repository root and is shared with docker compose and web/.
 ROOT_ENV_FILE = Path(__file__).resolve().parents[2] / ".env"
 
@@ -71,6 +73,8 @@ class Settings(BaseSettings):
     ai_fallback_base_url: str | None = None
     ai_fallback_model: str | None = None
     ai_fallback_api_key: str | None = None
+    # Below this, staff confirm the card before a search, because a search costs from a small quota.
+    item_card_min_confidence: Confidence = Confidence.MEDIUM
 
     serpapi_api_key: str | None = None
     # The free plan allows 250 searches a month, so the default leaves a small margin.

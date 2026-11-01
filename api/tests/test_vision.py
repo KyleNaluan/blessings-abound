@@ -1,16 +1,20 @@
 import base64
+import io
 import json
 
 import httpx2
 import pytest
+from PIL import Image
 
 from app.ai import OpenAICompatibleChat
 from app.models import Category, Confidence
 from app.vision import (
     ItemCardError,
     Photo,
+    UnreadablePhotoError,
     build_messages,
     parse_item_card,
+    prepare_photo,
     read_item_card,
 )
 
@@ -41,6 +45,15 @@ def provider(name: str, replies: list[str | int]) -> tuple[OpenAICompatibleChat,
         f"https://{name}.example.com/v1", "m", "secret", httpx2.MockTransport(handler)
     )
     return chat, seen
+
+
+class StubReply:
+    """A provider whose reply has no text, as a null message content comes through."""
+
+    name = "empty"
+
+    def complete(self, messages: list[dict], *, json_mode: bool = False) -> str:
+        return None  # type: ignore[return-value]
 
 
 def test_valid_json_on_the_first_try() -> None:
@@ -127,6 +140,39 @@ def test_parse_rejects_unknown_keys_and_missing_fields() -> None:
         parse_item_card(json.dumps(CARD | {"price": "$20"}))
     with pytest.raises(ValueError):
         parse_item_card(json.dumps({"category": "apparel"}))
+
+
+def test_parse_drops_what_only_staff_may_enter() -> None:
+    card = parse_item_card(json.dumps(CARD | {"condition": "new_with_tags", "size": "M"}))
+    assert not hasattr(card, "condition")
+    assert "size" not in card.model_dump()
+
+
+def test_parse_rejects_an_empty_search_query() -> None:
+    with pytest.raises(ValueError):
+        parse_item_card(json.dumps(CARD | {"search_query": "  "}))
+
+
+def test_prepare_photo_makes_an_upright_jpeg_within_the_size_limit() -> None:
+    source = io.BytesIO()
+    exif = Image.Exif()
+    exif[0x0112] = 6  # Rotated a quarter turn, as a phone held upright saves it.
+    Image.new("RGBA", (2000, 1000), "red").convert("RGB").save(source, format="JPEG", exif=exif)
+
+    with Image.open(io.BytesIO(prepare_photo(source.getvalue()).data)) as prepared:
+        assert prepared.format == "JPEG"
+        assert prepared.size == (480, 960)
+
+
+def test_prepare_photo_refuses_bytes_that_are_not_an_image() -> None:
+    with pytest.raises(UnreadablePhotoError):
+        prepare_photo(b"not an image")
+
+
+def test_a_reply_with_no_text_counts_as_a_bad_parse() -> None:
+    chat = StubReply()
+    with pytest.raises(ItemCardError, match="bad JSON"):
+        read_item_card([PHOTO], [chat])
 
 
 def test_staff_notes_go_into_the_prompt() -> None:

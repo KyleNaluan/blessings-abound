@@ -60,7 +60,8 @@ Which optional fields apply depends on the category, and the API checks that rat
 | `tested_working`, `complete_in_box` | `boolean` | Optional, from staff |
 | `accessories_included` | `text` | Optional, from staff |
 | `color`, `material`, `exact_model`, `platform` | `text` | Optional, proposed by the model and confirmed by staff |
-| `staff_edited` | `boolean` | Default false |
+| `staff_edited` | `boolean` | Default false, true once staff change a field |
+| `staff_confirmed` | `boolean` | Default false, true once staff save the card, and needed before a search when the model is unsure |
 | `created_at` | `timestamptz` | Set by the database |
 | `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
 

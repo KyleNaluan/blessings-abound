@@ -1,15 +1,25 @@
 """The staff path from a photo to a saved decision, one route per step."""
 
+import logging
 from datetime import datetime
 from functools import lru_cache
-from typing import Annotated, Any
+from typing import Annotated, Any, Self
 from uuid import UUID, uuid4
 
+import httpx2
 import sqlalchemy as sa
 from fastapi import APIRouter, Depends, File, HTTPException, Query, UploadFile, status
-from pydantic import BaseModel, ConfigDict
+from pydantic import (
+    BaseModel,
+    BeforeValidator,
+    ConfigDict,
+    StringConstraints,
+    computed_field,
+    model_validator,
+)
 from sqlmodel import Session, col
 
+from app.ai import AINotConfiguredError, ChatModel, get_chat_model, get_fallback_chat_model
 from app.auth import CurrentProfile
 from app.db import get_session
 from app.models import (
@@ -28,8 +38,17 @@ from app.models import (
     Recommendation,
     Role,
 )
-from app.pipeline import draft_item_card, placeholder_photo_hash, placeholder_sku, price_item
+from app.pipeline import (
+    draft_item_card,
+    needs_confirmation,
+    placeholder_photo_hash,
+    placeholder_sku,
+    price_item,
+)
 from app.storage import Storage, get_storage
+from app.vision import ItemCardError, UnreadablePhotoError
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -39,6 +58,30 @@ SessionDep = Annotated[Session, Depends(get_session)]
 @lru_cache
 def get_photo_storage() -> Storage:
     return get_storage()
+
+
+@lru_cache
+def _configured_vision_providers() -> tuple[ChatModel, ...]:
+    fallback = get_fallback_chat_model()
+    return (get_chat_model(), fallback) if fallback else (get_chat_model(),)
+
+
+def get_vision_providers() -> list[ChatModel]:
+    """The providers in order, or none when the model is not set up."""
+    try:
+        return list(_configured_vision_providers())
+    except AINotConfiguredError as error:
+        logger.warning("%s", error)
+        return []
+
+
+def _blank_to_none(value: Any) -> Any:
+    if isinstance(value, str):
+        return value.strip() or None
+    return value
+
+
+OptionalText = Annotated[str | None, BeforeValidator(_blank_to_none)]
 
 
 class ItemRead(BaseModel):
@@ -87,6 +130,46 @@ class ItemCardRead(BaseModel):
     exact_model: str | None
     platform: str | None
     staff_edited: bool
+    staff_confirmed: bool
+
+    @computed_field
+    @property
+    def needs_confirmation(self) -> bool:
+        """True while staff must confirm this card before any search."""
+        return not self.staff_confirmed and needs_confirmation(self.brand, self.model_confidence)
+
+
+class ItemCardEdit(BaseModel):
+    """Staff's changes to the card, where a field left out stays as it is. Saving confirms it."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    category: Category | None = None
+    brand: OptionalText = None
+    product: OptionalText = None
+    visible_text: OptionalText = None
+    search_query: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1)] | None = (
+        None
+    )
+    condition: Condition | None = None
+    department: Department | None = None
+    size: OptionalText = None
+    size_type: OptionalText = None
+    flaws: list[Flaw] | None = None
+    tested_working: bool | None = None
+    complete_in_box: bool | None = None
+    accessories_included: OptionalText = None
+    color: OptionalText = None
+    material: OptionalText = None
+    exact_model: OptionalText = None
+    platform: OptionalText = None
+
+    @model_validator(mode="after")
+    def required_fields_stay_filled(self) -> Self:
+        for name in ("category", "search_query", "condition", "flaws"):
+            if name in self.model_fields_set and getattr(self, name) is None:
+                raise ValueError(f"{name} can't be empty")
+        return self
 
 
 class AppraisalRead(BaseModel):
@@ -181,14 +264,45 @@ def create_item(
 
 @router.post("/items/{item_id}/card", operation_id="create_item_card")
 def create_item_card(
-    item_id: UUID, entries: ItemCardRequest, profile: CurrentProfile, session: SessionDep
+    item_id: UUID,
+    entries: ItemCardRequest,
+    profile: CurrentProfile,
+    session: SessionDep,
+    storage: Annotated[Storage, Depends(get_photo_storage)],
+    providers: Annotated[list[ChatModel], Depends(get_vision_providers)],
 ) -> ItemCardRead:
     item = _get_item(session, item_id)
     # A repeated call returns the card already made, so the screen can retry a lost response.
     card = session.get(ItemCard, item_id)
+    if card is not None:
+        return ItemCardRead.model_validate(card)
+    _require_status(item, {ItemStatus.INTAKE}, "given a card")
+    if not providers:
+        raise HTTPException(
+            status.HTTP_503_SERVICE_UNAVAILABLE, "The vision model isn't set up on this server."
+        )
+    staff_entries = entries.model_dump(mode="json")
+    photo_keys, notes = item.photo_keys, item.notes
+    # The model can take a minute, so don't hold a database transaction open across the call.
+    session.commit()
+    try:
+        draft = draft_item_card(photo_keys, staff_entries, notes, storage, providers)
+    except UnreadablePhotoError as error:
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_CONTENT, "That photo can't be opened as an image."
+        ) from error
+    except (ItemCardError, OSError, httpx2.HTTPError) as error:
+        logger.warning("item %s: %s", item_id, error)
+        raise HTTPException(
+            status.HTTP_502_BAD_GATEWAY, "We couldn't read the photo just now. Try again."
+        ) from error
+    # A second request may have finished during the call, so check again under a lock on the item.
+    item = session.get(Item, item_id, with_for_update=True, populate_existing=True)
+    if item is None:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "That item doesn't exist.")
+    card = session.get(ItemCard, item_id, populate_existing=True)
     if card is None:
         _require_status(item, {ItemStatus.INTAKE}, "given a card")
-        draft = draft_item_card(item)
         card = ItemCard(
             item_id=item_id,
             **draft.model_dump(),
@@ -197,8 +311,31 @@ def create_item_card(
         )
         item.status = ItemStatus.CARD_READY
         session.add_all([card, item])
-        session.commit()
-        session.refresh(card)
+    session.commit()
+    session.refresh(card)
+    return ItemCardRead.model_validate(card)
+
+
+@router.patch("/items/{item_id}/card", operation_id="confirm_item_card")
+def confirm_item_card(
+    item_id: UUID, edit: ItemCardEdit, profile: CurrentProfile, session: SessionDep
+) -> ItemCardRead:
+    """Save what staff checked. An empty body confirms the card as it stands."""
+    item = _get_item(session, item_id)
+    _require_status(item, {ItemStatus.CARD_READY, ItemStatus.APPRAISED}, "edited")
+    card = session.get(ItemCard, item_id)
+    if card is None:
+        raise HTTPException(status.HTTP_409_CONFLICT, "This item has no card yet.")
+    for name, value in edit.model_dump(exclude_unset=True).items():
+        if name == "flaws":
+            value = [flaw.value for flaw in value]
+        if getattr(card, name) != value:
+            setattr(card, name, value)
+            card.staff_edited = True
+    card.staff_confirmed = True
+    session.add(card)
+    session.commit()
+    session.refresh(card)
     return ItemCardRead.model_validate(card)
 
 
@@ -209,6 +346,11 @@ def create_appraisal(item_id: UUID, profile: CurrentProfile, session: SessionDep
     card = session.get(ItemCard, item_id)
     if card is None:
         raise HTTPException(status.HTTP_409_CONFLICT, "This item has no card yet.")
+    if not card.staff_confirmed and needs_confirmation(card.brand, card.model_confidence):
+        raise HTTPException(
+            status.HTTP_409_CONFLICT,
+            "Confirm the brand and model on the card before searching for this item.",
+        )
     appraisal = Appraisal(item_id=item_id, **price_item(card).model_dump())
     item.status = ItemStatus.APPRAISED
     session.add_all([appraisal, item])

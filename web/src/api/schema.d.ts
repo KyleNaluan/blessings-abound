@@ -35,7 +35,11 @@ export interface paths {
     delete?: never
     options?: never
     head?: never
-    patch?: never
+    /**
+     * Confirm Item Card
+     * @description Save what staff checked. An empty body confirms the card as it stands.
+     */
+    patch: operations['confirm_item_card']
     trace?: never
   }
   '/items/{item_id}/appraisals': {
@@ -260,6 +264,43 @@ export interface components {
        */
       status: 'ok' | 'unavailable'
     }
+    /**
+     * ItemCardEdit
+     * @description Staff's changes to the card, where a field left out stays as it is. Saving confirms it.
+     */
+    ItemCardEdit: {
+      category?: components['schemas']['Category'] | null
+      /** Brand */
+      brand?: string | null
+      /** Product */
+      product?: string | null
+      /** Visible Text */
+      visible_text?: string | null
+      /** Search Query */
+      search_query?: string | null
+      condition?: components['schemas']['Condition'] | null
+      department?: components['schemas']['Department'] | null
+      /** Size */
+      size?: string | null
+      /** Size Type */
+      size_type?: string | null
+      /** Flaws */
+      flaws?: components['schemas']['Flaw'][] | null
+      /** Tested Working */
+      tested_working?: boolean | null
+      /** Complete In Box */
+      complete_in_box?: boolean | null
+      /** Accessories Included */
+      accessories_included?: string | null
+      /** Color */
+      color?: string | null
+      /** Material */
+      material?: string | null
+      /** Exact Model */
+      exact_model?: string | null
+      /** Platform */
+      platform?: string | null
+    }
     /** ItemCardRead */
     ItemCardRead: {
       /**
@@ -301,6 +342,13 @@ export interface components {
       platform: string | null
       /** Staff Edited */
       staff_edited: boolean
+      /** Staff Confirmed */
+      staff_confirmed: boolean
+      /**
+       * Needs Confirmation
+       * @description True while staff must confirm this card before any search.
+       */
+      readonly needs_confirmation: boolean
     }
     /**
      * ItemCardRequest
@@ -458,6 +506,41 @@ export interface operations {
     requestBody: {
       content: {
         'application/json': components['schemas']['ItemCardRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemCardRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  confirm_item_card: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ItemCardEdit']
       }
     }
     responses: {

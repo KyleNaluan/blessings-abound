@@ -1,22 +1,44 @@
 """Photo to item card with a strict JSON reply, one retry on a bad parse, then a second provider.
 
-`ItemCardDraft` is the minimal model for the vision model's part of the item card, with the Stage 1
-fields from the project plan. Issue #10 extends it with the staff entries and the endpoint.
+`ItemCardDraft` is the vision model's part of the item card. Staff entries reach the model only as
+notes, and any it sends back are dropped, so they always come from staff.
 """
 
 import base64
+import io
 import json
 import logging
 import re
 from dataclasses import dataclass, field
+from typing import Annotated, Any
 
 import httpx2
-from pydantic import BaseModel, ConfigDict, ValidationError
+from PIL import Image, ImageOps
+from pydantic import BaseModel, ConfigDict, StringConstraints, ValidationError, model_validator
 
 from app.ai import ChatModel, Message
 from app.models import Category, Confidence
 
 logger = logging.getLogger(__name__)
+
+# The long side used in the vision model check, which keeps a photo near 2,300 input tokens.
+MAX_PHOTO_SIDE = 960
+PHOTO_JPEG_QUALITY = 85
+
+# Keys that belong to staff. A model that sends one still gives a usable card, so they are dropped
+# rather than treated as a bad reply.
+STAFF_FIELDS = frozenset(
+    {
+        "condition",
+        "department",
+        "size",
+        "size_type",
+        "flaws",
+        "tested_working",
+        "complete_in_box",
+        "accessories_included",
+    }
+)
 
 PROMPT = """\
 You describe one secondhand item from its photos for a thrift store listing.
@@ -33,6 +55,7 @@ Reply with one JSON object and nothing else, using exactly these keys:
 - "exact_model": exact model or style name only if it is readable or unmistakable, otherwise null
 - "platform": the console or system for games and electronics, otherwise null
 The items are donated and secondhand, so never describe one as new.
+Staff record the condition, department, size, flaws, testing and accessories, so leave those out.
 """
 
 
@@ -43,18 +66,42 @@ class ItemCardDraft(BaseModel):
     brand: str | None = None
     product: str | None = None
     visible_text: str | None = None
-    search_query: str
+    search_query: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1)]
     model_confidence: Confidence
     color: str | None = None
     material: str | None = None
     exact_model: str | None = None
     platform: str | None = None
 
+    @model_validator(mode="before")
+    @classmethod
+    def drop_staff_fields(cls, values: Any) -> Any:
+        if isinstance(values, dict):
+            return {key: value for key, value in values.items() if key not in STAFF_FIELDS}
+        return values
+
 
 @dataclass
 class Photo:
     data: bytes
     media_type: str = "image/jpeg"
+
+
+class UnreadablePhotoError(ValueError):
+    """The stored bytes are not an image we can open."""
+
+
+def prepare_photo(data: bytes) -> Photo:
+    """Turn a stored photo into an upright JPEG small enough for the model's token limits."""
+    try:
+        with Image.open(io.BytesIO(data)) as image:
+            upright = ImageOps.exif_transpose(image).convert("RGB")
+    except (OSError, ValueError, SyntaxError, Image.DecompressionBombError) as error:
+        raise UnreadablePhotoError(type(error).__name__) from error
+    upright.thumbnail((MAX_PHOTO_SIDE, MAX_PHOTO_SIDE))
+    output = io.BytesIO()
+    upright.save(output, format="JPEG", quality=PHOTO_JPEG_QUALITY)
+    return Photo(output.getvalue())
 
 
 class ItemCardError(RuntimeError):
@@ -115,7 +162,7 @@ def read_item_card(
                 break
             try:
                 card = parse_item_card(reply)
-            except (ValidationError, ValueError) as error:
+            except (ValidationError, ValueError, TypeError) as error:
                 failures.append(f"{provider.name} attempt {attempt}: bad JSON ({_describe(error)})")
                 continue
             if failures:
