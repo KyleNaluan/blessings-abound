@@ -10,7 +10,7 @@ from sqlmodel import Session
 from app.db import get_session
 from app.settings import get_settings
 
-app = FastAPI(title="Thrift Listing Assistant API", version="0.1.0")
+app = FastAPI(title="Turnstone API", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,
