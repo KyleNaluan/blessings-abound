@@ -74,6 +74,24 @@ test('a failed sign-out stays on the page with a visible error', async () => {
   expect(screen.getByRole('heading', { level: 1, name: "You're signed in" })).toBeInTheDocument()
 })
 
+test('a sign-out that clears the session but returns an error still lands on the landing page', async () => {
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async () => Response.json({ status: 'ok' })),
+  )
+  fake.auth.signOut.mockImplementationOnce(async () => {
+    await new Promise((resolve) => setTimeout(resolve))
+    fake.emit('SIGNED_OUT', null)
+    return { error: { code: 'unexpected', message: 'server error', status: 500 } }
+  })
+  renderHome()
+  fireEvent.click(await screen.findByRole('button', { name: 'Sign out' }))
+  expect(
+    await screen.findByRole('heading', { level: 1, name: /keep every shop in sync/ }),
+  ).toBeInTheDocument()
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+})
+
 test('visiting the app after a successful sign-out reaches sign-in, not a blank page', async () => {
   vi.stubGlobal(
     'fetch',

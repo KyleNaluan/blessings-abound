@@ -61,7 +61,9 @@ export async function signOut(): Promise<string | null> {
   if (!supabase) return null
   try {
     const { error } = await supabase.auth.signOut()
-    return message(error)
+    if (!error) return null
+    const { data } = await supabase.auth.getSession()
+    return data.session ? message(error) : null
   } catch {
     return UNREACHABLE
   }
