@@ -2,12 +2,9 @@
   "search_metadata": {
     "id": "6ae6d7dbc258c19be7c7c87c",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/eiKYaLqzlV-Ni_lK3JhF_8chtzhXyo5ZpStiosAUlo8/6ae6d7dbc258c19be7c7c87c.json",
-    "markdown_endpoint": "https://serpapi.com/searches/eiKYaLqzlV-Ni_lK3JhF_8chtzhXyo5ZpStiosAUlo8/6ae6d7dbc258c19be7c7c87c.md",
     "created_at": "2026-11-01 06:10:35 UTC",
     "processed_at": "2026-11-01 06:10:35 UTC",
     "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Apple+AirPods+Pro&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
-    "raw_html_file": "https://serpapi.com/searches/eiKYaLqzlV-Ni_lK3JhF_8chtzhXyo5ZpStiosAUlo8/6ae6d7dbc258c19be7c7c87c.html",
     "total_time_taken": 3.54
   },
   "search_parameters": {

@@ -2,12 +2,9 @@
   "search_metadata": {
     "id": "6ae6d7d1e6dcec91142f700b",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/C5wGG4bX6WlQyzupky1dxvr0FnHMz0U5WF-w3Y4GQ0M/6ae6d7d1e6dcec91142f700b.json",
-    "markdown_endpoint": "https://serpapi.com/searches/C5wGG4bX6WlQyzupky1dxvr0FnHMz0U5WF-w3Y4GQ0M/6ae6d7d1e6dcec91142f700b.md",
     "created_at": "2026-11-01 06:10:25 UTC",
     "processed_at": "2026-11-01 06:10:25 UTC",
     "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=PlayStation+4+Slim+console&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
-    "raw_html_file": "https://serpapi.com/searches/C5wGG4bX6WlQyzupky1dxvr0FnHMz0U5WF-w3Y4GQ0M/6ae6d7d1e6dcec91142f700b.html",
     "total_time_taken": 1.37
   },
   "search_parameters": {

@@ -2,12 +2,9 @@
   "search_metadata": {
     "id": "6ae6d7c3d18169f708d93c91",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/qsMtsRluQoVv1x32cgl8YAdBgw1iZlZi4h3wTBOG7CM/6ae6d7c3d18169f708d93c91.json",
-    "markdown_endpoint": "https://serpapi.com/searches/qsMtsRluQoVv1x32cgl8YAdBgw1iZlZi4h3wTBOG7CM/6ae6d7c3d18169f708d93c91.md",
     "created_at": "2026-11-01 06:10:11 UTC",
     "processed_at": "2026-11-01 06:10:11 UTC",
     "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Patagonia+Better+Sweater+fleece&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
-    "raw_html_file": "https://serpapi.com/searches/qsMtsRluQoVv1x32cgl8YAdBgw1iZlZi4h3wTBOG7CM/6ae6d7c3d18169f708d93c91.html",
     "total_time_taken": 3.41
   },
   "search_parameters": {

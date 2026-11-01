@@ -2,12 +2,9 @@
   "search_metadata": {
     "id": "6ae6d7c07f8321451b0ad2f8",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/ZJiiqvnJEy0745mkDNtQ1YLORRb5hMnN60Bm44COso8/6ae6d7c07f8321451b0ad2f8.json",
-    "markdown_endpoint": "https://serpapi.com/searches/ZJiiqvnJEy0745mkDNtQ1YLORRb5hMnN60Bm44COso8/6ae6d7c07f8321451b0ad2f8.md",
     "created_at": "2026-11-01 06:10:08 UTC",
     "processed_at": "2026-11-01 06:10:08 UTC",
     "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Nike+Air+Max+90+sneakers&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
-    "raw_html_file": "https://serpapi.com/searches/ZJiiqvnJEy0745mkDNtQ1YLORRb5hMnN60Bm44COso8/6ae6d7c07f8321451b0ad2f8.html",
     "total_time_taken": 1.95
   },
   "search_parameters": {

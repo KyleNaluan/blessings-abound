@@ -2,12 +2,9 @@
   "search_metadata": {
     "id": "6ae6d7d3a33d2b2a56cacdaf",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/1u4VE0F_SfwtIZeVynK12pPwsgM70gtUBlMosUWDRwk/6ae6d7d3a33d2b2a56cacdaf.json",
-    "markdown_endpoint": "https://serpapi.com/searches/1u4VE0F_SfwtIZeVynK12pPwsgM70gtUBlMosUWDRwk/6ae6d7d3a33d2b2a56cacdaf.md",
     "created_at": "2026-11-01 06:10:27 UTC",
     "processed_at": "2026-11-01 06:10:27 UTC",
     "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Ring+Video+Doorbell&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
-    "raw_html_file": "https://serpapi.com/searches/1u4VE0F_SfwtIZeVynK12pPwsgM70gtUBlMosUWDRwk/6ae6d7d3a33d2b2a56cacdaf.html",
     "total_time_taken": 2.16
   },
   "search_parameters": {

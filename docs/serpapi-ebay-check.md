@@ -9,6 +9,7 @@ The search needs the right condition ids for each category, and code has to filt
 11 searches were spent of the 250 a month, 10 planned and 1 follow-up after the video game result.
 All used `engine=ebay`, `buying_format=BIN`, `ebay_domain=ebay.com`, `_ipg=60` and the used condition filter `LH_ItemCondition=3000`, except the follow-up.
 Each response is saved unchanged except for two removals, `api_key` and the `seller` object, because the seller's username is a personal detail the repo keeps out of fixtures.
+The `json_endpoint`, `markdown_endpoint` and `raw_html_file` archive URLs under `search_metadata` were also removed, because they link to SerpApi's stored copy of the unredacted original and would otherwise let anyone recover the removed `seller` usernames.
 They are in `api/tests/fixtures/serpapi/`, one file per query, named by the slug in the first column below.
 Sold and completed listings are no longer supported by the engine, so every price is an asking price.
 

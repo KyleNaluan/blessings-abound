@@ -2,12 +2,9 @@
   "search_metadata": {
     "id": "6ae6d7ce34d37e69ef46c8ef",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/lWiI2PSv2mWAB1ukMHn_jNz1euOaVwbV60KGL_5RiA0/6ae6d7ce34d37e69ef46c8ef.json",
-    "markdown_endpoint": "https://serpapi.com/searches/lWiI2PSv2mWAB1ukMHn_jNz1euOaVwbV60KGL_5RiA0/6ae6d7ce34d37e69ef46c8ef.md",
     "created_at": "2026-11-01 06:10:22 UTC",
     "processed_at": "2026-11-01 06:10:22 UTC",
     "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Mario+Kart+8+Deluxe+Nintendo+Switch&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
-    "raw_html_file": "https://serpapi.com/searches/lWiI2PSv2mWAB1ukMHn_jNz1euOaVwbV60KGL_5RiA0/6ae6d7ce34d37e69ef46c8ef.html",
     "total_time_taken": 2.42
   },
   "search_parameters": {

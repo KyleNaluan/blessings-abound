@@ -2,12 +2,9 @@
   "search_metadata": {
     "id": "6ae6d7c74e12bd5db5304f32",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/_9FrEYnZxl2FSDsL_dtvfiK3-tk6lKSLvhxiBf-LlCA/6ae6d7c74e12bd5db5304f32.json",
-    "markdown_endpoint": "https://serpapi.com/searches/_9FrEYnZxl2FSDsL_dtvfiK3-tk6lKSLvhxiBf-LlCA/6ae6d7c74e12bd5db5304f32.md",
     "created_at": "2026-11-01 06:10:15 UTC",
     "processed_at": "2026-11-01 06:10:15 UTC",
     "ebay_url": "https://www.ebay.com/sch/i.html?_nkw=Carhartt+Detroit+jacket&_ipg=60&LH_ItemCondition=3000&LH_BIN=1",
-    "raw_html_file": "https://serpapi.com/searches/_9FrEYnZxl2FSDsL_dtvfiK3-tk6lKSLvhxiBf-LlCA/6ae6d7c74e12bd5db5304f32.html",
     "total_time_taken": 1.9
   },
   "search_parameters": {
