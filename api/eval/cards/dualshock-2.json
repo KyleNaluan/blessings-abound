@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Sony",
+    "product": "wired game controller",
+    "visible_text": "SONY PlayStation ANALOG SELECT START",
+    "search_query": "Sony PlayStation Analog controller",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Dual Analog Controller",
+    "platform": "PlayStation"
+  }
+}

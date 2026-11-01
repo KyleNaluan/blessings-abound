@@ -76,10 +76,12 @@ The language model never produces a price, and every number comes from code over
 5. Code filters the listings by title, dropping accessories, lots, parts and similar matches unless the item itself is one of those.
    Department, tall, plus and petite sizes, and complete in box are judged against the staff entries, a plain size never drops a listing, and each dropped listing keeps its reason.
    A listing returned more than once is dropped by its item id with reason DUPLICATE, so one listing cannot weigh twice in the percentiles.
-6. Code trims outliers with Tukey fences on log price, skipped when fewer than 4 listings remain, and takes the 25th, 50th and 75th percentiles as the low, typical and high price.
-7. Asking prices run higher than sale prices, so code multiplies the range by an ask-to-sale factor of 0.645, which is one value in config rather than one per channel, because comps always come from eBay.
-   It is labeled an assumption, because it comes from Poshmark data with ratios from 1.21 to 2.93, and a re-measure on eBay is a stretch item done by hand.
-8. Confidence is high with at least 10 listings left after the trim and a high-to-low ratio of at most 2, medium with at least 5 and a ratio of at most 3, and low otherwise.
+6. Code trims outliers with Tukey fences on log price, skipped when fewer than 4 listings remain, and takes the low, typical and high price from the percentiles.
+   Apparel uses the 25th, 50th and 75th, and games and hardware use the 15th, 50th and 85th.
+7. Asking prices run higher than sale prices, so code multiplies the range by an ask-to-sale factor from config, which is one value per category rather than one per channel, because comps always come from eBay.
+   Apparel's 0.645 is labeled an assumption, because it comes from Poshmark data with ratios from 1.21 to 2.93, and a re-measure on eBay is a stretch item done by hand.
+   The 0.94 for games and hardware is also labeled an assumption, because it comes from 18 items in [evaluation.md](evaluation.md).
+8. Confidence is high with at least 10 listings left after the trim and a ratio of at most 2 between the 75th and 25th percentiles, medium with at least 5 and a ratio of at most 3, and low otherwise.
 9. The worth-listing rule says "yes" when the typical sale price is at least $30, "no" below it, and "check" when confidence is low or there are no comps, and the threshold, fees and supplies live in config.
    The net after eBay's fees, which are 13.6% for most categories plus $0.40 per order, and $1.50 for supplies is shown beside it.
 10. The language model writes a 2 to 3 sentence explanation from the computed numbers only, and code rejects the text if it contains any number that is not in those facts and falls back to a template.
@@ -133,7 +135,7 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-29: Treat items as online-only and one of a kind, with no in-store channel or quantities, because each item is sold in only one place.
 - 2026-10-29: Keep the photo-to-price pipeline and drop the live web price search, because comps are traceable and eBay's license bars using its content to suggest prices.
 - 2026-10-29: Say yes when the typical sale price is at least $30 and show the net beside it, replacing the $15 net cutoff, because $30 is the client's stated bar.
-- 2026-10-29: Keep one ask-to-sale factor of 0.645, labeled an assumption, instead of one per channel, because comps always come from eBay.
+- 2026-10-29: Keep one ask-to-sale factor of 0.645, labeled an assumption, instead of one per channel, because comps always come from eBay. Games and hardware got their own factor on 2026-11-01, see below.
 - 2026-10-29: Attempt no real eBay or Shopify connection, and build Channel A (eBay-style) and Channel B (Depop or Poshmark-style, apparel only) as separate services in separate schemas of one Postgres, which gives one platform-fit case and one sync case and survives restarts on free hosts.
 - 2026-10-29: Use Groq for vision with Gemini as fallback, through one OpenAI-compatible client, because both have free limits and the provider stays a setting.
 - 2026-10-29: Use a rule-based claim checker on listing drafts, because it is deterministic and measurable against the 90% target.
@@ -173,7 +175,6 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Cache a SerpApi response only when its status is `Success`, and turn every search failure into `SerpApiError` with no URL in its message, because a cached failure would last 7 days and the request URL carries the key.
 - 2026-11-01: Score pricing against PriceCharting's loose price for games and hardware, with items fixed before the first run, and accept hand-recorded sold prices for apparel, because no other sold-price source we checked could be used, see [evaluation.md](evaluation.md).
 - 2026-11-01: Save evaluation cards and slimmed search responses in `api/eval/` and roll back the `comp_searches` rows of a run, so a rerun spends nothing and can't count against the app's budget, and a test fails when the saved results no longer match the code.
-- 2026-11-01: Keep the pricing rules as they are after the first evaluation, where the pipeline lost to raw asking prices on games and hardware, because tuning them against 18 items with apparel unscored would only fit this set, and the factor question is left to apparel's results.
 - 2026-11-01: Restart a `findBy` or `waitFor` that failed while the test process was frozen, instead of raising its deadline, because the deadline timer runs before the render already due when the process wakes, so a longer freeze beats any limit, and a wait that ran undisturbed still fails at the normal 1s.
 - 2026-11-01: End the session before leaving the sign-out button's page, and hold `RequireAuth`'s redirect to sign-in with a signing-out mark on the auth context while the session clears, because the router's low priority navigation to the landing page otherwise loses to that redirect; clear the mark when the protected page unmounts so a later visit while signed out still redirects, and keep a failed sign-out on the page with a visible error rather than swallowing it.
 - 2026-11-01: Sign in by username through `POST /auth/sign-in` on the API rather than through a lookup in the browser, which replaces the plan to keep it in `web/src/auth/accounts.ts`, because a lookup the browser can call would hand out anyone's address and tell a stranger which usernames exist.
@@ -185,3 +186,9 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Deactivate by banning in Auth first and marking the profile second, and keep the profile row, because a failure between the two leaves the person locked out rather than still able to sign in, and their decisions still point at that row.
 - 2026-11-01: Lock the active manager rows with `FOR UPDATE` before deactivating or demoting a manager, because two managers deactivating each other at the same moment would otherwise leave none.
 - 2026-11-01: Stop the web build if a `VITE_` variable is named for the service role key or holds its value, because every `VITE_` value ends up in the public JavaScript.
+- 2026-11-01: Change the pricing rules for games and hardware after the first evaluation, where the pipeline lost to raw asking prices on 18 items, because asking prices before the factor were a median 1.06 times the sold reference, so a factor of 0.645 from Poshmark apparel was too strong for them. This replaces the earlier call to leave the rules alone, whose worry about only fitting those 18 items is now answered by scoring fresh items that had no part in the tuning, and the 18 are labeled as tuning data.
+- 2026-11-01: Set the factor for games and hardware to 0.94, one over that median, rather than the value that scored best, because a value picked for its score would fit the 18 items more closely and say less about the next item.
+- 2026-11-01: Widen the range for games and hardware to the 15th to 85th percentiles and leave the comp filter alone, because a 25th to 75th band holds about half of what it measures by design, and the report shows the width and a like-for-like row, so a wider range can't pass as better pricing.
+- 2026-11-01: Keep confidence on the 25th to 75th percentiles in every category, so widening the range doesn't turn a high-confidence item into a "check" with no new evidence about the item.
+- 2026-11-01: Leave apparel's factor and percentiles as they were, because none of the tuning evidence comes from apparel.
+- 2026-11-01: Keep the fresh evaluation items in their own file, `api/eval/fresh_items.json`, so `git log` on that file shows the list came before its first score.

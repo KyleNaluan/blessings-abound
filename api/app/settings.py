@@ -17,8 +17,21 @@ class PricingRules(BaseModel):
 
     ask_to_sale_factor: float = Field(
         default=0.645,
-        description="Assumption: comps are asking prices, and this came from Poshmark ratios of "
-        "1.21 to 2.93, not from eBay sales.",
+        description="Assumption, for apparel: comps are asking prices, and this came from Poshmark "
+        "ratios of 1.21 to 2.93, not from eBay sales.",
+    )
+    games_ask_to_sale_factor: float = Field(
+        default=0.94,
+        description="Assumption, for games and hardware: one over the median 1.06 asking price per "
+        "sold price on 18 tuning items, see docs/evaluation.md.",
+    )
+    games_low_percentile: float = Field(
+        default=0.15,
+        description="The low end of the range for games and hardware, because sold prices often "
+        "fell outside the middle half of asking prices on the tuning items.",
+    )
+    games_high_percentile: float = Field(
+        default=0.85, description="The high end of that range, at the same distance from the top."
     )
     tukey_fence_multiplier: float = Field(
         default=1.5, description="The standard Tukey fence width, applied to log price."

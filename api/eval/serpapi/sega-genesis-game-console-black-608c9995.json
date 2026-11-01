@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Sega Genesis game console black",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 4400,
+ "organic_results": [
+  {
+   "title": "SEGA Genesis Model 2 Black Console MK-1631 w/ 2 Controllers. Read Description. ￼",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287695114387?_skw=Sega+Genesis+game+console+black&epid=5059913305&itmmeta=01M6C4RH2SDYPSHPZNX87WD6DJ&hash=item42fbf71093%3Ag%3AEhUAAeSwxPZq5lU-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8NZXsbHqNl8vFZ3Qvgg1nMiD3wM%2BmZtfkW%2FRJLjpccnpXLl0KX00W8%2Br5srzl1wL9i3lkdy96REizf5bt6H%2BvbM5S3e5t0dkdITYUITynrXvFBCQR8Xs33fX6C2gpixHT0SnNlt0TH%2FlYoUJRamjsGy3e05VlD7eEh%2Bzm3RVGZ8dVVYdY0jZSNG0s7YHQvoXP%2Fkr7oekFsQPfxAJGRQwgLSPLR2rvYO1M4J9Vi0p60%2Bz4N67v8yWEn9XiPOUhJM1LbhWlNbkuCMmBkq%2B%2BTNq5R%7Ctkp%3ABk9SR-iR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287695114387"
+  },
+  {
+   "title": "Sega Genesis Console W/ Sonic Spin Ball Cib Inserts Bags Great Condition Works",
+   "price": {
+    "raw": "$259.99",
+    "extracted": 259.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820297401708?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2SARVZ9QJJGQVQG7AG&hash=itembefd89056c%3Ag%3A2RUAAeSwv5dp1pRN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8cJH2DTTI5%2BssXk%2B00OeORbhrMTtlL8oQyzmLKu7OGQeUPuh8xQX0irqDu30cTEvLW4d97V8jTW8r8Cr528AxMN1cEwfIfP1nitqjUupOFQiThVrMHpIUnULYWSkDKYckSWXQUtEXLSdKLqGQBK%2BCNnwQoTQj5Pf4AnsILTT9b%2B5t%2Fy6mi7ZTBj6fldUrFFM%2Bg1EAU%2FzoBoq4cR3hecMRTsDhIGKgh8iCL5fYkvz3Uwo1Pe5XuueVDPr%2FIPNq3OkMaYfZmeMxX2XOPMosBXGWhUMP4vLhR06xHTxPKyeZSyjzfcuvrT0%2FVBjKFYQR34pk%3D%7Ctkp%3ABFBM6JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820297401708"
+  },
+  {
+   "title": "SEGA Genesis Black Console 16-Bit w/ Aladdin & College Football Games tested",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147130383758?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2TMWQZ0MZNB4MD21E8&hash=item2241a77d8e%3Ag%3A4X4AAeSwGuZpf6QH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3jGpupUlym3PiZcF9dX%2BGfduy%2Bv6tz0FhggTe3pfQ%2BwJr7UiP4IGoG05NFA7bQ3i56OmeEvQ12s%2BpzNPUqf7WmU%2Bofz7QcH5aHj0QCtHqlg33iy6Sz9e0sYGfuUSywhHgm%2FKm%2BZ5aaYtpFIGY9Y0YRoDIMWkFrs%2Bgf%2FznQlL8QuBeUiY4OXIwx7u4A2d7a5rXuxU8q6BGpDPyJNimpGuPcYPtGWod1JElX22K0xLMYjfOlTSa6djxw7EUgFiGbr4IZfmdwxBDhtJqjuSkiWrOr4G4bttSUJkFrBnRoz1WuO4Q09PJfZtkeq%2BOjlLOsn0%3D%7Ctkp%3ABFBM6JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147130383758"
+  },
+  {
+   "title": "Sega Genesis Model 2 Console System Bundle 1 Controller 7 Games Tested Vintage",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137891426764?_skw=Sega+Genesis+game+console+black&epid=5059913305&itmmeta=01M6C4RH2TA2FHSQS5DGHSQRCE&hash=item201af831cc%3Ag%3APskAAeSwiVlq5ssO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9gWsWVxjgp9ajNHWSoUZYZEZH8rurV0qnRwBbtSRBHsd7J0%2BKRa1nk%2B6L7M3KRvMfB7N7%2BebXpG6IvQsUe5PbMkFqkcvODCjRxWHUcMoXbjKxaOWURDUayGDWVXfDl%2FnpbwyBCxHi67%2Btr8%2FcRR%2FpcmhKzq2cyP1%2FMbLabewHI6Z4ExwWQI0QtlR2PmysWHLgRCsZ75PybV0nEu8Ok7qHgQyIgKrOIXHM8TuajC63Yd8q98mL73fdWGd%2FLqb6eGNHpYOoB7uSXEOUCo9Tg2FIw7G3LkZK0h7LRVHDHwIf%2B40vhbAYPxs0cDg8R8cvrBo4%3D%7Ctkp%3ABFBM6pHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137891426764"
+  },
+  {
+   "title": "Sega Genesis Mk-1631 Black Video Game Console Tested",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318521221805?_skw=Sega+Genesis+game+console+black&epid=1024955297&itmmeta=01M6C4RH2T2T5QRY1STJ9BT78Y&hash=item4a295822ad%3Ag%3AmdQAAeSwKJpqQt6i&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9nYMx%2FLZ24MQB6UyWFmmymw1S5DaBWbRfeA166WQ88yyG8Sc4eZ5TH6xfHbmxp0%2BTTs2b1UDhl0NPkdJTyP0gsoIosQ%2Bkm54XqFLi5sWU8eouEgnaoplWgSb1vp0fO%2BsfytkSOkkXePY4UShWZiOKO7RYpv7DpFhjDi0wQ5dtLlTUuxXAFKVN2en%2BfHNTUxcBe0deBDrlzS%2BNGb9FWtC2HuKuHF%2FJSnMDwbNbhTCk2kRsaOmKLpiuDTn0F6H5ZKwV1Mp7b%2FpWjTnthBeEibeAM%7Ctkp%3ABk9SR-qR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318521221805"
+  },
+  {
+   "title": "Sega Genesis Video Game Console Black MK-1631",
+   "price": {
+    "raw": "$24.29",
+    "extracted": 24.29
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147634226836?_skw=Sega+Genesis+game+console+black&epid=1024955297&itmmeta=01M6C4RH2TY8N63T5JB867E4VB&hash=item225faf8694%3Ag%3AN74AAeSwGwtpyu6G&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BKe63ApA0QBDgQBhENJMMSg561weW%2FSuFiXY6Hwe0dP5Ixe3sGHFqX2ICWgox0CUiFliO1xsbIj%2FS4DS1mytEZ74vviG%2BrCfGgBsWTj8NH%2B%2FxuoUbU4LcAv%2FgsRBbAu1TrdlX6pErs1B8vmCjV8K56w2l%2BjeXpf325AnEdMLeW8plUKKBlLYwQnZWsoDku8uvSd4vewvff4N9FukUzqh5bDWzhC9LImVnNqdtw2oTMFONXJMAv2KrCo8VOVcik%2BqEbDnyJGTq1T14if87HawKO%7Ctkp%3ABk9SR-qR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147634226836"
+  },
+  {
+   "title": "Sega Genesis Model 1601 Gen 1 Console System Bundle - Tested and Works READ",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880068520295?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2TEY1AS798EYFWZVSP&hash=itemcce82be967%3Ag%3AnmgAAeSwxYBq5gaA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BlLWMCM7wG5eQYeuq%2F14Buvm0JkpKIHe%2FkEY8%2F4T4DruxvQbJG0eHAouyVuDvn1TGkaP8YCb9JA6eXhujj9ntraXu8nx4B--EDehEqG6KmXc%2Bfa%2FnWbNASFO3AEI0Mz1EVu4d6XdJS%2BpFSNqQzOxKt8xnBmGK0fGog7S5EDkdN4NmFRasNFOcGTcXLpLg0biOXOlw32kbiMH8Cus9d65A2agEzsShMLwGsiLNQEJ2XY3CkY%2Fa%2Bchga%2FNo8mju%2FVxXi2y8t0mKv0fk1vsScQWKj%7Ctkp%3ABk9SR-qR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880068520295"
+  },
+  {
+   "title": "SEGA Genesis Black Home Console Bundle w/ 2 Controllers, Power/AV Cables, Game",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287694859064?_skw=Sega+Genesis+game+console+black&epid=1024955297&itmmeta=01M6C4RH2VDXJ5JSQPYXKJ1145&hash=item42fbf32b38%3Ag%3APjoAAeSwOKhq5ic5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8BGuTanoCiuqI3dOBEKCRCWM1%2Frp4Fx%2FBha6F1I7B%2B5%2FzwFpE7jI41gPRig1HqKdat%2BnWRE%2FdrSqi6N7MgvtzB7u%2FaYoeDryASUshGanx6Tgibh3Efo40aINl2DoY4R%2FcUDDt6Mh0vNU4%2Bpt2cDZ8IKtG97xojvPDxzCaPHSnzDb7xmD2eUe5x975x1qSvtm8NLmw2%2FygGY%2B1gHPNf%2FBTiipm8tjt7U8OWndA49srny7dlRey7QkoVUZ3hVjEc2LBMMIuiznW514ZXrqlQQZsM%7Ctkp%3ABk9SR-qR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287694859064"
+  },
+  {
+   "title": "Sega Genesis 16-Bit Console System Controller AC Adapter Game Genie Bundle Black",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307257338495?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH2VN10JRNJMVYQJ6528&hash=item4789f6ea7f%3Ag%3AFfIAAeSw-bJq5NHR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BEiTuHxkriHlJksdG9XvlUWTfRt4MBttJAlC75PhzzFqlZnrLk3tPtxK7eAit1IoQRe3GNUgN4pSUlhZJZ96pEDPGFffKI5ew%2F6Y%2B8Ma7g3v4iWlZZRt5r7voUHbeM99Rs4z7ysZ5cnkBAz2OLtDCOdOgR0hu3%2FFfwT9%2Fs4MwBH0sbBKsomAHDYht7IkGjD0Smj6CDhiz5t%2Fh3WsWz0w8Xw1ByaFybHEt9tCI%2BS5XBD7GReZNwlB2jZ7h%2FqV7KoU%2BWxyHO1ispLkR4KG5HLo65cB4cld2%2BZZgXW1nCPalLxDXY9%2B8SJ1HgajvDAZJWhqU%3D%7Ctkp%3ABk9SR-qR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307257338495"
+  },
+  {
+   "title": "SEGA GENESIS GAME CONSOLE, MK-16000, TESTED WORKS (ECP024973)",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287690446604?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2VNFBY4WGEBEMAD3YA&hash=item42fbafd70c%3Ag%3Awm8AAeSw6xRq46tE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde93%2BaZ9LJJ0hcz%2Bcyf030RSfsoRR6r4E%2BfqjQKCKYL%2BZqSoLQ%2Fj8s195JRzXE7MqTtL00NoQHYxHTCMgLKco9KiUrOccxIFLFAMX7Sc7aWiamVx3tF5WJC9cGHcpgaDAJLJTVZ0bU2XVP92BEpvNzBMmdUlNcEiXMcKDWNDP2WGP06aV4TJpLeTjw5ocHcs0Hjvl0nhfU8X1v6yCVQpxn2ii4KYFztz84ADr3D0pLZVOx%2BYXLF15LGoSnKWU6HAhDfdX4b0aoo%2BrAl7yKHf1Cj5%2Fy1AnikpeWIQI26M%2BuxqoQQPGoQ%2FoMS6yvPrRi6zzJE%3D%7Ctkp%3ABk9SR-qR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287690446604"
+  },
+  {
+   "title": "Sega Genesis Model 1601 Gen 1 Console System Bundle - Tested and Works",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178166990804?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2VAN7601YMR37175AY&hash=item297b9487d4%3Ag%3AhF8AAeSwwnlqY2xP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8v4jbV2mPnPxDMjWQOGfW9qNVzTBQedsU0yaYHgMUPyACuaiN5R98Lp%2BjLMLDiNkDMruWBX15pAgFIArxaL8asTcXtzffBaJMGbomMdE1fwN3MTErKVIMWj6Ezzr8ajCJ62JV3XZt2CihBuEsICFXnUBej21bpVayETEQWxf52XuU5vOogx8Z4PHZMVhlZASNL0e%2BC3fa3RceJAjCDiCu0Y62dDB3DpmWf%2FH%2Fh0owWOpQ1L7lKx09QXvBbdVACEwb%2BD9gyw4YxD2YM2%2B7KsjfkVCgThl8lqeEUGFIskqQ5%2FxYDVCq3TgdpXoIwqkqwAuo%3D%7Ctkp%3ABk9SR-qR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178166990804"
+  },
+  {
+   "title": "SEGA Genesis Home Video Game Console, Black, Cartridge Platform Sega Genesis",
+   "price": {
+    "raw": "$36.00",
+    "extracted": 36.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840057519281?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2WPTFB33B3MWMHWTDK&hash=itemc397547cb1%3Ag%3AcOcAAeSwirxq3aPr&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9JZPoB9cytJ8rja8ma4JQcZueTcigBemGMDGbRME3V8dvajU%2BeOY0GC5A3jBEleO7HbxixPgB5c9ec3OF5MTiTdZ%2FBzxHhGUUcMMyXQot8oTm8GZY57ZihKVgdm%2B1irnJsQJTp4elvkoO0ecNf1%2FBMQJvaHJYFkIkW%2FSk3DqQ1pr5CBBcsSbQcpKuLZTC1DSV7Lf6r4TBMD%2B6DV%2Fy1VsFprhKsSd%2B%2BYK5u8wZdw5J4hpWG5W5pNUqbUkW%2B0h%2F%2BcroBJd6jAU5bwkwMcbna%2FG2S%7Ctkp%3ABk9SR-yR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840057519281"
+  },
+  {
+   "title": "Sega Genesis 16-Bit Game Console with 2 Controllers and 2 Games",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178546445161?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2W01JKSC493Z3CH0FC&hash=item2992328b69%3Ag%3AfMUAAeSw0Sxqvuqw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B1RivqbqxwpLXPicvhrIBFV6LFqTjmvsgeaheBXZOU3CY%2BNYIdPQ3w2H%2Fb7xxvGHyTNPMbYeNlsqze%2Bp879hAmCjP9n8nX4wk8oMyk9Uq3GxX2FulBYMHi%2FxOkh9aS0qAN6HQFH2YpAGTWMEiSE5ljbC2r%2BA%2FV8h%2FgF5WuS54aRz5mmU1o2ZvYSL3E14%2FYrgWSCoIZ7NbFpwg9QHECPR5u4eUe%2BVYZqxj7%2F0r7xMQN7zAX3zLMNv4wehAsx1ncejDEs0UUITnRTsG%2BMdZFq2KmzXXAppdefBycWOzpf9Z%2BEnlXXFGCDRlva%2BO3h5WMCaY%3D%7Ctkp%3ABFBM7JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178546445161"
+  },
+  {
+   "title": "Sega Genesis Console Model 2 with all cords and controller🔥Works Great!",
+   "price": {
+    "raw": "$59.00",
+    "extracted": 59.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206659735208?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2WSFZ8F3E324WQZHCZ&hash=item301de14ea8%3Ag%3AHogAAeSwIAdq4gS3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fo8%2FJO1937Vd%2BsGugsAbEvm5dKlwMaLHSqI8zJWmTz6zoG7XXI1IeT7rRZ%2FQWPFnphhrN3BFUtbrU4gD0omevCHSQvUKyS0YXDrfn5ReIkSf6rBs3WB3JaK8FR4wI%2BIvGyMwPaTVLSsiSvSwufz2VCD7%2BJJUnJbr44HbWWX1Fqm0BWbu0jrBuVm7UqEozzgxYPlkAaGQXIUV5oAnXnJd00be63Gy2Pfh9Xw91eTnMxJVYMzSAGw03O3H3HsZZ8A9UexT7QEvstAXNGH%2Bk7PuINTBNn23vrKQm47L85s3gAO7uNKMU8DRlhcVeBX2GNSxE%3D%7Ctkp%3ABFBM7JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206659735208"
+  },
+  {
+   "title": "Sega Genesis Model 2 The Lion King Bundle CIB Complete in Box w/ Game NTSC 1993",
+   "price": {
+    "raw": "$314.99",
+    "extracted": 314.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800788113504?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2WPV0B5SH88RS3SKNT&hash=itemba72b0e860%3Ag%3A0a8AAeSwdENqzUUp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9R1C8wW3IYImYlySupSV60tp4609C7LM64nMmUBlwA8%2BqPaHJzGdHd8ezF8SXNSjI7b6PmwWgytlsGtZ2Ar1tKfISWuZrBpqMvQ8r820mjtnpUGSgcgfyVxvkl%2BGK1p%2Bj36bKJ%2FkRzzPvPqJHmBPVq0Hn%2Fnd2fonxLLMixD9vwrjUhl%2Bkn1qnpzQ4HnA0U73VG4ZgC%2Ficw6yfpgzfOj2PARMrErJIqkooe7ioWW6PdgBVeFUFDQfOWCU%2F9gHEdQIbGEu2PS%2Buc32NABvAA8apEPuPABJj%2Bpboa%2FBtH3PcAmJBt42uFRGHk2qPwr2jnGm4%3D%7Ctkp%3ABFBM7JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800788113504"
+  },
+  {
+   "title": "Sega Genesis Console 16-Bit Model 1601 w/ 2 Controllers, RF Switch, Power Cord",
+   "price": {
+    "raw": "$87.99",
+    "extracted": 87.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407323027775?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH2WB411BCWKFN7EZYYV&hash=item5ed658293f%3Ag%3A4HsAAeSw0VRq4lX0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FiWBVM5rH8ILBgOvAz8aGJ7dBUgNy7luKihs9%2BcjeqalfPFA81%2B9OEB1tsekPJPT6G2XAcwiNvREX0HnnYWyIW6kfMq7vxmlYSk%2BQf2vwST5kGbNGfR8gJtgd2xos%2BNrvzPklL3L8N023N1BnRp9hBcZYI6rAiPdYNr51eZBXZpF6jRCmjN9X2p8SfhBoNudqdcefY2JVkM%2FObzeeWXl9l1amgDmM%2FcUsnHdEoLJLRlNsYp2qZo9sYoBfyYSDUkhLwM577P5aHHOYuDhfTD5els75Glv4xnD8IuVn12s8clIySvGSddiINAJ%2B6Vzq80rA%3D%7Ctkp%3ABFBM7JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407323027775"
+  },
+  {
+   "title": "SEGA Genesis Model 1601 Console Bundle with 2 Controllers and 15 Games - Used",
+   "price": {
+    "raw": "$124.99",
+    "extracted": 124.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820300575097?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2XZHSFB15C7Z68KJBB&hash=itembefdb97179%3Ag%3AtdsAAeSw8bFq5j08&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FQipPxy6GoXUwPKn0qfDj0Rv4WtwXE%2FxDX0sMbpZo1LBBDv9G17Cwv3gKZnthWiHYamV%2BPaP4NY7MdpMPdlIBgvcKCyVG8AYNZOqxxySk5DX8FhuRwoNqIffgpuRvj3NS%2F49lcBxgLS9tAMbEO%2BBc9buCFpBUygei9ko65dkERdLrMCfCr7tw4avOkqKd3flJs3WtlfWKRkjixFQb42QYh1n8GRfB4Esv3O75sFUQvrP78u1HQGGCNLWdQ1Ta1qtNHQnjl7qR9Rd8L8gdU8WlO2yvvZPQMzxVeuImQCu3xJknggRzPzCghOxGcGQr2XFI%3D%7Ctkp%3ABk9SR-yR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820300575097"
+  },
+  {
+   "title": "Sega Genesis System Model 1 Console High Definition Graphics 16-BIT W Cords RARE",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267829885292?_skw=Sega+Genesis+game+console+black&epid=10017703704&itmmeta=01M6C4RH2XAS8NS510QXYB7ENF&hash=item3e5be7b96c%3Ag%3A158AAeSwcJxq5zKy&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9bUnU5oKZC8lhp78t5dy%2ByZpC3MI03XX3wPIX7L%2FnmrNxW1fH0%2FZvYy3ryS7Wbs9eWXV3ZWJ%2FVUDiHOPgS8GB%2BQqEcH%2BZnm3o%2FV%2FrCY8vZVwnbq27zPTCMbgPBeDkBlwV5eCVrvfBgOK%2BFscNLS%2FP6P5AYxfQjkZtdTOG4bGHMG3u%2Fo5uxmr%2Fh3O8y0v8U%2BNXDe9ywHkXVYwlZt95aaMgoh4w5MMUOMjdB1svr2bgqcpxD7jV590OVlAmvoqkKbbOD29sz4O1w3hKJVomENPlA%7Ctkp%3ABk9SR-yR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267829885292"
+  },
+  {
+   "title": "Sega Genesis Model 2 MK-1631 Console Bundle w/ OEM Controller & Cables TESTED",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900054416744?_skw=Sega+Genesis+game+console+black&epid=26023565051&itmmeta=01M6C4RH2XYXH6CMGHWRK54ZHE&hash=itemd18f6c7d68%3Ag%3ARrYAAeSwJMFq2AN0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9ZBWR5gZxg%2FkDLQzJ4K8%2FUAF9LAJJg5mOEZlUnRDW%2FpXvlcAjIS%2B8LL2qqV2Tl9x3w5qMw7BsPZ0EJoHyCNjcxacUi2u%2BcNqOLm0fSaU1zaZWujI3KWPInP11bR90kKCNjkMpm2weudU0n2wLBMOSOOKQau2jMDmP4rta8gQSB4Dg5pqY9t7N7jH26qv3lE8ZWrvwKONMfFjChPiZ6zbjWSIGSDFkE5HSjlm3xVpqp7HE40JpyRGtFO31%2Ff%2BSDoghzLzGhn2WuHuBfuLa9YEtP%7Ctkp%3ABk9SR-yR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900054416744"
+  },
+  {
+   "title": "SEGA Genesis Model 2 MK-1631 Home Console Black RF NTSC-U/C (US/Canada)",
+   "price": {
+    "raw": "$27.75",
+    "extracted": 27.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366771667089?_skw=Sega+Genesis+game+console+black&epid=5059913305&itmmeta=01M6C4RH2XPEVJ0TTM98ZMWHDT&hash=item55654b8091%3Ag%3A51cAAeSwNhhq5LNX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FUd34FajKNbz0FZc2QHqWygDQ%2FuFXnGf7NxOU1ROvFoir%2FZY2VQcpH687FZxL7nnNOp5HQyAguqIM%2FLWAwOwD7nWmfxCRPzZvNtj1QzQTyToJC5Kx6WqI26a5tLowmVRIF6hamXu0sDfOxowFmW4zh5OVPz0thLoM0sgRDTDwbCQ%2FyoXFvUaBiUIdq%2FKA58988nv%2FxKraCdmAJ9sDOd9LxiGt%2F4CD822EgSh39Z5%2BPigimN3m2s4wUEKhKqg%2Fix9aWs8%2BrB08El1HjsqE2Mli8%7Ctkp%3ABk9SR-yR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366771667089"
+  },
+  {
+   "title": "SEGA Genesis 16-Bit Home Console Bundle Black RF w/ 2 Controllers & Cables",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840028753562?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2X8E74MP9S88X3T1FX&hash=itemc3959d8e9a%3Ag%3A-3gAAeSwv4pq0rZ-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde99lYpTo6vymyp9Fzk7AR4uiRHl8tbDByF7TVIXugTnBILn2i%2FRDaJbgiE1Aoewk2blkCWyA%2BuUc1qk9lN8hb0VCZ%2FQKbhxsiwtLWDSmHbzg7oTVic0arWxX8sza3PpCjrTtSuQCE9Ftc2q%2Fe70fT7JLhNqj5dR7SBX%2BAO9lRqllI5qGrKVx1ymO19O5JT8uDdnJWOfrQGYEwLrymJq1Zr0gAJZZVogOYujuqsTsxQeNPzccN%2FOeuWeWTKpkhy1F%2B8oA6pHoE1nEEVimZhVu5%2BH%7Ctkp%3ABk9SR-yR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840028753562"
+  },
+  {
+   "title": "Sega Genesis Console Gaming System Black MK-1601",
+   "price": {
+    "raw": "$58.99",
+    "extracted": 58.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900042829102?_skw=Sega+Genesis+game+console+black&epid=10017703704&itmmeta=01M6C4RH2Y1JQG43E9CWCZA7TN&hash=itemd18ebbad2e%3Ag%3AGjYAAeSwUnNq36R5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BRW%2B7ZSkMgmBPeiB2oxKMvVxg8lDwmVtyo0WIPE7BuH6hLVe%2FFQdyIQ6g13e3AMtGK44%2FFTyWZjm%2FYJhKNICQ%2FQHqAN4Uwd2xYcU4QCq0jyJSBGaaJL9bC7nNR5q6lKU52bglHDJkPfK01Z%2BF4zafjOljNo4dvo5okghLoNhd1Pt6ju9WZUwfhSblD%2B%2FV2GQYtxUmLABBmknvGXF13LDol9P08XZ2GjLjH7mgCpHiMJJJGKI31mJVCX5lqqJpNY3IbmoP0q4eChCPLbhH%2FonBJBl9PgMC%2BgakLha4I3j05kwLSztpXQhmXOM0N4l9su7o%3D%7Ctkp%3ABk9SR-yR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900042829102"
+  },
+  {
+   "title": "Sega Genesis Console Gaming System Black 1601",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168820117137?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH2YP57J277NR4SH2B7H&hash=item274e768e91%3Ag%3AfiQAAeSwTRVqz84S&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8wXpPL%2BTuKQqJEXkwv2uy%2FqpqL0eaTmJh5%2BXY8Oio4XcyKiUdU2IOzKv9A8ui%2FtCLODQBVXnXRftl%2Bx7GaSAayHTZc2c%2BUrZEfQyHAsZAMHr1x6tXHF3BOCndK4d3BmUsgZcTQQZkFvlM8FjGlzCwz%2B2dSyzUgTkHrYG%2FADzZk13cb4s1CLpZ%2B%2Bcq0GhoAXD7QajBIlh0kFnHQsCSt5pSHtLoiAYmw7bBzh%2F5%2FYtXRqiNOSs0FvlAzePhK%2BmJhuaK5VGlSnflLAk%2B5QBTsTxHr4gqnkeFhyOrpKH36l6baCL76Y5ywzERWTGcuvYCRej8%3D%7Ctkp%3ABk9SR-yR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168820117137"
+  },
+  {
+   "title": "Vintage 1990’s Sega Genesis (Model 2) MK1631 Video Game Console Black",
+   "price": {
+    "raw": "$42.98",
+    "extracted": 42.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920094036105?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2YASKQGB5YD4VTPT8C&hash=itemd639e0d089%3Ag%3A7EIAAeSwgstq2ZVq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8avNMUgYWeupixM7fT6ZwU2NbB7vWPat3yOx7dbbb2c6iwr%2Bed6XNJw%2F2SVSlcHPPGf1G1zFbrM6bdXqLEfsM2OzjIOkFR7fb7To%2FrnW%2FmfoaeZ63KMeIaCX6W1Y3pK%2BIn9crZdtqJLDB9CQqQMxZgwKFZS3LeudNp%2BHFJk%2BO0y3P3ZyWnfYD1Os97cy8moFsK9zmgnEIZ1aw%2FjZLy645OIMDZbNLSs8m%2FtF%2FPE65zFh%2BRI1AKBf%2FWlds7Sxw3SgKG5Ks50US%2BubLuTHUzKRD6%7Ctkp%3ABk9SR-6R4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920094036105"
+  },
+  {
+   "title": "SEGA Genesis 16-Bit Home Console w/ Original Box Manual Controller & RF Cables",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407329533420?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2Y9NJ773Q9TEVB5KPG&hash=item5ed6bb6dec%3Ag%3Akr0AAeSwRR5q5ie-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde95C%2FbWdzK2--WR9ljiV7ZTTusCLjf41FUR73x9%2B%2Bnd1Q%2Fj2OZN6pOHmLEmXcvo51MMi8dVBtSHZuNq2PQHLguNVDTRt8r3vyTeyQOUwTYBca8lJ1K%2Bh%2BFbz5EU0OPqv67WfjMcav7NsI3aIeTPeZu%2FXOcO%2FcVzLTeLXlPJn0eTcJCI4nQJO0hPtQ42TyX3BFrhVxvn04iBQkLDwKnVE94cTh7DvsxkqTtll6Q%2FOzzB1jjC0hFEDX%2FI%2BtQkO%2FEAgCncST4dSmo%2FOoWPqD%2BZKOi3D5X%2F6SLCzN2kt9Wqj05OIhOgzVoORK%2F9tdqbCgfaA10%3D%7Ctkp%3ABk9SR-6R4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407329533420"
+  },
+  {
+   "title": "Sega Genesis Model 1601 Gen 1 Console System Bundle - Tested and Works",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327430287259?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH2ZAVQCKMVBSDRB2M3C&hash=item4c3c5daf9b%3Ag%3AzHsAAeSwQ9tq5HT8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BWyjYi9ctkoGRSQ2GtO1Z9Z%2BgXB410SC%2F7jMZaZzzdFEa1GeLZvRlbduPntFJqmkXo1Rj32BJa5Wy8qE%2FQ8vKNyCysmX5lTUx0kpa8yNk%2FkySRWipYjNDDdIkPi8%2FCfUL2OcAnAsr3W7dl34KVTYZGytorrr%2B16T0IvH6smn1aD0yvgro10PJAzAxl66QTCqTM1GTJBMomsi5SMRtrRjUf86J4Kt1V%2BHspowVPUaMhBqX7lRY6G83WcbSMlua3HeV7QVG%2B5kZLWx9RuXidEudB%7Ctkp%3ABk9SR-6R4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327430287259"
+  },
+  {
+   "title": "Sega Genesis Model 1 MK-1601 Console w/ Game and power cord TESTED",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287644053191?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH2Z36R6QDWBY36BZM19&hash=item42f8ebeec7%3Ag%3ABV4AAeSwwQtqzTLv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F7viUxUiT7cb250SFijl9PH414UznziT68TtWF3Fw5AORFteKITvrreVJtRMRXA0gNYtZK1UgenL6Vmck6bKF%2BwB2s0YndMV5ayh9LC0wb178JJp2oAe9LfmZoy9c89noqxptmLZFKlEfzJz0TDJQk7NR2qAhJHVLW8aw9vtQHfutsy4raxWiEcWdCw04%2FOuctq6vQMrEKclneKhDPjXbgPHiwtwHjA7OIAEgwQC9MeXHSgQZQPJqT3ezclXjNxWUFqK2nx7a1dXlTtgavAndL6NuO9mJstzHAb5zzODp9upSOOWyTCqSMMQoBkow8aEk%3D%7Ctkp%3ABk9SR-6R4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287644053191"
+  },
+  {
+   "title": "Sega Genesis Console Gaming System Black MK-1631",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318779708110?_skw=Sega+Genesis+game+console+black&epid=1024955297&itmmeta=01M6C4RH2Z6KKJVENC3PEDF4QZ&hash=item4a38c052ce%3Ag%3AkR0AAeSwjhxqjkSq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8XkfihBhBN4qgNp1%2FxR0EK7bgDbi5vXrCS4WKDoHVXWlj9d037gPopiNPHFGu8QhEosv1LqucEmvLG0x8n5yqVQazyKR3zN1OHLMjjRecPmiAtaA6Jmo52vXn5QGweOe0sjDmglGbLkqvXRh%2FGkfh3%2FI4y1o3RakYy5V5UcojKv3ikj1FVbJF1sQ56bN0WcPn%2B13DfgtDKvrydLgAwx9ipI9h8OUg%2BpnsQiU%2FKmun79MRxeti9LvA3DXH1%2B50PTv5EkGdv1ib5tcC7DwYU2daULdtCEAW7BnGJ0aPNSydyey8ZyPDijYrwfIwmSC6oTy8%3D%7Ctkp%3ABk9SR-6R4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318779708110"
+  },
+  {
+   "title": "SEGA 1601 Genesis System Console 16-Bit w/ Controller, Ac Adapter, FREE SHIPPING",
+   "price": {
+    "raw": "$72.97",
+    "extracted": 72.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398385215956?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH30ZYAFVM72VYK0G80Q&hash=item5cc19bf9d4%3Ag%3A4eYAAeSwp-ZqpGK0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8krARSQjTNCdIrCxjpnZ%2BBUekThJgT9RGdJ%2BHwLawHaD6C3xm59rk%2F9qZWmE6ZXY7Uf1RiKF4K6Fs9iHaac6NSPRBKi6XdXvQMUUnc%2BGoDeojPHYmOOdeGq7qckXHoYBsJpqlofQxMUBEh1eLsmr54Wlu%2BvJ08lQCzYR6qWGTNVWpeM2yCDit4R3lP3Qb%2B7Jv6II7BglqXajPkD47rBXZZxQoU8UyWPRYac%2BW0m%2BZqMTBHPLHZPe%2FYmHl12fvnjWNSgM41u%2FQDwQy3o4ayDm7o505rb3kCooK2d5I9%2FBExDmZySvNuJ4qq5%2FMZD6HWJCc%3D%7Ctkp%3ABFBM7pHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398385215956"
+  },
+  {
+   "title": "Sega Genesis Console 16-Bit - (1601)",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117431065487?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH30Q8H4WR0J0QSQDNEK&hash=item1b576fdb8f%3Ag%3AAe8AAeSwkVVqtpVP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Xyth1cCQ0lJi8EtcFpErIWv8LqUvFn8GypS8rlIJvACRfBXrFP9vfkhUSkRSdWHTPr9H8Q5J%2FM9J4S6rB88ZjwjQlqJMfV%2Ba7IfTCF0%2B3XKvvpO1B0KJ%2Bnfqto2Fw2jwZ2ENKGNa1GLwUR3ERKXbNp2RMn00wqn6q62GHfbU2VP90ewZ17rJRRu%2B63lPw1P54zSjQP%2F92oJBcmKzD%2B%2B2sjmwH%2FU%2FdHCvE7W0yCRcrVvHhWn2Hwzno%2By72fctJSo3f2qFfig%2Fpv5k4ZA5YKQhZDamn3qt2ukLMIY3ixS5Ng0DNG3lmcSFJCwud14Igp4E%3D%7Ctkp%3ABFBM7pHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117431065487"
+  },
+  {
+   "title": "SEGA Genesis Mini 2900+ HDMI Game Console w/ NES GBC Nintendo Sega CD 32X & More",
+   "price": {
+    "raw": "$169.95",
+    "extracted": 169.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227591694425?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH30APGWRTYVYWAW63JZ&hash=item34fd85a859%3Ag%3A0ZAAAeSwEwJq4U9Y&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BMdFduezFpnFXk%2BmH%2BMPT%2BXUr%2FKtq7MqhpTTKme6BrY%2BhrQ5EJC3UvM%2F7qBQCHV%2Bmdo37dakXe5gVFCqWOTMcazxocTmVxGYTJP4rNXKWYornSd0SW7Ubt2WUTFDBQI5ufYtSIz93u8juKXXH9cGxfqSnivYwune3Y8EGg1khiIuURT9lfXhMpWZmN%2BxDVeDSUMEPpltF5wzLyrFJajmzDw2Y2kCGnyc%2FLdjIv1NZsbxTRdRnfJfO1TKYDckB2MSh4VkfuCwh8omHRLvweR2GehGeP4aXxiwt9MCTVJuVmMTrW9VloW1qOt6IaJkHbDsw%3D%7Ctkp%3ABFBM7pHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227591694425"
+  },
+  {
+   "title": "Sega Genesis Console 16-Bit bundle: 5 games , 3 OEM controllers and game holder",
+   "price": {
+    "raw": "$275.50",
+    "extracted": 275.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307237937271?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH31ME4WRH29QPWNDF69&hash=item4788cee077%3Ag%3ATAEAAeSwvmpq1Q6u&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B2t3zK8mvQiqLtpWeLnbZcRI%2BVJsXpFp8BlMr0sa1yjgxK420YIld3dXXj6jJ34oyl9GabcoDmM%2BNxDu2vUz99ZSJ2W9%2Bk3Mg8j6TrpVx91hR6uZddW339xRey4uQkQaHWxbN5v2eOOeYNek5o3TVUinWDhPQdO9P9TdSFFo2jv2PIkPae%2ByAz%2Fmvbj1yOdsvS59XDFicAK1XkSe9pwf4tR%2BXJwCJr45swP%2BTTt23WVholuu%2FsoC3nb8UigQ5gw3MeTZcwETnJjpUjWgut6BMZ%2FietUfW6gs5Te6sQi%2B3cK4vDOQXiCgtUJwHFCj9d3g0%3D%7Ctkp%3ABFBM7pHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307237937271"
+  },
+  {
+   "title": "✨Sega Genesis Model 2 Console Bundle 2 Controllers, Tested ✅ + 6 Random Games‼️",
+   "price": {
+    "raw": "$74.95",
+    "extracted": 74.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960130626851?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH31198YJ5BX0QG6ZMFG&hash=itemdf8c3eb523%3Ag%3AbTQAAeSwC0Jq49Ow&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F1WlDUXDZMXRxqhX9uvNS%2F5%2B3MkZC2jChwlqvGGNxdBHmK419xyM3hv5dXnRsmvJyMIdYGRy3w1EmIKAbhRUhuv49gNEa2%2BpIIrAJa1nRk%2B%2FvORjMSNj4A8KdB534y6T3KjcyEFsxw9LQYs0qLT1iDU1c%2F3wgSV6FAGQ76JuaAixkIaJmhb92iHboKeH4Nn0hLQacq3cKJT4i0cWWwDFvxECyjiYy8sdQwmhfStKmBVtKd4gvIIDzQJzcbYJ9AUM68qqzROyhb5Sq3Z4e91AgVC%2BxWdlrBdfEHcYXTUbJIe7W5IXXjEgPOG7Xr8jqA%2Bxk%3D%7Ctkp%3ABk9SR-6R4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960130626851"
+  },
+  {
+   "title": "Sega Genesis MK-1631 Black NTSC-U/C Home Video Game Console RF RCA",
+   "price": {
+    "raw": "$39.95",
+    "extracted": 39.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840072780774?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH311TP58PW6ZX798ZGB&hash=itemc3983d5be6%3Ag%3ATkMAAeSwXolq47ZC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B5sMXXUsnbYmrDRTy2CtmWVkoaFqFuUZrX%2Fex%2FyAwULOGVfp7IriabOGIKdKEfd4ESXlgx7KZJ78XUHDot5jwme9Zn40qdhij%2Bo7P70Q4v38t4qUQME2wH%2BaJi%2FRg5CbVxh%2FnyiLwDBgAOKz2V62k%2FYLnq1GuUnrEF%2BKeRC3Uv09wMpqFLUIDnFUrL2Vly3MoFO6Lpae98AwnHjJIGWaGQJAfkVain7vKNIja2Xh6k%2Bw3HQvYd1OUgWnWUnTkp35DGG7DAmyDEuSMFL%2BCrFKVEGZxNyEABXZ5UifwQCUDhYUCroBiBZBfZNAOuGiyJjA4%3D%7Ctkp%3ABk9SR_CR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840072780774"
+  },
+  {
+   "title": "SEGA Genesis Model 3 MK-1461 Video Game Console Bundle 2 OEM Controllers Power",
+   "price": {
+    "raw": "$69.95",
+    "extracted": 69.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267807515513?_skw=Sega+Genesis+game+console+black&epid=10045856536&itmmeta=01M6C4RH32X1NDXV51VCRD7A4W&hash=item3e5a926379%3Ag%3AgGsAAeSw0jZqxyCP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BWBtMSii29jUTWjLVYInbcavwcWorybGQ3v0oFI5Q6UW5kykyZHgseJjfr%2BUFl9lKrGJDUZhzMGu13FOay63QkpTss%2BY21iMIYMnwM0RtqqhzVfehVAoc0rEJTRuzFx6vJ4%2By6Fcnsx7ylkArtU2dbjE%2FFJxWFp3ysZTN01XG1QVV19DwP%2FknxHnCjCvebJdTKDjrhcx0Fd5Qg%2FOiFaTybGvmRBh9pwAq0IroHkcG5QbpTfe50ge%2F5tShsDS24t38ljfSgZgOpVvH8Af3wzq3o%7Ctkp%3ABk9SR_CR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267807515513"
+  },
+  {
+   "title": "Sega Genesis Console Model 2 - MK-1631 - With Cables & Controller - Tested",
+   "price": {
+    "raw": "$49.95",
+    "extracted": 49.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137815788289?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH32FHXQZ5Q6PF0V6EG6&hash=item2016760b01%3Ag%3AxGoAAeSwXf5qqEKF&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bv8H%2FbEkq1A36y93pY%2B8JfM4BoyByD7y3pHcwa7RxHUVTpNYIe%2FcUk195hmA%2BYA9Z6P2KkYPvC4R2jhnzS5OIFJqPNJcZyDxAgKSuZ126FLdYVEsD25RzMyNaxdOQZD6WInFrBgYW6EGEaHmLYgjPfqU%2FBwe5tgzCYo6SQxzxYKKd6FUS1Nbl%2FOdoftKIAWyxHl2S4nxjQiYZS8cjcgksFPBZR9QUf9zEnYPCRTTEkuDku4i3lKEGONhaILPQAWnqcVouOGeCo%2B6huP0Hmifeo%7Ctkp%3ABk9SR_CR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137815788289"
+  },
+  {
+   "title": "SEGA Genesis Classic Black Game Console with 81 Preloaded Games and Sonic Mortal",
+   "price": {
+    "raw": "$39.90",
+    "extracted": 39.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820283723654?_skw=Sega+Genesis+game+console+black&epid=4009269977&itmmeta=01M6C4RH32375K1PT7GYB42NPE&hash=itembefcb84f86%3Ag%3A9RAAAeSwaXJq4Kyq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8yLbTXGrk3eaRqGW5D0oJszX2tWova6VShEXdMASL0aRg5GDrMcRMwTkpP2GabyGBmJl%2F6KiVeoCfcn8S1WJWpy5YAbcQc7Ya9pCHm1f4DGFctKST5eUtuMDcXWGEQtj9fYE5tHzbJp%2B50VzmT9YBDveURn1%2FDvIBJfh3RXBf--V6MBKYWSvN7Kw2iS9gALBrTBQMzAFSc4WS8fsF%2FrgkhelxlSjaXKTJdwx25cOT%2FjFHz3zU3iT2ZoXC0gq2RXsK0wfTUFRmvctJhSVe5B4JKqD%2BpZArBpZPcd%2FM25lrjsGjJh%2F4SO6OcrtfxeaZoOZU%3D%7Ctkp%3ABk9SR_CR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820283723654"
+  },
+  {
+   "title": "Sega Genesis Model 1601 Gen 1 Console System Bundle - Tested and Works",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800855990634?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH33Q4D5236C6EDPNQE4&hash=itemba76bca16a%3Ag%3AC-cAAeSwgtRq5Lac&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B84JCWu%2F6lmQvEO%2BW%2FFAy61rwJG%2FrWVuslReePmT5MMA1CX74vvY7sJHt1r6bMuFzLgQALYqdHZbh6JRuLMBWCdXhg7AX8kOYiHAAvDkLV1MTXszTXAUL6DkHoqtoTGLqtcW%2FMJPSgPmRsgrzawIWbJGk74x2vyI0Mva18gZUHx0sHeMv91H8pj1EwPUWvJ8Rk4EKgzRMEVeZez6RZtwdxT1uaPD4QK052t6mVv9oLCxP2IX%2FZmEZRN39ewVg5pQ3PRdnsRaDD4nLPmifyR9cf%7Ctkp%3ABk9SR_CR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800855990634"
+  },
+  {
+   "title": "SEGA Genesis Altered Beast Home Console - Black (MK-1601) Not Tested No Cords",
+   "price": {
+    "raw": "$59.25",
+    "extracted": 59.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398442655019?_skw=Sega+Genesis+game+console+black&epid=10017703704&itmmeta=01M6C4RH336BF9VEDWDVPS9H77&hash=item5cc5086d2b%3Ag%3Ah0cAAeSwmS5prHDP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FXR2zT3v56CDlyqSrSY3sqo8jIGGHkp0D5849aRlY2uzL3D9dknSxCZ7Ei3LrzU6JHZb0H9Jk7e%2B%2F4t11NxLHQZMGnu5%2FmIhcPmVZc9jPSToYiphUEtl5j3ntAWZJW%2BzIXg3KZwP128wU4Cy%2B6q3VdHn4aMuOAdJ9%2BaFg8bDGiZy0m0qeW2kDLBlJ4J2%2FHChCih8ynTHPpZ3xuKBXyBpA%2F93gXUuU7INuVkRjqvfC5kN1LimyEgKQuIvqVvpwFTmR9%2FZ3jndDeMyz6BRGmdRjrn0a7FRRBLsjpfttTH8EgA5QUFrOE6%2BrIh8qI7oXJni0%3D%7Ctkp%3ABFBM8JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398442655019"
+  },
+  {
+   "title": "SEGA Genesis Console Bundle Black 2 Controllers AC AV Sonic + Manual WORKS",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147642188509?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH33TJ74YA5T48YSZVJ8&hash=item22602902dd%3Ag%3Aml4AAeSw1kBq1Z7P&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BvY5WbKeh9V6YwmVdN589R1M%2Bq9GehsVxPnPhBMKKl3gYDiXe3J3YPM84gfVxlcATfnc3T18aOe9G8Q5zkxhCtzEhHED%2FgDmj7KagqXawAvXt7ELg%2FHsERMjmsnfrqqga5X76i%2BgxSQCzZNr4gFACyIMxrFkOgxNOkL03yyfy44KQxX28fXDa7Sg5oZV3darzsea%2FWIYKJ7rHaTL8TI%2BWGXniU%2BG9q2t%2FGikhyL6ebX7%2FPjySymnq9En7LZAoY%2F2SqC4F85m0q%2FhoxL54R7smRfZ2Xyma%2Fjmp5mt3g7lz2tEvVO8ZK34zauE2mSUQKXRI%3D%7Ctkp%3ABFBM8JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147642188509"
+  },
+  {
+   "title": "Sega Genesis Console Gaming System Only Black 1601",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880038735093?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH343DBFKZADNCXH70SB&hash=itemcce6656cf5%3Ag%3AuzwAAeSwuI1q2Sdn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BMGRnuqIYLREqefPFtvFSXPrdntmqmr0gfTdbs4ug%2FPSaAO96eE0%2FzN48AXEB2IJ4YwpLN0zumQU7ISko6%2FRCc0eGb7CcGrQ4vYAedOe8ri2E7%2BIrv6DIWwrx%2BADpU99QyloI1NY6pl6PFUTIWUYsVkgBTE1xDJv2j%2FkvPpY0f%2F0EXXYr6EmZQPZdSBiUFXAn%2FOXUJ80dqcST%2F3rGcvT3SBTmI8OGsCbF1W7ED0GC%2FN0RXp98UGXH%2BytGWjvEFKlz7Idd4%2Fv%2BZ9XMqvKeyTBKfhGhZYKIamk1ctlf4IiNt4OvAazDU8qZfYy80jag4qzk%3D%7Ctkp%3ABk9SR_CR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880038735093"
+  },
+  {
+   "title": "Sega Genesis Console Gaming System Black",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298637057459?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH34N7JNH783GYNGZWWB&hash=item458827ddb3%3Ag%3AZn8AAeSwjh5ql1Gc&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8HnhG94u2PUyU79WQ8UYHfZl5ldftLCMt8md8FBDmi0e%2Fmi%2FEk0IbcRMFueS7su65wTH9L2a0gh43mksMvZ4eCsESASst39AH3PJcHjH9ZujsSrlqRRAJ4jWlwHSxB0ZzWu8UgcYjB%2FD5PaBHkNyySBwe0M76Nw%2FmezDEyZ4NpnKNIsNzcTOzlL%2FJbdU%2BTy3cK2fbwW2Ulaa46IA0GHS8EXeUd9xk0IDCdZNpoAq9IZ%2BEKRbrYXZjtgYuUSUvXIwGNMkR5b%2BzbtvB7ls3m5DCi%7Ctkp%3ABk9SR_CR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298637057459"
+  },
+  {
+   "title": "Sega Genesis Console Bundle With Games Clean TESTED WORKING",
+   "price": {
+    "raw": "$109.95",
+    "extracted": 109.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168818380528?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH34T6X8VEPQ96K6HB8Q&hash=item274e5c0ef0%3Ag%3ART8AAeSwZe9q36zc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FeEKS3v7xC5rixn%2Bi90qk%2FkIQMxL%2Bf54b1Vd5S9NnQCLHoz5y7dqtMhYOpTCbcjW8Y0pR0S4te4hHiDa1hk2KOFsiWqHXk3qRLLhC40XI5KhBaBqEjnMLm9wk6qxj0IpTJRky0knI4aT3o6lZrouxX2zTXtrxzA%2B8%2FQ43hIzyB7lwqUzdIQpdUd1Fe1p%2Fe0RhKiD9ea9KUlCKO0gz3yawo%2BdEX2Tk40KON1DtsnXxN9zYStDL1lkFZ6yXC3WpXBZiOpsP7ppH75BkxlCF5b4NwoMwMv6yQTYf0YIrBUjVRQEgKaSAbMCs44%2BhxbLIAnxU%3D%7Ctkp%3ABk9SR_CR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168818380528"
+  },
+  {
+   "title": "Sega Genesis Black Video Game Console, 2 Games",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267813125191?_skw=Sega+Genesis+game+console+black&epid=5059913305&itmmeta=01M6C4RH35SD22T7Y2CYTCT9GA&hash=item3e5ae7fc47%3Ag%3AGyEAAeSwmZNqzuJe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8qy9S%2FluuDvV4lIECEsJN5nk9bMM42%2FfYfOeZTlihEZLrm%2BKxquA5vuVhsNgwoZ0BhaBnuScwbuOfmIrh4PuPEzVDd5PJpLrAB%2F6hXRMlIhbxqQAM5QPK%2BbukV0CTEA6JMCs%2BYhXlK8z2q7nikhB%2BYCkSwTFGuiAGHouaLJhsRTBTDSZkXhBytT9ZCixF8o4LwWOlpLr1afX1YsTVxqOYbZ0e4dJTcHK5mMHbXn0KIC3Nddy46rh%2BXK7k9NuIyXgpVWwZ%2FCmAnvIg3iEnF%2BCIr%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267813125191"
+  },
+  {
+   "title": "Sega Genesis 16-Bit Console Black Vintage Bundle With Game And Controller PARTS",
+   "price": {
+    "raw": "$37.99",
+    "extracted": 37.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307233706208?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH35HY12HHS9F8DXYBBY&hash=item47888e50e0%3Ag%3AVaUAAeSwsppq0Zaf&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9NZYyWhJEL99YYhky8i6Xui%2By62cPEdrCp2HjxAxFqgD4oAgGb8vu4F21fU052nKg1tdDPDRx9h%2Byp46PNXt4cF8AC5lzXqyVw6qLKMeUiKH%2B6pUh80zTR%2F9ARdXu6W%2BokZKMuvTE5bCJz25d9IXD2HxeJ3KnKli9Mmo9x%2F7%2BqNav4kMkzBMVZJ3JoCiacUxdWWIXLb44fa5IH9F0Ws3nlW%2FSs39dklXlCzsFmURrgaB0arbjEvLqiLUZPhFy2tYa%2BQlK3r3MEKiD8f24e2Hq4%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307233706208"
+  },
+  {
+   "title": "SEGA Genesis 2 Console Black w/ 2 Wired Controllers NTSC-U/C MK-1461",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227539028187?_skw=Sega+Genesis+game+console+black&epid=10045856536&itmmeta=01M6C4RH35XDSD3V1P4ZGCF8YT&hash=item34fa6208db%3Ag%3AJOwAAeSwGRBqtpHm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Wy88u%2BzV1JuHdUkpBwmowv74TsRro%2BtUx0YGhv9kWon%2BbCuw6NY7HoiEUZKjI3b6O9PIzkvP1IPG6hJ0XK8rO0emaZ7cv4t3pXerBxphRUhs1BBMdT4tL%2FcD%2B0e9bFd%2F%2B5BE9ICREt7MJzhlS8f5al69y%2F9ogKVlKnDWFw9GO7vzgbtW7yUCx7KUPfiPiROdn4zs0kqHAwRm2jTpKDx3dRGbJuWhAgDb6F1W38dakZ4GVxYPevrHxpZaDn7hsn0Q%2Bu%2B%2BJQbDJKsetDH16z%2BsJAOLPr26rrklbN5lenuS6KIkzWLGfVn4ePoqZVfXKo7c%3D%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227539028187"
+  },
+  {
+   "title": "Tested Working SEGA Genesis Model 2 MK-1631 Video Game Console-ONLY",
+   "price": {
+    "raw": "$38.43",
+    "extracted": 38.43
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168827996115?_skw=Sega+Genesis+game+console+black&epid=1024955297&itmmeta=01M6C4RH35NA9FKDK4HC2YF2WP&hash=item274eeec7d3%3Ag%3A1XAAAeSw8Adq4s5J&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9LMKEEHZQQ1J3EH2Q2TDZeVoLU--z0dCLTF%2B0pVBp5iRpo91nOWMBkEe4tj5pLUE8kyFmq7UuOyhi5QMEX5dvYbUGKP7LYX8mvJM%2FAcxZ6ho3tzRb%2BGfYFh2%2FjX6xsm947Ybik3p1U2Jl8C6xDDa9o%2BOwD%2Fo7Qn6jKeI%2BkWWLI6A%2FrcVLfTFMWafsqd7%2F5D8wSldGMO40mQkfhY%2BjdkkhfKKDbPNmQuCR44pN4vBL54ZxZCmBH3oNNU7Sk3U9a5OhggT5NHknkOmBSPH38pbMElU%2BfeDHYU2dB5Q9q1ETkbBh4I42Xu3UmwWhYFsB%2B8H0%3D%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168827996115"
+  },
+  {
+   "title": "Sega Genesis 16-Bit Console Gaming System Black MK-16000",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307145924699?_skw=Sega+Genesis+game+console+black&epid=14051150250&itmmeta=01M6C4RH36890DMCT98197DGCF&hash=item478352e05b%3Ag%3A498AAeSwRHNqjde4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8nwHL3jJbYTLHrV2%2FmpRkkfTBzuGf0uISlywx9eBKUE%2B%2BAMBhhPvl9x9IKD2LHEE6yhukybcFUVhpHzEmw9tzCNjv8mGolL4msnBDB3QyUM62ovOCHsf7DEChvgYWc2r0w%2BAx905CrJMkFcfYfuaLzVokuoPM%2FoQt0ClyoT31TVxCl0aaWpL0oJAKYwz2BQUMc3uCOPu4i9mjvBnvFHF9QnJEC%2FVRpliuxiOmij0ygqx70tK4MpUy8%2Bs6pS7oTzAuGSrUPRfgujX0JpG8kZiNIu3%2BCi8D3QKgpsKY7Dxe0yGHw7darbt90YkJ4QinyOz0%3D%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307145924699"
+  },
+  {
+   "title": "Sega Genesis 16 Bit Console Bundle 2 Controllers, Cable",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820244011883?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH36QK2P9TPNAHXQ1VJP&hash=itembefa5a5b6b%3Ag%3ATCQAAeSwke9q0ZfW&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8qV5NQlF%2BUN4WvVR5Cyv9%2F%2BIPhPhvgN98oGg2ukHfb%2FfNZLcYIILl%2BOKTw3ST6UzpvDWJzRu7dhpd%2Bw4r0169XMpaBfWZzxRuCdyPSDARgeMew3AGEUuZ59KBuO0raK%2F82ytEioxVdTG%2Fjx7lxPHfM49K2erCEwZW7x3tbJCRBPNg13FD1w5soIWCZJtKJfw4jpE9L5xdDWMD%2BrSepsGx6cC3SWbkzHiGSCpt31R3yk21pMiCDabPMw4BXQROFjwogfP9e6%2BKWVnC4J3gLRGy2%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820244011883"
+  },
+  {
+   "title": "SEGA Genesis Console Model 1601 w/ Controllers (2), Power Cable, RF -- TESTED",
+   "price": {
+    "raw": "$84.99",
+    "extracted": 84.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227562783843?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH36GRNHC9EC1W9E2GJH&hash=item34fbcc8463%3Ag%3A1HsAAeSwshRqy9pd&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bibtnv0BSgpZDDZeYtkTRkfT2Sf4N3xe6r2ZYpv25jA47THGxS0XvszvVltXGhTTuqStQI%2B4fpNnNHJCWu0Bi8W%2BrrhrCqJV2TVSaxsW%2FHXQ63QzE5hFX4IJIxKiT5wwrgz%2BgceZW1ftHU5eRl4u3XnLP5F1LbwRTCHL7QQf6UE9jFsna3mU7e8%2FhbAPsLKiB3YPVoY1wjk6UV0xg5qKE%2BjZrT3mPMfXTSN%2BDCvlNelYeCsEChtzaPc0kAfHvyZJhoJGtMKB81g6O3kfeYnyJ%2F%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227562783843"
+  },
+  {
+   "title": "Sega Genesis 16-Bit Console 1601 BUNDLE with Controller And 3 Games CIB",
+   "price": {
+    "raw": "$169.99",
+    "extracted": 169.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307260644385?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH36WS65ZP6VTAHTAGGC&hash=item478a295c21%3Ag%3Aa2gAAeSwOfxq53Yv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FjjXDSgFTS0T4pWvSLGnj2m2rHZJZVa9QBnLIG0GlxYgJY2ZWaozGelXh9VjfPBf7VZiJjpscSWMzUoutWWAVYlDM8rwReQpI8a5Bl3DXVeRBsx7ziDHQDwXyqL8bGYWPcdtHjtRekxaujY0peqSSXuEe437OqM38kTdE7or%2B7YcHrQYagLODU1aYNGGNsLr5ZzPnfZam7tdUr7%2FhyNbP4CmSVXHTgCqf57CfLFgsw7FVDa70iV6ETC6s%2FCQ1Sn9zWchtU7RMGOFCHCdZshL4S%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307260644385"
+  },
+  {
+   "title": "Sega Genesis Model 1 Console System Tested w/controller & game High Def *used*",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366710656718?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH36D1QNAHZVSP6PN0FV&hash=item5561a88ece%3Ag%3AEX0AAeSwG2Vqwm7b&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FD9QiWmHcWriqziU1F4er0Zw6fwrShQKXii4pN%2BgVH6d5RlxcKsEwTFR--8ZCj%2FMxQTEYjtbQThxLMO2VHUApO30mQ9VuXwZ4j8HeY988D8JXKWJIPK5YK9hBtcqDQgpkm%2Fj1gy%2F9jmSm39VRVFUn0fqDROK2u9MV7NQ2eywpgc4Hkjqp%2FarrDvqlc86g8lekcXQgmaFX%2FsxT%2Fjun06OREiWQr3t72BogwhaKfRE3%2BCaVlzLVq0jyUG3xXUoAXTeI0%2FJthg3P%2FGa9Ze5Q1rudKSj91MJ6siMNBZU3vKbkv1c98TjCAhF%2BITdHeG47zgkc%3D%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366710656718"
+  },
+  {
+   "title": "Sega Genesis Console 16-Bit - (Model 1601) & Power Supply (Model 1602) Powers On",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327423153473?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH37B0T8X4T9HDSGCMST&hash=item4c3bf0d541%3Ag%3AbVgAAeSwSiVq3irq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FaXhdY57OXlYIusuRHbK8iGgaZvIPYxxrvm32S32qVCaPot0U0%2FzWzRd3hkt9joO839O0IFBMSabo%2BM%2Fu9EEzFGu3VcQPtqjjsKHJHp3tCRN65FZXvfTkvT6pyYVEhgfkFBH5qublrwmxw5LWwqMlIpsxFaLdWCDZ34WOYPYmMbm77bh%2FBt2SuTtLbmvWhYnh2SoMDDsCFTIFn4lZM1GbFRLVaoFRe22wibrTeX3Ue1kgwR1oL0%2FHHghynYaEPSQkXMaJUfuUwLOfeJX9VEtZbYf%2BcQ8SAqxnAnox22TgWFqTDa9JVWsx3Sd2Uac2rUBw%3D%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327423153473"
+  },
+  {
+   "title": "Sega Genesis Model 1 Console System - High Definition & Completely Restored !!",
+   "price": {
+    "raw": "$174.99",
+    "extracted": 174.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/154506871034?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH37ZYEPQBSX16JH2RPS&hash=item23f953c0fa%3Ag%3AhtAAAeSw7AxpxsW1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F0YpVWu6nDOkf9XJcbX5QpgNCWD%2FkZ9GeJavULNOdTRgiKRG86VcvDvJXE%2BB%2FaLs%2B%2B9Im1mJ4HrEZ91DAsGFQFnG9zkCwq%2Bwf6Hxw0PGfkDl6Vr4LIMJGU%2FDNbMNTMYXxwavRPXTejfxZ1K5xngEOkCRtdrAvVfjKnldXBzPmo97ofwpx9uxM%2FaeAwdSLLmp7U8pxlebD99exSbZYaST29zmLGrvX5qmOQPmVtYmwhewGuOYpoZyi6yJ1HYV7BPFCOHicbAQLIdjUV8P1iZxbUCNRMSshkhyjNEuumIv%2BRE5xxlk4RbKnycEShRY7swMA%3D%7Ctkp%3ABk9SR_KR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "154506871034"
+  },
+  {
+   "title": "Sega Genesis Model 1 Console System Black OEM Original Tested HDTV Ready",
+   "price": {
+    "raw": "$95.99",
+    "extracted": 95.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377608733516?_skw=Sega+Genesis+game+console+black&epid=22056259118&itmmeta=01M6C4RH37S92VPEDYY0M091XY&hash=item57eb3c034c%3Ag%3ApH0AAeSwGFdq5N%7Ex&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9uLOH18npZ7Gb2wySmhsHW87YdYf%2F%2BzbxbYSf9SNKvfU8hZtk2EMnART8BjT1N5CiEoLxy7H1pAjdJAs%2FF%2FK1xTc%2BCwJIfyiPWtn4nr7YUB7rcY0E8rh7Lx1p5GE2Yenpo4pQn2m9gj7XEByvAkd6wuQHqT%2B3SlHLakq4TVfpCvJuRSYr%2B%2BS%2F9NHdOG1Vn1fwqL8tkp3NZv174AZj7Kcynsxing5%2B1%2F5rr15GFW%2FDo%2BtabfKNortAIWYVFqLH%2Boz26C2%2FRFCpl82qJ%2FeMShY4XiND7Y2cWgcfi3MLrFQ5EmitHZ%2B9OTyliM40KKKSO4Ek%3D%7Ctkp%3ABk9SR_SR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377608733516"
+  },
+  {
+   "title": "Sega Genesis Console Gaming System Black MK-1601",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188882205374?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH37W0551MM5FZG2NPKN&hash=item2bfa41babe%3Ag%3ANV4AAeSwxqFqmgjR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FJBqv2Ote3MqXyuzkHowI8zPVHK57xzKN25JN3FP5c5jcERdViAoJYsC0wYPCa%2BWNUi4jAoQ%2F25TMkVlrFHR8TnFZ7bt87GJ7pAaRpwEvEf1X8cnOZ63WqbvSjlK2S8HzRGoqnHbR%2FCww3n5kVTlVaew14PiaaH%2BbcKBDvj01mTQB%2Fg6cJEGGtupkpEbGjVAq71TD6mhODLqgRaoEBg0l50ZrT%2Bq9CBPXZ%2BWars%2F9fdQhRQru7w5Tsl8CIdJ7JkZI6AWbGBqyHjeF8%2FFUreY3m%7Ctkp%3ABk9SR_SR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188882205374"
+  },
+  {
+   "title": "Sega Genesis Model 2 MK-1631 Console Only",
+   "price": {
+    "raw": "$33.25",
+    "extracted": 33.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117493118587?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH37FQP73MY59HMEMW04&hash=item1b5b22b67b%3Ag%3AeboAAeSwmaRq44uY&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BoiwGuT97Nfz4cmGZ7V%2FxfpuJjdkmJSBD4xokvqAcr08ID2InsHslK4YAP%2BoFqbPDc9sxirxjHcS2UPTmXABi9sRvnOtmvM2KydicpJxkXqZUWX%2BlkFJM7D5K%2BGk%2F57XIqOWx38xz43M21uivPrlEtEZM%2BSd8SIiZbmY8VpcXcNFtID6iXKHuVhBvQM8V5eLwP4PGjyTPf22w%2BKs79OgJqmWUba7V37JeZEwsHiDSrviQ374znVEEWIlTv27oJj8edMnxOiLCYxLj8Yme7v9D2%7Ctkp%3ABk9SR_SR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117493118587"
+  },
+  {
+   "title": "Sega Genesis Black Video Game Console Controllers 2 Games and All Cables",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820076663294?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH371DX7WTE3R4D20Z2X&hash=itembef060d1fe%3Ag%3ADCYAAeSwxFVql6q8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FFW00dKlflPJ0wfcknuAi6HDz8GavGPHngX3HFV9cBQQn7zcqWySaPf7xbb24AlXetbJ2DovG9vJ8YBPLoxfwlSqMvMMVRcmlDzvUbsLIoCFM%2Fnw3hY4Iph5rq8YTM6XslromNeKY%2FpIXWKx6VUvHmxmkCNH0nfwwgmu1PUBtq6mg%2BRGEmbCryKQA7dhhAbjDVZsSPwJTvvk%2FPM5XR%2FdFxrFsopKZrehp8g1JdzIWtqVY4zFxqentNeAZPkm%2B81wiEDR4aORF2JOJUP%2B9eZc8CaZ6o4aLmhS75175lCNT8MB5KQBoVQSobfnR8J5aLaK0%3D%7Ctkp%3ABk9SR_SR4oSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820076663294"
+  },
+  {
+   "title": "Vintage Sega Genesis Model 1 1601 Console Sonic Bundle Box Controller No Game",
+   "price": {
+    "raw": "$111.99",
+    "extracted": 111.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820190602953?_skw=Sega+Genesis+game+console+black&epid=15063519211&itmmeta=01M6C4RH38A4XJN2KEDFDC4DKR&hash=itembef72b66c9%3Ag%3Aj4kAAeSwq-JqvVx5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde85GGSE55Tg95y780OEzbOXDircNq6EbODxAHikUINUYbJR60Oz1l6LX2FRnibrVZtYRG%2BgXoqrEvJGeiF7wOob%2B56ijvWgG4OdJJTYMJvjUAScgB3ijXGnNoCUoX0D%2FcfNjBFQNdiYxWDO0UzXuLnd4q0AyvTNY26L%2B%2FPXEt3npViLGMHVuuV%2FYdyUEj7VnfF0hvVhth3dZowOcfwZzkRPyP9lpYkT0eH9aYbQR6bj0c8tODLrXVROg5dBy4GFp9fNBiHhGhiB5%2FpuR4BRVT1knFgHONLxPnE0mKaX6YW8ffKwdi7Z75B0zFN%2FwVn%2Fq2c%3D%7Ctkp%3ABFBM9JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820190602953"
+  },
+  {
+   "title": "Sega Genesis Model 2 Console Bundle Lot w/2 Controllers, Cables & 6 Games Tested",
+   "price": {
+    "raw": "$83.69",
+    "extracted": 83.69
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407322672711?_skw=Sega+Genesis+game+console+black&itmmeta=01M6C4RH38QX0J18SBDS9MRNFC&hash=item5ed652be47%3Ag%3AlZIAAeSwfmdq4iEn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9BWwM1TQFJI3ThQFeIhaVMY4Jg9Pr5yCR2HQf0sjYHij8Y6qV7NEgfef8PIcHB7eg2AwTVzhhh%2FUAkgukT2xU7Wr%2FNXNJ14Gr%2FcDGvf%2B41C81i7JZqPk1%2BpZ8t6lGKp1GtaUS5DVuYl%2BRaAUGBzAL1FErdB3kSZ%2B1qWCJP4ur7lBxpCqK%2BLvUcq7LiZJk5D63Cbnmz82h58DUtmxKlRMa1YdR8H3KtPKK3V11hdfWBRrxn1nBQwQajZlOY1KQ1O4xpwFKq5mUS3MkoJ8vFeDYG7crySy1ilpdO9CUhfIhV%2FgdsnebHrZ%2BZN416o%2Fhusvw%3D%7Ctkp%3ABFBM9JHihLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407322672711"
+  }
+ ]
+}

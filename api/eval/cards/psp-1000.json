@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Sony",
+    "product": "handheld game console",
+    "visible_text": "SONY PSP",
+    "search_query": "Sony PSP handheld console",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": null,
+    "platform": "PSP"
+  }
+}

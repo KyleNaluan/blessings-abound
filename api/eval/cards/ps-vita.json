@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Sony",
+    "product": "PS Vita handheld console",
+    "visible_text": "SONY PS VITA SELECT START",
+    "search_query": "Sony PS Vita handheld game console black",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "PS Vita",
+    "platform": "PS Vita"
+  }
+}

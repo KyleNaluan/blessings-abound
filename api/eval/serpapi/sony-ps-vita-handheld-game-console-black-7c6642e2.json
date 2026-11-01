@@ -1,0 +1,655 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Sony PS Vita handheld game console black",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 1500,
+ "organic_results": [
+  {
+   "title": "Sony PlayStation Vita PS Vita PCH-1000 Handheld Console Gaming System Black",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920091989884?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K0TZZMDAC0N137ZAQ9&hash=itemd639c1977c%3Ag%3AKi4AAeSwWwZq5mWI&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Fv2Im6KuiAPYsBe2Z0jEQPcRM38WQYaTwCoX8hvAIqPItLVhKnZxfTm5428ng6kOW0rYS7oqQoo18ZsCgIj3NB7t4iLgikk%2B7HC8Pxg5UZcAD60Yc4kJMt7cDKdIYj5m1GfWLWaocmUiKZbU7csuILXJ6fNjt2%2F8SDeTXO%2FzGh%2F6eqirXhUswurzTYO24%2BZiTqi0QYGyGVOyMab%2FLTt19ltlOtYzbgKHyCO%2FwTBELTIPJ1%2BswkW1wtTy%2BQJjs9%2F9%2B3RDvSj56o%2Fz73kX8c9Pky0IgZ4u73Tg7zb%2BsPdOP37OC51Ov3i9e5zKOGGCG%2Fo6Iiynsv1yB%2B8JZdzczNwcTZ%7Ctkp%3ABk9SR96J5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920091989884"
+  },
+  {
+   "title": "Sony PS Vita PCH-1001 Black Wi-Fi Handheld Console w/ Case Charger Stylus",
+   "price": {
+    "raw": "$220.00",
+    "extracted": 220.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860071344114?_skw=Sony+PS+Vita+handheld+game+console+black&epid=10021522538&itmmeta=01M6C4S8K09FEZPSGZA7CA1NMX&hash=itemc8403f37f2%3Ag%3AldQAAeSwwmJq2aat&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9r%2FJAYDKtYNWZ57Z4Vk3YWU6f7jx9By%2BnVO3vu7stFmp%2FPek3895EatfRLdjhXVNUsHKw2Bj1YIvTtcuKBD1LzhYmmO5t8Ho8CsTdaDUOV%2B9daKc%2BJfwR7mSasO%2BzDTprmwzgsKHyg%2Fmg2J2GcVqNl0i7%2BO9nX8LBvlzNjHb4l%2BBBf6%2Fvxt4Th4xBP%2BSPlbfBJt%2FvPWPlOTR5Hlj6Er3TPcKDjzqSrRUPg5INE1nyf%2FoNTWd%2F8VS702f2y5l4yUcNrn8j7DefM3jQx9qlPxRBLT5XD3ZlWVhpzLEqmeEL6J099b7fyVXStdzT0ZLdaby0NU2l87O4gwWSvPV6QWuyL%7Ctkp%3ABFBM3onlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860071344114"
+  },
+  {
+   "title": "Sony PS Vita Handheld System Console Black w/ Headphone Jack with 11 games",
+   "price": {
+    "raw": "$500.00",
+    "extracted": 500.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398411446209?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K05DBBVEM2NK363NJA&hash=item5cc32c37c1%3Ag%3AHRIAAeSwgQNqrtkS&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8irJ5OruStIIOro%2BwYwZqvNOw%2BGHZI2rxffnh2a3bfb0ho1gMiWWpR7BN8ok3USKHPDVpkF2XWJIBpYWKWNu29T04KX9ITm8A30CwfIWa%2B8iZKI3hqRCCU%2BVyFw6N5TG6r5ca%2BeP01SQ8d8BKRSW4UEP6lgH7AX0LCRWLjy7qZ%2FqX0KR2nTS%2BmAnPA2mMJNh3wwINHVaEf%2Fg8JNc%2FIWGnDFaAXLnnwOEWXMIqzOpx1piH%2BI4Si6JAVhA8s2QCxLjJvdwnYo8FWbhAJrZLmGZ8YtZQjEyJU488FS64FhYmDh5ebFSaDH1PWGOfwz9Yf7FQ4rFHS%2BSCzPJApSeJKnPf4%7Ctkp%3ABFBM3onlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398411446209"
+  },
+  {
+   "title": "PS Vita Slim PCH-2000 Region Free CIB Very Good Console Charger Box Playstation",
+   "price": {
+    "from": {
+     "raw": "$189.49",
+     "extracted": 189.49
+    },
+    "to": {
+     "raw": "$269.49",
+     "extracted": 269.49
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147252073809?_skw=Sony+PS+Vita+handheld+game+console+black&var=445700614965&itmmeta=01M6C4S8K04MX0SDFT1KDXQVMP&hash=item2248e85551%3Ag%3AWKwAAeSwSeRp2Uc5&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F1zZIgr8sOcchsQPIR%2FjxiyCcvmPJHRnCYbuxkA6Vadm7UfBzdeDCu1jET5ibdWn9%2FbqmrVmk73yjyXRs4KOLhVaYZtfRG1PdNRLk1XgRGUOVn1ZcB%2FVTq1uHpuG8Kj7uZAydQwHl%2B2SlLM3djfMlc%2FYY8bhbfjcUmGiZ%2FIg7o8HBIpMeFVUTiM5PiiAS5keD25Bi2rL%2BYsApn8MIGeJL0d6ly3TwdBatkaMrWavvrFQIbB%2BdBd9%2FuFIysdx0h9rSnX9munj1BDCmKrHJSzE%2BtsaIpal1OH6iRgloLHxziGIwQu34uR5SJGtCaczC61jQP8ZfrFB1w127yTMhT9djx%7Ctkp%3ABFBM3onlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147252073809"
+  },
+  {
+   "title": "Sony PlayStation Vita PS Vita PCH-2001 Handheld Console Gaming System Black",
+   "price": {
+    "raw": "$179.99",
+    "extracted": 179.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920088372099?_skw=Sony+PS+Vita+handheld+game+console+black&epid=219663133&itmmeta=01M6C4S8K0JCEMN916BTAQ8MX5&hash=itemd6398a6383%3Ag%3A8yoAAeSwZypq5Nfx&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9waQXH2R9MwOjuGO8X80xPjQXfkRVUF2UUscEGGj9r%2FQ0KCJJR3GlV%2BSPnjF7pIBHisNgd12PWf1CRTWdcZNoht7NRdf7egnmEpqZCWFhL3uCEAQKO%2FlBRZx95m8Iq4bjNFofnDBxUT2xJ8AJs%2BXYaglUiP27P7rfFue0O1AdsmxnQ0zPf2kp7pxV1UCaFkFGIs6SPShVHYs6Rq2LcUY3R0voj3kmfeMur36Ga1M34RthGi4Ju91H6Vj6C%2BkzzooHKGSHCqtW%2Bu6JNn4W%2FBwfPG7uoiU8tGwGyRiolgirHMw%3D%3D%7Ctkp%3ABk9SR96J5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920088372099"
+  },
+  {
+   "title": "Sony PS Vita PCH-2000 Black Console Handheld System Bundle Mod + Charger",
+   "price": {
+    "raw": "$225.98",
+    "extracted": 225.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860098504569?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K0VAWZDP5MXZ43JDRZ&hash=itemc841dda779%3Ag%3AQEcAAeSw9tNq5OAb&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BStL6w1a4E0%2BfaR5XbJzhfPv6ot7SZ3zXeE36zBlW6xTYhvDdgS0fw3rMFoZcJXGrWU5uLqNxRt3oNf2onDy36vROm7e5I6SbUl80eVlGJ3NI1NCLdlr4j7Y5g%2Br9TVnXQfrnkf1JXOvRNbsK3Cm3r627zZRsyuVGki0MMQKwM%2FFphyHAkePgqh3q9bNCOT%2BqttOV2tk8zy67cSHrGyMiIVyHvY3Ynl9LjvqDGvIllh%2BnbwUKSXkZGZvrT2d4PCpTbXeg227AXbSc%2FaIEDxYXliHWEGfpoQo2N4rThje1lfg%3D%3D%7Ctkp%3ABk9SR96J5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860098504569"
+  },
+  {
+   "title": "Sony PlayStation Vita PS Vita PCH-1001 Handheld Console Gaming System Only Black",
+   "price": {
+    "raw": "$165.99",
+    "extracted": 165.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407259852510?_skw=Sony+PS+Vita+handheld+game+console+black&epid=1608034780&itmmeta=01M6C4S8K0N9MJJX2BNS44PZEP&hash=item5ed2942ede%3Ag%3AZ3sAAeSwm%7EFqvpEI&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9WUN%2Ffu%2BpPzX9MV8I7Y3u53do5lzijO5a2B3bEqrrc5UFbjL%2F56G9jGsekxt2E7HjXwbIFnKEiAI5sL%2BIPodr%2FbFV6f7bwlJ3GU6lKZEcp48qrV3FWxhwQTLbDsyA9HCYtkiV%2BFRtdyv56y%2BKF0UXVJQ1Zp%2FXFhx2ogJ6wsSS8QYtzMMUWIEMh%2F6B%2BXLxtwVL8lOd%2F3imshxPwRBVAQ3%2BeMTusH%2BvD7RLsFNxjNRuoSMabmcLAO%2FyzC6rtbn3yaZHU%2F3hQLQG5DeUkvkvS2v%2Bcth%2FAhlDakvq8KpkKc0nTkg%3D%3D%7Ctkp%3ABk9SR96J5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407259852510"
+  },
+  {
+   "title": "Sony PlayStation Vita PS Vita PCH-2001 Handheld Console Gaming System Only Black",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307249590536?_skw=Sony+PS+Vita+handheld+game+console+black&epid=219663133&itmmeta=01M6C4S8K1CD3RWKW0QJ0GBB25&hash=item478980b108%3Ag%3AJsMAAeSwbNtq3uGg&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FFLLhM60g%2BueHhwbkFp8xweUMeSwBxnJqQcktZKXp6u3AB4FLzYoL6Br6vyFykCDOob4hstFpZumzBcjAfSy75K7LsLT68c7gvh3IRsGNwpmInvQwL1B3reCovT37PGw1hWipLrlkx4SlHnFklqfyYYXkXuc0nzrBkip42n4p%2FgRuxLhoa3y98ElJleHP5isyG8yRZt13flAFt2tYXRL7n5KoYekDehF%2FspGuRyUInoTkpmAQIfKrFXesln8DNGFFHonBljor22CU6DMbp4NXLOVoIbVezDinx1q0oPIJ0cKnNS2JEt1REjsqkjWKjQ%2B4RElm23qB5Kp8FByJjG6JT%7Ctkp%3ABk9SR96J5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307249590536"
+  },
+  {
+   "title": "B3302 Sony PS Vita PCH-1000 console Black Handheld system PSV 16GB",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227590800625?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K1NWGZEB4N30E9AVVY&hash=item34fd7804f1%3Ag%3AwlYAAeSwq8pq5Vgx&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B71hXo7QbZF0IAuY06OSm7bAfA4UKtr6fvE%2FNlPSnVQ3tJKpXwVS%2BCqdofM%2BugGVl0GhiJ3gux%2FwpaOJBrAHKag98wxECbeGTpVH%2FE%2FdgvLqwvnwZ9DWuQZAWEooFfJUFVaPQO%2BBSxYqIOfeAS6mznwlfwlZdVkcA199LaJuCfX5NKIvLPje5jiFtNuB2RwN3xWSHqa2M57fK7OhryyY8xXnKTf0LPJWiC3Bg46zmx1NgrlTM09b3HGrBjJphJfkM1agv9HrGCHmj2YU3Er5k%2B1cP7w91PSA8l5ntghcGTAA%3D%3D%7Ctkp%3ABk9SR96J5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227590800625"
+  },
+  {
+   "title": "Sony PS Vita Black Wi-Fi Handheld Console Bundle",
+   "price": {
+    "raw": "$270.00",
+    "extracted": 270.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377555490383?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K17SAFNAHNYNP6ZXSD&hash=item57e80f964f%3Ag%3ArOYAAeSwfh9qyBKS&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FhsbFMdaj1w4EtftF%2BPy7zD6ONlGHE9fY%2FkhEuZVkSAiRbiRASti52t3Xz0o%2F7jIAB5VDKK%2B5dDHtK9DLFElPV4%2BUmvYdQv21456ElQbjE2Fze11Fe4cnbGQNOgksPZULk1EOsM2%2B3NCZ6zIznfWaxsx7NIg3kGmtiyAV8IsAkq8Cs6hobvi%2FvjHFS%2FVQDwjvdDQDmRn39mni6nDSDbG5lxOMDVOvSTBMqzn7wT2gnPVdlg%2FuYrsXBMfQ30LcFZtPA6wtup%2FntmbRhzNEf3TA20kHrAqU6KxvQ%2FpRTu9GQNg%3D%3D%7Ctkp%3ABk9SR96J5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377555490383"
+  },
+  {
+   "title": "B3303 Sony PS Vita PCH-1000 console Black Handheld system PSV 16GB",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227590807802?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K1TNP0HNYZ8864NBX7&hash=item34fd7820fa%3Ag%3A0BIAAeSwjBdq5VmR&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FzGuuAQCXLLACtiZgvTOPOkBaHeXze6wVRF7nJrLQifbR7f8gsCDDBu80oDAXYuY69tql1sH%2Bpj83Ia6U6cByZkLYQ57yqXzeMVRenLx2KBr5VuqKo47VYfKJ3edy35Gcty6OnfZG4NW2ur2wR6hGOeMhfnME2DFuq4fG%2BAtq%2F4XnKI76D5Bp%2Brh%2BjPvjxgYR%2BmjnTxurZpi%2BZRScxYDz5jy7s4ajR4bDnp%2BTXj6qSWpfLBzrSqeqX6u0Hb6fESLAykEbKLeyHwPUXLgNS9El0FvtO8LPvrh%2B%2BT3fpMSJJ5ZSW%2Fo9NIeiBsN3oNnJZduPB2DEoGmOSSqKGDKfDnl8t%7Ctkp%3ABk9SR96J5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227590807802"
+  },
+  {
+   "title": "Sony PS Vita Handheld System Console Black w/ Power Cable & Game Cards TESTED",
+   "price": {
+    "raw": "$220.00",
+    "extracted": 220.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800823322669?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K1H891JXB7PEYK7M9C&hash=itemba74ca282d%3Ag%3AF3cAAeSw9KNq2Wk2&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F%2BzgxKbxywr7rhiZe8QILKxCnN63vut%2FcyaG2teRnlJBfw3w6zgBZdKAvYoSXSYtLTbVkNhifLZUslYgHQSv%2B39SX2qmbk%2FZIeIR80Xf%2BvLrJ0VVVFKsE%2B45wbUKQXzEe0lPaB6lKIR9gabPZVZr7MbJe2YikiTrL%2BBIDiEuqP%2FFSHSUNmUiPCsbL6MEEw5ML2DHJZqgFwpAdgjxhtyhaZ0Fajawlo74xF4wlchSYhwAXo0tzYf2%2ByMErkVKDlClXbRiKuzPVNOjXqjitPoecut2ipsf25zFaDVjYEsbtQ%2BA%3D%3D%7Ctkp%3ABk9SR96J5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800823322669"
+  },
+  {
+   "title": "Sony PS Vita PCH-2000 White Handheld w/ Case + Game + Memory Card, Works Great!",
+   "price": {
+    "raw": "$250.00",
+    "extracted": 250.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800694407922?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K2N21RJ1WF06RWPKGJ&hash=itemba6d1b12f2%3Ag%3AhrcAAeSwWQxqffRh&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BRhkLS%2BbmE7QAxNXeENODCPCMF3fcslNwvoM2OkiXfzpwwY6%2FIM9ZR%2FRCJdC4UFLGg7FwCssdzvsA78VFQ4Z9I0XO1KMFUCMtr2lP20BkfGo0WErTUxKe6cu3GrAny01%2FiL6kV2LBrt7NaVQtF1%2FZlvz3V83Hnw2dmjSOcj3s0Rx7b5JPTOAbeyTAYGRzbBA%2BNOv6X7Lm2OkqrHTOpOkmfQwkkuxstD0k32%2BgORzyUF2XogVx1a2T7diMPTV4w70FmDs6SIEP5GOUI9XtEP%2FX07RNMhnbWkjbMQIg6mRIHq1cRITxcMFAStN2yDtH3GqPKHCoDl5F3HUa5xRzYnkRB%7Ctkp%3ABFBM4InlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800694407922"
+  },
+  {
+   "title": "Sony PlayStation Vita Slim 2000 Black Console with Case, PS4 controller - Good!",
+   "price": {
+    "raw": "$210.00",
+    "extracted": 210.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820303632276?_skw=Sony+PS+Vita+handheld+game+console+black&epid=1026350411&itmmeta=01M6C4S8K2CRMZVKERVJVSE1XT&hash=itembefde81794%3Ag%3ACgMAAeSwXDhq53DU&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9i9aRtuuBo1MGrv0kGklC1DIklDGB1zDyJ8fp5dNGyJWJnKZKJLtazNt9gnpTydrvYRzVb%2BNQCrtZWm0q%2BZUtdS2A8Kktih5RxofG8BuOGkXi5GTJ6xFREkGrbbu2mthjEkGDdfXlO6Vw3RmwansqgZi74qgeEaBQqjPa0QcpftuCPf1yT7ahSIIgJPwdJtpWcmIL1%2FGYnCZnAi8SsEBqPrY61xfrgRPyRAKCGiSIBvPvSX2J0f0LOAD6zvCPyli3sO%2B%2F1%2FbWDI3l7fUHHDSDjnRIx5qWLiiXVJsaldZyPhLOhHj%2B3boVoNN1mdDGBvD7DiXdUZqNHG5AV5pF9jSdH%7Ctkp%3ABFBM4InlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820303632276"
+  },
+  {
+   "title": "Sony PlayStation PS Vita 2000 Slim Black Handheld Console 64GB Micro SD Charger",
+   "price": {
+    "raw": "$237.49",
+    "extracted": 237.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800846437919?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K2AF595DP8PM4HAJSY&hash=itemba762ade1f%3Ag%3AovMAAeSw2P1q4WKT&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8pZyak2R5LZHuBgCOQmcYKpiYvmyS%2B5%2B0UAkLgDYWC3Sek06Lj%2F%2BP4rK8Xu4y9kNo45%2BhVgEJnwgMGFNHghbFE7OMe%2FbNCIXJqkn5l1yg4AH9YpP25i12s8N2HoX3z%2F3TRpZc9S3uc6OvANotSJdZHET8yaTVxwOMs%2BsTdrmRo3GvmICXulWBaLv9HIFSSusP6G2%2B33dswrBNNH13j6483JZwMKRugfj2pqLXeWkul8KNzIEf4wn4daEvUEh9L%2F9IABpBBJO1pB%2BVpVg6QLbN2oQmaINm%2BhlFdQSXULya0vQjlwOdoybK2231YMj%2FGa2GAblBjPjU2YUiv0oR%2FUM%2FN%7Ctkp%3ABFBM4InlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800846437919"
+  },
+  {
+   "title": "SONY PS Vita Dragon Quest Metal Slime Edition Console with Game Lot U.S Seller",
+   "price": {
+    "raw": "$310.00",
+    "extracted": 310.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237147814381?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K265HWFP2MWRYRMEZE&hash=item37371c79ed%3Ag%3A-SYAAeSw-w1q4U9n&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8pfSc%2FJJWHFDi0963we6dsUlnBICPAb%2B0moAFuSYdHr%2Ffiz3rCTxGASnZ4QGLOynikk%2BLoSwEo0%2BJoOzsUkpvlkrF9WB5FmsfR7Xw1m13XPS2LkVELr3TAGajRkOnV2hjWtcIliCT9JfEm19Xk%2BC%2FwMkgz5E0MEy1ZXRI6kkd2H75KltcQb9IJhSEUF0pshi4FOo2BZnp%2B8DoHlA%2B5C21IEJv51g0kX3gH05vcomEhy0VySNc6F5iQ5nJeksj3nFw6U9IKXFJvjSBkZIE%2FhkstHXUICtu0btAqSJqgmoU%2FAHApIfVlvZHpjVt3JDZbOZcorokW1jVlnXwz3hEqNUBg%7Ctkp%3ABFBM4InlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237147814381"
+  },
+  {
+   "title": "Sony PlayStation Vita PS Vita PCH-1001 Handheld Console Gaming System Black",
+   "price": {
+    "raw": "$225.00",
+    "extracted": 225.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257817428072?_skw=Sony+PS+Vita+handheld+game+console+black&epid=112329178&itmmeta=01M6C4S8K275CEP7FZYFKY4XQJ&hash=item3c071dc068%3Ag%3A%7EGgAAeSwFiVq3lxY&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FZJzhJbW4m3dEKlZOUgVQOWy7ydwmGfHDALi0%2FOOgI105TacjHnhQeJ%2BxIvhPqBOVZWvNIEbulqVDinKtETtcC3sjftcRdBSvGmaG5YIpmfsMsdOBB2y6cftcAGsh32xT5tH0wlHBeR5NorV9UfgWMa185cjeNhp4Oc45ggoXqtIhmSiSHtxS5bBOR3HycLiBFeMlF2HS8v1ZI99FRG8Ann8YWGm41u0p9yMpVPSQIgKIBye1gZo3hiegyzseOEeOk8mXYw3nlmjSFg9ARD6uPSFKCpczvvkIaiPtL3%2BDBIg%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257817428072"
+  },
+  {
+   "title": "Sony PlayStation Vita PS Vita PCH-1101 Handheld Console TESTED",
+   "price": {
+    "raw": "$174.95",
+    "extracted": 174.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198758531432?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K3BDPN1AP6SJYCV19W&hash=item2e46ee8168%3Ag%3ApTkAAeSwDPdq5SfP&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FL14bkqLO1atH9iYnGhqJdRveZBf2mw8i9Xb3Gx5sHixCtZSa6qFe%2FhEFODc2jnZ9XTwAJl5G20kYvZVIWJMY5M1j8KGKAdcervnR5GzgEP8rKYrZqvFkdosae1PNNqFnfrz3Yypps%2BPexjg7A4Hx64NGYKpljLvutxI2KpKgEKudZC8iaTekkteI5lueoGqcekbfX9oiDU%2F79%2FH9F7Y%2F6hJUWcFaWRPnEmkXM%2FgfoMsxWxLwon%2B7kXPZuLjn3SGHvv1jTczygRpEXbVoeacTjLKaC%2BCO%2BSQvs1IpCEq2T9w%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198758531432"
+  },
+  {
+   "title": "SONY PS Vita PCH-2000 Console Wi-Fi Slim Various Color Tested [Ship From US]",
+   "price": {
+    "from": {
+     "raw": "$164.99",
+     "extracted": 164.99
+    },
+    "to": {
+     "raw": "$374.99",
+     "extracted": 374.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/275137486913?_skw=Sony+PS+Vita+handheld+game+console+black&var=575407866836&itmmeta=01M6C4S8K31N8DT857N2VZ05Z6&hash=item400f78e041%3Ag%3AQlkAAOSwXu1h78mu&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FGdHhAwHbS45c0Gghr%2BO6YZGYQq3k7Ml2lY94Pkt6hZnDh1c8sMCEBNgDJj3ompxVZQfAEY1PUXSv0r7sZbNg%2FmvWeGFvvgp7CW6HY829Kp9uV4%2BLNBhIznmyPGx%2BzaXal49ouCxpbNoMmXcIx7Z2lRYKN1lG0tIvOTVNwZ9ZO0M5hmsbEsQEvCD4Zv%2FCfFKLX6c0fomYSSVuW880LN8tZ3niIlRyuSZrzvwea0gCqU7K%2BlccZa3e4RLEpB08gBfAa5lYYfvgLut8RKcjbXLcIpJkXeOqDNTO6bnAvIrqJUg%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "275137486913"
+  },
+  {
+   "title": "Sony PlayStation Vita Slim PS Vita PCH-2001 Handheld Console Gaming System Blue",
+   "price": {
+    "raw": "$194.99",
+    "extracted": 194.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920067832817?_skw=Sony+PS+Vita+handheld+game+console+black&epid=219663133&itmmeta=01M6C4S8K3SETA8A3KQGWY7H9V&hash=itemd63850fbf1%3Ag%3AbBkAAeSwGwBq24GA&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2ByFV29gON9q1irVW22SsDfptQOMwX5uVfjpTqykImqgJ8wggqNeUT%2FPKBCOrM91PGBSVtT8ExDmqi8y%2Fa7ZE5KuvC2qWlAK6QGOaDGlL7vrv--hcOCgyucyzRdYp8G1pqDGx%2F2ukOzeLArjaeAPs2wTSOCwaX2c15g%2FH4eHQcQk6GgW4%2BdBH%2Bnb6tWbvfZsfxC%2Btnutc%2BW1462ZatRJBol5s%2F66sg5dP1h0laS%2F2Q3CtEiiv9u568giLhtttzH1G2ZHADxZVe0crePMrqCNsUqNs%2FBc%2F%2BFiK6Gj5m0qneX4A%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920067832817"
+  },
+  {
+   "title": "Sony PlayStation Vita Slim PS Vita PCH-2001 Handheld Console Gaming System Black",
+   "price": {
+    "raw": "$187.99",
+    "extracted": 187.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407276503914?_skw=Sony+PS+Vita+handheld+game+console+black&epid=219663133&itmmeta=01M6C4S8K32VMBDF0TMQ6TT6MG&hash=item5ed392436a%3Ag%3AgTIAAeSw7Whqx85z&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FYE4H9n4xAL0nM9SxeNUrKxxO7c%2BYICYP8nOESc6hvfDTNnVSbM%2FT%2FbZGI9DcohzznDTVLpXS8ImkUlW6Q03PltSjHc7FEIGX1ydIiSAvAupuENc0Us4ufVk72FOxDGK3AIgo0333%2FbPtL%2Fxz%2BkVqF8cclybUQu6EwQBPWAmsMsULg43oFyIO4t7scTER3M0wMi8Be%2Frww5g6OUumypOOebvj7tV%2B9kOyWF4p1NQ6SbEND1xQ%2FyB0zQr7FCycUIYFYiGnMb23VCV%2BeStOSVIMNYwdynSQYHLX2AU7HOfi8Dg%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407276503914"
+  },
+  {
+   "title": "Sony PS Vita PCH-1101 Black Handheld Console w/ Charger & Lego Ninjago Tested",
+   "price": {
+    "raw": "$179.95",
+    "extracted": 179.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820193259316?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K39WEY22YDRHAB07VP&hash=itembef753ef34%3Ag%3A1VwAAeSw6HJqvnmX&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Fs%2BST0954WGED7jmAPatKNM9IIVgyg4kvcOKSeyxjLWzY7lpwC%2FDs9UkHNTKFt3JVi8Oz6Jjx7owtMgPGUk%2FXmM90Nt1JPgYsleiN96f8zYDHjCc16TYHGPdlfG0AnXNBJIrg0Hi%2Bg72OwVRaw62YFZaqDMhurE%2F5XsiDf9g25SSMCukHAogUbtbBx60Q9d2FHJAulMG61yN0G7R9kQp9G0RvHG%2FX3AJ144J%2BxdmBHe8fCXVMsvii%2F9pg71FNy85%2BneP9%2BEQoFcdQIp4ljxvWYLJ%2BPKO7haCa02jxSEzHkAIfdU4dMibnNg2qP9fWzUg4RyLz%2B4pIF5FqLijFB9mHr%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820193259316"
+  },
+  {
+   "title": "B3268 Sony PS Vita PCH-1000 console Crystal Black Handheld system PSV w/Box fx",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227589612814?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K3QZQ58A5HPD5K6V9Q&hash=item34fd65e50e%3Ag%3AwcsAAeSw9%7Epq5Ddr&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BjHFsnhWi604QZX12I05C86vddqbRml7SEx5eLD80AP12QeF%2BBA74HUkQ2LBjCsmwopltkZZcqVO8rXuy9lOIu2LyeP%2BTaXAGnWoDS%2BJCPGR9y9JiUCu07KRVnIJ8ljc64FOYjnyd3BZGh9%2B6rnpcdWJYzNwK4sbUNl%2B56wonXhTWSlHfnnf%2FRR8xubQOotn7vipHmP%2FXSLYHciD2OWmDb5r%2BXTjEhWpargPUFXQ%2BkBqEKpYOC6j4Fyhp2OqDqUT%2F36w0HQH6tT5GEjBV17LK6Ke1XXk%2BrH3neXq7urzGUhPw0lr%2FNxFIJrhPQKXhi7WtOtah%2FbZtGDYq4oFeTaHCD%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227589612814"
+  },
+  {
+   "title": "SONY PlayStation Vita PCH-1100 3G/Wi-Fi OLED Black Handheld Console Tested Good",
+   "price": {
+    "raw": "$169.00",
+    "extracted": 169.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128155417105?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K3GPVGH5B7D6CBE9V5&hash=item1dd6a87a11%3Ag%3AraAAAeSwvjpq3enP&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8x5V5Hdv4dYQ6VrsLfYZ4pdKptl4qR9YFu9mOqLXxoOySEL9MI%2BPBd6DscjjLvrRLUYAFuwWt%2BQpFPLGN9e16rpGqTrsGu8ftofyO5Bblnnrq9tHBcA5XPKgGDAH71kes%2BT1tc2%2BRnUV3EShOjoN2JbPcMAobwvMykqRzg%2FcUETwnrv5sFrrOHZq51c7A6%2BlquTvBTQNWffHlflT6FVwcDj5M5WbSZ8zbGuggxk2BYVx47i%2FETIHsERsIv21yLFbdX5DMkUJXbLqW7PZ7yX0lbwAqpjJaLNxU7mzfO2eKWvoOFzjEGfR2pVLxW6C78T5bx%2FdyrYgYyAm6xqzY22S5g%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128155417105"
+  },
+  {
+   "title": "Sony PlayStation Vita PCH-1101 Black Handheld Console Wi-Fi 8GB w/ USB Cable",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820303812642?_skw=Sony+PS+Vita+handheld+game+console+black&epid=10021522538&itmmeta=01M6C4S8K3CQ1W4DE48E98DM05&hash=itembefdead822%3Ag%3AgU0AAeSwuXlq5278&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FtynHBpwXgEmjkRaUicvaZeGye9NyckOfBQSxOmqvbElGkjsMNTalZTBAtIht85mDyytSVC%2F2zcoeU6lcUnWe9%2Fus%2F8M8yJQciDF09asu8kVjvYCwy4xWcKti8bPW%2Fk74mHU8RsXJw9F%2Fvqsln04JKQeR2KHMuurEoc4pT7QeVkrL54nfhXhW51Lkdq2dVefIsO8iOemve4tr1J%2FTkNqE2QK%2F9UuebjUTwgf6KUIEO0EcC%2B249fGKDYZs4DaG8pqqWWE50%2BK8E9xfpoeTQrqD2WxBw5rfTsgzct9IhRUWnrg%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820303812642"
+  },
+  {
+   "title": "Sony PS Vita PCH-2000 Black Handheld Console System 10 Games Bundle Japanese NTS",
+   "price": {
+    "raw": "$299.00",
+    "extracted": 299.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318944657434?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K43D6ZXG1CGNPYK2MA&hash=item4a4295401a%3Ag%3ALgEAAeSwlUBqvvye&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BOFnj%2F2YJtOJv1KcEsuobt445vxsCA1h9UIfup9LdV05uOwbZr0pY564sbxjb1dhXoiq2lgJoUHB9YH%2Bn9fAF2YRmR5Wu2QBw4DgluHGeQ0p1EmX8n2yH5SBUeO6NRW1JRAhbuD8GaI04UNfSAhgdGsoGYdmKHvrnxGc6yRwhmdADBTYToYA9StV8tILCNxyiaa25WraXkOvE9ROZh75h5sK16dhaT4Jy4DRpFywlmU8Dxyv5nl6nX04r85RA2g8estddD%2FxdJDWCwpG3ihSyV8%2F14yDv0r2m8Zrquo5dS2sw1irwIFiJoGDOH8YCk1JM0A0%2B5tgm0rOKU5rOe9dB7%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318944657434"
+  },
+  {
+   "title": "Sony PlayStation Vita PCH-1101 Handheld Console Crystal Black Boxed Tested PSV",
+   "price": {
+    "raw": "$195.00",
+    "extracted": 195.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287678772336?_skw=Sony+PS+Vita+handheld+game+console+black&epid=2164369363&itmmeta=01M6C4S8K4EGC6PZS87P5XGYPK&hash=item42fafdb470%3Ag%3AwrUAAeSwYNlq3jP9&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8DWsl%2B1r6Wt%2BvZVaELczHYX9hEEfuWp2RePJDPj1i4%2BX4PJryUF%2BgZwfEyYyls0rd7h6WY6f1BLD30vVDBsTriNBPKV7KOrg73PZZQ2aknGx9FbXjuAqOc5Xen%2Bsjg4KCFAkXvSOkJDlm6frHl9rD0%2F3sv9ZtP%2BnPq3RkR4lnFMgy2N47WSDJSPgAFgtzhoFqxnsIHNc0WGv%2BTtNXo5%2Fd8sR31HsbdCTyNR2GcU2MXW5GLLYuGoFuyRNs6XWNb66IfGR8dyGp8VZKCuSk4Vv7u%2BbQ0WUsUBYa%2FkXaCNMxxEutGMd5bhL2Lk4LtxCxUaLOBZG5SblyS3UNQbbUsnQa2%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287678772336"
+  },
+  {
+   "title": "Sony PlayStation Vita PS Vita PCH-1101 Handheld Console TESTED",
+   "price": {
+    "raw": "$169.99",
+    "extracted": 169.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137845186352?_skw=Sony+PS+Vita+handheld+game+console+black&epid=2164369363&itmmeta=01M6C4S8K46MHJX0A7ZFG19K7Y&hash=item2018369f30%3Ag%3AmkQAAeSwVVxq0G%7E-&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Fmn2BgqwwrDhemhaR2GBMczrhu7Nq57pbeLfcv7tR7BoKIStI1Buwdp6VOwpEPi%2FBZC6MYHjL9xEi7C5ry8OCkGwzInO2uK%2BM9zFHOt%2FUzsR6sK8v5fHG7IQGA8%2FjBgDRFUIr1fB4F99ii%2BeQZqsqHWvv%2B0Ni0kTi99lg6E0k0YOaTWGrMKGTneRw2AgZMHTR7SzsNBAm0idYdx7bu87gOvEcov8qBh7pCIWaWER8V9%2Bb9cIGlNVgErmx4BImrXrpvD%2FD%2Bzw%2B8RnLQmEQD1OxXhqpfzQ6HkFNsVKXPnzfWQ%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137845186352"
+  },
+  {
+   "title": "Sony PS Vita Crystal Black Handheld System w/ Handgrips Charger &God of War Game",
+   "price": {
+    "raw": "$300.00",
+    "extracted": 300.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366331488633?_skw=Sony+PS+Vita+handheld+game+console+black&epid=10021522538&itmmeta=01M6C4S8K4VKSY26918WQ8Z6BT&hash=item554b0ee979%3Ag%3AnzEAAeSwlcZp1Eb6&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8IBzgHe8UaOtlE9gbPCXxSsbIFd0J4OvKIOGrrbBfEWIJR96H4TA9T%2FxezB7fYJ4PwK5ayfYXEpKFvncCH7G%2BEXNW9KXvkPejJbCq7XW7YdtXo6Teb6hbfJuRN7GExB88WXmlW1RR86sMyT5Xh3Hejr%2F06l7wWO4eVemnHgvGj65os%2BN3zlrmvJTxFA8d7IuAylnWRrPnbJfBNzTezKsSVpvAABvPILQE81QTHOx2--mHDPTOuN1JNaetlwEDz3rdqIP6jqXYeogk51m%2Bu8dmPEBfusN1%2FqPa8QP90ZLwXNa%2BY3sThqqNaT2s3gSb3WviEx9Lq%2F6%2FpoF05pLRB3Ib6%7Ctkp%3ABFBM4InlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366331488633"
+  },
+  {
+   "title": "Sony PlayStation PS Vita PCH-2000 Wi-Fi 16GB Bundle w/ Jak and Sly Collections",
+   "price": {
+    "raw": "$255.00",
+    "extracted": 255.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820273931652?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K45J2ADB0TKYAQDXR8&hash=itembefc22e584%3Ag%3AkJgAAeSwsKZq3QHn&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F77OJN1xkf98mEDM9%2BMpPizUqCW%2FqILxlK%2BwQLNNB1uo6cKmtWwLwqT4ojHknmoO8n7leRcxoQkS93m%2BweqbVScHjBL4VO8FcFonG3R%2BVhipp6inrbC69%2Fs1GnJPJfPN8jGQP8j8XJcVWuDA8Ct2DFi2F%2FkuPdUerjCjbZfylsTj8%2BA4ht%2ByhM%2FHsqam63ELpGEXQnRYbjjcVs1SuBtXwLd4kjbLTMmC69qqzxrFd4yGQzPbX96ZbnwssluGFNVaf4o0fbkHEHFzq29G2QtoE%2BYZUU2QHyk%2F7zXhEl%2BaNCIiv10Lv%2B7olwgnD2%2FI4DUT0mVw7H4lTd%2FUri9T6iSYYn%7Ctkp%3ABFBM4InlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820273931652"
+  },
+  {
+   "title": "Sony PS Vita Black Wi-Fi Handheld System Bundle w/ Charger + 2 Games",
+   "price": {
+    "raw": "$280.00",
+    "extracted": 280.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366759600497?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K444EC4AAQG6RYFV08&hash=item5564936171%3Ag%3A3CgAAeSwIvFq3XvS&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9VP7xp%2FDiKTueHxuMVJnMLb0q5%2FCnfHJpHC5KuYbeqw434wGnuQDCdAF38RilezrFJI940bsVAv9gSC0lRqQRwZQX7E0dlU2fRPP8ODeaRFxF3Gemy1UT4Z9Qlb4%2BldAh37PIMEEDDkemHdlE6MqilgXdOmPb9dQG3zLATPM7uzcCx%2B%2Bmp8GHHPT%2FN6CJlfXNrANqXDn3YXjVeFmlioUQSN9L2mwvlb9fkKVvUClzqxkceuwLhqIZJMi8DfTWZpiwrvXvpe7Z1mAX%2Bc5hwdD9Yk34RkqOz8EweAHYAYA4jUmFXqvbqP%2FVYr0%2BBOOQ4nQWbFuV%2FIpckUFWBNXL%2FvowB%7Ctkp%3ABFBM4InlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366759600497"
+  },
+  {
+   "title": "Sony PS Vita PCH-1000 1100 Wi-Fi OLED Various Color w/Charger Ship From US",
+   "price": {
+    "from": {
+     "raw": "$159.99",
+     "extracted": 159.99
+    },
+    "to": {
+     "raw": "$414.99",
+     "extracted": 414.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/275135342088?_skw=Sony+PS+Vita+handheld+game+console+black&var=575406534223&itmmeta=01M6C4S8K4TQ2R8KQEN85AF8Y0&hash=item400f582608%3Ag%3A5PsAAOSwgUlh7jXG&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8fm1GKehzXKqBI73ZwIsyzQnDfH3qHN7qMUmTYQUhWpo0m7fpFz8DkDZWKVtL6MWvBItZR%2BaQ6Ci8KLN8TBwB4SCdMPChLcJH7fZ2XSZGkhswsX2teK4PIBmgFrLgMLMEMyaxJb0b14Zxt6eZeJWq2JSdl0TPd5fon0t0BiyEKxcP1MUGhKIFOjS3Kxb5%2FYYRAaSJbc8P2xWSF2JN6muyFQt%2BIEIeom1nwkBs75RVjFx68pPUblJoLQyrtnyZaa8bViYHvKR59%2Bgx91%2FSYkoixt0fF8dlE2TcqNc4sVjaVsmsVzhVeb%2BeOSmrTwuVRKaHH2scRvN51vIR71XJcvX0d%7Ctkp%3ABFBM4InlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "275135342088"
+  },
+  {
+   "title": "Sony PS Vita PCH-1100 Handheld Console - Used (Early Model)",
+   "price": {
+    "raw": "$194.99",
+    "extracted": 194.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860102338359?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K4RVMBHFPRWYA1E10V&hash=itemc842182737%3Ag%3A-7oAAeSwrrtq5tHp&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9v%2FB3MppnWTnj0ggNArUjyEwyglyxFELI6bBc61tnFqrQ81xP180IJfYwBvM8HHVL7%2FM%2BWTJEdzg1mEIz4K7BIEQJYEfbxSWvPH0RM%2FJUMDOgW1kNglglrQ4c4EB3KxRz1GOT4HfJHFabjKd0wvdVh3ywgoy3Fch1YhKxKDSQdf6wU3WBj6zf%2ByVJsm6p6pWs8j%2F74HLxOpq3O%2Bs8kFQtsNiOMwQDB4CZtB%2FSbKnMwMaMTOWL1nEbPtlMAlrDYUTB8J%2FKdk2M%2FtHymBSrA2g6gPXP%2FTsd5lNL%2BwsRiNlHRVYkZwleKTJ63ucY%2FgdYPWqlgOxEEQFUsRbQfjascjmDk%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860102338359"
+  },
+  {
+   "title": "PS Vita PCH-2000 Sony Playstation Accessory complete Console Used Rank A",
+   "price": {
+    "from": {
+     "raw": "$199.99",
+     "extracted": 199.99
+    },
+    "to": {
+     "raw": "$439.99",
+     "extracted": 439.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/394111931672?_skw=Sony+PS+Vita+handheld+game+console+black&var=662640041598&itmmeta=01M6C4S8K5M6J9C9BB75RG9GNZ&hash=item5bc2e6d518%3Ag%3AcL4AAOSwO1RiBf9c&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Frhpcpu3oQTW%2FeHpLl5D%2B4bL4ebs2PYAPLlVZTnJts9DEYbkOQh0m4IkQFLAngYmDEhxQZPUqAzm1XGMc%2Fs8np3y6eCxSZi%2BGhoYaPIBoalW9nXPW7RrE9AKWSXdwls6gSYjHHSb3Qs3qqc6KEVAtmV3WrNKDfKL5Ck%2FRqmlSuvzWhCDeDuEO5vEX0845s6fhfyqHfv1dc6W1mrE%2FanQySEUsDNDWyLOU6bdHJrMC%2BPX8sdOXUQSLfpMv25PtoDnY1zwHTRPwdyh%2FFx0%2FSR0W8cbLhkdQtY9FMJUHf%2FG7g1A%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "394111931672"
+  },
+  {
+   "title": "Sony PlayStation Vita Black Handheld Console",
+   "price": {
+    "raw": "$250.00",
+    "extracted": 250.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377578308256?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K5B88JK8JV4ZCATB8Q&hash=item57e96bc2a0%3Ag%3A-hEAAeSwkvdq0%7EEy&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8E%2FuuD%2FUqmhZ6%2BSOVOqtVeorUYjF0vVOxXkAaIPqQV3Vf3EiyMZPm6AUCKx2eRiRzjHxn45c%2Fp2IUgEeCLWDcmUte4xw1nDsGxl3JvNf4OHPpcOIbj9YKBMs7lpyYuEnVXhGcGEoeiBDiTOCAXEoBs1g868WahRmyeEKYILXMqxWHvN99u21MwZLif2SAf6LSWx8DJPMu6rWaC9e9MCtUhFSHWzMR7wgXgZSJGXgTpO%2BV97C6A45xGYJotAT5saF6t4bthvXTi0PMW%2FrVsWGuksbm8XajsKoETUNuQDeCyBA%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377578308256"
+  },
+  {
+   "title": "Sony PS Vita PCH-2000 Handheld System Console Wi-Fi Black *Clean*",
+   "price": {
+    "raw": "$199.99",
+    "extracted": 199.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117412835764?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K5QK3MZSSV42CF7RQT&hash=item1b5659b1b4%3Ag%3AcyMAAeSwR2JqqIbR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BbhPRKELWQHNEbJrzWItVv%2Bx5Uxc5LoApfD14ullHrRnt4iBEeIKVfFM4Oi%2B0SaV1NndbxXqehfjFkPVKU7%2BNg%2FpcDx4MGirAFTkcWZr5kJwF9K4EVWlYagErvAgtDonQrqO44GpAufT9FLSaaCH9%2F9FFKT4qn8CgNXlDH1Pt991PnyIecqr0JyAHm6oGazQZ1DIGqEVDAt1No1lIYgGn3S1m3RG4G1MGAIbbHrTKzM0--wFpxVsdAWWIXFOjweL1CtvDNBP6mg4pPADvFrmZOZTqz1xzxo3KZoMQNHajZAg%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117412835764"
+  },
+  {
+   "title": "Sony PS Vita PCH-2000 Pink/Black Console Handheld System Tested & Working – Read",
+   "price": {
+    "raw": "$145.00",
+    "extracted": 145.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318931748390?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K52KB6NTNZVFF75SEV&hash=item4a41d04626%3Ag%3ANSoAAeSwCcBquypN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8%2BseX5t6Kwi4P27xBrmBySmPwXqmMuRhoWl3rJRZWIculBoS7sePQBOEkzVBb7KeZYTDZrpP19nZECGCc2REcYCS61%2Bqf5StQ8Bw0a6RwKj9KbevHbgNRgz34ZI%2Bbx%2BxKpjmWRV1JHmlwpkdkR4kIgRRkatV5C958OWed6aeoJX5w%2FN4PpCKZy7KQOsIsVlJUMXR0w6o61W4YQzq3DBaJR37EnysossfzPgUGDQAFb7AFpvpfRFlYTO4scphxE0orn1Ja%2Fy0riOorKOgrgtIlxVPU%2BGiyb1I4PVKd1%2FXWIqQ%3D%3D%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318931748390"
+  },
+  {
+   "title": "Sony PlayStation Vita PCH-1001 Handheld Console Black",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206657814739?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K53G11ZZGVP76E3NES&hash=item301dc400d3%3Ag%3A0JUAAeSwOE5q4Mk2&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8SBQtnmlMUdf78TpiRKwB6m6CgFXKgtkbmCdXI4gdVnlfIct87RU1zVC%2F9um220JW8%2FvLl0qi2wbY20GjmARqPer6v7WrbWt%2FEEa3PoW4SuCsH8liOMaUJvmJG3xfs6JLWP7zJawRRnz2e2DBQArvRC35hhuNf6rNOqBN%2BS47gnB9P4uwEQwEeqXu0942RifycikecxQlBDNpp%2FdeB%2F7fxeCsY7xzfhSjNIzVsCGVNy792fkoPsTvZj25wcFh6FwnnVGUeWF0KP4yBubmMhzq2%2BVRYO2hok3Wm4ADk2khpTsXpWwv4WkYQIhdq5Wwd4jKaBPKsApwNp1PK8iX19EpR%7Ctkp%3ABk9SR-CJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206657814739"
+  },
+  {
+   "title": "Sony PS Vita PCH-1000 Black Console Wi-Fi Boxed Handheld Near Mint Japan 806618",
+   "price": {
+    "raw": "$500.00",
+    "extracted": 500.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318541704713?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K6WYCKK0X5QKG6Z8E2&hash=item4a2a90ae09%3Ag%3AHP8AAeSwfyhqNATk&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BR5z%2F95ZQhIquRqgX4VTDvm5Oa92P%2BfLPkH49Q%2FISvYTlhsUyc0nn%2FymeN19Ub2b6aDy0jowx%2FHP0yquN2lT9ki%2FtqKYIcNlRvQiTudwYc8tZXEkgOZwglUzOZo7C%2FbqcRD51KUxgNLFFrAssBHD8Rk%2FwAfhtB%2Fag1TudTfLNJp6Jr1p%2BMa4uJ06%2BsMtSz4Rq3OC6BJjVJYYkenFSxHXE16qnINDyNDcV53h6Z%2BsuqoDUwdeIW9TnDjmUhGR3sixiiroOVLpXYCWWA3FwwYjGwyCHSmywq0DhEydF2mXy728x3SHXDPaFl7BANDYvOq5CLIkIKnLC9doTI2QGi%2FKba%7Ctkp%3ABFBM4InlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318541704713"
+  },
+  {
+   "title": "SONY PS Vita PCH-1000 Crystal white CIB W/ Charger",
+   "price": {
+    "raw": "$269.99",
+    "extracted": 269.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147624970990?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K63E7EV03EYS4R9FGE&hash=item225f224aee%3Ag%3AsC4AAeSwwSlqxwJO&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BG9%2Bi9SiT4GWlZMar6x9sd%2FHtyQoIwJXF1FhKWJKxHNXJN8jCsnViXH1M24UX0xnIPsnzz6REmA7yztBNbDB2vmHGBy0Hh%2FxgnTixK5c%2Bcj%2BHKlfuAEO64cOg2B7iUBGAfier6RA8Gs%2Fo0ZhVbytBhs22dqUooeb96KfZ8CNO7dAiqr0zqX0MubwxIBFm6lCAzFovmucdT7f7cVKQ5BRvCoz6wxiaLifbr0u1TbNKkhTW9m%2FsfrHPSI%2FPbkDK7M%2BgG2p554YfCDk9iN7Mywwwwn72V2iRHjxBWnSgQCT0d4ZhNGa2TAIy0JYCO8VyCHjlT3MtMxlscPplspkQhgkvm%7Ctkp%3ABFBM4onlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147624970990"
+  },
+  {
+   "title": "B2878 Sony PS Vita PCH-1100 console Black Handheld system PSV w/box adapter fx",
+   "price": {
+    "raw": "$199.99",
+    "extracted": 199.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227560563199?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K669YZ7HA5C2PSWX1X&hash=item34fbaaa1ff%3Ag%3A1a8AAeSwCdlqyc6O&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FXx3Rd2O7%2BvkSRbeGGEMIOZQnTjYbHFtGe2Sjpw%2Bq1ciabeRAzolSopmfQMBCqATO9tkBsJFioA5HLJLerW15LitZE%2Fd%2FLb22JyZgzQ3%2BHCmN3k5qpRPebZhLBA2CMo8%2Fo899Jy0UWAUKJcFaJT5lQK9y9S5GdW2ZLgsRD9KGmDDN9yapKF6ukgY6XOfzxX4stzJg9u1nEogAE%2B1HkKDV8x7%2BcDRIxHtaghdq3VNevr2iRF%2Bk6BSGS5E3Gzk84r8O4f%2BUC%2FnUFFs63sgUqYoVt6XVnhQfADI7WF1fSpSR3KKY2TUk6wxRlj4IX1e%2FPuwCer6pbFs3h%2B5%2BjaOZvYJjU%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227560563199"
+  },
+  {
+   "title": "Sony PlayStation Vita Handheld Gaming Console Model PCH-2001 Black",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820278628214?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K6H9J0MRSDJ68Q8D3Q&hash=itembefc6a8f76%3Ag%3A1R8AAeSwtgxq3ui1&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FP6EN0sRBtGrCEGvgGY73afp8vk6bljmEvn%2B7LWaxDMxXXe1bvc1GA%2BQ%2Ft%2Fgitr4NnRoAEqpvTSKXHRWoJId1%2F8MmUPMLpyRkyeGZJdtE04cMuiKw%2BQ9H6L5jlhKPvKT%2BSi%2BBpn6Aubguu%2BNHZYp%2Bz5YA%2FQxWXXDJYDJL9gh%2B26BYgXaTssustBCh2EikyOg9bbYEaL8XvraAdp5X4efOU0WQtFcP3J7eJ4NTp%2FLYqy3CJ9Wua%2FsPGcBTKShcSdUdX90UJ5Iqf30xcItU62LSqKMaueuywrwVBOzoIU5XhKQ%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820278628214"
+  },
+  {
+   "title": "PS Vita Handheld Console - Bundle w/ AC Adapter - PCH-1101 - 8gb - PlayStation",
+   "price": {
+    "raw": "$164.99",
+    "extracted": 164.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188940085647?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K609T3RWSMRQA95WG5&hash=item2bfdb4e98f%3Ag%3AmwQAAeSwvx5qqxyb&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8iOAAsOxrs0DEqkVViJXItkY3Zu0wkfDQN%2FvdkVAXZy%2BxAJo52qhtB7OwFTr%2BjDpTPWJtM7a94C0AdWmttdJ82JWjgNqanmzaNnmw8xMOe7fgspHfIXAXnHUinzTQyYVhNyiBa4SSa94IoskNWfiKkMgNyzyWpEv52W7mT%2Fb4W2Piz7WmmVCCKI0ns1zrleXpElm9YVvg0mcqwhQwBmtjN9TZKCjPj0ReD%2F4Wm2Pn94aNX6m4BD22s%2FDjrPjjLUL1a2b6RPIU8LuFt1khXpqk17Tt5OesSRZpuNq8sV%2B6qEQ%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188940085647"
+  },
+  {
+   "title": "Sony PlayStation PS Vita Black PCH-1101 Handheld System w/ Charger & 8GB Card!",
+   "price": {
+    "raw": "$179.99",
+    "extracted": 179.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168819923939?_skw=Sony+PS+Vita+handheld+game+console+black&epid=10021522538&itmmeta=01M6C4S8K6BN23GQVNK111XBER&hash=item274e739be3%3Ag%3Av5IAAeSwlYBq4KZ9&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BQHzZC0O60XQaTvUxVhjX9PN7GhK1DZt%2FwvnJsqhhNYtjN1EsRzLPiUrVbAU8Be3Y7rbht9Gcxwp2tEezLg8XJX9pGlQfgdY3WA%2BKoUF8Wp07FytbcNsQ--eUpJAdGDdkD0z5AeMuc0oYHSVDbYdP%2F6lkN8LKUEqVoyjvyH51DUVWWzEaRnM8nqeYunHG5FBkdJ5nDFnydLoAFmEaKGgP2Rs6SSkRlP719LBsa7PrTbqjnOXE27raSsvUtObPop7yxwN%2B2POd39mSCFTctbEgvArjeOPWe5cg0KHESEST3OQ%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168819923939"
+  },
+  {
+   "title": "Sony PS Vita PCH-1001 OLED Black Handheld Console 4GB Memory Card + Charger",
+   "price": {
+    "raw": "$189.99",
+    "extracted": 189.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206493924706?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K74BNYFDQR0QGESRVV&hash=item3013ff3d62%3Ag%3ArZUAAeSwbiNqgTcv&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8v%2BLcjE0cL8OOpJpz00nUp%2FOiVI64p1mly58SVZh%2BN6NnAWtRNOsRamaLpnIy5noI2svKE3P%2BBHK%2BT7Q30attuUs0mSMLVZi%2F6anuX%2F4oiCnL2vfoLboe6LBvG6i679xtlnhr2urXGsYG4VrBhpMdwYDfKiCz2DRwTB%2BySU2JdC0Tt7eorsiZFYcNbFENgGrWtn6x%2BorP1HfYPH0bloyi3LVb7Axg40X%2FE84ZyfgGZ1mqoskzaBAgRD5uQOnxcSfmybRDKeU1e904RACvEiUzYStfW7n46abzjF8wJGMM8%2Bg%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206493924706"
+  },
+  {
+   "title": "Sony PS Vita PlayStation Vita Handheld Game Console Black Headphone Jack System",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117065002891?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K7VSNC53XWWWJ4GHTD&hash=item1b419e2f8b%3Ag%3AnFsAAeSwni9ppN7H&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9uQbtmu9TJmcAwd9rmq2jiMInttqTvGU4xC%2BSl81doetDkTtbAwmT4GyafDIr25d4B1R9rw2eodvTqAt%2FqcpJyt7thORZoyOdLhjAiiOnc5QrVrGgWTaTXZj%2Bi6b0LxXlQRcDUa4tatO%2FbDKj12v68SApSWwgA%2B6SrVTNtsHzOP5g%2BCTKSbj9NFDLUPNVmOQoUknm77DgwIf9MqQUP6vSSX4uvk9G2tV%2FuS1kVUXNDvOzxxfcLHB4J67Y566g3b8Sw3Sa7xv3amFIpicJQKo4y5nGMm0tkBzBIP2Oe8mPVpw%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117065002891"
+  },
+  {
+   "title": "1145 Sony PS Vita PCH-1100 Crystal Black Region Free Good TESTED",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377611814402?_skw=Sony+PS+Vita+handheld+game+console+black&epid=177416636&itmmeta=01M6C4S8K7RVT12XK4GTRMGRAJ&hash=item57eb6b0602%3Ag%3A8KMAAeSwHIdq2tPl&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FxJbXp4huW%2BlqVcltv31I%2FczEVTthmVDJTgO6xPzTfIry9Qw5wJjgAKKALVDMMnzTc9rK3gxs%2FbCodp9XRPVo4vRyoGOoRgfYFBuapsXGEJIcyXddlY21IDTm0vXZ6agP7MjtnMJMvsoNgpahD8DeBf2YriavouGCMv3b%2FmStZlRoc8qbTpO57PBP%2ByantTbuteQIMgIpQXnx%2FKfJMClnSu3yv4NLJATZq%2FXrsMFwQSNr7Ol6Yv7bGE1E2KRVsMwo5UnZRUYTaVeiTB7fGeyVU1wKjGNSQui1TRFXpXpj6MBm7%2FQ8CVGzQUwZGKQAVYqe744RBh32USAYMVftviSft%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377611814402"
+  },
+  {
+   "title": "M0DDED 256GB Sony PlayStation PS Vita PCH-1000 OLED Console VGCond Sapphire Blue",
+   "price": {
+    "raw": "$275.00",
+    "extracted": 275.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820300964234?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K7KYTPMQ2M69FR1Q0Y&hash=itembefdbf618a%3Ag%3ArMcAAeSw9Yxq5l8f&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9DuP1Pv0CX1GOn3Sk88zQAMELhXmUhiFZEYHt6AHA107IFxU8LUy45mAdeuN%2FQLw1CEIXns7XMUvw4KZCAEnrg08znRaHUZGGZlL7%2BXmIYqM7VeVYah6n3HO5kAkIfGCorHm%2BlFb3jXL5aJTx%2FN34oPmjcr7UFVZpWaSDkMYk%2FExdsiHyozuGVIHduzztFGM8i9NGwlglXmrTcHu2JS3MZwNVhTdJjeJ8EIs%2BNbmidU%2BTlAyU%2BEoP3lgt052tJiRBUHaSzbyDGiUur%2FINtz7SOI0wB5TMBzFdv%2FQJcc2zu6SvUyw9Zfo4h5x%2BWmlvNk0D3cZgOPqJSy%2BzWZhCMCCAR%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820300964234"
+  },
+  {
+   "title": "Sony PlayStation Vita PCH-2006 Black Handheld Game Console Bundle 2 Games",
+   "price": {
+    "raw": "$175.00",
+    "extracted": 175.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377608548573?_skw=Sony+PS+Vita+handheld+game+console+black&epid=112329178&itmmeta=01M6C4S8K7CFCX3NZ0XC274GZY&hash=item57eb3930dd%3Ag%3AfeIAAeSw7vBq5Mcx&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8Pkn5UDd78ImKvL1xGFjzUAP%2FIZ1I%2FJgDfKj3v2yC9oLp43m6rYXy0c26PKiNfhJ9MOljXBYwnT1c%2Bd%2FChyZAZoPbklbkdAqFld48yC4XJzgovTf3DeGXfZOFcM60KnCQogRsLPjGy%2BExxrSn9nxQUfEAvGErKP0ec9%2BstE2yavwE9RETexD4iUx43jfDIEBPn0MnX9AJNbfoOjVRCZhqxEXfBTITt40XlEhfwtKpbisRdggEy6cznTdbW1Cbc0WXTx8cpDnuLKZUyvBYFmU5chnXLmm%2FW9sVkB0ffq04fkw%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377608548573"
+  },
+  {
+   "title": "PS Vita PCH-1000 Sony Playstation Console only Used Rank A",
+   "price": {
+    "from": {
+     "raw": "$164.80",
+     "extracted": 164.8
+    },
+    "to": {
+     "raw": "$324.99",
+     "extracted": 324.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/392291264585?_skw=Sony+PS+Vita+handheld+game+console+black&var=663170604253&itmmeta=01M6C4S8K7C2Q1F1VM1B3AVE1W&hash=item5b5661a849%3Ag%3A0CEAAOSwonZkXGBL&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Fq0%2FX6nyzLLZT2OLzAobVvL74GkXBoBaSbUvXMK1uSOuoFiliNrlllzP7k2j4Mrr1aDd%2F7WV86zPMaCG9pBNQ%2Fmgn%2F2%2BwmG6Q4JRn3JEH2ZGdFZ6HZi%2FyfX5dxl4QWwLtEqhxiMbE7CwGs%2F27j6w1M3UHtdNF2irscuzbYWi2Sda0NF2af%2B14VPkAQ1AjT7AN5Aws61ZDHa8RiEhLj9fWdYfFR725xG1ZXR722vU6fYj%2FjfPXidxc%2Bnr%2Bfb0eR3COhkbW%2FHahB2KLyMzVqmfv4wvOENiywn%2B8%2F9AectE21EG7%2BGzr7DszlCJAj%2FrITKXdzO%2FOLhPrtuJ0X9w%2FnVN7a%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "392291264585"
+  },
+  {
+   "title": "Sony PlayStation Vita Slim PS PCH-2001 Handheld Console Gaming System Black",
+   "price": {
+    "raw": "$190.99",
+    "extracted": 190.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860068889385?_skw=Sony+PS+Vita+handheld+game+console+black&epid=219663133&itmmeta=01M6C4S8K84FZNKJQEJNRZMET1&hash=itemc84019c329%3Ag%3AX1YAAeSw0SZq2KpI&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FwLh6KHWBczq8lEOvfLPFfHha2vz5WAtUYDiVbA4FsU0Ock5ULuNLHD6wKQDCSVdxcyInloG18Tej%2FU25%2BQBUYUXAfv7BUwjEgJesCtZSAuVXtSpCQ5Ag0%2Bk9MAu7%2BiPXxMbfU5DaUp%2FgHgqVKsItbw4QFpgof7hMIL%2BQ0w4Tkaxxlzn2a2vwk%2F9mqIgG3VZ3MTUkpZ2nfbfIP5rqygIiAkJwVxZo%2B9DcS4AMTcJ6XQHTKgsLFUxuRlERlmNEZkWZAwZQ5rBPuQbGWZgYdpunvg39us--lO97Fr3wDd%2F8W7r1JWoh0V3YAylKCmw25Q2xYtoAvTFcElJDIb1N%2BHrC3%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860068889385"
+  },
+  {
+   "title": "PS Vita PCH-1000 Oni-Patterned Handheld Console Limited Edition with cord & case",
+   "price": {
+    "raw": "$290.00",
+    "extracted": 290.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206570066014?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K8MR012N54FXW4D74C&hash=item301889105e%3Ag%3AZDQAAeSwx9pqsBDN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9NHt3y%2Fo9bLX46YqsMjr7Ue8uWot4mSa9szNE0qxkiGln74ZtGakpOwE%2BY%2BgOqIsGw1IktTv3kNANVMv0hoPs8Ojq35HHguDrd6Gyc79q81OXDXVx5%2BlCGlQm2yBVqoqAxmykcJGryd4cabSruYLS2heKFyfoMpoMpc7GCrkf1II4ktq7N9gBksiPDr1mmpMm9sRdMvm8tyi8RZID6Pl1tCGlCLo4n%2FXr7wTBR%2FDwEIBwfQ7vw%2BdBiYZUSENiXuRRGJjtzinbhF37sB9PErP4CRQyC%2FCJVGxOG5Rk7wRfQRQ%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206570066014"
+  },
+  {
+   "title": "Sony PlayStation Vita PS Vita PCH-1101 Handheld Console Gaming System Black",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800641026842?_skw=Sony+PS+Vita+handheld+game+console+black&epid=10021522538&itmmeta=01M6C4S8K8NC9W4QQ66MNTT3RP&hash=itemba69ec8b1a%3Ag%3AKLoAAeSw2VRqop8E&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FrKwGjBsZa2IgcvEVEU2EVY3jdjkApUigD1shG8DdOLmmZ4TFxqd0AWU0GVVn%2FNgSft9EL3lR%2FjVtULthibGMcQDkCYfdnHJiqIgY0TKtcC4G0EoPRs83p8HVAABz2hYfPjy4wgNeEAkVHi--lyrfoRleBzp3rEXot6RSvcMBk%2BnSqq8Qfrvf2%2BnRP7n4wdPU9wzysumVBQT9jNGQ7eutvcxNrbHKdq8x0b6naRMkpRfsJNUQXgg1t66p64Yf4zf6w83JQfMokJMdYl%2BVZw9gvctzcdWyDKcx91xxQMrHCdKcT1UU73H1LHCY8Pn34DSiqa22%2B9TbFCVtITr5LOUdP%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800641026842"
+  },
+  {
+   "title": "PS Vita PCH-2000 Sony Playstation Console only Choice 3 random games case Used",
+   "price": {
+    "from": {
+     "raw": "$164.80",
+     "extracted": 164.8
+    },
+    "to": {
+     "raw": "$269.99",
+     "extracted": 269.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/394847525814?_skw=Sony+PS+Vita+handheld+game+console+black&var=663412397879&itmmeta=01M6C4S8K8DCH6FS2QY1TFQ0HG&hash=item5beebf1bb6%3Ag%3AzeEAAOSw7OZk3hJB&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9Ww6Lm3gxlqFjE5%2B4fQQfC0rf%2BT1UJzdGKSXRO19Mj3xCU0gAsFJPnaU5dX%2BCStaXo0ET92XGmajs5FiQN4guzTNxCwNI5NAtVgN%2FySfWyHku1pYSu4KJRCE60WY4PjrFHDxRi6bCDMn%2FjUnqy6pAypDDpE7q%2FeOM4qiejMVMqjDEGIswpSfnaRyOA5trxcIXAYzbEcg0vRi5QNo7aojgDRRIFjpdtsBplMVe%2BYNjBpXnoJxOxhrnMHkdKHw34aHXqOreJNAc8tcRs66tKyNZhRfMMnACSTzggXTdxWYkcRWY4%2BY4ZRp4FahoKXnq3DPT2Ac57yVCDhzse9iLuPI8m%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "394847525814"
+  },
+  {
+   "title": "Sony PlayStation Vita PS VITA 3G/Wi-Fi PCH-1100 OLED Handheld Console Black",
+   "price": {
+    "raw": "$178.00",
+    "extracted": 178.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820294098270?_skw=Sony+PS+Vita+handheld+game+console+black&epid=13019210525&itmmeta=01M6C4S8K85YPDBA9K5NQVPMZ3&hash=itembefd569d5e%3Ag%3AIOYAAeSwtkVq5AaU&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8gvJ%2BDYBxAYcHgrVVbrLyXOox6BXt2a2Q%2B3Ncirmw%2FYYdHQhEUYwHYgL0ooVwvdL4FJfWIEYyOUlLB3mzjK59%2FdZkf0Uw%2Bm1NclK5f9J9fhNP1kJy1KNqAhFQUIs%2BlyBCiJMzU3KIhNM5uPILmgmp3D%2B2y3moiHyZDq3ixRpy2bIN7a9Z7uUKcn5UPy7O0O3a6MisiSc%2FZcXVjNG2uIUV8Wop18WIeHzURwYeevDPLaLQptzgBQ4ovJZDkdJMnKxswxeHQdpRZJITtgtkeOlgFOkWOvvf7u0FHgaPQiQ0Oo50A7mJ3y%2F2SAYtG17T08889qD0xSe8oZgv5kYniS%2F3B%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820294098270"
+  },
+  {
+   "title": "SONY PS VITA HANDHELD - PCH-2001 (P28023098)",
+   "price": {
+    "raw": "$169.99",
+    "extracted": 169.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960130238936?_skw=Sony+PS+Vita+handheld+game+console+black&epid=2164315627&itmmeta=01M6C4S8K8Z9C612R4723D5TEX&hash=itemdf8c38c9d8%3Ag%3A1XkAAeSwobhq47Pa&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Ffb4tdkdAGnqesaUMzWnx4CHnANt3tuaSPB2WY9Lrct5WB10aPepD8X3Pfe3FIU5AWSbKe9yz5l0adqTb7CaL5ZkQy7waLzH4nw%2FFHOyS5xhSl6EW%2Bcs5sDtbuXZStdYNMEDpdIhvqZIl2nQKwi%2FMlJxNCcYLljFaeGAH5mpIMR6h9hjEByQxKGKkOe9QMZK95TPoI2jyWcyBJcXk5B9AIPrlRIH3XNVY%2BRKQLsBsF3PRcrMwX%2B8t2VFvrP4mpPJBCqBxRqEQUjLOrFeyMye7AcMxobfs7rDLjM64BqYU5uw%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960130238936"
+  },
+  {
+   "title": "4920 Sony PS Vita PCH-2000 Blue Black Region Free Good TESTED",
+   "price": {
+    "raw": "$109.25",
+    "extracted": 109.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377604854869?_skw=Sony+PS+Vita+handheld+game+console+black&epid=1026350411&itmmeta=01M6C4S8K8WTE2TRRPWC3HXPF6&hash=item57eb00d455%3Ag%3A4-oAAeSwSnVq2vTQ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BfKpfb%2F5oVNfwxku5itT%2FmA1iEKlky14ZnAktmwkaeCq3CpgGWgz9Dc%2FCRAAUTFZi19FU1rdLFypev8yWFxujIYTU50ksP9yolgPAEFGfH8Wu%2BEcPPSZTAVlf%2Fil%2FaeDzvqQabzJ6QFMZ8dY10wdupEkGn4yF9OGq2%2BUNAv7KrpT3IHrHfByPLZ9lnEeXrr5gf7ySrexCWg%2FVnymLAqsj2EBHKTw6Zj4OaCGhyURlaxy95BBoigQbEhJLIpfrRWkQyCp51ieM4DwoEhJ6Y34Kzqt7vII7q7RYP4FeNZpVV3A%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377604854869"
+  },
+  {
+   "title": "Sony PlayStation PS Vita Black Handheld Gaming Console PCH-2001 (PO1027389)",
+   "price": {
+    "raw": "$199.00",
+    "extracted": 199.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800823124894?_skw=Sony+PS+Vita+handheld+game+console+black&epid=2164315627&itmmeta=01M6C4S8K9EN24WHS79SW3BH2A&hash=itemba74c7239e%3Ag%3ANLQAAeSwqQFq2V1g&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9mEJhWwyQIduw%2FjO%2F121YIX%2BnQFsjOziTmH2ZMVL%2FRIk%2FCgPVwihPHPmobvsvc0tbcDshKReUoy3bC%2FZCTO55ck5%2FYIE24SqAvpoHZzccHKM9gYqRJxaPIHNVe6XbWuHWtuwyQTub8BH8VjMEri05AFTURHVtcRxBCEJaoUytl6NMcBEbIXR7HWUNu3rt7lIvZvFQPyVDUcw4b3%2F5x5BUJM3I9p5v8xYURTxm5IvJy%2Bk5wDDaxXJLX9C7Yl4cwG8rJQUS%2BDAuXE4wb2HijRqK907LS3cZ7WkjGpu5AMiRWxg%3D%3D%7Ctkp%3ABk9SR-KJ5YSzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800823124894"
+  },
+  {
+   "title": "SONY PS Vita PCH-1100 OLED 3G Wi-Fi Region Free Japan – Fat Console Only or CIB",
+   "price": {
+    "from": {
+     "raw": "$199.49",
+     "extracted": 199.49
+    },
+    "to": {
+     "raw": "$229.49",
+     "extracted": 229.49
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147270519884?_skw=Sony+PS+Vita+handheld+game+console+black&var=445709965922&epid=1907984951&itmmeta=01M6C4S8K948P11QYK3C3EVYY3&hash=item224a01cc4c%3Ag%3Ahu8AAeSwst9qRPiF&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde86Ufl2mWfdkpM7VUEMAaehP5byEOj6ACfGArcggoNwihVNFcqgLVlhiFH5Uob7EeU0ygw73eyj%2BLhrdN6ydDmG6LGdfy%2BBp3oOItQsj5bK6N%2FStiwnN6rYtYlzTgVJ7xj12NoJkC6HqtXrzimlcuuMUdk3SiXJ%2BDl9S1acyRt7oyCfdXLhJ%2F7WeZ3co2DjW67yfQbPFnHgnx4jIuASmzmgmSh2%2FB0VGyZ2lw7WWVeohg%2BvKK%2BcqCHVocTbfb%2BeuCYIL4wO6BmuGADAHDiJvElr1XZrEKrNKTgThoAhmWjQW3Rrs%2F4JY9oZcUCzTs4iJcBO0fqoTDGdezQ%2Fx2MXI%2Bc6%7Ctkp%3ABFBM4onlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147270519884"
+  },
+  {
+   "title": "PS Vita Slim PCH-2001 64GB Bundle 5 Games Hard Case Tested Sony Black",
+   "price": {
+    "raw": "$279.99",
+    "extracted": 279.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128164951475?_skw=Sony+PS+Vita+handheld+game+console+black&itmmeta=01M6C4S8K9DTC9KEW5CNQ719FS&hash=item1dd739f5b3%3Ag%3AnocAAeSwldpq5PRw&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BReJxRGuoeZwMatdJTd5tbWWwyEOxqGsJWXJIZQXc%2FRCNXizIF9C4qkAxrnpTbx1nQc2VNIjYymoOTbS1B7dbj1IX9xuKemtHuB5Ezgte1Y8IpKV0RONhcPu2V%2Bqj38ure9tXnu2W2Zbyso4WQk0VDn8NK%2FDuD1Xvejeo0jexxAZ7gRvm6QuQGfXywkogEoNf5OTMEqdf%2BQD%2FCi6CC%2FZXM%2FXgWDKBctSF9HoEHByKKZe%2BygNjTnMQG%2FVa5zUY%2BmLTx%2BmDJz324QZBbgTHEyyz3Ycqsw3PQeY6qqaMBhF%2FnCsRbNTziHAEw85aDRd1RO6fwlZ78wMEBWmBoxULKFkov%7Ctkp%3ABFBM4onlhLNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128164951475"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": null,
+    "product": "video game cartridge",
+    "visible_text": "LLA",
+    "search_query": "gold video game cartridge",
+    "model_confidence": "low",
+    "color": "gold",
+    "material": "plastic",
+    "exact_model": null,
+    "platform": null
+  }
+}

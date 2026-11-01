@@ -2,7 +2,7 @@ import pytest
 
 from app.comp_filter import filter_comps
 from app.comps import Comp
-from app.models import Confidence, Recommendation
+from app.models import Category, Confidence, Recommendation
 from app.pricing import PriceRange, price_range, worth_listing
 from app.settings import PricingRules, Settings
 from tests.serpapi_fixtures import ITEMS, load_comps
@@ -30,56 +30,58 @@ def priced(typical_cents: int | None, confidence: Confidence = Confidence.HIGH) 
 
 
 def test_no_comps_gives_no_prices_and_low_confidence() -> None:
-    result = price_range([], RULES)
+    result = price_range([], RULES, Category.APPAREL)
     assert (result.low_cents, result.typical_cents, result.high_cents) == (None, None, None)
     assert result.comps_count == 0
     assert result.confidence is Confidence.LOW
 
 
 def test_free_listing_is_not_priced() -> None:
-    assert price_range(comps(0), RULES).comps_count == 0
-    assert price_range(comps(0, 1000, 1100, 1200, 1300), NO_FACTOR).comps_count == 4
+    assert price_range(comps(0), RULES, Category.APPAREL).comps_count == 0
+    assert (
+        price_range(comps(0, 1000, 1100, 1200, 1300), NO_FACTOR, Category.APPAREL).comps_count == 4
+    )
 
 
 def test_one_comp_is_every_percentile_and_low_confidence() -> None:
-    result = price_range(comps(4000), NO_FACTOR)
+    result = price_range(comps(4000), NO_FACTOR, Category.APPAREL)
     assert (result.low_cents, result.typical_cents, result.high_cents) == (4000, 4000, 4000)
     assert result.confidence is Confidence.LOW
 
 
 def test_few_comps_skip_the_trim() -> None:
-    result = price_range(comps(1000, 1100, 90000), NO_FACTOR)
+    result = price_range(comps(1000, 1100, 90000), NO_FACTOR, Category.APPAREL)
     assert result.trimmed == []
     assert result.comps_count == 3
     assert result.confidence is Confidence.LOW
 
 
 def test_four_comps_are_enough_to_trim() -> None:
-    result = price_range(comps(1000, 1100, 1200, 90000), NO_FACTOR)
+    result = price_range(comps(1000, 1100, 1200, 90000), NO_FACTOR, Category.APPAREL)
     assert [comp.price_cents for comp in result.trimmed] == [90000]
     assert result.comps_count == 3
 
 
 def test_percentiles_interpolate_and_then_scale_by_the_factor() -> None:
     prices = comps(1000, 2000, 3000, 4000, 5000)
-    unscaled = price_range(prices, NO_FACTOR)
+    unscaled = price_range(prices, NO_FACTOR, Category.APPAREL)
     assert (unscaled.low_cents, unscaled.typical_cents, unscaled.high_cents) == (2000, 3000, 4000)
-    scaled = price_range(prices, RULES)
+    scaled = price_range(prices, RULES, Category.APPAREL)
     assert (scaled.low_cents, scaled.typical_cents, scaled.high_cents) == (1290, 1935, 2580)
 
 
 def test_percentiles_between_two_ranks() -> None:
-    result = price_range(comps(1000, 2000, 3000, 4000), NO_FACTOR)
+    result = price_range(comps(1000, 2000, 3000, 4000), NO_FACTOR, Category.APPAREL)
     assert (result.low_cents, result.typical_cents, result.high_cents) == (1750, 2500, 3250)
 
 
 def test_trim_works_in_log_price_so_a_low_outlier_is_caught() -> None:
-    result = price_range(comps(10, 2900, 3000, 3100, 3200, 3300), NO_FACTOR)
+    result = price_range(comps(10, 2900, 3000, 3100, 3200, 3300), NO_FACTOR, Category.APPAREL)
     assert [comp.price_cents for comp in result.trimmed] == [10]
 
 
 def test_all_the_same_price_keeps_them_all() -> None:
-    result = price_range(comps(*[2500] * 12), NO_FACTOR)
+    result = price_range(comps(*[2500] * 12), NO_FACTOR, Category.APPAREL)
     assert result.trimmed == []
     assert result.comps_count == 12
     assert result.confidence is Confidence.HIGH
@@ -103,16 +105,30 @@ def test_all_the_same_price_keeps_them_all() -> None:
     ],
 )
 def test_confidence_rule(prices: list[int], expected: Confidence) -> None:
-    assert price_range(comps(*prices), NO_FACTOR).confidence is expected
+    assert price_range(comps(*prices), NO_FACTOR, Category.APPAREL).confidence is expected
+
+
+def test_games_have_their_own_factor_and_a_wider_range() -> None:
+    prices = comps(*range(1000, 11000, 1000))
+    apparel = price_range(prices, RULES, Category.APPAREL)
+    games = price_range(prices, RULES, Category.ELECTRONICS_GAMES)
+    assert (apparel.low_cents, apparel.typical_cents, apparel.high_cents) == (2096, 3548, 4999)
+    assert (games.low_cents, games.typical_cents, games.high_cents) == (2209, 5170, 8131)
+
+
+def test_the_wider_range_does_not_lower_confidence() -> None:
+    # 2.0 across the middle half, and more than that across the 15th to 85th percentiles.
+    prices = comps(1000, 1500, 2000, 2000, 3000, 3000, 3000, 4000, 4000, 4000, 8000)
+    assert price_range(prices, NO_FACTOR, Category.ELECTRONICS_GAMES).confidence is Confidence.HIGH
 
 
 def test_many_comps_from_a_real_search() -> None:
     slug = "mario-kart-8-switch-game-conditions"
     kept = filter_comps(load_comps(slug), ITEMS[slug]).kept
-    result = price_range(kept, RULES)
+    result = price_range(kept, RULES, Category.ELECTRONICS_GAMES)
     assert result.comps_count + len(result.trimmed) == 59
     assert result.confidence is Confidence.HIGH
-    assert result.typical_cents == round(3499 * RULES.ask_to_sale_factor)
+    assert result.typical_cents == round(3499 * RULES.games_ask_to_sale_factor)
 
 
 def test_yes_at_exactly_the_threshold_with_the_net_beside_it() -> None:
@@ -135,7 +151,7 @@ def test_check_when_confidence_is_low_even_above_the_threshold() -> None:
 
 
 def test_check_with_no_net_when_there_are_no_comps() -> None:
-    result = worth_listing(price_range([], RULES), RULES)
+    result = worth_listing(price_range([], RULES, Category.APPAREL), RULES)
     assert result.recommendation is Recommendation.CHECK
     assert result.net_after_fees_cents is None
 
@@ -157,8 +173,9 @@ def test_every_rule_has_a_one_line_reason() -> None:
         assert "\n" not in field.description, name
 
 
-def test_factor_is_labeled_an_assumption() -> None:
-    assert "Assumption" in (PricingRules.model_fields["ask_to_sale_factor"].description or "")
+def test_both_factors_are_labeled_assumptions() -> None:
+    for name in ("ask_to_sale_factor", "games_ask_to_sale_factor"):
+        assert "Assumption" in (PricingRules.model_fields[name].description or "")
 
 
 def test_rules_can_be_overridden_from_the_environment(monkeypatch: pytest.MonkeyPatch) -> None:

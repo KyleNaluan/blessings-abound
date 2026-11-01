@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Sony",
+    "product": "PlayStation console with controller",
+    "visible_text": "SONY PlayStation",
+    "search_query": "Sony PlayStation console controller grey",
+    "model_confidence": "high",
+    "color": "grey",
+    "material": "plastic",
+    "exact_model": "PlayStation",
+    "platform": "PlayStation"
+  }
+}

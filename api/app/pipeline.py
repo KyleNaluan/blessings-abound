@@ -141,7 +141,7 @@ def price_item(card: ItemCard, session: Session, search: EbaySearch | None) -> P
             "moment, or check it by hand.",
         )
 
-    price = price_range(lookup.comps, rules)
+    price = price_range(lookup.comps, rules, card.category)
     worth = worth_listing(price, rules)
     if price.typical_cents is None:
         searched = '", "'.join(lookup.queries)

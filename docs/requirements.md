@@ -79,7 +79,7 @@ If the team falls behind, the timing hint goes first, then the number of dashboa
 | Manager approval, storage location and pick list | [#42](https://github.com/KyleNaluan/blessings-abound/issues/42) | Channel A cannot be approved without weight and box size, and a sold item appears on a pick list sorted by box section and shelf. |
 | Publish and sync on two mock channels | [#21](https://github.com/KyleNaluan/blessings-abound/issues/21) | A sold item comes down from the other channel within seconds, a missed webhook is caught by polling, and the demo run shows zero oversold items. |
 | Needs Attention checks | [#43](https://github.com/KyleNaluan/blessings-abound/issues/43) | Every planted stale-status, unknown-listing and double-sale conflict is flagged, and a planted double sale is fixed in one click. |
-| Settings page | [#41](https://github.com/KyleNaluan/blessings-abound/issues/41) | Managers can change box sizes, the seasonal calendar, cutoffs, fees and the ask-to-sale factor. |
+| Settings page | [#41](https://github.com/KyleNaluan/blessings-abound/issues/41) | Managers can change box sizes, the seasonal calendar, cutoffs, fees and the ask-to-sale factors. |
 | Sales insight dashboards | [#27](https://github.com/KyleNaluan/blessings-abound/issues/27) | The four views work: time to sell, seasonality, triage funnel, and sync health and agreement, with every chart labeled "synthetic". |
 | Synthetic sales data generator | [#44](https://github.com/KyleNaluan/blessings-abound/issues/44) | About 600 items over 12 months come from a fixed seed, within about 25% of each calibration target. |
 | Insight chat with fixed query functions | [#45](https://github.com/KyleNaluan/blessings-abound/issues/45) | Numbers come from tested functions in code, and every answer shows the query it came from. |
@@ -124,7 +124,7 @@ Features freeze on Nov 7, and the Poster and demo milestone covers the rest.
 - Judges can sign in with the seeded demo staff and demo manager accounts ([#31](https://github.com/KyleNaluan/blessings-abound/issues/31)).
 - The deployed demo URL works from a phone ([#22](https://github.com/KyleNaluan/blessings-abound/issues/22)).
 - The 48 by 36 inch landscape poster covers the problem, the approach, the results against the baseline, the limitations, the fairness choice and demo screenshots, with a draft by Nov 7 and the final PDF by Nov 9 at 11:59 PM CT ([#23](https://github.com/KyleNaluan/blessings-abound/issues/23)).
-- The limitations on the poster are that comps are asking prices, that the 0.645 ask-to-sale factor comes from Poshmark, that the prototype scored 8 items, and that the channels and sales history are mock and synthetic.
+- The limitations on the poster are that comps are asking prices, that the 0.645 ask-to-sale factor for apparel comes from Poshmark and the 0.94 for games and hardware comes from 18 items, that the prototype scored 8 items, and that the channels and sales history are mock and synthetic.
 - A team member follows README.md from a fresh clone on a different computer and fixes whatever does not work ([#25](https://github.com/KyleNaluan/blessings-abound/issues/25)).
 - Everything shown stays honest about being a proof of concept, with no invented endorsements, numbers or partnerships.
 

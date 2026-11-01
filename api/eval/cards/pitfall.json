@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Activision",
+    "product": "video game cartridge",
+    "visible_text": "ACTIVISION PRESENTS PITFALL! (PITFALL HARRY'S JUNGLE ADVENTURE) For use with the Atari Video Computer System AX-018",
+    "search_query": "Activision Pitfall Atari 2600 cartridge",
+    "model_confidence": "high",
+    "color": "green",
+    "material": "plastic",
+    "exact_model": "Pitfall",
+    "platform": "Atari 2600"
+  }
+}

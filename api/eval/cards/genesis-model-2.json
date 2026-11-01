@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Sega",
+    "product": "game console",
+    "visible_text": "GENESIS SEGA",
+    "search_query": "Sega Genesis game console black",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Genesis",
+    "platform": "Sega Genesis"
+  }
+}

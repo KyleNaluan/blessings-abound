@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "handheld console",
+    "visible_text": "GAME BOY Color",
+    "search_query": "Game Boy Color transparent purple",
+    "model_confidence": "high",
+    "color": "purple",
+    "material": "plastic",
+    "exact_model": "Game Boy Color",
+    "platform": "Game Boy Color"
+  }
+}
