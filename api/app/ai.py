@@ -80,6 +80,4 @@ def get_fallback_chat_model(settings: Settings | None = None) -> ChatModel | Non
     ]
     if len(missing) == 3:
         return None
-    raise AINotConfiguredError(
-        "set " + ", ".join(missing) + " to use the AI fallback provider"
-    )
+    raise AINotConfiguredError("set " + ", ".join(missing) + " to use the AI fallback provider")
