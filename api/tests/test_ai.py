@@ -41,3 +41,19 @@ def test_fallback_model_is_optional() -> None:
         ai_fallback_api_key="k",
     )
     assert get_fallback_chat_model(configured) is not None
+
+
+def test_partial_fallback_configuration_raises() -> None:
+    from app.ai import get_fallback_chat_model
+
+    partial = Settings(
+        ai_fallback_base_url="https://fallback.example.com/v1",
+        ai_fallback_model="m",
+        ai_fallback_api_key=None,
+    )
+    with pytest.raises(AINotConfiguredError) as excinfo:
+        get_fallback_chat_model(partial)
+    message = str(excinfo.value)
+    assert "AI_FALLBACK_API_KEY" in message
+    assert "AI_FALLBACK_BASE_URL" not in message
+    assert "AI_FALLBACK_MODEL" not in message

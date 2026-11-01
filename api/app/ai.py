@@ -64,12 +64,22 @@ def get_chat_model(settings: Settings | None = None) -> ChatModel:
 def get_fallback_chat_model(settings: Settings | None = None) -> ChatModel | None:
     """The second provider, or None when it is not configured."""
     settings = settings or get_settings()
-    if not (
-        settings.ai_fallback_base_url
-        and settings.ai_fallback_model
-        and settings.ai_fallback_api_key
-    ):
+    base_url = settings.ai_fallback_base_url
+    model = settings.ai_fallback_model
+    api_key = settings.ai_fallback_api_key
+    if base_url and model and api_key:
+        return OpenAICompatibleChat(base_url, model, api_key)
+    missing = [
+        name
+        for name, value in (
+            ("AI_FALLBACK_BASE_URL", base_url),
+            ("AI_FALLBACK_MODEL", model),
+            ("AI_FALLBACK_API_KEY", api_key),
+        )
+        if not value
+    ]
+    if len(missing) == 3:
         return None
-    return OpenAICompatibleChat(
-        settings.ai_fallback_base_url, settings.ai_fallback_model, settings.ai_fallback_api_key
+    raise AINotConfiguredError(
+        "set " + ", ".join(missing) + " to use the AI fallback provider"
     )
