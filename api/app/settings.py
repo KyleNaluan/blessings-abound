@@ -25,6 +25,10 @@ class Settings(BaseSettings):
     ai_base_url: str | None = None
     ai_model: str | None = None
     ai_api_key: str | None = None
+    # Second provider, used when the first one fails twice or cannot be reached.
+    ai_fallback_base_url: str | None = None
+    ai_fallback_model: str | None = None
+    ai_fallback_api_key: str | None = None
 
 
 @lru_cache
