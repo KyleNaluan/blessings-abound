@@ -1,10 +1,51 @@
 from functools import lru_cache
 from pathlib import Path
 
+from pydantic import BaseModel, ConfigDict, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 # The single .env file lives at the repository root and is shared with docker compose and web/.
 ROOT_ENV_FILE = Path(__file__).resolve().parents[2] / ".env"
+
+
+class PricingRules(BaseModel):
+    """The numbers behind the pricing pipeline in docs/architecture.md, each with its reason."""
+
+    model_config = ConfigDict(frozen=True)
+
+    ask_to_sale_factor: float = Field(
+        default=0.645,
+        description="Assumption: comps are asking prices, and this came from Poshmark ratios of "
+        "1.21 to 2.93, not from eBay sales.",
+    )
+    tukey_fence_multiplier: float = Field(
+        default=1.5, description="The standard Tukey fence width, applied to log price."
+    )
+    tukey_min_comps: int = Field(
+        default=4, description="Below this, quartiles are too thin to call any listing an outlier."
+    )
+    high_confidence_min_comps: int = Field(
+        default=10, description="Enough listings that one odd price barely moves the range."
+    )
+    high_confidence_max_spread: float = Field(
+        default=2.0, description="A high price within twice the low means one market level."
+    )
+    medium_confidence_min_comps: int = Field(
+        default=5, description="The fewest listings that still show a range, not a few anecdotes."
+    )
+    medium_confidence_max_spread: float = Field(
+        default=3.0, description="Past three times the low, the comps likely mix different items."
+    )
+    worth_listing_threshold_cents: int = Field(
+        default=3000, description="The client's stated bar for a typical sale price worth listing."
+    )
+    fee_rate: float = Field(
+        default=0.136, description="eBay's final value fee for most categories."
+    )
+    per_order_fee_cents: int = Field(default=40, description="eBay's fixed fee on each order.")
+    supplies_cents: int = Field(
+        default=150, description="Assumption: the packaging cost of shipping one item."
+    )
 
 
 class Settings(BaseSettings):
@@ -34,6 +75,8 @@ class Settings(BaseSettings):
     serpapi_api_key: str | None = None
     # The free plan allows 250 searches a month, so the default leaves a small margin.
     serpapi_monthly_budget: int = 240
+
+    pricing: PricingRules = PricingRules()
 
 
 @lru_cache
