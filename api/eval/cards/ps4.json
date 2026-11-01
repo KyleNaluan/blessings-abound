@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Sony",
+    "product": "game console",
+    "visible_text": "SONY PS4",
+    "search_query": "Sony PlayStation 4 console",
+    "model_confidence": "high",
+    "color": "black",
+    "material": null,
+    "exact_model": "PS4",
+    "platform": "PlayStation 4"
+  }
+}

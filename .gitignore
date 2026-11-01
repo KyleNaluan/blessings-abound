@@ -16,6 +16,9 @@ node_modules/
 # Uploaded photos
 api/storage/
 
+# Evaluation photos, recorded by link and hash in api/eval/items.json
+api/eval/photos/
+
 # Editors and operating systems
 .DS_Store
 .idea/

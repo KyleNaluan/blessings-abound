@@ -1,0 +1,604 @@
+{
+  "groups": {
+    "all": {
+      "pipeline": {
+        "items": 18,
+        "priced": 18,
+        "in_range": 5,
+        "in_range_rate": 0.278,
+        "median_error_percent": 40.5
+      },
+      "baseline": {
+        "items": 18,
+        "priced": 18,
+        "in_range": 13,
+        "in_range_rate": 0.722,
+        "median_error_percent": 15.1
+      },
+      "pipeline_beats_baseline_on_in_range": false,
+      "pipeline_beats_baseline_on_median_error": false
+    },
+    "apparel": {
+      "pipeline": {
+        "items": 0,
+        "priced": 0,
+        "in_range": 0,
+        "in_range_rate": null,
+        "median_error_percent": null
+      },
+      "baseline": {
+        "items": 0,
+        "priced": 0,
+        "in_range": 0,
+        "in_range_rate": null,
+        "median_error_percent": null
+      },
+      "pipeline_beats_baseline_on_in_range": null,
+      "pipeline_beats_baseline_on_median_error": null
+    },
+    "electronics_games": {
+      "pipeline": {
+        "items": 18,
+        "priced": 18,
+        "in_range": 5,
+        "in_range_rate": 0.278,
+        "median_error_percent": 40.5
+      },
+      "baseline": {
+        "items": 18,
+        "priced": 18,
+        "in_range": 13,
+        "in_range_rate": 0.722,
+        "median_error_percent": 15.1
+      },
+      "pipeline_beats_baseline_on_in_range": false,
+      "pipeline_beats_baseline_on_median_error": false
+    }
+  },
+  "pipeline_before_factor": {
+    "items": 18,
+    "priced": 18,
+    "in_range": 11,
+    "in_range_rate": 0.611,
+    "median_error_percent": 20.0
+  },
+  "median_ask_over_reference": 1.06,
+  "searches_saved": 18,
+  "rules": {
+    "ask_to_sale_factor": 0.645,
+    "tukey_fence_multiplier": 1.5,
+    "tukey_min_comps": 4,
+    "high_confidence_min_comps": 10,
+    "high_confidence_max_spread": 2.0,
+    "medium_confidence_min_comps": 5,
+    "medium_confidence_max_spread": 3.0,
+    "worth_listing_threshold_cents": 3000,
+    "fee_rate": 0.136,
+    "per_order_fee_cents": 40,
+    "supplies_cents": 150
+  },
+  "items": [
+    {
+      "id": "nintendo-switch",
+      "category": "electronics_games",
+      "reference_cents": 13000,
+      "search_query": "Nintendo Switch Joy-Con controllers neon blue red dock",
+      "queries_searched": [
+        "Nintendo Switch Joy-Con controllers neon blue red dock"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "low",
+      "pipeline_recommendation": "check",
+      "pipeline": {
+        "low_cents": 3225,
+        "typical_cents": 9997,
+        "high_cents": 12900,
+        "comps_count": 41,
+        "in_range": false,
+        "error_percent": 23.1
+      },
+      "baseline": {
+        "low_cents": 10500,
+        "typical_cents": 15999,
+        "high_cents": 20000,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 23.1
+      }
+    },
+    {
+      "id": "ps4",
+      "category": "electronics_games",
+      "reference_cents": 10250,
+      "search_query": "Sony PlayStation 4 console",
+      "queries_searched": [
+        "Sony PlayStation 4 console"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 7670,
+        "typical_cents": 10205,
+        "high_cents": 17805,
+        "comps_count": 33,
+        "in_range": true,
+        "error_percent": 0.4
+      },
+      "baseline": {
+        "low_cents": 11918,
+        "typical_cents": 14997,
+        "high_cents": 24462,
+        "comps_count": 58,
+        "in_range": false,
+        "error_percent": 46.3
+      }
+    },
+    {
+      "id": "xbox-360-s",
+      "category": "electronics_games",
+      "reference_cents": 10500,
+      "search_query": "Xbox 360 console black controller",
+      "queries_searched": [
+        "Xbox 360 console black controller"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 4756,
+        "typical_cents": 5657,
+        "high_cents": 6450,
+        "comps_count": 20,
+        "in_range": false,
+        "error_percent": 46.1
+      },
+      "baseline": {
+        "low_cents": 8056,
+        "typical_cents": 9748,
+        "high_cents": 11961,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 7.2
+      }
+    },
+    {
+      "id": "n64",
+      "category": "electronics_games",
+      "reference_cents": 7000,
+      "search_query": "Nintendo N64 game console",
+      "queries_searched": [
+        "Nintendo N64 game console"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 5802,
+        "typical_cents": 8642,
+        "high_cents": 9352,
+        "comps_count": 17,
+        "in_range": true,
+        "error_percent": 23.5
+      },
+      "baseline": {
+        "low_cents": 9245,
+        "typical_cents": 12997,
+        "high_cents": 14999,
+        "comps_count": 58,
+        "in_range": false,
+        "error_percent": 85.7
+      }
+    },
+    {
+      "id": "nes",
+      "category": "electronics_games",
+      "reference_cents": 9999,
+      "search_query": "Nintendo Entertainment System console",
+      "queries_searched": [
+        "Nintendo Entertainment System console"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 4418,
+        "typical_cents": 5159,
+        "high_cents": 6450,
+        "comps_count": 27,
+        "in_range": false,
+        "error_percent": 48.4
+      },
+      "baseline": {
+        "low_cents": 7500,
+        "typical_cents": 9000,
+        "high_cents": 12000,
+        "comps_count": 55,
+        "in_range": true,
+        "error_percent": 10.0
+      }
+    },
+    {
+      "id": "game-boy",
+      "category": "electronics_games",
+      "reference_cents": 7997,
+      "search_query": "Nintendo Game Boy handheld console",
+      "queries_searched": [
+        "Nintendo Game Boy handheld console"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 4192,
+        "typical_cents": 4515,
+        "high_cents": 5385,
+        "comps_count": 43,
+        "in_range": false,
+        "error_percent": 43.5
+      },
+      "baseline": {
+        "low_cents": 6500,
+        "typical_cents": 7499,
+        "high_cents": 9498,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 6.2
+      }
+    },
+    {
+      "id": "gba",
+      "category": "electronics_games",
+      "reference_cents": 8000,
+      "search_query": "Nintendo Game Boy Advance clear shell",
+      "queries_searched": [
+        "Nintendo Game Boy Advance clear shell"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "low",
+      "pipeline_recommendation": "check",
+      "pipeline": {
+        "low_cents": 1161,
+        "typical_cents": 9674,
+        "high_cents": 12190,
+        "comps_count": 41,
+        "in_range": true,
+        "error_percent": 20.9
+      },
+      "baseline": {
+        "low_cents": 2100,
+        "typical_cents": 12799,
+        "high_cents": 18900,
+        "comps_count": 58,
+        "in_range": true,
+        "error_percent": 60.0
+      }
+    },
+    {
+      "id": "ds-lite",
+      "category": "electronics_games",
+      "reference_cents": 5700,
+      "search_query": "Nintendo DS Lite handheld console black",
+      "queries_searched": [
+        "Nintendo DS Lite handheld console black"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 3261,
+        "typical_cents": 3870,
+        "high_cents": 4819,
+        "comps_count": 42,
+        "in_range": false,
+        "error_percent": 32.1
+      },
+      "baseline": {
+        "low_cents": 5312,
+        "typical_cents": 6500,
+        "high_cents": 8000,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 14.0
+      }
+    },
+    {
+      "id": "3ds-xl",
+      "category": "electronics_games",
+      "reference_cents": 20059,
+      "search_query": "Nintendo handheld game console black dual screen",
+      "queries_searched": [
+        "Nintendo handheld game console black dual screen"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "low",
+      "pipeline_recommendation": "check",
+      "pipeline": {
+        "low_cents": 15500,
+        "typical_cents": 28968,
+        "high_cents": 62475,
+        "comps_count": 23,
+        "in_range": true,
+        "error_percent": 44.4
+      },
+      "baseline": {
+        "low_cents": 20806,
+        "typical_cents": 34234,
+        "high_cents": 72237,
+        "comps_count": 58,
+        "in_range": false,
+        "error_percent": 70.7
+      }
+    },
+    {
+      "id": "2ds",
+      "category": "electronics_games",
+      "reference_cents": 10407,
+      "search_query": "Nintendo Wii U GamePad",
+      "queries_searched": [
+        "Nintendo Wii U GamePad"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 4062,
+        "typical_cents": 5159,
+        "high_cents": 8223,
+        "comps_count": 31,
+        "in_range": false,
+        "error_percent": 50.4
+      },
+      "baseline": {
+        "low_cents": 5000,
+        "typical_cents": 8495,
+        "high_cents": 12999,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 18.4
+      }
+    },
+    {
+      "id": "game-gear",
+      "category": "electronics_games",
+      "reference_cents": 5700,
+      "search_query": "SEGA Game Gear portable game console",
+      "queries_searched": [
+        "SEGA Game Gear portable game console"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 6046,
+        "typical_cents": 7837,
+        "high_cents": 13104,
+        "comps_count": 32,
+        "in_range": false,
+        "error_percent": 37.5
+      },
+      "baseline": {
+        "low_cents": 9500,
+        "typical_cents": 12624,
+        "high_cents": 22196,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 121.5
+      }
+    },
+    {
+      "id": "n64-controller",
+      "category": "electronics_games",
+      "reference_cents": 2239,
+      "search_query": "Nintendo 64 controller grey",
+      "queries_searched": [
+        "Nintendo 64 controller grey"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1225,
+        "typical_cents": 1545,
+        "high_cents": 2125,
+        "comps_count": 45,
+        "in_range": false,
+        "error_percent": 31.0
+      },
+      "baseline": {
+        "low_cents": 1949,
+        "typical_cents": 2599,
+        "high_cents": 4250,
+        "comps_count": 55,
+        "in_range": true,
+        "error_percent": 16.1
+      }
+    },
+    {
+      "id": "snes-controller",
+      "category": "electronics_games",
+      "reference_cents": 1793,
+      "search_query": "Nintendo Super Nintendo Entertainment System controller",
+      "queries_searched": [
+        "Nintendo Super Nintendo Entertainment System controller"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "low",
+      "pipeline_recommendation": "check",
+      "pipeline": {
+        "low_cents": 1300,
+        "typical_cents": 6644,
+        "high_cents": 8546,
+        "comps_count": 35,
+        "in_range": true,
+        "error_percent": 270.6
+      },
+      "baseline": {
+        "low_cents": 2499,
+        "typical_cents": 10500,
+        "high_cents": 14999,
+        "comps_count": 57,
+        "in_range": false,
+        "error_percent": 485.6
+      }
+    },
+    {
+      "id": "nes-controller",
+      "category": "electronics_games",
+      "reference_cents": 1799,
+      "search_query": "Nintendo NES game controller",
+      "queries_searched": [
+        "Nintendo NES game controller"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 645,
+        "typical_cents": 993,
+        "high_cents": 1289,
+        "comps_count": 26,
+        "in_range": false,
+        "error_percent": 44.8
+      },
+      "baseline": {
+        "low_cents": 1075,
+        "typical_cents": 1896,
+        "high_cents": 2700,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 5.4
+      }
+    },
+    {
+      "id": "switch-pro-controller",
+      "category": "electronics_games",
+      "reference_cents": 2499,
+      "search_query": "Nintendo Switch Pro Controller black",
+      "queries_searched": [
+        "Nintendo Switch Pro Controller black"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1153,
+        "typical_cents": 1290,
+        "high_cents": 1805,
+        "comps_count": 52,
+        "in_range": false,
+        "error_percent": 48.4
+      },
+      "baseline": {
+        "low_cents": 1888,
+        "typical_cents": 2162,
+        "high_cents": 2979,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 13.5
+      }
+    },
+    {
+      "id": "dreamcast-controller",
+      "category": "electronics_games",
+      "reference_cents": 2815,
+      "search_query": "Sega Dreamcast controller white",
+      "queries_searched": [
+        "Sega Dreamcast controller white"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1612,
+        "typical_cents": 1806,
+        "high_cents": 2735,
+        "comps_count": 46,
+        "in_range": false,
+        "error_percent": 35.8
+      },
+      "baseline": {
+        "low_cents": 2497,
+        "typical_cents": 2899,
+        "high_cents": 4599,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 3.0
+      }
+    },
+    {
+      "id": "wii-sports",
+      "category": "electronics_games",
+      "reference_cents": 2500,
+      "search_query": "Nintendo Wii Sports game disc",
+      "queries_searched": [
+        "Nintendo Wii Sports game disc"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1676,
+        "typical_cents": 1832,
+        "high_cents": 1934,
+        "comps_count": 42,
+        "in_range": false,
+        "error_percent": 26.7
+      },
+      "baseline": {
+        "low_cents": 2500,
+        "typical_cents": 2830,
+        "high_cents": 3000,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 13.2
+      }
+    },
+    {
+      "id": "sonic-knuckles",
+      "category": "electronics_games",
+      "reference_cents": 2921,
+      "search_query": "Sega Sonic & Knuckles cartridge",
+      "queries_searched": [
+        "Sega Sonic & Knuckles cartridge"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 902,
+        "typical_cents": 1096,
+        "high_cents": 2499,
+        "comps_count": 30,
+        "in_range": false,
+        "error_percent": 62.5
+      },
+      "baseline": {
+        "low_cents": 1624,
+        "typical_cents": 3100,
+        "high_cents": 7358,
+        "comps_count": 70,
+        "in_range": true,
+        "error_percent": 6.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Sega",
+    "product": "game console cartridge",
+    "visible_text": "SONIC & KNUCKLES",
+    "search_query": "Sega Sonic & Knuckles cartridge",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Sonic & Knuckles",
+    "platform": "Sega Genesis"
+  }
+}

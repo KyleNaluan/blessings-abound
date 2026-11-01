@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Sega",
+    "product": "game controller",
+    "visible_text": "Dreamcast",
+    "search_query": "Sega Dreamcast controller white",
+    "model_confidence": "high",
+    "color": "white",
+    "material": "plastic",
+    "exact_model": "Dreamcast Controller",
+    "platform": "Dreamcast"
+  }
+}

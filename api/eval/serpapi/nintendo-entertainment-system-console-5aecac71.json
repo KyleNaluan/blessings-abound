@@ -1,0 +1,643 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Nintendo Entertainment System console",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 8400,
+ "organic_results": [
+  {
+   "title": "Nintendo Entertainment System Console Bundle with New NES 72 Pin",
+   "price": {
+    "from": {
+     "raw": "$99.99",
+     "extracted": 99.99
+    },
+    "to": {
+     "raw": "$174.99",
+     "extracted": 174.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/195112359014?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219K80FGWBEW6KR4181MZ&hash=item2d6d9a5466%3Ag%3AlrcAAOSwJ2pb4KNq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FG1kp3wo3nP3R4yV2kRm3PuHayJ%2Bix0UehsDvc8dGHNRXn0OxW5MJ66BYqs6d5del83DM6nnjlSgx0FxbiSQk%2FNraMOuMDve3ahBdKw%2BlKbPUPnc4dwEB3FrglIFjCfNIVUKwFgksL7WRsjOxfGBdNVqiNnS6PfdcC%2Bv82NW9BAckEgp%2FYkqrnk9Mg1Rk827I1NFZ1XHPFlQ8EGQm1fXj99bMYTWZEEK1Cf%2BZyoUMWZQ44qBkCUGoCknc%2BrNKxLKUH%2B3s6bZrf%2B%2BpOIMqgvbmG%7Ctkp%3ABlBMUPqZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "195112359014"
+  },
+  {
+   "title": "Nintendo NES System Console Choose Your Bundle New 72 Pin",
+   "price": {
+    "from": {
+     "raw": "$99.99",
+     "extracted": 99.99
+    },
+    "to": {
+     "raw": "$149.99",
+     "extracted": 149.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/386211225156?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219K8TDSR2XPCNX8CTP21&hash=item59ebfb9e44%3Ag%3ATygAAOSw5cxlMRsJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Lnvm%2BzVcbT5MgPpGtbgkzGx6bg3F5pLdrmkhChGOP6JtTThbPWd6MFu7WPtdhNMAPMq7m2BGMucTloJv2IgRaonjStLk1grAmzqokkQ4e0QVbaMnID3CvVxoH3FsaIxKiZ2hrZIGqZh%2FQUArsCeWRP9lgiMEJIBDr10E9YlkMxW4kl3l75nHypoEr87M55tkjElgL9E5O9tFUe9cp0puuZbZ54pZqxme9NMmu%2BsTobw4QVi%2Bb71JmK2Q2xn2NYC9%2BIfB37s83nZaxOzNR868i%7Ctkp%3ABlBMUPqZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "386211225156"
+  },
+  {
+   "title": "Nintendo NES System Console Choose Your Super Mario Game Bundle New 72 Pin",
+   "price": {
+    "from": {
+     "raw": "$134.99",
+     "extracted": 134.99
+    },
+    "to": {
+     "raw": "$364.99",
+     "extracted": 364.99
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/193202235404?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219K8JHPTWZEEJ1EH1W3J&hash=item2cfbc0280c%3Ag%3Ai0oAAOSw5uddyCPF&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9f%2By5cXeqi9JtN1PWe6XuzyLB5wJTCS4fJzPu62jSa8w4QkfR2UHy%2BgRvs25OixwlYVEY02Tw8qY%2Fl30HgUmrIPRthujc%2FesdPQPSWU7qjBADx1aeplQTcI9OrUKX%2F4WP2osZyjzltQPW3PyASTvccLiJfViaB0Lo7XuRO%2FTkEgJTIRX5z7IpoE4ybPkeX%2FuXGAd%2BElUVlfQh3aANVpslsMNGJQd5rg8B5SYN7EB9Vlger8IHNMWAVtrqZnnrRCPJhWAmlJLP6s253HfpAf2%2Fo%7Ctkp%3ABlBMUPqZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "193202235404"
+  },
+  {
+   "title": "Nintendo NES-001 Entertainment System Console Bundle Tested",
+   "price": {
+    "raw": "$160.00",
+    "extracted": 160.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366760720333?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219K837J07YCFW4564KW4&hash=item5564a477cd%3Ag%3Ab3QAAeSw%7Eahq3kFJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8omS9%2FJUtQ3Wf4oEasMkiGjjRQT1LvvAys0wRtXD4od6%2BkzX4DW%2F8QZpgWS5tL1G%2FEvJnAAGI8Nqwnxu0LqOhr0zvNiDymKqiu2WORg6mAajOmo5iRlidJHIHnntOTUdL1KTebiQLK8m92w8mbH8Qe%2FDKvLLrduNrZzLwniRXhVXL8bdWeUp9lSIZCdAUxxvPbD2TD0SgfuFSz1MCIUKepMRxAHeq%2BOYvBn6HT4LwzvMJDN0g3R8QZ2Wz%2BswtY7BrSvqTVN2luqy%2B1t3SEf6HT%7Ctkp%3ABlBMUPqZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366760720333"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console With 2 Controllers | Tested ✅",
+   "price": {
+    "raw": "$90.00",
+    "extracted": 90.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227592711132?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219K853D30V5XWFB3E97S&hash=item34fd952bdc%3Ag%3AVA4AAeSw3QFqVm6x&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FEkAdq2FydCZI6fcy96WU7%2BwfEmvogSS4Cj0ZSd%2BSfLthqiIAKpxQIxtPZf6Yn87SXoln2wh55gyX0q6UWmO3w%2BLHlMM2YlDH17tbdT4XmBE4TE5fllJFQtShRAUyHwLjoJhMDL9XNhpxrtbB4omMtKjjqmVng8p5wPMNz6ZhciYL7cwwqxr6h67x8H8jBKj0UjExYsZVZcyAM3ACq%2BAILWMAoKoGyWLsAcwo287SJITg%2BJ2E3QcT1GRSlTvY%2FLSTgUhuYAnecY5gdvQhXZgeY67shKiIv38hHrakoXioACn1KBF3V5KS%2FXXOLRdBJOgg%3D%7Ctkp%3ABk9SR_qZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227592711132"
+  },
+  {
+   "title": "Nintendo Entertainment System - NES Console Bundle",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880035503469?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219K9GE7J537ZG60HQFN7&hash=itemcce6341d6d%3Ag%3Ao9AAAeSwvBNq18xu&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F5A%2FkKLcT%2Fd25hiHVxRnsTK3gnM%2FT4xl0Kd658m57aUDbyzJ%2BWzx78jOcopfbH0j541yzdOupy3thUocIipO6Qurmzgi%2F%2BPxadZB6efVHH9ea4CgsbX1XFuPdDLlfx9iRqmadCAQ72slrg3qbHdd5V3il6hLdvqnecM0jPOAztS1FJKcvEhr0hOvFi%2Fyl7MAPKZ1bpfiyuSq87XflM1fmHSaVzgwGIB35IAe53D8F%2BQt1tXw7PyRsfJQ%2B%2BTepnbQz2BL5Vk7%2BiDkNP7KGpPxGd%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880035503469"
+  },
+  {
+   "title": "Nintendo Entertainment System Console Bundle (w/ Mario/Duck Hunt, NES-001, READ)",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128161504807?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219K91EKXV9ZA5DADWKVR&hash=item1dd7055e27%3Ag%3A-6wAAeSwYOBq4liY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9cKxaQO8Nn%2FVLgPhZcU8eYW35t3p%2FYe77NtT5%2ByLYLRR1O1VCzofKn3j%2FsSTHExKD1LJ3%2Filwjed891kUWhJQdh2HmBnMxaO4ZfBN0ger3LNc0FUnznoNiPl7BqELbOLsyEJ3Snf6Ocm%2BEYa4L15pOYu8JeBrhM5Ib%2B04HKj1Jh6qzUfh9Okr%2FK8iVgmE1UT9INFO0mVyPIq3AIyjAD2pPCd1Tgv2vdzALWMRW0RdBinXC6rSbYzlGhZrkSt5%2FAT%2FioU%2B2HwvP%2BWDNVlR4TnRpyQVDcYICLvhD0XlP9FlwErSLfCi19WXiMg16jk9JRzs%3D%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128161504807"
+  },
+  {
+   "title": "Nintendo NES-001 Entertainment System Home Console w/ Controller Zapper",
+   "price": {
+    "raw": "$73.50",
+    "extracted": 73.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880050993732?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219K9VEYX58YMCTHP512X&hash=itemcce7207a44%3Ag%3AerQAAeSwnMdq3m-5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FCBuEK8ZvADA55d66JINkcsLhLBSZ8d2WuaWutToVw4zP6aEt2R9O62kxLA0ZTE%2FWL5JaqdP%2Bq%2FGsx3XvwOAYvZ7An%2BQ%2FdjcMEruA5l8BPUqOaoPxOY%2FMi4%2BuUPws8AEOKAlf56q%2B0xupN8GzYcVexQ%2FnaTxQyPVYDuE7W47Rs%2Fi6B4fizMFlfA7Swc1%2FeHnQf1Vdgg5lH1OWXEYDTJcCO%2FEEsHE6QKVs%2BBRGlA1JN3OmL2LReSflWgwkf78Atu1f3yQbruSmCoKatGgmenOgkbbgYtBcvrXb8b7wQX3bavZxXegCBIXm2rnBYFtCEeSM%3D%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880050993732"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console Gaming System Only NES-001 Gray",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880038743866?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219K9FY21898ZPJS96V44&hash=itemcce6658f3a%3Ag%3AoIUAAeSwBN5q2Sjw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8WbBvutB1lwxlO0bKjFQVy22C9bcVzDbJHJmLYeVXpEU%2Fh%2BaXxUdN8a%2FMNpxlxABjaXDLiUFFwqFtAyozhziNHzYrdL6XRbrnERQG4kX5OiKWjdEaTwCCGWeVV%2Fx1zURgNK7Ga2kjzz7ULOENbus4zyLDqfBjAEupm3YUAlH5BLPWSJIkN3yssPqW9MsSsNiMkQZvn6tql9pUM4ffy18WDyCafJM%2Fa84oiAB8C%2FSZCEd21Um48ig3on3QBH%2B8K5mdukeG%2F8q7MRXzwn1fOtPlN01Yqrs6Doh3upwi2H9gMW1OWdJoy312YfmPENut0DlM%3D%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880038743866"
+  },
+  {
+   "title": "Nintendo NES Entertainment System Console Bundle Zapper, 2 Controllers, 3 Games",
+   "price": {
+    "raw": "$118.00",
+    "extracted": 118.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366760725576?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219K96HZV3447HS4NXZ47&hash=item5564a48c48%3Ag%3AJ6YAAeSwVBRq3kMp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9KrpJjrk7MDtVcKwhoEWnnSr80XKwGgcaFWoQ3VdZT0iDPl0DsNnuukEgqtleHn5idUOLVsQzPb28wwImMyVN8DnpiZKLo8k3JgOvAZiJMxf5oOdRF4yJRHqKqHtkfH%2BqHTCl5tyTH%2BgbOP%2BJKq8H1nL%2BIqkE3wTo1jbAe3wholqCrlZOTxDrP3YtkRAKuBWTF4kitk1wcogrF3CN82muCDfuGXC0C4y%2FeNgJkZZQnGwKJNPuIsx4SWhz1wow9rlXEzz6QnFM0HKEHJue7ZcwtWpgbI01KkQGPIZzef4O2E0PzwI69l37%2BTvnt%2Bbartoo%3D%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366760725576"
+  },
+  {
+   "title": "Nintendo NES-001 Console bundle, tested working",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198757956401?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219K9PWKSQC97X15QP7ZM&hash=item2e46e5bb31%3Ag%3AG6sAAeSwqqFq5Op1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8jpbwY%2BMjqhP1EAdfxJnhFkYCte0nfyq7rhlIHBZEH52pCy12P2z8NycdJpJd42%2FUcnP%2BYXwqjrC%2FQRS2dMNm5FdZZ%2Fbr9Dhaw807b6RgkTxYGuStDqkClFL2M3vDbduvgTA1v3KrQyKhJbbm6R9vhmpDmxWMRq3OVFXuORIkwl%2FYCuuVh%2B%2Ft3OlEhbDEJ8oG0WxbRsR%2BTGleb%2FwxeJ9NuqtQEidrFsck3Yz1zIY3i1oq1UUsR0VQVB1x7y2k0KcCMSf0y4ftNXgLIUa9qMP2byqguSadPuzpnhqdU%2F685j61yyP8z1hDMA0x0BkOZssw%3D%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198757956401"
+  },
+  {
+   "title": "Clear Purple Nintendo Entertainment System NES Console- Super Mario Bundle",
+   "price": {
+    "raw": "$179.95",
+    "extracted": 179.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227589303444?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KAGE68BR6F50NR1JXP&hash=item34fd612c94%3Ag%3AmbIAAeSw%7Ekxq4-JV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FHMeuR6wCGgYezrr0V%2BT%2FE7lSPu5vRB0idi23F201jX0xHGh9G2ixSQwXVmgAg0LTLyAnqkLM1%2BDeVP4omS9Y6GhfBRPjTXukU1ciB0JgU0%2F5syBGtcx4jTKXx61u06i%2Fdr5yiUTsj67kWdZ05HbnRaJ65zaXn1Mt0AdKxzINTS3c3Xtia4cRd%2FLBIUc3OHaZeT2srfG%2FjoAv3SjXaxVVzjyVrZx%2FZxmVhYZ%2FbynxjYVDF93XplZVLjdUvovy4XWxfkVO7WTAxQDXlMaPFGdOo%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227589303444"
+  },
+  {
+   "title": "NINTENDO NES CONSOLE ORIGINAL SYSTEM GAMES SUPER MARIO 1 2 3 +YOU PICK BUNDLE+",
+   "price": {
+    "from": {
+     "raw": "$189.00",
+     "extracted": 189.0
+    },
+    "to": {
+     "raw": "$349.00",
+     "extracted": 349.0
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/165520208178?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KAZB4KECARSGA5S942&hash=item2689c5f132%3Ag%3A%7EdsAAOSw96leULCE&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2ByIn6fDdEabN7ERRNVfqG59nsbh5UrF%2F272Hh4DSxNlA9zSMSHAwcsc0XUJ1SEoGQTMOC484HMDRuqx2QbWb92speifzMFTgFvHLlFXeEa0Uo%2FMC3qnJRvqE0JVQZIU1z2pbqsEmdpdStnPYEPTc5auIpuTAVi6HesrcKOvCJMNCdFKvOq5DMs63Z%2B2Y%2FMSKzEVyR87oX%2FZ4vYs0GoZH53AkiblK%2F7FLVYurUHrg9P3sjA4iIK8mf9zmdZ5NVPUmlpzLywoK6iaaurVx9%2F9%2F4C%7Ctkp%3ABlBMUPyZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "165520208178"
+  },
+  {
+   "title": "1985 Original NES Nintendo System Console + New 72 Pin Authentic & Clean!",
+   "price": {
+    "raw": "$179.99",
+    "extracted": 179.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/154188521796?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219KAX3V4ZDV28F0X36BP&hash=item23e65a2144%3Ag%3AgHcAAOSwAmBfq3Bv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9F1kqh5zdcCZ7Xw%2F0h4S732lBk7RaGtdXaCthRCAuVpUKvFpy%2BNSuGTbULNv9krrJMOctFcV%2FiFy1sPxqdSfjP1xsWLkuXFyWJqijZrJMeuVyVJxtU3GMVlEANNUtw5ECpS0KQlHO15XPd9dfZnuQU7YIaZcSnjpAhtdlOh0cbyo%2BuIq5RFNAryr4xWVwTscks1EfxITfCWRlQc5t9dcRpCs8%2BbUIgUnVg6wXFbTODQXOCk0w6cNW6VGKVPoG7ePNaKKEMb0q1KWvZ9htYcQp3kmN0Rf%2BodP1nf8QsrX1WlHxlf%2B2i3aOCSxHyiu%2F8d%2B0%3D%7Ctkp%3ABFBM_JmFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "154188521796"
+  },
+  {
+   "title": "Nintendo NES-001 Entertainment System Console NTSC-U/C AC Adapter RF/AV Cables",
+   "price": {
+    "raw": "$105.99",
+    "extracted": 105.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137874816498?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KASCT44VYDW7ZD68H4&hash=item2019fabdf2%3Ag%3A8xUAAeSwIvFq3nq0&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8sSSQ2%2FwIK7XIGM2fFO0VN5REoE9mDJj2NSipNf4492EH4m%2BWiQR7wjchvZ%2BCaEsqcFHWSi2PdvAPOFnWZVVUQaR%2B%2FHOQ07FwhdrN4d%2FhBzHYwOXivZcEnz6Sm6hf9iGN9gvkKHpG4U2TRtAb2x2xCwQ71tMOMV8D4sK9gJjiFRYl15K1eUcEZ0IO2LLpR1YXG8JqWsOZaLkrZulDrfntLE2RvbAmuU%2BUU9VkuMHqZelG5dcKbXlo3mM49eStc4o1Vy5%2BgeQKJQqAvwp5S%2BR6hWM2vF0NKTHgw3XcYUydv4RsE5UV%2BMcS46gR7GuZYgk6UDjK9JPjycnb4JscMWYYC%7Ctkp%3ABFBM_JmFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137874816498"
+  },
+  {
+   "title": "Nintendo Entertainment Console NES ,2 Controllers,Gun,5 games, AV Cable, + Power",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/177239171780?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KAEP48MEWJYT983DR8&hash=item29444722c4%3Ag%3AazgAAeSwgRBoZb0l&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F1uh2y8fGwL5P%2BTgqxhmYn6nvVdkw4Bs6hV4QW%2BmChx4CTDKcJAaG35Y%2BpYRUUYJ8znyYTLx0h9a2cTTOwM2kvHioxHHg8eCxbGJAC15nFcMey8hDZ4KroHrjfZmHqxsX6OtAdDrtu97WWaDR%2Bfvjf6RxeoM%2FPmza4XTKWAcH%2BqdD5Rd5vUHSwIivucNRQ3xxAaSvo303TKhOBy%2FJzWcs3b5teRaszYTOBOoIHAKTqB5TdMYpRq1TjhzEEmYji5gSCXCb5GuNsc9eNaNl3DjfDHz%2F07YX%2Bl%2B2U2xs93pgeDNyXs5GiescUc%2BoXcuEnDZHLnOY%2F1%2Fo4Ubi788T1Y1Q0%7Ctkp%3ABFBM_JmFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "177239171780"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console - Gray (NES-001)",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147641099587?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KBGP1M2PPZVJPJT81G&hash=item2260186543%3Ag%3A-7cAAeSwyeFq1LTh&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bcu4mivDQUIEprr63quP8b4SU1srdN5t4Wuq0flRHNEbjCsvtplcKan%2BAVakiFiTlxU%2BQuMlWfZUe1EP0tUwlDPLeHRMTBLq79XCRVYNTKhINyfyMYt9elVlII9U4N9lc7QaRhVDO367oYzSgFfcPicZWqf1UHJNbUy5L8MfhqhFRoplJuz%2FMP1AAPD9%2BACUh1aLY11RBtA%2Fxr8dEwq9i0NsqEx22kBuGdTYOmT67TQthImV0%2BXJcgzwpneA6GzR59ykAKZDHhEYGaMc44sT%2F8%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147641099587"
+  },
+  {
+   "title": "Nintendo NES Entertainment System Console NES-001 Gray RF NTSC-U/C",
+   "price": {
+    "raw": "$46.50",
+    "extracted": 46.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366763542820?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KB3HDQ0AAYFYQYSAGQ&hash=item5564cf8924%3Ag%3AWGMAAeSwqK9q4BLq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BmCx2txUKjcGqI4DYAHRUzERvxf1ib3Vv15fT9n1KjNsXFSy0dkIYbxb%2Bov6%2BOi5oakta0XkHc95LifN95eHD%2FpRC%2F4YTgbeKz%2BSI%2BUtxn%2FWBlz%2FurJy2OJG9N859fz2DkaQWT86g7f2LkOGp2VXHCcb8F5DbyAgLpcuvh9k%2FG1m4G5ptBMuDkTP1lzYOzT8UZHm2fou3P7WYfH6tw15sMGUUBAgQYFDQsxuBahnXw2E8WXljLEyGsUmeR2GuIYCxjy32ajwqWtStemn0Om9Ex%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366763542820"
+  },
+  {
+   "title": "Nintendo NES-001 Entertainment System Console NTSC w/2 Controllers, AC, Tetris",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840082106231?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KB24G9G0YTYS25TX15&hash=itemc398cba777%3Ag%3AwiwAAeSwWuJq525r&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BVIxWUiliS1akLBOpp6A%2FwlXAjEa%2FgioIDtsXiRNgEff51xNetNJqCammd5XXPq5iiVOvP6xT%2F65N1XVr8AWKz3%2F1RcK4Qx%2FU%2BL2xd%2F30uyHjKZTk0bxOM1TaAg1QChhlzBJHM564aUSF%2BvqQy4%2BdEvjPO5P1NFMVByTXY4MYx0KAoQY9CtUBJx%2BhLH1TBZrxnOiKmeU0Cp2ip2sNzoB4mEHeIbgkX%2BtX740mBN4pt9pCM8yUei9t6U78%2FcrCKLOli%2Brm3aZj04%2Fl0DAmsIIwhpt6XMFYYI7VBMVfHd5f2gNET5lI31a9M%2FiuEBFInyDPHBLehLlemRU7Ev9RhBhd6%7Ctkp%3ABk9SR_yZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840082106231"
+  },
+  {
+   "title": "Clear white Nintendo Entertainment System NES Console- pick your bundle",
+   "price": {
+    "from": {
+     "raw": "$150.00",
+     "extracted": 150.0
+    },
+    "to": {
+     "raw": "$180.00",
+     "extracted": 180.0
+    }
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188262077105?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KB89DXRF74Q40G6EZB&hash=item2bd54b52b1%3Ag%3AUhMAAeSwILhp5nhc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BiuIFXRrUJNTheQs8CtIRqY%2FG7K74i%2BF7ddFmQ%2BtfQNZRb4xIjxRzGBUnUjFvQTOm8vM0SMkgHVRDpp6a6bTqGiZWhGli9LJhIdbbRMEbTkdLVU8cVmXhM6cEojjYJIDNCQsJhP0osD68oC32lZzkbMU3wBiwJEqbpeZSgVjeTqkGBfCfOjnCqI7E2FuYE6nmN07TdSnDkq%2BS4pZ8y204bCXjZaqNIsAwZblc1yO4jdD3CbH0AiOmyAMdAmKdu9vaffwj8yZiG0rOu01%2BErn5V%2BmM%2FxOwJytGYGI%2BgdvSsWBfHqYVlCXTs273Kp%2Bu8Vls%3D%7Ctkp%3ABk9SR_6ZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188262077105"
+  },
+  {
+   "title": "nintendo entertainment system console",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920074146211?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KB6MTQ20TWYQC7N37X&hash=itemd638b151a3%3Ag%3A13wAAeSw4Qlq3mhr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FaZ6iWYpKCIicXpqJZ0VtP9qlKYjvGw7lmF%2B6wWumfOjmMcDwADqS7g5MD51H3oBR2RwZ8RrY5AT1aZmOTkU9DXs18TegG29s45I2FRMRA90J6g%2F%2BE9zeEOSzKVntH%2FrKF6PmPJjF1c3ROT%2FGj5AlmMnfWkuGUWOwSoFO2kXA8s7BXlZNgcTZLGHj7wql%2BgiUZk%2Bskww35X5LcRLjd1xCXa3cmQ12g9l5uifb4WKtSjEJktdo7jus6x2bL2GN3k0QfKNHYT73ehMeTxVgPuujVstgQrGczfS4O1b6tROUQ2YyHeRdXITzS3PrzgLX%2FcV4%3D%7Ctkp%3ABk9SR_6ZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920074146211"
+  },
+  {
+   "title": "Working NES Nintendo Entertainment System CONSOLE ONLY - PLEASE READ",
+   "price": {
+    "raw": "$42.00",
+    "extracted": 42.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267825394180?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KBW572HTN3CBX990W7&hash=item3e5ba33204%3Ag%3AbbYAAeSwkBlqzm76&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8jK8nCCQ%2FJLHOUZbAt0%2FPSy2Z6Oirt6rth5JksBgHvWfyeO8V8iA7oTR1UjQdDCGtpIe2Cjg%2BSJ2fcEfpuEzJ8IcTidcd8xrTj2xed%2BnTrCNa6iyyQZA%2BmA%2BVef9TPNK1oGpxevDUtOXhOlALjyQAYBjFpWuH4C2hD%2BGmbZilJAGv%2BFlaln%2FRT5uXUM1FkDgwSRnhzAArMF0PgOwvmLvaXwzDtSXM8DYnM2RPigYEPTlDyxbQQ2jDK3qEn%2FN2%2FcbodM3d6Do3t0KDH8mcyKapI%7Ctkp%3ABk9SR_6ZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267825394180"
+  },
+  {
+   "title": "Nintendo Entertainment System NES RGB Console - Working",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227580256751?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KC83B3PJ05X9VQJXX3&hash=item34fcd721ef%3Ag%3A6wUAAeSw%7EK9q23kV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8yQDWpeWIbiXPnTsJquarl%2BG%2BUCXlHycJr5fFcu2J7HXqOUuf7Pl3X1YU8k7f9MT4pj2a%2Bc4KOZBxTsuQtYRC4cpgRyf6YqhU9rzXW6eglVr7qYO5zquLdi2yMerVqnoK8QlgumOQVAKOUSCwttyMkifntHKLC7nuKzB86GF58uXTAL8z9JmHVIJ3mlhOufOKtI1YWMU83qVNy8Azze5s5ivSAFQyRbcJAxQFPngYylyLLmLA9ld5m3cg2k2dj%2FhWpwqpi%2FZBR%2Fzr5l5bCf6tq%7Ctkp%3ABk9SR_6ZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227580256751"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console Gaming System NES-001 Gray",
+   "price": {
+    "raw": "$87.99",
+    "extracted": 87.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198701787111?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KCKDPBJSHMA05GB5A7&hash=item2e438ca7e7%3Ag%3AFE8AAeSwknRqyS%7ET&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FM%2BY5tcGtEkl68tyKoUUKpwroQn6zxgEMOwJ16O7qVwI%2BVoAopy9xMw%2BSa4nclv%2FaBcRZKioMy0DLRyfF%2FdnLgtE700a0y22lY9R7kTHuAH3z9MGucNHWteqEZ3ArM9Fwt1JNtKlFrkGv%2BvVrb%2F%2BcsewYSslLK1hJ%2BCvvXgfH0u7O6T0wOkDWkF4bDl1EZcaIJz9tgrZQPI0tLDkt3Lr4CGmc7dJYaaLgQlKY6pDn2ruTZuihS48ICR1muI6nxuhYAnQzDG%2FIeii4%2FizK5W14aypY%2FVyRkS7VJHJ0jop%2BPKsVh1MjgCn1RnRw0YqBKpbE%3D%7Ctkp%3ABk9SR_6ZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198701787111"
+  },
+  {
+   "title": "Nintendo Entertainment System 512MB Classic Edition Console w/ Extra Controller",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940053482170?_skw=Nintendo+Entertainment+System+console&epid=224836664&itmmeta=01M6C219KC8CH5GZ2XGAX9FF8P&hash=itemdadf8dcaba%3Ag%3AflgAAeSwJ-dq5Trb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8YLXvMmokjJ6SJLG%2BC21CAlhCIsj%2BTqpha60ebCxp4B9ovTP%2B8pUxoSqepHOY%2Bw64Bmy%2BZ8PBiNEeHQAs1QSsNPicl%2B8uAkPnTOE5IXwVsIYxGWW3wD1dsHMOJPIGbcTMwExvieYyC%2BpRGxr9I0f4flYz8re%2BzX9f5s4A5R4hMazF5O2iFi%2BBWtSsCeWBr88r7oFvaJoING%2FujfZlG7fFiV8MuBTz%2FOHavFjQlA%2Bu%2B58h40ddLvyL%2FAHFtCtt%2Btg7WUxj7khYV5sEw%2FVLH30o%2B%7Ctkp%3ABk9SR_6ZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940053482170"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console Gaming System NES-001 Gray",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407260064737?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KC8CYRRGS5V2PK2C30&hash=item5ed2976be1%3Ag%3AseEAAeSwfipqvrK4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8T%2BDehrJc121h2w40ah%2B%2BvgN%2BXO6AgN4VcSocGHzYqLo0xbaOotL02IikhFRVespL%2BWtbuhxQY2GUbyURoBkYZt1j32zkGtnvuJZ%2Fl4xilhpUaN3hNipwLjlPEqlRPoGb4EDk7ihbUvO%2BkZWMWrd7Cm88wvdKor6e1phiwiucLPOmdQ0skV14U%2BNNzAtxseeECbDjwrtr6r840pMfxOqnpYf%2BuQzqnXjnq9gmFa2vt%2F%2BSTimzi%2BVlsfZkGokJn964k0fQPSfQC66UfrN4NRnyvNRXfIkO9ZBm7SSAH8kgk30rTq%2FGRYWcHRQF3KVo%2BvXo%3D%7Ctkp%3ABk9SR_6ZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407260064737"
+  },
+  {
+   "title": "Nintendo Entertainment System Home Console - Gray",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820264388225?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219KC0AC7SK8HX82XHD6A&hash=itembefb914681%3Ag%3A4I0AAeSwQlBq2WQS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9uweCZ7RFiNBtvj97dhwFvMO7ND8t%2BsIE3XIxnUYr4x4Fpebs2X3nU4zfAHR0hDUA0wbjqyulMP0iCZtFrBzPMtuM0TeIXAqSpQgegft7LI2xCLvl44Q1whAIc4dw56MltwAMFyOlSS5zY3Uzm2zsP31XKq00erhI%2FWknIa2bFOIAyk5bBnlzg81HYCXsX9hFvPy6Cfn6bjggyuHS%2FCF1iOpQqUEiRJKtSiEe3uPJCjJPdNS9I6O4sbXoaZpNOYLljqgE6p082h0n83yeV40NkXamJ7r78tpWfd1GU0R1TpVlB%2FradHpWUcVcDRO%2FpbZI%3D%7Ctkp%3ABk9SR_6ZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820264388225"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console - Gray (NES-001)",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147641100612?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KDHY3NA9TEZZF8QFV9&hash=item2260186944%3Ag%3AX6oAAeSw9fdq1LVj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FI2DDqmADL--piZZZgEziavKYubCRQaY0glyKJiR8HARdNA4jSRGRgjtVC0YowTbb4uMIf%2B%2FFI2DeyjEWLihO2K2FyZNA9X%2FwmhzQraVRx%2BmRLKYvLgxDH9VElhwbZe2LLsIVx2w8jpGNy1FcIRpsCRvWjNS8%2FAjdGv4OjZAT0fPpBO6LttZ%2FYPvwYbDDlsqm%2FS5mDu6d5tJAxytXgA0K4L0jIJ0PHZCFU0vFKThuvLlAZMFwZxwd2HJP9L1SZZfndML1xb4zXYP3ne%2FDJ3SAYVZTM%2FKszbIvzcWSFmD5pniolcykAUaDf2N0UbuipAvc%3D%7Ctkp%3ABk9SR_6ZhYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147641100612"
+  },
+  {
+   "title": "Original Nintendo NES Console Bundle – Tested & Working – 6 Controllers",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237127999985?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KDGND15S7R55YQXDED&hash=item3735ee21f1%3Ag%3ARpQAAeSwfwVq1ULz&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8f2mo%2BdIeLojowK5s9wFH4LKiylFhU%2FE83vxrfHUkq5QPcuCvFcYKtRcWwjFXJz4a6dtu32b6nzIixOIBf2oxOc6zV09Z7dxKwLsvM2ajM3GM12XvrgK%2FoFHS%2F1Syo3Q3x%2FoJpsKu2ARUwqKxxU%2F%2BA0BmETty9GiYRsCSaCURnpy28bcS6Qv2pyTOY8jXw8BvPfAujMLnt7zQ7q2WmdleFFj2jbJNTORmfaKDLwfADOQOpEec3mAOb5fvTrpPm3%2FOj1hpt0QVQWlT0oCbqhnirKgUimBNrHqQM7Awm3Vfk0zCL58C7J7HwjPZqM2kMB7iHX6p3f5md%2FL%2FrgSD9KAgF%7Ctkp%3ABFBM_pmFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237127999985"
+  },
+  {
+   "title": "Nintendo NES-001 Entertainment System Console w/ two Controllers and a Zapper",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128147556396?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KDTHJXGMGNJRW1V5PM&hash=item1dd630882c%3Ag%3AjUAAAeSwq6Vq2CGI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde86l1rnpcNudHc8u58B7uI5hs8RWPg3Epg6YBzljZdHbPgmxu4bBXgMHjDN%2Butif%2Fr9VtHZLgVIMEtCsvG9llKp5TppM%2F%2B9JulLxD7Wfl3k9Ncva01uiRuPd0ZQqeMsh21NLLFYYCcN9nb3J2wunvrSnwGCLDSZsKAY4HKJH6UgTFPYkyOo9nWpYTlC9qpV1ldo7Q1ORSi02TiV3Jg03g4IFYoDTTkhVX5Fj3jN9OU%2FMw%2BCkPVbZ81lCjDfu%2Bpch2M2qEkRWw2sBOc%2FSQFUt%2BD5SLpStG1Z5uiMiy4oZAjux5RF3Gific5SiUjRenxdlVo%3D%7Ctkp%3ABFBM_pmFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128147556396"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Original Console With CORDS Tested & Works!",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820295569838?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KD5YZB22HPFFQ84137&hash=itembefd6d11ae%3Ag%3A19UAAeSwk3xq5GgN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde92F7u2mYiDCwSXZxbyCsn%2F08AbjgA76zJVTLGtzap%2By%2FE%2FDtSCI3g%2Bcdx3gObl5apBjKGt%2Br7sf%2B%2BfTHeqQ8lvvJYiOtlRKfQumgfYHljVmnUTidqnW6xE52A8ySR10%2BXJZGcr%2BRsG1Vg0DTc72AH9HsOYf4qyxLnPmCFP1g8TDIf4v%2FCWflQeOm64nJfaK6v8B%2FVTfMTZdfHMV%2BL0pMDiSMsuijO8OKy98GKnv%2FK5MPpbAkavhzPVvcK01ZGUlHWfnu9njrsHh%2F72Hz8%2FW5YcKoLroIXkUus4rVD%2FSLHDmEQdr%2F7uUVePR961aKr6ZsU%3D%7Ctkp%3ABFBMgJqFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820295569838"
+  },
+  {
+   "title": "Nintendo - NES Console Sports Bundle + Mario, 6 Games, Tested & Working",
+   "price": {
+    "raw": "$169.99",
+    "extracted": 169.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307259234285?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KD690WSZZA61WNPGRS&hash=item478a13d7ed%3Ag%3AjxQAAeSwmaFq5kkg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8FL34k4LK8oCTdUS40V6fNZdZW3TphjXToxWSx0krz%2FHzkOVqeYVEzp8isjTeTlbvXZdGqRRwyolHdKBL%2F95VQPvij0cUVOqDKbPwMCfcXEJdo%2BMfOKthlv%2F0qIsUJHGoTnlRUxTe6O7j6TxK47kQ0dNKhsmaAh9Ohs9Qv1BWxYU6PdRtvYmdYuAL6DL5HJsak3HEUXXN99DS5ijHJNQ8CC4jxEDDs%2FIWu%2FxPewdvUlpG7ke0Md8FqUE9CspLEig8%2BHiVUb1Snt6AzSViR3apHsreakaQDzJTih7W2GXkVkicLO6nOB5GVpKN2gEXBGaU%3D%7Ctkp%3ABFBMgJqFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307259234285"
+  },
+  {
+   "title": "Nintendo Entertainment System Home Console - Gray 2 Controllers",
+   "price": {
+    "raw": "$79.00",
+    "extracted": 79.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168805367651?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219KEVQ0ZNJAM79735M8J&hash=item274d957f63%3Ag%3ASmQAAeSwUM1q13Uw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8iFkJIuFpPdWK9tj3XKcKh2wA715Rbz4twc68D9EN2L4CtPPpLtEqbkJk1MYy2vmRvOFZ33%2F4ZKc1y2Fdrc3XAdmESVbQrW5s0%2B8tUUHSWey7m09LwgtDj2CZ1vxRfhiUZYa1WxCIk7gMMpMvemY97IKlzRIkgtHSA%2BKuRl25b0Pzz%2BPez4gUhZexwNXZoqzyEKjAjXCYeGf9IasthQabqaYFebYrTXqZ8MU5gO78AXDdBRCqkr9JtN4xmHo0qac%2FPH0rwF2aAi7odMdFScDWa%7Ctkp%3ABk9SR4CahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168805367651"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console Gaming System NES-001 Gray Tested",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227591859650?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KE4NYY7NXA839ASD2H&hash=item34fd882dc2%3Ag%3ApX8AAeSwlYBq5m0l&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8qm2GkKvf5jDBMLWbrT5ky5r9QSn%2B6n9PHj5sY0OWZkxyWQf1I9DBQiMqyR%2B42qPSRNcpjhbgMzaiiDHLlAqNGNidbponU127Smg4r0NM3peNOnZ2kaaCa2hAFnp9kglZcigMW2A1FtpNU7JH%2Bm2lh9PVbTdw%2BdjFJcmLunom6rORV9nWaeQitWLvnsN953NDpymk3uXCxkpjhIqxoozaM3uUv15qrHQsnnvtavmt96X5HZBy%2F95QGeHUB3NnBZ4N6ABkd3oreaTmRCuNkMn5d%7Ctkp%3ABk9SR4CahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227591859650"
+  },
+  {
+   "title": "NES Nintendo Entertainment System Console 3 remotes 2 zapper guns",
+   "price": {
+    "raw": "$289.99",
+    "extracted": 289.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147655663247?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KEC459SR565PWS3KKC&hash=item2260f69e8f%3Ag%3A9y4AAeSwgzNq4mw0&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2B8hTDtBDjxhpVdmJqu50ydrCByKtwHZyr9ym%2BRNobEwxFS1t7vw24AqgaACSnE0RwhDuQYIQOGsM%2FJC3qzhjeFILBN2Vk%2F1ZkmyEuyBZAsmThxQqgRy98jyrtcX7avgLPbb%2F7t%2FTUxEdAjOL6ARwyrAX%2Fnlap%2BaPk%2BPENGiGyoyXoyag1xa90K0DRwkI2wBX2N9gmcc8gAblaJq%2FA3sdFc%2BxGOgjSVXXaLQocalaR6JY7P%2Bb4oE28eK6Bymf06UeR4qtol%2FAVBkEUX4mhhemfSWg1TgUP7385bzhAl3Ub%2FJWpXoPeL6GyJzyFSCKuP8ikUcvcIwiS7d%2FPse8WbzEO6%7Ctkp%3ABk9SR4CahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147655663247"
+  },
+  {
+   "title": "Nintendo NES Entertainment System Console Lot w/ Controllers & Zapper",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336860856588?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KE0KTVT1SHHRBZD45W&hash=item4e6e78c10c%3Ag%3AWKwAAeSwfTBq290u&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8FsYeKC5aonNM%2FUdX4GCPrmjaei1hVvgkTL66IloNXjIdg72ZQLq8SvcoNq0bjG9cZlGfKzQpQPOdxNJwExQxpZthTJ6uDr1sgIHvW6l1J1g31hTi0uvOJkHlASyLBwq7ldRFD2OH3%2FKq7AT4RdCp%2B6zpBQuFlcnCfJ%2F8i4A3OidzDa5%2FgWbAGBnc%2BINAu90hFYYi0k%2FYfsCYPzBmZ1nakMz3rs7zzVjuXBHI3dWOdkIQs2XUu%2FwlEz8kkrb6WtwKEJzAQDyt90SI0G2GzxHNe%7Ctkp%3ABk9SR4CahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336860856588"
+  },
+  {
+   "title": "NES Nintendo Entertainment System NES-001 Console System Bundle Tested VGC",
+   "price": {
+    "raw": "$84.99",
+    "extracted": 84.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/189028342619?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219KE7TP2EV32SQAAJ5YQ&hash=item2c02f79b5b%3Ag%3A0g8AAeSw%7EDtqvwTX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde96eN8OIRUSx4TYGkMDc7AZpFcnzhBSvw3tRt%2BRI2bPxdcK%2FuRykFmUVhGZms7HsrgLcUZ%2BMlmGWRZn4eHT3Qp%2FivHAJAs6lYk3rgmEuzvMPdpEGCTd5P1fQtM%2BLK21%2FrpyJADDbFy4XdX%2FDGku9%2FFd9mI53IujjjJrKtWqlsOiPwG1hh3D8juKdTd0PP2LnMO4LkRc9pE7M7uofHM%2FV7b6Wg86Li%2Fug1FXvgompf1TIy4MINdfsYdOy4j09QbeEZrXITKEqbzhfkTWZOskDnPL%7Ctkp%3ABk9SR4CahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "189028342619"
+  },
+  {
+   "title": "Original Nintendo Entertainment System NES Action Set Console New 72 Pin Connect",
+   "price": {
+    "raw": "$189.99",
+    "extracted": 189.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/193314494330?_skw=Nintendo+Entertainment+System+console&epid=101841580&itmmeta=01M6C219KFRKZ1K627JFV5503G&hash=item2d0271177a%3Ag%3AYMoAAOSwKhpeKyNR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde80lDgXX2gcepTfNLDY6kfCXOBxPSjFoigdhGBhRECg4VCao4hbAu0vDdsHXKbs1rJgfNDbM6q1uL4ydLfrIludobAmzIEy8NrMewoe35m%2Bl4neqCKwWxt3Sqh60pCOjMZEdFep0Me15MVGkqAwO7galsILAwVgVi8tL6gPAz7ECqzaZRtEYfaENd5Gz5JuYXgIXwpKyQy%2BZJ75NDCf%2FZ5DTXp5Th3TL8iTCDYuKTsqIppVk%2Bmbuzb35X4WSYrruImrqyUa9ylkY419exutgXd1taKyuKMS8U5SFKTl6jCZdg%3D%3D%7Ctkp%3ABk9SR4CahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "193314494330"
+  },
+  {
+   "title": "Nintendo NES-001 Console Tested Bundle, OEM Cords Plus 7 Games 1 Controllers",
+   "price": {
+    "raw": "$139.00",
+    "extracted": 139.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800834769893?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KF27Z4WPEHRYR6TQ03&hash=itemba7578d3e5%3Ag%3An34AAeSwLQ5qPJvm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BGWcMJnYw6W41p81Pbh61yZaXxD1bZFEAGZICJbqxoLP%2BBhMLpGtlHSTuhfTuYG0v3JFLjxtOj%2FRWlIvIX4etfYpdY98pjbdxp4EcwSGWT2w6axA5G9YsHLCoab5%2BxI3D6ZxVu6AuJbDbjUepTiXUtc2cmrXlLJgiOY3Y8Zk1gLdjy%2FgMlEXd8u5SYxB8aQaOGTi1naNyl1fcffvt9wEe1Tk9t4bUjbYmR0EFyWEiumDfINBKxePrjEUAhT%2F8%2BgFriiEmKs6Kh1lGxQklCUEzroYvlI2KK12tdPsE2pp4LSDafYofPMeIgSLQ%2B8C2QhPg%3D%7Ctkp%3ABFBMgJqFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800834769893"
+  },
+  {
+   "title": "Nintendo Entertainment System Console NES, Controller, Av And Power, Mario 3",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800846055682?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KFFQVAAH0H283BE010&hash=itemba76250902%3Ag%3AtPwAAeSwJF1qucc6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9FuFrPXuGDH7rDT0zRkvBiz7xrySkGYZQbCL6kiaphLltu%2BritZyt6Nk2FxyTVIAXTTP6w4mfyvcgStJ9IFN4rlxw6yHkEUgk19GVn%2BigjCnlvBaE8Lvuz%2BVdNLNMcgA3LXQH6nWf22IDtGEeEgme9Bv1Xaj6%2B5TYVKetw6xiTWyoFml9IVWWl8qS1iQOEKrfdGH%2BAZRPVJKgX4DPVXROpIb8OHTxEMW2Z%2Fdmy7LWjQwpBUm46FvHEffgj15HpwD%2B6a7JmsHAlEvM0Dx1S%2FWz56ps0UN5245qTC33H33xfhN%2FZ4J6DuOIcwY47Y6o8T00%3D%7Ctkp%3ABFBMgJqFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800846055682"
+  },
+  {
+   "title": "Nintendo NES-001 Entertainment System Console Untested",
+   "price": {
+    "raw": "$66.39",
+    "extracted": 66.39
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147601803758?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KF43APPPSS77BY4RHW&hash=item225dc0c9ee%3Ag%3APO8AAeSwVUdquIKf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BwvSJ45VoCidoZUKoXyLENG1b6ycFVcAfKIdhqf%2FM%2FG9TrLdHVLo4fAJd0FjA8b3O%2FDGuoMN5Zf3vkaPoFtm66L9vDE%2BDdiACtlRc3%2BQNQDy%2BTsSV5XejpGUuzCTdTDazx8TydYz6S70NEefEFqFFCZz%2Fj6vLUQSuaI5pSN67QXObh9B8PvI3qfZ7V6cIdGLxE5i34%2B2LyDN6LuchE2JDL5BTbPBck%2BsROxZ2vSfIxisi8Os0xXng0ury9N2Jhj32LL2uQsakb9gviWrYc8LRW25o%2FIcGfKH2R3IArp4WoAZG3XO6RdQbrVbqlZJGOF3Q%3D%7Ctkp%3ABk9SR4CahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147601803758"
+  },
+  {
+   "title": "Nintendo Entertainment System - NES Console Bundle with 2 Controllers + Zapper",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820191881667?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219KF4773QD7GC32C3KDK&hash=itembef73ee9c3%3Ag%3AhIAAAeSwmcFqvd-D&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8HVes8q1V2PlxUT1bu8iTrQpnKZSl1pmqf%2BgBtZMrijheqkurwLPkOkj9%2BkknKiRG%2BS0u78Mt8f26%2F2cjTAwlnCJVNh2LcFkSwXeVjrx42FMQhKZi1DkCMA8QWcSqNbGkNh6bhE4gYhyJwtbP%2BhwQ5kl1UMGfhCck6TZaMIhsSOacNL9wI7o6%2FTTUHlZx1NGnIRSFRm9u8JE9LDu7AUd2LeCm27CKWM%2BrRkHodMmV%2FX%2B2bMUr7cyHIzf%2B4pZxXrjy7ANGaOdJxrOi%2BU8k3hyxV%7Ctkp%3ABk9SR4CahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820191881667"
+  },
+  {
+   "title": "Nintendo Entertainment System NES-001 & SNS-001 Console W/ Paddles & Cords (Vid)",
+   "price": {
+    "raw": "$204.25",
+    "extracted": 204.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880041812267?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KGATWF87HET1E49XAC&hash=itemcce694612b%3Ag%3AfVgAAeSwYa1q2oN8&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BinA7ZDSlf97d92Biw8d5qC5tIpFza67g%2F8SdJ8CAD8tDHoudEE44cCU7QtqVQ%2Fq0a%2BWpBT%2Bt6QIG%2FuGDEgfQQHoF9CiQiSq757JX19wu0AAqc7Ac2Rwvj8mqJCUjeHzBbG3QhnXnaLVKEFk2cobel8JOjW1Sqovrn698cHexPOaoJcuaQKe2LrG%2BIryXib49jghIdVpOPMBcb3YK0OuhWFWVVhX%2BSusVGRvOqL01Ca3uVsa9%2FxQRnsR3Gpu5umunBH7nR%2Fch7hD4PFd5YAHnzDRbdTgnl2mpCrGWKtOiK%2FTv3uS3Ae4rNhLZsRncRsr22euC%2Fw49WQyrLomyGg0Cv%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880041812267"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Classic Mini Console w/ 1 Controller",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407322776551?_skw=Nintendo+Entertainment+System+console&epid=224836664&itmmeta=01M6C219KGT97CWX9FSP1B1TSE&hash=item5ed65453e7%3Ag%3AIncAAeSwQxxq4jAz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8KCBoaZQlOw5zbiwL79kapJBM5JE3wVlYRXv%2BYwbgInPvOzvl2zpkdzfQ%2B%2FCzJzVyZBxYYLKHY5b1fLkbGCoa4l7yvepH9lX4Ol27o0coeoZRaV4AsKMsmcX30kIxvlI58utQ3QiqYusRftuQshEyWam1zniIDcCdbZ%2B6adQM8qtDvaNqmy4I8Rnl8OdD6EgA1lDWw7JcHD%2BLK4AbjPMjWCKzdM%2BWvrKpa3YOeqzHMT9vCiFVV6pt4Gersm%2BMIzAQlIWF1Uvyr9zfO1Wezl6YN06rmi%2FAqWHPNYTn1XaLXqsXS%2FUkC9%2FbYpC9CA%2FtUqMs%3D%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407322776551"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console Gaming System NES-001 Gray",
+   "price": {
+    "raw": "$66.99",
+    "extracted": 66.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198678354866?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KGRVMVXXMTKSXS6ZJ1&hash=item2e42271bb2%3Ag%3A8A4AAeSwU6JqvT-s&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9KbFuMVsVG8ZFTcjly02xUR7mEHT34gJ5uTMkBU%2B280VULF8q5Mhca4ECC7affUr5uSQ3mZcmaf8mB9JWSs%2FZyICN7FZkVkdzxd7FUPyvPJoO71IH8as5mLCl1GdS%2BTxPodRnQuu27A%2BJNz0DT4xmk3nzxeZZ%2BbjuE1Ornb%2BRyACvFIzGqPmIhjATyB769M3s7hTWUcNIcPSGGzbip4kvruAaX2U4Wze%2BrvZ2YDtyDDwomnDqGeNEkrMCFcLLpVDK5InoqYSGjLoGiw1tKaRKY%2BTGpLWmADe9POFP8hezN7sfSnR5Y6n0%2BAVTrA0LtXj0%3D%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198678354866"
+  },
+  {
+   "title": "Nintendo Entertainment System (NES) Home Console Tested W/Cables And Controller",
+   "price": {
+    "raw": "$79.95",
+    "extracted": 79.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398271767592?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219KHE4KFR0NPEHMA3Y5V&hash=item5cbad8e428%3Ag%3AoSMAAeSwhyNqelTz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Sticn0nTzr3EIu73HUqWr1TUqnhd48ShTe8dt1iu07fYkR09uoHfv1mGMLWg6WYFrHl3cxx799m21bY1xkM4ueQqTBBlxqtgMr0olrHMCC5%2Bykq3v4ltplJSno4n0d9MmsmlTA1L5Ik%2Bq7yjg38o%2FaU7ugrnX0%2BT6yYIh3RdR20RBs4NC4fREHmPUNJZO1m3w3Eja5U52A9acM6Skyu5BtUg%2FBLGEfEP2cjvigEg96iu9aYsajz92fi%2BI%2BGYT6SAuF7jemlUrjdutGoye2vmQWK06V7ej645QUelgQFvZEw9Jc73Ddnn4w%2FV0%2FJYUouc%3D%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398271767592"
+  },
+  {
+   "title": "Original Nintendo Entertainment System NES Console w/Cables Tested Works",
+   "price": {
+    "raw": "$87.95",
+    "extracted": 87.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287690924245?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KHXJQY93G3ZEMW3E6W&hash=item42fbb720d5%3Ag%3Az%7EcAAeSwZOZqvpe-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BIodjrnWG%2B4bT8hx%2BxdIzRVofEVuPq3%2Blsqq4VCIkFPzX6d9UopHl8SY5mrZW1xEJxlQxyr6ZAG2dloMBQTQjgkk7KltyUpS8Gai1Zw0dyaXHX3F0msCnPSTvsElFhM65cyDkNGtrGSpauMvLB1qypxxbyDW3r0l%2BvinoBME8tmpbJoeE21ZAa%2F57APvULuql9QRB%2FtcgLodX5ZQ33Qivmv8kq%2FmpYX0gI8X9BR%2FU8bvsQWbKNC%2FTZ%2F2fWYuD9oNou8WWORyRlb68GiFV6gWL9%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287690924245"
+  },
+  {
+   "title": "an original Nintendo Entertainment System (NES-001) console with two controllers",
+   "price": {
+    "raw": "$100.77",
+    "extracted": 100.77
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860087387182?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KH06QJG47W5PKZX6KY&hash=itemc84134042e%3Ag%3A-cgAAeSwA2Zq4A8W&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9pDKmxIkXVJ4YOHyOagljbk8Vsi4vcNMAcBGEWNTGePpmuVG3SCBmP6rbJtCwATnMiaxydgjfMs4l0DyZ6we1l5FpatFdP3%2Fe2a%2FjmtSvej1asU%2F%2BA0SmeFii%2BSc7FzeCSC7xTrzWXdnUAqbWoySKlnO48IXyf3%2FZDLchixTtVVTWE--PKQXNohKxhgpo%2FcpdfWx0JI7RHxMQhfftP1AvnyQgCpkXjS%2Bc18nWVyauq6OOV%2F%2BEH6Q5u7H3B0NeDPjJosAe2rL6vL373dLv2IuTlrdvSjf92SazOt2CepGvnnG1Ss5pYnOCqyf12w9AMBUA7Vl0DwQCSWMbXOC57iFoj%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860087387182"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console w/ 2 Controllers, HDMI, Wi-Fi",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940045911718?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KHH2AC1FKCA3MXMW9Z&hash=itemdadf1a46a6%3Ag%3A8wYAAeSwMUxq4Mkm&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9X3qhKaALqkJ8%2BKxS7EiJs5Lyg6Rlo2ktvLTWBATh%2FUaXMI0%2BT9FmzAiMbeHWu35LFf%2BpoUYcLcz7Fb%2BBz3uWekSO3CpmZcQdwUXYF8la6UJA24RFvdBCh53RMzyVbvdYdQAZOxvk8eamx7oXZFhcqFKqOLssDWWZ8N%2FSl%2FJY4I7YuZCnJbFpIOUVb%2BxZtXfXgA0luXRIjCvzwipi%2F8tm3vpYH0UJfNsfeg4i2PYjNbOcrjNqdztI50I2cR8hBipRrNFVw8a8IInVsgcGKEW5r%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940045911718"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console - Gray (NES-001)",
+   "price": {
+    "raw": "$90.00",
+    "extracted": 90.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257819756553?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KJYGK1VBN9K1JWEPBY&hash=item3c07414809%3Ag%3AnmAAAeSwoitq4DCO&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9uM3p2vYxY8CMSeKZmTXQudvMsx%2BbPgq%2B16lmmmIcC082XoCa7b2nTKjqlcxG78VTIwcajbvE3h2TQ6QH6tJIgggls5UGFdan%2BXym8kg70X1Rkj95pZ3zvWH0rYsdTRq%2Fi2PZgiK4SOIdji8oh%2BeZmojTHuF%2FAbv2U1MqmEbDP60m0fE4hKRVutk9vnslWCNCQmvei5JtrXJHcYP2oKg%2FJLwTERBDnsRaK9otLwVaK2mYNW%2BSHUmUNdB%2BX2y9a2CCpwVsRSqULrgVIyh4OFQjJ%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257819756553"
+  },
+  {
+   "title": "Nintendo NES Entertainment System Console Gray w/ Controller, Super Mario Bros",
+   "price": {
+    "raw": "$125.99",
+    "extracted": 125.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128168320980?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KJYETGX2Q8GMYQD4GQ&hash=item1dd76d5fd4%3Ag%3A800AAeSwfdpq50mC&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Fd3ZcrlhShQI5C7HdSec6Hf4o9gbu8aFikVuK9g0WCqyBssSA%2B%2BgRQg0WhFoi5WU3QrXmtbxkYwI9ZwxTsyTKQXcJiTuUK%2FwKVpLhGcICDZEYIR%2BGFpZXakTa77qbZsZI7AA%2FCDbqbFb4jLxtqywOVAPsR%2FGbPLK4EMifyw%2FeQpHivm2jNq5mkGAy%2BIqWlNBEEoZ2jn3%2FV7QH%2F8Cq237rQAJ1DqTWhqYm1%2F%2BYIrjHyxAJ5v%2FTisNz50D3YF1Kb8aPzkAAksw9UDwyi%2FApyotyQFEmdoSYd7DM64ojToBOW0A%3D%3D%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128168320980"
+  },
+  {
+   "title": "Nintendo Entertainment System NES System Console Tested And Works",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800792458515?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KJDNZESV11XJHDZJYG&hash=itemba72f33513%3Ag%3ANEAAAeSwi2pqzrls&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8oYtjKLTu%2FKpMrGILKp4XKrTvO%2BqlH6mjpY7mNp0iePEqbpTuImWkIkh40cwWwzETBnhHY1yuqgg7R6P8KzvW3ip27SFBZYqOIjqh4LImqulipuu3bkIVtO%2BjdQdhOiuTNXz7sRm3nVE8Ajfd422LCX1S6AcwwfDO8%2FDB0sjAgBiD9MsT3OKD2hWOwev0wbE6K2aFG8TSmqir3rB3LlkgJbKx3hXX4UtMZ0gK%2B3qIIBdmZiEUu5ZTkpQYZUhwYy28rDpByRvH3PeNGbAvzq9bs%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800792458515"
+  },
+  {
+   "title": "ORIGINAL Nintendo Entertainment System NES Console)",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377602082944?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KK5FZX0YGB0CMQ2KMK&hash=item57ead68880%3Ag%3AdykAAeSwe8tq0-zd&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2FYS373--ul5cAy5AVFEseQ5KEUVY%2F33s2G4bglE%2BS9t9f4VbQsdVH6irxDAU%2FhzKCNe7YQinhoC13VJ44BOTYwnhYeNjXI46Xy1afkIJfh6lEw4ntFZOnQ7PVWc9lnNT%2BZnDXhObmvsERN5yhnLdHixYWGLJXPkV1znRMLSupHKYqa%2FlGAn6PCz4IWPqIkP6mIng7HWIhB0giiIYhSdP4eXJ17dSq95oee1zwElWTnhpRa0%2FibQefb0BKkaTeECCZmJ9NVdtXz%2FdmUN%2Fg5qbI0AUEuTgObT7Vt9KTquzgFAXW7jBKsLdVuD0YZTcu6p8%3D%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377602082944"
+  },
+  {
+   "title": "Nintendo Entertainment System - NES Console Bundle with 2 Controllers + Zapper",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820191882572?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219KKMP2BE9HZM194TJ3V&hash=itembef73eed4c%3Ag%3A90YAAeSwgZ1qvd%7E2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8IF2RdXXTjKzdUcuOnPjzR%2BRbLsvkVygVH0NxKxeEY5p5Vk6LFqogs51MkH2ido42iEjJnVrTVliuTS8ORzrnCXaFlHsAcI4qS5Ski9%2FA6AKep9M%2FCf1dH9RH%2BiFp1GM5vkjC6qNY%2FoqJSGHPz3%2F18eM6eMq5stc46DiFyjWOFpibXu5%2FdYyaplIzQz8SYnyx%2FG82Hu0cBCjSjo%2FElVUCC2hWPgZBpNlHOhMA1wnejHxCEP3sAeM8M1Xt4AlpMnvp%2B4w1qFXWJOvwOntqrNJX1RcsK8gOW9YAMDT3js76wApBFIhBVOq8STsanDHq4X%2FI%3D%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820191882572"
+  },
+  {
+   "title": "Original Nintendo Entertainment System NES 001 Console Bundle Tested",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377558097761?_skw=Nintendo+Entertainment+System+console&epid=101801921&itmmeta=01M6C219KK6CVV4HQDAH3X5XK7&hash=item57e8375f61%3Ag%3A9koAAeSwLbVplPB7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde96Z4ZyOoGZeA8ycRCD2G%2B4cD18HT49jOA4geVREQHlWnbJtaXSBPzseFEht7Tdn2UxemYisghCax88P13N%2F39ubo6QNxrqq1L1OLBsVayOMu1vKcHvmvQPPI1Uh%2Fin7EhojBkU%2FB5AZw1oxKoN2QMnko7zddmTiN8DA49m5xbHpagENbxBkCf6nxxDNljtgWCtcPJKC2cF39hYlMucwa9uJW4I%2B86%2BSOr8D73ihungVhIJcdh7D5zxLQvUHDVwPZ4xHbFtqqdW4sNtysm97MDY%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377558097761"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Console Gaming System NES-001 Gray Tested Work",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327425106289?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KKY4WB15RX0N5GN74K&hash=item4c3c0ea171%3Ag%3Aq0gAAeSwIvJq37hL&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8THxq1FtAaZs51QN9WyuJ0OuE9cerV7nt60Knmon7c5QL9kdK5OF2gSA7qDlQq1oZxEMniOthVes3BGB1f6rp1SAnnLIp0hrGkkdVns87%2BOZKKUp6cZplLfSKaqAoBJrs5IBYIje4dSCiA7hWFiDE17VnwKSSS%2FbQ%2F%2B9ieJFLO--DLZB5Y7Gb3wbN3Hgktg7ZO5Xjmo9N2%2BSKd6f5%2FKxqZbGGSPCBmAcuWM43OW6AGabrFda8fvsZ6ilQZlGC1fE0Y2bZM6Ay%2FqhY0ljQH0a6a8SwsCrS%2B9%2Buz5SRlhGc%2B7SiHugAeGWw27jhWWZgilA4rdxq6LUAPaI4XufqQjXyl%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327425106289"
+  },
+  {
+   "title": "Authentic Nintendo Entertainment System NES Console Tested Working",
+   "price": {
+    "raw": "$99.26",
+    "extracted": 99.26
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147652868417?_skw=Nintendo+Entertainment+System+console&itmmeta=01M6C219KMR93BFNSQD90ZTQ7E&hash=item2260cbf941%3Ag%3A2AYAAeSwedVqtVE8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde94RGvj5tcHRoPLLW8QeHiD3%2FhjgA1UYBM0ZOWb7abVphYDhz%2FfJvVk3ZggjgOAvrd8R%2F1rp35h6g7gISBVOzg6%2FQqVpStOlCanyo3EUkzDDlAhAonDBrvH2bfjX4fk%2BVgqtdpQIS7Lvq6AO92UmIkeJiJjY1eTQJhW4zM0FIMwk6098kJ2WR2tgZ5dALdWmHcBh%2FLoFZTA%2BJXD5IIP94ZQWgbENl6AeKxnRwuZrY3efpq%2Fh6XXZDW783dZminYrvLVfkJKaDmXdKMxzwePiONgO9gI7D%2F4FPu1Rr64GL5ymvmFXz56DfY5u484Rd2PBxk%3D%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147652868417"
+  },
+  {
+   "title": "Vintage Nintendo Entertainment System NES-001 Console Tested 1 controller",
+   "price": {
+    "raw": "$62.26",
+    "extracted": 62.26
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327429218430?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KMV508TCN5EKMH9NWK&hash=item4c3c4d607e%3Ag%3ASwoAAeSwSklq45OW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8eu58nmS9DunDeL2jYYlWebv9aYtfiAK4XO5Hzwed%2B8o8eYZbKHJTzwAwlLWFjaYw4cndqwExKhhRW5tUPRiDadrrv06Wthc9pZ6vU35WslKwkb%2FsDYpZdSP87bCP4rpBMRHaeKhvRoT4Gs5jqr5Nt3Iytp4zig33txO%2FZTED8w3J5v9leeJBOqlJmz7AVHTkfkU5HYllRTuHODoOoGC8fw40z4BUkNtXXOrmIpRPEUJKnRjmLCMTHW7%2BIQL31Chz7aD1P%2BMdQiaOItIg5gFNNHfwN9w0DJ7jshCSkn%2F3%2BUJLxgacFQXSp8qWcyvT57sU%3D%7Ctkp%3ABk9SR4KahYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327429218430"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Video Game Console NES-001 Gray. TESTED. WORKS",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/157798440227?_skw=Nintendo+Entertainment+System+console&epid=1436942091&itmmeta=01M6C219KM8ZY120TR8D8NN5GY&hash=item24bd851d23%3Ag%3A4HQAAeSwTh5pyvdk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BamcRsrMpRcxqvGOnmGYwVv5Xk0pmzKXr%2F0g0DhdQD%2BaXA6vKfLb4Fs651Ozpf5%2BneLTb%2BGNfJKS4%2F9G%2FPEDQLMmNIA%2FMt5hQJsBOEth%2BHdKCOGjl81PVvBT9XwLwVgzYuAaosE7EFtm2MPgOSn256hX2KXPQN8huoBItW6xEiPvLIvxeFURwZp%2F7cqOvgELfYo%2BkAkjnE8SpsF7%2FwNlA2zfoxdvhp8rBLyips20fpDbSoW640n5ovq4SawTWL8DHtBbNB%2BaAAw85Ps6Aafd%2BJtpCLMcsAkybo%2ByvnsWqmw%2BX3FYnt3U7xi4hIQmzcYUc%3D%7Ctkp%3ABFBMgpqFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "157798440227"
+  },
+  {
+   "title": "Nintendo Entertainment System NES Action Set Console Bundle 2 Controllers Tested",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188831378608?_skw=Nintendo+Entertainment+System+console&epid=101841580&itmmeta=01M6C219KNEQAJ5D6YT6412RC5&hash=item2bf73a2cb0%3Ag%3A8UcAAeSwTclqiyAK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F2VmLFczPWgduABsH%2FvGOu77lX1nG6oondghMrav6RDjWpz%2FbwuND1doc1gC0t1E9nh6CvMaBj4iM9c1S57Y3luFGrmCinLQNoGuqhzl%2FG28Vvkp0lUfDIIEwr5C1HWuOMYkyu8N0IsbH2e0Vu9gjCP0X2OeHDSP2yk7x8Bi17A%2B2jDfvyUTkVGJRTPpUXlkS2vNFyusQuKHgim85m5PNoDhc1D1%2BFfO2VdwBa5q%2FqPQyniDMReVAdnNkqcF1YoXiJw%2B72fTxVkIgNNcnmqbT%2F3uZ%2FLhhXcgA3vVcOYrqU3tO6ezqDQvrWhooACeAzSYI%3D%7Ctkp%3ABFBMhJqFgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188831378608"
+  }
+ ]
+}

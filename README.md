@@ -79,6 +79,8 @@ uv run pytest
 `alembic heads` should print exactly one line.
 The tests refuse to run against anything but a local database.
 
+A change to the pricing rules, the comp filter or the evaluation items makes a test fail until `uv run python -m app.evaluate` in `api/` rewrites [docs/evaluation.md](docs/evaluation.md), which spends no searches and needs no keys.
+
 Web:
 
 ```sh

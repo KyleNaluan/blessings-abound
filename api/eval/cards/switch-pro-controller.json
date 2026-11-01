@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "Pro Controller",
+    "visible_text": "PRO CONTROLLER SWITCH",
+    "search_query": "Nintendo Switch Pro Controller black",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "plastic",
+    "exact_model": "Pro Controller",
+    "platform": "Nintendo Switch"
+  }
+}

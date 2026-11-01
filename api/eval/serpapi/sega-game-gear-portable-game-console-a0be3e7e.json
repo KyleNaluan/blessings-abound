@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "SEGA Game Gear portable game console",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 512,
+ "organic_results": [
+  {
+   "title": "SEGA Game Gear 2110 Handheld Console Portable Video Game System",
+   "price": {
+    "raw": "$94.99",
+    "extracted": 94.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840039488461?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BH209ES704E3HNMFG2&hash=itemc396415bcd%3Ag%3ARC4AAeSwCMlqr3QN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Ko%2FNt9mqbBQcqBIugvx7RLnJhHhCfJVSulKXBrd6gRkjCfaW0yazwdU67Pvuqrx4e1l6LlcDd1heeVYl0%2BSqIui2vMkSZ80T5wb5tcbYpmKOIUGPVO4cl2g%2FuT1bUD8vSOOVxuzxyFIvuwv4IxUbEQuSrgAQ5hsMqWFqafZwxbyx2kkVC58G0VaqC5%2FRbawdtJCyEG3EfvLedREWI1KJb6ve5yDpzzydqoAcLeOZzTgq35tU%2FWbF9dAxwb0L4eEfDTpFeiTHiQkpy6iPQdqcfSXdPs3BUZN72CUykzNkeyXBHaBHJTAv1%2FE%2BgYRkOvLM%3D%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840039488461"
+  },
+  {
+   "title": "Sega Game Gear Handheld Console Bundle 6 Games Case Manuals Retro 90s 2110",
+   "price": {
+    "raw": "$410.00",
+    "extracted": 410.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168803055061?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BJNQA9E9B617F23Z7Y&hash=item274d7235d5%3Ag%3ALGUAAeSwNWxq1hLE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fgih44wYxJQ%2BGqbpOV9gEbwAfWl5rnKbNNxoGOWby%2BYb8O1Mb3N9BISj5ENGtchNbsPWsWG77YYoJ0MAd3u2tBn525RO7eX6iQSQQgJSLEtr05OoqpJAvs27GL9cjO3IOtup23v%2FR6JvW0r4L4vG3qvZm0ar1hOJBPfjNup8s0HF6MdhLfqPI1Ss21dP9jlkQbgBvuSfGkjfJeS%2BfdF5n2iULHN3QHT7UGOmmeK53gZs5ykheH82v%2BmRJ5z6zEyvHl8WpdecTzlBGJYoPDlleXEeqPX0VZHW5XSoVSX97BI9DPlmDpJ8IoD%2BTtMBElY2g%3D%7Ctkp%3ABFBMgIaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168803055061"
+  },
+  {
+   "title": "SEGA GAME GEAR PORTABLE VIDEO GAME CONSOLE SYSTEM BLACK POWERS ON HANDHELD",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/157488847328?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BJC8SERARE229HSBAG&hash=item24ab1119e0%3Ag%3AD54AAeSwac5pH9Rx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ruRBGbSWM5v%2BB%2Fet%2BcKLC%2FLIoJrLtWfgxby%2BUSlsB0kqLKRxAQo%2F0Hx%2Fh2Rn8zIsUBtvrDeKzHPJtRPYwepB6qVa0pPHoCI9JjPGSrHKnd9HTVeaIPdu8X7qNykPOS%2FgDdbGpMZCQKorRs9S2xpVr6zL%2BbDE55vA83HiIQ%2F5LV4F9ngsJEXsMdYQztHRx8hnJn3t%2BWtjaG4YuGG%2BZRtZfcALMhb0eRCU9r0f1Kp42UU981GL0TNDmMVyoG3IrIpY7u%2BA5gRCi7uFwmNbqu%2FpyN6K2QwvnV0gqPYp88kCmcljD0v1WueWfjZw0w0Vdsng%3D%7Ctkp%3ABFBMgIaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "157488847328"
+  },
+  {
+   "title": "Sega Game Gear Handheld Console with Sonic the Hedgehog 2 Cartridge",
+   "price": {
+    "raw": "$108.00",
+    "extracted": 108.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960102829088?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BJSJBPVH7V1M20A0RZ&hash=itemdf8a968c20%3Ag%3Abt0AAeSwfrlq2qpL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FYT0a3A8VjDC7cMC36qWZBljxp3ATfJ8K0SFKuVMaFEtRdKzGb6EEj2lh9u6e4T4m%2BeUPjJR3U93SwRcSfPqO7v0AxlFvohoCzu1H91S1qjqCtNesOXKRLHybciHqNP5rwiH35XcLVQFxIW1SDL6IxDsQwAPyQYEtNVi4DxZOiseM7PgH7mpud8YdQ97NDt0IoyNFemWmsfJmPoNBdU4qHf5cpvp4vpMTL1RGO%2FeFmcwz7iLLy3gLCLRcpdq%2FymuXWMlCUsWIAeQAJVNc3bRZw4cZr%2BYZXUewcRolXW35AaSWRqgNPv7BB9OylD482%2FYo%3D%7Ctkp%3ABFBMgIaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960102829088"
+  },
+  {
+   "title": "SEGA Game Gear HGG-3210 Portable Console Used No AC Power or Batteries",
+   "price": {
+    "raw": "$201.22",
+    "extracted": 201.22
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800774984691?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BJWX6SY4M6AYG6F0ZA&hash=itemba71e893f3%3Ag%3AgncAAeSwSgpqyLju&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9UIzsmVt2oeVZMlIF3Iqa5SF0Xssy9j9XIgrG%2BAAcsvo0Gb8wQQv9Vfs8hiOTrahhYljgfQSZSNXoBMHj0gEgyvMR8bl8DIoRgM4Ao1T7TvHQOrxa%2BOH3dKi2obuRm0v9BFryaAvFj%2Fq78EhLmh%2FLR8KD8H5cxiHzx1OtmhTVfTtCBq6c7UPku7CJJQZvc8yr3d1AGZXsnF4eYMfh1OqO2Jvb7jQWyoYDDG75AjsgxKtbiHGojA9jHEQ1kkzCg%2BbxWet32acYHgNn5b%2FgHYvh%2F%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800774984691"
+  },
+  {
+   "title": "SEGA Game Gear Blue Handheld Console Rechargeable Recapped, IPS Screen & Glass",
+   "price": {
+    "raw": "$220.00",
+    "extracted": 220.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137849740024?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BJ8N837263WY7BMMM1&hash=item20187c1af8%3Ag%3ATYQAAeSwQthq0phB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fx9JWuU5e1La9XR77XHHR4mJVmM0yBCvJqgv%2Fc%2Fv4HDi8kN%2FYdqKqYtaBQzEYjgZ9bmutmyp4JHxzOQDw66RRKBmWbc0vGAzbVGbMui6QVCZruzDXlWHOOIeFP3h7Yxkbni3YzKAoHHwdM%2Fhi8Ufhc9lQsmr%2Fm9joC%2FHflsCV4071641geNTXO7AqZi13kCgRFtAD1M3EXy4U4ZtbmtWa%2BCnU2qVIRStSxC9%2B55snlfuKGPDgizgBYmb%2BALTvb4vHl%2B7jDwwACo8HX7uOYAsnq8JNlVyZKeTh9v%2BGNW4%2FsoMHlfW%2BUIhuceD0TwaXEho4%3D%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137849740024"
+  },
+  {
+   "title": "SEGA Game Gear Blue Handheld Console Lot With Games TESTED WORKING",
+   "price": {
+    "raw": "$124.95",
+    "extracted": 124.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147650337478?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BJKEV988NZZ2H62SR0&hash=item2260a55ac6%3Ag%3Az4MAAeSwSIlq3PW0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FnmrCU%2FrznnFrO89bFiTsu2UUSQtWDkTgAO%2FS8b3tPA1o78AsPrQVe2YzvTZhxwTy5%2B72tk4GI4dutAz5YQurOPPQig0oPEgXuDdxPli7hNwZkBxu81VBkzBCJ%2FKhVmHLz0Rs34BDVTOphTvudsjgJg8GMJJlXw55EL1ZFr91T4ZAI4nnhp7FW4iOEW4HituVVgOGBiYK4t%2B0Cwpp2xJqCI9gVtjEt7Ng%2FzwvCwPVqkUOquTo3XY%2B1W%2FwyCkXlm46uVmnn2YiFVXvgoJ2yzpUt%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147650337478"
+  },
+  {
+   "title": "Sega Game Gear 2103 Handheld Video Game Console System for Parts Does Work Read",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366759899576?_skw=SEGA+Game+Gear+portable+game+console&epid=715956215&itmmeta=01M6C228BJM4B5KA70JDX023W4&hash=item556497f1b8%3Ag%3ANZUAAeSwWKVq3ZPD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B0a%2F4koSM5RuBh6vcHBWXBOcn44YpsEHP0G09c7LGUQmcjeGled5zhVtZgAeX7q3LnqwbarD4msF0kkisD%2Fw0yENXB79vkWSrt98EpthZyXMEeRQ4CZ%2FfemsGbhlrFSZ%2FJk3AodbsynTO312bJbJhm1kiJpxr%2BHTw1j9G6QKGnYgbtFs7zXiM7d1sca9rBeMaxggCrUKx1KU3%2B8mdLi2RCK8XeuRiQ762aRsrmhUBxxevRXZgMEcKVqWbH8V1Bk09wehJGgaS6yM%2B2iTBQMRnUGfJeyBSmb65TLlsBi9mfNkqSt3WnJZ47A4UXiN%2FzkX4%3D%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366759899576"
+  },
+  {
+   "title": "SEGA Game Gear Portable Handheld Console Black Backlit Display",
+   "price": {
+    "raw": "$119.98",
+    "extracted": 119.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137465384030?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BJCHZJXTHK9G8YX05Z&hash=item2001934c5e%3Ag%3ANFwAAeSwN%7EdqQtEG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B9BDHHp3ovnAWAnEIlVTYjyIl0yZ6tZk7EYUlk9f0FnfIJ7vt43PP0rYHzGTvxX3D%2FrSz0X6QvQ6YHz2%2Bh7kqook8gD9cw2Sx2K1t%2Fgm%2FYVBNpeaF5WwXZ0IPen7g2SGl2T9l6dP1solCPwfG1So7V5itV%2FK2CmRaWFspdGnz2YIUXBjMkegj3%2BbBimBwMS5H0K%2Ffj2dy6sLjspwJbqNx4CabKo1x59O1y9IlGoUSpKuU5o0GJyXZhlnsfHpLdKngHxoFACqUp%2FKC9a5JS72A1NPpgDQfm1E5LZUK7OHsaPtehHU3PPBZ221MrtcT5Ii8%3D%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137465384030"
+  },
+  {
+   "title": "SEGA Game Gear Handheld Console - RECAPPED & LAMINATED LCD SCREEN! - TESTED!",
+   "price": {
+    "raw": "$199.99",
+    "extracted": 199.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880039076023?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BKD8AAAFM2TE6Q4GKP&hash=itemcce66aa0b7%3Ag%3AmWwAAeSwJARq2Un9&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FvPAXfZfe9yPjk6daM6zaw5abfZGN9CSlsAh%2F3KhzVlknzWk1u76TLhbUXKT61sa4DqE0E4HVXMyfIdT9yno10SUq37Z2iwywldQa2ZqLnEQNUWVX8I1jHY0rpTDHrGdbIYVf1H8kjCIbN05nmwq9VOqf8cVscB1ameiS9%2FppKSbfiIEFOUkk2xBb3lMmmvGRLXKEmwLM8KBYYZGIpVP4ejR96XhxsK%2FiIUZOfSgOtDYuANkoRpf2LKuTiPuOlAQlqZ7UouBC06YR1OzZQD6X9Z9VKsa7KhobriSB3j3vCuvNt3LCgm18NVxWh95pOrQ8%3D%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880039076023"
+  },
+  {
+   "title": "SEGA Game Gear Handheld System - Black",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206668240057?_skw=SEGA+Game+Gear+portable+game+console&epid=109449838&itmmeta=01M6C228BK7BYQKW06WXRYSQV3&hash=item301e6314b9%3Ag%3AV8cAAeSwRONq53C3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BkbKCqJooJ6dnXbmiC4RLu8JGanx5nIp8HL4FCF%2FbdYAhT0UHl30zItiwbtCaC%2FNotpmFjFYniOpgJ7XLFOc3bC0M%2BcFKurDQ4ERhRmC2C1oIGcSjWYbeSDLz3pYrEnUkZJcijxlmQzNCJRVKkdADwoFjsFw8K6iYTqRmtSHu%2F8JjPjAKmltpYggJTNoyGtxlDDVoDc%2Bi%2F9aqDOit9X03SJNdqnKbcsxv0BVg2E%2Bf0DsNjW31EJftwl9eLXp0i0e%2FMHZTDFvZo%2F4mMtsYY%2BOMP%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206668240057"
+  },
+  {
+   "title": "Sega Game Gear Handheld Console Powers On Screen Messed Up And 10 Games",
+   "price": {
+    "raw": "$95.99",
+    "extracted": 95.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267823020011?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BK706F7Y6MJYSM3ZBA&hash=item3e5b7ef7eb%3Ag%3A29AAAeSw2l1q3R-t&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FaVuSYv%2Fl6wu1wPhFvlcvQPRbuTfHjIOy8zI3Fz5LaQIZ9NbOh7RUU624eC70K9656X%2F2qc2LSAwpHAkboFtu0dqjMD%2BeL3LPBkuTJH2vUOdodisAmYLt%2FyPh%2BUIlV4PmiNGOcQ8HYMV2oJdtpt4hgT13HDVkaDpwEYERQ1GvVncOeKHk8U%2FHx0GnXf5Pgd8xkVyflqPVNVUJofvKe8uiKxksOI1v6OysJaK8b23aNpQYo%2FYE24eVCMsBCulxHkKuND81HqElwdcqWJpmw97yZeSMP9EWQ66eXC7BMV%2BJISGEW60napobiGeLGmdW1iyg%3D%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267823020011"
+  },
+  {
+   "title": "SEGA Game Gear Black Handheld System Console w/ AC Adapter & Battery Pack",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880023321087?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BKZXXYSCQKTKF24J5T&hash=itemcce57a39ff%3Ag%3AK8EAAeSwPcFq0ruC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9FDVIq3k1FrX17UgUd59q6cg%2FgMxs%2F9%2BDoxy4X%2F4l%2Fx9YZeBdTLkUVA%2FJLnHoXmjGuRCus%2B9LGzH4sxW3kYTE7c86wJqe4Exj5gvGe4uAG%2FZ4YYTqVHH9KWodvtQYlmo%2B4MuTbA3YMDX2DXDu4cNs8HzVs22SX%2BzKkm2aJ%2F2HML5jZhrjUundK2b3po0NBDxNsxt8GoOCIWAtCDaW0l4J7hbC9%2BVrt4Zsyh9XYHwBCRfgyFtcW5qovOYn8uaauo1EY1JAlPM3DxOK8Ypn2jmhzmOvbY0l13mh5TaRxoQYyaHrgx%2BAWnrWuwoXFkI%2B8emY%3D%7Ctkp%3ABFBMgIaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880023321087"
+  },
+  {
+   "title": "SEGA Game Gear Console w/ 5 Games & Cases: Sonic 2, Mega Man, Tarzan",
+   "price": {
+    "raw": "$645.00",
+    "extracted": 645.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920021873351?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BKFTR8P7Q4MB0FMX30&hash=itemd63593b2c7%3Ag%3A3IMAAeSwaPtqyCBa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F6qZWQFt4O79ylW1A1M%2BiSsBgwIO7dLSPW2Xw%2BI9gPtFgKAW8KhN4LFM%2FC2WVSo%2BAu95STkIvedESVYGiYVlejkPsf8tO%2Bck--T8IhyPrEulEA1l2FduIGGMgfQcEt4274OfZk0azlMQSHoaKjguQVYK0ZO5Z9c11XXWvh%2Bjo5YGJVjgycnFuBxTol5mK04CkJYaC3Pj%2FmYvpyzUiu1t2ZU80wBdHpqqKAJnxqH%2FVp%2FYpDleoniCFF9uGVQN9PF9byP1s1BZAq2VUCX0KLm%2FeuYa%2BqZMpRHeNzH%2BSNaMbk%2Fhy%2Bww9%2BXQXK2H4xDTidEDE%3D%7Ctkp%3ABFBMgIaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920021873351"
+  },
+  {
+   "title": "SEGA Game Gear Handheld Console Gray NTSC-U/C Headphone Jack MPN 2110",
+   "price": {
+    "raw": "$123.00",
+    "extracted": 123.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336866077385?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BKT07RMG84KMBDN1VR&hash=item4e6ec86ac9%3Ag%3A5wQAAeSwbNtq4PHn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8JGwPRgHlW9%2B6fj3VaAu33wiPFl9gF9wnAtdMCdbmPg0gIQpnaUv99Rz7diKRt7dveZBFBHWDZ2CJkFrLqxxFoTqYyiqV6iChxWe4dn48OI%2FW742%2Bjtg3doE8%2BsULaNccj%2B%2BXkxPmkuWs8f4J7KMiDkrSanV92q1WKHxkRYUTxTHIIVU39X8EuVuWkamRe54kCmgD88NCFusT%2BW9zXn04MCaZcRSWemby73%2BTj8cwpljdhlaIOjQQBxINCuyAbNZxM5VskiY0PSw4tXsgJ5VxTH7RoZ4wpWbGxT%2BF7HXjmasOMoPsK9fVenDlkcWmt2J8%3D%7Ctkp%3ABFBMgIaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336866077385"
+  },
+  {
+   "title": "Sega Game Gear Console w/ Case, Battery Pack, & 8 Games Includes 4 Free DVD's",
+   "price": {
+    "raw": "$272.00",
+    "extracted": 272.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188634078962?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BK231590N6237TMS9G&hash=item2beb779ef2%3Ag%3A0IgAAeSwDTBqVNl6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde82BjkAxpn0RoWmfUg3XxFT8WYCeFCjMZGaZSc0YZ9GtKH2UQICe4agQ%2FXIBz6xCAetJqzTpAM5TCLlgMSt4EOKK7qS4fTIjQXQQ1h5a9aK21wPECoOzju43mbXNLZXu4tF1up4jeoVj0DUUbszPM6ZuowK%2FKNyvrR%2BYTRUZ%2FW7Cv8xsNrx7ulcdv6pR49UA22bBNkJ1HUmnxcTyokQ1YGWANZ83SYcPEvr9aNG%2BxQrdcWDa7HWkhuFwXfjeOwQ%2Fux8ARXzoiVVxxGQ3Xx%2Fi4bfw2xnSquQc5X9%2B4Lp9vRDyTXMAsa8736UNOC39UEzzlw%3D%7Ctkp%3ABFBMgIaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188634078962"
+  },
+  {
+   "title": "Authentic SEGA GAME GEAR retro Video game Console Charger & More - READ",
+   "price": {
+    "raw": "$220.95",
+    "extracted": 220.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168812989780?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BK903KQR95RXEE0DY5&hash=item274e09cd54%3Ag%3AXtwAAeSw8Glq3C96&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hC2pALZcbKUTIQ3qbjrkYwapGMe92mE9adW5JsUqiwmWzKmCYiEtxVSB5DszegdsqiDS7FkxmeT3rEsh9yTa4hSb%2BOJXLljoQ447bDN1ytHm%2B0AnUZl27rjnE1eP8Gn12zg4WsbnMxC3E8pEUocZyXKxt1z1sGk77OFeAv6tDfGtsWdu%2BJSwsGwKK7Qe6qE%2BeLMH83ScWg4Vb2B1maXuAm3jELBZWwY5SWu%2FJbDkK8Od0NnOL4a0x5fqUAaDw2Cv5JmACjYpTWWjtDybfMe3zu82%2FZsEMOlT%2FdXgFR3InRxt2Z6qfKiEniT%2B2ow%2BH938%3D%7Ctkp%3ABk9SR4CGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168812989780"
+  },
+  {
+   "title": "AS IS POWERS ON & OFF VTG Sega Game Gear 2110 Handheld Video Game Console System",
+   "price": {
+    "raw": "$34.95",
+    "extracted": 34.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920094060098?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BMFZ9Z42XPW8BPWRKA&hash=itemd639e12e42%3Ag%3A-XsAAeSwWy9q5kNb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FZ%2BoU3409j5qG%2BXk79%2F51evfcV%2FZCrhbnsFX%2Bz3ymaWARk9My0UQG%2BAdpbYZSkY6DM2R%2Fy7mbNzIEt08uc7Y%2F1l041VnEX%2B%2Fbv68hNtNDJ4SnMqVqgS3Dgz3KF13%2FX12wsl9MMOJLDnHtX5YY5i7xtHeJYjqyNMsJlQuNPICjNuNWyVZbF3sdk92OGadyBbvmRViQS1JcXO6HCG0c5MzaS4DxY9A8ZvCIXgwRHcgJekBAtrwSCnOFC8Bj5s2p3Go5Dq6eKwtGZ%2Frf24Fa8X6gfpgFvxF0KeJxTW6IAiVbaVicqno4kS1yLCpfjYefrhmg%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920094060098"
+  },
+  {
+   "title": "Sega Game Gear 2110 Handheld Video Game Console Only #41 - READ",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117433465920?_skw=SEGA+Game+Gear+portable+game+console&epid=109449838&itmmeta=01M6C228BMM7C1MMAMJ96AAFXB&hash=item1b57947c40%3Ag%3A5F4AAeSwg0dquIad&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9j2Zp87rraIczvLslgB7UvDyXMHtQAm4u%2BxxwdSZOndhlkOoVxxgKMVNOQoMC2sP5jR4fBfoQOIRTGU9o8P3fEUij8mP8PoIlCo22ZFYDBA2IKwgb6brFmBTHfoFkWqi0MGTLdJTfXc2RgROmOElnzFU%2F5et%2FGycFh9iy7zzJUXIOdQWm%2BhPmpOvsBswC3XSXWe6KqrtInURD7sizokFobGZJzl8x5jfyXYgsIeLeQeN91UcKav%2Ba2lZ74oyXpBexj0wv89rUhD6xkkK7t0%2Bn%2FlY7i3CldcMdF41fAhzoqU4dKZt9xl9LIuA7nm2yLRwU%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117433465920"
+  },
+  {
+   "title": "Sega Game Gear - Works, Recapped, 12 Games, Clean Shell, Power Supply + more",
+   "price": {
+    "raw": "$249.00",
+    "extracted": 249.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307224948060?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BMM4PWPYT7TW9W1HSC&hash=item478808ad5c%3Ag%3As0gAAeSwtcpqyqN%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9bP68SCEOrJvWoyJr6ZLnNJYHyuCuJefDQhlrI9r5CuQlw5GSaLdF%2FMHHQ%2FtKGEysaB9CrOCdmsvVaFIOt%2B%2BmRhe8C7gUqctaqOP9JxybUzWTz%2Fky4JItDqboYu16HTM%2FzFmN%2BuQz95W9RJJYsI%2BiwDQkl%2BNvjDg3ggHpsgvz4fSeuinaVYsXXkWrWVCo3Sow3vB2XMXDw5pY1%2BWeMH7Lc9eYb6hR8U%2FluwaYzecjoOS%2BQ65qpeCi2PT6JMylTUrpymuFhM9uPpYzkBD%2Fg%2FGxI%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307224948060"
+  },
+  {
+   "title": "Sega Game Gear Lot 2 Working Consoles 29 Games 9 Manuals Game Genie Accessories",
+   "price": {
+    "raw": "$699.99",
+    "extracted": 699.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327411579961?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BM4NW5YGQVH1SF2DTY&hash=item4c3b403c39%3Ag%3AuxIAAeSwTWpq1S1S&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FEkLabRaSm8BILwAWH5hYv0pjrE5c4HIsO0yF2tGgIdaBQgrvjMR80c0vQ9sS%2B%2BKeOpMawpCsgVPPAPSeVkwNQSL23lmeIwZZwkHbzivF615lT21Ad%2Fy6oLjCducYxNusFb5XYVhbgrAbeCQPy5YJpG6MwigBhseYyP4ZxODSN0dLLXuTwR8wJBwIpkzGrxN8KuWZw7eFdLq7oEC6z3I5NOcyOfvU1pehKxDULddzPRRjZjWGMzLE%2F5OYmQJkkhHTHnPWWPOUkePYpTxNfoaBO%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327411579961"
+  },
+  {
+   "title": "Sega Game Gear Video Game Console System for Parts Or Repair - READ",
+   "price": {
+    "raw": "$32.99",
+    "extracted": 32.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800860015176?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BMC261S65ANWNBAPD5&hash=itemba76fa0a48%3Ag%3AjxAAAeSw54Vq5iSe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FY4lD3zrXJTaApOnMDnLheaC87bmI1WZs5agcKcfZ2rRnMWkZj6FNMSeheLr44%2FbQQTkfP8C5WK18yzO6v7mhFjeDSel3NgSQPwxLwCwWADsmfvEtx0fNg2AOmaeyfyJMvLLttfIyXuJAbzY%2BNbz63e656uzoclR7V5bHfjxNcwFCRlrBOgFThPVRGZcTyW1iCaEDmHj8EAW6ZgIg%2FnZqI7RwmnN2vvoshJ1X61G9kxBylbFy9cn4Li11CkYjaaK49qnYDm4fnI%2BsF2eoUjqob%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800860015176"
+  },
+  {
+   "title": "SEGA GAME GEAR 2110 BLACK PORTABLE HANDHELD CONSOLE SYSTEM & ACCESSO (CP2018623)",
+   "price": {
+    "raw": "$127.49",
+    "extracted": 127.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257703847712?_skw=SEGA+Game+Gear+portable+game+console&epid=109449838&itmmeta=01M6C228BMNK15G4TWS01PDQEW&hash=item3c0058a720%3Ag%3AbFQAAeSw-MtqjuuC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B7vuMOkB7LKB4KeBDbLfGBuP%2Bgvdn0qXCjU1DRNMyd7earDT%2F5iWOdI1DZQiHg9CuvKCiv1dUE9XgWb5dxBD0ssGcHY2riVqU49ylbczKH0JHnQRLo%2FnTxmi2lbl7cQ0DBxKS%2FCdtQOYFvY361ygwW2I76GugTGkOAvkz4If4ANmhor6eAIkq5EDCDQp5qMRtSUmHHkQpqbbV%2FQW8NvTzZdJvZtBGn7tKNtUoU83tP%2FGjiGIx9%2B2azFzEesoep1w%2F4Y3ekHzxntoJ%2B3FGtFcCqJz%2BsOWO85ip7pMKF%2FnrUhpT77ZF1OnacQd6W7XNlg1g%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257703847712"
+  },
+  {
+   "title": "🔥 SEGA Game Gear VA1 \"Sport\" Blue 💙 Recapped + FunnyPlaying V4.2B LCD ✨",
+   "price": {
+    "raw": "$209.00",
+    "extracted": 209.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198745161987?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BM1ZTDJZZNB7XCHB9X&hash=item2e46228103%3Ag%3AGwQAAeSwCjxq3l3q&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9YxIppyTJruKKs5AChsMddDxdbsP4La09uliSWNqu%2FUaGERCS4eG89cbrNtznKwYt0nMm%2FS2vgYJZCuRoTSuyVIpWB%2BaL7jTgt12g97kRgNjMCs896Ajn5DJQCvNd%2FAsCcnFgYfq1vX2a5L5DqRuF1BYHFL1ZG9SCby34mdLqx1o5rHrs6YRPm6T%2FzwhGjsJAArWRfkBmBvB6PszVtqE5y1rABtYv3X5kMf0c4ryqzlDyj8GGWBd7YYNbtf1qx4nJE8470LZzeOAV%2FIUlqfWAI%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198745161987"
+  },
+  {
+   "title": "SEGA Game Gear Black Handheld System Video Game Console Works (T22)",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900025790709?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BM137QCAMNGBJFVFXX&hash=itemd18db7b0f5%3Ag%3AFtQAAeSwbhdq1nzr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9eKZK4hsf9Kl%2FJk8bY1cWmXmscp0tKnPMXLv59X%2FeBmhygXfeyfDAgYB2g1%2FtmMY3CwigEO5kvxeVUnxWyPxuFXwy97HgMGQmZUB0tMt4P%2BkpGNi7LsgeFilssPRqKx%2FHFpgeNWmQ5bQamwhmJXf3zobddOHbcRVCtWw7J%2BB%2BNmdlE0oLhyYG5UKYT18Td85FnzE9IV%2Bjp9I1ksV6H9iT3L%2FPzMw4cEpQOQHgHtkswJwWj6UkJ3xjNkesxPF%2FgMopyxQUPoGI1f55M3FnX%2FQF2PH3FUKlvmXQVtXgDJ8Y9%2Fr7NwEoOogl4rLP5SiIOCZg%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900025790709"
+  },
+  {
+   "title": "SEGA Game Gear Black Console Bundle w/ Box Manual 2 Games & Power Adapter Tested",
+   "price": {
+    "raw": "$251.95",
+    "extracted": 251.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860064445731?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BMPMJRFTGP546DZPEE&hash=itemc83fd5f523%3Ag%3Avb4AAeSwxChqD6JA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FJEzK4AAgTDMMwa05snwaOhxXu8O58CIbMXG6OSgHwIfF42bAdwes30DinO7aSXH3JLQ%2FlauDbgYUVRVKNaLRmsQHDXFytfZ1jTASRxsTSgA7NcuNpgxpH7QEA69YieYQBg8p%2F1YKwjrllpZpNhXXmHCfVc1VNpDc6dXglLNd4kprc8TjbWKrIg0mUBt9JSZdBQPlEQtLg7oljkWxGiJYglGWw6NTvVfU7JRhlIumsMW2aBi8vgcc9CbCUyp2tkqJCxFhpj2s6GWj%2FsxwLpKdxX2xG9gN9ozeDg05h8miobYoYtLRwEtRrCJb7eugoaGg%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860064445731"
+  },
+  {
+   "title": "Sega Game Gear 2110 Handheld Video Game Console Only #40 - READ",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117433465105?_skw=SEGA+Game+Gear+portable+game+console&epid=109449838&itmmeta=01M6C228BN7ZF27TQGNAJNKWGS&hash=item1b57947911%3Ag%3AfS8AAeSwNkpquIYn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNJUsrOgb4rnnaACXgJwpjr3b4S%2BmWWGzXEX%2BqsicRT4Vm1MI6k80y3JpOI5K6gHfvSrFIKJhjhvuBc3p5Z8pmGKp8jC%2FsvWWRcg26G84GPe%2F6GppXwJeF9%2FEbqqm6c%2FtJC8OCtDdyhgXlaMO8MbskzHAJRrHjq%2F9MBfV5DT7FG3rpR4BMABXyZVLEEaUDYAnq4sIZ6c5FjENYX5jck7u61GNF4N1JlVXRMahKqCrraLPCB4yiESA4qaLp8XC46Rq3ZbGt1WJf1MlF0Ze4%2BRs44AFNzemyWgAEZJC4SzYzyzLftVZeUem5VuHD3BvJ3Lk%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117433465105"
+  },
+  {
+   "title": "Sega Game Gear Portable Video Game System Model 2110 Recapped & Working",
+   "price": {
+    "raw": "$104.99",
+    "extracted": 104.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407087215732?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BN9BNMDGPS6H7F117X&hash=item5ec849f474%3Ag%3AyC4AAeSwx7pqXrPe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FNlOz80xHNcPNNXbFvpL80m2rceBiuOS2o9j9kYrCI14LfOzeRlU8vo%2B1uPTNchHkXr3K5kGr1dx9K8YbYxs18e%2BeCcpc2y%2B5eys7Kxg0NoXuj4Gjw8dO9mM%2B%2Bh7SL%2FHBetoN1M1I7fJdqLEsCt1FyJ%2FAZPeyGWr0iw%2BeqiOsqLjKNLIqR136SD2Wozo612bKDc3W05I305dkYOUvqJo19Jt6BrDXmxeD%2BwdGxGkf3wS3vPmlmusyMzlLv8FYQRzLweVjQ0mOj34NI8GJGROqX%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407087215732"
+  },
+  {
+   "title": "SEGA Game Gear Console Lot w/ Case, AC Adapter, Battery Pack & Sonic Games",
+   "price": {
+    "raw": "$400.00",
+    "extracted": 400.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366589408810?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BN8E4T7WMQB8PZZG8B&hash=item555a6e762a%3Ag%3A8FAAAeSwvM9qc-YK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8RAZWXzu8r3fTt%2BEpZ4ZFku07MuzuUpSCo9Otup8CqlL7An3VWGUOsaduCRj6vNjyhZ2Z4mrra8Sv3%2FV%2B2vrKUMfXdZ%2FTvBJHQUPl6T9w1QGiuQCiyNbfYvmHyKXEJXcCM1tLlSah%2F3iPc6pNWvf60g8LQG7gp7Wro4xZexIPCkYDfjl2Wjn6vPy7b1%2B81wRLqaAAQ90RCn4TTLJwyb2dUmQVd2scW1MtEOprpXj0wqwsyu3OSzAkjjSuWpXceOZhDBXBPpi%2BEejYLmIqMNKGaNP%2F%2B76BPDkuz8BA9ygXPDOYOlYs23v98nOyd8JNSB%2FM%3D%7Ctkp%3ABFBMgoaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366589408810"
+  },
+  {
+   "title": "Retro 6 Sega Game Gear Recap, Clean Screen v4 Pro, Fully Loaded, Sonic 2 & Bag",
+   "price": {
+    "raw": "$349.99",
+    "extracted": 349.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267825750077?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BNVAQMTY8M10J1QMWX&hash=item3e5ba8a03d%3Ag%3AB58AAeSwOkpq4Vre&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde88YnNH7cuu18CSKGjLqlFd83MD%2FatE7K9gZkz%2B%2F2iTwSlxg4IamgeoV6UoTMjrfckbleoRt5o1zpbdDLVqAgSCE%2FQQZjKCfftwICkt6agcx1UbL4cG%2FIol4FmGjXSZBghT%2FXtKRsm05Hmij6N9bKZtkGbH00L3H1i%2Bs8vq5%2BYTBbXv%2F%2BdLgY9I%2BUBzma2yamN%2B1cbyzXuQwbsbkCMU79jNf8Az8R8DOiJVY%2BYcratP2hW%2BJhodClY4BYvzU4incR3m2cFHqARNwRsiu7D7CVRbCgVNPIc0oPw29hbFERB5EjOCOxOJfb2dtoRYAq%2BXbMA%3D%7Ctkp%3ABFBMgoaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267825750077"
+  },
+  {
+   "title": "SEGA Game Gear Console - Fully Recapped (SMD) - Tested Original Screen",
+   "price": {
+    "raw": "$119.00",
+    "extracted": 119.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860093029755?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BN6FQ325QADJ7GVGER&hash=itemc8418a1d7b%3Ag%3ADskAAeSwAe9q4mmF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Xb8MUVe99L%2B6Eou93cH2BgxWs7geuq%2FknmsJMxIdcq4VfnSjrrwd5w1QHSh8dCc%2Bqi%2Bo3EurujD3YjpOddapO4KcxXeRgIN%2FKzlKtf%2Bo9Rio0dxYQYZb8jyrjZ6%2FZHAnY6f0ZacgoSVtbQpEmGyiHPxbm5m5RE35zAAOinlo4uMFDg2bF3PegQrYQnNN46kHjQNH14IIICLglLB9IyI9nmHWXWMpSftqbAzZCgPacRFOFD%2B6cLClJEknWPjk%2FG26HLT1nVthtzfbxaSs09OX3nLpKXTYSE5mjHrw7BATIlXb0jzGE6GOTMlD15%2BLy1ic%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860093029755"
+  },
+  {
+   "title": "SEGA Game Gear Handheld Console Black Color Screen Sound Headphone Jack TESTED",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920052056179?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BNMZ3SWN2ZP1PKBDM3&hash=itemd637604073%3Ag%3AOQgAAeSwcR5q1Twv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B7KNCpa6DIC8rUNKxT9SI9X06OiQTjg5pr%2FE6mGPcsWvc9hyu5%2B0fVoaroCiCwhcA2pDTHwTqTbYUqN3zP4EulJ8bSHAbxrnG9QPezsgxunTGxIGss2gAW5ciieUTFC8lCuda%2F8stEMrZzBqlnEWpKV2JMaCQ0ePhVSQytVH1FFJvRgFlbid5bKWQlEixTCqBIlH9qZB1mc%2Bc7ktj1mFTJLYon9eoKQRtBVcLZnLBe26smAtLT35Z%2B9HQXF9Y72wmKL%2BwV%2B53u3n8nS2JcO2sb%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920052056179"
+  },
+  {
+   "title": "Sega Game Gear Console Bundle – Powers On – Read Description",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168547620109?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BNB5CZYJFVPTCQ8SN4&hash=item273e38950d%3Ag%3Ab4wAAeSwEbBqXQKt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BQJiY3zrmoXkk9%2FpQNvLKmqER5R20f7WaQIWlT3DejIL1%2FopuyPesDw6XtmCT1C%2F%2BUiFg373rqyH49%2BSPFa3CO1qyT5KBDeQdzXSyD%2Fd0B4hwViy6tUnhuzOuzpC%2FHSrI0dMx%2FcScBtXOFJcl4wP2OKGsPg%2FgvbFU0OovGIpqEuf3%2Fdk8Nj2gQkfh3Bm41eBtxsMfJNhUpp5wr6i6vogZ8SU3Tmaw7lso--l0T3zmAs68%2BaE4tEllbffIJeeHi72Otup3VRZOOQOvL0Nvnvlw5A6H1DbpWQ6AK9LWgMhqRWtl%2BMj5rSASvWfrx2GR32VE%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168547620109"
+  },
+  {
+   "title": "SEGA 🔥 Game Gear VA1 Recapped⚡FunnyPlaying 4.2B LCD Upgrade ✨Cleaned, Working🔧",
+   "price": {
+    "raw": "$199.00",
+    "extracted": 199.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198707003172?_skw=SEGA+Game+Gear+portable+game+console&epid=8065790240&itmmeta=01M6C228BNE46VG0V4FHWDGJBQ&hash=item2e43dc3f24%3Ag%3AlO0AAeSwTlxqy62z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fz%2FUCmii445dJdm5NeK8i%2FJVWzkgZgz%2FkWetNWe36MFtzyCALj%2BLnoYibNYq2PR4%2FVR2edn1V6pPoV%2FE3mjWqLTNA3tUukRM6I0QKraeH7jn737rGQXibdwiMbRKfB0csbZtZCAqiwBsOS05EDEvxa701cd33eWOPRBfWGXMomonySNKFftvbgxPkfGsku0MXkw4SqsLyHRUYnkw6qyzqU7Vfbw6j2N4DhDebD3FBm4OQ5jx05zEKESlN5vY4BXAiEMsCUJCNEB2lTgrNaVf%2FwutHTtS9v2dZYc%2FqGuENfZ4CdRe6%2FW9ZAXlBjMR5%2FsJQ%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198707003172"
+  },
+  {
+   "title": "SEGA Game Gear Blue Handheld Console Lot With Games TESTED WORKING Recapped",
+   "price": {
+    "raw": "$134.95",
+    "extracted": 134.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168717912770?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BP4DYT0G5KZ1SJC8HY&hash=item27485f0ac2%3Ag%3ADsAAAeSwzpZqtYjo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8GAu6rAcV3Sb%2BcfkMad3joPYBUmpApXtJ8QG32jyMq3vqfujiZMQqparDYKfvOlXsXMApC0GXr6rRvOxAI5MO%2FjgdheHS12mLx9GO2dyDEINpDlMN1SulLdYKZEYy3KzEX%2FRQhpmWnvPVxmHMpAXpxCibA4Mtbf970gH0EtMpk3V7Le8R0OZHARMHLnMxwxG%2FsyS7YEqAuBNB%2BGsizA4YOg2WirdXF8GE%2Fxc2fDy%2FYAW2xy0kl5do%2F6IEJ0SCywpN99ui7YQAY3UBFuBPFy1hZ%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168717912770"
+  },
+  {
+   "title": "SEGA Game Gear Console Lot + OEM PowerBack + 5 Games Sonic 2 Mickey AS-IS",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318905789091?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BP0FPD01GEG3FTJNCG&hash=item4a40442aa3%3Ag%3AbAMAAeSwrj5qhQzu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8kTniiQYH0e1znWqPFNa6R71zd7mtPbqgQb0CeWSboBVVmCFGZgMKJS%2FgrF7orsvQJp9tVTKiOYpV4WH5VZ4xWg219qNUPHWZZPDm6DGjEDToJo85fyKHVq%2BMkQV32rSl0sPM3B3MBSMf1x7QdAKGeWJSb%2BlVrwKP%2BC6FXulqFsPmLd0Bcb253B3yrvmjiC5TpfyH61VdT5B1Q%2FvJ8dvla2jHJMOFlGl1fBvqbb8Wd6d%2FNndla7Rcxj1fqbC1DCR3dO08UFwluYgopr9UFIO4QZPu9N7yVcY8P0Lt5jtwacVyKnslNZnDT%2BwwBAvBgjR0%3D%7Ctkp%3ABk9SR4KGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318905789091"
+  },
+  {
+   "title": "Game Gear Sega Portable Video Game System Working with Sonic Game",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920040597834?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BPNRPJXD4WCCDT0G26&hash=itemd636b1694a%3Ag%3AliQAAeSwEE5q0Chg&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B2VGNds58DM5OojRyJVnMdqB2ipDAyfr6GOxi0nYeVamjOgNgpAK0NT9Bc09OOn6OxHPqqS0eI7M4C80jBcmJvTXcbKXJoE5ru9rAgD1yqnM%2BlRngPZrVZP0dxyayKaVkyeQyJjlVEvUJDIIVnrt1W%2BT84hSjMOuVbacFTrfsMh8QzNPwwt6bt4iS8PUUm1rDZd1c2Mgd%2BCl1FJwY%2BWiJqK8N07quLfNYgOrFDog4z4WzaOq370zugqjT5PH7wdgHc1Bo3umL%2BvDmUGWqmIPku%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920040597834"
+  },
+  {
+   "title": "SEGA Game Gear Handheld Console Black/ w/ PowerBack & 2 Games see description",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407316094642?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BP047H45ECBDZG67PM&hash=item5ed5ee5eb2%3Ag%3AHTMAAeSwOJJq3pz-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8VNNeC%2FX6uACDXUNFY1EMNKw%2FDByiPutnpDAW52JI%2FsfypiXWPbZT0Ean8Yhs4eYMu4kMk79d3nu81VVIH7ghSw7zdJ2auUBF2Xu%2FAyXSsKp7Df1ujws9LgzVEFu4sRbNBD5hM3C%2Fb0QH3V%2FzaJ8ichzhpqKH8%2BhyiNHNx9222M3S7C3nhg2EU4EsgYN41S1NK%2BE2JvPGDHgxc3zEolHv0u6D%2BanmU2KmnF8aauWoxzrzY%2BDKdf7DwFk2gPrrniHNkuQtW9cBcWDBa%2FkuKxFME%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407316094642"
+  },
+  {
+   "title": "Rare Blue Sega Game Gear Handheld Console, Ultra Rare Blue With Game Bundle",
+   "price": {
+    "raw": "$175.00",
+    "extracted": 175.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820066052839?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BP241SMW4CFKQ7MKYP&hash=itembeefbeeae7%3Ag%3AkzoAAeSwNoNqlGyB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Ckz6LJ0DgBNdMs3AGVdA8ajcBR9POAq6ARvMMhX7nviBIhmJpjLLlk948puFSW%2FnjoiIZumGVhD6cUk2uuL288s9Ho%2FzMW0mRvuUo738ctrpr%2BciFExNccHLj9oCbru0QP2edJA3CN1SGh9Mt9gTmRi4hKFmCEcFQ%2F2YgL6UxXzN6i2jaF0RhEtbHddkrAgm25gKLdNrHtfLot%2FdvzOwL2FtAgu3sI14mOjLvctwGNFrzoDMXQR2xKM3QhCapCjzWxczu4gXqoWug5nmIw43apHJtmsBrnOdfyVb1LaRbT850rq5JHqTFgQ3MkpoF%2F6U%3D%7Ctkp%3ABFBMhIaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820066052839"
+  },
+  {
+   "title": "SEGA Game Gear Micro Handheld System w/ Box Manual, Pre-Installed Games",
+   "price": {
+    "raw": "$280.00",
+    "extracted": 280.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920021864894?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BPH0QD0S8WG33RJJY8&hash=itemd6359391be%3Ag%3APZwAAeSwOVNqyBy9&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8lu%2FqOTyT8pbns7xf8zMFMbVeoCz52EDy7d4%2BXG6JzmrfWZ2YGZ1puJWS7l5aB1yfoPo2ZUz%2Buri9uOmw12%2BI7oF1FNoTyxkerzJZCwA8RPYZr2TA6zZBPLwQKDjLXhtx1pVMdK6uR4fln3426YTLgUUnXKSAXRcgqWcBQUWIGQnDK2L%2FHqvSQtBmXT8IF%2FejZEELnkTYD%2B%2FqM%2FEdliVhTSU2SZUPaJ4YVms9SsdDf0TL%2BI%2F%2B5ZWIpxwOvCgVGUu1mImTC%2ByKQmvgXMEvoJXLARqxNt3F8nQ0Pq0fO45pY%2FhmNZAU3XShYpYmuHlK1eEs%3D%7Ctkp%3ABFBMhIaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920021864894"
+  },
+  {
+   "title": "Working Sega Game Gear Handheld Portable Console/System with bag and games.",
+   "price": {
+    "raw": "$225.00",
+    "extracted": 225.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227145264630?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BPDAK0HZMT38D46B6E&hash=item34e2e9adf6%3Ag%3ASgkAAeSw8BVpTEBz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2BQYFQMUpeClBUZKl3fMGXSis6wocrZJLCqBJ8NOXEnBAwCwCD95C0NIEfAfQUbLP6%2BeYlXUdiMoVk0fXEJjw9u%2BsGem%2FThOI%2FIVwTyWOzKjbdi9ZhNRZxjkl0eCOD%2FEIy20rGIl84%2Bgbft0Jfc2GSPpn1nbi9CTZ1NGLsY10MIc9MLKYPVIRS6sgo6cIwFAIFs%2F0hDgVKEq4lOqSeyWQX5%2F9LFypU1HfR0OJ30f20qTjaATSc0xoMe1zDG7CyUW%2F2s2YUytQCSupRCs7ZJFD%2BCkSgpeFv5BY1Yg0%2BzAhCxz0BTSJj3ebfJchCEQj56x0%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227145264630"
+  },
+  {
+   "title": "SEGA Game Gear Console Bundle w/ Games, AC Adapter, TV Tuner, Car Charger",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298680615243?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BP951WV00XEKH637QR&hash=item458ac0814b%3Ag%3A2eQAAeSwuqxqqvPV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FPEYlY7xZW9kU7LWEZiYICSJspmztzpWHqFFnZwQRsxhoZ1zwoy1nXwgrNyO4UsdX4ABvu5ExESJoa%2B4boR%2FVpGwU6tFglqBkQC3Q6IISXZiadpvXZGaT7QX3jiumsTUYDm5pQeE8zJHVAviWeaHYnVUO25Q7BUHTb3EfVeQeuK5TpTeYUpiXYbj6d4C9cwm%2FUA6RRxrVyOmyIH0Y%2FpdldhL%2FFR%2FkOT609VZXMj3mPKko2J%2F0Dc9plvreOhTOv%2F1GsrpR1I76ix0qM%2FPm7ZqqA%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298680615243"
+  },
+  {
+   "title": "Vintage SEGA Game Gear Handheld Video Game Console Black 2110 w/Games & Case",
+   "price": {
+    "raw": "$110.65",
+    "extracted": 110.65
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206351578196?_skw=SEGA+Game+Gear+portable+game+console&epid=8065790240&itmmeta=01M6C228BP1CRTRXK3R75GQ6RC&hash=item300b833454%3Ag%3AL8MAAeSw9AZqMVlu&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F4%2F6o4iyIeLkfCogrKqdyFS4CJzYNGKqDrAwhxWvx1Rpwi5pneULaoC0H1QmVsGb3mGZANMdX5w5k6VI6%2FejKRNtRn3B6UPBcvwCwduQHWZfRfd1sMwTXmKOwwCWUjVjCTuDN%2BfEmbz0EqgLMF8IKdxZ%2FxnlvDI0B1NZ%2FwkT7X51tTet9UaUUoXJcah0HQo49h3WVfwhDU8%2BEr5n7MuOFUqvD4%2BIB4YRDD1iXlysUPgP7Q9swr1geJlmue0jm2VD2S1ZZv5RRFLoyu4m%2FQp5%2BA%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206351578196"
+  },
+  {
+   "title": "Console - Sega Game Gear - Portable Video Game System - 11115977",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/364633138011?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BQ5NJBPYG0MFHZS5D5&hash=item54e5d4235b%3Ag%3AkogAAOSw1N5le1u1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FB5eUlKjxwumCNkyh6OXeAgO4F%2FT13rY5ymJUIPLGYoWg72scgxrPhBKmBjUj4%2F05judk3aMV7Acw1E9Gzq101jiXMY28CZe7jNWfqqo7gqcoJ9eLJNSGVHLwF%2BXysHfdidIKZz73Z9cFGnwl7LYhCWn9%2BsgHa8wjaLHKHovCis8h62VqG%2Bs%2FfFnIr%2FM6Q1LUyoiJE7cHJn0oDj7CFFrVVIMKQTOZl7rrSeGUY9AtZxR6zSCTjQZno96lbyIGULxUYUHRagoAzTLbtrwE0lqfemuLqQEMqsJRA0ZxmXUe5fQFmlhF2cmyFAptc6Dlj67I%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "364633138011"
+  },
+  {
+   "title": "🔥 SEGA Game Gear VA1 🔋 USB-C 6200mAh Rechargeable ⚡ FunnyPlaying 4.2 LCD 🎮",
+   "price": {
+    "raw": "$249.00",
+    "extracted": 249.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198758236827?_skw=SEGA+Game+Gear+portable+game+console&epid=109449838&itmmeta=01M6C228BQJ1K29CJDF5VFTG21&hash=item2e46ea029b%3Ag%3AvJoAAeSwsjVq5Q1l&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bc9WvyQVdQ%2B1GQGMjgptoHRtVxNTiz%2BOjIJJpO3J70nPws1gPjFrVVrrfvnmCID67Rey%2Fte2yLmIhcLeebMoeTpJ6mVxXNn%2BWEGMCRU6yK1bD0BzYh8STPeNTRU8PmSx7WCSR9YmpEvM3YTH9tF2vxDaQQionJjEh4dFEQ1DiiNqnvyi92%2Fa%2BU4ooz8Z2bnNWm%2Bap%2BP9a6fQ0sHIHJVp1fWS31ZiCC%2BWJ6ri2UU8bSzrQsy4ryTdRSO5lxv6kkJsEvZPlt%2BrFqqjhHwXrXs1HY%2FM0RKfDSyMcRXbXxilZ4Nb5%2B5t%2FX9Qx0L94PeGUkNQI%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198758236827"
+  },
+  {
+   "title": "SEGA Game Gear Handheld System - 4 games - Black Model 2110. Powers On",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137836276299?_skw=SEGA+Game+Gear+portable+game+console&epid=109449838&itmmeta=01M6C228BQEXMXAS5R70EGVWJD&hash=item2017aeaa4b%3Ag%3AfsQAAeSwTmVqzF%7EU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8zxQf0dGWMRKi8m3yZzmaxRi0%2FkZ1KELGtmCGZa37qWevS0b0P1PkNLIpuQmvC4m0FUG9hf1a1AjR%2Bcji%2FaN%2BJfXahLcSETIJ9QB7YYc0DKyet8W9BxY5rr5hy7X5UoRZEvDMW2siRfLJEl9fRWlgl%2Bmo%2BneDvDlaS%2Fw8dLhWfpFw1CoY3xb1s0voJLPpYJr7J%2BS4P3sYv7feXmHL0dE8aeukxYmJHZ6%2B12SNuavpAdRagmk%2BXLfV7j75M5GNIBBzJBzdVNn87Q85V4wLv5Ujlexv9Vpn6EwY0M1T41dmvJlc2aW8DbDxnavsMjHf4yhw%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137836276299"
+  },
+  {
+   "title": "SEGA Game Gear Handheld System Only - Tested, Working",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267784239617?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BQ655KQZX3ACRVVVJ3&hash=item3e592f3a01%3Ag%3AJIkAAeSwWxpqpq79&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9hzOfJPYEqF%2FcEABD5cNHIYKmfk1NTGYRr%2Fu9rHj6GqjU%2F1OIBWWToGms8jc9Z6ktQJG%2BjUuwAijWmKIGUxxNDpv5q9Rh9DHMLAavmsqiU6tkSj2%2FeL2mld9kgQ3AH1P0Try%2FHeeJRakIXUh0QDjEfh1XZwVOS974Ew6B6yapXoGCSrzDIUxKTkB%2B0IHw8Ya897rAA4as64NLOkWK5el9vVy1%2FGWL9%2FrJAaBeSc9COqc8X%2F2kJm1Lm3gLC0V2PiHpxcmXuYM7u67XYFR6qwMTC6Vtw5vO3Wczhj%2FKklsh4gnOUPkyfV%2FTlW5axhWvrflE%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267784239617"
+  },
+  {
+   "title": "Sega Game Gear Handheld Console With Game",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287604610776?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BQXZ8VCDVWQR480CYA&hash=item42f69216d8%3Ag%3AlKwAAeSwKEhqtHM-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B9r0dTH1Yd0eGApHroKLe3%2Fgto2HHMaeTF3PAxN%2FOD3zcVcuIHMO%2BCReATXbua72atN2yL5g3UkvMvVXrsdkgAXHIifE7%2F7OUjmh4W%2BNifLu1s78uqJsGiXWjlX9CMvcZbUf%2BkDYYU9fGXhHOCqU%2BJ2oK%2BNeQ9etRVDGGpPQrh1widIYlHgPw1djmJdY1Sw3yYFwnQx1hmcr1xNukYtTeRdeJa5jB7b0MMJEP8Df%2BidhSvXRV4TGZt%2BZHjPqplKhep00QHVAIVsmIveVKGD0tZXiGp5IJCqDFOj1T6Q5lqJ7wfSQsfxuR30PXzQQCTRos%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287604610776"
+  },
+  {
+   "title": "Sega Game Gear Console +20 Games Carry Case AC Brick Car Adapter TV Tuner *READ*",
+   "price": {
+    "raw": "$324.95",
+    "extracted": 324.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168583513872?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BQFGV8J6JZ7JAV748C&hash=item27405c4710%3Ag%3An0QAAeSwknFqYUwM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FxyPGRdQnBTNv1b%2Bx4jX%2B37tDls8jYKx5Ufjzyp%2FIsN1khE29mOuz5ch0AY5sI91P86VpGdEy54J9PtuuRxcZQEm11bnlRekmsH6VE%2BfuSvhueId1U5H3Lo9HD6jPh5dNMkC3cvvdD7pmfj336X5u4nwilNGj%2FfWPIdLYJ8RxKyQS2pEgJ4b%2FenXDU6oIqKgAHdSaRgzePKQgf9h0Pc2y2iJ22ilDkb4cTiBn3VIr80qI3DR9EE6rKQR%2F1Julef%2FFqa9Ky4QtIwa3VK1VCv6MxKTWoWYyiOY8kk8Y6J3VTmudyTR0BDDsZp5LEm16KC9U%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168583513872"
+  },
+  {
+   "title": "SEGA Game Gear Handheld System Black Backlit Screen w/ AC Adapter",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920081002648?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BQFR3B9G82HCFTDSTK&hash=itemd63919f098%3Ag%3A9TMAAeSwBVtq4Vju&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9nOInMA3ziq%2BS%2FlzAzJFs40N4Ou8Ua0UrmutuWmhVu%2BPRUImLJYJw2mlDWNWEQu6gRmkTJceyJpv5A34%2BZAjkH2tOVe2ZC5LeM%2BOWZpLa0hxbsIYBvLLCTmgZacqRdsKKkJ6VV9j2hphHNIhqHieuVGnlGyAWn3EnSV23NyK17o0nw7%2FnC7pHNivcb4A0rJAmsIHGyxxP5BvPdT2iuxqPmqcODkcl7WYYhSss7wzKk0u8PCjkJa4tPD5LC%2FGv1cznsufpBFeaXDah19ZaMraA%2FjNM8dh6JxLfrqkse1q2fsLR9%2Bvg4kknFG8noDzmgnhM%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920081002648"
+  },
+  {
+   "title": "SEGA Game Gear, FunnyPlaying IPS, USBc Rechargeable Battery, Dual Audio.",
+   "price": {
+    "raw": "$289.99",
+    "extracted": 289.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257798815105?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BQW4ZDBAT1KS3BYFA1&hash=item3c0601bd81%3Ag%3AG1sAAeSwBi9qz9ru&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FxMsUEZ2heqhHhPTPCwXG2mzylU3uxOmHioe1sP9LDtllhwrVevTpw%2BkgQBBNmys9o2IVbQ6zLDMpgseWkXsM8AprWkQUgs3xzjgwAbMYXccXlhYFDqxEcTd3JHR0VK5OpDGVOloVsp2qJ6BRIf35urLPSCOVBL1bowoYkEZ%2F1Flg0%2FkYkD4UlRVhl7ySPzdLZdv%2Fpftwn%2Bri3OWir4O2Mb1HZK%2Ftt74K7JDPMyqBE6YsxrgXqthqceoZcjuwrUEIyGN3y6XXy7NPXrG5F1P5xNMjn6xjK5An%2FtYPY1u%2FoPIiq0jXOcsg8INuW937pavA%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257798815105"
+  },
+  {
+   "title": "SEGA Game Gear Handheld System - Red",
+   "price": {
+    "raw": "$190.00",
+    "extracted": 190.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267814053111?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BQY8TBXME1M8828MSN&hash=item3e5af624f7%3Ag%3AOF8AAeSwZYRqGYN5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde81oVWUyXLgUgL7jHF%2ByglOB1v6CozEiuBL%2FU1vOvMg1o7yXTA2V55U6OyvA%2FdEZiHSM2WyfRJYI14JOtG3%2B4pwcXyeihkM0ZiQGp%2BDmXjhQctfoafPtC5s74MbGWnpWlqXRgEaophzKDH%2Bb%2BMSQjxBmhR%2B0oQO1KQzmhQEm0wjWqA1xSzVgwvWU3L%2BmGHf83Eddf4gL5pZ72y1JnfvR3w4Z0rJqommch%2B%2F4InDqXlAj%2FWKNMFdIc35UdghN2J%2FRkPA8IGG8eyL71bUYmx883nfNjvNwOdg5pueOVrPiotHGYwEeEUhPKNytnYHw%2Fv2lrY%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267814053111"
+  },
+  {
+   "title": "Sega Game Gear",
+   "price": {
+    "raw": "$220.00",
+    "extracted": 220.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336407695250?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BRT0VPSMZ9BS38GJXF&hash=item4e53760f92%3Ag%3AoycAAeSwjs1pd9cA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BmanHkJZS02zfqjlaibgze6QgL7E%2B5GHhVTEYu8a2axxGqudwmexf0sxuLMVHBOs5gTEIBLQszrLBYXwsENQj48R%2B2oS6kSHkP4Vu7GTdbT3O7b6XiXyVDDzDQlvVy1ELYYZCiO%2BwdBTUK506myWmHL37ojAXyvYNTL%2Bj2PMk5183Z4SO8jghp1UIAZOb2vQ0C0qz6JRWEadr%2FEdRA0zRHKjDmLdlC2%2FrROQWFMtdNeRXUnO33N1%2B9311V9EGc2lNiOpHqehFdfL%2FykeHXAgkE1RCqAr57SgKAb8ILYpGWd2T670r1t0jyELNnD%2F9xs4c%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336407695250"
+  },
+  {
+   "title": "🔥 SEGA Game Gear VA1⚡Crystal Clear Shell 💨 3.3” LCD 🔋 USB-C 6200mAh 🎧 Stereo",
+   "price": {
+    "raw": "$389.00",
+    "extracted": 389.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198426520284?_skw=SEGA+Game+Gear+portable+game+console&epid=109449838&itmmeta=01M6C228BRMKCXRPN1NXJRP3J6&hash=item2e33246adc%3Ag%3AYCIAAeSw0-1qLwsu&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FENMA7%2Fn32ylYitz0OhTroMVeBbNZDyA42CmawgEQVc%2FDcxRV6ifHkK5uGY8VuVhWknDff0LFHHDazTrX2cE5DIIlGo53KqBFJx9uQkzDU1RK%2BQwkFVl4%2Bo0imQvvgvIBXDmZDZM1hvGHAU0cGjwRdBOJWJn%2FHO%2BjbwWFsfWP81f4qTa7pgcRRJPd88Ouk6J2WzZhrw31wmeltaS5VaIqT%2FDKyfkOgji%2BfZIWhF0oJpp%2FCKIntvCjT2Q%2FncsoPKy1CPvi4HY%2BcPr1I0wJn7bC%2F%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198426520284"
+  },
+  {
+   "title": "SEGA Game Gear Handheld System - Black With Case And Power back 4 Games",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860042612435?_skw=SEGA+Game+Gear+portable+game+console&epid=109449838&itmmeta=01M6C228BRMBHCZ5EGVE6X18RC&hash=itemc83e88ced3%3Ag%3A10QAAeSw2epqzut%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde80gBlLEOUYXxhJhQ7MNGcRk6cesqz2MPwT0jN3gqpb2zw5itokffnANm7PGp0rb5XLiEYucUYaqVdMmpa1E0KmmtOAc0WYrO7MmOHi0PPtNANeLwNI7yxqxgvWEi9BYTXZo2Nbko15XVw%2FALPY6ORzVgxxciIRM5SOQOCS14zAtJLSm4umIriSljurPUZOjSyPRXB%2BNkwJ3ivKs0n%2By8JtYBwXbtLNejYp4dMrxTvaXNX%2FOVN3liqoeyJ8ch34GLW7CjOT5IAJgVPmiCVgiaxuARCeKMlCyDMyq9Itw30VoTIdC17IAzfutcbbtzBETPs%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860042612435"
+  },
+  {
+   "title": "Sega Game Gear System - Working - Please Read Description - Thanks!",
+   "price": {
+    "raw": "$133.33",
+    "extracted": 133.33
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900056835475?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BRKERKM9JKXE17NJNR&hash=itemd18f916593%3Ag%3AvVEAAeSwDHNq52sa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FWuITZfBXijdIIJbh6F7ToVrOiIZZtiZrAg%2BKC7itO4POUn61C3BaBN7z510kYpfUuCzcUElEaEe%2FKqSXrZc5WV4KwcKzxmWBdUdJm13GyF0ebE37zY8zANxC7HIkLLgi6bW6GaKzKAdvzCI7JhTPDbMzH8eYtfkM11e3HQbDoByPCCih5UYGnqqSiAHHdARfzxH9AjuHsNVNPLWK7rWL4zWq7Eplu8DKc185nIj0TuV7RT7eiHAezlLXIJAIlGhastsnU3vK3FM2AkoYVtz2x7NMD5iNaGb5g53py6Mm40eh0wGz1MWNdemn4dLQgWKc%3D%7Ctkp%3ABk9SR4SGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900056835475"
+  },
+  {
+   "title": "SEGA Game Gear Handheld System - Black",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178468728168?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BRJD9KRE3J4RDVQ24Z&hash=item298d90ad68%3Ag%3AKkwAAeSwzadqm2RO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9BcCRmAubBX9jLQh%2Bt2JK%2B3lMV0WOejXewH9rh1lpAbRLRod2nq%2B6CyssSvnW1D62Whn5FC5fh399HMtODvflxUCJJcNrlu8tLYSQSAJAuYhlTHVK28CFCZ4OCPm9Iewlq5dL0UC1mnwa4K9T0WhKfPgN%2FTPVTGzmgwphDCU6JlTxJe6UTpSGv%2BlN33a%2BrST9OF1n%2F3Rc5flIt7Sn0zJ7qNG7QlpEQ7v85KNeLMrf97jNSohU9lTVNiIPT8v4Ct86BDtu8ftkeFC0l2Qq5GVPwmxCHc24X%2B73bFy6iuOq3BAel9CaK79wo85XpqlAwobM%3D%7Ctkp%3ABk9SR4aGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178468728168"
+  },
+  {
+   "title": "SEGA Game Gear 2110G Handheld Console Black W Sonic Chaos Game All Original",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237072352026?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BRWK1TGM51KEXCENZN&hash=item37329d031a%3Ag%3Ali4AAeSwfEhqqyJb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FES%2FnrsHF0rmvF8%2BXGhlZx3v6KK%2BP%2BIVa5zfFRWo3v8WYEatOVYVAQr4T%2BnpeHLT5J%2FSZnlm9f9Imym1oTSX5q9B%2BZFhR0ORVAbQfngyObC2dUOTLsrCmPKtOwChxbkeLWFu6A65IJ%2BD65bcWjGQr%2BUOn8SiCZwpgd1%2BQp%2FPqW8h7khIZu8akmo7OFXU2ban2OAbabDO0m0rNwawPY%2FIcupSdlZW2%2FH2VIXeMpoSTeLbQfSJ4X9KP5sekGEz3Xo%2Fas5uCTPCKldIG%2BoveyOrdm%7Ctkp%3ABk9SR4aGiYKzaA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237072352026"
+  },
+  {
+   "title": "Sega Game Gear Console Recap",
+   "price": {
+    "raw": "$170.00",
+    "extracted": 170.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137773264200?_skw=SEGA+Game+Gear+portable+game+console&itmmeta=01M6C228BR0Q160R9NH0DE6RDM&hash=item2013ed2d48%3Ag%3AOuYAAeSwe-lqtMBr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FgxEpNJg0t1%2Bjl%2B7G7MmGDbpdnajJQtXxQdFHGo%2BPhxXaGaB1h7dKpKUijcSGehq20Ilmp0KWVxQjEkb2N47zxMA7%2FTgJMIqZnHcPcByv6qSPNu6dBzld%2Bl6NkTwGAP1rfJTVJY%2BcKTMZ0nDwAf8M3veapoDBpD%2FHvnT8AkuCfSD06MEUoWrMnN70fFc74KEMvA3xMFxJGDrdpdM13lYpjT8i8tWwRx5MpDyTfGV3yjfdZ84JBesmf5NK%2BvSmUHrIGShXD7HneKwfXgDErpkRJG2KgyhyKQcUSGElhPLj11vDZjyArjzbBFX0%2Fcl7vgCQ%3D%7Ctkp%3ABFBMhoaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137773264200"
+  },
+  {
+   "title": "SEGA Game Gear Coca-Cola Edition Console w/ Games: Sonic 2, Tarzan",
+   "price": {
+    "raw": "$800.00",
+    "extracted": 800.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920021886919?_skw=SEGA+Game+Gear+portable+game+console&epid=23036923214&itmmeta=01M6C228BRJNTH58QDQ22Z8MC3&hash=itemd63593e7c7%3Ag%3AeRkAAeSw0IxqyCKT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bk9hTb5rIPoBz%2BbCOC2jl1dhXrIQ%2BqcfauUg4A%2FtaMFmrhUiiXzdiaDrR2liGJaTwPipWc%2Fvfw2yrBd2SjAoomA5WjMCmKOrqQxFb4S0uxs6Dh9x2YCC6X5r5kU1OpqnZXq4Ov%2BzTAOFya1kB2tpSzsBafzcU7QUp9RzpRGkMwO1%2F7ZVHRtsgDHLDHo1DMpYma6ltI1c%2BzKe5Sn%2BOxWGbO8k2cnIu8EX1QTNSSCeFP9stMW9MF2SZdqqOxh0sAP5XjD9EIg4DJx%2FsAHQGOq%2FHJao%2BJ%2BBTJq1Cs782KhVPT0bURj0ydsSt3UiFDu2%2Bq0rY%3D%7Ctkp%3ABFBMhoaJgrNo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920021886919"
+  }
+ ]
+}

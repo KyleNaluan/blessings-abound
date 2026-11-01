@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "electronics_games",
+    "brand": "Nintendo",
+    "product": "game console",
+    "visible_text": "Nintendo Entertainment System",
+    "search_query": "Nintendo Entertainment System console",
+    "model_confidence": "high",
+    "color": "gray",
+    "material": null,
+    "exact_model": "NES",
+    "platform": "NES"
+  }
+}
