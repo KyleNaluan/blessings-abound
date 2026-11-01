@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-01, [#12](https://github.com/KyleNaluan/blessings-abound/issues/12), Filter comps to the same kind of item, turn them into a price range and confidence, and add the worth-listing rule (also #15 and #16)
 - 2026-11-01, [#7](https://github.com/KyleNaluan/blessings-abound/issues/7), Check Groq and Gemini on sample photos and add the item card JSON check with retry and fallback
 - 2026-11-01, [#30](https://github.com/KyleNaluan/blessings-abound/issues/30), Add the walking skeleton from photo to saved decision, with a placeholder item card and price
 - 2026-11-01, [#14](https://github.com/KyleNaluan/blessings-abound/issues/14), Add the SerpApi eBay comps lookup with a 7 day comp_searches cache, a monthly search budget and the drop-a-word fallback

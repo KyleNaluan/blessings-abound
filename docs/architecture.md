@@ -56,7 +56,10 @@ The hosted demo follows these steps:
 
 ## Pricing pipeline
 
-Each step is a board issue, and so far only the SerpApi lookup in step 4 is built - the active Buy It Now search, its 7 day cache and the drop-a-word fallback.
+Each step is a board issue.
+The SerpApi lookup in step 4 is built - the active Buy It Now search, its 7 day cache and the drop-a-word fallback.
+Steps 5 to 9 are built as pure functions in `api/app/comp_filter.py` and `api/app/pricing.py`, with their numbers in `PricingRules` in `api/app/settings.py`, and the app does not call them yet.
+The other steps are not built yet.
 The language model never produces a price, and every number comes from code over comps, which are similar items for sale on eBay.
 
 1. Staff upload 1 required photo and up to 4, and a code-only blur and brightness check prompts a retake.
@@ -67,10 +70,11 @@ The language model never produces a price, and every number comes from code over
 3. Code builds the eBay search from the card and the staff notes.
 4. SerpApi's eBay engine returns active Buy It Now listings filtered by condition, and if fewer than 8 survive the filters, code drops the last query word and searches again, at most twice.
 5. Code filters the listings by title, dropping accessories, lots, parts and similar matches unless the item itself is one of those.
+   Department, tall, plus and petite sizes, and complete in box are judged against the staff entries, a plain size never drops a listing, and each dropped listing keeps its reason.
 6. Code trims outliers with Tukey fences on log price, skipped when fewer than 4 listings remain, and takes the 25th, 50th and 75th percentiles as the low, typical and high price.
 7. Asking prices run higher than sale prices, so code multiplies the range by an ask-to-sale factor of 0.645, which is one value in config rather than one per channel, because comps always come from eBay.
    It is labeled an assumption, because it comes from Poshmark data with ratios from 1.21 to 2.93, and a re-measure on eBay is a stretch item done by hand.
-8. Confidence is high with at least 10 listings and a high-to-low ratio of at most 2, medium with at least 5 and a ratio of at most 3, and low otherwise.
+8. Confidence is high with at least 10 listings left after the trim and a high-to-low ratio of at most 2, medium with at least 5 and a ratio of at most 3, and low otherwise.
 9. The worth-listing rule says "yes" when the typical sale price is at least $30, "no" below it, and "check" when confidence is low or there are no comps, and the threshold, fees and supplies live in config.
    The net after eBay's fees, which are 13.6% for most categories plus $0.40 per order, and $1.50 for supplies is shown beside it.
 10. The language model writes a 2 to 3 sentence explanation from the computed numbers only, and code rejects the text if it contains any number that is not in those facts and falls back to a template.
@@ -149,3 +153,7 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Show staff their own decisions and managers everyone's in the recent decisions list, because `requirements.md` keeps every decision to managers.
 - 2026-11-01: Keep an item `appraised` after a yes and set it to `declined` after a no, because no status means "staff said yes" and `approved` belongs to the manager step.
 - 2026-11-01: Add a new `comp_searches` row on every refresh instead of overwriting the cached one, so the rows of the current month are the count of searches spent against `SERPAPI_MONTHLY_BUDGET` (default 240 of the free plan's 250), and the lookup refuses cleanly once that is spent.
+- 2026-11-01: Drop a listing that shows a from-to price instead of averaging the two ends, because that range spans different variants and no one is asking the midpoint.
+- 2026-11-01: Let plain sizes such as 34x32 or Large keep their comps and drop only tall, plus and petite cuts that staff did not enter, because a page of 60 listings spreads across many sizes and matching one exactly would leave too few comps to price.
+- 2026-11-01: Tell a game from a console by the card's product and platform, because both share the `electronics_games` category and a console's comps must drop games while a game's comps must drop consoles.
+- 2026-11-01: Show the net beside a "check" whenever comps gave a typical price, and leave it empty only with no comps, so staff can still see what a low-confidence item might clear.
