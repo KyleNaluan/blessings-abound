@@ -8,7 +8,7 @@ import math
 from pydantic import BaseModel
 
 from app.comps import Comp
-from app.models import Confidence, Recommendation
+from app.models import Category, Confidence, Recommendation
 from app.settings import PricingRules
 
 LOW_PERCENTILE = 0.25
@@ -32,7 +32,20 @@ class WorthListing(BaseModel):
     net_after_fees_cents: int | None
 
 
-def price_range(comps: list[Comp], rules: PricingRules) -> PriceRange:
+def ask_to_sale_factor(rules: PricingRules, category: Category) -> float:
+    """The share of an asking price expected at sale, which differs by category."""
+    if category is Category.ELECTRONICS_GAMES:
+        return rules.games_ask_to_sale_factor
+    return rules.ask_to_sale_factor
+
+
+def _range_percentiles(rules: PricingRules, category: Category) -> tuple[float, float]:
+    if category is Category.ELECTRONICS_GAMES:
+        return rules.games_low_percentile, rules.games_high_percentile
+    return LOW_PERCENTILE, HIGH_PERCENTILE
+
+
+def price_range(comps: list[Comp], rules: PricingRules, category: Category) -> PriceRange:
     """Trim outliers, take the percentiles and scale asking prices to expected sale prices."""
     # A free listing says nothing about a sale price, and the trim takes the log of every price.
     priced = [comp for comp in comps if comp.price_cents > 0]
@@ -48,17 +61,20 @@ def price_range(comps: list[Comp], rules: PricingRules) -> PriceRange:
         )
 
     prices = sorted(comp.price_cents for comp in kept)
-    low = percentile(prices, LOW_PERCENTILE)
+    low_fraction, high_fraction = _range_percentiles(rules, category)
+    low = percentile(prices, low_fraction)
     typical = percentile(prices, TYPICAL_PERCENTILE)
-    high = percentile(prices, HIGH_PERCENTILE)
-    factor = rules.ask_to_sale_factor
+    high = percentile(prices, high_fraction)
+    factor = ask_to_sale_factor(rules, category)
+    # Confidence reads the middle half in every category, so a wider range doesn't lower it.
+    spread = percentile(prices, HIGH_PERCENTILE) / percentile(prices, LOW_PERCENTILE)
     return PriceRange(
         low_cents=round(low * factor),
         typical_cents=round(typical * factor),
         high_cents=round(high * factor),
         comps_count=len(kept),
         trimmed=trimmed,
-        confidence=_confidence(len(kept), high / low, rules),
+        confidence=_confidence(len(kept), spread, rules),
     )
 
 

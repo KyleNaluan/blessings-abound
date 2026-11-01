@@ -13,9 +13,12 @@ from app.evaluate import (
     EvalItem,
     EvaluationStopped,
     HandRecordedReference,
+    Results,
     SavedSearches,
     baseline_prices,
     evaluate,
+    fresh_is_ready,
+    load_fresh_items,
     load_items,
     render_report,
     results_json,
@@ -165,17 +168,68 @@ def test_the_saved_results_match_what_the_code_produces(
     # A PRICING override in a developer's .env must not fail this, so it uses the default rules.
     monkeypatch.setattr(get_settings(), "pricing", PricingRules())
     items = load_items()
-    results = evaluate(items, session, SavedSearches())
+    fresh = load_fresh_items()
+    results = evaluate(items, fresh, session, SavedSearches())
     hint = "run `uv run python -m app.evaluate` in api/ and commit what changes"
     assert results_json(results) == RESULTS_FILE.read_text(), hint
-    assert render_report(items, results) == REPORT_FILE.read_text(), hint
+    assert render_report(items, fresh, results) == REPORT_FILE.read_text(), hint
+
+
+def _report_and_results(session: Session, monkeypatch: pytest.MonkeyPatch) -> tuple[str, Results]:
+    monkeypatch.setattr(get_settings(), "pricing", PricingRules())
+    items = load_items()
+    fresh = load_fresh_items()
+    results = evaluate(items, fresh, session, SavedSearches())
+    return render_report(items, fresh, results), results
 
 
 def test_the_report_says_when_a_category_is_not_scored(
     session: Session, monkeypatch: pytest.MonkeyPatch
 ) -> None:
-    monkeypatch.setattr(get_settings(), "pricing", PricingRules())
-    items = load_items()
-    report = render_report(items, evaluate(items, session, SavedSearches()))
+    report, _ = _report_and_results(session, monkeypatch)
     assert "**Not scored yet: apparel.**" in report
     assert "[PriceCharting](https://www.pricecharting.com/" in report
+
+
+def test_the_first_eighteen_are_labeled_tuning_data_and_keep_their_baseline(
+    session: Session, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    report, results = _report_and_results(session, monkeypatch)
+    tuning = results.groups["tuning"]
+    assert tuning.pipeline.items == 18
+    assert (tuning.baseline.in_range, tuning.baseline.median_error_percent) == (13, 15.1)
+    assert "## Tuning data: the first 18 games and hardware items" in report
+    assert "it isn't the result" in report
+
+
+def test_the_like_for_like_row_is_the_same_comps_at_the_baselines_percentiles(
+    session: Session, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    _, results = _report_and_results(session, monkeypatch)
+    for row in results.items:
+        assert row.pipeline_middle_half.typical_cents == row.pipeline.typical_cents
+        assert row.pipeline_middle_half.comps_count == row.pipeline.comps_count
+
+
+def test_fresh_items_stay_unscored_until_every_card_is_read(tmp_path: Path) -> None:
+    assert not fresh_is_ready([])
+    assert load_fresh_items(tmp_path / "missing.json") == []
+    item = EvalItem.model_validate(
+        {
+            "id": "not-a-saved-card",
+            "name": "An item",
+            "category": "electronics_games",
+            "staff": {},
+            "photo": PHOTO,
+            "reference": {
+                "kind": "price_guide",
+                "source": "PriceCharting",
+                "tier": "loose",
+                "price_cents": 1000,
+                "url": "https://example.com",
+                "recorded_on": "2026-11-01",
+                "sales_volume": "1 sale per day",
+            },
+        }
+    )
+    assert not fresh_is_ready([item])

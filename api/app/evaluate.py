@@ -6,6 +6,10 @@ and rewrite the results, which spends no searches and needs no keys. See docs/ev
 `--read-cards` asks the vision model for any card that is missing, and `--live-searches N` allows
 up to N new SerpApi searches. A search that is already saved is never repeated, so deleting a card
 or a response file is how to redo one.
+
+The games and hardware in items.json tuned the rules, so they are never the result. The result is
+fresh_items.json, which was committed before its first score and is only scored once all of its
+cards are read.
 """
 
 import argparse
@@ -25,16 +29,25 @@ from pydantic import BaseModel, ConfigDict, Field, TypeAdapter
 from sqlmodel import Session
 
 from app.ai import ChatModel, get_chat_model, get_fallback_chat_model
+from app.comp_filter import filter_comps
 from app.comps import Comp, EbaySearch, parse_comps, serpapi_ebay_search, strip_private_fields
 from app.db import get_engine
 from app.models import Category, CompSearch, Condition, Department, ItemCard
-from app.pipeline import needs_confirmation, price_item, staff_notes
-from app.pricing import HIGH_PERCENTILE, LOW_PERCENTILE, TYPICAL_PERCENTILE, percentile
-from app.settings import get_settings
+from app.pipeline import item_facts, needs_confirmation, price_item, staff_notes
+from app.pricing import (
+    HIGH_PERCENTILE,
+    LOW_PERCENTILE,
+    TYPICAL_PERCENTILE,
+    ask_to_sale_factor,
+    percentile,
+    price_range,
+)
+from app.settings import PricingRules, get_settings
 from app.vision import ItemCardDraft, prepare_photo, read_item_card
 
 EVAL_DIR = Path(__file__).resolve().parents[1] / "eval"
 ITEMS_FILE = EVAL_DIR / "items.json"
+FRESH_ITEMS_FILE = EVAL_DIR / "fresh_items.json"
 CARDS_DIR = EVAL_DIR / "cards"
 SEARCHES_DIR = EVAL_DIR / "serpapi"
 PHOTOS_DIR = EVAL_DIR / "photos"
@@ -43,11 +56,15 @@ REPORT_FILE = Path(__file__).resolve().parents[2] / "docs" / "evaluation.md"
 
 # The share of the free plan set aside for this set, counted by the saved responses.
 SEARCH_BUDGET = 80
+# The part of that share the fresh items may spend.
+FRESH_SEARCH_BUDGET = 42
 # Groq's free tokens per minute cover about 3 photos a minute, see docs/architecture.md.
 SECONDS_BETWEEN_CARDS = 22
 COMMONS_USER_AGENT = "TurnstoneEval/0.1 (https://github.com/KyleNaluan/blessings-abound)"
 # Outcomes that say the run itself went wrong, rather than that the item has no price.
 FAILED_SEARCH_OUTCOMES = {"budget_spent", "not_configured", "search_failed"}
+
+EvalSet = Literal["fresh", "tuning", "apparel"]
 
 
 class _Strict(BaseModel):
@@ -127,6 +144,7 @@ class Prices(_Strict):
 
 class ItemScore(_Strict):
     id: str
+    evaluation_set: EvalSet
     category: Category
     reference_cents: int
     search_query: str
@@ -136,6 +154,8 @@ class ItemScore(_Strict):
     pipeline_confidence: str
     pipeline_recommendation: str
     pipeline: Prices
+    # The same comps at the percentiles the baseline uses, for a like-for-like range. Not a rule.
+    pipeline_middle_half: Prices
     baseline: Prices
 
 
@@ -145,21 +165,26 @@ class Summary(_Strict):
     in_range: int
     in_range_rate: float | None
     median_error_percent: float | None
+    # The high price over the low one, because a wide enough range can hold any reference.
+    median_range_width: float | None
 
 
 class Group(_Strict):
     pipeline: Summary
     baseline: Summary
+    pipeline_middle_half: Summary
+    # The same comps with the ask-to-sale factor undone, to show what the factor does. Not a rule.
+    pipeline_before_factor: Summary
+    median_ask_over_reference: float | None
     pipeline_beats_baseline_on_in_range: bool | None
+    pipeline_middle_half_beats_baseline_on_in_range: bool | None
     pipeline_beats_baseline_on_median_error: bool | None
 
 
 class Results(_Strict):
-    groups: dict[str, Group]
-    # The same comps with the ask-to-sale factor undone, to show what the factor does. Not a rule.
-    pipeline_before_factor: Summary
-    median_ask_over_reference: float | None
+    groups: dict[EvalSet, Group]
     searches_saved: int
+    fresh_searches: int
     rules: dict[str, Any]
     items: list[ItemScore]
 
@@ -170,6 +195,10 @@ class EvaluationStopped(RuntimeError):
 
 def load_items(path: Path = ITEMS_FILE) -> list[EvalItem]:
     return TypeAdapter(list[EvalItem]).validate_json(path.read_bytes())
+
+
+def load_fresh_items(path: Path = FRESH_ITEMS_FILE) -> list[EvalItem]:
+    return load_items(path) if path.exists() else []
 
 
 def score(reference_cents: int, low: int | None, typical: int | None, high: int | None) -> Prices:
@@ -210,23 +239,42 @@ def summarize(rows: list[Prices]) -> Summary:
     """In range counts every item, and median error can only count the items that got a price."""
     errors = [row.error_percent for row in rows if row.error_percent is not None]
     in_range = sum(row.in_range for row in rows)
+    widths = [
+        row.high_cents / row.low_cents
+        for row in rows
+        if row.low_cents is not None and row.high_cents is not None and row.low_cents > 0
+    ]
     return Summary(
         items=len(rows),
         priced=len(errors),
         in_range=in_range,
         in_range_rate=round(in_range / len(rows), 3) if rows else None,
         median_error_percent=round(statistics.median(errors), 1) if errors else None,
+        median_range_width=round(statistics.median(widths), 2) if widths else None,
     )
 
 
-def compare(scores: list[ItemScore]) -> Group:
+def compare(scores: list[ItemScore], rules: PricingRules) -> Group:
     pipeline = summarize([item.pipeline for item in scores])
     baseline = summarize([item.baseline for item in scores])
+    middle_half = summarize([item.pipeline_middle_half for item in scores])
     errors = (pipeline.median_error_percent, baseline.median_error_percent)
+    undone = [before_factor(row, ask_to_sale_factor(rules, row.category)) for row in scores]
+    ratios = [
+        prices.typical_cents / row.reference_cents
+        for prices, row in zip(undone, scores, strict=True)
+        if prices.typical_cents is not None
+    ]
     return Group(
         pipeline=pipeline,
         baseline=baseline,
+        pipeline_middle_half=middle_half,
+        pipeline_before_factor=summarize(undone),
+        median_ask_over_reference=round(statistics.median(ratios), 2) if ratios else None,
         pipeline_beats_baseline_on_in_range=pipeline.in_range > baseline.in_range
+        if scores
+        else None,
+        pipeline_middle_half_beats_baseline_on_in_range=middle_half.in_range > baseline.in_range
         if scores
         else None,
         pipeline_beats_baseline_on_median_error=errors[0] < errors[1]
@@ -365,10 +413,28 @@ def _item_card(item: EvalItem, draft: ItemCardDraft) -> ItemCard:
     )
 
 
-def score_item(item: EvalItem, session: Session, searches: SavedSearches) -> ItemScore:
+def _middle_half(
+    item: EvalItem, card: ItemCard, search: dict[str, Any], searches: SavedSearches
+) -> Prices:
+    """The pipeline's comps, from the last search it read, at the baseline's percentiles."""
+    rules = get_settings().pricing.model_copy(
+        update={"games_low_percentile": LOW_PERCENTILE, "games_high_percentile": HIGH_PERCENTILE}
+    )
+    response = searches(search["queries"][-1], search["condition"])
+    kept = filter_comps(parse_comps(response), item_facts(card)).kept
+    price = price_range(kept, rules, item.category)
+    reference = item.reference.price_cents
+    prices = score(reference, price.low_cents, price.typical_cents, price.high_cents)
+    return prices.model_copy(update={"comps_count": price.comps_count})
+
+
+def score_item(
+    item: EvalItem, evaluation_set: EvalSet, session: Session, searches: SavedSearches
+) -> ItemScore:
     """The model's card goes straight to pricing, with no staff correction of its search."""
     draft = load_card(item).card
-    result = price_item(_item_card(item, draft), session, searches)
+    card = _item_card(item, draft)
+    result = price_item(card, session, searches)
     search = result.rules_config["search"]
     if search["outcome"] in FAILED_SEARCH_OUTCOMES:
         raise EvaluationStopped(f"The search for {item.id} ended with {search['outcome']}.")
@@ -381,6 +447,7 @@ def score_item(item: EvalItem, session: Session, searches: SavedSearches) -> Ite
     raw = parse_comps(searches(search["queries"][0], search["condition"]))
     return ItemScore(
         id=item.id,
+        evaluation_set=evaluation_set,
         category=item.category,
         reference_cents=reference,
         search_query=draft.search_query,
@@ -390,27 +457,41 @@ def score_item(item: EvalItem, session: Session, searches: SavedSearches) -> Ite
         pipeline_confidence=result.confidence.value,
         pipeline_recommendation=result.recommendation.value,
         pipeline=pipeline,
+        pipeline_middle_half=_middle_half(item, card, search, searches),
         baseline=baseline_prices(raw, reference),
     )
 
 
-def evaluate(items: list[EvalItem], session: Session, searches: SavedSearches) -> Results:
-    scores = [score_item(item, session, searches) for item in items]
-    groups = {"all": compare(scores)}
-    for category in Category:
-        groups[category.value] = compare([row for row in scores if row.category is category])
+def fresh_is_ready(fresh: list[EvalItem]) -> bool:
+    """Whether every fresh card is read, so a set that was never run can't show a partial score."""
+    return bool(fresh) and all(card_path(item).exists() for item in fresh)
+
+
+def _set_of(item: EvalItem) -> EvalSet:
+    return "apparel" if item.category is Category.APPAREL else "tuning"
+
+
+def evaluate(
+    items: list[EvalItem], fresh: list[EvalItem], session: Session, searches: SavedSearches
+) -> Results:
+    scored_fresh = fresh if fresh_is_ready(fresh) else []
+    scores = [score_item(item, "fresh", session, searches) for item in scored_fresh]
+    scores += [score_item(item, _set_of(item), session, searches) for item in items]
     rules = get_settings().pricing
-    undone = [before_factor(row, rules.ask_to_sale_factor) for row in scores]
-    ratios = [
-        prices.typical_cents / row.reference_cents
-        for prices, row in zip(undone, scores, strict=True)
-        if prices.typical_cents is not None
-    ]
+    sets: tuple[EvalSet, ...] = ("fresh", "tuning", "apparel")
+    groups: dict[EvalSet, Group] = {
+        name: compare([row for row in scores if row.evaluation_set == name], rules) for name in sets
+    }
+    earlier = {
+        query for row in scores if row.evaluation_set != "fresh" for query in row.queries_searched
+    }
+    spent = {
+        query for row in scores if row.evaluation_set == "fresh" for query in row.queries_searched
+    }
     return Results(
         groups=groups,
-        pipeline_before_factor=summarize(undone),
-        median_ask_over_reference=round(statistics.median(ratios), 2) if ratios else None,
         searches_saved=searches.saved_count(),
+        fresh_searches=len(spent - earlier),
         rules=rules.model_dump(),
         items=scores,
     )
@@ -428,6 +509,10 @@ def _range(prices: Prices) -> str:
 
 def _percent(value: float | None) -> str:
     return "n/a" if value is None else f"{value:.1f}%"
+
+
+def _times(value: float | None) -> str:
+    return "n/a" if value is None else f"{value:.2f} times"
 
 
 def _yes_no(value: bool | None) -> str:
@@ -449,54 +534,132 @@ def _summary_row(label: str, summary: Summary) -> str:
     rate = "n/a" if summary.in_range_rate is None else f"{summary.in_range_rate * 100:.1f}%"
     return (
         f"| {label} | {summary.items} | {summary.priced} | {summary.in_range} | {rate} "
-        f"| {_percent(summary.median_error_percent)} |"
+        f"| {_percent(summary.median_error_percent)} | {_times(summary.median_range_width)} |"
     )
 
 
-def _scored_category_names(results: Results) -> tuple[list[str], list[str]]:
-    scored = [c.value for c in Category if results.groups[c.value].pipeline.items]
-    unscored = [c.value for c in Category if not results.groups[c.value].pipeline.items]
-    return scored, unscored
+def _summary_lines(group: Group) -> list[str]:
+    return [
+        "| Method | Items | Priced | In range | In-range rate | Median error "
+        "| Median high over low |",
+        "| --- | --- | --- | --- | --- | --- | --- |",
+        _summary_row("Pipeline", group.pipeline),
+        _summary_row("Baseline, raw asking prices", group.baseline),
+        _summary_row(
+            "Pipeline at the baseline's 25th to 75th percentiles, not a rule",
+            group.pipeline_middle_half,
+        ),
+        _summary_row("Pipeline with the factor undone, not a rule", group.pipeline_before_factor),
+        "",
+        f"The pipeline beats the baseline on in-range rate: "
+        f"{_yes_no(group.pipeline_beats_baseline_on_in_range)}.",
+        f"At the baseline's percentiles, so with a range as narrow as the baseline's, it beats the "
+        f"baseline on in-range rate: "
+        f"{_yes_no(group.pipeline_middle_half_beats_baseline_on_in_range)}.",
+        f"The pipeline beats the baseline on median error: "
+        f"{_yes_no(group.pipeline_beats_baseline_on_median_error)}.",
+        f"Before the ask-to-sale factor, the pipeline's typical asking price is a median "
+        f"{group.median_ask_over_reference} times the reference.",
+    ]
 
 
-def render_report(items: list[EvalItem], results: Results) -> str:
+def _items_table(rows: list[ItemScore], by_id: dict[str, EvalItem]) -> list[str]:
+    lines = [
+        "| Item | Reference | Source | Recorded | Pipeline range | Typical | In range | Error "
+        "| Baseline range | Typical | In range | Error |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+    ]
+    for row in rows:
+        item = by_id[row.id]
+        lines.append(
+            f"| {item.name} | {_money(row.reference_cents)} | {_source_link(item)} "
+            f"| {item.reference.recorded_on} | {_range(row.pipeline)} "
+            f"| {_money(row.pipeline.typical_cents)} | {_in_range(row.pipeline)} "
+            f"| {_percent(row.pipeline.error_percent)} | {_range(row.baseline)} "
+            f"| {_money(row.baseline.typical_cents)} | {_in_range(row.baseline)} "
+            f"| {_percent(row.baseline.error_percent)} |"
+        )
+    return lines
+
+
+def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results) -> str:
     """The results as Markdown, generated so that a change shows up in review."""
-    by_id = {item.id: item for item in items}
-    overall = results.groups["all"]
-    scored, unscored = _scored_category_names(results)
+    by_id = {item.id: item for item in [*items, *fresh]}
+    rows = {
+        name: [row for row in results.items if row.evaluation_set == name]
+        for name in results.groups
+    }
+    rules = PricingRules.model_validate(results.rules)
     lines = [
         "# Pricing evaluation",
         "",
-        "This page is generated by `uv run python -m app.evaluate` in `api/`, so edit the script "
-        "or `api/eval/items.json` instead of this page.",
+        "This page is generated by `uv run python -m app.evaluate` in `api/`, so edit the script, "
+        "`api/eval/items.json` or `api/eval/fresh_items.json` instead of this page.",
         "",
     ]
-    if unscored:
-        names = ", ".join(unscored)
+    if not rows["apparel"]:
         lines += [
-            f"**Not scored yet: {names}.** These results say nothing about pricing in that "
+            "**Not scored yet: apparel.** These results say nothing about pricing in that "
             "category, so they can't stand for the whole pipeline.",
             "",
         ]
+    lines += ["## Result: fresh games and hardware", ""]
+    if rows["fresh"]:
+        lines += [
+            "These items had no part in tuning the rules, so this table is the result.",
+            "",
+            *_summary_lines(results.groups["fresh"]),
+            f"Item cards that would have stopped for staff confirmation: "
+            f"{sum(row.needed_confirmation for row in rows['fresh'])} of {len(rows['fresh'])}.",
+            f"Searches spent on these items: {results.fresh_searches} of {FRESH_SEARCH_BUDGET}.",
+        ]
+    else:
+        lines.append("**Not scored yet: the fresh items.** There is no result until they run.")
     lines += [
-        "## Results",
         "",
-        "| Method | Items | Priced | In range | In-range rate | Median error |",
-        "| --- | --- | --- | --- | --- | --- |",
-        _summary_row("Pipeline", overall.pipeline),
-        _summary_row("Baseline, raw asking prices", overall.baseline),
-        _summary_row("Pipeline with the factor undone, not a rule", results.pipeline_before_factor),
+        "## Tuning data: the first 18 games and hardware items",
         "",
-        f"The pipeline beats the baseline on in-range rate: "
-        f"{_yes_no(overall.pipeline_beats_baseline_on_in_range)}.",
-        f"The pipeline beats the baseline on median error: "
-        f"{_yes_no(overall.pipeline_beats_baseline_on_median_error)}.",
-        f"Before the ask-to-sale factor, the pipeline's typical asking price is a median "
-        f"{results.median_ask_over_reference} times the reference.",
-        f"Scored categories: {', '.join(scored) or 'none'}.",
+        "These items set the rules below, so their score is inflated and it isn't the result.",
+        "The first run of these items, before tuning, scored 5 of 18 in range with a 40.5% median "
+        "error against the baseline's 13 of 18 and 15.1%.",
+        "",
+        *_summary_lines(results.groups["tuning"]),
         f"Item cards that would have stopped for staff confirmation: "
-        f"{sum(row.needed_confirmation for row in results.items)} of {len(results.items)}.",
-        f"Searches saved for this set: {results.searches_saved} of {SEARCH_BUDGET}.",
+        f"{sum(row.needed_confirmation for row in rows['tuning'])} of {len(rows['tuning'])}.",
+        "",
+    ]
+    if rows["apparel"]:
+        lines += [
+            "## Apparel",
+            "",
+            "Apparel keeps its first rules, and no rule was fit to these items.",
+            "",
+            *_summary_lines(results.groups["apparel"]),
+            "",
+        ]
+    lines += [
+        f"Searches saved for this evaluation: {results.searches_saved} of {SEARCH_BUDGET}.",
+        "",
+        "## How the rules were tuned",
+        "",
+        f"- Games and hardware use an ask-to-sale factor of {rules.games_ask_to_sale_factor}, "
+        "which is one over the 1.06 median asking price per reference on the tuning items.",
+        "- A 95% range on that median runs from 0.84 to 1.87, so 18 items can't pin the factor "
+        "down and it stays an assumption.",
+        f"- Games and hardware use a range from the {rules.games_low_percentile * 100:.0f}th to "
+        f"the {rules.games_high_percentile * 100:.0f}th percentile, in place of the 25th to 75th.",
+        "- With the tuned factor, the 25th to 75th percentiles held 10 of the 18 references, about "
+        "what a band holding half the asking prices would hold.",
+        "- The 20th to 80th held 11, the 15th to 85th held 15, and the 10th to 90th held 16 at "
+        "about 1.4 times the width, so the 15th to 85th was the choice.",
+        "- A wider range holds more references by being less precise, which is why each table "
+        "shows the width and the pipeline at the baseline's percentiles.",
+        "- Confidence still reads the 25th to 75th percentiles, and the comp filter and searches "
+        "were not changed.",
+        f"- Apparel keeps the factor of {rules.ask_to_sale_factor} and the 25th to 75th "
+        "percentiles, and no apparel result was looked at or used.",
+        "- The fresh list was committed before its first score, which "
+        "`git log -- api/eval/fresh_items.json` shows, and the rules were not changed after it.",
         "",
         "## How it is scored",
         "",
@@ -507,11 +670,11 @@ def render_report(items: list[EvalItem], results: Results) -> str:
         "- An item with no price counts as out of range, and median error covers priced items.",
         "- Error is the distance from the typical price to the reference, as a percent of the "
         "reference.",
-        "- The rules were not changed for this set, and items were fixed before the first run.",
+        "- Both sets of games and hardware were fixed before their first run.",
         "",
         "## Limits",
         "",
-        "- This is a small set, so one or two items can move each number.",
+        "- These are small sets, so one or two items can move each number.",
         "- PriceCharting's prices come from completed eBay sales through its own calculation, so "
         "they are sold prices from the same marketplace as the comps, not from another market.",
         "- Whether PriceCharting's prices include shipping was not checked, and comps omit it.",
@@ -526,41 +689,37 @@ def render_report(items: list[EvalItem], results: Results) -> str:
         "Prices were recorded by hand from each linked page, on the date shown, and the script "
         "never fetches them.",
         "",
-        "| Item | Reference | Source | Recorded | Pipeline range | Typical | In range | Error "
-        "| Baseline range | Typical | In range | Error |",
-        "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+    ]
+    if rows["fresh"]:
+        lines += ["### Fresh items, the result", "", *_items_table(rows["fresh"], by_id), ""]
+    lines += ["### Tuning items", "", *_items_table(rows["tuning"], by_id), ""]
+    if rows["apparel"]:
+        lines += ["### Apparel items", "", *_items_table(rows["apparel"], by_id), ""]
+    lines += [
+        "## Searches",
+        "",
+        "| Item | Set | Search from the card | Model confidence | Searches | Comps kept | Pipeline "
+        "confidence | Recommendation |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- |",
     ]
     for row in results.items:
-        item = by_id[row.id]
         lines.append(
-            f"| {item.name} | {_money(row.reference_cents)} | {_source_link(item)} "
-            f"| {item.reference.recorded_on} | {_range(row.pipeline)} "
-            f"| {_money(row.pipeline.typical_cents)} | {_in_range(row.pipeline)} "
-            f"| {_percent(row.pipeline.error_percent)} | {_range(row.baseline)} "
-            f"| {_money(row.baseline.typical_cents)} | {_in_range(row.baseline)} "
-            f"| {_percent(row.baseline.error_percent)} |"
+            f"| {by_id[row.id].name} | {row.evaluation_set} | {row.search_query} "
+            f"| {row.model_confidence} | {len(row.queries_searched)} | {row.pipeline.comps_count} "
+            f"| {row.pipeline_confidence} | {row.pipeline_recommendation} |"
         )
     lines += [
         "",
-        "## Searches",
+        "## Photos and item notes",
         "",
-        "| Item | Search from the card | Model confidence | Searches | Comps kept | Pipeline "
-        "confidence | Recommendation |",
-        "| --- | --- | --- | --- | --- | --- | --- |",
+        "| Item | Set | Photo | Author | License | Note |",
+        "| --- | --- | --- | --- | --- | --- |",
     ]
-    for row in results.items:
-        lines.append(
-            f"| {by_id[row.id].name} | {row.search_query} | {row.model_confidence} "
-            f"| {len(row.queries_searched)} | {row.pipeline.comps_count} "
-            f"| {row.pipeline_confidence} | {row.pipeline_recommendation} |"
-        )
-    lines += ["", "## Photos and item notes", "", "| Item | Photo | Author | License | Note |"]
-    lines.append("| --- | --- | --- | --- | --- |")
-    for item in items:
+    for item, name in [*((item, "fresh") for item in fresh), *((i, _set_of(i)) for i in items)]:
         photo = item.photo
         lines.append(
-            f"| {item.name} | [{photo.file}]({photo.page.replace(' ', '%20')}) | {photo.author} "
-            f"| {photo.license} | {item.note or ''} |"
+            f"| {item.name} | {name} | [{photo.file}]({photo.page.replace(' ', '%20')}) "
+            f"| {photo.author} | {photo.license} | {item.note or ''} |"
         )
     return "\n".join(lines) + "\n"
 
@@ -571,9 +730,10 @@ def results_json(results: Results) -> str:
 
 def run(session: Session, searches: SavedSearches) -> Results:
     items = load_items()
-    results = evaluate(items, session, searches)
+    fresh = load_fresh_items()
+    results = evaluate(items, fresh, session, searches)
     RESULTS_FILE.write_text(results_json(results))
-    REPORT_FILE.write_text(render_report(items, results))
+    REPORT_FILE.write_text(render_report(items, fresh, results))
     return results
 
 
@@ -589,7 +749,8 @@ def main() -> None:
     if args.read_cards:
         fallback = get_fallback_chat_model()
         providers = [get_chat_model(), *([fallback] if fallback else [])]
-        print(f"Read {read_missing_cards(load_items(), providers)} cards.")
+        items = [*load_items(), *load_fresh_items()]
+        print(f"Read {read_missing_cards(items, providers)} cards.")
 
     live = None
     if args.live_searches:
@@ -611,10 +772,8 @@ def main() -> None:
             finally:
                 transaction.rollback()
 
-    overall = results.groups["all"]
     print(f"Searches spent this run: {searches.spent}, saved in all: {results.searches_saved}.")
-    print(f"Pipeline: {overall.pipeline.model_dump()}")
-    print(f"Baseline: {overall.baseline.model_dump()}")
+    print(f"Wrote the scores of {len(results.items)} items.")
     print(f"Wrote {RESULTS_FILE} and {REPORT_FILE}.")
 
 

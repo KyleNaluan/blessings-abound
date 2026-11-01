@@ -6,6 +6,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 ## KyleNaluan
 
 - 2026-11-01, [#31](https://github.com/KyleNaluan/blessings-abound/issues/31), Add invite-only accounts: username sign-in, manager routes for invites, temporary passwords, roles and deactivation, and seeded demo accounts
+- 2026-11-01, [#11](https://github.com/KyleNaluan/blessings-abound/issues/11), Give games and hardware their own ask-to-sale factor and a wider price range, and score them on fresh items that had no part in the tuning
 - 2026-11-01, [#55](https://github.com/KyleNaluan/blessings-abound/pull/55), Stop the web tests failing when the shared CI runner freezes, by restarting a wait that a freeze cut short, and make sign-out land on the landing page
 - 2026-11-01, [#11](https://github.com/KyleNaluan/blessings-abound/issues/11), Add the evaluation set and scoring script for games and hardware, with apparel not scored yet
 - 2026-11-01, [#14](https://github.com/KyleNaluan/blessings-abound/issues/14), Price appraisals from the comps lookup and the pricing core in place of the placeholder, and save an honest check when there is no price

@@ -707,7 +707,7 @@ def test_the_price_comes_from_the_filtered_comps_of_the_confirmed_card(
     assert card is not None
     rules = get_settings().pricing
     kept = filter_comps(parse_comps(reply), item_facts(card)).kept
-    price = price_range(kept, rules)
+    price = price_range(kept, rules, Category.APPAREL)
     assert appraisal["price_low_cents"] == price.low_cents
     assert appraisal["price_typical_cents"] == price.typical_cents
     assert appraisal["price_high_cents"] == price.high_cents
