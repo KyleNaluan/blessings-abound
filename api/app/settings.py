@@ -59,6 +59,8 @@ class Settings(BaseSettings):
 
     database_url: str = "postgresql+psycopg://thrift:thrift@localhost:5432/thrift"
     cors_origins: list[str] = ["http://localhost:5173"]
+    # Where the web app lives, so an invite email can link back to it.
+    web_app_url: str = "http://localhost:5173"
 
     local_storage_dir: Path = Path("storage")
     supabase_url: str | None = None

@@ -1,7 +1,7 @@
 """Give an existing Supabase Auth user a profile in a local database, for development only.
 
-The API refuses anyone without a profile, and account management arrives with #31. Until then this
-lets a developer who has an Auth user sign in to their own local copy. It refuses other databases.
+The API refuses anyone without a profile, so this lets a developer who already has an Auth user
+sign in to their own local copy, by username or email. It refuses other databases.
 
 Usage: uv run python -m app.seed_local_profile <auth user id> <username> [staff|manager]
 """

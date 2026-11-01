@@ -18,7 +18,7 @@ Update it in the same pull request whenever one of them changes.
 | Schema changes | Alembic | Every schema change is a reviewed, repeatable migration file. |
 | Pricing | Active eBay listings from SerpApi, priced by code | Similar listings give a price range we can explain and link to, with no training data to collect, see [Pricing pipeline](#pricing-pipeline). |
 | Vision and language model | Groq (qwen) for vision, with Gemini as fallback, through one OpenAI-compatible client | The provider is a setting, `AI_BASE_URL`, `AI_MODEL` and `AI_API_KEY`, with the fallback in the matching `AI_FALLBACK_` settings, so we can switch without code changes, and the same client powers the explanation, drafts and insight chat. Groq allows 1,000 requests and 200,000 tokens a day, which is about 80 items a day, see [Vision model check](#vision-model-check). |
-| Auth | Supabase Auth, with a plain UUID login ID, display name and role in `profiles` | The API enforces the two roles, staff and manager, and row-level security blocks all other access. |
+| Auth | Supabase Auth, with a plain UUID login ID, display name and role in `profiles` | The API enforces the two roles, staff and manager, and row-level security blocks all other access. Accounts are invite-only, see [docs/database.md](database.md#accounts). |
 | Mock channels | Two separate FastAPI services on Render, each with its own database role and schema, `channel_a` and `channel_b` | They stand in for real platforms behind an adapter interface, and they keep their data in Postgres, so it survives restarts on free hosts. |
 | Background work | An in-process scheduler and a `jobs` table in Postgres | It handles polling, retries and AI calls without a separate worker to host. |
 | Photo storage | Local folder or Supabase Storage | One interface in `api/app/storage.py`, with the backend picked by settings. |
@@ -44,7 +44,7 @@ The demo reads its connection details from environment variables, so the code is
 The Cloudflare Pages project `blessings-abound` builds the frontend from `main` with root directory `web`, build command `npm run build` and output directory `dist`, and serves it at https://blessings-abound.pages.dev.
 Every pull request gets its own preview link from Pages, and nobody needs a Cloudflare account to open it.
 The build uses the Node version in `web/.nvmrc`, and `VITE_API_URL` goes in the Pages project's environment variables once the Render API exists, along with `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` for sign-in.
-Each site's `/choose-password` address must be in the Supabase Auth redirect list for reset links to work.
+Each site's `/choose-password` address must be in the Supabase Auth redirect list for reset and invite links to work.
 Pages serves `index.html` for any path without a file, because the build has no `404.html`, so the app needs no rewrite config.
 
 The hosted demo follows these steps:
@@ -176,3 +176,12 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Keep the pricing rules as they are after the first evaluation, where the pipeline lost to raw asking prices on games and hardware, because tuning them against 18 items with apparel unscored would only fit this set, and the factor question is left to apparel's results.
 - 2026-11-01: Restart a `findBy` or `waitFor` that failed while the test process was frozen, instead of raising its deadline, because the deadline timer runs before the render already due when the process wakes, so a longer freeze beats any limit, and a wait that ran undisturbed still fails at the normal 1s.
 - 2026-11-01: End the session before leaving the sign-out button's page, and hold `RequireAuth`'s redirect to sign-in with a signing-out mark on the auth context while the session clears, because the router's low priority navigation to the landing page otherwise loses to that redirect; clear the mark when the protected page unmounts so a later visit while signed out still redirects, and keep a failed sign-out on the page with a visible error rather than swallowing it.
+- 2026-11-01: Sign in by username through `POST /auth/sign-in` on the API rather than through a lookup in the browser, which replaces the plan to keep it in `web/src/auth/accounts.ts`, because a lookup the browser can call would hand out anyone's address and tell a stranger which usernames exist.
+- 2026-11-01: Find the Auth address from `auth_user_id` at sign-in rather than from `profiles.email`, so local profiles with no email and people with a hidden placeholder address can all use a username.
+- 2026-11-01: Keep the sign-in failure count per username in the API process, because Auth sees every username sign-in as coming from the API's address, and accept that it resets on a restart and isn't shared between processes, since the demo runs one.
+- 2026-11-01: Store `must_change_password` in `profiles` rather than in Auth's user metadata, because a signed-in person can write their own metadata from the browser and would be able to lift the block on a temporary password.
+- 2026-11-01: Change a person's own password by forwarding their token to Auth from `POST /me/password` and clearing the flag in the same request, so Auth still applies its own password rules and the browser can't clear the flag without really changing the password.
+- 2026-11-01: Treat sign-up as closed by the code, with no route or form and a 403 for an Auth user with no profile, so nothing depends on the hosted Supabase setting being right.
+- 2026-11-01: Deactivate by banning in Auth first and marking the profile second, and keep the profile row, because a failure between the two leaves the person locked out rather than still able to sign in, and their decisions still point at that row.
+- 2026-11-01: Lock the active manager rows with `FOR UPDATE` before deactivating or demoting a manager, because two managers deactivating each other at the same moment would otherwise leave none.
+- 2026-11-01: Stop the web build if a `VITE_` variable is named for the service role key or holds its value, because every `VITE_` value ends up in the public JavaScript.

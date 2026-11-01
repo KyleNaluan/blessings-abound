@@ -20,7 +20,9 @@ One row per person who can sign in.
 | `display_name` | `text` | Required |
 | `email` | `text` | Optional, unique when given, lowercase |
 | `role` | `varchar(32)` | `staff` or `manager`, default `staff` |
-| `is_active` | `boolean` | Default true |
+| `is_active` | `boolean` | Default true, false once a manager deactivates the account |
+| `must_change_password` | `boolean` | Default false, true while the API should refuse the person until they choose their own password |
+| `invited_at` | `timestamptz` | Optional, when a manager emailed an invite, which tells an invited person from one given a temporary password |
 | `created_at` | `timestamptz` | Set by the database |
 | `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
 
@@ -160,11 +162,51 @@ It is safe to run again:
 
 ## A local profile
 
-The API refuses anyone without an active profile, and until #31 manages accounts, `api/app/seed_local_profile.py` gives an existing Auth user a profile on a developer's own database, as the [README](../README.md#setup) shows.
+The API refuses anyone without an active profile, and `api/app/seed_local_profile.py` gives an existing Auth user a profile on a developer's own database, as the [README](../README.md#setup) shows.
 It refuses any database that isn't local, so it can't touch the shared demo.
 
-## Turning off public sign-up
+## Demo accounts
 
-Sign-up is a setting on the hosted Supabase project, and nothing in this repo controls it, so someone has to turn it off by hand.
-In the Supabase dashboard, open the project's Auth settings and turn off **Allow new users to sign up**.
-Supabase documents that with this off, only existing users can sign in.
+`api/app/seed_demo_accounts.py` creates one demo staff account and one demo manager account for judging.
+The passwords come from the environment, so none are in the repo:
+
+```sh
+cd api
+DATABASE_URL=<Supabase connection string> \
+SUPABASE_URL=<project URL> \
+SUPABASE_SERVICE_ROLE_KEY=<service role key> \
+DEMO_STAFF_PASSWORD=<password> \
+DEMO_MANAGER_PASSWORD=<password> \
+uv run python -m app.seed_demo_accounts
+```
+
+The usernames are `demo.staff` and `demo.manager` unless `DEMO_STAFF_USERNAME` or `DEMO_MANAGER_USERNAME` says otherwise.
+Running it again puts these passwords back and turns the accounts back on, so a judge's changes don't carry over to the next judge.
+It refuses to change a username that already belongs to a real person with a different role, and it refuses mixed local and hosted settings as the first manager script does.
+
+## Accounts
+
+Nobody can sign themselves up, because the app has no sign-up route or form and a new Auth user with no profile gets a 403 from every API route.
+The Supabase setting **Allow new users to sign up** should also be off so that a sign-up attempt fails at Auth, and `seed_demo_accounts` prints a warning if it finds that setting on.
+
+The API routes under `/team` are for managers only, and they check the role on the server for every request:
+
+| Route | What it does |
+| --- | --- |
+| `GET /team/people` | Lists everyone with their role and status |
+| `POST /team/people/invite` | Emails an invite, and the person chooses a password from the link |
+| `POST /team/people/temporary-password` | Creates a username, with an email or without one, and returns a temporary password once |
+| `POST /team/people/{id}/temporary-password` | Replaces a person's password with a new temporary one |
+| `PATCH /team/people/{id}` | Changes the role |
+| `POST /team/people/{id}/deactivate` | Bans the person in Auth and marks the profile inactive, keeping their decisions |
+| `POST /team/people/{id}/reactivate` | Lifts the ban and marks the profile active |
+
+Nobody can deactivate themselves, and nobody can deactivate or demote the last active manager.
+A person with no email gets a hidden address at `accounts.turnstone.invalid`, which only Auth ever sees, because Auth needs an address and `.invalid` can never receive mail.
+The `email` column stays empty for that person.
+
+While `must_change_password` is true, the API answers every signed-in route with a 403 except `GET /me` and `POST /me/password`, and the web app sends the person to the Choose your password page.
+The flag lives in `profiles` rather than in Auth's user metadata, because a signed-in person can write their own metadata from the browser.
+
+A username sign-in goes to `POST /auth/sign-in`, where the API finds the person's Auth address, so that address never reaches the browser.
+An email sign-in goes straight from the browser to Supabase, as it did before, and any existing Auth address keeps working this way.

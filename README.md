@@ -45,6 +45,8 @@ npm run dev
 
 Open http://localhost:5173 for the landing page.
 Signing in needs `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in `.env` and an account in that Supabase project.
+An email address works with just those two, but a username also needs the API running with `SUPABASE_URL`, `SUPABASE_ANON_KEY` and `SUPABASE_SERVICE_ROLE_KEY` set.
+The service role key stays on the server, and the web build stops with an error if it finds that key in a `VITE_` variable.
 After signing in, the page at http://localhost:5173/app should show the API status as `ok`.
 
 The appraisal screen at http://localhost:5173/app/appraise also needs the API to check your sign-in and find your profile.
@@ -103,7 +105,7 @@ npm run gen:api
 ```
 
 Schema changes go through Alembic migrations, as described in [CONTRIBUTING.md](CONTRIBUTING.md#database).
-The tables are described in [docs/database.md](docs/database.md), which also covers creating the first manager account.
+The tables are described in [docs/database.md](docs/database.md), which also covers creating the first manager account, seeding the demo accounts and the manager routes for adding people.
 
 ## Pricing
 

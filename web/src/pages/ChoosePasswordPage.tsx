@@ -1,8 +1,9 @@
 import { useRef, useState, type FormEvent } from 'react'
 import { Link, useNavigate } from 'react-router'
 
-import { hasTemporaryPassword } from '@/auth/accounts'
-import { choosePassword } from '@/auth/actions'
+import type { Me } from '@/api/accounts'
+import { mustChoosePassword } from '@/auth/accounts'
+import { chooseFirstPassword, choosePassword } from '@/auth/actions'
 import { useAuth } from '@/auth/AuthContext'
 import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
 import { ErrorSummary, Field, SubmitButton, TextInput } from '@/components/site/form'
@@ -17,7 +18,7 @@ type FieldErrors = { password?: string; confirm?: string }
 // Reached after signing in with a temporary password, or from a reset link in an email.
 export function ChoosePasswordPage() {
   usePageTitle('Choose your password')
-  const { loading, session } = useAuth()
+  const { loading, session, me, setMe } = useAuth()
 
   if (loading) return <AuthLayout>{null}</AuthLayout>
   if (!session) {
@@ -36,10 +37,16 @@ export function ChoosePasswordPage() {
       </AuthLayout>
     )
   }
-  return <ChoosePasswordForm temporary={hasTemporaryPassword(session.user)} />
+  return <ChoosePasswordForm me={me} onChosen={setMe} />
 }
 
-function ChoosePasswordForm({ temporary }: { temporary: boolean }) {
+const LEADS: Partial<Record<Me['status'], string>> = {
+  temporary_password:
+    'You signed in with a temporary password. Choose one only you know before you continue.',
+  invited: 'Welcome to Turnstone. Choose a password to finish setting up your account.',
+}
+
+function ChoosePasswordForm({ me, onChosen }: { me: Me | null; onChosen: (me: Me) => void }) {
   const navigate = useNavigate()
   const [password, setPassword] = useState('')
   const [confirm, setConfirm] = useState('')
@@ -68,12 +75,16 @@ function ChoosePasswordForm({ temporary }: { temporary: boolean }) {
     if (next.confirm) return confirmRef.current?.focus()
 
     setPending(true)
-    const error = await choosePassword(password)
+    const first = mustChoosePassword(me)
+    const { me: updated, problem: error } = first
+      ? await chooseFirstPassword(password)
+      : { me: null, problem: await choosePassword(password) }
     setPending(false)
     if (error) {
       setProblem(error)
       setFailures(failures + 1)
     } else {
+      if (updated) onChosen(updated)
       navigate('/app', { replace: true })
     }
   }
@@ -84,11 +95,7 @@ function ChoosePasswordForm({ temporary }: { temporary: boolean }) {
         <ErrorSummary key={failures} errors={[{ fieldId: 'new-password', message: problem }]} />
       )}
       <PageHeading>Choose your password</PageHeading>
-      <Lead>
-        {temporary
-          ? 'You signed in with a temporary password. Choose one only you know before you continue.'
-          : 'Choose a new password for your account.'}
-      </Lead>
+      <Lead>{(me && LEADS[me.status]) ?? 'Choose a new password for your account.'}</Lead>
       <form noValidate onSubmit={onSubmit}>
         <Field
           id="new-password"

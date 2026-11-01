@@ -8,17 +8,49 @@ vi.mock('@/auth/supabase', async () => ({
   supabase: (await import('@/test/fakeSupabase')).fake.client,
 }))
 
+const ACTIVE = {
+  auth_user_id: 'user-1',
+  username: 'demo.staff',
+  display_name: 'Demo Staff',
+  email: null,
+  role: 'staff',
+  status: 'active',
+  created_at: '2026-11-01T00:00:00+00:00',
+}
+const TEMPORARY = { ...ACTIVE, status: 'temporary_password' }
+const INVITED = { ...ACTIVE, status: 'invited' }
+
 beforeEach(() => {
   fake.reset()
-  vi.stubGlobal(
-    'fetch',
-    vi.fn(async () => Response.json({ status: 'ok' })),
-  )
+  stubApi()
 })
 
 afterEach(() => {
   vi.unstubAllGlobals()
 })
+
+// Answers the API routes sign-in uses, where `me` is who the signed-in person is.
+function stubApi(
+  routes: Record<string, () => Response> = {},
+  me: Record<string, unknown> = ACTIVE,
+) {
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async (request: Request) => {
+      const { pathname } = new URL(request.url)
+      const route = routes[`${request.method} ${pathname}`]
+      if (route) return route()
+      return Response.json(pathname === '/me' ? me : { status: 'ok' })
+    }),
+  )
+}
+
+function apiCalls(method: string, path: string): Request[] {
+  const calls = vi.mocked(fetch).mock.calls.map(([request]) => request as Request)
+  return calls.filter(
+    (request) => request.method === method && new URL(request.url).pathname === path,
+  )
+}
 
 function renderAt(path: string) {
   render(
@@ -26,6 +58,11 @@ function renderAt(path: string) {
       <App />
     </MemoryRouter>,
   )
+}
+
+async function findLabel(label: string) {
+  await screen.findByLabelText(label)
+  return label
 }
 
 function fillIn(label: string, value: string) {
@@ -93,15 +130,78 @@ test('shows the error summary for a wrong password, and clears the password', as
   expect(screen.getByLabelText('Password')).toHaveValue('')
 })
 
-test('a username matches no account until usernames exist', async () => {
+test('signs in with a username through the API and never asks for the address', async () => {
+  stubApi({
+    'POST /auth/sign-in': () => Response.json({ access_token: 'access', refresh_token: 'refresh' }),
+  })
+  fake.auth.setSession.mockImplementation(async () => {
+    const session = fakeSession()
+    fake.emit('SIGNED_IN', session)
+    return { data: { user: session.user, session }, error: null }
+  })
+  renderAt('/sign-in')
+  fillIn('Username or email', ' demo.staff ')
+  fillIn('Password', 'correct horse battery')
+  submit('Sign in')
+  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
+  const [request] = apiCalls('POST', '/auth/sign-in')
+  expect(await request.clone().json()).toEqual({
+    username: 'demo.staff',
+    password: 'correct horse battery',
+  })
+  expect(fake.auth.setSession).toHaveBeenCalledWith({
+    access_token: 'access',
+    refresh_token: 'refresh',
+  })
+  expect(fake.auth.signInWithPassword).not.toHaveBeenCalled()
+})
+
+test('an email never goes through the API, so it works without one', async () => {
+  acceptSignIn()
+  renderAt('/sign-in')
+  fillIn('Username or email', 'teammate@placeholder.example')
+  fillIn('Password', 'correct horse battery')
+  submit('Sign in')
+  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
+  expect(apiCalls('POST', '/auth/sign-in')).toEqual([])
+})
+
+test.each([
+  [401, 'Your username, email or password is wrong'],
+  [403, 'This account is turned off. Ask a store manager to turn it back on.'],
+  [429, 'Too many tries. Wait a few minutes and try again.'],
+])('shows what the API says for a refused username, status %i', async (status, detail) => {
+  stubApi({ 'POST /auth/sign-in': () => Response.json({ detail }, { status }) })
+  renderAt('/sign-in')
+  fillIn('Username or email', 'demo.staff')
+  fillIn('Password', 'anything at all')
+  submit('Sign in')
+  expect(await screen.findByRole('alert')).toHaveTextContent(detail)
+  expect(fake.auth.setSession).not.toHaveBeenCalled()
+  expect(screen.getByLabelText('Password')).toHaveValue('')
+})
+
+test('says so when the API cannot be reached for a username', async () => {
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async () => {
+      throw new TypeError('Failed to fetch')
+    }),
+  )
   renderAt('/sign-in')
   fillIn('Username or email', 'demo.staff')
   fillIn('Password', 'anything at all')
   submit('Sign in')
   expect(await screen.findByRole('alert')).toHaveTextContent(
-    'Your username, email or password is wrong',
+    "We couldn't reach the sign-in service",
   )
-  expect(fake.auth.signInWithPassword).not.toHaveBeenCalled()
+})
+
+test('there is no sign-up page to reach', async () => {
+  renderAt('/sign-up')
+  expect(
+    await screen.findByRole('heading', { level: 1, name: /keep every shop in sync/ }),
+  ).toBeInTheDocument()
 })
 
 test('says so when the sign-in service cannot be reached', async () => {
@@ -125,7 +225,15 @@ test('the Show button reveals the password', async () => {
 })
 
 test('a temporary password goes to choosing a password before anything else', async () => {
-  acceptSignIn({ temporary_password: true })
+  let me: Record<string, unknown> = TEMPORARY
+  stubApi({
+    'GET /me': () => Response.json(me),
+    'POST /me/password': () => {
+      me = ACTIVE
+      return Response.json(ACTIVE)
+    },
+  })
+  acceptSignIn()
   renderAt('/sign-in')
   fillIn('Username or email', 'demo.staff@example.com')
   fillIn('Password', 'temporary-1234')
@@ -143,26 +251,60 @@ test('a temporary password goes to choosing a password before anything else', as
   fillIn('Type it again', 'a different password')
   submit('Save password and continue')
   expect(await screen.findByText("The passwords don't match")).toBeInTheDocument()
-  expect(fake.auth.updateUser).not.toHaveBeenCalled()
+  expect(apiCalls('POST', '/me/password')).toEqual([])
 
-  fake.auth.updateUser.mockImplementation(async () => {
-    const session = fakeSession({ temporary_password: false })
-    fake.emit('USER_UPDATED', session)
-    return { data: { user: session.user }, error: null }
-  })
   fillIn('Type it again', 'a new long password')
   submit('Save password and continue')
   expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
-  expect(fake.auth.updateUser).toHaveBeenCalledWith({
-    password: 'a new long password',
-    data: { temporary_password: false },
-  })
+  const [request] = apiCalls('POST', '/me/password')
+  expect(await request.clone().json()).toEqual({ password: 'a new long password' })
+  expect(fake.auth.updateUser).not.toHaveBeenCalled()
 })
 
-test('someone on a temporary password cannot skip to the app', async () => {
-  fake.reset(fakeSession({ temporary_password: true }))
+test('shows why the API refused a first password and stays on the page', async () => {
+  const detail = 'Choose a password that is different from your current one'
+  stubApi({ 'POST /me/password': () => Response.json({ detail }, { status: 422 }) }, TEMPORARY)
+  fake.reset(fakeSession())
+  renderAt('/choose-password')
+  fillIn(await findLabel('New password'), 'the same password')
+  fillIn('Type it again', 'the same password')
+  submit('Save password and continue')
+  expect(await screen.findByRole('alert')).toHaveTextContent(detail)
+  expect(screen.getByRole('heading', { name: 'Choose your password' })).toBeInTheDocument()
+})
+
+test('an invite link lands on choosing a password with its own words', async () => {
+  stubApi({}, INVITED)
+  fake.reset(fakeSession())
+  renderAt('/choose-password')
+  expect(await screen.findByText(/finish setting up your account/)).toBeInTheDocument()
+})
+
+test('someone on a temporary password or an invite cannot skip to the app', async () => {
+  stubApi({}, TEMPORARY)
+  fake.reset(fakeSession())
   renderAt('/app')
   expect(await screen.findByRole('heading', { name: 'Choose your password' })).toBeInTheDocument()
+})
+
+test('a reset link for an ordinary account still goes straight to Supabase', async () => {
+  fake.reset(fakeSession())
+  fake.auth.updateUser.mockResolvedValue({ data: { user: fakeSession().user }, error: null })
+  renderAt('/choose-password')
+  expect(await screen.findByText('Choose a new password for your account.')).toBeInTheDocument()
+  fillIn('New password', 'a new long password')
+  fillIn('Type it again', 'a new long password')
+  submit('Save password and continue')
+  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
+  expect(fake.auth.updateUser).toHaveBeenCalledWith({ password: 'a new long password' })
+  expect(apiCalls('POST', '/me/password')).toEqual([])
+})
+
+test('someone the API cannot place still reaches the app, where the API refuses them', async () => {
+  stubApi({ 'GET /me': () => Response.json({ detail: 'no profile' }, { status: 403 }) })
+  fake.reset(fakeSession())
+  renderAt('/app')
+  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
 })
 
 test('a used or expired reset link says how to get a new one', async () => {

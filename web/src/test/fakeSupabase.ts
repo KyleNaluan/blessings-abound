@@ -23,6 +23,7 @@ const auth = {
   }),
   getSession: vi.fn(async () => ({ data: { session: current }, error: null })),
   signInWithPassword: vi.fn(),
+  setSession: vi.fn(),
   resetPasswordForEmail: vi.fn(),
   updateUser: vi.fn(),
   signOut: vi.fn(async (): Promise<SignOutResult> => {
@@ -42,6 +43,7 @@ export const fake = {
     current = session
     listeners.clear()
     auth.signInWithPassword.mockReset()
+    auth.setSession.mockReset()
     auth.resetPasswordForEmail.mockReset().mockResolvedValue({ data: {}, error: null })
     auth.updateUser.mockReset()
     auth.signOut.mockClear()

@@ -1,6 +1,8 @@
 import type { AuthError } from '@supabase/supabase-js'
 
-import { findResetEmail, findSignInEmail, TEMPORARY_PASSWORD_FLAG } from './accounts'
+import { chooseOwnPassword, signInWithUsername, type Me } from '@/api/accounts'
+
+import { findResetEmail, isEmail } from './accounts'
 import { supabase } from './supabase'
 
 // Each action resolves to an error message to show, or null when it worked.
@@ -16,14 +18,24 @@ function message(error: AuthError | null, known: Partial<Record<string, string>>
 
 export async function signIn(identifier: string, password: string): Promise<string | null> {
   if (!supabase) return NOT_SET_UP
-  const email = await findSignInEmail(identifier)
-  if (!email) return WRONG_DETAILS
-  const { error } = await supabase.auth.signInWithPassword({ email, password })
+  if (!isEmail(identifier)) return signInByUsername(identifier, password)
+  const { error } = await supabase.auth.signInWithPassword({ email: identifier, password })
   return message(error, {
     invalid_credentials: WRONG_DETAILS,
     user_banned: 'This account is turned off. Ask a store manager to turn it back on.',
     email_not_confirmed: "This account isn't set up yet. Ask a store manager to finish it.",
   })
+}
+
+async function signInByUsername(username: string, password: string): Promise<string | null> {
+  try {
+    const { session, problem } = await signInWithUsername(username, password)
+    if (!session) return problem ?? UNREACHABLE
+    const { error } = await supabase!.auth.setSession(session)
+    return error ? UNREACHABLE : null
+  } catch {
+    return UNREACHABLE
+  }
 }
 
 // Sends a reset link when the account has an email. The answer is the same either way, so nobody can use this page to find
@@ -47,14 +59,23 @@ export async function sendPasswordReset(identifier: string): Promise<string | nu
 
 export async function choosePassword(password: string): Promise<string | null> {
   if (!supabase) return NOT_SET_UP
-  const { error } = await supabase.auth.updateUser({
-    password,
-    data: { [TEMPORARY_PASSWORD_FLAG]: false },
-  })
+  const { error } = await supabase.auth.updateUser({ password })
   return message(error, {
     same_password: 'Choose a password that is different from your current one',
     weak_password: 'Choose a stronger password, such as a few words in a row',
   })
+}
+
+// For someone on a temporary password or an invite, where the API has to lift the block.
+export async function chooseFirstPassword(
+  password: string,
+): Promise<{ me: Me | null; problem: string | null }> {
+  try {
+    const { me, problem } = await chooseOwnPassword(password)
+    return me ? { me, problem: null } : { me: null, problem: problem ?? UNREACHABLE }
+  } catch {
+    return { me: null, problem: UNREACHABLE }
+  }
 }
 
 export async function signOut(): Promise<string | null> {

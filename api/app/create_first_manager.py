@@ -20,8 +20,8 @@ from sqlmodel import Session, create_engine, select
 
 from app.models import USERNAME_PATTERN, Profile, Role
 from app.settings import ROOT_ENV_FILE
+from app.supabase_auth import SupabaseAuthAdmin
 
-AUTH_PAGE_SIZE = 200
 LOCAL_HOSTS = {"localhost", "127.0.0.1", "::1", "db"}
 
 
@@ -38,41 +38,6 @@ class FirstManagerSettings(BaseSettings):
     first_manager_username: str | None = None
     first_manager_email: str | None = None
     first_manager_password: SecretStr | None = None
-
-
-class SupabaseAuthAdmin:
-    """Talks to the Supabase Auth admin REST API with the service role key."""
-
-    def __init__(
-        self, url: str, service_role_key: str, transport: httpx2.BaseTransport | None = None
-    ) -> None:
-        self.client = httpx2.Client(
-            base_url=f"{url.rstrip('/')}/auth/v1",
-            headers={"Authorization": f"Bearer {service_role_key}", "apikey": service_role_key},
-            transport=transport,
-        )
-
-    def find_user(self, email: str) -> dict | None:
-        page = 1
-        while True:
-            response = self.client.get(
-                "/admin/users", params={"page": page, "per_page": AUTH_PAGE_SIZE}
-            )
-            response.raise_for_status()
-            users = response.json()["users"]
-            for user in users:
-                if (user.get("email") or "").lower() == email:
-                    return user
-            if len(users) < AUTH_PAGE_SIZE:
-                return None
-            page += 1
-
-    def create_user(self, email: str, password: str) -> dict:
-        response = self.client.post(
-            "/admin/users", json={"email": email, "password": password, "email_confirm": True}
-        )
-        response.raise_for_status()
-        return response.json()
 
 
 def check_same_environment(database_url: str, supabase_url: str) -> None:

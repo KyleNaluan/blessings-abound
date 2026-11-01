@@ -78,6 +78,8 @@ function stubApi(overrides: Record<string, () => Response> = {}) {
         case 'POST /items/item-1/decisions':
           decisions = [savedRow]
           return Response.json({ id: 'decision-1' }, { status: 201 })
+        case 'GET /me':
+          return Response.json({ status: 'active' })
         case 'GET /decisions':
           return Response.json(decisions)
         default:
