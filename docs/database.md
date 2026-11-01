@@ -79,7 +79,7 @@ An item can have several, because editing the card and searching again gives a n
 | `comps_count` | `integer` | Never negative, default 0 |
 | `confidence` | `varchar(32)` | `low`, `medium` or `high` |
 | `recommendation` | `varchar(32)` | `yes`, `no` or `check` |
-| `rules_config` | `jsonb` | Required, the rules and config used |
+| `rules_config` | `jsonb` | Required, the rules and config used, under `pricing`, and how the search went, under `search`, with its outcome, query, condition ids and the queries searched |
 | `explanation` | `text` | Optional |
 | `created_at` | `timestamptz` | Set by the database |
 

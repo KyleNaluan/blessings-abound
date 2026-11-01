@@ -342,12 +342,9 @@ export function AppraisalPage() {
 
       {appraisal && (
         <section aria-labelledby="price-heading" className="mb-7 border border-rule p-4">
-          <div className="mb-3 flex items-center justify-between gap-3">
-            <h2 id="price-heading" className="text-xl font-bold">
-              Price range
-            </h2>
-            <Badge variant="outline">Placeholder</Badge>
-          </div>
+          <h2 id="price-heading" className="mb-3 text-xl font-bold">
+            Price range
+          </h2>
           <dl className="grid grid-cols-[8rem_1fr] gap-x-4 gap-y-1">
             <dt className="font-bold">Low</dt>
             <dd>{money(appraisal.price_low_cents)}</dd>

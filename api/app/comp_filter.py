@@ -36,6 +36,7 @@ class ItemFacts(BaseModel):
 
     category: Category
     product: str | None = None
+    exact_model: str | None = None
     platform: str | None = None
     condition: Condition = Condition.PRE_OWNED
     department: Department | None = None
@@ -241,7 +242,8 @@ def _normalize(text: str) -> str:
 
 
 def _check_title_rules(title: str, item: ItemFacts) -> tuple[DropReason, str] | None:
-    product = _normalize(item.product or "")
+    # A model staff named is what the item is, so "OLED" in a title can't rule out an OLED Switch.
+    product = _normalize(f"{item.product or ''} {item.exact_model or ''}")
     item_is = {reason for reason, pattern in _ITEM_IS.items() if pattern.search(product)}
     for rule in _TITLE_RULES:
         if rule.category not in (None, item.category) or rule.reason in item_is:
@@ -252,7 +254,7 @@ def _check_title_rules(title: str, item: ItemFacts) -> tuple[DropReason, str] | 
     return None
 
 
-def _is_hardware(item: ItemFacts) -> bool:
+def is_hardware(item: ItemFacts) -> bool:
     """A product that names hardware, or is only its platform's name, is the hardware."""
     product = (item.product or "").lower()
     if _HARDWARE_PRODUCT.search(product):
@@ -264,7 +266,7 @@ def _check_item_kind(title: str, item: ItemFacts) -> tuple[DropReason, str] | No
     """Keep games out of a console's comps, and consoles out of a game's comps."""
     if item.category is not _GAMES:
         return None
-    if _is_hardware(item):
+    if is_hardware(item):
         match = _GAMES_INCLUDED.search(title)
         return (DropReason.BUNDLE, f'title says "{match.group(0)}"') if match else None
     if not item.platform:

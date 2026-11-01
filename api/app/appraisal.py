@@ -21,6 +21,7 @@ from sqlmodel import Session, col
 
 from app.ai import AINotConfiguredError, ChatModel, get_chat_model, get_fallback_chat_model
 from app.auth import CurrentProfile
+from app.comps import EbaySearch, serpapi_ebay_search
 from app.db import get_session
 from app.models import (
     Appraisal,
@@ -45,6 +46,7 @@ from app.pipeline import (
     placeholder_sku,
     price_item,
 )
+from app.settings import get_settings
 from app.storage import Storage, get_storage
 from app.vision import ItemCardError, UnreadablePhotoError
 
@@ -73,6 +75,12 @@ def get_vision_providers() -> list[ChatModel]:
     except AINotConfiguredError as error:
         logger.warning("%s", error)
         return []
+
+
+def get_ebay_search() -> EbaySearch | None:
+    """The SerpApi search, or none when the key is not set."""
+    key = get_settings().serpapi_api_key
+    return serpapi_ebay_search(key) if key else None
 
 
 def _blank_to_none(value: Any) -> Any:
@@ -340,7 +348,12 @@ def confirm_item_card(
 
 
 @router.post("/items/{item_id}/appraisals", operation_id="create_appraisal")
-def create_appraisal(item_id: UUID, profile: CurrentProfile, session: SessionDep) -> AppraisalRead:
+def create_appraisal(
+    item_id: UUID,
+    profile: CurrentProfile,
+    session: SessionDep,
+    search: Annotated[EbaySearch | None, Depends(get_ebay_search)],
+) -> AppraisalRead:
     item = _get_item(session, item_id)
     _require_status(item, {ItemStatus.CARD_READY, ItemStatus.APPRAISED}, "appraised")
     card = session.get(ItemCard, item_id)
@@ -351,7 +364,13 @@ def create_appraisal(item_id: UUID, profile: CurrentProfile, session: SessionDep
             status.HTTP_409_CONFLICT,
             "Confirm the brand and model on the card before searching for this item.",
         )
-    appraisal = Appraisal(item_id=item_id, **price_item(card).model_dump())
+    result = price_item(card, session, search)
+    # The search lets go of the database, so the item may have moved on while it ran.
+    item = session.get(Item, item_id, with_for_update=True, populate_existing=True)
+    if item is None:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "That item doesn't exist.")
+    _require_status(item, {ItemStatus.CARD_READY, ItemStatus.APPRAISED}, "appraised")
+    appraisal = Appraisal(item_id=item_id, **result.model_dump())
     item.status = ItemStatus.APPRAISED
     session.add_all([appraisal, item])
     session.commit()
