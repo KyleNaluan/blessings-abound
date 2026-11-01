@@ -220,7 +220,7 @@ function Limits() {
           ],
           [
             'Comps are asking prices',
-            "The eBay search we use no longer returns sold listings. A factor of 0.645 turns asking prices into expected sale prices, and it's labeled an assumption because it comes from Poshmark data, where the ask-to-sale ratios ran from 1.21 to 2.93.",
+            "The eBay search we use no longer returns sold listings, so a factor turns asking prices into expected sale prices, and it's labeled an assumption. For apparel the factor is 0.645, from Poshmark data where the ask-to-sale ratios ran from 1.21 to 2.93. For games and hardware it's 0.94, from the median asking price per reference on 18 items.",
           ],
           [
             'Sales history is synthetic',
