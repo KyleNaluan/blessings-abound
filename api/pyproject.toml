@@ -1,7 +1,7 @@
 [project]
 name = "thrift-api"
 version = "0.1.0"
-description = "API for the Thrift Listing Assistant"
+description = "API for Turnstone"
 requires-python = ">=3.12"
 dependencies = [
     "alembic>=1.20.1",
