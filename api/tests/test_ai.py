@@ -29,3 +29,15 @@ def test_chat_completion_request_shape() -> None:
 def test_get_chat_model_requires_configuration() -> None:
     with pytest.raises(AINotConfiguredError):
         get_chat_model(Settings(ai_base_url=None, ai_model=None, ai_api_key=None))
+
+
+def test_fallback_model_is_optional() -> None:
+    from app.ai import get_fallback_chat_model
+
+    assert get_fallback_chat_model(Settings(ai_fallback_base_url=None)) is None
+    configured = Settings(
+        ai_fallback_base_url="https://fallback.example.com/v1",
+        ai_fallback_model="m",
+        ai_fallback_api_key="k",
+    )
+    assert get_fallback_chat_model(configured) is not None

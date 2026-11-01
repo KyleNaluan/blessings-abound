@@ -17,7 +17,7 @@ Update it in the same pull request whenever one of them changes.
 | Database access | SQLModel on SQLAlchemy | Table models double as Pydantic models, which keeps the API code short. |
 | Schema changes | Alembic | Every schema change is a reviewed, repeatable migration file. |
 | Pricing | Active eBay listings from SerpApi, priced by code | Similar listings give a price range we can explain and link to, with no training data to collect, see [Pricing pipeline](#pricing-pipeline). |
-| Vision and language model | Groq (qwen) for vision, with Gemini as fallback, through one OpenAI-compatible client | The provider is a setting, `AI_BASE_URL`, `AI_MODEL` and `AI_API_KEY`, so we can switch without code changes, and the same client powers the explanation, drafts and insight chat. Groq allows 1,000 requests and 200,000 tokens a day, which is about 70 items a day. |
+| Vision and language model | Groq (qwen) for vision, with Gemini as fallback, through one OpenAI-compatible client | The provider is a setting, `AI_BASE_URL`, `AI_MODEL` and `AI_API_KEY`, with the fallback in the matching `AI_FALLBACK_` settings, so we can switch without code changes, and the same client powers the explanation, drafts and insight chat. Groq allows 1,000 requests and 200,000 tokens a day, which is about 70 items a day, see [Vision model check](#vision-model-check). |
 | Auth | Supabase Auth, with a plain UUID login ID, display name and role in `profiles` | The API enforces the two roles, staff and manager, and row-level security blocks all other access. |
 | Mock channels | Two separate FastAPI services on Render, each with its own database role and schema, `channel_a` and `channel_b` | They stand in for real platforms behind an adapter interface, and they keep their data in Postgres, so it survives restarts on free hosts. |
 | Background work | An in-process scheduler and a `jobs` table in Postgres | It handles polling, retries and AI calls without a separate worker to host. |
@@ -82,6 +82,27 @@ Comps come through SerpApi rather than eBay's own API, because eBay's API licens
 SerpApi's free plan allows 250 searches a month and 50 an hour, so every response is cached in a `comp_searches` table, keyed by the engine, query, condition and buying format, and reused for 7 days.
 Tests read committed fixture responses and never call SerpApi.
 
+## Vision model check
+
+Checked on 2026-11-01 with 5 openly licensed Wikimedia Commons photos, each sent twice to both providers through `api/app/vision.py`, which asks for a JSON object and validates it against the item card model.
+The photos were an Xbox 360 controller, a Game Boy Color, Levi's 501 jeans, an Air Jordan 4 and a Carhartt jacket, and they were resized to 960 pixels on the long side.
+
+| | Groq `qwen/qwen3.8-27b` | Gemini `gemini-3.5-flash` |
+| --- | --- | --- |
+| Median latency | 1.1 s | 4.3 s |
+| Worst latency | 1.9 s | 8.2 s |
+| Valid JSON on the first try | 10 of 10 | 8 of 10, and the other 2 were quota errors (HTTP 429), not bad JSON |
+
+- Neither model needed a retry for a bad parse, so the retry and the fallback to Gemini are covered by stubbed tests only.
+- Both models returned valid JSON with `response_format` set to `json_object`, and the schema is described in the prompt instead of being enforced by the provider.
+- Groq named the Levi's 501 photo "American Eagle" with high confidence, so a confident brand can still be wrong, and staff confirmation of the brand and model stays necessary.
+- Groq's free limits for `qwen/qwen3.8-27b` are 30 requests a minute, 1,000 requests a day, 8,000 tokens a minute and 200,000 tokens a day, from https://console.groq.com/docs/rate-limits.
+  One photo costs about 2,300 input tokens, so the per-minute token limit allows about 3 photos a minute and the daily limit about 80 items a day with one photo each.
+  Groq answered HTTP 429 once the tokens per minute ran out, so a 429 goes straight to the fallback instead of being retried.
+- Gemini's rate limits page lists no free-tier numbers, and says to read them in Google AI Studio, so the free limits are not recorded here.
+  Gemini answered HTTP 429 on 2 of 10 photos sent a few seconds apart, so its free quota is tight too.
+- `gemini-2.5-flash` returns HTTP 404 for new API keys, and `gemini-3.8-flash` and `gemini-flash-latest` timed out after 40 seconds, so the fallback uses `gemini-3.5-flash`.
+
 ## Database
 
 The tables, their constraints and who may reach them are described in [database.md](database.md).
@@ -121,3 +142,4 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-10-30: Use the USWDS colors and Public Sans in place of the shadcn defaults and Geist, to match the approved landing and sign-in mockups.
 - 2026-10-30: Look up a username's email through `web/src/auth/accounts.ts` only, so issue #31 can back usernames and temporary passwords without changing the pages.
 - 2026-11-01: Search the video games category with condition ids `2750|4000|5000|6000` and everything else with `3000`, because `3000` on a game query returned mostly console bundles, see [serpapi-ebay-check.md](serpapi-ebay-check.md).
+- 2026-11-01: Use `gemini-3.5-flash` as the fallback model instead of `gemini-2.5-flash`, because Google closed 2.5 to new keys, and retry a bad parse once before falling back, but fall back at once on an HTTP error, because a retry meets the same rate limit.
