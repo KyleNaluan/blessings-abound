@@ -20,11 +20,21 @@ The project is a proof of concept built from a short Q&A with Blessings Abound, 
 
 ## Prerequisites
 
-- [Docker](https://docs.docker.com/get-docker/) with Docker Compose
+- [Git](https://git-scm.com/downloads), which on Windows also gives you Git Bash
+- [Docker](https://docs.docker.com/get-docker/) with Docker Compose, running before you start the setup (on Windows, open Docker Desktop and wait for it to say the engine is running)
 - [Node.js](https://nodejs.org/) 24, the version in `web/.nvmrc`
 - [uv](https://docs.astral.sh/uv/getting-started/installation/), which installs Python 3.12 itself
 
+On Windows, run every command below in Git Bash, because Windows PowerShell 5.1 does not accept `&&` and Command Prompt has no `cp`.
+
 ## Setup
+
+Clone the repository and go into it:
+
+```sh
+git clone https://github.com/KyleNaluan/blessings-abound.git
+cd blessings-abound
+```
 
 Run the database and the API in one terminal:
 
