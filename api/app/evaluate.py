@@ -366,7 +366,7 @@ class SavedSearches:
     def __call__(self, query: str, condition: str) -> dict[str, Any]:
         path = self.path(query, condition)
         if path.exists():
-            return json.loads(path.read_text())
+            return json.loads(path.read_text(encoding="utf-8"))
         if self.live is None:
             raise EvaluationStopped(
                 f'No saved search for "{query}", so run again with --live-searches to allow one.'
@@ -380,7 +380,11 @@ class SavedSearches:
         response = slim_response(self.live(query, condition))
         self.spent += 1
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(response, indent=1, ensure_ascii=False) + "\n")
+        path.write_text(
+            json.dumps(response, indent=1, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+            newline="\n",
+        )
         return response
 
 
@@ -430,7 +434,9 @@ def read_missing_cards(
         notes = staff_notes(item.staff.model_dump(mode="json"), None)
         result = read_item_card([prepare_photo(download_photo(item))], providers, notes)
         saved = SavedCard(provider=result.provider, card=result.card)
-        card_path(item, directory).write_text(saved.model_dump_json(indent=2) + "\n")
+        card_path(item, directory).write_text(
+            saved.model_dump_json(indent=2) + "\n", encoding="utf-8", newline="\n"
+        )
     return len(missing)
 
 
@@ -823,8 +829,8 @@ def run(session: Session, searches: SavedSearches) -> Results:
     items = load_items()
     fresh = load_fresh_items()
     results = evaluate(items, fresh, session, searches)
-    RESULTS_FILE.write_text(results_json(results))
-    REPORT_FILE.write_text(render_report(items, fresh, results))
+    RESULTS_FILE.write_text(results_json(results), encoding="utf-8", newline="\n")
+    REPORT_FILE.write_text(render_report(items, fresh, results), encoding="utf-8", newline="\n")
     return results
 
 

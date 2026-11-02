@@ -102,7 +102,7 @@ FIXTURES = Path(__file__).parent / "fixtures" / "serpapi"
 
 
 def serpapi_fixture(slug: str) -> dict[str, Any]:
-    return json.loads((FIXTURES / f"{slug}.json").read_text())
+    return json.loads((FIXTURES / f"{slug}.json").read_text(encoding="utf-8"))
 
 
 def listings(*dollars: float) -> dict[str, Any]:

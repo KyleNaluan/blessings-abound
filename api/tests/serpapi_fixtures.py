@@ -56,4 +56,4 @@ ITEMS = {
 
 
 def load_comps(slug: str) -> list[Comp]:
-    return parse_comps(json.loads((FIXTURES / f"{slug}.json").read_text()))
+    return parse_comps(json.loads((FIXTURES / f"{slug}.json").read_text(encoding="utf-8")))
