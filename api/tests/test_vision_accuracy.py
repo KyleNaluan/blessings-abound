@@ -152,5 +152,5 @@ def test_every_label_says_who_wrote_it() -> None:
 def test_the_saved_results_match_the_cards_and_labels() -> None:
     results = run()
     hint = "Run `uv run python -m app.vision_accuracy` in api/ to rewrite the saved results."
-    assert results_json(results) == RESULTS_FILE.read_text(), hint
-    assert render_report(results) == REPORT_FILE.read_text(), hint
+    assert results_json(results) == RESULTS_FILE.read_text(encoding="utf-8"), hint
+    assert render_report(results) == REPORT_FILE.read_text(encoding="utf-8"), hint

@@ -329,8 +329,8 @@ def main() -> None:
         results = run()
     except EvaluationStopped as error:
         raise SystemExit(str(error)) from None
-    RESULTS_FILE.write_text(results_json(results))
-    REPORT_FILE.write_text(render_report(results))
+    RESULTS_FILE.write_text(results_json(results), encoding="utf-8", newline="\n")
+    REPORT_FILE.write_text(render_report(results), encoding="utf-8", newline="\n")
     for name, score in (
         ("Brand", results.brand),
         ("Category", results.category),

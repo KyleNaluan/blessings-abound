@@ -178,7 +178,9 @@ def _words(text: str) -> set[str]:
 
 def closest_fixture(query: str, condition: str) -> dict[str, Any]:
     """The committed response whose search shares the most words with this one."""
-    fixtures = {path.stem: json.loads(path.read_text()) for path in FIXTURES.glob("*.json")}
+    fixtures = {
+        path.stem: json.loads(path.read_text(encoding="utf-8")) for path in FIXTURES.glob("*.json")
+    }
 
     def score(name: str) -> tuple[int, bool, bool]:
         parameters = fixtures[name]["search_parameters"]

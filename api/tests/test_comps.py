@@ -32,7 +32,7 @@ NOW = datetime(2026, 11, 15, 12, tzinfo=UTC)
 
 
 def fixture(name: str) -> dict[str, Any]:
-    return json.loads((FIXTURES / f"{name}.json").read_text())
+    return json.loads((FIXTURES / f"{name}.json").read_text(encoding="utf-8"))
 
 
 class FakeSearch:

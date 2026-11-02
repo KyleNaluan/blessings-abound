@@ -192,8 +192,8 @@ def test_the_saved_results_match_what_the_code_produces(
     fresh = load_fresh_items()
     results = evaluate(items, fresh, session, SavedSearches())
     hint = "run `uv run python -m app.evaluate` in api/ and commit what changes"
-    assert results_json(results) == RESULTS_FILE.read_text(), hint
-    assert render_report(items, fresh, results) == REPORT_FILE.read_text(), hint
+    assert results_json(results) == RESULTS_FILE.read_text(encoding="utf-8"), hint
+    assert render_report(items, fresh, results) == REPORT_FILE.read_text(encoding="utf-8"), hint
 
 
 def _report_and_results(session: Session, monkeypatch: pytest.MonkeyPatch) -> tuple[str, Results]:
