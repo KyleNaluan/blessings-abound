@@ -1,0 +1,2389 @@
+[
+ {
+  "id": "nintendo-switch",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo Switch console",
+  "product_right": [
+   [
+    "switch"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+   "sha1": "7a839f998c8523628815f240e7c90512b4979b59",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "ps4",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Sony",
+  "brand_accepted": [
+   "Sony"
+  ],
+  "brand_near": [
+   "PlayStation",
+   "PS"
+  ],
+  "product": "PlayStation 4 console",
+  "product_right": [
+   [
+    "playstation 4"
+   ],
+   [
+    "ps4"
+   ]
+  ],
+  "product_near": [
+   [
+    "sony",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "ps1",
+   "psx",
+   "playstation 2",
+   "ps2",
+   "playstation 3",
+   "ps3",
+   "playstation 5",
+   "ps5",
+   "psp",
+   "vita"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "PS4-Console-wDS4.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PS4-Console-wDS4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:PS4-Console-wDS4.jpg",
+   "sha1": "8808cf9d47adb1646692eb8cf3dfdd27068d6465",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "xbox-360-s",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Microsoft",
+  "brand_accepted": [
+   "Microsoft"
+  ],
+  "brand_near": [
+   "Xbox"
+  ],
+  "product": "Xbox 360 console",
+  "product_right": [
+   [
+    "xbox 360"
+   ]
+  ],
+  "product_near": [
+   [
+    "xbox",
+    "console"
+   ],
+   [
+    "microsoft",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "xbox one",
+   "xbox series"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Xbox-360S-Console-Set.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Xbox-360S-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Xbox-360S-Console-Set.jpg",
+   "sha1": "ef8a1fcad99ed256ce100a4b8b230fb74dd36998",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "n64",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo 64 console",
+  "product_right": [
+   [
+    "nintendo 64"
+   ],
+   [
+    "n64"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-64-Console-FL.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Nintendo-64-Console-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-64-Console-FL.jpg",
+   "sha1": "afff2d3d20ebea2fbf10362de2714d3a1897d99f",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "nes",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo Entertainment System console",
+  "product_right": [
+   [
+    "nintendo entertainment system"
+   ],
+   [
+    "nes"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy",
+   "super"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "NES-Console-Set.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/NES-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:NES-Console-Set.jpg",
+   "sha1": "8d0cf0ec525cbd6ee1d38f2df5df29497455e61a",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "game-boy",
+  "kind": "handheld",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Game Boy",
+  "product_right": [
+   [
+    "game boy"
+   ],
+   [
+    "gameboy"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "handheld"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy",
+   "pocket"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Game-Boy-Original.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Game-Boy-Original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Game-Boy-Original.jpg",
+   "sha1": "aedadb6dd2e6d1ddf0f1a90264a11f50b2ff9a07",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "gba",
+  "kind": "handheld",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Game Boy Advance",
+  "product_right": [
+   [
+    "game boy advance"
+   ],
+   [
+    "gameboy advance"
+   ],
+   [
+    "gba"
+   ]
+  ],
+  "product_near": [
+   [
+    "game boy"
+   ],
+   [
+    "nintendo",
+    "handheld"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy color",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-Game-Boy-Advance-Milky-Blue-FL.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Nintendo-Game-Boy-Advance-Milky-Blue-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Milky-Blue-FL.jpg",
+   "sha1": "8126e48fabc3f8a17de0a90dbda21aa7d20b4bfa",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "ds-lite",
+  "kind": "handheld",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo DS Lite",
+  "product_right": [
+   [
+    "ds lite"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo ds"
+   ],
+   [
+    "nintendo",
+    "handheld"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-DS-Lite-Black-Open.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Nintendo-DS-Lite-Black-Open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Lite-Black-Open.jpg",
+   "sha1": "df752afc46cc92d1e7d6dd06e9dccd469ae94d86",
+   "license": "CC BY-SA 3.0",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "3ds-xl",
+  "kind": "handheld",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo 3DS XL",
+  "product_right": [
+   [
+    "3ds xl"
+   ]
+  ],
+  "product_near": [
+   [
+    "3ds"
+   ],
+   [
+    "nintendo",
+    "handheld"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-3DS-XL-angled.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Nintendo-3DS-XL-angled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-XL-angled.jpg",
+   "sha1": "64e9a4d0cc3b8d41bdb07e2350eac56eb2006910",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "2ds",
+  "kind": "handheld",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo 2DS",
+  "product_right": [
+   [
+    "2ds"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "handheld"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-2DS-angle.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nintendo-2DS-angle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-2DS-angle.jpg",
+   "sha1": "64231ab176b7706afdfb2e067cf9cc5dd6e47b07",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "game-gear",
+  "kind": "handheld",
+  "category": "electronics_games",
+  "brand": "Sega",
+  "brand_accepted": [
+   "Sega"
+  ],
+  "brand_near": [],
+  "product": "Sega Game Gear",
+  "product_right": [
+   [
+    "game gear"
+   ]
+  ],
+  "product_near": [
+   [
+    "sega",
+    "handheld"
+   ]
+  ],
+  "product_wrong": [
+   "genesis",
+   "mega drive",
+   "saturn",
+   "dreamcast",
+   "master system"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Game-Gear-Handheld.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Game-Gear-Handheld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Game-Gear-Handheld.jpg",
+   "sha1": "f95a703cc8cb53d3794d56edfd0f0a1000b3079e",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "n64-controller",
+  "kind": "controller",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo 64 controller",
+  "product_right": [
+   [
+    "nintendo 64",
+    "controller"
+   ],
+   [
+    "n64",
+    "controller"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "controller"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "N64-Controller-Gray.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/N64-Controller-Gray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg",
+   "sha1": "968380739b736b353285d9a4222ccfa0c1c47a3a",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "snes-controller",
+  "kind": "controller",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Super Nintendo controller",
+  "product_right": [
+   [
+    "super nintendo",
+    "controller"
+   ],
+   [
+    "super nintendo entertainment system",
+    "controller"
+   ],
+   [
+    "snes",
+    "controller"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "controller"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "SNES-Controller-Flat.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/SNES-Controller-Flat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:SNES-Controller-Flat.jpg",
+   "sha1": "54af0ca2984cd273cbd7b9fd1eca3a72b8de21da",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "nes-controller",
+  "kind": "controller",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "NES controller",
+  "product_right": [
+   [
+    "nes",
+    "controller"
+   ],
+   [
+    "nintendo entertainment system",
+    "controller"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "controller"
+   ]
+  ],
+  "product_wrong": [
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-Entertainment-System-NES-Controller-FL.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Nintendo-Entertainment-System-NES-Controller-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Entertainment-System-NES-Controller-FL.jpg",
+   "sha1": "8326ef703b18846cfc2cc7e3c17f40ab8125f580",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "switch-pro-controller",
+  "kind": "controller",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo Switch Pro Controller",
+  "product_right": [
+   [
+    "switch",
+    "pro controller"
+   ]
+  ],
+  "product_near": [
+   [
+    "switch",
+    "controller"
+   ],
+   [
+    "nintendo",
+    "controller"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-Switch-Pro-Controller-FL.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Pro-Controller-FL.jpg",
+   "sha1": "f9d00faeb7ff3fb7e84951ec1cc2e184c6f39fd5",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "dreamcast-controller",
+  "kind": "controller",
+  "category": "electronics_games",
+  "brand": "Sega",
+  "brand_accepted": [
+   "Sega"
+  ],
+  "brand_near": [],
+  "product": "Sega Dreamcast controller",
+  "product_right": [
+   [
+    "dreamcast",
+    "controller"
+   ]
+  ],
+  "product_near": [
+   [
+    "sega",
+    "controller"
+   ]
+  ],
+  "product_wrong": [
+   "genesis",
+   "mega drive",
+   "saturn",
+   "game gear",
+   "master system"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Sega-Dreamcast-Controller-FR.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sega-Dreamcast-Controller-FR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Sega-Dreamcast-Controller-FR.jpg",
+   "sha1": "ff66214866432f36f33549a67de4a9c072dcd779",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "wii-sports",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Wii Sports",
+  "product_right": [
+   [
+    "wii sports"
+   ]
+  ],
+  "product_near": [
+   [
+    "disc"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Disco Wii (davanti) - Wii Sports.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Disco_Wii_%28davanti%29_-_Wii_Sports.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Disco_Wii_(davanti)_-_Wii_Sports.JPG",
+   "sha1": "53e431366a20b9dcc0855446b259b4acc55a875a",
+   "license": "CC BY-SA 4.0",
+   "author": "Fede13052002"
+  }
+ },
+ {
+  "id": "sonic-knuckles",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Sega",
+  "brand_accepted": [
+   "Sega"
+  ],
+  "brand_near": [],
+  "product": "Sonic & Knuckles",
+  "product_right": [
+   [
+    "sonic knuckles"
+   ],
+   [
+    "sonic and knuckles"
+   ]
+  ],
+  "product_near": [
+   [
+    "sonic"
+   ],
+   [
+    "cartridge"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Sonic & Knuckles Genesis Cartridge.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sonic_%26_Knuckles_Genesis_Cartridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Sonic_%26_Knuckles_Genesis_Cartridge.jpg",
+   "sha1": "dc76457d69256fb5649783e15b08a95dc2fce156",
+   "license": "CC BY-SA 3.0",
+   "author": "Julien Jorge"
+  }
+ },
+ {
+  "id": "super-nes",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Super Nintendo console",
+  "product_right": [
+   [
+    "super nintendo"
+   ],
+   [
+    "super nintendo entertainment system"
+   ],
+   [
+    "snes"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-Super-NES-Console-101-FL.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Nintendo-Super-NES-Console-101-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Super-NES-Console-101-FL.jpg",
+   "sha1": "8a5cb3f3a3205bb20170e248e8dd8a8ec3fb9b32",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "genesis-model-2",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Sega",
+  "brand_accepted": [
+   "Sega"
+  ],
+  "brand_near": [],
+  "product": "Sega Genesis console",
+  "product_right": [
+   [
+    "genesis"
+   ],
+   [
+    "mega drive"
+   ]
+  ],
+  "product_near": [
+   [
+    "sega",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "saturn",
+   "dreamcast",
+   "game gear",
+   "master system"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Sega-Genesis-Mk2-Console-01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sega-Genesis-Mk2-Console-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-Console-01.jpg",
+   "sha1": "12626f0c96d98dbe287d9499199bf1ed6da0b13f",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "playstation",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Sony",
+  "brand_accepted": [
+   "Sony"
+  ],
+  "brand_near": [
+   "PlayStation",
+   "PS"
+  ],
+  "product": "PlayStation console",
+  "product_right": [
+   [
+    "playstation"
+   ],
+   [
+    "ps1"
+   ],
+   [
+    "psx"
+   ]
+  ],
+  "product_near": [
+   [
+    "sony",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "playstation 2",
+   "ps2",
+   "playstation 3",
+   "ps3",
+   "playstation 4",
+   "ps4",
+   "playstation 5",
+   "ps5",
+   "psp",
+   "vita"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "PSX-Console-wController.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/PSX-Console-wController.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:PSX-Console-wController.jpg",
+   "sha1": "3c0dbab7dbd2b6d42321bdc2162b75e8c406a685",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "ps2-slim",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Sony",
+  "brand_accepted": [
+   "Sony"
+  ],
+  "brand_near": [
+   "PlayStation",
+   "PS"
+  ],
+  "product": "PlayStation 2 console",
+  "product_right": [
+   [
+    "playstation 2"
+   ],
+   [
+    "ps2"
+   ]
+  ],
+  "product_near": [
+   [
+    "sony",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "ps1",
+   "psx",
+   "playstation 3",
+   "ps3",
+   "playstation 4",
+   "ps4",
+   "playstation 5",
+   "ps5",
+   "psp",
+   "vita"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "PS2-Slim-Console-Set.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/PS2-Slim-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:PS2-Slim-Console-Set.jpg",
+   "sha1": "1e0885f3df980bf0d3289003f3734aaa947fa880",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "gamecube",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo GameCube console",
+  "product_right": [
+   [
+    "gamecube"
+   ],
+   [
+    "game cube"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "GameCube-Set.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/GameCube-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:GameCube-Set.jpg",
+   "sha1": "3b981d45bc5db21f2e3e50b47af7f088c731dda3",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "wii",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo Wii console",
+  "product_right": [
+   [
+    "wii"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Wii-console.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Wii-console.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Wii-console.jpg",
+   "sha1": "d0f968377768174f5a6c0a556e971dd75772a723",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "game-boy-color",
+  "kind": "handheld",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Game Boy Color",
+  "product_right": [
+   [
+    "game boy color"
+   ],
+   [
+    "gameboy color"
+   ],
+   [
+    "gbc"
+   ]
+  ],
+  "product_near": [
+   [
+    "game boy"
+   ],
+   [
+    "nintendo",
+    "handheld"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo-Game-Boy-Color-FL.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Game-Boy-Color-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-FL.jpg",
+   "sha1": "c8ff74fe80bb4371842c1efe26d50f12a64b4d9a",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "psp-1000",
+  "kind": "handheld",
+  "category": "electronics_games",
+  "brand": "Sony",
+  "brand_accepted": [
+   "Sony"
+  ],
+  "brand_near": [
+   "PlayStation",
+   "PS"
+  ],
+  "product": "PSP handheld",
+  "product_right": [
+   [
+    "psp"
+   ],
+   [
+    "playstation portable"
+   ]
+  ],
+  "product_near": [
+   [
+    "sony",
+    "handheld"
+   ]
+  ],
+  "product_wrong": [
+   "ps1",
+   "psx",
+   "playstation 2",
+   "ps2",
+   "playstation 3",
+   "ps3",
+   "playstation 4",
+   "ps4",
+   "playstation 5",
+   "ps5",
+   "vita"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Psp-1000.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Psp-1000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Psp-1000.jpg",
+   "sha1": "24d57dd7036aeb9cd2c5c3f38f19259936baf01c",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "ps-vita",
+  "kind": "handheld",
+  "category": "electronics_games",
+  "brand": "Sony",
+  "brand_accepted": [
+   "Sony"
+  ],
+  "brand_near": [
+   "PlayStation",
+   "PS"
+  ],
+  "product": "PlayStation Vita",
+  "product_right": [
+   [
+    "vita"
+   ]
+  ],
+  "product_near": [
+   [
+    "sony",
+    "handheld"
+   ]
+  ],
+  "product_wrong": [
+   "ps1",
+   "psx",
+   "playstation 2",
+   "ps2",
+   "playstation 3",
+   "ps3",
+   "playstation 4",
+   "ps4",
+   "playstation 5",
+   "ps5",
+   "psp"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "PlayStation-Vita-1101-FL.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/PlayStation-Vita-1101-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:PlayStation-Vita-1101-FL.jpg",
+   "sha1": "e3c943f227affcc803ad274ffc2c4fd8ca6c5994",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "dualshock-2",
+  "kind": "controller",
+  "category": "electronics_games",
+  "brand": "Sony",
+  "brand_accepted": [
+   "Sony"
+  ],
+  "brand_near": [
+   "PlayStation",
+   "PS"
+  ],
+  "product": "PlayStation 2 DualShock 2 controller",
+  "product_right": [
+   [
+    "playstation 2",
+    "controller"
+   ],
+   [
+    "ps2",
+    "controller"
+   ],
+   [
+    "dualshock 2"
+   ]
+  ],
+  "product_near": [
+   [
+    "playstation",
+    "controller"
+   ],
+   [
+    "dualshock"
+   ],
+   [
+    "sony",
+    "controller"
+   ]
+  ],
+  "product_wrong": [
+   "ps1",
+   "psx",
+   "playstation 3",
+   "ps3",
+   "playstation 4",
+   "ps4",
+   "playstation 5",
+   "ps5",
+   "psp",
+   "vita"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "DualShock 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/DualShock_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:DualShock_2.jpg",
+   "sha1": "5823034105ff1d1a248ff87274cf3f21968b1185",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "xbox-360-controller",
+  "kind": "controller",
+  "category": "electronics_games",
+  "brand": "Microsoft",
+  "brand_accepted": [
+   "Microsoft"
+  ],
+  "brand_near": [
+   "Xbox"
+  ],
+  "product": "Xbox 360 controller",
+  "product_right": [
+   [
+    "xbox 360",
+    "controller"
+   ]
+  ],
+  "product_near": [
+   [
+    "xbox",
+    "controller"
+   ],
+   [
+    "microsoft",
+    "controller"
+   ]
+  ],
+  "product_wrong": [
+   "xbox one",
+   "xbox series"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Xbox-360-Controller-Black.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Xbox-360-Controller-Black.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Xbox-360-Controller-Black.jpg",
+   "sha1": "166791aaa9a5fec7af50094b8cb7ae38d274c07f",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "wii-remote",
+  "kind": "controller",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Wii Remote",
+  "product_right": [
+   [
+    "wii remote"
+   ],
+   [
+    "wiimote"
+   ]
+  ],
+  "product_near": [
+   [
+    "wii",
+    "controller"
+   ],
+   [
+    "nintendo",
+    "controller"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Wiimote-Safety-First.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Wiimote-Safety-First.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Wiimote-Safety-First.jpg",
+   "sha1": "6c52d04d524b55c93f478fdb816b17638669e470",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "legend-of-zelda",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "The Legend of Zelda",
+  "product_right": [
+   [
+    "zelda"
+   ]
+  ],
+  "product_near": [
+   [
+    "cartridge"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "The Legend of Zelda - Golden Catridge.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Legend_of_Zelda_-_Golden_Catridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Legend_of_Zelda_-_Golden_Catridge.jpg",
+   "sha1": "813d4a678f09b8080ae273441633eab069fe803d",
+   "license": "CC BY 2.0",
+   "author": "Dave or Atox"
+  }
+ },
+ {
+  "id": "pitfall",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Activision",
+  "brand_accepted": [
+   "Activision"
+  ],
+  "brand_near": [
+   "Guitar Hero"
+  ],
+  "product": "Pitfall!",
+  "product_right": [
+   [
+    "pitfall"
+   ]
+  ],
+  "product_near": [
+   [
+    "cartridge"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Cartucho de Atari 2600 del juego Pitfall.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Cartucho_de_Atari_2600_del_juego_Pitfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Cartucho_de_Atari_2600_del_juego_Pitfall.jpg",
+   "sha1": "94a85fbef68e0b9f1ecd44beb3770f8ae141e690",
+   "license": "CC BY-SA 4.0",
+   "author": "JoRgE-1987"
+  }
+ },
+ {
+  "id": "donkey-kong-coleco",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Coleco",
+  "brand_accepted": [
+   "Coleco",
+   "Nintendo"
+  ],
+  "brand_near": [],
+  "product": "Donkey Kong",
+  "product_right": [
+   [
+    "donkey kong"
+   ]
+  ],
+  "product_near": [
+   [
+    "cartridge"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Donkey Kong Cartridge.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Donkey_Kong_Cartridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Donkey_Kong_Cartridge.jpg",
+   "sha1": "98140a2df06e1b22cf475e172fbee6e63bec1e1d",
+   "license": "CC BY-SA 2.5 nl",
+   "author": "Onderwijsgek, cropped by another Commons user"
+  }
+ },
+ {
+  "id": "mario-kart-double-dash",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Mario Kart: Double Dash!!",
+  "product_right": [
+   [
+    "double dash"
+   ]
+  ],
+  "product_near": [
+   [
+    "mario kart"
+   ],
+   [
+    "disc"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Mario Kart Double Dash disc 20050606.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Mario_Kart_Double_Dash_disc_20050606.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Mario_Kart_Double_Dash_disc_20050606.jpg",
+   "sha1": "c9f0a0899728430ff9828d311ebd4ea063beb5d4",
+   "license": "CC BY-SA 3.0",
+   "author": "The original uploader was Schmitt at Portuguese Wikipedia."
+  }
+ },
+ {
+  "id": "super-smash-bros-melee",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Super Smash Bros. Melee",
+  "product_right": [
+   [
+    "smash bros"
+   ],
+   [
+    "super smash"
+   ]
+  ],
+  "product_near": [
+   [
+    "disc"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Super Smash Bros. Melee in a Gamecube.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Super_Smash_Bros._Melee_in_a_Gamecube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Super_Smash_Bros._Melee_in_a_Gamecube.jpg",
+   "sha1": "eedb72bdde3e7a7c27ee67f7b51abbac8c9e9e42",
+   "license": "CC BY-SA 4.0",
+   "author": "Maxime Lorant"
+  }
+ },
+ {
+  "id": "pokemon-black",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Pokemon Black",
+  "product_right": [
+   [
+    "pokemon",
+    "black"
+   ]
+  ],
+  "product_near": [
+   [
+    "pokemon"
+   ],
+   [
+    "card"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Pokémon Black Version Translucent Cartridge Demonstration.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Pok%C3%A9mon_Black_Version_Translucent_Cartridge_Demonstration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Pok%C3%A9mon_Black_Version_Translucent_Cartridge_Demonstration.jpg",
+   "sha1": "7dfdaf7cf977bb48e57de718e97ce1431e91c958",
+   "license": "CC BY-SA 4.0",
+   "author": "Peter Placzek"
+  }
+ },
+ {
+  "id": "pokemon-red",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Pokemon Red",
+  "product_right": [
+   [
+    "pokemon",
+    "red"
+   ]
+  ],
+  "product_near": [
+   [
+    "pokemon"
+   ],
+   [
+    "cartridge"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": false,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Cartucho Pokémon Edición Roja. Parte trasera.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Cartucho_Pok%C3%A9mon_Edici%C3%B3n_Roja._Parte_trasera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Cartucho_Pok%C3%A9mon_Edici%C3%B3n_Roja._Parte_trasera.jpg",
+   "sha1": "08a2feab9cbc3a7c1f74ccc810d5c4bd1ed508a7",
+   "license": "CC BY-SA 3.0",
+   "author": "MarianoBrajoy"
+  }
+ },
+ {
+  "id": "super-mario-bros",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Super Mario Bros.",
+  "product_right": [
+   [
+    "super mario bros"
+   ],
+   [
+    "super mario brothers"
+   ]
+  ],
+  "product_near": [
+   [
+    "cartridge"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": false,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Super Mario Bros Nintendo trasera.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Super_Mario_Bros_Nintendo_trasera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Super_Mario_Bros_Nintendo_trasera.jpg",
+   "sha1": "f2b68a4bf77d09986bc2fd7c0ce06bc656688e26",
+   "license": "CC BY-SA 4.0",
+   "author": "Emilio J. Rodríguez Posada"
+  }
+ },
+ {
+  "id": "tetris-game-boy",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Tetris",
+  "product_right": [
+   [
+    "tetris"
+   ]
+  ],
+  "product_near": [
+   [
+    "cartridge"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Game Boy with Tetris cartridge.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Game_Boy_with_Tetris_cartridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Game_Boy_with_Tetris_cartridge.jpg",
+   "sha1": "d99b858918069658b84595f6c8d609ac709f5edc",
+   "license": "CC0",
+   "author": "Studio Alijn"
+  }
+ },
+ {
+  "id": "super-mario-64",
+  "kind": "game",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Super Mario 64",
+  "product_right": [
+   [
+    "mario 64"
+   ]
+  ],
+  "product_near": [
+   [
+    "cartridge"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Nintendo 64 with a Mario 64 cartridge (7973388038).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Nintendo_64_with_a_Mario_64_cartridge_%287973388038%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintendo_64_with_a_Mario_64_cartridge_(7973388038).jpg",
+   "sha1": "a50e83458704b1046da568836d836a915dd43b8f",
+   "license": "CC BY 2.0",
+   "author": "Digital Game Museum"
+  }
+ },
+ {
+  "id": "neo-geo-aes",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "SNK",
+  "brand_accepted": [
+   "SNK"
+  ],
+  "brand_near": [
+   "Neo Geo"
+  ],
+  "product": "Neo Geo AES console",
+  "product_right": [
+   [
+    "neo geo"
+   ],
+   [
+    "neogeo"
+   ]
+  ],
+  "product_near": [
+   [
+    "snk",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "mini",
+   "cd",
+   "pocket"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Neo-Geo-AES-FL.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Neo-Geo-AES-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Neo-Geo-AES-FL.jpg",
+   "sha1": "fbde2ee688b46cce513df2210843610617d6289a",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "turbografx-16",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "NEC",
+  "brand_accepted": [
+   "NEC"
+  ],
+  "brand_near": [
+   "TurboGrafx"
+  ],
+  "product": "TurboGrafx-16 console",
+  "product_right": [
+   [
+    "turbografx"
+   ]
+  ],
+  "product_near": [
+   [
+    "nec",
+    "console"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "TurboGrafx16-Console-Set.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/TurboGrafx16-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:TurboGrafx16-Console-Set.jpg",
+   "sha1": "bdf5f54dec47cd4bc00e530296c96e339e8d5183",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "virtual-boy",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Nintendo Virtual Boy",
+  "product_right": [
+   [
+    "virtual boy"
+   ]
+  ],
+  "product_near": [
+   [
+    "nintendo",
+    "console"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Virtual-Boy-wController.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Virtual-Boy-wController.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Virtual-Boy-wController.jpg",
+   "sha1": "a64b78189d406dc7a7c8f39f074eb98deaa05c75",
+   "license": "Public domain",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "atari-jaguar",
+  "kind": "console",
+  "category": "electronics_games",
+  "brand": "Atari",
+  "brand_accepted": [
+   "Atari"
+  ],
+  "brand_near": [],
+  "product": "Atari Jaguar console",
+  "product_right": [
+   [
+    "jaguar"
+   ]
+  ],
+  "product_near": [
+   [
+    "atari",
+    "console"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Atari-Jaguar-Console-Set.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Atari-Jaguar-Console-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Atari-Jaguar-Console-Set.jpg",
+   "sha1": "6838bc1739488ddbca285eaff58909a5bffc902a",
+   "license": "CC BY-SA 3.0",
+   "author": "Evan-Amos"
+  }
+ },
+ {
+  "id": "wii-balance-board",
+  "kind": "accessory",
+  "category": "electronics_games",
+  "brand": "Nintendo",
+  "brand_accepted": [
+   "Nintendo"
+  ],
+  "brand_near": [
+   "Game Boy",
+   "Pokemon"
+  ],
+  "product": "Wii Balance Board",
+  "product_right": [
+   [
+    "balance board"
+   ],
+   [
+    "wii fit",
+    "board"
+   ]
+  ],
+  "product_near": [
+   [
+    "wii",
+    "board"
+   ]
+  ],
+  "product_wrong": [
+   "nes",
+   "nintendo entertainment system",
+   "super nintendo",
+   "snes",
+   "famicom",
+   "nintendo 64",
+   "n64",
+   "gamecube",
+   "wii u",
+   "switch",
+   "game boy",
+   "game boy color",
+   "game boy advance",
+   "gba",
+   "ds",
+   "ds lite",
+   "3ds",
+   "3ds xl",
+   "2ds",
+   "virtual boy"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "The Wii-Fit Board.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/The_Wii-Fit_Board.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Wii-Fit_Board.jpg",
+   "sha1": "7f39e1442a4c394c12648f497f9a3eb5bdeebc31",
+   "license": "CC BY-SA 2.0",
+   "author": "Ryo"
+  }
+ },
+ {
+  "id": "kinect-xbox-360",
+  "kind": "accessory",
+  "category": "electronics_games",
+  "brand": "Microsoft",
+  "brand_accepted": [
+   "Microsoft"
+  ],
+  "brand_near": [
+   "Xbox"
+  ],
+  "product": "Kinect sensor",
+  "product_right": [
+   [
+    "kinect"
+   ]
+  ],
+  "product_near": [
+   [
+    "xbox",
+    "sensor"
+   ]
+  ],
+  "product_wrong": [
+   "xbox one",
+   "xbox series"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Kinect sensor for Xbox 360 (2015-12-28 16.26.04 by Antonio Roberts).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kinect_sensor_for_Xbox_360_%282015-12-28_16.26.04_by_Antonio_Roberts%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Kinect_sensor_for_Xbox_360_(2015-12-28_16.26.04_by_Antonio_Roberts).jpg",
+   "sha1": "fe91452a25818da25361e039efcee92ed00b5fff",
+   "license": "CC BY-SA 2.0",
+   "author": "Antonio Roberts from Birmingham, Britain"
+  }
+ },
+ {
+  "id": "ps2-memory-card-red",
+  "kind": "accessory",
+  "category": "electronics_games",
+  "brand": "Sony",
+  "brand_accepted": [
+   "Sony"
+  ],
+  "brand_near": [
+   "PlayStation",
+   "PS"
+  ],
+  "product": "PlayStation 2 memory card",
+  "product_right": [
+   [
+    "playstation 2",
+    "memory card"
+   ],
+   [
+    "ps2",
+    "memory card"
+   ]
+  ],
+  "product_near": [
+   [
+    "memory card"
+   ]
+  ],
+  "product_wrong": [
+   "ps1",
+   "psx",
+   "playstation 3",
+   "ps3",
+   "playstation 4",
+   "ps4",
+   "playstation 5",
+   "ps5",
+   "psp",
+   "vita"
+  ],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "PlayStation 2 red Memory Card.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/PlayStation_2_red_Memory_Card.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:PlayStation_2_red_Memory_Card.JPG",
+   "sha1": "501f0abe5c4116efc6e9e235a693fd942672b4f6",
+   "license": "CC BY 4.0",
+   "author": "Santeri Viinamäki"
+  }
+ },
+ {
+  "id": "guitar-hero-les-paul",
+  "kind": "accessory",
+  "category": "electronics_games",
+  "brand": "Activision",
+  "brand_accepted": [
+   "Activision",
+   "RedOctane"
+  ],
+  "brand_near": [
+   "Guitar Hero"
+  ],
+  "product": "Guitar Hero guitar controller",
+  "product_right": [
+   [
+    "guitar hero"
+   ]
+  ],
+  "product_near": [
+   [
+    "guitar"
+   ]
+  ],
+  "product_wrong": [],
+  "photo_shows_identity": true,
+  "labelled_by": "AI coding agent, from the item's recorded identity",
+  "checked_by": null,
+  "photo": {
+   "file": "Guitar Hero 3 - black controller for Xbox 360.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Guitar_Hero_3_-_black_controller_for_Xbox_360.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Guitar_Hero_3_-_black_controller_for_Xbox_360.jpg",
+   "sha1": "c3c25e7d9da7255717b31d81987afa323ccea0c4",
+   "license": "Public domain",
+   "author": "Chipotlehero at English Wikipedia"
+  }
+ }
+]
