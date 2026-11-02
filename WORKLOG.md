@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-02, [#39](https://github.com/KyleNaluan/blessings-abound/issues/39), Label the 48 evaluation photos with brand, category and product, and score the saved item cards against them, with the person check of the labels still to do
 - 2026-11-01, [#11](https://github.com/KyleNaluan/blessings-abound/issues/11), Add 15 harder fresh games and hardware items, score them once with the rules frozen, and report each batch beside the total of 30
 - 2026-11-01, [#31](https://github.com/KyleNaluan/blessings-abound/issues/31), Refuse a session from before a temporary password was issued, answer a turned-off account the same as a wrong password, and keep the failed sign-in count in the database
 - 2026-11-01, [#22](https://github.com/KyleNaluan/blessings-abound/issues/22), Deploy the API to Render and write up the hosted demo, with a keep-alive ping, a wake checklist and an offline demo that needs no keys or network
