@@ -33,7 +33,6 @@ LABELS_FILE = EVAL_DIR / "vision_labels.json"
 RESULTS_FILE = EVAL_DIR / "vision_results.json"
 REPORT_FILE = Path(__file__).resolve().parents[2] / "docs" / "vision-accuracy.md"
 
-Kind = Literal["console", "handheld", "controller", "accessory", "game"]
 Outcome = Literal["correct", "near_miss", "wrong", "missing"]
 OUTCOMES: tuple[Outcome, ...] = ("correct", "near_miss", "wrong", "missing")
 
@@ -43,7 +42,6 @@ Terms = list[list[str]]
 
 class VisionLabel(_Strict):
     id: str
-    kind: Kind
     category: Category
     # None means the item has no brand anyone could name, and the accepted lists are then empty.
     brand: str | None
@@ -53,8 +51,6 @@ class VisionLabel(_Strict):
     product_right: Terms
     product_near: Terms
     product_wrong: list[str]
-    # False when the recorded note says the photo can't show what the item is, such as a back view.
-    photo_shows_identity: bool
     labelled_by: str
     checked_by: str | None
     photo: PhotoSource
@@ -62,10 +58,7 @@ class VisionLabel(_Strict):
 
 class ItemResult(_Strict):
     id: str
-    kind: Kind
-    photo_shows_identity: bool
     provider: str
-    model_confidence: str
     brand_label: str | None
     brand_read: str | None
     brand: Outcome
@@ -94,11 +87,6 @@ class VisionResults(_Strict):
     brand: Accuracy
     category: Accuracy
     product: Accuracy
-    product_where_the_photo_shows_it: Accuracy
-    product_by_kind: dict[Kind, Accuracy]
-    # Misreads the model marked high confidence, which staff would not be stopped to confirm.
-    brand_misread_at_high_confidence: int
-    product_misread_at_high_confidence: int
     items: list[ItemResult]
 
 
@@ -189,10 +177,7 @@ def score_item(label: VisionLabel, saved: SavedCard) -> ItemResult:
     read = product_text(card)
     return ItemResult(
         id=label.id,
-        kind=label.kind,
-        photo_shows_identity=label.photo_shows_identity,
         provider=saved.provider,
-        model_confidence=card.model_confidence.value,
         brand_label=label.brand,
         brand_read=card.brand,
         brand=score_brand(label, card.brand),
@@ -218,8 +203,6 @@ def accuracy(outcomes: Sequence[Outcome]) -> Accuracy:
 
 
 def summarize(labels: list[VisionLabel], rows: list[ItemResult]) -> VisionResults:
-    high = [row for row in rows if row.model_confidence == "high"]
-    kinds: tuple[Kind, ...] = ("console", "handheld", "controller", "accessory", "game")
     return VisionResults(
         labels=len(labels),
         labels_checked_by_a_person=sum(label.checked_by is not None for label in labels),
@@ -228,14 +211,6 @@ def summarize(labels: list[VisionLabel], rows: list[ItemResult]) -> VisionResult
         brand=accuracy([row.brand for row in rows]),
         category=accuracy([row.category for row in rows]),
         product=accuracy([row.product for row in rows]),
-        product_where_the_photo_shows_it=accuracy(
-            [row.product for row in rows if row.photo_shows_identity]
-        ),
-        product_by_kind={
-            kind: accuracy([row.product for row in rows if row.kind == kind]) for kind in kinds
-        },
-        brand_misread_at_high_confidence=sum(row.brand != "correct" for row in high),
-        product_misread_at_high_confidence=sum(row.product != "correct" for row in high),
         items=rows,
     )
 
@@ -275,7 +250,6 @@ def _cell(text: str | None) -> str:
 def render_report(results: VisionResults) -> str:
     """The results as Markdown, generated so that a change shows up in review."""
     providers = ", ".join(f"`{name}` {count}" for name, count in results.providers.items())
-    shown = results.product_where_the_photo_shows_it
     lines = [
         "# Vision accuracy",
         "",
@@ -296,16 +270,6 @@ def render_report(results: VisionResults) -> str:
         _row("Brand", results.brand),
         _row("Category", results.category),
         _row("Product", results.product),
-        _row("Product, where the photo shows it", shown),
-        "",
-        f"Cards the model marked high confidence and still misread: "
-        f"{results.brand_misread_at_high_confidence} on brand and "
-        f"{results.product_misread_at_high_confidence} on product, counting near misses.",
-        "",
-        "## Product by kind of item",
-        "",
-        *TABLE_HEAD,
-        *(_row(kind, score) for kind, score in results.product_by_kind.items()),
         "",
         "## How it is matched",
         "",
@@ -336,13 +300,12 @@ def render_report(results: VisionResults) -> str:
         "",
         "## Items",
         "",
-        "| Item | Kind | Model confidence | Brand label | Brand read | Brand | Product read "
-        "| Product |",
-        "| --- | --- | --- | --- | --- | --- | --- | --- |",
+        "| Item | Brand label | Brand read | Brand | Product read | Product |",
+        "| --- | --- | --- | --- | --- | --- |",
     ]
     for row in results.items:
         lines.append(
-            f"| {row.product_label} | {row.kind} | {row.model_confidence} "
+            f"| {row.product_label} "
             f"| {_cell(row.brand_label)} | {_cell(row.brand_read)} | {row.brand} "
             f"| {_cell(row.product_read)} | {row.product} |"
         )

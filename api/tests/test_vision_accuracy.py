@@ -35,7 +35,6 @@ PHOTO = PhotoSource(
 def label(**changes: Any) -> VisionLabel:
     values: dict[str, Any] = {
         "id": "game-boy",
-        "kind": "handheld",
         "category": Category.ELECTRONICS_GAMES,
         "brand": "Nintendo",
         "brand_accepted": ["Nintendo"],
@@ -44,7 +43,6 @@ def label(**changes: Any) -> VisionLabel:
         "product_right": [["game boy"]],
         "product_near": [["nintendo", "handheld"]],
         "product_wrong": ["game boy color"],
-        "photo_shows_identity": True,
         "labelled_by": "someone",
         "checked_by": None,
         "photo": PHOTO,
