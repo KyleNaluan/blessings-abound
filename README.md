@@ -144,6 +144,8 @@ The tests refuse to run against anything but a local database.
 
 A change to the pricing rules, the comp filter or the evaluation items makes a test fail until `uv run python -m app.evaluate` in `api/` rewrites [docs/evaluation.md](docs/evaluation.md), which spends no searches and needs no keys.
 
+A change to the saved cards, the vision labels or the item card prompt makes a test fail until `uv run python -m app.vision_accuracy` in `api/` rewrites [docs/vision-accuracy.md](docs/vision-accuracy.md), which makes no model calls and needs no keys.
+
 Web:
 
 ```sh

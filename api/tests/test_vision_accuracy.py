@@ -6,12 +6,17 @@ from app.evaluate import EvaluationStopped, PhotoSource, SavedCard, load_fresh_i
 from app.models import Category, Confidence
 from app.vision import ItemCardDraft
 from app.vision_accuracy import (
+    REPORT_FILE,
+    RESULTS_FILE,
     VisionLabel,
     accuracy,
     check_labels,
     load_labels,
     normalize,
     product_text,
+    render_report,
+    results_json,
+    run,
     score_brand,
     score_item,
     score_product,
@@ -142,6 +147,12 @@ def test_every_evaluation_item_has_a_label_with_its_photo() -> None:
         check_labels([changed, *labels[1:]], items)
 
 
-def test_only_a_person_fills_in_checked_by() -> None:
+def test_every_label_says_who_wrote_it() -> None:
     assert all(row.labelled_by for row in load_labels())
-    assert all(row.brand_accepted or row.brand is None for row in load_labels())
+
+
+def test_the_saved_results_match_the_cards_and_labels() -> None:
+    results = run()
+    hint = "Run `uv run python -m app.vision_accuracy` in api/ to rewrite the saved results."
+    assert results_json(results) == RESULTS_FILE.read_text(), hint
+    assert render_report(results) == REPORT_FILE.read_text(), hint

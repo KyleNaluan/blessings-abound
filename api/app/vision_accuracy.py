@@ -284,7 +284,8 @@ def render_report(results: VisionResults) -> str:
         "It measures reading the item, and [evaluation.md](evaluation.md) measures pricing.",
         "",
         f"**Labels checked by a person: {results.labels_checked_by_a_person} of {results.labels}.**"
-        " Treat these numbers as provisional until the rest are checked.",
+        " An AI coding agent wrote the labels from each item's recorded identity, so treat these "
+        "numbers as provisional until a person has checked the rest.",
         "",
         "**Not measured: apparel.** Every item here is games or hardware, so these results say "
         "nothing about reading clothing.",
@@ -319,6 +320,8 @@ def render_report(results: VisionResults) -> str:
         "- The items were chosen for pricing and need a price guide page, so they lean toward "
         "well known consoles and games, and aren't a random sample of donations.",
         "- With this few items, one or two cards move each number by a few points.",
+        "- The rule is strict about names in the brand field, so ColecoVision for Coleco counts as "
+        "wrong, and no label or rule changed after the first score, which `git log` shows.",
         "- The labels were written with the pricing report's card searches already public in "
         "[evaluation.md](evaluation.md), so the writer had seen some of what the model read, and "
         "the person check is what guards against that.",
