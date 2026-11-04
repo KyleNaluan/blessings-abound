@@ -13,7 +13,6 @@ from pydantic import BaseModel
 from sqlmodel import Session
 
 from app.ai import ChatModel
-from app.channels import ListingContent
 from app.claims import ListingFacts
 from app.comp_filter import ItemFacts, filter_comps, is_hardware
 from app.comps import (
@@ -56,39 +55,6 @@ def placeholder_photo_hash(item_id: UUID) -> str:
     # PLACEHOLDER: #9 replaces this with the real hash. It is unique per item until then, so the
     # duplicate guard in #37 can't match two placeholder rows against each other.
     return f"placeholder-{item_id.hex}"
-
-
-def placeholder_listing_content(card: ItemCard, price_cents: int) -> ListingContent:
-    """The listing a channel shows, built plainly from the item card.
-
-    PLACEHOLDER: #19 replaces this with a drafted title and description per channel, and #42 lets
-    the manager edit them and set the price and shipping before approving.
-    """
-    name = " ".join(part for part in (card.brand, card.product) if part) or card.search_query
-    details = {
-        "department": card.department.value if card.department else None,
-        "size_type": card.size_type,
-        "material": card.material,
-        "model": card.exact_model,
-        "platform": card.platform,
-        "accessories": card.accessories_included,
-    }
-    flaws = ", ".join(flaw.replace("_", " ") for flaw in card.flaws)
-    condition = card.condition.value.replace("_", " ").replace("pre owned", "pre-owned")
-    description = f"{name}, {condition}."
-    if flaws:
-        description += f" Flaws: {flaws}."
-    return ListingContent(
-        title=name[:80],
-        description=description,
-        category=card.category.value,
-        condition=card.condition.value,
-        price_cents=price_cents,
-        brand=card.brand,
-        size=card.size,
-        color=card.color,
-        specifics={key: value for key, value in details.items() if value},
-    )
 
 
 def draft_item_card(

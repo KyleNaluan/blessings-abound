@@ -1,52 +1,26 @@
-"""Listing an item on the sales channels, and the sale webhooks the channels send back.
+"""An item's listings on the sales channels, and the sale webhooks the channels send back.
 
-The manager route here, and app/publish_to_channels.py beside it, stand in for #42's approval
-screen, so a manager can publish an item for testing and the demo. #42 calls `publish_item` in
-app/sync.py the same way.
+Storing an approved item in app/approval.py publishes it, and the manager route here sends a
+refused or failed listing again, such as one whose channel was down for every try.
 """
 
-from collections.abc import Callable
 from datetime import datetime
 from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, BackgroundTasks, Depends, Header, HTTPException, Request, status
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict
 from sqlmodel import Session, col, select
 
-from app.appraisal import SessionDep, _get_item, _require_status
+from app.appraisal import SessionDep, _get_item  # pyright: ignore[reportPrivateUsage]
+from app.approval import publish_approved
 from app.auth import CurrentProfile, ManagerProfile
-from app.channels import ChannelError, Channels, get_channels
-from app.db import get_session_factory
-from app.models import (
-    Appraisal,
-    Channel,
-    Decision,
-    DecisionChoice,
-    ItemCard,
-    ItemStatus,
-    Listing,
-    ListingStatus,
-    Profile,
-    SaleSource,
-)
-from app.pipeline import placeholder_listing_content
-from app.sync import publish_item, record_sale, run_due_jobs, run_jobs
+from app.channels import ChannelError, ChannelsDep
+from app.db import SessionFactoryDep
+from app.models import Channel, Listing, ListingStatus, SaleSource
+from app.sync import record_sale, run_due_jobs, run_jobs
 
 router = APIRouter()
-
-ChannelsDep = Annotated[Channels, Depends(get_channels)]
-SessionFactoryDep = Annotated[Callable[[], Session], Depends(get_session_factory)]
-
-# An item can be listed once a yes decision stands, and listed on more channels after that.
-PUBLISHABLE = {ItemStatus.APPRAISED, ItemStatus.APPROVED, ItemStatus.LISTED}
-
-
-class PublishRequest(BaseModel):
-    # Every channel set up on this server when left out.
-    channels: list[Channel] | None = Field(default=None, min_length=1)
-    # The appraisal's typical price when left out.
-    price_cents: int | None = Field(default=None, gt=0)
 
 
 class ListingRead(BaseModel):
@@ -78,74 +52,23 @@ def _listings(session: Session, item_id: UUID) -> list[ListingRead]:
     return [ListingRead.of(row) for row in rows]
 
 
-def _price(session: Session, item_id: UUID, requested: int | None) -> int:
-    if requested is not None:
-        return requested
-    appraisal = session.exec(
-        select(Appraisal)
-        .where(Appraisal.item_id == item_id)
-        .order_by(col(Appraisal.created_at).desc())
-    ).first()
-    if appraisal is None or not appraisal.price_typical_cents:
-        raise HTTPException(
-            status.HTTP_422_UNPROCESSABLE_CONTENT,
-            "This item has no appraised price, so give a price to list it at.",
-        )
-    return appraisal.price_typical_cents
-
-
-def _require_yes(session: Session, item_id: UUID) -> None:
-    decision = session.exec(
-        select(Decision)
-        .where(Decision.item_id == item_id)
-        .order_by(col(Decision.decided_at).desc())
-    ).first()
-    if decision is None or decision.decision != DecisionChoice.YES:
-        raise HTTPException(
-            status.HTTP_409_CONFLICT, "Only an item with a yes decision can be listed."
-        )
-
-
-def publish_listings(
-    session: Session,
-    item_id: UUID,
-    request: PublishRequest,
-    manager: Profile,
-    channels: Channels,
-) -> list[ListingRead]:
-    """List the item on the channels for a manager, which the route and the script both do."""
-    item = _get_item(session, item_id)
-    # Locked, so two approvals at once can't both make listings.
-    session.refresh(item, with_for_update=True)
-    _require_status(item, PUBLISHABLE, "listed")
-    if item.status == ItemStatus.APPRAISED:
-        _require_yes(session, item_id)
-    names = request.channels or list(channels)
-    if not names:
-        raise HTTPException(
-            status.HTTP_503_SERVICE_UNAVAILABLE, "No sales channels are set up on this server."
-        )
-    card = session.get(ItemCard, item_id)
-    if card is None:
-        raise HTTPException(status.HTTP_409_CONFLICT, "This item has no card to list from.")
-    content = placeholder_listing_content(card, _price(session, item_id, request.price_cents))
-    job_ids = publish_item(session, item, dict.fromkeys(names, content), manager.auth_user_id)
-    session.commit()
-    # Publish now so the manager sees the result, and a channel that is down is retried later.
-    run_jobs(session, channels, job_ids=job_ids)
-    return _listings(session, item_id)
-
-
 @router.post("/items/{item_id}/listings", operation_id="publish_item")
 def publish(
-    item_id: UUID,
-    request: PublishRequest,
-    manager: ManagerProfile,
-    session: SessionDep,
-    channels: ChannelsDep,
+    item_id: UUID, _: ManagerProfile, session: SessionDep, channels: ChannelsDep
 ) -> list[ListingRead]:
-    """List the item on the channels, as #42's approval will. Managers only."""
-    return publish_listings(session, item_id, request, manager, channels)
+    """Send a stored item's approved listings to any channel it isn't on yet. Managers only.
+
+    The jobs run before the reply, so the manager sees what each channel said.
+    """
+    if not channels:
+        raise HTTPException(status.HTTP_409_CONFLICT, "No sales channel is set up on this server.")
+    item = _get_item(session, item_id)
+    # Locked, so two publishes at once can't both make listings.
+    session.refresh(item, with_for_update=True)
+    job_ids = publish_approved(session, item, channels)
+    session.commit()
+    run_jobs(session, channels, job_ids=job_ids)
+    return _listings(session, item_id)
 
 
 @router.get("/items/{item_id}/listings", operation_id="list_item_listings")

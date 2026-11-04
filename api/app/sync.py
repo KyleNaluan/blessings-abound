@@ -3,10 +3,11 @@
 The master record in Postgres is the truth, and a channel is changed only through a job in
 `jobs`, so a call that fails is tried again later instead of being lost. The flow is:
 
-- `publish_item` makes a pending listing and a publish job for each channel, which #42's manager
-  approval and the manager route in app/listings.py both call.
-- `record_sale` takes one order from a webhook or from polling, marks the item sold and queues an
-  end job for every other active listing of that item, or flags a double sale.
+- `publish_item` in app/jobs.py makes a pending listing and a publish job for each channel, which
+  the storage step in app/approval.py calls once an approved item has its shelf or bin.
+- `record_sale` takes one order from a webhook or from polling, marks the item sold with
+  `mark_sold`, which puts it on the pick list, and queues an end job for every other active
+  listing of that item, or flags a double sale.
 - `poll_channel` asks a channel for the orders the app hasn't acknowledged, which catches a
   webhook that never arrived, and checks its active listings against the master record.
 - `run_due_jobs` runs whatever is due, and app/scheduler.py calls it every few seconds.
@@ -16,9 +17,9 @@ with the shape in docs/database.md, for the Needs Attention screen in #43.
 """
 
 import logging
-from collections.abc import Callable, Iterable, Mapping
+from collections.abc import Callable, Iterable
 from dataclasses import dataclass
-from datetime import UTC, datetime, timedelta
+from datetime import datetime, timedelta
 from typing import Any
 from uuid import UUID, uuid4
 
@@ -26,6 +27,7 @@ import sqlalchemy as sa
 from sqlalchemy.dialects.postgresql import insert as pg_insert
 from sqlmodel import Session, col, select
 
+from app.approval import mark_sold
 from app.channels import (
     ChannelAdapter,
     ChannelError,
@@ -37,6 +39,7 @@ from app.channels import (
     ListingContent,
     ListingNotFoundError,
 )
+from app.jobs import queue_job, utc_now
 from app.listing_drafts import CHANNEL_NAMES
 from app.models import (
     Channel,
@@ -56,7 +59,6 @@ from app.models import (
 
 logger = logging.getLogger(__name__)
 
-MAX_ATTEMPTS = 10
 RETRY_BASE_SECONDS = 5
 RETRY_MAX_SECONDS = 300
 # Longer than any one channel call, so a job is never run twice at once.
@@ -65,10 +67,6 @@ LEASE_SECONDS = 60
 SOLD_STATUSES = {ItemStatus.SOLD, ItemStatus.PICKED}
 
 SessionFactory = Callable[[], Session]
-
-
-def utc_now() -> datetime:
-    return datetime.now(UTC)
 
 
 def retry_delay(attempts: int) -> timedelta:
@@ -117,12 +115,6 @@ def _resolve_flags(session: Session, conflict: ConflictKind, key: str, resolutio
     )
 
 
-def _queue(session: Session, kind: JobKind, now: datetime, **payload: str) -> Job:
-    job = Job(kind=kind, payload=payload, max_attempts=MAX_ATTEMPTS, run_after=now)
-    session.add(job)
-    return job
-
-
 def _label(channel: Channel) -> str:
     return CHANNEL_NAMES[channel]
 
@@ -132,57 +124,6 @@ def _title(listing: Listing) -> str:
 
 
 # Publishing
-
-
-def publish_item(
-    session: Session,
-    item: Item,
-    contents: Mapping[Channel, ListingContent],
-    approved_by: UUID,
-    now: datetime | None = None,
-) -> list[UUID]:
-    """Queue the item to be listed on each channel, and return the publish jobs to run.
-
-    A channel the item is already pending, active or sold on is left alone, so approving twice
-    makes no second listing. A refused or failed listing is tried again with the new content.
-    The caller commits, then runs the jobs with `run_jobs` or leaves them to the scheduler.
-    """
-    now = now or utc_now()
-    existing = {
-        listing.channel: listing
-        for listing in session.exec(select(Listing).where(Listing.item_id == item.id))
-    }
-    jobs = []
-    for channel, content in contents.items():
-        listing = existing.get(channel)
-        if listing is not None and listing.status not in (
-            ListingStatus.REJECTED,
-            ListingStatus.FAILED,
-        ):
-            continue
-        if listing is None:
-            listing = Listing(
-                item_id=item.id,
-                channel=channel,
-                price_cents=content.price_cents,
-                content={},
-                approved_by=approved_by,
-                approved_at=now,
-            )
-        listing.price_cents = content.price_cents
-        listing.content = content.model_dump(mode="json")
-        listing.status = ListingStatus.PENDING
-        listing.status_detail = None
-        listing.approved_by = approved_by
-        listing.approved_at = now
-        session.add(listing)
-        session.flush()
-        jobs.append(_queue(session, JobKind.PUBLISH_LISTING, now, listing_id=str(listing.id)))
-    if item.status == ItemStatus.APPRAISED:
-        item.status = ItemStatus.APPROVED
-        session.add(item)
-    session.flush()
-    return [job.id for job in jobs]
 
 
 def _publish(session: Session, job: Job, channels: Channels, now: datetime) -> None:
@@ -231,8 +172,8 @@ def _publish(session: Session, job: Job, channels: Channels, now: datetime) -> N
     )
     if item.status in SOLD_STATUSES:
         # It sold elsewhere while this channel was publishing, so take it straight back down.
-        _queue(session, JobKind.END_LISTING, now, listing_id=str(listing.id))
-    elif item.status in (ItemStatus.APPRAISED, ItemStatus.APPROVED):
+        queue_job(session, JobKind.END_LISTING, now, listing_id=str(listing.id))
+    elif item.status is ItemStatus.APPROVED:
         item.status = ItemStatus.LISTED
         session.add(item)
 
@@ -383,8 +324,10 @@ def record_sale(
     if item.status in SOLD_STATUSES:
         _flag_double_sale(session, item, listing, order, source)
         return
-    item.status = ItemStatus.SOLD
-    session.add(item)
+    if item.status is ItemStatus.APPROVED:
+        # It sold before the channel's answer to the publish came back, so it was listed.
+        item.status = ItemStatus.LISTED
+    mark_sold(session, item.id)
     others = session.exec(
         select(Listing).where(
             Listing.item_id == item.id,
@@ -394,7 +337,7 @@ def record_sale(
     )
     for other in others:
         if other.status == ListingStatus.ACTIVE:
-            _queue(session, JobKind.END_LISTING, now, listing_id=str(other.id))
+            queue_job(session, JobKind.END_LISTING, now, listing_id=str(other.id))
         # A pending publish sees the sold item and stops on its own.
 
 
@@ -510,7 +453,7 @@ def poll_channel(
         )
         if taking_down:
             message += " Turnstone is trying again to take it down."
-            _queue(session, JobKind.END_LISTING, now, listing_id=str(listing.id))
+            queue_job(session, JobKind.END_LISTING, now, listing_id=str(listing.id))
         result.flags += flag(
             session,
             ConflictKind.STALE_LISTING,

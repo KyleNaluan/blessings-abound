@@ -9,11 +9,11 @@ import hashlib
 import hmac
 from datetime import datetime
 from functools import lru_cache
-from typing import Any, Protocol
+from typing import Annotated, Any, Protocol
 from uuid import UUID
 
 import httpx2
-from fastapi import status
+from fastapi import Depends, status
 from pydantic import BaseModel, ValidationError
 
 from app.listing_drafts import CHANNEL_NAMES
@@ -207,3 +207,6 @@ def _configured_channels() -> tuple[ChannelAdapter, ...]:
 def get_channels() -> Channels:
     """The channels set up on this server, which may be none."""
     return {adapter.name: adapter for adapter in _configured_channels()}
+
+
+ChannelsDep = Annotated[Channels, Depends(get_channels)]

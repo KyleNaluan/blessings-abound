@@ -13,9 +13,11 @@ from sqlmodel import Session, col, select
 from app.appraisal import get_photo_storage
 from app.approval import PickListEntry, mark_sold, pick_order
 from app.auth import get_token_verifier
+from app.channels import MockChannelAdapter, get_channels
 from app.db import get_session
 from app.main import app
 from app.models import (
+    Channel,
     Decision,
     DecisionChoice,
     DraftState,
@@ -58,6 +60,11 @@ def client(session: Session, tmp_path: Path) -> Iterator[TestClient]:
     app.dependency_overrides[get_session] = lambda: session
     app.dependency_overrides[get_photo_storage] = lambda: LocalStorage(tmp_path)
     app.dependency_overrides[get_token_verifier] = lambda: StubVerifier(tokens)
+    # Both channels set up, at an address nothing answers, because no job runs in these tests.
+    app.dependency_overrides[get_channels] = lambda: {
+        channel: MockChannelAdapter.connect(channel, "http://channel.invalid", "key")
+        for channel in Channel
+    }
     model_replies()
     # Enough replies for every item a test drafts, Channel A then Channel B each time.
     use_drafter(*[draft_reply("Unisex Clothing"), draft_reply("Unisex")] * 6)
@@ -122,7 +129,10 @@ def set_status(session: Session, item_id: str, status: ItemStatus) -> None:
 
 
 def sold(session: Session, item_id: str) -> None:
-    """Publishing comes with #21, so the test lists the item by hand before the sale arrives."""
+    """No channel runs in these tests, so the test lists the item by hand before the sale.
+
+    tests/test_sync.py runs the channels, where a real sale calls `mark_sold` the same way.
+    """
     set_status(session, item_id, ItemStatus.LISTED)
     mark_sold(session, UUID(item_id))
     session.commit()
@@ -160,6 +170,8 @@ def test_the_whole_path_from_sent_on_to_picked(
 
     page = store(manager, item_id, location_code=" b12 - 2 ").json()
     assert page["location_code"] == "B12-2"
+    # Stored, so each listing waits for the scheduler to put it up on its channel.
+    assert [listing["channel_status"] for listing in page["listings"]] == ["pending"] * 2
     assert manager.get("/approvals").json()["awaiting_storage"] == []
     drafts = session.exec(select(ListingDraft).where(ListingDraft.item_id == UUID(item_id))).all()
     assert all(draft.reviewed_at is not None for draft in drafts)
@@ -447,6 +459,22 @@ def test_an_appraisal_with_no_typical_price_needs_a_price_for_each_channel(
     assert approve(manager, item_id).status_code == 200
 
 
+def test_storing_publishes_nothing_while_no_channel_is_set_up(
+    client: TestClient,
+    manager: TestClient,
+) -> None:
+    app.dependency_overrides[get_channels] = lambda: {}
+    item_id = approved_item(client, manager)
+
+    page = store(manager, item_id, location_code="A3").json()
+
+    assert page["status"] == "approved"
+    assert [listing["channel_status"] for listing in page["listings"]] == [None, None]
+    response = manager.post(f"/items/{item_id}/listings")
+    assert response.status_code == 409
+    assert response.json()["detail"] == "No sales channel is set up on this server."
+
+
 def test_an_item_with_a_later_release_month_is_held_and_keeps_it(
     client: TestClient,
     manager: TestClient,
@@ -469,6 +497,8 @@ def test_an_item_with_a_later_release_month_is_held_and_keeps_it(
 
     page = store(manager, item_id, location_code="C1").json()
     assert page["status"] == "held_for_season"
+    # It goes up on the channels when its season comes, not when it is stored.
+    assert [listing["channel_status"] for listing in page["listings"]] == [None, None]
     assert item_row(session, item_id).release_month == later
 
 
