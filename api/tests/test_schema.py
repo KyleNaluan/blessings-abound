@@ -94,7 +94,7 @@ def columns_named(connection: Connection, pattern: str) -> list[tuple[str, str, 
 
 def test_every_cents_column_is_a_whole_number_type(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_cents")
-    assert len(columns) == 4
+    assert len(columns) == 5
     assert {data_type for _, _, data_type in columns} == {"integer"}
 
 
@@ -114,12 +114,13 @@ def test_negative_cents_are_refused(connection: Connection, column: str) -> None
 def test_only_the_net_after_fees_may_be_negative(connection: Connection) -> None:
     item_id = add_item(connection, add_profile(connection))
     add_appraisal(connection, item_id, net_after_fees_cents=-204)
+    # A price a manager sets has to be above zero, which also keeps it from going negative.
     signed = {
         column
-        for _, column, _ in columns_named(connection, "%\\_cents")
+        for table, column, _ in columns_named(connection, "%\\_cents")
         if not connection.execute(
-            text("SELECT 1 FROM pg_constraint WHERE contype = 'c' AND conname = :name"),
-            {"name": f"ck_appraisals_{column}_non_negative"},
+            text("SELECT 1 FROM pg_constraint WHERE contype = 'c' AND conname = ANY(:names)"),
+            {"names": [f"ck_{table}_{column}_{rule}" for rule in ("non_negative", "positive")]},
         ).first()
     }
     assert signed == SIGNED_CENTS_COLUMNS
@@ -139,7 +140,7 @@ def test_price_range_must_be_ordered(connection: Connection) -> None:
 
 def test_every_time_column_carries_a_time_zone(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_at")
-    assert len(columns) == 16
+    assert len(columns) == 17
     assert {data_type for _, _, data_type in columns} == {"timestamp with time zone"}
 
 
@@ -380,3 +381,68 @@ def test_a_draft_awaiting_approval_records_who_sent_it(connection: Connection) -
     )
     with pytest.raises(IntegrityError, match="ck_listing_drafts_submitted_after_draft"):
         add_draft(connection, add_item(connection, lister), lister, state="awaiting_approval")
+
+
+SENT = {"submitted_at": "2026-11-03 12:00:00+00:00"}
+
+
+@pytest.mark.parametrize("state", ["approved", "rejected"])
+def test_a_reviewed_draft_records_which_manager_reviewed_it(
+    connection: Connection, state: str
+) -> None:
+    lister = add_profile(connection)
+    sent = SENT | {"submitted_by": lister, "state": state}
+    reviewed = {"reviewed_by": lister, "reviewed_at": "2026-11-04 12:00:00+00:00"}
+    add_draft(connection, add_item(connection, lister), lister, **sent, **reviewed)
+    with pytest.raises(IntegrityError, match="ck_listing_drafts_reviewed_after_approval"):
+        add_draft(connection, add_item(connection, lister), lister, **sent)
+
+
+def test_a_draft_still_waiting_has_no_reviewer(connection: Connection) -> None:
+    lister = add_profile(connection)
+    with pytest.raises(IntegrityError, match="ck_listing_drafts_reviewed_after_approval"):
+        add_draft(
+            connection,
+            add_item(connection, lister),
+            lister,
+            **SENT,
+            state="awaiting_approval",
+            submitted_by=lister,
+            reviewed_by=lister,
+            reviewed_at="2026-11-04 12:00:00+00:00",
+        )
+
+
+@pytest.mark.parametrize("cents", [0, -1])
+def test_a_price_override_is_above_zero(connection: Connection, cents: int) -> None:
+    lister = add_profile(connection)
+    with pytest.raises(IntegrityError, match="ck_listing_drafts_price_override_cents_positive"):
+        add_draft(connection, add_item(connection, lister), lister, price_override_cents=cents)
+
+
+@pytest.mark.parametrize(
+    ("values", "constraint"),
+    [
+        ({"release_month": "2027-01-15"}, "ck_items_release_month_first_day"),
+        ({"package_weight_oz": 0, "box_code": "8x6x4"}, "ck_items_package_weight_oz_positive"),
+        ({"package_weight_oz": 12.5}, "ck_items_package_weight_with_box"),
+        ({"box_code": "8x6x4"}, "ck_items_package_weight_with_box"),
+        ({"location_code": "A3"}, "ck_items_location_after_package"),
+    ],
+)
+def test_an_items_package_and_shelf_hang_together(
+    connection: Connection, values: dict[str, Any], constraint: str
+) -> None:
+    with pytest.raises(IntegrityError, match=constraint):
+        add_item(connection, add_profile(connection), **values)
+
+
+def test_an_item_can_be_packaged_shelved_and_held_to_a_month(connection: Connection) -> None:
+    add_item(
+        connection,
+        add_profile(connection),
+        release_month="2027-01-01",
+        package_weight_oz=12.5,
+        box_code="8x6x4",
+        location_code="A3",
+    )

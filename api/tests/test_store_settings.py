@@ -31,9 +31,12 @@ from tests.test_appraisal import (
     use_search,
 )
 
-MIGRATION = next(
-    (Path(__file__).parents[1] / "alembic" / "versions").glob("*_add_settings_table.py")
-)
+VERSIONS = Path(__file__).parents[1] / "alembic" / "versions"
+# Each migration that adds a section seeds a frozen copy of its default.
+SEEDING_MIGRATIONS = [
+    next(VERSIONS.glob("*_add_settings_table.py")),
+    next(VERSIONS.glob("*_add_manager_approval_and_storage.py")),
+]
 DEFAULTS = StoreSettings().model_dump(mode="json")
 SHIPPING = DEFAULTS["shipping_weight"]
 
@@ -44,6 +47,7 @@ SECTIONS = {
     "fees": "/settings/fees",
     "ask_to_sale": "/settings/ask-to-sale",
     "shipping_weight": "/settings/shipping-weight",
+    "channel_b_fees": "/settings/channel-b-fees",
 }
 CHANGED = {
     "box_sizes": {
@@ -58,7 +62,14 @@ CHANGED = {
     "fees": {"fee_rate": 0.15, "per_order_fee_cents": 30, "supplies_cents": 200},
     "ask_to_sale": {"apparel": 0.7, "electronics_games": 0.9},
     "shipping_weight": SHIPPING | {"max_length_plus_girth_in": 108},
+    "channel_b_fees": {
+        "fee_rate": 0.25,
+        "small_sale_fee_cents": 300,
+        "small_sale_below_cents": 2000,
+        "supplies_cents": 100,
+    },
 }
+CHANNEL_B = DEFAULTS["channel_b_fees"]
 
 
 @pytest.fixture
@@ -103,13 +114,17 @@ def test_a_manager_sees_every_section_at_its_default(client: TestClient) -> None
     assert all(section["updated_by_name"] is None for section in page.values())
 
 
-def test_the_migration_seeds_the_defaults() -> None:
-    spec = importlib.util.spec_from_file_location("settings_migration", MIGRATION)
-    assert spec is not None and spec.loader is not None
-    migration = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(migration)
-    assert migration.SEED == DEFAULTS
-    assert set(migration.SEED) == {key.value for key in SettingKey}
+def test_the_migrations_seed_the_defaults() -> None:
+    seeded: dict[str, Any] = {}
+    for path in SEEDING_MIGRATIONS:
+        spec = importlib.util.spec_from_file_location(path.stem, path)
+        assert spec is not None and spec.loader is not None
+        migration = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(migration)
+        assert not set(migration.SEED) & set(seeded)
+        seeded |= migration.SEED
+    assert seeded == DEFAULTS
+    assert set(seeded) == {key.value for key in SettingKey}
 
 
 def test_seeded_rows_read_as_the_defaults(session: Session) -> None:
@@ -194,6 +209,9 @@ def season(**changes: Any) -> dict[str, Any]:
         ("shipping_weight", SHIPPING | {"max_length_plus_girth_in": 50}, "16x12x8"),
         ("worth_listing", {"threshold_cents": 3000, "threshold": 1}, "Extra inputs"),
         ("fees", {"fee_rate": 0.1, "supplies_cents": 150}, "Field required"),
+        ("channel_b_fees", CHANNEL_B | {"fee_rate": -0.1}, "at least 0%"),
+        ("channel_b_fees", CHANNEL_B | {"small_sale_fee_cents": -1}, "below $0"),
+        ("channel_b_fees", CHANNEL_B | {"small_sale_below_cents": -1}, "below $0"),
     ],
 )
 def test_an_invalid_value_is_refused_with_a_clear_reason(

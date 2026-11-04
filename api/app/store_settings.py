@@ -5,6 +5,7 @@ row reads as its default, which is the value the migration seeded. Where each de
 in docs/settings.md.
 """
 
+import math
 from datetime import UTC, datetime
 from enum import StrEnum
 from itertools import pairwise
@@ -16,7 +17,7 @@ from sqlmodel import Session, col, select
 
 from app.auth import ManagerProfile
 from app.db import get_session
-from app.models import Category, Profile, SettingKey, StoreSetting
+from app.models import Category, Channel, Profile, SettingKey, StoreSetting
 from app.settings import PricingRules, get_settings
 
 router = APIRouter(prefix="/settings")
@@ -233,6 +234,41 @@ class Fees(Section):
             raise ValueError("The per-order fee and the supplies can't be below $0.")
         return self
 
+    def net_cents(self, price_cents: int) -> int:
+        """What a sale at this price leaves, the same sum as the worth-listing net."""
+        fee = round(price_cents * self.fee_rate)
+        return price_cents - fee - self.per_order_fee_cents - self.supplies_cents
+
+
+class ChannelBFees(Section):
+    """What a sale costs on Channel B, which charges a flat fee on a small sale and a share above.
+
+    The buyer pays for Channel B's prepaid shipping label, so only the supplies come on top.
+    """
+
+    fee_rate: float
+    small_sale_fee_cents: int
+    # A sale under this price pays the flat fee instead of the share.
+    small_sale_below_cents: int
+    supplies_cents: int
+
+    @model_validator(mode="after")
+    def check_fees(self) -> Self:
+        if not 0 <= self.fee_rate < 1:
+            raise ValueError("The fee rate has to be at least 0% and under 100%.")
+        if min(self.small_sale_fee_cents, self.small_sale_below_cents, self.supplies_cents) < 0:
+            raise ValueError(
+                "The flat fee, the small sale price and the supplies can't be below $0."
+            )
+        return self
+
+    def net_cents(self, price_cents: int) -> int:
+        if price_cents < self.small_sale_below_cents:
+            fee = self.small_sale_fee_cents
+        else:
+            fee = round(price_cents * self.fee_rate)
+        return price_cents - fee - self.supplies_cents
+
 
 MAX_ASK_TO_SALE = 2.0
 
@@ -281,6 +317,27 @@ class ShippingWeight(Section):
             )
         return self
 
+    def check_weight(self, weight_oz: float) -> None:
+        """Refuse a package weight the carrier won't take, with a sentence saying why."""
+        if weight_oz <= 0:
+            raise ValueError("Enter a package weight above 0 oz.")
+        if abs(weight_oz * 10 - round(weight_oz * 10)) > 1e-9:
+            raise ValueError("Weigh the package to the nearest tenth of an ounce.")
+        if weight_oz > self.max_weight_oz:
+            raise ValueError(
+                f"{weight_oz:g} oz is over the {self.max_weight_oz / 16:g} lb shipping limit."
+            )
+
+    def billed_weight_oz(self, weight_oz: float, box: BoxSize | None) -> float:
+        """The weight a label is priced by: the next tier or pound up, or the box's size weight."""
+        tier = next((tier for tier in self.ounce_tiers_oz if weight_oz <= tier), None)
+        billed = tier if tier is not None else math.ceil(weight_oz / 16) * 16
+        if box is not None and box.height_in is not None:
+            cubic_in = box.length_in * box.width_in * box.height_in
+            if cubic_in > self.dim_weight_min_cubic_in:
+                billed = max(billed, math.ceil(cubic_in / self.dim_weight_divisor) * 16)
+        return billed
+
 
 class StoreSettings(BaseModel):
     """Every section at once, which is how the sections are checked against each other.
@@ -310,6 +367,21 @@ class StoreSettings(BaseModel):
         dim_weight_min_cubic_in=1728,
         dim_weight_divisor=139,
     )
+    # Poshmark's published US fees, 20% from $15 and $2.95 below it, see docs/settings.md.
+    channel_b_fees: ChannelBFees = ChannelBFees(
+        fee_rate=0.2,
+        small_sale_fee_cents=295,
+        small_sale_below_cents=1500,
+        supplies_cents=_TUNED.supplies_cents,
+    )
+
+    def net_after_fees_cents(self, channel: Channel, price_cents: int) -> int:
+        """What a sale at this price leaves on this channel after its fees and the supplies."""
+        fees = self.fees if channel is Channel.CHANNEL_A else self.channel_b_fees
+        return fees.net_cents(price_cents)
+
+    def box(self, code: str) -> BoxSize | None:
+        return next((box for box in self.box_sizes.boxes if box.code == code), None)
 
     @model_validator(mode="after")
     def boxes_can_ship(self) -> Self:
@@ -379,6 +451,10 @@ class ShippingWeightRead(SectionRead[ShippingWeight]):
     pass
 
 
+class ChannelBFeesRead(SectionRead[ChannelBFees]):
+    pass
+
+
 class SettingsRead(BaseModel):
     box_sizes: BoxSizesRead
     seasonal_calendar: SeasonalCalendarRead
@@ -386,6 +462,7 @@ class SettingsRead(BaseModel):
     fees: FeesRead
     ask_to_sale: AskToSaleRead
     shipping_weight: ShippingWeightRead
+    channel_b_fees: ChannelBFeesRead
 
 
 class SectionUpdate[T: Section](BaseModel):
@@ -417,6 +494,10 @@ class AskToSaleUpdate(SectionUpdate[AskToSale]):
 
 
 class ShippingWeightUpdate(SectionUpdate[ShippingWeight]):
+    pass
+
+
+class ChannelBFeesUpdate(SectionUpdate[ChannelBFees]):
     pass
 
 
@@ -543,4 +624,12 @@ def save_shipping_weight(
     update: ShippingWeightUpdate, manager: ManagerProfile, session: SessionDep
 ) -> SettingsRead:
     _save(session, manager, SettingKey.SHIPPING_WEIGHT, update)
+    return _settings_page(session)
+
+
+@router.put("/channel-b-fees", operation_id="save_channel_b_fees")
+def save_channel_b_fees(
+    update: ChannelBFeesUpdate, manager: ManagerProfile, session: SessionDep
+) -> SettingsRead:
+    _save(session, manager, SettingKey.CHANNEL_B_FEES, update)
     return _settings_page(session)
