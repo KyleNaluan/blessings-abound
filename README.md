@@ -185,6 +185,7 @@ The tables are described in [docs/database.md](docs/database.md), which also cov
 The pricing pipeline is described in [docs/architecture.md](docs/architecture.md#pricing-pipeline), and an appraisal now runs it from the confirmed item card through the SerpApi comps lookup, the comp filter and the pricing functions.
 It needs a SerpApi key in `SERPAPI_API_KEY`, and without one an appraisal saves a "check" with no price.
 Tests never call SerpApi, because they read committed fixture responses instead and clear the key.
+A manager can change the worth-listing price, the fees and the ask-to-sale factors on the Settings page, which is described with its sources in [docs/settings.md](docs/settings.md).
 
 ## Contributing
 

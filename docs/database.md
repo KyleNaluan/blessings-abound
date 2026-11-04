@@ -133,6 +133,20 @@ Code reuses the newest row for a key while it is under 7 days old, and a refresh
 
 It has no foreign keys, because a response belongs to a search and not to an item.
 
+### `settings`
+
+One row per section of the Settings page, holding the values a manager can change without a code change, see [settings.md](settings.md).
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `key` | `varchar(32)` | Primary key, `box_sizes`, `seasonal_calendar`, `worth_listing`, `fees`, `ask_to_sale` or `shipping_weight` |
+| `value` | `jsonb` | Required, the section's values, checked by its model in `api/app/store_settings.py` on every write |
+| `updated_by` | `uuid` | Optional, references `profiles`, empty until a manager saves the section |
+| `updated_at` | `timestamptz` | Set by the database on insert, and by the API on each save, which checks it to refuse a save from a stale page |
+
+The migration seeds all six rows with the values the code used before, and a section with no row reads as those same values.
+The seed is a copy written into the migration, so a later change to the code's defaults doesn't change what an old migration does.
+
 ## Who may read or change what
 
 The website never talks to the database.
