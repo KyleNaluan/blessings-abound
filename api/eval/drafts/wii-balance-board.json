@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "e367d543a2bcf572431dcba68ca14dcf724691a756b5018dd212ba56515ffd51",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Wii Dance Pad White Plastic",
+    "description": "This is a pre-owned Nintendo Wii Dance Pad. The item is made of white plastic. There is no record of it being tested.",
+    "category": "Video Game Accessories"
+  },
+  "failure": null
+}

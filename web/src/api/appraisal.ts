@@ -7,6 +7,9 @@ export type ItemCardEdit = components['schemas']['ItemCardEdit']
 export type Appraisal = components['schemas']['AppraisalRead']
 export type DecisionChoice = components['schemas']['DecisionChoice']
 export type RecentDecision = components['schemas']['RecentDecision']
+export type ListingDraft = components['schemas']['ListingDraftRead']
+export type ListingDraftEdit = components['schemas']['ListingDraftEdit']
+export type Channel = components['schemas']['Channel']
 
 const UNREACHABLE = "We couldn't reach the API. Check your connection and try again."
 
@@ -71,4 +74,30 @@ export function saveDecision(itemId: string, appraisalId: string, decision: Deci
 
 export function listRecentDecisions() {
   return unwrap(api.GET('/decisions'))
+}
+
+// Drafts the listing for each channel the item's category allows. Asking again returns the same drafts.
+export function createListingDrafts(itemId: string) {
+  return unwrap(
+    api.POST('/items/{item_id}/drafts', {
+      params: { path: { item_id: itemId } },
+      // PLACEHOLDER: #20 sends the channels staff choose, and the API picks by category until then.
+      body: {},
+    }),
+  )
+}
+
+export function editListingDraft(itemId: string, channel: Channel, edit: ListingDraftEdit) {
+  return unwrap(
+    api.PATCH('/items/{item_id}/drafts/{channel}', {
+      params: { path: { item_id: itemId, channel } },
+      body: edit,
+    }),
+  )
+}
+
+export function submitListingDrafts(itemId: string) {
+  return unwrap(
+    api.POST('/items/{item_id}/drafts/submit', { params: { path: { item_id: itemId } } }),
+  )
 }

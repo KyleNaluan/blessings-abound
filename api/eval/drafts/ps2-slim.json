@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "e28cdc6f8f85885ea9725afb1c19ef7fd11158f16a3de0a5f66542587760f5cb",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Sony PlayStation 2 console and controller black plastic",
+    "description": "Pre-owned Sony PlayStation 2 console and controller made of plastic. The item is black. It reads \"SONY, PlayStation, PSP\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

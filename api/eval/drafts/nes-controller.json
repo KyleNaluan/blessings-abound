@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "5be1f06c74607ee586c173e1bb3f2341d4d90d55b2e50c584eab3970fcee86a9",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo NES Game Controller Grey",
+    "description": "Pre-owned Nintendo game controller for the NES console. The unit is grey in color. It reads \"Nintendo SELECT START B A\".",
+    "category": "Controllers & Attachments"
+  },
+  "failure": null
+}

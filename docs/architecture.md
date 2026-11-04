@@ -118,6 +118,38 @@ The photos were an Xbox 360 controller, a Game Boy Color, Levi's 501 jeans, an A
   Gemini answered HTTP 429 on 2 of 10 photos sent a few seconds apart, so its free quota is tight too.
 - `gemini-2.5-flash` returns HTTP 404 for new API keys, and `gemini-3.8-flash` and `gemini-flash-latest` timed out after 40 seconds, so the fallback uses `gemini-3.5-flash`.
 
+## Listing drafts
+
+After a yes decision, `POST /items/{id}/drafts` writes a title, description and category for each channel, `PATCH /items/{id}/drafts/{channel}` saves staff's edits, and `POST /items/{id}/drafts/submit` sends the drafts on to manager approval.
+Channel A takes every item and Channel B takes apparel only, which `listing_channels` in `api/app/pipeline.py` decides until #20 lets staff choose the channels.
+A draft is stored in `listing_drafts` with the state `draft`, and sending it sets `awaiting_approval`, which is the state the manager screen in #42 reads.
+
+The model is the same pair as the item card, Groq `qwen/qwen3.8-27b` with Gemini `gemini-3.5-flash` as the fallback, through `complete_json` in `api/app/ai.py`.
+It asks for a JSON object, retries a bad reply once on the same provider and falls back at once on an HTTP error.
+The prompt is `PROMPT` in `api/app/listing_drafts.py`, sent as one user message, and it holds:
+
+- a line on the channel, plain and searchable for Channel A and relaxed for Channel B,
+- the facts, which are the card's fields and the staff entries, leaving out anything nobody recorded,
+- rules that forbid any brand, number, size, condition, flaw, working or box claim the facts don't support, built per item, so an item tested as working may say so and one with no record may not,
+- the banned words, and
+- the JSON keys, with the channel's own categories to copy one from.
+
+The rule-based checker in `api/app/claims.py` reads the model's title and description apart, so a "not" in one can't excuse the other, and flags:
+
+- a banned word, such as rare, authentic, antique, vintage, mint or official, unless it is on the card,
+- a brand, system or product line the card doesn't name, where a product line counts for its maker, so "Switch" is fine on a Nintendo card,
+- a letter size, a size after the word "size", a fit such as slim or oversized, or a department, that the card doesn't give,
+- a number or number word that isn't on the card, and
+- a condition claim the card or staff entries don't support, such as new, sealed, tested, complete in box or a flaw, where a "not" or "no" up to three words before it in the same clause makes it a statement the card allows, except for grades such as "no flaws".
+
+Words in double quotes that are on the card, such as the text printed on the item, are read as a copy of the card and not as a claim, and the prompt asks the model to quote that text after "It reads".
+
+A flagged draft, or no usable reply from either model, falls back to the fixed template in `template_draft`, which only restates the card, and the stored row keeps the checker's flags so staff can see why.
+Staff can edit either one, and the API checks the text again on every read, so the item screen shows the flags as they stand and sending is refused while any remain.
+On the 48 evaluation items, which are all games and hardware for Channel A, 46 of the model's drafts passed the checker, 95.8%, measured once on 2026-11-03.
+The 2 flagged drafts said "sold as is" and "no record of it being tested", which the card doesn't say either.
+[listing-drafts.md](listing-drafts.md) has each draft and the limits of that sample.
+
 ## Database
 
 The tables, their constraints and who may reach them are described in [database.md](database.md).
@@ -203,6 +235,12 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Point the offline demo at a local stand-in for Supabase, the vision model and SerpApi rather than adding an offline switch to the app, so no setting in the deployed code can turn sign-in off.
 - 2026-11-01: Report the deployed commit on `/health` from Render's `RENDER_GIT_COMMIT`, so anyone can check from outside which commit is live.
 - 2026-11-02: Score vision accuracy from the saved evaluation cards rather than a new model run, because they came from the current prompt and providers and a rerun spends nothing, and count a near miss as wrong so the accuracy never gives partial credit, see [vision-accuracy.md](vision-accuracy.md).
+- 2026-11-03: Work out the claim checker's flags whenever a draft is read rather than storing them, and store only the flags that sent the model's draft to the template, because a staff edit or a card edit would leave stored flags out of date.
+- 2026-11-03: Allow a banned word or a claim when the card's own text has it, such as "vintage wash" in a product name, because the checker's job is to stop claims the card doesn't make, and refuse grades such as "mint" or "no flaws" even after a "not", because the card has no field for them.
+- 2026-11-03: Refuse to send drafts for approval while any of them has a flag, rather than warning, because a manager approving a flagged claim is the mistake the checker is there to stop, and staff can always reword or fall back to the template text.
+- 2026-11-03: Write a draft only for an item whose latest decision is yes, and draft a missing channel again rather than replacing one, so a lost response can be retried without overwriting staff's edits.
+- 2026-11-03: Share `complete_json` in `api/app/ai.py` between the item card and the drafts, so both retry and fall back the same way.
+- 2026-11-03: Read quoted words that are on the card as a copy of the card, and have the prompt quote the item's printed text, because the first live run passed 40 of 48 drafts, and 4 of its 7 flags came from the model describing that text with "includes" or "with" while the other 3 used "includes" for parts the card already names, so the prompt also bans "includes" when nothing extra was recorded.
 - 2026-11-03: Keep each Settings section's default in code and seed the migration with a frozen copy of it, so a section with no row reads the same as a fresh database, and a later change to the code can't change what an old migration does. A test fails when the two differ.
 - 2026-11-03: Make every field of a Settings section required on a save, rather than defaulted, so a save that leaves a field out is refused instead of quietly putting the starting value back.
 - 2026-11-03: Send the `updated_at` a Settings section was read with on each save and refuse it with a 409 when the row has changed since, so one manager's save can't undo another's. The API stamps the time itself, because `now()` is the same for every statement in a transaction.

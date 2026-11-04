@@ -156,6 +156,9 @@ A change to the pricing rules, the comp filter or the evaluation items makes a t
 
 A change to the saved cards, the vision labels or the item card prompt makes a test fail until `uv run python -m app.vision_accuracy` in `api/` rewrites [docs/vision-accuracy.md](docs/vision-accuracy.md), which makes no model calls and needs no keys.
 
+A change to the listing prompt, the claim checker or the saved drafts makes a test fail until `uv run python -m app.draft_eval` in `api/` rewrites [docs/listing-drafts.md](docs/listing-drafts.md), which makes no model calls and needs no keys.
+A prompt change also needs the drafts written again with `--write-drafts`, which uses the AI keys.
+
 Web:
 
 ```sh

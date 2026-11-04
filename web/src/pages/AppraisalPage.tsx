@@ -26,9 +26,10 @@ import {
 import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
 import { Field, SubmitButton, TextInput } from '@/components/site/form'
 import { SignOutButton } from '@/components/site/SignOutButton'
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
+
+import { ListingDrafts } from './ListingDrafts'
 
 const money = (cents: number | null | undefined) =>
   cents == null ? 'None' : `$${(cents / 100).toFixed(2)}`
@@ -161,6 +162,7 @@ export function AppraisalPage() {
   const [preview, setPreview] = useState<string | null>(null)
   const [recent, setRecent] = useState<RecentDecision[] | null>(null)
   const [recentError, setRecentError] = useState<string | null>(null)
+  const [listingSent, setListingSent] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
   const loadRecent = useCallback(
@@ -257,6 +259,7 @@ export function AppraisalPage() {
     setProgress(null)
     setPreview(null)
     setStatus({ step: 'idle' })
+    setListingSent(false)
     if (inputRef.current) inputRef.current.value = ''
   }
 
@@ -380,10 +383,19 @@ export function AppraisalPage() {
 
       {status.step === 'saved' && (
         <div className="mb-7">
-          <p role="status" className="mb-3 font-bold">
+          <p role="status" className="mb-7 font-bold">
             Saved your decision: {status.decision}.
           </p>
-          <Button size="lg" className="max-sm:w-full" onClick={startOver}>
+          {status.decision === 'yes' && progress?.item && (
+            <ListingDrafts itemId={progress.item.id} onSent={() => setListingSent(true)} />
+          )}
+          <Button
+            size="lg"
+            // The listing is the next step after a yes, until it has gone to a manager.
+            variant={status.decision === 'yes' && !listingSent ? 'outline' : 'default'}
+            className="max-sm:w-full"
+            onClick={startOver}
+          >
             Appraise another item
           </Button>
         </div>
@@ -401,9 +413,9 @@ export function AppraisalPage() {
               <li key={row.id} className="border-b border-rule py-3">
                 <div className="flex items-center justify-between gap-3">
                   <span className="min-w-0 font-bold break-words">{row.product ?? row.sku}</span>
-                  <Badge variant={row.decision === 'yes' ? 'default' : 'secondary'}>
-                    {row.decision}
-                  </Badge>
+                  <span className="flex-none font-bold">
+                    {row.decision === 'yes' ? 'Yes' : 'No'}
+                  </span>
                 </div>
                 <p className="text-sm text-muted-foreground">
                   {money(row.price_typical_cents)} typical, {row.decided_by_name},{' '}

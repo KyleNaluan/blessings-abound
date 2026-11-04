@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "14798928285c79971d564688d6d0353653f4b70a01209ace2e85d9cb1c41d8ae",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Game Boy game cartridge red plastic",
+    "description": "This pre-owned item is made of red plastic. It reads \"MADE IN JAPAN PAT. PEND.\"",
+    "category": "Video Games"
+  },
+  "failure": null
+}

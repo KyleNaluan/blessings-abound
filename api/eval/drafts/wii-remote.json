@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "8e720b14759984f017168fc24fb56a97d9a763c2764531b20e3a7580d52b15c0",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Wii Remote White Plastic Pre-owned",
+    "description": "Pre-owned Nintendo Wii Remote for the Wii console. The white plastic controller reads \"Wii, HOME\".",
+    "category": "Video Game Accessories"
+  },
+  "failure": null
+}

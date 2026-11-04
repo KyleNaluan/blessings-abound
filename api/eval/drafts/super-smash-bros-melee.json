@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "c09668544047b250e3beac9ffd733e8425d6589cb983d89cb822fb18886afc03",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Super Famicom Black Plastic Console Pre-owned",
+    "description": "This pre-owned Nintendo Super Famicom console is black and made of plastic. It reads \"SUPER FAMICOM, ATI, DO NOT TOUCH THE LENS\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

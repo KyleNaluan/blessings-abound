@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "a03ece6f11b47524abae1a3d03b51d2304398e576f5f9fc85f8c54017eb26806",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Mario Kart Double Dash Video Game for GameCube",
+    "description": "Pre-owned Nintendo video game. The platform is GameCube. It reads \"Mario Kart, Double Dash!!, Nintendo GameCube\".",
+    "category": "Video Games"
+  },
+  "failure": null
+}

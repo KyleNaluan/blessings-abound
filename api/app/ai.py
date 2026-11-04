@@ -6,11 +6,19 @@ takes over when the first one fails, see app/vision.py. Images go in as OpenAI-s
 parts, for example {"type": "image_url", "image_url": {"url": "data:image/jpeg;base64,..."}}.
 """
 
+import json
+import logging
+import re
+from collections.abc import Callable, Sequence
+from dataclasses import dataclass, field
 from typing import Any, Protocol
 
 import httpx2
+from pydantic import ValidationError
 
 from app.settings import Settings, get_settings
+
+logger = logging.getLogger(__name__)
 
 Message = dict[str, Any]
 
@@ -81,3 +89,69 @@ def get_fallback_chat_model(settings: Settings | None = None) -> ChatModel | Non
     if len(missing) == 3:
         return None
     raise AINotConfiguredError("set " + ", ".join(missing) + " to use the AI fallback provider")
+
+
+class ModelReplyError(RuntimeError):
+    """Every provider failed, with one line per attempt in `attempts`."""
+
+    def __init__(
+        self, attempts: list[str], summary: str = "could not get a usable reply from the model"
+    ) -> None:
+        super().__init__(f"{summary}: " + "; ".join(attempts))
+        self.attempts = attempts
+
+
+@dataclass
+class JsonReply[T]:
+    value: T
+    provider: str
+    # 1 for a first-try success, 2 after the retry.
+    attempts_on_provider: int
+    used_fallback: bool
+    failures: list[str] = field(default_factory=list)
+
+
+def strip_reply(reply: str) -> str:
+    """The JSON in a reply, without a think block or a markdown fence around it."""
+    text = re.sub(r"<think>.*?</think>", "", reply, flags=re.DOTALL).strip()
+    fenced = re.fullmatch(r"```(?:json)?\s*(.*?)\s*```", text, flags=re.DOTALL)
+    return fenced.group(1) if fenced else text
+
+
+def complete_json[T](
+    messages: list[Message],
+    providers: Sequence[ChatModel],
+    parse: Callable[[str], T],
+) -> JsonReply[T]:
+    """Ask each provider in order, giving each one a retry on a reply `parse` refuses.
+
+    A transport or HTTP error moves straight to the next provider, because a retry of the same
+    request would meet the same outage or rate limit.
+    """
+    failures: list[str] = []
+    for index, provider in enumerate(providers):
+        for attempt in (1, 2):
+            try:
+                reply = provider.complete(messages, json_mode=True)
+            except (httpx2.HTTPError, KeyError, IndexError, json.JSONDecodeError) as error:
+                failures.append(f"{provider.name} attempt {attempt}: {describe_error(error)}")
+                break
+            try:
+                value = parse(reply)
+            except (ValidationError, ValueError, TypeError) as error:
+                failures.append(
+                    f"{provider.name} attempt {attempt}: bad JSON ({describe_error(error)})"
+                )
+                continue
+            if failures:
+                logger.warning("the model needed more than one try: %s", "; ".join(failures))
+            return JsonReply(value, provider.name, attempt, index > 0, failures)
+    raise ModelReplyError(failures or ["no provider is configured"])
+
+
+def describe_error(error: Exception) -> str:
+    if isinstance(error, httpx2.HTTPStatusError):
+        return f"HTTP {error.response.status_code}"
+    if isinstance(error, ValidationError):
+        return f"{error.error_count()} validation errors"
+    return type(error).__name__

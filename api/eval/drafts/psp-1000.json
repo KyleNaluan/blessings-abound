@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "02ec688599c4d12f9b9281a10e2dfafa01bcd1853fa07e81e81565577f8a4bf6",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Sony PSP Handheld Game Console Black Plastic",
+    "description": "This pre-owned Sony PSP is a black handheld game console made of plastic. It reads \"SONY PSP\". The item is not complete in box.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

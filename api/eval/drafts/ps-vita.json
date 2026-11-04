@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "adb48b91342742676f964583563b57f865bf691c029f34af80fd2df17f02ef1f",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Sony PS Vita Handheld Console Black Plastic Pre-owned",
+    "description": "This is a pre-owned Sony PS Vita handheld console in black. The device is made of plastic. It reads \"SONY PS VITA SELECT START\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

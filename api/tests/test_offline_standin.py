@@ -1,10 +1,13 @@
 from pathlib import Path
-from uuid import UUID
+from uuid import UUID, uuid4
 
 import pytest
 from fastapi.testclient import TestClient
 
+from app.claims import ListingFacts, check_listing
 from app.comps import parse_comps
+from app.listing_drafts import build_messages, category_options, parse_draft
+from app.models import Channel, Condition, ItemCard
 from app.offline_standin import ITEM_CARD, PASSWORD, USERS, app, closest_fixture
 from app.supabase_auth import placeholder_email
 from app.vision import ItemCardDraft
@@ -62,6 +65,21 @@ def test_the_fixed_card_is_one_the_app_accepts() -> None:
     ItemCardDraft.model_validate(ITEM_CARD)
     answer = client.post("/v1/chat/completions", json={}).json()
     assert answer["choices"][0]["message"]["content"]
+
+
+@pytest.mark.parametrize(
+    ("channel", "category"), [(Channel.CHANNEL_A, "Unisex Clothing"), (Channel.CHANNEL_B, "Unisex")]
+)
+def test_the_fixed_listing_passes_the_checker(channel: Channel, category: str) -> None:
+    card = ItemCard(item_id=uuid4(), condition=Condition.PRE_OWNED, **ITEM_CARD)
+    facts = ListingFacts.from_card(card)
+    body = {"messages": build_messages(facts, channel)}
+    answer = client.post("/v1/chat/completions", json=body).json()
+    draft = parse_draft(
+        answer["choices"][0]["message"]["content"], category_options(channel, card.category)
+    )
+    assert draft.category == category
+    assert check_listing(draft.title, draft.description, facts) == []
 
 
 def test_a_search_gets_the_closest_fixture_with_real_comps() -> None:

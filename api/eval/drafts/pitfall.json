@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "c8117f99a4308d198eaa0ff5a863ff5a060939221b2024e70556a6a30383efe1",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Activision Pitfall Atari 2600 Game Cartridge Green Plastic",
+    "description": "This is a pre-owned Activision Pitfall video game cartridge for the Atari 2600. The green plastic item reads \"ACTIVISION PRESENTS PITFALL! (PITFALL HARRY'S JUNGLE ADVENTURE) For use with the Atari Video Computer System AX-018\".",
+    "category": "Video Games"
+  },
+  "failure": null
+}

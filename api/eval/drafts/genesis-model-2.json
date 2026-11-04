@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "7e743e70c349817984555b5b2f4353de9bc6df0c75303a7411a76001a911fd74",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Sega Genesis Game Console Black Plastic",
+    "description": "Pre-owned Sega Genesis game console in black plastic material. It reads \"GENESIS SEGA\". This item is for the Sega Genesis platform.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

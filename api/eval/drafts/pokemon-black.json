@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "d1e2c6abf12c1f37e65d1379187798d1638920b9b50deda6330bc9a4da96057a",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo DS Pokemon Black Version Game Cartridge Red Plastic",
+    "description": "Pre-owned Nintendo DS game cartridge for Pokemon Black Version. It is red plastic and reads \"NINTENDO DS, POKéMON BLACK VERSION, TWL-IRBO-EUR\".",
+    "category": "Video Games"
+  },
+  "failure": null
+}

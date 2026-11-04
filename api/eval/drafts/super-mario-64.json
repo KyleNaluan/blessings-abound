@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "47a35b20299cf495cba8b05dc67b397ca04dfbcee7fa4517038f8c347d87f824",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo 64 Game Console Grey Plastic Pre-owned",
+    "description": "This pre-owned Nintendo 64 game console is grey and made of plastic. It reads \"NINTENDO 64\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

@@ -96,6 +96,69 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/items/{item_id}/drafts': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** List Listing Drafts */
+    get: operations['list_listing_drafts']
+    put?: never
+    /**
+     * Create Listing Drafts
+     * @description Draft the listing for each channel that has none yet, and return all of the item's drafts.
+     *
+     *     A channel that already has a draft keeps it, so the screen can retry a lost response.
+     */
+    post: operations['create_listing_drafts']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/drafts/{channel}': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    /**
+     * Edit Listing Draft
+     * @description Save staff's changes, which the checker reads again like the model's draft.
+     */
+    patch: operations['edit_listing_draft']
+    trace?: never
+  }
+  '/items/{item_id}/drafts/submit': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Submit Listing Drafts
+     * @description Send every draft on to manager approval, once none of them has a flagged claim.
+     */
+    post: operations['submit_listing_drafts']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/auth/sign-in': {
     parameters: {
       query?: never
@@ -589,11 +652,30 @@ export interface components {
     ChangeRoleRequest: {
       role: components['schemas']['Role']
     }
+    /**
+     * Channel
+     * @description The two mock channels, named like their schemas: A is eBay-style, B is apparel only.
+     * @enum {string}
+     */
+    Channel: 'channel_a' | 'channel_b'
     /** ChoosePasswordRequest */
     ChoosePasswordRequest: {
       /** Password */
       password: string
     }
+    /** ClaimFlag */
+    ClaimFlag: {
+      rule: components['schemas']['ClaimRule']
+      /** Phrase */
+      phrase: string
+      /** Message */
+      message: string
+    }
+    /**
+     * ClaimRule
+     * @enum {string}
+     */
+    ClaimRule: 'banned_word' | 'brand' | 'size' | 'number' | 'condition'
     /**
      * Condition
      * @enum {string}
@@ -671,6 +753,26 @@ export interface components {
      * @enum {string}
      */
     Department: 'mens' | 'womens' | 'kids'
+    /**
+     * DraftRequest
+     * @description The request body for drafting, which carries no options yet.
+     */
+    DraftRequest: Record<string, never>
+    /**
+     * DraftSource
+     * @enum {string}
+     */
+    DraftSource: 'model' | 'template'
+    /**
+     * DraftState
+     * @enum {string}
+     */
+    DraftState: 'draft' | 'awaiting_approval'
+    /**
+     * FallbackReason
+     * @enum {string}
+     */
+    FallbackReason: 'flagged' | 'model_failed' | 'not_configured'
     /**
      * Fees
      * @description What a sale costs on Channel A, which is also what the worth-listing net subtracts.
@@ -867,6 +969,63 @@ export interface components {
       | 'listed'
       | 'sold'
       | 'picked'
+    /**
+     * ListingDraftEdit
+     * @description Staff's changes to one draft, where a field left out stays as it is.
+     */
+    ListingDraftEdit: {
+      /** Title */
+      title?: string | null
+      /** Description */
+      description?: string | null
+      /** Category */
+      category?: string | null
+    }
+    /** ListingDraftRead */
+    ListingDraftRead: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      channel: components['schemas']['Channel']
+      /** Title */
+      title: string
+      /** Description */
+      description: string
+      /** Category */
+      category: string
+      /** Category Options */
+      category_options: string[]
+      state: components['schemas']['DraftState']
+      source: components['schemas']['DraftSource']
+      fallback_reason: components['schemas']['FallbackReason'] | null
+      /** Model Name */
+      model_name: string | null
+      /** Model Flags */
+      model_flags: components['schemas']['ClaimFlag'][]
+      /** Flags */
+      flags: components['schemas']['ClaimFlag'][]
+      /** Staff Edited */
+      staff_edited: boolean
+      /** Submitted At */
+      submitted_at: string | null
+      /**
+       * Created At
+       * Format: date-time
+       */
+      created_at: string
+      /**
+       * Updated At
+       * Format: date-time
+       */
+      updated_at: string
+    }
     /**
      * PackageKind
      * @enum {string}
@@ -1260,6 +1419,139 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['RecentDecision'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_listing_drafts: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingDraftRead'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  create_listing_drafts: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['DraftRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingDraftRead'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  edit_listing_draft: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+        channel: components['schemas']['Channel']
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ListingDraftEdit']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingDraftRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  submit_listing_drafts: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingDraftRead'][]
         }
       }
       /** @description Validation Error */

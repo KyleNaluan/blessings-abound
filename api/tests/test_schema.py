@@ -16,6 +16,7 @@ TABLES = [
     "decisions",
     "comp_searches",
     "sign_in_attempts",
+    "listing_drafts",
     "settings",
     "alembic_version",
 ]
@@ -60,6 +61,24 @@ def add_card(connection: Connection, item_id: UUID, **values: Any) -> None:
         "condition": "pre_owned",
     }
     insert(connection, "item_cards", item_id=item_id, **(fields | values))
+
+
+def add_draft(connection: Connection, item_id: UUID, created_by: UUID, **values: Any) -> None:
+    fields = {
+        "channel": "channel_a",
+        "title": "Nike hoodie - Pre-owned",
+        "description": "Nike hoodie, pre-owned.",
+        "category": "Men's Clothing",
+        "source": "model",
+    }
+    insert(
+        connection,
+        "listing_drafts",
+        id=uuid4(),
+        item_id=item_id,
+        created_by=created_by,
+        **(fields | values),
+    )
 
 
 def columns_named(connection: Connection, pattern: str) -> list[tuple[str, str, str]]:
@@ -120,7 +139,7 @@ def test_price_range_must_be_ordered(connection: Connection) -> None:
 
 def test_every_time_column_carries_a_time_zone(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_at")
-    assert len(columns) == 13
+    assert len(columns) == 16
     assert {data_type for _, _, data_type in columns} == {"timestamp with time zone"}
 
 
@@ -320,3 +339,44 @@ def test_the_web_api_role_cannot_write(
     web_api_role()
     with pytest.raises(ProgrammingError, match="row-level security"):
         add_profile(connection)
+
+
+def test_an_item_has_one_draft_per_channel(connection: Connection) -> None:
+    lister = add_profile(connection)
+    item_id = add_item(connection, lister)
+    add_draft(connection, item_id, lister)
+    add_draft(connection, item_id, lister, channel="channel_b", category="Menswear")
+    with pytest.raises(IntegrityError, match="uq_listing_drafts_item_id_channel"):
+        add_draft(connection, item_id, lister)
+
+
+def test_a_draft_channel_must_be_known(connection: Connection) -> None:
+    lister = add_profile(connection)
+    with pytest.raises(IntegrityError, match="ck_listing_drafts_channel"):
+        add_draft(connection, add_item(connection, lister), lister, channel="channel_c")
+
+
+def test_a_template_draft_says_why_it_was_used(connection: Connection) -> None:
+    lister = add_profile(connection)
+    with pytest.raises(IntegrityError, match="ck_listing_drafts_fallback_reason_with_template"):
+        add_draft(connection, add_item(connection, lister), lister, source="template")
+
+
+def test_a_model_draft_has_no_fallback_reason(connection: Connection) -> None:
+    lister = add_profile(connection)
+    with pytest.raises(IntegrityError, match="ck_listing_drafts_fallback_reason_with_template"):
+        add_draft(connection, add_item(connection, lister), lister, fallback_reason="flagged")
+
+
+def test_a_draft_awaiting_approval_records_who_sent_it(connection: Connection) -> None:
+    lister = add_profile(connection)
+    add_draft(
+        connection,
+        add_item(connection, lister),
+        lister,
+        state="awaiting_approval",
+        submitted_by=lister,
+        submitted_at="2026-11-03 12:00:00+00:00",
+    )
+    with pytest.raises(IntegrityError, match="ck_listing_drafts_submitted_after_draft"):
+        add_draft(connection, add_item(connection, lister), lister, state="awaiting_approval")

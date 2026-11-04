@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "4ad6ec24b1938765934004c84240cb47e5e692124458f5947de2b143bddc338a",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Game Boy Advance Handheld Game Console Transparent Plastic",
+    "description": "This pre-owned Nintendo Game Boy Advance handheld game console is transparent plastic. It reads \"GAME BOY ADVANCE\". The platform is Game Boy Advance.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

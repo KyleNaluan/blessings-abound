@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "a584e426eea01ffe17d12a182a62d0c3e44045b4894c95241f313b7fd744c54a",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Wii Console White Plastic",
+    "description": "Pre-owned Nintendo Wii console in white. The device is made of plastic. It reads \"Wii\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

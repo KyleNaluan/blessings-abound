@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "af41ca8ce348d31c36ad469d2d03f7afe0203ca6175dd967c9af5e0810f4de02",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo DS Lite Black Handheld Console",
+    "description": "Pre-owned Nintendo DS Lite handheld console in black. Made of plastic. It reads \"START SELECT\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

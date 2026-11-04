@@ -6,6 +6,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 ## KyleNaluan
 
 - 2026-11-03, [#41](https://github.com/KyleNaluan/blessings-abound/issues/41), Add the manager-only Settings page and its `settings` table, seed the seasonal calendar and box sizes from published sources, and price appraisals from the saved worth-listing price, fees and ask-to-sale factors, with the timing hint and box dropdown left to #20 and #42
+- 2026-11-03, [#19](https://github.com/KyleNaluan/blessings-abound/issues/19), Draft the listing for each channel with the model, check it with the rule-based claim checker, fall back to the fixed template when flagged, and let staff edit and send it for manager approval
 - 2026-11-02, [#25](https://github.com/KyleNaluan/blessings-abound/issues/25), Follow the README from a fresh Windows clone: add the clone and Git steps, read and write files as UTF-8 so the evaluation tests pass on Windows, and check files out with LF line endings
 - 2026-11-02, [#39](https://github.com/KyleNaluan/blessings-abound/issues/39), Label the 48 evaluation photos with brand, category and product, and score the saved item cards against them, with the person check of the labels still to do
 - 2026-11-01, [#11](https://github.com/KyleNaluan/blessings-abound/issues/11), Add 15 harder fresh games and hardware items, score them once with the rules frozen, and report each batch beside the total of 30

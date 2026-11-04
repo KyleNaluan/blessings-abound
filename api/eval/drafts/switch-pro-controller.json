@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "ea799ce4891157f11b91edb0ab97305763aac22b59ef3916937c62d8f1d226ad",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Pro Controller for Nintendo Switch Black",
+    "description": "Pre-owned black plastic Nintendo Pro Controller for Nintendo Switch. It reads \"PRO CONTROLLER SWITCH\".",
+    "category": "Controllers & Attachments"
+  },
+  "failure": null
+}

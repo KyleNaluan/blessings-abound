@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "3f5e8c294133226d4373999ad3920fc98757417956ec39e72fc5133482803288",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Sega Sonic & Knuckles Game Cartridge for Genesis Black Plastic",
+    "description": "This pre-owned Sega Genesis game console cartridge is black and made of plastic. It reads \"SONIC & KNUCKLES\".",
+    "category": "Video Games"
+  },
+  "failure": null
+}

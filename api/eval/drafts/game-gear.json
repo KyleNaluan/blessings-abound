@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "5f374019634cad91c7bcb72634d5a99701d403cd85962073acfadfbe3219940c",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "SEGA Game Gear Handheld Game Console Black Plastic",
+    "description": "This is a pre-owned black plastic SEGA Game Gear handheld game console. It reads \"SEGA GAME GEAR PORTABLE VIDEO GAME SYSTEM\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

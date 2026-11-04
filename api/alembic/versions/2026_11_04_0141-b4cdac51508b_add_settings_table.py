@@ -1,7 +1,7 @@
 """Add the settings table and seed it with the values the code used before
 
 Revision ID: b4cdac51508b
-Revises: b81d5e3c7a02
+Revises: 6cb2a483974c
 Create Date: 2026-11-04 01:41:43.179927+00:00
 
 """
@@ -16,7 +16,7 @@ from alembic import op
 
 # revision identifiers, used by Alembic.
 revision: str = "b4cdac51508b"
-down_revision: str | Sequence[str] | None = "b81d5e3c7a02"
+down_revision: str | Sequence[str] | None = "6cb2a483974c"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 
