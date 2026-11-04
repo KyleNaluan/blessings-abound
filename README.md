@@ -190,6 +190,11 @@ It needs a SerpApi key in `SERPAPI_API_KEY`, and without one an appraisal saves 
 Tests never call SerpApi, because they read committed fixture responses instead and clear the key.
 A manager can change the worth-listing price, the fees and the ask-to-sale factors on the Settings page, which is described with its sources in [docs/settings.md](docs/settings.md).
 
+## Approval and the pick list
+
+A manager approves or rejects each item whose listings staff sent on, sets a price per channel, enters the package and the shelf or bin, and staff pull sold items from the pick list, as described in [docs/architecture.md](docs/architecture.md#manager-approval-and-storage).
+Sales come from the channels in #21, so until then nothing reaches the pick list outside the tests.
+
 ## Contributing
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) for the branch and review workflow and the project conventions.

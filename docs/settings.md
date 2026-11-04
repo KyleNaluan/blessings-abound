@@ -11,11 +11,12 @@ Each section is one row of the `settings` table, described in [database.md](data
 | Section | Read by | Starting value |
 | --- | --- | --- |
 | Worth listing | The worth-listing rule, step 9 of the [pricing pipeline](architecture.md#pricing-pipeline) | $30, the value the pipeline used before |
-| Fees | The net after fees beside the worth-listing rule | 13.6% plus $0.40 per order, and $1.50 for supplies, the values the pipeline used before |
+| Channel A fees | The net after fees beside the worth-listing rule, and Channel A's net on the approval page | 13.6% plus $0.40 per order, and $1.50 for supplies, the values the pipeline used before |
+| Channel B fees | Channel B's net on the approval page | 20% from $15 and a flat $2.95 below that, and $1.50 for supplies, see below |
 | Ask-to-sale factor | The price range, step 7 of the pricing pipeline | 0.645 for apparel and 0.94 for games and hardware, the values the pipeline used before |
 | Seasonal calendar | The channel timing hint, which is [#20](https://github.com/KyleNaluan/blessings-abound/issues/20) and not built yet | Written for this page, see below |
-| Box sizes | The box size dropdown, which is [#42](https://github.com/KyleNaluan/blessings-abound/issues/42) and not built yet | Written for this page, see below |
-| Shipping weight rules | The weight check in #42, and every saved box size, which has to fit under the size limit | USPS Ground Advantage's published rules |
+| Box sizes | The box size dropdown in the package step on the approval page, from [#42](https://github.com/KyleNaluan/blessings-abound/issues/42), and the order of the pick list | Written for this page, see below |
+| Shipping weight rules | The package weight check on the approval page, and every saved box size, which has to fit under the size limit | USPS Ground Advantage's published rules |
 
 The pricing values start from the numbers the pipeline was tuned with, so nothing about the price changes until a manager changes them.
 The evaluation in [evaluation.md](evaluation.md) always scores the values in code, and it ignores any change saved on this page.
@@ -26,18 +27,37 @@ The evaluation in [evaluation.md](evaluation.md) always scores the values in cod
 | --- | --- |
 | `GET /settings` | Every section, with who changed it last and when |
 | `PUT /settings/worth-listing` | Replaces the worth-listing price |
-| `PUT /settings/fees` | Replaces the fees |
+| `PUT /settings/fees` | Replaces the Channel A fees |
+| `PUT /settings/channel-b-fees` | Replaces the Channel B fees |
 | `PUT /settings/ask-to-sale` | Replaces both ask-to-sale factors |
 | `PUT /settings/seasonal-calendar` | Replaces the whole seasonal calendar |
 | `PUT /settings/box-sizes` | Replaces the whole box size list |
 | `PUT /settings/shipping-weight` | Replaces the shipping weight rules |
-| `GET /settings/box-sizes` | The box sizes as the dropdown in #42 will show them, each with the code it adds to the SKU |
+| `GET /settings/box-sizes` | The box sizes as the package step's dropdown shows them, each with the code it adds to the SKU |
 | `GET /settings/seasonal-calendar` | The seasonal calendar, for the timing hint in #20 |
 
 A save sends the whole section and the `updated_at` it was read with.
 When another manager saved the section in between, the save gets a 409 and changes nothing, so one manager can't quietly undo another's change.
 A save with a value the checks refuse gets a 422 with a sentence saying what to fix, and changes nothing.
 A save that leaves out a field is refused rather than filled in with a default.
+
+## Channel B fees
+
+Channel B charges a flat fee on a small sale and a share of the price on a larger one, and the buyer pays for the shipping label.
+The starting values are Poshmark's published US fees, quoted from Vendoo's [guide to Poshmark's selling fees](https://blog.vendoo.co/everything-you-need-to-know-about-poshmark-selling-fees), last updated on 2026-02-25:
+
+- "For items sold under $15, Poshmark fees are a flat rate of $2.95."
+- "The Poshmark selling fee is 20% of the sale price."
+- On whether the seller ships: "Yes, but the buyer pays the shipping cost."
+
+In plain words, a $12 sale leaves $9.05 before supplies, a $40 sale leaves $32, and the label costs the store nothing.
+The net on the approval page takes the fee and the supplies off the listing price, and leaves the label out.
+
+These choices are assumptions, labeled so the store can correct them:
+
+- The values come from a third-party guide, because Poshmark's own help page needs a browser to load, and the guide quotes the same two tiers as every other guide we found.
+- Channel B is Poshmark-style rather than Depop-style, see the [requirements](requirements.md), so a store that means Depop should change the fee rate and the flat fee.
+- The supplies are the same $1.50 as Channel A's, on the guess that the store packs both channels' orders with the same mailers and boxes.
 
 ## Seasonal calendar
 
@@ -75,7 +95,7 @@ These choices are assumptions, labeled so the store can correct them:
 
 ## Box sizes
 
-Each size is one a store can stock, and it is written the way it goes on the SKU in #42.
+Each size is one a store can stock, and it is written the way it goes on the SKU, after a space, such as `RT10272601 12x12x6`.
 A box is written length by width by height, with the longer side of the opening first, so the same box is always written the same way, and the page refuses an 8x10x4 with a message to write it as 10x8x4.
 A mailer is flat, so it is written width by length with no height.
 Every side is measured to the nearest quarter inch, every box has to fit under the shipping size limit, and the list has to keep at least one box.
@@ -90,6 +110,7 @@ Every side is measured to the nearest quarter inch, every box has to fit under t
 | 12x12x6 | Box | Uline [S-4932](https://www.uline.com/Product/Detail/S-4932/Corrugated-Boxes-200-Test/12-x-12-x-6-White-Corrugated-Boxes) |
 | 16x12x8 | Box | Uline [S-4235](https://www.uline.com/Product/Detail/S-4235/Corrugated-Boxes-200-Test/16-x-12-x-8-Corrugated-Boxes) |
 
+The approval page offers these sizes in this order, and the pick list groups sold items by box in the same order, so a manager can put the list in the order the boxes sit in the store.
 The pick of seven sizes is an assumption.
 The mailers cover folded clothing from a shirt up to a coat, and the boxes run from a game case up to a console, but the store's real stock of boxes should replace this list.
 
