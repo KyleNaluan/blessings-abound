@@ -991,8 +991,8 @@ def test_a_listed_item_gets_a_draft_for_each_channel_its_category_allows(
 
 def test_the_model_sees_the_card_and_the_channel(client: TestClient) -> None:
     drafter = use_drafter(draft_reply("Unisex Clothing"))
-    write_drafts(client, listed_item(client), channels=["channel_a"])
-    (messages,) = drafter.calls
+    write_drafts(client, listed_item(client))
+    messages = drafter.calls[0]
     prompt = str(messages[0]["content"])
     assert "Channel A" in prompt
     assert "- Brand: Carhartt" in prompt
@@ -1003,21 +1003,11 @@ def test_the_model_sees_the_card_and_the_channel(client: TestClient) -> None:
 def test_drafting_again_keeps_the_drafts_already_written(client: TestClient) -> None:
     item_id = listed_item(client)
     drafter = use_drafter(draft_reply("Unisex Clothing"), draft_reply("Unisex"))
-    first = write_drafts(client, item_id, channels=["channel_a"])
-    both = write_drafts(client, item_id)
-    assert both[0] == first[0]
-    assert [draft["channel"] for draft in both] == ["channel_a", "channel_b"]
+    first = write_drafts(client, item_id)
+    assert [draft["channel"] for draft in first] == ["channel_a", "channel_b"]
     assert len(drafter.calls) == 2
-    assert write_drafts(client, item_id) == both
+    assert write_drafts(client, item_id) == first
     assert len(drafter.calls) == 2
-
-
-def test_a_channel_that_does_not_take_the_category_is_refused(client: TestClient) -> None:
-    model_replies(category="electronics_games", product="Switch Lite")
-    item_id = listed_item(client)
-    response = client.post(f"/items/{item_id}/drafts", json={"channels": ["channel_b"]})
-    assert response.status_code == 422
-    assert response.json()["detail"] == "Channel B doesn't take electronics and games."
 
 
 def test_a_game_gets_only_a_channel_a_draft(client: TestClient) -> None:
@@ -1037,44 +1027,45 @@ def test_a_game_gets_only_a_channel_a_draft(client: TestClient) -> None:
     ]
 
 
-def test_a_flagged_model_draft_falls_back_to_the_template(
-    client: TestClient, session: Session
-) -> None:
+def test_a_flagged_model_draft_falls_back_to_the_template(client: TestClient) -> None:
     use_drafter(draft_reply("Unisex Clothing", title="Rare vintage Carhartt jacket, size L"))
     item_id = listed_item(client)
-    (draft,) = write_drafts(client, item_id, channels=["channel_a"])
+    drafts = write_drafts(client, item_id)
+    draft = next(draft for draft in drafts if draft["channel"] == "channel_a")
 
     assert draft["source"] == "template"
     assert draft["fallback_reason"] == "flagged"
     assert draft["title"] == "Carhartt canvas jacket, Brown - Pre-owned"
     assert draft["flags"] == []
     assert {flag["phrase"] for flag in draft["model_flags"]} >= {"rare", "vintage", "L"}
-    saved = session.exec(select(ListingDraft)).one()
-    assert saved.model_draft is not None
-    assert saved.model_draft["title"] == "Rare vintage Carhartt jacket, size L"
 
 
 def test_a_model_that_fails_leaves_the_template(client: TestClient) -> None:
     use_drafter(500)
-    (draft,) = write_drafts(client, listed_item(client), channels=["channel_a"])
-    assert draft["source"] == "template"
-    assert draft["fallback_reason"] == "model_failed"
-    assert draft["model_name"] is None
+    drafts = write_drafts(client, listed_item(client))
+    for draft in drafts:
+        assert draft["source"] == "template"
+        assert draft["fallback_reason"] == "model_failed"
+        assert draft["model_name"] is None
 
 
 def test_a_reply_with_a_category_off_the_list_is_retried(client: TestClient) -> None:
-    drafter = use_drafter(draft_reply("Jackets"), draft_reply("Unisex Clothing"))
-    (draft,) = write_drafts(client, listed_item(client), channels=["channel_a"])
+    drafter = use_drafter(
+        draft_reply("Jackets"), draft_reply("Unisex Clothing"), draft_reply("Unisex")
+    )
+    drafts = write_drafts(client, listed_item(client))
+    draft = next(draft for draft in drafts if draft["channel"] == "channel_a")
     assert draft["source"] == "model"
     assert draft["category"] == "Unisex Clothing"
-    assert len(drafter.calls) == 2
+    assert len(drafter.calls) == 3
 
 
 def test_a_server_without_a_model_writes_the_template(client: TestClient) -> None:
     app.dependency_overrides[get_draft_providers] = lambda: []
-    (draft,) = write_drafts(client, listed_item(client), channels=["channel_a"])
-    assert draft["source"] == "template"
-    assert draft["fallback_reason"] == "not_configured"
+    drafts = write_drafts(client, listed_item(client))
+    for draft in drafts:
+        assert draft["source"] == "template"
+        assert draft["fallback_reason"] == "not_configured"
 
 
 def test_drafting_needs_a_yes_decision(client: TestClient) -> None:
@@ -1135,8 +1126,9 @@ def test_an_edit_must_keep_a_valid_draft(client: TestClient, changes: dict[str, 
 
 
 def test_editing_a_channel_without_a_draft_is_not_found(client: TestClient) -> None:
+    model_replies(category="electronics_games", brand="Nintendo", product="Switch Lite console")
     item_id = listed_item(client)
-    write_drafts(client, item_id, channels=["channel_a"])
+    write_drafts(client, item_id)
     response = edit_draft(client, item_id, "channel_b", title="Carhartt jacket")
     assert response.status_code == 404
     assert response.json()["detail"] == "This item has no draft for Channel B."

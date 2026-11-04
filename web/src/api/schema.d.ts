@@ -560,12 +560,9 @@ export interface components {
     Department: 'mens' | 'womens' | 'kids'
     /**
      * DraftRequest
-     * @description The channels to draft for, which default to the ones the item's category allows.
+     * @description The request body for drafting, which carries no options yet.
      */
-    DraftRequest: {
-      /** Channels */
-      channels?: components['schemas']['Channel'][] | null
-    }
+    DraftRequest: Record<string, never>
     /**
      * DraftSource
      * @enum {string}

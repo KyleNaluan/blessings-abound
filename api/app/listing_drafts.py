@@ -338,7 +338,6 @@ class DraftResult:
     source: DraftSource
     fallback_reason: FallbackReason | None
     model_name: str | None = None
-    model_draft: DraftText | None = None
     model_flags: list[ClaimFlag] = field(default_factory=list)
 
 
@@ -367,7 +366,6 @@ def write_draft(
             DraftSource.TEMPLATE,
             FallbackReason.FLAGGED,
             model_name=reply.provider,
-            model_draft=draft,
             model_flags=flags,
         )
-    return DraftResult(draft, DraftSource.MODEL, None, model_name=reply.provider, model_draft=draft)
+    return DraftResult(draft, DraftSource.MODEL, None, model_name=reply.provider)

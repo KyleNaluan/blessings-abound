@@ -79,7 +79,6 @@ def upgrade() -> None:
             nullable=True,
         ),
         sa.Column("model_name", sa.Text(), nullable=True),
-        sa.Column("model_draft", postgresql.JSONB(astext_type=sa.Text()), nullable=True),
         sa.Column(
             "model_flags",
             postgresql.JSONB(astext_type=sa.Text()),

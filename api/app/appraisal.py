@@ -25,12 +25,10 @@ from app.claims import ClaimFlag, ListingFacts, check_listing
 from app.comps import EbaySearch, serpapi_ebay_search
 from app.db import get_session
 from app.listing_drafts import (
-    CATEGORY_LABELS,
     CHANNEL_NAMES,
     DESCRIPTION_MAX,
     TITLE_MAX,
     category_options,
-    channel_takes,
 )
 from app.models import (
     Appraisal,
@@ -251,11 +249,9 @@ class RecentDecision(BaseModel):
 
 
 class DraftRequest(BaseModel):
-    """The channels to draft for, which default to the ones the item's category allows."""
+    """The request body for drafting, which carries no options yet."""
 
     model_config = ConfigDict(extra="forbid")
-
-    channels: list[Channel] | None = None
 
 
 class ListingDraftRead(BaseModel):
@@ -572,13 +568,7 @@ def create_listing_drafts(
     """
     item = _get_item(session, item_id)
     card = _require_listing(session, item, "listed")
-    channels = list(dict.fromkeys(request.channels or listing_channels(card.category)))
-    for channel in channels:
-        if not channel_takes(channel, card.category):
-            raise HTTPException(
-                status.HTTP_422_UNPROCESSABLE_CONTENT,
-                f"{CHANNEL_NAMES[channel]} doesn't take {CATEGORY_LABELS[card.category].lower()}.",
-            )
+    channels = listing_channels(card.category)
     drafted = {draft.channel for draft in _item_drafts(session, item_id)}
     missing = [channel for channel in channels if channel not in drafted]
     if missing:
@@ -605,7 +595,6 @@ def create_listing_drafts(
                     source=result.source,
                     fallback_reason=result.fallback_reason,
                     model_name=result.model_name,
-                    model_draft=result.model_draft.model_dump() if result.model_draft else None,
                     model_flags=[flag.model_dump(mode="json") for flag in result.model_flags],
                     created_by=profile.auth_user_id,
                 )

@@ -410,8 +410,6 @@ class ListingDraft(SQLModel, table=True):
     )
     # The provider that answered, even when its draft was flagged.
     model_name: str | None = Field(default=None, sa_type=sa.Text)
-    # The model's own title, description and category, kept when its draft was flagged too.
-    model_draft: dict[str, Any] | None = Field(default=None, sa_column=sa.Column(JSONB))
     # The checker's flags on the model's draft, which are why a flagged draft became the template.
     model_flags: list[dict[str, Any]] = Field(
         default_factory=list,
