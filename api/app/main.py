@@ -9,6 +9,7 @@ from sqlmodel import Session
 
 from app.accounts import router as accounts_router
 from app.appraisal import router as appraisal_router
+from app.approval import router as approval_router
 from app.db import get_session
 from app.settings import get_settings
 from app.store_settings import router as store_settings_router
@@ -24,6 +25,7 @@ app.add_middleware(
 )
 
 app.include_router(appraisal_router)
+app.include_router(approval_router)
 app.include_router(accounts_router)
 app.include_router(team_router)
 app.include_router(store_settings_router)

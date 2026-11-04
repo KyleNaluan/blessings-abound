@@ -159,6 +159,163 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/approvals': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * List Approvals
+     * @description The items waiting for a manager, to approve or to store.
+     */
+    get: operations['list_approvals']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/review': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** Get Item Review */
+    get: operations['get_item_review']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/listings/{channel}/price': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /**
+     * Set Listing Price
+     * @description Set this channel's price in place of the typical price, or clear it to go back to that.
+     */
+    put: operations['set_listing_price']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/storage': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /**
+     * Save Item Storage
+     * @description Save the package, before or after approval, and the shelf or bin once it is approved.
+     */
+    put: operations['save_item_storage']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/approve': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Approve Item
+     * @description Approve every listing staff sent on, once each has a price and Channel A has a package.
+     */
+    post: operations['approve_item']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/reject': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Reject Item
+     * @description Turn the item down, which records a manager's no and needs no package or shelf.
+     */
+    post: operations['reject_item']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/pick-list': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * Get Pick List
+     * @description Every sold item still to pick, in the order to walk the shelves.
+     */
+    get: operations['get_pick_list']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/picked': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Mark Item Picked
+     * @description Take a sold item off the pick list once it is off the shelf.
+     */
+    post: operations['mark_item_picked']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/auth/sign-in': {
     parameters: {
       query?: never
@@ -478,6 +635,23 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/settings/channel-b-fees': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Channel B Fees */
+    put: operations['save_channel_b_fees']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/health': {
     parameters: {
       query?: never
@@ -566,6 +740,29 @@ export interface components {
        * Format: date-time
        */
       created_at: string
+    }
+    /** AppraisalSummary */
+    AppraisalSummary: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      /** Price Low Cents */
+      price_low_cents: number | null
+      /** Price Typical Cents */
+      price_typical_cents: number | null
+      /** Price High Cents */
+      price_high_cents: number | null
+      confidence: components['schemas']['Confidence']
+      recommendation: components['schemas']['Recommendation']
+    }
+    /** ApprovalQueue */
+    ApprovalQueue: {
+      /** Awaiting Approval */
+      awaiting_approval: components['schemas']['QueueItem'][]
+      /** Awaiting Storage */
+      awaiting_storage: components['schemas']['QueueItem'][]
     }
     /**
      * AskToSale
@@ -658,6 +855,36 @@ export interface components {
      * @enum {string}
      */
     Channel: 'channel_a' | 'channel_b'
+    /**
+     * ChannelBFees
+     * @description What a sale costs on Channel B, which charges a flat fee on a small sale and a share above.
+     *
+     *     The buyer pays for Channel B's prepaid shipping label, so only the supplies come on top.
+     */
+    ChannelBFees: {
+      /** Fee Rate */
+      fee_rate: number
+      /** Small Sale Fee Cents */
+      small_sale_fee_cents: number
+      /** Small Sale Below Cents */
+      small_sale_below_cents: number
+      /** Supplies Cents */
+      supplies_cents: number
+    }
+    /** ChannelBFeesRead */
+    ChannelBFeesRead: {
+      value: components['schemas']['ChannelBFees']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** ChannelBFeesUpdate */
+    ChannelBFeesUpdate: {
+      value: components['schemas']['ChannelBFees']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
     /** ChoosePasswordRequest */
     ChoosePasswordRequest: {
       /** Password */
@@ -767,7 +994,7 @@ export interface components {
      * DraftState
      * @enum {string}
      */
-    DraftState: 'draft' | 'awaiting_approval'
+    DraftState: 'draft' | 'awaiting_approval' | 'approved' | 'rejected'
     /**
      * FallbackReason
      * @enum {string}
@@ -955,6 +1182,44 @@ export interface components {
        */
       created_at: string
     }
+    /** ItemReview */
+    ItemReview: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Full Sku */
+      full_sku: string | null
+      status: components['schemas']['ItemStatus']
+      /** Release Month */
+      release_month: string | null
+      category: components['schemas']['Category']
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      condition: components['schemas']['Condition']
+      appraisal: components['schemas']['AppraisalSummary'] | null
+      /** Listings */
+      listings: components['schemas']['ListingReview'][]
+      /** Package Weight Oz */
+      package_weight_oz: number | null
+      /** Billed Weight Oz */
+      billed_weight_oz: number | null
+      /** Box Code */
+      box_code: string | null
+      /** Location Code */
+      location_code: string | null
+      /** Submitted By Name */
+      submitted_by_name: string | null
+      /** Submitted At */
+      submitted_at: string | null
+      /** Blockers */
+      blockers: string[]
+    }
     /**
      * ItemStatus
      * @enum {string}
@@ -1026,6 +1291,27 @@ export interface components {
        */
       updated_at: string
     }
+    /** ListingReview */
+    ListingReview: {
+      channel: components['schemas']['Channel']
+      /** Title */
+      title: string
+      /** Description */
+      description: string
+      /** Category */
+      category: string
+      state: components['schemas']['DraftState']
+      /** Flags */
+      flags: components['schemas']['ClaimFlag'][]
+      /** Base Price Cents */
+      base_price_cents: number | null
+      /** Price Override Cents */
+      price_override_cents: number | null
+      /** Price Cents */
+      price_cents: number | null
+      /** Net After Fees Cents */
+      net_after_fees_cents: number | null
+    }
     /**
      * PackageKind
      * @enum {string}
@@ -1061,6 +1347,52 @@ export interface components {
       /** Temporary Password */
       temporary_password: string
     }
+    /** PickListEntry */
+    PickListEntry: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Full Sku */
+      full_sku: string | null
+      /** Title */
+      title: string
+      /** Box Code */
+      box_code: string | null
+      /** Location Code */
+      location_code: string | null
+      /** Package Weight Oz */
+      package_weight_oz: number | null
+    }
+    /** PriceOverride */
+    PriceOverride: {
+      /** Price Override Cents */
+      price_override_cents: number | null
+    }
+    /** QueueItem */
+    QueueItem: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Full Sku */
+      full_sku: string | null
+      status: components['schemas']['ItemStatus']
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      /** Channels */
+      channels: components['schemas']['Channel'][]
+      /** Waiting Since */
+      waiting_since: string | null
+    }
     /** RecentDecision */
     RecentDecision: {
       /**
@@ -1095,6 +1427,13 @@ export interface components {
      * @enum {string}
      */
     Recommendation: 'yes' | 'no' | 'check'
+    /** RejectRequest */
+    RejectRequest: {
+      /** Reason */
+      reason: string
+      /** Note */
+      note?: string | null
+    }
     /**
      * Role
      * @enum {string}
@@ -1143,6 +1482,7 @@ export interface components {
       fees: components['schemas']['FeesRead']
       ask_to_sale: components['schemas']['AskToSaleRead']
       shipping_weight: components['schemas']['ShippingWeightRead']
+      channel_b_fees: components['schemas']['ChannelBFeesRead']
     }
     /**
      * ShippingWeight
@@ -1190,6 +1530,15 @@ export interface components {
       access_token: string
       /** Refresh Token */
       refresh_token: string
+    }
+    /** StorageRequest */
+    StorageRequest: {
+      /** Package Weight Oz */
+      package_weight_oz: number
+      /** Box Code */
+      box_code: string
+      /** Location Code */
+      location_code?: string | null
     }
     /** ValidationError */
     ValidationError: {
@@ -1553,6 +1902,243 @@ export interface operations {
         content: {
           'application/json': components['schemas']['ListingDraftRead'][]
         }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_approvals: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ApprovalQueue']
+        }
+      }
+    }
+  }
+  get_item_review: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  set_listing_price: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+        channel: components['schemas']['Channel']
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['PriceOverride']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_item_storage: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['StorageRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  approve_item: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  reject_item: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['RejectRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  get_pick_list: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PickListEntry'][]
+        }
+      }
+    }
+  }
+  mark_item_picked: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      204: {
+        headers: {
+          [name: string]: unknown
+        }
+        content?: never
       }
       /** @description Validation Error */
       422: {
@@ -2114,6 +2700,39 @@ export interface operations {
     requestBody: {
       content: {
         'application/json': components['schemas']['ShippingWeightUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_channel_b_fees: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ChannelBFeesUpdate']
       }
     }
     responses: {

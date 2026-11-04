@@ -3,6 +3,7 @@ import { useState, type ReactNode } from 'react'
 import {
   saveAskToSale,
   saveBoxSizes,
+  saveChannelBFees,
   saveFees,
   saveSeasonalCalendar,
   saveShippingWeight,
@@ -173,12 +174,12 @@ export function FeesSection({ read, saved, onSaved, onReload }: SectionProps<'fe
   return (
     <SectionFrame
       id="fees"
-      title="Fees"
-      description="What a sale costs, which the net after fees takes off the typical sale price."
+      title="Channel A fees"
+      description="What a sale on Channel A costs, which the worth-listing net after fees takes off the typical sale price."
       read={read}
       status={status}
       saved={saved}
-      saveLabel="Save the fees"
+      saveLabel="Save the Channel A fees"
       onSubmit={submit}
       onReload={onReload}
     >
@@ -206,6 +207,101 @@ export function FeesSection({ read, saved, onSaved, onReload }: SectionProps<'fe
         hint="In dollars, the mailer or box and the tape for one sale."
         value={supplies}
         error={errors['fees-supplies']}
+        disabled={busy}
+        onChange={setSupplies}
+      />
+    </SectionFrame>
+  )
+}
+
+export function ChannelBFeesSection({
+  read,
+  saved,
+  onSaved,
+  onReload,
+}: SectionProps<'channel_b_fees'>) {
+  const { status, save, fail } = useSave(onSaved)
+  const [rate, setRate] = useState(percent(read.value.fee_rate))
+  const [smallFee, setSmallFee] = useState(dollars(read.value.small_sale_fee_cents))
+  const [smallBelow, setSmallBelow] = useState(dollars(read.value.small_sale_below_cents))
+  const [supplies, setSupplies] = useState(dollars(read.value.supplies_cents))
+  const [errors, setErrors] = useState<Errors>({})
+
+  function submit() {
+    const form = reader()
+    const value = {
+      fee_rate: form.read(
+        'channel-b-rate',
+        parsePercent(rate),
+        'Enter the fee rate as a percent, such as 20.',
+      ),
+      small_sale_fee_cents: form.read(
+        'channel-b-small-fee',
+        parseDollars(smallFee),
+        'Enter the flat fee in dollars, such as 2.95.',
+      ),
+      small_sale_below_cents: form.read(
+        'channel-b-small-below',
+        parseDollars(smallBelow),
+        'Enter the small sale price in dollars, such as 15.00.',
+      ),
+      supplies_cents: form.read(
+        'channel-b-supplies',
+        parseDollars(supplies),
+        'Enter the supplies cost in dollars, such as 1.50.',
+      ),
+    }
+    setErrors(form.errors)
+    if (Object.keys(form.errors).length) return fail(Object.values(form.errors))
+    void save(() => saveChannelBFees(value, read.updated_at))
+  }
+
+  const busy = status.kind === 'saving'
+  return (
+    <SectionFrame
+      id="channel-b"
+      title="Channel B fees"
+      description="What a sale on Channel B costs, which the approval page takes off each Channel B price. The buyer pays for the shipping label."
+      read={read}
+      status={status}
+      saved={saved}
+      saveLabel="Save the Channel B fees"
+      onSubmit={submit}
+      onReload={onReload}
+    >
+      <TextField
+        id="channel-b-rate"
+        label="Fee rate"
+        hint="A percent of the sale price, charged when the sale is at least the small sale price."
+        value={rate}
+        error={errors['channel-b-rate']}
+        disabled={busy}
+        onChange={setRate}
+      />
+      <TextField
+        id="channel-b-small-fee"
+        label="Flat fee on a small sale"
+        hint="In dollars, charged instead of the fee rate."
+        value={smallFee}
+        error={errors['channel-b-small-fee']}
+        disabled={busy}
+        onChange={setSmallFee}
+      />
+      <TextField
+        id="channel-b-small-below"
+        label="Small sale price"
+        hint="In dollars. A sale under this pays the flat fee."
+        value={smallBelow}
+        error={errors['channel-b-small-below']}
+        disabled={busy}
+        onChange={setSmallBelow}
+      />
+      <TextField
+        id="channel-b-supplies"
+        label="Supplies"
+        hint="In dollars, the mailer or box and the tape for one sale."
+        value={supplies}
+        error={errors['channel-b-supplies']}
         disabled={busy}
         onChange={setSupplies}
       />

@@ -122,7 +122,7 @@ The photos were an Xbox 360 controller, a Game Boy Color, Levi's 501 jeans, an A
 
 After a yes decision, `POST /items/{id}/drafts` writes a title, description and category for each channel, `PATCH /items/{id}/drafts/{channel}` saves staff's edits, and `POST /items/{id}/drafts/submit` sends the drafts on to manager approval.
 Channel A takes every item and Channel B takes apparel only, which `listing_channels` in `api/app/pipeline.py` decides until #20 lets staff choose the channels.
-A draft is stored in `listing_drafts` with the state `draft`, and sending it sets `awaiting_approval`, which is the state the manager screen in #42 reads.
+A draft is stored in `listing_drafts` with the state `draft`, and sending it sets `awaiting_approval`, which is the state the [manager approval](#manager-approval-and-storage) step reads.
 
 The model is the same pair as the item card, Groq `qwen/qwen3.8-27b` with Gemini `gemini-3.5-flash` as the fallback, through `complete_json` in `api/app/ai.py`.
 It asks for a JSON object, retries a bad reply once on the same provider and falls back at once on an HTTP error.
@@ -149,6 +149,27 @@ Staff can edit either one, and the API checks the text again on every read, so t
 On the 48 evaluation items, which are all games and hardware for Channel A, 46 of the model's drafts passed the checker, 95.8%, measured once on 2026-11-03.
 The 2 flagged drafts said "sold as is" and "no record of it being tested", which the card doesn't say either.
 [listing-drafts.md](listing-drafts.md) has each draft and the limits of that sample.
+
+## Manager approval and storage
+
+`api/app/approval.py` holds the manager's step after the listing drafts and the storage step after approval, and the web pages are `/app/approvals`, `/app/approvals/{id}` and `/app/pick-list`.
+Every route except the pick list is for managers only, and staff get a 403 with "Only a manager can do this."
+
+1. `GET /approvals` lists the items whose drafts staff sent on, oldest first, and the approved items that have no shelf or bin yet.
+2. `GET /items/{id}/review` shows each channel's listing with its typical sale price, its listing price and the net after that channel's fees, worked out in integer cents from the Settings fees on every read.
+3. `PUT /items/{id}/listings/{channel}/price` sets a channel's price in place of the typical price, or clears it, while the listing waits for approval.
+4. `PUT /items/{id}/storage` saves the package weight and a box size from Settings, before or after approval, and the shelf or bin once the item is approved.
+   The weight is held to the Settings shipping weight limit, and the review shows the weight the label is billed at.
+5. `POST /items/{id}/approve` approves every listing, and is refused with the reasons while a listing has a flag or no price, or while Channel A has no weight and box size.
+   An item whose release month is still to come becomes `held_for_season` and keeps that month, and any other item becomes `approved`.
+6. `POST /items/{id}/reject` needs a reason, marks the listings `rejected`, records a manager's no in `decisions` and sets the item to `declined`, so it never needs a package or shelf.
+   Staff can say yes again from the appraisal page, which puts the rejected listings back to `draft` with their text kept, so staff can fix them and send them on again.
+7. `GET /pick-list` lists the sold items for staff and managers, grouped by box in the order Settings lists the boxes, then by shelf or bin, so A2 comes before A10, and `POST /items/{id}/picked` takes one off.
+
+The full SKU is the intake SKU, a space and the box code, such as `RT10272601 12x12x6`, and the API builds it from the two columns rather than storing it.
+The intake SKU itself is #37, so for now it is the placeholder from the walking skeleton.
+An item reaches the pick list once its status is `sold`, which only `mark_sold` sets.
+The channels, publishing and sales sync are #21, and once they land a real sale calls `mark_sold`, so the pick list needs no change.
 
 ## Database
 
@@ -246,3 +267,9 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-03: Send the `updated_at` a Settings section was read with on each save and refuse it with a 409 when the row has changed since, so one manager's save can't undo another's. The API stamps the time itself, because `now()` is the same for every statement in a transaction.
 - 2026-11-03: Read the worth-listing threshold, the fees and both ask-to-sale factors from Settings on every appraisal, so `PRICING` in the environment no longer changes those six, and the evaluation clears the `settings` rows in its rolled-back transaction so it always scores the values in code.
 - 2026-11-03: Write the seasonal calendar and the box sizes from published sources and label the choices that go beyond them as assumptions, see [settings.md](settings.md), and build only the read routes the timing hint in #20 and the box dropdown in #42 will use.
+- 2026-11-04: Model Channel B's fees on Poshmark's published fees, 20% from $15 and a flat $2.95 below that, with the buyer paying the label, and keep them in their own Settings section, because Channel A's per-order fee and share don't fit a flat small-sale fee. The values come from a third-party guide and are labeled an assumption, see [settings.md](settings.md#channel-b-fees).
+- 2026-11-04: Read "box section" on the pick list as the order the boxes have in Settings, with a box since taken out of Settings after them and no box last, then the shelf or bin in natural order, because the store has no map of where each box size is kept, and a manager can reorder the Settings list to match the shelves.
+- 2026-11-04: Copy the box code onto the item rather than reference the Settings list, so taking a size out of Settings can't change the SKU of an item already packed in it, and check the code against Settings only when it is saved.
+- 2026-11-04: Add the shelf or bin only after approval and refuse it before, so an item that is rejected never has a location, while the weight and box can be entered before approval because Channel A needs them to approve.
+- 2026-11-04: Upper-case shelf and bin codes and close up the spaces around a dash, so `b12 - 2` and `B12-2` are saved as one code and sort together on the pick list.
+- 2026-11-04: Add `release_month` and `mark_sold` as the narrowest seams for #20 and #21, a column nothing sets yet and a function nothing calls yet, each tested directly, so the held state and the pick list work now without building the timing hint, the channels or the sales sync.

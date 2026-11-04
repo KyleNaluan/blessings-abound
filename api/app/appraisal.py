@@ -465,11 +465,22 @@ def create_decision(
         override_reason=request.override_reason,
         note=request.note,
         decided_by=profile.auth_user_id,
+        # Stamped here rather than by now(), which repeats within a transaction, so the newest
+        # decision is always the one that stands.
+        decided_at=datetime.now(UTC),
     )
-    # A yes stays appraised until a manager approves it, which comes after the MVP.
+    # A yes stays appraised until a manager approves it.
     item.status = (
         ItemStatus.DECLINED if request.decision == DecisionChoice.NO else ItemStatus.APPRAISED
     )
+    if request.decision == DecisionChoice.YES:
+        # A listing a manager turned down goes back to staff to edit and send again.
+        for draft in _item_drafts(session, item_id):
+            if draft.state is DraftState.REJECTED:
+                draft.state = DraftState.DRAFT
+                draft.reviewed_by = None
+                draft.reviewed_at = None
+                session.add(draft)
     session.add_all([decision, item])
     session.commit()
     session.refresh(decision)
@@ -508,15 +519,20 @@ def list_decisions(
     return [RecentDecision.model_validate(dict(row)) for row in rows]
 
 
-def _require_listing(session: Session, item: Item, action: str) -> ItemCard:
-    """The card of an item staff said yes to, which is the only kind that gets a listing."""
-    _require_status(item, {ItemStatus.APPRAISED}, action)
-    latest = session.exec(
+def latest_decision(session: Session, item_id: UUID) -> Decision | None:
+    """The decision that stands, which is the newest one, whether staff or a manager made it."""
+    return session.exec(
         select(Decision)
-        .where(Decision.item_id == item.id)
+        .where(Decision.item_id == item_id)
         .order_by(col(Decision.decided_at).desc(), col(Decision.id))
         .limit(1)
     ).first()
+
+
+def _require_listing(session: Session, item: Item, action: str) -> ItemCard:
+    """The card of an item staff said yes to, which is the only kind that gets a listing."""
+    _require_status(item, {ItemStatus.APPRAISED}, action)
+    latest = latest_decision(session, item.id)
     if latest is None or latest.decision is not DecisionChoice.YES:
         raise HTTPException(
             status.HTTP_409_CONFLICT, "Decide to list this item before writing its listing."

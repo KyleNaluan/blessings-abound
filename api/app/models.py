@@ -1,6 +1,6 @@
 """Database tables. The design and the reasons behind it are in docs/database.md."""
 
-from datetime import datetime
+from datetime import date, datetime
 from enum import StrEnum
 from typing import Any
 from uuid import UUID, uuid4
@@ -96,6 +96,7 @@ class SettingKey(StrEnum):
     FEES = "fees"
     ASK_TO_SALE = "ask_to_sale"
     SHIPPING_WEIGHT = "shipping_weight"
+    CHANNEL_B_FEES = "channel_b_fees"
 
 
 class Channel(StrEnum):
@@ -110,6 +111,10 @@ class DraftState(StrEnum):
     DRAFT = "draft"
     # Staff sent it on, and the manager approval step reads it from here.
     AWAITING_APPROVAL = "awaiting_approval"
+    # A manager approved the listing, so it can be published once the item is stored.
+    APPROVED = "approved"
+    # A manager turned the item down, which also records a no decision.
+    REJECTED = "rejected"
 
 
 class DraftSource(StrEnum):
@@ -223,6 +228,14 @@ class Item(SQLModel, table=True):
         sa.CheckConstraint(
             f"cardinality(photo_keys) BETWEEN 1 AND {MAX_PHOTOS}", name="photo_keys_count"
         ),
+        sa.CheckConstraint("EXTRACT(DAY FROM release_month) = 1", name="release_month_first_day"),
+        sa.CheckConstraint("package_weight_oz > 0", name="package_weight_oz_positive"),
+        sa.CheckConstraint(
+            "(package_weight_oz IS NULL) = (box_code IS NULL)", name="package_weight_with_box"
+        ),
+        sa.CheckConstraint(
+            "location_code IS NULL OR box_code IS NOT NULL", name="location_after_package"
+        ),
     )
 
     id: UUID = Field(default_factory=uuid4, primary_key=True)
@@ -238,8 +251,21 @@ class Item(SQLModel, table=True):
     # Not unique, because a repeat photo prompts staff rather than being refused.
     photo_hash: str = Field(sa_type=sa.Text, index=True)
     notes: str | None = Field(default=None, sa_type=sa.Text)
+    # The first day of the month a held item is released in, which the timing hint in #20 sets.
+    release_month: date | None = Field(default=None)
+    # The package, which a manager enters before approving Channel A and at the latest when storing.
+    package_weight_oz: float | None = Field(default=None)
+    # One of the codes in the Settings box sizes, copied, and added to the SKU as its suffix.
+    box_code: str | None = Field(default=None, sa_type=sa.Text)
+    # The shelf or bin the item is stored on, entered after approval.
+    location_code: str | None = Field(default=None, sa_type=sa.Text)
     created_at: datetime = _created_at()
     updated_at: datetime = _updated_at()
+
+    @property
+    def full_sku(self) -> str | None:
+        """The SKU with its box-size suffix, such as RT10272601 12x12x6, once a box is chosen."""
+        return f"{self.sku} {self.box_code}" if self.box_code else None
 
 
 class ItemCard(SQLModel, table=True):
@@ -414,6 +440,13 @@ class ListingDraft(SQLModel, table=True):
             "state = 'draft' OR (submitted_at IS NOT NULL AND submitted_by IS NOT NULL)",
             name="submitted_after_draft",
         ),
+        sa.CheckConstraint(
+            # An approved or rejected listing names the manager who reviewed it.
+            "(state IN ('approved', 'rejected')) = "
+            "(reviewed_at IS NOT NULL AND reviewed_by IS NOT NULL)",
+            name="reviewed_after_approval",
+        ),
+        sa.CheckConstraint("price_override_cents > 0", name="price_override_cents_positive"),
     )
 
     id: UUID = Field(default_factory=uuid4, primary_key=True)
@@ -447,5 +480,9 @@ class ListingDraft(SQLModel, table=True):
     created_by: UUID = Field(foreign_key="profiles.auth_user_id")
     submitted_by: UUID | None = Field(default=None, foreign_key="profiles.auth_user_id")
     submitted_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    # The manager's price for this channel, in place of the appraisal's typical price.
+    price_override_cents: int | None = Field(default=None)
+    reviewed_by: UUID | None = Field(default=None, foreign_key="profiles.auth_user_id")
+    reviewed_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
     created_at: datetime = _created_at()
     updated_at: datetime = _updated_at()

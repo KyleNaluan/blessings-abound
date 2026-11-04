@@ -46,6 +46,15 @@ const settings: SettingsPage = {
       dim_weight_divisor: 139,
     },
   },
+  channel_b_fees: {
+    ...seeded,
+    value: {
+      fee_rate: 0.2,
+      small_sale_fee_cents: 295,
+      small_sale_below_cents: 1500,
+      supplies_cents: 150,
+    },
+  },
 }
 const SAVED_AT = '2026-11-03T15:00:00+00:00'
 
@@ -109,7 +118,7 @@ test('a manager sees each section with its current values', async () => {
   renderAt()
   const worth = await sectionNamed('Worth listing')
   expect(worth.getByLabelText('Worth-listing price')).toHaveValue('30.00')
-  const fees = await sectionNamed('Fees')
+  const fees = await sectionNamed('Channel A fees')
   expect(fees.getByLabelText('Fee rate')).toHaveValue('13.6')
   expect(fees.getByLabelText('Per-order fee')).toHaveValue('0.40')
   expect(fees.getByLabelText('Supplies')).toHaveValue('1.50')
@@ -121,7 +130,11 @@ test('a manager sees each section with its current values', async () => {
   expect(boxes.getAllByRole('group', { name: /^Size/ })).toHaveLength(2)
   const shipping = await sectionNamed('Shipping weight rules')
   expect(shipping.getByLabelText('Ounce tiers (oz)')).toHaveValue('4, 8, 12, 15.999')
-  expect(screen.getAllByText('No one has changed these since setup.')).toHaveLength(6)
+  const channelB = await sectionNamed('Channel B fees')
+  expect(channelB.getByLabelText('Fee rate')).toHaveValue('20')
+  expect(channelB.getByLabelText('Flat fee on a small sale')).toHaveValue('2.95')
+  expect(channelB.getByLabelText('Small sale price')).toHaveValue('15.00')
+  expect(screen.getAllByText('No one has changed these since setup.')).toHaveLength(7)
 })
 
 test('staff are refused without asking the API for the settings', async () => {
@@ -170,7 +183,7 @@ test('shows loading, then an error that can be tried again', async () => {
   const alert = await screen.findByRole('alert')
   expect(alert).toHaveTextContent("We couldn't reach the API.")
   fireEvent.click(within(alert).getByRole('button', { name: 'Try again' }))
-  expect(await sectionNamed('Fees')).toBeTruthy()
+  expect(await sectionNamed('Channel A fees')).toBeTruthy()
   expect(screen.queryByRole('alert')).not.toBeInTheDocument()
 })
 
@@ -184,7 +197,7 @@ test('saving a section sends its value with the time it was loaded', async () =>
   expect(await screen.findByText('Saved.')).toBeInTheDocument()
   expect(screen.getByText(/Last changed by Demo Manager/)).toBeInTheDocument()
   // Each section shows once after a save, with the saved one rebuilt from the API's copy.
-  expect(screen.getAllByRole('heading', { level: 2 })).toHaveLength(6)
+  expect(screen.getAllByRole('heading', { level: 2 })).toHaveLength(7)
   expect(screen.getByLabelText('Worth-listing price')).toHaveValue('45.50')
   expect(calls.find((call) => call.method === 'PUT')).toEqual({
     method: 'PUT',
@@ -196,14 +209,39 @@ test('saving a section sends its value with the time it was loaded', async () =>
 test('the fee rate is sent as a fraction and the money as cents', async () => {
   const calls = stubApi()
   renderAt()
-  const fees = await sectionNamed('Fees')
+  const fees = await sectionNamed('Channel A fees')
   fireEvent.change(fees.getByLabelText('Fee rate'), { target: { value: '12.9' } })
   fireEvent.change(fees.getByLabelText('Per-order fee'), { target: { value: '0.3' } })
-  fireEvent.click(fees.getByRole('button', { name: 'Save the fees' }))
+  fireEvent.click(fees.getByRole('button', { name: 'Save the Channel A fees' }))
   await screen.findByText('Saved.')
   expect(calls.find((call) => call.method === 'PUT')?.body).toEqual({
     value: { fee_rate: 0.129, per_order_fee_cents: 30, supplies_cents: 150 },
     expected_updated_at: null,
+  })
+})
+
+test('the Channel B fees are sent as a fraction and cents', async () => {
+  const calls = stubApi()
+  renderAt()
+  const channelB = await sectionNamed('Channel B fees')
+  fireEvent.change(channelB.getByLabelText('Flat fee on a small sale'), {
+    target: { value: '3' },
+  })
+  fireEvent.change(channelB.getByLabelText('Small sale price'), { target: { value: '$20' } })
+  fireEvent.click(channelB.getByRole('button', { name: 'Save the Channel B fees' }))
+  await screen.findByText('Saved.')
+  expect(calls.find((call) => call.method === 'PUT')).toEqual({
+    method: 'PUT',
+    path: '/settings/channel-b-fees',
+    body: {
+      value: {
+        fee_rate: 0.2,
+        small_sale_fee_cents: 300,
+        small_sale_below_cents: 2000,
+        supplies_cents: 150,
+      },
+      expected_updated_at: null,
+    },
   })
 })
 
@@ -262,14 +300,14 @@ test('a save from a stale page says so and reloads the settings', async () => {
     overrides: { 'PUT /settings/fees': () => Response.json({ detail: stale }, { status: 409 }) },
   })
   renderAt()
-  const fees = await sectionNamed('Fees')
+  const fees = await sectionNamed('Channel A fees')
   fireEvent.change(fees.getByLabelText('Fee rate'), { target: { value: '20' } })
-  fireEvent.click(fees.getByRole('button', { name: 'Save the fees' }))
+  fireEvent.click(fees.getByRole('button', { name: 'Save the Channel A fees' }))
   const alert = await screen.findByRole('alert')
   expect(alert).toHaveTextContent(stale)
 
   fireEvent.click(within(alert).getByRole('button', { name: 'Reload the settings' }))
-  const reloaded = await sectionNamed('Fees')
+  const reloaded = await sectionNamed('Channel A fees')
   await waitFor(() => expect(reloaded.getByLabelText('Fee rate')).toHaveValue('13.6'))
   expect(calls.filter((call) => call.path === '/settings')).toHaveLength(2)
 })
