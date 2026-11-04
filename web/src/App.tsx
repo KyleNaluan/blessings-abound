@@ -9,6 +9,7 @@ import { ForgotPasswordPage } from '@/pages/ForgotPasswordPage'
 import { HomePage } from '@/pages/HomePage'
 import { ItemReviewPage } from '@/pages/ItemReviewPage'
 import { LandingPage } from '@/pages/LandingPage'
+import { NeedsAttentionPage } from '@/pages/NeedsAttentionPage'
 import { PickListPage } from '@/pages/PickListPage'
 import { SettingsPage } from '@/pages/SettingsPage'
 import { SignInPage } from '@/pages/SignInPage'
@@ -66,6 +67,14 @@ export default function App() {
           element={
             <RequireAuth>
               <PickListPage />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/app/attention"
+          element={
+            <RequireAuth>
+              <NeedsAttentionPage />
             </RequireAuth>
           }
         />

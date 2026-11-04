@@ -39,7 +39,7 @@ async function send<T>(call: Promise<Result<T>>): Promise<Result<T>> {
 }
 
 // Returns the data from a call, or throws with what to show the person.
-async function unwrap<T>(call: Promise<Result<T>>): Promise<T> {
+export async function unwrap<T>(call: Promise<Result<T>>): Promise<T> {
   const result = await send(call)
   if (result.data !== undefined) return result.data
   throw new Error(message(result.error))
