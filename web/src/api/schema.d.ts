@@ -291,6 +291,130 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/settings': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** Get Settings Page */
+    get: operations['get_settings']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/box-sizes': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * List Box Sizes
+     * @description The box size choices, in the order the Settings page lists them.
+     */
+    get: operations['list_box_sizes']
+    /** Save Box Sizes */
+    put: operations['save_box_sizes']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/seasonal-calendar': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** Get Seasonal Calendar */
+    get: operations['get_seasonal_calendar']
+    /** Save Seasonal Calendar */
+    put: operations['save_seasonal_calendar']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/worth-listing': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Worth Listing */
+    put: operations['save_worth_listing']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/fees': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Fees */
+    put: operations['save_fees']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/ask-to-sale': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Ask To Sale */
+    put: operations['save_ask_to_sale']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/shipping-weight': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Shipping Weight */
+    put: operations['save_shipping_weight']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/health': {
     parameters: {
       query?: never
@@ -380,10 +504,81 @@ export interface components {
        */
       created_at: string
     }
+    /**
+     * AskToSale
+     * @description The share of an asking price expected at sale, one factor per category.
+     */
+    AskToSale: {
+      /** Apparel */
+      apparel: number
+      /** Electronics Games */
+      electronics_games: number
+    }
+    /** AskToSaleRead */
+    AskToSaleRead: {
+      value: components['schemas']['AskToSale']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** AskToSaleUpdate */
+    AskToSaleUpdate: {
+      value: components['schemas']['AskToSale']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
     /** Body_create_item */
     Body_create_item: {
       /** Photo */
       photo: string
+    }
+    /**
+     * BoxSize
+     * @description A standard box, measured L x W x H, or a flat mailer, measured W x L.
+     */
+    BoxSize: {
+      kind: components['schemas']['PackageKind']
+      /** Length In */
+      length_in: number
+      /** Width In */
+      width_in: number
+      /** Height In */
+      height_in?: number | null
+    }
+    /**
+     * BoxSizeOption
+     * @description One choice in a box size list, with the size written out as it goes on the SKU.
+     */
+    BoxSizeOption: {
+      /** Code */
+      code: string
+      kind: components['schemas']['PackageKind']
+      /** Length In */
+      length_in: number
+      /** Width In */
+      width_in: number
+      /** Height In */
+      height_in: number | null
+    }
+    /** BoxSizes */
+    BoxSizes: {
+      /** Boxes */
+      boxes: components['schemas']['BoxSize'][]
+    }
+    /** BoxSizesRead */
+    BoxSizesRead: {
+      value: components['schemas']['BoxSizes']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** BoxSizesUpdate */
+    BoxSizesUpdate: {
+      value: components['schemas']['BoxSizes']
+      /** Expected Updated At */
+      expected_updated_at: string | null
     }
     /**
      * Category
@@ -476,6 +671,32 @@ export interface components {
      * @enum {string}
      */
     Department: 'mens' | 'womens' | 'kids'
+    /**
+     * Fees
+     * @description What a sale costs on Channel A, which is also what the worth-listing net subtracts.
+     */
+    Fees: {
+      /** Fee Rate */
+      fee_rate: number
+      /** Per Order Fee Cents */
+      per_order_fee_cents: number
+      /** Supplies Cents */
+      supplies_cents: number
+    }
+    /** FeesRead */
+    FeesRead: {
+      value: components['schemas']['Fees']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** FeesUpdate */
+    FeesUpdate: {
+      value: components['schemas']['Fees']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
     /**
      * Flaw
      * @enum {string}
@@ -646,6 +867,11 @@ export interface components {
       | 'listed'
       | 'sold'
       | 'picked'
+    /**
+     * PackageKind
+     * @enum {string}
+     */
+    PackageKind: 'box' | 'mailer'
     /** PersonRead */
     PersonRead: {
       /**
@@ -715,6 +941,80 @@ export interface components {
      * @enum {string}
      */
     Role: 'staff' | 'manager'
+    /**
+     * Season
+     * @description Items of one kind, and the months worth listing them in. Other months hold them.
+     */
+    Season: {
+      /** Name */
+      name: string
+      category: components['schemas']['Category']
+      /** Match Words */
+      match_words: string[]
+      /** Months */
+      months: number[]
+    }
+    /**
+     * SeasonalCalendar
+     * @description An item that matches no season can be listed in any month.
+     */
+    SeasonalCalendar: {
+      /** Seasons */
+      seasons: components['schemas']['Season'][]
+    }
+    /** SeasonalCalendarRead */
+    SeasonalCalendarRead: {
+      value: components['schemas']['SeasonalCalendar']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** SeasonalCalendarUpdate */
+    SeasonalCalendarUpdate: {
+      value: components['schemas']['SeasonalCalendar']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
+    /** SettingsRead */
+    SettingsRead: {
+      box_sizes: components['schemas']['BoxSizesRead']
+      seasonal_calendar: components['schemas']['SeasonalCalendarRead']
+      worth_listing: components['schemas']['WorthListingRead']
+      fees: components['schemas']['FeesRead']
+      ask_to_sale: components['schemas']['AskToSaleRead']
+      shipping_weight: components['schemas']['ShippingWeightRead']
+    }
+    /**
+     * ShippingWeight
+     * @description USPS Ground Advantage's rules, which the weight a manager enters in #42 is held to.
+     */
+    ShippingWeight: {
+      /** Ounce Tiers Oz */
+      ounce_tiers_oz: number[]
+      /** Max Weight Oz */
+      max_weight_oz: number
+      /** Max Length Plus Girth In */
+      max_length_plus_girth_in: number
+      /** Dim Weight Min Cubic In */
+      dim_weight_min_cubic_in: number
+      /** Dim Weight Divisor */
+      dim_weight_divisor: number
+    }
+    /** ShippingWeightRead */
+    ShippingWeightRead: {
+      value: components['schemas']['ShippingWeight']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** ShippingWeightUpdate */
+    ShippingWeightUpdate: {
+      value: components['schemas']['ShippingWeight']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
     /** SignInRequest */
     SignInRequest: {
       /** Username */
@@ -744,6 +1044,25 @@ export interface components {
       input?: unknown
       /** Context */
       ctx?: Record<string, never>
+    }
+    /** WorthListing */
+    WorthListing: {
+      /** Threshold Cents */
+      threshold_cents: number
+    }
+    /** WorthListingRead */
+    WorthListingRead: {
+      value: components['schemas']['WorthListing']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** WorthListingUpdate */
+    WorthListingUpdate: {
+      value: components['schemas']['WorthListing']
+      /** Expected Updated At */
+      expected_updated_at: string | null
     }
   }
   responses: never
@@ -1255,6 +1574,264 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['PersonRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  get_settings: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+    }
+  }
+  list_box_sizes: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['BoxSizeOption'][]
+        }
+      }
+    }
+  }
+  save_box_sizes: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['BoxSizesUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  get_seasonal_calendar: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SeasonalCalendar']
+        }
+      }
+    }
+  }
+  save_seasonal_calendar: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['SeasonalCalendarUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_worth_listing: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['WorthListingUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_fees: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['FeesUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_ask_to_sale: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['AskToSaleUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_shipping_weight: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ShippingWeightUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
         }
       }
       /** @description Validation Error */

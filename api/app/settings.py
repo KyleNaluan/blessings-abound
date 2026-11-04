@@ -11,7 +11,12 @@ ROOT_ENV_FILE = Path(__file__).resolve().parents[2] / ".env"
 
 
 class PricingRules(BaseModel):
-    """The numbers behind the pricing pipeline in docs/architecture.md, each with its reason."""
+    """The numbers behind the pricing pipeline in docs/architecture.md, each with its reason.
+
+    The worth-listing threshold, the fees and both ask-to-sale factors are the starting values of
+    the Settings page, and an appraisal reads them from there through `pricing_rules` in
+    app/store_settings.py.
+    """
 
     model_config = ConfigDict(frozen=True)
 

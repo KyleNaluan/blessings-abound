@@ -25,6 +25,7 @@ from app.models import Category, Confidence, ItemCard, Recommendation
 from app.pricing import PriceRange, WorthListing, price_range, worth_listing
 from app.settings import PricingRules, get_settings
 from app.storage import Storage
+from app.store_settings import pricing_rules
 from app.vision import ItemCardDraft, prepare_photo, read_item_card
 
 logger = logging.getLogger(__name__)
@@ -107,7 +108,8 @@ def _search_condition(facts: ItemFacts) -> str:
 
 def price_item(card: ItemCard, session: Session, search: EbaySearch | None) -> PriceResult:
     """Price the item from comps, or say plainly why there is no price."""
-    rules = get_settings().pricing
+    # Read before the search, so the rules saved with the appraisal are the ones it was priced by.
+    rules = pricing_rules(session)
     facts = item_facts(card)
     query = card.search_query
     condition = _search_condition(facts)

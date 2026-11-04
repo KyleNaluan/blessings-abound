@@ -87,6 +87,17 @@ class DecisionChoice(StrEnum):
     NO = "no"
 
 
+class SettingKey(StrEnum):
+    """The sections of the Settings page, each stored as one row of `settings`."""
+
+    BOX_SIZES = "box_sizes"
+    SEASONAL_CALENDAR = "seasonal_calendar"
+    WORTH_LISTING = "worth_listing"
+    FEES = "fees"
+    ASK_TO_SALE = "ask_to_sale"
+    SHIPPING_WEIGHT = "shipping_weight"
+
+
 def _enum_type(enum: type[StrEnum], name: str) -> sa.Enum:
     # Text with a check constraint rather than a Postgres enum, so a later migration can change the
     # allowed values by swapping the constraint.
@@ -338,3 +349,20 @@ class CompSearch(SQLModel, table=True):
             sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now()
         ),
     )
+
+
+class StoreSetting(SQLModel, table=True):
+    """One section of the Settings page, such as the box sizes or the fees.
+
+    The value's shape and rules live in `app/store_settings.py`, which checks every write.
+    """
+
+    __tablename__ = "settings"  # type: ignore[assignment]
+
+    key: SettingKey = Field(
+        sa_column=sa.Column(_enum_type(SettingKey, "key"), primary_key=True),
+    )
+    value: dict[str, Any] = Field(sa_column=sa.Column(JSONB, nullable=False))
+    # Empty for the values the migration seeded, until a manager saves the section.
+    updated_by: UUID | None = Field(default=None, foreign_key="profiles.auth_user_id")
+    updated_at: datetime = _updated_at()
