@@ -7,6 +7,7 @@ import { ChoosePasswordPage } from '@/pages/ChoosePasswordPage'
 import { ForgotPasswordPage } from '@/pages/ForgotPasswordPage'
 import { HomePage } from '@/pages/HomePage'
 import { LandingPage } from '@/pages/LandingPage'
+import { SettingsPage } from '@/pages/SettingsPage'
 import { SignInPage } from '@/pages/SignInPage'
 
 export default function App() {
@@ -30,6 +31,14 @@ export default function App() {
           element={
             <RequireAuth>
               <AppraisalPage />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/app/settings"
+          element={
+            <RequireAuth>
+              <SettingsPage />
             </RequireAuth>
           }
         />

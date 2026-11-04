@@ -21,7 +21,7 @@ function signedInName(email: string | undefined) {
 
 export function HomePage() {
   usePageTitle('Home')
-  const { session } = useAuth()
+  const { session, me } = useAuth()
   const [apiState, setApiState] = useState<ApiState>('checking')
 
   useEffect(() => {
@@ -38,6 +38,11 @@ export function HomePage() {
       <Button asChild size="lg" className="mb-7 max-sm:w-full">
         <Link to="/app/appraise">Appraise an item</Link>
       </Button>
+      {me?.role === 'manager' && (
+        <p className="mb-7">
+          <Link to="/app/settings">Settings</Link>
+        </p>
+      )}
       <p className="flex items-center justify-between border-y border-rule py-3.5">
         <span>API status</span>
         <Badge variant={apiState === 'unreachable' ? 'destructive' : 'secondary'}>{apiState}</Badge>
