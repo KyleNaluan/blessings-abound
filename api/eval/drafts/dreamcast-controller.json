@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "64c4d3e28b0b5fb1d33737a64200aaeeea8da0e5b7f0e9b63641719f5266b091",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Sega Dreamcast Controller White Plastic",
+    "description": "This pre-owned Sega game controller is for the Dreamcast platform. Made of plastic, it is white in color. It reads \"Dreamcast\".",
+    "category": "Controllers & Attachments"
+  },
+  "failure": null
+}

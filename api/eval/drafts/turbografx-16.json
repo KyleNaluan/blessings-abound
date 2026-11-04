@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "3ec3e5d49daa9d0e29f35e9febbb79fb0c367d741ad0af9ab4f6679c99865921",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "TurboGrafx-16 video game console with controller",
+    "description": "This is a pre-owned TurboGrafx-16 video game console with controller. The item is made of black plastic. It reads \"TURBOGRAFX 16, TURBOPRO, Select, Run, 1, 11\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

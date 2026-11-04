@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "110498496ec85d4bae78335f64d021f6bdd008c448b7cbbbf03dfb7e33f86df9",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo 64 Game Console Black Plastic Pre-owned",
+    "description": "This Pre-owned Nintendo N64 game console is black and made of plastic. It reads \"Nintendo NINTENDO64\". The item is for the Nintendo 64 platform.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

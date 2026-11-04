@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "de740183ef0d77dae859b76c2fae9d9a278275d2ded45253ea4b40ee3b44e90d",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Game Boy Handheld Game Console White Plastic",
+    "description": "This pre-owned item is a white plastic handheld game console made by Nintendo. It is the exact model Game Boy. It reads \"Nintendo GAME BOY DOT MATRIX WITH STEREO SOUND\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

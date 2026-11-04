@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "14b574c2edf57f459ca50cf8f4ca389302f66f617b299fdc06173f3e758f9dad",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Sony PS4 PlayStation 4 Black Pre-owned Game Console",
+    "description": "This is a pre-owned Sony PS4 game console in black. It reads \"SONY PS4\". Sourced from the electronics and games category.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

@@ -133,6 +133,30 @@ Code reuses the newest row for a key while it is under 7 days old, and a refresh
 
 It has no foreign keys, because a response belongs to a search and not to an item.
 
+### `listing_drafts`
+
+The listing text for one item on one channel, which staff edit and then send on to a manager.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `item_id` | `uuid` | Required, foreign key to `items`, and unique with `channel`, so an item has one draft per channel |
+| `channel` | `text` | `channel_a` or `channel_b` |
+| `title`, `description` | `text` | Required, the text as it stands after any staff edit |
+| `category` | `text` | Required, one of the channel's own categories, which the API checks |
+| `state` | `text` | `draft` or `awaiting_approval`, `draft` by default, and #42 adds the manager's states |
+| `source` | `text` | `model` or `template` |
+| `fallback_reason` | `text` | `flagged`, `model_failed` or `not_configured`, set exactly when `source` is `template` |
+| `model_name` | `text` | Optional, the provider that answered, even when its draft was flagged |
+| `model_draft` | `jsonb` | Optional, the model's own title, description and category |
+| `model_flags` | `jsonb` | Required, the checker's flags on `model_draft`, empty by default |
+| `staff_edited` | `boolean` | False by default |
+| `created_by`, `submitted_by` | `uuid` | Foreign keys to `profiles`, where `submitted_by` is set with `submitted_at` |
+| `submitted_at` | `timestamptz` | Required once `state` is past `draft` |
+| `created_at`, `updated_at` | `timestamptz` | Set by the database |
+
+The checker's flags on the current text are not stored, because the API works them out from the card whenever a draft is read, so they can't go stale after a card or text edit.
+
 ## Who may read or change what
 
 The website never talks to the database.

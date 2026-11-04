@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "3cb4df2e02feeca1bd4b618815a2d266b05e413f8c4f8ca169249258c618aea9",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo NES Gray Game Console Pre-owned",
+    "description": "This is a Nintendo Entertainment System game console in gray. It reads \"Nintendo Entertainment System\". The condition is Pre-owned.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

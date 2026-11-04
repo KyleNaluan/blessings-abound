@@ -1,0 +1,514 @@
+{
+  "items": 48,
+  "passed": 46,
+  "flagged": 2,
+  "no_draft": 0,
+  "pass_rate": 0.958,
+  "flags_by_rule": {
+    "banned_word": 0,
+    "brand": 0,
+    "size": 0,
+    "number": 0,
+    "condition": 2
+  },
+  "template_passed": 48,
+  "prompt_sha256": "fdfd4485fd29a5e13178ff42b6845a14492ce077c59340cec4a223162b6d99fc",
+  "providers": {
+    "api.groq.com/qwen/qwen3.8-27b": 46,
+    "generativelanguage.googleapis.com/gemini-3.5-flash": 2
+  },
+  "drafts": [
+    {
+      "id": "nintendo-switch",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Joy-Con L R Black and Switch Dock",
+      "description": "Pre-owned Nintendo Switch Joy-Con (L) (R) and dock in black plastic. It reads \"NINTENDO SWITCH\". This electronic game accessory is sold as is.",
+      "category": "Controllers & Attachments",
+      "passed": false,
+      "flags": [
+        {
+          "rule": "condition",
+          "phrase": "as is",
+          "message": "\"as is\" says something about the condition the card doesn't."
+        }
+      ],
+      "template_passed": true
+    },
+    {
+      "id": "ps4",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Sony PS4 PlayStation 4 Black Pre-owned Game Console",
+      "description": "This is a pre-owned Sony PS4 game console in black. It reads \"SONY PS4\". Sourced from the electronics and games category.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "xbox-360-s",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Microsoft Xbox 360 Console Black Plastic",
+      "description": "This pre-owned black plastic Microsoft Xbox 360 console is ready for play. The item reads \"XBOX 360\". It is sold as a single unit without original packaging.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "n64",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo 64 Game Console Black Plastic Pre-owned",
+      "description": "This Pre-owned Nintendo N64 game console is black and made of plastic. It reads \"Nintendo NINTENDO64\". The item is for the Nintendo 64 platform.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "nes",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo NES Gray Game Console Pre-owned",
+      "description": "This is a Nintendo Entertainment System game console in gray. It reads \"Nintendo Entertainment System\". The condition is Pre-owned.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "game-boy",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Game Boy Handheld Game Console White Plastic",
+      "description": "This pre-owned item is a white plastic handheld game console made by Nintendo. It is the exact model Game Boy. It reads \"Nintendo GAME BOY DOT MATRIX WITH STEREO SOUND\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "gba",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Game Boy Advance Handheld Game Console Transparent Plastic",
+      "description": "This pre-owned Nintendo Game Boy Advance handheld game console is transparent plastic. It reads \"GAME BOY ADVANCE\". The platform is Game Boy Advance.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "ds-lite",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo DS Lite Black Handheld Console",
+      "description": "Pre-owned Nintendo DS Lite handheld console in black. Made of plastic. It reads \"START SELECT\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "3ds-xl",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Handheld Game Console Black Plastic",
+      "description": "This is a pre-owned Nintendo handheld game console made of black plastic. It reads \"SELECT HOME POWER\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "2ds",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Wii U GamePad Handheld Gaming Console Black",
+      "description": "Pre-owned black plastic handheld gaming console for the Wii U platform. It reads \"SLEEP\". This item is sold as a pre-owned unit.",
+      "category": "Controllers & Attachments",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "game-gear",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "SEGA Game Gear Handheld Game Console Black Plastic",
+      "description": "This is a pre-owned black plastic SEGA Game Gear handheld game console. It reads \"SEGA GAME GEAR PORTABLE VIDEO GAME SYSTEM\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "n64-controller",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo 64 Grey Game Controller",
+      "description": "This is a pre-owned Nintendo 64 game controller in grey. It reads \"Nintendo\". The item is listed as pre-owned.",
+      "category": "Controllers & Attachments",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "snes-controller",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo SNES Controller Grey Plastic",
+      "description": "Pre-owned grey plastic controller for the Super Nintendo Entertainment System. It reads \"SUPER NINTENDO ENTERTAINMENT SYSTEM\".",
+      "category": "Controllers & Attachments",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "nes-controller",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo NES Game Controller Grey",
+      "description": "Pre-owned Nintendo game controller for the NES console. The unit is grey in color. It reads \"Nintendo SELECT START B A\".",
+      "category": "Controllers & Attachments",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "switch-pro-controller",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Pro Controller for Nintendo Switch Black",
+      "description": "Pre-owned black plastic Nintendo Pro Controller for Nintendo Switch. It reads \"PRO CONTROLLER SWITCH\".",
+      "category": "Controllers & Attachments",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "dreamcast-controller",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Sega Dreamcast Controller White Plastic",
+      "description": "This pre-owned Sega game controller is for the Dreamcast platform. Made of plastic, it is white in color. It reads \"Dreamcast\".",
+      "category": "Controllers & Attachments",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "wii-sports",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Wii Sports Video Game for Wii Blue",
+      "description": "Pre-owned Nintendo Wii Sports video game for the Wii console. It reads \"Wii Sports, Wii, PAL, Nintendo, USK 0\". The item is blue.",
+      "category": "Video Games",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "sonic-knuckles",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Sega Sonic & Knuckles Game Cartridge for Genesis Black Plastic",
+      "description": "This pre-owned Sega Genesis game console cartridge is black and made of plastic. It reads \"SONIC & KNUCKLES\".",
+      "category": "Video Games",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "super-nes",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Super Nintendo Grey Plastic Game Console",
+      "description": "This is a pre-owned Nintendo Super Nintendo game console. It is made of grey plastic. It reads \"SUPER NINTENDO\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "genesis-model-2",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Sega Genesis Game Console Black Plastic",
+      "description": "Pre-owned Sega Genesis game console in black plastic material. It reads \"GENESIS SEGA\". This item is for the Sega Genesis platform.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "playstation",
+      "provider": "generativelanguage.googleapis.com/gemini-3.5-flash",
+      "title": "Sony PlayStation Console with Controller Grey Plastic",
+      "description": "This Sony PlayStation console with controller is made of grey plastic for the PlayStation platform. It reads \"SONY PlayStation\". This item is Pre-owned.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "ps2-slim",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Sony PlayStation 2 console and controller black plastic",
+      "description": "Pre-owned Sony PlayStation 2 console and controller made of plastic. The item is black. It reads \"SONY, PlayStation, PSP\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "gamecube",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo GameCube Purple Plastic Console",
+      "description": "This is a pre-owned Nintendo GameCube game console. It is purple and made of plastic. It reads \"NINTENDO GAMECUBE\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "wii",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Wii Console White Plastic",
+      "description": "Pre-owned Nintendo Wii console in white. The device is made of plastic. It reads \"Wii\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "game-boy-color",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Game Boy Color Handheld Console Purple",
+      "description": "This pre-owned Nintendo Game Boy Color handheld console is made of purple plastic. It reads \"GAME BOY Color\". The item is listed without a box.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "psp-1000",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Sony PSP Handheld Game Console Black Plastic",
+      "description": "This pre-owned Sony PSP is a black handheld game console made of plastic. It reads \"SONY PSP\". The item is not complete in box.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "ps-vita",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Sony PS Vita Handheld Console Black Plastic Pre-owned",
+      "description": "This is a pre-owned Sony PS Vita handheld console in black. The device is made of plastic. It reads \"SONY PS VITA SELECT START\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "dualshock-2",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Sony Dual Analog Controller Black PlayStation",
+      "description": "This pre-owned Sony Dual Analog Controller is black and made of plastic. It is designed for the PlayStation. It reads \"SONY PlayStation ANALOG SELECT START\".",
+      "category": "Controllers & Attachments",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "xbox-360-controller",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Microsoft Xbox 360 Controller Black Plastic Pre-owned",
+      "description": "This is a pre-owned Microsoft wireless game controller for the Xbox 360. The device is black and made of plastic. It reads \"ABXY\".",
+      "category": "Controllers & Attachments",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "wii-remote",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Wii Remote White Plastic Pre-owned",
+      "description": "Pre-owned Nintendo Wii Remote for the Wii console. The white plastic controller reads \"Wii, HOME\".",
+      "category": "Video Game Accessories",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "legend-of-zelda",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "LLA Gold Plastic Video Game Cartridge",
+      "description": "This pre-owned item is a gold plastic video game cartridge. It reads \"LLA\" on the item. The condition is Pre-owned.",
+      "category": "Video Games",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "pitfall",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Activision Pitfall Atari 2600 Game Cartridge Green Plastic",
+      "description": "This is a pre-owned Activision Pitfall video game cartridge for the Atari 2600. The green plastic item reads \"ACTIVISION PRESENTS PITFALL! (PITFALL HARRY'S JUNGLE ADVENTURE) For use with the Atari Video Computer System AX-018\".",
+      "category": "Video Games",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "donkey-kong-coleco",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Colecovision Donkey Kong Video Game Cartridge Black Plastic",
+      "description": "Pre-owned Colecovision video game cartridge for Donkey Kong. The item is made of black plastic. It reads \"CBS COLECO VISION DONKEY KONG Nintendo FOR USE ON PAL TV SYSTEM CBS ELECTRONICS CC241101\".",
+      "category": "Video Games",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "mario-kart-double-dash",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Mario Kart Double Dash Video Game for GameCube",
+      "description": "Pre-owned Nintendo video game. The platform is GameCube. It reads \"Mario Kart, Double Dash!!, Nintendo GameCube\".",
+      "category": "Video Games",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "super-smash-bros-melee",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Super Famicom Black Plastic Console Pre-owned",
+      "description": "This pre-owned Nintendo Super Famicom console is black and made of plastic. It reads \"SUPER FAMICOM, ATI, DO NOT TOUCH THE LENS\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "pokemon-black",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo DS Pokemon Black Version Game Cartridge Red Plastic",
+      "description": "Pre-owned Nintendo DS game cartridge for Pokemon Black Version. It is red plastic and reads \"NINTENDO DS, POKéMON BLACK VERSION, TWL-IRBO-EUR\".",
+      "category": "Video Games",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "pokemon-red",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Game Boy game cartridge red plastic",
+      "description": "This pre-owned item is made of red plastic. It reads \"MADE IN JAPAN PAT. PEND.\"",
+      "category": "Video Games",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "super-mario-bros",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo NES Console Grey Plastic",
+      "description": "This pre-owned item is made of plastic. It reads \"Nintendo 1985\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "tetris-game-boy",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Game Boy Grey Plastic Handheld",
+      "description": "This pre-owned Nintendo Game Boy is grey and made of plastic. It reads \"Nintendo GAME BOY, Tetris, DMS-TTR-FAA\". The unit is listed in the Video Game Consoles category.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "super-mario-64",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo 64 Game Console Grey Plastic Pre-owned",
+      "description": "This pre-owned Nintendo 64 game console is grey and made of plastic. It reads \"NINTENDO 64\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "neo-geo-aes",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "SNK Neo Geo Mini Black Plastic Video Game Console",
+      "description": "Pre-owned SNK Neo Geo Mini console in black plastic. It reads \"SNK Neo Geo Mini MAX 330 MEGA PRO-GEAR SPEC ADVANCED ENTERTAINMENT SYSTEM\". The item is for the Neo Geo platform.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "turbografx-16",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "TurboGrafx-16 video game console with controller",
+      "description": "This is a pre-owned TurboGrafx-16 video game console with controller. The item is made of black plastic. It reads \"TURBOGRAFX 16, TURBOPRO, Select, Run, 1, 11\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "virtual-boy",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Virtual Boy Red Plastic Handheld Game Console",
+      "description": "This pre-owned Nintendo Virtual Boy is a red plastic handheld game console. It reads \"VIRTUAL BOY\". The item is not complete in box.",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "atari-jaguar",
+      "provider": "generativelanguage.googleapis.com/gemini-3.5-flash",
+      "title": "Atari Jaguar Video Game Console Black Plastic",
+      "description": "This Atari Jaguar video game console is made of black plastic. The condition is Pre-owned. It reads \"JAGUAR, A.C.T.I.V.E. MULTI-MEDIA SYSTEM, A WIRTUAL IMAGING SYSTEM\".",
+      "category": "Video Game Consoles",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "wii-balance-board",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Nintendo Wii Dance Pad White Plastic",
+      "description": "This is a pre-owned Nintendo Wii Dance Pad. The item is made of white plastic. There is no record of it being tested.",
+      "category": "Video Game Accessories",
+      "passed": false,
+      "flags": [
+        {
+          "rule": "condition",
+          "phrase": "tested",
+          "message": "\"tested\" says something about the condition the card doesn't."
+        }
+      ],
+      "template_passed": true
+    },
+    {
+      "id": "kinect-xbox-360",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Microsoft Kinect for Xbox 360 Sensor Black Plastic",
+      "description": "Pre-owned Microsoft Kinect for Xbox 360 sensor. The item is made of black plastic. It reads \"XBOX 360\".",
+      "category": "Video Game Accessories",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "ps2-memory-card-red",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Sony PlayStation 2 8 MB Memory Card Red Plastic",
+      "description": "Pre-owned. It reads \"PlayStation 2, 8MB MEMORY CARD, MagicGate\".",
+      "category": "Video Game Accessories",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    },
+    {
+      "id": "guitar-hero-les-paul",
+      "provider": "api.groq.com/qwen/qwen3.8-27b",
+      "title": "Guitar Hero guitar controller black plastic",
+      "description": "This is a pre-owned Guitar Hero guitar controller. It is black in color and made of plastic.",
+      "category": "Video Game Accessories",
+      "passed": true,
+      "flags": [],
+      "template_passed": true
+    }
+  ]
+}

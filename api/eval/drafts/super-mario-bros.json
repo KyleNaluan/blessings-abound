@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "fc117bb4c0ddf8754df2c81897ea452414dbc53d728cb5da3a1f68376ffe559f",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo NES Console Grey Plastic",
+    "description": "This pre-owned item is made of plastic. It reads \"Nintendo 1985\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

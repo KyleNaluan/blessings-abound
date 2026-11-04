@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "d6cfdb6cd87c524e690c472e0a76350a7624162b31d1c9d90bf73cd1806e3998",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Sony Dual Analog Controller Black PlayStation",
+    "description": "This pre-owned Sony Dual Analog Controller is black and made of plastic. It is designed for the PlayStation. It reads \"SONY PlayStation ANALOG SELECT START\".",
+    "category": "Controllers & Attachments"
+  },
+  "failure": null
+}

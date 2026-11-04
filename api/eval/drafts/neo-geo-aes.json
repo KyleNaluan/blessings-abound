@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "dd68b42c8be492402e7d431a1e3f79f298961ff3813cbd4c3aa1d81446fe1cab",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "SNK Neo Geo Mini Black Plastic Video Game Console",
+    "description": "Pre-owned SNK Neo Geo Mini console in black plastic. It reads \"SNK Neo Geo Mini MAX 330 MEGA PRO-GEAR SPEC ADVANCED ENTERTAINMENT SYSTEM\". The item is for the Neo Geo platform.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}
