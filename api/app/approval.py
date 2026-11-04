@@ -3,10 +3,13 @@
 A manager reviews the listing drafts staff sent on, may set a price per channel in place of the
 appraisal's typical price, and approves or rejects the item. Channel A needs the package weight and
 box size before approval, and every approved item gets them and a shelf or bin code when stored.
+Storing an approved item publishes its approved listings to the sales channels, through the jobs
+that app/sync.py runs, and a sale on a channel calls `mark_sold`, which puts it on the pick list.
 A sold item is on the pick list until someone picks it.
 """
 
 import re
+from collections.abc import Collection
 from datetime import UTC, date, datetime
 from typing import Annotated
 from uuid import UUID
@@ -23,8 +26,10 @@ from app.appraisal import (
     latest_decision,
 )
 from app.auth import CurrentProfile, ManagerProfile
+from app.channels import ChannelsDep, ListingContent
 from app.claims import ClaimFlag, ListingFacts, check_listing
 from app.db import get_session
+from app.jobs import publish_item
 from app.listing_drafts import CHANNEL_NAMES
 from app.models import (
     Appraisal,
@@ -38,7 +43,9 @@ from app.models import (
     Item,
     ItemCard,
     ItemStatus,
+    Listing,
     ListingDraft,
+    ListingStatus,
     Profile,
     Recommendation,
 )
@@ -82,6 +89,10 @@ class ListingReview(BaseModel):
     price_cents: int | None
     # What a sale at that price leaves after this channel's fees and the supplies.
     net_after_fees_cents: int | None
+    # Where the listing is on the channel, empty until the stored item is published there.
+    channel_status: ListingStatus | None
+    # Why the channel refused the listing or the publish gave up.
+    channel_detail: str | None
 
 
 class ItemReview(BaseModel):
@@ -227,9 +238,14 @@ def _review(session: Session, item: Item) -> ItemReview:
     appraisal = _base_appraisal(session, item.id)
     current = read_store_settings(session)
     facts = ListingFacts.from_card(card)
+    published = {
+        listing.channel: listing
+        for listing in session.exec(select(Listing).where(Listing.item_id == item.id))
+    }
     listings = []
     for draft in drafts:
         price = _price_cents(draft, appraisal)
+        on_channel = published.get(draft.channel)
         listings.append(
             ListingReview(
                 channel=draft.channel,
@@ -244,6 +260,8 @@ def _review(session: Session, item: Item) -> ItemReview:
                 net_after_fees_cents=(
                     None if price is None else current.net_after_fees_cents(draft.channel, price)
                 ),
+                channel_status=on_channel.status if on_channel else None,
+                channel_detail=on_channel.status_detail if on_channel else None,
             )
         )
     submitted = next((draft for draft in drafts if draft.submitted_by is not None), None)
@@ -376,9 +394,18 @@ def _location(code: str | None) -> str | None:
 
 @router.put("/items/{item_id}/storage", operation_id="save_item_storage")
 def save_item_storage(
-    item_id: UUID, request: StorageRequest, manager: ManagerProfile, session: SessionDep
+    item_id: UUID,
+    request: StorageRequest,
+    manager: ManagerProfile,
+    session: SessionDep,
+    channels: ChannelsDep,
 ) -> ItemReview:
-    """Save the package, before or after approval, and the shelf or bin once it is approved."""
+    """Save the package, before or after approval, and the shelf or bin once it is approved.
+
+    An approved item is queued to be published on the channels set up on this server once it has
+    its shelf or bin, and the scheduler in app/scheduler.py runs the jobs within seconds. One held
+    for its season waits.
+    """
     item = _locked_item(session, item_id)
     _require_status(item, {ItemStatus.APPRAISED, *STORABLE}, "stored")
     location = _location(request.location_code)
@@ -407,8 +434,64 @@ def save_item_storage(
     item.box_code = request.box_code
     item.location_code = location
     session.add(item)
+    if item.status is ItemStatus.APPROVED:
+        publish_approved(session, item, channels)
     session.commit()
     return _review(session, item)
+
+
+def listing_content(card: ItemCard, draft: ListingDraft, price_cents: int) -> ListingContent:
+    """What one channel shows: the text a manager approved, at the manager's price."""
+    details = {
+        "department": card.department.value if card.department else None,
+        "size_type": card.size_type,
+        "material": card.material,
+        "model": card.exact_model,
+        "platform": card.platform,
+        "accessories": card.accessories_included,
+    }
+    return ListingContent(
+        title=draft.title,
+        description=draft.description,
+        category=draft.category,
+        condition=card.condition.value,
+        price_cents=price_cents,
+        brand=card.brand,
+        size=card.size,
+        color=card.color,
+        specifics={key: value for key, value in details.items() if value},
+    )
+
+
+def publish_approved(session: Session, item: Item, channels: Collection[Channel]) -> list[UUID]:
+    """Queue each approved listing of a stored item for its channel, and return the jobs to run.
+
+    Only the given channels, the ones set up on this server, are published to, so no job waits
+    for a channel nothing will run it for. It is safe to call again, because a channel the item
+    is already on is left alone and only a refused or failed listing is sent again. The caller
+    commits.
+    """
+    if item.status not in (ItemStatus.APPROVED, ItemStatus.LISTED) or item.location_code is None:
+        raise HTTPException(
+            status.HTTP_409_CONFLICT, "Only an approved item with a shelf or bin can be published."
+        )
+    card = _card(session, item.id)
+    appraisal = _base_appraisal(session, item.id)
+    drafts = [d for d in _item_drafts(session, item.id) if d.state is DraftState.APPROVED]
+    contents: dict[Channel, ListingContent] = {}
+    for draft in (d for d in drafts if d.channel in channels):
+        price = _price_cents(draft, appraisal)
+        # Approval refuses a listing with no price, so this only guards against a later change.
+        if price is None:
+            raise HTTPException(
+                status.HTTP_409_CONFLICT, f"{CHANNEL_NAMES[draft.channel]} has no price."
+            )
+        contents[draft.channel] = listing_content(card, draft, price)
+    # The database holds an approved listing to the manager who approved it and when.
+    reviewed = next((d for d in drafts if d.reviewed_by and d.reviewed_at), None)
+    if reviewed is None or reviewed.reviewed_by is None or reviewed.reviewed_at is None:
+        raise HTTPException(status.HTTP_409_CONFLICT, "No listing of this item is approved.")
+    return publish_item(session, item.id, contents, reviewed.reviewed_by, reviewed.reviewed_at)
 
 
 def _approved_status(item: Item, today: date) -> ItemStatus:

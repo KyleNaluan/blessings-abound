@@ -8,6 +8,7 @@ from sqlmodel import Session, SQLModel
 from app import models  # noqa: F401, so SQLModel.metadata lists every table
 from app.db import get_engine
 from app.settings import get_settings
+from mock_channel.tables import metadata as channel_metadata
 
 LOCAL_HOSTS = {"localhost", "127.0.0.1", "::1", "db"}
 
@@ -26,6 +27,12 @@ def no_real_searches(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(get_settings(), "serpapi_api_key", None)
 
 
+@pytest.fixture(autouse=True)
+def no_background_sync(monkeypatch: pytest.MonkeyPatch) -> None:
+    # Tests drive sync by hand, so a TestClient started as a context never polls on its own.
+    monkeypatch.setattr(get_settings(), "sync_enabled", False)
+
+
 @pytest.fixture
 def connection() -> Iterator[Connection]:
     """A connection on empty tables whose work is rolled back at the end of the test.
@@ -34,6 +41,8 @@ def connection() -> Iterator[Connection]:
     """
     with get_engine().connect() as connection:
         transaction = connection.begin()
+        for table in reversed(channel_metadata.sorted_tables):
+            connection.execute(table.delete())
         for table in reversed(SQLModel.metadata.sorted_tables):
             connection.execute(table.delete())
         yield connection

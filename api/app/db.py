@@ -1,6 +1,8 @@
-from collections.abc import Iterator
+from collections.abc import Callable, Iterator
 from functools import lru_cache
+from typing import Annotated
 
+from fastapi import Depends
 from sqlalchemy import Engine
 from sqlmodel import Session, create_engine
 
@@ -15,3 +17,11 @@ def get_engine() -> Engine:
 def get_session() -> Iterator[Session]:
     with Session(get_engine()) as session:
         yield session
+
+
+def get_session_factory() -> Callable[[], Session]:
+    """New sessions for work that outlives a request, such as a background task."""
+    return lambda: Session(get_engine())
+
+
+SessionFactoryDep = Annotated[Callable[[], Session], Depends(get_session_factory)]

@@ -160,6 +160,7 @@ Every route except the pick list is for managers only, and staff get a 403 with 
 3. `PUT /items/{id}/listings/{channel}/price` sets a channel's price in place of the typical price, or clears it, while the listing waits for approval.
 4. `PUT /items/{id}/storage` saves the package weight and a box size from Settings, before or after approval, and the shelf or bin once the item is approved.
    The weight is held to the Settings shipping weight limit, and the review shows the weight the label is billed at.
+   Saving the shelf or bin of an `approved` item lists it on the channels, as [Mock channels and sync](#mock-channels-and-sync) describes.
 5. `POST /items/{id}/approve` approves every listing, and is refused with the reasons while a listing has a flag or no price, or while Channel A has no weight and box size.
    An item whose release month is still to come becomes `held_for_season` and keeps that month, and any other item becomes `approved`.
 6. `POST /items/{id}/reject` needs a reason, marks the listings `rejected`, records a manager's no in `decisions` and sets the item to `declined`, so it never needs a package or shelf.
@@ -169,7 +170,35 @@ Every route except the pick list is for managers only, and staff get a 403 with 
 The full SKU is the intake SKU, a space and the box code, such as `RT10272601 12x12x6`, and the API builds it from the two columns rather than storing it.
 The intake SKU itself is #37, so for now it is the placeholder from the walking skeleton.
 An item reaches the pick list once its status is `sold`, which only `mark_sold` sets.
-The channels, publishing and sales sync are #21, and once they land a real sale calls `mark_sold`, so the pick list needs no change.
+A sale that the channel sync records calls `mark_sold`, as [Mock channels and sync](#mock-channels-and-sync) describes.
+
+## Mock channels and sync
+
+Channel A is an eBay-style marketplace that takes clothing, electronics and games, and Channel B is a Depop or Poshmark-style resale app that takes clothing only and needs a brand.
+Each is a small FastAPI service in `api/mock_channel/`, built from one shared app in `service.py`, with its own database role and schema, as [database.md](database.md#mock-channel-schemas) describes.
+Each channel takes the categories in `CHANNEL_CATEGORIES` in `api/app/listing_drafts.py`, which are the names the drafts choose from, and a test keeps the two lists the same.
+Each channel has a seller API under `/api` that the main app calls with the channel key, a storefront at `/` where anyone can buy a listing, and an `/admin` page behind the channel key that switches the channel offline for the demo.
+
+The main app talks to a channel only through the `ChannelAdapter` interface in `api/app/channels.py`, and `MockChannelAdapter` is the one implementation, so a real platform would be a second adapter.
+The sync rules are in `api/app/sync.py`, and they work like this:
+
+1. Saving the shelf or bin of an `approved` item calls `publish_approved` in `api/app/approval.py`, which builds a listing from the approved draft for each channel set up on the server, at the price on the review page, and `publish_item` in `api/app/jobs.py` adds one `pending` listing per channel and one `publish_listing` job each.
+   The scheduler runs those jobs within seconds, and the first confirmed listing moves the item to `listed`.
+   An item `held_for_season` gets its shelf but isn't published.
+   A channel that refuses the listing, such as Channel B with no brand, leaves it `rejected` with the channel's reason, and a channel that is down gets the job retried.
+2. A purchase on a storefront sends a webhook to `POST /channels/<channel>/sales`, signed with HMAC-SHA256 over the body with the channel key, and a 2xx answer marks the order acknowledged on the channel.
+3. A scheduler thread in the API polls each channel every 30 seconds for orders not yet acknowledged and for its live listings, so a webhook that never arrived is caught by polling.
+4. `record_sale` keeps each order once in `sale_events`, marks the item sold with `mark_sold`, which puts it on the pick list, and queues an `end_listing` job for every other live listing of that item.
+5. The same thread runs due jobs every 2 seconds, and a failed try waits 5 seconds, then 10, 20 and so on up to 5 minutes, for at most 10 tries.
+6. A second sale of an item that has already sold, a listing still live after Turnstone took it down, and a listing or sale Turnstone has no record of are each flagged in `sync_log` for the Needs Attention screen, in the shape [database.md](database.md#needs-attention-flags) describes.
+
+Every change goes in `sync_log`, along with every flag.
+Turnstone's own records change only on what a channel has confirmed, so a listing being taken down stays `active` until the channel answers.
+
+The review page shows where each approved listing is on its channel, and asks again every 2 seconds while one is still `pending`.
+`POST /items/{id}/listings` sends a `rejected` or `failed` listing again and runs its job before answering, and the review page offers it for a `failed` one, because a channel that was down may be back.
+`api/app/jobs.py` holds only what adds rows to `jobs`, so the approval step can queue a publish while the sync calls back into `mark_sold`, with no import cycle.
+Cancelling an order is #43, so a double sale is flagged for a manager and both orders stay.
 
 ## Database
 
@@ -273,4 +302,17 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-04: Add the shelf or bin only after approval and refuse it before, so an item that is rejected never has a location, while the weight and box can be entered before approval because Channel A needs them to approve.
 - 2026-11-04: Upper-case shelf and bin codes and close up the spaces around a dash, so `b12 - 2` and `B12-2` are saved as one code and sort together on the pick list.
 - 2026-11-04: Add `release_month` and `mark_sold` as the narrowest seams for #20 and #21, a column nothing sets yet and a function nothing calls yet, each tested directly, so the held state and the pick list work now without building the timing hint, the channels or the sales sync.
+- 2026-11-03: Run each mock channel as its own service with its own Postgres role and schema, with row-level security and a policy for that role only, so a channel can't read Turnstone's tables or the other channel's, and the main app reaches a channel only through its seller API, as it would a real platform.
+- 2026-11-03: Send every channel update through a `jobs` table in Postgres, claimed with `FOR UPDATE SKIP LOCKED` and a 60 second lease, rather than calling the channel inside the request, so a channel that is down gets the update later and a runner that dies mid-call leaves no job stuck.
+- 2026-11-03: Run polling and the jobs on a thread inside the API rather than as a separate worker, because Render's free plan has no free background workers, and the lease and `SKIP LOCKED` keep two API processes from running the same job.
+- 2026-11-03: Sign sale webhooks with HMAC-SHA256 over the raw body using the channel key, and treat a 2xx answer as the acknowledgment, so polling asks only for orders that are not acknowledged and a missed webhook is still caught.
+- 2026-11-03: Use the `listings.id` as the `external_ref` each channel stores and make publishing with the same one return the existing listing, so a publish retried after a timeout can't list the item twice.
+- 2026-11-03: Keep a double sale as two `sale_events` rows and a flag rather than cancelling an order automatically, because which buyer keeps the item is a manager's call.
+- 2026-11-03: Flag a stale listing and queue another `end_listing` job in the same poll, and let sync resolve the flag once the channel confirms, so a channel that was down only briefly doesn't leave a manager a flag to clear by hand.
+- 2026-11-03: Make each open flag's `conflict_key` unique with a partial index and add flags with `ON CONFLICT DO NOTHING`, so a conflict that polling sees every 30 seconds is flagged once.
+- 2026-11-03: Change a listing's status only on what the channel has confirmed, so Turnstone never shows a listing as ended while it is still for sale.
+- 2026-11-04: Publish when a manager saves the shelf or bin of an approved item, rather than with a separate button, because an item is ready to sell once it is on a shelf to pick from, and hold back an item `held_for_season` until its release month.
+- 2026-11-04: Leave the publish jobs to the scheduler rather than run them in the storage request, so saving the shelf answers at once even when a channel is slow or down, and the review page follows the listings as they go live.
+- 2026-11-04: Give the mock channels the same category names the drafts choose from, and test that the lists match, so a draft's category is one the channel takes.
+- 2026-11-04: Move the job queueing into `api/app/jobs.py`, so `approval.py` can queue a publish and `sync.py` can call `mark_sold` without one importing the other in a cycle.
 - 2026-11-04: Keep the 15s limit for a whole web test and the 10s limit for a hook in a custom Vitest runner that counts only the time the test process ran, and turn off Vitest's own limits, because those limits are plain timers and the shared CI runner freezes every test process at once for 15s or more, which failed whichever tests were running even though each wait already restarts after a freeze.

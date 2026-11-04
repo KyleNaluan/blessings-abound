@@ -227,6 +227,10 @@ export interface paths {
     /**
      * Save Item Storage
      * @description Save the package, before or after approval, and the shelf or bin once it is approved.
+     *
+     *     An approved item is queued to be published on the channels set up on this server once it has
+     *     its shelf or bin, and the scheduler in app/scheduler.py runs the jobs within seconds. One held
+     *     for its season waits.
      */
     put: operations['save_item_storage']
     post?: never
@@ -505,6 +509,29 @@ export interface paths {
     put?: never
     /** Reactivate Person */
     post: operations['reactivate_person']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/listings': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** List Item Listings */
+    get: operations['list_item_listings']
+    put?: never
+    /**
+     * Publish
+     * @description Send a stored item's approved listings to any channel it isn't on yet. Managers only.
+     *
+     *     The jobs run before the reply, so the manager sees what each channel said.
+     */
+    post: operations['publish_item']
     delete?: never
     options?: never
     head?: never
@@ -1291,6 +1318,35 @@ export interface components {
        */
       updated_at: string
     }
+    /** ListingRead */
+    ListingRead: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      channel: components['schemas']['Channel']
+      /** Channel Listing Id */
+      channel_listing_id: string | null
+      status: components['schemas']['ListingStatus']
+      /** Status Detail */
+      status_detail: string | null
+      /** Price Cents */
+      price_cents: number
+      /** Title */
+      title: string
+      /**
+       * Approved At
+       * Format: date-time
+       */
+      approved_at: string
+      /** Published At */
+      published_at: string | null
+      /** Sold At */
+      sold_at: string | null
+      /** Ended At */
+      ended_at: string | null
+    }
     /** ListingReview */
     ListingReview: {
       channel: components['schemas']['Channel']
@@ -1311,7 +1367,15 @@ export interface components {
       price_cents: number | null
       /** Net After Fees Cents */
       net_after_fees_cents: number | null
+      channel_status: components['schemas']['ListingStatus'] | null
+      /** Channel Detail */
+      channel_detail: string | null
     }
+    /**
+     * ListingStatus
+     * @enum {string}
+     */
+    ListingStatus: 'pending' | 'active' | 'sold' | 'ended' | 'rejected' | 'failed'
     /**
      * PackageKind
      * @enum {string}
@@ -2452,6 +2516,68 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['PersonRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_item_listings: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingRead'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  publish_item: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingRead'][]
         }
       }
       /** @description Validation Error */

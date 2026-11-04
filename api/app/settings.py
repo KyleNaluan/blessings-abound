@@ -103,6 +103,17 @@ class Settings(BaseSettings):
 
     pricing: PricingRules = PricingRules()
 
+    # The mock sales channels in mock_channel/. A channel with no URL or key is left out.
+    channel_a_url: str | None = None
+    channel_a_key: str | None = None
+    channel_b_url: str | None = None
+    channel_b_key: str | None = None
+    # The background sync: how often to look for due jobs, and how often to poll each channel
+    # for sales whose webhook never arrived. Tests turn it off and drive the sync by hand.
+    sync_enabled: bool = True
+    sync_job_seconds: float = 2.0
+    sync_poll_seconds: float = 30.0
+
     # Render sets this to the deployed commit, and it is empty anywhere else.
     render_git_commit: str | None = None
 

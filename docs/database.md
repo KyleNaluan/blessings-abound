@@ -64,7 +64,7 @@ Each item is one of a kind.
 The box code is copied rather than referenced, so taking a size out of Settings doesn't change the SKU of an item already packed in it.
 The API checks the code against Settings when it is saved, upper-cases the shelf or bin and closes up the spaces around a dash, so `b12 - 2` is saved as `B12-2`.
 An approved item whose release month is still to come is `held_for_season`, and it keeps its release month.
-`sold` is set by `mark_sold` in `api/app/approval.py`, which the channel sync in #21 will call, and nothing calls it yet.
+`sold` is set by `mark_sold` in `api/app/approval.py`, which the channel sync calls when it records a sale.
 
 ### `item_cards`
 
@@ -183,6 +183,134 @@ The first settings migration seeds six rows with the values the code used before
 `fees` holds Channel A's fees, and keeps its key so the rows saved before Channel B had a section still read.
 The seed is a copy written into the migration, so a later change to the code's defaults doesn't change what an old migration does.
 
+### `listings`
+
+One row per item per channel, as Turnstone sees it.
+Its `id` is also the `external_ref` the channel stores, so publishing the same listing twice gives back one channel listing.
+The status changes only on what the channel has confirmed, so a listing being taken down stays `active`, with an `end_listing` job, until the channel says it has ended.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `item_id` | `uuid` | Required, foreign key to `items`, and unique with `channel`, so an item has at most one listing per channel |
+| `channel` | `varchar(32)` | `channel_a` or `channel_b` |
+| `channel_listing_id` | `text` | Optional, the channel's own id, empty until the channel confirms the publish, and unique with `channel` |
+| `price_cents` | `integer` | Required, above zero |
+| `content` | `jsonb` | Required, the listing as sent, or to be sent, so a retried publish sends the same thing |
+| `status` | `varchar(32)` | `pending`, `active`, `sold`, `ended`, `rejected` or `failed`, default `pending` |
+| `status_detail` | `text` | Optional, why the channel refused the listing or the publish gave up |
+| `approved_by` | `uuid` | Required, foreign key to `profiles`, the manager who approved the drafts it was built from |
+| `approved_at` | `timestamptz` | Required, when the drafts were approved |
+| `published_at`, `sold_at`, `ended_at` | `timestamptz` | Optional, set as the channel confirms each |
+| `created_at` | `timestamptz` | Set by the database |
+| `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
+
+A `rejected` or `failed` listing can be published again, which resets the same row to `pending`.
+
+### `sale_events`
+
+One row per order a channel reported.
+The webhook and polling can both report the same order, and the unique `channel` and `channel_order_id` keep it to one row.
+Two rows for one item mean a double sale.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `item_id` | `uuid` | Required, foreign key to `items` |
+| `listing_id` | `uuid` | Required, foreign key to `listings` |
+| `channel` | `varchar(32)` | `channel_a` or `channel_b` |
+| `channel_order_id` | `text` | Required, the channel's order id |
+| `price_cents` | `integer` | Required, never negative |
+| `sold_at` | `timestamptz` | Required, on the channel's clock |
+| `source` | `varchar(32)` | `webhook` or `polling`, whichever reported it first |
+| `received_at` | `timestamptz` | Set by the database |
+
+### `sync_log`
+
+One row for every change sync makes, and one row for every conflict it flags for the Needs Attention screen.
+Rows are added and never changed, except that a flag gets its resolution filled in.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `event` | `varchar(32)` | `published`, `publish_rejected`, `publish_failed`, `publish_gave_up`, `publish_skipped`, `sale_recorded`, `delisted`, `delist_failed`, `delist_gave_up`, `delist_found_sold` or `flagged` |
+| `channel` | `varchar(32)` | Optional, `channel_a` or `channel_b` |
+| `item_id` | `uuid` | Optional, foreign key to `items` |
+| `listing_id` | `uuid` | Optional, foreign key to `listings` |
+| `channel_listing_id`, `channel_order_id` | `text` | Optional, the channel's own ids, which are all a flag about an unknown listing has |
+| `source` | `varchar(32)` | Optional, `webhook` or `polling`, for anything a sale started |
+| `message` | `text` | Required, a plain sentence for the log and the Needs Attention screen |
+| `detail` | `jsonb` | Required, default `{}`, facts that depend on the event |
+| `conflict` | `varchar(32)` | `double_sale`, `stale_listing` or `unknown_listing`, set exactly when `event` is `flagged` |
+| `conflict_key` | `text` | Set exactly when `conflict` is, and unique among open flags |
+| `resolved_at`, `resolved_by`, `resolution` | `timestamptz`, `uuid`, `text` | Optional, only on flags, with `resolved_by` a foreign key to `profiles` and empty when sync resolved the flag itself |
+| `created_at` | `timestamptz` | Set by the database, indexed |
+
+### `jobs`
+
+Background work that is retried until it succeeds or runs out of tries, which is how a channel that was down gets its update later.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `kind` | `varchar(32)` | `publish_listing` or `end_listing` |
+| `payload` | `jsonb` | Required, `{"listing_id": "<uuid>"}` for both kinds |
+| `status` | `varchar(32)` | `pending`, `done` or `failed`, default `pending` |
+| `attempts` | `integer` | Never negative, default 0 |
+| `max_attempts` | `integer` | Required, 10 for both kinds |
+| `run_after` | `timestamptz` | Required, when the job is next due, indexed with `status` |
+| `last_error` | `text` | Optional, the latest failure |
+| `created_at` | `timestamptz` | Set by the database |
+| `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
+
+A runner claims a due job with `FOR UPDATE SKIP LOCKED` and moves its `run_after` 60 seconds ahead before calling the channel, so a runner that dies mid-call leaves a job that comes due again rather than one that is stuck.
+A failed try waits 5 seconds, then 10, 20 and so on up to 5 minutes, and the 10th failure marks the job `failed`.
+
+## Needs Attention flags
+
+The Needs Attention screen (#43) reads the open flags with this query:
+
+```sql
+SELECT * FROM sync_log
+WHERE event = 'flagged' AND resolved_at IS NULL
+ORDER BY created_at DESC;
+```
+
+Each flag has a `conflict`, a `message` that can be shown as it is, the ids it knows in their own columns, and the rest in `detail`.
+Polling finds the same conflict on every run, and the unique `conflict_key` among open flags means it is flagged only once.
+Resolving a flag means setting `resolved_at`, `resolved_by` and `resolution` on that row, and if the conflict comes back after that, a new flag is added.
+
+| `conflict` | When | `conflict_key` | `detail` |
+| --- | --- | --- | --- |
+| `double_sale` | A second channel reports a sale of an item that has already sold | `double_sale:<channel>:<channel order id>` of the later order | `external_ref`, `price_cents` and `sold_at` of the later order, and `other_orders`, a list of `channel`, `channel_order_id`, `listing_id`, `price_cents` and `sold_at` for the earlier ones |
+| `stale_listing` | Polling finds a listing live on a channel while Turnstone has the listing as anything but `pending` or `active`, or has the item as `sold` or `picked` | `stale_listing:<channel>:<channel listing id>` | `listing_status`, `item_status`, the channel's `price_cents`, and `taking_down`, true when sync has queued another `end_listing` job |
+| `unknown_listing` | A channel reports a sale of, or has live, a listing with no row in `listings` | `unknown_listing:<channel>:order:<order id>` or `unknown_listing:<channel>:listing:<listing id>` | `external_ref`, `price_cents`, and `sold_at` for a sale |
+
+A double sale leaves the item `sold` and both orders in `sale_events`, so a manager can see both; resolving it (for example cancelling the losing order) is left to #43.
+A stale listing that sync takes down later is resolved by sync itself, with `resolved_by` empty and the resolution "Turnstone took the listing down."
+
+## Mock channel schemas
+
+Each mock channel keeps its own data in its own schema, `channel_a` or `channel_b`, in the same Postgres, and signs in as a role of the same name.
+The tables are defined in `api/mock_channel/tables.py` and created by the same Alembic migration as the tables above.
+
+| Table | What it holds |
+| --- | --- |
+| `listings` | What sellers listed, with the seller's `external_ref` unique, the price above zero, and a status of `active`, `sold` or `ended` |
+| `orders` | One per purchase, `paid`, with at most one paid order per listing, and `acknowledged_at` set once the seller's app has the order |
+| `controls` | One row, with the `offline` switch for the demo |
+
+The migration creates each role with no login, grants it only its own schema's tables, and revokes the schema from everyone else.
+Row-level security is on for every channel table, with one policy that lets that channel's role in, so another role reaches nothing even if a grant is added by mistake.
+`api/app/channel_roles.py` turns on each role's login with a password from `CHANNEL_A_DB_PASSWORD` or `CHANNEL_B_DB_PASSWORD`, so no password is in the repo:
+
+```sh
+cd api
+CHANNEL_A_DB_PASSWORD=<password> CHANNEL_B_DB_PASSWORD=<password> uv run python -m app.channel_roles
+```
+
+It skips a role whose variable is empty, and running it again sets the same passwords, so docker compose runs it on every start.
+
 ## Who may read or change what
 
 The website never talks to the database.
@@ -190,7 +318,8 @@ Only our API does, and it connects as the owner of the tables.
 
 | Who | Access |
 | --- | --- |
-| Our API | Reads and writes every table, and enforces the roles in its own code |
+| Our API | Reads and writes every table in `public` and enforces the roles in its own code, and it owns the channel schemas because it runs the migrations, but its code reaches a channel only through that channel's seller API |
+| Each mock channel | Reads and writes only its own schema's tables, as its own role |
 | Supabase's automatic web API | Nothing, because every table has row-level security turned on with no policies |
 | Staff and managers | Only through our API, with the permissions listed in [requirements.md](requirements.md#users-and-roles), which still describes three roles until it is updated |
 

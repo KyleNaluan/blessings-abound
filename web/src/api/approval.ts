@@ -10,6 +10,7 @@ export type PickListEntry = Schemas['PickListEntry']
 export type BoxSizeOption = Schemas['BoxSizeOption']
 export type ItemStatus = Schemas['ItemStatus']
 export type Channel = Schemas['Channel']
+export type ListingStatus = Schemas['ListingStatus']
 
 const UNREACHABLE = "We couldn't reach the API. Check your connection and try again."
 
@@ -96,6 +97,12 @@ export function rejectItem(itemId: string, reason: string, note: string) {
       body: { reason, note: note || null },
     }),
   )
+}
+
+// Sends the listings a channel refused or couldn't take again, then answers with the review.
+export async function publishAgain(itemId: string) {
+  await unwrap(api.POST('/items/{item_id}/listings', { params: { path: { item_id: itemId } } }))
+  return loadItemReview(itemId)
 }
 
 export function loadPickList() {

@@ -131,6 +131,51 @@ class FallbackReason(StrEnum):
     NOT_CONFIGURED = "not_configured"
 
 
+class ListingStatus(StrEnum):
+    PENDING = "pending"
+    ACTIVE = "active"
+    SOLD = "sold"
+    ENDED = "ended"
+    REJECTED = "rejected"
+    FAILED = "failed"
+
+
+class SaleSource(StrEnum):
+    WEBHOOK = "webhook"
+    POLLING = "polling"
+
+
+class SyncEvent(StrEnum):
+    PUBLISHED = "published"
+    PUBLISH_REJECTED = "publish_rejected"
+    PUBLISH_FAILED = "publish_failed"
+    PUBLISH_GAVE_UP = "publish_gave_up"
+    PUBLISH_SKIPPED = "publish_skipped"
+    SALE_RECORDED = "sale_recorded"
+    DELISTED = "delisted"
+    DELIST_FAILED = "delist_failed"
+    DELIST_GAVE_UP = "delist_gave_up"
+    DELIST_FOUND_SOLD = "delist_found_sold"
+    FLAGGED = "flagged"
+
+
+class ConflictKind(StrEnum):
+    DOUBLE_SALE = "double_sale"
+    STALE_LISTING = "stale_listing"
+    UNKNOWN_LISTING = "unknown_listing"
+
+
+class JobKind(StrEnum):
+    PUBLISH_LISTING = "publish_listing"
+    END_LISTING = "end_listing"
+
+
+class JobStatus(StrEnum):
+    PENDING = "pending"
+    DONE = "done"
+    FAILED = "failed"
+
+
 def _enum_type(enum: type[StrEnum], name: str) -> sa.Enum:
     # Text with a check constraint rather than a Postgres enum, so a later migration can change the
     # allowed values by swapping the constraint.
@@ -484,5 +529,162 @@ class ListingDraft(SQLModel, table=True):
     price_override_cents: int | None = Field(default=None)
     reviewed_by: UUID | None = Field(default=None, foreign_key="profiles.auth_user_id")
     reviewed_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    created_at: datetime = _created_at()
+    updated_at: datetime = _updated_at()
+
+
+class Listing(SQLModel, table=True):
+    """One item on one channel, as the master record sees it.
+
+    The status changes only on what the channel has confirmed, so a listing being taken down
+    stays active, with an end_listing job, until the channel says it has ended.
+    """
+
+    __tablename__ = "listings"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.UniqueConstraint("item_id", "channel"),
+        sa.UniqueConstraint("channel", "channel_listing_id"),
+        sa.CheckConstraint("price_cents > 0", name="price_cents_positive"),
+    )
+
+    # Also the external_ref the channel keeps, which makes a repeated publish return one listing.
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    item_id: UUID = Field(foreign_key="items.id", index=True)
+    channel: Channel = Field(sa_column=sa.Column(_enum_type(Channel, "channel"), nullable=False))
+    # The channel's own id, empty until the channel has confirmed the publish.
+    channel_listing_id: str | None = Field(default=None, sa_type=sa.Text)
+    price_cents: int
+    # What was sent, or is to be sent, so a publish retried from jobs sends the same listing.
+    content: dict[str, Any] = Field(sa_column=sa.Column(JSONB, nullable=False))
+    status: ListingStatus = Field(
+        default=ListingStatus.PENDING,
+        sa_column=sa.Column(
+            _enum_type(ListingStatus, "status"),
+            nullable=False,
+            server_default=ListingStatus.PENDING,
+        ),
+    )
+    # Why the channel refused the listing or the publish gave up.
+    status_detail: str | None = Field(default=None, sa_type=sa.Text)
+    approved_by: UUID = Field(foreign_key="profiles.auth_user_id", index=True)
+    approved_at: datetime = Field(sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    published_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    sold_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    ended_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    created_at: datetime = _created_at()
+    updated_at: datetime = _updated_at()
+
+
+class SaleEvent(SQLModel, table=True):
+    """One order a channel reported, kept once however many times the webhook and polling see it."""
+
+    __tablename__ = "sale_events"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.UniqueConstraint("channel", "channel_order_id"),
+        sa.CheckConstraint("price_cents >= 0", name="price_cents_non_negative"),
+    )
+
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    item_id: UUID = Field(foreign_key="items.id", index=True)
+    listing_id: UUID = Field(foreign_key="listings.id", index=True)
+    channel: Channel = Field(sa_column=sa.Column(_enum_type(Channel, "channel"), nullable=False))
+    channel_order_id: str = Field(sa_type=sa.Text)
+    price_cents: int
+    # On the channel's clock.
+    sold_at: datetime = Field(sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    source: SaleSource = Field(
+        sa_column=sa.Column(_enum_type(SaleSource, "source"), nullable=False)
+    )
+    received_at: datetime = Field(
+        default=None,
+        sa_column=sa.Column(
+            sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now()
+        ),
+    )
+
+
+class SyncLogEntry(SQLModel, table=True):
+    """What sync did, one row per change, and each Needs Attention flag with its resolution.
+
+    A flag is a row with `event` flagged and a `conflict`, and it stays open until `resolved_at` is
+    set. Its `conflict_key` is unique among open flags, so polling raises each conflict once.
+    """
+
+    __tablename__ = "sync_log"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.CheckConstraint(
+            "(event = 'flagged') = (conflict IS NOT NULL) "
+            "AND (conflict IS NULL) = (conflict_key IS NULL)",
+            name="flag_has_conflict",
+        ),
+        sa.CheckConstraint(
+            "conflict IS NOT NULL OR (resolved_at IS NULL AND resolved_by IS NULL "
+            "AND resolution IS NULL)",
+            name="only_flags_resolve",
+        ),
+        sa.Index(
+            "uq_sync_log_open_conflict_key",
+            "conflict_key",
+            unique=True,
+            postgresql_where=sa.text("conflict_key IS NOT NULL AND resolved_at IS NULL"),
+        ),
+    )
+
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    event: SyncEvent = Field(sa_column=sa.Column(_enum_type(SyncEvent, "event"), nullable=False))
+    channel: Channel | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(Channel, "channel"))
+    )
+    item_id: UUID | None = Field(default=None, foreign_key="items.id", index=True)
+    listing_id: UUID | None = Field(default=None, foreign_key="listings.id", index=True)
+    channel_listing_id: str | None = Field(default=None, sa_type=sa.Text)
+    channel_order_id: str | None = Field(default=None, sa_type=sa.Text)
+    source: SaleSource | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(SaleSource, "source"))
+    )
+    # A plain sentence for the log and the Needs Attention screen.
+    message: str = Field(sa_type=sa.Text)
+    detail: dict[str, Any] = Field(
+        default_factory=dict,
+        sa_column=sa.Column(JSONB, nullable=False, server_default=sa.text("'{}'::jsonb")),
+    )
+    conflict: ConflictKind | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(ConflictKind, "conflict"))
+    )
+    conflict_key: str | None = Field(default=None, sa_type=sa.Text)
+    resolved_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    resolved_by: UUID | None = Field(default=None, foreign_key="profiles.auth_user_id")
+    resolution: str | None = Field(default=None, sa_type=sa.Text)
+    created_at: datetime = Field(
+        default=None,
+        sa_column=sa.Column(
+            sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now(), index=True
+        ),
+    )
+
+
+class Job(SQLModel, table=True):
+    """Background work that is retried until it succeeds, such as a channel update."""
+
+    __tablename__ = "jobs"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.Index("ix_jobs_due", "status", "run_after"),
+        sa.CheckConstraint("attempts >= 0", name="attempts_non_negative"),
+    )
+
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    kind: JobKind = Field(sa_column=sa.Column(_enum_type(JobKind, "kind"), nullable=False))
+    payload: dict[str, Any] = Field(sa_column=sa.Column(JSONB, nullable=False))
+    status: JobStatus = Field(
+        default=JobStatus.PENDING,
+        sa_column=sa.Column(
+            _enum_type(JobStatus, "status"), nullable=False, server_default=JobStatus.PENDING
+        ),
+    )
+    attempts: int = Field(default=0, sa_column_kwargs={"server_default": "0"})
+    max_attempts: int
+    # A claimed job is pushed forward by a lease, so one whose runner died comes due again.
+    run_after: datetime = Field(sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    last_error: str | None = Field(default=None, sa_type=sa.Text)
     created_at: datetime = _created_at()
     updated_at: datetime = _updated_at()

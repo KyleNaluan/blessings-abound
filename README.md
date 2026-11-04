@@ -69,7 +69,29 @@ uv run python -m app.seed_local_profile <auth user id> <username> [staff|manager
 
 The Auth user id is on the user's row in the Supabase dashboard, and the script refuses any database that isn't local.
 
-If port 5432 or 8000 is already taken on your machine, set `POSTGRES_PORT` or `API_PORT` in `.env`, and update `DATABASE_URL` or `VITE_API_URL` to match.
+If port 5432, 8000, 8001 or 8002 is already taken on your machine, set `POSTGRES_PORT`, `API_PORT`, `CHANNEL_A_PORT` or `CHANNEL_B_PORT` in `.env`, and update `DATABASE_URL` or `VITE_API_URL` to match.
+
+## Mock channels
+
+`docker compose up` also starts the two mock sales channels, which [docs/architecture.md](docs/architecture.md#mock-channels-and-sync) describes.
+Channel A, an eBay-style marketplace for clothing, electronics and games, has its storefront at http://localhost:8001, and Channel B, a resale app for clothing only, has its storefront at http://localhost:8002.
+
+To see a sale come through:
+
+1. Appraise an item in the web app, say yes to it, and send its listings on.
+2. As a manager, approve it from the approvals page and enter its shelf or bin.
+   Storing it lists it on each channel its drafts are for, at the price on the review page, and the review shows each listing go live within a few seconds.
+   A game or a console goes on Channel A only, because Channel B takes clothing only.
+3. Open either storefront and buy the item.
+   It disappears from the other storefront within a few seconds, because the sale webhook tells the API at once, and the item shows on the pick list.
+4. Untick "Tell the seller right away, by sale webhook" before buying to show a missed webhook, and the API's poll, every 30 seconds, finds the sale instead.
+
+Each channel's `/admin` page, at http://localhost:8001/admin or http://localhost:8002/admin, takes the channel offline and back.
+Sign in with any username and the channel key, which is `local-channel-a-key` or `local-channel-b-key` unless `.env` sets `CHANNEL_A_KEY` or `CHANNEL_B_KEY`.
+While a channel is offline, the API's updates to it fail and are retried from the `jobs` table, with waits from 5 seconds up to 5 minutes, and go through once it is back.
+A listing that still hasn't gone up after 10 tries shows on the review page with a button to try that channel again.
+Buying the same item on the second channel before the first has taken it down is flagged as a double sale.
+Every change and every flag is in the `sync_log` table, as [docs/database.md](docs/database.md#needs-attention-flags) describes.
 
 ## Offline demo
 
@@ -90,6 +112,7 @@ Open http://localhost:5173 and sign in as `demo.staff` or `demo.manager`, both w
 A small stand-in service in [api/app/offline_standin.py](api/app/offline_standin.py) answers for Supabase, the vision model and SerpApi, and the app's own code runs unchanged.
 It doesn't read the photo, so every photo gets the same Levi's 501 card, and prices come from the saved eBay responses in `api/tests/fixtures/serpapi/`, chosen by the words in the search.
 The addresses it uses are `localhost`, so it works only in a browser on the laptop running it, not from a phone.
+The mock channels run as they do in `docker compose up`, so the steps in [Mock channels](#mock-channels) work offline too, with `demo.manager` as the manager who approves and stores the item.
 
 ## Hosted demo
 
@@ -118,7 +141,23 @@ A change to a `VITE_` value needs a new Pages deployment, because those values a
 [keep-alive.yml](.github/workflows/keep-alive.yml) calls `/health/db` every 10 minutes, because Render stops a free service after 15 idle minutes and Supabase pauses a free project after about a week.
 It runs on our self-hosted CI runner, so it stops while that PC is off and can wait behind a CI job, and GitHub can also start scheduled runs late.
 A sleeping service still answers, after about a minute, so a missed ping costs time rather than the demo.
-Render's free plan allows 750 hours a month across a workspace, which covers one service running all month but not three, so limit the schedule when the mock channels are added.
+Render's free plan allows 750 hours a month across a workspace, which covers one service running all month but not three, so the mock channels should be kept awake only in the days around judging.
+
+### Mock channels on Render
+
+The mock channels are not hosted yet.
+Each one would be a Render free web service, Docker from `api/` on `main`, with a health check path of `/health`, and these settings:
+
+| Setting | Channel A | Channel B |
+| --- | --- | --- |
+| Start command | `uvicorn mock_channel.channel_a:app --host 0.0.0.0 --port $PORT` | `uvicorn mock_channel.channel_b:app --host 0.0.0.0 --port $PORT` |
+| `CHANNEL_DATABASE_URL` | Supabase's session pooler with the user `channel_a.<project ref>` and the `postgresql+psycopg://` scheme | The same with `channel_b.<project ref>` |
+| `CHANNEL_KEY` | A long random key | A different long random key |
+| `CHANNEL_WEBHOOK_URL` | `https://blessings-abound-api.onrender.com/channels/channel_a/sales` | `https://blessings-abound-api.onrender.com/channels/channel_b/sales` |
+
+The start command replaces the image's own, so a channel service never runs migrations.
+After the API has applied the migration, run `uv run python -m app.channel_roles` in `api/` once with `DATABASE_URL` pointing at Supabase and `CHANNEL_A_DB_PASSWORD` and `CHANNEL_B_DB_PASSWORD` set, so the two roles can sign in.
+Then set `CHANNEL_A_URL`, `CHANNEL_A_KEY`, `CHANNEL_B_URL` and `CHANNEL_B_KEY` on the API service, with each key matching that channel's `CHANNEL_KEY`.
 
 ### Wake checklist
 
@@ -193,7 +232,7 @@ A manager can change the worth-listing price, the fees and the ask-to-sale facto
 ## Approval and the pick list
 
 A manager approves or rejects each item whose listings staff sent on, sets a price per channel, enters the package and the shelf or bin, and staff pull sold items from the pick list, as described in [docs/architecture.md](docs/architecture.md#manager-approval-and-storage).
-Sales come from the channels in #21, so until then nothing reaches the pick list outside the tests.
+Storing an approved item lists it on the mock channels, and a sale on either one puts it on the pick list, as [Mock channels](#mock-channels) shows.
 
 ## Contributing
 
