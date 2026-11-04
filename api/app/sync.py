@@ -147,15 +147,16 @@ def _publish(session: Session, job: Job, channels: Channels, now: datetime) -> N
         return
     adapter = _adapter(channels, listing.channel)
     content = ListingContent.model_validate(listing.content)
+    listing_id, item_id = listing.id, listing.item_id
     # The channel call is made with no row locked, and the session lets go of its transaction.
     session.commit()
     try:
-        published = adapter.publish(listing.id, content)
+        published = adapter.publish(listing_id, content)
     except ChannelRejectedError as error:
-        _finish_publish_refused(session, listing.id, str(error))
+        _finish_publish_refused(session, listing_id, str(error))
         return
-    listing = session.get_one(Listing, listing.id, with_for_update=True)
-    item = session.get_one(Item, listing.item_id, with_for_update=True)
+    item = session.get_one(Item, item_id, with_for_update=True)
+    listing = session.get_one(Listing, listing_id, with_for_update=True)
     listing.channel_listing_id = published.id
     listing.published_at = listing.published_at or now
     if listing.status == ListingStatus.PENDING:

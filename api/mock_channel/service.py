@@ -137,10 +137,6 @@ class PurchaseIn(BaseModel):
     send_webhook: bool = True
 
 
-class ControlsOut(BaseModel):
-    offline: bool
-
-
 @lru_cache
 def get_channel_settings() -> ChannelSettings:
     return ChannelSettings()
