@@ -14,7 +14,7 @@ import { Field } from '@/components/site/form'
 import { SignOutButton } from '@/components/site/SignOutButton'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
-import { CHANNEL_NAMES, money, when } from '@/pages/approval/format'
+import { CHANNEL_NAMES, exactly, money, when } from '@/pages/approval/format'
 
 type Load =
   | { state: 'loading' }
@@ -77,7 +77,8 @@ function DoubleSale({ flag }: { flag: Flag }) {
         <div key={label} className="flex flex-wrap justify-between gap-x-4 py-0.5">
           <dt className="font-bold">{label}</dt>
           <dd className="text-right max-sm:text-left">
-            {CHANNEL_NAMES[order.channel]}, {money(order.price_cents)}, sold {when(order.sold_at)}
+            {CHANNEL_NAMES[order.channel]}, {money(order.price_cents)}, sold{' '}
+            {exactly(order.sold_at)}
           </dd>
         </div>
       ))}
