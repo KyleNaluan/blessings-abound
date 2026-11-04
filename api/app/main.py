@@ -10,8 +10,10 @@ from sqlalchemy.exc import SQLAlchemyError
 from sqlmodel import Session
 
 from app.accounts import router as accounts_router
+from app.appraisal import get_draft_providers
 from app.appraisal import router as appraisal_router
 from app.approval import router as approval_router
+from app.attention import router as attention_router
 from app.channels import get_channels
 from app.db import get_session, get_session_factory
 from app.listings import router as listings_router
@@ -28,7 +30,11 @@ async def lifespan(_: FastAPI) -> AsyncIterator[None]:
     scheduler = None
     if settings.sync_enabled and channels:
         scheduler = SyncScheduler(
-            get_session_factory(), channels, settings.sync_job_seconds, settings.sync_poll_seconds
+            get_session_factory(),
+            channels,
+            settings.sync_job_seconds,
+            settings.sync_poll_seconds,
+            get_draft_providers,
         )
         scheduler.start()
     yield
@@ -50,6 +56,7 @@ app.include_router(approval_router)
 app.include_router(accounts_router)
 app.include_router(team_router)
 app.include_router(listings_router)
+app.include_router(attention_router)
 app.include_router(store_settings_router)
 
 

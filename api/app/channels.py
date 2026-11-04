@@ -92,6 +92,10 @@ class ChannelAdapter(Protocol):
 
     def acknowledge_order(self, order_id: str) -> None: ...
 
+    def cancel_order(self, order_id: str) -> None:
+        """Cancel the order and refund the buyer. Cancelling one twice is fine."""
+        ...
+
     def verify_signature(self, body: bytes, signature: str | None) -> bool:
         """Whether a sale webhook really came from this channel."""
         ...
@@ -167,6 +171,9 @@ class MockChannelAdapter:
 
     def acknowledge_order(self, order_id: str) -> None:
         self._call("POST", f"/orders/{order_id}/acknowledge")
+
+    def cancel_order(self, order_id: str) -> None:
+        self._call("POST", f"/orders/{order_id}/cancel")
 
     def verify_signature(self, body: bytes, signature: str | None) -> bool:
         expected = "sha256=" + hmac.new(self.key.encode(), body, hashlib.sha256).hexdigest()

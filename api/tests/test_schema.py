@@ -22,6 +22,7 @@ TABLES = [
     "sale_events",
     "sync_log",
     "jobs",
+    "flag_explanations",
     "alembic_version",
 ]
 CHANNEL_SCHEMAS = ["channel_a", "channel_b"]
@@ -146,7 +147,7 @@ def test_price_range_must_be_ordered(connection: Connection) -> None:
 
 def test_every_time_column_carries_a_time_zone(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_at")
-    assert len(columns) == 29
+    assert len(columns) == 31
     assert {data_type for _, _, data_type in columns} == {"timestamp with time zone"}
 
 
@@ -486,7 +487,7 @@ def test_a_listing_price_must_be_above_zero(connection: Connection) -> None:
 
 def add_flag(connection: Connection, key: str | None, **values: Any) -> None:
     fields = {"event": "flagged", "conflict": "double_sale", "message": "Sold twice."}
-    insert(connection, "sync_log", id=uuid4(), conflict_key=key, **(fields | values))
+    insert(connection, "sync_log", conflict_key=key, **({"id": uuid4()} | fields | values))
 
 
 def test_a_flag_needs_a_conflict_and_only_a_flag_has_one(connection: Connection) -> None:
@@ -522,6 +523,31 @@ def test_an_open_flag_is_raised_once_and_a_resolved_one_can_come_back(
         add_flag(connection, "stale_listing:channel_a:1")
     connection.execute(text("UPDATE sync_log SET resolved_at = now(), resolution = 'Ended.'"))
     add_flag(connection, "stale_listing:channel_a:1")
+
+
+def test_a_flag_explanation_from_the_template_says_why(connection: Connection) -> None:
+    flag_id = uuid4()
+    add_flag(connection, "double_sale:channel_a:order-1", id=flag_id)
+    text_fields = {"flag_id": flag_id, "explanation": "Sold twice.", "suggested_fix": "Cancel one."}
+    with (
+        pytest.raises(IntegrityError, match="ck_flag_explanations_fallback_reason_with_template"),
+        connection.begin_nested(),
+    ):
+        insert(connection, "flag_explanations", source="template", **text_fields)
+    with (
+        pytest.raises(IntegrityError, match="ck_flag_explanations_fallback_reason_with_template"),
+        connection.begin_nested(),
+    ):
+        insert(
+            connection,
+            "flag_explanations",
+            source="model",
+            fallback_reason="flagged",
+            **text_fields,
+        )
+    insert(
+        connection, "flag_explanations", source="template", fallback_reason="flagged", **text_fields
+    )
 
 
 def test_a_channel_order_is_recorded_once(connection: Connection) -> None:

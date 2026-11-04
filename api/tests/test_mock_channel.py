@@ -160,6 +160,24 @@ def test_ending_a_listing_is_safe_to_repeat_but_a_sold_one_cannot_end(market: Ma
     assert missing.status_code == 404
 
 
+def test_cancelling_an_order_refunds_it_and_takes_the_listing_down(market: Market) -> None:
+    seller = market.adapters[A].client
+    listing = listed(market)
+    order = market.buy(A, listing["id"], send_webhook=False)
+
+    first = seller.post(f"/orders/{order['id']}/cancel")
+    second = seller.post(f"/orders/{order['id']}/cancel")
+    missing = seller.post(f"/orders/{uuid4()}/cancel")
+
+    assert first.status_code == 200, first.text
+    assert first.json()["status"] == second.json()["status"] == "cancelled"
+    assert market.listing(A, listing["id"])["status"] == "ended"
+    assert market.adapters[A].active_listings() == []
+    assert missing.status_code == 404
+    market.set_offline(A)
+    assert seller.post(f"/orders/{order['id']}/cancel").status_code == 503
+
+
 def test_the_listings_filter_shows_only_active_ones(market: Market) -> None:
     active = listed(market)
     market.buy(A, listed(market)["id"], send_webhook=False)
