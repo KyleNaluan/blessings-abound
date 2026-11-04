@@ -122,7 +122,7 @@ The photos were an Xbox 360 controller, a Game Boy Color, Levi's 501 jeans, an A
 
 After a yes decision, `POST /items/{id}/drafts` writes a title, description and category for each channel, `PATCH /items/{id}/drafts/{channel}` saves staff's edits, and `POST /items/{id}/drafts/submit` sends the drafts on to manager approval.
 Channel A takes every item and Channel B takes apparel only, which `listing_channels` in `api/app/pipeline.py` decides until #20 lets staff choose the channels.
-A draft is stored in `listing_drafts` with the state `draft`, and sending it sets `awaiting_approval`, which is the state the manager screen in #42 reads.
+A draft is stored in `listing_drafts` with the state `draft`, and sending it sets `awaiting_approval`, which is the state the [manager approval](#manager-approval-and-storage) step reads.
 
 The model is the same pair as the item card, Groq `qwen/qwen3.8-27b` with Gemini `gemini-3.5-flash` as the fallback, through `complete_json` in `api/app/ai.py`.
 It asks for a JSON object, retries a bad reply once on the same provider and falls back at once on an HTTP error.
