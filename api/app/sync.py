@@ -360,7 +360,7 @@ def record_sale(
 def _flag_double_sale(
     session: Session, item: Item, listing: Listing, order: ChannelOrder, source: SaleSource
 ) -> None:
-    earlier = session.exec(
+    others = session.exec(
         select(SaleEvent)
         .where(
             SaleEvent.item_id == item.id,
@@ -369,12 +369,18 @@ def _flag_double_sale(
         )
         .order_by(col(SaleEvent.sold_at))
     ).all()
-    others = " and ".join(dict.fromkeys(_label(sale.channel) for sale in earlier))
+    # In the order the buyers paid, which can differ from the order Turnstone heard of them.
+    sold = sorted(
+        [(sale.sold_at, sale.channel) for sale in others] + [(order.sold_at, listing.channel)],
+        key=lambda pair: pair[0],
+    )
+    *before, last = [_label(channel) for _, channel in sold]
+    before_text = " and ".join(dict.fromkeys(before))
     flag(
         session,
         ConflictKind.DOUBLE_SALE,
         f"double_sale:{listing.channel.value}:{order.id}",
-        f"{_title(listing)} sold on {others} and again on {_label(listing.channel)}, so one "
+        f"{_title(listing)} sold on {before_text} and again on {last}, so one "
         "of the orders needs cancelling.",
         channel=listing.channel,
         item_id=item.id,
@@ -392,7 +398,7 @@ def _flag_double_sale(
                     "price_cents": sale.price_cents,
                     "sold_at": sale.sold_at.isoformat(),
                 }
-                for sale in earlier
+                for sale in others
             ],
         },
     )
