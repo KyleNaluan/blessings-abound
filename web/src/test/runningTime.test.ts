@@ -1,4 +1,4 @@
-import { withRunningTimeLimit } from './runningTime'
+import { withHookRunningTimeLimit, withRunningTimeLimit } from './runningTime'
 
 // Blocks the event loop, as the runner freezing this process does.
 function freeze(ms: number) {
@@ -36,4 +36,19 @@ test('a failure is passed on as it is', async () => {
     }, 300),
   ).rejects.toBe(failure)
   await expect(withRunningTimeLimit(() => Promise.reject(failure), 300)).rejects.toBe(failure)
+})
+
+test('a hook and the cleanup it returns get the same limit', async () => {
+  const cleanup = vi.fn(() => new Promise(() => {}))
+  const hook = withHookRunningTimeLimit(async () => {
+    freeze(600)
+    await sleep(50)
+    return cleanup
+  }, 300)
+  const returned = await hook()
+  expect(returned).toBeTypeOf('function')
+  await expect((returned as () => Promise<unknown>)()).rejects.toThrow(
+    'Hook timed out after running for 300ms',
+  )
+  expect(cleanup).toHaveBeenCalledOnce()
 })

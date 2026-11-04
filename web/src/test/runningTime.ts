@@ -10,7 +10,11 @@ const { setInterval, clearInterval } = globalThis
 const now = performance.now.bind(performance)
 
 // Runs `fn` and fails it once it has run for `limitMs` without settling, not counting time the process was frozen.
-export function withRunningTimeLimit(fn: () => unknown, limitMs: number): Promise<void> {
+export function withRunningTimeLimit<T>(
+  fn: () => T | PromiseLike<T>,
+  limitMs: number,
+  kind: 'Test' | 'Hook' = 'Test',
+): Promise<T> {
   return new Promise((resolve, reject) => {
     let ran = 0
     let frozen = 0
@@ -28,14 +32,14 @@ export function withRunningTimeLimit(fn: () => unknown, limitMs: number): Promis
       if (ran >= limitMs) {
         fail(
           new Error(
-            `Test timed out after running for ${limitMs}ms, not counting ${Math.round(frozen)}ms while the process was frozen.`,
+            `${kind} timed out after running for ${limitMs}ms, not counting ${Math.round(frozen)}ms while the process was frozen.`,
           ),
         )
       }
     }, TICK_MS)
-    const pass = () => {
+    function pass(value: T) {
       clearInterval(tick)
-      resolve()
+      resolve(value)
     }
     function fail(error: unknown) {
       clearInterval(tick)
@@ -47,4 +51,17 @@ export function withRunningTimeLimit(fn: () => unknown, limitMs: number): Promis
       fail(error)
     }
   })
+}
+
+// Gives a hook the same limit, and also the cleanup a beforeEach or beforeAll hook can return.
+export function withHookRunningTimeLimit<Args extends unknown[]>(
+  hook: (...args: Args) => unknown,
+  limitMs: number,
+): (...args: Args) => Promise<unknown> {
+  return async (...args) => {
+    const result = await withRunningTimeLimit(() => hook(...args), limitMs, 'Hook')
+    if (typeof result !== 'function') return result
+    return (...cleanupArgs: unknown[]) =>
+      withRunningTimeLimit(() => result(...cleanupArgs), limitMs, 'Hook')
+  }
 }

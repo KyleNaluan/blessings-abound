@@ -21,9 +21,10 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./src/test/setup.ts'],
-    // Vitest's limit for a whole test is a plain timer, so a freeze of the shared CI runner counts against it.
-    // The runner sets the limit instead, counting only the time this process ran.
+    // Vitest's limits for a test and a hook are plain timers, so a freeze of the shared CI runner counts against them.
+    // The runner sets the limits instead, counting only the time this process ran.
     runner: './src/test/runner.ts',
     testTimeout: 0,
+    hookTimeout: 0,
   },
 })
