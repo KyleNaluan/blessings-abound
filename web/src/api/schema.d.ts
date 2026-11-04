@@ -227,6 +227,10 @@ export interface paths {
     /**
      * Save Item Storage
      * @description Save the package, before or after approval, and the shelf or bin once it is approved.
+     *
+     *     An approved item is queued to be published on the channels set up on this server once it has
+     *     its shelf or bin, and the scheduler in app/scheduler.py runs the jobs within seconds. One held
+     *     for its season waits.
      */
     put: operations['save_item_storage']
     post?: never
@@ -523,7 +527,9 @@ export interface paths {
     put?: never
     /**
      * Publish
-     * @description List the item on the channels, as #42's approval will. Managers only.
+     * @description Send a stored item's approved listings to any channel it isn't on yet. Managers only.
+     *
+     *     The jobs run before the reply, so the manager sees what each channel said.
      */
     post: operations['publish_item']
     delete?: never
@@ -1361,6 +1367,9 @@ export interface components {
       price_cents: number | null
       /** Net After Fees Cents */
       net_after_fees_cents: number | null
+      channel_status: components['schemas']['ListingStatus'] | null
+      /** Channel Detail */
+      channel_detail: string | null
     }
     /**
      * ListingStatus
@@ -1426,13 +1435,6 @@ export interface components {
     PriceOverride: {
       /** Price Override Cents */
       price_override_cents: number | null
-    }
-    /** PublishRequest */
-    PublishRequest: {
-      /** Channels */
-      channels?: components['schemas']['Channel'][] | null
-      /** Price Cents */
-      price_cents?: number | null
     }
     /** QueueItem */
     QueueItem: {
@@ -2567,11 +2569,7 @@ export interface operations {
       }
       cookie?: never
     }
-    requestBody: {
-      content: {
-        'application/json': components['schemas']['PublishRequest']
-      }
-    }
+    requestBody?: never
     responses: {
       /** @description Successful Response */
       200: {

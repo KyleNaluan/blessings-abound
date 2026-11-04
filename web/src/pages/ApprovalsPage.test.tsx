@@ -24,6 +24,8 @@ function listing(changes: Partial<ListingReview> = {}): ListingReview {
     price_override_cents: null,
     price_cents: 5160,
     net_after_fees_cents: 4268,
+    channel_status: null,
+    channel_detail: null,
     ...changes,
   }
 }
@@ -320,6 +322,107 @@ test('storing an approved item sends its shelf', async () => {
     box_code: '12x12x6',
     location_code: 'b12 - 2',
   })
+})
+
+test('a stored item follows its listings onto the channels', async () => {
+  vi.useFakeTimers({ shouldAdvanceTime: true })
+  const stored = (status: 'pending' | 'active') =>
+    review({
+      status: status === 'pending' ? 'approved' : 'listed',
+      package_weight_oz: 22.4,
+      box_code: '12x12x6',
+      location_code: 'B12',
+      full_sku: 'RT11042601 12x12x6',
+      blockers: [],
+      listings: [
+        listing({ state: 'approved', channel_status: status }),
+        listing({
+          channel: 'channel_b',
+          category: 'Unisex',
+          state: 'approved',
+          channel_status: 'rejected',
+          channel_detail: 'Channel B refused it: Channel B needs a brand.',
+        }),
+      ],
+    })
+  const reviews = [stored('pending'), stored('active')]
+  stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () => Response.json(reviews.shift() ?? stored('active')),
+    },
+  })
+  try {
+    renderAt(`/app/approvals/${ITEM}`)
+    const a = await panel('Channel A')
+    expect(a.getByText('Being listed on Channel A...')).toBeInTheDocument()
+    expect(
+      (await panel('Channel B')).getByText('Channel B refused it: Channel B needs a brand.'),
+    ).toBeInTheDocument()
+    await vi.advanceTimersByTimeAsync(2000)
+    expect(await a.findByText('Live on Channel A.')).toBeInTheDocument()
+    expect(screen.getByText('Stored on B12 as RT11042601 12x12x6.')).toBeInTheDocument()
+  } finally {
+    vi.useRealTimers()
+  }
+})
+
+test('a listing a channel could not take can be sent again', async () => {
+  const listed = (status: 'failed' | 'active') =>
+    review({
+      status: 'listed',
+      location_code: 'B12',
+      blockers: [],
+      listings: [
+        listing({ state: 'approved', channel_status: 'active' }),
+        listing({
+          channel: 'channel_b',
+          category: 'Unisex',
+          state: 'approved',
+          channel_status: status,
+          channel_detail: status === 'failed' ? "Channel B couldn't be reached." : null,
+        }),
+      ],
+    })
+  let sent = false
+  const calls = stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () => Response.json(listed(sent ? 'active' : 'failed')),
+      [`POST /items/${ITEM}/listings`]: () => {
+        sent = true
+        return Response.json([])
+      },
+    },
+  })
+  renderAt(`/app/approvals/${ITEM}`)
+  const b = await panel('Channel B')
+  expect(
+    b.getByText("Channel B couldn't take it after several tries. Channel B couldn't be reached."),
+  ).toBeInTheDocument()
+  expect((await panel('Channel A')).queryByRole('button')).toBeNull()
+  fireEvent.click(b.getByRole('button', { name: 'Try Channel B again' }))
+  expect(await b.findByText('Live on Channel B.')).toBeInTheDocument()
+  expect(calls.filter((call) => call.method === 'POST')).toHaveLength(1)
+})
+
+test('a listing that cannot be sent again says why', async () => {
+  const failed = review({
+    status: 'listed',
+    location_code: 'B12',
+    blockers: [],
+    listings: [listing({ state: 'approved', channel_status: 'failed', channel_detail: null })],
+  })
+  stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () => Response.json(failed),
+      [`POST /items/${ITEM}/listings`]: () =>
+        Response.json({ detail: 'Channel A has no price.' }, { status: 409 }),
+    },
+  })
+  renderAt(`/app/approvals/${ITEM}`)
+  const a = await panel('Channel A')
+  fireEvent.click(a.getByRole('button', { name: 'Try Channel A again' }))
+  expect(await a.findByRole('alert')).toHaveTextContent('Channel A has no price.')
+  expect(a.getByRole('button', { name: 'Try Channel A again' })).toBeEnabled()
 })
 
 test('a rejection needs a reason and then skips the package', async () => {

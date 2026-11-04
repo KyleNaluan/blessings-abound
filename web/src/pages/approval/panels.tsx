@@ -2,12 +2,14 @@ import { useState, type FormEvent, type ReactNode } from 'react'
 
 import {
   approveItem,
+  publishAgain,
   rejectItem,
   saveStorage,
   setListingPrice,
   type BoxSizeOption,
   type ItemReview,
   type ListingReview,
+  type ListingStatus,
 } from '@/api/approval'
 import { Field, SubmitButton, TextInput } from '@/components/site/form'
 import { Button } from '@/components/ui/button'
@@ -77,6 +79,53 @@ const STATE_NOTES: Record<ListingReview['state'], string> = {
   rejected: 'Rejected.',
 }
 
+// Where the approved listing is on its channel, from the app's own record of it.
+function channelNote(status: ListingStatus, name: string, detail: string | null) {
+  switch (status) {
+    case 'pending':
+      return `Being listed on ${name}...`
+    case 'active':
+      return `Live on ${name}.`
+    case 'sold':
+      return `Sold on ${name}.`
+    case 'ended':
+      return detail ?? `Taken down from ${name} after it sold elsewhere.`
+    case 'rejected':
+      return detail ?? `${name} refused it.`
+    case 'failed':
+      return `${name} couldn't take it after several tries. ${detail ?? ''}`.trim()
+  }
+}
+
+function ChannelStatus({ review, listing, onChange }: PanelProps & { listing: ListingReview }) {
+  const { pending, error, run } = useCall(onChange)
+  const status = listing.channel_status
+  if (!status) return null
+  const name = CHANNEL_NAMES[listing.channel]
+  const trouble = status === 'rejected' || status === 'failed'
+  return (
+    <div className="mb-4" aria-live="polite">
+      <p className={trouble ? 'font-bold text-destructive' : 'font-bold'}>
+        {channelNote(status, name, listing.channel_detail)}
+      </p>
+      {status === 'failed' && (
+        <div className="mt-3">
+          <Failure message={error} />
+          <Button
+            variant="outline"
+            size="lg"
+            className="max-sm:w-full"
+            disabled={pending}
+            onClick={() => void run(() => publishAgain(review.item_id))}
+          >
+            {pending ? 'Sending...' : `Try ${name} again`}
+          </Button>
+        </div>
+      )}
+    </div>
+  )
+}
+
 export function ListingPanel({
   review,
   listing,
@@ -105,7 +154,11 @@ export function ListingPanel({
 
   return (
     <Panel id={id} title={name}>
-      <p className="mb-4 text-muted-foreground">{STATE_NOTES[listing.state]}</p>
+      {listing.channel_status ? (
+        <ChannelStatus review={review} listing={listing} onChange={onChange} />
+      ) : (
+        <p className="mb-4 text-muted-foreground">{STATE_NOTES[listing.state]}</p>
+      )}
       {listing.flags.length > 0 && (
         <div className="mb-5 border-l-4 border-destructive pl-3.5">
           <p className="mb-1 font-bold">The checker found claims the item card doesn't support.</p>
@@ -124,7 +177,7 @@ export function ListingPanel({
         <dt className="font-bold">Description</dt>
         <dd className="min-w-0 break-words whitespace-pre-line">{listing.description}</dd>
       </dl>
-      <dl className="mb-5 border-y border-rule py-3">
+      <dl className="mb-5 border-y border-rule py-3 last:mb-0">
         <div className="flex justify-between gap-4">
           <dt>Typical sale price</dt>
           <dd>

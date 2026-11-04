@@ -17,12 +17,15 @@ type Load =
 
 const STORABLE = new Set(['approved', 'held_for_season'])
 
+// How often the page asks again while a channel is still taking a listing.
+const LISTING_REFRESH_MS = 2000
+
 // What happened to the item, said once the manager has acted on it.
 function outcome(review: ItemReview) {
   if (review.status === 'declined') {
     return 'Rejected. Staff can say yes again to fix the listing and send it back.'
   }
-  if (!STORABLE.has(review.status)) return null
+  if (!STORABLE.has(review.status) && review.status !== 'listed') return null
   if (review.location_code) {
     return `Stored on ${review.location_code} as ${review.full_sku ?? review.sku}.`
   }
@@ -47,6 +50,23 @@ export function ItemReviewPage() {
   useEffect(() => {
     if (!refused) void fetchReview()
   }, [refused, fetchReview])
+
+  const beingListed =
+    load.state === 'ready' &&
+    load.review.listings.some((listing) => listing.channel_status === 'pending')
+
+  // The scheduler lists the item within seconds of storing it, so the page follows along.
+  useEffect(() => {
+    if (!beingListed) return
+    const timer = window.setTimeout(() => {
+      loadItemReview(itemId)
+        .then(changed)
+        .catch(() => {
+          // A missed refresh is tried again on the next one, so the page keeps what it has.
+        })
+    }, LISTING_REFRESH_MS)
+    return () => window.clearTimeout(timer)
+  }, [beingListed, load, itemId])
 
   function changed(review: ItemReview) {
     setLoad((current) => (current.state === 'ready' ? { ...current, review } : current))
