@@ -55,7 +55,6 @@ logger = logging.getLogger(__name__)
 
 SIGNATURE_HEADER = "X-Channel-Signature"
 WEBHOOK_TIMEOUT_SECONDS = 5.0
-CATEGORY_LABELS = {"apparel": "clothing", "electronics_games": "electronics and games"}
 
 
 class ChannelSpec(BaseModel):
@@ -64,6 +63,7 @@ class ChannelSpec(BaseModel):
     schema_name: str
     label: str
     tagline: str
+    # The channel's own categories, which Turnstone's listing drafts choose from.
     categories: tuple[str, ...]
     # Listing fields that must be filled, on top of the ones every listing needs.
     required: tuple[str, ...] = ()
@@ -279,9 +279,9 @@ def _order(session: Session, tables: ChannelTables, order_id: UUID) -> OrderOut:
 def check_listing(spec: ChannelSpec, listing: ListingIn) -> None:
     """This channel's own rules, which is where platform fit is enforced."""
     if listing.category not in spec.categories:
-        takes = ", ".join(CATEGORY_LABELS.get(name, name) for name in spec.categories)
         raise HTTPException(
-            status.HTTP_422_UNPROCESSABLE_CONTENT, f"{spec.label} takes {takes} only."
+            status.HTTP_422_UNPROCESSABLE_CONTENT,
+            f"{spec.label} has no {listing.category} category.",
         )
     if len(listing.title) > spec.title_limit:
         raise HTTPException(

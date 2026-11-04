@@ -11,17 +11,18 @@ import httpx2
 import pytest
 from sqlalchemy import Connection
 
+from app.listing_drafts import CHANNEL_CATEGORIES
 from app.models import Channel
-from mock_channel import service
+from mock_channel import channel_a, channel_b, service
 from mock_channel.service import ChannelSettings
 from tests.channel_harness import APPS, KEYS, Market
 
 A, B = Channel.CHANNEL_A, Channel.CHANNEL_B
+SPECS = {A: channel_a.SPEC, B: channel_b.SPEC}
 
 JACKET = {
     "title": "Carhartt canvas jacket",
     "description": "Brown canvas, pre-owned.",
-    "category": "apparel",
     "condition": "pre_owned",
     "price_cents": 4800,
     "brand": "Carhartt",
@@ -29,6 +30,8 @@ JACKET = {
     "color": "brown",
     "specifics": {"material": "canvas"},
 }
+# A jacket's category in each channel's own list.
+JACKET_CATEGORY = {A: "Unisex Clothing", B: "Unisex"}
 
 
 class Webhooks:
@@ -57,7 +60,12 @@ def market(connection: Connection, webhooks: Webhooks) -> Iterator[Market]:
 
 
 def list_item(market: Market, channel: Channel = A, **changes: Any) -> Any:
-    body = {"external_ref": str(uuid4()), **JACKET, **changes}
+    body = {
+        "external_ref": str(uuid4()),
+        "category": JACKET_CATEGORY[channel],
+        **JACKET,
+        **changes,
+    }
     return market.adapters[channel].client.post("/listings", json=body)
 
 
@@ -82,10 +90,10 @@ def test_publishing_twice_with_one_external_ref_returns_one_listing(market: Mark
 @pytest.mark.parametrize(
     ("channel", "changes", "message"),
     [
-        (B, {"category": "electronics_games"}, "Channel B takes clothing only."),
+        (B, {"category": "Video Games"}, "Channel B has no Video Games category."),
         (B, {"brand": None}, "Channel B needs a brand."),
         (A, {"title": "x" * 81}, "Channel A titles are at most 80 characters."),
-        (A, {"category": "books"}, "Channel A takes clothing, electronics and games only."),
+        (A, {"category": "Unisex"}, "Channel A has no Unisex category."),
     ],
 )
 def test_each_channel_enforces_its_own_rules(
@@ -98,9 +106,18 @@ def test_each_channel_enforces_its_own_rules(
 
 
 def test_channel_a_takes_electronics_without_a_brand(market: Market) -> None:
-    response = list_item(market, A, category="electronics_games", brand=None)
+    response = list_item(market, A, category="Video Games", brand=None)
 
     assert response.status_code == 201, response.text
+
+
+@pytest.mark.parametrize("channel", [A, B])
+def test_each_channel_has_the_categories_the_drafts_choose_from(channel: Channel) -> None:
+    drafted = {
+        name for (on, _), names in CHANNEL_CATEGORIES.items() if on is channel for name in names
+    }
+
+    assert set(SPECS[channel].categories) == drafted
 
 
 def test_the_seller_api_needs_the_channel_key(market: Market) -> None:

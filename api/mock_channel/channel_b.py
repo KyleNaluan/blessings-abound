@@ -9,7 +9,7 @@ SPEC = ChannelSpec(
     schema_name="channel_b",
     label="Channel B",
     tagline="A resale app for clothing",
-    categories=("apparel",),
+    categories=("Menswear", "Womenswear", "Kidswear", "Shoes", "Unisex"),
     required=("brand",),
 )
 
