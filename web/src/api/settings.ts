@@ -10,6 +10,7 @@ export type SeasonalCalendar = Schemas['SeasonalCalendar']
 export type Season = Schemas['Season']
 export type WorthListing = Schemas['WorthListing']
 export type Fees = Schemas['Fees']
+export type ChannelBFees = Schemas['ChannelBFees']
 export type AskToSale = Schemas['AskToSale']
 export type ShippingWeight = Schemas['ShippingWeight']
 
@@ -81,6 +82,9 @@ export const saveWorthListing: Save<WorthListing> = (value, expected) =>
 
 export const saveFees: Save<Fees> = (value, expected) =>
   unwrap(api.PUT('/settings/fees', { body: { value, expected_updated_at: expected } }))
+
+export const saveChannelBFees: Save<ChannelBFees> = (value, expected) =>
+  unwrap(api.PUT('/settings/channel-b-fees', { body: { value, expected_updated_at: expected } }))
 
 export const saveAskToSale: Save<AskToSale> = (value, expected) =>
   unwrap(api.PUT('/settings/ask-to-sale', { body: { value, expected_updated_at: expected } }))

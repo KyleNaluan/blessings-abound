@@ -10,6 +10,7 @@ import { usePageTitle } from '@/lib/usePageTitle'
 import {
   AskToSaleSection,
   BoxSizesSection,
+  ChannelBFeesSection,
   FeesSection,
   SeasonalCalendarSection,
   ShippingWeightSection,
@@ -105,6 +106,10 @@ export function SettingsPage() {
                 {...section('worth_listing', load.settings)}
               />
               <FeesSection key={keyOf('fees', load.settings)} {...section('fees', load.settings)} />
+              <ChannelBFeesSection
+                key={keyOf('channel_b_fees', load.settings)}
+                {...section('channel_b_fees', load.settings)}
+              />
               <AskToSaleSection
                 key={keyOf('ask_to_sale', load.settings)}
                 {...section('ask_to_sale', load.settings)}
