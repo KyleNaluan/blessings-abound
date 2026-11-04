@@ -1,3 +1,5 @@
+from collections.abc import AsyncIterator
+from contextlib import asynccontextmanager
 from typing import Annotated, Literal
 
 from fastapi import Depends, FastAPI, Response, status
@@ -9,11 +11,30 @@ from sqlmodel import Session
 
 from app.accounts import router as accounts_router
 from app.appraisal import router as appraisal_router
-from app.db import get_session
+from app.channels import get_channels
+from app.db import get_session, get_session_factory
+from app.listings import router as listings_router
+from app.scheduler import SyncScheduler
 from app.settings import get_settings
 from app.team import router as team_router
 
-app = FastAPI(title="Turnstone API", version="0.1.0")
+
+@asynccontextmanager
+async def lifespan(_: FastAPI) -> AsyncIterator[None]:
+    settings = get_settings()
+    channels = get_channels()
+    scheduler = None
+    if settings.sync_enabled and channels:
+        scheduler = SyncScheduler(
+            get_session_factory(), channels, settings.sync_job_seconds, settings.sync_poll_seconds
+        )
+        scheduler.start()
+    yield
+    if scheduler is not None:
+        scheduler.stop()
+
+
+app = FastAPI(title="Turnstone API", version="0.1.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -25,6 +46,7 @@ app.add_middleware(
 app.include_router(appraisal_router)
 app.include_router(accounts_router)
 app.include_router(team_router)
+app.include_router(listings_router)
 
 
 class HealthStatus(BaseModel):

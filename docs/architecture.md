@@ -117,6 +117,29 @@ The photos were an Xbox 360 controller, a Game Boy Color, Levi's 501 jeans, an A
   Gemini answered HTTP 429 on 2 of 10 photos sent a few seconds apart, so its free quota is tight too.
 - `gemini-2.5-flash` returns HTTP 404 for new API keys, and `gemini-3.8-flash` and `gemini-flash-latest` timed out after 40 seconds, so the fallback uses `gemini-3.5-flash`.
 
+## Mock channels and sync
+
+Channel A is an eBay-style marketplace that takes clothing, electronics and games, and Channel B is a Depop or Poshmark-style resale app that takes clothing only and needs a brand.
+Each is a small FastAPI service in `api/mock_channel/`, built from one shared app in `service.py`, with its own database role and schema, as [database.md](database.md#mock-channel-schemas) describes.
+Each channel has a seller API under `/api` that the main app calls with the channel key, a storefront at `/` where anyone can buy a listing, and an `/admin` page behind the channel key that switches the channel offline for the demo.
+
+The main app talks to a channel only through the `ChannelAdapter` interface in `api/app/channels.py`, and `MockChannelAdapter` is the one implementation, so a real platform would be a second adapter.
+The sync rules are in `api/app/sync.py`, and they work like this:
+
+1. `publish_item` adds one `pending` listing per channel and one `publish_listing` job each, and the route runs those jobs at once, so a channel that is up has the listing before the reply.
+   A channel that refuses the listing, such as Channel B with a game, leaves it `rejected` with the channel's reason, and a channel that is down gets the job retried.
+2. A purchase on a storefront sends a webhook to `POST /channels/<channel>/sales`, signed with HMAC-SHA256 over the body with the channel key, and a 2xx answer marks the order acknowledged on the channel.
+3. A scheduler thread in the API polls each channel every 30 seconds for orders not yet acknowledged and for its live listings, so a webhook that never arrived is caught by polling.
+4. `record_sale` keeps each order once in `sale_events`, marks the item sold, and queues an `end_listing` job for every other live listing of that item.
+5. The same thread runs due jobs every 2 seconds, and a failed try waits 5 seconds, then 10, 20 and so on up to 5 minutes, for at most 10 tries.
+6. A second sale of an item that has already sold, a listing still live after Turnstone took it down, and a listing or sale Turnstone has no record of are each flagged in `sync_log` for the Needs Attention screen, in the shape [database.md](database.md#needs-attention-flags) describes.
+
+Every change goes in `sync_log`, along with every flag.
+Turnstone's own records change only on what a channel has confirmed, so a listing being taken down stays `active` until the channel answers.
+
+The listing text sent today comes from `placeholder_listing_content` in `api/app/pipeline.py`, which builds a plain title and description from the item card until the listing drafts in #19 and the approval step in #42 replace it.
+A manager publishes with `POST /items/{id}/listings`, or with `api/app/publish_to_channels.py`, which runs the same code, until the approval step in #42 calls `publish_item` itself, and both need an item that staff said yes to.
+
 ## Database
 
 The tables, their constraints and who may reach them are described in [database.md](database.md).
@@ -202,3 +225,13 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Point the offline demo at a local stand-in for Supabase, the vision model and SerpApi rather than adding an offline switch to the app, so no setting in the deployed code can turn sign-in off.
 - 2026-11-01: Report the deployed commit on `/health` from Render's `RENDER_GIT_COMMIT`, so anyone can check from outside which commit is live.
 - 2026-11-02: Score vision accuracy from the saved evaluation cards rather than a new model run, because they came from the current prompt and providers and a rerun spends nothing, and count a near miss as wrong so the accuracy never gives partial credit, see [vision-accuracy.md](vision-accuracy.md).
+- 2026-11-03: Run each mock channel as its own service with its own Postgres role and schema, with row-level security and a policy for that role only, so a channel can't read Turnstone's tables or the other channel's, and the main app reaches a channel only through its seller API, as it would a real platform.
+- 2026-11-03: Send every channel update through a `jobs` table in Postgres, claimed with `FOR UPDATE SKIP LOCKED` and a 60 second lease, rather than calling the channel inside the request, so a channel that is down gets the update later and a runner that dies mid-call leaves no job stuck.
+- 2026-11-03: Run polling and the jobs on a thread inside the API rather than as a separate worker, because Render's free plan has no free background workers, and the lease and `SKIP LOCKED` keep two API processes from running the same job.
+- 2026-11-03: Sign sale webhooks with HMAC-SHA256 over the raw body using the channel key, and treat a 2xx answer as the acknowledgment, so polling asks only for orders that are not acknowledged and a missed webhook is still caught.
+- 2026-11-03: Use the `listings.id` as the `external_ref` each channel stores and make publishing with the same one return the existing listing, so a publish retried after a timeout can't list the item twice.
+- 2026-11-03: Keep a double sale as two `sale_events` rows and a flag rather than cancelling an order automatically, because which buyer keeps the item is a manager's call.
+- 2026-11-03: Flag a stale listing and queue another `end_listing` job in the same poll, and let sync resolve the flag once the channel confirms, so a channel that was down only briefly doesn't leave a manager a flag to clear by hand.
+- 2026-11-03: Make each open flag's `conflict_key` unique with a partial index and add flags with `ON CONFLICT DO NOTHING`, so a conflict that polling sees every 30 seconds is flagged once.
+- 2026-11-03: Change a listing's status only on what the channel has confirmed, so Turnstone never shows a listing as ended while it is still for sale.
+- 2026-11-03: Build the listing text from the item card in `placeholder_listing_content` until the drafts in #19 replace it, so publishing and sync can be built and tested now.

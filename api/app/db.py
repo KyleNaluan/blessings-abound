@@ -1,4 +1,4 @@
-from collections.abc import Iterator
+from collections.abc import Callable, Iterator
 from functools import lru_cache
 
 from sqlalchemy import Engine
@@ -15,3 +15,8 @@ def get_engine() -> Engine:
 def get_session() -> Iterator[Session]:
     with Session(get_engine()) as session:
         yield session
+
+
+def get_session_factory() -> Callable[[], Session]:
+    """New sessions for work that outlives a request, such as a background task."""
+    return lambda: Session(get_engine())

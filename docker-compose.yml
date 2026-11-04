@@ -24,7 +24,16 @@ services:
       DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-thrift}:${POSTGRES_PASSWORD:-thrift}@db:5432/${POSTGRES_DB:-thrift}
       LOCAL_STORAGE_DIR: /app/storage
       PYTHONDONTWRITEBYTECODE: "1"
-    command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+      CHANNEL_A_URL: http://channel-a:8000
+      CHANNEL_A_KEY: ${CHANNEL_A_KEY:-local-channel-a-key}
+      CHANNEL_A_DB_PASSWORD: ${CHANNEL_A_DB_PASSWORD:-channel_a}
+      CHANNEL_B_URL: http://channel-b:8000
+      CHANNEL_B_KEY: ${CHANNEL_B_KEY:-local-channel-b-key}
+      CHANNEL_B_DB_PASSWORD: ${CHANNEL_B_DB_PASSWORD:-channel_b}
+    command: >-
+      sh -c "alembic upgrade head
+      && python -m app.channel_roles
+      && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
     ports:
       - "${API_PORT:-8000}:8000"
     volumes:
@@ -37,6 +46,50 @@ services:
       retries: 15
     depends_on:
       db:
+        condition: service_healthy
+
+  # The two mock sales channels, each signing in to Postgres as its own role, see docs/architecture.md.
+  channel-a:
+    build: ./api
+    environment:
+      CHANNEL_DATABASE_URL: postgresql+psycopg://channel_a:${CHANNEL_A_DB_PASSWORD:-channel_a}@db:5432/${POSTGRES_DB:-thrift}
+      CHANNEL_KEY: ${CHANNEL_A_KEY:-local-channel-a-key}
+      CHANNEL_WEBHOOK_URL: http://api:8000/channels/channel_a/sales
+      PYTHONDONTWRITEBYTECODE: "1"
+    command: uvicorn mock_channel.channel_a:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "${CHANNEL_A_PORT:-8001}:8000"
+    volumes:
+      - ./api:/app
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+    depends_on:
+      # The api container runs the migrations and lets the channel roles sign in.
+      api:
+        condition: service_healthy
+
+  channel-b:
+    build: ./api
+    environment:
+      CHANNEL_DATABASE_URL: postgresql+psycopg://channel_b:${CHANNEL_B_DB_PASSWORD:-channel_b}@db:5432/${POSTGRES_DB:-thrift}
+      CHANNEL_KEY: ${CHANNEL_B_KEY:-local-channel-b-key}
+      CHANNEL_WEBHOOK_URL: http://api:8000/channels/channel_b/sales
+      PYTHONDONTWRITEBYTECODE: "1"
+    command: uvicorn mock_channel.channel_b:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "${CHANNEL_B_PORT:-8002}:8000"
+    volumes:
+      - ./api:/app
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+    depends_on:
+      api:
         condition: service_healthy
 
 volumes:

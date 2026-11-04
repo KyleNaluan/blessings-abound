@@ -291,6 +291,27 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/items/{item_id}/listings': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** List Item Listings */
+    get: operations['list_item_listings']
+    put?: never
+    /**
+     * Publish
+     * @description List the item on the channels, as #42's approval will. Managers only.
+     */
+    post: operations['publish_item']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/health': {
     parameters: {
       query?: never
@@ -394,6 +415,11 @@ export interface components {
     ChangeRoleRequest: {
       role: components['schemas']['Role']
     }
+    /**
+     * ChannelName
+     * @enum {string}
+     */
+    ChannelName: 'channel_a' | 'channel_b'
     /** ChoosePasswordRequest */
     ChoosePasswordRequest: {
       /** Password */
@@ -646,6 +672,40 @@ export interface components {
       | 'listed'
       | 'sold'
       | 'picked'
+    /** ListingRead */
+    ListingRead: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      channel: components['schemas']['ChannelName']
+      /** Channel Listing Id */
+      channel_listing_id: string | null
+      status: components['schemas']['ListingStatus']
+      /** Status Detail */
+      status_detail: string | null
+      /** Price Cents */
+      price_cents: number
+      /** Title */
+      title: string
+      /**
+       * Approved At
+       * Format: date-time
+       */
+      approved_at: string
+      /** Published At */
+      published_at: string | null
+      /** Sold At */
+      sold_at: string | null
+      /** Ended At */
+      ended_at: string | null
+    }
+    /**
+     * ListingStatus
+     * @enum {string}
+     */
+    ListingStatus: 'pending' | 'active' | 'sold' | 'ended' | 'rejected' | 'failed'
     /** PersonRead */
     PersonRead: {
       /**
@@ -675,6 +735,13 @@ export interface components {
       person: components['schemas']['PersonRead']
       /** Temporary Password */
       temporary_password: string
+    }
+    /** PublishRequest */
+    PublishRequest: {
+      /** Channels */
+      channels?: components['schemas']['ChannelName'][] | null
+      /** Price Cents */
+      price_cents?: number | null
     }
     /** RecentDecision */
     RecentDecision: {
@@ -1255,6 +1322,72 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['PersonRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_item_listings: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingRead'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  publish_item: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['PublishRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingRead'][]
         }
       }
       /** @description Validation Error */

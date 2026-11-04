@@ -16,8 +16,14 @@ TABLES = [
     "decisions",
     "comp_searches",
     "sign_in_attempts",
+    "listings",
+    "sale_events",
+    "sync_log",
+    "jobs",
     "alembic_version",
 ]
+CHANNEL_SCHEMAS = ["channel_a", "channel_b"]
+CHANNEL_TABLES = ["listings", "orders", "controls"]
 # The net after fees is the one cents column allowed below zero, see docs/database.md.
 SIGNED_CENTS_COLUMNS = {"net_after_fees_cents"}
 
@@ -74,7 +80,7 @@ def columns_named(connection: Connection, pattern: str) -> list[tuple[str, str, 
 
 def test_every_cents_column_is_a_whole_number_type(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_cents")
-    assert len(columns) == 4
+    assert len(columns) == 6
     assert {data_type for _, _, data_type in columns} == {"integer"}
 
 
@@ -96,10 +102,15 @@ def test_only_the_net_after_fees_may_be_negative(connection: Connection) -> None
     add_appraisal(connection, item_id, net_after_fees_cents=-204)
     signed = {
         column
-        for _, column, _ in columns_named(connection, "%\\_cents")
+        for table, column, _ in columns_named(connection, "%\\_cents")
         if not connection.execute(
-            text("SELECT 1 FROM pg_constraint WHERE contype = 'c' AND conname = :name"),
-            {"name": f"ck_appraisals_{column}_non_negative"},
+            text("SELECT 1 FROM pg_constraint WHERE contype = 'c' AND conname = ANY(:names)"),
+            {
+                "names": [
+                    f"ck_{table}_{column}_non_negative",
+                    f"ck_{table}_{column}_positive",
+                ]
+            },
         ).first()
     }
     assert signed == SIGNED_CENTS_COLUMNS
@@ -119,7 +130,7 @@ def test_price_range_must_be_ordered(connection: Connection) -> None:
 
 def test_every_time_column_carries_a_time_zone(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_at")
-    assert len(columns) == 12
+    assert len(columns) == 24
     assert {data_type for _, _, data_type in columns} == {"timestamp with time zone"}
 
 
@@ -319,3 +330,182 @@ def test_the_web_api_role_cannot_write(
     web_api_role()
     with pytest.raises(ProgrammingError, match="row-level security"):
         add_profile(connection)
+
+
+def add_listing(connection: Connection, channel: str = "channel_a", **values: Any) -> UUID:
+    person = add_profile(connection, f"approver-{uuid4().hex[:8]}")
+    listing_id = uuid4()
+    fields = {
+        "item_id": add_item(connection, person),
+        "channel": channel,
+        "price_cents": 2500,
+        "content": "{}",
+        "approved_by": person,
+        "approved_at": "2026-11-03 12:00:00+00",
+    }
+    insert(connection, "listings", id=listing_id, **(fields | values))
+    return listing_id
+
+
+def test_an_item_has_one_listing_per_channel(connection: Connection) -> None:
+    listing_id = add_listing(connection)
+    item_id = connection.execute(
+        text("SELECT item_id FROM listings WHERE id = :id"), {"id": listing_id}
+    ).scalar_one()
+    add_listing(connection, "channel_b", item_id=item_id)
+    with pytest.raises(IntegrityError, match="uq_listings_item_id_channel"):
+        add_listing(connection, "channel_a", item_id=item_id)
+
+
+def test_a_listing_price_must_be_above_zero(connection: Connection) -> None:
+    with pytest.raises(IntegrityError, match="ck_listings_price_cents_positive"):
+        add_listing(connection, price_cents=0)
+
+
+def add_flag(connection: Connection, key: str | None, **values: Any) -> None:
+    fields = {"event": "flagged", "conflict": "double_sale", "message": "Sold twice."}
+    insert(connection, "sync_log", id=uuid4(), conflict_key=key, **(fields | values))
+
+
+def test_a_flag_needs_a_conflict_and_only_a_flag_has_one(connection: Connection) -> None:
+    with (
+        pytest.raises(IntegrityError, match="ck_sync_log_flag_has_conflict"),
+        connection.begin_nested(),
+    ):
+        add_flag(connection, None, conflict=None)
+    with pytest.raises(IntegrityError, match="ck_sync_log_flag_has_conflict"):
+        add_flag(connection, "double_sale:x", event="delisted")
+
+
+def test_only_a_flag_can_be_resolved(connection: Connection) -> None:
+    with pytest.raises(IntegrityError, match="ck_sync_log_only_flags_resolve"):
+        insert(
+            connection,
+            "sync_log",
+            id=uuid4(),
+            event="delisted",
+            message="Came down.",
+            resolution="Fine.",
+        )
+
+
+def test_an_open_flag_is_raised_once_and_a_resolved_one_can_come_back(
+    connection: Connection,
+) -> None:
+    add_flag(connection, "stale_listing:channel_a:1")
+    with (
+        pytest.raises(IntegrityError, match="uq_sync_log_open_conflict_key"),
+        connection.begin_nested(),
+    ):
+        add_flag(connection, "stale_listing:channel_a:1")
+    connection.execute(text("UPDATE sync_log SET resolved_at = now(), resolution = 'Ended.'"))
+    add_flag(connection, "stale_listing:channel_a:1")
+
+
+def test_a_channel_order_is_recorded_once(connection: Connection) -> None:
+    listing_id = add_listing(connection)
+    item_id = connection.execute(
+        text("SELECT item_id FROM listings WHERE id = :id"), {"id": listing_id}
+    ).scalar_one()
+    sale = {
+        "item_id": item_id,
+        "listing_id": listing_id,
+        "channel": "channel_a",
+        "channel_order_id": "order-1",
+        "price_cents": 2500,
+        "sold_at": "2026-11-03 12:00:00+00",
+        "source": "webhook",
+    }
+    insert(connection, "sale_events", id=uuid4(), **sale)
+    with pytest.raises(IntegrityError, match="uq_sale_events_channel_channel_order_id"):
+        insert(connection, "sale_events", id=uuid4(), **(sale | {"source": "polling"}))
+
+
+def add_channel_listing(connection: Connection, schema: str) -> UUID:
+    listing_id = uuid4()
+    insert(
+        connection,
+        f"{schema}.listings",
+        id=listing_id,
+        external_ref=str(uuid4()),
+        title="Jacket",
+        description="A jacket.",
+        category="apparel",
+        condition="pre_owned",
+        price_cents=2500,
+        specifics="{}",
+    )
+    return listing_id
+
+
+def test_a_channel_sells_each_listing_once(connection: Connection) -> None:
+    listing_id = add_channel_listing(connection, "channel_a")
+    insert(connection, "channel_a.orders", id=uuid4(), listing_id=listing_id, price_cents=2500)
+    with pytest.raises(IntegrityError, match="uq_orders_one_paid_order_per_listing"):
+        insert(connection, "channel_a.orders", id=uuid4(), listing_id=listing_id, price_cents=2500)
+
+
+def test_a_cancelled_order_lets_the_listing_sell_again(connection: Connection) -> None:
+    listing_id = add_channel_listing(connection, "channel_b")
+    order = {"listing_id": listing_id, "price_cents": 2500}
+    insert(connection, "channel_b.orders", id=uuid4(), status="cancelled", **order)
+    insert(connection, "channel_b.orders", id=uuid4(), **order)
+
+
+@pytest.mark.parametrize("schema", CHANNEL_SCHEMAS)
+def test_each_channel_role_works_in_its_own_schema(connection: Connection, schema: str) -> None:
+    add_channel_listing(connection, schema)
+    connection.execute(text(f"SET LOCAL ROLE {schema}"))
+    for table in CHANNEL_TABLES:
+        connection.execute(text(f"SELECT count(*) FROM {schema}.{table}"))
+    assert connection.execute(text(f"SELECT count(*) FROM {schema}.listings")).scalar_one() == 1
+    add_channel_listing(connection, schema)
+
+
+@pytest.mark.parametrize(
+    ("schema", "table"),
+    [
+        ("channel_a", "channel_b.listings"),
+        ("channel_b", "channel_a.orders"),
+        ("channel_a", "public.items"),
+        ("channel_b", "public.listings"),
+        ("channel_a", "public.profiles"),
+    ],
+)
+def test_a_channel_role_cannot_reach_another_schema(
+    connection: Connection, schema: str, table: str
+) -> None:
+    connection.execute(text(f"SET LOCAL ROLE {schema}"))
+    with pytest.raises(ProgrammingError, match="permission denied"):
+        connection.execute(text(f"SELECT count(*) FROM {table}"))
+
+
+def test_the_web_api_role_cannot_reach_the_channel_schemas(
+    connection: Connection, web_api_role: Callable[[], None]
+) -> None:
+    web_api_role()
+    for schema in CHANNEL_SCHEMAS:
+        with pytest.raises(ProgrammingError, match="permission denied"), connection.begin_nested():
+            connection.execute(text(f"SELECT count(*) FROM {schema}.listings"))
+
+
+def test_channel_tables_have_row_level_security_for_their_own_role_only(
+    connection: Connection,
+) -> None:
+    rows = connection.execute(
+        text(
+            "SELECT schemaname, tablename, rowsecurity FROM pg_tables "
+            "WHERE schemaname = ANY(:schemas)"
+        ),
+        {"schemas": CHANNEL_SCHEMAS},
+    ).all()
+    assert sorted((schema, table) for schema, table, _ in rows) == sorted(
+        (schema, table) for schema in CHANNEL_SCHEMAS for table in CHANNEL_TABLES
+    )
+    assert all(enabled for _, _, enabled in rows)
+    policies = connection.execute(
+        text("SELECT schemaname, roles FROM pg_policies WHERE schemaname = ANY(:schemas)"),
+        {"schemas": CHANNEL_SCHEMAS},
+    ).all()
+    assert len(policies) == len(CHANNEL_SCHEMAS) * len(CHANNEL_TABLES)
+    assert all(roles == [schema] for schema, roles in policies)

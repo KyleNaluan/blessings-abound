@@ -1,5 +1,6 @@
 # The offline demo: no keys and no network once the images are built, see README.md.
 # A stand-in answers for Supabase, the vision model and SerpApi, with public passwords, so run it on this machine only.
+# The mock channels come from docker-compose.yml unchanged, because they need no network either.
 services:
   standin:
     build: ./api
@@ -27,6 +28,7 @@ services:
       CORS_ORIGINS: '["http://localhost:5173"]'
     command: >-
       sh -c "alembic upgrade head
+      && python -m app.channel_roles
       && python -m app.seed_local_profile 00000000-0000-4000-8000-000000000001 demo.staff staff
       && python -m app.seed_local_profile 00000000-0000-4000-8000-000000000002 demo.manager manager
       && uvicorn app.main:app --host 0.0.0.0 --port 8000"

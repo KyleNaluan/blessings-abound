@@ -33,7 +33,7 @@ target-version = "py312"
 select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
 
 [tool.pyright]
-include = ["app", "tests", "alembic"]
+include = ["app", "mock_channel", "tests", "alembic"]
 pythonVersion = "3.12"
 typeCheckingMode = "standard"
 venvPath = "."
