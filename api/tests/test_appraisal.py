@@ -46,6 +46,7 @@ from app.pipeline import item_facts
 from app.pricing import price_range, worth_listing
 from app.settings import get_settings
 from app.storage import LocalStorage
+from app.store_settings import pricing_rules
 
 STAFF_TOKEN = "staff-token"
 OTHER_STAFF_TOKEN = "other-staff-token"
@@ -729,7 +730,7 @@ def test_the_price_comes_from_the_filtered_comps_of_the_confirmed_card(
     assert search.calls == [("Carhartt Detroit jacket", "3000")]
     card = session.get(ItemCard, UUID(item_id))
     assert card is not None
-    rules = get_settings().pricing
+    rules = pricing_rules(session)
     kept = filter_comps(parse_comps(reply), item_facts(card)).kept
     price = price_range(kept, rules, Category.APPAREL)
     assert appraisal["price_low_cents"] == price.low_cents

@@ -60,6 +60,7 @@ The hosted demo follows these steps:
 Each step is a board issue, and so far the item card in step 2 and steps 3 to 9 are built, and `POST /items/{id}/appraisals` runs them through `price_item` in `api/app/pipeline.py`.
 The item card in step 2 is read, edited and confirmed by staff, and the SerpApi lookup in step 4 is the active Buy It Now search with its 7 day cache and the drop-a-word fallback.
 Steps 5 to 9 are built as pure functions in `api/app/comp_filter.py` and `api/app/pricing.py`, with their numbers in `PricingRules` in `api/app/settings.py`.
+The worth-listing threshold, the fees and the ask-to-sale factors start from those numbers, and an appraisal reads them from the manager-only Settings page, described in [settings.md](settings.md).
 Step 10's language model is not built, so the explanation is the code template it falls back to.
 The other steps are not built yet.
 The language model never produces a price, and every number comes from code over comps, which are similar items for sale on eBay.
@@ -79,11 +80,11 @@ The language model never produces a price, and every number comes from code over
    A listing returned more than once is dropped by its item id with reason DUPLICATE, so one listing cannot weigh twice in the percentiles.
 6. Code trims outliers with Tukey fences on log price, skipped when fewer than 4 listings remain, and takes the low, typical and high price from the percentiles.
    Apparel uses the 25th, 50th and 75th, and games and hardware use the 15th, 50th and 85th.
-7. Asking prices run higher than sale prices, so code multiplies the range by an ask-to-sale factor from config, which is one value per category rather than one per channel, because comps always come from eBay.
+7. Asking prices run higher than sale prices, so code multiplies the range by an ask-to-sale factor from the Settings page, which is one value per category rather than one per channel, because comps always come from eBay.
    Apparel's 0.645 is labeled an assumption, because it comes from Poshmark data with ratios from 1.21 to 2.93, and a re-measure on eBay is a stretch item done by hand.
    The 0.94 for games and hardware is also labeled an assumption, because it comes from 18 items in [evaluation.md](evaluation.md).
 8. Confidence is high with at least 10 listings left after the trim and a ratio of at most 2 between the 75th and 25th percentiles, medium with at least 5 and a ratio of at most 3, and low otherwise.
-9. The worth-listing rule says "yes" when the typical sale price is at least $30, "no" below it, and "check" when confidence is low or there are no comps, and the threshold, fees and supplies live in config.
+9. The worth-listing rule says "yes" when the typical sale price is at least $30, "no" below it, and "check" when confidence is low or there are no comps, and the threshold, fees and supplies are set on the Settings page.
    The net after eBay's fees, which are 13.6% for most categories plus $0.40 per order, and $1.50 for supplies is shown beside it.
 10. The language model writes a 2 to 3 sentence explanation from the computed numbers only, and code rejects the text if it contains any number that is not in those facts and falls back to a template.
 
@@ -240,3 +241,8 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-03: Write a draft only for an item whose latest decision is yes, and draft a missing channel again rather than replacing one, so a lost response can be retried without overwriting staff's edits.
 - 2026-11-03: Share `complete_json` in `api/app/ai.py` between the item card and the drafts, so both retry and fall back the same way.
 - 2026-11-03: Read quoted words that are on the card as a copy of the card, and have the prompt quote the item's printed text, because the first live run passed 40 of 48 drafts, and 4 of its 7 flags came from the model describing that text with "includes" or "with" while the other 3 used "includes" for parts the card already names, so the prompt also bans "includes" when nothing extra was recorded.
+- 2026-11-03: Keep each Settings section's default in code and seed the migration with a frozen copy of it, so a section with no row reads the same as a fresh database, and a later change to the code can't change what an old migration does. A test fails when the two differ.
+- 2026-11-03: Make every field of a Settings section required on a save, rather than defaulted, so a save that leaves a field out is refused instead of quietly putting the starting value back.
+- 2026-11-03: Send the `updated_at` a Settings section was read with on each save and refuse it with a 409 when the row has changed since, so one manager's save can't undo another's. The API stamps the time itself, because `now()` is the same for every statement in a transaction.
+- 2026-11-03: Read the worth-listing threshold, the fees and both ask-to-sale factors from Settings on every appraisal, so `PRICING` in the environment no longer changes those six, and the evaluation clears the `settings` rows in its rolled-back transaction so it always scores the values in code.
+- 2026-11-03: Write the seasonal calendar and the box sizes from published sources and label the choices that go beyond them as assumptions, see [settings.md](settings.md), and build only the read routes the timing hint in #20 and the box dropdown in #42 will use.
