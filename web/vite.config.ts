@@ -21,8 +21,9 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./src/test/setup.ts'],
-    // The limit for a whole test is a plain timer, so seconds lost to the shared CI runner freezing this process count
-    // against it, and the first test in a file also does the slow cold start. Only a test that hangs ever waits this long.
-    testTimeout: 15000,
+    // Vitest's limit for a whole test is a plain timer, so a freeze of the shared CI runner counts against it.
+    // The runner sets the limit instead, counting only the time this process ran.
+    runner: './src/test/runner.ts',
+    testTimeout: 0,
   },
 })
