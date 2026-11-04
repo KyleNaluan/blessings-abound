@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "d33ace6a7d92667b6323a8088649b19873e034f524e1939673435e77f9d4eca0",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "LLA Gold Plastic Video Game Cartridge",
+    "description": "This pre-owned item is a gold plastic video game cartridge. It reads \"LLA\" on the item. The condition is Pre-owned.",
+    "category": "Video Games"
+  },
+  "failure": null
+}

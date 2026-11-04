@@ -33,7 +33,7 @@ from app.ai import ChatModel, get_chat_model, get_fallback_chat_model
 from app.comp_filter import filter_comps
 from app.comps import Comp, EbaySearch, parse_comps, serpapi_ebay_search, strip_private_fields
 from app.db import get_engine
-from app.models import Category, CompSearch, Condition, Department, ItemCard
+from app.models import Category, CompSearch, Condition, Department, ItemCard, StoreSetting
 from app.pipeline import item_facts, needs_confirmation, price_item, staff_notes
 from app.pricing import (
     HIGH_PERCENTILE,
@@ -857,9 +857,11 @@ def main() -> None:
     searches = SavedSearches(live=live, allowed=args.live_searches)
 
     # Every row is rolled back, so replaying saved searches can't count against the app's budget.
+    # Settings are cleared too, so the run scores the rules in code and not a manager's changes.
     with get_engine().connect() as connection:
         transaction = connection.begin()
         connection.execute(sa.delete(CompSearch))
+        connection.execute(sa.delete(StoreSetting))
         with Session(bind=connection, join_transaction_mode="create_savepoint") as session:
             try:
                 results = run(session, searches)

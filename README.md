@@ -199,6 +199,9 @@ A change to the pricing rules, the comp filter or the evaluation items makes a t
 
 A change to the saved cards, the vision labels or the item card prompt makes a test fail until `uv run python -m app.vision_accuracy` in `api/` rewrites [docs/vision-accuracy.md](docs/vision-accuracy.md), which makes no model calls and needs no keys.
 
+A change to the listing prompt, the claim checker or the saved drafts makes a test fail until `uv run python -m app.draft_eval` in `api/` rewrites [docs/listing-drafts.md](docs/listing-drafts.md), which makes no model calls and needs no keys.
+A prompt change also needs the drafts written again with `--write-drafts`, which uses the AI keys.
+
 Web:
 
 ```sh
@@ -228,6 +231,12 @@ The tables are described in [docs/database.md](docs/database.md), which also cov
 The pricing pipeline is described in [docs/architecture.md](docs/architecture.md#pricing-pipeline), and an appraisal now runs it from the confirmed item card through the SerpApi comps lookup, the comp filter and the pricing functions.
 It needs a SerpApi key in `SERPAPI_API_KEY`, and without one an appraisal saves a "check" with no price.
 Tests never call SerpApi, because they read committed fixture responses instead and clear the key.
+A manager can change the worth-listing price, the fees and the ask-to-sale factors on the Settings page, which is described with its sources in [docs/settings.md](docs/settings.md).
+
+## Approval and the pick list
+
+A manager approves or rejects each item whose listings staff sent on, sets a price per channel, enters the package and the shelf or bin, and staff pull sold items from the pick list, as described in [docs/architecture.md](docs/architecture.md#manager-approval-and-storage).
+Sales come from the channels in #21, so until then nothing reaches the pick list outside the tests.
 
 ## Contributing
 

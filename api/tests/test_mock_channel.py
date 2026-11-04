@@ -11,12 +11,12 @@ import httpx2
 import pytest
 from sqlalchemy import Connection
 
-from app.models import ChannelName
+from app.models import Channel
 from mock_channel import service
 from mock_channel.service import ChannelSettings
 from tests.channel_harness import APPS, KEYS, Market
 
-A, B = ChannelName.CHANNEL_A, ChannelName.CHANNEL_B
+A, B = Channel.CHANNEL_A, Channel.CHANNEL_B
 
 JACKET = {
     "title": "Carhartt canvas jacket",
@@ -56,12 +56,12 @@ def market(connection: Connection, webhooks: Webhooks) -> Iterator[Market]:
     market.close()
 
 
-def list_item(market: Market, channel: ChannelName = A, **changes: Any) -> Any:
+def list_item(market: Market, channel: Channel = A, **changes: Any) -> Any:
     body = {"external_ref": str(uuid4()), **JACKET, **changes}
     return market.adapters[channel].client.post("/listings", json=body)
 
 
-def listed(market: Market, channel: ChannelName = A) -> dict[str, Any]:
+def listed(market: Market, channel: Channel = A) -> dict[str, Any]:
     response = list_item(market, channel)
     assert response.status_code == 201, response.text
     return response.json()
@@ -89,7 +89,7 @@ def test_publishing_twice_with_one_external_ref_returns_one_listing(market: Mark
     ],
 )
 def test_each_channel_enforces_its_own_rules(
-    market: Market, channel: ChannelName, changes: dict[str, Any], message: str
+    market: Market, channel: Channel, changes: dict[str, Any], message: str
 ) -> None:
     response = list_item(market, channel, **changes)
 

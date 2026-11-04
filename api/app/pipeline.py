@@ -1,10 +1,11 @@
-"""The photo-to-price steps behind the appraisal routes.
+"""The steps from photo to price and listing draft behind the appraisal routes.
 
 Each function marked PLACEHOLDER is left from the walking skeleton (#30), and it is the seam its
 issue replaces, so the routes and the web app stay as they are when the real step arrives.
 """
 
 import logging
+from collections.abc import Sequence
 from typing import Any
 from uuid import UUID
 
@@ -13,6 +14,7 @@ from sqlmodel import Session
 
 from app.ai import ChatModel
 from app.channels import ListingContent
+from app.claims import ListingFacts
 from app.comp_filter import ItemFacts, filter_comps, is_hardware
 from app.comps import (
     EbaySearch,
@@ -22,10 +24,12 @@ from app.comps import (
     condition_ids,
     find_comps,
 )
-from app.models import Category, Confidence, ItemCard, Recommendation
+from app.listing_drafts import DraftResult, channel_takes, write_draft
+from app.models import Category, Channel, Confidence, ItemCard, Recommendation
 from app.pricing import PriceRange, WorthListing, price_range, worth_listing
 from app.settings import PricingRules, get_settings
 from app.storage import Storage
+from app.store_settings import pricing_rules
 from app.vision import ItemCardDraft, prepare_photo, read_item_card
 
 logger = logging.getLogger(__name__)
@@ -141,7 +145,8 @@ def _search_condition(facts: ItemFacts) -> str:
 
 def price_item(card: ItemCard, session: Session, search: EbaySearch | None) -> PriceResult:
     """Price the item from comps, or say plainly why there is no price."""
-    rules = get_settings().pricing
+    # Read before the search, so the rules saved with the appraisal are the ones it was priced by.
+    rules = pricing_rules(session)
     facts = item_facts(card)
     query = card.search_query
     condition = _search_condition(facts)
@@ -246,3 +251,16 @@ def _explain(price: PriceRange, worth: WorthListing, rules: PricingRules) -> str
         f"{_money(price.high_cents)}, from the asking prices of {count}. "
         f"That leaves {_money(worth.net_after_fees_cents)} after fees and supplies. {verdict}"
     )
+
+
+def listing_channels(category: Category) -> list[Channel]:
+    """The channels a listing is drafted for when the request names none, by category alone."""
+    # PLACEHOLDER: #20 replaces this with its channel recommendation and the staff choice.
+    return [channel for channel in Channel if channel_takes(channel, category)]
+
+
+def draft_listing(
+    facts: ListingFacts, channel: Channel, providers: Sequence[ChatModel]
+) -> DraftResult:
+    """The model's listing for one channel when the checker passes it, and the template if not."""
+    return write_draft(facts, channel, providers)

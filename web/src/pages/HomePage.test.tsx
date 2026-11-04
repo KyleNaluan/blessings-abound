@@ -28,7 +28,7 @@ test('shows the API health reported by /health', async () => {
     vi.fn(async () => Response.json({ status: 'ok' })),
   )
   renderHome()
-  expect(await screen.findByText('ok')).toBeInTheDocument()
+  expect(await screen.findByText('Working')).toBeInTheDocument()
 })
 
 test('shows only the username for an account with a hidden placeholder address', async () => {
@@ -51,7 +51,7 @@ test('shows the API as unreachable when the request fails', async () => {
     }),
   )
   renderHome()
-  expect(await screen.findByText('unreachable')).toBeInTheDocument()
+  expect(await screen.findByText("Can't reach it")).toBeInTheDocument()
 })
 
 test('sends people who are not signed in to the sign-in page', async () => {
@@ -127,4 +127,28 @@ test('visiting the app after a successful sign-out reaches sign-in, not a blank 
   await screen.findByRole('heading', { level: 1, name: /keep every shop in sync/ })
   fireEvent.click(screen.getByRole('button', { name: 'revisit app' }))
   expect(await screen.findByRole('heading', { name: 'Sign in' })).toBeInTheDocument()
+})
+
+test.each([
+  ['manager', ['Approvals', 'Pick list', 'Settings']],
+  ['staff', ['Pick list']],
+])('a %s sees the links for their role', async (role, links) => {
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async (request: Request) =>
+      new URL(request.url).pathname === '/me'
+        ? Response.json({ status: 'active', role })
+        : Response.json({ status: 'ok' }),
+    ),
+  )
+  renderHome()
+  await screen.findByRole('link', { name: 'Pick list' })
+  await waitFor(() =>
+    expect(
+      screen
+        .getAllByRole('link')
+        .map((link) => link.textContent)
+        .filter((name) => ['Approvals', 'Pick list', 'Settings'].includes(name ?? '')),
+    ).toEqual(links),
+  )
 })

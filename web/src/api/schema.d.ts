@@ -96,6 +96,226 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/items/{item_id}/drafts': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** List Listing Drafts */
+    get: operations['list_listing_drafts']
+    put?: never
+    /**
+     * Create Listing Drafts
+     * @description Draft the listing for each channel that has none yet, and return all of the item's drafts.
+     *
+     *     A channel that already has a draft keeps it, so the screen can retry a lost response.
+     */
+    post: operations['create_listing_drafts']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/drafts/{channel}': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    /**
+     * Edit Listing Draft
+     * @description Save staff's changes, which the checker reads again like the model's draft.
+     */
+    patch: operations['edit_listing_draft']
+    trace?: never
+  }
+  '/items/{item_id}/drafts/submit': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Submit Listing Drafts
+     * @description Send every draft on to manager approval, once none of them has a flagged claim.
+     */
+    post: operations['submit_listing_drafts']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/approvals': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * List Approvals
+     * @description The items waiting for a manager, to approve or to store.
+     */
+    get: operations['list_approvals']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/review': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** Get Item Review */
+    get: operations['get_item_review']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/listings/{channel}/price': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /**
+     * Set Listing Price
+     * @description Set this channel's price in place of the typical price, or clear it to go back to that.
+     */
+    put: operations['set_listing_price']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/storage': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /**
+     * Save Item Storage
+     * @description Save the package, before or after approval, and the shelf or bin once it is approved.
+     */
+    put: operations['save_item_storage']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/approve': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Approve Item
+     * @description Approve every listing staff sent on, once each has a price and Channel A has a package.
+     */
+    post: operations['approve_item']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/reject': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Reject Item
+     * @description Turn the item down, which records a manager's no and needs no package or shelf.
+     */
+    post: operations['reject_item']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/pick-list': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * Get Pick List
+     * @description Every sold item still to pick, in the order to walk the shelves.
+     */
+    get: operations['get_pick_list']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/picked': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Mark Item Picked
+     * @description Take a sold item off the pick list once it is off the shelf.
+     */
+    post: operations['mark_item_picked']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/auth/sign-in': {
     parameters: {
       query?: never
@@ -312,6 +532,147 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/settings': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** Get Settings Page */
+    get: operations['get_settings']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/box-sizes': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * List Box Sizes
+     * @description The box size choices, in the order the Settings page lists them.
+     */
+    get: operations['list_box_sizes']
+    /** Save Box Sizes */
+    put: operations['save_box_sizes']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/seasonal-calendar': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /** Get Seasonal Calendar */
+    get: operations['get_seasonal_calendar']
+    /** Save Seasonal Calendar */
+    put: operations['save_seasonal_calendar']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/worth-listing': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Worth Listing */
+    put: operations['save_worth_listing']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/fees': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Fees */
+    put: operations['save_fees']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/ask-to-sale': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Ask To Sale */
+    put: operations['save_ask_to_sale']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/shipping-weight': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Shipping Weight */
+    put: operations['save_shipping_weight']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/settings/channel-b-fees': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    /** Save Channel B Fees */
+    put: operations['save_channel_b_fees']
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/health': {
     parameters: {
       query?: never
@@ -401,10 +762,104 @@ export interface components {
        */
       created_at: string
     }
+    /** AppraisalSummary */
+    AppraisalSummary: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      /** Price Low Cents */
+      price_low_cents: number | null
+      /** Price Typical Cents */
+      price_typical_cents: number | null
+      /** Price High Cents */
+      price_high_cents: number | null
+      confidence: components['schemas']['Confidence']
+      recommendation: components['schemas']['Recommendation']
+    }
+    /** ApprovalQueue */
+    ApprovalQueue: {
+      /** Awaiting Approval */
+      awaiting_approval: components['schemas']['QueueItem'][]
+      /** Awaiting Storage */
+      awaiting_storage: components['schemas']['QueueItem'][]
+    }
+    /**
+     * AskToSale
+     * @description The share of an asking price expected at sale, one factor per category.
+     */
+    AskToSale: {
+      /** Apparel */
+      apparel: number
+      /** Electronics Games */
+      electronics_games: number
+    }
+    /** AskToSaleRead */
+    AskToSaleRead: {
+      value: components['schemas']['AskToSale']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** AskToSaleUpdate */
+    AskToSaleUpdate: {
+      value: components['schemas']['AskToSale']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
     /** Body_create_item */
     Body_create_item: {
       /** Photo */
       photo: string
+    }
+    /**
+     * BoxSize
+     * @description A standard box, measured L x W x H, or a flat mailer, measured W x L.
+     */
+    BoxSize: {
+      kind: components['schemas']['PackageKind']
+      /** Length In */
+      length_in: number
+      /** Width In */
+      width_in: number
+      /** Height In */
+      height_in?: number | null
+    }
+    /**
+     * BoxSizeOption
+     * @description One choice in a box size list, with the size written out as it goes on the SKU.
+     */
+    BoxSizeOption: {
+      /** Code */
+      code: string
+      kind: components['schemas']['PackageKind']
+      /** Length In */
+      length_in: number
+      /** Width In */
+      width_in: number
+      /** Height In */
+      height_in: number | null
+    }
+    /** BoxSizes */
+    BoxSizes: {
+      /** Boxes */
+      boxes: components['schemas']['BoxSize'][]
+    }
+    /** BoxSizesRead */
+    BoxSizesRead: {
+      value: components['schemas']['BoxSizes']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** BoxSizesUpdate */
+    BoxSizesUpdate: {
+      value: components['schemas']['BoxSizes']
+      /** Expected Updated At */
+      expected_updated_at: string | null
     }
     /**
      * Category
@@ -416,15 +871,59 @@ export interface components {
       role: components['schemas']['Role']
     }
     /**
-     * ChannelName
+     * Channel
+     * @description The two mock channels, named like their schemas: A is eBay-style, B is apparel only.
      * @enum {string}
      */
-    ChannelName: 'channel_a' | 'channel_b'
+    Channel: 'channel_a' | 'channel_b'
+    /**
+     * ChannelBFees
+     * @description What a sale costs on Channel B, which charges a flat fee on a small sale and a share above.
+     *
+     *     The buyer pays for Channel B's prepaid shipping label, so only the supplies come on top.
+     */
+    ChannelBFees: {
+      /** Fee Rate */
+      fee_rate: number
+      /** Small Sale Fee Cents */
+      small_sale_fee_cents: number
+      /** Small Sale Below Cents */
+      small_sale_below_cents: number
+      /** Supplies Cents */
+      supplies_cents: number
+    }
+    /** ChannelBFeesRead */
+    ChannelBFeesRead: {
+      value: components['schemas']['ChannelBFees']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** ChannelBFeesUpdate */
+    ChannelBFeesUpdate: {
+      value: components['schemas']['ChannelBFees']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
     /** ChoosePasswordRequest */
     ChoosePasswordRequest: {
       /** Password */
       password: string
     }
+    /** ClaimFlag */
+    ClaimFlag: {
+      rule: components['schemas']['ClaimRule']
+      /** Phrase */
+      phrase: string
+      /** Message */
+      message: string
+    }
+    /**
+     * ClaimRule
+     * @enum {string}
+     */
+    ClaimRule: 'banned_word' | 'brand' | 'size' | 'number' | 'condition'
     /**
      * Condition
      * @enum {string}
@@ -502,6 +1001,52 @@ export interface components {
      * @enum {string}
      */
     Department: 'mens' | 'womens' | 'kids'
+    /**
+     * DraftRequest
+     * @description The request body for drafting, which carries no options yet.
+     */
+    DraftRequest: Record<string, never>
+    /**
+     * DraftSource
+     * @enum {string}
+     */
+    DraftSource: 'model' | 'template'
+    /**
+     * DraftState
+     * @enum {string}
+     */
+    DraftState: 'draft' | 'awaiting_approval' | 'approved' | 'rejected'
+    /**
+     * FallbackReason
+     * @enum {string}
+     */
+    FallbackReason: 'flagged' | 'model_failed' | 'not_configured'
+    /**
+     * Fees
+     * @description What a sale costs on Channel A, which is also what the worth-listing net subtracts.
+     */
+    Fees: {
+      /** Fee Rate */
+      fee_rate: number
+      /** Per Order Fee Cents */
+      per_order_fee_cents: number
+      /** Supplies Cents */
+      supplies_cents: number
+    }
+    /** FeesRead */
+    FeesRead: {
+      value: components['schemas']['Fees']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** FeesUpdate */
+    FeesUpdate: {
+      value: components['schemas']['Fees']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
     /**
      * Flaw
      * @enum {string}
@@ -658,6 +1203,44 @@ export interface components {
        */
       created_at: string
     }
+    /** ItemReview */
+    ItemReview: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Full Sku */
+      full_sku: string | null
+      status: components['schemas']['ItemStatus']
+      /** Release Month */
+      release_month: string | null
+      category: components['schemas']['Category']
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      condition: components['schemas']['Condition']
+      appraisal: components['schemas']['AppraisalSummary'] | null
+      /** Listings */
+      listings: components['schemas']['ListingReview'][]
+      /** Package Weight Oz */
+      package_weight_oz: number | null
+      /** Billed Weight Oz */
+      billed_weight_oz: number | null
+      /** Box Code */
+      box_code: string | null
+      /** Location Code */
+      location_code: string | null
+      /** Submitted By Name */
+      submitted_by_name: string | null
+      /** Submitted At */
+      submitted_at: string | null
+      /** Blockers */
+      blockers: string[]
+    }
     /**
      * ItemStatus
      * @enum {string}
@@ -672,6 +1255,63 @@ export interface components {
       | 'listed'
       | 'sold'
       | 'picked'
+    /**
+     * ListingDraftEdit
+     * @description Staff's changes to one draft, where a field left out stays as it is.
+     */
+    ListingDraftEdit: {
+      /** Title */
+      title?: string | null
+      /** Description */
+      description?: string | null
+      /** Category */
+      category?: string | null
+    }
+    /** ListingDraftRead */
+    ListingDraftRead: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      channel: components['schemas']['Channel']
+      /** Title */
+      title: string
+      /** Description */
+      description: string
+      /** Category */
+      category: string
+      /** Category Options */
+      category_options: string[]
+      state: components['schemas']['DraftState']
+      source: components['schemas']['DraftSource']
+      fallback_reason: components['schemas']['FallbackReason'] | null
+      /** Model Name */
+      model_name: string | null
+      /** Model Flags */
+      model_flags: components['schemas']['ClaimFlag'][]
+      /** Flags */
+      flags: components['schemas']['ClaimFlag'][]
+      /** Staff Edited */
+      staff_edited: boolean
+      /** Submitted At */
+      submitted_at: string | null
+      /**
+       * Created At
+       * Format: date-time
+       */
+      created_at: string
+      /**
+       * Updated At
+       * Format: date-time
+       */
+      updated_at: string
+    }
     /** ListingRead */
     ListingRead: {
       /**
@@ -679,7 +1319,7 @@ export interface components {
        * Format: uuid
        */
       id: string
-      channel: components['schemas']['ChannelName']
+      channel: components['schemas']['Channel']
       /** Channel Listing Id */
       channel_listing_id: string | null
       status: components['schemas']['ListingStatus']
@@ -701,11 +1341,37 @@ export interface components {
       /** Ended At */
       ended_at: string | null
     }
+    /** ListingReview */
+    ListingReview: {
+      channel: components['schemas']['Channel']
+      /** Title */
+      title: string
+      /** Description */
+      description: string
+      /** Category */
+      category: string
+      state: components['schemas']['DraftState']
+      /** Flags */
+      flags: components['schemas']['ClaimFlag'][]
+      /** Base Price Cents */
+      base_price_cents: number | null
+      /** Price Override Cents */
+      price_override_cents: number | null
+      /** Price Cents */
+      price_cents: number | null
+      /** Net After Fees Cents */
+      net_after_fees_cents: number | null
+    }
     /**
      * ListingStatus
      * @enum {string}
      */
     ListingStatus: 'pending' | 'active' | 'sold' | 'ended' | 'rejected' | 'failed'
+    /**
+     * PackageKind
+     * @enum {string}
+     */
+    PackageKind: 'box' | 'mailer'
     /** PersonRead */
     PersonRead: {
       /**
@@ -736,12 +1402,58 @@ export interface components {
       /** Temporary Password */
       temporary_password: string
     }
+    /** PickListEntry */
+    PickListEntry: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Full Sku */
+      full_sku: string | null
+      /** Title */
+      title: string
+      /** Box Code */
+      box_code: string | null
+      /** Location Code */
+      location_code: string | null
+      /** Package Weight Oz */
+      package_weight_oz: number | null
+    }
+    /** PriceOverride */
+    PriceOverride: {
+      /** Price Override Cents */
+      price_override_cents: number | null
+    }
     /** PublishRequest */
     PublishRequest: {
       /** Channels */
-      channels?: components['schemas']['ChannelName'][] | null
+      channels?: components['schemas']['Channel'][] | null
       /** Price Cents */
       price_cents?: number | null
+    }
+    /** QueueItem */
+    QueueItem: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Full Sku */
+      full_sku: string | null
+      status: components['schemas']['ItemStatus']
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      /** Channels */
+      channels: components['schemas']['Channel'][]
+      /** Waiting Since */
+      waiting_since: string | null
     }
     /** RecentDecision */
     RecentDecision: {
@@ -777,11 +1489,93 @@ export interface components {
      * @enum {string}
      */
     Recommendation: 'yes' | 'no' | 'check'
+    /** RejectRequest */
+    RejectRequest: {
+      /** Reason */
+      reason: string
+      /** Note */
+      note?: string | null
+    }
     /**
      * Role
      * @enum {string}
      */
     Role: 'staff' | 'manager'
+    /**
+     * Season
+     * @description Items of one kind, and the months worth listing them in. Other months hold them.
+     */
+    Season: {
+      /** Name */
+      name: string
+      category: components['schemas']['Category']
+      /** Match Words */
+      match_words: string[]
+      /** Months */
+      months: number[]
+    }
+    /**
+     * SeasonalCalendar
+     * @description An item that matches no season can be listed in any month.
+     */
+    SeasonalCalendar: {
+      /** Seasons */
+      seasons: components['schemas']['Season'][]
+    }
+    /** SeasonalCalendarRead */
+    SeasonalCalendarRead: {
+      value: components['schemas']['SeasonalCalendar']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** SeasonalCalendarUpdate */
+    SeasonalCalendarUpdate: {
+      value: components['schemas']['SeasonalCalendar']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
+    /** SettingsRead */
+    SettingsRead: {
+      box_sizes: components['schemas']['BoxSizesRead']
+      seasonal_calendar: components['schemas']['SeasonalCalendarRead']
+      worth_listing: components['schemas']['WorthListingRead']
+      fees: components['schemas']['FeesRead']
+      ask_to_sale: components['schemas']['AskToSaleRead']
+      shipping_weight: components['schemas']['ShippingWeightRead']
+      channel_b_fees: components['schemas']['ChannelBFeesRead']
+    }
+    /**
+     * ShippingWeight
+     * @description USPS Ground Advantage's rules, which the weight a manager enters in #42 is held to.
+     */
+    ShippingWeight: {
+      /** Ounce Tiers Oz */
+      ounce_tiers_oz: number[]
+      /** Max Weight Oz */
+      max_weight_oz: number
+      /** Max Length Plus Girth In */
+      max_length_plus_girth_in: number
+      /** Dim Weight Min Cubic In */
+      dim_weight_min_cubic_in: number
+      /** Dim Weight Divisor */
+      dim_weight_divisor: number
+    }
+    /** ShippingWeightRead */
+    ShippingWeightRead: {
+      value: components['schemas']['ShippingWeight']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** ShippingWeightUpdate */
+    ShippingWeightUpdate: {
+      value: components['schemas']['ShippingWeight']
+      /** Expected Updated At */
+      expected_updated_at: string | null
+    }
     /** SignInRequest */
     SignInRequest: {
       /** Username */
@@ -799,6 +1593,15 @@ export interface components {
       /** Refresh Token */
       refresh_token: string
     }
+    /** StorageRequest */
+    StorageRequest: {
+      /** Package Weight Oz */
+      package_weight_oz: number
+      /** Box Code */
+      box_code: string
+      /** Location Code */
+      location_code?: string | null
+    }
     /** ValidationError */
     ValidationError: {
       /** Location */
@@ -811,6 +1614,25 @@ export interface components {
       input?: unknown
       /** Context */
       ctx?: Record<string, never>
+    }
+    /** WorthListing */
+    WorthListing: {
+      /** Threshold Cents */
+      threshold_cents: number
+    }
+    /** WorthListingRead */
+    WorthListingRead: {
+      value: components['schemas']['WorthListing']
+      /** Updated At */
+      updated_at: string | null
+      /** Updated By Name */
+      updated_by_name: string | null
+    }
+    /** WorthListingUpdate */
+    WorthListingUpdate: {
+      value: components['schemas']['WorthListing']
+      /** Expected Updated At */
+      expected_updated_at: string | null
     }
   }
   responses: never
@@ -1009,6 +1831,376 @@ export interface operations {
         content: {
           'application/json': components['schemas']['RecentDecision'][]
         }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_listing_drafts: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingDraftRead'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  create_listing_drafts: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['DraftRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingDraftRead'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  edit_listing_draft: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+        channel: components['schemas']['Channel']
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ListingDraftEdit']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingDraftRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  submit_listing_drafts: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ListingDraftRead'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_approvals: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ApprovalQueue']
+        }
+      }
+    }
+  }
+  get_item_review: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  set_listing_price: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+        channel: components['schemas']['Channel']
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['PriceOverride']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_item_storage: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['StorageRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  approve_item: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  reject_item: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['RejectRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  get_pick_list: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['PickListEntry'][]
+        }
+      }
+    }
+  }
+  mark_item_picked: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      204: {
+        headers: {
+          [name: string]: unknown
+        }
+        content?: never
       }
       /** @description Validation Error */
       422: {
@@ -1388,6 +2580,297 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['ListingRead'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  get_settings: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+    }
+  }
+  list_box_sizes: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['BoxSizeOption'][]
+        }
+      }
+    }
+  }
+  save_box_sizes: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['BoxSizesUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  get_seasonal_calendar: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SeasonalCalendar']
+        }
+      }
+    }
+  }
+  save_seasonal_calendar: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['SeasonalCalendarUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_worth_listing: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['WorthListingUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_fees: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['FeesUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_ask_to_sale: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['AskToSaleUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_shipping_weight: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ShippingWeightUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  save_channel_b_fees: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ChannelBFeesUpdate']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['SettingsRead']
         }
       }
       /** @description Validation Error */

@@ -1,8 +1,8 @@
 """Add listings, sale events, sync log, jobs and the mock channel schemas
 
 Revision ID: 75f72c57bf2c
-Revises: b81d5e3c7a02
-Create Date: 2026-11-03 12:00:00.000000+00:00
+Revises: d5d1c163aeb8
+Create Date: 2026-11-04 17:00:00.000000+00:00
 
 """
 
@@ -15,7 +15,7 @@ from alembic import op
 
 # revision identifiers, used by Alembic.
 revision: str = "75f72c57bf2c"
-down_revision: str | Sequence[str] | None = "b81d5e3c7a02"
+down_revision: str | Sequence[str] | None = "d5d1c163aeb8"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 

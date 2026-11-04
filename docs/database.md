@@ -54,8 +54,17 @@ Each item is one of a kind.
 | `photo_keys` | `text[]` | Storage keys, 1 to 4 of them |
 | `photo_hash` | `text` | Required and indexed for the duplicate guard, not unique because a repeat photo prompts staff rather than being refused, and a placeholder from the walking skeleton until #9 |
 | `notes` | `text` | Optional |
+| `release_month` | `date` | Optional, the first day of the month a held item is released in, which the timing hint in #20 will set |
+| `package_weight_oz` | `double precision` | Optional, more than 0, the packed weight a manager enters, set together with `box_code` |
+| `box_code` | `text` | Optional, one of the Settings box size codes, copied, and added to the SKU after a space |
+| `location_code` | `text` | Optional, the shelf or bin, such as `B12-2`, set only once there is a box |
 | `created_at` | `timestamptz` | Set by the database |
 | `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
+
+The box code is copied rather than referenced, so taking a size out of Settings doesn't change the SKU of an item already packed in it.
+The API checks the code against Settings when it is saved, upper-cases the shelf or bin and closes up the spaces around a dash, so `b12 - 2` is saved as `B12-2`.
+An approved item whose release month is still to come is `held_for_season`, and it keeps its release month.
+`sold` is set by `mark_sold` in `api/app/approval.py`, which the channel sync in #21 will call, and nothing calls it yet.
 
 ### `item_cards`
 
@@ -132,6 +141,47 @@ Code reuses the newest row for a key while it is under 7 days old, and a refresh
 | `fetched_at` | `timestamptz` | Set by the database, indexed with the four key columns for the cache lookup |
 
 It has no foreign keys, because a response belongs to a search and not to an item.
+
+### `listing_drafts`
+
+The listing text for one item on one channel, which staff edit and then send on to a manager.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `item_id` | `uuid` | Required, foreign key to `items`, and unique with `channel`, so an item has one draft per channel |
+| `channel` | `text` | `channel_a` or `channel_b` |
+| `title`, `description` | `text` | Required, the text as it stands after any staff edit |
+| `category` | `text` | Required, one of the channel's own categories, which the API checks |
+| `state` | `text` | `draft`, `awaiting_approval`, `approved` or `rejected`, `draft` by default |
+| `source` | `text` | `model` or `template` |
+| `fallback_reason` | `text` | `flagged`, `model_failed` or `not_configured`, set exactly when `source` is `template` |
+| `model_name` | `text` | Optional, the provider that answered, even when its draft was flagged |
+| `model_flags` | `jsonb` | Required, the checker's flags that sent the model's draft to the template, empty by default |
+| `staff_edited` | `boolean` | False by default |
+| `created_by`, `submitted_by` | `uuid` | Foreign keys to `profiles`, where `submitted_by` is set with `submitted_at` |
+| `submitted_at` | `timestamptz` | Required once `state` is past `draft` |
+| `price_override_cents` | `integer` | Optional, more than 0, the manager's price for this channel in place of the appraisal's typical price |
+| `reviewed_by` | `uuid` | Foreign key to `profiles`, the manager who approved or rejected the listing, set with `reviewed_at` |
+| `reviewed_at` | `timestamptz` | Required exactly when `state` is `approved` or `rejected` |
+| `created_at`, `updated_at` | `timestamptz` | Set by the database |
+
+The checker's flags on the current text are not stored, because the API works them out from the card whenever a draft is read, so they can't go stale after a card or text edit.
+
+### `settings`
+
+One row per section of the Settings page, holding the values a manager can change without a code change, see [settings.md](settings.md).
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `key` | `varchar(32)` | Primary key, `box_sizes`, `seasonal_calendar`, `worth_listing`, `fees`, `ask_to_sale`, `shipping_weight` or `channel_b_fees` |
+| `value` | `jsonb` | Required, the section's values, checked by its model in `api/app/store_settings.py` on every write |
+| `updated_by` | `uuid` | Optional, references `profiles`, empty until a manager saves the section |
+| `updated_at` | `timestamptz` | Set by the database on insert, and by the API on each save, which checks it to refuse a save from a stale page |
+
+The first settings migration seeds six rows with the values the code used before, the manager approval migration seeds `channel_b_fees`, and a section with no row reads as those same values.
+`fees` holds Channel A's fees, and keeps its key so the rows saved before Channel B had a section still read.
+The seed is a copy written into the migration, so a later change to the code's defaults doesn't change what an old migration does.
 
 ### `listings`
 

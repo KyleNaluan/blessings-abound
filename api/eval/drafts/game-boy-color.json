@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "aca9c0de776906631d1559ff45f3f7a5aa5916c7029fc4d7dc8198dee0fac0a7",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Game Boy Color Handheld Console Purple",
+    "description": "This pre-owned Nintendo Game Boy Color handheld console is made of purple plastic. It reads \"GAME BOY Color\". The item is listed without a box.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

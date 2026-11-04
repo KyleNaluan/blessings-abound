@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "5d5a5e4e0759d3d0247c348aba47631accd50d00b7e522527384dc8833309558",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo 64 Grey Game Controller",
+    "description": "This is a pre-owned Nintendo 64 game controller in grey. It reads \"Nintendo\". The item is listed as pre-owned.",
+    "category": "Controllers & Attachments"
+  },
+  "failure": null
+}

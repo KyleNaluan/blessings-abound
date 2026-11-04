@@ -5,6 +5,9 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-04, [#42](https://github.com/KyleNaluan/blessings-abound/issues/42), Add the manager approval step with per-channel prices and nets, the package and shelf step with the box size from Settings and the suffixed SKU, and the pick list by box then shelf, with sales left to #21 and the box dropdown part of #41 done
+- 2026-11-03, [#41](https://github.com/KyleNaluan/blessings-abound/issues/41), Add the manager-only Settings page and its `settings` table, seed the seasonal calendar and box sizes from published sources, and price appraisals from the saved worth-listing price, fees and ask-to-sale factors, with the timing hint and box dropdown left to #20 and #42
+- 2026-11-03, [#19](https://github.com/KyleNaluan/blessings-abound/issues/19), Draft the listing for each channel with the model, check it with the rule-based claim checker, fall back to the fixed template when flagged, and let staff edit and send it for manager approval
 - 2026-11-03, [#21](https://github.com/KyleNaluan/blessings-abound/issues/21), Add the two mock sales channels as their own services and keep them in step after a sale, with a webhook, polling, retried jobs, a sync log and flags for double sales and stale or unknown listings
 - 2026-11-02, [#25](https://github.com/KyleNaluan/blessings-abound/issues/25), Follow the README from a fresh Windows clone: add the clone and Git steps, read and write files as UTF-8 so the evaluation tests pass on Windows, and check files out with LF line endings
 - 2026-11-02, [#39](https://github.com/KyleNaluan/blessings-abound/issues/39), Label the 48 evaluation photos with brand, category and product, and score the saved item cards against them, with the person check of the labels still to do

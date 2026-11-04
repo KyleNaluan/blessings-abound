@@ -14,14 +14,14 @@ from sqlalchemy import Connection
 from sqlmodel import Session
 
 from app.channels import MockChannelAdapter
-from app.models import ChannelName
+from app.models import Channel
 from mock_channel import channel_a, channel_b, service
 from mock_channel.service import ChannelSettings
 
-KEYS = {ChannelName.CHANNEL_A: "test-key-a", ChannelName.CHANNEL_B: "test-key-b"}
-APPS: dict[ChannelName, FastAPI] = {
-    ChannelName.CHANNEL_A: channel_a.app,
-    ChannelName.CHANNEL_B: channel_b.app,
+KEYS = {Channel.CHANNEL_A: "test-key-a", Channel.CHANNEL_B: "test-key-b"}
+APPS: dict[Channel, FastAPI] = {
+    Channel.CHANNEL_A: channel_a.app,
+    Channel.CHANNEL_B: channel_b.app,
 }
 
 
@@ -48,8 +48,8 @@ class Market:
 
     def __init__(self, connection: Connection, webhook_client: httpx2.Client | None) -> None:
         self.factory = session_factory(connection)
-        self.shops: dict[ChannelName, TestClient] = {}
-        self.adapters: dict[ChannelName, MockChannelAdapter] = {}
+        self.shops: dict[Channel, TestClient] = {}
+        self.adapters: dict[Channel, MockChannelAdapter] = {}
         for name, app in APPS.items():
             settings = ChannelSettings(
                 key=KEYS[name],
@@ -73,14 +73,14 @@ class Market:
         for app in APPS.values():
             app.dependency_overrides.clear()
 
-    def buy(self, channel: ChannelName, listing_id: str, *, send_webhook: bool = True) -> Any:
+    def buy(self, channel: Channel, listing_id: str, *, send_webhook: bool = True) -> Any:
         response = self.shops[channel].post(
             "/purchases", json={"listing_id": listing_id, "send_webhook": send_webhook}
         )
         assert response.status_code == 201, response.text
         return response.json()
 
-    def set_offline(self, channel: ChannelName, offline: bool = True) -> None:
+    def set_offline(self, channel: Channel, offline: bool = True) -> None:
         response = self.shops[channel].post(
             "/admin/offline",
             data={"offline": "true" if offline else "false"},
@@ -89,7 +89,7 @@ class Market:
         )
         assert response.status_code == 303, response.text
 
-    def listing(self, channel: ChannelName, channel_listing_id: str) -> dict[str, Any]:
+    def listing(self, channel: Channel, channel_listing_id: str) -> dict[str, Any]:
         response = self.adapters[channel].client.get(f"/listings/{channel_listing_id}")
         assert response.status_code == 200, response.text
         return response.json()

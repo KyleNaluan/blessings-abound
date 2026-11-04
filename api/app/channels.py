@@ -16,10 +16,10 @@ import httpx2
 from fastapi import status
 from pydantic import BaseModel, ValidationError
 
-from app.models import ChannelName
+from app.listing_drafts import CHANNEL_NAMES
+from app.models import Channel
 from app.settings import get_settings
 
-LABELS = {ChannelName.CHANNEL_A: "Channel A", ChannelName.CHANNEL_B: "Channel B"}
 TIMEOUT_SECONDS = 10.0
 
 
@@ -74,7 +74,7 @@ class ListingNotFoundError(ChannelRejectedError):
 
 
 class ChannelAdapter(Protocol):
-    name: ChannelName
+    name: Channel
 
     def publish(self, external_ref: UUID, content: ListingContent) -> ChannelListing:
         """Create the listing, or return the one already made for this external_ref."""
@@ -104,15 +104,15 @@ class ChannelAdapter(Protocol):
 class MockChannelAdapter:
     """Reaches one mock channel's seller API over HTTP."""
 
-    def __init__(self, name: ChannelName, client: httpx2.Client, key: str) -> None:
+    def __init__(self, name: Channel, client: httpx2.Client, key: str) -> None:
         self.name = name
         self.client = client
         self.key = key
-        self.label = LABELS[name]
+        self.label = CHANNEL_NAMES[name]
 
     @classmethod
     def connect(
-        cls, name: ChannelName, url: str, key: str, transport: httpx2.BaseTransport | None = None
+        cls, name: Channel, url: str, key: str, transport: httpx2.BaseTransport | None = None
     ) -> "MockChannelAdapter":
         client = httpx2.Client(
             base_url=f"{url.rstrip('/')}/api",
@@ -187,15 +187,15 @@ def _detail(response: httpx2.Response) -> str:
     return detail if isinstance(detail, str) else response.reason_phrase
 
 
-Channels = dict[ChannelName, ChannelAdapter]
+Channels = dict[Channel, ChannelAdapter]
 
 
 @lru_cache
 def _configured_channels() -> tuple[ChannelAdapter, ...]:
     settings = get_settings()
     configured = {
-        ChannelName.CHANNEL_A: (settings.channel_a_url, settings.channel_a_key),
-        ChannelName.CHANNEL_B: (settings.channel_b_url, settings.channel_b_key),
+        Channel.CHANNEL_A: (settings.channel_a_url, settings.channel_a_key),
+        Channel.CHANNEL_B: (settings.channel_b_url, settings.channel_b_key),
     }
     return tuple(
         MockChannelAdapter.connect(name, url, key)

@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "597a8574547bad1fa221159a5dfd3072f23575356db24ab485019961d6a9233d",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Super Nintendo Grey Plastic Game Console",
+    "description": "This is a pre-owned Nintendo Super Nintendo game console. It is made of grey plastic. It reads \"SUPER NINTENDO\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

@@ -16,7 +16,12 @@ from PIL import Image
 from sqlmodel import Session, select
 
 from app.ai import Message
-from app.appraisal import get_ebay_search, get_photo_storage, get_vision_providers
+from app.appraisal import (
+    get_draft_providers,
+    get_ebay_search,
+    get_photo_storage,
+    get_vision_providers,
+)
 from app.auth import AuthUnavailableError, get_token_verifier
 from app.comp_filter import filter_comps
 from app.comps import SerpApiError, parse_comps
@@ -29,9 +34,11 @@ from app.models import (
     Condition,
     Confidence,
     Decision,
+    DraftState,
     Item,
     ItemCard,
     ItemStatus,
+    ListingDraft,
     Profile,
     Role,
 )
@@ -39,6 +46,7 @@ from app.pipeline import item_facts
 from app.pricing import price_range, worth_listing
 from app.settings import get_settings
 from app.storage import LocalStorage
+from app.store_settings import pricing_rules
 
 STAFF_TOKEN = "staff-token"
 OTHER_STAFF_TOKEN = "other-staff-token"
@@ -90,6 +98,22 @@ class StubChat:
 
 def use_model(*providers: StubChat) -> None:
     app.dependency_overrides[get_vision_providers] = lambda: list(providers)
+
+
+def draft_reply(category: str, **changes: Any) -> str:
+    draft = {
+        "title": "Carhartt canvas jacket - Pre-owned",
+        "description": "Brown Carhartt canvas jacket in canvas, pre-owned. See the photos.",
+        "category": category,
+    }
+    return json.dumps(draft | changes)
+
+
+def use_drafter(*replies: str | int) -> StubChat:
+    """A model that answers the Channel A draft first and the Channel B draft second."""
+    chat = StubChat(*replies, name="drafter")
+    app.dependency_overrides[get_draft_providers] = lambda: [chat]
+    return chat
 
 
 def model_replies(**changes: Any) -> StubChat:
@@ -185,6 +209,7 @@ def client(session: Session, storage: LocalStorage) -> Iterator[TestClient]:
     app.dependency_overrides[get_photo_storage] = lambda: storage
     app.dependency_overrides[get_token_verifier] = lambda: StubVerifier(tokens)
     model_replies()
+    use_drafter(draft_reply("Unisex Clothing"), draft_reply("Unisex"))
     use_search(serpapi_fixture("carhartt-detroit-jacket"))
     yield TestClient(app, headers={"Authorization": f"Bearer {STAFF_TOKEN}"})
     app.dependency_overrides.clear()
@@ -705,7 +730,7 @@ def test_the_price_comes_from_the_filtered_comps_of_the_confirmed_card(
     assert search.calls == [("Carhartt Detroit jacket", "3000")]
     card = session.get(ItemCard, UUID(item_id))
     assert card is not None
-    rules = get_settings().pricing
+    rules = pricing_rules(session)
     kept = filter_comps(parse_comps(reply), item_facts(card)).kept
     price = price_range(kept, rules, Category.APPAREL)
     assert appraisal["price_low_cents"] == price.low_cents
@@ -921,6 +946,230 @@ def test_an_item_that_moved_on_during_the_search_is_not_appraised(
     assert session.exec(select(Appraisal)).all() == []
 
 
+def listed_item(client: TestClient) -> str:
+    item_id, appraisal_id = appraised_item(client)
+    assert decide(client, item_id, appraisal_id).status_code == 201
+    return item_id
+
+
+def write_drafts(client: TestClient, item_id: str, **body: Any) -> list[dict[str, Any]]:
+    response = client.post(f"/items/{item_id}/drafts", json=body)
+    assert response.status_code == 200, response.text
+    return response.json()
+
+
+def edit_draft(client: TestClient, item_id: str, channel: str, **changes: Any) -> Any:
+    return client.patch(f"/items/{item_id}/drafts/{channel}", json=changes)
+
+
+def test_a_listed_item_gets_a_draft_for_each_channel_its_category_allows(
+    client: TestClient, session: Session
+) -> None:
+    item_id = listed_item(client)
+    drafts = write_drafts(client, item_id)
+
+    assert [draft["channel"] for draft in drafts] == ["channel_a", "channel_b"]
+    assert [draft["category"] for draft in drafts] == ["Unisex Clothing", "Unisex"]
+    for draft in drafts:
+        assert draft["title"] == "Carhartt canvas jacket - Pre-owned"
+        assert draft["source"] == "model"
+        assert draft["fallback_reason"] is None
+        assert draft["model_name"] == "drafter"
+        assert draft["state"] == "draft"
+        assert draft["flags"] == []
+        assert draft["staff_edited"] is False
+    assert drafts[1]["category_options"] == [
+        "Menswear",
+        "Womenswear",
+        "Kidswear",
+        "Shoes",
+        "Unisex",
+    ]
+    saved = session.exec(select(ListingDraft)).all()
+    assert len(saved) == 2
+    assert client.get(f"/items/{item_id}/drafts").json() == drafts
+
+
+def test_the_model_sees_the_card_and_the_channel(client: TestClient) -> None:
+    drafter = use_drafter(draft_reply("Unisex Clothing"))
+    write_drafts(client, listed_item(client))
+    messages = drafter.calls[0]
+    prompt = str(messages[0]["content"])
+    assert "Channel A" in prompt
+    assert "- Brand: Carhartt" in prompt
+    assert "- Condition: Pre-owned" in prompt
+    assert '"Unisex Clothing"' in prompt
+
+
+def test_drafting_again_keeps_the_drafts_already_written(client: TestClient) -> None:
+    item_id = listed_item(client)
+    drafter = use_drafter(draft_reply("Unisex Clothing"), draft_reply("Unisex"))
+    first = write_drafts(client, item_id)
+    assert [draft["channel"] for draft in first] == ["channel_a", "channel_b"]
+    assert len(drafter.calls) == 2
+    assert write_drafts(client, item_id) == first
+    assert len(drafter.calls) == 2
+
+
+def test_a_game_gets_only_a_channel_a_draft(client: TestClient) -> None:
+    model_replies(category="electronics_games", brand="Nintendo", product="Switch Lite console")
+    use_drafter(
+        json.dumps(
+            {
+                "title": "Nintendo Switch Lite console - Pre-owned",
+                "description": "Nintendo Switch Lite console, pre-owned.",
+                "category": "Video Game Consoles",
+            }
+        )
+    )
+    drafts = write_drafts(client, listed_item(client))
+    assert [(draft["channel"], draft["category"]) for draft in drafts] == [
+        ("channel_a", "Video Game Consoles")
+    ]
+
+
+def test_a_flagged_model_draft_falls_back_to_the_template(client: TestClient) -> None:
+    use_drafter(draft_reply("Unisex Clothing", title="Rare vintage Carhartt jacket, size L"))
+    item_id = listed_item(client)
+    drafts = write_drafts(client, item_id)
+    draft = next(draft for draft in drafts if draft["channel"] == "channel_a")
+
+    assert draft["source"] == "template"
+    assert draft["fallback_reason"] == "flagged"
+    assert draft["title"] == "Carhartt canvas jacket, Brown - Pre-owned"
+    assert draft["flags"] == []
+    assert {flag["phrase"] for flag in draft["model_flags"]} >= {"rare", "vintage", "L"}
+
+
+def test_a_model_that_fails_leaves_the_template(client: TestClient) -> None:
+    use_drafter(500)
+    drafts = write_drafts(client, listed_item(client))
+    for draft in drafts:
+        assert draft["source"] == "template"
+        assert draft["fallback_reason"] == "model_failed"
+        assert draft["model_name"] is None
+
+
+def test_a_reply_with_a_category_off_the_list_is_retried(client: TestClient) -> None:
+    drafter = use_drafter(
+        draft_reply("Jackets"), draft_reply("Unisex Clothing"), draft_reply("Unisex")
+    )
+    drafts = write_drafts(client, listed_item(client))
+    draft = next(draft for draft in drafts if draft["channel"] == "channel_a")
+    assert draft["source"] == "model"
+    assert draft["category"] == "Unisex Clothing"
+    assert len(drafter.calls) == 3
+
+
+def test_a_server_without_a_model_writes_the_template(client: TestClient) -> None:
+    app.dependency_overrides[get_draft_providers] = lambda: []
+    drafts = write_drafts(client, listed_item(client))
+    for draft in drafts:
+        assert draft["source"] == "template"
+        assert draft["fallback_reason"] == "not_configured"
+
+
+def test_drafting_needs_a_yes_decision(client: TestClient) -> None:
+    item_id, _ = appraised_item(client)
+    refused = client.post(f"/items/{item_id}/drafts", json={})
+    assert refused.status_code == 409
+    assert refused.json()["detail"] == "Decide to list this item before writing its listing."
+
+    other_id, other_appraisal = appraised_item(client)
+    assert decide(client, other_id, other_appraisal, "no").status_code == 201
+    assert client.post(f"/items/{other_id}/drafts", json={}).status_code == 409
+
+
+def test_staff_edit_a_draft_and_the_checker_reads_the_edit(client: TestClient) -> None:
+    item_id = listed_item(client)
+    write_drafts(client, item_id)
+
+    response = edit_draft(
+        client,
+        item_id,
+        "channel_a",
+        title="Authentic Carhartt canvas jacket",
+        category="unisex clothing",
+    )
+    assert response.status_code == 200, response.text
+    edited = response.json()
+    assert edited["title"] == "Authentic Carhartt canvas jacket"
+    assert edited["category"] == "Unisex Clothing"
+    assert edited["staff_edited"] is True
+    assert [flag["phrase"] for flag in edited["flags"]] == ["authentic"]
+
+    fixed = edit_draft(client, item_id, "channel_a", title="Carhartt canvas jacket").json()
+    assert fixed["flags"] == []
+
+
+def test_sending_the_same_text_is_not_an_edit(client: TestClient) -> None:
+    item_id = listed_item(client)
+    (draft, _) = write_drafts(client, item_id)
+    same = edit_draft(client, item_id, "channel_a", title=draft["title"]).json()
+    assert same["staff_edited"] is False
+
+
+@pytest.mark.parametrize(
+    "changes",
+    [
+        {"category": "Jackets"},
+        {"category": "Menswear"},
+        {"title": ""},
+        {"title": "x" * 81},
+        {"description": None},
+        {"price": 10},
+    ],
+)
+def test_an_edit_must_keep_a_valid_draft(client: TestClient, changes: dict[str, Any]) -> None:
+    item_id = listed_item(client)
+    write_drafts(client, item_id)
+    assert edit_draft(client, item_id, "channel_a", **changes).status_code == 422
+
+
+def test_editing_a_channel_without_a_draft_is_not_found(client: TestClient) -> None:
+    model_replies(category="electronics_games", brand="Nintendo", product="Switch Lite console")
+    item_id = listed_item(client)
+    write_drafts(client, item_id)
+    response = edit_draft(client, item_id, "channel_b", title="Carhartt jacket")
+    assert response.status_code == 404
+    assert response.json()["detail"] == "This item has no draft for Channel B."
+
+
+def test_a_flagged_draft_cannot_go_for_approval(client: TestClient, session: Session) -> None:
+    item_id = listed_item(client)
+    write_drafts(client, item_id)
+    edit_draft(client, item_id, "channel_b", description="A rare Carhartt jacket.")
+
+    response = client.post(f"/items/{item_id}/drafts/submit")
+    assert response.status_code == 409
+    assert response.json()["detail"] == (
+        "Fix the flagged claims on Channel B before sending the listing on."
+    )
+    assert {draft.state for draft in session.exec(select(ListingDraft)).all()} == {DraftState.DRAFT}
+
+
+def test_clean_drafts_go_on_to_manager_approval(client: TestClient) -> None:
+    item_id = listed_item(client)
+    write_drafts(client, item_id)
+
+    response = client.post(f"/items/{item_id}/drafts/submit")
+    assert response.status_code == 200, response.text
+    submitted = response.json()
+    assert [draft["state"] for draft in submitted] == ["awaiting_approval", "awaiting_approval"]
+    assert all(draft["submitted_at"] is not None for draft in submitted)
+
+    locked = edit_draft(client, item_id, "channel_a", title="Carhartt jacket")
+    assert locked.status_code == 409
+    assert client.post(f"/items/{item_id}/drafts/submit").status_code == 200
+
+
+def test_sending_for_approval_needs_drafts(client: TestClient) -> None:
+    item_id = listed_item(client)
+    response = client.post(f"/items/{item_id}/drafts/submit")
+    assert response.status_code == 409
+    assert response.json()["detail"] == "Write the listing drafts first."
+
+
 ROUTES = [
     ("post", "/items"),
     ("post", f"/items/{uuid4()}/card"),
@@ -928,6 +1177,10 @@ ROUTES = [
     ("post", f"/items/{uuid4()}/appraisals"),
     ("post", f"/items/{uuid4()}/decisions"),
     ("get", "/decisions"),
+    ("post", f"/items/{uuid4()}/drafts"),
+    ("get", f"/items/{uuid4()}/drafts"),
+    ("patch", f"/items/{uuid4()}/drafts/channel_a"),
+    ("post", f"/items/{uuid4()}/drafts/submit"),
 ]
 
 

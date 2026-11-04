@@ -12,8 +12,9 @@ from uuid import UUID
 from fastapi import HTTPException
 from sqlmodel import Session, col, select
 
-from app.channels import LABELS, Channels, get_channels
+from app.channels import Channels, get_channels
 from app.db import get_engine
+from app.listing_drafts import CHANNEL_NAMES
 from app.listings import PublishRequest, publish_listings
 from app.models import Decision, DecisionChoice, Item, ItemStatus, Profile, Role
 
@@ -59,7 +60,7 @@ def publish(session: Session, channels: Channels, arguments: list[str]) -> int:
         return 1
     print(f"Item {item_id}:")
     for listing in listings:
-        line = f"  {LABELS[listing.channel]}: {listing.status.value}"
+        line = f"  {CHANNEL_NAMES[listing.channel]}: {listing.status.value}"
         if listing.status_detail:
             line += f", {listing.status_detail}"
         print(line)

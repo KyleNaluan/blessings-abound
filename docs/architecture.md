@@ -60,6 +60,7 @@ The hosted demo follows these steps:
 Each step is a board issue, and so far the item card in step 2 and steps 3 to 9 are built, and `POST /items/{id}/appraisals` runs them through `price_item` in `api/app/pipeline.py`.
 The item card in step 2 is read, edited and confirmed by staff, and the SerpApi lookup in step 4 is the active Buy It Now search with its 7 day cache and the drop-a-word fallback.
 Steps 5 to 9 are built as pure functions in `api/app/comp_filter.py` and `api/app/pricing.py`, with their numbers in `PricingRules` in `api/app/settings.py`.
+The worth-listing threshold, the fees and the ask-to-sale factors start from those numbers, and an appraisal reads them from the manager-only Settings page, described in [settings.md](settings.md).
 Step 10's language model is not built, so the explanation is the code template it falls back to.
 The other steps are not built yet.
 The language model never produces a price, and every number comes from code over comps, which are similar items for sale on eBay.
@@ -79,11 +80,11 @@ The language model never produces a price, and every number comes from code over
    A listing returned more than once is dropped by its item id with reason DUPLICATE, so one listing cannot weigh twice in the percentiles.
 6. Code trims outliers with Tukey fences on log price, skipped when fewer than 4 listings remain, and takes the low, typical and high price from the percentiles.
    Apparel uses the 25th, 50th and 75th, and games and hardware use the 15th, 50th and 85th.
-7. Asking prices run higher than sale prices, so code multiplies the range by an ask-to-sale factor from config, which is one value per category rather than one per channel, because comps always come from eBay.
+7. Asking prices run higher than sale prices, so code multiplies the range by an ask-to-sale factor from the Settings page, which is one value per category rather than one per channel, because comps always come from eBay.
    Apparel's 0.645 is labeled an assumption, because it comes from Poshmark data with ratios from 1.21 to 2.93, and a re-measure on eBay is a stretch item done by hand.
    The 0.94 for games and hardware is also labeled an assumption, because it comes from 18 items in [evaluation.md](evaluation.md).
 8. Confidence is high with at least 10 listings left after the trim and a ratio of at most 2 between the 75th and 25th percentiles, medium with at least 5 and a ratio of at most 3, and low otherwise.
-9. The worth-listing rule says "yes" when the typical sale price is at least $30, "no" below it, and "check" when confidence is low or there are no comps, and the threshold, fees and supplies live in config.
+9. The worth-listing rule says "yes" when the typical sale price is at least $30, "no" below it, and "check" when confidence is low or there are no comps, and the threshold, fees and supplies are set on the Settings page.
    The net after eBay's fees, which are 13.6% for most categories plus $0.40 per order, and $1.50 for supplies is shown beside it.
 10. The language model writes a 2 to 3 sentence explanation from the computed numbers only, and code rejects the text if it contains any number that is not in those facts and falls back to a template.
 
@@ -116,6 +117,59 @@ The photos were an Xbox 360 controller, a Game Boy Color, Levi's 501 jeans, an A
 - Gemini's rate limits page lists no free-tier numbers, and says to read them in Google AI Studio, so the free limits are not recorded here.
   Gemini answered HTTP 429 on 2 of 10 photos sent a few seconds apart, so its free quota is tight too.
 - `gemini-2.5-flash` returns HTTP 404 for new API keys, and `gemini-3.8-flash` and `gemini-flash-latest` timed out after 40 seconds, so the fallback uses `gemini-3.5-flash`.
+
+## Listing drafts
+
+After a yes decision, `POST /items/{id}/drafts` writes a title, description and category for each channel, `PATCH /items/{id}/drafts/{channel}` saves staff's edits, and `POST /items/{id}/drafts/submit` sends the drafts on to manager approval.
+Channel A takes every item and Channel B takes apparel only, which `listing_channels` in `api/app/pipeline.py` decides until #20 lets staff choose the channels.
+A draft is stored in `listing_drafts` with the state `draft`, and sending it sets `awaiting_approval`, which is the state the [manager approval](#manager-approval-and-storage) step reads.
+
+The model is the same pair as the item card, Groq `qwen/qwen3.8-27b` with Gemini `gemini-3.5-flash` as the fallback, through `complete_json` in `api/app/ai.py`.
+It asks for a JSON object, retries a bad reply once on the same provider and falls back at once on an HTTP error.
+The prompt is `PROMPT` in `api/app/listing_drafts.py`, sent as one user message, and it holds:
+
+- a line on the channel, plain and searchable for Channel A and relaxed for Channel B,
+- the facts, which are the card's fields and the staff entries, leaving out anything nobody recorded,
+- rules that forbid any brand, number, size, condition, flaw, working or box claim the facts don't support, built per item, so an item tested as working may say so and one with no record may not,
+- the banned words, and
+- the JSON keys, with the channel's own categories to copy one from.
+
+The rule-based checker in `api/app/claims.py` reads the model's title and description apart, so a "not" in one can't excuse the other, and flags:
+
+- a banned word, such as rare, authentic, antique, vintage, mint or official, unless it is on the card,
+- a brand, system or product line the card doesn't name, where a product line counts for its maker, so "Switch" is fine on a Nintendo card,
+- a letter size, a size after the word "size", a fit such as slim or oversized, or a department, that the card doesn't give,
+- a number or number word that isn't on the card, and
+- a condition claim the card or staff entries don't support, such as new, sealed, tested, complete in box or a flaw, where a "not" or "no" up to three words before it in the same clause makes it a statement the card allows, except for grades such as "no flaws".
+
+Words in double quotes that are on the card, such as the text printed on the item, are read as a copy of the card and not as a claim, and the prompt asks the model to quote that text after "It reads".
+
+A flagged draft, or no usable reply from either model, falls back to the fixed template in `template_draft`, which only restates the card, and the stored row keeps the checker's flags so staff can see why.
+Staff can edit either one, and the API checks the text again on every read, so the item screen shows the flags as they stand and sending is refused while any remain.
+On the 48 evaluation items, which are all games and hardware for Channel A, 46 of the model's drafts passed the checker, 95.8%, measured once on 2026-11-03.
+The 2 flagged drafts said "sold as is" and "no record of it being tested", which the card doesn't say either.
+[listing-drafts.md](listing-drafts.md) has each draft and the limits of that sample.
+
+## Manager approval and storage
+
+`api/app/approval.py` holds the manager's step after the listing drafts and the storage step after approval, and the web pages are `/app/approvals`, `/app/approvals/{id}` and `/app/pick-list`.
+Every route except the pick list is for managers only, and staff get a 403 with "Only a manager can do this."
+
+1. `GET /approvals` lists the items whose drafts staff sent on, oldest first, and the approved items that have no shelf or bin yet.
+2. `GET /items/{id}/review` shows each channel's listing with its typical sale price, its listing price and the net after that channel's fees, worked out in integer cents from the Settings fees on every read.
+3. `PUT /items/{id}/listings/{channel}/price` sets a channel's price in place of the typical price, or clears it, while the listing waits for approval.
+4. `PUT /items/{id}/storage` saves the package weight and a box size from Settings, before or after approval, and the shelf or bin once the item is approved.
+   The weight is held to the Settings shipping weight limit, and the review shows the weight the label is billed at.
+5. `POST /items/{id}/approve` approves every listing, and is refused with the reasons while a listing has a flag or no price, or while Channel A has no weight and box size.
+   An item whose release month is still to come becomes `held_for_season` and keeps that month, and any other item becomes `approved`.
+6. `POST /items/{id}/reject` needs a reason, marks the listings `rejected`, records a manager's no in `decisions` and sets the item to `declined`, so it never needs a package or shelf.
+   Staff can say yes again from the appraisal page, which puts the rejected listings back to `draft` with their text kept, so staff can fix them and send them on again.
+7. `GET /pick-list` lists the sold items for staff and managers, grouped by box in the order Settings lists the boxes, then by shelf or bin, so A2 comes before A10, and `POST /items/{id}/picked` takes one off.
+
+The full SKU is the intake SKU, a space and the box code, such as `RT10272601 12x12x6`, and the API builds it from the two columns rather than storing it.
+The intake SKU itself is #37, so for now it is the placeholder from the walking skeleton.
+An item reaches the pick list once its status is `sold`, which only `mark_sold` sets.
+The channels, publishing and sales sync are #21, and once they land a real sale calls `mark_sold`, so the pick list needs no change.
 
 ## Mock channels and sync
 
@@ -225,6 +279,23 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-01: Point the offline demo at a local stand-in for Supabase, the vision model and SerpApi rather than adding an offline switch to the app, so no setting in the deployed code can turn sign-in off.
 - 2026-11-01: Report the deployed commit on `/health` from Render's `RENDER_GIT_COMMIT`, so anyone can check from outside which commit is live.
 - 2026-11-02: Score vision accuracy from the saved evaluation cards rather than a new model run, because they came from the current prompt and providers and a rerun spends nothing, and count a near miss as wrong so the accuracy never gives partial credit, see [vision-accuracy.md](vision-accuracy.md).
+- 2026-11-03: Work out the claim checker's flags whenever a draft is read rather than storing them, and store only the flags that sent the model's draft to the template, because a staff edit or a card edit would leave stored flags out of date.
+- 2026-11-03: Allow a banned word or a claim when the card's own text has it, such as "vintage wash" in a product name, because the checker's job is to stop claims the card doesn't make, and refuse grades such as "mint" or "no flaws" even after a "not", because the card has no field for them.
+- 2026-11-03: Refuse to send drafts for approval while any of them has a flag, rather than warning, because a manager approving a flagged claim is the mistake the checker is there to stop, and staff can always reword or fall back to the template text.
+- 2026-11-03: Write a draft only for an item whose latest decision is yes, and draft a missing channel again rather than replacing one, so a lost response can be retried without overwriting staff's edits.
+- 2026-11-03: Share `complete_json` in `api/app/ai.py` between the item card and the drafts, so both retry and fall back the same way.
+- 2026-11-03: Read quoted words that are on the card as a copy of the card, and have the prompt quote the item's printed text, because the first live run passed 40 of 48 drafts, and 4 of its 7 flags came from the model describing that text with "includes" or "with" while the other 3 used "includes" for parts the card already names, so the prompt also bans "includes" when nothing extra was recorded.
+- 2026-11-03: Keep each Settings section's default in code and seed the migration with a frozen copy of it, so a section with no row reads the same as a fresh database, and a later change to the code can't change what an old migration does. A test fails when the two differ.
+- 2026-11-03: Make every field of a Settings section required on a save, rather than defaulted, so a save that leaves a field out is refused instead of quietly putting the starting value back.
+- 2026-11-03: Send the `updated_at` a Settings section was read with on each save and refuse it with a 409 when the row has changed since, so one manager's save can't undo another's. The API stamps the time itself, because `now()` is the same for every statement in a transaction.
+- 2026-11-03: Read the worth-listing threshold, the fees and both ask-to-sale factors from Settings on every appraisal, so `PRICING` in the environment no longer changes those six, and the evaluation clears the `settings` rows in its rolled-back transaction so it always scores the values in code.
+- 2026-11-03: Write the seasonal calendar and the box sizes from published sources and label the choices that go beyond them as assumptions, see [settings.md](settings.md), and build only the read routes the timing hint in #20 and the box dropdown in #42 will use.
+- 2026-11-04: Model Channel B's fees on Poshmark's published fees, 20% from $15 and a flat $2.95 below that, with the buyer paying the label, and keep them in their own Settings section, because Channel A's per-order fee and share don't fit a flat small-sale fee. The values come from a third-party guide and are labeled an assumption, see [settings.md](settings.md#channel-b-fees).
+- 2026-11-04: Read "box section" on the pick list as the order the boxes have in Settings, with a box since taken out of Settings after them and no box last, then the shelf or bin in natural order, because the store has no map of where each box size is kept, and a manager can reorder the Settings list to match the shelves.
+- 2026-11-04: Copy the box code onto the item rather than reference the Settings list, so taking a size out of Settings can't change the SKU of an item already packed in it, and check the code against Settings only when it is saved.
+- 2026-11-04: Add the shelf or bin only after approval and refuse it before, so an item that is rejected never has a location, while the weight and box can be entered before approval because Channel A needs them to approve.
+- 2026-11-04: Upper-case shelf and bin codes and close up the spaces around a dash, so `b12 - 2` and `B12-2` are saved as one code and sort together on the pick list.
+- 2026-11-04: Add `release_month` and `mark_sold` as the narrowest seams for #20 and #21, a column nothing sets yet and a function nothing calls yet, each tested directly, so the held state and the pick list work now without building the timing hint, the channels or the sales sync.
 - 2026-11-03: Run each mock channel as its own service with its own Postgres role and schema, with row-level security and a policy for that role only, so a channel can't read Turnstone's tables or the other channel's, and the main app reaches a channel only through its seller API, as it would a real platform.
 - 2026-11-03: Send every channel update through a `jobs` table in Postgres, claimed with `FOR UPDATE SKIP LOCKED` and a 60 second lease, rather than calling the channel inside the request, so a channel that is down gets the update later and a runner that dies mid-call leaves no job stuck.
 - 2026-11-03: Run polling and the jobs on a thread inside the API rather than as a separate worker, because Render's free plan has no free background workers, and the lease and `SKIP LOCKED` keep two API processes from running the same job.

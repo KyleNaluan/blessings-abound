@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "b84cfbf6d0d7783442aa4183567d9cae8dff8a8d9db2b48184b061f86d6760b9",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Microsoft Kinect for Xbox 360 Sensor Black Plastic",
+    "description": "Pre-owned Microsoft Kinect for Xbox 360 sensor. The item is made of black plastic. It reads \"XBOX 360\".",
+    "category": "Video Game Accessories"
+  },
+  "failure": null
+}

@@ -5,11 +5,16 @@ import { api } from '@/api/client'
 import { useAuth } from '@/auth/AuthContext'
 import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
 import { SignOutButton } from '@/components/site/SignOutButton'
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 
 type ApiState = 'checking' | 'ok' | 'unreachable'
+
+const API_STATE_NAMES: Record<ApiState, string> = {
+  checking: 'Checking...',
+  ok: 'Working',
+  unreachable: "Can't reach it",
+}
 
 // Where people land after signing in.
 // Someone with no email has a hidden address on this domain, see api/app/supabase_auth.py, and only the username means anything.
@@ -21,7 +26,7 @@ function signedInName(email: string | undefined) {
 
 export function HomePage() {
   usePageTitle('Home')
-  const { session } = useAuth()
+  const { session, me } = useAuth()
   const [apiState, setApiState] = useState<ApiState>('checking')
 
   useEffect(() => {
@@ -38,9 +43,26 @@ export function HomePage() {
       <Button asChild size="lg" className="mb-7 max-sm:w-full">
         <Link to="/app/appraise">Appraise an item</Link>
       </Button>
+      <ul className="mb-7 space-y-2">
+        {me?.role === 'manager' && (
+          <li>
+            <Link to="/app/approvals">Approvals</Link>
+          </li>
+        )}
+        <li>
+          <Link to="/app/pick-list">Pick list</Link>
+        </li>
+        {me?.role === 'manager' && (
+          <li>
+            <Link to="/app/settings">Settings</Link>
+          </li>
+        )}
+      </ul>
       <p className="flex items-center justify-between border-y border-rule py-3.5">
         <span>API status</span>
-        <Badge variant={apiState === 'unreachable' ? 'destructive' : 'secondary'}>{apiState}</Badge>
+        <span className={`font-bold ${apiState === 'unreachable' ? 'text-destructive' : ''}`}>
+          {API_STATE_NAMES[apiState]}
+        </span>
       </p>
     </AuthLayout>
   )

@@ -11,11 +11,13 @@ from sqlmodel import Session
 
 from app.accounts import router as accounts_router
 from app.appraisal import router as appraisal_router
+from app.approval import router as approval_router
 from app.channels import get_channels
 from app.db import get_session, get_session_factory
 from app.listings import router as listings_router
 from app.scheduler import SyncScheduler
 from app.settings import get_settings
+from app.store_settings import router as store_settings_router
 from app.team import router as team_router
 
 
@@ -44,9 +46,11 @@ app.add_middleware(
 )
 
 app.include_router(appraisal_router)
+app.include_router(approval_router)
 app.include_router(accounts_router)
 app.include_router(team_router)
 app.include_router(listings_router)
+app.include_router(store_settings_router)
 
 
 class HealthStatus(BaseModel):

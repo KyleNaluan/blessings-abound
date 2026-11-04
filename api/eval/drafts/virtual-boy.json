@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "817ea47f6e4dc8af512a658d9d67b8ef3d5326aa3e4c0cd5cd58ccc8e13e63db",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Virtual Boy Red Plastic Handheld Game Console",
+    "description": "This pre-owned Nintendo Virtual Boy is a red plastic handheld game console. It reads \"VIRTUAL BOY\". The item is not complete in box.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

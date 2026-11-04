@@ -20,7 +20,7 @@ from app.channels import ChannelError, Channels, get_channels
 from app.db import get_session_factory
 from app.models import (
     Appraisal,
-    ChannelName,
+    Channel,
     Decision,
     DecisionChoice,
     ItemCard,
@@ -44,7 +44,7 @@ PUBLISHABLE = {ItemStatus.APPRAISED, ItemStatus.APPROVED, ItemStatus.LISTED}
 
 class PublishRequest(BaseModel):
     # Every channel set up on this server when left out.
-    channels: list[ChannelName] | None = Field(default=None, min_length=1)
+    channels: list[Channel] | None = Field(default=None, min_length=1)
     # The appraisal's typical price when left out.
     price_cents: int | None = Field(default=None, gt=0)
 
@@ -53,7 +53,7 @@ class ListingRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     id: UUID
-    channel: ChannelName
+    channel: Channel
     channel_listing_id: str | None
     status: ListingStatus
     status_detail: str | None
@@ -165,7 +165,7 @@ async def _raw_body(request: Request) -> bytes:
     include_in_schema=False,
 )
 def receive_sale(
-    channel: ChannelName,
+    channel: Channel,
     body: Annotated[bytes, Depends(_raw_body)],
     background: BackgroundTasks,
     session: SessionDep,

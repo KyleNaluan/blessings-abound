@@ -27,7 +27,6 @@ from sqlalchemy.dialects.postgresql import insert as pg_insert
 from sqlmodel import Session, col, select
 
 from app.channels import (
-    LABELS,
     ChannelAdapter,
     ChannelError,
     ChannelOrder,
@@ -38,8 +37,9 @@ from app.channels import (
     ListingContent,
     ListingNotFoundError,
 )
+from app.listing_drafts import CHANNEL_NAMES
 from app.models import (
-    ChannelName,
+    Channel,
     ConflictKind,
     Item,
     ItemStatus,
@@ -123,8 +123,8 @@ def _queue(session: Session, kind: JobKind, now: datetime, **payload: str) -> Jo
     return job
 
 
-def _label(channel: ChannelName) -> str:
-    return LABELS[channel]
+def _label(channel: Channel) -> str:
+    return CHANNEL_NAMES[channel]
 
 
 def _title(listing: Listing) -> str:
@@ -137,7 +137,7 @@ def _title(listing: Listing) -> str:
 def publish_item(
     session: Session,
     item: Item,
-    contents: Mapping[ChannelName, ListingContent],
+    contents: Mapping[Channel, ListingContent],
     approved_by: UUID,
     now: datetime | None = None,
 ) -> list[UUID]:
@@ -309,7 +309,7 @@ def _end(session: Session, job: Job, channels: Channels, now: datetime) -> None:
     )
 
 
-def _adapter(channels: Channels, channel: ChannelName) -> ChannelAdapter:
+def _adapter(channels: Channels, channel: Channel) -> ChannelAdapter:
     adapter = channels.get(channel)
     if adapter is None:
         raise ChannelUnavailableError(f"{_label(channel)} isn't set up on this server.")
@@ -321,7 +321,7 @@ def _adapter(channels: Channels, channel: ChannelName) -> ChannelAdapter:
 
 def record_sale(
     session: Session,
-    channel: ChannelName,
+    channel: Channel,
     order: ChannelOrder,
     source: SaleSource,
     now: datetime | None = None,
@@ -443,7 +443,7 @@ def _order_detail(order: ChannelOrder) -> dict[str, Any]:
     }
 
 
-def _listing_for_ref(session: Session, channel: ChannelName, external_ref: str) -> Listing | None:
+def _listing_for_ref(session: Session, channel: Channel, external_ref: str) -> Listing | None:
     try:
         listing_id = UUID(external_ref)
     except ValueError:
@@ -531,7 +531,7 @@ def poll_channel(
     return result
 
 
-def _stale_key(channel: ChannelName, channel_listing_id: str) -> str:
+def _stale_key(channel: Channel, channel_listing_id: str) -> str:
     return f"stale_listing:{channel.value}:{channel_listing_id}"
 
 

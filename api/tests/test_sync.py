@@ -21,7 +21,7 @@ from app.channels import ListingContent, get_channels
 from app.db import get_session, get_session_factory
 from app.main import app
 from app.models import (
-    ChannelName,
+    Channel,
     ConflictKind,
     Item,
     ItemStatus,
@@ -48,7 +48,7 @@ from tests.test_appraisal import (  # noqa: F401, the fixtures these tests build
     storage,
 )
 
-A, B = ChannelName.CHANNEL_A, ChannelName.CHANNEL_B
+A, B = Channel.CHANNEL_A, Channel.CHANNEL_B
 
 
 @pytest.fixture
@@ -71,11 +71,11 @@ def publish(client: TestClient, item_id: str, **body: Any) -> Any:  # noqa: F811
     return client.post(f"/items/{item_id}/listings", json=body, headers=as_token(MANAGER_TOKEN))
 
 
-def listed_item(client: TestClient) -> tuple[str, dict[ChannelName, dict[str, Any]]]:  # noqa: F811
+def listed_item(client: TestClient) -> tuple[str, dict[Channel, dict[str, Any]]]:  # noqa: F811
     item_id = approved_item(client)
     response = publish(client, item_id)
     assert response.status_code == 200, response.text
-    listings = {ChannelName(row["channel"]): row for row in response.json()}
+    listings = {Channel(row["channel"]): row for row in response.json()}
     assert {row["status"] for row in listings.values()} == {"active"}
     return item_id, listings
 
@@ -410,7 +410,7 @@ def test_a_double_sale_reported_by_two_webhooks_is_flagged(
     assert item_status(session, item_id) == ItemStatus.SOLD
 
 
-def webhook(client: TestClient, channel: ChannelName, body: bytes, key: str | None = None) -> Any:  # noqa: F811
+def webhook(client: TestClient, channel: Channel, body: bytes, key: str | None = None) -> Any:  # noqa: F811
     return client.post(
         f"/channels/{channel.value}/sales",
         content=body,
@@ -523,7 +523,7 @@ def test_a_publish_to_an_offline_channel_is_retried(
 
     response = publish(client, item_id)
 
-    listings = {ChannelName(row["channel"]): row for row in response.json()}
+    listings = {Channel(row["channel"]): row for row in response.json()}
     assert listings[A]["status"] == "active"
     assert listings[B]["status"] == "pending"
     assert item_status(session, item_id) == ItemStatus.LISTED
@@ -540,7 +540,7 @@ def test_an_item_that_sells_before_a_publish_lands_is_not_listed_there(
 ) -> None:
     market.set_offline(B)
     item_id = approved_item(client)
-    listings = {ChannelName(row["channel"]): row for row in publish(client, item_id).json()}
+    listings = {Channel(row["channel"]): row for row in publish(client, item_id).json()}
     market.buy(A, listings[A]["channel_listing_id"])
     market.set_offline(B, False)
 
@@ -559,7 +559,7 @@ def test_a_publish_that_gives_up_marks_the_listing_failed(
 ) -> None:
     market.set_offline(B)
     item_id = approved_item(client)
-    listings = {ChannelName(row["channel"]): row for row in publish(client, item_id).json()}
+    listings = {Channel(row["channel"]): row for row in publish(client, item_id).json()}
     now = utc_now()
     for attempt in range(1, MAX_ATTEMPTS):
         now += retry_delay(attempt)

@@ -166,9 +166,29 @@ def _photo_path(bucket: str, key: str) -> Path:
     return path
 
 
+# The listing for the fixed card, which only restates it, so the claim checker passes it.
+LISTING_DRAFT = {
+    "title": "Levi's 501 jeans, blue denim - Pre-owned",
+    "description": "Blue Levi's 501 jeans in denim, pre-owned. See the photos for the exact item.",
+}
+
+
+def _prompt_text(body: dict[str, Any]) -> str:
+    messages = body.get("messages") or [{}]
+    content = messages[0].get("content")
+    return content if isinstance(content, str) else ""
+
+
 @app.post("/v1/chat/completions")
-def chat_completion() -> dict[str, Any]:
-    content = json.dumps(ITEM_CARD)
+async def chat_completion(request: Request) -> dict[str, Any]:
+    """The fixed card for a photo, and the fixed listing for a listing prompt."""
+    body = await request.body()
+    prompt = _prompt_text(json.loads(body)) if body else ""
+    if prompt.startswith("You write a listing"):
+        category = "Unisex" if "Channel B" in prompt else "Unisex Clothing"
+        content = json.dumps(LISTING_DRAFT | {"category": category})
+    else:
+        content = json.dumps(ITEM_CARD)
     return {"choices": [{"message": {"role": "assistant", "content": content}}]}
 
 

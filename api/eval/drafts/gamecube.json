@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "0d784b3688eef16f117441a3e17de223b1ca67dbdeca003dfee67a42b6fd18cd",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo GameCube Purple Plastic Console",
+    "description": "This is a pre-owned Nintendo GameCube game console. It is purple and made of plastic. It reads \"NINTENDO GAMECUBE\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

@@ -1,6 +1,6 @@
 """Database tables. The design and the reasons behind it are in docs/database.md."""
 
-from datetime import datetime
+from datetime import date, datetime
 from enum import StrEnum
 from typing import Any
 from uuid import UUID, uuid4
@@ -87,9 +87,48 @@ class DecisionChoice(StrEnum):
     NO = "no"
 
 
-class ChannelName(StrEnum):
+class SettingKey(StrEnum):
+    """The sections of the Settings page, each stored as one row of `settings`."""
+
+    BOX_SIZES = "box_sizes"
+    SEASONAL_CALENDAR = "seasonal_calendar"
+    WORTH_LISTING = "worth_listing"
+    FEES = "fees"
+    ASK_TO_SALE = "ask_to_sale"
+    SHIPPING_WEIGHT = "shipping_weight"
+    CHANNEL_B_FEES = "channel_b_fees"
+
+
+class Channel(StrEnum):
+    """The two mock channels, named like their schemas: A is eBay-style, B is apparel only."""
+
     CHANNEL_A = "channel_a"
     CHANNEL_B = "channel_b"
+
+
+class DraftState(StrEnum):
+    # Staff are still editing it.
+    DRAFT = "draft"
+    # Staff sent it on, and the manager approval step reads it from here.
+    AWAITING_APPROVAL = "awaiting_approval"
+    # A manager approved the listing, so it can be published once the item is stored.
+    APPROVED = "approved"
+    # A manager turned the item down, which also records a no decision.
+    REJECTED = "rejected"
+
+
+class DraftSource(StrEnum):
+    MODEL = "model"
+    TEMPLATE = "template"
+
+
+class FallbackReason(StrEnum):
+    # The claim checker flagged the model's draft.
+    FLAGGED = "flagged"
+    # Every provider failed or sent back something unusable.
+    MODEL_FAILED = "model_failed"
+    # No model is set up on this server.
+    NOT_CONFIGURED = "not_configured"
 
 
 class ListingStatus(StrEnum):
@@ -234,6 +273,14 @@ class Item(SQLModel, table=True):
         sa.CheckConstraint(
             f"cardinality(photo_keys) BETWEEN 1 AND {MAX_PHOTOS}", name="photo_keys_count"
         ),
+        sa.CheckConstraint("EXTRACT(DAY FROM release_month) = 1", name="release_month_first_day"),
+        sa.CheckConstraint("package_weight_oz > 0", name="package_weight_oz_positive"),
+        sa.CheckConstraint(
+            "(package_weight_oz IS NULL) = (box_code IS NULL)", name="package_weight_with_box"
+        ),
+        sa.CheckConstraint(
+            "location_code IS NULL OR box_code IS NOT NULL", name="location_after_package"
+        ),
     )
 
     id: UUID = Field(default_factory=uuid4, primary_key=True)
@@ -249,8 +296,21 @@ class Item(SQLModel, table=True):
     # Not unique, because a repeat photo prompts staff rather than being refused.
     photo_hash: str = Field(sa_type=sa.Text, index=True)
     notes: str | None = Field(default=None, sa_type=sa.Text)
+    # The first day of the month a held item is released in, which the timing hint in #20 sets.
+    release_month: date | None = Field(default=None)
+    # The package, which a manager enters before approving Channel A and at the latest when storing.
+    package_weight_oz: float | None = Field(default=None)
+    # One of the codes in the Settings box sizes, copied, and added to the SKU as its suffix.
+    box_code: str | None = Field(default=None, sa_type=sa.Text)
+    # The shelf or bin the item is stored on, entered after approval.
+    location_code: str | None = Field(default=None, sa_type=sa.Text)
     created_at: datetime = _created_at()
     updated_at: datetime = _updated_at()
+
+    @property
+    def full_sku(self) -> str | None:
+        """The SKU with its box-size suffix, such as RT10272601 12x12x6, once a box is chosen."""
+        return f"{self.sku} {self.box_code}" if self.box_code else None
 
 
 class ItemCard(SQLModel, table=True):
@@ -390,6 +450,89 @@ class CompSearch(SQLModel, table=True):
     )
 
 
+class StoreSetting(SQLModel, table=True):
+    """One section of the Settings page, such as the box sizes or the fees.
+
+    The value's shape and rules live in `app/store_settings.py`, which checks every write.
+    """
+
+    __tablename__ = "settings"  # type: ignore[assignment]
+
+    key: SettingKey = Field(
+        sa_column=sa.Column(_enum_type(SettingKey, "key"), primary_key=True),
+    )
+    value: dict[str, Any] = Field(sa_column=sa.Column(JSONB, nullable=False))
+    # Empty for the values the migration seeded, until a manager saves the section.
+    updated_by: UUID | None = Field(default=None, foreign_key="profiles.auth_user_id")
+    updated_at: datetime = _updated_at()
+
+
+class ListingDraft(SQLModel, table=True):
+    """The listing text for one item on one channel, written by the model or the fixed template.
+
+    The claim checker's flags are worked out from the current card whenever a draft is read, so
+    they never go stale, and only the flags that sent a model draft to the template are stored.
+    """
+
+    __tablename__ = "listing_drafts"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.UniqueConstraint("item_id", "channel"),
+        sa.CheckConstraint(
+            "(source = 'model') = (fallback_reason IS NULL)", name="fallback_reason_with_template"
+        ),
+        sa.CheckConstraint(
+            # Any state after draft has been sent on by someone, which later states keep.
+            "state = 'draft' OR (submitted_at IS NOT NULL AND submitted_by IS NOT NULL)",
+            name="submitted_after_draft",
+        ),
+        sa.CheckConstraint(
+            # An approved or rejected listing names the manager who reviewed it.
+            "(state IN ('approved', 'rejected')) = "
+            "(reviewed_at IS NOT NULL AND reviewed_by IS NOT NULL)",
+            name="reviewed_after_approval",
+        ),
+        sa.CheckConstraint("price_override_cents > 0", name="price_override_cents_positive"),
+    )
+
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    # Not indexed alone, because the unique constraint on the item and channel starts with it.
+    item_id: UUID = Field(foreign_key="items.id")
+    channel: Channel = Field(sa_column=sa.Column(_enum_type(Channel, "channel"), nullable=False))
+    title: str = Field(sa_type=sa.Text)
+    description: str = Field(sa_type=sa.Text)
+    # One of the channel's own categories for the item's category, see app/listing_drafts.py.
+    category: str = Field(sa_type=sa.Text)
+    state: DraftState = Field(
+        default=DraftState.DRAFT,
+        sa_column=sa.Column(
+            _enum_type(DraftState, "state"), nullable=False, server_default=DraftState.DRAFT
+        ),
+    )
+    source: DraftSource = Field(
+        sa_column=sa.Column(_enum_type(DraftSource, "source"), nullable=False)
+    )
+    fallback_reason: FallbackReason | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(FallbackReason, "fallback_reason"))
+    )
+    # The provider that answered, even when its draft was flagged.
+    model_name: str | None = Field(default=None, sa_type=sa.Text)
+    # The checker's flags on the model's draft, which are why a flagged draft became the template.
+    model_flags: list[dict[str, Any]] = Field(
+        default_factory=list,
+        sa_column=sa.Column(JSONB, nullable=False, server_default=sa.text("'[]'::jsonb")),
+    )
+    staff_edited: bool = Field(default=False, sa_column_kwargs={"server_default": sa.false()})
+    created_by: UUID = Field(foreign_key="profiles.auth_user_id")
+    submitted_by: UUID | None = Field(default=None, foreign_key="profiles.auth_user_id")
+    submitted_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    # The manager's price for this channel, in place of the appraisal's typical price.
+    price_override_cents: int | None = Field(default=None)
+    reviewed_by: UUID | None = Field(default=None, foreign_key="profiles.auth_user_id")
+    reviewed_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    created_at: datetime = _created_at()
+    updated_at: datetime = _updated_at()
+
+
 class Listing(SQLModel, table=True):
     """One item on one channel, as the master record sees it.
 
@@ -407,9 +550,7 @@ class Listing(SQLModel, table=True):
     # Also the external_ref the channel keeps, which makes a repeated publish return one listing.
     id: UUID = Field(default_factory=uuid4, primary_key=True)
     item_id: UUID = Field(foreign_key="items.id", index=True)
-    channel: ChannelName = Field(
-        sa_column=sa.Column(_enum_type(ChannelName, "channel"), nullable=False)
-    )
+    channel: Channel = Field(sa_column=sa.Column(_enum_type(Channel, "channel"), nullable=False))
     # The channel's own id, empty until the channel has confirmed the publish.
     channel_listing_id: str | None = Field(default=None, sa_type=sa.Text)
     price_cents: int
@@ -446,9 +587,7 @@ class SaleEvent(SQLModel, table=True):
     id: UUID = Field(default_factory=uuid4, primary_key=True)
     item_id: UUID = Field(foreign_key="items.id", index=True)
     listing_id: UUID = Field(foreign_key="listings.id", index=True)
-    channel: ChannelName = Field(
-        sa_column=sa.Column(_enum_type(ChannelName, "channel"), nullable=False)
-    )
+    channel: Channel = Field(sa_column=sa.Column(_enum_type(Channel, "channel"), nullable=False))
     channel_order_id: str = Field(sa_type=sa.Text)
     price_cents: int
     # On the channel's clock.
@@ -493,8 +632,8 @@ class SyncLogEntry(SQLModel, table=True):
 
     id: UUID = Field(default_factory=uuid4, primary_key=True)
     event: SyncEvent = Field(sa_column=sa.Column(_enum_type(SyncEvent, "event"), nullable=False))
-    channel: ChannelName | None = Field(
-        default=None, sa_column=sa.Column(_enum_type(ChannelName, "channel"))
+    channel: Channel | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(Channel, "channel"))
     )
     item_id: UUID | None = Field(default=None, foreign_key="items.id", index=True)
     listing_id: UUID | None = Field(default=None, foreign_key="listings.id", index=True)
