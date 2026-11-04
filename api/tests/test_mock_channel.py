@@ -203,17 +203,6 @@ def test_a_purchase_can_leave_the_webhook_out(market: Market, webhooks: Webhooks
     assert len(market.adapters[A].unacknowledged_orders()) == 1
 
 
-def test_cancelling_an_order_ends_its_listing(market: Market) -> None:
-    listing = listed(market)
-    order = market.buy(A, listing["id"], send_webhook=False)
-
-    response = market.adapters[A].client.post(f"/orders/{order['id']}/cancel")
-
-    assert response.json()["status"] == "cancelled"
-    assert response.json()["cancelled_at"] is not None
-    assert market.listing(A, listing["id"])["status"] == "ended"
-
-
 def test_an_offline_channel_refuses_sellers_and_shoppers(market: Market) -> None:
     listing = listed(market)
 

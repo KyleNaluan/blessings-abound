@@ -445,13 +445,6 @@ def test_a_channel_sells_each_listing_once(connection: Connection) -> None:
         insert(connection, "channel_a.orders", id=uuid4(), listing_id=listing_id, price_cents=2500)
 
 
-def test_a_cancelled_order_lets_the_listing_sell_again(connection: Connection) -> None:
-    listing_id = add_channel_listing(connection, "channel_b")
-    order = {"listing_id": listing_id, "price_cents": 2500}
-    insert(connection, "channel_b.orders", id=uuid4(), status="cancelled", **order)
-    insert(connection, "channel_b.orders", id=uuid4(), **order)
-
-
 @pytest.mark.parametrize("schema", CHANNEL_SCHEMAS)
 def test_each_channel_role_works_in_its_own_schema(connection: Connection, schema: str) -> None:
     add_channel_listing(connection, schema)

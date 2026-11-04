@@ -371,8 +371,7 @@ def _create_channel(schema: str) -> None:
             "created_at", sa.DateTime(timezone=True), server_default=sa.func.now(), nullable=False
         ),
         sa.Column("acknowledged_at", sa.DateTime(timezone=True), nullable=True),
-        sa.Column("cancelled_at", sa.DateTime(timezone=True), nullable=True),
-        sa.CheckConstraint("status IN ('paid', 'cancelled')", name=op.f("ck_orders_status")),
+        sa.CheckConstraint("status IN ('paid')", name=op.f("ck_orders_status")),
         sa.CheckConstraint("price_cents > 0", name=op.f("ck_orders_price_cents_positive")),
         sa.ForeignKeyConstraint(
             ["listing_id"], [f"{schema}.listings.id"], name=op.f("fk_orders_listing_id_listings")

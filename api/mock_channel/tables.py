@@ -11,7 +11,7 @@ from sqlalchemy.dialects.postgresql import JSONB
 
 SCHEMAS = ("channel_a", "channel_b")
 LISTING_STATUSES = ("active", "sold", "ended")
-ORDER_STATUSES = ("paid", "cancelled")
+ORDER_STATUSES = ("paid",)
 
 metadata = sa.MetaData(
     naming_convention={
@@ -81,7 +81,6 @@ def _tables(schema: str) -> ChannelTables:
         _time("created_at"),
         # Set once the seller's app has the order, by a webhook answered 2xx or an acknowledgment.
         _time("acknowledged_at", nullable=True),
-        _time("cancelled_at", nullable=True),
         sa.CheckConstraint("price_cents > 0", name="price_cents_positive"),
         sa.CheckConstraint(_one_of("status", ORDER_STATUSES), name="status"),
         # A channel sells each listing once, so a double sale can only happen across channels.
