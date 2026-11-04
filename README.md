@@ -78,22 +78,18 @@ Channel A, an eBay-style marketplace for clothing, electronics and games, has it
 
 To see a sale come through:
 
-1. Appraise an item in the web app and say yes to it.
-2. Publish it to both channels as a manager, until the approval screen in #42 does this:
-
-   ```sh
-   docker compose exec api python -m app.publish_to_channels <manager username>
-   ```
-
-   It publishes the newest item with a yes, or the item whose id follows the username, and prints each channel's result.
-   A game or a console shows as rejected on Channel B, because Channel B takes clothing only.
+1. Appraise an item in the web app, say yes to it, and send its listings on.
+2. As a manager, approve it from the approvals page and enter its shelf or bin.
+   Storing it lists it on each channel its drafts are for, at the price on the review page, and the review shows each listing go live within a few seconds.
+   A game or a console goes on Channel A only, because Channel B takes clothing only.
 3. Open either storefront and buy the item.
-   It disappears from the other storefront within a few seconds, because the sale webhook tells the API at once.
+   It disappears from the other storefront within a few seconds, because the sale webhook tells the API at once, and the item shows on the pick list.
 4. Untick "Tell the seller right away, by sale webhook" before buying to show a missed webhook, and the API's poll, every 30 seconds, finds the sale instead.
 
 Each channel's `/admin` page, at http://localhost:8001/admin or http://localhost:8002/admin, takes the channel offline and back.
 Sign in with any username and the channel key, which is `local-channel-a-key` or `local-channel-b-key` unless `.env` sets `CHANNEL_A_KEY` or `CHANNEL_B_KEY`.
 While a channel is offline, the API's updates to it fail and are retried from the `jobs` table, with waits from 5 seconds up to 5 minutes, and go through once it is back.
+A listing that still hasn't gone up after 10 tries shows on the review page with a button to try that channel again.
 Buying the same item on the second channel before the first has taken it down is flagged as a double sale.
 Every change and every flag is in the `sync_log` table, as [docs/database.md](docs/database.md#needs-attention-flags) describes.
 
@@ -116,7 +112,7 @@ Open http://localhost:5173 and sign in as `demo.staff` or `demo.manager`, both w
 A small stand-in service in [api/app/offline_standin.py](api/app/offline_standin.py) answers for Supabase, the vision model and SerpApi, and the app's own code runs unchanged.
 It doesn't read the photo, so every photo gets the same Levi's 501 card, and prices come from the saved eBay responses in `api/tests/fixtures/serpapi/`, chosen by the words in the search.
 The addresses it uses are `localhost`, so it works only in a browser on the laptop running it, not from a phone.
-The mock channels run as they do in `docker compose up`, so the steps in [Mock channels](#mock-channels) work offline too, with `demo.manager` as the manager username and `-f docker-compose.yml -f docker-compose.offline.yml` after `docker compose`.
+The mock channels run as they do in `docker compose up`, so the steps in [Mock channels](#mock-channels) work offline too, with `demo.manager` as the manager who approves and stores the item.
 
 ## Hosted demo
 
@@ -236,7 +232,7 @@ A manager can change the worth-listing price, the fees and the ask-to-sale facto
 ## Approval and the pick list
 
 A manager approves or rejects each item whose listings staff sent on, sets a price per channel, enters the package and the shelf or bin, and staff pull sold items from the pick list, as described in [docs/architecture.md](docs/architecture.md#manager-approval-and-storage).
-Sales come from the channels in #21, so until then nothing reaches the pick list outside the tests.
+Storing an approved item lists it on the mock channels, and a sale on either one puts it on the pick list, as [Mock channels](#mock-channels) shows.
 
 ## Contributing
 

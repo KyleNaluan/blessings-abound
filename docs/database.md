@@ -64,7 +64,7 @@ Each item is one of a kind.
 The box code is copied rather than referenced, so taking a size out of Settings doesn't change the SKU of an item already packed in it.
 The API checks the code against Settings when it is saved, upper-cases the shelf or bin and closes up the spaces around a dash, so `b12 - 2` is saved as `B12-2`.
 An approved item whose release month is still to come is `held_for_season`, and it keeps its release month.
-`sold` is set by `mark_sold` in `api/app/approval.py`, which the channel sync in #21 will call, and nothing calls it yet.
+`sold` is set by `mark_sold` in `api/app/approval.py`, which the channel sync calls when it records a sale.
 
 ### `item_cards`
 
@@ -199,8 +199,8 @@ The status changes only on what the channel has confirmed, so a listing being ta
 | `content` | `jsonb` | Required, the listing as sent, or to be sent, so a retried publish sends the same thing |
 | `status` | `varchar(32)` | `pending`, `active`, `sold`, `ended`, `rejected` or `failed`, default `pending` |
 | `status_detail` | `text` | Optional, why the channel refused the listing or the publish gave up |
-| `approved_by` | `uuid` | Required, foreign key to `profiles`, the manager who published it |
-| `approved_at` | `timestamptz` | Required |
+| `approved_by` | `uuid` | Required, foreign key to `profiles`, the manager who approved the drafts it was built from |
+| `approved_at` | `timestamptz` | Required, when the drafts were approved |
 | `published_at`, `sold_at`, `ended_at` | `timestamptz` | Optional, set as the channel confirms each |
 | `created_at` | `timestamptz` | Set by the database |
 | `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
