@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "f8fc900ca994987d699c27edd209a7381842ea2ff3a406965947e5c1fb2a6a55",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Handheld Game Console Black Plastic",
+    "description": "This is a pre-owned Nintendo handheld game console made of black plastic. It reads \"SELECT HOME POWER\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "20e0742f59c7b52627a279f952d503c96d7c671adb3d0e1fff6dc56865ff69aa",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Sony PlayStation 2 8 MB Memory Card Red Plastic",
+    "description": "Pre-owned. It reads \"PlayStation 2, 8MB MEMORY CARD, MagicGate\".",
+    "category": "Video Game Accessories"
+  },
+  "failure": null
+}

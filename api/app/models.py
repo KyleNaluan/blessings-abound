@@ -87,6 +87,34 @@ class DecisionChoice(StrEnum):
     NO = "no"
 
 
+class Channel(StrEnum):
+    """The two mock channels, named like their schemas: A is eBay-style, B is apparel only."""
+
+    CHANNEL_A = "channel_a"
+    CHANNEL_B = "channel_b"
+
+
+class DraftState(StrEnum):
+    # Staff are still editing it.
+    DRAFT = "draft"
+    # Staff sent it on, and the manager approval step reads it from here.
+    AWAITING_APPROVAL = "awaiting_approval"
+
+
+class DraftSource(StrEnum):
+    MODEL = "model"
+    TEMPLATE = "template"
+
+
+class FallbackReason(StrEnum):
+    # The claim checker flagged the model's draft.
+    FLAGGED = "flagged"
+    # Every provider failed or sent back something unusable.
+    MODEL_FAILED = "model_failed"
+    # No model is set up on this server.
+    NOT_CONFIGURED = "not_configured"
+
+
 def _enum_type(enum: type[StrEnum], name: str) -> sa.Enum:
     # Text with a check constraint rather than a Postgres enum, so a later migration can change the
     # allowed values by swapping the constraint.
@@ -338,3 +366,58 @@ class CompSearch(SQLModel, table=True):
             sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now()
         ),
     )
+
+
+class ListingDraft(SQLModel, table=True):
+    """The listing text for one item on one channel, written by the model or the fixed template.
+
+    The claim checker's flags are worked out from the current card whenever a draft is read, so
+    they never go stale, and only the flags that sent a model draft to the template are stored.
+    """
+
+    __tablename__ = "listing_drafts"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.UniqueConstraint("item_id", "channel"),
+        sa.CheckConstraint(
+            "(source = 'model') = (fallback_reason IS NULL)", name="fallback_reason_with_template"
+        ),
+        sa.CheckConstraint(
+            # Any state after draft has been sent on by someone, which later states keep.
+            "state = 'draft' OR (submitted_at IS NOT NULL AND submitted_by IS NOT NULL)",
+            name="submitted_after_draft",
+        ),
+    )
+
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    # Not indexed alone, because the unique constraint on the item and channel starts with it.
+    item_id: UUID = Field(foreign_key="items.id")
+    channel: Channel = Field(sa_column=sa.Column(_enum_type(Channel, "channel"), nullable=False))
+    title: str = Field(sa_type=sa.Text)
+    description: str = Field(sa_type=sa.Text)
+    # One of the channel's own categories for the item's category, see app/listing_drafts.py.
+    category: str = Field(sa_type=sa.Text)
+    state: DraftState = Field(
+        default=DraftState.DRAFT,
+        sa_column=sa.Column(
+            _enum_type(DraftState, "state"), nullable=False, server_default=DraftState.DRAFT
+        ),
+    )
+    source: DraftSource = Field(
+        sa_column=sa.Column(_enum_type(DraftSource, "source"), nullable=False)
+    )
+    fallback_reason: FallbackReason | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(FallbackReason, "fallback_reason"))
+    )
+    # The provider that answered, even when its draft was flagged.
+    model_name: str | None = Field(default=None, sa_type=sa.Text)
+    # The checker's flags on the model's draft, which are why a flagged draft became the template.
+    model_flags: list[dict[str, Any]] = Field(
+        default_factory=list,
+        sa_column=sa.Column(JSONB, nullable=False, server_default=sa.text("'[]'::jsonb")),
+    )
+    staff_edited: bool = Field(default=False, sa_column_kwargs={"server_default": sa.false()})
+    created_by: UUID = Field(foreign_key="profiles.auth_user_id")
+    submitted_by: UUID | None = Field(default=None, foreign_key="profiles.auth_user_id")
+    submitted_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
+    created_at: datetime = _created_at()
+    updated_at: datetime = _updated_at()

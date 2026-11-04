@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "0b6720f2158c4ab927bdb4000b59be7ec87656692fcef0a5cefe955271872e13",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Microsoft Xbox 360 Console Black Plastic",
+    "description": "This pre-owned black plastic Microsoft Xbox 360 console is ready for play. The item reads \"XBOX 360\". It is sold as a single unit without original packaging.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

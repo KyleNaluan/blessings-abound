@@ -48,6 +48,26 @@ const savedRow = {
   decided_at: '2026-11-01T15:00:00+00:00',
 }
 
+const draft = {
+  id: 'draft-a',
+  item_id: 'item-1',
+  channel: 'channel_a',
+  title: 'Carhartt canvas jacket - Pre-owned',
+  description: 'Brown Carhartt canvas jacket, pre-owned.',
+  category: 'Unisex Clothing',
+  category_options: ["Men's Clothing", 'Unisex Clothing'],
+  state: 'draft',
+  source: 'model',
+  fallback_reason: null,
+  model_name: 'api.groq.com/qwen/qwen3.8-27b',
+  model_flags: [],
+  flags: [],
+  staff_edited: false,
+  submitted_at: null,
+  created_at: '2026-11-03T15:00:00+00:00',
+  updated_at: '2026-11-03T15:00:00+00:00',
+}
+
 type Call = { method: string; path: string; request: Request }
 
 // A stand-in for the API that records each call, with any route overridable by a test.
@@ -78,6 +98,12 @@ function stubApi(overrides: Record<string, () => Response> = {}) {
         case 'POST /items/item-1/decisions':
           decisions = [savedRow]
           return Response.json({ id: 'decision-1' }, { status: 201 })
+        case 'POST /items/item-1/drafts':
+          return Response.json([draft])
+        case 'POST /items/item-1/drafts/submit':
+          return Response.json([
+            { ...draft, state: 'awaiting_approval', submitted_at: '2026-11-03T15:05:00+00:00' },
+          ])
         case 'GET /me':
           return Response.json({ status: 'active' })
         case 'GET /decisions':
@@ -306,4 +332,33 @@ test('sends people who are not signed in to the sign-in page', async () => {
   fake.reset()
   renderPage()
   expect(await screen.findByRole('heading', { name: 'Sign in' })).toBeInTheDocument()
+})
+
+test('a yes decision drafts the listing and sends it for manager approval', async () => {
+  const calls = stubApi()
+  renderPage()
+  await pickPhoto()
+  await confirmTheCard()
+  fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
+
+  expect(await screen.findByRole('heading', { name: 'Channel A' })).toBeInTheDocument()
+  expect(screen.getByLabelText('Title')).toHaveValue('Carhartt canvas jacket - Pre-owned')
+  expect(screen.getByLabelText('Category')).toHaveValue('Unisex Clothing')
+  fireEvent.click(screen.getByRole('button', { name: 'Send for manager approval' }))
+
+  expect(await screen.findByText('Sent to a manager for approval.')).toBeInTheDocument()
+  expect(screen.queryByLabelText('Title')).not.toBeInTheDocument()
+  expect(calls.filter((call) => call.path === '/items/item-1/drafts')).toHaveLength(1)
+})
+
+test('a no decision writes no listing', async () => {
+  const calls = stubApi()
+  renderPage()
+  await pickPhoto()
+  await confirmTheCard()
+  fireEvent.click(await screen.findByRole('button', { name: "No, don't list it" }))
+
+  expect(await screen.findByRole('status')).toHaveTextContent('Saved your decision: no.')
+  expect(screen.queryByRole('heading', { name: 'Listing drafts' })).not.toBeInTheDocument()
+  expect(calls.some((call) => call.path.includes('/drafts'))).toBe(false)
 })

@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "59cfc90250988c00a0e484ce944abc6b45ea42c3411625536b840f02d2b1b6be",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Microsoft Xbox 360 Controller Black Plastic Pre-owned",
+    "description": "This is a pre-owned Microsoft wireless game controller for the Xbox 360. The device is black and made of plastic. It reads \"ABXY\".",
+    "category": "Controllers & Attachments"
+  },
+  "failure": null
+}

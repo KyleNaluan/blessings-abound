@@ -1,7 +1,7 @@
 """The staff path from a photo to a saved decision, one route per step."""
 
 import logging
-from datetime import datetime
+from datetime import UTC, datetime
 from functools import lru_cache
 from typing import Annotated, Any, Self
 from uuid import UUID, uuid4
@@ -17,30 +17,44 @@ from pydantic import (
     computed_field,
     model_validator,
 )
-from sqlmodel import Session, col
+from sqlmodel import Session, col, select
 
 from app.ai import AINotConfiguredError, ChatModel, get_chat_model, get_fallback_chat_model
 from app.auth import CurrentProfile
+from app.claims import ClaimFlag, ListingFacts, check_listing
 from app.comps import EbaySearch, serpapi_ebay_search
 from app.db import get_session
+from app.listing_drafts import (
+    CHANNEL_NAMES,
+    DESCRIPTION_MAX,
+    TITLE_MAX,
+    category_options,
+)
 from app.models import (
     Appraisal,
     Category,
+    Channel,
     Condition,
     Confidence,
     Decision,
     DecisionChoice,
     Department,
+    DraftSource,
+    DraftState,
+    FallbackReason,
     Flaw,
     Item,
     ItemCard,
     ItemStatus,
+    ListingDraft,
     Profile,
     Recommendation,
     Role,
 )
 from app.pipeline import (
     draft_item_card,
+    draft_listing,
+    listing_channels,
     needs_confirmation,
     placeholder_photo_hash,
     placeholder_sku,
@@ -75,6 +89,11 @@ def get_vision_providers() -> list[ChatModel]:
     except AINotConfiguredError as error:
         logger.warning("%s", error)
         return []
+
+
+def get_draft_providers() -> list[ChatModel]:
+    """The same providers as the item card, which write the listing drafts."""
+    return get_vision_providers()
 
 
 def get_ebay_search() -> EbaySearch | None:
@@ -227,6 +246,53 @@ class RecentDecision(BaseModel):
     decision: DecisionChoice
     decided_by_name: str
     decided_at: datetime
+
+
+class DraftRequest(BaseModel):
+    """The request body for drafting, which carries no options yet."""
+
+    model_config = ConfigDict(extra="forbid")
+
+
+class ListingDraftRead(BaseModel):
+    id: UUID
+    item_id: UUID
+    channel: Channel
+    title: str
+    description: str
+    category: str
+    # The categories staff can choose from on this channel for this item.
+    category_options: list[str]
+    state: DraftState
+    source: DraftSource
+    fallback_reason: FallbackReason | None
+    model_name: str | None
+    # Why the model's own draft went to the template, when it did.
+    model_flags: list[ClaimFlag]
+    # The checker's flags on the text as it stands, against the card as it stands.
+    flags: list[ClaimFlag]
+    staff_edited: bool
+    submitted_at: datetime | None
+    created_at: datetime
+    updated_at: datetime
+
+
+DraftTitle = Annotated[
+    str, StringConstraints(strip_whitespace=True, min_length=1, max_length=TITLE_MAX)
+]
+DraftDescription = Annotated[
+    str, StringConstraints(strip_whitespace=True, min_length=1, max_length=DESCRIPTION_MAX)
+]
+
+
+class ListingDraftEdit(BaseModel):
+    """Staff's changes to one draft, where a field left out stays as it is."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    title: DraftTitle | None = None
+    description: DraftDescription | None = None
+    category: str | None = None
 
 
 def _get_item(session: Session, item_id: UUID) -> Item:
@@ -440,3 +506,192 @@ def list_decisions(
         query = query.where(col(Decision.decided_by) == profile.auth_user_id)
     rows = session.connection().execute(query).mappings()
     return [RecentDecision.model_validate(dict(row)) for row in rows]
+
+
+def _require_listing(session: Session, item: Item, action: str) -> ItemCard:
+    """The card of an item staff said yes to, which is the only kind that gets a listing."""
+    _require_status(item, {ItemStatus.APPRAISED}, action)
+    latest = session.exec(
+        select(Decision)
+        .where(Decision.item_id == item.id)
+        .order_by(col(Decision.decided_at).desc(), col(Decision.id))
+        .limit(1)
+    ).first()
+    if latest is None or latest.decision is not DecisionChoice.YES:
+        raise HTTPException(
+            status.HTTP_409_CONFLICT, "Decide to list this item before writing its listing."
+        )
+    card = session.get(ItemCard, item.id)
+    if card is None:
+        raise HTTPException(status.HTTP_409_CONFLICT, "This item has no card yet.")
+    return card
+
+
+def _item_drafts(session: Session, item_id: UUID) -> list[ListingDraft]:
+    drafts = session.exec(select(ListingDraft).where(ListingDraft.item_id == item_id)).all()
+    return sorted(drafts, key=lambda draft: list(Channel).index(draft.channel))
+
+
+def _draft_read(draft: ListingDraft, card: ItemCard) -> ListingDraftRead:
+    return ListingDraftRead(
+        id=draft.id,
+        item_id=draft.item_id,
+        channel=draft.channel,
+        title=draft.title,
+        description=draft.description,
+        category=draft.category,
+        category_options=list(category_options(draft.channel, card.category)),
+        state=draft.state,
+        source=draft.source,
+        fallback_reason=draft.fallback_reason,
+        model_name=draft.model_name,
+        model_flags=[ClaimFlag.model_validate(flag) for flag in draft.model_flags],
+        flags=check_listing(draft.title, draft.description, ListingFacts.from_card(card)),
+        staff_edited=draft.staff_edited,
+        submitted_at=draft.submitted_at,
+        created_at=draft.created_at,
+        updated_at=draft.updated_at,
+    )
+
+
+@router.post("/items/{item_id}/drafts", operation_id="create_listing_drafts")
+def create_listing_drafts(
+    item_id: UUID,
+    request: DraftRequest,
+    profile: CurrentProfile,
+    session: SessionDep,
+    providers: Annotated[list[ChatModel], Depends(get_draft_providers)],
+) -> list[ListingDraftRead]:
+    """Draft the listing for each channel that has none yet, and return all of the item's drafts.
+
+    A channel that already has a draft keeps it, so the screen can retry a lost response.
+    """
+    item = _get_item(session, item_id)
+    card = _require_listing(session, item, "listed")
+    channels = listing_channels(card.category)
+    drafted = {draft.channel for draft in _item_drafts(session, item_id)}
+    missing = [channel for channel in channels if channel not in drafted]
+    if missing:
+        facts = ListingFacts.from_card(card)
+        # The model can take a while, so don't hold a database transaction open across the calls.
+        session.commit()
+        results = {channel: draft_listing(facts, channel, providers) for channel in missing}
+        # Another request may have drafted meanwhile, so check again under a lock on the item.
+        item = session.get(Item, item_id, with_for_update=True, populate_existing=True)
+        if item is None:
+            raise HTTPException(status.HTTP_404_NOT_FOUND, "That item doesn't exist.")
+        _require_listing(session, item, "listed")
+        drafted = {draft.channel for draft in _item_drafts(session, item_id)}
+        for channel, result in results.items():
+            if channel in drafted:
+                continue
+            session.add(
+                ListingDraft(
+                    item_id=item_id,
+                    channel=channel,
+                    title=result.text.title,
+                    description=result.text.description,
+                    category=result.text.category,
+                    source=result.source,
+                    fallback_reason=result.fallback_reason,
+                    model_name=result.model_name,
+                    model_flags=[flag.model_dump(mode="json") for flag in result.model_flags],
+                    created_by=profile.auth_user_id,
+                )
+            )
+        session.commit()
+    card = session.get(ItemCard, item_id, populate_existing=True)
+    assert card is not None
+    return [_draft_read(draft, card) for draft in _item_drafts(session, item_id)]
+
+
+@router.get("/items/{item_id}/drafts", operation_id="list_listing_drafts")
+def list_listing_drafts(
+    item_id: UUID, profile: CurrentProfile, session: SessionDep
+) -> list[ListingDraftRead]:
+    _get_item(session, item_id)
+    card = session.get(ItemCard, item_id)
+    if card is None:
+        return []
+    return [_draft_read(draft, card) for draft in _item_drafts(session, item_id)]
+
+
+@router.patch("/items/{item_id}/drafts/{channel}", operation_id="edit_listing_draft")
+def edit_listing_draft(
+    item_id: UUID,
+    channel: Channel,
+    edit: ListingDraftEdit,
+    profile: CurrentProfile,
+    session: SessionDep,
+) -> ListingDraftRead:
+    """Save staff's changes, which the checker reads again like the model's draft."""
+    item = session.get(Item, item_id, with_for_update=True)
+    if item is None:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "That item doesn't exist.")
+    card = _require_listing(session, item, "edited")
+    draft = next((d for d in _item_drafts(session, item_id) if d.channel is channel), None)
+    if draft is None:
+        raise HTTPException(
+            status.HTTP_404_NOT_FOUND, f"This item has no draft for {CHANNEL_NAMES[channel]}."
+        )
+    if draft.state is not DraftState.DRAFT:
+        raise HTTPException(
+            status.HTTP_409_CONFLICT,
+            "This draft is already waiting for a manager, so it can't be edited.",
+        )
+    changes = edit.model_dump(exclude_unset=True)
+    if "category" in changes:
+        options = category_options(channel, card.category)
+        chosen = next(
+            (o for o in options if o.lower() == (changes["category"] or "").lower()), None
+        )
+        if chosen is None:
+            raise HTTPException(
+                status.HTTP_422_UNPROCESSABLE_CONTENT,
+                f"Choose one of {CHANNEL_NAMES[channel]}'s categories for this item.",
+            )
+        changes["category"] = chosen
+    for name, value in changes.items():
+        if value is None:
+            raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, f"{name} can't be empty.")
+        if getattr(draft, name) != value:
+            setattr(draft, name, value)
+            draft.staff_edited = True
+    session.add(draft)
+    session.commit()
+    session.refresh(draft)
+    return _draft_read(draft, card)
+
+
+@router.post("/items/{item_id}/drafts/submit", operation_id="submit_listing_drafts")
+def submit_listing_drafts(
+    item_id: UUID, profile: CurrentProfile, session: SessionDep
+) -> list[ListingDraftRead]:
+    """Send every draft on to manager approval, once none of them has a flagged claim."""
+    item = session.get(Item, item_id, with_for_update=True)
+    if item is None:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "That item doesn't exist.")
+    card = _require_listing(session, item, "sent for approval")
+    drafts = _item_drafts(session, item_id)
+    if not drafts:
+        raise HTTPException(status.HTTP_409_CONFLICT, "Write the listing drafts first.")
+    facts = ListingFacts.from_card(card)
+    pending = [draft for draft in drafts if draft.state is DraftState.DRAFT]
+    flagged = [
+        CHANNEL_NAMES[draft.channel]
+        for draft in pending
+        if check_listing(draft.title, draft.description, facts)
+    ]
+    if flagged:
+        raise HTTPException(
+            status.HTTP_409_CONFLICT,
+            f"Fix the flagged claims on {' and '.join(flagged)} before sending the listing on.",
+        )
+    now = datetime.now(UTC)
+    for draft in pending:
+        draft.state = DraftState.AWAITING_APPROVAL
+        draft.submitted_by = profile.auth_user_id
+        draft.submitted_at = now
+        session.add(draft)
+    session.commit()
+    return [_draft_read(draft, card) for draft in _item_drafts(session, item_id)]

@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "d752654e94369553ac474489822595e0cee6c2ed7059816c93754614656106fd",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Game Boy Grey Plastic Handheld",
+    "description": "This pre-owned Nintendo Game Boy is grey and made of plastic. It reads \"Nintendo GAME BOY, Tetris, DMS-TTR-FAA\". The unit is listed in the Video Game Consoles category.",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

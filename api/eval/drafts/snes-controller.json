@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "40d32be1cf77dab221e8b233a9f26b6ac6a835f9bbc83ba478fb37f19394af64",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo SNES Controller Grey Plastic",
+    "description": "Pre-owned grey plastic controller for the Super Nintendo Entertainment System. It reads \"SUPER NINTENDO ENTERTAINMENT SYSTEM\".",
+    "category": "Controllers & Attachments"
+  },
+  "failure": null
+}

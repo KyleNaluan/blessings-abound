@@ -6,17 +6,14 @@ notes, and any it sends back are dropped, so they always come from staff.
 
 import base64
 import io
-import json
 import logging
-import re
 from dataclasses import dataclass, field
 from typing import Annotated, Any
 
-import httpx2
 from PIL import Image, ImageOps
-from pydantic import BaseModel, ConfigDict, StringConstraints, ValidationError, model_validator
+from pydantic import BaseModel, ConfigDict, StringConstraints, model_validator
 
-from app.ai import ChatModel, Message
+from app.ai import ChatModel, Message, ModelReplyError, complete_json, strip_reply
 from app.models import Category, Confidence
 
 logger = logging.getLogger(__name__)
@@ -104,12 +101,11 @@ def prepare_photo(data: bytes) -> Photo:
     return Photo(output.getvalue())
 
 
-class ItemCardError(RuntimeError):
+class ItemCardError(ModelReplyError):
     """Every provider failed, with one line per attempt in `attempts`."""
 
     def __init__(self, attempts: list[str]) -> None:
-        super().__init__("could not read an item card from the photos: " + "; ".join(attempts))
-        self.attempts = attempts
+        super().__init__(attempts, "could not read an item card from the photos")
 
 
 @dataclass
@@ -134,11 +130,7 @@ def build_messages(photos: list[Photo], notes: str | None = None) -> list[Messag
 
 def parse_item_card(reply: str) -> ItemCardDraft:
     """Parse a reply, tolerating a markdown fence or a think block around the JSON."""
-    text = re.sub(r"<think>.*?</think>", "", reply, flags=re.DOTALL).strip()
-    fenced = re.fullmatch(r"```(?:json)?\s*(.*?)\s*```", text, flags=re.DOTALL)
-    if fenced:
-        text = fenced.group(1)
-    return ItemCardDraft.model_validate_json(text)
+    return ItemCardDraft.model_validate_json(strip_reply(reply))
 
 
 def read_item_card(
@@ -146,34 +138,15 @@ def read_item_card(
     providers: list[ChatModel],
     notes: str | None = None,
 ) -> ItemCardResult:
-    """Ask each provider in order, giving each one a retry on a bad parse.
-
-    A transport or HTTP error moves straight to the next provider, because a retry of the same
-    request would meet the same outage or rate limit.
-    """
-    messages = build_messages(photos, notes)
-    failures: list[str] = []
-    for index, provider in enumerate(providers):
-        for attempt in (1, 2):
-            try:
-                reply = provider.complete(messages, json_mode=True)
-            except (httpx2.HTTPError, KeyError, IndexError, json.JSONDecodeError) as error:
-                failures.append(f"{provider.name} attempt {attempt}: {_describe(error)}")
-                break
-            try:
-                card = parse_item_card(reply)
-            except (ValidationError, ValueError, TypeError) as error:
-                failures.append(f"{provider.name} attempt {attempt}: bad JSON ({_describe(error)})")
-                continue
-            if failures:
-                logger.warning("item card needed more than one try: %s", "; ".join(failures))
-            return ItemCardResult(card, provider.name, attempt, index > 0, failures)
-    raise ItemCardError(failures or ["no provider is configured"])
-
-
-def _describe(error: Exception) -> str:
-    if isinstance(error, httpx2.HTTPStatusError):
-        return f"HTTP {error.response.status_code}"
-    if isinstance(error, ValidationError):
-        return f"{error.error_count()} validation errors"
-    return type(error).__name__
+    """Ask each provider in order, giving each one a retry on a bad parse."""
+    try:
+        reply = complete_json(build_messages(photos, notes), providers, parse_item_card)
+    except ModelReplyError as error:
+        raise ItemCardError(error.attempts) from None
+    return ItemCardResult(
+        reply.value,
+        reply.provider,
+        reply.attempts_on_provider,
+        reply.used_fallback,
+        reply.failures,
+    )

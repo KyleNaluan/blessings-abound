@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "9bf75a4a0ed908d32988cfdd91c99e4cece0bf77f447692a1d15cc9e59a7d581",
+  "provider": "generativelanguage.googleapis.com/gemini-3.5-flash",
+  "draft": {
+    "title": "Atari Jaguar Video Game Console Black Plastic",
+    "description": "This Atari Jaguar video game console is made of black plastic. The condition is Pre-owned. It reads \"JAGUAR, A.C.T.I.V.E. MULTI-MEDIA SYSTEM, A WIRTUAL IMAGING SYSTEM\".",
+    "category": "Video Game Consoles"
+  },
+  "failure": null
+}

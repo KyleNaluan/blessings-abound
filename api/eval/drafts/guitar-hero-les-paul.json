@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "aa45c6700f75c17809a242fb2f6cadbe5205dda007c8702e157edc33b1bf55b4",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Guitar Hero guitar controller black plastic",
+    "description": "This is a pre-owned Guitar Hero guitar controller. It is black in color and made of plastic.",
+    "category": "Video Game Accessories"
+  },
+  "failure": null
+}

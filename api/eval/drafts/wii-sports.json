@@ -1,0 +1,10 @@
+{
+  "prompt_sha256": "82bd1487231ac834fcabbf7659d24eeb0dac959f3b993bc7d96e188f61900fc3",
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "draft": {
+    "title": "Nintendo Wii Sports Video Game for Wii Blue",
+    "description": "Pre-owned Nintendo Wii Sports video game for the Wii console. It reads \"Wii Sports, Wii, PAL, Nintendo, USK 0\". The item is blue.",
+    "category": "Video Games"
+  },
+  "failure": null
+}
