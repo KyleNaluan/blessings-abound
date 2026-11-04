@@ -143,7 +143,7 @@ The rule-based checker in `api/app/claims.py` reads the model's title and descri
 
 Words in double quotes that are on the card, such as the text printed on the item, are read as a copy of the card and not as a claim, and the prompt asks the model to quote that text after "It reads".
 
-A flagged draft, or no usable reply from either model, falls back to the fixed template in `template_draft`, which only restates the card, and the stored row keeps the model's draft and its flags so staff can see why.
+A flagged draft, or no usable reply from either model, falls back to the fixed template in `template_draft`, which only restates the card, and the stored row keeps the checker's flags so staff can see why.
 Staff can edit either one, and the API checks the text again on every read, so the item screen shows the flags as they stand and sending is refused while any remain.
 On the 48 evaluation items, which are all games and hardware for Channel A, 46 of the model's drafts passed the checker, 95.8%, measured once on 2026-11-03.
 The 2 flagged drafts said "sold as is" and "no record of it being tested", which the card doesn't say either.

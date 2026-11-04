@@ -148,8 +148,7 @@ The listing text for one item on one channel, which staff edit and then send on 
 | `source` | `text` | `model` or `template` |
 | `fallback_reason` | `text` | `flagged`, `model_failed` or `not_configured`, set exactly when `source` is `template` |
 | `model_name` | `text` | Optional, the provider that answered, even when its draft was flagged |
-| `model_draft` | `jsonb` | Optional, the model's own title, description and category |
-| `model_flags` | `jsonb` | Required, the checker's flags on `model_draft`, empty by default |
+| `model_flags` | `jsonb` | Required, the checker's flags that sent the model's draft to the template, empty by default |
 | `staff_edited` | `boolean` | False by default |
 | `created_by`, `submitted_by` | `uuid` | Foreign keys to `profiles`, where `submitted_by` is set with `submitted_at` |
 | `submitted_at` | `timestamptz` | Required once `state` is past `draft` |
