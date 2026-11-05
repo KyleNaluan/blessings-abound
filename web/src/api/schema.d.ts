@@ -538,6 +538,69 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/attention': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * List Attention
+     * @description The open flags, newest first, and the latest ones someone or sync resolved.
+     */
+    get: operations['list_attention']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/attention/{flag_id}/fix': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Fix Double Sale
+     * @description Cancel the later order of a double sale on its channel, so the first buyer keeps it.
+     *
+     *     The cancel runs before the reply, so the screen shows what the channel said. A channel that
+     *     is down gets the cancel again later, the same way every channel job is retried.
+     */
+    post: operations['fix_double_sale']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/attention/{flag_id}/resolve': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Resolve
+     * @description Mark a flag handled after someone dealt with it by hand, with a note on what they did.
+     */
+    post: operations['resolve_flag']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/settings': {
     parameters: {
       query?: never
@@ -815,6 +878,13 @@ export interface components {
       /** Expected Updated At */
       expected_updated_at: string | null
     }
+    /** AttentionRead */
+    AttentionRead: {
+      /** Open */
+      open: components['schemas']['FlagRead'][]
+      /** Resolved */
+      resolved: components['schemas']['FlagRead'][]
+    }
     /** Body_create_item */
     Body_create_item: {
       /** Photo */
@@ -866,6 +936,19 @@ export interface components {
       value: components['schemas']['BoxSizes']
       /** Expected Updated At */
       expected_updated_at: string | null
+    }
+    /**
+     * CancelRead
+     * @description The cancel job for the later order, once someone has pressed the fix.
+     */
+    CancelRead: {
+      status: components['schemas']['JobStatus']
+      /** Attempts */
+      attempts: number
+      /** Max Attempts */
+      max_attempts: number
+      /** Last Error */
+      last_error: string | null
     }
     /**
      * Category
@@ -940,6 +1023,11 @@ export interface components {
      * @enum {string}
      */
     Confidence: 'low' | 'medium' | 'high'
+    /**
+     * ConflictKind
+     * @enum {string}
+     */
+    ConflictKind: 'double_sale' | 'stale_listing' | 'unknown_listing'
     /** CreateWithTemporaryPasswordRequest */
     CreateWithTemporaryPasswordRequest: {
       /** Username */
@@ -1007,6 +1095,12 @@ export interface components {
      * @enum {string}
      */
     Department: 'mens' | 'womens' | 'kids'
+    /** DoubleSaleRead */
+    DoubleSaleRead: {
+      keep: components['schemas']['OrderRead']
+      cancel: components['schemas']['OrderRead']
+      cancelling: components['schemas']['CancelRead'] | null
+    }
     /**
      * DraftRequest
      * @description The request body for drafting, which carries no options yet.
@@ -1052,6 +1146,45 @@ export interface components {
       value: components['schemas']['Fees']
       /** Expected Updated At */
       expected_updated_at: string | null
+    }
+    /** FlagRead */
+    FlagRead: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string
+      conflict: components['schemas']['ConflictKind']
+      /** Message */
+      message: string
+      channel: components['schemas']['Channel'] | null
+      /** Item Id */
+      item_id: string | null
+      /** Sku */
+      sku: string | null
+      /** Title */
+      title: string | null
+      /** Channel Listing Id */
+      channel_listing_id: string | null
+      /** Channel Order Id */
+      channel_order_id: string | null
+      /**
+       * Created At
+       * Format: date-time
+       */
+      created_at: string
+      /** Explanation */
+      explanation: string
+      /** Suggested Fix */
+      suggested_fix: string
+      explained_by: components['schemas']['DraftSource'] | null
+      double_sale: components['schemas']['DoubleSaleRead'] | null
+      /** Resolved At */
+      resolved_at: string | null
+      /** Resolved By */
+      resolved_by: string | null
+      /** Resolution */
+      resolution: string | null
     }
     /**
      * Flaw
@@ -1262,6 +1395,11 @@ export interface components {
       | 'sold'
       | 'picked'
     /**
+     * JobStatus
+     * @enum {string}
+     */
+    JobStatus: 'pending' | 'done' | 'failed'
+    /**
      * ListingDraftEdit
      * @description Staff's changes to one draft, where a field left out stays as it is.
      */
@@ -1376,6 +1514,19 @@ export interface components {
      * @enum {string}
      */
     ListingStatus: 'pending' | 'active' | 'sold' | 'ended' | 'rejected' | 'failed'
+    /** OrderRead */
+    OrderRead: {
+      channel: components['schemas']['Channel']
+      /** Channel Order Id */
+      channel_order_id: string
+      /** Price Cents */
+      price_cents: number
+      /**
+       * Sold At
+       * Format: date-time
+       */
+      sold_at: string
+    }
     /**
      * PackageKind
      * @enum {string}
@@ -1497,6 +1648,14 @@ export interface components {
       reason: string
       /** Note */
       note?: string | null
+    }
+    /** ResolveRequest */
+    ResolveRequest: {
+      /**
+       * Note
+       * @default
+       */
+      note: string
     }
     /**
      * Role
@@ -2578,6 +2737,92 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['ListingRead'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_attention: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['AttentionRead']
+        }
+      }
+    }
+  }
+  fix_double_sale: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        flag_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['FlagRead']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  resolve_flag: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        flag_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['ResolveRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['FlagRead']
         }
       }
       /** @description Validation Error */

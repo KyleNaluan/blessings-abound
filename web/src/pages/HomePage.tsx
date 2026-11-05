@@ -52,6 +52,9 @@ export function HomePage() {
         <li>
           <Link to="/app/pick-list">Pick list</Link>
         </li>
+        <li>
+          <Link to="/app/attention">Needs attention</Link>
+        </li>
         {me?.role === 'manager' && (
           <li>
             <Link to="/app/settings">Settings</Link>

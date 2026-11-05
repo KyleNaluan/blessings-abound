@@ -3,7 +3,7 @@
 Each channel has three faces:
 
 - A seller API under `/api`, which the main app calls with the channel key to publish, end and
-  read listings and to read orders. It answers 503 while the channel is switched offline.
+  read listings and to read and cancel orders. It answers 503 while the channel is switched offline.
 - A storefront at `/`, where anyone can buy a listing, which is how the demo simulates a sale.
 - A sale webhook to the main app, signed with the channel key, sent right after each purchase.
   The storefront can leave it out, to show polling catching a missed webhook.
@@ -383,6 +383,29 @@ def acknowledge_order(order_id: UUID, session: SessionDep, tables: TablesDep) ->
     session.commit()
 
 
+@seller_api.post("/orders/{order_id}/cancel", dependencies=[Depends(require_online)])
+def cancel_order(order_id: UUID, session: SessionDep, tables: TablesDep) -> OrderOut:
+    """Cancel a paid order and refund the buyer. Cancelling one twice is fine.
+
+    The listing comes down with it rather than going back on sale, because the seller cancels
+    when the item has gone to someone else.
+    """
+    order = _order(session, tables, order_id)
+    if order.status == "paid":
+        session.execute(
+            sa.update(tables.orders)
+            .where(tables.orders.c.id == order_id)
+            .values(status="cancelled")
+        )
+        session.execute(
+            sa.update(tables.listings)
+            .where(tables.listings.c.id == order.listing_id)
+            .values(status="ended", ended_at=sa.func.now(), updated_at=sa.func.now())
+        )
+        session.commit()
+    return _order(session, tables, order_id)
+
+
 def deliver_sale_webhook(
     order_id: UUID,
     spec: ChannelSpec,
@@ -445,7 +468,12 @@ def purchase(
     order_id = uuid4()
     session.execute(
         sa.insert(tables.orders).values(
-            id=order_id, listing_id=listing_id, price_cents=listing["price_cents"]
+            id=order_id,
+            listing_id=listing_id,
+            price_cents=listing["price_cents"],
+            # The moment of the purchase, so two orders in one transaction, as in the tests, are
+            # still in the order they were bought in, and the first buyer of a double sale is clear.
+            created_at=sa.func.clock_timestamp(),
         )
     )
     session.execute(

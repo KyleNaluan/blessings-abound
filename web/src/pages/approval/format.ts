@@ -25,6 +25,11 @@ export function when(iso: string) {
   return new Date(iso).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' })
 }
 
+// To the second, for times that are often a minute or less apart, such as two orders.
+export function exactly(iso: string) {
+  return new Date(iso).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'medium' })
+}
+
 // A release month is the first day of the month, as a date with no time.
 export function releaseMonth(isoDate: string) {
   const [year, month] = isoDate.split('-').map(Number)

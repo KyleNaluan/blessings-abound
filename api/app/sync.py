@@ -10,10 +10,12 @@ The master record in Postgres is the truth, and a channel is changed only throug
   listing of that item, or flags a double sale.
 - `poll_channel` asks a channel for the orders the app hasn't acknowledged, which catches a
   webhook that never arrived, and checks its active listings against the master record.
+- A cancel job, which the Needs Attention screen in app/attention.py queues, cancels the later
+  order of a double sale on its channel and resolves the flag once the channel confirms.
 - `run_due_jobs` runs whatever is due, and app/scheduler.py calls it every few seconds.
 
 Every change goes in `sync_log`, and a conflict the app can't settle on its own is a flag there,
-with the shape in docs/database.md, for the Needs Attention screen in #43.
+with the shape in docs/database.md, for the Needs Attention screen.
 """
 
 import logging
@@ -100,6 +102,19 @@ def flag(session: Session, conflict: ConflictKind, key: str, message: str, **fie
     if inserted is not None:
         logger.warning("Needs attention: %s", message)
     return inserted is not None
+
+
+def resolve_flag(
+    session: Session, flag_id: UUID, resolution: str, resolved_by: UUID | None = None
+) -> bool:
+    """Close one open flag with what settled it, and say whether it was still open."""
+    closed = session.execute(
+        sa.update(SyncLogEntry)
+        .where(col(SyncLogEntry.id) == flag_id, col(SyncLogEntry.resolved_at).is_(None))
+        .values(resolved_at=sa.func.now(), resolved_by=resolved_by, resolution=resolution)
+        .returning(col(SyncLogEntry.id))
+    ).first()
+    return closed is not None
 
 
 def _resolve_flags(session: Session, conflict: ConflictKind, key: str, resolution: str) -> None:
@@ -345,17 +360,27 @@ def record_sale(
 def _flag_double_sale(
     session: Session, item: Item, listing: Listing, order: ChannelOrder, source: SaleSource
 ) -> None:
-    earlier = session.exec(
+    others = session.exec(
         select(SaleEvent)
-        .where(SaleEvent.item_id == item.id, SaleEvent.listing_id != listing.id)
+        .where(
+            SaleEvent.item_id == item.id,
+            SaleEvent.listing_id != listing.id,
+            col(SaleEvent.cancelled_at).is_(None),
+        )
         .order_by(col(SaleEvent.sold_at))
     ).all()
-    others = " and ".join(dict.fromkeys(_label(sale.channel) for sale in earlier))
+    # In the order the buyers paid, which can differ from the order Turnstone heard of them.
+    sold = sorted(
+        [(sale.sold_at, sale.channel) for sale in others] + [(order.sold_at, listing.channel)],
+        key=lambda pair: pair[0],
+    )
+    *before, last = [_label(channel) for _, channel in sold]
+    before_text = " and ".join(dict.fromkeys(before))
     flag(
         session,
         ConflictKind.DOUBLE_SALE,
         f"double_sale:{listing.channel.value}:{order.id}",
-        f"{_title(listing)} sold on {others} and again on {_label(listing.channel)}, so one "
+        f"{_title(listing)} sold on {before_text} and again on {last}, so one "
         "of the orders needs cancelling.",
         channel=listing.channel,
         item_id=item.id,
@@ -373,7 +398,7 @@ def _flag_double_sale(
                     "price_cents": sale.price_cents,
                     "sold_at": sale.sold_at.isoformat(),
                 }
-                for sale in earlier
+                for sale in others
             ],
         },
     )
@@ -394,6 +419,115 @@ def _listing_for_ref(session: Session, channel: Channel, external_ref: str) -> L
         return None
     listing = session.get(Listing, listing_id)
     return listing if listing is not None and listing.channel == channel else None
+
+
+# Cancelling the later order of a double sale
+
+
+def double_sale_orders(session: Session, item_id: UUID) -> tuple[SaleEvent, SaleEvent] | None:
+    """The order that keeps the item and the one to cancel, or None once only one is left.
+
+    The first buyer keeps it, by the time each channel took the order, and then by which order
+    Turnstone heard of first, so the buyer who paid first is never the one let down.
+    """
+    sales = _live_sales(session, item_id)
+    return (sales[0], sales[-1]) if len(sales) > 1 else None
+
+
+def _live_sales(session: Session, item_id: UUID) -> list[SaleEvent]:
+    """The item's orders that haven't been cancelled, first buyer first."""
+    return list(
+        session.exec(
+            select(SaleEvent)
+            .where(SaleEvent.item_id == item_id, col(SaleEvent.cancelled_at).is_(None))
+            .order_by(
+                col(SaleEvent.sold_at),
+                col(SaleEvent.received_at),
+                col(SaleEvent.channel_order_id),
+            )
+        ).all()
+    )
+
+
+def _cancel(session: Session, job: Job, channels: Channels, now: datetime) -> None:
+    listing = session.get(Listing, UUID(job.payload["listing_id"]))
+    if listing is None:
+        return
+    order_id = job.payload["channel_order_id"]
+    sale = session.exec(
+        select(SaleEvent).where(
+            SaleEvent.channel == listing.channel, SaleEvent.channel_order_id == order_id
+        )
+    ).one()
+    flag_id = UUID(job.payload["flag_id"])
+    requested_by = UUID(job.payload["requested_by"])
+    if sale.cancelled_at is None:
+        adapter = _adapter(channels, listing.channel)
+        sale_id, listing_id, job_id = sale.id, listing.id, job.id
+        session.commit()
+        try:
+            adapter.cancel_order(order_id)
+        except ChannelRejectedError as error:
+            _finish_cancel_refused(session, job_id, listing_id, order_id, str(error))
+            return
+        sale = session.get_one(SaleEvent, sale_id, with_for_update=True)
+        listing = session.get_one(Listing, listing_id, with_for_update=True)
+        if sale.cancelled_at is None:
+            sale.cancelled_at = now
+            session.add(sale)
+    live = _live_sales(session, listing.item_id)
+    keeper = f"the {_label(live[0].channel)} buyer" if live else "nobody"
+    if listing.status == ListingStatus.SOLD:
+        listing.status = ListingStatus.ENDED
+        listing.ended_at = now
+        listing.status_detail = f"The order here was cancelled, so {keeper} keeps the item."
+        session.add(listing)
+        log(
+            session,
+            SyncEvent.ORDER_CANCELLED,
+            f"Cancelled the {_label(listing.channel)} order for {_title(listing)}, so {keeper} "
+            "keeps it.",
+            channel=listing.channel,
+            item_id=listing.item_id,
+            listing_id=listing.id,
+            channel_listing_id=listing.channel_listing_id,
+            channel_order_id=order_id,
+            detail={"job_id": str(job.id), "flag_id": str(flag_id)},
+        )
+    resolution = f"Cancelled the {_label(listing.channel)} order, so {keeper} keeps the item."
+    resolve_flag(session, flag_id, resolution, requested_by)
+    if len(live) < 2:
+        # An item sold three times has a flag for each extra order, and one buyer is left now.
+        session.execute(
+            sa.update(SyncLogEntry)
+            .where(
+                col(SyncLogEntry.conflict) == ConflictKind.DOUBLE_SALE,
+                col(SyncLogEntry.item_id) == listing.item_id,
+                col(SyncLogEntry.resolved_at).is_(None),
+            )
+            .values(resolved_at=sa.func.now(), resolved_by=requested_by, resolution=resolution)
+        )
+
+
+def _finish_cancel_refused(
+    session: Session, job_id: UUID, listing_id: UUID, order_id: str, reason: str
+) -> None:
+    """A refusal is final, so the job stops with the reason and the flag stays for a person."""
+    listing = session.get_one(Listing, listing_id)
+    job = session.get_one(Job, job_id, with_for_update=True)
+    job.status = JobStatus.FAILED
+    job.last_error = reason
+    session.add(job)
+    log(
+        session,
+        SyncEvent.CANCEL_REJECTED,
+        f"{_label(listing.channel)} refused to cancel the order for {_title(listing)}. {reason}",
+        channel=listing.channel,
+        item_id=listing.item_id,
+        listing_id=listing.id,
+        channel_order_id=order_id,
+        detail={"job_id": str(job.id), "flag_id": job.payload["flag_id"]},
+    )
 
 
 # Polling
@@ -529,13 +663,18 @@ def run_jobs(
     return ran
 
 
+JobRunner = Callable[[Session, Job, Channels, datetime], None]
+RUNNERS: dict[JobKind, JobRunner] = {
+    JobKind.PUBLISH_LISTING: _publish,
+    JobKind.END_LISTING: _end,
+    JobKind.CANCEL_ORDER: _cancel,
+}
+
+
 def _run(session: Session, job: Job, channels: Channels, now: datetime) -> None:
     job_id = job.id
     try:
-        if job.kind == JobKind.PUBLISH_LISTING:
-            _publish(session, job, channels, now)
-        else:
-            _end(session, job, channels, now)
+        RUNNERS[job.kind](session, job, channels, now)
     except Exception as error:
         session.rollback()
         if not isinstance(error, ChannelError):
@@ -546,36 +685,60 @@ def _run(session: Session, job: Job, channels: Channels, now: datetime) -> None:
         session.commit()
         return
     job = session.get_one(Job, job_id)
-    job.status = JobStatus.DONE
-    job.last_error = None
-    session.add(job)
+    # A runner that met a final refusal has already marked the job failed with the reason.
+    if job.status == JobStatus.PENDING:
+        job.status = JobStatus.DONE
+        job.last_error = None
+        session.add(job)
     session.commit()
+
+
+@dataclass(frozen=True)
+class _Failure:
+    retrying: SyncEvent
+    gave_up: SyncEvent
+    # What the job was doing, to go before the listing's title.
+    action: str
+
+
+FAILURES = {
+    JobKind.PUBLISH_LISTING: _Failure(
+        SyncEvent.PUBLISH_FAILED, SyncEvent.PUBLISH_GAVE_UP, "listing"
+    ),
+    JobKind.END_LISTING: _Failure(SyncEvent.DELIST_FAILED, SyncEvent.DELIST_GAVE_UP, "taking down"),
+    JobKind.CANCEL_ORDER: _Failure(
+        SyncEvent.CANCEL_FAILED, SyncEvent.CANCEL_GAVE_UP, "cancelling the order for"
+    ),
+}
 
 
 def _retry_or_give_up(session: Session, job_id: UUID, error: str, now: datetime) -> None:
     job = session.get_one(Job, job_id, with_for_update=True)
     job.last_error = error
     listing = session.get(Listing, UUID(job.payload["listing_id"]))
-    publishing = job.kind == JobKind.PUBLISH_LISTING
+    failure = FAILURES[job.kind]
     fields: dict[str, Any] = {}
     if listing is not None:
         fields = {"channel": listing.channel, "item_id": listing.item_id, "listing_id": listing.id}
-    title = _title(listing) if listing is not None else "A listing"
+    if "channel_order_id" in job.payload:
+        fields["channel_order_id"] = job.payload["channel_order_id"]
+    title = _title(listing) if listing is not None else "a listing"
     if job.attempts < job.max_attempts:
         job.run_after = now + retry_delay(job.attempts)
-        event = SyncEvent.PUBLISH_FAILED if publishing else SyncEvent.DELIST_FAILED
-        action = "Listing" if publishing else "Taking down"
+        event = failure.retrying
+        action = failure.action[:1].upper() + failure.action[1:]
         message = f"{action} {title} failed, try {job.attempts} of {job.max_attempts}. {error}"
     else:
         job.status = JobStatus.FAILED
-        event = SyncEvent.PUBLISH_GAVE_UP if publishing else SyncEvent.DELIST_GAVE_UP
+        event = failure.gave_up
+        publishing = job.kind == JobKind.PUBLISH_LISTING
         if publishing and listing is not None and listing.status == ListingStatus.PENDING:
             listing.status = ListingStatus.FAILED
             listing.status_detail = error
             session.add(listing)
-        # A listing that never came down is found by polling as a stale listing.
-        action = "listing" if publishing else "taking down"
-        message = f"Turnstone stopped {action} {title} after {job.attempts} tries. {error}"
+        # A listing that never came down is found by polling as a stale listing, and a cancel
+        # that never went through leaves its flag open for someone to try again.
+        message = f"Turnstone stopped {failure.action} {title} after {job.attempts} tries. {error}"
     session.add(job)
     log(session, event, message, detail={"job_id": str(job.id)}, **fields)
 

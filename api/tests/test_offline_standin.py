@@ -6,8 +6,10 @@ from fastapi.testclient import TestClient
 
 from app.claims import ListingFacts, check_listing
 from app.comps import parse_comps
+from app.flag_explanations import FlagContext, parse_text, template_text
+from app.flag_explanations import build_messages as build_flag_messages
 from app.listing_drafts import build_messages, category_options, parse_draft
-from app.models import Channel, Condition, ItemCard
+from app.models import Channel, Condition, ConflictKind, ItemCard, SyncEvent, SyncLogEntry
 from app.offline_standin import ITEM_CARD, PASSWORD, USERS, app, closest_fixture
 from app.supabase_auth import placeholder_email
 from app.vision import ItemCardDraft
@@ -80,6 +82,24 @@ def test_the_fixed_listing_passes_the_checker(channel: Channel, category: str) -
     )
     assert draft.category == category
     assert check_listing(draft.title, draft.description, facts) == []
+
+
+def test_a_flag_gets_its_own_fixed_sentences_back() -> None:
+    entry = SyncLogEntry(
+        id=uuid4(),
+        event=SyncEvent.FLAGGED,
+        conflict=ConflictKind.UNKNOWN_LISTING,
+        conflict_key="unknown_listing:channel_b:listing:1",
+        channel=Channel.CHANNEL_B,
+        message="Channel B has a live listing Turnstone has no record of.",
+    )
+    context = FlagContext(entry, title=None, sku=None, item_status=None)
+    template = template_text(context)
+    body = {"messages": build_flag_messages(context, template)}
+
+    answer = client.post("/v1/chat/completions", json=body).json()
+
+    assert parse_text(answer["choices"][0]["message"]["content"]) == template
 
 
 def test_a_search_gets_the_closest_fixture_with_real_comps() -> None:

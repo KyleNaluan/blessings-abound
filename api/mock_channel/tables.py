@@ -11,7 +11,7 @@ from sqlalchemy.dialects.postgresql import JSONB
 
 SCHEMAS = ("channel_a", "channel_b")
 LISTING_STATUSES = ("active", "sold", "ended")
-ORDER_STATUSES = ("paid",)
+ORDER_STATUSES = ("paid", "cancelled")
 
 metadata = sa.MetaData(
     naming_convention={

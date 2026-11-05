@@ -130,8 +130,8 @@ test('visiting the app after a successful sign-out reaches sign-in, not a blank 
 })
 
 test.each([
-  ['manager', ['Approvals', 'Pick list', 'Settings']],
-  ['staff', ['Pick list']],
+  ['manager', ['Approvals', 'Pick list', 'Needs attention', 'Settings']],
+  ['staff', ['Pick list', 'Needs attention']],
 ])('a %s sees the links for their role', async (role, links) => {
   vi.stubGlobal(
     'fetch',
@@ -148,7 +148,9 @@ test.each([
       screen
         .getAllByRole('link')
         .map((link) => link.textContent)
-        .filter((name) => ['Approvals', 'Pick list', 'Settings'].includes(name ?? '')),
+        .filter((name) =>
+          ['Approvals', 'Pick list', 'Needs attention', 'Settings'].includes(name ?? ''),
+        ),
     ).toEqual(links),
   )
 })

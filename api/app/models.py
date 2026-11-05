@@ -157,6 +157,10 @@ class SyncEvent(StrEnum):
     DELIST_GAVE_UP = "delist_gave_up"
     DELIST_FOUND_SOLD = "delist_found_sold"
     FLAGGED = "flagged"
+    ORDER_CANCELLED = "order_cancelled"
+    CANCEL_REJECTED = "cancel_rejected"
+    CANCEL_FAILED = "cancel_failed"
+    CANCEL_GAVE_UP = "cancel_gave_up"
 
 
 class ConflictKind(StrEnum):
@@ -168,6 +172,8 @@ class ConflictKind(StrEnum):
 class JobKind(StrEnum):
     PUBLISH_LISTING = "publish_listing"
     END_LISTING = "end_listing"
+    # Cancelling the later order of a double sale, which someone asked for on Needs Attention.
+    CANCEL_ORDER = "cancel_order"
 
 
 class JobStatus(StrEnum):
@@ -601,6 +607,8 @@ class SaleEvent(SQLModel, table=True):
             sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now()
         ),
     )
+    # Set once the channel confirms it cancelled the order, the later one of a double sale.
+    cancelled_at: datetime | None = Field(default=None, sa_type=sa.DateTime(timezone=True))  # pyright: ignore[reportArgumentType]
 
 
 class SyncLogEntry(SQLModel, table=True):
@@ -661,6 +669,34 @@ class SyncLogEntry(SQLModel, table=True):
             sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now(), index=True
         ),
     )
+
+
+class FlagExplanation(SQLModel, table=True):
+    """The plain-language explanation and suggested fix shown with one Needs Attention flag.
+
+    Code finds and flags every conflict, and the model only words what code already worked out,
+    so a flag shows straight away with the fixed text in app/attention.py until this row exists.
+    """
+
+    __tablename__ = "flag_explanations"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.CheckConstraint(
+            "(source = 'model') = (fallback_reason IS NULL)", name="fallback_reason_with_template"
+        ),
+    )
+
+    flag_id: UUID = Field(foreign_key="sync_log.id", primary_key=True)
+    explanation: str = Field(sa_type=sa.Text)
+    suggested_fix: str = Field(sa_type=sa.Text)
+    source: DraftSource = Field(
+        sa_column=sa.Column(_enum_type(DraftSource, "source"), nullable=False)
+    )
+    fallback_reason: FallbackReason | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(FallbackReason, "fallback_reason"))
+    )
+    # The provider that answered, even when its text was refused.
+    model_name: str | None = Field(default=None, sa_type=sa.Text)
+    created_at: datetime = _created_at()
 
 
 class Job(SQLModel, table=True):

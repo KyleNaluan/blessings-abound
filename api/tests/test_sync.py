@@ -438,7 +438,7 @@ def test_a_failed_delist_is_retried_from_the_jobs_table(
     assert listing_status(session, listings[B]) == ListingStatus.ACTIVE
     [job] = pending_jobs(session)
     assert job.attempts == 1
-    assert job.last_error == "Channel B answered 503: Channel B is offline."
+    assert job.last_error == "Channel B is down for now."
     assert SyncEvent.DELIST_FAILED in events(session, item_id)
 
     # Not due yet, so nothing runs until the wait has passed.
@@ -515,7 +515,8 @@ def test_a_double_sale_of_the_same_item_is_flagged(
     assert double.resolved_at is None
     assert [order["channel_order_id"] for order in double.detail["other_orders"]] == [second["id"]]
     assert double.message == (
-        "Carhartt canvas jacket - Pre-owned sold on Channel B and again on Channel A, so one of "
+        # A's buyer paid first, though Turnstone heard of B's order first.
+        "Carhartt canvas jacket - Pre-owned sold on Channel A and again on Channel B, so one of "
         "the orders needs cancelling."
     )
     assert SyncEvent.DELIST_FOUND_SOLD in events(session, item_id)

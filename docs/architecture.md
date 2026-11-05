@@ -198,7 +198,25 @@ Turnstone's own records change only on what a channel has confirmed, so a listin
 The review page shows where each approved listing is on its channel, and asks again every 2 seconds while one is still `pending`.
 `POST /items/{id}/listings` sends a `rejected` or `failed` listing again and runs its job before answering, and the review page offers it for a `failed` one, because a channel that was down may be back.
 `api/app/jobs.py` holds only what adds rows to `jobs`, so the approval step can queue a publish while the sync calls back into `mark_sold`, with no import cycle.
-Cancelling an order is #43, so a double sale is flagged for a manager and both orders stay.
+
+## Needs Attention
+
+The Needs Attention screen at `/app/attention` lists the open flags from `sync_log`, newest first, and the latest 20 that someone or sync resolved, through `GET /attention` in `api/app/attention.py`.
+Staff and managers both see it and can fix a flag, as [requirements.md](requirements.md#users-and-roles) lists, because a double sale or a stale listing needs settling before a manager is next in.
+Missing required information isn't a check here, because the listing form won't send a draft for approval until it is filled in.
+
+Code finds every conflict and decides what to do about it, and `template_text` in `api/app/flag_explanations.py` puts that in fixed sentences.
+The model only rewords those sentences for staff, and it is the same pair as the drafts, through `complete_json`.
+The prompt is `PROMPT` in the same file, sent as one user message, and it holds the kind of problem, the item, the channels, and the fixed sentences as the "Problem" and "Fix" it must keep, with no prices, times or order numbers.
+A reply with a number the facts don't have, a failed or slow call, or no model set up all fall back to the fixed sentences, and `flag_explanations` records which one was shown and why.
+A flag shows the fixed sentences until its explanation is written, so a flag is never hidden by the model.
+The explanations are written on a second scheduler thread every 2 seconds, so a slow model never holds up polling or a delist.
+
+A double sale is fixed in one click with `POST /attention/{id}/fix`.
+The order the buyer paid for first, by the channels' own sale times, keeps the item, and the later order is cancelled through `cancel_order` on the `ChannelAdapter`, which refunds that buyer on the mock channel.
+The cancel is a `cancel_order` job, run before the reply so the screen shows what the channel said, and a channel that is down gets it retried like any other job while the screen shows each try.
+A channel that refuses the cancel stops the job at once, and the button comes back so someone can try again.
+Any flag can also be marked handled with `POST /attention/{id}/resolve` and a note on what was done, which becomes the flag's resolution in `sync_log`.
 
 ## Database
 
@@ -307,7 +325,7 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-03: Run polling and the jobs on a thread inside the API rather than as a separate worker, because Render's free plan has no free background workers, and the lease and `SKIP LOCKED` keep two API processes from running the same job.
 - 2026-11-03: Sign sale webhooks with HMAC-SHA256 over the raw body using the channel key, and treat a 2xx answer as the acknowledgment, so polling asks only for orders that are not acknowledged and a missed webhook is still caught.
 - 2026-11-03: Use the `listings.id` as the `external_ref` each channel stores and make publishing with the same one return the existing listing, so a publish retried after a timeout can't list the item twice.
-- 2026-11-03: Keep a double sale as two `sale_events` rows and a flag rather than cancelling an order automatically, because which buyer keeps the item is a manager's call.
+- 2026-11-03: Keep a double sale as two `sale_events` rows and a flag rather than cancelling an order automatically, so a person decides before any buyer is refunded.
 - 2026-11-03: Flag a stale listing and queue another `end_listing` job in the same poll, and let sync resolve the flag once the channel confirms, so a channel that was down only briefly doesn't leave a manager a flag to clear by hand.
 - 2026-11-03: Make each open flag's `conflict_key` unique with a partial index and add flags with `ON CONFLICT DO NOTHING`, so a conflict that polling sees every 30 seconds is flagged once.
 - 2026-11-03: Change a listing's status only on what the channel has confirmed, so Turnstone never shows a listing as ended while it is still for sale.
@@ -316,3 +334,7 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-04: Give the mock channels the same category names the drafts choose from, and test that the lists match, so a draft's category is one the channel takes.
 - 2026-11-04: Move the job queueing into `api/app/jobs.py`, so `approval.py` can queue a publish and `sync.py` can call `mark_sold` without one importing the other in a cycle.
 - 2026-11-04: Keep the 15s limit for a whole web test and the 10s limit for a hook in a custom Vitest runner that counts only the time the test process ran, and turn off Vitest's own limits, because those limits are plain timers and the shared CI runner freezes every test process at once for 15s or more, which failed whichever tests were running even though each wait already restarts after a freeze.
+- 2026-11-04: Let the first buyer keep a double-sold item, by the channels' sale times, and cancel the later order, because that buyer paid first, and the later buyer paid for an item that was already gone. Ties go to the order Turnstone heard of first.
+- 2026-11-04: Let staff as well as managers fix Needs Attention flags, as requirements.md lists, because a buyer waiting on a double sale shouldn't wait for a manager to come in.
+- 2026-11-04: Have the model only reword fixed sentences that code wrote for each flag, and refuse its text when it has a number the facts don't, so the explanation can't change what happened or what to do.
+- 2026-11-04: Write flag explanations on their own scheduler thread, so a slow model never delays polling or a delist.

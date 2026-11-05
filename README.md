@@ -93,6 +93,17 @@ A listing that still hasn't gone up after 10 tries shows on the review page with
 Buying the same item on the second channel before the first has taken it down is flagged as a double sale.
 Every change and every flag is in the `sync_log` table, as [docs/database.md](docs/database.md#needs-attention-flags) describes.
 
+To see a double sale fixed:
+
+1. Store an item that goes on both channels, such as a piece of clothing with a brand.
+2. Buy it on Channel A with "Tell the seller right away, by sale webhook" unticked, then buy it on Channel B within 30 seconds, before the poll finds the first sale.
+3. Open "Needs attention" from the home page, as staff or a manager.
+   The double sale says which order keeps the item and which one to cancel.
+4. Press "Cancel the Channel B order".
+   Channel B cancels the order, and the flag moves to "Recently handled" with who fixed it.
+
+Take Channel B offline before step 4 to see the cancel retried, and it goes through once Channel B is back.
+
 ## Offline demo
 
 This runs the whole app on one laptop with no keys and no Wi-Fi, in case the venue's network or a hosted service fails.
