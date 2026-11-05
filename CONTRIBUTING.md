@@ -57,6 +57,11 @@ The description should answer three things:
 2. **How to test it**, with the exact commands or clicks you used.
 3. **Anything you're unsure about**, so the reviewer looks there first.
 
+A check in CI, `.github/workflows/pr-rules.yml`, runs on every pull request and again when its description is edited.
+It fails when one of the pull request's own commits has a `Co-Authored-By` line, a "Generated with" footer or a tool session link, or starts with a prefix such as `feat(api):` or `fix:`.
+It also fails when the description is missing one of the three sections above, leaves one empty, has one of those attribution lines, or has neither `Closes #N` nor `Refs #N`.
+Its message names the commit or section and the rule it broke, and older commits on `main` aren't checked.
+
 Add an entry for the change to `WORKLOG.md` under your own section, newest first, with the date, the pull request number and a one-line summary.
 This keeps a log of what each person has built.
 

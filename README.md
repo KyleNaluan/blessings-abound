@@ -219,6 +219,14 @@ npm test
 npm run build
 ```
 
+Pull request rules, from the repository root:
+
+```sh
+python3 -m unittest discover -s .github/scripts
+```
+
+These test the check that each pull request's commits and description follow [CONTRIBUTING.md](CONTRIBUTING.md), which CI runs with `.github/scripts/pr_rules.py`.
+
 To run the formatters and linters before every commit, install the pre-commit hooks once with `uvx pre-commit install`.
 
 ## Changing the API
