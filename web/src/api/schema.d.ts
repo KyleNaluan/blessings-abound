@@ -1810,8 +1810,6 @@ export interface components {
     TimingHint: {
       /** Season */
       season: string | null
-      /** Season Months */
-      season_months: number[]
       /** Season Span */
       season_span: string | null
       /** Release Month */

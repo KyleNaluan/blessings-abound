@@ -314,7 +314,6 @@ def test_staff_see_the_channels_the_timing_and_the_reason(client: TestClient) ->
         ],
         "timing": {
             "season": "Coats and jackets",
-            "season_months": [1, 8, 9, 10, 11, 12],
             "season_span": "August to January",
             "release_month": None,
         },
@@ -346,7 +345,6 @@ def test_a_calendar_changed_on_the_settings_page_changes_the_hint(
     timing = recommendation(client, item_id)["timing"]
     assert timing == {
         "season": "Coats",
-        "season_months": [3, 4],
         "season_span": "March to April",
         "release_month": "2027-03-01",
     }

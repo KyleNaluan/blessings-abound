@@ -79,7 +79,6 @@ class ChannelOption(BaseModel):
 class TimingHint(BaseModel):
     # The first season in the calendar the item matches, or none when it matches none.
     season: str | None
-    season_months: list[int]
     # The months as words, such as "August to January".
     season_span: str | None
     # The first day of the month the item is held until, or none to list it now.
@@ -189,7 +188,6 @@ def advise(facts: ListingFacts, calendar: SeasonalCalendar, today: date) -> Chan
     season = matching_season(facts, calendar)
     timing = TimingHint(
         season=season.name if season else None,
-        season_months=sorted(season.months) if season else [],
         season_span=month_span(season.months) if season else None,
         release_month=release_month(season.months, today) if season else None,
     )

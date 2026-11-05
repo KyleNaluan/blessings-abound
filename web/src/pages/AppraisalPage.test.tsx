@@ -75,7 +75,6 @@ const recommendation = {
   ],
   timing: {
     season: 'Coats and jackets',
-    season_months: [8, 9, 10, 11, 12, 1],
     season_span: 'August to January',
     release_month: null,
   },

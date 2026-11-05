@@ -15,7 +15,6 @@ const inSeason = {
   ],
   timing: {
     season: 'Coats and jackets',
-    season_months: [8, 9, 10, 11, 12, 1],
     season_span: 'August to January',
     release_month: null,
   },
@@ -34,7 +33,6 @@ const held = {
   ],
   timing: {
     season: 'Swimwear',
-    season_months: [3, 4, 5, 6, 7],
     season_span: 'March to July',
     release_month: '2027-03-01',
   },
@@ -142,7 +140,7 @@ test('an item that matches no season says so', async () => {
   stubApi(() =>
     Response.json({
       ...inSeason,
-      timing: { season: null, season_months: [], season_span: null, release_month: null },
+      timing: { season: null, season_span: null, release_month: null },
     }),
   )
   render(<ChannelChoice itemId="item-1" onChoose={onChoose} />)
