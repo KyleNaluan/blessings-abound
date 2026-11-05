@@ -233,7 +233,7 @@ function Handled({ flag }: { flag: Flag }) {
       <p className="break-words">{flag.resolution}</p>
       {flag.resolved_at && (
         <p className="text-muted-foreground">
-          {flag.resolved_by ? `By ${flag.resolved_by}` : 'By Turnstone'} {when(flag.resolved_at)}
+          By {flag.resolved_by ?? 'Turnstone'} on {when(flag.resolved_at)}
         </p>
       )}
     </li>
