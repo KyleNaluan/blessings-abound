@@ -25,6 +25,8 @@ TABLES = [
     "flag_explanations",
     "triage_log",
     "sku_sequences",
+    "synthetic_items",
+    "synthetic_listings",
     "alembic_version",
 ]
 CHANNEL_SCHEMAS = ["channel_a", "channel_b"]
@@ -134,7 +136,7 @@ def columns_named(connection: Connection, pattern: str) -> list[tuple[str, str, 
 
 def test_every_cents_column_is_a_whole_number_type(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_cents")
-    assert len(columns) == 7
+    assert len(columns) == 9
     assert {data_type for _, _, data_type in columns} == {"integer"}
 
 

@@ -1,3 +1,4 @@
+from datetime import date
 from functools import lru_cache
 from pathlib import Path
 
@@ -106,6 +107,170 @@ class PhotoChecks(BaseModel):
         default=210,
         description="Washed out when even the darkest 5% is above this out of 255, where every "
         "evaluation photo, white items on white included, was at most 183.",
+    )
+
+
+Shares = tuple[float, float, float]
+MonthlyIndex = tuple[
+    float, float, float, float, float, float, float, float, float, float, float, float
+]
+
+
+class SyntheticSales(BaseModel):
+    """The numbers behind the synthetic sales history in app/synthetic_sales.py, with sources.
+
+    Each description starts with where the number comes from: a published figure it is calibrated
+    to, a choice about the history itself, or "Assumed" when nothing published backs it. They are
+    read from code rather than the environment, so the history in the database and the calibration
+    report in docs/synthetic-sales.md always describe the same numbers.
+    """
+
+    model_config = ConfigDict(frozen=True)
+
+    seed: int = Field(
+        default=2026,
+        description="Choice: the fixed seed, so every load gives the same history, and any other "
+        "whole number gives a different one.",
+    )
+    first_day: date = Field(
+        default=date(2025, 7, 1),
+        description="Choice: intake starts here and runs for 12 months, so every listing's 90 "
+        "days are over before November 2026.",
+    )
+    months: int = Field(default=12, description="Choice: a year of history, for the seasonality.")
+    monthly_items: float = Field(
+        default=50.0,
+        description="Choice: the average number of items forwarded to Ecommerce each month, for "
+        "about 600 items in a year, with the count each month drawn around it.",
+    )
+    max_days: int = Field(
+        default=90,
+        description="Choice: how long a listing runs before it ends unsold, the window of Closo's "
+        "sell-through figures.",
+    )
+    clothing_share: float = Field(
+        default=0.7,
+        description="Assumed: the share of forwarded items that come from the clothing department, "
+        "with the rest from electronics and games.",
+    )
+    apparel_department_shares: Shares = Field(
+        default=(0.3, 0.55, 0.15),
+        description="Assumed: the share of apparel that is men's, women's and kids'.",
+    )
+    apparel_condition_shares: Shares = Field(
+        default=(0.08, 0.07, 0.85),
+        description="Assumed: the share of apparel that is new with tags, new without tags and "
+        "pre-owned.",
+    )
+    electronics_games_condition_shares: Shares = Field(
+        default=(0.04, 0.04, 0.92),
+        description="Assumed: the same shares for electronics and games.",
+    )
+    apparel_median_price_cents: int = Field(
+        default=3400, description="Assumed: the middle typical price of an apparel item."
+    )
+    apparel_price_spread: float = Field(
+        default=0.8,
+        description="Assumed: the spread of apparel prices on a log scale, which puts about one "
+        "in seven under $15.",
+    )
+    electronics_games_median_price_cents: int = Field(
+        default=4000, description="Assumed: the middle typical price of a games or hardware item."
+    )
+    electronics_games_price_spread: float = Field(
+        default=0.95,
+        description="Assumed: the spread of games and hardware prices on a log scale, which puts "
+        "about one in six at $100 or more.",
+    )
+    check_share: float = Field(
+        default=0.1,
+        description='Assumed: the share of appraisals that come back "check", with low '
+        "confidence or no comps.",
+    )
+    clothing_accept_if_yes: float = Field(
+        default=0.9, description="Assumed: how often clothing staff accept an item rated yes."
+    )
+    clothing_accept_if_no: float = Field(
+        default=0.15,
+        description="Assumed: how often clothing staff accept an item rated no, overriding it.",
+    )
+    clothing_accept_if_check: float = Field(
+        default=0.5, description="Assumed: how often clothing staff accept an item rated check."
+    )
+    electronics_games_accept_if_yes: float = Field(
+        default=0.92,
+        description="Assumed: how often electronics and games staff accept an item rated yes.",
+    )
+    electronics_games_accept_if_no: float = Field(
+        default=0.1,
+        description="Assumed: how often electronics and games staff accept an item rated no, "
+        "overriding it.",
+    )
+    electronics_games_accept_if_check: float = Field(
+        default=0.55,
+        description="Assumed: how often electronics and games staff accept an item rated check.",
+    )
+    max_listing_lag_days: int = Field(
+        default=7,
+        description="Assumed: an accepted item is listed 1 to this many days after the staff "
+        "call, for the manager approval and shelving.",
+    )
+    channel_b_share: float = Field(
+        default=0.45,
+        description="Assumed: the share of accepted apparel listed on Channel B rather than "
+        "Channel A, with games and hardware always on Channel A.",
+    )
+    channel_a_scale_days: float = Field(
+        default=2600.0,
+        description="Calibrated to FlowLister's eBay figures: the scale of Channel A's baseline, "
+        "where a larger value means fewer sales.",
+    )
+    channel_a_shape: float = Field(
+        default=0.55,
+        description="Calibrated to FlowLister's eBay figures: below 1, the daily chance falls as a "
+        "listing ages, so sales come early and a few take much longer.",
+    )
+    channel_b_scale_days: float = Field(
+        default=150.0,
+        description="Calibrated to Closo's Poshmark figures for women's tops: the scale of "
+        "Channel B's baseline.",
+    )
+    channel_b_shape: float = Field(
+        default=2.0,
+        description="Calibrated to Closo's Poshmark figures: above 1, the daily chance rises as a "
+        "listing ages, which a 59-day average inside 90 days needs.",
+    )
+    price_band_edges_cents: tuple[int, int, int, int, int] = Field(
+        default=(1500, 3000, 5000, 10000, 25000),
+        description="Choice: the price bands start at these prices, with FlowLister's under $15 "
+        "and $100 to $249.99 among them and the $30 worth-listing bar as an edge.",
+    )
+    price_band_factors: tuple[float, float, float, float, float, float] = Field(
+        default=(0.9, 0.95, 1.0, 1.4, 3.4, 3.4),
+        description="Calibrated to FlowLister's sell-through under $15 and at $100 to $249.99 for "
+        "the first and fifth bands, and assumed to rise evenly between them and stay level above.",
+    )
+    apparel_factor: float = Field(
+        default=1.0,
+        description="Assumed: no published figure we use compares categories, so both start equal.",
+    )
+    electronics_games_factor: float = Field(
+        default=1.0, description="Assumed: the same as apparel, for the same reason."
+    )
+    condition_factors: Shares = Field(
+        default=(1.15, 1.1, 1.0),
+        description="Assumed: new with tags, new without tags and pre-owned, with new items "
+        "selling a little more often.",
+    )
+    apparel_seasonal_index: MonthlyIndex = Field(
+        default=(0.85, 0.9, 1.15, 1.1, 1.0, 0.9, 0.85, 1.0, 1.2, 1.15, 1.0, 0.9),
+        description="Assumed: January to December, peaking as spring and fall start and falling "
+        "off after, which a thrift practitioner's article supports only in words.",
+    )
+    electronics_games_seasonal_index: MonthlyIndex = Field(
+        default=(0.9, 0.85, 0.9, 0.9, 0.9, 0.95, 0.95, 0.95, 1.0, 1.05, 1.3, 1.35),
+        description="Assumed: January to December, peaking with holiday gift buying in November "
+        "and December.",
     )
 
 
