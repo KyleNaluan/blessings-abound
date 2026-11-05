@@ -51,6 +51,9 @@ CHANNEL_CATEGORIES: dict[tuple[Channel, Category], tuple[str, ...]] = {
     ),
 }
 
+# The item card fields each channel refuses a listing without, which the mock channels check too.
+CHANNEL_REQUIRED: dict[Channel, tuple[str, ...]] = {Channel.CHANNEL_B: ("brand",)}
+
 CHANNEL_NAMES = {Channel.CHANNEL_A: "Channel A", Channel.CHANNEL_B: "Channel B"}
 
 CHANNEL_GUIDES = {

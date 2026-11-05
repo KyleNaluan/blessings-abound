@@ -1,5 +1,6 @@
 """The manager approval step, the storage step after it, and the pick list of sold items."""
 
+import json
 from collections.abc import Iterator
 from datetime import UTC, date, datetime
 from pathlib import Path
@@ -13,6 +14,7 @@ from sqlmodel import Session, col, select
 from app.appraisal import get_photo_storage
 from app.approval import PickListEntry, mark_sold, pick_order
 from app.auth import get_token_verifier
+from app.channel_timing import get_today
 from app.channels import MockChannelAdapter, get_channels
 from app.db import get_session
 from app.main import app
@@ -31,7 +33,9 @@ from app.storage import LocalStorage
 from app.store_settings import StoreSettings, pricing_rules
 from tests.test_appraisal import (
     MANAGER_TOKEN,
+    REASON,
     STAFF_TOKEN,
+    TODAY,
     StubVerifier,
     add_profile,
     appraised_item,
@@ -43,6 +47,7 @@ from tests.test_appraisal import (
     model_replies,
     serpapi_fixture,
     use_drafter,
+    use_reasoner,
     use_search,
     write_drafts,
 )
@@ -68,6 +73,8 @@ def client(session: Session, tmp_path: Path) -> Iterator[TestClient]:
     model_replies()
     # Enough replies for every item a test drafts, Channel A then Channel B each time.
     use_drafter(*[draft_reply("Unisex Clothing"), draft_reply("Unisex")] * 6)
+    use_reasoner(json.dumps({"reason": REASON}))
+    app.dependency_overrides[get_today] = lambda: TODAY
     use_search(serpapi_fixture("carhartt-detroit-jacket"))
     yield TestClient(app, headers=as_token(STAFF_TOKEN))
     app.dependency_overrides.clear()

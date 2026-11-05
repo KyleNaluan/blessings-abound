@@ -2,8 +2,8 @@
 
 docker-compose.offline.yml points the API and the web app here, so the app's own code runs unchanged
 with no keys and no network. It answers with one fixed item card and the committed SerpApi fixtures,
-and it reads no photo. A Needs Attention prompt gets its own fixed sentences back. Its passwords
-are public, so it must never serve anything but that demo.
+and it reads no photo. A Needs Attention prompt and a channel reason prompt get their own fixed
+sentences back. Its passwords are public, so it must never serve anything but that demo.
 
 Usage: uvicorn app.offline_standin:app --port 9999
 """
@@ -188,12 +188,14 @@ def _fact(prompt: str, label: str) -> str:
 @app.post("/v1/chat/completions")
 async def chat_completion(request: Request) -> dict[str, Any]:
     """The fixed card for a photo, the fixed listing for a listing prompt, and a flag's own
-    fixed sentences back for a Needs Attention prompt."""
+    fixed sentences back for a Needs Attention prompt, as for a channel reason prompt."""
     body = await request.body()
     prompt = _prompt_text(json.loads(body)) if body else ""
     if prompt.startswith("You write a listing"):
         category = "Unisex" if "Channel B" in prompt else "Unisex Clothing"
         content = json.dumps(LISTING_DRAFT | {"category": category})
+    elif prompt.startswith("You write the reason"):
+        content = json.dumps({"reason": _fact(prompt, "Recommendation")})
     elif prompt.startswith("You explain"):
         content = json.dumps(
             {"explanation": _fact(prompt, "Problem"), "suggested_fix": _fact(prompt, "Fix")}

@@ -4,7 +4,7 @@ import base64
 import io
 import json
 from collections.abc import Callable, Iterator
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Any
 from uuid import UUID, uuid4
@@ -20,9 +20,11 @@ from app.appraisal import (
     get_draft_providers,
     get_ebay_search,
     get_photo_storage,
+    get_reason_providers,
     get_vision_providers,
 )
 from app.auth import AuthUnavailableError, get_token_verifier
+from app.channel_timing import get_today
 from app.comp_filter import filter_comps
 from app.comps import SerpApiError, parse_comps
 from app.db import get_session
@@ -53,6 +55,9 @@ OTHER_STAFF_TOKEN = "other-staff-token"
 MANAGER_TOKEN = "manager-token"
 UNKNOWN_USER_TOKEN = "no-profile-token"
 INACTIVE_TOKEN = "inactive-token"
+# A day in the season of the jacket the stub model reads, so it is listed now rather than held.
+TODAY = date(2026, 11, 4)
+REASON = "Both channels take this jacket, and it is in season, so list it now."
 
 
 MODEL_CARD = {
@@ -113,6 +118,13 @@ def use_drafter(*replies: str | int) -> StubChat:
     """A model that answers the Channel A draft first and the Channel B draft second."""
     chat = StubChat(*replies, name="drafter")
     app.dependency_overrides[get_draft_providers] = lambda: [chat]
+    return chat
+
+
+def use_reasoner(*replies: str | int) -> StubChat:
+    """A model that words the reason for the channel recommendation."""
+    chat = StubChat(*replies, name="reasoner")
+    app.dependency_overrides[get_reason_providers] = lambda: [chat]
     return chat
 
 
@@ -210,6 +222,8 @@ def client(session: Session, storage: LocalStorage) -> Iterator[TestClient]:
     app.dependency_overrides[get_token_verifier] = lambda: StubVerifier(tokens)
     model_replies()
     use_drafter(draft_reply("Unisex Clothing"), draft_reply("Unisex"))
+    use_reasoner(json.dumps({"reason": REASON}))
+    app.dependency_overrides[get_today] = lambda: TODAY
     use_search(serpapi_fixture("carhartt-detroit-jacket"))
     yield TestClient(app, headers={"Authorization": f"Bearer {STAFF_TOKEN}"})
     app.dependency_overrides.clear()
@@ -952,8 +966,18 @@ def listed_item(client: TestClient) -> str:
     return item_id
 
 
-def write_drafts(client: TestClient, item_id: str, **body: Any) -> list[dict[str, Any]]:
-    response = client.post(f"/items/{item_id}/drafts", json=body)
+def recommended_channels(client: TestClient, item_id: str) -> list[str]:
+    response = client.get(f"/items/{item_id}/channels")
+    assert response.status_code == 200, response.text
+    return [option["channel"] for option in response.json()["channels"] if option["takes"]]
+
+
+def write_drafts(
+    client: TestClient, item_id: str, channels: list[str] | None = None
+) -> list[dict[str, Any]]:
+    """Draft the channels named, or every channel the recommendation says can take the item."""
+    chosen = recommended_channels(client, item_id) if channels is None else channels
+    response = client.post(f"/items/{item_id}/drafts", json={"channels": chosen})
     assert response.status_code == 200, response.text
     return response.json()
 
@@ -1071,13 +1095,17 @@ def test_a_server_without_a_model_writes_the_template(client: TestClient) -> Non
 
 def test_drafting_needs_a_yes_decision(client: TestClient) -> None:
     item_id, _ = appraised_item(client)
-    refused = client.post(f"/items/{item_id}/drafts", json={})
+    refused = client.post(f"/items/{item_id}/drafts", json={"channels": ["channel_a"]})
     assert refused.status_code == 409
     assert refused.json()["detail"] == "Decide to list this item before writing its listing."
 
     other_id, other_appraisal = appraised_item(client)
     assert decide(client, other_id, other_appraisal, "no").status_code == 201
-    assert client.post(f"/items/{other_id}/drafts", json={}).status_code == 409
+    assert (
+        client.post(f"/items/{other_id}/drafts", json={"channels": ["channel_a"]}).status_code
+        == 409
+    )
+    assert client.get(f"/items/{other_id}/channels").status_code == 409
 
 
 def test_staff_edit_a_draft_and_the_checker_reads_the_edit(client: TestClient) -> None:
@@ -1177,6 +1205,7 @@ ROUTES = [
     ("post", f"/items/{uuid4()}/appraisals"),
     ("post", f"/items/{uuid4()}/decisions"),
     ("get", "/decisions"),
+    ("get", f"/items/{uuid4()}/channels"),
     ("post", f"/items/{uuid4()}/drafts"),
     ("get", f"/items/{uuid4()}/drafts"),
     ("patch", f"/items/{uuid4()}/drafts/channel_a"),
