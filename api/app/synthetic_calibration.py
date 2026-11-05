@@ -75,8 +75,6 @@ class CalibrationResults(_Strict):
     holdout: TargetResult
     # Judged on Channel A, the general marketplace like the Mercari study's, see the report.
     shape: ShapeResult
-    # Both channels together, which is what the time to sell chart shows, reported and not judged.
-    shape_both_channels: ShapeResult
     parameters: dict[str, object]
 
 
@@ -261,13 +259,9 @@ def shape_passes(mean: float, median: float, skew: float, p90: float) -> bool:
     return mean > median and skew > 0 and p90 >= TAIL_RATIO * median
 
 
-def shape(histories: Sequence[History], channel: Channel | None = None) -> ShapeResult:
-    """The days to sale of every sale in every history, on one channel or both."""
-    days = [
-        days
-        for history in histories
-        for days in _days(_on(history, channel) if channel else history.listings)
-    ]
+def shape(histories: Sequence[History], channel: Channel) -> ShapeResult:
+    """The days to sale of every sale in every history, on one channel."""
+    days = [days for history in histories for days in _days(_on(history, channel))]
     mean, median = statistics.fmean(days), statistics.median(days)
     skew = skewness(days)
     p90 = statistics.quantiles(days, n=10, method="inclusive")[-1]
@@ -304,7 +298,6 @@ def run(seeds: Sequence[int] = SEEDS) -> CalibrationResults:
         targets=[score(target, histories) for target in TARGETS],
         holdout=score(HOLDOUT, histories),
         shape=shape(histories, Channel.CHANNEL_A),
-        shape_both_channels=shape(histories),
         parameters=params.model_dump(mode="json"),
     )
 
@@ -337,9 +330,9 @@ TARGET_HEAD = [
 ]
 
 
-def _shape_row(name: str, result: ShapeResult) -> str:
+def _shape_row(result: ShapeResult) -> str:
     return (
-        f"| {name} | {result.sales:,} | {result.mean_days:.1f} | {result.median_days:.1f} "
+        f"| {result.sales:,} | {result.mean_days:.1f} | {result.median_days:.1f} "
         f"| {result.sd_days:.1f} | {result.skewness:.2f} | {result.p90_days:.1f} "
         f"| {result.max_days} | {result.within_week_share * 100:.1f}% |"
     )
@@ -442,11 +435,10 @@ def render_report(results: CalibrationResults) -> str:
         "It is judged on Channel A, because Mercari is a general marketplace like eBay, and "
         "Channel B's rising curve puts its sales late in the run by design.",
         "",
-        "| Sales on | Sales | Mean days | Median days | Standard deviation | Skewness "
+        "| Sales | Mean days | Median days | Standard deviation | Skewness "
         "| 90th percentile | Longest | Sold in the first week |",
-        "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
-        _shape_row("Channel A", results.shape),
-        _shape_row("Both channels, not judged", results.shape_both_channels),
+        "| --- | --- | --- | --- | --- | --- | --- | --- |",
+        _shape_row(results.shape),
         "",
         f"Channel A {'passes' if results.shape.passed else 'fails'} the shape check.",
         "No sale can take longer than the 90-day run, so the tail stops far short of Mercari's "

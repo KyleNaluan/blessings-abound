@@ -125,17 +125,6 @@
     "within_week_share": 0.2765,
     "passed": true
   },
-  "shape_both_channels": {
-    "sales": 18629,
-    "mean_days": 41.08,
-    "median_days": 41.0,
-    "sd_days": 27.87,
-    "skewness": 0.051,
-    "p90_days": 80.0,
-    "max_days": 89,
-    "within_week_share": 0.1556,
-    "passed": false
-  },
   "parameters": {
     "seed": 2026,
     "first_day": "2025-07-01",

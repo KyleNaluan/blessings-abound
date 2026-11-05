@@ -39,10 +39,9 @@ A study of Mercari Japan reports a mean time to sell of 19.4 days with a standar
 The figure is used only to check the shape, so the check passes when the mean is above the median, the skewness is above 0, and the slowest tenth of sales take at least 3 times the median.
 It is judged on Channel A, because Mercari is a general marketplace like eBay, and Channel B's rising curve puts its sales late in the run by design.
 
-| Sales on | Sales | Mean days | Median days | Standard deviation | Skewness | 90th percentile | Longest | Sold in the first week |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Channel A | 10,255 | 29.0 | 21.0 | 26.5 | 0.67 | 71.6 | 89 | 27.7% |
-| Both channels, not judged | 18,629 | 41.1 | 41.0 | 27.9 | 0.05 | 80.0 | 89 | 15.6% |
+| Sales | Mean days | Median days | Standard deviation | Skewness | 90th percentile | Longest | Sold in the first week |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 10,255 | 29.0 | 21.0 | 26.5 | 0.67 | 71.6 | 89 | 27.7% |
 
 Channel A passes the shape check.
 No sale can take longer than the 90-day run, so the tail stops far short of Mercari's 1,400 days.

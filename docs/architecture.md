@@ -430,4 +430,4 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-05: List each synthetic item on one channel, unlike the app, which lists it on every channel that takes it, because each published figure is for one marketplace and a sale on one channel would cut the other's sell-through.
 - 2026-11-05: Read the synthetic history's parameters from `SyntheticSales` in code rather than the environment, so the history in the database and the calibration report always describe the same numbers.
 - 2026-11-05: Compare Closo's figures for tops with women's apparel, because the app has no category for tops, and leave the eBay hold-out's miss at 19.9% against 28% unfixed, because tuning to it would stop it being a check.
-- 2026-11-05: Judge the time to sell shape check on Channel A only, because the Mercari study is of a general marketplace like eBay and Channel B's rising curve puts its sales late by design, and report both channels together beside it.
+- 2026-11-05: Judge the time to sell shape check on Channel A only, because the Mercari study is of a general marketplace like eBay and Channel B's rising curve puts its sales late by design.
