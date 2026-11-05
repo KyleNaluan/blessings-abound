@@ -1,12 +1,12 @@
 # Contributing
 
-This is how we work together in this repo so that nobody overwrites anyone else's changes and every change gets a second look before it lands.
+This is how we work together in this repo so that nobody overwrites anyone else's changes and every change passes its checks before it lands.
 It's a small-team version of how most professional teams work.
 
 ## The main rule
 
 Nobody pushes directly to `main`.
-Every change goes through a pull request, and at least one other person reviews and approves it before it merges.
+Every change goes through a pull request, and you can merge your own pull request once its checks pass.
 
 `main` should always run.
 It's the branch we demo from, so if a merge breaks it, we revert the merge first and fix it on a branch after.
@@ -65,9 +65,10 @@ Its message names the commit or section and the rule it broke, and older commits
 Add an entry for the change to `WORKLOG.md` under your own section, newest first, with the date, the pull request number and a one-line summary.
 This keeps a log of what each person has built.
 
-### 6. Ask for a review
+### 6. Ask for a review if you want one
 
-Tag a teammate on the pull request or message them in the group chat.
+A review isn't required, but asking a teammate for one is still welcome when a change is risky or you're unsure about it.
+Tag them on the pull request or message them in the group chat.
 People are busy with their own work, so don't wait for them to notice it.
 
 ### 7. Respond to comments
@@ -76,11 +77,11 @@ Push more commits to the same branch and they show up in the pull request automa
 Reply to each comment as you address it, so the reviewer knows what to check again.
 Don't force-push over a branch someone has already reviewed.
 
-### 8. Merge when approved
+### 8. Merge when the checks pass
 
 Use **"Create a merge commit"**, not squash.
 A merge commit keeps each person's commits as they were, which keeps the history of who built what.
-Don't merge your own pull request without an approval, and don't merge one with a failing check.
+You can merge your own pull request once its checks pass, but don't merge one with a failing check.
 Checks run on a self-hosted runner, so if it is offline they wait in the queue and start when it comes back.
 
 ### 9. Delete the branch
@@ -91,7 +92,7 @@ It keeps the branch list short.
 ## Staying in sync
 
 Pull `main` at the start of each work session.
-Before asking for a review, merge the latest `main` into your branch and fix any conflicts yourself.
+Before merging, or asking for a review, merge the latest `main` into your branch and fix any conflicts yourself.
 
 ## Reviewing
 
