@@ -224,6 +224,9 @@ Two rows for one item mean a double sale.
 | `sold_at` | `timestamptz` | Required, on the channel's clock |
 | `source` | `varchar(32)` | `webhook` or `polling`, whichever reported it first |
 | `received_at` | `timestamptz` | Set by the database |
+| `cancelled_at` | `timestamptz` | Optional, set once the channel confirms it cancelled the order, which only the Needs Attention fix does |
+
+A cancelled order no longer counts toward a double sale.
 
 ### `sync_log`
 
@@ -233,7 +236,7 @@ Rows are added and never changed, except that a flag gets its resolution filled 
 | Column | Type | Rules |
 | --- | --- | --- |
 | `id` | `uuid` | Primary key |
-| `event` | `varchar(32)` | `published`, `publish_rejected`, `publish_failed`, `publish_gave_up`, `publish_skipped`, `sale_recorded`, `delisted`, `delist_failed`, `delist_gave_up`, `delist_found_sold` or `flagged` |
+| `event` | `varchar(32)` | `published`, `publish_rejected`, `publish_failed`, `publish_gave_up`, `publish_skipped`, `sale_recorded`, `delisted`, `delist_failed`, `delist_gave_up`, `delist_found_sold`, `flagged`, `order_cancelled`, `cancel_rejected`, `cancel_failed` or `cancel_gave_up` |
 | `channel` | `varchar(32)` | Optional, `channel_a` or `channel_b` |
 | `item_id` | `uuid` | Optional, foreign key to `items` |
 | `listing_id` | `uuid` | Optional, foreign key to `listings` |
@@ -253,11 +256,11 @@ Background work that is retried until it succeeds or runs out of tries, which is
 | Column | Type | Rules |
 | --- | --- | --- |
 | `id` | `uuid` | Primary key |
-| `kind` | `varchar(32)` | `publish_listing` or `end_listing` |
-| `payload` | `jsonb` | Required, `{"listing_id": "<uuid>"}` for both kinds |
+| `kind` | `varchar(32)` | `publish_listing`, `end_listing` or `cancel_order` |
+| `payload` | `jsonb` | Required, `{"listing_id": "<uuid>"}` for the first two, and for `cancel_order` also `channel_order_id`, the `flag_id` it settles and the `requested_by` profile |
 | `status` | `varchar(32)` | `pending`, `done` or `failed`, default `pending` |
 | `attempts` | `integer` | Never negative, default 0 |
-| `max_attempts` | `integer` | Required, 10 for both kinds |
+| `max_attempts` | `integer` | Required, 10 for every kind |
 | `run_after` | `timestamptz` | Required, when the job is next due, indexed with `status` |
 | `last_error` | `text` | Optional, the latest failure |
 | `created_at` | `timestamptz` | Set by the database |
@@ -265,10 +268,27 @@ Background work that is retried until it succeeds or runs out of tries, which is
 
 A runner claims a due job with `FOR UPDATE SKIP LOCKED` and moves its `run_after` 60 seconds ahead before calling the channel, so a runner that dies mid-call leaves a job that comes due again rather than one that is stuck.
 A failed try waits 5 seconds, then 10, 20 and so on up to 5 minutes, and the 10th failure marks the job `failed`.
+A channel that refuses a cancel outright marks a `cancel_order` job `failed` straight away, since trying the same cancel again won't change the answer.
+
+### `flag_explanations`
+
+The plain-language explanation and suggested fix shown with one Needs Attention flag, written once per flag.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `flag_id` | `uuid` | Primary key, foreign key to `sync_log`, so a flag has at most one |
+| `explanation` | `text` | Required, what went wrong and why it matters |
+| `suggested_fix` | `text` | Required, what to do about it |
+| `source` | `varchar(32)` | `model` or `template` |
+| `fallback_reason` | `varchar(32)` | `flagged`, `model_failed` or `not_configured`, set exactly when `source` is `template` |
+| `model_name` | `text` | Optional, the provider that answered, kept even when its text was refused |
+| `created_at` | `timestamptz` | Set by the database |
+
+A flag with no row yet shows the fixed sentences in `api/app/flag_explanations.py`, so it never waits on the model to appear.
 
 ## Needs Attention flags
 
-The Needs Attention screen (#43) reads the open flags with this query:
+The Needs Attention screen reads the open flags with this query:
 
 ```sql
 SELECT * FROM sync_log
@@ -286,7 +306,10 @@ Resolving a flag means setting `resolved_at`, `resolved_by` and `resolution` on 
 | `stale_listing` | Polling finds a listing live on a channel while Turnstone has the listing as anything but `pending` or `active`, or has the item as `sold` or `picked` | `stale_listing:<channel>:<channel listing id>` | `listing_status`, `item_status`, the channel's `price_cents`, and `taking_down`, true when sync has queued another `end_listing` job |
 | `unknown_listing` | A channel reports a sale of, or has live, a listing with no row in `listings` | `unknown_listing:<channel>:order:<order id>` or `unknown_listing:<channel>:listing:<listing id>` | `external_ref`, `price_cents`, and `sold_at` for a sale |
 
-A double sale leaves the item `sold` and both orders in `sale_events`, so a manager can see both; resolving it (for example cancelling the losing order) is left to #43.
+A double sale leaves the item `sold` and both orders in `sale_events`.
+The order the buyer paid for first, by the channels' `sold_at` and then `received_at`, keeps the item, and the one-click fix queues a `cancel_order` job for the latest one.
+Once the channel confirms, the job sets `cancelled_at`, marks that listing `ended`, logs `order_cancelled`, and resolves the flag with the profile that pressed the fix as `resolved_by`.
+Anyone can also mark any flag handled with a note, which becomes its `resolution`.
 A stale listing that sync takes down later is resolved by sync itself, with `resolved_by` empty and the resolution "Turnstone took the listing down."
 
 ## Mock channel schemas
@@ -297,7 +320,7 @@ The tables are defined in `api/mock_channel/tables.py` and created by the same A
 | Table | What it holds |
 | --- | --- |
 | `listings` | What sellers listed, with the seller's `external_ref` unique, the price above zero, and a status of `active`, `sold` or `ended` |
-| `orders` | One per purchase, `paid`, with at most one paid order per listing, and `acknowledged_at` set once the seller's app has the order |
+| `orders` | One per purchase, `paid` or `cancelled`, with at most one paid order per listing, and `acknowledged_at` set once the seller's app has the order |
 | `controls` | One row, with the `offline` switch for the demo |
 
 The migration creates each role with no login, grants it only its own schema's tables, and revokes the schema from everyone else.
