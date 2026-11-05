@@ -10,6 +10,7 @@ import {
   type FieldError,
 } from '@/components/site/form'
 import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 import {
   CONDITIONS,
@@ -53,13 +54,17 @@ const optional = (value: string) => value.trim() || null
 
 // The page holds the photos, because it shows them after intake and lets their previews go.
 export function IntakeForm({
-  focusPhotos = false,
+  focusPhotos = 0,
+  retakes = [],
   busy,
   photos,
   onPhotosChange,
   onSubmit,
 }: {
-  focusPhotos?: boolean
+  // Each new number moves focus to the photo input, and 0 leaves focus where it is.
+  focusPhotos?: number
+  // The numbers, from 1, of the photos the check asked staff to take again.
+  retakes?: number[]
   busy: boolean
   photos: Photo[]
   onPhotosChange: (photos: Photo[]) => void
@@ -81,7 +86,7 @@ export function IntakeForm({
   const photoInput = useRef<HTMLInputElement>(null)
 
   useLayoutEffect(() => {
-    if (focusPhotos) photoInput.current?.focus()
+    if (focusPhotos > 0) photoInput.current?.focus()
   }, [focusPhotos])
 
   function addPhotos(event: ChangeEvent<HTMLInputElement>) {
@@ -182,11 +187,23 @@ export function IntakeForm({
             <ul className="mb-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
               {photos.map((photo, index) => (
                 <li key={photo.url} className="flex min-w-0 flex-col gap-2">
-                  <img
-                    src={photo.url}
-                    alt={`Photo ${index + 1}`}
-                    className="aspect-square w-full border border-rule bg-surface object-contain"
-                  />
+                  <div className="relative">
+                    <img
+                      src={photo.url}
+                      alt={`Photo ${index + 1}`}
+                      className={cn(
+                        'aspect-square w-full bg-surface object-contain',
+                        retakes.includes(index + 1) ? 'border-4 border-warn' : 'border border-rule',
+                      )}
+                    />
+                    {/* On the photo rather than under it, so the Remove buttons stay in line. */}
+                    {retakes.includes(index + 1) && (
+                      <p className="absolute inset-x-0 bottom-0 bg-warn px-1.5 py-0.5 text-sm font-bold text-foreground">
+                        <span className="sr-only">Photo {index + 1}: </span>
+                        Take again
+                      </p>
+                    )}
+                  </div>
                   <Button
                     type="button"
                     variant="outline"

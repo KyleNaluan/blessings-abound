@@ -1,4 +1,11 @@
-import type { Destination, ItemCardRequest, StoreDepartment } from '@/api/appraisal'
+import type {
+  DecisionChoice,
+  Destination,
+  ItemCardRequest,
+  OverrideReason,
+  Recommendation,
+  StoreDepartment,
+} from '@/api/appraisal'
 
 // The labels staff see for the values the API takes, in the order they are offered.
 
@@ -33,6 +40,28 @@ export const DESTINATIONS = [
   ['seasonal_storage', 'Seasonal storage'],
   ['discard_or_donate', 'Discard or donate onward'],
 ] as const satisfies readonly (readonly [Destination, string])[]
+
+// Why staff go against the recommendation, in the words staff pick from.
+export const OVERRIDE_REASON_LABELS: Record<OverrideReason, string> = {
+  wrong_comps: "The listings aren't the same item",
+  better_condition: "It's in better shape than the listings",
+  sells_for_more: 'We know it sells for more',
+  worse_condition: "It's in worse shape than the listings",
+  sells_for_less: 'We know it sells for less',
+  hard_to_ship: 'Too big or heavy to ship for the price',
+  not_genuine: 'It may not be genuine',
+  other: 'Something else',
+}
+
+// True when staff are making the other call from a yes or no recommendation. A check has no side.
+export const goesAgainst = (recommendation: Recommendation, decision: DecisionChoice) =>
+  recommendation !== 'check' && recommendation !== decision
+
+// The reasons each call can give, as the API allows them, in the order they are offered.
+export const OVERRIDE_REASONS: Record<DecisionChoice, OverrideReason[]> = {
+  yes: ['wrong_comps', 'better_condition', 'sells_for_more', 'other'],
+  no: ['wrong_comps', 'worse_condition', 'sells_for_less', 'hard_to_ship', 'not_genuine', 'other'],
+}
 
 // What the page says once a no is saved, one sentence for each place an item can go.
 export const WHERE_IT_GOES: Record<Destination, string> = {

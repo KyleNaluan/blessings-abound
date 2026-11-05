@@ -1,7 +1,7 @@
 """The steps from photo to price and listing draft behind the appraisal routes.
 
-Each function marked PLACEHOLDER is left from the walking skeleton (#30), and it is the seam its
-issue replaces, so the routes and the web app stay as they are when the real step arrives.
+Each function is the seam its step's issue filled in after the walking skeleton (#30), so a step
+can change without the routes and the web app changing with it.
 """
 
 import logging
@@ -15,6 +15,7 @@ from app.ai import ChatModel
 from app.claims import ListingFacts
 from app.comp_filter import ItemFacts, filter_comps, is_hardware
 from app.comps import (
+    Comp,
     EbaySearch,
     SearchBudgetSpentError,
     SerpApiError,
@@ -24,6 +25,7 @@ from app.comps import (
 )
 from app.listing_drafts import DraftResult, write_draft
 from app.models import Category, Channel, Confidence, ItemCard, Recommendation
+from app.photo_check import measure, retake_reason
 from app.pricing import PriceRange, WorthListing, price_range, worth_listing
 from app.settings import PricingRules, get_settings
 from app.storage import Storage
@@ -31,6 +33,18 @@ from app.store_settings import pricing_rules
 from app.vision import ItemCardDraft, prepare_photo, read_item_card
 
 logger = logging.getLogger(__name__)
+
+
+class PricedComp(BaseModel):
+    """One eBay listing the price came from, shown to staff as the evidence behind it."""
+
+    title: str
+    # The asking price, before the ask-to-sale factor.
+    asking_cents: int
+    condition: str | None
+    url: str
+    # Left out of the range because its price was far from the rest.
+    outlier: bool
 
 
 class PriceResult(BaseModel):
@@ -43,15 +57,18 @@ class PriceResult(BaseModel):
     recommendation: Recommendation
     rules_config: dict[str, Any]
     explanation: str | None
+    comps: list[PricedComp] = []
 
 
 def photo_retake_reason(data: bytes) -> str | None:
     """Why staff should take the photo again, or None when it is fine to use.
 
-    The intake route calls this for every photo after the type and size checks and before saving.
+    The intake route calls this for every photo after the type and size checks and before saving,
+    and staff can keep a photo it finds fault with.
     """
-    # PLACEHOLDER: #38 replaces this with the code-only blur and brightness check.
-    return None
+    checks = get_settings().photo_checks
+    measures = measure(data, checks)
+    return None if measures is None else retake_reason(measures, checks)
 
 
 def draft_item_card(
@@ -165,7 +182,25 @@ def price_item(card: ItemCard, session: Session, search: EbaySearch | None) -> P
             rules, _search_record("priced", query, condition, lookup.queries)
         ),
         explanation=_explain(price, worth, rules),
+        comps=_evidence(lookup.comps, price),
     )
+
+
+def _evidence(comps: list[Comp], price: PriceRange) -> list[PricedComp]:
+    """The listings the range came from, cheapest first, with the trimmed ones marked."""
+    trimmed = {id(comp) for comp in price.trimmed}
+    # A free listing was never priced, as in price_range.
+    priced = sorted((comp for comp in comps if comp.price_cents > 0), key=lambda c: c.price_cents)
+    return [
+        PricedComp(
+            title=comp.title,
+            asking_cents=comp.price_cents,
+            condition=comp.condition,
+            url=comp.url,
+            outlier=id(comp) in trimmed,
+        )
+        for comp in priced
+    ]
 
 
 def _no_price(rules: PricingRules, search: dict[str, Any], explanation: str) -> PriceResult:

@@ -57,7 +57,7 @@ The hosted demo follows these steps:
 
 ## Pricing pipeline
 
-Each step is a board issue, and so far step 1 without its blur and brightness check, the item card in step 2 and steps 3 to 9 are built, and `POST /items/{id}/appraisals` runs steps 3 to 10 through `price_item` in `api/app/pipeline.py`.
+Each step is a board issue, and so far step 1, the item card in step 2 and steps 3 to 9 are built, and `POST /items/{id}/appraisals` runs steps 3 to 10 through `price_item` in `api/app/pipeline.py`.
 The item card in step 2 is read, edited and confirmed by staff, and the SerpApi lookup in step 4 is the active Buy It Now search with its 7 day cache and the drop-a-word fallback.
 Steps 5 to 9 are built as pure functions in `api/app/comp_filter.py` and `api/app/pricing.py`, with their numbers in `PricingRules` in `api/app/settings.py`.
 The worth-listing threshold, the fees and the ask-to-sale factors start from those numbers, and an appraisal reads them from the manager-only Settings page, described in [settings.md](settings.md).
@@ -70,8 +70,9 @@ The language model never produces a price, and every number comes from code over
    Those come from staff, never from the model.
    `POST /items` reads each photo's type from its own bytes, takes JPEG, PNG and WebP up to 15 MB, refuses anything else with a message that names the photo, and stores a SHA-256 hash of each one.
    A photo that matches an item whose latest triage call was a rejection gets a 409 with that item's SKU, reason and destination, and nothing is stored, so staff check the item and send it again with `allow_repeat` to take it in anyway.
+   Before that check, `photo_retake_reason` in `api/app/pipeline.py` measures each photo for blur and brightness, as [Photo check](#photo-check) describes.
+   A photo that fails gets a 409 that names each photo and what is wrong with it, and nothing is stored, so staff take it again or send it again with `keep_photos` to use it anyway.
    The item then gets its SKU, as [`sku_sequences`](database.md#sku_sequences) describes.
-   The blur and brightness check is #38, and `photo_retake_reason` in `api/app/pipeline.py` is where it goes, called once for each photo.
 2. The vision model turns the photos and staff entries into an item card with the category, brand, product, any visible text, a search query and its own confidence, and it proposes the color, material, exact model and platform for staff to confirm.
    Staff can edit the card before any search is spent, with `PATCH /items/{id}/card`, which also confirms it.
    The appraisal step refuses a card with no brand or with a model confidence below `ITEM_CARD_MIN_CONFIDENCE`, default `medium`, until staff confirm it.
@@ -95,13 +96,46 @@ The language model never produces a price, and every number comes from code over
 When the budget is spent, the search fails, no key is set or no usable comps remain, the appraisal is still saved, with no prices, confidence low, the recommendation "check" and an explanation that says which of those happened.
 
 Staff see the range, the comps as links, the confidence and the recommendation, and they make the final call, which the app saves.
-If they disagree with the recommendation they choose a reason from a dropdown and may add a note.
-A no needs a reason and a destination, which is the store floor, seasonal storage, or discard or donate onward.
+Each appraisal keeps the listings it was priced from in its `comps` column, cheapest first, with each one's title, asking price, condition, link and whether the trim left it out, so the screen shows the same evidence later that staff saw on the day.
+The screen shows 6 of them spread from the cheapest to the dearest, and staff can open the rest.
+If they disagree with the recommendation they choose a reason from a dropdown and may add a note, and "Something else" needs the note.
+A call disagrees when the recommendation is yes or no and staff choose the other, while a "check" has no side, so any call on it agrees.
+The reasons for a yes against a no are that the listings aren't the same item, that it's in better shape than the listings, that the store knows it sells for more, or something else.
+The reasons for a no against a yes are that the listings aren't the same item, that it's in worse shape than the listings, that the store knows it sells for less, that it's too big or heavy to ship for the price, that it may not be genuine, or something else.
+They are the ways the price can be wrong that staff can see and the code can't, which is the wrong comps, a condition the photos don't show, the store's own sales, shipping, and fakes.
+A no needs a reason and a destination, which is the store floor, seasonal storage, or discard or donate onward, and a no against the recommendation gives its dropdown reason, or its note for "Something else", as the triage log's reason.
 Every yes and no is written to the triage log with the person who took the item in, its store department, the date, and for a no the reason and destination.
 
 Comps come through SerpApi rather than eBay's own API, because eBay's API license does not allow using its content to suggest or model prices.
 SerpApi's free plan allows 250 searches a month and 50 an hour, so every response is cached in a `comp_searches` table, keyed by the engine, query, condition and buying format, and reused for 7 days.
 Tests read committed fixture responses and never call SerpApi.
+
+## Photo check
+
+The blur and brightness check in `api/app/photo_check.py` is plain code with Pillow and makes no model call.
+It scales each photo to 640 pixels on the long side and turns it gray.
+Sharpness is the variance of the Laplacian, which is large across a sharp edge and near zero on a smooth area, taken on the sharpest of 8 by 8 pieces of the photo, so a plain backdrop around a sharp item doesn't count against it.
+Brightness is read from the brightest and the darkest 5% of pixels, so a few glints or shadows don't decide it.
+A photo is too dark when even its brightest 5% is below 100 out of 255, washed out when even its darkest 5% is above 210, and blurry when its sharpness is below 100.
+Brightness is checked first, because a dark photo shows no edges and would also read as blurry.
+The numbers are `PhotoChecks` in `api/app/settings.py`, each with its reason.
+
+Checked on 2026-11-05 with 53 photos, which are the 48 in [evaluation.md](evaluation.md) and the 5 in [Vision model check](#vision-model-check), each measured as it is and with blur and darkness added in code.
+
+| Version of each photo | Lowest and highest sharpness | Brightest 5% | Darkest 5% | Prompted to retake |
+| --- | --- | --- | --- | --- |
+| As it is | 129 to 13,606 | 163 to 255 | 6 to 183 | 0 of 53 |
+| Blurred by 1 pixel | 25 to 589 | 158 to 255 | 6 to 183 | 14 of 53 |
+| Blurred by 1.5 pixels | 10 to 136 | 155 to 255 | 7 to 183 | 48 of 53 |
+| Blurred by 2 pixels | 6 to 55 | 153 to 255 | 7 to 183 | 53 of 53 |
+| At 35% of its light | 19 to 1,695 | 57 to 89 | 2 to 64 | 53 of 53 |
+| At 20% of its light | 8 to 639 | 32 to 51 | 1 to 36 | 53 of 53 |
+
+- The blur is a Gaussian blur with its radius measured at the 640 pixel size, and the darker versions scale every pixel's light down.
+- The sharpness line of 100 sits between the lowest sharp photo at 129 and the highest 2 pixel blur at 55, so a 1 pixel blur passes on most photos and the prompt is kept for a photo that is clearly blurry.
+- Most of the photos are studio shots with white backdrops, and the highest darkest 5% among them was 183, so a white item on white stays below the washed-out line of 210.
+- Brightening the photos 1.8, 2.5 and 3.5 times in code prompted only 4, 9 and 12 of 53, because brightening clips the light parts to white but leaves the darkest 5% below the line on most photos, so the washed-out line catches a photo that is light all over rather than one with a bright patch.
+- None of the photos is from a thrift store floor, so the lines are a starting point to check against the store's own photos.
 
 ## Vision model check
 
@@ -386,3 +420,8 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-04: Match a repeat photo only against items whose latest triage call was a rejection, so an item staff said no to and then yes to doesn't keep warning.
 - 2026-11-04: Give the walking skeleton's placeholder SKUs real ones in the migration and leave their photo hashes empty, because their photos were never fingerprinted and a made-up hash could only match by mistake.
 - 2026-11-04: Write no triage row for a manager's reject on the approval screen, because triage is the staff call on an item forwarded to Ecommerce, and that item was already accepted there.
+- 2026-11-05: Answer a photo that fails the blur and brightness check with a 409 that names each photo, and take it in only when staff send it again with `keep_photos`, the way a repeat photo works, so the retake is a prompt staff can step past but can't miss. The check runs before the repeat check, so staff answer one prompt at a time.
+- 2026-11-05: Judge sharpness on the sharpest of 8 by 8 pieces of the photo rather than the whole photo, because most item photos are an item on a plain backdrop, and the backdrop would make a sharp item read as blurry.
+- 2026-11-05: Keep the listings behind each price in a `comps` column on `appraisals`, rather than read them again from the cached search, because a cached search is reused for only 7 days, and the evidence should be the listings the price was made from rather than a search run again later.
+- 2026-11-05: Keep the disagreement reasons as fixed values checked by the API, with no check constraint in the database, because the manager approval screen writes its own words into `override_reason`. A call on a "check" never asks for one, since a check has no side to go against.
+- 2026-11-05: Show the appraisal as one screen that goes to two columns from 52rem, with the item and its card on the left and the price and the call on the right, so on a desktop staff can see the card while they read the price, and a phone shows the same parts in order.

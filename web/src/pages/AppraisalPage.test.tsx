@@ -33,6 +33,14 @@ const card = {
   staff_confirmed: false,
   needs_confirmation: false,
 }
+// Eight jacket listings from $39 to $72 and one far above them.
+const comps = [3900, 4200, 4500, 5000, 5400, 5800, 6500, 7200, 25000].map((asking, index) => ({
+  title: `Carhartt canvas jacket ${index + 1}`,
+  asking_cents: asking,
+  condition: 'Pre-Owned',
+  url: `https://www.ebay.com/itm/${index + 1}`,
+  outlier: asking === 25000,
+}))
 const appraisal = {
   id: 'appraisal-1',
   item_id: 'item-1',
@@ -40,8 +48,16 @@ const appraisal = {
   price_typical_cents: 3500,
   price_high_cents: 4800,
   net_after_fees_cents: 2834,
+  comps_count: 8,
+  confidence: 'medium',
   recommendation: 'yes',
+  rules_config: {
+    pricing: { ask_to_sale_factor: 0.645, games_ask_to_sale_factor: 0.94 },
+    search: { outcome: 'priced', queries: ['carhartt canvas jacket'] },
+  },
   explanation: 'The expected sale price is $35.00.',
+  comps,
+  created_at: '2026-11-01T15:00:00+00:00',
 }
 const savedRow = {
   id: 'decision-1',
@@ -164,7 +180,21 @@ async function takeItemIn() {
   fireEvent.click(screen.getByRole('button', { name: 'Take it in' }))
 }
 
-async function sayNo(reason = 'Too worn to sell online', destination = 'Seasonal storage') {
+// A no against the fixture's yes, so it needs a reason from the list as well as a destination.
+async function sayNo({
+  reason = 'worse_condition',
+  note = '',
+  destination = 'Seasonal storage',
+} = {}) {
+  fireEvent.click(await screen.findByRole('button', { name: "No, don't list it" }))
+  fireEvent.change(screen.getByLabelText('Why you disagree'), { target: { value: reason } })
+  if (note) fireEvent.change(screen.getByLabelText(/^Note/), { target: { value: note } })
+  fireEvent.click(screen.getByLabelText(destination))
+  fireEvent.click(screen.getByRole('button', { name: 'Save the no' }))
+}
+
+// A no that agrees with the recommendation, which says why in staff's own words.
+async function sayAgreeingNo(reason = 'Too worn to sell online', destination = 'Seasonal storage') {
   fireEvent.click(await screen.findByRole('button', { name: "No, don't list it" }))
   fireEvent.change(screen.getByLabelText("Why it isn't being listed"), {
     target: { value: reason },
@@ -172,6 +202,10 @@ async function sayNo(reason = 'Too worn to sell online', destination = 'Seasonal
   fireEvent.click(screen.getByLabelText(destination))
   fireEvent.click(screen.getByRole('button', { name: 'Save the no' }))
 }
+
+const recommending = (recommendation: string, extra: object = {}) => ({
+  'POST /items/item-1/appraisals': () => Response.json({ ...appraisal, recommendation, ...extra }),
+})
 
 const posted = (calls: Call[], path: string) =>
   calls.filter((call) => call.method === 'POST' && call.path === path)
@@ -210,7 +244,7 @@ test('takes a photo through the card and the price to a saved decision in the li
   await takeItemIn()
   await confirmTheCard()
 
-  expect(await screen.findByRole('heading', { name: 'Price range' })).toBeInTheDocument()
+  expect(await screen.findByRole('heading', { name: 'Price' })).toBeInTheDocument()
   expect(screen.getAllByText('Canvas jacket')).toHaveLength(1)
   expect(screen.getByText('The expected sale price is $35.00.')).toBeInTheDocument()
   expect(screen.getByText('$35.00')).toBeInTheDocument()
@@ -230,7 +264,9 @@ test('takes a photo through the card and the price to a saved decision in the li
   expect(await decision.request.json()).toEqual({
     appraisal_id: 'appraisal-1',
     decision: 'no',
-    rejection_reason: 'Too worn to sell online',
+    override_reason: 'worse_condition',
+    note: null,
+    rejection_reason: "It's in worse shape than the listings",
     destination: 'seasonal_storage',
   })
 })
@@ -275,7 +311,7 @@ test('a failed step shows the error and retrying does not upload again', async (
   failing = false
   fireEvent.click(screen.getByRole('button', { name: 'Try again' }))
 
-  expect(await screen.findByRole('heading', { name: 'Price range' })).toBeInTheDocument()
+  expect(await screen.findByRole('heading', { name: 'Price' })).toBeInTheDocument()
   expect(calls.filter((call) => call.path === '/items')).toHaveLength(1)
   expect(
     calls.filter((call) => call.path.endsWith('/card') && call.method === 'POST'),
@@ -328,7 +364,7 @@ test('sends what staff changed and shows the confirmed card', async () => {
   })
   await confirmTheCard()
 
-  await screen.findByRole('heading', { name: 'Price range' })
+  await screen.findByRole('heading', { name: 'Price' })
   const patch = calls.find((call) => call.method === 'PATCH')
   expect(await patch?.request.json()).toMatchObject({
     brand: 'Dickies',
@@ -378,7 +414,7 @@ test('a failed confirm keeps what staff typed', async () => {
   fireEvent.click(screen.getByRole('button', { name: 'Try again' }))
   await confirmTheCard()
 
-  expect(await screen.findByRole('heading', { name: 'Price range' })).toBeInTheDocument()
+  expect(await screen.findByRole('heading', { name: 'Price' })).toBeInTheDocument()
 })
 
 test('an unreachable API says so', async () => {
@@ -480,6 +516,7 @@ test('intake sends the photos and notes, then the clothing entries for the card'
     ['photos', 'a file'],
     ['store_department', 'clothing'],
     ['notes', 'Missing one button'],
+    ['keep_photos', 'false'],
     ['allow_repeat', 'false'],
   ])
   const [cardCall] = posted(calls, '/items/item-1/card')
@@ -639,7 +676,7 @@ test('staff can stop when a photo is flagged', async () => {
 })
 
 test('a no needs a reason and where the item goes, and Back returns to the choice', async () => {
-  const calls = stubApi()
+  const calls = stubApi(recommending('no'))
   renderPage()
   await takeItemIn()
   await confirmTheCard()
@@ -661,6 +698,7 @@ test('a no needs a reason and where the item goes, and Back returns to the choic
 test('a no that fails to save keeps the reason staff typed', async () => {
   let failing = true
   const calls = stubApi({
+    ...recommending('no'),
     'POST /items/item-1/decisions': () =>
       failing
         ? Response.json({ detail: 'Could not save.' }, { status: 500 })
@@ -669,7 +707,7 @@ test('a no that fails to save keeps the reason staff typed', async () => {
   renderPage()
   await takeItemIn()
   await confirmTheCard()
-  await sayNo('Stained', 'Discard or donate onward')
+  await sayAgreeingNo('Stained', 'Discard or donate onward')
 
   expect(await screen.findByRole('alert')).toHaveTextContent('Could not save.')
   expect(screen.getByLabelText("Why it isn't being listed")).toHaveValue('Stained')
@@ -685,4 +723,331 @@ test('a no that fails to save keeps the reason staff typed', async () => {
     rejection_reason: 'Stained',
     destination: 'discard_or_donate',
   })
+})
+
+test('the price shows its range, the verdict and the listings it came from', async () => {
+  stubApi()
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+
+  const price = await screen.findByRole('region', { name: 'Price' })
+  expect(within(price).getByText('Low').nextSibling).toHaveTextContent('$25.00')
+  expect(within(price).getByText('Typical').nextSibling).toHaveTextContent('$35.00')
+  expect(within(price).getByText('High').nextSibling).toHaveTextContent('$48.00')
+  expect(price).toHaveTextContent('Left after eBay fees and supplies$28.34')
+  expect(price).toHaveTextContent('Worth listing, medium confidence')
+  expect(price).toHaveTextContent('Searched eBay for "carhartt canvas jacket".')
+  expect(price).toHaveTextContent('times 0.645')
+  expect(price).toHaveTextContent('1 listing was left out for being far from the rest.')
+
+  // Six listings spread from the cheapest to the dearest of those the price used.
+  const table = within(price).getByRole('table')
+  expect(table).toHaveTextContent('6 of 9 similar eBay listings, cheapest to dearest')
+  const links = within(table).getAllByRole('link')
+  expect(links).toHaveLength(6)
+  expect(links[0]).toHaveTextContent('Carhartt canvas jacket 1')
+  expect(links[0]).toHaveAttribute('href', 'https://www.ebay.com/itm/1')
+  expect(links[5]).toHaveTextContent('Carhartt canvas jacket 8')
+  expect(table).not.toHaveTextContent('$250.00')
+
+  fireEvent.click(within(price).getByRole('button', { name: 'Show all 9 listings' }))
+  expect(within(table).getAllByRole('link')).toHaveLength(9)
+  const outlier = within(table).getByRole('link', { name: 'Carhartt canvas jacket 9' })
+  expect(outlier.closest('tr')).toHaveTextContent('Left out, far from the other prices$250.00')
+  expect(within(price).getByRole('button', { name: 'Show fewer listings' })).toHaveAttribute(
+    'aria-expanded',
+    'true',
+  )
+})
+
+test('an appraisal with no price says why and shows no listings', async () => {
+  stubApi(
+    recommending('check', {
+      price_low_cents: null,
+      price_typical_cents: null,
+      price_high_cents: null,
+      net_after_fees_cents: null,
+      comps_count: 0,
+      confidence: 'low',
+      comps: [],
+      explanation: 'The eBay search failed just now, so this item has no price.',
+    }),
+  )
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+
+  const price = await screen.findByRole('region', { name: 'Price' })
+  expect(price).toHaveTextContent('No price')
+  expect(price).toHaveTextContent('The eBay search failed just now')
+  expect(within(price).queryByText('Typical')).not.toBeInTheDocument()
+  expect(within(price).queryByRole('table')).not.toBeInTheDocument()
+  // A check has no side to go against, so a no only needs staff's own words.
+  fireEvent.click(screen.getByRole('button', { name: "No, don't list it" }))
+  expect(screen.queryByLabelText('Why you disagree')).not.toBeInTheDocument()
+  expect(screen.getByLabelText("Why it isn't being listed")).toBeInTheDocument()
+})
+
+test('a no against the recommendation needs a reason from the list', async () => {
+  const calls = stubApi()
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+  fireEvent.click(await screen.findByRole('button', { name: "No, don't list it" }))
+
+  const reasons = screen.getByLabelText('Why you disagree')
+  expect(
+    within(reasons)
+      .getAllByRole('option')
+      .map((option) => option.textContent),
+  ).toEqual([
+    'Choose a reason',
+    "The listings aren't the same item",
+    "It's in worse shape than the listings",
+    'We know it sells for less',
+    'Too big or heavy to ship for the price',
+    'It may not be genuine',
+    'Something else',
+  ])
+  expect(screen.queryByLabelText("Why it isn't being listed")).not.toBeInTheDocument()
+  fireEvent.click(screen.getByLabelText('Seasonal storage'))
+  fireEvent.click(screen.getByRole('button', { name: 'Save the no' }))
+  expect(screen.getByText('Choose why you disagree.')).toBeInTheDocument()
+
+  // Something else needs a note to say what it is.
+  fireEvent.change(reasons, { target: { value: 'other' } })
+  fireEvent.click(screen.getByRole('button', { name: 'Save the no' }))
+  expect(screen.getByText('Add a note to say what the reason is.')).toBeInTheDocument()
+  expect(posted(calls, '/items/item-1/decisions')).toHaveLength(0)
+
+  fireEvent.change(screen.getByLabelText('Note'), { target: { value: 'Smells of smoke' } })
+  fireEvent.click(screen.getByRole('button', { name: 'Save the no' }))
+  expect(await screen.findByRole('status')).toHaveTextContent(
+    'Saved your decision: no. It goes to seasonal storage.',
+  )
+  const [decision] = posted(calls, '/items/item-1/decisions')
+  expect(await decision.request.json()).toMatchObject({
+    decision: 'no',
+    override_reason: 'other',
+    note: 'Smells of smoke',
+    rejection_reason: 'Smells of smoke',
+    destination: 'seasonal_storage',
+  })
+})
+
+test('a no against the recommendation can carry a note', async () => {
+  const calls = stubApi()
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+  await sayNo({ reason: 'hard_to_ship', note: 'Weighs about 30 lb' })
+
+  await screen.findByRole('status')
+  const [decision] = posted(calls, '/items/item-1/decisions')
+  expect(await decision.request.json()).toMatchObject({
+    override_reason: 'hard_to_ship',
+    note: 'Weighs about 30 lb',
+    rejection_reason: 'Too big or heavy to ship for the price',
+  })
+})
+
+test('a yes against a no asks why, then goes on to the channels', async () => {
+  const calls = stubApi(recommending('no'))
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+  fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
+
+  expect(posted(calls, '/items/item-1/decisions')).toHaveLength(0)
+  expect(screen.getByRole('heading', { name: 'Listing it' })).toBeInTheDocument()
+  expect(screen.queryByText('Where it goes instead')).not.toBeInTheDocument()
+  const reasons = screen.getByLabelText('Why you disagree')
+  expect(
+    within(reasons)
+      .getAllByRole('option')
+      .map((option) => option.textContent),
+  ).toEqual([
+    'Choose a reason',
+    "The listings aren't the same item",
+    "It's in better shape than the listings",
+    'We know it sells for more',
+    'Something else',
+  ])
+  fireEvent.change(reasons, { target: { value: 'sells_for_more' } })
+  fireEvent.click(screen.getByRole('button', { name: 'Save the yes' }))
+
+  expect(await screen.findByRole('status')).toHaveTextContent('Saved your decision: yes.')
+  expect(
+    await screen.findByRole('heading', { name: 'Where and when to list it' }),
+  ).toBeInTheDocument()
+  const [decision] = posted(calls, '/items/item-1/decisions')
+  expect(await decision.request.json()).toEqual({
+    appraisal_id: 'appraisal-1',
+    decision: 'yes',
+    override_reason: 'sells_for_more',
+    note: null,
+  })
+})
+
+test('a yes that agrees saves at once with no reason', async () => {
+  const calls = stubApi()
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+  fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
+
+  expect(await screen.findByRole('status')).toHaveTextContent('Saved your decision: yes.')
+  const [decision] = posted(calls, '/items/item-1/decisions')
+  expect(await decision.request.json()).toEqual({ appraisal_id: 'appraisal-1', decision: 'yes' })
+})
+
+test('the card can be edited after the price, which prices it again', async () => {
+  const calls = stubApi()
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+  fireEvent.click(await screen.findByRole('button', { name: 'Edit the card' }))
+
+  expect(screen.getByRole('button', { name: 'Yes, list it' })).toBeDisabled()
+  fireEvent.change(screen.getByLabelText('Search'), {
+    target: { value: 'carhartt detroit jacket' },
+  })
+  fireEvent.change(screen.getByLabelText('Condition'), { target: { value: 'new_without_tags' } })
+  fireEvent.click(screen.getByRole('button', { name: 'Confirm and get the price' }))
+
+  expect(await screen.findByRole('button', { name: 'Edit the card' })).toBeInTheDocument()
+  const card = screen.getByRole('region', { name: 'Item card' })
+  expect(card).toHaveTextContent('carhartt detroit jacket')
+  expect(card).toHaveTextContent('New without tags')
+  expect(posted(calls, '/items/item-1/appraisals')).toHaveLength(2)
+  const edits = calls.filter((call) => call.method === 'PATCH')
+  expect(await edits[1].request.json()).toMatchObject({
+    search_query: 'carhartt detroit jacket',
+    condition: 'new_without_tags',
+  })
+})
+
+test('editing the card can be cancelled, keeping the price', async () => {
+  const calls = stubApi()
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+  fireEvent.click(await screen.findByRole('button', { name: 'Edit the card' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Cancel' }))
+
+  expect(screen.getByRole('button', { name: 'Yes, list it' })).toBeEnabled()
+  expect(screen.getByRole('region', { name: 'Price' })).toBeInTheDocument()
+  expect(posted(calls, '/items/item-1/appraisals')).toHaveLength(1)
+})
+
+const retake = (...numbers: number[]) => ({
+  detail: {
+    kind: 'retake',
+    message: 'A photo may be hard to price from.',
+    photos: numbers.map((number) => ({
+      number,
+      reason: "It's too dark to see the item well. Take it again with more light.",
+    })),
+  },
+})
+
+test('a photo to retake is a prompt, and staff can use it anyway', async () => {
+  const calls = stubApi({
+    'POST /items': () =>
+      posted(calls, '/items').length === 1
+        ? Response.json(retake(2), { status: 409 })
+        : Response.json(item, { status: 201 }),
+  })
+  renderPage()
+  await addPhotos(jpeg('front.jpg'), jpeg('back.jpg'))
+  fireEvent.click(screen.getByLabelText('Clothing and shoes'))
+  fireEvent.click(screen.getByLabelText('Pre-owned'))
+  fireEvent.click(screen.getByRole('button', { name: 'Take it in' }))
+
+  const prompt = await screen.findByRole('alert')
+  expect(prompt).toHaveTextContent('Take this photo again?')
+  expect(prompt).toHaveTextContent(
+    "Photo 2: It's too dark to see the item well. Take it again with more light.",
+  )
+  expect(prompt).toHaveFocus()
+  expect(
+    screen.getByText(
+      (_, node) => node?.tagName === 'P' && node.textContent === 'Photo 2: Take again',
+    ),
+  ).toBeInTheDocument()
+  expect(
+    screen.queryByText(
+      (_, node) => node?.tagName === 'P' && node.textContent === 'Photo 1: Take again',
+    ),
+  ).not.toBeInTheDocument()
+  expect(posted(calls, '/items/item-1/card')).toHaveLength(0)
+
+  fireEvent.click(screen.getByRole('button', { name: 'Use it anyway' }))
+
+  expect(await screen.findByRole('heading', { name: 'Item card' })).toBeInTheDocument()
+  const [, again] = posted(calls, '/items')
+  expect(await formFields(again.request)).toContainEqual(['keep_photos', 'true'])
+  expect(await formFields(again.request)).toContainEqual(['allow_repeat', 'false'])
+})
+
+test('taking a photo again removes it and goes back to the photos', async () => {
+  const calls = stubApi({
+    'POST /items': () =>
+      posted(calls, '/items').length === 1
+        ? Response.json(retake(1, 2), { status: 409 })
+        : Response.json(item, { status: 201 }),
+  })
+  renderPage()
+  await addPhotos(jpeg('front.jpg'), jpeg('back.jpg'), jpeg('tag.jpg'))
+  fireEvent.click(screen.getByLabelText('Clothing and shoes'))
+  fireEvent.click(screen.getByLabelText('Pre-owned'))
+  fireEvent.click(screen.getByRole('button', { name: 'Take it in' }))
+
+  expect(await screen.findByRole('alert')).toHaveTextContent('Take these photos again?')
+  fireEvent.click(screen.getByRole('button', { name: 'Take them again' }))
+
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+  expect(screen.getAllByRole('img')).toHaveLength(1)
+  expect(screen.getByLabelText('Add another photo')).toHaveFocus()
+  // The rest of the form stays as staff filled it in.
+  expect(screen.getByLabelText('Pre-owned')).toBeChecked()
+
+  await addPhotos(jpeg('front-again.jpg'))
+  fireEvent.click(screen.getByRole('button', { name: 'Take it in' }))
+  expect(await screen.findByRole('heading', { name: 'Item card' })).toBeInTheDocument()
+  const [, again] = posted(calls, '/items')
+  expect(await formFields(again.request)).toContainEqual(['keep_photos', 'false'])
+  expect((await formFields(again.request)).filter(([name]) => name === 'photos')).toHaveLength(2)
+})
+
+test('a photo kept after the prompt still gets the repeat photo check', async () => {
+  const calls = stubApi({
+    'POST /items': () => {
+      const count = posted(calls, '/items').length
+      if (count === 1) return Response.json(retake(1), { status: 409 })
+      if (count === 2) return Response.json(repeat, { status: 409 })
+      return Response.json(item, { status: 201 })
+    },
+  })
+  renderPage()
+  await takeItemIn()
+  fireEvent.click(await screen.findByRole('button', { name: 'Use it anyway' }))
+  expect(await screen.findByRole('alert')).toHaveTextContent('This may have been rejected before')
+  fireEvent.click(screen.getByRole('button', { name: 'Take it in anyway' }))
+
+  expect(await screen.findByRole('heading', { name: 'Item card' })).toBeInTheDocument()
+  const [, , last] = posted(calls, '/items')
+  expect(await formFields(last.request)).toContainEqual(['keep_photos', 'true'])
+  expect(await formFields(last.request)).toContainEqual(['allow_repeat', 'true'])
+})
+
+test('changing the photos while the prompt shows clears it', async () => {
+  stubApi({ 'POST /items': () => Response.json(retake(1), { status: 409 }) })
+  renderPage()
+  await takeItemIn()
+  expect(await screen.findByRole('alert')).toHaveTextContent('Take this photo again?')
+
+  fireEvent.click(screen.getByRole('button', { name: 'Remove photo 1' }))
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
 })

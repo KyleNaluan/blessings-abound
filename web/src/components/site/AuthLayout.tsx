@@ -4,13 +4,22 @@ import { SiteFooter } from './SiteFooter'
 import { SiteHeader, SkipLink } from './SiteHeader'
 
 // The frame for sign-in and account pages: the brand bar, one narrow column, and the footer kept at the bottom.
-export function AuthLayout({ end, children }: { end?: ReactNode; children: ReactNode }) {
+// A wide page uses the full width and narrows its own parts, as the appraisal screen does beside the price.
+export function AuthLayout({
+  end,
+  wide = false,
+  children,
+}: {
+  end?: ReactNode
+  wide?: boolean
+  children: ReactNode
+}) {
   return (
     <div className="flex min-h-svh flex-col">
       <SkipLink />
       <SiteHeader end={end} />
       <main id="main" className="page-wrap flex-1 pt-10 pb-12">
-        <div className="max-w-[30rem]">{children}</div>
+        <div className={wide ? undefined : 'max-w-[30rem]'}>{children}</div>
       </main>
       <SiteFooter />
     </div>

@@ -18,7 +18,7 @@ from PIL import Image
 from sqlalchemy import Connection
 from sqlmodel import Session, col, select
 
-from app import appraisal
+from app import appraisal, photo_check
 from app.db import get_engine
 from app.intake import MAX_PHOTO_BYTES, get_now, initials, next_sku, store_date
 from app.main import app
@@ -36,6 +36,7 @@ from tests.test_appraisal import (  # noqa: F401, the fixtures these tests build
     decide,
     jpeg,
     post_item,
+    sharp_photo,
     storage,
     upload,
 )
@@ -62,7 +63,7 @@ def at(moment: datetime) -> None:
 
 def image(kind: str) -> bytes:
     output = io.BytesIO()
-    Image.new("RGB", (20, 10), "brown").save(output, format=kind)
+    sharp_photo().save(output, format=kind)
     return output.getvalue()
 
 
@@ -244,13 +245,52 @@ def test_a_photo_at_the_size_limit_passes_the_size_check(staff: TestClient) -> N
     assert post_item(staff, padded).status_code == 201
 
 
-def test_a_photo_to_retake_is_refused_with_the_reason(
-    staff: TestClient, monkeypatch: pytest.MonkeyPatch
+def dark_jpeg() -> bytes:
+    output = io.BytesIO()
+    Image.eval(sharp_photo(), lambda value: value // 8).save(output, format="JPEG")
+    return output.getvalue()
+
+
+def test_a_photo_to_retake_is_a_prompt_and_nothing_is_kept(
+    staff: TestClient, session: Session, photo_storage: LocalStorage
 ) -> None:
-    monkeypatch.setattr(appraisal, "photo_retake_reason", lambda data: "It's too blurry.")
-    response = post_item(staff, jpeg())
-    assert response.status_code == 422
-    assert response.json()["detail"] == "Photo 1: It's too blurry."
+    response = post_item(staff, jpeg(), dark_jpeg())
+    assert response.status_code == 409
+    assert response.json()["detail"] == {
+        "kind": "retake",
+        "message": "A photo may be hard to price from.",
+        "photos": [{"number": 2, "reason": photo_check.TOO_DARK}],
+    }
+    assert session.exec(select(Item)).all() == []
+    assert not photo_storage.root.exists() or not any(photo_storage.root.iterdir())
+
+
+def test_each_photo_to_retake_is_named(staff: TestClient, monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr(appraisal, "photo_retake_reason", lambda data: "It's blurry.")
+    response = post_item(staff, jpeg(), jpeg(), jpeg())
+    detail = response.json()["detail"]
+    assert detail["message"] == "Some photos may be hard to price from."
+    assert [photo["number"] for photo in detail["photos"]] == [1, 2, 3]
+
+
+def test_staff_can_keep_a_photo_the_check_finds_fault_with(
+    staff: TestClient, session: Session
+) -> None:
+    response = post_item(staff, dark_jpeg(), keep_photos=True)
+    assert response.status_code == 201, response.text
+    assert len(session.get_one(Item, UUID(response.json()["id"])).photo_keys) == 1
+
+
+def test_the_retake_prompt_comes_before_the_repeat_photo_flag(staff: TestClient) -> None:
+    photo = dark_jpeg()
+    rejected_id = upload(staff, photo, keep_photos=True)["id"]
+    add_card(staff, rejected_id)
+    assert decide(staff, rejected_id, appraise(staff, rejected_id)["id"], "no").status_code == 201
+    assert post_item(staff, photo).json()["detail"]["kind"] == "retake"
+    repeat = post_item(staff, photo, keep_photos=True)
+    assert repeat.status_code == 409
+    assert repeat.json()["detail"]["kind"] == "repeat_photo"
+    assert post_item(staff, photo, keep_photos=True, allow_repeat=True).status_code == 201
 
 
 def test_a_photo_of_a_rejected_item_is_flagged_and_nothing_is_kept(
