@@ -96,6 +96,29 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/items/{item_id}/channels': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * Get Channel Recommendation
+     * @description Which channels can take the item and whether to list it now, for staff to choose from.
+     *
+     *     The timing reads the seasonal calendar as it is now, so a change on the Settings page shows
+     *     on the next read.
+     */
+    get: operations['get_channel_recommendation']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/items/{item_id}/drafts': {
     parameters: {
       query?: never
@@ -108,9 +131,11 @@ export interface paths {
     put?: never
     /**
      * Create Listing Drafts
-     * @description Draft the listing for each channel that has none yet, and return all of the item's drafts.
+     * @description Draft the listing for each channel staff chose, and return all of the item's drafts.
      *
-     *     A channel that already has a draft keeps it, so the screen can retry a lost response.
+     *     Drafting also holds the item until its season when the timing hint says so, by setting its
+     *     release month, which the approval step reads. An item that already has drafts keeps them and
+     *     its release month, whatever the request names, so the screen can retry a lost response.
      */
     post: operations['create_listing_drafts']
     delete?: never
@@ -995,6 +1020,24 @@ export interface components {
       /** Expected Updated At */
       expected_updated_at: string | null
     }
+    /** ChannelOption */
+    ChannelOption: {
+      channel: components['schemas']['Channel']
+      /** Takes */
+      takes: boolean
+      /** Why Not */
+      why_not: string | null
+    }
+    /** ChannelRecommendation */
+    ChannelRecommendation: {
+      /** Channels */
+      channels: components['schemas']['ChannelOption'][]
+      timing: components['schemas']['TimingHint']
+      /** Reason */
+      reason: string
+      reason_source: components['schemas']['DraftSource']
+      reason_fallback: components['schemas']['FallbackReason'] | null
+    }
     /** ChoosePasswordRequest */
     ChoosePasswordRequest: {
       /** Password */
@@ -1101,11 +1144,11 @@ export interface components {
       cancel: components['schemas']['OrderRead']
       cancelling: components['schemas']['CancelRead'] | null
     }
-    /**
-     * DraftRequest
-     * @description The request body for drafting, which carries no options yet.
-     */
-    DraftRequest: Record<string, never>
+    /** DraftRequest */
+    DraftRequest: {
+      /** Channels */
+      channels: components['schemas']['Channel'][]
+    }
     /**
      * DraftSource
      * @enum {string}
@@ -1763,6 +1806,15 @@ export interface components {
       /** Location Code */
       location_code?: string | null
     }
+    /** TimingHint */
+    TimingHint: {
+      /** Season */
+      season: string | null
+      /** Season Span */
+      season_span: string | null
+      /** Release Month */
+      release_month: string | null
+    }
     /** ValidationError */
     ValidationError: {
       /** Location */
@@ -1991,6 +2043,37 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['RecentDecision'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  get_channel_recommendation: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ChannelRecommendation']
         }
       }
       /** @description Validation Error */

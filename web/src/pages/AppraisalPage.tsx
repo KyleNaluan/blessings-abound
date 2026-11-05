@@ -17,6 +17,7 @@ import {
   saveDecision,
   uploadPhoto,
   type Appraisal,
+  type Channel,
   type DecisionChoice,
   type Item,
   type ItemCard,
@@ -29,6 +30,7 @@ import { SignOutButton } from '@/components/site/SignOutButton'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 
+import { ChannelChoice } from './ChannelChoice'
 import { ListingDrafts } from './ListingDrafts'
 
 const money = (cents: number | null | undefined) =>
@@ -162,6 +164,7 @@ export function AppraisalPage() {
   const [preview, setPreview] = useState<string | null>(null)
   const [recent, setRecent] = useState<RecentDecision[] | null>(null)
   const [recentError, setRecentError] = useState<string | null>(null)
+  const [channels, setChannels] = useState<Channel[] | null>(null)
   const [listingSent, setListingSent] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -259,6 +262,7 @@ export function AppraisalPage() {
     setProgress(null)
     setPreview(null)
     setStatus({ step: 'idle' })
+    setChannels(null)
     setListingSent(false)
     if (inputRef.current) inputRef.current.value = ''
   }
@@ -387,7 +391,14 @@ export function AppraisalPage() {
             Saved your decision: {status.decision}.
           </p>
           {status.decision === 'yes' && progress?.item && (
-            <ListingDrafts itemId={progress.item.id} onSent={() => setListingSent(true)} />
+            <ChannelChoice itemId={progress.item.id} onChoose={setChannels} />
+          )}
+          {status.decision === 'yes' && progress?.item && channels && (
+            <ListingDrafts
+              itemId={progress.item.id}
+              channels={channels}
+              onSent={() => setListingSent(true)}
+            />
           )}
           <Button
             size="lg"

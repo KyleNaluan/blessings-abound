@@ -1,5 +1,6 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 
+import type { Channel } from '@/api/appraisal'
 import { fake, fakeSession } from '@/test/fakeSupabase'
 
 import { ListingDrafts } from './ListingDrafts'
@@ -75,6 +76,8 @@ function stubApi(overrides: Record<string, (request: Request) => Promise<Respons
   return calls
 }
 
+const BOTH = ['channel_a', 'channel_b'] as const satisfies Channel[]
+
 const sendButton = () => screen.getByRole('button', { name: 'Send for manager approval' })
 
 const onSent = vi.fn()
@@ -88,9 +91,18 @@ afterEach(() => {
   vi.unstubAllGlobals()
 })
 
+test('drafts the channels staff chose', async () => {
+  const calls = stubApi({ 'POST /items/item-1/drafts': async () => Response.json([draftB]) })
+  render(<ListingDrafts itemId="item-1" channels={['channel_b']} onSent={onSent} />)
+
+  expect(await screen.findByRole('heading', { name: 'Channel B' })).toBeInTheDocument()
+  expect(screen.queryByRole('heading', { name: 'Channel A' })).not.toBeInTheDocument()
+  expect(await calls[0].request.json()).toEqual({ channels: ['channel_b'] })
+})
+
 test('shows a draft per channel and says where each came from', async () => {
   stubApi()
-  render(<ListingDrafts itemId="item-1" onSent={onSent} />)
+  render(<ListingDrafts itemId="item-1" channels={BOTH} onSent={onSent} />)
   expect(screen.getByText('Writing the listing...')).toBeInTheDocument()
 
   expect(await screen.findByRole('heading', { name: 'Channel A' })).toBeInTheDocument()
@@ -104,7 +116,7 @@ test('shows a draft per channel and says where each came from', async () => {
 
 test('a saved edit shows the checker flags and blocks sending until fixed', async () => {
   const calls = stubApi()
-  render(<ListingDrafts itemId="item-1" onSent={onSent} />)
+  render(<ListingDrafts itemId="item-1" channels={BOTH} onSent={onSent} />)
   const [title] = await screen.findAllByLabelText('Title')
 
   fireEvent.change(title, { target: { value: 'Rare Carhartt jacket' } })
@@ -132,7 +144,7 @@ test('a saved edit shows the checker flags and blocks sending until fixed', asyn
 
 test('an empty title is not saved', async () => {
   const calls = stubApi()
-  render(<ListingDrafts itemId="item-1" onSent={onSent} />)
+  render(<ListingDrafts itemId="item-1" channels={BOTH} onSent={onSent} />)
   const [title] = await screen.findAllByLabelText('Title')
   fireEvent.change(title, { target: { value: '  ' } })
   fireEvent.click(screen.getByRole('button', { name: 'Save and check' }))
@@ -146,7 +158,7 @@ test('a failed save keeps what staff typed', async () => {
     'PATCH /items/item-1/drafts/channel_a': async () =>
       Response.json({ detail: 'Could not save the draft.' }, { status: 500 }),
   })
-  render(<ListingDrafts itemId="item-1" onSent={onSent} />)
+  render(<ListingDrafts itemId="item-1" channels={BOTH} onSent={onSent} />)
   const [title] = await screen.findAllByLabelText('Title')
   fireEvent.change(title, { target: { value: 'Carhartt jacket' } })
   fireEvent.click(screen.getByRole('button', { name: 'Save and check' }))
@@ -157,7 +169,7 @@ test('a failed save keeps what staff typed', async () => {
 
 test('sending locks the drafts', async () => {
   stubApi()
-  render(<ListingDrafts itemId="item-1" onSent={onSent} />)
+  render(<ListingDrafts itemId="item-1" channels={BOTH} onSent={onSent} />)
   await screen.findByRole('heading', { name: 'Channel A' })
   fireEvent.click(sendButton())
 
@@ -173,7 +185,7 @@ test('a refused send says why and keeps the drafts open', async () => {
     'POST /items/item-1/drafts/submit': async () =>
       Response.json({ detail: 'Fix the flagged claims on Channel B first.' }, { status: 409 }),
   })
-  render(<ListingDrafts itemId="item-1" onSent={onSent} />)
+  render(<ListingDrafts itemId="item-1" channels={BOTH} onSent={onSent} />)
   await screen.findByRole('heading', { name: 'Channel A' })
   fireEvent.click(sendButton())
 
@@ -192,7 +204,7 @@ test('a failed draft can be tried again', async () => {
         ? Response.json({ detail: 'Decide to list this item first.' }, { status: 409 })
         : Response.json([draftA]),
   })
-  render(<ListingDrafts itemId="item-1" onSent={onSent} />)
+  render(<ListingDrafts itemId="item-1" channels={BOTH} onSent={onSent} />)
 
   expect(await screen.findByRole('alert')).toHaveTextContent('Decide to list this item first.')
   failing = false

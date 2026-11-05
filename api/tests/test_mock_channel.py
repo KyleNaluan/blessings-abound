@@ -11,7 +11,7 @@ import httpx2
 import pytest
 from sqlalchemy import Connection
 
-from app.listing_drafts import CHANNEL_CATEGORIES
+from app.listing_drafts import CHANNEL_CATEGORIES, CHANNEL_REQUIRED
 from app.models import Channel
 from mock_channel import channel_a, channel_b, service
 from mock_channel.service import ChannelSettings
@@ -118,6 +118,11 @@ def test_each_channel_has_the_categories_the_drafts_choose_from(channel: Channel
     }
 
     assert set(SPECS[channel].categories) == drafted
+
+
+@pytest.mark.parametrize("channel", [A, B])
+def test_each_channel_needs_the_fields_the_recommendation_checks(channel: Channel) -> None:
+    assert SPECS[channel].required == CHANNEL_REQUIRED.get(channel, ())
 
 
 def test_the_seller_api_needs_the_channel_key(market: Market) -> None:

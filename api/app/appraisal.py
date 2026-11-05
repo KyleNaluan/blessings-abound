@@ -1,7 +1,7 @@
 """The staff path from a photo to a saved decision, one route per step."""
 
 import logging
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from functools import lru_cache
 from typing import Annotated, Any, Self
 from uuid import UUID, uuid4
@@ -13,6 +13,7 @@ from pydantic import (
     BaseModel,
     BeforeValidator,
     ConfigDict,
+    Field,
     StringConstraints,
     computed_field,
     model_validator,
@@ -21,6 +22,7 @@ from sqlmodel import Session, col, select
 
 from app.ai import AINotConfiguredError, ChatModel, get_chat_model, get_fallback_chat_model
 from app.auth import CurrentProfile
+from app.channel_timing import ChannelRecommendation, advise, get_today, recommend
 from app.claims import ClaimFlag, ListingFacts, check_listing
 from app.comps import EbaySearch, serpapi_ebay_search
 from app.db import get_session
@@ -54,7 +56,6 @@ from app.models import (
 from app.pipeline import (
     draft_item_card,
     draft_listing,
-    listing_channels,
     needs_confirmation,
     placeholder_photo_hash,
     placeholder_sku,
@@ -62,6 +63,7 @@ from app.pipeline import (
 )
 from app.settings import get_settings
 from app.storage import Storage, get_storage
+from app.store_settings import read_store_settings
 from app.vision import ItemCardError, UnreadablePhotoError
 
 logger = logging.getLogger(__name__)
@@ -93,6 +95,11 @@ def get_vision_providers() -> list[ChatModel]:
 
 def get_draft_providers() -> list[ChatModel]:
     """The same providers as the item card, which write the listing drafts."""
+    return get_vision_providers()
+
+
+def get_reason_providers() -> list[ChatModel]:
+    """The same providers again, which word the reason for the channel recommendation."""
     return get_vision_providers()
 
 
@@ -249,9 +256,10 @@ class RecentDecision(BaseModel):
 
 
 class DraftRequest(BaseModel):
-    """The request body for drafting, which carries no options yet."""
-
     model_config = ConfigDict(extra="forbid")
+
+    # The channels staff chose from the recommendation, each of which has to take the item.
+    channels: Annotated[list[Channel], Field(min_length=1)]
 
 
 class ListingDraftRead(BaseModel):
@@ -570,6 +578,28 @@ def _draft_read(draft: ListingDraft, card: ItemCard) -> ListingDraftRead:
     )
 
 
+@router.get("/items/{item_id}/channels", operation_id="get_channel_recommendation")
+def get_channel_recommendation(
+    item_id: UUID,
+    profile: CurrentProfile,
+    session: SessionDep,
+    providers: Annotated[list[ChatModel], Depends(get_reason_providers)],
+    today: Annotated[date, Depends(get_today)],
+) -> ChannelRecommendation:
+    """Which channels can take the item and whether to list it now, for staff to choose from.
+
+    The timing reads the seasonal calendar as it is now, so a change on the Settings page shows
+    on the next read.
+    """
+    item = _get_item(session, item_id)
+    card = _require_listing(session, item, "listed")
+    facts = ListingFacts.from_card(card)
+    calendar = read_store_settings(session).seasonal_calendar
+    # The model can take a while, so don't hold a database transaction open across the call.
+    session.commit()
+    return recommend(facts, calendar, today, providers)
+
+
 @router.post("/items/{item_id}/drafts", operation_id="create_listing_drafts")
 def create_listing_drafts(
     item_id: UUID,
@@ -577,30 +607,41 @@ def create_listing_drafts(
     profile: CurrentProfile,
     session: SessionDep,
     providers: Annotated[list[ChatModel], Depends(get_draft_providers)],
+    today: Annotated[date, Depends(get_today)],
 ) -> list[ListingDraftRead]:
-    """Draft the listing for each channel that has none yet, and return all of the item's drafts.
+    """Draft the listing for each channel staff chose, and return all of the item's drafts.
 
-    A channel that already has a draft keeps it, so the screen can retry a lost response.
+    Drafting also holds the item until its season when the timing hint says so, by setting its
+    release month, which the approval step reads. An item that already has drafts keeps them and
+    its release month, whatever the request names, so the screen can retry a lost response.
     """
     item = _get_item(session, item_id)
     card = _require_listing(session, item, "listed")
-    channels = listing_channels(card.category)
-    drafted = {draft.channel for draft in _item_drafts(session, item_id)}
-    missing = [channel for channel in channels if channel not in drafted]
-    if missing:
+    if not _item_drafts(session, item_id):
         facts = ListingFacts.from_card(card)
+        advice = advise(facts, read_store_settings(session).seasonal_calendar, today)
+        refused = [
+            option.why_not
+            for option in advice.channels
+            if option.channel in request.channels and option.why_not
+        ]
+        if refused:
+            raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, " ".join(refused))
+        channels = [channel for channel in Channel if channel in request.channels]
         # The model can take a while, so don't hold a database transaction open across the calls.
         session.commit()
-        results = {channel: draft_listing(facts, channel, providers) for channel in missing}
+        results = {channel: draft_listing(facts, channel, providers) for channel in channels}
         # Another request may have drafted meanwhile, so check again under a lock on the item.
         item = session.get(Item, item_id, with_for_update=True, populate_existing=True)
         if item is None:
             raise HTTPException(status.HTTP_404_NOT_FOUND, "That item doesn't exist.")
         _require_listing(session, item, "listed")
-        drafted = {draft.channel for draft in _item_drafts(session, item_id)}
+        if _item_drafts(session, item_id):
+            results = {}
+        else:
+            item.release_month = advice.timing.release_month
+            session.add(item)
         for channel, result in results.items():
-            if channel in drafted:
-                continue
             session.add(
                 ListingDraft(
                     item_id=item_id,

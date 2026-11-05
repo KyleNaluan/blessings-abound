@@ -14,7 +14,7 @@ Each section is one row of the `settings` table, described in [database.md](data
 | Channel A fees | The net after fees beside the worth-listing rule, and Channel A's net on the approval page | 13.6% plus $0.40 per order, and $1.50 for supplies, the values the pipeline used before |
 | Channel B fees | Channel B's net on the approval page | 20% from $15 and a flat $2.95 below that, and $1.50 for supplies, see below |
 | Ask-to-sale factor | The price range, step 7 of the pricing pipeline | 0.645 for apparel and 0.94 for games and hardware, the values the pipeline used before |
-| Seasonal calendar | The channel timing hint, which is [#20](https://github.com/KyleNaluan/blessings-abound/issues/20) and not built yet | Written for this page, see below |
+| Seasonal calendar | The timing hint in the [channel and timing recommendation](architecture.md#channel-and-timing-recommendation) on the item screen | Written for this page, see below |
 | Box sizes | The box size dropdown in the package step on the approval page, from [#42](https://github.com/KyleNaluan/blessings-abound/issues/42), and the order of the pick list | Written for this page, see below |
 | Shipping weight rules | The package weight check on the approval page, and every saved box size, which has to fit under the size limit | USPS Ground Advantage's published rules |
 
@@ -34,7 +34,7 @@ The evaluation in [evaluation.md](evaluation.md) always scores the values in cod
 | `PUT /settings/box-sizes` | Replaces the whole box size list |
 | `PUT /settings/shipping-weight` | Replaces the shipping weight rules |
 | `GET /settings/box-sizes` | The box sizes as the package step's dropdown shows them, each with the code it adds to the SKU |
-| `GET /settings/seasonal-calendar` | The seasonal calendar, for the timing hint in #20 |
+| `GET /settings/seasonal-calendar` | The seasonal calendar on its own |
 
 A save sends the whole section and the `updated_at` it was read with.
 When another manager saved the section in between, the save gets a 409 and changes nothing, so one manager can't quietly undo another's change.
@@ -64,6 +64,8 @@ These choices are assumptions, labeled so the store can correct them:
 Each season is a kind of item, the words on an item card that mark an item as that kind, and the months it is worth listing in.
 In the other months, an item of that kind is held for its season.
 An item matches a season when its card has one of the season's words, the first season that matches is the one used, and an item that matches no season can be listed in any month.
+The words are read from the card's brand, product, exact model, material and visible text, as whole words or phrases with a plural allowed, so "boot" matches "Boots" but "coat" doesn't match "coated".
+An item that is out of season is held until the next month in its season, so a change saved here changes the hint for every item that hasn't had its listing drafted yet.
 That is why the narrower seasons come first, so a holiday sweater is read as a holiday sweater and not as any sweater.
 
 The calendar was written for a store in Kansas City.

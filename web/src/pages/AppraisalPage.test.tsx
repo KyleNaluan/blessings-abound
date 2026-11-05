@@ -68,6 +68,21 @@ const draft = {
   updated_at: '2026-11-03T15:00:00+00:00',
 }
 
+const recommendation = {
+  channels: [
+    { channel: 'channel_a', takes: true, why_not: null },
+    { channel: 'channel_b', takes: true, why_not: null },
+  ],
+  timing: {
+    season: 'Coats and jackets',
+    season_span: 'August to January',
+    release_month: null,
+  },
+  reason: 'Both channels take this jacket, and it is in season, so list it now.',
+  reason_source: 'model',
+  reason_fallback: null,
+}
+
 type Call = { method: string; path: string; request: Request }
 
 // A stand-in for the API that records each call, with any route overridable by a test.
@@ -98,6 +113,8 @@ function stubApi(overrides: Record<string, () => Response> = {}) {
         case 'POST /items/item-1/decisions':
           decisions = [savedRow]
           return Response.json({ id: 'decision-1' }, { status: 201 })
+        case 'GET /items/item-1/channels':
+          return Response.json(recommendation)
         case 'POST /items/item-1/drafts':
           return Response.json([draft])
         case 'POST /items/item-1/drafts/submit':
@@ -334,14 +351,24 @@ test('sends people who are not signed in to the sign-in page', async () => {
   expect(await screen.findByRole('heading', { name: 'Sign in' })).toBeInTheDocument()
 })
 
-test('a yes decision drafts the listing and sends it for manager approval', async () => {
+test('a yes decision shows the channels and timing, then drafts the chosen channels', async () => {
   const calls = stubApi()
   renderPage()
   await pickPhoto()
   await confirmTheCard()
   fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
 
+  expect(await screen.findByText(recommendation.reason)).toBeInTheDocument()
+  expect(screen.getByText('List now')).toBeInTheDocument()
+  expect(screen.getByText('Coats and jackets, August to January')).toBeInTheDocument()
+  expect(calls.some((call) => call.path.includes('/drafts'))).toBe(false)
+  fireEvent.click(screen.getByRole('checkbox', { name: 'Channel B' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Write the listing' }))
+
   expect(await screen.findByRole('heading', { name: 'Channel A' })).toBeInTheDocument()
+  expect(screen.getByText('Listing on Channel A.')).toBeInTheDocument()
+  const drafting = calls.find((call) => call.path === '/items/item-1/drafts')
+  expect(await drafting?.request.clone().json()).toEqual({ channels: ['channel_a'] })
   expect(screen.getByLabelText('Title')).toHaveValue('Carhartt canvas jacket - Pre-owned')
   expect(screen.getByLabelText('Category')).toHaveValue('Unisex Clothing')
   fireEvent.click(screen.getByRole('button', { name: 'Send for manager approval' }))
@@ -360,5 +387,9 @@ test('a no decision writes no listing', async () => {
 
   expect(await screen.findByRole('status')).toHaveTextContent('Saved your decision: no.')
   expect(screen.queryByRole('heading', { name: 'Listing drafts' })).not.toBeInTheDocument()
+  expect(
+    screen.queryByRole('heading', { name: 'Where and when to list it' }),
+  ).not.toBeInTheDocument()
   expect(calls.some((call) => call.path.includes('/drafts'))).toBe(false)
+  expect(calls.some((call) => call.path.includes('/channels'))).toBe(false)
 })

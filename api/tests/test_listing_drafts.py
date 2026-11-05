@@ -13,7 +13,6 @@ from app.listing_drafts import (
     template_draft,
 )
 from app.models import Category, Channel, Condition, Department, Flaw
-from app.pipeline import listing_channels
 
 HOODIE = ListingFacts(
     category=Category.APPAREL,
@@ -34,11 +33,6 @@ SWITCH = ListingFacts(
     platform="Nintendo Switch",
     complete_in_box=False,
 )
-
-
-def test_games_go_to_channel_a_and_apparel_to_both() -> None:
-    assert listing_channels(Category.ELECTRONICS_GAMES) == [Channel.CHANNEL_A]
-    assert listing_channels(Category.APPAREL) == [Channel.CHANNEL_A, Channel.CHANNEL_B]
 
 
 def test_the_template_restates_the_card() -> None:
@@ -134,7 +128,7 @@ def test_the_template_never_trips_the_checker_on_apparel(
         size_type="waist",
         flaws=flaws,
     )
-    for channel in listing_channels(Category.APPAREL):
+    for channel in Channel:
         draft = template_draft(facts, channel)
         assert check_listing(draft.title, draft.description, facts) == []
 

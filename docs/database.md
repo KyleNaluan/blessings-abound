@@ -54,7 +54,7 @@ Each item is one of a kind.
 | `photo_keys` | `text[]` | Storage keys, 1 to 4 of them |
 | `photo_hash` | `text` | Required and indexed for the duplicate guard, not unique because a repeat photo prompts staff rather than being refused, and a placeholder from the walking skeleton until #9 |
 | `notes` | `text` | Optional |
-| `release_month` | `date` | Optional, the first day of the month a held item is released in, which the timing hint in #20 will set |
+| `release_month` | `date` | Optional, the first day of the month a held item is released in, which the timing hint sets when the listing is first drafted |
 | `package_weight_oz` | `double precision` | Optional, more than 0, the packed weight a manager enters, set together with `box_code` |
 | `box_code` | `text` | Optional, one of the Settings box size codes, copied, and added to the SKU after a space |
 | `location_code` | `text` | Optional, the shelf or bin, such as `B12-2`, set only once there is a box |

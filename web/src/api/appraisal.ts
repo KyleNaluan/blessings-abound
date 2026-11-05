@@ -10,6 +10,7 @@ export type RecentDecision = components['schemas']['RecentDecision']
 export type ListingDraft = components['schemas']['ListingDraftRead']
 export type ListingDraftEdit = components['schemas']['ListingDraftEdit']
 export type Channel = components['schemas']['Channel']
+export type ChannelRecommendation = components['schemas']['ChannelRecommendation']
 
 const UNREACHABLE = "We couldn't reach the API. Check your connection and try again."
 
@@ -76,13 +77,17 @@ export function listRecentDecisions() {
   return unwrap(api.GET('/decisions'))
 }
 
-// Drafts the listing for each channel the item's category allows. Asking again returns the same drafts.
-export function createListingDrafts(itemId: string) {
+// Which channels can take the item and whether to list it now or hold it for its season.
+export function getChannelRecommendation(itemId: string) {
+  return unwrap(api.GET('/items/{item_id}/channels', { params: { path: { item_id: itemId } } }))
+}
+
+// Drafts the listing for each channel staff chose. Asking again returns the same drafts.
+export function createListingDrafts(itemId: string, channels: Channel[]) {
   return unwrap(
     api.POST('/items/{item_id}/drafts', {
       params: { path: { item_id: itemId } },
-      // PLACEHOLDER: #20 sends the channels staff choose, and the API picks by category until then.
-      body: {},
+      body: { channels },
     }),
   )
 }

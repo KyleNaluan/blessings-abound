@@ -10,7 +10,8 @@ import {
 import { Field, SubmitButton, TextInput } from '@/components/site/form'
 import { Button } from '@/components/ui/button'
 
-const CHANNEL_NAMES: Record<Channel, string> = { channel_a: 'Channel A', channel_b: 'Channel B' }
+import { CHANNEL_NAMES } from './approval/format'
+
 const TITLE_MAX = 80
 const DESCRIPTION_MAX = 1000
 
@@ -190,8 +191,16 @@ type Status =
   | { step: 'sending' }
   | { step: 'send_failed'; message: string }
 
-// The listing for each channel, which staff check and send on to a manager.
-export function ListingDrafts({ itemId, onSent }: { itemId: string; onSent: () => void }) {
+// The listing for each channel staff chose, which they check and send on to a manager.
+export function ListingDrafts({
+  itemId,
+  channels,
+  onSent,
+}: {
+  itemId: string
+  channels: Channel[]
+  onSent: () => void
+}) {
   const [drafts, setDrafts] = useState<ListingDraft[]>([])
   const [status, setStatus] = useState<Status>({ step: 'loading' })
   const [dirty, setDirty] = useState<Partial<Record<Channel, boolean>>>({})
@@ -199,13 +208,13 @@ export function ListingDrafts({ itemId, onSent }: { itemId: string; onSent: () =
 
   const load = useCallback(() => {
     setStatus({ step: 'loading' })
-    createListingDrafts(itemId)
+    createListingDrafts(itemId, channels)
       .then((rows) => {
         setDrafts(rows)
         setStatus({ step: 'ready' })
       })
       .catch((error: Error) => setStatus({ step: 'failed', message: error.message }))
-  }, [itemId])
+  }, [itemId, channels])
 
   useEffect(() => {
     // The model can take a few seconds, so draft once even when React runs this effect twice.

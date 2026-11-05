@@ -302,7 +302,7 @@ class Item(SQLModel, table=True):
     # Not unique, because a repeat photo prompts staff rather than being refused.
     photo_hash: str = Field(sa_type=sa.Text, index=True)
     notes: str | None = Field(default=None, sa_type=sa.Text)
-    # The first day of the month a held item is released in, which the timing hint in #20 sets.
+    # The first day of the month a held item is released in, which the timing hint sets.
     release_month: date | None = Field(default=None)
     # The package, which a manager enters before approving Channel A and at the latest when storing.
     package_weight_oz: float | None = Field(default=None)

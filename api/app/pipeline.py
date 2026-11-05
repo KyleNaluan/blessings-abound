@@ -23,7 +23,7 @@ from app.comps import (
     condition_ids,
     find_comps,
 )
-from app.listing_drafts import DraftResult, channel_takes, write_draft
+from app.listing_drafts import DraftResult, write_draft
 from app.models import Category, Channel, Confidence, ItemCard, Recommendation
 from app.pricing import PriceRange, WorthListing, price_range, worth_listing
 from app.settings import PricingRules, get_settings
@@ -217,12 +217,6 @@ def _explain(price: PriceRange, worth: WorthListing, rules: PricingRules) -> str
         f"{_money(price.high_cents)}, from the asking prices of {count}. "
         f"That leaves {_money(worth.net_after_fees_cents)} after fees and supplies. {verdict}"
     )
-
-
-def listing_channels(category: Category) -> list[Channel]:
-    """The channels a listing is drafted for when the request names none, by category alone."""
-    # PLACEHOLDER: #20 replaces this with its channel recommendation and the staff choice.
-    return [channel for channel in Channel if channel_takes(channel, category)]
 
 
 def draft_listing(
