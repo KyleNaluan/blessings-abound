@@ -811,3 +811,76 @@ class Job(SQLModel, table=True):
     last_error: str | None = Field(default=None, sa_type=sa.Text)
     created_at: datetime = _created_at()
     updated_at: datetime = _updated_at()
+
+
+class SyntheticItem(SQLModel, table=True):
+    """One item in the synthetic sales history, forwarded to Ecommerce and accepted or rejected.
+
+    The dashboards read this and `synthetic_listings` in place of a real sales history, which the
+    store doesn't have, and every chart drawn from them is labeled synthetic. They are kept apart
+    from `items`, `sale_events` and `sync_log`, and app/synthetic_sales.py replaces both tables
+    whenever it loads a history, see docs/synthetic-sales.md.
+    """
+
+    __tablename__ = "synthetic_items"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.CheckConstraint("typical_price_cents > 0", name="typical_price_cents_positive"),
+        sa.CheckConstraint(
+            "category = 'apparel' OR department IS NULL", name="department_for_apparel_only"
+        ),
+        # An override is a staff call against a yes or a no, and a check has no side to go against.
+        sa.CheckConstraint(
+            "overridden = ((recommendation = 'yes' AND outcome = 'rejected') "
+            "OR (recommendation = 'no' AND outcome = 'accepted'))",
+            name="overridden_against_recommendation",
+        ),
+    )
+
+    # Numbered by the generator in the order the items were forwarded, so a reload is identical.
+    id: int = Field(sa_column=sa.Column(sa.Integer, primary_key=True, autoincrement=False))
+    forwarded_on: date = Field(sa_column=sa.Column(sa.Date, nullable=False, index=True))
+    store_department: StoreDepartment = Field(
+        sa_column=sa.Column(_enum_type(StoreDepartment, "store_department"), nullable=False)
+    )
+    category: Category = Field(
+        sa_column=sa.Column(_enum_type(Category, "category"), nullable=False)
+    )
+    department: Department | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(Department, "department"))
+    )
+    condition: Condition = Field(
+        sa_column=sa.Column(_enum_type(Condition, "condition"), nullable=False)
+    )
+    typical_price_cents: int
+    recommendation: Recommendation = Field(
+        sa_column=sa.Column(_enum_type(Recommendation, "recommendation"), nullable=False)
+    )
+    outcome: TriageOutcome = Field(
+        sa_column=sa.Column(_enum_type(TriageOutcome, "outcome"), nullable=False)
+    )
+    overridden: bool
+
+
+class SyntheticListing(SQLModel, table=True):
+    """One synthetic item on one channel, which either sold or ended unsold after its run."""
+
+    __tablename__ = "synthetic_listings"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.UniqueConstraint("item_id", "channel"),
+        sa.CheckConstraint("price_cents > 0", name="price_cents_positive"),
+        sa.CheckConstraint("(sold_on IS NULL) <> (ended_on IS NULL)", name="sold_or_ended"),
+        sa.CheckConstraint(
+            "sold_on >= listed_on AND ended_on > listed_on", name="closed_after_listing"
+        ),
+    )
+
+    id: int = Field(sa_column=sa.Column(sa.Integer, primary_key=True, autoincrement=False))
+    # Not indexed alone, because the unique constraint on the item and channel starts with it.
+    item_id: int = Field(foreign_key="synthetic_items.id")
+    channel: Channel = Field(sa_column=sa.Column(_enum_type(Channel, "channel"), nullable=False))
+    # The asking price, which is also the sale price, because the history has no offers.
+    price_cents: int
+    listed_on: date = Field(sa_column=sa.Column(sa.Date, nullable=False, index=True))
+    sold_on: date | None = Field(default=None, sa_column=sa.Column(sa.Date, index=True))
+    # The day an unsold listing came down, at the end of its run.
+    ended_on: date | None = Field(default=None, sa_column=sa.Column(sa.Date))

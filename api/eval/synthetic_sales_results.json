@@ -1,0 +1,229 @@
+{
+  "seeds": 200,
+  "tolerance": 0.25,
+  "history": {
+    "seed": 2026,
+    "items": 656,
+    "accepted": 369,
+    "listings": 369,
+    "sales": 106
+  },
+  "targets": [
+    {
+      "key": "a_sold_30",
+      "measure": "Channel A, sold within 30 days",
+      "source": "FlowLister, 33,638 eBay listings",
+      "target": 0.122,
+      "unit": "share",
+      "mean": 0.1253,
+      "low": 0.0933,
+      "high": 0.1579,
+      "seeds_measured": 200,
+      "off_by": 0.027,
+      "passed": true
+    },
+    {
+      "key": "a_sold_7",
+      "measure": "Channel A, sold within 7 days",
+      "source": "FlowLister, 33,638 eBay listings",
+      "target": 0.058,
+      "unit": "share",
+      "mean": 0.0593,
+      "low": 0.0354,
+      "high": 0.083,
+      "seeds_measured": 200,
+      "off_by": 0.022,
+      "passed": true
+    },
+    {
+      "key": "a_median_30",
+      "measure": "Channel A, median days to sale of those sold within 30 days",
+      "source": "FlowLister, 33,638 eBay listings",
+      "target": 7.5,
+      "unit": "days",
+      "mean": 7.42,
+      "low": 3.5,
+      "high": 12.0,
+      "seeds_measured": 200,
+      "off_by": -0.01,
+      "passed": true
+    },
+    {
+      "key": "a_under_15",
+      "measure": "Channel A under $15, sold within 30 days",
+      "source": "FlowLister, 33,638 eBay listings",
+      "target": 0.086,
+      "unit": "share",
+      "mean": 0.071,
+      "low": 0.0,
+      "high": 0.2308,
+      "seeds_measured": 200,
+      "off_by": -0.1744,
+      "passed": true
+    },
+    {
+      "key": "a_100_to_250",
+      "measure": "Channel A at $100 to $249.99, sold within 30 days",
+      "source": "FlowLister, 33,638 eBay listings",
+      "target": 0.276,
+      "unit": "share",
+      "mean": 0.2507,
+      "low": 0.1364,
+      "high": 0.3637,
+      "seeds_measured": 200,
+      "off_by": -0.0915,
+      "passed": true
+    },
+    {
+      "key": "b_womens_mean_days",
+      "measure": "Channel B women's apparel, average days to sale",
+      "source": "Closo, women's tops on Poshmark",
+      "target": 59.0,
+      "unit": "days",
+      "mean": 55.65,
+      "low": 48.21,
+      "high": 61.79,
+      "seeds_measured": 200,
+      "off_by": -0.0568,
+      "passed": true
+    },
+    {
+      "key": "b_womens_sold_90",
+      "measure": "Channel B women's apparel, sold within 90 days",
+      "source": "Closo, women's tops on Poshmark",
+      "target": 0.37,
+      "unit": "share",
+      "mean": 0.395,
+      "low": 0.2908,
+      "high": 0.5,
+      "seeds_measured": 200,
+      "off_by": 0.0676,
+      "passed": true
+    }
+  ],
+  "holdout": {
+    "key": "a_womens_sold_90",
+    "measure": "Channel A women's apparel, sold within 90 days",
+    "source": "Closo, tops on eBay, held out of calibration",
+    "target": 0.28,
+    "unit": "share",
+    "mean": 0.1989,
+    "low": 0.1175,
+    "high": 0.2795,
+    "seeds_measured": 200,
+    "off_by": -0.2896,
+    "passed": false
+  },
+  "shape": {
+    "sales": 10255,
+    "mean_days": 29.03,
+    "median_days": 21.0,
+    "sd_days": 26.48,
+    "skewness": 0.668,
+    "p90_days": 71.6,
+    "max_days": 89,
+    "within_week_share": 0.2765,
+    "passed": true
+  },
+  "shape_both_channels": {
+    "sales": 18629,
+    "mean_days": 41.08,
+    "median_days": 41.0,
+    "sd_days": 27.87,
+    "skewness": 0.051,
+    "p90_days": 80.0,
+    "max_days": 89,
+    "within_week_share": 0.1556,
+    "passed": false
+  },
+  "parameters": {
+    "seed": 2026,
+    "first_day": "2025-07-01",
+    "months": 12,
+    "monthly_items": 50.0,
+    "max_days": 90,
+    "clothing_share": 0.7,
+    "apparel_department_shares": [
+      0.3,
+      0.55,
+      0.15
+    ],
+    "apparel_condition_shares": [
+      0.08,
+      0.07,
+      0.85
+    ],
+    "electronics_games_condition_shares": [
+      0.04,
+      0.04,
+      0.92
+    ],
+    "apparel_median_price_cents": 3400,
+    "apparel_price_spread": 0.8,
+    "electronics_games_median_price_cents": 4000,
+    "electronics_games_price_spread": 0.95,
+    "check_share": 0.1,
+    "clothing_accept_if_yes": 0.9,
+    "clothing_accept_if_no": 0.15,
+    "clothing_accept_if_check": 0.5,
+    "electronics_games_accept_if_yes": 0.92,
+    "electronics_games_accept_if_no": 0.1,
+    "electronics_games_accept_if_check": 0.55,
+    "max_listing_lag_days": 7,
+    "channel_b_share": 0.45,
+    "channel_a_scale_days": 2600.0,
+    "channel_a_shape": 0.55,
+    "channel_b_scale_days": 150.0,
+    "channel_b_shape": 2.0,
+    "price_band_edges_cents": [
+      1500,
+      3000,
+      5000,
+      10000,
+      25000
+    ],
+    "price_band_factors": [
+      0.9,
+      0.95,
+      1.0,
+      1.4,
+      3.4,
+      3.4
+    ],
+    "apparel_factor": 1.0,
+    "electronics_games_factor": 1.0,
+    "condition_factors": [
+      1.15,
+      1.1,
+      1.0
+    ],
+    "apparel_seasonal_index": [
+      0.85,
+      0.9,
+      1.15,
+      1.1,
+      1.0,
+      0.9,
+      0.85,
+      1.0,
+      1.2,
+      1.15,
+      1.0,
+      0.9
+    ],
+    "electronics_games_seasonal_index": [
+      0.9,
+      0.85,
+      0.9,
+      0.9,
+      0.9,
+      0.95,
+      0.95,
+      0.95,
+      1.0,
+      1.05,
+      1.3,
+      1.35
+    ]
+  }
+}
