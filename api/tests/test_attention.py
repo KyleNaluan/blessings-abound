@@ -309,7 +309,7 @@ def test_a_cancel_while_the_channel_is_offline_is_retried_until_it_lands(
     cancelling = waiting["double_sale"]["cancelling"]
     assert cancelling["status"] == "pending"
     assert (cancelling["attempts"], cancelling["max_attempts"]) == (1, MAX_ATTEMPTS)
-    assert "Channel B is offline" in cancelling["last_error"]
+    assert "Channel B is down for now." in cancelling["last_error"]
     assert SyncEvent.CANCEL_FAILED in events(session, item_id)
     # Pressing again while the retry is due queues no second cancel.
     assert client.post(f"/attention/{row['id']}/fix").status_code == 200

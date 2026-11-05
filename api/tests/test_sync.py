@@ -438,7 +438,7 @@ def test_a_failed_delist_is_retried_from_the_jobs_table(
     assert listing_status(session, listings[B]) == ListingStatus.ACTIVE
     [job] = pending_jobs(session)
     assert job.attempts == 1
-    assert job.last_error == "Channel B answered 503: Channel B is offline."
+    assert job.last_error == "Channel B is down for now."
     assert SyncEvent.DELIST_FAILED in events(session, item_id)
 
     # Not due yet, so nothing runs until the wait has passed.

@@ -177,7 +177,7 @@ test('a cancel the channel is down for is retried until it lands', async () => {
         status: 'pending',
         attempts: 1,
         max_attempts: 10,
-        last_error: 'Channel B is offline.',
+        last_error: 'Channel B is down for now.',
       },
     },
   })
@@ -197,7 +197,7 @@ test('a cancel the channel is down for is retried until it lands', async () => {
     fireEvent.click(double.getByRole('button', { name: 'Cancel the Channel B order' }))
     expect(
       await double.findByText(
-        "Try 1 of 10 didn't go through: Channel B is offline. Turnstone tries again by itself.",
+        "Try 1 of 10 didn't go through: Channel B is down for now. Turnstone tries again by itself.",
         { exact: false },
       ),
     ).toBeVisible()
@@ -223,7 +223,7 @@ test('a cancel that stopped can be tried again', async () => {
         status: 'failed',
         attempts: 10,
         max_attempts: 10,
-        last_error: 'Channel B is offline.',
+        last_error: 'Channel B is down for now.',
       },
     },
   })
@@ -231,7 +231,7 @@ test('a cancel that stopped can be tried again', async () => {
   renderAttention()
   const double = await card('Double sale')
   expect(double.getByRole('alert')).toHaveTextContent(
-    "The Channel B order wasn't cancelled. Channel B is offline.",
+    "The Channel B order wasn't cancelled. Channel B is down for now.",
   )
   fireEvent.click(double.getByRole('button', { name: 'Cancel the Channel B order' }))
   expect(await screen.findByText(/^Handled\. Cancelled the Channel B order/)).toBeVisible()

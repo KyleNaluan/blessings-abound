@@ -140,6 +140,9 @@ class MockChannelAdapter:
             status.HTTP_422_UNPROCESSABLE_CONTENT,
         ):
             raise ChannelRejectedError(f"{self.label} refused it: {_detail(response)}")
+        if response.status_code == status.HTTP_503_SERVICE_UNAVAILABLE:
+            # Said in plain words, because staff read it on the Needs Attention screen.
+            raise ChannelUnavailableError(f"{self.label} is down for now.")
         if not response.is_success:
             # Includes 401, because a wrong key is fixed in settings and the call then succeeds.
             raise ChannelUnavailableError(
