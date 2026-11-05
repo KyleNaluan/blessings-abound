@@ -78,11 +78,22 @@ MODEL_CARD = {
 PHOTO_NUMBERS = itertools.count(1)
 
 
+def sharp_photo(size: tuple[int, int] = (20, 10)) -> Image.Image:
+    """A light and dark check pattern, which passes the blur and brightness check."""
+    # Squares a fifth of the short side, so the edges stay sharp when the check scales it down.
+    side = max(2, min(size) // 5)
+    image = Image.new("RGB", size, "white")
+    for x in range(0, size[0], side):
+        for y in range(0, size[1], side):
+            if (x + y) // side % 2 == 0:
+                image.paste("saddlebrown", (x, y, x + side, y + side))
+    return image
+
+
 def jpeg(size: tuple[int, int] = (20, 10)) -> bytes:
     """A photo with its own comment, so no two in a test share a hash unless a test says so."""
     output = io.BytesIO()
-    image = Image.new("RGB", size, "brown")
-    image.save(output, format="JPEG", comment=f"photo {next(PHOTO_NUMBERS)}")
+    sharp_photo(size).save(output, format="JPEG", comment=f"photo {next(PHOTO_NUMBERS)}")
     return output.getvalue()
 
 
@@ -271,15 +282,17 @@ def appraised_item(client: TestClient) -> tuple[str, str]:
 
 
 REJECTION = {"rejection_reason": "Too worn to sell online", "destination": "store_floor"}
+# The stubbed search recommends a yes, so a no goes against it and needs a reason for that.
+DISAGREEING_NO = REJECTION | {"override_reason": "worse_condition"}
 
 
 def decide(
     client: TestClient, item_id: str, appraisal_id: str, choice: str = "yes", **body: Any
 ) -> Any:
-    """Save a decision, where a no comes with a reason and a destination unless the body says."""
+    """Save a decision, where a no comes as DISAGREEING_NO unless the body says otherwise."""
     fields = {"appraisal_id": appraisal_id, "decision": choice}
     if choice == "no":
-        fields |= REJECTION
+        fields |= DISAGREEING_NO
     return client.post(f"/items/{item_id}/decisions", json=fields | body)
 
 
@@ -310,6 +323,40 @@ def test_the_whole_path_saves_a_decision_and_lists_it(client: TestClient, sessio
     assert recent[0]["price_typical_cents"] == appraisal["price_typical_cents"]
     assert recent[0]["decided_by_name"] == "Staff1"
     assert datetime.fromisoformat(recent[0]["decided_at"]).utcoffset() is not None
+
+
+def test_the_appraisal_shows_the_listings_behind_the_price(client: TestClient) -> None:
+    # Eleven listings near $50, an outlier at $900 and a free listing, out of order.
+    use_search(listings(55, 900, 50, 52, 48, 45, 47, 53, 50, 49, 51, 46, 0))
+    item_id, _ = appraised_item(client)
+    appraisal = appraise(client, item_id)
+
+    comps = appraisal["comps"]
+    assert [comp["asking_cents"] for comp in comps] == [
+        4500,
+        4600,
+        4700,
+        4800,
+        4900,
+        5000,
+        5000,
+        5100,
+        5200,
+        5300,
+        5500,
+        90000,
+    ]
+    assert [comp["outlier"] for comp in comps] == [False] * 11 + [True]
+    assert appraisal["comps_count"] == 11
+    assert comps[0]["title"] == "Carhartt canvas jacket"
+    assert comps[0]["condition"] == "Pre-Owned"
+    assert comps[-1]["url"] == "https://www.ebay.com/itm/1"
+
+
+def test_an_appraisal_with_no_price_shows_no_listings(client: TestClient) -> None:
+    use_search(listings())
+    item_id, _ = appraised_item(client)
+    assert appraise(client, item_id)["comps"] == []
 
 
 def test_upload_stores_the_photo_and_records_who_listed_it(
@@ -409,6 +456,83 @@ def test_a_decision_sets_the_item_status(
     row = session.get(Item, UUID(item_id))
     assert row is not None
     assert row.status == status
+
+
+def test_a_call_against_the_recommendation_needs_a_reason(client: TestClient) -> None:
+    item_id, appraisal_id = appraised_item(client)
+    response = decide(client, item_id, appraisal_id, "no", override_reason=None)
+    assert response.status_code == 422
+    assert response.json()["detail"] == "Choose why it's a no when the recommendation is yes."
+
+
+def test_the_reason_and_note_are_saved_with_the_decision(
+    client: TestClient, session: Session
+) -> None:
+    item_id, appraisal_id = appraised_item(client)
+    response = decide(
+        client, item_id, appraisal_id, "no", override_reason="hard_to_ship", note="  Too heavy  "
+    )
+    assert response.status_code == 201, response.text
+    body = response.json()
+    assert (body["override_reason"], body["note"]) == ("hard_to_ship", "Too heavy")
+    saved = session.get_one(Decision, UUID(body["id"]))
+    assert (saved.override_reason, saved.note) == ("hard_to_ship", "Too heavy")
+
+
+def test_a_call_that_agrees_has_no_reason_for_disagreeing(client: TestClient) -> None:
+    item_id, appraisal_id = appraised_item(client)
+    response = decide(client, item_id, appraisal_id, override_reason="wrong_comps")
+    assert response.status_code == 422
+    assert response.json()["detail"] == (
+        "Only a call against the recommendation needs a reason for disagreeing."
+    )
+    # A note alone is fine on any call.
+    assert decide(client, item_id, appraisal_id, note="Clean inside").status_code == 201
+
+
+@pytest.mark.parametrize("reason", ["better_condition", "sells_for_more"])
+def test_a_reason_for_a_yes_does_not_fit_a_no(client: TestClient, reason: str) -> None:
+    item_id, appraisal_id = appraised_item(client)
+    response = decide(client, item_id, appraisal_id, "no", override_reason=reason)
+    assert response.status_code == 422
+    assert response.json()["detail"] == "That reason doesn't fit a no."
+
+
+def test_a_yes_against_a_no_takes_a_reason_for_a_yes(client: TestClient) -> None:
+    # Every listing at $10 gives a typical sale price under the $30 bar.
+    use_search(listings(*[10] * 12))
+    item_id, appraisal_id = appraised_item(client)
+    assert appraise(client, item_id)["recommendation"] == "no"
+    assert decide(client, item_id, appraisal_id).status_code == 422
+    worse = decide(client, item_id, appraisal_id, override_reason="worse_condition")
+    assert worse.json()["detail"] == "That reason doesn't fit a yes."
+    better = decide(client, item_id, appraisal_id, override_reason="sells_for_more")
+    assert better.status_code == 201, better.text
+    # Agreeing with the no needs no reason.
+    assert decide(client, item_id, appraisal_id, "no", override_reason=None).status_code == 201
+
+
+def test_the_other_reason_needs_a_note(client: TestClient) -> None:
+    item_id, appraisal_id = appraised_item(client)
+    response = decide(client, item_id, appraisal_id, "no", override_reason="other", note=" ")
+    assert response.status_code == 422
+    assert response.json()["detail"] == "Add a note to say what the reason is."
+    response = decide(
+        client, item_id, appraisal_id, "no", override_reason="other", note="Smells of smoke"
+    )
+    assert response.status_code == 201, response.text
+
+
+def test_a_note_is_bounded(client: TestClient) -> None:
+    item_id, appraisal_id = appraised_item(client)
+    assert decide(client, item_id, appraisal_id, note="x" * 500).status_code == 201
+    assert decide(client, item_id, appraisal_id, note="x" * 501).status_code == 422
+
+
+def test_an_unknown_reason_is_refused(client: TestClient) -> None:
+    item_id, appraisal_id = appraised_item(client)
+    response = decide(client, item_id, appraisal_id, "no", override_reason="just because")
+    assert response.status_code == 422
 
 
 def test_decisions_are_kept_as_a_history(client: TestClient, session: Session) -> None:
@@ -826,7 +950,8 @@ def test_a_spent_budget_saves_an_honest_check_with_no_price(
     row = session.get(Item, UUID(item_id))
     assert row is not None
     assert row.status == ItemStatus.APPRAISED
-    assert decide(client, item_id, appraisal["id"], "no").status_code == 201
+    # A check has no yes or no to disagree with.
+    assert decide(client, item_id, appraisal["id"], "no", override_reason=None).status_code == 201
 
 
 def test_a_failed_search_saves_an_honest_check_and_can_be_tried_again(

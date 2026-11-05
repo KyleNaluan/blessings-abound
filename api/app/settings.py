@@ -68,6 +68,47 @@ class PricingRules(BaseModel):
     )
 
 
+class PhotoChecks(BaseModel):
+    """The numbers behind the blur and brightness check at intake, each with its reason.
+
+    They were measured on 53 evaluation photos, as the photo check section of docs/architecture.md
+    describes, and a photo that fails one is a prompt to take it again, never a refusal.
+    """
+
+    model_config = ConfigDict(frozen=True)
+
+    long_side: int = Field(
+        default=640,
+        description="Photos are scaled to this size first, so a full-size phone photo and a small "
+        "upload score alike.",
+    )
+    grid: int = Field(
+        default=8,
+        description="The photo is cut into this many columns and rows and only the sharpest piece "
+        "counts, so a plain backdrop can't make a sharp item look blurry.",
+    )
+    min_sharpness: float = Field(
+        default=100.0,
+        description="Every sharp evaluation photo scored at least 129 and every one blurred by 2 "
+        "pixels at most 55, so 100 sits between them.",
+    )
+    tail_share: float = Field(
+        default=0.05,
+        description="The share of the brightest and darkest pixels read for brightness, so a few "
+        "glints or shadows don't decide it.",
+    )
+    min_bright_end: int = Field(
+        default=100,
+        description="Too dark when even the brightest 5% is below this out of 255, where every "
+        "evaluation photo was at least 163 and every one at 35% of its light at most 89.",
+    )
+    max_dark_end: int = Field(
+        default=210,
+        description="Washed out when even the darkest 5% is above this out of 255, where every "
+        "evaluation photo, white items on white included, was at most 183.",
+    )
+
+
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
         env_file=ROOT_ENV_FILE,
@@ -102,6 +143,7 @@ class Settings(BaseSettings):
     serpapi_monthly_budget: int = 240
 
     pricing: PricingRules = PricingRules()
+    photo_checks: PhotoChecks = PhotoChecks()
 
     # The mock sales channels in mock_channel/. A channel with no URL or key is left out.
     channel_a_url: str | None = None

@@ -853,6 +853,8 @@ export interface components {
       }
       /** Explanation */
       explanation: string | null
+      /** Comps */
+      comps: components['schemas']['PricedComp'][]
       /**
        * Created At
        * Format: date-time
@@ -923,6 +925,11 @@ export interface components {
       photos?: string[] | null
       /** Notes */
       notes?: string | null
+      /**
+       * Keep Photos
+       * @default false
+       */
+      keep_photos: boolean
       /**
        * Allow Repeat
        * @default false
@@ -1145,8 +1152,7 @@ export interface components {
        */
       appraisal_id: string
       decision: components['schemas']['DecisionChoice']
-      /** Override Reason */
-      override_reason?: string | null
+      override_reason?: components['schemas']['OverrideReason'] | null
       /** Note */
       note?: string | null
       /** Rejection Reason */
@@ -1272,6 +1278,17 @@ export interface components {
        * @enum {string}
        */
       status: 'ok' | 'unavailable'
+    }
+    /**
+     * IntakeConflict
+     * @description The 409 answer when staff should look at the photos again before the item is taken in.
+     *
+     *     Nothing is saved, and staff send the same form again with keep_photos or allow_repeat set to
+     *     go on.
+     */
+    IntakeConflict: {
+      /** Detail */
+      detail: components['schemas']['RetakeDetail'] | components['schemas']['RepeatPhotoDetail']
     }
     /** InviteRequest */
     InviteRequest: {
@@ -1600,6 +1617,20 @@ export interface components {
       sold_at: string
     }
     /**
+     * OverrideReason
+     * @description Why staff made the other call from the recommendation, picked from a short list.
+     * @enum {string}
+     */
+    OverrideReason:
+      | 'wrong_comps'
+      | 'better_condition'
+      | 'sells_for_more'
+      | 'worse_condition'
+      | 'sells_for_less'
+      | 'hard_to_ship'
+      | 'not_genuine'
+      | 'other'
+    /**
      * PackageKind
      * @enum {string}
      */
@@ -1658,6 +1689,22 @@ export interface components {
     PriceOverride: {
       /** Price Override Cents */
       price_override_cents: number | null
+    }
+    /**
+     * PricedComp
+     * @description One eBay listing the price came from, shown to staff as the evidence behind it.
+     */
+    PricedComp: {
+      /** Title */
+      title: string
+      /** Asking Cents */
+      asking_cents: number
+      /** Condition */
+      condition: string | null
+      /** Url */
+      url: string
+      /** Outlier */
+      outlier: boolean
     }
     /** QueueItem */
     QueueItem: {
@@ -1747,15 +1794,13 @@ export interface components {
        */
       rejected_at: string
     }
-    /**
-     * RepeatPhotoConflict
-     * @description The 409 answer when a photo matches a rejected item and staff haven't chosen to go on.
-     */
-    RepeatPhotoConflict: {
-      detail: components['schemas']['RepeatPhotoDetail']
-    }
     /** RepeatPhotoDetail */
     RepeatPhotoDetail: {
+      /**
+       * @description discriminator enum property added by openapi-typescript
+       * @enum {string}
+       */
+      kind: 'repeat_photo'
       /** Message */
       message: string
       /** Matches */
@@ -1768,6 +1813,25 @@ export interface components {
        * @default
        */
       note: string
+    }
+    /** RetakeDetail */
+    RetakeDetail: {
+      /**
+       * @description discriminator enum property added by openapi-typescript
+       * @enum {string}
+       */
+      kind: 'retake'
+      /** Message */
+      message: string
+      /** Photos */
+      photos: components['schemas']['RetakePhoto'][]
+    }
+    /** RetakePhoto */
+    RetakePhoto: {
+      /** Number */
+      number: number
+      /** Reason */
+      reason: string
     }
     /**
      * Role
@@ -1953,13 +2017,13 @@ export interface operations {
           'application/json': components['schemas']['ItemRead']
         }
       }
-      /** @description A photo matches a rejected item, and allow_repeat wasn't set. */
+      /** @description A photo should be taken again and keep_photos wasn't set, or a photo matches a rejected item and allow_repeat wasn't set. */
       409: {
         headers: {
           [name: string]: unknown
         }
         content: {
-          'application/json': components['schemas']['RepeatPhotoConflict']
+          'application/json': components['schemas']['IntakeConflict']
         }
       }
       /** @description Validation Error */

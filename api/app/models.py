@@ -433,6 +433,11 @@ class Appraisal(SQLModel, table=True):
     )
     rules_config: dict[str, Any] = Field(sa_column=sa.Column(JSONB, nullable=False))
     explanation: str | None = Field(default=None, sa_type=sa.Text)
+    # The listings behind the price as PricedComp in app/pipeline.py, so staff see the evidence.
+    comps: list[dict[str, Any]] = Field(
+        default_factory=list,
+        sa_column=sa.Column(JSONB, nullable=False, server_default=sa.text("'[]'::jsonb")),
+    )
     created_at: datetime = _created_at()
 
 

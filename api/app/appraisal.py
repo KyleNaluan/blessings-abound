@@ -2,8 +2,9 @@
 
 import logging
 from datetime import UTC, date, datetime
+from enum import StrEnum
 from functools import lru_cache
-from typing import Annotated, Any, Self
+from typing import Annotated, Any, Literal, Self
 from uuid import UUID, uuid4
 
 import httpx2
@@ -72,6 +73,7 @@ from app.models import (
     TriageOutcome,
 )
 from app.pipeline import (
+    PricedComp,
     draft_item_card,
     draft_listing,
     needs_confirmation,
@@ -147,16 +149,33 @@ class ItemRead(BaseModel):
     created_at: datetime
 
 
+class RetakePhoto(BaseModel):
+    # Counted from 1, in the order the photos were sent.
+    number: int
+    reason: str
+
+
+class RetakeDetail(BaseModel):
+    kind: Literal["retake"] = "retake"
+    message: str
+    photos: list[RetakePhoto]
+
+
 class RepeatPhotoDetail(BaseModel):
+    kind: Literal["repeat_photo"] = "repeat_photo"
     message: str
     # The earlier rejected items with one of the same photos, newest rejection first.
     matches: list[RejectedMatch]
 
 
-class RepeatPhotoConflict(BaseModel):
-    """The 409 answer when a photo matches a rejected item and staff haven't chosen to go on."""
+class IntakeConflict(BaseModel):
+    """The 409 answer when staff should look at the photos again before the item is taken in.
 
-    detail: RepeatPhotoDetail
+    Nothing is saved, and staff send the same form again with keep_photos or allow_repeat set to
+    go on.
+    """
+
+    detail: Annotated[RetakeDetail | RepeatPhotoDetail, Field(discriminator="kind")]
 
 
 class ItemCardRequest(BaseModel):
@@ -251,17 +270,61 @@ class AppraisalRead(BaseModel):
     recommendation: Recommendation
     rules_config: dict[str, Any]
     explanation: str | None
+    # The listings behind the price, cheapest first. Empty for an appraisal with no price.
+    comps: list[PricedComp]
     created_at: datetime
 
 
 REJECTION_REASON_MAX = 200
+NOTE_MAX = 500
+
+
+class OverrideReason(StrEnum):
+    """Why staff made the other call from the recommendation, picked from a short list."""
+
+    WRONG_COMPS = "wrong_comps"
+    BETTER_CONDITION = "better_condition"
+    SELLS_FOR_MORE = "sells_for_more"
+    WORSE_CONDITION = "worse_condition"
+    SELLS_FOR_LESS = "sells_for_less"
+    HARD_TO_SHIP = "hard_to_ship"
+    NOT_GENUINE = "not_genuine"
+    OTHER = "other"
+
+
+# The reasons that make sense against each recommendation, so a yes can't say the item is worse.
+OVERRIDE_REASONS: dict[DecisionChoice, frozenset[OverrideReason]] = {
+    DecisionChoice.YES: frozenset(
+        {
+            OverrideReason.WRONG_COMPS,
+            OverrideReason.BETTER_CONDITION,
+            OverrideReason.SELLS_FOR_MORE,
+            OverrideReason.OTHER,
+        }
+    ),
+    DecisionChoice.NO: frozenset(
+        {
+            OverrideReason.WRONG_COMPS,
+            OverrideReason.WORSE_CONDITION,
+            OverrideReason.SELLS_FOR_LESS,
+            OverrideReason.HARD_TO_SHIP,
+            OverrideReason.NOT_GENUINE,
+            OverrideReason.OTHER,
+        }
+    ),
+}
 
 
 class DecisionRequest(BaseModel):
     appraisal_id: UUID
     decision: DecisionChoice
-    override_reason: str | None = None
-    note: str | None = None
+    # Needed when the call goes against a yes or no recommendation, and refused otherwise.
+    override_reason: OverrideReason | None = None
+    # Optional, except that the reason "other" needs one.
+    note: Annotated[
+        Annotated[str, StringConstraints(max_length=NOTE_MAX)] | None,
+        BeforeValidator(_blank_to_none),
+    ] = None
     # Both needed with a no and refused with a yes, and written to the triage log.
     rejection_reason: OptionalText = None
     destination: Destination | None = None
@@ -359,6 +422,7 @@ def _require_status(item: Item, allowed: set[ItemStatus], action: str) -> None:
 
 
 def _read_photos(photos: list[UploadFile]) -> list[CheckedPhoto]:
+    """The photos after the type and size checks, which refuse a photo outright."""
     if not photos:
         raise HTTPException(
             status.HTTP_422_UNPROCESSABLE_CONTENT, "Add at least one photo of the item."
@@ -374,10 +438,17 @@ def _read_photos(photos: list[UploadFile]) -> list[CheckedPhoto]:
             checked.append(check_photo(photo.file.read(MAX_PHOTO_BYTES + 1), number))
         except PhotoError as error:
             raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, str(error)) from error
-        retake = photo_retake_reason(checked[-1].data)
-        if retake:
-            raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, f"Photo {number}: {retake}")
     return checked
+
+
+def _photos_to_retake(checked: list[CheckedPhoto]) -> list[RetakePhoto]:
+    """The photos the blur and brightness check finds fault with, which staff may still keep."""
+    retakes: list[RetakePhoto] = []
+    for number, photo in enumerate(checked, start=1):
+        reason = photo_retake_reason(photo.data)
+        if reason:
+            retakes.append(RetakePhoto(number=number, reason=reason))
+    return retakes
 
 
 @router.post(
@@ -386,8 +457,9 @@ def _read_photos(photos: list[UploadFile]) -> list[CheckedPhoto]:
     status_code=status.HTTP_201_CREATED,
     responses={
         status.HTTP_409_CONFLICT: {
-            "model": RepeatPhotoConflict,
-            "description": "A photo matches a rejected item, and allow_repeat wasn't set.",
+            "model": IntakeConflict,
+            "description": "A photo should be taken again and keep_photos wasn't set, or a photo "
+            "matches a rejected item and allow_repeat wasn't set.",
         }
     },
 )
@@ -399,11 +471,25 @@ def create_item(
     now: Annotated[datetime, Depends(get_now)],
     photos: Annotated[list[UploadFile] | None, File(description="1 to 4 photos.")] = None,
     notes: Annotated[str | None, Form(max_length=1000)] = None,
+    # Staff have seen the prompt to take a photo again and are keeping the photos as they are.
+    keep_photos: Annotated[bool, Form()] = False,
     # Staff have seen that a photo matches a rejected item and are taking it in anyway.
     allow_repeat: Annotated[bool, Form()] = False,
 ) -> ItemRead:
     """Take an item in: check and store its photos, and give it a SKU."""
     checked = _read_photos(photos or [])
+    # Asked before the repeat check, because a retaken photo may no longer match.
+    if not keep_photos:
+        retakes = _photos_to_retake(checked)
+        if retakes:
+            many = len(retakes) > 1
+            raise HTTPException(
+                status.HTTP_409_CONFLICT,
+                RetakeDetail(
+                    message=f"{'Some photos' if many else 'A photo'} may be hard to price from.",
+                    photos=retakes,
+                ).model_dump(mode="json"),
+            )
     hashes = [photo.sha256 for photo in checked]
     if not allow_repeat:
         matches = rejected_matches(session, hashes)
@@ -543,6 +629,36 @@ def create_appraisal(
     return AppraisalRead.model_validate(appraisal)
 
 
+def _check_override(request: DecisionRequest, recommendation: Recommendation) -> None:
+    """A call against a yes or no recommendation needs a reason that fits it, and only that does."""
+    against = recommendation is not Recommendation.CHECK and (
+        request.decision.value != recommendation.value
+    )
+    reason = request.override_reason
+    if not against:
+        if reason is not None:
+            raise HTTPException(
+                status.HTTP_422_UNPROCESSABLE_CONTENT,
+                "Only a call against the recommendation needs a reason for disagreeing.",
+            )
+        return
+    if reason is None:
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_CONTENT,
+            f"Choose why it's a {request.decision.value} when the recommendation is "
+            f"{recommendation.value}.",
+        )
+    if reason not in OVERRIDE_REASONS[request.decision]:
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_CONTENT,
+            f"That reason doesn't fit a {request.decision.value}.",
+        )
+    if reason is OverrideReason.OTHER and request.note is None:
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_CONTENT, "Add a note to say what the reason is."
+        )
+
+
 @router.post(
     "/items/{item_id}/decisions",
     operation_id="create_decision",
@@ -557,6 +673,7 @@ def create_decision(
     appraisal = session.get(Appraisal, request.appraisal_id)
     if appraisal is None or appraisal.item_id != item_id:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "That appraisal isn't for this item.")
+    _check_override(request, appraisal.recommendation)
     rejected = request.decision == DecisionChoice.NO
     if rejected and request.rejection_reason is None:
         raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, "Say why it isn't being listed.")
