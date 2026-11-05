@@ -118,10 +118,38 @@ The photos were an Xbox 360 controller, a Game Boy Color, Levi's 501 jeans, an A
   Gemini answered HTTP 429 on 2 of 10 photos sent a few seconds apart, so its free quota is tight too.
 - `gemini-2.5-flash` returns HTTP 404 for new API keys, and `gemini-3.8-flash` and `gemini-flash-latest` timed out after 40 seconds, so the fallback uses `gemini-3.5-flash`.
 
+## Channel and timing recommendation
+
+After a yes decision, `GET /items/{id}/channels` says which channels can take the item, whether to list it now or hold it for its season, and why in one sentence.
+Code in `api/app/channel_timing.py` decides the channels and the timing, and the model only words the reason.
+Staff then choose the channels on the item screen, and the recommendation only suggests.
+
+The channel rules are:
+
+- A channel takes an item when it has listing categories for the item's category in `CHANNEL_CATEGORIES` in `api/app/listing_drafts.py`, so Channel A takes every item and Channel B takes apparel only.
+- A channel refuses an item when the card leaves out a field the channel needs, in `CHANNEL_REQUIRED` beside it, so Channel B refuses an item with no brand, as its mock service does.
+- Every channel that can take the item is recommended, and a channel that can't is shown with the reason, and staff can't choose it.
+
+The timing rules read the seasonal calendar from [Settings](settings.md#seasonal-calendar) on every request:
+
+- A season matches when one of its words is on the card's brand, product, exact model, material or visible text, as a whole word or phrase, with a plural allowed, so "boot" matches "Boots" and "flip flop" matches "flip-flops".
+- Only a season for the item's category can match, the first one in the calendar that matches is used, and an item that matches none is listed now.
+- When today's month, in UTC, is one of the season's months, the item is listed now.
+- Otherwise it is held until the first day of the season's next month, which is in the next year when the season starts after today's month, so a jacket in March is held until August.
+
+The reason is written by the same pair of models as the listing drafts, through `complete_json` in `api/app/ai.py`.
+The prompt is `PROMPT` in `api/app/channel_timing.py`, and it holds the item, each channel's answer, the season and the timing, and a fixed sentence that says the same, which the model rewords in at most 200 characters.
+The reply is refused when it has a month or a number the facts don't, or more than one line.
+When there is no model set up, when both models fail or are refused, or when no reply comes in 8 seconds, the screen shows the fixed sentence instead, with a note saying why, so the recommendation always shows.
+The reason is worked out again on each request and not stored.
+
+`POST /items/{id}/drafts` takes the channels staff chose and refuses with a 422, and the reason, any channel that can't take the item.
+The first drafting also sets the item's `release_month` from the timing, so an item held for its season becomes `held_for_season` when a manager approves it, as [Manager approval and storage](#manager-approval-and-storage) describes, and an item listed now has none.
+Once an item has drafts, asking again returns them, whatever channels the request names, so the choice is made once.
+
 ## Listing drafts
 
-After a yes decision, `POST /items/{id}/drafts` writes a title, description and category for each channel, `PATCH /items/{id}/drafts/{channel}` saves staff's edits, and `POST /items/{id}/drafts/submit` sends the drafts on to manager approval.
-Channel A takes every item and Channel B takes apparel only, which `listing_channels` in `api/app/pipeline.py` decides until #20 lets staff choose the channels.
+After staff choose the channels, `POST /items/{id}/drafts` writes a title, description and category for each chosen channel, `PATCH /items/{id}/drafts/{channel}` saves staff's edits, and `POST /items/{id}/drafts/submit` sends the drafts on to manager approval.
 A draft is stored in `listing_drafts` with the state `draft`, and sending it sets `awaiting_approval`, which is the state the [manager approval](#manager-approval-and-storage) step reads.
 
 The model is the same pair as the item card, Groq `qwen/qwen3.8-27b` with Gemini `gemini-3.5-flash` as the fallback, through `complete_json` in `api/app/ai.py`.
@@ -338,3 +366,9 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-04: Let staff as well as managers fix Needs Attention flags, as requirements.md lists, because a buyer waiting on a double sale shouldn't wait for a manager to come in.
 - 2026-11-04: Have the model only reword fixed sentences that code wrote for each flag, and refuse its text when it has a number the facts don't, so the explanation can't change what happened or what to do.
 - 2026-11-04: Write flag explanations on their own scheduler thread, so a slow model never delays polling or a delist.
+- 2026-11-04: Decide the channels and the timing in code and have the model only word the reason, and refuse a reason with a month or number the facts don't have, so the model can't change the advice, and show the fixed sentence when the model is missing, fails or takes more than 8 seconds.
+- 2026-11-04: Work out the channel reason on each request rather than store it, because the calendar and the card can change before staff choose, and a stored sentence would then say something the rules no longer do.
+- 2026-11-04: Recommend every channel that can take the item and let staff untick one, rather than pick a single best channel, because the rules know which channels can take an item but not which one will sell it.
+- 2026-11-04: Refuse Channel B for a card with no brand, from `CHANNEL_REQUIRED` in `api/app/listing_drafts.py`, which a test keeps the same as the mock channel's required fields, so the screen doesn't offer a channel that would refuse the listing.
+- 2026-11-04: Set the hold's release month from the timing hint when the listing is first drafted, rather than add a hold button, so the approval step holds the item as it already did, and a manager who wants a different hold changes the calendar in Settings.
+- 2026-11-04: Match a season word on the card's brand, product, exact model, material and visible text, as a whole word with plurals, so "fleece" in the material and "Chiefs" in the brand match, while "coat" doesn't match "coated".

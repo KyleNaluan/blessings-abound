@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-04, [#20](https://github.com/KyleNaluan/blessings-abound/issues/20), Recommend the channels that can take an item and a list now or hold hint from the Settings calendar on the item screen, with a one-line reason the model words and a fixed one when it can't, staff choosing the channels, and a hold setting the release month, which finishes #41
 - 2026-11-04, [#43](https://github.com/KyleNaluan/blessings-abound/issues/43), Add the Needs Attention screen for staff and managers, with a plain explanation and fix for each flag that falls back to fixed text when the model fails, a one-click cancel of the later order of a double sale that is retried while the channel is down, and a note for marking any flag handled
 - 2026-11-04, [#21](https://github.com/KyleNaluan/blessings-abound/issues/21), Add the two mock sales channels as their own services, publish an approved item to them once it has a shelf, and keep them in step after a sale with a webhook, polling, retried jobs, a sync log and flags for double sales and stale or unknown listings, with a sale putting the item on the pick list
 - 2026-11-04, [#68](https://github.com/KyleNaluan/blessings-abound/issues/68), Stop the web tests timing out when the shared CI runner freezes, by counting only the time a test ran against its 15 second limit
