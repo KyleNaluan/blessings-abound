@@ -1,0 +1,29 @@
+name: Pull request rules
+
+# Checks the pull request's own commits and its description against CONTRIBUTING.md.
+# It runs again when the description is edited, so fixing the description clears it without a push.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+concurrency:
+  group: pr-rules-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  pr-rules:
+    runs-on: [self-hosted, linux, ba-ci]
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v7
+      - name: Test
+        run: uv run --no-project --python 3.12 python -m unittest discover -s .github/scripts
+      - name: Commits and description follow CONTRIBUTING.md
+        env:
+          BASE_REF: ${{ github.base_ref }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: uv run --no-project --python 3.12 python .github/scripts/pr_rules.py "origin/$BASE_REF" "$HEAD_SHA"
