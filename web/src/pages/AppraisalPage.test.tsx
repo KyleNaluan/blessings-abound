@@ -971,8 +971,16 @@ test('a photo to retake is a prompt, and staff can use it anyway', async () => {
     "Photo 2: It's too dark to see the item well. Take it again with more light.",
   )
   expect(prompt).toHaveFocus()
-  expect(screen.getByText('Photo 2: take again')).toBeInTheDocument()
-  expect(screen.queryByText('Photo 1: take again')).not.toBeInTheDocument()
+  expect(
+    screen.getByText(
+      (_, node) => node?.tagName === 'P' && node.textContent === 'Photo 2: Take again',
+    ),
+  ).toBeInTheDocument()
+  expect(
+    screen.queryByText(
+      (_, node) => node?.tagName === 'P' && node.textContent === 'Photo 1: Take again',
+    ),
+  ).not.toBeInTheDocument()
   expect(posted(calls, '/items/item-1/card')).toHaveLength(0)
 
   fireEvent.click(screen.getByRole('button', { name: 'Use it anyway' }))

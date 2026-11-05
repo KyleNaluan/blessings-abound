@@ -87,6 +87,11 @@ function Listings({ comps, factor }: { comps: PricedComp[]; factor: number | nul
     <div className="mt-5">
       <table className="w-full table-fixed border-collapse text-sm">
         <caption className="pb-1.5 text-left text-[0.9375rem] font-bold">{caption}</caption>
+        {/* A fixed table takes its widths from here, since the headings are only for screen readers. */}
+        <colgroup>
+          <col />
+          <col className="w-[5.5rem]" />
+        </colgroup>
         <thead className="sr-only">
           <tr>
             <th scope="col">Listing</th>
@@ -117,7 +122,7 @@ function Listings({ comps, factor }: { comps: PricedComp[]; factor: number | nul
                   </span>
                 )}
               </td>
-              <td className="w-[5.5rem] border-t border-rule py-2 text-right align-top tabular-nums">
+              <td className="border-t border-rule py-2 text-right align-top tabular-nums">
                 {money(comp.asking_cents)}
               </td>
             </tr>
