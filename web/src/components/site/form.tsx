@@ -141,3 +141,65 @@ export function SubmitButton({ pending, children }: { pending: boolean; children
     </Button>
   )
 }
+
+type RadioGroupProps<T extends string> = {
+  // The first option's id, which an error summary link focuses.
+  id: string
+  legend: string
+  hint?: string
+  error?: string
+  options: readonly (readonly [T, string])[]
+  value: T | null
+  disabled?: boolean
+  onChange: (value: T) => void
+}
+
+// A set of radios in a fieldset, with the same hint and error layout as Field.
+export function RadioGroup<T extends string>({
+  id,
+  legend,
+  hint,
+  error,
+  options,
+  value,
+  disabled = false,
+  onChange,
+}: RadioGroupProps<T>) {
+  const hintId = `${id}-hint`
+  const errorId = `${id}-error`
+  const describedBy = [hint && hintId, error && errorId].filter(Boolean).join(' ') || undefined
+
+  // The error bar is on a wrapper, because a fieldset draws its border around the legend's middle.
+  return (
+    <div className={cn('mb-6', error && 'border-l-4 border-destructive pl-3.5')}>
+      <fieldset aria-describedby={describedBy}>
+        <legend className="mb-1 font-bold">{legend}</legend>
+        {hint && (
+          <p id={hintId} className="mb-1.5 text-muted-foreground">
+            {hint}
+          </p>
+        )}
+        {error && (
+          <p id={errorId} className="mb-1.5 font-bold text-destructive">
+            {error}
+          </p>
+        )}
+        {options.map(([option, label], index) => (
+          <label key={option} className="flex min-h-11 cursor-pointer items-center gap-2">
+            <input
+              type="radio"
+              id={index === 0 ? id : `${id}-${option}`}
+              name={id}
+              value={option}
+              checked={value === option}
+              disabled={disabled}
+              onChange={() => onChange(option)}
+              className="size-5 flex-none accent-primary"
+            />
+            {label}
+          </label>
+        ))}
+      </fieldset>
+    </div>
+  )
+}

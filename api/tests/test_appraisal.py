@@ -2,6 +2,7 @@
 
 import base64
 import io
+import itertools
 import json
 from collections.abc import Callable, Iterator
 from datetime import UTC, date, datetime
@@ -74,9 +75,14 @@ MODEL_CARD = {
 }
 
 
+PHOTO_NUMBERS = itertools.count(1)
+
+
 def jpeg(size: tuple[int, int] = (20, 10)) -> bytes:
+    """A photo with its own comment, so no two in a test share a hash unless a test says so."""
     output = io.BytesIO()
-    Image.new("RGB", size, "brown").save(output, format="JPEG")
+    image = Image.new("RGB", size, "brown")
+    image.save(output, format="JPEG", comment=f"photo {next(PHOTO_NUMBERS)}")
     return output.getvalue()
 
 
@@ -233,11 +239,15 @@ def as_token(token: str) -> dict[str, str]:
     return {"Authorization": f"Bearer {token}"}
 
 
-def upload(client: TestClient, content: bytes | None = None) -> dict[str, Any]:
-    content = jpeg() if content is None else content
-    response = client.post(
-        "/items", files={"photo": ("item.jpg", content, "image/jpeg")}, headers=client.headers
-    )
+def post_item(client: TestClient, *photos: bytes, **form: str | bool) -> httpx2.Response:
+    """Take an item in with these photos, a clothing item unless the form says otherwise."""
+    files = [("photos", (f"item-{n}.jpg", data, "image/jpeg")) for n, data in enumerate(photos)]
+    data = {"store_department": "clothing"} | {key: str(value) for key, value in form.items()}
+    return client.post("/items", files=files, data=data, headers=client.headers)
+
+
+def upload(client: TestClient, content: bytes | None = None, **form: str | bool) -> dict[str, Any]:
+    response = post_item(client, jpeg() if content is None else content, **form)
     assert response.status_code == 201, response.text
     return response.json()
 
@@ -260,10 +270,17 @@ def appraised_item(client: TestClient) -> tuple[str, str]:
     return item_id, appraise(client, item_id)["id"]
 
 
-def decide(client: TestClient, item_id: str, appraisal_id: str, choice: str = "yes") -> Any:
-    return client.post(
-        f"/items/{item_id}/decisions", json={"appraisal_id": appraisal_id, "decision": choice}
-    )
+REJECTION = {"rejection_reason": "Too worn to sell online", "destination": "store_floor"}
+
+
+def decide(
+    client: TestClient, item_id: str, appraisal_id: str, choice: str = "yes", **body: Any
+) -> Any:
+    """Save a decision, where a no comes with a reason and a destination unless the body says."""
+    fields = {"appraisal_id": appraisal_id, "decision": choice}
+    if choice == "no":
+        fields |= REJECTION
+    return client.post(f"/items/{item_id}/decisions", json=fields | body)
 
 
 def test_the_whole_path_saves_a_decision_and_lists_it(client: TestClient, session: Session) -> None:
@@ -298,8 +315,9 @@ def test_the_whole_path_saves_a_decision_and_lists_it(client: TestClient, sessio
 def test_upload_stores_the_photo_and_records_who_listed_it(
     client: TestClient, session: Session, storage: LocalStorage
 ) -> None:
-    item = upload(client, b"the photo bytes")
-    assert storage.read(item["photo_keys"][0]) == b"the photo bytes"
+    photo = jpeg()
+    item = upload(client, photo)
+    assert storage.read(item["photo_keys"][0]) == photo
     row = session.get(Item, UUID(item["id"]))
     assert row is not None
     lister = session.get(Profile, row.lister_id)
@@ -308,12 +326,9 @@ def test_upload_stores_the_photo_and_records_who_listed_it(
 
 
 def test_upload_needs_a_photo(client: TestClient) -> None:
-    assert client.post("/items").status_code == 422
-
-
-def test_upload_refuses_an_empty_photo(client: TestClient) -> None:
-    response = client.post("/items", files={"photo": ("item.jpg", b"", "image/jpeg")})
+    response = post_item(client)
     assert response.status_code == 422
+    assert response.json()["detail"] == "Add at least one photo of the item."
 
 
 def test_card_keeps_what_staff_entered(client: TestClient) -> None:
@@ -555,10 +570,14 @@ def test_a_model_that_is_not_set_up_is_a_clear_error(client: TestClient) -> None
     assert response.status_code == 503
 
 
-def test_a_photo_that_is_not_an_image_is_refused(client: TestClient) -> None:
+def test_a_stored_photo_that_is_not_an_image_is_refused(
+    client: TestClient, storage: LocalStorage
+) -> None:
     chat = model_replies()
-    item_id = upload(client, b"not an image")["id"]
-    response = client.post(f"/items/{item_id}/card", json={"condition": "pre_owned"})
+    item = upload(client)
+    # Intake refuses such a photo, so this one is spoiled in storage after it.
+    storage.save(item["photo_keys"][0], b"not an image", "image/jpeg")
+    response = client.post(f"/items/{item['id']}/card", json={"condition": "pre_owned"})
     assert response.status_code == 422
     assert chat.calls == []
 

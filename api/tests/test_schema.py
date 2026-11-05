@@ -23,6 +23,8 @@ TABLES = [
     "sync_log",
     "jobs",
     "flag_explanations",
+    "triage_log",
+    "sku_sequences",
     "alembic_version",
 ]
 CHANNEL_SCHEMAS = ["channel_a", "channel_b"]
@@ -48,7 +50,7 @@ def add_profile(connection: Connection, username: str = "tester", **values: Any)
 
 def add_item(connection: Connection, lister_id: UUID, **values: Any) -> UUID:
     item_id = uuid4()
-    fields: dict[str, Any] = {"sku": f"T{item_id.hex}", "photo_keys": ["a.jpg"], "photo_hash": "h"}
+    fields: dict[str, Any] = {"sku": f"T{item_id.hex}", "photo_keys": ["a.jpg"]}
     insert(connection, "items", id=item_id, lister_id=lister_id, **(fields | values))
     return item_id
 
@@ -58,6 +60,37 @@ def add_appraisal(connection: Connection, item_id: UUID, **values: Any) -> UUID:
     fields = {"confidence": "high", "recommendation": "yes", "rules_config": "{}"}
     insert(connection, "appraisals", id=appraisal_id, item_id=item_id, **(fields | values))
     return appraisal_id
+
+
+def add_triage(connection: Connection, **values: Any) -> None:
+    """A rejection in the triage log, for an item with a no decision."""
+    person = add_profile(connection, f"p{uuid4().hex[:8]}")
+    item_id = add_item(connection, person)
+    decision_id = uuid4()
+    insert(
+        connection,
+        "decisions",
+        id=decision_id,
+        item_id=item_id,
+        appraisal_id=add_appraisal(connection, item_id),
+        decision="no",
+        decided_by=person,
+    )
+    fields = {
+        "outcome": "rejected",
+        "rejection_reason": "Too worn",
+        "destination": "store_floor",
+        "recorded_at": "2026-11-04T12:00:00Z",
+    }
+    insert(
+        connection,
+        "triage_log",
+        id=uuid4(),
+        item_id=item_id,
+        decision_id=decision_id,
+        submitted_by=person,
+        **(fields | values),
+    )
 
 
 def add_card(connection: Connection, item_id: UUID, **values: Any) -> None:
@@ -147,7 +180,7 @@ def test_price_range_must_be_ordered(connection: Connection) -> None:
 
 def test_every_time_column_carries_a_time_zone(connection: Connection) -> None:
     columns = columns_named(connection, "%\\_at")
-    assert len(columns) == 31
+    assert len(columns) == 32
     assert {data_type for _, _, data_type in columns} == {"timestamp with time zone"}
 
 
@@ -220,6 +253,21 @@ def test_profile_defaults_to_active_staff(connection: Connection) -> None:
             "ck_item_cards_flaws_known",
         ),
         (
+            lambda c: add_item(c, add_profile(c), store_department="toys"),
+            "store_department",
+            "ck_items_store_department",
+        ),
+        (
+            lambda c: add_triage(c, outcome="maybe"),
+            "outcome",
+            "ck_triage_log_outcome",
+        ),
+        (
+            lambda c: add_triage(c, rejection_reason="Worn", destination="dumpster"),
+            "destination",
+            "ck_triage_log_destination",
+        ),
+        (
             lambda c: add_appraisal(c, add_item(c, add_profile(c)), recommendation="maybe"),
             "recommendation",
             "ck_appraisals_recommendation",
@@ -244,6 +292,43 @@ def test_skus_are_unique(connection: Connection) -> None:
 def test_an_item_has_one_to_four_photos(connection: Connection, photo_keys: list[str]) -> None:
     with pytest.raises(IntegrityError, match="ck_items_photo_keys_count"):
         add_item(connection, add_profile(connection), photo_keys=photo_keys)
+
+
+def test_an_item_has_a_hash_for_each_photo_or_none(connection: Connection) -> None:
+    person = add_profile(connection)
+    add_item(connection, person, photo_keys=["a", "b"], photo_hashes=["1", "2"])
+    add_item(connection, person, photo_keys=["a", "b"])
+    with pytest.raises(IntegrityError, match="ck_items_photo_hashes_count"):
+        add_item(connection, person, photo_keys=["a", "b"], photo_hashes=["1"])
+
+
+@pytest.mark.parametrize(
+    "values",
+    [
+        {"rejection_reason": None},
+        {"destination": None},
+        {"outcome": "accepted"},
+        {"outcome": "accepted", "rejection_reason": None},
+    ],
+    ids=["no-reason", "no-destination", "accepted-with-both", "accepted-with-destination"],
+)
+def test_only_a_rejection_has_a_reason_and_destination_and_it_has_both(
+    connection: Connection, values: dict[str, Any]
+) -> None:
+    with pytest.raises(IntegrityError, match="ck_triage_log_rejection_has_reason_and_destination"):
+        add_triage(connection, **values)
+
+
+def test_a_decision_has_one_triage_row(connection: Connection) -> None:
+    add_triage(connection)
+    row = connection.execute(text("SELECT * FROM triage_log")).mappings().one()
+    with pytest.raises(IntegrityError, match="uq_triage_log_decision_id"):
+        insert(connection, "triage_log", **(dict(row) | {"id": uuid4()}))
+
+
+def test_a_sku_sequence_counts_from_one(connection: Connection) -> None:
+    with pytest.raises(IntegrityError, match="ck_sku_sequences_last_value_positive"):
+        insert(connection, "sku_sequences", prefix="RT102726", last_value=0)
 
 
 def test_an_item_has_one_card(connection: Connection) -> None:

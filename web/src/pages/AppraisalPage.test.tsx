@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react'
 import { MemoryRouter } from 'react-router'
 
 import App from '@/App'
@@ -8,7 +8,14 @@ vi.mock('@/auth/supabase', async () => ({
   supabase: (await import('@/test/fakeSupabase')).fake.client,
 }))
 
-const item = { id: 'item-1', sku: 'PLACEHOLDER-1', status: 'intake', photo_keys: ['k'] }
+const item = {
+  id: 'item-1',
+  sku: 'ST11042601',
+  status: 'intake',
+  photo_keys: ['k'],
+  store_department: 'clothing',
+  notes: null,
+}
 const card = {
   item_id: 'item-1',
   category: 'apparel',
@@ -39,11 +46,12 @@ const appraisal = {
 const savedRow = {
   id: 'decision-1',
   item_id: 'item-1',
-  sku: 'PLACEHOLDER-1',
+  sku: 'ST11042601',
   brand: 'Carhartt',
   product: 'Canvas jacket',
   price_typical_cents: 3500,
   decision: 'no',
+  destination: 'seasonal_storage',
   decided_by_name: 'Demo Staff',
   decided_at: '2026-11-01T15:00:00+00:00',
 }
@@ -141,10 +149,42 @@ function renderPage() {
   )
 }
 
-async function pickPhoto() {
-  const input = await screen.findByLabelText('Take or choose a photo')
-  fireEvent.change(input, {
-    target: { files: [new File(['photo'], 'item.jpg', { type: 'image/jpeg' })] },
+const jpeg = (name = 'item.jpg') => new File(['photo'], name, { type: 'image/jpeg' })
+
+async function addPhotos(...files: File[]) {
+  const input = await screen.findByLabelText(/^(Take or choose a photo|Add another photo)$/)
+  fireEvent.change(input, { target: { files } })
+}
+
+// Fills in what intake needs, a photo, the department and the condition, and takes the item in.
+async function takeItemIn() {
+  await addPhotos(jpeg())
+  fireEvent.click(screen.getByLabelText('Clothing and shoes'))
+  fireEvent.click(screen.getByLabelText('Pre-owned'))
+  fireEvent.click(screen.getByRole('button', { name: 'Take it in' }))
+}
+
+async function sayNo(reason = 'Too worn to sell online', destination = 'Seasonal storage') {
+  fireEvent.click(await screen.findByRole('button', { name: "No, don't list it" }))
+  fireEvent.change(screen.getByLabelText("Why it isn't being listed"), {
+    target: { value: reason },
+  })
+  fireEvent.click(screen.getByLabelText(destination))
+  fireEvent.click(screen.getByRole('button', { name: 'Save the no' }))
+}
+
+const posted = (calls: Call[], path: string) =>
+  calls.filter((call) => call.method === 'POST' && call.path === path)
+
+// The parts of a multipart body in order, read from its text because the test DOM's File doesn't
+// survive Request.formData(). A file part reads as 'a file'.
+async function formFields(request: Request) {
+  const text = await request.clone().text()
+  const parts = text.split(/^--.*$/m).slice(1, -1)
+  return parts.map((part) => {
+    const [head, body] = part.split('\r\n\r\n')
+    const name = /name="([^"]+)"/.exec(head)?.[1]
+    return [name, /filename=/.test(head) ? 'a file' : body.replace(/\r\n$/, '')]
   })
 }
 
@@ -167,7 +207,7 @@ test('takes a photo through the card and the price to a saved decision in the li
   renderPage()
   expect(await screen.findByText('No decisions yet.')).toBeInTheDocument()
 
-  await pickPhoto()
+  await takeItemIn()
   await confirmTheCard()
 
   expect(await screen.findByRole('heading', { name: 'Price range' })).toBeInTheDocument()
@@ -175,21 +215,42 @@ test('takes a photo through the card and the price to a saved decision in the li
   expect(screen.getByText('The expected sale price is $35.00.')).toBeInTheDocument()
   expect(screen.getByText('$35.00')).toBeInTheDocument()
 
-  fireEvent.click(screen.getByRole('button', { name: "No, don't list it" }))
+  await sayNo()
 
-  expect(await screen.findByRole('status')).toHaveTextContent('Saved your decision: no.')
-  const row = await screen.findByRole('listitem')
+  expect(await screen.findByRole('status')).toHaveTextContent(
+    'Saved your decision: no. It goes to seasonal storage.',
+  )
+  const recent = screen.getByRole('region', { name: 'Recent decisions' })
+  const row = await within(recent).findByRole('listitem')
   expect(row).toHaveTextContent('Canvas jacket')
-  expect(row).toHaveTextContent('Demo Staff')
+  expect(row).toHaveTextContent('Seasonal storage')
+  expect(row).toHaveTextContent('$35.00 typical, Demo Staff,')
 
-  const decision = calls.find((call) => call.path.endsWith('/decisions') && call.method === 'POST')
-  expect(await decision?.request.json()).toEqual({ appraisal_id: 'appraisal-1', decision: 'no' })
+  const [decision] = posted(calls, '/items/item-1/decisions')
+  expect(await decision.request.json()).toEqual({
+    appraisal_id: 'appraisal-1',
+    decision: 'no',
+    rejection_reason: 'Too worn to sell online',
+    destination: 'seasonal_storage',
+  })
 })
 
-test('sends the sign-in token and the photo as a file part', async () => {
+test('a decision on an item with no price says so in the list', async () => {
+  stubApi({
+    'GET /decisions': () => Response.json([{ ...savedRow, price_typical_cents: null }]),
+  })
+  renderPage()
+
+  const recent = await screen.findByRole('region', { name: 'Recent decisions' })
+  const row = await within(recent).findByRole('listitem')
+  expect(row).toHaveTextContent('No price, Demo Staff,')
+  expect(row).not.toHaveTextContent('None')
+})
+
+test('sends the sign-in token and the photos as file parts', async () => {
   const calls = stubApi()
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
   await screen.findByRole('heading', { name: 'Item card' })
 
   const upload = calls.find((call) => call.path === '/items')
@@ -206,7 +267,7 @@ test('a failed step shows the error and retrying does not upload again', async (
         : Response.json(appraisal),
   })
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
   await confirmTheCard()
 
   expect(await screen.findByRole('alert')).toHaveTextContent('This item has no card yet.')
@@ -230,7 +291,7 @@ test('a failed save keeps the card and lets the person decide again', async () =
         : Response.json({ id: 'decision-1' }, { status: 201 }),
   })
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
   await confirmTheCard()
   fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
 
@@ -246,7 +307,7 @@ test('a failed save keeps the card and lets the person decide again', async () =
 test('stops at the card, with no search until staff confirm it', async () => {
   const calls = stubApi()
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
 
   expect(await screen.findByLabelText('Brand')).toHaveValue('Carhartt')
   expect(screen.getByLabelText('Color')).toHaveValue('Brown')
@@ -258,7 +319,7 @@ test('stops at the card, with no search until staff confirm it', async () => {
 test('sends what staff changed and shows the confirmed card', async () => {
   const calls = stubApi()
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
 
   fireEvent.change(await screen.findByLabelText('Brand'), { target: { value: 'Dickies' } })
   fireEvent.change(screen.getByLabelText('Exact model'), { target: { value: 'Eisenhower' } })
@@ -287,7 +348,7 @@ test('warns about a low confidence card and needs search words', async () => {
       Response.json({ ...card, model_confidence: 'low', needs_confirmation: true }),
   })
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
 
   expect(await screen.findByText(/The model isn't sure/)).toBeInTheDocument()
   fireEvent.change(screen.getByLabelText(/^Search/), { target: { value: '  ' } })
@@ -306,7 +367,7 @@ test('a failed confirm keeps what staff typed', async () => {
         : Response.json({ ...card, brand: 'Dickies', staff_confirmed: true }),
   })
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
   fireEvent.change(await screen.findByLabelText('Brand'), { target: { value: 'Dickies' } })
   await confirmTheCard()
 
@@ -334,7 +395,7 @@ test('an unreachable API says so', async () => {
 test('appraising another item clears the last one', async () => {
   stubApi()
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
   await confirmTheCard()
   fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
   fireEvent.click(await screen.findByRole('button', { name: 'Appraise another item' }))
@@ -343,6 +404,8 @@ test('appraising another item clears the last one', async () => {
     expect(screen.queryByRole('heading', { name: 'Item card' })).not.toBeInTheDocument(),
   )
   expect(screen.getByLabelText('Take or choose a photo')).toBeInTheDocument()
+  expect(screen.queryByRole('img')).not.toBeInTheDocument()
+  expect(screen.getByLabelText('Pre-owned')).not.toBeChecked()
 })
 
 test('sends people who are not signed in to the sign-in page', async () => {
@@ -354,7 +417,7 @@ test('sends people who are not signed in to the sign-in page', async () => {
 test('a yes decision shows the channels and timing, then drafts the chosen channels', async () => {
   const calls = stubApi()
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
   await confirmTheCard()
   fireEvent.click(await screen.findByRole('button', { name: 'Yes, list it' }))
 
@@ -381,9 +444,9 @@ test('a yes decision shows the channels and timing, then drafts the chosen chann
 test('a no decision writes no listing', async () => {
   const calls = stubApi()
   renderPage()
-  await pickPhoto()
+  await takeItemIn()
   await confirmTheCard()
-  fireEvent.click(await screen.findByRole('button', { name: "No, don't list it" }))
+  await sayNo()
 
   expect(await screen.findByRole('status')).toHaveTextContent('Saved your decision: no.')
   expect(screen.queryByRole('heading', { name: 'Listing drafts' })).not.toBeInTheDocument()
@@ -392,4 +455,234 @@ test('a no decision writes no listing', async () => {
   ).not.toBeInTheDocument()
   expect(calls.some((call) => call.path.includes('/drafts'))).toBe(false)
   expect(calls.some((call) => call.path.includes('/channels'))).toBe(false)
+})
+
+test('intake sends the photos and notes, then the clothing entries for the card', async () => {
+  const calls = stubApi()
+  renderPage()
+  await addPhotos(jpeg('front.jpg'), jpeg('tag.jpg'))
+  expect(screen.getAllByRole('img')).toHaveLength(2)
+  fireEvent.click(screen.getByLabelText('Clothing and shoes'))
+  fireEvent.click(screen.getByLabelText('New with tags'))
+  fireEvent.click(screen.getByLabelText('Stains'))
+  fireEvent.click(screen.getByLabelText("Women's"))
+  fireEvent.change(screen.getByLabelText('Size (optional)'), { target: { value: 'M' } })
+  fireEvent.change(screen.getByLabelText('Size type (optional)'), { target: { value: 'Petite' } })
+  fireEvent.change(screen.getByLabelText('Notes (optional)'), {
+    target: { value: 'Missing one button' },
+  })
+  expect(screen.queryByText('Tested and working')).not.toBeInTheDocument()
+  fireEvent.click(screen.getByRole('button', { name: 'Take it in' }))
+
+  expect(await screen.findByRole('heading', { name: 'Taken in as ST11042601' })).toBeInTheDocument()
+  expect(await formFields(posted(calls, '/items')[0].request)).toEqual([
+    ['photos', 'a file'],
+    ['photos', 'a file'],
+    ['store_department', 'clothing'],
+    ['notes', 'Missing one button'],
+    ['allow_repeat', 'false'],
+  ])
+  const [cardCall] = posted(calls, '/items/item-1/card')
+  expect(await cardCall.request.json()).toEqual({
+    condition: 'new_with_tags',
+    flaws: ['stains'],
+    department: 'womens',
+    size: 'M',
+    size_type: 'Petite',
+  })
+  expect(screen.queryByRole('button', { name: 'Take it in' })).not.toBeInTheDocument()
+})
+
+test('an electronics item asks whether it works, is boxed and what comes with it', async () => {
+  const calls = stubApi()
+  renderPage()
+  await addPhotos(jpeg())
+  fireEvent.click(screen.getByLabelText('Electronics and games'))
+  fireEvent.click(screen.getByLabelText('Pre-owned'))
+  fireEvent.click(screen.getByLabelText("No, it doesn't work"))
+  fireEvent.click(screen.getByRole('radio', { name: 'Yes' }))
+  fireEvent.change(screen.getByLabelText('Accessories included (optional)'), {
+    target: { value: 'Charger' },
+  })
+  expect(screen.queryByLabelText('Size (optional)')).not.toBeInTheDocument()
+  fireEvent.click(screen.getByRole('button', { name: 'Take it in' }))
+
+  await screen.findByRole('heading', { name: 'Item card' })
+  const [cardCall] = posted(calls, '/items/item-1/card')
+  expect(await cardCall.request.json()).toEqual({
+    condition: 'pre_owned',
+    flaws: [],
+    tested_working: false,
+    complete_in_box: true,
+    accessories_included: 'Charger',
+  })
+})
+
+test('intake needs a photo, the department and the condition before it uploads', async () => {
+  const calls = stubApi()
+  renderPage()
+  fireEvent.click(await screen.findByRole('button', { name: 'Take it in' }))
+
+  const summary = screen.getByRole('alert')
+  expect(summary).toHaveTextContent('There is a problem')
+  expect(summary).toHaveTextContent('Add at least one photo of the item.')
+  expect(summary).toHaveTextContent('Choose the department it came from.')
+  expect(summary).toHaveTextContent('Choose its condition.')
+  expect(posted(calls, '/items')).toHaveLength(0)
+})
+
+test.each([
+  ['an empty file', new File([], 'item.jpg', { type: 'image/jpeg' }), 'Photo 1 is empty.'],
+  [
+    'a file that is not a photo',
+    new File(['%PDF'], 'item.pdf', { type: 'application/pdf' }),
+    "Photo 1 isn't a JPEG, PNG or WebP image.",
+  ],
+  [
+    'a photo over the size limit',
+    Object.defineProperty(jpeg(), 'size', { value: 15 * 1024 * 1024 + 1 }),
+    'Photo 1 is over 15 MB, so choose a smaller copy.',
+  ],
+])('%s is refused when it is chosen', async (_, file, message) => {
+  stubApi()
+  renderPage()
+  await addPhotos(file)
+
+  expect(await screen.findByRole('alert')).toHaveTextContent(message)
+  expect(screen.queryByRole('img')).not.toBeInTheDocument()
+})
+
+test('an item takes at most four photos, and a photo can be removed', async () => {
+  stubApi()
+  renderPage()
+  await addPhotos(...['1', '2', '3', '4', '5'].map((n) => jpeg(`${n}.jpg`)))
+
+  expect(screen.getAllByRole('img')).toHaveLength(4)
+  expect(screen.getByRole('alert')).toHaveTextContent(
+    'Add at most 4 photos, so only the first 4 were added.',
+  )
+  expect(screen.queryByLabelText('Add another photo')).not.toBeInTheDocument()
+
+  fireEvent.click(screen.getByRole('button', { name: 'Remove photo 2' }))
+  expect(screen.getAllByRole('img')).toHaveLength(3)
+  expect(screen.getByLabelText('Add another photo')).toBeInTheDocument()
+  expect(URL.revokeObjectURL).toHaveBeenCalledTimes(1)
+})
+
+test('a photo the API refuses shows its reason and keeps the form', async () => {
+  stubApi({
+    'POST /items': () =>
+      Response.json({ detail: "Photo 1 isn't a JPEG, PNG or WebP image." }, { status: 422 }),
+  })
+  renderPage()
+  await takeItemIn()
+
+  expect(await screen.findByRole('alert')).toHaveTextContent(
+    "Photo 1 isn't a JPEG, PNG or WebP image.",
+  )
+  expect(screen.getByLabelText('Pre-owned')).toBeChecked()
+})
+
+const repeat = {
+  detail: {
+    message: 'A photo matches an item that was rejected before.',
+    matches: [
+      {
+        item_id: 'item-0',
+        sku: 'RT10272601',
+        brand: 'Carhartt',
+        product: 'Canvas jacket',
+        rejection_reason: 'Too worn to sell online',
+        destination: 'store_floor',
+        rejected_at: '2026-10-27T16:00:00+00:00',
+      },
+    ],
+  },
+}
+
+test('a photo of a rejected item is flagged, and staff can take it in anyway', async () => {
+  const calls = stubApi({
+    'POST /items': () =>
+      posted(calls, '/items').length === 1
+        ? Response.json(repeat, { status: 409 })
+        : Response.json(item, { status: 201 }),
+  })
+  renderPage()
+  await takeItemIn()
+
+  const warning = await screen.findByRole('alert')
+  expect(warning).toHaveTextContent('This may have been rejected before')
+  expect(warning).toHaveFocus()
+  expect(warning).toHaveTextContent('Carhartt Canvas jacket')
+  expect(warning).toHaveTextContent('SKU RT10272601')
+  expect(warning).toHaveTextContent('Why: Too worn to sell online')
+  expect(warning).toHaveTextContent('Where it went: Back to the store floor')
+  expect(posted(calls, '/items/item-1/card')).toHaveLength(0)
+
+  fireEvent.click(screen.getByRole('button', { name: 'Take it in anyway' }))
+
+  expect(await screen.findByRole('heading', { name: 'Item card' })).toBeInTheDocument()
+  const [, again] = posted(calls, '/items')
+  expect(await formFields(again.request)).toContainEqual(['allow_repeat', 'true'])
+})
+
+test('staff can stop when a photo is flagged', async () => {
+  const calls = stubApi({ 'POST /items': () => Response.json(repeat, { status: 409 }) })
+  renderPage()
+  await takeItemIn()
+  fireEvent.click(await screen.findByRole('button', { name: "Don't take it in" }))
+
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+  expect(screen.queryByRole('img')).not.toBeInTheDocument()
+  expect(screen.getByLabelText('Take or choose a photo')).toHaveFocus()
+  expect(posted(calls, '/items')).toHaveLength(1)
+})
+
+test('a no needs a reason and where the item goes, and Back returns to the choice', async () => {
+  const calls = stubApi()
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+  fireEvent.click(await screen.findByRole('button', { name: "No, don't list it" }))
+  expect(screen.queryByRole('button', { name: 'Yes, list it' })).not.toBeInTheDocument()
+  fireEvent.click(screen.getByRole('button', { name: 'Save the no' }))
+
+  expect(screen.getByText("Say why it isn't being listed.")).toBeInTheDocument()
+  expect(screen.getByText('Choose where the item goes instead.')).toBeInTheDocument()
+  expect(screen.getByLabelText('Back to the store floor')).toBeInTheDocument()
+  expect(screen.getByLabelText('Discard or donate onward')).toBeInTheDocument()
+  expect(posted(calls, '/items/item-1/decisions')).toHaveLength(0)
+
+  fireEvent.click(screen.getByRole('button', { name: 'Back' }))
+  expect(screen.getByRole('button', { name: 'Yes, list it' })).toBeInTheDocument()
+  expect(screen.queryByLabelText("Why it isn't being listed")).not.toBeInTheDocument()
+})
+
+test('a no that fails to save keeps the reason staff typed', async () => {
+  let failing = true
+  const calls = stubApi({
+    'POST /items/item-1/decisions': () =>
+      failing
+        ? Response.json({ detail: 'Could not save.' }, { status: 500 })
+        : Response.json({ id: 'decision-1' }, { status: 201 }),
+  })
+  renderPage()
+  await takeItemIn()
+  await confirmTheCard()
+  await sayNo('Stained', 'Discard or donate onward')
+
+  expect(await screen.findByRole('alert')).toHaveTextContent('Could not save.')
+  expect(screen.getByLabelText("Why it isn't being listed")).toHaveValue('Stained')
+  expect(screen.getByLabelText('Discard or donate onward')).toBeChecked()
+
+  failing = false
+  fireEvent.click(screen.getByRole('button', { name: 'Save the no' }))
+  expect(await screen.findByRole('status')).toHaveTextContent(
+    'Saved your decision: no. It gets discarded or donated onward.',
+  )
+  const [, saved] = posted(calls, '/items/item-1/decisions')
+  expect(await saved.request.json()).toMatchObject({
+    rejection_reason: 'Stained',
+    destination: 'discard_or_donate',
+  })
 })

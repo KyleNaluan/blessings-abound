@@ -12,6 +12,7 @@ dependencies = [
     "pydantic-settings>=2.16.1",
     "python-multipart>=0.0.33",
     "sqlmodel>=0.0.48",
+    "tzdata>=2026.5",
     "uvicorn[standard]>=0.54.0",
 ]
 

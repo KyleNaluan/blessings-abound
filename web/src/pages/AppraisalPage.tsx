@@ -2,9 +2,9 @@ import {
   Fragment,
   useCallback,
   useEffect,
+  useLayoutEffect,
   useRef,
   useState,
-  type ChangeEvent,
   type FormEvent,
 } from 'react'
 import { Link } from 'react-router'
@@ -14,23 +14,36 @@ import {
   createAppraisal,
   createItemCard,
   listRecentDecisions,
+  RepeatPhotoError,
   saveDecision,
-  uploadPhoto,
+  takeItemIn,
   type Appraisal,
   type Channel,
   type DecisionChoice,
+  type Destination,
   type Item,
   type ItemCard,
   type ItemCardEdit,
   type RecentDecision,
+  type RejectedMatch,
+  type Rejection,
 } from '@/api/appraisal'
 import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { Field, SubmitButton, TextInput } from '@/components/site/form'
+import { Field, RadioGroup, SubmitButton, TextInput } from '@/components/site/form'
 import { SignOutButton } from '@/components/site/SignOutButton'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 
 import { ChannelChoice } from './ChannelChoice'
+import {
+  CONDITIONS,
+  DESTINATIONS,
+  STORE_DEPARTMENTS,
+  WHERE_IT_GOES,
+  label,
+  type Photo,
+} from './intake'
+import { IntakeForm, type Intake } from './IntakeForm'
 import { ListingDrafts } from './ListingDrafts'
 
 const money = (cents: number | null | undefined) =>
@@ -39,25 +52,29 @@ const money = (cents: number | null | undefined) =>
 const when = (iso: string) =>
   new Date(iso).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' })
 
-// The steps so far for one photo. A step that fails can be tried again without repeating the ones before it.
-type Progress = { photo: File; item?: Item; card?: ItemCard; appraisal?: Appraisal }
+// The steps so far for one item. A step that fails can be tried again without repeating the ones before it.
+type Progress = {
+  intake: Intake
+  // Staff saw that a photo matches a rejected item and chose to take it in anyway.
+  allowRepeat: boolean
+  item?: Item
+  card?: ItemCard
+  appraisal?: Appraisal
+}
 
 type Status =
   | { step: 'idle' }
   | { step: 'working'; label: string }
+  | { step: 'repeat'; matches: RejectedMatch[] }
   | { step: 'checking' }
   | { step: 'failed'; message: string }
   | { step: 'ready' }
-  | { step: 'deciding' }
-  | { step: 'saved'; decision: DecisionChoice }
+  | { step: 'rejecting'; error?: string }
+  | { step: 'deciding'; decision: DecisionChoice }
+  | { step: 'saved'; decision: DecisionChoice; destination?: Destination }
 
 const CATEGORY_LABELS = { apparel: 'Apparel', electronics_games: 'Electronics and games' }
 const CONFIDENCE_LABELS = { low: 'Low', medium: 'Medium', high: 'High' }
-const CONDITION_LABELS = {
-  new_with_tags: 'New with tags',
-  new_without_tags: 'New without tags',
-  pre_owned: 'Pre-owned',
-}
 
 // The card fields staff can change here, in the order they are shown.
 const TEXT_FIELDS = [
@@ -103,7 +120,7 @@ function CardForm({
         <dt className="font-bold">Confidence</dt>
         <dd>{CONFIDENCE_LABELS[card.model_confidence]}</dd>
         <dt className="font-bold">Condition</dt>
-        <dd>{CONDITION_LABELS[card.condition]}, the default until the intake form is built</dd>
+        <dd>{label(CONDITIONS, card.condition)}</dd>
       </dl>
       <Field id="card-category" label="Category">
         {({ id }) => (
@@ -156,17 +173,186 @@ function CardForm({
   )
 }
 
+function PhotoStrip({ photos }: { photos: Photo[] }) {
+  return (
+    <ul className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      {photos.map((photo, index) => (
+        <li key={photo.url}>
+          <img
+            src={photo.url}
+            alt={`Photo ${index + 1} of the item`}
+            className="aspect-square w-full border border-rule bg-surface object-contain"
+          />
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+const itemName = (row: { brand: string | null; product: string | null; sku: string }) =>
+  [row.brand, row.product].filter(Boolean).join(' ') || row.sku
+
+function RepeatWarning({
+  matches,
+  onTakeIn,
+  onStop,
+}: {
+  matches: RejectedMatch[]
+  onTakeIn: () => void
+  onStop: () => void
+}) {
+  const ref = useRef<HTMLElement>(null)
+
+  // It shows below the form, so it takes focus to scroll into view, as the error summary does.
+  useLayoutEffect(() => {
+    ref.current?.focus()
+  }, [])
+
+  return (
+    <section
+      ref={ref}
+      role="alert"
+      tabIndex={-1}
+      aria-labelledby="repeat-heading"
+      className="mb-7 border-4 border-destructive px-5 py-4 focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid"
+    >
+      <h2 id="repeat-heading" className="mb-2 text-xl font-bold">
+        This may have been rejected before
+      </h2>
+      <p className="mb-3">
+        A photo matches {matches.length === 1 ? 'an item' : `${matches.length} items`} staff said no
+        to. Check it isn't the same item before you take it in again.
+      </p>
+      <ul className="mb-4">
+        {matches.map((match) => (
+          <li key={match.item_id} className="border-t border-rule py-3">
+            <p className="font-bold break-words">{itemName(match)}</p>
+            <p className="text-sm text-muted-foreground">
+              SKU {match.sku}, rejected {when(match.rejected_at)}
+            </p>
+            <p className="break-words">Why: {match.rejection_reason}</p>
+            <p>Where it went: {label(DESTINATIONS, match.destination)}</p>
+          </li>
+        ))}
+      </ul>
+      <div className="flex flex-wrap gap-3">
+        <Button size="lg" className="max-sm:w-full" onClick={onStop}>
+          Don't take it in
+        </Button>
+        <Button variant="outline" size="lg" className="max-sm:w-full" onClick={onTakeIn}>
+          Take it in anyway
+        </Button>
+      </div>
+    </section>
+  )
+}
+
+const REASON_MAX = 200
+
+function RejectionForm({
+  busy,
+  error,
+  onSave,
+  onBack,
+}: {
+  busy: boolean
+  error?: string
+  onSave: (rejection: Rejection) => void
+  onBack: () => void
+}) {
+  const [reason, setReason] = useState('')
+  const [destination, setDestination] = useState<Destination | null>(null)
+  const [reasonError, setReasonError] = useState<string | undefined>()
+  const [destinationError, setDestinationError] = useState<string | undefined>()
+
+  function submit(event: FormEvent) {
+    event.preventDefault()
+    if (busy) return
+    setReasonError(reason.trim() ? undefined : "Say why it isn't being listed.")
+    setDestinationError(destination ? undefined : 'Choose where the item goes instead.')
+    if (!reason.trim() || !destination) return
+    onSave({ reason: reason.trim(), destination })
+  }
+
+  return (
+    <form
+      onSubmit={submit}
+      noValidate
+      aria-labelledby="rejection-heading"
+      className="mb-7 border border-rule p-4"
+    >
+      <h2 id="rejection-heading" className="mb-3 text-xl font-bold">
+        Not listing it
+      </h2>
+      {error && (
+        <p role="alert" className="mb-4 border-l-4 border-destructive pl-3.5 font-bold">
+          {error}
+        </p>
+      )}
+      <Field
+        id="rejection-reason"
+        label="Why it isn't being listed"
+        hint="Such as too worn, or worth too little online."
+        error={reasonError}
+      >
+        {({ id, describedBy, invalid }) => (
+          <TextInput
+            id={id}
+            value={reason}
+            maxLength={REASON_MAX}
+            disabled={busy}
+            invalid={invalid}
+            aria-describedby={describedBy}
+            onChange={(event) => setReason(event.target.value)}
+          />
+        )}
+      </Field>
+      <RadioGroup
+        id="destination"
+        legend="Where it goes instead"
+        options={DESTINATIONS}
+        value={destination}
+        error={destinationError}
+        disabled={busy}
+        onChange={setDestination}
+      />
+      <div className="flex flex-wrap gap-3">
+        <SubmitButton pending={busy}>Save the no</SubmitButton>
+        <Button
+          type="button"
+          variant="outline"
+          size="lg"
+          className="max-sm:w-full"
+          disabled={busy}
+          onClick={onBack}
+        >
+          Back
+        </Button>
+      </div>
+    </form>
+  )
+}
+
 // PLACEHOLDER: #17 replaces this screen with the full appraisal design, keeping the same API calls.
 export function AppraisalPage() {
   usePageTitle('Appraise an item')
   const [progress, setProgress] = useState<Progress | null>(null)
   const [status, setStatus] = useState<Status>({ step: 'idle' })
-  const [preview, setPreview] = useState<string | null>(null)
   const [recent, setRecent] = useState<RecentDecision[] | null>(null)
   const [recentError, setRecentError] = useState<string | null>(null)
   const [channels, setChannels] = useState<Channel[] | null>(null)
   const [listingSent, setListingSent] = useState(false)
-  const inputRef = useRef<HTMLInputElement>(null)
+  // A new key clears the intake form when staff start over.
+  const [formKey, setFormKey] = useState(0)
+  const [photos, setPhotos] = useState<Photo[]>([])
+  const photosRef = useRef(photos)
+
+  useEffect(() => {
+    photosRef.current = photos
+  }, [photos])
+
+  // The previews' object URLs go with the page.
+  useEffect(() => () => photosRef.current.forEach((photo) => URL.revokeObjectURL(photo.url)), [])
 
   const loadRecent = useCallback(
     () =>
@@ -183,22 +369,21 @@ export function AppraisalPage() {
     void loadRecent()
   }, [loadRecent])
 
-  useEffect(() => {
-    if (!preview) return
-    return () => URL.revokeObjectURL(preview)
-  }, [preview])
-
   async function run(start: Progress) {
     const next = { ...start }
     try {
       if (!next.item) {
-        setStatus({ step: 'working', label: 'Uploading the photo' })
-        next.item = await uploadPhoto(next.photo)
+        setStatus({
+          step: 'working',
+          label:
+            next.intake.item.photos.length === 1 ? 'Uploading the photo' : 'Uploading the photos',
+        })
+        next.item = await takeItemIn(next.intake.item, next.allowRepeat)
         setProgress({ ...next })
       }
       if (!next.card) {
         setStatus({ step: 'working', label: 'Making the item card' })
-        next.card = await createItemCard(next.item.id)
+        next.card = await createItemCard(next.item.id, next.intake.entries)
         setProgress({ ...next })
       }
       // Staff check every card before a search is spent, and the API insists when the model is unsure.
@@ -213,17 +398,22 @@ export function AppraisalPage() {
       }
       setStatus({ step: 'ready' })
     } catch (error) {
-      setStatus({ step: 'failed', message: (error as Error).message })
+      if (error instanceof RepeatPhotoError) setStatus({ step: 'repeat', matches: error.matches })
+      else setStatus({ step: 'failed', message: (error as Error).message })
     }
   }
 
-  function onPhoto(event: ChangeEvent<HTMLInputElement>) {
-    const photo = event.target.files?.[0]
-    if (!photo) return
-    setPreview(URL.createObjectURL(photo))
-    const start = { photo }
+  function takeIn(intake: Intake) {
+    const start = { intake, allowRepeat: false }
     setProgress(start)
     void run(start)
+  }
+
+  function takeInAnyway() {
+    if (!progress) return
+    const next = { ...progress, allowRepeat: true }
+    setProgress(next)
+    void run(next)
   }
 
   async function confirmCard(edit: ItemCardEdit) {
@@ -239,15 +429,19 @@ export function AppraisalPage() {
     }
   }
 
-  async function decide(decision: DecisionChoice) {
+  async function decide(decision: DecisionChoice, rejection?: Rejection) {
     if (!progress?.item || !progress.appraisal) return
-    setStatus({ step: 'deciding' })
+    setStatus({ step: 'deciding', decision })
     try {
-      await saveDecision(progress.item.id, progress.appraisal.id, decision)
-      setStatus({ step: 'saved', decision })
+      await saveDecision(progress.item.id, progress.appraisal.id, decision, rejection)
+      setStatus({ step: 'saved', decision, destination: rejection?.destination })
       await loadRecent()
     } catch (error) {
-      setStatus({ step: 'failed', message: (error as Error).message })
+      const message = (error as Error).message
+      // A no that didn't save stays in its form, so the reason staff typed isn't lost.
+      setStatus(
+        decision === 'no' ? { step: 'rejecting', error: message } : { step: 'failed', message },
+      )
     }
   }
 
@@ -260,15 +454,18 @@ export function AppraisalPage() {
 
   function startOver() {
     setProgress(null)
-    setPreview(null)
     setStatus({ step: 'idle' })
     setChannels(null)
     setListingSent(false)
-    if (inputRef.current) inputRef.current.value = ''
+    setFormKey(formKey + 1)
+    photos.forEach((photo) => URL.revokeObjectURL(photo.url))
+    setPhotos([])
   }
 
   const busy = status.step === 'working' || status.step === 'deciding'
-  const { card, appraisal } = progress ?? {}
+  const { item, card, appraisal } = progress ?? {}
+  const rejecting =
+    status.step === 'rejecting' || (status.step === 'deciding' && status.decision === 'no')
 
   return (
     <AuthLayout end={<SignOutButton />}>
@@ -276,36 +473,44 @@ export function AppraisalPage() {
         <Link to="/app">Back to home</Link>
       </p>
       <PageHeading>Appraise an item</PageHeading>
-      <Lead>Take a photo of the item, check the card and the price, then decide.</Lead>
+      <Lead>Take the item in with its photos, check the card and the price, then decide.</Lead>
 
-      {!progress?.item && (
-        <div className="mb-7">
-          <label htmlFor="photo" className="mb-1 block font-bold">
-            Take or choose a photo
-          </label>
-          <input
-            ref={inputRef}
-            id="photo"
-            type="file"
-            accept="image/*"
-            disabled={busy}
-            onChange={onPhoto}
-            className="w-full min-w-0 border-2 border-input bg-background p-2 text-foreground"
-          />
-        </div>
+      {!item && (
+        <IntakeForm
+          key={formKey}
+          // A fresh form after starting over takes focus, so staff are back where the next item starts.
+          focusPhotos={formKey > 0}
+          busy={busy}
+          photos={photos}
+          onPhotosChange={setPhotos}
+          onSubmit={takeIn}
+        />
       )}
 
-      {preview && (
-        <img
-          src={preview}
-          alt="The item you photographed"
-          className="mb-7 max-h-64 w-full border border-rule bg-surface object-contain"
-        />
+      {item && (
+        <section aria-labelledby="item-heading" className="mb-7 border border-rule p-4">
+          <h2 id="item-heading" className="mb-3 text-xl font-bold">
+            Taken in as {item.sku}
+          </h2>
+          <PhotoStrip photos={photos} />
+          <dl className="grid grid-cols-[8rem_1fr] gap-x-4 gap-y-1">
+            <dt className="font-bold">Department</dt>
+            <dd>
+              {item.store_department ? label(STORE_DEPARTMENTS, item.store_department) : 'None'}
+            </dd>
+            <dt className="font-bold">Notes</dt>
+            <dd className="min-w-0 break-words">{item.notes ?? 'None'}</dd>
+          </dl>
+        </section>
       )}
 
       <div aria-live="polite">
         {status.step === 'working' && <p className="mb-7 font-bold">{status.label}...</p>}
       </div>
+
+      {status.step === 'repeat' && (
+        <RepeatWarning matches={status.matches} onTakeIn={takeInAnyway} onStop={startOver} />
+      )}
 
       {status.step === 'failed' && (
         <div role="alert" className="mb-7 border-4 border-destructive px-5 py-4">
@@ -368,7 +573,7 @@ export function AppraisalPage() {
         </section>
       )}
 
-      {appraisal && (status.step === 'ready' || status.step === 'deciding') && (
+      {appraisal && (status.step === 'ready' || (status.step === 'deciding' && !rejecting)) && (
         <div className="mb-7 flex gap-3">
           <Button size="lg" className="flex-1" disabled={busy} onClick={() => decide('yes')}>
             Yes, list it
@@ -378,17 +583,27 @@ export function AppraisalPage() {
             size="lg"
             className="flex-1"
             disabled={busy}
-            onClick={() => decide('no')}
+            onClick={() => setStatus({ step: 'rejecting' })}
           >
             No, don't list it
           </Button>
         </div>
       )}
 
+      {appraisal && rejecting && (
+        <RejectionForm
+          busy={busy}
+          error={status.step === 'rejecting' ? status.error : undefined}
+          onSave={(rejection) => void decide('no', rejection)}
+          onBack={() => setStatus({ step: 'ready' })}
+        />
+      )}
+
       {status.step === 'saved' && (
         <div className="mb-7">
           <p role="status" className="mb-7 font-bold">
             Saved your decision: {status.decision}.
+            {status.destination && ` ${WHERE_IT_GOES[status.destination]}`}
           </p>
           {status.decision === 'yes' && progress?.item && (
             <ChannelChoice itemId={progress.item.id} onChoose={setChannels} />
@@ -428,9 +643,15 @@ export function AppraisalPage() {
                     {row.decision === 'yes' ? 'Yes' : 'No'}
                   </span>
                 </div>
+                {row.destination && <p>{label(DESTINATIONS, row.destination)}</p>}
                 <p className="text-sm text-muted-foreground">
-                  {money(row.price_typical_cents)} typical, {row.decided_by_name},{' '}
-                  {when(row.decided_at)}
+                  {[
+                    row.price_typical_cents == null
+                      ? 'No price'
+                      : `${money(row.price_typical_cents)} typical`,
+                    row.decided_by_name,
+                    when(row.decided_at),
+                  ].join(', ')}
                 </p>
               </li>
             ))}

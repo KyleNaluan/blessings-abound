@@ -48,11 +48,12 @@ Each item is one of a kind.
 | Column | Type | Rules |
 | --- | --- | --- |
 | `id` | `uuid` | Primary key |
-| `sku` | `text` | Required, unique, and a placeholder from the walking skeleton until #37 |
+| `sku` | `text` | Required and unique, the lister's initials, the store's date as `MMDDYY` and a two-digit daily sequence, such as `RT11042601`, with the box code added after a space once the item is packed |
 | `lister_id` | `uuid` | Required, foreign key to `profiles` |
 | `status` | `varchar(32)` | `intake`, `card_ready`, `appraised`, `declined`, `approved`, `held_for_season`, `listed`, `sold` or `picked`, default `intake` |
 | `photo_keys` | `text[]` | Storage keys, 1 to 4 of them |
-| `photo_hash` | `text` | Required and indexed for the duplicate guard, not unique because a repeat photo prompts staff rather than being refused, and a placeholder from the walking skeleton until #9 |
+| `photo_hashes` | `text[]` | The SHA-256 of each photo, in the order of `photo_keys`, default empty, and either empty or as long as `photo_keys`, with a GIN index for the repeat photo guard |
+| `store_department` | `varchar(32)` | Optional, `clothing` or `electronics_games`, the store department the item came from, which intake asks for |
 | `notes` | `text` | Optional |
 | `release_month` | `date` | Optional, the first day of the month a held item is released in, which the timing hint sets when the listing is first drafted |
 | `package_weight_oz` | `double precision` | Optional, more than 0, the packed weight a manager enters, set together with `box_code` |
@@ -62,6 +63,9 @@ Each item is one of a kind.
 | `updated_at` | `timestamptz` | Maintained by the API through the ORM's `onupdate`, not the database |
 
 The box code is copied rather than referenced, so taking a size out of Settings doesn't change the SKU of an item already packed in it.
+The initials and the sequence are explained under [`sku_sequences`](#sku_sequences).
+The migration that added real SKUs gave each placeholder SKU from the walking skeleton a real one, from its lister's initials and the store's date on the day it was taken in, numbered in the order the items were made.
+Items taken in before #9 have no photo hashes and no store department, because their photos were never fingerprinted, so the repeat photo guard never matches them.
 The API checks the code against Settings when it is saved, upper-cases the shelf or bin and closes up the spaces around a dash, so `b12 - 2` is saved as `B12-2`.
 An approved item whose release month is still to come is `held_for_season`, and it keeps its release month.
 `sold` is set by `mark_sold` in `api/app/approval.py`, which the channel sync calls when it records a sale.
@@ -124,6 +128,41 @@ Every staff yes or no, kept as a history, so an item can have several.
 
 The foreign keys have no cascade, so a person or an item with history cannot be deleted by accident.
 People are deactivated rather than deleted, so their past decisions stay.
+
+### `triage_log`
+
+One row for each staff yes or no on an item forwarded to Ecommerce, written in the same transaction as the decision.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `uuid` | Primary key |
+| `item_id` | `uuid` | Required, foreign key to `items`, indexed |
+| `decision_id` | `uuid` | Required and unique, foreign key to `decisions`, so a decision has one row |
+| `submitted_by` | `uuid` | Required, foreign key to `profiles`, indexed, the person who took the item in |
+| `store_department` | `varchar(32)` | Optional, copied from the item |
+| `outcome` | `varchar(32)` | `accepted` or `rejected` |
+| `rejection_reason` | `text` | Required for a rejection and empty for an acceptance, up to 200 characters, which the API checks |
+| `destination` | `varchar(32)` | Required for a rejection and empty for an acceptance, `store_floor`, `seasonal_storage` or `discard_or_donate` |
+| `recorded_at` | `timestamptz` | The decision's own time, indexed |
+
+The submitter and the department are copied so each row reads on its own.
+A manager's reject on the approval screen records a decision but no triage row, because the item was already accepted at triage.
+
+### `sku_sequences`
+
+The last number given out for each SKU prefix, which is the initials and the store's date.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `prefix` | `text` | Primary key, such as `RT110426` |
+| `last_value` | `integer` | More than 0 |
+
+Initials are the first letters of the first and last words of the lister's display name, after accents are dropped, so Rosa Maria Torres is `RT` and Ángel Ruiz is `AR`.
+A one-word name gives its first two letters, padded with `X`, and a name with no letters gives `XX`.
+The date is the store's date in `America/Chicago`, so an item taken in at 8 PM Central is numbered with that day even though it is already the next day in UTC.
+Intake bumps the row with one `INSERT ... ON CONFLICT DO UPDATE ... RETURNING`, which locks it until the intake commits, so two intakes at once wait for each other rather than sharing a number, and a failed intake gives its number back.
+Two people with the same initials share a prefix and so share the day's count, so their items still get different SKUs, but the SKU alone doesn't tell them apart and `lister_id` does.
+Past 99 items in one day for one prefix, the number grows to three digits.
 
 ### `comp_searches`
 
