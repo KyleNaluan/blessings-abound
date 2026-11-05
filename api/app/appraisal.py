@@ -8,7 +8,7 @@ from uuid import UUID, uuid4
 
 import httpx2
 import sqlalchemy as sa
-from fastapi import APIRouter, Depends, File, HTTPException, Query, UploadFile, status
+from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, UploadFile, status
 from pydantic import (
     BaseModel,
     BeforeValidator,
@@ -26,6 +26,19 @@ from app.channel_timing import ChannelRecommendation, advise, get_today, recomme
 from app.claims import ClaimFlag, ListingFacts, check_listing
 from app.comps import EbaySearch, serpapi_ebay_search
 from app.db import get_session
+from app.intake import (
+    MAX_PHOTO_BYTES,
+    CheckedPhoto,
+    PhotoError,
+    RejectedMatch,
+    check_photo,
+    get_now,
+    initials,
+    next_sku,
+    rejected_matches,
+    sku_prefix,
+    store_date,
+)
 from app.listing_drafts import (
     CHANNEL_NAMES,
     DESCRIPTION_MAX,
@@ -33,6 +46,7 @@ from app.listing_drafts import (
     category_options,
 )
 from app.models import (
+    MAX_PHOTOS,
     Appraisal,
     Category,
     Channel,
@@ -41,6 +55,7 @@ from app.models import (
     Decision,
     DecisionChoice,
     Department,
+    Destination,
     DraftSource,
     DraftState,
     FallbackReason,
@@ -52,13 +67,15 @@ from app.models import (
     Profile,
     Recommendation,
     Role,
+    StoreDepartment,
+    TriageEntry,
+    TriageOutcome,
 )
 from app.pipeline import (
     draft_item_card,
     draft_listing,
     needs_confirmation,
-    placeholder_photo_hash,
-    placeholder_sku,
+    photo_retake_reason,
     price_item,
 )
 from app.settings import get_settings
@@ -125,7 +142,21 @@ class ItemRead(BaseModel):
     sku: str
     status: ItemStatus
     photo_keys: list[str]
+    store_department: StoreDepartment | None
+    notes: str | None
     created_at: datetime
+
+
+class RepeatPhotoDetail(BaseModel):
+    message: str
+    # The earlier rejected items with one of the same photos, newest rejection first.
+    matches: list[RejectedMatch]
+
+
+class RepeatPhotoConflict(BaseModel):
+    """The 409 answer when a photo matches a rejected item and staff haven't chosen to go on."""
+
+    detail: RepeatPhotoDetail
 
 
 class ItemCardRequest(BaseModel):
@@ -223,11 +254,17 @@ class AppraisalRead(BaseModel):
     created_at: datetime
 
 
+REJECTION_REASON_MAX = 200
+
+
 class DecisionRequest(BaseModel):
     appraisal_id: UUID
     decision: DecisionChoice
     override_reason: str | None = None
     note: str | None = None
+    # Both needed with a no and refused with a yes, and written to the triage log.
+    rejection_reason: OptionalText = None
+    destination: Destination | None = None
 
 
 class DecisionRead(BaseModel):
@@ -239,6 +276,8 @@ class DecisionRead(BaseModel):
     decision: DecisionChoice
     override_reason: str | None
     note: str | None
+    rejection_reason: str | None
+    destination: Destination | None
     decided_by: UUID
     decided_at: datetime
 
@@ -251,6 +290,8 @@ class RecentDecision(BaseModel):
     product: str | None
     price_typical_cents: int | None
     decision: DecisionChoice
+    # From the triage log, so empty for a manager's no and for decisions made before it existed.
+    destination: Destination | None
     decided_by_name: str
     decided_at: datetime
 
@@ -317,26 +358,76 @@ def _require_status(item: Item, allowed: set[ItemStatus], action: str) -> None:
         )
 
 
-@router.post("/items", operation_id="create_item", status_code=status.HTTP_201_CREATED)
+def _read_photos(photos: list[UploadFile]) -> list[CheckedPhoto]:
+    if not photos:
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_CONTENT, "Add at least one photo of the item."
+        )
+    if len(photos) > MAX_PHOTOS:
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_CONTENT, f"Add at most {MAX_PHOTOS} photos of the item."
+        )
+    checked: list[CheckedPhoto] = []
+    for number, photo in enumerate(photos, start=1):
+        try:
+            # One byte past the limit is enough to tell a photo is too big.
+            checked.append(check_photo(photo.file.read(MAX_PHOTO_BYTES + 1), number))
+        except PhotoError as error:
+            raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, str(error)) from error
+        retake = photo_retake_reason(checked[-1].data)
+        if retake:
+            raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, f"Photo {number}: {retake}")
+    return checked
+
+
+@router.post(
+    "/items",
+    operation_id="create_item",
+    status_code=status.HTTP_201_CREATED,
+    responses={
+        status.HTTP_409_CONFLICT: {
+            "model": RepeatPhotoConflict,
+            "description": "A photo matches a rejected item, and allow_repeat wasn't set.",
+        }
+    },
+)
 def create_item(
-    photo: Annotated[UploadFile, File()],
+    store_department: Annotated[StoreDepartment, Form()],
     profile: CurrentProfile,
     session: SessionDep,
     storage: Annotated[Storage, Depends(get_photo_storage)],
+    now: Annotated[datetime, Depends(get_now)],
+    photos: Annotated[list[UploadFile] | None, File(description="1 to 4 photos.")] = None,
+    notes: Annotated[str | None, Form(max_length=1000)] = None,
+    # Staff have seen that a photo matches a rejected item and are taking it in anyway.
+    allow_repeat: Annotated[bool, Form()] = False,
 ) -> ItemRead:
-    # PLACEHOLDER: #9 adds the file type and size checks, the real photo hash and up to 4 photos.
-    data = photo.file.read()
-    if not data:
-        raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, "That photo is empty.")
+    """Take an item in: check and store its photos, and give it a SKU."""
+    checked = _read_photos(photos or [])
+    hashes = [photo.sha256 for photo in checked]
+    if not allow_repeat:
+        matches = rejected_matches(session, hashes)
+        if matches:
+            raise HTTPException(
+                status.HTTP_409_CONFLICT,
+                RepeatPhotoDetail(
+                    message="A photo matches an item that was rejected before.", matches=matches
+                ).model_dump(mode="json"),
+            )
     item_id = uuid4()
-    key = f"items/{item_id}/{uuid4()}"
-    storage.save(key, data, photo.content_type or "application/octet-stream")
+    keys = [f"items/{item_id}/{uuid4()}" for _ in checked]
+    # Storage can be slow, so save the photos before the SKU, whose number is locked until commit.
+    session.commit()
+    for key, photo in zip(keys, checked, strict=True):
+        storage.save(key, photo.data, photo.content_type)
     item = Item(
         id=item_id,
-        sku=placeholder_sku(item_id),
+        sku=next_sku(session, sku_prefix(initials(profile.display_name), store_date(now))),
         lister_id=profile.auth_user_id,
-        photo_keys=[key],
-        photo_hash=placeholder_photo_hash(item_id),
+        photo_keys=keys,
+        photo_hashes=hashes,
+        store_department=store_department,
+        notes=_blank_to_none(notes),
     )
     session.add(item)
     session.commit()
@@ -466,6 +557,23 @@ def create_decision(
     appraisal = session.get(Appraisal, request.appraisal_id)
     if appraisal is None or appraisal.item_id != item_id:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "That appraisal isn't for this item.")
+    rejected = request.decision == DecisionChoice.NO
+    if rejected and request.rejection_reason is None:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, "Say why it isn't being listed.")
+    if rejected and request.destination is None:
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_CONTENT, "Choose where the item goes instead."
+        )
+    if not rejected and (request.rejection_reason or request.destination):
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_CONTENT,
+            "Only a no has a rejection reason and a destination.",
+        )
+    if request.rejection_reason and len(request.rejection_reason) > REJECTION_REASON_MAX:
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_CONTENT,
+            f"Keep the reason to {REJECTION_REASON_MAX} characters.",
+        )
     decision = Decision(
         item_id=item_id,
         appraisal_id=request.appraisal_id,
@@ -489,10 +597,26 @@ def create_decision(
                 draft.reviewed_by = None
                 draft.reviewed_at = None
                 session.add(draft)
+    triage = TriageEntry(
+        item_id=item_id,
+        decision_id=decision.id,
+        submitted_by=item.lister_id,
+        store_department=item.store_department,
+        outcome=TriageOutcome.REJECTED if rejected else TriageOutcome.ACCEPTED,
+        rejection_reason=request.rejection_reason,
+        destination=request.destination,
+        recorded_at=decision.decided_at,
+    )
     session.add_all([decision, item])
+    # The triage row refers to the decision, so the decision goes in first.
+    session.flush()
+    session.add(triage)
     session.commit()
     session.refresh(decision)
-    return DecisionRead.model_validate(decision)
+    return DecisionRead.model_validate(
+        decision.model_dump()
+        | {"rejection_reason": triage.rejection_reason, "destination": triage.destination}
+    )
 
 
 @router.get("/decisions", operation_id="list_decisions")
@@ -511,6 +635,7 @@ def list_decisions(
             col(ItemCard.product),
             col(Appraisal.price_typical_cents),
             col(Decision.decision),
+            col(TriageEntry.destination),
             col(Profile.display_name).label("decided_by_name"),
             col(Decision.decided_at),
         )
@@ -518,6 +643,7 @@ def list_decisions(
         .join(Appraisal, col(Decision.appraisal_id) == col(Appraisal.id))
         .join(ItemCard, col(Decision.item_id) == col(ItemCard.item_id))
         .join(Profile, col(Decision.decided_by) == col(Profile.auth_user_id))
+        .outerjoin(TriageEntry, col(TriageEntry.decision_id) == col(Decision.id))
         .order_by(col(Decision.decided_at).desc(), col(Decision.id))
         .limit(limit)
     )

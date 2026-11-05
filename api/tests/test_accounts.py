@@ -800,7 +800,7 @@ def test_two_managers_can_deactivate_down_to_one_and_no_further(
 def test_deactivating_stops_sign_in_and_the_open_session_and_keeps_decisions(
     client: TestClient, session: Session, auth: FakeSupabaseAuth, staff: Profile
 ) -> None:
-    item = Item(sku="SKU-1", lister_id=staff.auth_user_id, photo_keys=["key"], photo_hash="hash")
+    item = Item(sku="SKU-1", lister_id=staff.auth_user_id, photo_keys=["key"])
     appraisal = Appraisal(
         item_id=item.id,
         confidence="low",  # pyright: ignore[reportArgumentType]

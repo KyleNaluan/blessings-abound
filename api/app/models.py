@@ -87,6 +87,26 @@ class DecisionChoice(StrEnum):
     NO = "no"
 
 
+class StoreDepartment(StrEnum):
+    """The store department that sent the item to Ecommerce, one per category the app prices."""
+
+    CLOTHING = "clothing"
+    ELECTRONICS_GAMES = "electronics_games"
+
+
+class TriageOutcome(StrEnum):
+    ACCEPTED = "accepted"
+    REJECTED = "rejected"
+
+
+class Destination(StrEnum):
+    """Where a rejected item went after staff said no."""
+
+    STORE_FLOOR = "store_floor"
+    SEASONAL_STORAGE = "seasonal_storage"
+    DISCARD_OR_DONATE = "discard_or_donate"
+
+
 class SettingKey(StrEnum):
     """The sections of the Settings page, each stored as one row of `settings`."""
 
@@ -287,9 +307,16 @@ class Item(SQLModel, table=True):
         sa.CheckConstraint(
             "location_code IS NULL OR box_code IS NOT NULL", name="location_after_package"
         ),
+        # One hash per photo, or none for the items taken in before photos were hashed.
+        sa.CheckConstraint(
+            "cardinality(photo_hashes) IN (0, cardinality(photo_keys))", name="photo_hashes_count"
+        ),
+        sa.Index("ix_items_photo_hashes", "photo_hashes", postgresql_using="gin"),
     )
 
     id: UUID = Field(default_factory=uuid4, primary_key=True)
+    # The intake SKU, the lister's initials, the store's date and that day's sequence, see
+    # app/intake.py.
     sku: str = Field(sa_type=sa.Text, unique=True)
     lister_id: UUID = Field(foreign_key="profiles.auth_user_id", index=True)
     status: ItemStatus = Field(
@@ -299,8 +326,16 @@ class Item(SQLModel, table=True):
         ),
     )
     photo_keys: list[str] = Field(sa_column=sa.Column(ARRAY(sa.Text), nullable=False))
-    # Not unique, because a repeat photo prompts staff rather than being refused.
-    photo_hash: str = Field(sa_type=sa.Text, index=True)
+    # The SHA-256 of each photo, in the order of photo_keys, for the repeat photo guard. Not
+    # unique, because a repeat photo prompts staff rather than being refused.
+    photo_hashes: list[str] = Field(
+        default_factory=list,
+        sa_column=sa.Column(ARRAY(sa.Text), nullable=False, server_default="{}"),
+    )
+    # Empty for the items taken in before intake asked for it.
+    store_department: StoreDepartment | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(StoreDepartment, "store_department"))
+    )
     notes: str | None = Field(default=None, sa_type=sa.Text)
     # The first day of the month a held item is released in, which the timing hint sets.
     release_month: date | None = Field(default=None)
@@ -425,6 +460,53 @@ class Decision(SQLModel, table=True):
             sa.DateTime(timezone=True), nullable=False, server_default=sa.func.now(), index=True
         ),
     )
+
+
+class TriageEntry(SQLModel, table=True):
+    """One staff call on an item forwarded to Ecommerce, accepted or rejected, kept as a history.
+
+    The staff decision route writes one row per decision. The submitter and department are copied
+    from the item, so each row reads on its own.
+    """
+
+    __tablename__ = "triage_log"  # type: ignore[assignment]
+    __table_args__ = (
+        sa.CheckConstraint(
+            "(outcome = 'rejected' AND rejection_reason IS NOT NULL AND destination IS NOT NULL) "
+            "OR (outcome = 'accepted' AND rejection_reason IS NULL AND destination IS NULL)",
+            name="rejection_has_reason_and_destination",
+        ),
+    )
+
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    item_id: UUID = Field(foreign_key="items.id", index=True)
+    decision_id: UUID = Field(foreign_key="decisions.id", unique=True)
+    # The person who took the item in.
+    submitted_by: UUID = Field(foreign_key="profiles.auth_user_id", index=True)
+    store_department: StoreDepartment | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(StoreDepartment, "store_department"))
+    )
+    outcome: TriageOutcome = Field(
+        sa_column=sa.Column(_enum_type(TriageOutcome, "outcome"), nullable=False)
+    )
+    rejection_reason: str | None = Field(default=None, sa_type=sa.Text)
+    destination: Destination | None = Field(
+        default=None, sa_column=sa.Column(_enum_type(Destination, "destination"))
+    )
+    # The decision's own time, so the log and the decision agree.
+    recorded_at: datetime = Field(
+        sa_column=sa.Column(sa.DateTime(timezone=True), nullable=False, index=True)
+    )
+
+
+class SkuSequence(SQLModel, table=True):
+    """The last sequence number given out for one SKU prefix, the initials and the date."""
+
+    __tablename__ = "sku_sequences"  # type: ignore[assignment]
+    __table_args__ = (sa.CheckConstraint("last_value > 0", name="last_value_positive"),)
+
+    prefix: str = Field(sa_type=sa.Text, primary_key=True)
+    last_value: int
 
 
 class CompSearch(SQLModel, table=True):

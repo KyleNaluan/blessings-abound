@@ -7,7 +7,6 @@ issue replaces, so the routes and the web app stay as they are when the real ste
 import logging
 from collections.abc import Sequence
 from typing import Any
-from uuid import UUID
 
 from pydantic import BaseModel
 from sqlmodel import Session
@@ -46,15 +45,13 @@ class PriceResult(BaseModel):
     explanation: str | None
 
 
-def placeholder_sku(item_id: UUID) -> str:
-    # PLACEHOLDER: #37 replaces this with the lister's initials, the date and a daily sequence.
-    return f"PLACEHOLDER-{item_id.hex[:12]}"
+def photo_retake_reason(data: bytes) -> str | None:
+    """Why staff should take the photo again, or None when it is fine to use.
 
-
-def placeholder_photo_hash(item_id: UUID) -> str:
-    # PLACEHOLDER: #9 replaces this with the real hash. It is unique per item until then, so the
-    # duplicate guard in #37 can't match two placeholder rows against each other.
-    return f"placeholder-{item_id.hex}"
+    The intake route calls this for every photo after the type and size checks and before saving.
+    """
+    # PLACEHOLDER: #38 replaces this with the code-only blur and brightness check.
+    return None
 
 
 def draft_item_card(

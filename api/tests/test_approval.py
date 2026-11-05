@@ -1,6 +1,7 @@
 """The manager approval step, the storage step after it, and the pick list of sold items."""
 
 import json
+import re
 from collections.abc import Iterator
 from datetime import UTC, date, datetime
 from pathlib import Path
@@ -166,6 +167,7 @@ def test_the_whole_path_from_sent_on_to_picked(
 
     page = store(manager, item_id).json()
     assert page["blockers"] == []
+    assert re.fullmatch(r"ST\d{8}", page["sku"])
     assert page["full_sku"] == f"{page['sku']} 12x12x6"
 
     page = approve(manager, item_id).json()
