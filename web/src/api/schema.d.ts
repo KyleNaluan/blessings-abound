@@ -13,7 +13,10 @@ export interface paths {
     }
     get?: never
     put?: never
-    /** Create Item */
+    /**
+     * Create Item
+     * @description Take an item in: check and store its photos, and give it a SKU.
+     */
     post: operations['create_item']
     delete?: never
     options?: never
@@ -912,8 +915,19 @@ export interface components {
     }
     /** Body_create_item */
     Body_create_item: {
-      /** Photo */
-      photo: string
+      store_department: components['schemas']['StoreDepartment']
+      /**
+       * Photos
+       * @description 1 to 4 photos.
+       */
+      photos?: string[] | null
+      /** Notes */
+      notes?: string | null
+      /**
+       * Allow Repeat
+       * @default false
+       */
+      allow_repeat: boolean
     }
     /**
      * BoxSize
@@ -1109,6 +1123,9 @@ export interface components {
       override_reason: string | null
       /** Note */
       note: string | null
+      /** Rejection Reason */
+      rejection_reason: string | null
+      destination: components['schemas']['Destination'] | null
       /**
        * Decided By
        * Format: uuid
@@ -1132,12 +1149,21 @@ export interface components {
       override_reason?: string | null
       /** Note */
       note?: string | null
+      /** Rejection Reason */
+      rejection_reason?: string | null
+      destination?: components['schemas']['Destination'] | null
     }
     /**
      * Department
      * @enum {string}
      */
     Department: 'mens' | 'womens' | 'kids'
+    /**
+     * Destination
+     * @description Where a rejected item went after staff said no.
+     * @enum {string}
+     */
+    Destination: 'store_floor' | 'seasonal_storage' | 'discard_or_donate'
     /** DoubleSaleRead */
     DoubleSaleRead: {
       keep: components['schemas']['OrderRead']
@@ -1379,6 +1405,9 @@ export interface components {
       status: components['schemas']['ItemStatus']
       /** Photo Keys */
       photo_keys: string[]
+      store_department: components['schemas']['StoreDepartment'] | null
+      /** Notes */
+      notes: string | null
       /**
        * Created At
        * Format: date-time
@@ -1672,6 +1701,7 @@ export interface components {
       /** Price Typical Cents */
       price_typical_cents: number | null
       decision: components['schemas']['DecisionChoice']
+      destination: components['schemas']['Destination'] | null
       /** Decided By Name */
       decided_by_name: string
       /**
@@ -1691,6 +1721,45 @@ export interface components {
       reason: string
       /** Note */
       note?: string | null
+    }
+    /**
+     * RejectedMatch
+     * @description An earlier item with one of the same photos, whose latest triage call was a rejection.
+     */
+    RejectedMatch: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      /** Rejection Reason */
+      rejection_reason: string
+      destination: components['schemas']['Destination']
+      /**
+       * Rejected At
+       * Format: date-time
+       */
+      rejected_at: string
+    }
+    /**
+     * RepeatPhotoConflict
+     * @description The 409 answer when a photo matches a rejected item and staff haven't chosen to go on.
+     */
+    RepeatPhotoConflict: {
+      detail: components['schemas']['RepeatPhotoDetail']
+    }
+    /** RepeatPhotoDetail */
+    RepeatPhotoDetail: {
+      /** Message */
+      message: string
+      /** Matches */
+      matches: components['schemas']['RejectedMatch'][]
     }
     /** ResolveRequest */
     ResolveRequest: {
@@ -1806,6 +1875,12 @@ export interface components {
       /** Location Code */
       location_code?: string | null
     }
+    /**
+     * StoreDepartment
+     * @description The store department that sent the item to Ecommerce, one per category the app prices.
+     * @enum {string}
+     */
+    StoreDepartment: 'clothing' | 'electronics_games'
     /** TimingHint */
     TimingHint: {
       /** Season */
@@ -1876,6 +1951,15 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['ItemRead']
+        }
+      }
+      /** @description A photo matches a rejected item, and allow_repeat wasn't set. */
+      409: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['RepeatPhotoConflict']
         }
       }
       /** @description Validation Error */
