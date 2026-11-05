@@ -57,7 +57,7 @@ The hosted demo follows these steps:
 
 ## Pricing pipeline
 
-Each step is a board issue, and so far the item card in step 2 and steps 3 to 9 are built, and `POST /items/{id}/appraisals` runs them through `price_item` in `api/app/pipeline.py`.
+Each step is a board issue, and so far step 1 without its blur and brightness check, the item card in step 2 and steps 3 to 9 are built, and `POST /items/{id}/appraisals` runs steps 3 to 10 through `price_item` in `api/app/pipeline.py`.
 The item card in step 2 is read, edited and confirmed by staff, and the SerpApi lookup in step 4 is the active Buy It Now search with its 7 day cache and the drop-a-word fallback.
 Steps 5 to 9 are built as pure functions in `api/app/comp_filter.py` and `api/app/pricing.py`, with their numbers in `PricingRules` in `api/app/settings.py`.
 The worth-listing threshold, the fees and the ask-to-sale factors start from those numbers, and an appraisal reads them from the manager-only Settings page, described in [settings.md](settings.md).
@@ -66,8 +66,12 @@ The other steps are not built yet.
 The language model never produces a price, and every number comes from code over comps, which are similar items for sale on eBay.
 
 1. Staff upload 1 required photo and up to 4, and a code-only blur and brightness check prompts a retake.
-   Staff enter the condition grade, using eBay's values, and any flaws, plus the department, size and size type for apparel and shoes, or tested and working, complete-in-box and accessories for electronics and games.
+   Staff enter the store department the item came from, the condition grade, using eBay's values, and any flaws, plus the department, size and size type for apparel and shoes, or tested and working, complete-in-box and accessories for electronics and games.
    Those come from staff, never from the model.
+   `POST /items` reads each photo's type from its own bytes, takes JPEG, PNG and WebP up to 15 MB, refuses anything else with a message that names the photo, and stores a SHA-256 hash of each one.
+   A photo that matches an item whose latest triage call was a rejection gets a 409 with that item's SKU, reason and destination, and nothing is stored, so staff check the item and send it again with `allow_repeat` to take it in anyway.
+   The item then gets its SKU, as [`sku_sequences`](database.md#sku_sequences) describes.
+   The blur and brightness check is #38, and `photo_retake_reason` in `api/app/pipeline.py` is where it goes, called once for each photo.
 2. The vision model turns the photos and staff entries into an item card with the category, brand, product, any visible text, a search query and its own confidence, and it proposes the color, material, exact model and platform for staff to confirm.
    Staff can edit the card before any search is spent, with `PATCH /items/{id}/card`, which also confirms it.
    The appraisal step refuses a card with no brand or with a model confidence below `ITEM_CARD_MIN_CONFIDENCE`, default `medium`, until staff confirm it.
@@ -91,7 +95,9 @@ The language model never produces a price, and every number comes from code over
 When the budget is spent, the search fails, no key is set or no usable comps remain, the appraisal is still saved, with no prices, confidence low, the recommendation "check" and an explanation that says which of those happened.
 
 Staff see the range, the comps as links, the confidence and the recommendation, and they make the final call, which the app saves.
-If they disagree with the recommendation they choose a reason from a dropdown and may add a note, and a rejected item gets a destination, which is the store floor, seasonal storage, or discard or donate onward, written to the triage log.
+If they disagree with the recommendation they choose a reason from a dropdown and may add a note.
+A no needs a reason and a destination, which is the store floor, seasonal storage, or discard or donate onward.
+Every yes and no is written to the triage log with the person who took the item in, its store department, the date, and for a no the reason and destination.
 
 Comps come through SerpApi rather than eBay's own API, because eBay's API license does not allow using its content to suggest or model prices.
 SerpApi's free plan allows 250 searches a month and 50 an hour, so every response is cached in a `comp_searches` table, keyed by the engine, query, condition and buying format, and reused for 7 days.
@@ -196,7 +202,7 @@ Every route except the pick list is for managers only, and staff get a 403 with 
 7. `GET /pick-list` lists the sold items for staff and managers, grouped by box in the order Settings lists the boxes, then by shelf or bin, so A2 comes before A10, and `POST /items/{id}/picked` takes one off.
 
 The full SKU is the intake SKU, a space and the box code, such as `RT10272601 12x12x6`, and the API builds it from the two columns rather than storing it.
-The intake SKU itself is #37, so for now it is the placeholder from the walking skeleton.
+The intake SKU is the lister's initials, the store's date and a daily sequence, as [`sku_sequences`](database.md#sku_sequences) describes.
 An item reaches the pick list once its status is `sold`, which only `mark_sold` sets.
 A sale that the channel sync records calls `mark_sold`, as [Mock channels and sync](#mock-channels-and-sync) describes.
 
@@ -372,3 +378,11 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-04: Refuse Channel B for a card with no brand, from `CHANNEL_REQUIRED` in `api/app/listing_drafts.py`, which a test keeps the same as the mock channel's required fields, so the screen doesn't offer a channel that would refuse the listing.
 - 2026-11-04: Set the hold's release month from the timing hint when the listing is first drafted, rather than add a hold button, so the approval step holds the item as it already did, and a manager who wants a different hold changes the calendar in Settings.
 - 2026-11-04: Match a season word on the card's brand, product, exact model, material and visible text, as a whole word with plurals, so "fleece" in the material and "Chiefs" in the brand match, while "coat" doesn't match "coated".
+- 2026-11-04: Number SKUs from a counter row per initials and date in `sku_sequences`, bumped with `INSERT ... ON CONFLICT DO UPDATE`, rather than from a count of the day's items, because the row lock makes two intakes at once wait for each other instead of taking the same number, and a failed intake gives its number back.
+- 2026-11-04: Let two people with the same initials share a prefix and its daily count rather than add a letter or digit to tell them apart, so every SKU keeps the same shape, and `lister_id` already says whose item it is.
+- 2026-11-04: Take the SKU date from the store's time zone, `America/Chicago`, rather than UTC, so an item taken in during the evening is numbered with the day staff see on the calendar, and depend on `tzdata` so the zone loads on Windows, which has no zone files of its own.
+- 2026-11-04: Ask for the store department at intake as `clothing` or `electronics_games`, the two kinds of item the app prices, as an assumption until the store gives its own list of departments, and keep it apart from the card's category, which the model sets.
+- 2026-11-04: Answer a photo that matches a rejected item with a 409 and store nothing, and take it in only when staff send it again with `allow_repeat`, so a repeat is a choice staff make and the warning can't be missed by a client that ignores a flag on a success.
+- 2026-11-04: Match a repeat photo only against items whose latest triage call was a rejection, so an item staff said no to and then yes to doesn't keep warning.
+- 2026-11-04: Give the walking skeleton's placeholder SKUs real ones in the migration and leave their photo hashes empty, because their photos were never fingerprinted and a made-up hash could only match by mistake.
+- 2026-11-04: Write no triage row for a manager's reject on the approval screen, because triage is the staff call on an item forwarded to Ecommerce, and that item was already accepted there.
