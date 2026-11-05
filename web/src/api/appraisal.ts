@@ -6,6 +6,7 @@ export type ItemCard = components['schemas']['ItemCardRead']
 export type ItemCardEdit = components['schemas']['ItemCardEdit']
 export type Appraisal = components['schemas']['AppraisalRead']
 export type DecisionChoice = components['schemas']['DecisionChoice']
+export type Recommendation = components['schemas']['Recommendation']
 export type RecentDecision = components['schemas']['RecentDecision']
 export type ListingDraft = components['schemas']['ListingDraftRead']
 export type ListingDraftEdit = components['schemas']['ListingDraftEdit']
@@ -15,6 +16,9 @@ export type StoreDepartment = components['schemas']['StoreDepartment']
 export type ItemCardRequest = components['schemas']['ItemCardRequest']
 export type Destination = components['schemas']['Destination']
 export type RejectedMatch = components['schemas']['RejectedMatch']
+export type RetakePhoto = components['schemas']['RetakePhoto']
+export type PricedComp = components['schemas']['PricedComp']
+export type OverrideReason = components['schemas']['OverrideReason']
 
 const UNREACHABLE = "We couldn't reach the API. Check your connection and try again."
 
@@ -44,14 +48,31 @@ export class RepeatPhotoError extends Error {
   }
 }
 
+// The blur and brightness check found fault with some photos, and staff haven't chosen to keep them.
+export class RetakePhotosError extends Error {
+  readonly photos: RetakePhoto[]
+
+  constructor(message: string, photos: RetakePhoto[]) {
+    super(message)
+    this.photos = photos
+  }
+}
+
+// What staff have already seen and chosen to go on past.
+export type IntakeChoices = { keepPhotos: boolean; allowRepeat: boolean }
+
 // Takes the item in, which stores its photos and gives it a SKU.
-export async function takeItemIn(item: NewItem, allowRepeat = false) {
+export async function takeItemIn(
+  item: NewItem,
+  { keepPhotos, allowRepeat }: IntakeChoices = { keepPhotos: false, allowRepeat: false },
+) {
   const call = api.POST('/items', {
     body: {
       store_department: item.storeDepartment,
       // The schema types a file part as a string, and the serializer below sends the real files.
       photos: item.photos as unknown as string[],
       notes: item.notes,
+      keep_photos: keepPhotos,
       allow_repeat: allowRepeat,
     },
     bodySerializer: () => {
@@ -59,6 +80,7 @@ export async function takeItemIn(item: NewItem, allowRepeat = false) {
       for (const photo of item.photos) form.append('photos', photo)
       form.append('store_department', item.storeDepartment)
       if (item.notes.trim()) form.append('notes', item.notes.trim())
+      form.append('keep_photos', String(keepPhotos))
       form.append('allow_repeat', String(allowRepeat))
       return form
     },
@@ -70,7 +92,8 @@ export async function takeItemIn(item: NewItem, allowRepeat = false) {
     throw new Error(UNREACHABLE)
   }
   if (result.response.status === 409) {
-    const { detail } = result.error as components['schemas']['RepeatPhotoConflict']
+    const { detail } = result.error as components['schemas']['IntakeConflict']
+    if (detail.kind === 'retake') throw new RetakePhotosError(detail.message, detail.photos)
     throw new RepeatPhotoError(detail.message, detail.matches)
   }
   return unwrap(Promise.resolve(result))
@@ -101,11 +124,14 @@ export function createAppraisal(itemId: string) {
 // Where a rejected item goes and why, which a no needs and a yes leaves out.
 export type Rejection = { reason: string; destination: Destination }
 
+// Why staff went against the recommendation, which only a call against it has.
+export type Override = { reason: OverrideReason; note: string }
+
 export function saveDecision(
   itemId: string,
   appraisalId: string,
   decision: DecisionChoice,
-  rejection?: Rejection,
+  { rejection, override }: { rejection?: Rejection; override?: Override } = {},
 ) {
   return unwrap(
     api.POST('/items/{item_id}/decisions', {
@@ -117,6 +143,7 @@ export function saveDecision(
           rejection_reason: rejection.reason,
           destination: rejection.destination,
         }),
+        ...(override && { override_reason: override.reason, note: override.note.trim() || null }),
       },
     }),
   )

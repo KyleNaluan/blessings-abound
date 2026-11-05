@@ -110,6 +110,7 @@ An item can have several, because editing the card and searching again gives a n
 | `recommendation` | `varchar(32)` | `yes`, `no` or `check` |
 | `rules_config` | `jsonb` | Required, the rules and config used, under `pricing`, and how the search went, under `search`, with its outcome, query, condition ids and the queries searched |
 | `explanation` | `text` | Optional |
+| `comps` | `jsonb` | Required, default `[]`, the listings the price came from, cheapest first, each with its `title`, `asking_cents`, `condition`, `url` and `outlier`, which is true for a listing the trim left out |
 | `created_at` | `timestamptz` | Set by the database |
 
 ### `decisions`
@@ -122,7 +123,8 @@ Every staff yes or no, kept as a history, so an item can have several.
 | `item_id` | `uuid` | Required, foreign key to `items` |
 | `appraisal_id` | `uuid` | Required, and a foreign key on `appraisal_id` and `item_id` together means it must be an appraisal of the same item |
 | `decision` | `varchar(32)` | `yes` or `no` |
-| `override_reason`, `note` | `text` | Optional |
+| `override_reason` | `text` | Optional, set when staff go against the recommendation, to `wrong_comps`, `better_condition`, `sells_for_more`, `worse_condition`, `sells_for_less`, `hard_to_ship`, `not_genuine` or `other`, which the API checks, while a manager's change on the approval screen writes its own words |
+| `note` | `text` | Optional, at most 500 characters from the appraisal screen |
 | `decided_by` | `uuid` | Required, foreign key to `profiles` |
 | `decided_at` | `timestamptz` | Set by the database, indexed for the recent decisions list |
 
