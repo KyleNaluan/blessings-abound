@@ -182,6 +182,20 @@ Do this the day before judging, and again 15 minutes before it starts.
 6. Check on the SerpApi dashboard that searches are left this month.
 7. On the laptop, run the offline demo's `up` command once, sign in, and leave it ready in case the network fails.
 
+## Synthetic sales history
+
+The sales dashboards run on a synthetic history, because the store has no real one, and every chart drawn from it is labeled synthetic.
+Load it into the database from `docker compose up` with:
+
+```sh
+cd api
+uv run python -m app.synthetic_sales
+```
+
+It replaces the `synthetic_items` and `synthetic_listings` tables with about 600 items from the fixed seed, and the same seed always gives the same rows.
+Add `--seed N` for a different history.
+`uv run python -m app.synthetic_calibration` checks the model against the published figures it is calibrated to over 200 seeds and rewrites [docs/synthetic-sales.md](docs/synthetic-sales.md), which also lists every parameter and where it comes from.
+
 ## Tests and lint
 
 Each part runs the same checks as CI.

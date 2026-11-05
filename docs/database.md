@@ -375,6 +375,48 @@ CHANNEL_A_DB_PASSWORD=<password> CHANNEL_B_DB_PASSWORD=<password> uv run python 
 
 It skips a role whose variable is empty, and running it again sets the same passwords, so docker compose runs it on every start.
 
+## Synthetic sales history
+
+The dashboards read a synthetic history from these two tables, because the store has no sales history to show, and every chart drawn from them is labeled synthetic.
+They are kept apart from `items`, `listings`, `sale_events` and `sync_log`, so a synthetic sale can never reach the pick list, the sync or Needs Attention.
+`uv run python -m app.synthetic_sales` in `api/` replaces both tables with the history from one seed in a single transaction, and the same seed always gives the same rows.
+The method, the parameters and how close the history comes to the published figures are in [synthetic-sales.md](synthetic-sales.md).
+
+Days are `date` columns ending in `_on`, because the model runs one day at a time and has no time of day.
+
+### `synthetic_items`
+
+One item forwarded to Ecommerce, with the appraisal's recommendation and the staff call, which the triage funnel reads.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `integer` | Primary key, numbered by the generator in the order the items were forwarded |
+| `forwarded_on` | `date` | Required, indexed |
+| `store_department` | `varchar(32)` | `clothing` or `electronics_games` |
+| `category` | `varchar(32)` | `apparel` or `electronics_games` |
+| `department` | `varchar(32)` | `mens`, `womens` or `kids`, and empty unless the category is `apparel` |
+| `condition` | `varchar(32)` | `new_with_tags`, `new_without_tags` or `pre_owned` |
+| `typical_price_cents` | `integer` | More than 0 |
+| `recommendation` | `varchar(32)` | `yes`, `no` or `check` |
+| `outcome` | `varchar(32)` | `accepted` or `rejected` |
+| `overridden` | `boolean` | True exactly when the staff call went against a yes or a no |
+
+### `synthetic_listings`
+
+One accepted item on one channel, which the time to sell, seasonality and per-channel sell-through views read.
+
+| Column | Type | Rules |
+| --- | --- | --- |
+| `id` | `integer` | Primary key, numbered by the generator |
+| `item_id` | `integer` | Required, foreign key to `synthetic_items`, unique with `channel` |
+| `channel` | `varchar(32)` | `channel_a` or `channel_b` |
+| `price_cents` | `integer` | More than 0, the asking price and the sale price, because the history has no offers |
+| `listed_on` | `date` | Required, indexed |
+| `sold_on` | `date` | Set for a sale, on or after `listed_on`, indexed |
+| `ended_on` | `date` | Set for a listing that ended unsold, at the end of its 90-day run |
+
+Each listing has exactly one of `sold_on` and `ended_on`, so the days to sell are `sold_on - listed_on` and the sell-through is the share with a `sold_on`.
+
 ## Who may read or change what
 
 The website never talks to the database.
