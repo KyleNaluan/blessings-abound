@@ -238,10 +238,11 @@ npm run build
 Pull request rules, from the repository root:
 
 ```sh
-python3 -m unittest discover -s .github/scripts
+uv run --no-project --python 3.12 python -m unittest discover -s .github/scripts
 ```
 
 These test the check that each pull request's commits and description follow [CONTRIBUTING.md](CONTRIBUTING.md), which CI runs with `.github/scripts/pr_rules.py`.
+They run with the Python that uv installs, because the README asks for no Python of its own and `python3` on Windows is only a link to the Microsoft Store.
 
 To run the formatters and linters before every commit, install the pre-commit hooks once with `uvx pre-commit install`.
 

@@ -1,4 +1,4 @@
-"""Tests for pr_rules.py, run with `python3 -m unittest discover -s .github/scripts`."""
+"""Tests for pr_rules.py, run with the command in the README's "Tests and lint" section."""
 
 import os
 import subprocess
