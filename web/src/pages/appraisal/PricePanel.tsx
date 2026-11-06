@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 
 import type { Appraisal, ItemCard, PricedComp } from '@/api/appraisal'
 import { Button } from '@/components/ui/button'
@@ -150,16 +150,29 @@ function Listings({ comps, factor }: { comps: PricedComp[]; factor: number | nul
   )
 }
 
-export function PricePanel({ appraisal, card }: { appraisal: Appraisal; card: ItemCard }) {
-  const { tone, title } = verdict(appraisal)
-  const { factor, queries } = pricedBy(appraisal, card.category)
+export function PricePanel({
+  appraisal,
+  category,
+  id = 'price',
+  title = 'Price',
+  intro,
+}: {
+  appraisal: Appraisal
+  category: ItemCard['category']
+  id?: string
+  title?: string
+  intro?: ReactNode
+}) {
+  const { tone, title: verdictTitle } = verdict(appraisal)
+  const { factor, queries } = pricedBy(appraisal, category)
   const low = appraisal.price_low_cents
   const typical = appraisal.price_typical_cents
   const high = appraisal.price_high_cents
   const searched = queries.at(-1)
 
   return (
-    <Panel id="price" title="Price">
+    <Panel id={id} title={title}>
+      {intro}
       {low != null && typical != null && high != null && (
         <>
           <dl className="grid grid-cols-3 tabular-nums">
@@ -190,7 +203,7 @@ export function PricePanel({ appraisal, card }: { appraisal: Appraisal; card: It
         </>
       )}
       <div className={cn('border-l-[5px] px-3.5 py-2.5 text-[0.9375rem]', TONES[tone])}>
-        <p className="font-bold">{title}</p>
+        <p className="font-bold">{verdictTitle}</p>
         {appraisal.explanation && <p>{appraisal.explanation}</p>}
       </div>
       {searched && (

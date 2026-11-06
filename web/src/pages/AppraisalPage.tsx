@@ -366,7 +366,7 @@ export function AppraisalPage() {
               </p>
             )}
 
-            {card && appraisal && <PricePanel appraisal={appraisal} card={card} />}
+            {card && appraisal && <PricePanel appraisal={appraisal} category={card.category} />}
 
             {appraisal && status.step !== 'saved' && (
               <Panel id="decision" title="Your call">
@@ -410,7 +410,11 @@ export function AppraisalPage() {
                   {status.destination && ` ${WHERE_IT_GOES[status.destination]}`}
                 </p>
                 {status.decision === 'yes' && (
-                  <ChannelChoice itemId={item.id} onChoose={setChannels} />
+                  <ChannelChoice
+                    itemId={item.id}
+                    onChoose={setChannels}
+                    onKeptOff={() => setListingSent(true)}
+                  />
                 )}
                 {status.decision === 'yes' && channels && (
                   <ListingDrafts

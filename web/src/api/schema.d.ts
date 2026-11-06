@@ -196,7 +196,10 @@ export interface paths {
     }
     /**
      * List Approvals
-     * @description The items waiting for a manager, to approve or to store.
+     * @description The items waiting for a manager, to approve, to store, or held for their season.
+     *
+     *     A held item comes back to approval once its release month has come, which is read here
+     *     against today rather than moved by a scheduled job, so it shows the first time anyone looks.
      */
     get: operations['list_approvals']
     put?: never
@@ -235,6 +238,8 @@ export interface paths {
     /**
      * Set Listing Price
      * @description Set this channel's price in place of the typical price, or clear it to go back to that.
+     *
+     *     A held item back for review can be repriced too, before a manager approves it again.
      */
     put: operations['set_listing_price']
     post?: never
@@ -280,6 +285,9 @@ export interface paths {
     /**
      * Approve Item
      * @description Approve every listing staff sent on, once each has a price and Channel A has a package.
+     *
+     *     A held item back for review is approved again at the prices on the review, which lists it
+     *     straight away when it is already on a shelf, the same way storing an approved item does.
      */
     post: operations['approve_item']
     delete?: never
@@ -300,8 +308,80 @@ export interface paths {
     /**
      * Reject Item
      * @description Turn the item down, which records a manager's no and needs no package or shelf.
+     *
+     *     A held item back for review can be turned down the same way, instead of being approved again.
      */
     post: operations['reject_item']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/list-now': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * List Held Item Now
+     * @description Bring a held item back for review before its release month, with the same price check.
+     *
+     *     Its release month becomes this month, so it is back for review exactly as it would be in its
+     *     season, and the month it was held until is kept in the history. Asking again changes nothing.
+     */
+    post: operations['list_held_item_now']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/not-online': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Keep Item Off Online
+     * @description Take the item out of online selling for good, such as to sell it on the store floor.
+     *
+     *     Staff can do it from the item screen before a manager approves the listing, and a manager can
+     *     also do it to an item held for its season. Who did it, when and the note go in the history.
+     */
+    post: operations['keep_item_off_online']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/fresh-comps': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Look Up Fresh Comps
+     * @description Look up comps again for a held item back for review, so its price is checked before listing.
+     *
+     *     It runs the appraisal's own lookup and pricing and keeps the result as a new appraisal of the
+     *     item, which the listings don't take their typical price from. Once there is one since the
+     *     approval, asking again returns it rather than searching again.
+     */
+    post: operations['look_up_fresh_comps']
     delete?: never
     options?: never
     head?: never
@@ -946,6 +1026,8 @@ export interface components {
       awaiting_approval: components['schemas']['QueueItem'][]
       /** Awaiting Storage */
       awaiting_storage: components['schemas']['QueueItem'][]
+      /** Held For Season */
+      held_for_season: components['schemas']['QueueItem'][]
     }
     /**
      * AskToSale
@@ -1376,6 +1458,21 @@ export interface components {
        */
       status: 'ok' | 'unavailable'
     }
+    /** HistoryEntry */
+    HistoryEntry: {
+      decision: components['schemas']['DecisionChoice']
+      /** Reason */
+      reason: string | null
+      /** Note */
+      note: string | null
+      /** Decided By Name */
+      decided_by_name: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+    }
     /**
      * HistorySpan
      * @description What the synthetic history covers, so the page can say which dates it is.
@@ -1626,6 +1723,15 @@ export interface components {
       submitted_by_name: string | null
       /** Submitted At */
       submitted_at: string | null
+      /** Approved By Name */
+      approved_by_name: string | null
+      /** Approved At */
+      approved_at: string | null
+      /** Back For Review */
+      back_for_review: boolean
+      fresh_appraisal: components['schemas']['AppraisalRead'] | null
+      /** History */
+      history: components['schemas']['HistoryEntry'][]
       /** Blockers */
       blockers: string[]
     }
@@ -1640,6 +1746,7 @@ export interface components {
       | 'declined'
       | 'approved'
       | 'held_for_season'
+      | 'not_listed_online'
       | 'listed'
       | 'sold'
       | 'picked'
@@ -1798,6 +1905,29 @@ export interface components {
       /** Month */
       month?: number | null
     }
+    /** NotOnlineRequest */
+    NotOnlineRequest: {
+      /** Note */
+      note: string
+    }
+    /** NotOnlineResult */
+    NotOnlineResult: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      status: components['schemas']['ItemStatus']
+      /** Note */
+      note: string
+      /** Decided By Name */
+      decided_by_name: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+    }
     /** OrderRead */
     OrderRead: {
       channel: components['schemas']['Channel']
@@ -1938,6 +2068,12 @@ export interface components {
       channels: components['schemas']['Channel'][]
       /** Waiting Since */
       waiting_since: string | null
+      /** Release Month */
+      release_month: string | null
+      /** Location Code */
+      location_code: string | null
+      /** Back For Review */
+      back_for_review: boolean
     }
     /** RecentDecision */
     RecentDecision: {
@@ -2838,6 +2974,103 @@ export interface operations {
         'application/json': components['schemas']['RejectRequest']
       }
     }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_held_item_now: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  keep_item_off_online: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['NotOnlineRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['NotOnlineResult']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  look_up_fresh_comps: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
     responses: {
       /** @description Successful Response */
       200: {

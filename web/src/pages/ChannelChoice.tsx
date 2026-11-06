@@ -4,6 +4,7 @@ import { getChannelRecommendation, type Channel, type ChannelRecommendation } fr
 import { Button } from '@/components/ui/button'
 
 import { CHANNEL_NAMES, releaseMonth } from './approval/format'
+import { NotOnlineForm } from './approval/NotOnlineForm'
 
 // Where the reason came from, so staff know the rules decided the advice either way.
 function reasonNote(recommendation: ChannelRecommendation) {
@@ -28,13 +29,17 @@ type Status =
 export function ChannelChoice({
   itemId,
   onChoose,
+  onKeptOff,
 }: {
   itemId: string
   onChoose: (channels: Channel[]) => void
+  onKeptOff?: () => void
 }) {
   const [status, setStatus] = useState<Status>({ step: 'loading' })
   const [picked, setPicked] = useState<Channel[]>([])
   const [chosen, setChosen] = useState<Channel[] | null>(null)
+  // Where the timing says to hold it, staff can keep it off online selling instead.
+  const [offline, setOffline] = useState<'no' | 'choosing' | 'done'>('no')
   const started = useRef(false)
 
   const load = useCallback(() => {
@@ -105,13 +110,33 @@ export function ChannelChoice({
               {timing.season ? `${timing.season}, ${timing.season_span}` : 'None'}
             </dd>
           </dl>
-          {timing.release_month && (
+          {timing.release_month && offline !== 'done' && (
             <p className="mb-4">
               Once a manager approves it, it's held for its season, with{' '}
               {releaseMonth(timing.release_month)} as its release month.
             </p>
           )}
-          {chosen ? (
+          {offline === 'done' ? (
+            <p role="status" className="font-bold">
+              It won't be listed online. Your note is in its history.
+            </p>
+          ) : offline === 'choosing' ? (
+            <div className="border-l-4 border-rule pl-3.5">
+              <h3 className="mb-1 text-lg font-bold">Don't list online</h3>
+              <p className="mb-3">
+                It comes off online selling for good, such as to sell it on the store floor.
+              </p>
+              <NotOnlineForm
+                itemId={itemId}
+                idPrefix="channels-not-online"
+                onDone={() => {
+                  setOffline('done')
+                  onKeptOff?.()
+                }}
+                onCancel={() => setOffline('no')}
+              />
+            </div>
+          ) : chosen ? (
             <p className="font-bold">Listing on {names(chosen)}.</p>
           ) : (
             <>
@@ -144,14 +169,26 @@ export function ChannelChoice({
                 ))}
               </fieldset>
               {picked.length === 0 && <p className="mb-3">Choose at least one channel.</p>}
-              <Button
-                size="lg"
-                className="max-sm:w-full"
-                disabled={picked.length === 0}
-                onClick={choose}
-              >
-                Write the listing
-              </Button>
+              <div className="flex gap-3 max-sm:flex-col">
+                <Button
+                  size="lg"
+                  className="max-sm:w-full"
+                  disabled={picked.length === 0}
+                  onClick={choose}
+                >
+                  Write the listing
+                </Button>
+                {timing.release_month && (
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="max-sm:w-full"
+                    onClick={() => setOffline('choosing')}
+                  >
+                    Don't list online
+                  </Button>
+                )}
+              </div>
             </>
           )}
         </>

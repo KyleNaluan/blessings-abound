@@ -11,6 +11,8 @@ export type BoxSizeOption = Schemas['BoxSizeOption']
 export type ItemStatus = Schemas['ItemStatus']
 export type Channel = Schemas['Channel']
 export type ListingStatus = Schemas['ListingStatus']
+export type HistoryEntry = Schemas['HistoryEntry']
+export type NotOnlineResult = Schemas['NotOnlineResult']
 
 const UNREACHABLE = "We couldn't reach the API. Check your connection and try again."
 
@@ -97,6 +99,26 @@ export function rejectItem(itemId: string, reason: string, note: string) {
       body: { reason, note: note || null },
     }),
   )
+}
+
+// Brings a held item into the review before its release month comes.
+export function listNow(itemId: string) {
+  return unwrap(api.POST('/items/{item_id}/list-now', { params: { path: { item_id: itemId } } }))
+}
+
+// Takes the item out of online selling for good, with a note on why.
+export function keepOffOnline(itemId: string, note: string) {
+  return unwrap(
+    api.POST('/items/{item_id}/not-online', {
+      params: { path: { item_id: itemId } },
+      body: { note },
+    }),
+  )
+}
+
+// Looks up comparable sales again for a held item back for review, then answers with the review.
+export function lookUpFreshComps(itemId: string) {
+  return unwrap(api.POST('/items/{item_id}/fresh-comps', { params: { path: { item_id: itemId } } }))
 }
 
 // Sends the listings a channel refused or couldn't take again, then answers with the review.

@@ -2,7 +2,13 @@ import { fireEvent, render, screen, waitFor, within } from '@testing-library/rea
 import { MemoryRouter } from 'react-router'
 
 import App from '@/App'
-import type { ApprovalQueue, BoxSizeOption, ItemReview, ListingReview } from '@/api/approval'
+import type {
+  ApprovalQueue,
+  BoxSizeOption,
+  ItemReview,
+  ListingReview,
+  QueueItem,
+} from '@/api/approval'
 import { fake, fakeSession } from '@/test/fakeSupabase'
 
 vi.mock('@/auth/supabase', async () => ({
@@ -60,8 +66,112 @@ function review(changes: Partial<ItemReview> = {}): ItemReview {
     submitted_by_name: 'Demo Staff',
     submitted_at: SENT_AT,
     blockers: ['Enter the package weight and box size, which Channel A needs before approval.'],
+    approved_by_name: null,
+    approved_at: null,
+    back_for_review: false,
+    fresh_appraisal: null,
+    history: [
+      {
+        decision: 'yes',
+        reason: null,
+        note: null,
+        decided_by_name: 'Demo Staff',
+        decided_at: SENT_AT,
+      },
+    ],
     ...changes,
   }
+}
+
+const APPROVED_AT = '2026-11-05T16:00:00+00:00'
+
+// An item approved in November and held for March, with its listings approved and its shelf.
+function heldReview(changes: Partial<ItemReview> = {}): ItemReview {
+  return review({
+    status: 'held_for_season',
+    release_month: '2027-03-01',
+    full_sku: 'RT11042601-12x12x6',
+    package_weight_oz: 22.4,
+    box_code: '12x12x6',
+    location_code: 'C1',
+    blockers: [],
+    approved_by_name: 'Demo Manager',
+    approved_at: APPROVED_AT,
+    listings: [
+      listing({ state: 'approved' }),
+      listing({
+        channel: 'channel_b',
+        state: 'approved',
+        category: 'Unisex',
+        net_after_fees_cents: 3978,
+      }),
+    ],
+    history: [
+      {
+        decision: 'yes',
+        reason: 'wrong_comps',
+        note: null,
+        decided_by_name: 'Demo Staff',
+        decided_at: SENT_AT,
+      },
+      {
+        decision: 'yes',
+        reason: 'Approved and held for its season until March 2027',
+        note: null,
+        decided_by_name: 'Demo Manager',
+        decided_at: APPROVED_AT,
+      },
+    ],
+    ...changes,
+  })
+}
+
+const FRESH = {
+  id: 'a2',
+  item_id: ITEM,
+  price_low_cents: 3800,
+  price_typical_cents: 4700,
+  price_high_cents: 5600,
+  net_after_fees_cents: 3890,
+  comps_count: 2,
+  confidence: 'medium',
+  recommendation: 'yes',
+  rules_config: {
+    pricing: { ask_to_sale_factor: 0.645 },
+    search: { outcome: 'priced', queries: ['carhartt canvas jacket'] },
+  },
+  explanation: 'The expected sale price is $47.00.',
+  comps: [
+    {
+      title: 'Carhartt canvas jacket, brown',
+      asking_cents: 6900,
+      condition: 'Pre-Owned',
+      url: 'https://www.ebay.com/itm/1',
+      outlier: false,
+    },
+    {
+      title: 'Carhartt duck jacket',
+      asking_cents: 7600,
+      condition: 'Pre-Owned',
+      url: 'https://www.ebay.com/itm/2',
+      outlier: false,
+    },
+  ],
+  created_at: '2027-03-02T15:00:00+00:00',
+} satisfies ItemReview['fresh_appraisal']
+
+const HELD: QueueItem = {
+  item_id: ITEM,
+  sku: 'RT11042601',
+  full_sku: 'RT11042601-12x12x6',
+  status: 'held_for_season',
+  brand: 'Carhartt',
+  product: 'canvas jacket',
+  channels: ['channel_a', 'channel_b'],
+  waiting_since: APPROVED_AT,
+  release_month: '2027-03-01',
+  location_code: 'C1',
+  back_for_review: false,
 }
 
 const QUEUE: ApprovalQueue = {
@@ -75,9 +185,13 @@ const QUEUE: ApprovalQueue = {
       product: 'canvas jacket',
       channels: ['channel_a', 'channel_b'],
       waiting_since: SENT_AT,
+      release_month: null,
+      location_code: null,
+      back_for_review: false,
     },
   ],
   awaiting_storage: [],
+  held_for_season: [],
 }
 
 const BOXES: BoxSizeOption[] = [
@@ -481,6 +595,255 @@ test('a held item shows its release month', async () => {
   renderAt(`/app/approvals/${ITEM}`)
   expect(await screen.findByText('Approved and held for its season')).toBeInTheDocument()
   expect(screen.getByText('September 2027')).toBeInTheDocument()
+})
+
+test('the held list says when each item comes back and where it is', async () => {
+  stubApi({
+    overrides: {
+      'GET /approvals': () =>
+        Response.json({ ...QUEUE, awaiting_approval: [], held_for_season: [HELD] }),
+    },
+  })
+  renderAt('/app/approvals')
+  const held = await panel('Held for season')
+  expect(held.getByRole('link', { name: 'Carhartt canvas jacket' })).toHaveAttribute(
+    'href',
+    `/app/approvals/${ITEM}`,
+  )
+  expect(held.getByText('Held until March 2027, stored on C1')).toBeInTheDocument()
+  expect(
+    (await panel('Waiting for approval')).getByText('Nothing is waiting for approval.'),
+  ).toBeInTheDocument()
+})
+
+test('the held list says when nothing is held', async () => {
+  stubApi()
+  renderAt('/app/approvals')
+  expect(
+    (await panel('Held for season')).getByText('No item is held for its season.'),
+  ).toBeInTheDocument()
+})
+
+test('List now sends a held item into its review', async () => {
+  const calls = stubApi({
+    overrides: {
+      'GET /approvals': () =>
+        Response.json({ ...QUEUE, awaiting_approval: [], held_for_season: [HELD] }),
+      [`POST /items/${ITEM}/list-now`]: () =>
+        Response.json(heldReview({ back_for_review: true, release_month: '2026-11-01' })),
+      [`GET /items/${ITEM}/review`]: () =>
+        Response.json(heldReview({ back_for_review: true, release_month: '2026-11-01' })),
+      [`POST /items/${ITEM}/fresh-comps`]: () =>
+        Response.json(
+          heldReview({
+            back_for_review: true,
+            release_month: '2026-11-01',
+            fresh_appraisal: FRESH,
+          }),
+        ),
+    },
+  })
+  renderAt('/app/approvals')
+  fireEvent.click((await panel('Held for season')).getByRole('button', { name: 'List now' }))
+
+  expect(await screen.findByText('Back for review in its season')).toBeInTheDocument()
+  expect(calls.filter((call) => call.path.endsWith('/list-now'))).toHaveLength(1)
+})
+
+test('a held item can be taken out of online selling with a note', async () => {
+  const calls = stubApi({
+    overrides: {
+      'GET /approvals': () =>
+        Response.json({ ...QUEUE, awaiting_approval: [], held_for_season: [HELD] }),
+      [`POST /items/${ITEM}/not-online`]: (body) =>
+        Response.json({
+          item_id: ITEM,
+          status: 'not_listed_online',
+          note: (body as { note: string }).note,
+          decided_by_name: 'Demo Manager',
+          decided_at: '2026-11-06T15:00:00+00:00',
+        }),
+    },
+  })
+  renderAt('/app/approvals')
+  const held = await panel('Held for season')
+  fireEvent.click(held.getByRole('button', { name: "Don't list online" }))
+  fireEvent.click(held.getByRole('button', { name: "Don't list online" }))
+  expect(
+    held.getByText("Enter why it isn't going online, such as to sell it on the store floor."),
+  ).toBeInTheDocument()
+  expect(calls.some((call) => call.path.endsWith('/not-online'))).toBe(false)
+
+  fireEvent.change(held.getByLabelText("Why it isn't going online"), {
+    target: { value: ' Selling it on the floor this winter. ' },
+  })
+  fireEvent.click(held.getByRole('button', { name: "Don't list online" }))
+
+  expect(
+    await screen.findByText("Carhartt canvas jacket won't be listed online."),
+  ).toBeInTheDocument()
+  expect(held.getByText('No item is held for its season.')).toBeInTheDocument()
+  expect(calls.find((call) => call.path.endsWith('/not-online'))?.body).toEqual({
+    note: 'Selling it on the floor this winter.',
+  })
+})
+
+test('a held item not yet due can be sent to review from its own page', async () => {
+  const calls = stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () => Response.json(heldReview()),
+      [`POST /items/${ITEM}/list-now`]: () =>
+        Response.json(heldReview({ back_for_review: true, release_month: '2026-11-01' })),
+      [`POST /items/${ITEM}/fresh-comps`]: () =>
+        Response.json(
+          heldReview({
+            back_for_review: true,
+            release_month: '2026-11-01',
+            fresh_appraisal: FRESH,
+          }),
+        ),
+    },
+  })
+  renderAt(`/app/approvals/${ITEM}`)
+  const held = await panel('Held until March 2027')
+  expect(screen.queryByRole('heading', { name: 'Approve or reject' })).not.toBeInTheDocument()
+  expect(screen.queryByLabelText('Price for Channel A')).not.toBeInTheDocument()
+  expect(await panel("Don't list online")).toBeTruthy()
+
+  fireEvent.click(held.getByRole('button', { name: 'List now' }))
+
+  expect(await panel('What it sells for now')).toBeTruthy()
+  expect(calls.filter((call) => call.path.endsWith('/fresh-comps'))).toHaveLength(1)
+})
+
+test('a held item back for review shows fresh sales beside the approved prices', async () => {
+  let answer = () => {}
+  const looked = new Promise<void>((resolve) => (answer = resolve))
+  const calls = stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () => Response.json(heldReview({ back_for_review: true })),
+      // Held until the test has seen the page looking it up.
+      [`POST /items/${ITEM}/fresh-comps`]: async () => {
+        await looked
+        return Response.json(heldReview({ back_for_review: true, fresh_appraisal: FRESH }))
+      },
+      [`POST /items/${ITEM}/approve`]: () =>
+        Response.json(
+          heldReview({
+            status: 'approved',
+            listings: [
+              listing({ state: 'approved', channel_status: 'active' }),
+              listing({ channel: 'channel_b', state: 'approved', channel_status: 'active' }),
+            ],
+          }),
+        ),
+    },
+  })
+  renderAt(`/app/approvals/${ITEM}`)
+  expect(
+    await screen.findByText('Looking up what similar items sell for now...'),
+  ).toBeInTheDocument()
+  answer()
+
+  // The panel is drawn again once the lookup answers, so it's found after that.
+  await screen.findByText('Typical sale price now')
+  const fresh = await panel('What it sells for now')
+  expect(fresh.getByText('Typical sale price when approved').nextElementSibling).toHaveTextContent(
+    '$51.60',
+  )
+  expect(fresh.getByText('Typical sale price now').nextElementSibling).toHaveTextContent('$47.00')
+  expect(fresh.getByRole('link', { name: 'Carhartt duck jacket' })).toBeInTheDocument()
+  expect(screen.getByText('Approved by').nextElementSibling).toHaveTextContent('Demo Manager')
+  // The approved price can still change before it is approved again.
+  expect((await panel('Channel A')).getByLabelText('Price for Channel A')).toBeInTheDocument()
+  const history = await panel('History')
+  expect(history.getByText(". The listings aren't the same item")).toBeInTheDocument()
+  expect(
+    history.getByText('. Approved and held for its season until March 2027'),
+  ).toBeInTheDocument()
+
+  fireEvent.click((await panel('Approve or reject')).getByRole('button', { name: 'Approve' }))
+  expect(await screen.findByText('Live on Channel A.')).toBeInTheDocument()
+  expect(calls.filter((call) => call.path.endsWith('/fresh-comps'))).toHaveLength(1)
+})
+
+test('a fresh lookup that fails can be tried again', async () => {
+  let failing = true
+  const calls = stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () => Response.json(heldReview({ back_for_review: true })),
+      [`POST /items/${ITEM}/fresh-comps`]: () =>
+        failing
+          ? Response.json({ detail: "We couldn't search eBay. Try again." }, { status: 502 })
+          : Response.json(heldReview({ back_for_review: true, fresh_appraisal: FRESH })),
+    },
+  })
+  renderAt(`/app/approvals/${ITEM}`)
+  const fresh = await panel('What it sells for now')
+  expect(await fresh.findByRole('alert')).toHaveTextContent("We couldn't search eBay. Try again.")
+
+  failing = false
+  fireEvent.click(fresh.getByRole('button', { name: 'Try again' }))
+  expect(await screen.findByText('Typical sale price now')).toBeInTheDocument()
+  expect(calls.filter((call) => call.path.endsWith('/fresh-comps'))).toHaveLength(2)
+})
+
+test('a listing staff sent with a release month can stay off online selling', async () => {
+  let kept = false
+  stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () =>
+        Response.json(
+          kept
+            ? review({
+                status: 'not_listed_online',
+                release_month: '2027-03-01',
+                listings: [],
+                history: [
+                  {
+                    decision: 'no',
+                    reason: 'Not listed online',
+                    note: 'Too bulky to hold.',
+                    decided_by_name: 'Demo Manager',
+                    decided_at: '2026-11-06T15:00:00+00:00',
+                  },
+                ],
+              })
+            : review({ release_month: '2027-03-01' }),
+        ),
+      [`POST /items/${ITEM}/not-online`]: () => {
+        kept = true
+        return Response.json({
+          item_id: ITEM,
+          status: 'not_listed_online',
+          note: 'Too bulky to hold.',
+          decided_by_name: 'Demo Manager',
+          decided_at: '2026-11-06T15:00:00+00:00',
+        })
+      },
+    },
+  })
+  renderAt(`/app/approvals/${ITEM}`)
+  const offline = await panel("Don't list online")
+  fireEvent.change(offline.getByLabelText("Why it isn't going online"), {
+    target: { value: 'Too bulky to hold.' },
+  })
+  fireEvent.click(offline.getByRole('button', { name: "Don't list online" }))
+
+  expect(
+    await screen.findByText(
+      'Not listed online. It stays off every channel, and the note is in its history.',
+    ),
+  ).toBeInTheDocument()
+  expect(screen.queryByRole('heading', { name: 'Approve or reject' })).not.toBeInTheDocument()
+  expect((await panel('History')).getByText('Too bulky to hold.')).toBeInTheDocument()
+})
+
+test('a listing with no release month is not offered the off-online choice', async () => {
+  stubApi()
+  renderAt(`/app/approvals/${ITEM}`)
+  await panel('Approve or reject')
+  expect(screen.queryByRole('heading', { name: "Don't list online" })).not.toBeInTheDocument()
 })
 
 test('staff are refused the review without asking the API', async () => {
