@@ -28,8 +28,9 @@ SESSION_LINK = re.compile(
     r"/\S*",
     re.IGNORECASE,
 )
-# A conventional-commit style prefix such as `feat:`, `fix(api):` or `chore!:`.
-SUBJECT_PREFIX = re.compile(r"^[A-Za-z]+(?:\([^)]*\))?!?:")
+# A conventional-commit style prefix such as `feat:`, `fix(api):`, `chore!:`,
+# `no-mistakes(document):` or `v2:`: one word of letters, digits and hyphens.
+SUBJECT_PREFIX = re.compile(r"^[A-Za-z0-9-]+(?:\([^)]*\))?!?:")
 ISSUE_LINK = re.compile(r"\b(?:closes|refs) #\d+\b", re.IGNORECASE)
 # A line that only links an issue, which isn't part of the section above it.
 ISSUE_LINE = re.compile(r"^\s*(?:closes|refs)\s*#\d*\s*$", re.IGNORECASE)

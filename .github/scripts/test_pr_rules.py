@@ -60,10 +60,22 @@ class CommitTest(unittest.TestCase):
                 self.assertEqual(check_commit(commit(subject)), [])
 
     def test_a_colon_later_in_the_subject_passes(self):
-        self.assertEqual(check_commit(commit("Update the README: add the test commands")), [])
+        for subject in [
+            "Update the README: add the test commands",
+            "Fix the view: name",
+            "Re-run the v2 import: it timed out",
+        ]:
+            with self.subTest(subject=subject):
+                self.assertEqual(check_commit(commit(subject)), [])
 
     def test_prefixed_subjects_fail(self):
-        for subject in ["feat(api): add comps lookup", "fix: stop a crash", "chore!: drop py3.11"]:
+        for subject in [
+            "feat(api): add comps lookup",
+            "fix: stop a crash",
+            "chore!: drop py3.11",
+            "no-mistakes(document): Fix stale dashboard view name in database.md",
+            "v2: rework the import",
+        ]:
             with self.subTest(subject=subject):
                 problems = check_commit(commit(subject))
                 self.assertEqual(len(problems), 1)
