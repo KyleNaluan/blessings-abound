@@ -3,7 +3,7 @@
 CI runs it on every pull request with the base and head commits and the description:
 
     export PR_BODY="$(gh pr view 12 --json body -q .body)"
-    python3 .github/scripts/pr_rules.py origin/main HEAD
+    uv run --no-project --python 3.12 python .github/scripts/pr_rules.py origin/main HEAD
 
 It prints one line for each broken rule, naming the commit or section, and exits 1 if any broke.
 It uses only the standard library, so it needs nothing installed.

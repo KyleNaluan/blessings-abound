@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-06, [#25](https://github.com/KyleNaluan/blessings-abound/issues/25), Follow the README again from a fresh Windows clone of current main, and run the pull request rules tests with the Python that uv installs, because `python3` on Windows is only a link to the Microsoft Store
 - 2026-11-05, [#45](https://github.com/KyleNaluan/blessings-abound/issues/45), Add a manager-only "Ask about sales" chat to the Dashboards page, where the model picks one of six tested metric functions, code returns the numbers, and the model words the answer, with the call shown under each answer, the same synthetic labels as the charts, and code's own sentence in place of any wording with a number code didn't return
 - 2026-11-05, [#32](https://github.com/KyleNaluan/blessings-abound/issues/32), Add the manager-only Team page to list, add, change and deactivate people, with a temporary password shown once and the self and last-manager limits said plainly, and send a reset link from forgot password when someone types a username that has an email
 - 2026-11-05, [#27](https://github.com/KyleNaluan/blessings-abound/issues/27), Add the manager-only Dashboards page with time to sell, seasonality, the triage funnel, and sync health and agreement, each chart labeled as the synthetic history or as synthetic live sales on the mock channels and never both, with a sentence in place of any chart that has nothing to show
