@@ -403,7 +403,7 @@ One item forwarded to Ecommerce, with the appraisal's recommendation and the sta
 
 ### `synthetic_listings`
 
-One accepted item on one channel, which the time to sell, seasonality and per-channel sell-through views read.
+One accepted item on one channel, which the time to sell, seasonality and triage funnel views read.
 
 | Column | Type | Rules |
 | --- | --- | --- |
