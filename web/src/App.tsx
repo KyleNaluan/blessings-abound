@@ -14,6 +14,7 @@ import { NeedsAttentionPage } from '@/pages/NeedsAttentionPage'
 import { PickListPage } from '@/pages/PickListPage'
 import { SettingsPage } from '@/pages/SettingsPage'
 import { SignInPage } from '@/pages/SignInPage'
+import { TeamPage } from '@/pages/TeamPage'
 
 export default function App() {
   return (
@@ -84,6 +85,14 @@ export default function App() {
           element={
             <RequireAuth>
               <DashboardsPage />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/app/team"
+          element={
+            <RequireAuth>
+              <TeamPage />
             </RequireAuth>
           }
         />

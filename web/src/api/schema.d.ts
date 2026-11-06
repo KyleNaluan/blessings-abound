@@ -370,6 +370,29 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/auth/password-reset': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Send Password Reset
+     * @description Email a reset link to the address on this username's account, when it has one.
+     *
+     *     The answer is the same for a username with no email or no account, so nobody can use this to
+     *     find out which accounts exist, and the address never reaches the browser.
+     */
+    post: operations['send_password_reset']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/me': {
     parameters: {
       query?: never
@@ -1725,6 +1748,11 @@ export interface components {
      * @enum {string}
      */
     PackageKind: 'box' | 'mailer'
+    /** PasswordResetRequest */
+    PasswordResetRequest: {
+      /** Username */
+      username: string
+    }
     /** PersonRead */
     PersonRead: {
       /**
@@ -2837,6 +2865,44 @@ export interface operations {
         }
       }
       /** @description Too many wrong passwords */
+      429: {
+        headers: {
+          [name: string]: unknown
+        }
+        content?: never
+      }
+    }
+  }
+  send_password_reset: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['PasswordResetRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      204: {
+        headers: {
+          [name: string]: unknown
+        }
+        content?: never
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+      /** @description Too many reset emails */
       429: {
         headers: {
           [name: string]: unknown

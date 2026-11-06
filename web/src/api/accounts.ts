@@ -32,3 +32,10 @@ export async function chooseOwnPassword(password: string) {
   const { data, error } = await api.POST('/me/password', { body: { password } })
   return data ? { me: data, problem: null } : { me: null, problem: detailOf(error) }
 }
+
+// The API finds the username's address and sends the link, so the address never reaches the browser.
+// It answers the same for a username with no email, so `sent` only means the API took the request.
+export async function sendUsernamePasswordReset(username: string) {
+  const { response, error } = await api.POST('/auth/password-reset', { body: { username } })
+  return response.ok ? { sent: true, problem: null } : { sent: false, problem: detailOf(error) }
+}

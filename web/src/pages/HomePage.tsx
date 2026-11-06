@@ -65,6 +65,11 @@ export function HomePage() {
             <Link to="/app/settings">Settings</Link>
           </li>
         )}
+        {me?.role === 'manager' && (
+          <li>
+            <Link to="/app/team">Team</Link>
+          </li>
+        )}
       </ul>
       <p className="flex items-center justify-between border-y border-rule py-3.5">
         <span>API status</span>

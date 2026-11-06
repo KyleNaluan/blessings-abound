@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-05, [#32](https://github.com/KyleNaluan/blessings-abound/issues/32), Add the manager-only Team page to list, add, change and deactivate people, with a temporary password shown once and the self and last-manager limits said plainly, and send a reset link from forgot password when someone types a username that has an email
 - 2026-11-05, [#27](https://github.com/KyleNaluan/blessings-abound/issues/27), Add the manager-only Dashboards page with time to sell, seasonality, the triage funnel, and sync health and agreement, each chart labeled as the synthetic history or as synthetic live sales on the mock channels and never both, with a sentence in place of any chart that has nothing to show
 - 2026-11-05, [#82](https://github.com/KyleNaluan/blessings-abound/pull/82), Catch commit subject prefixes whose first word has a hyphen or digit, such as `no-mistakes(document):` or `v2:`, in the pull request rules check, which finishes #81
 - 2026-11-05, [#78](https://github.com/KyleNaluan/blessings-abound/pull/78), Check in CI that each pull request's own commits and its description follow CONTRIBUTING.md, with no attribution lines, no prefixed subjects, the three template sections and an issue link, which finishes #76, and say in CONTRIBUTING.md that you can merge your own pull request once its checks pass, which finishes #77

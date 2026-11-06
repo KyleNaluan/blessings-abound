@@ -1,4 +1,5 @@
-"""Signing in with a username, who the caller is, and leaving a temporary password behind."""
+"""Signing in with a username, resetting its password, who the caller is, and leaving a temporary
+password behind."""
 
 import hashlib
 from datetime import datetime, timedelta
@@ -15,7 +16,14 @@ from sqlmodel import Session, col, delete, select
 from app.auth import SignedInProfile, bearer
 from app.db import get_session
 from app.models import AccountStatus, Profile, Role, SignInAttempt
-from app.supabase_auth import NO_SUCH_ACCOUNT_EMAIL, SupabaseAuthAdmin, error_code, get_auth_admin
+from app.settings import get_settings
+from app.supabase_auth import (
+    NO_SUCH_ACCOUNT_EMAIL,
+    PLACEHOLDER_DOMAIN,
+    SupabaseAuthAdmin,
+    error_code,
+    get_auth_admin,
+)
 
 router = APIRouter()
 
@@ -93,6 +101,10 @@ def _clear_sign_in_attempts(session: Session, username: str) -> None:
 class SignInRequest(BaseModel):
     username: Annotated[str, BeforeValidator(lambda value: str(value).strip().lower())]
     password: str
+
+
+class PasswordResetRequest(BaseModel):
+    username: Annotated[str, BeforeValidator(lambda value: str(value).strip().lower())]
 
 
 class SignInSession(BaseModel):
@@ -178,6 +190,57 @@ def sign_in_with_username(
     _clear_sign_in_attempts(session, request.username)
     response.headers["Cache-Control"] = "no-store"
     return SignInSession(access_token=tokens["access_token"], refresh_token=tokens["refresh_token"])
+
+
+def _reset_address(session: Session, auth: SupabaseAuthAdmin, username: str) -> str | None:
+    """The address a reset link for this username can go to, or None when there is none.
+
+    A person with no email has an address on the placeholder domain, which can't get mail, and a
+    deactivated person couldn't sign in with a new password anyway.
+    """
+    profile = session.exec(select(Profile).where(Profile.username == username)).first()
+    if profile is None or not profile.is_active:
+        return None
+    user = auth.get_user(profile.auth_user_id)
+    email = (user or {}).get("email") or ""
+    return None if not email or email.endswith(f"@{PLACEHOLDER_DOMAIN}") else email
+
+
+@router.post(
+    "/auth/password-reset",
+    operation_id="send_password_reset",
+    status_code=status.HTTP_204_NO_CONTENT,
+    responses={status.HTTP_429_TOO_MANY_REQUESTS: {"description": "Too many reset emails"}},
+)
+def send_password_reset(
+    request: PasswordResetRequest, session: SessionDep, auth: AuthAdminDep
+) -> None:
+    """Email a reset link to the address on this username's account, when it has one.
+
+    The answer is the same for a username with no email or no account, so nobody can use this to
+    find out which accounts exist, and the address never reaches the browser.
+    """
+    redirect_to = f"{get_settings().web_app_url.rstrip('/')}/choose-password"
+    try:
+        email = _reset_address(session, auth, request.username)
+        if email is not None:
+            auth.send_password_reset(email, redirect_to)
+    except httpx2.HTTPStatusError as error:
+        code = error_code(error)
+        if code == "over_email_send_rate_limit" or error.response.status_code == 429:
+            raise HTTPException(
+                status.HTTP_429_TOO_MANY_REQUESTS,
+                "Too many reset emails were sent. Try again in an hour.",
+            ) from error
+        if code in ("email_address_invalid", "email_address_not_authorized"):
+            raise HTTPException(
+                status.HTTP_422_UNPROCESSABLE_CONTENT,
+                "We couldn't send an email to that address. Ask a store manager to give you a "
+                "temporary password.",
+            ) from error
+        raise HTTPException(status.HTTP_503_SERVICE_UNAVAILABLE, UNREACHABLE) from error
+    except httpx2.TransportError as error:
+        raise HTTPException(status.HTTP_503_SERVICE_UNAVAILABLE, UNREACHABLE) from error
 
 
 @router.get("/me", operation_id="get_me")

@@ -341,17 +341,50 @@ test('forgot password carries over what was typed and sends a reset email', asyn
   })
 })
 
-test('forgot password with a username tells people without email to ask a manager', async () => {
+test('forgot password with a username asks the API, which knows the address', async () => {
+  stubApi({ 'POST /auth/password-reset': () => new Response(null, { status: 204 }) })
   renderAt('/forgot-password')
   submit('Send reset link')
   expect(await screen.findByText('Enter your username or email')).toBeInTheDocument()
 
+  fillIn('Username or email', ' demo.staff ')
+  submit('Send reset link')
+  expect(await screen.findByText(/we've sent it a link to reset the password/)).toBeInTheDocument()
+  expect(
+    screen.getByText(/Ask a store manager to give you a temporary password/),
+  ).toBeInTheDocument()
+  const [request] = apiCalls('POST', '/auth/password-reset')
+  expect(await request.clone().json()).toEqual({ username: 'demo.staff' })
+  expect(fake.auth.resetPasswordForEmail).not.toHaveBeenCalled()
+})
+
+test('forgot password with a username shows why the API could not send the email', async () => {
+  stubApi({
+    'POST /auth/password-reset': () =>
+      Response.json(
+        { detail: 'Too many reset emails were sent. Try again in an hour.' },
+        { status: 429 },
+      ),
+  })
+  renderAt('/forgot-password')
   fillIn('Username or email', 'demo.staff')
   submit('Send reset link')
-  expect(
-    await screen.findByText(/Ask a store manager to give you a temporary password/),
-  ).toBeInTheDocument()
-  expect(fake.auth.resetPasswordForEmail).not.toHaveBeenCalled()
+  expect(await screen.findByRole('alert')).toHaveTextContent('Too many reset emails were sent')
+})
+
+test('forgot password with a username says so when the API cannot be reached', async () => {
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async () => {
+      throw new TypeError('Failed to fetch')
+    }),
+  )
+  renderAt('/forgot-password')
+  fillIn('Username or email', 'demo.staff')
+  submit('Send reset link')
+  expect(await screen.findByRole('alert')).toHaveTextContent(
+    "We couldn't reach the sign-in service",
+  )
 })
 
 test('forgot password shows an error when the email cannot be sent', async () => {
