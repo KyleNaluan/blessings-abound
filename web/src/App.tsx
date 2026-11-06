@@ -5,6 +5,7 @@ import { RequireAuth } from '@/auth/RequireAuth'
 import { AppraisalPage } from '@/pages/AppraisalPage'
 import { ApprovalsPage } from '@/pages/ApprovalsPage'
 import { ChoosePasswordPage } from '@/pages/ChoosePasswordPage'
+import { DashboardsPage } from '@/pages/DashboardsPage'
 import { ForgotPasswordPage } from '@/pages/ForgotPasswordPage'
 import { HomePage } from '@/pages/HomePage'
 import { ItemReviewPage } from '@/pages/ItemReviewPage'
@@ -75,6 +76,14 @@ export default function App() {
           element={
             <RequireAuth>
               <NeedsAttentionPage />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/app/dashboards"
+          element={
+            <RequireAuth>
+              <DashboardsPage />
             </RequireAuth>
           }
         />

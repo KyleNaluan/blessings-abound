@@ -194,6 +194,7 @@ uv run python -m app.synthetic_sales
 
 It replaces the `synthetic_items` and `synthetic_listings` tables with about 600 items from the fixed seed, and the same seed always gives the same rows.
 Add `--seed N` for a different history.
+A manager sees the dashboards from the Dashboards link on the home page, and a view with no history loaded says so instead of drawing an empty chart.
 `uv run python -m app.synthetic_calibration` checks the model against the published figures it is calibrated to over 200 seeds and rewrites [docs/synthetic-sales.md](docs/synthetic-sales.md), which also lists every parameter and where it comes from.
 
 ## Tests and lint
