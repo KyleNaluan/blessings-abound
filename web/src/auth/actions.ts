@@ -1,8 +1,13 @@
 import type { AuthError } from '@supabase/supabase-js'
 
-import { chooseOwnPassword, signInWithUsername, type Me } from '@/api/accounts'
+import {
+  chooseOwnPassword,
+  sendUsernamePasswordReset,
+  signInWithUsername,
+  type Me,
+} from '@/api/accounts'
 
-import { findResetEmail, isEmail } from './accounts'
+import { isEmail } from './accounts'
 import { supabase } from './supabase'
 
 // Each action resolves to an error message to show, or null when it worked.
@@ -40,12 +45,18 @@ async function signInByUsername(username: string, password: string): Promise<str
 }
 
 // Sends a reset link when the account has an email. The answer is the same either way, so nobody can use this page to find
-// out which accounts exist.
+// out which accounts exist. A username goes through the API, which knows its address, and an address straight to Supabase.
 export async function sendPasswordReset(identifier: string): Promise<string | null> {
   if (!supabase) return NOT_SET_UP
-  const email = await findResetEmail(identifier)
-  if (!email) return null
-  const { error } = await supabase.auth.resetPasswordForEmail(email, {
+  if (!isEmail(identifier)) {
+    try {
+      const { sent, problem } = await sendUsernamePasswordReset(identifier)
+      return sent ? null : (problem ?? UNREACHABLE)
+    } catch {
+      return UNREACHABLE
+    }
+  }
+  const { error } = await supabase.auth.resetPasswordForEmail(identifier, {
     redirectTo: `${window.location.origin}/choose-password`,
   })
   // Supabase's built-in mailer refuses test domains and, without a custom SMTP server, anyone outside the project team.

@@ -109,6 +109,13 @@ class SupabaseAuthAdmin:
         response.raise_for_status()
         return response.json()
 
+    def send_password_reset(self, email: str, redirect_to: str) -> None:
+        """Emails a link that signs the person in once to choose a new password."""
+        response = self.client.post(
+            "/recover", params={"redirect_to": redirect_to}, json={"email": email}
+        )
+        response.raise_for_status()
+
     def change_own_password(self, access_token: str, password: str) -> None:
         """Changes it as the person, so Auth still refuses a weak password or the same one."""
         response = self.client.put(

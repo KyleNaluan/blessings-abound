@@ -57,6 +57,8 @@ class FakeSupabaseAuth:
         self.users: dict[UUID, dict[str, Any]] = {}
         self.requests: list[httpx2.Request] = []
         self.fail_with: httpx2.Response | None = None
+        # Answers for single routes, such as a reset email Auth can't send, by path.
+        self.fail_paths: dict[str, httpx2.Response] = {}
         self.sign_ups_on = False
         self.tokens: dict[str, UUID] = {}
         # Auth's clock in seconds, which a test moves on to separate one session from the next.
@@ -89,6 +91,8 @@ class FakeSupabaseAuth:
         path = request.url.path.removeprefix("/auth/v1")
         if self.fail_with is not None:
             return self.fail_with
+        if path in self.fail_paths:
+            return self.fail_paths[path]
         method = request.method
         if method == "POST" and path == "/token":
             return self._token(self._body(request))
@@ -101,6 +105,8 @@ class FakeSupabaseAuth:
             return self._create(self._body(request) | {"password": None, "email_confirm": False})
         if method == "POST" and path == "/admin/users":
             return self._create(self._body(request))
+        if method == "POST" and path == "/recover":
+            return httpx2.Response(200, json={})
         if method == "GET" and path == "/admin/users":
             return httpx2.Response(200, json={"users": list(self.users.values())})
         user_id = UUID(path.rsplit("/", 1)[1])
@@ -349,11 +355,95 @@ def test_username_sign_in_says_so_when_the_service_key_is_missing(client: TestCl
     get_auth_admin.cache_clear()
 
 
+def reset(client: TestClient, username: str) -> httpx2.Response:
+    return client.post("/auth/password-reset", json={"username": username}, headers={})
+
+
+def recover_requests(auth: FakeSupabaseAuth) -> list[httpx2.Request]:
+    return [request for request in auth.requests if request.url.path == "/auth/v1/recover"]
+
+
+def test_a_username_with_an_email_gets_a_reset_link_back_to_choosing_a_password(
+    client: TestClient, session: Session, auth: FakeSupabaseAuth
+) -> None:
+    user_id = auth.add("jo@store.example")
+    session.add(
+        Profile(auth_user_id=user_id, username="jo", display_name="Jo", email="jo@store.example")
+    )
+    session.commit()
+    response = reset(client, " Jo ")
+    assert response.status_code == 204
+    assert response.content == b""
+    [sent] = recover_requests(auth)
+    assert json.loads(sent.content) == {"email": "jo@store.example"}
+    assert sent.url.params["redirect_to"] == (
+        f"{get_settings().web_app_url.rstrip('/')}/choose-password"
+    )
+
+
+def test_a_profile_from_the_setup_scripts_gets_its_link_at_its_auth_address(
+    client: TestClient, session: Session, auth: FakeSupabaseAuth
+) -> None:
+    user_id = auth.add("someone@teammate.example")
+    session.add(Profile(auth_user_id=user_id, username="teammate", display_name="Teammate"))
+    session.commit()
+    assert reset(client, "teammate").status_code == 204
+    [sent] = recover_requests(auth)
+    assert json.loads(sent.content) == {"email": "someone@teammate.example"}
+
+
+def test_no_email_no_account_and_a_deactivated_account_answer_the_same_and_send_nothing(
+    client: TestClient, session: Session, auth: FakeSupabaseAuth
+) -> None:
+    gone_id = auth.add("gone@store.example")
+    session.add(
+        Profile(
+            auth_user_id=gone_id,
+            username="gone",
+            display_name="Gone",
+            email="gone@store.example",
+            is_active=False,
+        )
+    )
+    session.commit()
+    answers = {reset(client, name).status_code for name in ("helper", "nobody", "gone")}
+    assert answers == {204}
+    assert recover_requests(auth) == []
+
+
+@pytest.mark.parametrize(
+    ("status", "code", "answer"),
+    [
+        (429, "over_email_send_rate_limit", 429),
+        (400, "email_address_not_authorized", 422),
+        (500, "unexpected_failure", 503),
+    ],
+)
+def test_a_reset_email_that_cannot_be_sent_says_why(
+    client: TestClient,
+    session: Session,
+    auth: FakeSupabaseAuth,
+    status: int,
+    code: str,
+    answer: int,
+) -> None:
+    user_id = auth.add("jo@store.example")
+    session.add(
+        Profile(auth_user_id=user_id, username="jo", display_name="Jo", email="jo@store.example")
+    )
+    session.commit()
+    auth.fail_paths["/recover"] = auth_error(status, code)
+    response = reset(client, "jo")
+    assert response.status_code == answer
+    assert isinstance(response.json()["detail"], str)
+
+
 def test_every_route_needs_a_sign_in_except_the_public_ones() -> None:
     public = {
         ("get", "/health"),
         ("get", "/health/db"),
         ("post", "/auth/sign-in"),
+        ("post", "/auth/password-reset"),
     }
     guarded = {
         (method, path)
