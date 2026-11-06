@@ -672,6 +672,26 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/dashboards/ask': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Ask Insight
+     * @description Answer a manager's sales question from one of the metric functions, with the call shown.
+     */
+    post: operations['ask_insight']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/settings': {
     parameters: {
       query?: never
@@ -1380,6 +1400,45 @@ export interface components {
       /** Run Days */
       run_days: number
     }
+    /** InsightAnswer */
+    InsightAnswer: {
+      /** Question */
+      question: string
+      /** Answer */
+      answer: string
+      /**
+       * Written By
+       * @enum {string}
+       */
+      written_by: 'model' | 'code'
+      fallback_reason: components['schemas']['FallbackReason'] | null
+      /** Rejected Numbers */
+      rejected_numbers: string[]
+      query: components['schemas']['MetricQuery'] | null
+      /** Call */
+      call: string | null
+      /** Source */
+      source: ('history' | 'live') | null
+      /** Facts */
+      facts: components['schemas']['InsightFact'][]
+      /** Model Name */
+      model_name: string | null
+    }
+    /**
+     * InsightFact
+     * @description One number a function returned, as code wrote it, which is all an answer may say.
+     */
+    InsightFact: {
+      /** Label */
+      label: string
+      /** Value */
+      value: string
+    }
+    /** InsightQuestion */
+    InsightQuestion: {
+      /** Question */
+      question: string
+    }
     /**
      * IntakeConflict
      * @description The 409 answer when staff should look at the photos again before the item is taken in.
@@ -1715,6 +1774,29 @@ export interface components {
       sold: number
       /** Median Hours */
       median_hours: number | null
+    }
+    /**
+     * MetricName
+     * @enum {string}
+     */
+    MetricName:
+      | 'time_to_sell'
+      | 'time_to_sell_by_band'
+      | 'seasonality'
+      | 'triage_funnel'
+      | 'live_sales'
+      | 'sync_health'
+    /**
+     * MetricQuery
+     * @description One function and the inputs it was run with, where None means every one.
+     */
+    MetricQuery: {
+      function: components['schemas']['MetricName']
+      category?: components['schemas']['Category'] | null
+      /** Price Band */
+      price_band?: number | null
+      /** Month */
+      month?: number | null
     }
     /** OrderRead */
     OrderRead: {
@@ -3343,6 +3425,53 @@ export interface operations {
         content: {
           'application/json': components['schemas']['Dashboards']
         }
+      }
+    }
+  }
+  ask_insight: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['InsightQuestion']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['InsightAnswer']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+      /** @description The model couldn't pick a function. */
+      502: {
+        headers: {
+          [name: string]: unknown
+        }
+        content?: never
+      }
+      /** @description No model is set up. */
+      503: {
+        headers: {
+          [name: string]: unknown
+        }
+        content?: never
       }
     }
   }

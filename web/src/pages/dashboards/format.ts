@@ -7,6 +7,15 @@ export const CATEGORY_NAMES: Record<Category, string> = {
 
 export const CATEGORIES: Category[] = ['apparel', 'electronics_games']
 
+// Where a chart's or an answer's numbers come from: the synthetic history or the mock channels.
+export type Source = 'history' | 'live'
+
+// The bar down the left of a chart or an answer, a different color for each source.
+export const SOURCE_LINE: Record<Source, string> = {
+  history: 'border-plain-line',
+  live: 'border-info-line',
+}
+
 // Each category's bar color on the dashboards.
 export const SERIES_COLOR: Record<Category, string> = {
   apparel: 'bg-series-apparel',

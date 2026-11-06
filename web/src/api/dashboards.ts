@@ -18,3 +18,10 @@ export type ConflictKind = Schemas['ConflictKind']
 export function loadDashboards() {
   return unwrap(api.GET('/dashboards'))
 }
+
+export type InsightAnswer = Schemas['InsightAnswer']
+export type InsightFact = Schemas['InsightFact']
+
+export function askInsight(question: string) {
+  return unwrap(api.POST('/dashboards/ask', { body: { question } }))
+}

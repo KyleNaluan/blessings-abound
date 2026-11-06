@@ -3,7 +3,8 @@
 docker-compose.offline.yml points the API and the web app here, so the app's own code runs unchanged
 with no keys and no network. It answers with one fixed item card and the committed SerpApi fixtures,
 and it reads no photo. A Needs Attention prompt and a channel reason prompt get their own fixed
-sentences back. Its passwords are public, so it must never serve anything but that demo.
+sentences back, and the insight chat gets a function picked from the question's words and code's
+own answer back. Its passwords are public, so it must never serve anything but that demo.
 
 Usage: uvicorn app.offline_standin:app --port 9999
 """
@@ -180,6 +181,32 @@ def _prompt_text(body: dict[str, Any]) -> str:
     return content if isinstance(content, str) else ""
 
 
+# The words that pick each insight function, checked in this order, and those that pick a category.
+INSIGHT_WORDS = (
+    ("sync_health", ("sync", "double", "flag", "webhook", "disagree", "delist")),
+    ("live_sales", ("live", "real", "mock", "intake", "so far")),
+    ("seasonality", ("season", "month", "busiest", "quietest", "christmas", "summer", "winter")),
+    ("triage_funnel", ("funnel", "forwarded", "accepted", "triage", "override", "against")),
+    ("time_to_sell_by_band", ("band", "price", "cheap", "expensive", "fastest", "slowest")),
+    ("time_to_sell", ("sell", "sold", "time", "days", "long")),
+)
+CATEGORY_WORDS = (
+    ("electronics_games", ("electronic", "game", "console", "controller")),
+    ("apparel", ("apparel", "cloth", "shirt", "jean", "jacket", "dress", "shoe")),
+)
+
+
+def insight_pick(question: str) -> dict[str, Any]:
+    text = question.lower()
+    function = next(
+        (name for name, words in INSIGHT_WORDS if any(word in text for word in words)), "none"
+    )
+    category = next(
+        (name for name, words in CATEGORY_WORDS if any(word in text for word in words)), None
+    )
+    return {"function": function, "category": category, "price_band": None, "month": None}
+
+
 def _fact(prompt: str, label: str) -> str:
     found = re.search(rf"^- {label}: (.*)$", prompt, re.MULTILINE)
     return found.group(1) if found else ""
@@ -188,7 +215,8 @@ def _fact(prompt: str, label: str) -> str:
 @app.post("/v1/chat/completions")
 async def chat_completion(request: Request) -> dict[str, Any]:
     """The fixed card for a photo, the fixed listing for a listing prompt, and a flag's own
-    fixed sentences back for a Needs Attention prompt, as for a channel reason prompt."""
+    fixed sentences back for a Needs Attention prompt, as for a channel reason prompt and the
+    insight chat."""
     body = await request.body()
     prompt = _prompt_text(json.loads(body)) if body else ""
     if prompt.startswith("You write a listing"):
@@ -196,6 +224,12 @@ async def chat_completion(request: Request) -> dict[str, Any]:
         content = json.dumps(LISTING_DRAFT | {"category": category})
     elif prompt.startswith("You write the reason"):
         content = json.dumps({"reason": _fact(prompt, "Recommendation")})
+    elif prompt.startswith("You pass a question"):
+        messages = json.loads(body)["messages"]
+        content = json.dumps(insight_pick(str(messages[-1].get("content") or "")))
+    elif prompt.startswith("You answer a question"):
+        found = re.search(r"^Code's own answer: (.*)$", prompt, re.MULTILINE)
+        content = json.dumps({"answer": found.group(1) if found else ""})
     elif prompt.startswith("You explain"):
         content = json.dumps(
             {"explanation": _fact(prompt, "Problem"), "suggested_fix": _fact(prompt, "Fix")}

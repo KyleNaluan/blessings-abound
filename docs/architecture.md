@@ -302,6 +302,25 @@ A chart from the history says "Synthetic history." and a chart from the mock cha
 A view with nothing to draw says so in a sentence, so an empty table never looks like a slow month.
 The charts are bars and one line chart drawn in `web/src/pages/dashboards/charts.tsx`, with every bar's number as text beside it and the line chart's numbers in a table under it.
 
+## Sales insight chat
+
+A manager can ask a sales question in plain English in the "Ask about sales" section at the top of the Dashboards page, which sends it to `POST /dashboards/ask` in `api/app/insight.py`, and staff get a 403.
+The model never writes a query or a number of its own, and each question takes two model calls on the same providers as the item card.
+
+1. The model picks one function from a fixed set, with its inputs, or answers that none covers the question.
+   The functions are `time_to_sell`, `time_to_sell_by_band`, `seasonality`, `triage_funnel`, `live_sales` and `sync_health`, and each one calls the same queries as the dashboards in `api/app/dashboards.py`.
+   An input the function doesn't take is dropped, and a price band out of range counts as a bad reply, which gets a retry like any other.
+2. Code runs the function and returns its numbers as labeled facts and a sentence of its own.
+3. The model words an answer from those numbers alone.
+
+The number check then takes every number in the model's wording, and any that the function's call and facts don't contain makes the answer fall back to code's own sentence, with the refused numbers shown under it.
+A number from the question counts against the wording too, because a manager could ask about a figure the history doesn't have.
+If the wording call fails, code's sentence stands in with a note saying so, and a question no function covers gets a fixed sentence listing what the chat can answer, without a second model call.
+
+Each answer shows the function call it came from, such as `time_to_sell(category="apparel", price_band=2)`, with the facts in a table under "Show the numbers".
+An answer from the history is labeled "Synthetic history." and one from the mock channels "Synthetic, live.", with the same caption component as the charts.
+The answers live only on the page, so nothing is stored and no migration was needed.
+
 ## Database
 
 The tables, their constraints and who may reach them are described in [database.md](database.md).
@@ -452,3 +471,5 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-05: Label the charts from the mock channels "Synthetic, live." rather than leave them unlabeled, because the issue asks for every chart to be labeled synthetic and those sales are test events, and keep them on their own charts with their own label so they are never mixed with the generated history.
 - 2026-11-05: Read "agreement" in the sync view as whether Turnstone and the channels agree, counted from the conflict flags and items with two standing orders, and show staff against the recommendation under the triage funnel, where the call is made.
 - 2026-11-05: Look up a username's email for a reset link in the API with `POST /auth/password-reset` rather than in the browser, so the browser never learns which usernames exist or their emails. It answers the same when nothing is sent, but a failure to send to a real address is reported, because hiding it would leave the person waiting for an email that never comes.
+- 2026-11-05: Answer insight questions by having the model pick one of six tested functions and word the answer from what code returned, rather than write SQL, and fall back to code's own sentence when the wording has a number code didn't return, so every number a manager reads came from a tested query.
+- 2026-11-05: Keep the insight chat's answers on the page only rather than save them, because nothing reads them later, which keeps the feature free of a table and a migration.

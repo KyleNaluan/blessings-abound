@@ -8,12 +8,14 @@ import { SignOutButton } from '@/components/site/SignOutButton'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { count, onDay } from '@/pages/dashboards/format'
+import { InsightChat } from '@/pages/dashboards/InsightChat'
 import { FunnelView, SeasonalityView, SyncView, TimeToSellView } from '@/pages/dashboards/views'
 
 type Load =
   { state: 'loading' } | { state: 'failed'; message: string } | { state: 'ready'; data: Dashboards }
 
-// The four sales views for managers, each chart labeled with where its numbers come from.
+// The insight chat and the four sales views for managers, each labeled with where its numbers
+// come from.
 export function DashboardsPage() {
   usePageTitle('Dashboards')
   const { me } = useAuth()
@@ -58,6 +60,7 @@ export function DashboardsPage() {
               </p>
             )}
           </div>
+          <InsightChat />
           <div aria-live="polite">
             {load.state === 'loading' && (
               <p className="mb-7 font-bold">Loading the dashboards...</p>

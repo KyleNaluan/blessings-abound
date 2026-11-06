@@ -2,7 +2,13 @@ import { fireEvent, render, screen, within } from '@testing-library/react'
 import { MemoryRouter } from 'react-router'
 
 import App from '@/App'
-import type { Category, Dashboards, FunnelCounts, SyncHealth } from '@/api/dashboards'
+import type {
+  Category,
+  Dashboards,
+  FunnelCounts,
+  InsightAnswer,
+  SyncHealth,
+} from '@/api/dashboards'
 import { fake, fakeSession } from '@/test/fakeSupabase'
 
 vi.mock('@/auth/supabase', async () => ({
@@ -112,8 +118,13 @@ const LOADED: Dashboards = {
   },
 }
 
-function stubApi(role: string, answers: (() => Response)[] = [() => Response.json(LOADED)]) {
+function stubApi(
+  role: string,
+  answers: (() => Response)[] = [() => Response.json(LOADED)],
+  asks: (() => Response)[] = [],
+) {
   const calls: string[] = []
+  const questions: string[] = []
   vi.stubGlobal(
     'fetch',
     vi.fn(async (request: Request) => {
@@ -122,10 +133,14 @@ function stubApi(role: string, answers: (() => Response)[] = [() => Response.jso
       if (key === 'GET /me') return Response.json({ status: 'active', role })
       // Each load takes the next answer, and the last one keeps coming after that.
       if (key === 'GET /dashboards') return (answers.length > 1 ? answers.shift()! : answers[0])()
+      if (key === 'POST /dashboards/ask') {
+        questions.push(((await request.json()) as { question: string }).question)
+        return (asks.length > 1 ? asks.shift()! : asks[0])()
+      }
       throw new Error(`unexpected ${key}`)
     }),
   )
-  return calls
+  return Object.assign(calls, { questions })
 }
 
 beforeEach(() => fake.reset(fakeSession()))
@@ -153,6 +168,7 @@ test('a manager sees the four views, with every chart saying where its numbers c
   expect(
     screen.getAllByRole('heading', { level: 2 }).map((heading) => heading.textContent),
   ).toEqual([
+    'Ask about sales',
     'Time to sell by category and price',
     'Seasonality by category',
     'Triage funnel',
@@ -216,6 +232,7 @@ test('staff are told the dashboards are for managers, and nothing is fetched', a
   renderDashboards()
   expect(await screen.findByText('Only a manager can see the dashboards.')).toBeInTheDocument()
   expect(calls).not.toContain('GET /dashboards')
+  expect(screen.queryByRole('heading', { name: 'Ask about sales' })).not.toBeInTheDocument()
 })
 
 test('a failed load can be tried again', async () => {
@@ -231,4 +248,147 @@ test('a failed load can be tried again', async () => {
     await screen.findByRole('heading', { level: 2, name: 'Triage funnel' }),
   ).toBeInTheDocument()
   expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+})
+
+const ANSWER: InsightAnswer = {
+  question: 'How fast does apparel around $40 sell?',
+  answer: 'In the synthetic history, 23 of 92 apparel listings at $30 to $49.99 sold.',
+  written_by: 'model',
+  fallback_reason: null,
+  rejected_numbers: [],
+  query: { function: 'time_to_sell', category: 'apparel', price_band: 2, month: null },
+  call: 'time_to_sell(category="apparel", price_band=2)',
+  source: 'history',
+  facts: [
+    { label: 'Listed', value: '92' },
+    { label: 'Middle days to sell', value: '51 days' },
+  ],
+  model_name: 'primary',
+}
+
+async function askQuestion(question: string) {
+  const input = await screen.findByLabelText('Your question')
+  fireEvent.change(input, { target: { value: question } })
+  fireEvent.click(screen.getByRole('button', { name: 'Ask' }))
+}
+
+function answers() {
+  const section = screen.getByRole('region', { name: 'Ask about sales' })
+  return within(section).queryAllByRole('article')
+}
+
+test('an answer shows the function and inputs it came from, labeled like the charts', async () => {
+  const calls = stubApi('manager', undefined, [() => Response.json(ANSWER)])
+  renderDashboards()
+  await askQuestion('  How fast does apparel around $40 sell?  ')
+  expect(
+    screen.getByText('Working out the answer to “How fast does apparel around $40 sell?”...'),
+  ).toBeInTheDocument()
+  expect(screen.getByRole('button', { name: 'Asking...' })).toBeDisabled()
+
+  const answer = await screen.findByRole('article', { name: ANSWER.question })
+  expect(calls.questions).toEqual(['How fast does apparel around $40 sell?'])
+  expect(within(answer).getByText(ANSWER.answer)).toBeInTheDocument()
+  expect(within(answer).getByText('Synthetic history.')).toBeInTheDocument()
+  expect(within(answer).getByText(ANSWER.call!)).toBeInTheDocument()
+  expect(within(answer).getByText(/^Worked out with/)).toBeInTheDocument()
+  expect(
+    within(answer).getByRole('row', { name: 'Middle days to sell 51 days' }),
+  ).toBeInTheDocument()
+  expect(screen.getByLabelText('Your question')).toHaveValue('')
+})
+
+test('an answer from the mock channels says so, and newer answers come first', async () => {
+  const live: InsightAnswer = {
+    ...ANSWER,
+    question: 'How many have sold for real?',
+    answer: 'In Turnstone, 1 item has sold, from test sales rather than real buyers.',
+    query: { function: 'live_sales', category: null, price_band: null, month: null },
+    call: 'live_sales()',
+    source: 'live',
+  }
+  stubApi('manager', undefined, [() => Response.json(ANSWER), () => Response.json(live)])
+  renderDashboards()
+  await askQuestion(ANSWER.question)
+  await screen.findByRole('article', { name: ANSWER.question })
+  await askQuestion(live.question)
+
+  const newest = await screen.findByRole('article', { name: live.question })
+  expect(within(newest).getByText('Synthetic, live.')).toBeInTheDocument()
+  expect(answers()[0]).toBe(newest)
+  expect(answers()).toHaveLength(2)
+})
+
+test('an answer whose wording was refused says which numbers code did not return', async () => {
+  stubApi('manager', undefined, [
+    () =>
+      Response.json({
+        ...ANSWER,
+        written_by: 'code',
+        fallback_reason: 'flagged',
+        rejected_numbers: ['11', '40'],
+      }),
+  ])
+  renderDashboards()
+  await askQuestion(ANSWER.question)
+
+  const answer = await screen.findByRole('article', { name: ANSWER.question })
+  expect(answer).toHaveTextContent(
+    "The model's wording had 11 and 40, which the function didn't return, so this is the function's own sentence instead.",
+  )
+})
+
+test('a question no function covers gets a plain answer with no source or call', async () => {
+  stubApi('manager', undefined, [
+    () =>
+      Response.json({
+        ...ANSWER,
+        question: 'Who is our best volunteer?',
+        answer:
+          "None of the questions I can answer cover that, so I can't give you a number for it.",
+        written_by: 'code',
+        query: null,
+        call: null,
+        source: null,
+        facts: [],
+      }),
+  ])
+  renderDashboards()
+  await askQuestion('Who is our best volunteer?')
+
+  const answer = await screen.findByRole('article', { name: 'Who is our best volunteer?' })
+  expect(answer).toHaveTextContent('None of the questions I can answer cover that')
+  expect(within(answer).queryByText(/^Synthetic/)).not.toBeInTheDocument()
+  expect(within(answer).queryByText(/^Worked out with/)).not.toBeInTheDocument()
+  expect(within(answer).queryByText('Show the numbers')).not.toBeInTheDocument()
+})
+
+test('an empty question is not sent', async () => {
+  const calls = stubApi('manager')
+  renderDashboards()
+  await askQuestion('   ')
+
+  expect(await screen.findByText('Type a question first.')).toBeInTheDocument()
+  expect(calls).not.toContain('POST /dashboards/ask')
+})
+
+test('a question the model could not answer can be asked again', async () => {
+  const calls = stubApi('manager', undefined, [
+    () =>
+      Response.json(
+        { detail: "The language model couldn't be reached, so the question wasn't answered." },
+        { status: 502 },
+      ),
+    () => Response.json(ANSWER),
+  ])
+  renderDashboards()
+  await askQuestion(ANSWER.question)
+
+  const alert = await screen.findByRole('alert')
+  expect(alert).toHaveTextContent("The language model couldn't be reached")
+  expect(alert).toHaveTextContent(`You asked “${ANSWER.question}”.`)
+  fireEvent.click(within(alert).getByRole('button', { name: 'Try again' }))
+  expect(await screen.findByRole('article', { name: ANSWER.question })).toBeInTheDocument()
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+  expect(calls.questions).toEqual([ANSWER.question, ANSWER.question])
 })
