@@ -149,6 +149,8 @@ type RadioGroupProps<T extends string> = {
   hint?: string
   error?: string
   options: readonly (readonly [T, string])[]
+  // Lets a legend that is also a section's heading take the heading's size.
+  legendClassName?: string
   value: T | null
   disabled?: boolean
   onChange: (value: T) => void
@@ -161,6 +163,7 @@ export function RadioGroup<T extends string>({
   hint,
   error,
   options,
+  legendClassName,
   value,
   disabled = false,
   onChange,
@@ -173,7 +176,7 @@ export function RadioGroup<T extends string>({
   return (
     <div className={cn('mb-6', error && 'border-l-4 border-destructive pl-3.5')}>
       <fieldset aria-describedby={describedBy}>
-        <legend className="mb-1 font-bold">{legend}</legend>
+        <legend className={cn('mb-1 font-bold', legendClassName)}>{legend}</legend>
         {hint && (
           <p id={hintId} className="mb-1.5 text-muted-foreground">
             {hint}
