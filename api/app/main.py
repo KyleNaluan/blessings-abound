@@ -17,6 +17,7 @@ from app.attention import router as attention_router
 from app.channels import get_channels
 from app.dashboards import router as dashboards_router
 from app.db import get_session, get_session_factory
+from app.insight import router as insight_router
 from app.listings import router as listings_router
 from app.scheduler import SyncScheduler
 from app.settings import get_settings
@@ -59,6 +60,7 @@ app.include_router(team_router)
 app.include_router(listings_router)
 app.include_router(attention_router)
 app.include_router(dashboards_router)
+app.include_router(insight_router)
 app.include_router(store_settings_router)
 
 

@@ -4,7 +4,7 @@ The store has no sales history, so time to sell, seasonality and the triage funn
 `synthetic_items` and `synthetic_listings`, which app/synthetic_sales.py loads. The live side comes
 from what the mock channels actually did, in `items`, `listings`, `sale_events`, `triage_log` and
 `sync_log`, and the two are never added together, so the page can label each one. Every function
-here reads one view and changes nothing, so the insight chat can call the same ones.
+here reads one view and changes nothing, so the insight chat in app/insight.py can call them.
 """
 
 import statistics
@@ -212,10 +212,10 @@ def history_span(session: Session, params: SyntheticSales) -> HistorySpan | None
     )
 
 
-def synthetic_time_to_sell(session: Session, params: SyntheticSales) -> list[SyntheticTimeToSell]:
-    """Every category and band, with the days each sold listing took, from the synthetic history."""
-    if history_span(session, params) is None:
-        return []
+def synthetic_sale_days(
+    session: Session, params: SyntheticSales
+) -> tuple[Counter[tuple[Category, int]], defaultdict[tuple[Category, int], list[float]]]:
+    """The listings in each category and band, and the days each sold one took to sell."""
     listed: Counter[tuple[Category, int]] = Counter()
     days: defaultdict[tuple[Category, int], list[float]] = defaultdict(list)
     for listing, item in _synthetic_rows(session):
@@ -223,6 +223,14 @@ def synthetic_time_to_sell(session: Session, params: SyntheticSales) -> list[Syn
         listed[key] += 1
         if listing.sold_on is not None:
             days[key].append((listing.sold_on - listing.listed_on).days)
+    return listed, days
+
+
+def synthetic_time_to_sell(session: Session, params: SyntheticSales) -> list[SyntheticTimeToSell]:
+    """Every category and band, with the days each sold listing took, from the synthetic history."""
+    if history_span(session, params) is None:
+        return []
+    listed, days = synthetic_sale_days(session, params)
     return [
         SyntheticTimeToSell(
             category=category,

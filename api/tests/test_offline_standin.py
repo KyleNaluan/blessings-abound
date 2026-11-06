@@ -8,9 +8,27 @@ from app.claims import ListingFacts, check_listing
 from app.comps import parse_comps
 from app.flag_explanations import FlagContext, parse_text, template_text
 from app.flag_explanations import build_messages as build_flag_messages
+from app.insight import (
+    MetricName,
+    MetricQuery,
+    MetricResult,
+    parse_pick,
+    parse_worded,
+    pick_messages,
+    word_messages,
+)
 from app.listing_drafts import build_messages, category_options, parse_draft
-from app.models import Channel, Condition, ConflictKind, ItemCard, SyncEvent, SyncLogEntry
+from app.models import (
+    Category,
+    Channel,
+    Condition,
+    ConflictKind,
+    ItemCard,
+    SyncEvent,
+    SyncLogEntry,
+)
 from app.offline_standin import ITEM_CARD, PASSWORD, USERS, app, closest_fixture
+from app.settings import SyntheticSales
 from app.supabase_auth import placeholder_email
 from app.vision import ItemCardDraft
 
@@ -100,6 +118,42 @@ def test_a_flag_gets_its_own_fixed_sentences_back() -> None:
     answer = client.post("/v1/chat/completions", json=body).json()
 
     assert parse_text(answer["choices"][0]["message"]["content"]) == template
+
+
+@pytest.mark.parametrize(
+    ("question", "query"),
+    [
+        (
+            "Which month sells the most electronics?",
+            MetricQuery(function=MetricName.SEASONALITY, category=Category.ELECTRONICS_GAMES),
+        ),
+        (
+            "How long does apparel take to sell?",
+            MetricQuery(function=MetricName.TIME_TO_SELL, category=Category.APPAREL),
+        ),
+        ("Any double sales?", MetricQuery(function=MetricName.SYNC_HEALTH)),
+        ("Who is our best volunteer?", None),
+    ],
+)
+def test_the_insight_chat_gets_a_function_from_the_question(
+    question: str, query: MetricQuery | None
+) -> None:
+    params = SyntheticSales()
+    body = {"messages": pick_messages(question, params)}
+
+    answer = client.post("/v1/chat/completions", json=body).json()
+
+    assert parse_pick(params)(answer["choices"][0]["message"]["content"]) == query
+
+
+def test_the_insight_chat_gets_codes_own_answer_back() -> None:
+    query = MetricQuery(function=MetricName.TIME_TO_SELL)
+    result = MetricResult([], "In the synthetic history, 4 of the 6 listings sold.")
+    body = {"messages": word_messages("How fast?", query, result)}
+
+    answer = client.post("/v1/chat/completions", json=body).json()
+
+    assert parse_worded(answer["choices"][0]["message"]["content"]).answer == result.sentence
 
 
 def test_a_search_gets_the_closest_fixture_with_real_comps() -> None:
