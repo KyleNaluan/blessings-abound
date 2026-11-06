@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-05, [#82](https://github.com/KyleNaluan/blessings-abound/pull/82), Catch commit subject prefixes whose first word has a hyphen or digit, such as `no-mistakes(document):` or `v2:`, in the pull request rules check, which finishes #81
 - 2026-11-05, [#78](https://github.com/KyleNaluan/blessings-abound/pull/78), Check in CI that each pull request's own commits and its description follow CONTRIBUTING.md, with no attribution lines, no prefixed subjects, the three template sections and an issue link, which finishes #76, and say in CONTRIBUTING.md that you can merge your own pull request once its checks pass, which finishes #77
 - 2026-11-05, [#44](https://github.com/KyleNaluan/blessings-abound/issues/44), Generate a synthetic sales history of about 600 items from a fixed seed into its own tables for the dashboards, with every parameter labeled by its source or as assumed, and a check that compares it with the published figures over 200 seeds, the eBay hold-out and the shape of the time to sell
 - 2026-11-05, [#17](https://github.com/KyleNaluan/blessings-abound/issues/17), Replace the appraisal screen with its full design for a phone and a desktop, show the eBay listings behind each price, ask for a reason from a list when staff go against the recommendation, and prompt a retake staff can step past when a photo is blurry, dark or washed out, which finishes #38
