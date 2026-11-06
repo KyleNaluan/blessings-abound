@@ -185,6 +185,7 @@ The reason is worked out again on each request and not stored.
 
 `POST /items/{id}/drafts` takes the channels staff chose and refuses with a 422, and the reason, any channel that can't take the item.
 The first drafting also sets the item's `release_month` from the timing, so an item held for its season becomes `held_for_season` when a manager approves it, as [Manager approval and storage](#manager-approval-and-storage) describes, and an item listed now has none.
+Where the hint says to hold the item, the appraisal page also offers Don't list online, which takes the item out of online selling for good, as [Held for season](#held-for-season) describes.
 Once an item has drafts, asking again returns them, whatever channels the request names, so the choice is made once.
 
 ## Listing drafts
@@ -223,7 +224,7 @@ The 2 flagged drafts said "sold as is" and "no record of it being tested", which
 `api/app/approval.py` holds the manager's step after the listing drafts and the storage step after approval, and the web pages are `/app/approvals`, `/app/approvals/{id}` and `/app/pick-list`.
 Every route except the pick list is for managers only, and staff get a 403 with "Only a manager can do this."
 
-1. `GET /approvals` lists the items whose drafts staff sent on, oldest first, and the approved items that have no shelf or bin yet.
+1. `GET /approvals` lists the items whose drafts staff sent on, oldest first, the approved items that have no shelf or bin yet, and the items held for their season, soonest release month first.
 2. `GET /items/{id}/review` shows each channel's listing with its typical sale price, its listing price and the net after that channel's fees, worked out in integer cents from the Settings fees on every read.
 3. `PUT /items/{id}/listings/{channel}/price` sets a channel's price in place of the typical price, or clears it, while the listing waits for approval.
 4. `PUT /items/{id}/storage` saves the package weight and a box size from Settings, before or after approval, and the shelf or bin once the item is approved.
@@ -240,6 +241,30 @@ The intake SKU is the lister's initials, the store's date and a daily sequence, 
 An item reaches the pick list once its status is `sold`, which only `mark_sold` sets.
 A sale that the channel sync records calls `mark_sold`, as [Mock channels and sync](#mock-channels-and-sync) describes.
 
+### Held for season
+
+An item `held_for_season` stays out of every channel until a manager looks at it again, because its price was approved months before it can sell.
+Nothing moves it on a timer.
+`back_for_review` in `api/app/approval.py` works it out on each read, and it's true once the item's release month is this month or earlier.
+The item keeps its `held_for_season` status until a manager acts on it.
+
+1. Before its release month, the item is in the queue's held list and the review page offers List now and Don't list online.
+   Approving, repricing and rejecting it are refused with a 409 until it's back for review.
+2. `POST /items/{id}/list-now` brings it back early by setting its release month to this month, and records a yes in `decisions` with the month it had.
+3. Once it's back for review, the queue lists it with the items waiting for approval, and the review page calls `POST /items/{id}/fresh-comps`.
+   That runs the same comparable sales lookup as an appraisal, `price_item` in `api/app/pipeline.py`, and saves the result as a new appraisal next to the approved one.
+   The listings keep their approved prices, because each decision still points at the appraisal the item was approved on.
+   Asking again returns the same lookup rather than searching again.
+4. The manager can change a channel's price, then approve it with `POST /items/{id}/approve`, which sets it to `approved`, records a yes with the prices, and publishes it if it already has a shelf, as an `approved` item is published.
+   An item with no shelf yet goes to the storage queue and is published once a manager saves its shelf.
+   Rejecting it works as for any other listing.
+5. `POST /items/{id}/not-online` takes the item out of online selling for good, with a note of up to 200 characters, and sets it to `not_listed_online`, which nothing moves on from.
+   It records a no with "Not listed online" and the note.
+   Staff can do it from the timing hint on the appraisal page, where the item is still `appraised`, and a manager can do it from the review page or the held list.
+   A held item needs a manager.
+
+Every one of these choices is a row in `decisions` with who made it and when, and the review page shows them all in a History panel, oldest first.
+
 ## Mock channels and sync
 
 Channel A is an eBay-style marketplace that takes clothing, electronics and games, and Channel B is a Depop or Poshmark-style resale app that takes clothing only and needs a brand.
@@ -252,7 +277,7 @@ The sync rules are in `api/app/sync.py`, and they work like this:
 
 1. Saving the shelf or bin of an `approved` item calls `publish_approved` in `api/app/approval.py`, which builds a listing from the approved draft for each channel set up on the server, at the price on the review page, and `publish_item` in `api/app/jobs.py` adds one `pending` listing per channel and one `publish_listing` job each.
    The scheduler runs those jobs within seconds, and the first confirmed listing moves the item to `listed`.
-   An item `held_for_season` gets its shelf but isn't published.
+   An item `held_for_season` gets its shelf but isn't published until a manager approves it again in its release month, as [Held for season](#held-for-season) describes.
    A channel that refuses the listing, such as Channel B with no brand, leaves it `rejected` with the channel's reason, and a channel that is down gets the job retried.
 2. A purchase on a storefront sends a webhook to `POST /channels/<channel>/sales`, signed with HMAC-SHA256 over the body with the channel key, and a 2xx answer marks the order acknowledged on the channel.
 3. A scheduler thread in the API polls each channel every 30 seconds for orders not yet acknowledged and for its live listings, so a webhook that never arrived is caught by polling.
@@ -473,3 +498,8 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-05: Look up a username's email for a reset link in the API with `POST /auth/password-reset` rather than in the browser, so the browser never learns which usernames exist or their emails. It answers the same when nothing is sent, but a failure to send to a real address is reported, because hiding it would leave the person waiting for an email that never comes.
 - 2026-11-05: Answer insight questions by having the model pick one of six tested functions and word the answer from what code returned, rather than write SQL, and fall back to code's own sentence when the wording has a number code didn't return, so every number a manager reads came from a tested query.
 - 2026-11-05: Keep the insight chat's answers on the page only rather than save them, because nothing reads them later, which keeps the feature free of a table and a migration.
+- 2026-11-06: Work out whether a held item is back for review when it's read, from its release month and today's date, rather than move it with a scheduled job, because the free Render service sleeps and a missed run would leave an item stuck, while a read can never miss its month. The item keeps the `held_for_season` status until a manager acts, so no second status is needed for "back for review".
+- 2026-11-06: Record each held item's choices as rows in `decisions`, with the wording as the reason, rather than add a history table, because the review page already reads who decided what and when from there. The cost is that these rows count as the item's latest call in the dashboard's against-recommendation figure, as a manager's rejection already did.
+- 2026-11-06: Add the status `not_listed_online` for an item taken out of online selling, rather than reuse `declined`, because staff can say yes again to a declined item and this choice is meant to be final.
+- 2026-11-06: Save the fresh comparable sales for a returning held item as a new appraisal, rather than show them without saving, so the page doesn't search eBay again on every visit and the lookup stays on record. This spends one SerpApi search per returning item when the cached search is more than a week old.
+- 2026-11-06: Make List now set the release month to this month and send the item through the same review as an item whose month has come, rather than publish it straight away, so a manager always sees the fresh sales before an old price goes live.
