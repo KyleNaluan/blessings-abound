@@ -652,6 +652,26 @@ export interface paths {
     patch?: never
     trace?: never
   }
+  '/dashboards': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * Get Dashboards
+     * @description The four views, with the synthetic history and the live mock channels kept apart.
+     */
+    get: operations['get_dashboards']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
   '/settings': {
     parameters: {
       query?: never
@@ -1126,6 +1146,17 @@ export interface components {
       /** @default staff */
       role: components['schemas']['Role']
     }
+    /** Dashboards */
+    Dashboards: {
+      /** Price Bands */
+      price_bands: components['schemas']['PriceBandRead'][]
+      history: components['schemas']['HistorySpan'] | null
+      time_to_sell: components['schemas']['TimeToSell']
+      /** Seasonality */
+      seasonality: components['schemas']['SeasonMonth'][]
+      triage_funnel: components['schemas']['TriageFunnel']
+      sync_health: components['schemas']['SyncHealth']
+    }
     /**
      * DecisionChoice
      * @enum {string}
@@ -1245,6 +1276,14 @@ export interface components {
       /** Expected Updated At */
       expected_updated_at: string | null
     }
+    /** FlagCount */
+    FlagCount: {
+      conflict: components['schemas']['ConflictKind']
+      /** Open */
+      open: number
+      /** Resolved */
+      resolved: number
+    }
     /** FlagRead */
     FlagRead: {
       /**
@@ -1289,6 +1328,21 @@ export interface components {
      * @enum {string}
      */
     Flaw: 'stains' | 'tears' | 'scuffs' | 'missing_parts'
+    /** FunnelCounts */
+    FunnelCounts: {
+      /** Forwarded */
+      forwarded: number
+      /** Accepted */
+      accepted: number
+      /** Listed */
+      listed: number
+      /** Sold */
+      sold: number
+      /** Called */
+      called: number
+      /** Against Recommendation */
+      against_recommendation: number
+    }
     /** HTTPValidationError */
     HTTPValidationError: {
       /** Detail */
@@ -1301,6 +1355,30 @@ export interface components {
        * @enum {string}
        */
       status: 'ok' | 'unavailable'
+    }
+    /**
+     * HistorySpan
+     * @description What the synthetic history covers, so the page can say which dates it is.
+     */
+    HistorySpan: {
+      /**
+       * First Forwarded On
+       * Format: date
+       */
+      first_forwarded_on: string
+      /**
+       * Last Forwarded On
+       * Format: date
+       */
+      last_forwarded_on: string
+      /** Items */
+      items: number
+      /** Listings */
+      listings: number
+      /** Sales */
+      sales: number
+      /** Run Days */
+      run_days: number
     }
     /**
      * IntakeConflict
@@ -1626,6 +1704,18 @@ export interface components {
      * @enum {string}
      */
     ListingStatus: 'pending' | 'active' | 'sold' | 'ended' | 'rejected' | 'failed'
+    /** LiveTimeToSell */
+    LiveTimeToSell: {
+      category: components['schemas']['Category']
+      /** Band */
+      band: number
+      /** Listed */
+      listed: number
+      /** Sold */
+      sold: number
+      /** Median Hours */
+      median_hours: number | null
+    }
     /** OrderRead */
     OrderRead: {
       channel: components['schemas']['Channel']
@@ -1712,6 +1802,18 @@ export interface components {
       location_code: string | null
       /** Package Weight Oz */
       package_weight_oz: number | null
+    }
+    /**
+     * PriceBandRead
+     * @description One price band, from its low price up to but not including its high one.
+     */
+    PriceBandRead: {
+      /** Band */
+      band: number
+      /** Low Cents */
+      low_cents: number | null
+      /** High Cents */
+      high_cents: number | null
     }
     /** PriceOverride */
     PriceOverride: {
@@ -1879,6 +1981,18 @@ export interface components {
       /** Months */
       months: number[]
     }
+    /** SeasonMonth */
+    SeasonMonth: {
+      category: components['schemas']['Category']
+      /** Month */
+      month: number
+      /** Sales */
+      sales: number
+      /** Listing Days */
+      listing_days: number
+      /** Sales Per 100 Weekly */
+      sales_per_100_weekly: number | null
+    }
     /**
      * SeasonalCalendar
      * @description An item that matches no season can be listed in any month.
@@ -1973,6 +2087,79 @@ export interface components {
      * @enum {string}
      */
     StoreDepartment: 'clothing' | 'electronics_games'
+    /**
+     * SyncHealth
+     * @description What sync did on the mock channels, and where Turnstone and a channel disagreed.
+     */
+    SyncHealth: {
+      /** First Event At */
+      first_event_at: string | null
+      /** Last Event At */
+      last_event_at: string | null
+      /** Published */
+      published: number
+      /** Publish Rejected */
+      publish_rejected: number
+      /** Publish Failed */
+      publish_failed: number
+      /** Publish Gave Up */
+      publish_gave_up: number
+      /** Sales By Webhook */
+      sales_by_webhook: number
+      /** Sales By Polling */
+      sales_by_polling: number
+      /** Delisted */
+      delisted: number
+      /** Delist Failed */
+      delist_failed: number
+      /** Delist Gave Up */
+      delist_gave_up: number
+      /** Delist Found Sold */
+      delist_found_sold: number
+      /** Flags */
+      flags: components['schemas']['FlagCount'][]
+      /** Oversold Items */
+      oversold_items: number
+      /** Jobs Waiting */
+      jobs_waiting: number
+      /** Jobs Given Up */
+      jobs_given_up: number
+    }
+    /** SyntheticFunnel */
+    SyntheticFunnel: {
+      /** Forwarded */
+      forwarded: number
+      /** Accepted */
+      accepted: number
+      /** Listed */
+      listed: number
+      /** Sold */
+      sold: number
+      /** Called */
+      called: number
+      /** Against Recommendation */
+      against_recommendation: number
+      category: components['schemas']['Category']
+    }
+    /** SyntheticTimeToSell */
+    SyntheticTimeToSell: {
+      category: components['schemas']['Category']
+      /** Band */
+      band: number
+      /** Listed */
+      listed: number
+      /** Sold */
+      sold: number
+      /** Median Days */
+      median_days: number | null
+    }
+    /** TimeToSell */
+    TimeToSell: {
+      /** Synthetic */
+      synthetic: components['schemas']['SyntheticTimeToSell'][]
+      /** Live */
+      live: components['schemas']['LiveTimeToSell'][]
+    }
     /** TimingHint */
     TimingHint: {
       /** Season */
@@ -1981,6 +2168,12 @@ export interface components {
       season_span: string | null
       /** Release Month */
       release_month: string | null
+    }
+    /** TriageFunnel */
+    TriageFunnel: {
+      /** Synthetic */
+      synthetic: components['schemas']['SyntheticFunnel'][]
+      live: components['schemas']['FunnelCounts']
     }
     /** ValidationError */
     ValidationError: {
@@ -3129,6 +3322,26 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  get_dashboards: {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['Dashboards']
         }
       }
     }

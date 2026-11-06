@@ -286,6 +286,22 @@ The cancel is a `cancel_order` job, run before the reply so the screen shows wha
 A channel that refuses the cancel stops the job at once, and the button comes back so someone can try again.
 Any flag can also be marked handled with `POST /attention/{id}/resolve` and a note on what was done, which becomes the flag's resolution in `sync_log`.
 
+## Sales dashboards
+
+The Dashboards page at `/app/dashboards` is for managers, and it gets every number from one call, `GET /dashboards` in `api/app/dashboards.py`, which refuses staff.
+It has four views, and each one puts the synthetic history and the live test sales on separate charts.
+
+1. Time to sell gives the middle days to sell of each category and price band in the synthetic history, with how many listings sold, and the middle hours from a confirmed listing to its first standing sale on the mock channels.
+2. Seasonality gives each month's synthetic sales for every 100 listings up a week, which divides by the days listings were up rather than counting sales, so the months when the history was filling up or running out don't look slow.
+3. The triage funnel follows each synthetic item from forwarded to accepted, listed and sold within the 90-day run, and each real item from intake to its newest triage call, a confirmed listing and a sale.
+   Under each funnel is how often staff went against a yes or a no from the appraisal, with a check left out because it has no side.
+4. Sync health counts what `sync_log` recorded for publishing, hearing about sales and taking listings down, and agreement counts the open and settled flags of each kind, the items with two standing orders, and the jobs waiting or given up.
+
+Every chart says where its numbers come from in its caption.
+A chart from the history says "Synthetic history." and a chart from the mock channels says "Synthetic, live.", because those sales are test events on fictional channels and not real buyers.
+A view with nothing to draw says so in a sentence, so an empty table never looks like a slow month.
+The charts are bars and one line chart drawn in `web/src/pages/dashboards/charts.tsx`, with every bar's number as text beside it and the line chart's numbers in a table under it.
+
 ## Database
 
 The tables, their constraints and who may reach them are described in [database.md](database.md).
@@ -432,4 +448,7 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-05: Compare Closo's figures for tops with women's apparel, because the app has no category for tops, and leave the eBay hold-out's miss at 19.9% against 28% unfixed, because tuning to it would stop it being a check.
 - 2026-11-05: Judge the time to sell shape check on Channel A only, because the Mercari study is of a general marketplace like eBay and Channel B's rising curve puts its sales late by design.
 - 2026-11-05: Check the commit and pull request rules in CI with a standard library Python script in `.github/scripts/` rather than a third-party Action, so it runs on the self-hosted runner with nothing to install, and it reads the section headings from the pull request template so the two can't drift apart. It checks the commits on the branch that aren't on the base branch, so older commits on `main`, including the ones a merge of `main` brings into the branch, don't fail it.
+- 2026-11-05: Draw the dashboard charts with HTML bars and one SVG line chart rather than a chart library, because the four views need only bars and a line, and drawing them keeps the bundle the same size and every number readable as text by a screen reader and on a phone.
+- 2026-11-05: Label the charts from the mock channels "Synthetic, live." rather than leave them unlabeled, because the issue asks for every chart to be labeled synthetic and those sales are test events, and keep them on their own charts with their own label so they are never mixed with the generated history.
+- 2026-11-05: Read "agreement" in the sync view as whether Turnstone and the channels agree, counted from the conflict flags and items with two standing orders, and show staff against the recommendation under the triage funnel, where the call is made.
 - 2026-11-05: Look up a username's email for a reset link in the API with `POST /auth/password-reset` rather than in the browser, so the browser never learns which usernames exist or their emails. It answers the same when nothing is sent, but a failure to send to a real address is reported, because hiding it would leave the person waiting for an email that never comes.

@@ -57,6 +57,11 @@ export function HomePage() {
         </li>
         {me?.role === 'manager' && (
           <li>
+            <Link to="/app/dashboards">Dashboards</Link>
+          </li>
+        )}
+        {me?.role === 'manager' && (
+          <li>
             <Link to="/app/settings">Settings</Link>
           </li>
         )}
