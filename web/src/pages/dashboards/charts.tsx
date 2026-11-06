@@ -3,7 +3,7 @@ import { useLayoutEffect, useRef, useState, type ReactNode } from 'react'
 import type { Category } from '@/api/dashboards'
 import { cn } from '@/lib/utils'
 
-import { CATEGORY_NAMES } from './format'
+import { CATEGORY_NAMES, SOURCE_LINE, type Source } from './format'
 
 // The charts are drawn here rather than with a chart library, because they are a few bars and one
 // line chart, and each one keeps its numbers as text that a screen reader and a phone can read.
@@ -12,8 +12,6 @@ const SERIES_STROKE: Record<Category, string> = {
   apparel: 'var(--series-apparel)',
   electronics_games: 'var(--series-games)',
 }
-
-type Source = 'history' | 'live'
 
 const SOURCE_TEXT: Record<Source, { label: string; detail: string }> = {
   history: {
@@ -24,6 +22,18 @@ const SOURCE_TEXT: Record<Source, { label: string; detail: string }> = {
     label: 'Synthetic, live.',
     detail: 'Test listings and sales on the two mock channels, not real buyers.',
   },
+}
+
+// The line under a chart's title, and under an insight answer, that says where its numbers are from.
+export function SourceNote({ source }: { source: Source }) {
+  const text = SOURCE_TEXT[source]
+  return (
+    <span
+      className={cn('block text-sm', source === 'history' ? 'text-plain-ink' : 'text-info-ink')}
+    >
+      <strong>{text.label}</strong> {text.detail}
+    </span>
+  )
 }
 
 // Every chart says where its numbers come from, and the two kinds never share a chart.
@@ -38,21 +48,11 @@ export function Chart({
   description?: ReactNode
   children: ReactNode
 }) {
-  const text = SOURCE_TEXT[source]
   return (
-    <figure
-      className={cn(
-        'mb-8 border-l-4 pl-4 wide:pl-5',
-        source === 'history' ? 'border-plain-line' : 'border-info-line',
-      )}
-    >
+    <figure className={cn('mb-8 border-l-4 pl-4 wide:pl-5', SOURCE_LINE[source])}>
       <figcaption className="mb-3">
         <span className="block font-bold">{title}</span>
-        <span
-          className={cn('block text-sm', source === 'history' ? 'text-plain-ink' : 'text-info-ink')}
-        >
-          <strong>{text.label}</strong> {text.detail}
-        </span>
+        <SourceNote source={source} />
         {description && (
           <span className="mt-1 block text-sm text-muted-foreground">{description}</span>
         )}
