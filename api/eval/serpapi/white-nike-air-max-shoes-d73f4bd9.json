@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "white Nike Air Max shoes",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 6400,
+ "organic_results": [
+  {
+   "title": "Nike Air Max 90 White Metallic Silver Running Shoes Mens 10 HV4517-100",
+   "price": {
+    "raw": "ILS 92.92",
+    "extracted": 92.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820293784984?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NRMGB8QCAW4NQJTF8Z&hash=itembefd51d598%3Ag%3ATB8AAeSwi4Zq4-NR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9rCLX%2FfpqJJl6ffE0T7bEmi38%2F5RzyfGrbBzYBjGFu9rwUk9iUgdFSlKrOxyN%2By2gn0Df8q%2FlPXbKesJPZa4e8bgeWL69O0PtZ--UIfxJo%2BSNtxnUGEScs5FOfcmfpG0Qyn6IAVmjErJfvtUEwqcTXyWCf70izO9aSFdbZ%2FHaEsrznxnrmXcObcACkm4ABX--WoVFEyA4h9w8Pm3Ks69GfDH4MXtHiHG3443a7wf2%2FbkR%2FpzJ3SMj3yUId%2FwyEuoJE5U5BZ0%2Fy3DzZ%2FjwEi5nu%7Ctkp%3ABk9SR57bqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820293784984"
+  },
+  {
+   "title": "Nike Air Max 1 G Spikeless Golf Shoes 7 UK EU 41 White Black Panda CI7576-100",
+   "price": {
+    "raw": "ILS 155.10",
+    "extracted": 155.1
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358767568879?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NR5V0BB1SC6B3GB09B&hash=item538836a7ef%3Ag%3AqkUAAeSwQvFqIywQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8PgwW6WNfAQKJJn6%2FA0FeNnU2zI%2Bl3%2B0q5a8KUB5P%2B3IPx16wJ2IEkzqWzO8RggBcss2Kpn6q%2FlV3eQzDaYFW749G0Hjy2TxhkIoFKNapgyRwjqhJXRv1ByDvwsMzsJpla0mOCL5tfzDmAhjjY3iNVp7gTCsOLwb9NRvLwOaed3O23r5cfZJRdxuCoTainfqpzIg6RwY7czkeyWTz%2FauhpP54EX2kszJlHYkoshHWHYGxzc9Ih8IHGgVCI5NsZly6A8ep5K6pPVU32MmMfecdCtzJCRjcqGNHLSd3KnUoNGw0H8G4usiPsot3hFwMDN90%3D%7Ctkp%3ABFBMntuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358767568879"
+  },
+  {
+   "title": "Nike Air Max 1 FN6952-102 Trainer Men UK 11 White Burgundy Crush Lifestyle Shoes",
+   "price": {
+    "raw": "ILS 258.53",
+    "extracted": 258.53
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800884204138?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NSTW6GK0DJFNCPX5MY&hash=itemba786b226a%3Ag%3AXGIAAeSwUPVqw45i&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9R2F5jH2B0lZlOGvnhTqHgOWFdhRbE3%2Br6cBAmD54d%2FT%2B6lHEmWI8kBrpX0GtQmhjUGRvl42w0SK3SC4bN8Dxjc%2FWQYA3ACckiKLkf1X0p3OVKJPuL%2Fihi55FI%2BQXMqxbrKlIzOsTPsrVqBEB0kVxXBMQAUWEOMsmLI0Q0UgirYJnxAsn7w2FbPUS2hZBfM25%2F8J2u3kqsRtXmSaZUFvX9Qou1fEMGLd1yxYB4JkiN09kdpQOZ0%2BAkJOB2bcLDK6IaX%2B7H2dpGslujDaBzCuSJoxYOLqw7XakBbnj%2BkwmhK61K9NMID09bSWPaBK5y4lk%3D%7Ctkp%3ABFBMntuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800884204138"
+  },
+  {
+   "title": "Nike Air Max White Sneakers with Black Swoosh",
+   "price": {
+    "raw": "ILS 67.29",
+    "extracted": 67.29
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168773854065?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NSMDG7GWH4V1HM23NN&hash=item274bb4a371%3Ag%3A2dAAAeSwsglq2rRq&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8lGoSEKudPZI8Bd0NRBqzeIIqz6hF441dIW2EkiDrCn%2BTj1cJSKIn4jPEllW4TX2gfb%2FsRqk1O%2FAr%2FBaGovSOLhiNVAXwMobCaN6OwL3m%2FRoUpcSF6oNFCjSxH6na1MMkaZEeslLs8rqGzK4dj36ucam9QKUQz76TA6e8zzGZyDEsCqw1jWoOujzPkZcAKKW9N5SRHWdZr2zhptiJX0yssGXmUYjWA6haFjRsxJHe3oz6nKtRcEexbxiBrr0yGqNUai63sqcPelSNtRm6toPfSj7GFDdpqUl29unqXjL4xng%3D%3D%7Ctkp%3ABFBMntuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168773854065"
+  },
+  {
+   "title": "Nike Air Max 97 White/wolf Grey Shoes (921826-101) - Size 9.5",
+   "price": {
+    "raw": "ILS 112.14",
+    "extracted": 112.14
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257665451256?_skw=white+Nike+Air+Max+shoes&epid=19039806537&itmmeta=01M6T8A5NST4XTMM3Z7C2F7NR7&hash=item3bfe0ec4f8%3Ag%3AuAkAAeSw40Jpf20m&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde94IDCMrF%2BaPPD1iaDPe0qtVdKJbrKOvImry050Si4HE8LI%2B7jt4dnVBTs59Zz16m7hkhk8SgKRf%2BcEuMVXT2nRpMBW9w5nQEzsljGH1kDU8urtidMUb3vhzusAmOZL8Ltel91JQeJU%2BTS5CYPJe8GxFfSfo5pIe9ZZk6U34t0wdEA8ZLpUnNczIR%2FCfJMuHKYDQn6j5cneBbzrYms4uxWgAVOrjFmCE45NazTkBSMT15Uj8LpqOljVIUgwNrrBf8v7PPCEWJbDbbUSVVIxEazYwkn7UuQQbOAw2xjckG5ioZQcHnbyL61GBFZmIQR51Ys%3D%7Ctkp%3ABk9SR57bqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257665451256"
+  },
+  {
+   "title": "Nike Air Max 1 AH8145-112 Trainers Men's UK 12 White Photo Blue Lifestyle Shoes",
+   "price": {
+    "raw": "ILS 258.53",
+    "extracted": 258.53
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800884771648?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NSJKJMN7DMCT47VH3W&hash=itemba7873cb40%3Ag%3ALU8AAeSwbF5q7I9F&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9e5KzLaYe%2Fp31FhR%2BSTLBptNxNlSMEV900Yh2xSMLC6LSDPHMJ8d193fyNLSPNvE7CHK9kX1MWwRYAO82oDcJfiSJ7kOg%2FgUn2P6Y6ll5ecSE4QEtRidtBw02uJuzwSMtWCei2bJ%2FIU10VFRe3r0Cd9h6SOdAUUYrA%2FT5vhOxfy6uTjMB76b1D%2B0Ed4NHfvKcBlBGjyejhjgpRg9GLw2fBibergAXn58FPnPyU5cF%2F1Z1itV9DOqp1xKRANtqV7Mwm1PA%2BYF%2F2UdvRPgYB8zlT%7Ctkp%3ABk9SR57bqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800884771648"
+  },
+  {
+   "title": "Nike Air Max Ivo Trainers UK 9 Men's White Habanero Red Mesh Leather Gym Shoes",
+   "price": {
+    "raw": "ILS 236.98",
+    "extracted": 236.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287684714827?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NS8F224TQVZTFR2PDA&hash=item42fb58614b%3Ag%3AVnMAAeSwlzFqzNnN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9kSQfjpKvwmo4I1J7ulWb0ExP6lOPKKbct9wvfyTJbVTJYcpyKO1fz9w9OQn3jYYUpccX6nGN9LEdH%2BQvhUt9ATL7OrC%2BGiUS2HKip94k%2FKMeIphZOguM8Nvs3GT7NH%2Ba%2B0iS62kWfm5aDkgzIyLjKyoRpXol5XPFCHk%2FqpZfxzMR%2BtgpWqpXzYmS%2FT2rPqzpBfPhhki%2FNeQekdKA0K9zKAn05PyZcyM%2Fh%2BOV4eqMhGCYyIAHck2OkqnxGaQW2gqIqTAezA%2BOgEiuxhh8%2FUqvLghQBrEIQ5tFCczUYL%2BjSLb%2FcGv3U8OyvBpDPx3UQCW0%3D%7Ctkp%3ABk9SR57bqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287684714827"
+  },
+  {
+   "title": "Nike Air Max+ 2011 Running Shoes Mens 8.5 White Metallic Silver Cushion Trainers",
+   "price": {
+    "raw": "ILS 144.15",
+    "extracted": 144.15
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920096881099?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NTS4MXQAWS6Y8SRYPT&hash=itemd63a0c39cb%3Ag%3AFlcAAeSwzJJq6Il0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F95jeFimpEydS1I%2FPpIyFitVPDTislq1QB83EB3enwJ50PDE1zP4mQCPo3A%2BGD3brw%2BnmbGnXm5EOxC5VxJI2oYh6NuQN5aq6Hw2FoXwUT57O1GM%2F6L05FLlc2hZctWEmbQ4ml4zpvohMGqqj%2F3RHq%2B2kUOjvrK7ssVnqUl6uZPzW1%2FvsHuIo9sdB9WS6lETtkZXXY6ZJabyYE8Z2FKsAUUZ4oUtsrhFOqbMHI6ntMyJjvt6kjABhrMR6nb9eirZDIkeIZBNDbM8sN8%2BEGVbjA%7Ctkp%3ABk9SR57bqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920096881099"
+  },
+  {
+   "title": "Nike Air Max Correlate Mens Gray Red Black White Running Shoes 511416 Size 10.5",
+   "price": {
+    "raw": "ILS 96.09",
+    "extracted": 96.09
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820294423633?_skw=white+Nike+Air+Max+shoes&epid=4060883365&itmmeta=01M6T8A5NTM2MM9FNWM0MQAJX6&hash=itembefd5b9451%3Ag%3Asa8AAeSwHpVpyhIM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde88VWXSLAuz4XV61NzWgx%2FEtW2bXxFUn%2FKA7QG73a7Ez3PQI3azBK5jIw9bsmb3%2BAPuh8t8srfTqaQ7bPDl%2BXfa4DNBhOkyM7B1ZzPzAM7omJaewlUD96x0t00Zimz7i%2BVOKSjIEuTQW36mU8V2D4YmvyCGn%2Fy41hzJ%2BspiXEyCJ434YMhsk5eB4iBqGhBBKNi%2FY0a3XhYi3Hkv6BZ8n%2Ftm9iYrravx%2BK3LUBEqX8G1siE86jE1QwgNTKiD47XrAymsddLyv9soJXZfVXvwabtD%7Ctkp%3ABk9SR57bqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820294423633"
+  },
+  {
+   "title": "Nike Air Max 95 G Shoes / Size UK 10 / White & Black",
+   "price": {
+    "raw": "ILS 603.29",
+    "extracted": 603.29
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840066349455?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NTVRG5GNP0SYGPQH70&hash=itemc397db398f%3Ag%3AY9EAAeSwzwNq4P1K&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B1AOlen%2BVnPGSjVx1YcBX9BN2IZnkFEWF9xVGxzjKz0KhDENlwSPhac3mszmC8kjOFWwf7wwOXvyDesAqqVrUEdjBElNQIbp%2FOso6g3kUM4QdbUajDGnLB0cebmORdFgdZwLN0FgTLe96Kl8iOgESBHyD8cGmJmnjoFEshHlvPvAhp9WnJJ8WO3eFai1e8uWWDcjnDqk62OG%2F9Uk7gHaZyitO7zlIuFfQLRE4KV%2FcjmxI7iYuLtkMoxQmo3WgzUPOx5kY7jjti3wGGIiLkrpJj%7Ctkp%3ABk9SR57bqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840066349455"
+  },
+  {
+   "title": "Nike Air Max 2017 White Black Pure Platinum Running Shoes Men's Size 12",
+   "price": {
+    "raw": "ILS 199.62",
+    "extracted": 199.62
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327437864812?_skw=white+Nike+Air+Max+shoes&epid=14039810272&itmmeta=01M6T8A5NTV76G6ME1Z915HT97&hash=item4c3cd14f6c%3Ag%3AcegAAeSwBXNq6j2U&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BrGoAlq5SkE25JKQ9PlIrMNIRbmwkf9r1w5nAWNd6i%2FCEV%2Fyk3Hwdf6XLRTZU%2FnYqR8%2BBy%2F4U0rb7KawiI4JAdlZJ6yfveI8KUS0hRVy6kqb4WWJChaT87DDMzawlCM1NK0pAk6%2FdeMbGaMc3Y8ym66lI9KrLEO7Z0nzPIJqw8NEFtqRxHXvLcd%2FtZmGbIzm6K%2BthCRy3xkJRxRRQXD6GhCym2lSPCMtcQlqEkJtd4mkXZ%2Fjw4nz1CPQo2ogGEERfb7zDfF1Zzz6A5Mr8ZRsAgueE7CwH%2FmlS0hxr%2B9yG3z1fPPIxRXZ3rqHWGI5Xgi14%3D%7Ctkp%3ABk9SR57bqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327437864812"
+  },
+  {
+   "title": "Nike Air Max Plus Triple White TN Mens Trainers Shoes - Size 7.5 UK",
+   "price": {
+    "raw": "ILS 129.24",
+    "extracted": 129.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237156141379?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NTRRYBXQK9P8JC9TJ8&hash=item37379b8943%3Ag%3AiT0AAeSw-Fdq4gGP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9SIe5ch7mt%2FfyhbpsX7WQUlhQaHff4kKXzAh6BN4QpcrsB5LnQCbsfaeHKOx3bIrFiBRN2%2FhNG1UsMAMZNbXhTvjJbAmR6M0lVEJhWjbBsNflFFfkNLZToQ%2BgIKsopkluBMXh2v8X11sQoHdRGHJlrkwVY0RgYFzkH8lE9ELD4y8sX1WrCnEz8AZxbxXB92AeDuUCygryO2yKB19GtSxl%2Fi4aeIdNsLLa1ODhr1HUN2U3C6ZNj4jHRyQLfWCK9GPdkNcNyTtbuFkjGeXcv4CIN%7Ctkp%3ABk9SR57bqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237156141379"
+  },
+  {
+   "title": "Nike Trainers Mens Size UK 7.5 Air Max 90 Black White Marina Casuals Mod Shoes",
+   "price": {
+    "raw": "ILS 301.54",
+    "extracted": 301.54
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257794913798?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NTKD8S7Y50YG3XS0ZC&hash=item3c05c63606%3Ag%3AqVkAAeSwQi1qy3Px&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde96Je6cPUN9T0QxU0ilnnI59zLTzXINo0omLrnj7g8TNEWi1rRYeJWLDU6pGUsicO6zGbN5NQEwtQOP%2Fwl73En7FOmW0oBuC9gDU9cYCjB0Iw53OqvQOK5xicQj1xMaDdIUGnWiwLFuJ8LXLO9BsmOsOmuw%2F31pTzdqq5%2FXYLQBvfCyun0QHePz4fHn7vrsTS4i1lUeHTzJ0Ybq9cwu631UOK82TMGTCkUYuo9H5ObVZaPo8jeDvmr1T5dDr4aT0dtxzH0lX8hm0Kl08Ouv2s1XE54astbxE1JB3IG%2FAaW9BBeV3jS9uWO3JNIHPRNj%2FT4%3D%7Ctkp%3ABFBMntuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257794913798"
+  },
+  {
+   "title": "Nike Air Max SC Men's Athletic Shoes CW4555-109 White Black Green US 9 EUR 42.5",
+   "price": {
+    "raw": "ILS 144.15",
+    "extracted": 144.15
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147371663242?_skw=white+Nike+Air+Max+shoes&epid=17056177319&itmmeta=01M6T8A5NVDYHNVAZ96CJ08HKA&hash=item2250091f8a%3Ag%3A6qAAAeSw%7E49qLYSQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FwTtFe4lq%2B2kRF6Ed2cySuFW5depDrYp455usAeJd91v8XtAFGOslXTHRMTkq6tyxPeCZUU9hFa%2B47DCF3pJER%2FfWTS%2BOG%2FpqxE%2F3tOMkcmijqX0iEY8A8WJGma7RKn0Jzng%2B5xUGhR2KJNJB%2Buzs9Bz8D5si7yrzgYof4%2B6kyO7G6zlvc9MPaq9uTEDjm28tn%2BbvR4D5zgzrG24P6MyjvREVBG2wnU9F1EoXx6%2Bq0RNvbmicwppEvLIN%2FvE0hb0d1y8gGvycVzouuoRp6peS95ueYZO8MDNYv6bD57Y9guq1YTNJUskRSmyWfLwhNg2w%3D%7Ctkp%3ABFBMntuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147371663242"
+  },
+  {
+   "title": "Nike Air Max 2 Strong White Atomic Teal Basketball Shoes 555104-100 Size 13",
+   "price": {
+    "raw": "ILS 433.96",
+    "extracted": 433.96
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298733305846?_skw=white+Nike+Air+Max+shoes&epid=6061588317&itmmeta=01M6T8A5NVFTAG44NYRPT1M6TS&hash=item458de47ff6%3Ag%3A60QAAeSwKsVqwuot&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FGjxPhzjM927%2BGVTpeBe2xrb0fQHwaaS%2F86HZwWrnpPsEixKlguSJbUjeK7Lqj2gOJbP5PqEDh7jMlSpCJpDK33wd18rrnSB%2Bqjo%2FwUFkDsflTXWI8G1rTJwZhxGDSJWeDvdk4HL1figEnYe12pqT5enLFy4vhQoWqDQQV%2BWozvp%2F55ZIO12HyWBXNEDlxW4cb8DV43JSlu0pngLzssmvFhPhkVH597Loo7sOa5Ewth0AC8zF29ASFdt0HF4IKyo%2BIBBjO0vBdotZ4oNRt0NReF9IYAEwBPb7o8LRbGWlWB9ZFykLQgzmEeXG0SLVxXN0%3D%7Ctkp%3ABFBMoNuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298733305846"
+  },
+  {
+   "title": "Nike Air Max 90 UNC Mens Trainers Blue White Running Shoes UK 11 EUR 46 Sneakers",
+   "price": {
+    "raw": "ILS 129.24",
+    "extracted": 129.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117496005938?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NVX4YRDEGJN6XFHB2T&hash=item1b5b4ec532%3Ag%3AQjoAAeSwODFq5Z5j&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BaiBncEA4hC12E8H%2BLSsCOHzZuwoQ6N12QYWEqgPMvqR65AgquORjIH5PvPKpDjlMvKywtnEvdBnZ7XeUA6h4k%2BZ9hxqzMyOiSreh4DU4OdSeDs9U5GF30Z2uuGzv5ZiQaV6BarfuVRD7EWC41ywfuQ%2BrjlbWOOWiTmvwCphAaOU1UjK51Gf0Zm%2BIVLNtTTT8JGMQAcPG8K1fMAJaNtZ6LxqBJfAwxiM78QBFgwZqqekc7DaSA3h6Jj9Ww3tsdRRSQIZny5l7mG2b5kOYHijZPVW68HMcxq%2FzAC8Yk%2BPqIn5JPQPcXqzYcAelC0r5Mnq0%3D%7Ctkp%3ABFBMoNuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117496005938"
+  },
+  {
+   "title": "RARE Nike Air Max Diamond Turf Size 12 Royal Blue shoes (309434-104)",
+   "price": {
+    "raw": "ILS 1,031.72",
+    "extracted": 1031.72
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/256905275971?_skw=white+Nike+Air+Max+shoes&epid=26039814802&itmmeta=01M6T8A5NVB0B3KCC43RK89PB1&hash=item3bd0bf6a43%3Ag%3A5CoAAOSwl2poCmCn&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BEGnyTATy4VT3dK8%2FwVL3mjG%2BQNs6fcmaSWlAIeefWq1yWXiR6wuEh%2BcVuCDcG%2FgSE5Yry9q5Z1F9oOkYaieNLxLdy%2F6j04FT3--89b4xVijng%2Fe%2F0fx92mYXunydxMNVmtnSJQXR6fSRxGfEUphFHxEvcCcXLlWC4bkQPsFSk3%2BHigxAAIKTlUzutETkbrGD%2B13qG%2FfjAM2ruxJEEoQpFYSd2PeALywA1mLYrbfucA7NFIIzNc1hq3YPg%2FyShrqtto3iUPYNUxICF5SFdkOHN%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "256905275971"
+  },
+  {
+   "title": "Nike Air Max 90 Essential Mens Trainers UK 10 Grey White Red Retro Running Shoes",
+   "price": {
+    "raw": "ILS 104.81",
+    "extracted": 104.81
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336862646393?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NVG5CQD3E7M84K6JW8&hash=item4e6e941079%3Ag%3A--0AAeSw3ftq3jFQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F8Jb%2FSY6FfkJM1G45K714f0W959F%2FXHtANTNMkFZ8v4KcCqSdcY59VHC5mu6XilhkK0Ow8gYMTkSTPIVS4w8%2Ff1uhSjw1NLjubv8wKwMyRkXzwlcEqMYR0f6VA35x%2FbjSWCRzskDnMtgKKOfp%2FbKF0yMxwAPD3Fszp4s1z3%2B%2B2694VPqNEDVFBf%2Bb5E7Ypn4TYAzIDOANeDvj9AlEvzbdHCw6sLXjGtlHOLO7jJSJ2sKljuVoirx5kUraoMor8ck%2BlTo9T9H%2FB6KCnHICOClIy%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336862646393"
+  },
+  {
+   "title": "Nike Air Max Thea Premium White Women’s Trainers Sneakers Shoes EU36.5 UK3.5 US6",
+   "price": {
+    "raw": "ILS 90.71",
+    "extracted": 90.71
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800557839909?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NWJBFFFZTAB2YAD6ZV&hash=itemba64f73625%3Ag%3A6TEAAeSwIoZqWAmm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9marz%2BekqLLzqtox25I0X45jzioOxJ61WDiNj9JSiC2cCp0SXgr7L8G%2BWEYPtE0ZKoCsyQwrRA3NlUEcIUpm4EguEVeEvRTRpEAP2VR1%2FOTYqtGyvixMVjQMHg%2FZnH6DGk7A3d7rG02EPF6qgOoZm9ay5N%2BmfqdBN%2FNThkCizFsyh0C7QMu6YuzioDfxBxLSRoYUfIwnP8GIENj1cnJYdLH3Y26hGubPPAoMpzcKqNEulc36AmUUaNkcqRUdxT2H%2FbuYX6prZmAFbckU6R1CESdGtWwhjzcyw%2BGgFquR5HsJSe4z3TuhE5z68L%2FRxBD%2BQ%3D%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800557839909"
+  },
+  {
+   "title": "Size 6 - Nike Air Max 90 x OFF-WHITE The Ten 2017 Men’s AA7293 100 Shoes 4.5W",
+   "price": {
+    "raw": "ILS 801.03",
+    "extracted": 801.03
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/167118194633?_skw=white+Nike+Air+Max+shoes&epid=26039821998&itmmeta=01M6T8A5NW3W50Y5TBAXQSG73M&hash=item26e90547c9%3Ag%3AeSYAAOSwoARnQUMS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BV3cOrDWk33ceCNE%2BECSZ73oQDguSnDlPkC4FHtvh0kGbVZaibT8YYWBgunZF%2FffjrZl5kKQO7IVcuboSEoKgHcuu3PyJwy05zsLTFSCBQqOFZij8KUvok3%2FzTFHNQ5QWpxNnYvINGctMQb9yiDf4CkzkNyhkUi1e9XClMLGRr7%2FzUBaLBp53AgQ6APlTxMwMiP%2BhoHXX8f0DOR5gdyzb2o2ELB4gkjQY3sD1Im6Gqus2hkt7fwOg%2F%2BPwK25hay4%2BgGltsmDiNmk9yE2Hv9A6G%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "167118194633"
+  },
+  {
+   "title": "Nike Air Max 97 Black White 921733-006 Women’s Size 7 VGC Running Shoes",
+   "price": {
+    "raw": "ILS 206.81",
+    "extracted": 206.81
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227600670030?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NWYP6V67N5NA0QZE4X&hash=item34fe0e9d4e%3Ag%3A6hYAAeSwY1hq7YTt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8lCrjzOQC8hpIhXvo1xlEuhRhmpy3lPAoKID%2BoAV8rEaMdfEYu0n2O2etRQZZf7QWxQMLdLgV7dZI%2BQU2tDwYnccErlN8z65feMkSEKBecZw%2B%2B4ojrcmf2D6RxOkoCgmWTt9jcb33Y2nqcJXCk6GpiXZVSsCiXefGK6VXZAUBRRWaXi4hD2vuJs4GNUw9hIgf%2FhpyocwNrg8I8GV6BLczgxvgRw2bawQCtwpBGjsIyzuYfbJ3bHdipoMJDxugc3BN52r8%2B7DS9vgwe37a2TPdBxmUxXe9D76LpdMmukcdJ8kurIypkQxGfp%2BqLG9CCPSo%3D%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227600670030"
+  },
+  {
+   "title": "Nike Air Max 270 White Yellow Sneakers AH6789-100 Mens Running Shoes",
+   "price": {
+    "raw": "ILS 152.86",
+    "extracted": 152.86
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188826152318?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NW70R09NG5J3MMTN25&hash=item2bf6ea6d7e%3Ag%3AZogAAeSwJWtpxAeB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BdQXM97V5J6FQa--d8nh7btNCZZq1wAZGUB1CdyJ636sHuTwTDmRmTBtKdei5o8kR8ERZlyzVGISDN5%2FBzU39h1Enbxc6i%2BlmWdJ8k7zIVSLNB3ldjA2NLTQT2ewzTjcd3f7TCuwF63TGA%2FrOsqFjWwID5YWF0RKcbmvHrMPcPAyvraUA0di5KJH5qiFZb3zzGDOaoF8EMEs1rXhlaFbCSu2JMvU3VT49QlEIEf0GhDX5zYf9qmKzBxvB7Q1aNmvgU91aN0p6NPkM2zJy5ruD%2F%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188826152318"
+  },
+  {
+   "title": "Nike Air Max 90 `Worldwide Pack` woman's shoes size US 9.5",
+   "price": {
+    "raw": "ILS 117.57",
+    "extracted": 117.57
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188950486224?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NW44NC3BEN3WEB63CS&hash=item2bfe539cd0%3Ag%3A5DYAAeSwdXFo8mR7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9HncU20J%2BwUF%2F4OLZPEVVzJPst%2BWPctf254Suac7tjYQlmS6K1XhlHCdiUHqNVIgL2WBzEkBpNqTk7FhtnVbmRg%2BAc%2FcP7AP%2B33c%2BrSoAmsQpTCRZaY%2FJdwiXfQAIeKwgw7P58of5eyIQ%2BdkLQxiBQkAAuLCkycWt0jy4r8V%2FKN4PK%2BIXY4h%2FXakBaxtc97KOfNo%2FJ3xq3A%2BqsU1nup8rD%2FvSrhZDvuGzk9WoyUmhjJzx59NEia77iiuEUEp0Go8aWf7JqfKk3hIteZxYPY9tm3hwuGErfIxEdptCeH2A8jpngzOy3hcHZPVfSnQ5nFmM%3D%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188950486224"
+  },
+  {
+   "title": "Nike Air Max Shoes Mens Size 6.5Y Blue White Black Colorblock Running Sneakers",
+   "price": {
+    "raw": "ILS 92.92",
+    "extracted": 92.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298713475069?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NWTWMZT2543K1N0MNT&hash=item458cb5e7fd%3Ag%3AoJAAAeSwWXRqc-Nv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FDtbBA15tzlmYGSpGP5UgYlAJBA8lzw2LNvaeHypyjTd3guPmXt5UNgOzyYMSf7dOov9VLfNwPUCajoqAPmDmeB9ieW1%2B6ZSoT2Cbqb3QzwLxJBr72sUqqdAI%2FtsGu294zsZadbZqKKIrbhiu3Kf9HtcsYi5q0m1IHnzihNuVRSVQnUaet5cI0esUgXHEsR2KJoFlkcHNEj9hTnQFQTkwZquxalJMK%2BiZtV%2FGzK9j0oj0N8mb06zFuOeq7YA24kNori6VAfSR%2Bj%2FzDpTDBOW%2Fy%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298713475069"
+  },
+  {
+   "title": "Nike Air Max Bolt Women's Rose/Pink Oxford/White Running Shoes Size UK 7/ EU 41",
+   "price": {
+    "raw": "ILS 150.83",
+    "extracted": 150.83
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377590176938?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NXZDEPM2B1CJJX2SYQ&hash=item57ea20dcaa%3Ag%3AoAYAAeSwHtdq2jhH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BxQ8KO%2BH5oQdTxj%2FHF%2FM56u5fClfI%2F8P7Qm51LIA6LwWWtoDgRXaLilU%2FAqQIVxlUJtpz1LDBq1%2B3hXrECaaKqeMfOcJ5pZSygB9ETD%2BRUHW8Xa%2FzbA0L2MP0dme4IDsjDkW7aHri5eK3Z2HtWgcU05d%2BbGhYXAChHMweEbNiUDZlfFLs6pP97Lvv0gPmWTCbTTpxRc3YBRLZ4hzNwEjuKlKc7c%2Bnw06AYpEUNGmx6Ur%2FpGW6JfO995fuM4U2Cnm1Wgd3sqfQY71Gcj%2BR5jEOmHk6Uve%2BkOaxyPcQ%2Fp9ARcI5UK7cUIe4R%2Fwks2WEiSNk%3D%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377590176938"
+  },
+  {
+   "title": "DN2487-001 Nike Air Max Penny 1 Orlando Black White Blue Varcity Royal US 10",
+   "price": {
+    "raw": "ILS 635.95",
+    "extracted": 635.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406889664041?_skw=white+Nike+Air+Max+shoes&epid=11055290855&itmmeta=01M6T8A5NXQ4YQ12JQDK5N2RE7&hash=item5ebc838e29%3Ag%3AQOQAAeSwmVVq4hIk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fwng82O8YOF3Mam%2FDkFutTdP3FbCIprtUCuV0bvirRqNr7RgJ4UyEHguh7sxUWTCw6%2BJZROzYfwkxn9SQoOk1a%2FZwR0jS2l9QbNxHDVtzCsQoD%2FYPGkzEyPjAlnJk2oO61GWMQgvOC0iEv0Lp8lnAlTLrYsJr7p%2FgCIH8mpT2S7E70Li8Dtuzrkd2mZ42j0AXaPCIZq%2BBB5Gq5dNeCHelaqufh8MGmgTjmNPJZ%2F%2Bs6fNKkjwtcihOjXArxAyqS9mUjbRwK2Be5%2BFEl5Ifnpmr%2B%7Ctkp%3ABk9SR6DbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406889664041"
+  },
+  {
+   "title": "Nike Air Max 90 G Golf Shoes / Size UK 9.5 / White, Turquoise & Green",
+   "price": {
+    "raw": "ILS 387.81",
+    "extracted": 387.81
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840049099306?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NXBKEKWBVGSTQDR5FN&hash=itemc396d4022a%3Ag%3A6r8AAeSwgk9q2mBb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9--0NOlzP%2BacTkR51rwFclAi%2F9GVN6Wl0PG0%2BlA7L0NvZ6oQ4Qt9UxGpLRU85F%2FfQ1qezbZ6kbbUnjf4nUE%2FpYIgmhjhMx0cYnMP1W0VkbbZy3hA7focDiWjCWmoxB0qy3x4Ve7nW8aB2sazDNkugOiopxs46q9zmyPh2VChMun3JAs8WAeLvRS0NES9qCpOzeJS7EO2ND%2BGXmnKcrpDz9wrmLlserMHojoIrZwcH9CrOeSCI85CS9TBFDLJ88Cpn0JhPuHD8IP8fPTGVujFGH%7Ctkp%3ABk9SR6LbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840049099306"
+  },
+  {
+   "title": "Nike Air Max Verse Mens White Trainers Shoes - Size 7 UK",
+   "price": {
+    "raw": "ILS 120.62",
+    "extracted": 120.62
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237156141378?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NX2XRWTS9K3VRN75S6&hash=item37379b8942%3Ag%3AiEkAAeSw6i5q4f-f&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Va00N%2Bn9otgxaRDamLgdVkXIJr579HJT%2Bg5bJYxLTc6ErJIwbtBJOlwsRqbjP4Zt9Ft1fW%2BedoMr4%2FRqGwXb4gbBqhV%2Bx4CDXOCrD%2FFamuuXzXCefXsgfwLN9eqnN882ZL7WMRAxk6dpoD7V%2FvlTXncFXHmBq4ivVZ7uxK8aWFkpnb4RPWbgs%2BVhnFrg6NWSutHxunoLFnrJnhFaB%2F3VQhBGOhGsMCQk1YCFApIzTvYdzcy%2F2TYfidNoGG1s19XAhUo3EpS7lWaLnN3D0hwrwb7YnlzofcHqi%2FLjDIqIFJvk4blG5fqd8PgoLDXV0yJc%3D%7Ctkp%3ABk9SR6LbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237156141378"
+  },
+  {
+   "title": "Nike Air Max Axis Mens Trainers White Running Casual Shoes AA2146-100 UK 7.5",
+   "price": {
+    "raw": "ILS 63.82",
+    "extracted": 63.82
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257785900229?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NXQSHAR0W14X2GTJEQ&hash=item3c053cacc5%3Ag%3AVHgAAeSwiCJqgwS4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8rhomvNUl2a6%2FTAsjQZK7I0sF%2FvWvgBzbdMiSQm1hQTPOCO4zbbBSh2cZ9piT3b8MEIw8S1fNixzqdcm1bgg9SM%2B8rZ9r2EFsEMrNe4gM%2F1LMYh4ByE0gjPgFnuNBR5aiIxoF0OAEHm%2B5CXTGJzT0ff6Rx%2BMmNu8e%2FMq2uGFVMg2mEcVaRD%2FRLLVYlHM9Gpys1pgVbD8FFLSQRvDxSNWxs4PczeH19QKDou9RJhG8qGX95ZHIM20NJiXreUCtfV4o8kFTW4vJq5HySMUj64GDY%2FnSfhY6GNXWiCJLgBoiPx3l131M9wcNRNfZ1qBl%2F%2BCM%3D%7Ctkp%3ABFBMotuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257785900229"
+  },
+  {
+   "title": "Nike Trainers Mens Size UK 7 Air Max 200 Rasta White Multicolour Shoes Marley",
+   "price": {
+    "raw": "ILS 172.25",
+    "extracted": 172.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257738300712?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NY09TRBCVNZEKWT9X8&hash=item3c02665d28%3Ag%3AkHUAAeSwZsZqpFxU&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8Pddp%2FpR8DAuXf6u1Ab9zb%2BDA32lfKXx3BlNHJapm1TCuFnTWpSLnV5gT%2BtrTbnHp8o1BM1X0tqFY7%2FqN24KKySQUBXiZzQWMlBH0p%2BGRm0NuNdFt5UfK%2FH3563u9f3Xa9mttMNlwZMfeq0dAvzfo%2Fec0rCEAK26AbcZnOCvnVp2PSr5gKzPZqbrEwKBZM6piTKpFNbSRM%2BYKSP9Ie%2Bf2rfDcrtOqyOnxE%2Fx4wjPkznS%2B1bQpRIVwfX%2FNhS48m17W90wID449w6z4158H40Y3a6YQF9T1i1xTGIfWVZOuixA%3D%3D%7Ctkp%3ABFBMotuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257738300712"
+  },
+  {
+   "title": "Nike Air Max One Golf Men's Size 11 White Black Lightweight Golf Shoes",
+   "price": {
+    "raw": "ILS 272.58",
+    "extracted": 272.58
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206604008919?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NY6HQBR3H70GDZ6BM5&hash=item301a8efdd7%3Ag%3A5iAAAeSwfZZqw4gt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FBlDIdapfti11BQSd19whtmt7mAW3njRLTAefm4jZ%2Bkl79WT2eBgMHiuK%2B3SnZPaG0ILGtYjFW3ngAteTkJ0IA1jgSws%2BFOwEIVPHTAJgL0e9tjkd1Yud6xFgbtDPngCZzbzrfWDC5fTB4YlVxeE%2BrrGQ4zTILA%2FFt8dd6LIC0kDrA0KJ3D0Eu89lUYY6EeLQEFzp4FCkvSNPUXQjDqmvx7K095R37oMyPkqTT4KYdpg1pRFdQBYrellJB5q7cDKsp8Gmxsxhu0u9qA70ynC%2BnCortZXPjF8yHKuJsP5c%2FOoPM--I9enSG6kRMnUDUyyc%3D%7Ctkp%3ABFBMotuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206604008919"
+  },
+  {
+   "title": "Nike Trainers Womens Size UK 6 CLOT Air Max 97 White Beige Suede Running Shoes",
+   "price": {
+    "raw": "ILS 150.70",
+    "extracted": 150.7
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257696375256?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NYWR0SYJRXS192RV0R&hash=item3bffe6a1d8%3Ag%3A72AAAOSwC2Rn2%7ES6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F0c1zjAQoNRS2Y9DZMDGR0McTUqfiuqSI13oTAf3UZGZtd9QxFUiPwj%2F95m%2Fe1b3iGT9okMLVw5L00teDItZSVoqaT8db0whxzWveiKO%2Bca1x29K5wppNuEFD3uy9FiTqFWeURMxHmqHUxDaPYY%2FeiL6EKKiSyNCIxRX2oqjs9ur5D3oM1%2B927jE%2BLVk1qfDVqYdHXmBuHjAWSm5CxXVQF%2B4gqBuBoWWyXBVqubXvG4%2B%2FNBjRWyDQI2csgY77AkbN5I5LJ4dQ6T%2FvHlqPWPzpyE1tjDOnX5vbBa4ldNDD9uTIEr4VbRC%2FL1Px6jOnljI8%3D%7Ctkp%3ABFBMotuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257696375256"
+  },
+  {
+   "title": "Nike Air Max 90 G Golf Shoes / Size UK 12 / White, Turquoise & Green",
+   "price": {
+    "raw": "ILS 387.81",
+    "extracted": 387.81
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168810258505?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NYYE6F8TFQ0HEEZQKX&hash=item274de02049%3Ag%3Av-AAAeSwTfBq2mBa&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9YGYSCZ171zmzcCsZ3kMiD5cu%2BSid%2FyaYSZdogj74rtGdJqbqsz4riOg0JHaYh431xZKdkc%2F8ck4EFLkYcDjSGQz5UIkK%2FTWCa%2BOZ3vYQpPpHu6AGXLWSlkTGVyYnUELy41hyUmAhKUvnlbal6EhZlwv1cJrjTAlkcyhv00yNsPJlTSZ8Q7JgtAYKSgxp8%2BQqpsYQ2L7A%2F8kzRtm9MHlYQ6agsIaCV4LenGnvJWC9G3jNpB6ZCEv1VnMht8cel0dgBd4kRy57i9aGHCQcVGLhI%7Ctkp%3ABk9SR6LbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168810258505"
+  },
+  {
+   "title": "Nike Air Max DN White Metallic Silver Trainers Women's Shoes - Size 7.5 UK",
+   "price": {
+    "raw": "ILS 116.31",
+    "extracted": 116.31
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237154486978?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NZXTBRXBW3JN8ACG1J&hash=item3737824ac2%3Ag%3Abu0AAeSwio5q4cMK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8TqylubyLtncFvQHSM6%2F5fgwjc5cepsaGfYeuJvKOusxbXm1jK6Di2p1hZV7wV1vjn1yfZUeHvDpGLcSnIODNAlMb96sorz0UOUzfeqaHDoH3tSr%2FAGwOpbPYCgj2gJD%2BkSP5ci2tCditrGl0R2p%2FINNYCxHvS4QOZvQ21jVzKKwj5NQ3wv%2BW4s2WalxJqxxD04ag3mDLH3joYfqSrr4mFQNnTMCoLfsjDJ7eKb81WSgAgStgPMs5QmOo9tNuqRNdI3MTBZo8OGvFjiHgo1qWI%7Ctkp%3ABk9SR6LbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237154486978"
+  },
+  {
+   "title": "Nike Air Max 95 Recraft Infrared Shoes CJ3907-101 Youth Size 1Y Black White",
+   "price": {
+    "raw": "ILS 150.21",
+    "extracted": 150.21
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128045912254?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NZC3G5A0N2ZAQER65D&hash=item1dd02190be%3Ag%3AzRcAAeSwvFJqjw-I&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FjYuO16lBAumYxGxAN6NEgdR2ovQvMONy%2Fe--4NXkSdID3f38kivdZPHNasGztPLvviQ9WQIml0XOvAOvPjc07sqtl0I0uAviy2z9gGMK2zVadFcEFrLOD%2BTaa6LTm0O8G1smfrFmHYVcHg89bACEIpwuoYIuZJwNkWaJPPVA2BgpxacmgWwlOG923tt36LYB0CJzWbOsBATpNkaPSmsNs4oJorzHYJU%2BtQi9Wls6vAHIjTEQuHJ2HicUv0RA%2B0aQb7%2Fy8c9xbSW%2FjU%2Bez0oos%7Ctkp%3ABk9SR6LbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128045912254"
+  },
+  {
+   "title": "Nike Air Max 1 Mens Size 9 Womens Size 10.5 Grey Brown White Shoes DZ2628-004",
+   "price": {
+    "raw": "ILS 285.16",
+    "extracted": 285.16
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168818639698?_skw=white+Nike+Air+Max+shoes&epid=24065091596&itmmeta=01M6T8A5NZVWY5GCEHTZFJ3E9G&hash=item274e600352%3Ag%3AFbsAAeSwN%7EBqz8rj&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BK%2FvfvDnm0KjSepmJiIz2GDoyLJxIfb7dU6dSOQGKecFtwIqqG1qDVFVXH%2FwgV2oFHw2GN9XcQho4%2BAmYsimUrF3hEhozu1EtJ0V94OVIDM4eKqW%2BPC9gm98Gvt%2FjXqhI%2FFU4BeBWSqnC7J1AW7cl3n2JNeDv%2BG%2BGtSuKxJVf9XBZB%2Fj12I2jo5T3QohthbfrNPSFCw4NCVXo1%2FGiO4E0q2ifape5s49qPxVt7YQhN7AHPIl%2Fs965AZeiMrpikkHZP3SJDTx%2FwwjaxjssHocna%7Ctkp%3ABk9SR6LbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168818639698"
+  },
+  {
+   "title": "Nike Air Max VG-R Sports Shoes Runners Trainers White Purple Yellow Sz7 As New",
+   "price": {
+    "raw": "ILS 102.13",
+    "extracted": 102.13
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147662912816?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NZZDEJ98NHT0DNGMHA&hash=item2261653d30%3Ag%3AnYsAAeSwegtqKhrX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8M6LO5LeALnNzY8uNXrsX0MM%2BGR9A6D3W3hdQ7jOatpqPoGIx91v3SwxK79syI3BqVPvdrYQGs0dByI8jo7WuhgNjkf73RZBJDAlsCeO4dvbsZWKBgWm84zMwdFTTKMqhlc2IWQI9YW8G%2Bcdh4WGa6GvUnawAwdpVcx9MyCOrvxua3PTNCwG04wUgvZ%2F7VXLYwZkr9fS4FE8SpStajUxUU%2F45VsRXC1Iw9Uk2FR98AfgEhtXlApnwqGbB%2BWcAbj%2B1bp2QDXQXCsvVgu0%2BFRTgs%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147662912816"
+  },
+  {
+   "title": "Nike Air Max LTD 3 White Cool Grey Size 8",
+   "price": {
+    "raw": "ILS 160.21",
+    "extracted": 160.21
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307243867618?_skw=white+Nike+Air+Max+shoes&epid=14039807765&itmmeta=01M6T8A5NZJTDC913PZC0F5VP6&hash=item4789295de2%3Ag%3AP6oAAeSwYtNqieTL&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8DfM8JN2C3Kpy6CkWNniIGNKVxwymvRuOXEDKVz9BnCPhPO3l96kTnIz47bVFqiLJAB8y6YHUgeJ%2FNjPPTrgT1O2e45m5eXBnwqB3ZQl62gU3Nn%2BmKpuDh6RP--R0IgLHdazqQqkOo7SfxcVt%2FJWQW6s0Q9VYTVxLaS63qHC8PghR1xIuRmXOqjIxplTAquNW03Hf%2FtqS%2FVtqhxFYrbJ6iu3MrZVP7IkUfDjJBvr%2FCDxmwI7Tg3QU0mN%2FIiSXjTeI%3D%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307243867618"
+  },
+  {
+   "title": "Nike Air Max 270 Shoes Womens Size 5.5 Black White 943345-001 Running Sneakers",
+   "price": {
+    "raw": "ILS 150.83",
+    "extracted": 150.83
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406848189240?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5NZK3T8MR91PX7RNSAJ&hash=item5eba0ab338%3Ag%3APo0AAeSwHEtoyeDu&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FAGrLUQluYleT%2ByaX%2Fyt6LClnecFn0HcXHrY4Jrbm42JVFPmG%2B%2ByDIYGUzLEt%2BitGXtB6ipVRANUlpk7PmKPpM4TWcgGprjnNvPH90gwdIYbmC%2FHzYp4ex4a%2FiihAHsoUh8XctXDqK9UNp0BkQvqheDFcV2fDK4Hv4K%2BAo6HxsJrYBUZKFPoYd2GInRhiZrOujSdMCtgFuwXOr9%2FJsri53xiexS5BH%2FxUjzryLMteZAi0ywsi8P33n2jGjDlR1b0ARXKHGPE7GmLyfj6FV%2BY9h%2FxJYdAv6Tp1%2B6ks6Er19xA%3D%3D%7Ctkp%3ABFBMpNuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406848189240"
+  },
+  {
+   "title": "Nike Air Max 90 Ultra Flyknit 2.0 Infrared Style 875943-100 Men’s US Size 9.5",
+   "price": {
+    "raw": "ILS 317.21",
+    "extracted": 317.21
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307237463715?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P0J6JW9YVYAD9MBKQ3&hash=item4788c7a6a3%3Ag%3AilUAAeSwGTNqvpBO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FypRzly5HeBGufHIkiMvIxuxyga50lyk92qN0ejBWBQ7duCPjNNM2bfOYasfiVcpR%2Fp9IyrVMq1aJKryF7D7Z1sFlq1i3BgZyuzlgRsQx%2Fer7ETQC2uPU7QEyP6nHpN4gT22RpUARZoaqvrdaCs3%2FVZHwr%2FEOwI6wdL2qtaD9ze6ECMfbsRaT7RDbT1UH9aLPC08fm7RppWTeKnLSG5WqacNrxp1jjyJ6bQsxZo3VAYgJdOGakCP2TBLxU63X6Inz28lkwF0zkKVvx8izg4bbIOYY4opp1ik92T0OvelUVawyMOcjy5zk%2FmGPQMimdbxI%3D%7Ctkp%3ABFBMpNuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307237463715"
+  },
+  {
+   "title": "Nike Air Max 270 Shoes Juniors Size UK 4 Running Bubble White Trainers",
+   "price": {
+    "raw": "ILS 107.57",
+    "extracted": 107.57
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840004375445?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P0PG7WZM2CP45JHC70&hash=itemc394299395%3Ag%3A3ycAAeSwAJNqyV66&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9SB9%2B6DKjgW%2Bpjxu%2ByDq%2FP9Ax5HNu7wS5DSazMULuHqd%2FZsL%2FoOuCnpmyyQVV8MuT%2BQPIph1iwPXI1K5vJU2f4HYlKMOHLnT6e3fRAVD3YoP0ZEZMuJL%2BSC283j%2Btsyxe16oas%2FgbauB1OVllaPUOKUC45QQOxiOUg8XG8Gf80a0Le13uxPRWs3hX70iBDSiG9aaeg%2B5jqmH%2FqmJMirEDK7Q628xgubXY12r%2BxIKD6czYaSlZMTAU%2F1ZKoc7DnSS5hSajO42fz7G929a5TlR6mtU3SUU0v2BIvgqJzxjftcarBwa2gunXqcXKIF%2BrEn5w%3D%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840004375445"
+  },
+  {
+   "title": "Nike Air Max 270 Men UK 11.5 White Athletic Running Workout Gym Trainers Shoes",
+   "price": {
+    "raw": "ILS 154.75",
+    "extracted": 154.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307221399356?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P0D9QP0F88Q5MW270D&hash=item4787d2873c%3Ag%3AEa8AAeSw3P1qxM27&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9sV%2BDYd97WWiAHYkv%2F2sCjpHPEDo%2BYM2KUyCIa9KYmChFxqSt3iQpPAqYsy5ItXkQxmZKKdXAp0%2BN7chK6cdK6%2Fg90Mk4mZr8B5YZU%2BLkng49vp5Khe1b2SP8rkK6MsbP%2FydatasRkR%2F5ZXqwWtkHdSr8fxns5IIzGko9LKFUNmwugs8uitYfIEZbm835ime1nI%2BTLiWi4q0Dx0LANpJtNRvAhFNxX7lX2mn7DAALW4lPwiPiC6afrBf5fO1NrBmHzKIU93dgOfmNZjrwyz0ov%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307221399356"
+  },
+  {
+   "title": "Nike Junior Shoes Nike Air Max IVO Black White Kids Trainers UK 4.5",
+   "price": {
+    "raw": "ILS 59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366573034224?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P064P3FPJZNY06TS8H&hash=item5559749af0%3Ag%3AYLgAAeSw6Ppqai2e&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BxWg5xzTLXCNuwlhMEfEMlI4eyi71pA7LS9%2BfAPDIEtIkzXrG0CGkPWMI49xZRPTE0S8%2BoJuBwf6N%2F4a9Z2cEOKwfe8sdyI0s0iFBnlYA0E4Nyp9qDar3XKkXpe5yxEbuWPhhRRB7gSipb3eB6%2F0FF2lKNEZzYmaRBe2Er%2FKIe95NOPhBJw%2BHfCIQXynR5Xu1JBJ2Tu7jWRtE0gPsyzfTzqxpnZqgK%2BpuCDK4RfaDxTMVSkZujoZ5hmMI7nH4iw7p0ytfixblMWTg5wZouGHvRMzZAVwuzUEmrloaOEcJ4M9yuO5RH2pO8ntnd0jUr%2F6w%3D%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366573034224"
+  },
+  {
+   "title": "Nike Air Max 1 Shoes Mens Size 7 White Gray Light Blue Sneakers Read*",
+   "price": {
+    "raw": "ILS 63.99",
+    "extracted": 63.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800795864109?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P0EGX7ME0TGJ4DN04W&hash=itemba73272c2d%3Ag%3AcgUAAeSw%7EhNqtqBN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FuiJaaf8z6cOW0KBguBgh8hdZZ0Z%2FZtPnoHU%2B--%2BqvzVcd7kPyBtOqiS7Ox96CVOac94eOLZU8agdfAjB8Yh0L45ETtb%2FyoKSrPZZ4AI%2BAkkyk7mqZghvgOubsf8YxiU9hh%2Fj0BwW2J42L%2FLjNjVz43NBTwHmrC9j8N07KZjX5AtTwsrQdo9ih%2B9PvG5npDVZbcpiY5NPStAnrsYveuisjrYCMgv6v1Ud%2BY6VM1b%2FzEZTIrhlx%2FJOYpbDSV7G%2BFBDcCIoNqCSbvKqRWO0OHWnyGUJ1e0OD8i2kF%2FGygUujvskBcwiCqSbY7fDwZ99O%2FV4%3D%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800795864109"
+  },
+  {
+   "title": "Size 10 Nike Air Max 93 Bright Citrus White Mens Athletic Shoes 306551-100",
+   "price": {
+    "raw": "ILS 320.41",
+    "extracted": 320.41
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407328484467?_skw=white+Nike+Air+Max+shoes&epid=2310858207&itmmeta=01M6T8A5P0X4MH1B1R7WQ8ERCY&hash=item5ed6ab6c73%3Ag%3Aoe4AAeSwih1qRKxJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2ByERA5Qgs6oy5Ipcv9epXOQh8Yp57%2FIxEOsxjzRtlLZoh%2FKJueP2l3ARilBVrRx7c6CCY%2BAIXIB48v7hxr7GxlUsC%2FuafGdSElB3vtExGHx1DiM4xOKIEBrI0iqEEBtNI7nzNwfo%2FY267O2F9zBh9Hm0jK6CtVmI6BWkD1fLsANED%2FllRsvxV2EjLIrymYbXGPW1bhX%2BbfeKPvT4d4v6fqE5gWEUWTDkWx2O0MWyHfciLyZ9uRTs0sqgTsE0SR0uzun%2BjwEJCGyrBgB6Jd5qwDb9lgx0Gmf8mifh5HdWZAMVkC3QxWLUCjTBt1gwcc3LM%3D%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407328484467"
+  },
+  {
+   "title": "Nike Air Max 97 Mens US 10 Black Gum Sole Low Top Lace Up Sneakers Shoes",
+   "price": {
+    "raw": "ILS 80.07",
+    "extracted": 80.07
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198717011730?_skw=white+Nike+Air+Max+shoes&epid=25050269465&itmmeta=01M6T8A5P1BH7A03F8C07H0AP4&hash=item2e4474f712%3Ag%3Aaj0AAeSwrGFq0LGW&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FrWq1BmMsqwnR3Epqi78tJMUhPDGjlQZG6tQUxrXeClMYYekMm1awuCIdaDZS%2BbcAYUXHw957aLGhu6EV%2Fo2BClxl%2BLLFnjH16eDtBFLykOZXmr9Zgt7AYM2TmNLHza0KHrbd9LKXSxSIBPeQcDsHqYafh%2B1nBqghsj24%2BSXNqiK87KGCP%2FxMS%2BRTVegjoPtNjGAE8DXSIv5%2BRApvyYIWx0Ad%2Fz4hwa8ZHA%2FBbg2rkzMy%2FS5AghpQm5Im%2Fa84%2FmTvEl7DkoiLb6Z7YOs9QOLD8%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198717011730"
+  },
+  {
+   "title": "NIKE Air Max NUAXIS Shoes Mens SIZE 14 FD4329-101 WHITE BLACK Trainer EN Running",
+   "price": {
+    "raw": "ILS 160.14",
+    "extracted": 160.14
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267722459156?_skw=white+Nike+Air+Max+shoes&epid=17074111792&itmmeta=01M6T8A5P1J2E33ZGPNNVZDEQ9&hash=item3e55808814%3Ag%3AW7cAAeSwMBdqT93b&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9c95%2FDbce1agwW99Mp6f8V7JMf5tRRX%2BWn0EziPkMHII9U%2Faz0Gd5FMIsv4Ba6JBljx4P0yuaSGL9A8YU9eXUoqppWhQJbAigUPF5oM9xWBDk0Rhh%2F1PV558VilqhE2TmU6uXSi4vvVPevY8BJanTqkcZhXI5Z9NpN6pmvIxu031xYCJIPpMUoLAkFB2lP2DBDlSdxvtoKtrmMPBSMDAox7tZs%2FHTNdsbKCYMtZIbVdwmB9s5xnzwadflCPO7iBUHtYVhezXDnXX7t9%2BaM%2BDhEg0hdk2meq53U5DJEmo76xPlNco9QEEcWrY1LCXMySPk%3D%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267722459156"
+  },
+  {
+   "title": "Nike Air Max 90 Triple White Leather Sneakers Shoes Youth US 7Y",
+   "price": {
+    "raw": "ILS 92.16",
+    "extracted": 92.16
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880008509132?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P14WN8D9M47JRC66VV&hash=itemcce49836cc%3Ag%3Ap30AAeSwBD9qkTOw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8XXMIsobmT%2FNzfif3z4RPnw9AD%2FSenk4C%2BsiUsqFupbY3ICnOM6RvIk%2FlgyxpZDgCEMaKFSDOindeL18Cv8ahEvcW1uJbBOSuSa%2B%2Fzic2rFNzzUJtZAaApeXGqu6f7NUyhIcIZ183Xke23BeFf5zng3GugIjhLwnhzSRzi2eeEe0QymEAKQoaavWmAzFtTwhoAbCj8gsEtFc1Erg8CvmWzv7qaj10kvcKIZOCCUXWLR0c%2F27z9e%2BbzQ6zcohfZffeXlHYpy6SicbnlbggXaLNM%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880008509132"
+  },
+  {
+   "title": "Nike Air Max 2017 Sneakers Mens 10 Arctic White Metallic Silver Shoes 898013-100",
+   "price": {
+    "raw": "ILS 192.25",
+    "extracted": 192.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880088993208?_skw=white+Nike+Air+Max+shoes&epid=12039797556&itmmeta=01M6T8A5P14FB1WDYJWHPC3H1C&hash=itemcce9644db8%3Ag%3A5yYAAeSw5zhpC%7EpB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9n00hcZwVWEA0KFaXXoyF6CdbqF5jOrvKSokAZugoKJAXGzBFMx3EtPS%2B8UqSSyBsJpDgxbE%2BXuSkizK20dAgREM6NJilak4Lk3lb1quxvCeS6Tg1DcIIvZRDCR8yfqILZms%2BeENGIX2XGpASQh0rerYwX42UEOfm9vSHry1z6WRfXOqmXZ%2Biw8KiLOUwlVggandfbk%2F4d1cwWIytuY5ZUOEiuAlPe4WhTSYKigi96imV4oKs2ZXdr%2FhYh2jNTQrbaRo1%2B20URmq2CyYl6pjbIcBJQxeZ7jqEu2MvzROZwZ546wcEMLnl9JEkuh4JYo2o%3D%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880088993208"
+  },
+  {
+   "title": "Nike Air Max 1 Golf Shoes Mens 13 White Blue Gray Spikeless AQ0863-102 ~ Used",
+   "price": {
+    "raw": "ILS 142.58",
+    "extracted": 142.58
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257835170894?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P2GZYGYG3M706WN2AH&hash=item3c082c7c4e%3Ag%3AkScAAeSw6khq65iO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BUcUteohL3qjXA2Y%2FXrnEU3swI7z5EWAu199%2Bk8UCH857ZpQD4sB8efUzva9qbJIf7aV9628vFtkOHU%2FijFJIdKowriOPt9bqZCLuW0De5ciY0fO7yvun%2Fg4DL9KyLmNV9OXp5AAI0UVLw4RXpLZPJzQuyT0F1T3YgNg%2F6SRYkqe81AE2uE6hHULDcpbb5XeII%2F89DW7xxQVPR19NhdrwvmVLMkcSUthzrsvnwoHv6BfTeRw5Dt0nNFit2d0cFZj3eE%2BFwETgpzO%2BzovrWs7p95YDrmpKZVJ8ycAz0LfAKMbL9zU1bmX6aMMJ4pyi2mIg%3D%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257835170894"
+  },
+  {
+   "title": "Nike Air Max 270 Shoes Juniors Size UK 3 Running Bubble White Pink Trainers",
+   "price": {
+    "raw": "ILS 129.11",
+    "extracted": 129.11
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/189062501223?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P2AWDC6R2ZJR1S6BRW&hash=item2c0500d367%3Ag%3AkQ8AAeSwwuZqx%7EcX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fv00vUt9SbsEkUlWLgm9JLsnqLKo7yfq5ZbhAg5VwLeOs4yuZzj3bijbO%2FxLUWlqCHXL%2FGb8%2BsiamgH6eMRHN3dUx%2B1I8XVxPbR8Qelvumi7LW7TAViOSVW108i8iVRgg7BcgWtfWho0qW3MnoWBwmUWsSH3PqOIvrkyU6TjUQBuURIWRAys4FfuDBlOtH6%2FS391jKgLMF2S8uDyiPtCeZMA7M55BKmfS9pIBnOYeVC%2Br73XM%2Fc8DEfY8UohB1EmONoIO%2BMNwc9TfPod5mRphN%7Ctkp%3ABk9SR6TbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "189062501223"
+  },
+  {
+   "title": "Nike Air Max 270 Shoes Juniors Size UK 5 Black White Running Bubble Trainers",
+   "price": {
+    "raw": "ILS 128.29",
+    "extracted": 128.29
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840044206249?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P2YTNETJXJCXSEZ7N3&hash=itemc3968958a9%3Ag%3AXREAAeSwUIlqcQd%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8dSWWl6SGskng%2Brb6rUhHaR0ieyPWFwFS3XzOuLdX6fZtGte%2BXcdVFQpwr7tphWceBnvCPUC0DOZukl1xqv8jTbjV2AwvHOqlsIqxiy4q66g%2FF06r9oIdDjnT6TPd2Bp1MOgal0nZDf86N3gA4VPBkApfYOAxPu8wEQWYPDluzlYL%2F8TyogarK%2Fqwdd6lHRhPth3GME76DywrBdt4t3yeKn7tGDi1pyDy35dSNSBZqvmqwgNLzkFgPNw72V6jUwlaeWzBD8Tbf%2FzHQJxPiBeOt%7Ctkp%3ABk9SR6bbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840044206249"
+  },
+  {
+   "title": "Nike Air Max 270 White/Black Sneakers UK-8.5 Sport Gym Running Shoes AH6789-100",
+   "price": {
+    "raw": "ILS 237.02",
+    "extracted": 237.02
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188620758653?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P27AP8P9CZC4TJEYHE&hash=item2beaac5e7d%3Ag%3AG08AAeSwHitqT3Nk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Kw9tlxkApLNpNH0H9SA1snzxEQQaYMSQP2DXaMWIMO62V8UqWN3Ale4lQJrPF72Pf4SLdgbwur8Eb%2F%2BVODdCSwu6hDr2DI1AcJjiTRJA7tUyffy2phL71TK6P94fuwzed5XKxPGW0A9QCUiAx%2BcUj%2FKSTaetUakiVotJm1QfQfSeHx%2BgJNlleXn%2Bw%2FvOk9kar9sCJaYjPnTwyKz7kHdd%2BSYjOVFfZpP1xc1pVvho5BJyWufCTANIvYKspbpBHC66pjb%2F6wobrIUqNiZIKmsTC%7Ctkp%3ABk9SR6bbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188620758653"
+  },
+  {
+   "title": "Nike Air Max Impact 2 SIZE 11.5 White Black Men Basketball Shoes CQ9382-100",
+   "price": {
+    "raw": "ILS 80.71",
+    "extracted": 80.71
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880038471323?_skw=white+Nike+Air+Max+shoes&epid=27045625355&itmmeta=01M6T8A5P2G2ZW3GMGD5A107ZK&hash=itemcce661669b%3Ag%3AnegAAeSwleFpvuwu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8DY6fsi66dB6R60IprINuVdp5wLfxTiwUcxsEA59%2B81hijup%2BkQPCaNaML%2B5qchP1qObO7qIP8%2FLee9C8YjtcpwWizWCtY3C6r%2Ba83ArGja2bVr1hEWYXZ4CMf%2BOxGcxi%2BeSAn77p4DShNTrIDkHXo9HvR%2B8jB8TE0fHzMo7s0ERPotbqXZMbULxHOq6xdiJAnXYdqWYRudgFxHMknlmF%2BRwJRkuIZZIrZBAdwWDIiw0aESuY%2B9HXt4gnCVKoylcHSzzurif1mlnzqGvX17P6cwqOp%2BUTvyocp1hbTZGKQVDojNqBNJmKrNGa%2FZ7XcsyE%3D%7Ctkp%3ABk9SR6bbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880038471323"
+  },
+  {
+   "title": "✨Nike Air Max Excee Mens White Blue Red Shoes Sneakers Trainers CD4165-101 UK 11",
+   "price": {
+    "raw": "ILS 121.23",
+    "extracted": 121.23
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158281324887?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P3D6EXZB4CYJXZ05FD&hash=item24da4d5957%3Ag%3AhMUAAeSwmydqpBiS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FZIEm9MkRoJRZj1JScuffcQ2J7ffGzX9OvnSPdAo6h9PXxhato%2BEEiHx%2Fa6emo3lKrHAGpLxpaw83oKtQB01EgFPjwPEwqN%2FzSkmxop4jhDeIgTVBSvCfQFiSCr6zkXEdj9aQfKQpThWx9%2FmeLtYNHh5XnZp%2FjwMLlkd8Qz1dnAgr5xSLL8xFRpBAnjB8nQ1UZxnGhiE%2FNLVdY33tUudtz%2FOweAL529Mp8zaqjtsDbuaL1aj%2Fy0tW3dk4NJe%2BhWUy3JBfaWY469%2BiXtjOug%2BFy%7Ctkp%3ABk9SR6bbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158281324887"
+  },
+  {
+   "title": "Nike Air Max Trainers UK Size 8 Running Shoes - Unisex -BV1171-100",
+   "price": {
+    "raw": "ILS 54.95",
+    "extracted": 54.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377625396038?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P3S14TECCADRX0CHM1&hash=item57ec3a4346%3Ag%3Az2AAAeSwYxhqxe1r&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FImpMMVvwXXdi7ujrLzeK%2BHp0bJDRSxMK05qvKZicT%2BtDVbjrI%2FHha5pkt0VscT5CH6xlwhrB2opbNASl1SUp2iLWq8BGCMSMouD%2BK78dDMLgD1szErxCnV5Zaq5wnyO8n1aYEj3cUru24BAAbPRjqHb4QXlxKVOoNbVFRYQCpY9EJoyWYyP0%2BI6SPCVuCB2gMvUbnR%2FFYyfUoIaeCrUv9YLsn9mo8Jxpw4vgVcoONM%2FO0Z3E5lZyL60Fl9dKZUHE76riDPo2MqTqX3CCX%2FZGqTw97DMqq1Ub6QAzYIq0BtAoTIbanAn6rf8l5aZB3vGs%3D%7Ctkp%3ABk9SR6bbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377625396038"
+  },
+  {
+   "title": "Nike Air Max Terrascape 90 DH2973-100 Trainers Men's UK 9.5 Sail Lifestyle Shoes",
+   "price": {
+    "raw": "ILS 301.62",
+    "extracted": 301.62
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800701422314?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P31E6HJ3H27RZFQYK0&hash=itemba6d861aea%3Ag%3A8g4AAeSwlspqsSpM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8wYg7%2B1dHOv43der7EZYrKch5gIlJo1wU1FFkEx1kagPXxfsuEs3ISdQQYAyxC9pv6%2FAQr4C1tIPq1V6YUms2Pw8KCWJDDmrHuAfxaA9liK8JrahkL%2BJraM3YWCpxGPHRGqedJh0KHj7m6Nfr6EJXw5b%2FLn5bPAgpL3jfyOJ2qHmZ1yBixG3PjG9W6PrGmWEyYBumqZOOw%2FvCuZirx5kdx6A5tbyqI9drsxjzJb34Jbl7lyD4mPJOFEoMGC10F02JCbNvo%2FycdqQQs5%2BrsfYB1%7Ctkp%3ABk9SR6bbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800701422314"
+  },
+  {
+   "title": "Nike Air Max Nova Shoes Kids UK 11 C White Red-Black Hook Loop FN4459-102",
+   "price": {
+    "raw": "ILS 87.27",
+    "extracted": 87.27
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227556453160?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P3GRYPAQ3VK2VBCWAG&hash=item34fb6beb28%3Ag%3AuqYAAeSwYYJqxf8s&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde922b1sSj42u2npbNd1cHMi%2FH5kQKZZGBG0%2FGjiWuDkJVwRDFpGMxVzQlq7jR43zbVPRNdYc9T621uYm44cHJmRwZNldS51dMD3xBQWeF8NsKXh49QRyYcEC9rL6jiKWWVGZIRSE%2BVNkKgePbcvwEEPeVd4J%2BEDxGG437DFoufeDLxzevfrBWAle2l1V7QMfZayMv2IDhqbpAcW8GOOCkogyiQCuiSv%2FeDFNlQiXmRsc38ALTQBm6U4Rpz2iHTXjDxrgIt1huEt5DGKTWGBiNZZ478t4kKRM9cEk%2F4BoagmjAu%2FIhksIzEzvDiZp13zAjQ%3D%7Ctkp%3ABk9SR6bbqMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227556453160"
+  },
+  {
+   "title": "Size 11 Nike Air Max Zero CS Tinker Hatfield Yellow White Mens Shoes 789695-100",
+   "price": {
+    "raw": "ILS 256.07",
+    "extracted": 256.07
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407295050917?_skw=white+Nike+Air+Max+shoes&epid=22039814678&itmmeta=01M6T8A5P3V6ZFJKKVBQF1F4VQ&hash=item5ed4ad44a5%3Ag%3A114AAeSwSzxo8MHl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8UTK8GK%2BoEnI5oov24JOEBTOIEgBOtRpNr6AVAdZqaoxcb7rOyy5tcJwGwNHNCmxTmWA3R2ygSCmRvXd1bMqmr9OYqvYhNjq1Vl0xm8VkrmrwTEZjZTYn8idXe%2BP64z%2FhjztoM0yMmQjvWq0bfqgc9vB1vQDk2SbE8uccr2H%2F7qRiD4e0vvoMf8GWal3Xj0xi5XwjduASGJpcrX4O3R%2BflJpo%2FRH%2BqTu9%2Fq%2BVEmmPVf4sd2JlvvBXGPwsaTEOSzF%2B4RwWOYTzwXWO2fBKuISg1HsmRZCJvKEhNuAkGdVViC9RfcRmE9Vh%2BgLZkvcK12Wg%3D%7Ctkp%3ABFBMptuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407295050917"
+  },
+  {
+   "title": "Nike Air Max Men's Uk Size 9 Trainers White Gym Comfort Walking Shoes",
+   "price": {
+    "raw": "ILS 112.78",
+    "extracted": 112.78
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820311187993?_skw=white+Nike+Air+Max+shoes&itmmeta=01M6T8A5P4K5PBB9JPV8QCZ9J4&hash=itembefe5b6219%3Ag%3AnfcAAeSw1f5q6gLB&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FMo0fGTLgO%2BeFYRVboofAYPkaFisFwnBRn9r1xlAV6hc0L%2BQ6%2BVmhrhueRIswnZ9iiVJ9SKRvthzEgPbQslE1GVaNi9SBdBzwftNQvtbDOZo%2Fd6klAEHKfEog2McOJCUw5RV7dEoziIY933dDEIV%2BCD1tn2tzIt7Bcq3g7UAKe6agkbPOKx2dwUOf1ITE3g7csalhLKcYsBOLMa%2B%2BYVaefy51G97gBdv0z3IS%2BI1kld0YDWaDprHoqcliL6nU98Qhygv7VSQItWJpEpv%2F%2BVUflcsz0dfbHyPmcgOKW8h1F0A%3D%3D%7Ctkp%3ABFBMptuoyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820311187993"
+  }
+ ]
+}

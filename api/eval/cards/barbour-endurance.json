@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": null,
+    "product": "suede jacket",
+    "visible_text": null,
+    "search_query": "men olive suede jacket",
+    "model_confidence": "medium",
+    "color": "olive green",
+    "material": "suede",
+    "exact_model": null,
+    "platform": null
+  }
+}

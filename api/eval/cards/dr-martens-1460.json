@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Dr. Martens",
+    "product": "leather boots",
+    "visible_text": "DR.MARTENS",
+    "search_query": "Dr. Martens brown leather boots",
+    "model_confidence": "high",
+    "color": "brown",
+    "material": "leather",
+    "exact_model": null,
+    "platform": null
+  }
+}

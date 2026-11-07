@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Converse",
+    "product": "high top sneakers",
+    "visible_text": null,
+    "search_query": "Converse Chuck Taylor high top sneakers white",
+    "model_confidence": "high",
+    "color": "white",
+    "material": "canvas",
+    "exact_model": "Chuck Taylor All Star",
+    "platform": null
+  }
+}

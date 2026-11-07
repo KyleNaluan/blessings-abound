@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Nike",
+    "product": "Air Max running shoes",
+    "visible_text": "AIR MAX",
+    "search_query": "white Nike Air Max shoes",
+    "model_confidence": "high",
+    "color": "white",
+    "material": "leather",
+    "exact_model": "Air Max",
+    "platform": null
+  }
+}

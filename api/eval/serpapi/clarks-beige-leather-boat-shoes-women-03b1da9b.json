@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Clarks beige leather boat shoes women",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 60,
+ "organic_results": [
+  {
+   "title": "Clarks Artisan Boat Shoes Womens 7.5 Flats Slip On Beige Leather",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318679195548?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY7W16Y2Z9N0S79Q7ZA&hash=item4a32c29f9c%3Ag%3AFzYAAeSwDF1qcoPe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fe4vob9EYCZvWPtEdkCCg3FhgTcmMyz791JrsXq3g44DWUDXiW%2FQOnP1Zkz%2FMo%2FvdWmFWjxm6clhfLEOsu9WUIbilrPbDSXxQH5lpJjHl5C7I1EYfuFHdxK5ySimdarvQac4ZlmbBuBLyGbcoVTLrUcZx2ID33vA1s5bPfQQU4hGeBijBex4fs%2FrFYcQO%2BsU%2BJ76%2B4UqF2puz%2BuI%2B7RWVr2aIh0SUvesacAM7yLK68C%2BYipvLFwTwFNbAq4lEZKMxNguccb6KWCOxIQdohpXlU%7Ctkp%3ABk9SR6y_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318679195548"
+  },
+  {
+   "title": "Clarks Artisan Shoes Womens Size 6.5 Beige Leather Boat Casual Comfort Walking",
+   "price": {
+    "raw": "$38.78",
+    "extracted": 38.78
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377373289408?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY8745TYYCWN2D5WSSM&hash=item57dd336bc0%3Ag%3AzIYAAeSwPFVqYPEq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BD%2FDFBkM75hBAFsHKYeLCMOwydmZvTt0oE9InlZ7fVcYk93FIx6gPJ%2BcdEtBV9%2B0vR%2FcRTILd96Y%2FW6wLsS9kvH79Tpd4IokcQ3T0Gdg91m8WCJF5uOMDGz0m54sIskL970L75WckPlJ6f%2FV%2BkCJGJwpL5beDjnRxxk%2BjlZV38t1vidCI5rxp%2FIZTZvQ3Vmy%2Btv1OkbyG%2Bkbk61AZVlmH3%2Bzm30bnvC%2FuxV6Nc5%2BEf6TisbFfcICUzoQA83vjI5qwEbHMRMI%2FjGiMmb4ZpYumvkXmjmsyBll%2BDEB0L8kVRw57S3WG2OIoYC2u8KkwNrkI%3D%7Ctkp%3ABFBMrL-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377373289408"
+  },
+  {
+   "title": "Clarks Cushion Soft Metallic Bronze Leather Boat Shoes Espadrille Loafers",
+   "price": {
+    "raw": "$22.00",
+    "extracted": 22.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237122881774?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY8X4FNA830RBPVGSK6&hash=item3735a008ee%3Ag%3AD%7EUAAeSwVjtqfnKb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Z2wWXX4c2QTvnURrlzp0VLJVHiK3LWFIEjLg6Ta0gbC3PEo7YLt0Xs1tNttrRPmz7gih%2F13vSsAoV%2BEcGcDRIz%2B6D0ynbnVCFguvVlUXyuo%2FvimoRPJWZHOPUqTOfbQWCH4U43K%2BhlZarLyAqBvohVEqhkLWusIKJO6ORRAvG47FIWdKyd77LOAcfF0k%2Fp1Rv9w5roWs7r3eYf%2BgRhsw4ANc5I9Kv1AD3rJ2KjReLVo74VAbB2qPD%2B721%2FdNRLd6KOQgr1W0%2FGYQZSgOZerKsVIX3WS8M5MK3xbehrGpdgQ4GWCjSXdbaleLpN%2FG9Dv4%3D%7Ctkp%3ABFBMrL-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237122881774"
+  },
+  {
+   "title": "Clarks Cloudsteppers Women Sz 6.5M Tan Canvas Boat Shoes Loafers 261414324040",
+   "price": {
+    "raw": "$31.00",
+    "extracted": 31.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178491386089?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY89CM60FYHPFJPT6E7&hash=item298eea68e9%3Ag%3ALd0AAeSwCvBqpgDB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9FCMBa9YZX%2FVSZ7EBxrQmWQr4UomZWF5%2BWdeQoVr57VfRaf0oMLaeEtvOGiDCH%2FtkpWn5oEFbj9PhDdkXHOefOkU7WdddQl2oysl7YZyrxTDZx12TZkHVmKzdVD6p7iVMUUZ39MleJVib0AaNRb38kFQuHXr6Ex0BOblsNCxkH71DXh1YSXKj0VNj7IznxuAPnMg6caN9PuagkVBHltsS%2Bu4kyhZIbCYnALEPWKeDZhKarWHo7ZZFE1Jj0qOTn358ZJUE8xWQs2gozsQziijI2UasWWj91pCCY3%2FYWkzfFYczGfji2LyP2CgS%2F2aH%2F1%2BU%3D%7Ctkp%3ABFBMrL-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178491386089"
+  },
+  {
+   "title": "Clarks Artisan Beige Perforated Leather Boat Shoes Loafers 10M 26063817",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820298833877?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY8HRQ5KVBMWRRDSZ7R&hash=itembefd9edfd5%3Ag%3AAa0AAeSwtbBq48EP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FT9lZy8TfVLEAsi0yAUDgEINDTqUsk%2Bsr1NRBQmIs6qdZmBwCSJIEqOAVG2M3S9mrnR%2F0u6qFXbhvtvrlgGhS0D9h5vKM1u%2FZGdKsRV%2F223WLmW%2Fj7hezslr8JbByYsHMYqiJGgxTlC0LBIsQ3hah%2FDL1nqJF%2Fh30LOgUOUxtVVH93muUUFE3cYySBOWzNGjQBNPXWCWYk3ybN11590cCMYWRv5l%2F7rafLxSmdDEE6%2B477D3OI7VU3ZaKYnTjr%2BGX1s3F284nloKBG1v0bRKNMrwBxEmMLgngrgsWmmd0ZUNS%2B4NBV00VeTfCbdqsH8Lo%3D%7Ctkp%3ABk9SR6y_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820298833877"
+  },
+  {
+   "title": "Clarks Boat Loafers Shoes Women Size 8 Beige/Brown Jocolin Breathable Lace Up",
+   "price": {
+    "raw": "$25.79",
+    "extracted": 25.79
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298734596836?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY873M8TF77PH1TY0HE&hash=item458df832e4%3Ag%3AVM0AAeSwqWZqw5t1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8uVA0B2%2F5TUyTVP32H7A60j1RKc6iUEfR2oYEp76efSkV0gywAHWnzZP1CQFUu7Jilng2TGZ8WGbZ1T6rmjFBfR%2BLmO4r8Gueko0cmYjjlKaoaxE2jYIqqnBiSzYTCBq7FSGrolJPZzgXdLK5qZED%2B%2Fn5e0GY6l7YxLtraA%2FueOY27suvvyvs9vH6xpnVerZM81xSQL1CVmGmAGNIScpmQf2VD2mznfIel9oiUmLb06IimLz8mzQhYfjKH%2BEzy4Jw7Lu%2FPueP6m6S0Pfye1YhFw0lpGUrTochOdLncj1WIMbzGmWTWkyrW7YbcTy8WgeE%3D%7Ctkp%3ABk9SR6y_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298734596836"
+  },
+  {
+   "title": "Clarks Arbor Opal Boat Shoe Leather Cushioned Comfort Beige/White Women 9.5 M",
+   "price": {
+    "raw": "$17.75",
+    "extracted": 17.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128086767988?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY81EB0SVFFE4MQBZMA&hash=item1dd290f974%3Ag%3AGFgAAeSwvoBqqQE9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9ncnhrBSZCYhmZ0lozcNdKBIxhPTMAOhghaOkPldYLlDacG2mTuL48VCwClgtwKUM%2B2PyGDBsxfc1T%2B2h0%2BNE9YLMene5qlzBPeSka1R%2BhlU0yu7I8xQ3vGa4kv0KKUz%2FZM%2B%2B8WNj4ffPQwOwix3CocVFhUyMoYbJ1ybXf0aHel956lSN14ggsX23m%2BzjbUQHWGtCaDCYv04ulBrj3MTb3n0mH%2FRAxLLVGBfgjBLtNA5FdFTPSnyy3LXOC2JHacQ37%2BHqFs1Yv5W8FM2ieyR%2Fg%7Ctkp%3ABk9SR6y_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128086767988"
+  },
+  {
+   "title": "Clarks Womens Arbor Opal Beige Leather Boat Shoe Slip-On Size 10",
+   "price": {
+    "raw": "$14.39",
+    "extracted": 14.39
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307243998166?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY8X8AJE9R39029M079&hash=item47892b5bd6%3Ag%3A%7E%7EoAAeSw24tqusKH&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9FCKn8vHaQ5AwUGaaLGwPGOGpRiNzhQjH60QArx28fmnkm%2BmRxINpoCn%2BaAWRcE72cWqDJ5aSZbhmd3ZFUAZ7V2WcKIAJ1rj%2B2tHsL4Fl7ezP5zhK4fN--xWTVZc5e8VsaXtdIPtduJ5UoMemEYLRFjB9VxYY%2F9GkMQEL4I0Lfw0syyzeZ0nXwodu6x1o1n%2FKak0O0ZPoXqH07TCkgc0N%2BXl4Cjqgvq8NO7IsOR7riFPJdrcOO2E5ytnXAd8TTgMAWdOHi5x%2FQqKGSff6kmjvu%7Ctkp%3ABk9SR6y_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307243998166"
+  },
+  {
+   "title": "Clarks Women's Jocolin Vista Boat Shoes Navy Blue Upper w/ Tan Leather Sz 8.5",
+   "price": {
+    "raw": "$13.00",
+    "extracted": 13.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406995608091?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY8DR9PGKPQCZVG1X54&hash=item5ec2d4221b%3Ag%3AD%7EkAAeSwNvVqLA7d&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BXRAMQEgcmp2jQY0R4mAX8bXO75phowMa2x4GyVrCtUa2rO8q66lGJN7IjRFpqKSMFX41P8EJgVuYEb%2BZ%2B7Vnjqm4ajAp7EJok7jaFKs3biISnRwRHWv7SlQ92dkxEnmhUPDTFtl0clSW%2FI%2FUnchvzKOuw3%2FG10MIzkDlqDpTtffW--eLrAVi18i3AVVOCdG6l7MnlsCzjDmfteOiEeMjfXvH0ukMG231P5LgrvMajQ502VIWol4cmnNIddcm%2FSMBXlrRNeH7iOgrImlXPE0nGTf0cmMKfpweVxyt%2F%2B0uaXF5q91Y0y1wK5I2OA9C7zW8%3D%7Ctkp%3ABk9SR6y_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406995608091"
+  },
+  {
+   "title": "Clarks Women Boat Shoes Tan/Beige, Bronze & White, Laces Size 7 Soft Cushion EUC",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/387657681425?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY9Y77Y53CXASC4P3X8&hash=item5a4232ca11%3Ag%3AEOIAAOSwB5RnR-Bv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9yH2Dt%2B7hntFbVt%2FzXz%2Ffd0JolZnOSXklKaH2hB7XRRt%2FqEk8mYbVOff6ZAlUWHFFf2ouq9IDQWrIWWgsWOMCMO9ASNmMn7%2FfxMzbIIUMjIr5yyQTAnIP7j2TNoX8T1ktR8WsgrYoGXzEsoDfdLIdjefWNpTjNY7Bw%2FdgXBfV%2FDpmOzx3%2BYTlBZLUT1nAQU%2FonXvwc6DroncoBqSbOhmTSaRikXIuHhmuoM61OAJhTGqtvMbGHf%2Fw7JvFcR80dbRLb1qJ1ejgs6kOoVlE78WDz%7Ctkp%3ABk9SR6y_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "387657681425"
+  },
+  {
+   "title": "Clarks Artisan Shoes Womens Size 10M Beige Leather Boat Casual Comfort Walking",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318807110826?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY93NCS30R0QWDPN1ZK&hash=item4a3a6274aa%3Ag%3AspsAAeSw0HxqljTv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FY1yXPFYNDJNUfz4l7zc0ZwYm7R%2FgoceQWnq6qojpuvFB3q4UcfXNBUntnaJY2pQki0WZ5QYLVM%2BCSZ%2B50VblwpeLljaG8ibiEe0m2BDnirJBPyecFuMTdqQxLURJfQrDm9N2kpYKWgj49v3KOKkZ3339CPI2uzsuMwZ68bF80M7iXzus9Tp%2BRU%2B4ULWgCG2I%2FZftZwBMqOaSLkhg%2FyjbcG5IfjDH%2FL98Ph%2F0R8NgHL2At9UBxrezxqouOnHMMi2g90aMnJRymlDeMOL6sLDv2v3NBGn4mE4dDvQ9giyQfQZE98bLDiup87f8qd4sLK7Q%3D%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318807110826"
+  },
+  {
+   "title": "Clarks Women's Tan Leather Lace Up Moccasin Boat Shoes Deck Shoes Size 7M",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237163279795?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY9Y3H7J47W2RNBP0YJ&hash=item37380875b3%3Ag%3AwfwAAeSwaYxq6002&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FN8fGCnlSTuE7pITrjFcYVSVxSxrVROHOHYW6xtUDDm%2BS2V%2FAwmDJRVaM2ksWulv1iYLxZfTXKx0xLf%2BuuaviR%2BDX6FOQ29kSPKJ0KnPIc%2FN82S3Wl9QnN9u3zS6xDunydlstmLvlXZUcknEqPNN%2BnBzHivIfbqkZbQqhcfxGd1gp6Rv29u6pLWCMfv3Il4Ld7zFqZ10ZLcGnrb%2F09QzRI9oM6djqR7OM0pUIjSb0l4JkmD8%2BMx5VXrKh4qp6tYEcCEyTpjCFd1IjxBK%2BLEQ5N%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237163279795"
+  },
+  {
+   "title": "Clarks Cloudsteppers Boat Shoes Womens 9 Tan Beige Good Herringbone Loafers",
+   "price": {
+    "raw": "$15.52",
+    "extracted": 15.52
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800865311487?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY9VPZVTRFTRDPC2M5X&hash=itemba774adaff%3Ag%3AfDgAAeSwwilp9W-r&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FhkThowVu0lGtuOvtf%2Fi%2Fn6Ta3slLKcjpYn7K861ol9bJ%2FLotIJDiG8qzdh1swWdxgsf4wJQD3%2F0%2FCDWpus95R2hGSmjekMuKREX6vbfuEBVUCcZ7aA5a6TOFtbXvSbam%2FWAGxthatKg33XFVlLN2sap5bmbhPnR7wBzU5PqwhpQTdrH3eOxhHtbNvqy4AmXHaxrYV6Z0BnDFEqBdDRqd7TVLGGo3%2FiTeQsEogPhZer6LLtRyerS2n7Q3q0fC1CL0CgygMUKvuwaK1irGX1zcKag5NP4fp3nIMEZtNyqkOM4iDfn6MOue8FBOCvr8HEp0%3D%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800865311487"
+  },
+  {
+   "title": "Clarks Women's Brown Leather Boat Shoes Size 8W Slip-On Moc Toe Flats",
+   "price": {
+    "raw": "$37.99",
+    "extracted": 37.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920089028538?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY91EB6HRH5DNRYDWSX&hash=itemd6399467ba%3Ag%3ALjQAAeSwSqFq5Rm%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BI04SptgURNpr0n32TeoVOoR93bhNMK0lLSfDUSwcogv1nx5da9TGumsk%2FuPEyc2LVpegvQA07m1XAGsmtkM8YZyKVkOLRMCZ7dbYnFbuFo1DwZAWQ4Q21eFKhVTr1tKk1IizCZp6iJpLZJIpT07Qj090%2FqEtWH6rn%2Bt0TbiwATDy0T7Gm5Aoc34jQ63C83x4p%2BQmPDQx0Cq3AWIvGaYmvp5Kkw3VOSM8CqkQ%2BSmarjP%2Fuhh7cP%2FHHvwVSQppb5m6l7GSw%2FJI1en4mbbR1jq%2BtR75PB0hSyVvVz3XxfhlE4ePaoR3AdRaA68pnJ6kVcCI%3D%7Ctkp%3ABFBMrr-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920089028538"
+  },
+  {
+   "title": "Clarks Dunbar Racer Loafer Women’s Size 8 Slip On Boat Shoe Tan Cognac Leather",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960146789887?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY993NRRY3T5QC0HYPV&hash=itemdf8d3555ff%3Ag%3ABRoAAeSwybVq6Sxg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9yRJHkY2yZuk5aAOH7zhtG3AJ84drnvPncKMeGwuAFe0mFWeKU%2Fxjd9inVuEKD8mLry5wla3bvJ%2FhXx63hI4D2FuC7h4NcgJtyK2jAiNEjrv%2BeljIv9nCrrB52aP19bedMqGSDA%2BdxCYzv0TzYn5hL0RMvNT6PFjaZwpja4dAQNU2Qu%2B2%2BRr3j62a%2F4GXNlltj%2FRea6dK%2BK2mrGQe1KADqiE5wwITZXk6XkT4Wf%2FzerWqhJn6r7Jtd%2FrWuV9YHdZEEHxSH49J8XtDJzTN1EznhiWQiAryk0AU350RAhAc5ag3noZ%2FatyGkU%2BOxbkqbaGM%3D%7Ctkp%3ABFBMrr-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960146789887"
+  },
+  {
+   "title": "Clarks Artisan Jocolin Vista Boat Shoes 10 Nautical Preppy Leather Blue Gray",
+   "price": {
+    "raw": "$29.95",
+    "extracted": 29.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377145731580?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVY94KT59E92XQRSVB41&hash=item57cfa329fc%3Ag%3Acw4AAeSwf5Np77xl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde80DXowF4kUhnkJb5T7HJfyJfgU5tmALhQ50WQJV38MlZYqm2Xtsp%2BcM5LQfn0DjNwaa%2F5iwjhXSns2WjKwJKJiNp1PypnT5Lo2UZCExt0V5riv3orlDWqyfMkDH5p4IRSu2TA55EUYasKoMsRlqEgJZbQ3zgr4JxXq60VPfRig%2F0GnGhHkfmltwOVOrg4f%2Fexc0MqWyP1TFzUV%2B1IKZ5Rhje5XypsQZUbpCiD7pThx3BS1EMmsRyfegLdMtGaVKlVAXOd8HTH2QBAeQPocUPRdAnDvK7N34WII1eb9pZyjEhwS6sxG3v6E8uBbp1rLyGM%3D%7Ctkp%3ABFBMrr-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377145731580"
+  },
+  {
+   "title": "Clarks Cloudsteppers Jocolin Vista Boat Shoes Beige Brown Perforated Women's 7",
+   "price": {
+    "raw": "$22.00",
+    "extracted": 22.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336714379394?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYA5C0P6HFGM8RT4FW7&hash=item4e65bdb082%3Ag%3AW24AAeSw75ZqaYRt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BzW0K9XVOAHlBd%2FeWnTiDCi8%2FB%2Fs2UqIdF039kSZlKTrgwHrA2DJBmmyR%2BZ%2Fll--ul46PiYoyRvk%2FkJPnsp5YH60QIXlJcdwIPrFIMb7p10SP%2FwF9mYEMan2ZroFCedGLjFWekIBa%2FS0SU%2BvI2MtSjve%2BKXY1i64hJXAXdwYVt2ewOgjFXQ%2FGXz%2F8vndXuFIiWQs6s5Sg0xG%2B84I3URTZaAwM88vMx%2FGAZDCAwQR8Q6LnS0NpIIz44VSeLNyQI2dKe72iu69w3abc80n6FIr8SNblAcshrhWcD1ZQvMSEbX%2BhVClc%2FQaOcTsjkqYwq7%2Bs%3D%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336714379394"
+  },
+  {
+   "title": "Clarks Suede Leather Loafers Boat Shoes Size 7",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298740414700?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYA7VPGXYAMM15MFSKW&hash=item458e50f8ec%3Ag%3A9qQAAeSw1MJqxklb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde97MupioGwSn8CiJ5%2FalZwc73Jo3Mvm4X2eT1zez0mZuz0edmrNXbbSXK8pEpnj%2Fn6yEMCt3PHEmdvZx7afbWC5%2B0pORlSeIvhvsJPf6Y29LRmFMd5b%2FzX7Nqk1yVazyzCCxarYGNpNs3fsbBYm09WHmojyyIkP3jYmDmPHorzTNdXP74fqTUOzrCPWH%2FLYQNLvyU%2BXFrJEuVdvR8dUk0czPC9RbdoKYzPXhOJMVLa3zjYqkbL%2BCnRj0jJOApfeFz%2FDoK%2FwnAPGeFbFzrWYQmt%2BM90gxGylyp8%2FB%2FZLHm7uLTW04q3%2BoD7sz3fEHkzEgrs%3D%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298740414700"
+  },
+  {
+   "title": "Clarks Arbor Opal Leather Boat Shoes Blue & Brown 8 M Women's US",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/286872142346?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYA6G8FH0QMA6J8Y4B0&hash=item42cae9820a%3Ag%3Aq7sAAeSwBZFo6qov&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8jchoQDmBYjly6Ah9heJj2hp1TNvI3NbCBgutOliTsAmy52xO%2BEaqqX6As2Lw%2BLSLqdWzzEKRNKAyeoRPt1B1Njetqz9HdN07CpRR4GXvWbWovncn4Up%2BhHc49ews3wt1TjPgT44zSDTwNs3DEFPJfAObZ%2B2gXfffo2kK50OJj69%2BCxmI9%2FFOi8AsEfCOAi3ChNSiecVGOif5ih7F6iNEAdFQgntyLEIYdCQLjLEqzvzxMdhgYYzBRIgWzAf4YeSNPaGN2hTim1bFyK0P22E66xptPqhGM80Ehi%2BqfVIHlICeGqClIvFR%2FIrh170mR7M4%3D%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "286872142346"
+  },
+  {
+   "title": "Clarks Artisan Women’s 6.5 W Loafer boat shoe neutral driving minimalist preppy",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880078943103?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYAWH6BZJ4VV5EW8GZR&hash=itemcce8caf37f%3Ag%3APOMAAeSw%7EFpq6enq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8drqEuea6jN--SNOTRNQXOsf513TbJUj1blKCkjhQUiKAJ995F%2BzH2nr4Wy9R4cXDLrnc7GIZYJ5fVPueQj6Ld3yuj9yA2Gd0Xb9Y52p3YzaUFDd3xRiYjZZW6tO451NEZYR%2BiklELluYNuc3B%2B7HAQx5KCTGJUVhn7U7H1rE1eBZTysDgBpvR3ZCh4H%2BXjioyW5qdEYz5pMPyE%2Bg3oUCbcHkS7iJoQTzcOR1Z%2FKeqL8XNvb3g6Y4Upc3hFLO9fRsTP45yumjvUC8KgIpvKfXS%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880078943103"
+  },
+  {
+   "title": "Clarks Arbor Opal Gray and Beige boat shoes 9 W",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406548998753?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYAC7ACA26C6VJE9NKA&hash=item5ea8356a61%3Ag%3Ae4AAAeSwp6NpV%7EBH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZbjKQSbshx%2FyU5It%2FAD5E4jxyqs%2BpHUZD%2Btwqxp6R4cvfORCQgS2lild0Z1Qmm%2FrCclvYahzogZE2oKUh5gtuSgI6uBWutzW0YF5nAT395OcjkNuq9%2FDlngHd3EdA5SJOtrFppVIh0hQtuS9SpKf3p0hdlzcAFH%2BMcGoy45ULIyCFIWJ1MHSgT%2BoUmfHInoGHKpQcroZYlrGek3IZMKdtD1n%2B748pp4BRk1v5M1bCxnT3uBHZ7bx3uUrCRa3tccV12Ja7Ydo5Zoy1THXplckFSDQ%2Bcmu3Vo853dSpCiqnO2A2SAci8ViWUC8PovtzuAA%3D%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406548998753"
+  },
+  {
+   "title": "Clarks Women's Dunbar Racer Loafer Size 6.5 Slip On Boat Shoe Tan Cognac Leather",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127916537410?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYAES3GPZZBHYXDQ8QB&hash=item1dc86b7642%3Ag%3AaCoAAeSwCPVqKurm&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9hcsPJdl2uYvaG4gMTaa5BMcKTTsq0YrHqrNHzaRFBL9kgVMegJOOEUU7boCbECAGz563C4G8AdvZxPZ6mU4Z5xw2%2F108kzj5OoaBBv0e1lURsAFfCuDpwBMml32CLBcfhhyZrEOh7L6HqMje29UwhW%2FJouw2tMaWbRZ76uvJEhhf9FXxa03rlmwWi5e5X8KSPISLtw7HkEozWd9r%2FmPlxso0iBvMfc5zG--U580f9nwLXJjSroEHjs8SEC8eWljp2GDJWthHnRFhg9IbcjWw4%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127916537410"
+  },
+  {
+   "title": "Clarks Womens Size 7 Tan Suede Boat Shoes Comfort Casual Lightweight Lace Up",
+   "price": {
+    "raw": "$26.24",
+    "extracted": 26.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336851290524?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYAVT8R0G8GZTHNY25R&hash=item4e6de6c99c%3Ag%3AcocAAeSwJy5qC8Hl&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BSs7CjBuJKCFweGab1a3LwrSTYUsVuueHVbyN0co9YTuBjC1DhRSqrcSP7RN9zVNE983eFklpP133%2BJiKEXfYnSsf2fiSX6qmli41Wu9O%2BGqFZG%2F2kn0IzVX05oB3i3mNKsppDPSz30LjUiYrNnYSANMlgReVVDRqkpyQfea7D%2Fuujh1Neha3Sx6LI206OpL13wp2GpuCYhG%2B2KWGni9DC7nQrULCBnkBNmkuHhw9a4N37DrNRzIjswzoA%2BYkKxGL%2BVrjcR%2FoLkAMdMEImOyeI%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336851290524"
+  },
+  {
+   "title": "CLARKS Women’s 6.5 Arbor Opal Tan Lace Up Boat Shoes Lightweight EUC",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298742014514?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYB59P913RT2D8R89KJ&hash=item458e696232%3Ag%3A9LgAAeSwNjNnzg8U&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8UXx%2FKyB5TAcJryyyL7D09NPRtHeD0c0MTrfl311z%2FZ4jpBu8xnnqOxX8R%2FIt4RExs3quL2kFwSflnIlaWhgXCsEwt2iKBlNBIGEOrfkgKgDaoCccTd7TveMU2FSgr%2B1eIKmGQq3JaU%2FxWJkyOwNacOlhnYtQDDAUXm7eghie6jD6s5HWj3tRW%2BimRp%2BT1MdHOB8ecFe%2FpkhYIfBEL5uqsLfXXPWvUneSh3mSIYG%2FKtGZRMmUcUgDDpqZYScWlH8fxBD6CROtZDhWUkdBoLIE1%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298742014514"
+  },
+  {
+   "title": "Clarks Arbor Opal Leather Boat Shoes Gray & Cream 7.5 M Women's US",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/365768052244?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYBAN0KQSQX1CWJDAN1&hash=item5529798e14%3Ag%3Ay-QAAeSwk8poime6&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BPLcrglNOLOANUIvA6z6MAqX2W9Dk3Z3H1YmqmkaSLl3VJG8xr2VqcsVjxE9ES46abyLAr53iZSMNuPhuOIE98lrKbOflApYRa1FT7au%2BQv4aN9WvKH%2F4I7kqCZgZNpyGazbMDQ%2B%2BEZKyJbwfhWAyrxfOfmHUxc7Lz9T5cy%2FrOxePyo3yl%2BLrMCOX%2Bpq0jfXR1uN2Yv6cBqs5WToZv5sUNNMsIJhtC5EB%2Fr3Clq46KMfhTmC6HzFSrE9Ymewk4nQk6dZWM%2B0PS9jUHyJvLsDBq%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "365768052244"
+  },
+  {
+   "title": "Clarks Artisan Coral & Tan Genuine Leather Boat Shoes, Slip-ons Size 9",
+   "price": {
+    "raw": "$27.48",
+    "extracted": 27.48
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336563360261?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYBWEF0VJ4M4C462N8G&hash=item4e5cbd5205%3Ag%3A6ZIAAeSwSQRp9SfW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9d53zUKPwf7Y0A4I1p%2FYww2qIbAiSHva9pS1PMS1rBBApKJKgnPdIt3nbZwxI9EPvccCsiZtBliUx%2Bk8VPR7LRjfGvsHjR8uuNM5GyPejWWzknrLVtzbTIPaT5KLSzVkHb1Xzst9YzTrf311EUKeKlzEk59KKYB6heVHTFcDpvUwLik1ptXOXuuJJxQXUlJRnQC%2B9bJCWoW17vwc%2FyV5Sr3QXumRpF9eswqEVWSSPMl9MptMEC0N97dxjGpKHcZKPtKhfg9M4pRmxBDSMSTJexrZy3FJDMiKl0Cr4qA9YSPxIdFwClhqMpSJwcUHC46gs%3D%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336563360261"
+  },
+  {
+   "title": "CLARKS Arbor Opal Women White Brown Gold Suede Leather Lace Up Boat Shoes Sz 6",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307247517765?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYBXP8PQ9DZMQYNPQ28&hash=item4789611045%3Ag%3A5qYAAeSwrNRqnzDi&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8sjQAJ3n2lV%2FLmNRPDLKPT2ViY0%2BdIHfdbvsJOGqLtGUOez9IasDb%2FQnhXh04tV5PSPl2abudRYI3J1gaXJrtVrvBSwgAafub5LP0t%2BsObJPmpyqXMPbQvNtuk03gD4ReC31kZV43OBiyHTHAEp2l2tmfw016YzF2wuVOL9Db8pbxVpICwjZVVUuGQO2S3Xg7PND9R18CktAfQ3YB710z29oKDrrSsCyDx1HXLSsIlKNzEtVWLssTxGCD6hdANoVxlyqJ2alW656wfS5NwgCRI%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307247517765"
+  },
+  {
+   "title": "Clarks Collection Women's 7.5 M Tan Perforated Leather Boat Shoes Loafers",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366665164205?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYBC7ZQE34K7AYNJ812&hash=item555ef265ad%3Ag%3A9T8AAeSwwlhqpbpR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FDIWyR9IeBZarBDXwOF1iyetwOaEME%2FODiRRqImk7VK35umjHNgEIshuUxczK5qXjRlVivaiv7MKh1t%2BiVeE84baYQuIe%2FKNfxShgQvtZ5w3Hdmq9%2BV9rxI%2BJW4tSpU1tbSbDZ4M2rPIMqRro0Q0a%2FWezB2EDBKqLs4UJBvvfkvq4sBEhrLx2Z59YlPb9Pp3%2B7LCpx9RFPJ6JVjlUjucCEWS%2F2IPBiCiLCpxZmvkGsdpIenVTnlcPxsaa0jawBwO1wtQ%2FvpHf6%2BI77agN%2BU%2BJX%2BetoIt1H%2FZJia85cW8ChsvjSk5wehsJEJIeIeD83eEg%3D%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366665164205"
+  },
+  {
+   "title": "Clarks Artisan Women 7 Grey Tan Leather Perforated Boat Shoes Loafers 26115383",
+   "price": {
+    "raw": "$21.99",
+    "extracted": 21.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327259949563?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYBF45WTHWFGH6Z2G35&hash=item4c323689fb%3Ag%3AmhoAAeSwJM5qVWwd&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FGre40PafJ4AId0HtlJ%2BXi6Ai5ztXkgK%2B03nV6bXO97%2FERXNZFVnI4s4fWF7LBw5f0dQ94MaXmuF5FLXmsE7GtAT74TSP53kqe0dtcSp250v0BVbNcz85FJ37BkSYG8FQUVQ76VFGlJVRHIi6OfA1DD%2BYVuaP6TUyaSIyX79igsCGD0bn1lEo2jp7mQnq2D7SvusaMm2xZrt1bx8Pn3tOkM9qPR%2FuhJ%2B3VdfsnLNAH%2FKQDDKV7FtTf5vPa%2FbhbpH63RWWwNO2naq1ddCBLspweFqQ5%2B0rdqadvaq75YAeEdvgDRa7%2BWXO%2BQLrWbB2Rom8%3D%7Ctkp%3ABFBMrr-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327259949563"
+  },
+  {
+   "title": "Clarks Shoes Women's 5.5 M Jocolin Vista Boat Shoes Suede Leather Blue",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840042402293?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYBBFM2XCST4BBP283Y&hash=itemc3966dd1f5%3Ag%3A3oEAAeSw6fNq17i6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde84x09sNZc%2B3jvJY7swmCVJHP7q9pqptxs%2FHLj9uaQUR0VybYx%2B7yL62uPDg%2FV794gsKyQsVT73RE8zYJ9uvZ09YHcvn65fqTcOV0gMISTGKWs%2B6La1qOAHjj0sP7qaFdZUZkmHHAGZJSqmCbxORq%2BCsk267%2B%2BxHPPmBVRLqnqMfMRTTBeQ5IPIVwd3NIfCyQdny3nY1xnVdvSMcV8QSmXal%2BjZ5E5fAPakqAoFzbJxEFa9NmJpKV2DcMqwlbWZ9zGnJkQQ%2FEKf6IR6D1Qad7F91qXff5Ha9L6TC%2F%2BccimTYPCskPIy%2BUU1Kg1jL7%2FGKw4%3D%7Ctkp%3ABFBMrr-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840042402293"
+  },
+  {
+   "title": "Clarks Envianna Fig4 Shoes Women's Coral Leather Flat Confort Loafers",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358307575393?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYBF6SCG4Q3YZS7MEEN&hash=item536ccbb661%3Ag%3Aj8wAAeSwUappr2Ux&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BVZLnYIlvyjb9TH%2FK95eGnFqL2pqv91EZ98UxlzX8UJ2IGlKBLcFWx45ORH58TDxfO0P8N%2FPt2rs%2Bqw0e8lu%2FBV3CdnDRqLDL7v7svzzPIZlXo0f%2BT9Fen2tn6gEyIP0vlSSajTmRtf6yQwd5t9UG4XKQYOh8J8g4YRqZic5HogbfkwVp9dsiW%2BqVFKZMfl6P8wACbZwx5ni0iZiKu812oi1XhO%2Ft6tpC7ldkJM0pFOnwqvI%2FjPM9lVKooyCf2cpq%2F89umY7p%2BtXE6%2B4LyMavDS2ysuwQOl%2F5tGqZHYPzSv7dMN0S68G8%2F6gt2zk1ZsWk%3D%7Ctkp%3ABFBMrr-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358307575393"
+  },
+  {
+   "title": "Womens 8M Shoes Clarks Delana Amber Navy Leather THE BEST AND SOFTEST SHOES EVER",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/389757807977?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYCZ7Y0SEYQHR17KH2F&hash=item5abf602d69%3Ag%3Ab8QAAeSwnCdpuEVu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9EHV0tcZEVvmipiPVFVvRvnPTTg3SH%2BWPBuLmtDFTA%2BB%2FtF7%2F92v9scZLxJMQEcdVysEHwAR5Q47aG0wXkyxcWP4bp8g2sV180QMwVvQuNRb3s%2Be5NG4UeezKXtez40UTN63P7toWDks8GtAy8rAydqiNoFdc6ZJj%2BXB9rhDIkq9lOz78XnZqwl0wouEqk6Sjj4b7wnYl7fYuGsVkoIy0vE83ATdaA4S3JLdsj7xa0HI5p4hpkSBAyrN74mHwJGtmvkHaozx4Fu%2BgDX18RgNjT0XLVMT1dgpLysSIoWbaNgeh0e9KHlwwUic1y6Y%2Fe%2FQA%3D%7Ctkp%3ABFBMrr-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "389757807977"
+  },
+  {
+   "title": "Clarks Artisan Womens Boat Shoes Flats Size 6 M Brown Leather Comfort Casual",
+   "price": {
+    "raw": "$19.43",
+    "extracted": 19.43
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/167580841868?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYCJ1W3K1HAGN82XVZV&hash=item270498b78c%3Ag%3ApTsAAeSwK0ZoSf1R&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BrSJeavM4GJb%2FtLORjDy5%2B0XyAh9yDy%2FivV9MI1xXwOjVZW1k%2Bnnua1C%2FfcKCB1RTCof4QwAGMlpNOsylWtwkA5GcPR8IzEfq%2BgU7I9xbp3oZ23IStdUwspta9qc2G01VYqTXbkaMJZpehXVVv1JjNeHy1I5hPwY04VDSPwtiYQyfKEUlxfE1Y4nkne0JsiwdSebGeSkrjw8jgTdlcf4ifWN2FjRgQISG0PsSJ19lyDdOWQsRpH4GcK2oLoZflWrK75RF%2Bt9GyNVDkCifYPbxl%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "167580841868"
+  },
+  {
+   "title": "Clarks Women's Size 10M Boat Shoes, Gray & Cream Leather",
+   "price": {
+    "raw": "$17.99",
+    "extracted": 17.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/297805985924?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYCGBKXA8KQZWTJY59W&hash=item45569eb884%3Ag%3AnwgAAeSwFo1pLCgf&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BjqMH1yZeJIlPEDW1zH6Odb20o2FLP95TpvVvTigV2EFYb1A92A%2FO4CWlwVj2%2BNMlb2LLg2fbB1FIeb6ax7PWcbW3SDF0QuNXBCnGAx%2BU%2Bakd7%2FBOm4we96Uf%2BC2NfoQuXXC0cQl0oIZJ00ZKjnhCz4qAej9Y81OrkDhHFn%2Fu3WyXH35TpgMIOIM4M4mqZP06hlivMZ5ctbb8KRH5txWHzTe1HkoUK15VZ7SzDuGlG46BlPtQCB7sz9Au14PVbNcJjtARoYrpaU%2FOQhOf0k3RK%7Ctkp%3ABk9SR66_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "297805985924"
+  },
+  {
+   "title": "Clarks Women's Brown Leather Boat Shoe Loafers Sz 9M Moc Toe Slip On Shoes",
+   "price": {
+    "raw": "$16.00",
+    "extracted": 16.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/223670775683?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYC04EKS8NSQAKJQJ1H&hash=item3413d12f83%3Ag%3Ary0AAOSwm29dgnNY&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BR3nS8rIJLY%2FTIucBnvN0MJQhovtS73e9GVotw7ATZ6EXz6cVjyiAw3BHsGjrGGVT4o6EHoWzV5YfqCwX81s4jlYnLP2f9ueRsguuQZMmB0bQ2aD5FJ4gNBOaGmkZC37rp%2B2oFJt3kfLvlgV58AM5KQWxp2qV4o8Su3SH5JCntJ0uLcFVVdKmHQjUEYe%2Bfg9Z91UBNsEIQnwYDLJZUmn3DUXPaBGHLaeuGfatfX348N99DLWZCr1NqbangsMERpdfc3HfB9u6D5k0eJzz%2F0EfU%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "223670775683"
+  },
+  {
+   "title": "Clarks Cloudsteppers Boat Loafer Shoes Cushion Comfort Navy Brown Womens Size 11",
+   "price": {
+    "raw": "$29.50",
+    "extracted": 29.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/167723961599?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYC2MZ2CF75H165R2XV&hash=item270d208cff%3Ag%3A0ZUAAeSwdjJookS9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BRaMyprC2Gz1txbojuEmX0mddJVTluzXzcMfyt8Qtp3BBtI9zKONqRzlmJ3hoHPDRYovq%2Bxo%2BBTdceqxJMsoAN8UMbmIJchMKssBh8wCgA7F0GiX69n20NeL2DvVqeGpwqKzHJu5X%2BCamQwXWFNjqKmfmVg5%2BAlhiLSeKy08uYheMEa4q5%2B2PHpHMGneRi5zln0%2B3inHng0U01UeNMWhFwtX2Slq0bBfJ1xp9tMEVcbEECqVwL192IMWcmwTqR6mXcMhlccrsZFNQkWzMGSbsp%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "167723961599"
+  },
+  {
+   "title": "Clarks Padmora Women Leather Brown Crepe Sole Walking Desert Size 8 M",
+   "price": {
+    "raw": "$25.99",
+    "extracted": 25.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/313832401684?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYCFFH212MCVMWRC25A&hash=item4911de6b14%3Ag%3AxbcAAOSwAmJh4C11&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9iHNK6WiHj1Q3u1%2FNJMUtRj5NYSQHqxwmke%2BWsGFh95R%2BnTJohourJHHbqNDjFt9YFiDARNj2Q2sJ4w90Qg%2BHam%2Bcl0n1Jprw1SHKZj5T%2Ba7LJECbxjOItU67lWik1dPFnUJtajazQK7yb6ifTxcqPxK8OlIgZmonPwcyUEDApL2pigQpbsbLRPC9Damk6EObaMMiAP7qKr0sw%2FMHH726tds%2F8Eai%2Bo7MDiCxONjXGu2yCnDWNHFl1--XBNjjttGQCBJ8SsQogMLppoxVRiOeQ%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "313832401684"
+  },
+  {
+   "title": "Clarks Originals Wallabees Shoes Women's Size 6.5 D Beeswax Leather Comfort",
+   "price": {
+    "raw": "$52.50",
+    "extracted": 52.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860112535995?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYC6Y5QBJT5HQFJR2C8&hash=itemc842b3c1bb%3Ag%3A2FcAAeSwU7xqUXiA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fd33QbrkCxhDh9%2BidiY99961I%2FkIPRWE6Jxn%2B8nyJ8KskZqXjyC4ZG3syCMWJfST4LLSuZEPFpqMTcbn58opTIAstmjXYthN7G4fWjLGkuUPjtFzs8%2BNlbKTK0cKA0hZsd2pp%2BRA9cwvzqfG%2Bs6f7ziBFQP1dJvt59a04Rvqk4R41pKDR8BCbIQDrdqAHves5a%2Fodia8jZ6oW2NwalD%2F9eV4OL4J%2BQ3LX%2FfBs4h9c2DlE2PnS52VNMVAYiQPdwyFpIZtU%2Bp8jyvrd5pI36yJo--oG1wU--nbf9hunn22H9OFZuPyydaSbKQMtPJrFNSWg%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860112535995"
+  },
+  {
+   "title": "Clarks Collection Women's Beige Leather Slip On Loafers Block Heel Comfort Shoes",
+   "price": {
+    "raw": "$29.24",
+    "extracted": 29.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158248637207?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYCH97ZNKTD2WAN2AE6&hash=item24d85a9317%3Ag%3Agw0AAeSwwflqHe1L&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FySc5fpOGukVEatgkbpmIl4wov2dN12PcPxJApkrap1a7%2BPJLqMFhgnGeQLw2sca7wReKttOwwPe9Afw1zKKvLBwLHsJMhexifcd%2BYGRYiaXDWSazQ9bR00pQiEsvRuTuPLOnzYCq7%2F4pzS%2FYGK88JoySqsMehr6xzj2cYbolIBKJdv9HiMTn5XqcTFhFt%2F189qve9U6%2FLN5df38ifxm0hpF21hGW3FuiU6At1Q%2F0CXR4vXts9%2F2P4ToqBd64avRKE1AqxhFJJLC6qw7VvwpTteZS9XjZHn8apE9H0wKmx8Cce726Em1o0%2BYQQYfAiVIQ%3D%7Ctkp%3ABFBMsL-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158248637207"
+  },
+  {
+   "title": "Clarks Collection Teal Suede Boat Shoes Brown Leather Trim 7M 26100156",
+   "price": {
+    "raw": "$29.92",
+    "extracted": 29.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178469025236?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYDMHMZM2SM3EE97N23&hash=item298d9535d4%3Ag%3A8EoAAeSwdP5phCFG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8meDhLI0d33HXCxowk4Cnjog%2FaCV6iryCTmgEeVJCw97yGSH0ZEHIs2KN%2F9%2BMZS3%2Bnd62CPEuoX6ME4Ndou7Wv78ckCa2oHkr0ribjTB4G3Q4m%2B0vLsEA7h3T9Mj71wtfOw3yrqp2oVt8n%2FH5EL0REGygf%2Bey9%2BpEAXhELuZ5FV2BgshTnfwOIRN2gO0RVxWfTZ2so5hF9OqMiRMC3NjrmszS03LKrJSIfcbtAtMwAgmIYmjPLbeKkeyLYh4IjaKrTHJpJkPZ%2FRW2oOktBkZ5UUHnp0rW78VjBeWkaZenz%2B4ukLyb8QQ0z9pGs3wnVouU%3D%7Ctkp%3ABFBMsL-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178469025236"
+  },
+  {
+   "title": "Clarks Artisan Boat Shoes Womens 9M Flats Slip On Beige Leather Moc Almond Toe",
+   "price": {
+    "raw": "$25.63",
+    "extracted": 25.63
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/225870561584?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYDRR3CS15GHYVX4AK0&hash=item3496ef4130%3Ag%3AQvMAAOSw3-dkC6q4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FqWMzNx0tpQ0cUqtcn37XGICZEHa7xEa4wUUcTBNAJtcUX7JevLfLAvbtQGozd9linAnRTV5LS1vZr5%2F6Dureer7vUofxkfgGLdjnuzr9cyp6DK9Ne2HOJmwgYvRUbVkPmn%2BktJmO6ML6ipGzzy3LzKoXSUTS0tPU0Q%2F3ZX6hKsEF87BxfMtcg5Vrwgn5BfV7esodf4tWc30RUQUogLiV0VPzLx0iNtRoskhTryX55eA%2BxeXdhTbYz0iW1ILI2ADOZHW1LCoy665YSxL8LaQx%2BwPJ09yuNiplw%2FW9NFUJorvlpZoHuyqjPYiaerHd8yJk%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "225870561584"
+  },
+  {
+   "title": "Clarks Artisan Womens Boat Deck Shoes Sz 7.5 M",
+   "price": {
+    "raw": "$27.99",
+    "extracted": 27.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/222912211144?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYD430FY610T3SRT6XT&hash=item33e69a68c8%3Ag%3Ahl8AAOSw90xaw3uF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Hf1liQn3WiexkQ9qiCSNAtdXSNxzarWXGFkpcouA%2BAz7YGqVfXmdA%2FhEYeUPYZq4%2BHYd8WkCQxSNIsjRbB80%2FAh2tsfSN5k6%2BEwk1M2%2FxARePtuMyThYsJapcsW%2BqaarL6%2FmVIcda%2ByF3UIRE8ZA6rJAU09LBwFdo7GjDQaYdsOhiKsYvLWY8Q%2FHQnudzuKL4B7%2FqePSWHzj2jp7JTIQbkdCJoxjeHn9WHTzqnfW6riYN39Xw7jjZDV4xcbz8ZwS0CK%2F1wCnedS55ZYWeaBOm1YDPwalLUo2dMuEvidQ92BHfQJzWIXjawxzrOoMr6OY%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "222912211144"
+  },
+  {
+   "title": "Indigo 8 8M flats comfort shoes leather loafers boats tan brown moc toe clarks",
+   "price": {
+    "raw": "$20.23",
+    "extracted": 20.23
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/183797761618?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYDFAYRW93K1W3FZQ1G&hash=item2acb334652%3Ag%3ADaQAAOSwZDVczIyN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BTjEj9wt8cn0PMvMRwOLpbntnFnVO5slFuK%2B%2Bjgi8xMkdRXnOH4onZJbBsb%2FZtLEHRa03F827agyv7SJY2O5YhuF%2B6WvbYdzv7QvefZlFyNSo8io9RdswPJTRa7zYOLhwO9awz74riPDK9xseHtrKmlJU9InznAPuvKwDnY9ee4qCPmgu4kc96DUGnoDuHs0PyeaSVJWmajDs5do2QUYjtjEMj6feHAFPn9bGh1gvxZqBh87fx9wkdwxHogf4Ejr%2Bk4WriZY4zIx8WOHSthQwYYYb%2BLd4VA82qmnitSL%2FfOnhc4B64coGCxNSWYatcDWg%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "183797761618"
+  },
+  {
+   "title": "CLARKS brown leather suede sneaker shoes slip on 10 M boat flat comfort loafer",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/163654206016?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYDS486VDG8H29ESK3F&hash=item261a8d0240%3Ag%3AwyYAAOSwefZct3iI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ABK%2B%2BalbRvzKND%2BLsmQpw4eaZr93RAyvbwVZbKWJh%2F8l1NuLCXZOa9qR7IfJYxjVqAfQyFY21Z5uuogeY5gDws8z0FKAsIu9MTFIe3gOjasd7HGeDFsv%2FPZipNnXDEskIPQ72EZv4q0D6wGm5CckFhRAdqtJd9DhzuYyIAgSqfIyD4LhWDj373t7BApvKnND7XxK00G%2FVWEW6ZOTM9uDPK50oJQvvqCM04E2WK5OICd16Xz0bOwUEPJHYmYKkWn0T3Ti43zMDEtD4iz9p%2FXgFtZXl3nO1vZcOi%2FOMzgvE9xZ24%2B6gUPvXgbnrdEAflxY%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "163654206016"
+  },
+  {
+   "title": "Clark Shoes Clarks Artisan Brown Leather Upper 6M flats w/ Single Strap",
+   "price": {
+    "raw": "$16.00",
+    "extracted": 16.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/396531347907?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYD4178YZPQYKXESVE2&hash=item5c531c31c3%3Ag%3AHSIAAOSwr2JmnQf8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FVIjEPD54Su2bJKvPaQkYZpyxxqGLuuLkTtR%2FpM%2FBYHm1cNefmF1rsMwZ6CjD%2FqVdaC7YRqyBHrHAadUqaMvId1zUm8kOxf6OkljdA8LbC%2FZHlrqvKQij1ynroCF3P283zt8Ubfvs3zURdMiWvzA7nidU9srzuPnHLtV8xCvitq60jXRT9AU5Y%2FJsiHgb1NTTMSxKha%2F0aj1DAsWTA5RKuvLIgP8CjjRqayOY4cnHV8EhEcTz8VgdTYdQGs6kNM8g4ujlHeWE%2BZJXu7RyWHNIr%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "396531347907"
+  },
+  {
+   "title": "Comfort PRIVO by CLARKS Light Beige Black LOGO Women Size 9 M Round Toe Flats",
+   "price": {
+    "raw": "$22.00",
+    "extracted": 22.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377432963645?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYD4RRZYMA5QJV8KVNH&hash=item57e0c1fa3d%3Ag%3AWLIAAeSwWIxqhhnT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BxpJgVntWrRM077sAXW0dJcufErpjPH8OO2JTm6vYXyiUTETA6%2B0I9XrfjkMdwk2XA9OJUpMOROG8AxeUdKD1NxB%2BEQSDE6qeDJgXbfcwpXNZc59WOs681a3to7cCOGGQL6HiK0fe0nYpXGriP%2BNdYEdptlbrd0%2FHg3%2BpBhtysvLf82tQBVnyQsbJB1WLX175XAMzjXsHNggxSMQQlcyNN29%2BXTbq6nPEuG1x31O3hz87dveUQh9xrVbl7Sx%2BhgjQgj3zuKF2I2At3wqfnpWyv77EnDB%2BWx8iw2XlTHWmjFR%2FzJ%2Fok7WauqfQceu5f8ko%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377432963645"
+  },
+  {
+   "title": "Clarks Women's Shoes Size 6 Moccasins Flats Slip On Brown Leather Stitched",
+   "price": {
+    "raw": "$24.50",
+    "extracted": 24.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/225954039916?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYD0BDC063NKQBF1FG4&hash=item349be9086c%3Ag%3AHHMAAOSwt4lkB8dJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8F4G6zNmKOUHvr4vSm1CbpB6TJz2AKYT%2FIJPX7mWGGI0LHa1dXEGykmno4FI%2BLe6GAFgd7CtNtrm6QUnqpLiwu1sa5FA2Ev%2B0lzJMVFs%2F1geod1RbxEjKhaYntxwZfKfVWH0dYHEP6Up6s7K--ReB2gGMiHtGE3ASR%2FCnXCuoR%2B0h0Bi8J6uPU8Wnq60a%2Byuo95vtS2ByRxRP8J68mhH9FAxc8EIitjDqMFNWlmgcVyXkki61Kz7fQimKtLpmIi7ikn%2FimF20afWxgbaNd5rSAqBhHlAdXQpnTsm%2F3fLa3RS8OP1V0D6X5QT%2BLa4MavW8%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "225954039916"
+  },
+  {
+   "title": "Clarks Brown Leather Slip-On Comfort Shoes Womens Size 10",
+   "price": {
+    "raw": "$32.00",
+    "extracted": 32.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287564012666?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYE71959MDMAN6NXAM7&hash=item42f4269c7a%3Ag%3ASZgAAeSwWg9qmhjG&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BQL1pJBAvwcTM8aTo3B%2FwzNwsNBcYLueOjmqP0xxJILC%2FFBFOKNzNyS94%2FINZaD2XU0p8iw3V%2FKgPSdS2v4Cu8GYplidxVSACTg9DQfHCOh7QfkGGQTEzbG70EVqS5Vyxfg%2B8sGpJKZHzHit0w3ix%2BsH1e1OFEUVWZtsQvbEMxnRCZrQ86fa5dwqRV10xKs0wO%2FzEMBpa1nPm%2Bund0myDT92WlDkXZqRyOt3Va3kIX7S6YdgKdJfwKu72bJEyzXdkgbzMUijGJI8JlnKpXyY3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287564012666"
+  },
+  {
+   "title": "Clarks Flats Gracelin Maze Comfort Collection Tan Silver Suede Womens 9.5",
+   "price": {
+    "raw": "$16.00",
+    "extracted": 16.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880026337132?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYE2YFHG6VSWQ1VFHND&hash=itemcce5a83f6c%3Ag%3AHl4AAeSwNhNozCgU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9LPO4eJ4Dj1jyROSf%2Fsdx7kx6UbXuwvDkLRPp9T%2FMTdA3cJxGuHUL6Mjke6gpweBPoakyqprAVTlACz7Dtkr%2BVUqwK7gyyP%2BXdB7e5Q2066%2B80pfcXv2QFu8TuneduJpZYCIVzBjDI8Db8m0WJQc4EHY1GpSBAu8Pc%2Bo1nP8e0uAaLf7C0UNvuq0QiW%2BZd5JIuJVOyCQApBBHgfTerzmC4wKLZAu1g59TguBj%2FfZyec%2B6D0YVeQsdNikVkXwVkgtDEFDbOiZs7OyclKbceEvSi%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880026337132"
+  },
+  {
+   "title": "Clarks Jocolin Vista Boat Shoe Pink Tan Perforated Textile Womens",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298409127340?_skw=Clarks+beige+leather+boat+shoes+women&epid=15027050498&itmmeta=01M6T8BVYEK43H99HHSQFSA2T6&hash=item457a91edac%3Ag%3A2vwAAeSw35RqLABn&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BBkwgqMUVqW4dyczsC4qtU0xWMQUjGRcCaD9BAT21LnIvXjsQb0HOWWb1h9fvMEGqUOzLubRIfMM4MKvFCD34Vz9C3D%2FlxSHzsOCI4NkQEThCX2oPaBIKAb6Vx1aReC2s7nlm8uTFZrxIHkUs5NsxpAfFVP2FZOQtEDNdO%2FSSukCpLiEB8owoxTmvLr2LM%2BJ%2BEOHZwthXzODpGBhZk%2BD3JYJdXig6VjlUhFdQEHUdfSpJoEbVDbaNgFeB%2BT95P3nWLY5Zrk%2FwFj5bTbCMzq3jY%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298409127340"
+  },
+  {
+   "title": "Clarks Collection Soft Cushion Womens Size 6M Tan Slip On Strappy Comfort Shoes",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327117959388?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYENDZDAGE573S8BVMZ&hash=item4c29bff0dc%3Ag%3AOCMAAOSwlq9du3YM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FntT3gTaRDXfDCD8b90AIYGZIiUpNvbjfLH6P9QuAl2sWMnX5QzjMjI1sVGLL12JNnrFWlg2oGLtuQ8yMu2lfLEjKinUOJOOfyWtqnOTutVc8QvwKXCfJE8uVPsNEaL3uuV3yET94cvWam7l1bFJQCF3fQFC2bPyODXUUrtW3kyXC%2Ffj7Kw08xH5Dahk7--58TtgVdDkLKUvVO30ysjOPwohL7FrW5bGZNQ9g9nrMeF1euATaCyw91WaIOKKpnbVnJR7JQ55S75tee5F%2Fk82qvmNTcE9OfjeSU%2FGKBP88cjxTG8Q8VuhUtzP34TZzNovk%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327117959388"
+  },
+  {
+   "title": "Clarks Collection Women’s Size 7.5 Blush Beige Leather Cap Toe Flats Comfort",
+   "price": {
+    "raw": "$49.95",
+    "extracted": 49.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/157311503596?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYE0VSHNNZQK8V055RM&hash=item24a07f0cec%3Ag%3ArlYAAeSwMPNoykbB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FWofk9QZdKVNjiW7NIesBcifPleBQh%2FtzPPwfoac662S4lfkAe4RBICd6%2F4z4CObiiMEmYkvskNodEbyee2uA9IPFhS2IfoKrDUQpquEq3LSTwbTGbSzRTlyN1y%2BVmoCuUy9ZJxqHhi2UVAVVMZopha5ZPxh2j%2FL8F0Dk%2B1ysQ9fRygs3ZYxAmB%2ByoaQR4w9HXe14W8%2Fr0S4bSNai%2BgVvs7K1ohKHnlc2dg1oHL870bfQqo0k8zkyCg9v05N84Y8qzIKAHdc8pZre9N8ReIpGw%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "157311503596"
+  },
+  {
+   "title": "Clarks Boat Shoe Moccasins Brown Bronze Slip On Leather Upper Womens 7M",
+   "price": {
+    "raw": "$24.95",
+    "extracted": 24.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/153517238482?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYESQF042QJ51Z8RT9E&hash=item23be5728d2%3Ag%3A4o4AAOSwEEVc-c3f&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F264JFNfW%2FDgQ2FTcCpv99NtbzQcmrLsDKZm%2BeSh2uuQMx7CN4vb40UlOz8%2BUEkZjOgP7cC9QUsQp2zbfOr%2FVGb%2BqSJeabPk%2BJukcFOPA8LkdISS6NbjNQjk0TpLrXqHZr%2BFR3bbtQURbrdsq6xEnFgti2Gq6v7Avm%2Bk0HR7OI8v%2F9tU02dDQOdC7Wnwf0RS4QnIgWJfRb2PnmQeupQ2mUW4uWJkq4btkdk8azUz5Sga6%2B8pAhYGvsOnNebD%2FSA2zvOfm8lHNG9vv0fksM2tyDjaW2%2FkR2H4JhwXAJMBS08ZSmYmstWDDtE%2FnYv4LPxBA%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "153517238482"
+  },
+  {
+   "title": "Clarks Bendables Ashland Lane Q Brown Leather Slip On Shoes Loafers Flats 11N",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/192890771831?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYEG61NT89MREWKN6KQ&hash=item2ce92f9977%3Ag%3A9UUAAOSwAO1anA%7Eq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8433ymKXIk3hA%2BcJrJCmMlVM8GfKdWYEz9A9bixGSFjK9mKMLe1wvWRW%2B6mCzu9%2BagW1%2FJa7P17yqbA3cWqjs%2FEb7fIXiKzfwbP9hUJa24E5BkkA6HDcnfsMWWAyDGRrTmeRCTLVC1IjAcV%2BnKEmmBtEUVMZrSMo5%2FROaGjKTDC63h2l7vhV1KxL20dKBNPIVhydcPvSFVJ9zsZPJfQQN0cn4rPpHnu3S0gCXM%2FlekJeTNLKBI0d%2B3nbPuhn5rsIuzOvwyQ7bOb0dCBsgn8xFHfNHUxsRNWqFrEpWkzMexNAYBuMChcsVFgbaiWw%2Fgd8w%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "192890771831"
+  },
+  {
+   "title": "Clarks Women's Dunbar Racer Loafer Size 8 Slip On Boat Shoe Tan Cognac Leather",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/225670473264?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYFHQS2J81B7MJKMQ41&hash=item348b022630%3Ag%3A66MAAOSwjy5ksK5x&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9tvCLPyycP%2FERuRxdxHCNRfx4aUIlLcrS6lTWWhreV4xaJT3qw5PrVPJwrJB3rqqAwPke61yDge1u5zJ0apjaGghlYLEif4If526s5JeijcRVA2Wp%2FtNo4wxue2SlLY4hhsxwV73kQZTXYJ9f34fYHEPa1JkZfSX8goxgIvljwdlCd81cG1wtrZCoh%2FhM4VUYhG7tqxMHcsEh0KLmFLh9MCYIWxXaKDsgie%2BmiMOjvSX1ENFx56FcG7o0XxLJ3MBAXyVcze9YQN7C0JhkPXEcz%2F4OVZcPNyreQMDB2NJPKa0JP%2BxrS3eyzcknaik3QZUI%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "225670473264"
+  },
+  {
+   "title": "Clark’s Collection Women’s Boat Shoes Brown Size 9 M",
+   "price": {
+    "raw": "$17.06",
+    "extracted": 17.06
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406000106404?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYF51FPSATR24ARCYH6&hash=item5e877dfba4%3Ag%3Agy8AAeSwNrZoXUzo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FZF8DriyaSROzmND3YXyWVX3GK%2F9wbi9Op85zJxFKaYjCb76OeSCaR680ipWGl5uWkvxQQJ4%2B1OS4wnXF1OJ%2Bqx7SneSrCYeFYny7mp5uPemZYXktclZ5Tww91jMjog30Y90ln4H%2FDb6EmLRr%2BgzmyDKVh4TqYkeUG%2Bnii0i4VtBTFejucyGYmfxi9BA93GBEoYiC5OUdn5jypkOJLSW4YremXO0aatCROVKTCRsgpjxVsI74gnM%2F8IQkeYx051IHwpNMg1GR6dwK5HQ1rhc%2F2PWJy09lGotEoVAtX0oAUsDsOlbs8L97zlE%2FGed2I0Nk%3D%7Ctkp%3ABk9SR7C_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406000106404"
+  },
+  {
+   "title": "Clarks Artisan Beige Brown Leather Casual Deck Boat Loafers Shoes Women's 6.5W",
+   "price": {
+    "raw": "$9.99",
+    "extracted": 9.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/154621121151?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYFV1GYS6RTQM390JKB&hash=item240023127f%3Ag%3ALicAAOSwk2hhSnrl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F70ZSnIUcFpGDL0gWdCRisdeAnLRsjTwFbibpfcfV9AVUeBnvw2tSvvft7RY9SG0k0Qflyxt3l8%2FTNhErsmpW%2B25wrs3xgah8RiB5CRf98jxKGUvRqjAxO2ZkPb4EtCr0Gf5hhxMfQBhtTP8Hln1feV4TvEcvF4zb5pObL2tYx4iKKRCZRZl1vA9y0eqRJK%2FnAQCsm0NgN1a%2B0K1cfNjPWPZr8wt%2FtO5YMc%2FOIDIPYzE549aYeJ0%2BHL2pe1aZXGXLPRFSwI3tzvo7eJ8X5UUCqL86BwFR1tdkNDgVk3ctTUw3I6d2sfeD0jAJiU33BGMY%3D%7Ctkp%3ABk9SR7K_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "154621121151"
+  },
+  {
+   "title": "Clarks Collection Womens 7M Turquoise Brown Leather Boat Shoes Loafers S01",
+   "price": {
+    "raw": "$15.25",
+    "extracted": 15.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168788809550?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYFSN4G4XSG1A726W22&hash=item274c98d74e%3Ag%3ABn8AAeSwg71qzYnO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2ByonoR1%2BMavS3uN2bKYYqAvUhgXHf3o5hOg2x4ueSoxLFb1gZNZVDMP8g4lekCn%2BV2l7h%2FvacYeCSN1VgvZjcQoQWPG4d6etduCY3%2BHnea%2F2mSEuwEfJjeeK5NOBp6QJMkSXTBc5zMTI33vRFVyLhTwxeDbuaqpxoo4Y2tRnndgfZPMOD8ZlVfIIeotz%2FapVoRA0lidQOUh%2BM1fNoGNJgk%2BsGwwPUAMO7ctSUgHn5XSpR59ldPkaz0XHFbNmMDMKqPCX3QKSWp7SFUeuYuOTj3uIFtV5VBR9yivWkux4HAc0BCR20AQPg0QjK7sAGeD6o%3D%7Ctkp%3ABk9SR7K_r8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168788809550"
+  },
+  {
+   "title": "Clarks Slip On Shoes Taupe Suede Walking Flats",
+   "price": {
+    "raw": "$14.88",
+    "extracted": 14.88
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820257410723?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYFRXR89VPW5PF00QSV&hash=itembefb26cea3%3Ag%3AW1AAAeSwULNq4pLb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FVkhHqESiAQCSTMXZMi%2F7eC43H6qTEDhuPYXit6NRQEt3CLwqTXdbIDyCDwkQUlBkKtlYLzDnU5VbAw%2FiUXB23v9p7FZ%2BasQ3vPBynZrSPtrCV561teKASj7cLRL4tX5mDivZ5xkLr9Q%2FUjOGqzENSGf1irEb97OV%2BqPL1ptbMjIY3ZTAE2uO1UU8yeS2nqahbkN89R%2BUkV0ObLNUW7Aw14LjhdZNU19CYOpWMAJCd1w6LJ25Cxy9dIXu6dSg5TH%2FPLFEqINSDF9ITy%2FFhOcv4J9ErvWecYeOrMZq63pN4HJlbxYgyP9p2mR0oaO5MKQw%3D%7Ctkp%3ABFBMsr-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820257410723"
+  },
+  {
+   "title": "Clarks Collection Black Leather Pleated Slip On Cushion Soft Loafers Women Sz 8M",
+   "price": {
+    "raw": "$38.00",
+    "extracted": 38.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178535088999?_skw=Clarks+beige+leather+boat+shoes+women&itmmeta=01M6T8BVYFRVP89P7VF4R95MZC&hash=item2991854367%3Ag%3A9eYAAeSw-FxquecI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F9CqYQmvFz9W5v7O4X%2FFbph%2Beg11KOsIg4CmOhZIf7R4JjdL%2FmyYHkBzJbGBwvj5nzdBryynh1kuv2jlyLzHc2vm3hSsWXmzu8EtfXrHQpqe7nxK4gpFONyNFyXu74HZSbXnyn0RPpB3Cp7wRP6alKO1lHGMKOm%2FuAmFNNom9SO1Wm2pztKHX0Bbg3xRCWJrZ7Xv2aoV%2B5e6%2BcSTTORQleAUJMDmt3SKSEPAzWQCfeeSL3iCE3GCj%2B8Uqbhr7HUKOckjYuyMaJVGj0cJEhNgao%2FfPwAr30BtarOkO%2FOPxA9sGMPOUkMZfLncwTRTYk89c%3D%7Ctkp%3ABFBMsr-vyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178535088999"
+  }
+ ]
+}

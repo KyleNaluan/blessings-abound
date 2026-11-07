@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Danner leather boots tan",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 3700,
+ "organic_results": [
+  {
+   "title": "Danner Men’s Tan Leather Chukka Ankle Boots Lace-Up US 10 Standard",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940070499638?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ6EDP1G5NA1111KYGQ&hash=itemdae0917536%3Ag%3A3ooAAeSwMbpq7dcv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9V%2B%2Fe2C2x7EdGHqdleQIycG976zbot9cc90LvKcoQnT9sdx2XBoZRI6MAblMqokqpgt1D8MtfglzxTzt%2BQQCmbM0rq8BY4AxJbJOygImHICn4jY3AqPa%2BM1kJT6PTAN5NOVY93Ep4K1SGpematEnplLQbMSQrZBa3Uh8Jlwd0klMFdqFSDalEV9FiFx8kT3D%2FfhD2NAu5lZL5Ifgepcqh87I3VsdmKBOFQauZuatQgK%2F3QrmWhWYAJ7u1Zvcy%2B69ggroL0dHp3ChE12VnJY%2Boz%7Ctkp%3ABk9SR-7Pq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940070499638"
+  },
+  {
+   "title": "Vintage Danner Sierra Boots 6951 Mens 10.5 D Burgundy Leather Tan Canvas Hunting",
+   "price": {
+    "raw": "$90.70",
+    "extracted": 90.7
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267833379374?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ6HJG0AJGQWQA2MYEM&hash=item3e5c1d0a2e%3Ag%3AD2IAAeSwaTFq6l7L&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9lZ0hSqnZL6TT16yfCgnGjftnD4k%2BytS26KAALsFrvQ%2BHmdCiiTiU%2FTSgYQLEYNahD2LL3zRHBF5SiqhHM--C8CY7FOrO%2BgHh1Pn%2BYmhmc840OJp5riZ8BK0%2Fu9%2BdH%2FPxuX1Ym8cX2%2Fw1LSNaNjdePWrlJILguHfoQa%2B5E4NkFeyM0YHh8DrexV8vw1iPI4glJmg8TOihW%2FaH2L7Vur6ModvKwEGFb58Tjkx59J4nMRxJkJIhSVNoBaAVpIQUuu4habb4QwwPrcZJLDGSdmrNA0nC8F7AC5eO0fbSfxf5jUw%3D%3D%7Ctkp%3ABFBM7s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267833379374"
+  },
+  {
+   "title": "danner sharptail snake boots",
+   "price": {
+    "raw": "$180.00",
+    "extracted": 180.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880091300721?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ6KBPNK7ZSBQ45MCM8&hash=itemcce9878371%3Ag%3AkkcAAeSwehVq7rEC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BLoNo4%2FmRTVkYZWqSLpBECsio4iDfJ2%2BbqlpfLgYyZ7SXSSGDpsmIJPjSwsLw2hyW5whO%2FdvHEgO%2BoQFZIU9XGavZehG%2BoQ%2B2jqgJ57Dw%2FpytydQmdQc89DbnmpXW8tu0a9wMEDnYeYuRDqcGG38CZd%2BEA6tS8TXi5R3bRxYOADVDze8KOjYgdkQ9hy5f09a7BME29e0OWMFWpB7tf4QNfBjNXhpgFCtk9Ip1Brgw22%2Bi%2BNLlQ9lI8vB8vHs%2BGNJ7zkrbtpyGjYuzk7ROX7kEJqTWaSZwhirnH6ajYt%2BzYHQEQ6ovL%2F6XTwfrFcNqvuZ8%3D%7Ctkp%3ABFBM7s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880091300721"
+  },
+  {
+   "title": "Danner X Hackberry Boot 10",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840093898704?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ66NAJ432TP67ECNNX&hash=itemc3997f97d0%3Ag%3AXM8AAeSwamJq66NG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BFD3xA6%2FQmWVjsp%2FYs%2F%2BGq3uY7ilaq2sALAldmA%2FWFNTnm4iohhF%2BEfnpWY2lEt6JkmYl76HDdZnfRcQaJx3QHOX1HaM4PAzWbGCiAAeqhgju4g18f8UHVs9iqKwWTDKe5OE%2FQXT6F3nY1LHmstLy3oF1YrEvIvbet3LeVCq4BZUNcGyxz%2FIT0VCxXqY53BOaB5ZKC49KMRXJmqet6o8XAuiY%2FAamwe7Snp%2BV%2FQyWtIX2tZ8vqPzj%2BXqMvtMRPNmBhzHgZv9vRcejdfxx4qq0p4OfRNHDcB1%2FHDkGrtxl2pGduPVC9pmfz7vBaaOoILDk%3D%7Ctkp%3ABFBM8M-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840093898704"
+  },
+  {
+   "title": "Danner Downrange 6” Tan Gore Tex leather boots Mens size 11.5 D 54020 Tactical",
+   "price": {
+    "raw": "$74.95",
+    "extracted": 74.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137905586315?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ7CG3E2JHGJJ6S4GRP&hash=item201bd0408b%3Ag%3AUygAAeSwPjppXEIo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FXl7Ujr4M8EwmcuTM7Pek3juLwRQuRZ6UiqbU3FYPydAJYvFQnoOGltSamnMaMVF%2BhL0cvtcbrTdu%2BuRnC0JEIKwGl04Itig9phtgAtdn%2FxdgNB60yL%2Fkj%2Br0M6%2BHDd87QGUUgyo226eocR6uXbQa8RYwtlZOR7rObfmpyy2Cvil%2BxX7CeUcsYceRcOT9Vpnr2m7FQkv0bfG4L%2BwIcFkFKG78GpAVu54urXnojxL0%2BENbyh8NXz2f6hCUCf04hXZqkBXBNlZogZFQYeOskxyhL%7Ctkp%3ABk9SR_DPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137905586315"
+  },
+  {
+   "title": "Danner Mt Tabor Harvest 32631 Brown/Tan Leather Oxfords 10.5 EE X-Wide Neoprene",
+   "price": {
+    "raw": "$62.22",
+    "extracted": 62.22
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307070234073?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ7TYQBKSAREWSRE0YZ&hash=item477ecfedd9%3Ag%3A0iIAAeSw86VqWwlj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9hQzZfMtqv2o9jXvUi2AjWwH%2BGudMLXlz14LTuUXlqTO92nn%2FLAuhMEn4l6Tc1OifoyFv4GpPfUK365sNPC69V0i2uKtg1Q%2BxestN1t2gI6i9lOS3q3bgnkhBJWjwC02yEeAA6xIlNUhaI8PpGHJeiurtQa21Z9095Z2jRF6JQeLH4Jf%2B5Kg6AOimSHHxz9SChoJAyjfnSoi%2BsY4f48WQ8mkkHthqkqgFDJ75iy6ar0O2--Up69ti6SImYTmok99yPBnD6xXA79RzWcp4J9YsIUKvTQg4s7UfP3c7SCUdUVxXOpo%2FmtTw520gmS8WO%2Big%3D%7Ctkp%3ABk9SR_DPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307070234073"
+  },
+  {
+   "title": "Danner Mountain 600 4.5 Hiking Boots Mens 9 Saddle Tan Vibram 62246 NO INSOLES",
+   "price": {
+    "raw": "$69.00",
+    "extracted": 69.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227590456492?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ7P5SAK2MQYHBP99KJ&hash=item34fd72c4ac%3Ag%3AFXUAAeSwnTlq5Pbs&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BzqZeX3wAII4D23Xo73F1tj0hOAaFZ02uZeg325nLCJcNMlWo8se7%2FtDGmZkPmB29fVI83U4z%2Fi7O1Zu62RFp9T%2BvQTyMtt7ew1yB06ePpx%2BSzwGUC2LMMJMHKRkp56AuHUGDa1DKQvY%2BVtG7wZGu2CBfVT0jDD2j6RpySwZ8gkRxPljXdmW8ldj15eerpUReTm1hqRW6EC31IN175NMQtTW2Pbw70EXIcjBQkmijr4WO9ibsqQ3Ic9XS4QiP1u2nQetl8cRw%2B4DQTL3ICCrDl%7Ctkp%3ABk9SR_DPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227590456492"
+  },
+  {
+   "title": "Danner Men’s Tactical Boots Desert Tan US 10 Medium MPN 26029 Leather EH Rated",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358590243439?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ8KBAWFKZMAK5B92P5&hash=item537da4e26f%3Ag%3A474AAeSwmvtqEd8k&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8ixB2iYt3sv6T5VWpu8IpG8slZ9l5f18Bzz9uoJBHaZIJVjl3sc0o6Lcewe117SOwTgJwzfjdr1%2B%2BrImR1a7s0uuR7pDAwgD3%2FM%2Bk5rYPCJB4HDNsuBO4wT32eBfSgfNxlxwDUMJy3ykRIzfdh2%2FpkdXrB3aPQSkouZ%2BWycTTUsu9VDqFlaQ1mk3jjoSdMfUM3gLWlCuUNID2Retm8YIUYXn5fi8Ns2aQEp4%2B2p8QN6hen0kgbxU3iGWO8bCSzJ4kekKv8bJWmIc4NbDWNNU67%7Ctkp%3ABk9SR_DPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358590243439"
+  },
+  {
+   "title": "Danner Men’s Combat Boots Tan Leather Gore-Tex Lace-Up W US 11 Mid-Calf",
+   "price": {
+    "raw": "$160.00",
+    "extracted": 160.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188899969970?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ89NPP0M30X8DQE5JF&hash=item2bfb50cbb2%3Ag%3AaNIAAeSwqrFqnvsp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9vx0JjH0vRdzlBpB13L4TijF2sItYjhpfxcuznmOEotUSMf5v7RmuLly4lWGor6vHNy18ZMsEuJU4Y7wNb6JtyngaVF6bLf4VAw1H8t0Jvs%2FwfBTnjlzgZuXHWxojS%2BUf4%2Fj2vnVstMpsVhqnztzcA5YyfAa2AyIewR3%2BSZUHlZg3lnZl7E18YT9L8exbd6KNYDuDRHUwSWYwiLkR4%2FtxAQkU2a%2B9FrlCjAu3B4iqTxLqzzKjPNG9mK%2BjAASCy65bvL933OiQR3ppzprm%2BOo6i7y8azC%2B5Dd3RcmHHmC6HLP5iygjxNcP1NT%2BdNFSQDg4%3D%7Ctkp%3ABk9SR_DPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188899969970"
+  },
+  {
+   "title": "Danner US Shoe Size 10 Tan Lace-up Leather Boots",
+   "price": {
+    "raw": "$270.00",
+    "extracted": 270.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257787844681?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ8CXKJM8MJV014GSMX&hash=item3c055a5849%3Ag%3Ajh4AAeSwmvFq6hnS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9pF0DKwFJvdqQuuIV997C18AJy00ey03jeIUBb5BX6lIRFNPyauHSZyBPiSjMrH6UVDiybQ6WE5auRhKF3T%2BV%2BiB0YAY3PDczaIdBsZv6VM8KPfKqcUfA0Ta2%2FSaFMDNE31200UnOX5DrHjrX9QE1BdcukBQ8icsEj6NGu7sOyoOxaVEPnUkWpSOH4I2zKC%2FyiWoV8TFmgwzPaFuTY--qaYdf7LrwHbM2YwRdbhSrbgZzSOBvl2plfCxhQQ4myw52Gad5fQIcMntwKjC6%2FbRtbP6LEfLFq1o9nbfV5EKDD7nK3WBdnZyVN1YSV1vi%2BlrA%3D%7Ctkp%3ABk9SR_DPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257787844681"
+  },
+  {
+   "title": "Danner Jackal 8” GTX Gore-tex Tan Camo Hunting Boots Men Size 10.5 D",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147629628620?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ8H6QFE5BH6H41WWKC&hash=item225f695ccc%3Ag%3Axv4AAeSwpBlqynMQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FtWMbKjI45fKjtHy%2B3RTQHxSIvxkXEGTV%2B0xEp%2Fla%2Bm9PeE4HkY5%2FvlRuWyRsrSnLfDWFdzKXZ3Owz6ebCY9VBUECjJnP6ZRi3MHxTwZFkTCJqpPbe3C2BA2nibF%2FK6KIcMl732n0DFzt4%2BLqaj5rI0XrfVgEzFFoQiPI51STjSE%2BdfuniBmoChxaUalsy37RGUp%2FuSru0x%2FtbuazJLpsneMJdrxe739VL1c4SMkVgRcQ7UyKobEpxXBSFubNwseq3LKQApjhMzkAFw7zFZW0Q%7Ctkp%3ABk9SR_DPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147629628620"
+  },
+  {
+   "title": "DANNER VICIOUS size 11 MEN'S 4.5\" TAN/BLACK COMPOSITE TOE BOOTS",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206623000098?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ8986JZAW2QFB16721&hash=item301bb0c622%3Ag%3ASjMAAeSwu1dqzYCk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FUB3ohxdQWjCUfKLGJcGWgtQDdVbZ0lakbacK2DMJm4FpZztuVx%2BfiwMSGVoqOOuJ7A7gfEb7TnW%2F9i50JGirKLSyNkr8SrAtBhl11V0RyKmnYVMobr3VXOYVHVXdiXZxqTQv5WtZ0cNB6VcPFZn1ij7l2TuZZHV7TVq40PnkGLWOr6W9MFiN%2FNEd9GZC5wcqKBbNrpXGK4aMhwPOhOghIKimtYyDYyvtH4i7QccEmgm%2Fo57e9Ujny3Py0U8Q8UL%2FFTN%2BEPv2THi2GXLMlR7R6%7Ctkp%3ABk9SR_DPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206623000098"
+  },
+  {
+   "title": "Danner Mountain Light II 11.5 D Hiking Boots",
+   "price": {
+    "raw": "$135.00",
+    "extracted": 135.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128179474704?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ8W4PCQAQ41W1AY4YB&hash=item1dd8179110%3Ag%3AEBYAAeSwMixq7guy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FakuF%2FSugB9RbOGVTHidva3Qh8bvG20xdUpJ%2FLI1BeVbJ9UBeKiusr%2FgBM0%2FhrSOc3NQjpnfv%2BfsOybRT7D%2FGR5Of0PDXGBgE1nKbY2wzMeIdWOaCes%2B1%2FlSZM69yXJLV6L1qHe5h6JlR9UTDKWcBW82lgUSvzdGB1QINi3VLYS0J566%2FSfVHRN6Q6nMGFdYzfa%2BUBp1XdyJxVOF6uc%2FSXRKo8CkRg8A9wOrr%2BocHnoMp563SVFpuc4WCzLIyDEq29R9UKp6x93DzI%2FWJgRjZ2HAKT6qGpuLGUQbqvA1H8BTGSbpdCQHgdhyn0D65h8TQ%3D%7Ctkp%3ABk9SR_DPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128179474704"
+  },
+  {
+   "title": "Vintage Danner Feather Light Hiking Boots 8364 Mens 10 EE Tan Gore-Tex Leather",
+   "price": {
+    "raw": "$189.95",
+    "extracted": 189.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820250493822?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ9DCAS6RWZY7PVZAHD&hash=itembefabd437e%3Ag%3AmMUAAeSwV9Zq1Dh4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BZuOGWauaCK4jHmSkdP1Eprqgm5yeeki6eZWpV0AkxCs1jrkBa4vgwMx1J9MeZlnQNiAA67p46RPKBoyEq%2B5OrvnqHRV91pkQr%2BRI8sdWp9VnYdK7jTf3Mp379DZZqWvU2ME2v9dHGy%2FMQzez8lYNAfJaCR41uEui86hqxTSY9%2Fj6SnZK%2FEF925rZUCwuTqbo1Fm4bkXHUUTEHC4pcRR24bESAzPGqX7RVlHMmA0KWB20NJvhtDapcymub%2Boz2%2Bth7BBRyvwuSMCbbcwn6sPpUxHN59YIRWs2VS%2Bi%2Fg8oIhiM0qEnNyljhKTBCNHItOYo%3D%7Ctkp%3ABFBM8s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820250493822"
+  },
+  {
+   "title": "Danner TFX RIVOT 8 Tan 400G GTX LEATHER SUEDE Nylon Military Boots Mens 8.5",
+   "price": {
+    "raw": "$134.88",
+    "extracted": 134.88
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920049434986?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ91AHGDBER3Z61VYEA&hash=itemd63738416a%3Ag%3A2iAAAeSwgFlq0-5F&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FX6PudlEP1S1Lr7DJG%2FwOt%2FMLjJhsuT3A0pJLwTXoHD0ijxG%2Bm5o6b9kklWtreRY8msWbZ5t%2FFgqIiS%2Bt%2BYBXV7FCrvr8jmZl5HGiDS37rkep3j8%2FL7hX9IEdp0eahCeVd%2Fzy9%2FeMqY1gl1edA09EOy1bN8igT8UMiOAYf%2BYVr2HoicJxX--fSix3NQy3vzT9yKyelCN40pKHfim9PCT6xKWE0eOBplJNKp6YJqaUCbTmNlOpKPtx%2FiTU15wFrlP7tMiWvyF3ZJp0OUlIb00mzliiBF%2FIiGkMjalggBdiDsw%3D%3D%7Ctkp%3ABFBM8s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920049434986"
+  },
+  {
+   "title": "Danner Desert TFX G3 8” Boots Men’s Size 7EE Tan GTX Leather Combat Tactical",
+   "price": {
+    "raw": "$59.95",
+    "extracted": 59.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128123897525?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ94CK1B6BY1YWC532H&hash=item1dd4c786b5%3Ag%3AbVoAAeSwaopqyH-M&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BuAnMSy7u%2Bx7fHWSbnfC7AqUEfB%2BMu7dis5zWHyiEl75YfXhdGeaJRqPu0UrQQbw%2F31F%2FV1nlhy8NbMrF8%2BNx5pKh5qgGeU%2BhRF7%2BFAU2AI7IR0yy327vzimZhG4M4a4XcUW5iGggKUs5mxkJstiEWqwIATPB0uYWN59%2FmaaLCSDFiRrPIK4pvmN7WQ0qVHk%2BkL3Ga%2B07f3NiCISb4Ghd%2FtiW2fGQ9hmQ9Z76ImteXeDOm9x0Med7MYXqAOSnkiladZD3O97gBlwm413s7Vx%2B2BGx7TRQx%2BvqyH67LrpN6ADvjIIAcbpSHcdZCTowlhsA%3D%7Ctkp%3ABFBM8s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128123897525"
+  },
+  {
+   "title": "Danner Agitator 230 Tan GTX Gore-Tex Brown Leather Hiking Boots Mens Size 14",
+   "price": {
+    "raw": "$54.98",
+    "extracted": 54.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366791424361?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ9VDQ02FZ5G7VCSYBF&hash=item556678f969%3Ag%3AIzMAAeSwau1qnf3W&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F0JFxaolDgSwBswxtQki%2BwagSAOB1iwoDp2zuFUimGotAtkIi9M1WBwDuSHcs%2FIazcNDfMoGipM9LNw3BD5CCLtlO4RIqa4%2FC6hNS67rklzu2EmyBFmXBXusU4NyxdV%2B7E0o6x9hyKsjq2a9mA%2BKbqx7chsRCOpS%2BM10SFLjeHzT4QNsWnMiizLvkgixm87XLU%2FwpTwAvUsGiNgWHQtIUmUwZf2mWwNuiY7FRiL2fkWFoLjZyrtKTdUOu0TzsTZllMvTYXzbhZzyxXtYFEPYcO%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366791424361"
+  },
+  {
+   "title": "Danner Ich 7\" Tan Gore-Tex Tactical Military Boots 43530X Made In USA Mens 10.5",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227575878772?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ9C80JHQ3X2J3F0YG5&hash=item34fc945474%3Ag%3AvYsAAeSwLkBq1616&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FO827599dpt6GirmKO5n2m09WpcDs70qTk0JqtXn9XDETBx0RQM97h7YtwWnlUEZmVMeM%2FhgFENyOTwKE3g9HM6BKlZ%2BI%2BX6b5qSAZWOxo5MHKCP8WGSGsYPz0yzY3abnIxO4KiBaLtxD6aFaW3bF197GRSfMuVR81AtGQGnKPAMIHcA3owwWhUcHlBtIwFbRT%2BKtr4TuaxB0eHMM5dKIVIN7V2uuHgCXAIuNudOP5qqu9oC%2BtP4Sb1Uhvps6R%2FakvjQzTia1Mg58Og7AsC4M1mPuvDWgReLW4Qj9iqvCLMg%3D%3D%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227575878772"
+  },
+  {
+   "title": "Danner Mountain 600 Waterproof Hiking Boots Saddle Tan Leather Men's 9N Euro 43",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128161954114?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZ9HBB7WRMZAVF2VRYV&hash=item1dd70c3942%3Ag%3AY6cAAeSwXctq4sva&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9TW2eNCft%2Blv2d2EBT%2F15j1d68vwo3sOTuWf9%2BwVvhYy8942oBBwNfTs3OJ6k4hQX1Q3nqOo4DZIsugvkLaaHHhpaND%2B6XsLlqzVMtJ3B7%2BLaUMVQL2vrV60df4Tw6DipAUTOTwT48iuGeKHp87e9sbrd0h9afGukE1bmHx5O9WsFB4mXbGW4bPZUjoFy7AAnRU2Z%2BWAGEKqEwOHUdv0N52D0xX5bNb6fqIdZYYvzmL55fZJrFHZzwnqcT6gDBj1GIhbff2yTKJb%2FiCMqC5Z0U8yqY3PMdxt5kgd52kEWSbKu9Et8EZVxFi3EvPWgnoS8%3D%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128161954114"
+  },
+  {
+   "title": "Danner Jag Brown Tan Hiking Boots Women's Size Us 7 Made In USA",
+   "price": {
+    "raw": "$38.00",
+    "extracted": 38.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820326127661?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZA009JJ2NRT18HBC0M&hash=itembeff3f582d%3Ag%3APaQAAeSwntFq7oKA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9CV75ENc1fVfIDqdJKMvIBoV636T0rMJtYxG4RXXffHldc0XiHaG3skNJBoo8tp9VbbQ9jRdJf2%2FfIuXCSgrZ4U0p4teYUOpWZo8p802cGbdBn1XjYJC5pjFBAPHYgPusRYf2Zre3QJTTGLlhHcshpNoAU%2Fs2MT0ggAWq%2By8bwakWcKOI0I9LdvJJBHCrObgMdeLT33GB0tHFL4wwryEydnNeO1DF9jrPZeeLv6phsC16vd5fHlsEnC%2BAJhtX6jFCWAV2IHlMwxMqiQp6NQH4UDRzuarZu5PkpUqU6Axl4xlLxaNdTpb8Z8hpGe0ckf2s%3D%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820326127661"
+  },
+  {
+   "title": "Danner Explorer 45200 Boots Mens 9 EE Brown Leather Gore-Tex Vibram Ankle USA",
+   "price": {
+    "raw": "$129.00",
+    "extracted": 129.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237156180155?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZA4Z821JDHWAA93BHC&hash=item37379c20bb%3Ag%3AofUAAeSw%7Ee9q60jD&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9wDZDqggQxXO%2B7CdehcaUUZE%2BjFk9Bg4D29yq3UyiM6xMDeJcgu2YA2FuwNpLFoLRnzQslLItv0O7yVORPWyunP40kyAXcgpKqab0TXdsup8a8uEV6pvTCTSfv73Sq2Rnu%2FibodQ88nimNTQJgQy3pfUpduo7r2SoV%2FzBeZK5VgZbviodh3AoMmviTqdNh4t9SBSdtekaVd826%2BhHFf29KfyvHXKQ7KwpfU0WlEbvw8vIG%2BFOUVw3aM9SRx5kwfVV%2FO9dUE75z8khl%2BdUpI%2BRX%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237156180155"
+  },
+  {
+   "title": "Danner Mountain Light II 30800 Mens 10 Brown Leather Gore-Tex Vibram Hiking Boot",
+   "price": {
+    "raw": "$225.00",
+    "extracted": 225.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117507402802?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZA66W3XS2E57QDS3TE&hash=item1b5bfcac32%3Ag%3AMwwAAeSwt15q7XrC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FT0WkdxuMlWj7gbTDUkWHxiiTFz%2FYsMdHdZEtYeWCnSU8fbpn%2FIInZrUkA9rRZkZjJ8bffRXeegWJY6TU1xm30AO3ghaPMAdut2CWH%2B%2BCA9T3rhcIt7hM1VXxlw732Xt3TYHiHxU3TCZJR3yD6pFEtvZ9YZKMbB2hdZfSGJJ5i7f%2BS%2BjpQtQaoGk9qd%2Fi4BtODSGFmz3RIRfM6A5ie6DkkZk%2Bb0mL6r0POrYTwvMBBHi3tDdRdP5XBMVo5%2B%2FGUZaVv4aPGueFFsWxAf9%2BPfVpy%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117507402802"
+  },
+  {
+   "title": "Danner Desert TFX Rough-Out Hot Tan Military 8\" High Combat Boots Mens 8 EE",
+   "price": {
+    "raw": "$52.24",
+    "extracted": 52.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940047508727?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZAPA9H42TDCX23ENKZ&hash=itemdadf32a4f7%3Ag%3A%7E%7EQAAOSwrQNmuPJQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9m2VK8n29wHbO4DyalJv08k8rnkK%2BMC6aKJlndgQszoIZtxUfyQsc8A9pgfQJ%2BeJH9nL2v25BfFUpe277zgcm2Ruw95BvnGpAXhqrLM9Wu1jjmVPU4Zt5QOpi1%2FDdGG5GmL3eDfZJOjCokr36egRYWbAsQWjypBRh9qL8oarAQGNvNZSQ0z7EiZuGSV2VECzkKba1c9Fq2RIDNaiIWqwfxWQhg3DbY62lQswtPfxHV4hFEnVE30VlvGMbpLI3HS9iS3LoJkDNvvVncoE7RMT9bolZG7DpTDpTX5KHMUSj6P4TS6ZDiIthNxxKgfe8cRZM%3D%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940047508727"
+  },
+  {
+   "title": "Danner 453 Boots Mens 9 EE Tan Leather GTX Waterproof Hiking Missing Insoles",
+   "price": {
+    "raw": "$59.00",
+    "extracted": 59.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198637083173?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZBR8B5Q0MWGPXPZRV9&hash=item2e3fb15a25%3Ag%3A%7EPcAAeSwsKFqpab3&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9Q7ywb1SPp5KZwO82%2BLbuvjtVKekvVN4uTDC2JvrG0WI6c%2BnR%2BbfKeEbJ8O1bRN8urhdDI5pjBYtdUu1stfYFN8VI2J1J7tMfalacG2EPRXoIHuhgpZ8gqMZfZo7hb9BhjG7oAYN%2F6dx%2F7nw%2FN8J3fFTyFuwy4n%2F6g1Tt7ayvJWhJKpVqLzw%2FcDiLxxSbRELLtq%2FS51UKGSAT3%2BINTZ0hVt6Pmwsr7cR%2B2nK09KldIuL8PrRBrHG%2F%2B21Ilvmr3fqg%3D%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198637083173"
+  },
+  {
+   "title": "Danner Tachyon 8\" Coyote Desert Sand Tan Leather Tactical Boots Size 11.5 EE",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336859860046?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZBRVC5QZQRKFGE36YD&hash=item4e6e698c4e%3Ag%3AIb0AAeSwwYlq2-kK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8crW7VCHImjx345J2rG4V15hxwsT9lHM%2BwRjZNAJgC9nSyvWIeAzW0K8f3mRiiiiezU%2BnSoO0USSXkD6LlFYgsjyhfx5z7bW%2FXfzlEHZ2m1mDkxvpAWYJnwuddCOZbFDaTEly0g1HexaGVdpPgnGspE9SoQP5y2vX%2BFizIn%2FfFJV3RR7ZgNYN8W2F6hLuV6eyKPeo%2BBnogs6D1GY5uL6%2BktJdjKqN%2B%2BZH1oBiBvmJILqc71XS%2BCRnY87tIsDgm11wFLuIkxvH05sHVBBOuYSde98GI7MDKw89xn12cforxMQ6AJWPtmJTdE90YgtZbWSg%3D%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336859860046"
+  },
+  {
+   "title": "Danner 26029 Marine Hot ST Boots Mens 10.5 EE Mojave Tan Good USMC Steel Toe USA",
+   "price": {
+    "raw": "$158.00",
+    "extracted": 158.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920077590088?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZBSZTBQG7RN2NM8BS5&hash=itemd638e5de48%3Ag%3AVCoAAeSwZlJqZrgQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FpAyV4vZB8d3n5Ad0hhYrzP8ep7Tr9NS0RXvfQrlcqxuSbQoImiDNnSMq%2B7gF652Wr9h3L90cPoBopMq5yNUYtOEI09p8c%2F3SzW3LlHI%2FEdKD5eG%2B2ukZojt%2BxRL%2FAY7SwUgtA6n5WCSEN%2F5036V4fMzi12syXNRJSFE8UROkQlIsm2DqKvs4PhDssC56VaobRJmWcCddEOvnqkMZqsuqJFil6rWa9cF9wkUJDqJP5kCSGdObcN8CLcOWt3kq2fSVTC385boqed%2F5FYxA4G0BYTC%2Fc2IjLidLjtsS9uwNqA3RJN9MpxVPL%2FEKPRZPB%2FOA%3D%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920077590088"
+  },
+  {
+   "title": "Danner Timbers 600 2017 Edition Mens 10 Leather Waterproof Hiking Boots Vibram",
+   "price": {
+    "raw": "$49.95",
+    "extracted": 49.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267835474099?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZB4QAE3MS5E2BEE3HE&hash=item3e5c3d00b3%3Ag%3Az%7EgAAeSw87Bq66SO&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Ne6pxDl4Y%2BHq44XD1jjWbgQspqVQ04Kf110711kPipq3%2BpDDzcFDLypYxrpBMpFqCjv6ONecgJxEufYq0ZhIgRx0Im7atcENHqF0GZosyH9dNUSCyUeMM7nd63wPAxHDjMPIrquGEkh%2FQl53M9%2Bw%2F2QGdHA%2FUedKd94pyX%2FLjLAJ5E6w4l9DX%2BNfC8QpywR5kLgYwNICgmOWovg6gWUyDh8EmxDxYZ2k3HniK9WAC8X1jjjA5%2FIxBggcdEfkBoNL6GGToadElebmvdr6nlNg3%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267835474099"
+  },
+  {
+   "title": "Danner USAF Hot Military Boots Men’s Size 10 D Gore-tex USA Made Tan Vintage",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336882375830?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZBJ5YPT5MRH0E58T1D&hash=item4e6fc11c96%3Ag%3ABZAAAeSw2OVq7Rcx&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FnZ%2BzAs5Oid0Jy0YMyDdPp%2FiAQIl9VrOENUfqbr6fcbHzoToyUqQnbOFYWh%2FDcZV0OKQ%2F804oGj46YCBc5mOObnajG2Ot47LTEHxWGAgFik5BPyud1yEucMKwQzhZOAMFqMA80Vgdw2SBL9dHyHh8JuQORvvC7zx00yLeLU59WWGrFGpNYL21J9yizjqewWHTWlB%2BiS6QPcEf8zmElm3ufKFplzIH%2BWrTGg0X5Pxg1orGvUaeWS9LRAFtzldWhbRu6hoo6IXAVPqChabHZodMx%7Ctkp%3ABk9SR_LPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336882375830"
+  },
+  {
+   "title": "Vintage Danner Gore-Tex Boots Mens Size 9.5 Tan Leather Combat Military USA 80s",
+   "price": {
+    "raw": "$80.75",
+    "extracted": 80.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366784241604?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZBM9ZJ0SCH5S84MNMK&hash=item55660b5fc4%3Ag%3Ah2wAAeSwzf9qmp5x&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9KN%2BX%2FRiJ2gJEpZnt9KLFDZzuLgRrZnkVbkLu2ANbD--WrFEW2RIkT1ln7WPLbS7bGMdzMckYQXp55fb7yPRIYYCQ9G3ieqf%2BF6ku9zkvfHGgu1SPKOwuQbBH%2B1YRNLQkGoRlBlP2rRGpdsBHQ38UGz7%2FkSNNuKZvqw%2BGYvZh%2Fg7ndAJjKbC3FYht0LnKCpiSs8SEndkeZ%2BjQtysgHsmyZ6%2B3UoFXvPJPmQoJZE5z8fEuDGVjfu6%2FuCQ%2FJIHbRny3fGm9QI1FagZ6%2F4oJrZh%2FUijKHHexdTI%2Bcpshs65noQQk0aGOFQ2gw%2B3vMUx4j1Yc%3D%7Ctkp%3ABFBM8s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366784241604"
+  },
+  {
+   "title": "Danner Combat Hiker 43513X Mens Size 6 R Tan Leather Made in USA Military Boot",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920102147359?_skw=Danner+leather+boots+tan&epid=1101099366&itmmeta=01M6T8AWZBMX94B0JHXTNGQXBJ&hash=itemd63a5c951f%3Ag%3AOV0AAeSwRP9q6mh6&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B4KF74qufZE8bxRkbwBdxyZK2VezbvLRiSKbsewkUv8psjHDyDz%2Fes%2FWNTAJ7oroLz0SjYJEo7CFEnwYegSkBC%2FqR03u4FURfZMrlLGzm2%2FNI3QdMRyqUCGeY5Zn7IpQlqFFMeffgVUce%2BPBY2VZsn8h7YpXLEAxzPsVSx7VCFrvhq88yn7jUfd8lAgX%2BxNEyngZrwemexpuCmJ13FRZ92JTRy1qSC8Fu4iOxXezDHpyrrP1rG93L%2FUsiogWpMrLEm0ymIDqrqtK0nmSSCm5ljagVjUaWlnu49AnhUsyrz7g%3D%3D%7Ctkp%3ABFBM8s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920102147359"
+  },
+  {
+   "title": "Vintage Danner 3052 Mountain Light Brown Leather Boots Men's 11 EE",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377625477176?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZCCD0C8XJYP15C2V8S&hash=item57ec3b8038%3Ag%3A0WgAAeSwbd9q7Wxi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FJeMs8w4imv1kTd3Qepp46JInhKIm%2FzfU%2B9v81u1Yu1ZsAJ3Xc6sFrA04yAkkja7MMOv3xijKibXWAWRXCADWjMGCzBSOQdXoGA7L%2BbXjL4t1VndUh2r96%2FCPp14GIX3xGmI6aSGNBfbHAoEcAZsF95ZMAIwRvQCbfoFynWHvfT2pHEtrRExchOQVScnD1SGCLELCgE2xxu3cUYk9A5vrKmEzkJTZ9UvxxoH3GdagGT38m%2B9CaqvX1n%2F950LEyJJ8IFt%2BarFkokTZE9ZZysXBtMtDcMnkFMY2CPRy92oQt0IUG%2B8FvBJHUBTItIZ0uojQ%3D%7Ctkp%3ABFBM8s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377625477176"
+  },
+  {
+   "title": "Danner 6\" Frontier Sport GTX 42540 Brown Leather & Gore-Tex Boots Size US 9.5 D",
+   "price": {
+    "raw": "$42.36",
+    "extracted": 42.36
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168837679214?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZC3Y0A35BAF4EYX19F&hash=item274f82886e%3Ag%3AK1MAAeSwc19q6ywG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9S0kdoX4Gb5Wl1bXhvseD9151Nq5ykyuELrJnFMeSUYk8tbM5COkCiFnZhGnXGsecJkPRGZMj7UDdow6IsyJeuhbevZJ73aSvenrE6mbvU2cvjMYOrA7ctcs8YxTpqQt4DSFQIp%2BtsSm6BfZljjoPbaAVLkIRfF2RnJFU1tfzp6nVeC15Gu8dSAdbUfaUA0jZpW4CrC2RQtVMeartkIrk8Mrnrjj5Xb3Jn0l2OAaXG4dcfemQXnPdylwsn0Z5eEZ2AqSL8iOq5Uj5TvlN2FnngxdkIt8Da%2F616OyXwfwBMHEJnhddYcqhiJzjse02ERic%3D%7Ctkp%3ABFBM9M-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168837679214"
+  },
+  {
+   "title": "Danner Mens Bull Run Lux Vintage Sterling Boots Size 11.5 D Brown Work Wedge USA",
+   "price": {
+    "raw": "$139.87",
+    "extracted": 139.87
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336795489611?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZCVPYX95AAZMVQR6TZ&hash=item4e6a93554b%3Ag%3A7mEAAeSwvSNqkSpt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ItDneUbOuPBvkCvTEikp3oHCVqwgnMqit0ea0JsI23Ite9c3ScS%2Ff5SAs33bdefFZfnNClzHtBhmIbr7tVLEmsNLfXMbhrpBM9cTK%2Br0%2Btrjcwv7OBBdymS%2FGA5MmDFf3CYuA4l30Vy6bskFnRmpVYpABMnJYDjOnBaNrhhtb3KFyfkbhLgemqQ%2FGgB1oB%2FeiffUM1XdUs8j0fwstCyYgcV8BPZIsG9is3cQJXY4TQOrCZblhWKpG2uAATM1G%2FQem3gUJrLOPgtTP2V0ErHFV7OQ5YtR55wrHeNetX8SncbkVrA3BV3NFd%2BDK%2BeYsHxI%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336795489611"
+  },
+  {
+   "title": "Danner rebel rock 5.5in tan/ lavender/purple hiking boots Women’s Size 7",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377521134869?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZCCYJM5WJ1DRX633PM&hash=item57e6035d15%3Ag%3Ae9QAAeSwWENpw-0m&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FPKXU%2BvgeHgQYISwslyfgjOL69sSQFXYZL7jKd0GROc0mjwHpEirItMAI4--Tf5DPt1s9SpPsZjrrQGjEz6ujGNFjKtkKYicKcANhzEfYHa1tCQZeXbMmIahcd5MH2HgyiBs8%2F4SkX6Z%2FGxMOlAO3d4D5xddqqbPql7ronBzBgCZlqmiDhL%2FWqo9HGG5qgT1F02evCyMbLLrhqbJvqgqFkjWzajPjbkCuKpgzAXQItCEC2NhBLg2z%2FnLBNfgTuKiUbHWVJ%2F3U%2FG9Gq5efh5Vne%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377521134869"
+  },
+  {
+   "title": "Danner 453 5.5\" GORE-TEX Waterproof Hiking Boots Tan Grey Men's Size 10",
+   "price": {
+    "raw": "$58.00",
+    "extracted": 58.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336853035367?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZC9K0PQZVYRFTTPPHF&hash=item4e6e016967%3Ag%3AzsMAAeSwk8Jq1qbT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8ZrfRLZUFbVp0I84I%2BM8M63u%2B%2BBptIAeGARZOJW4xtpf%2FOH6Kk16YpkKi4mPePnYWCwSdAofOr5RNAXyGi2ZBt%2BgpQ7WFPYwaD%2B17Cvj3MqtiviH2QcqLXerZMr03M%2BMEYsftFmIZs0bZf1TlXm2e9NOXORezQP0jfTtA5PCdeNWk9E9r3xwAroAMLDZ99Rq1TZe830PFb9tUkYmqEQ7UH4ZS0hRIA93%2FzgA5q0K0ZC67eFHs3aORByczRf5SX6G44AU2Nxcci3DNgjZeYSMai%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336853035367"
+  },
+  {
+   "title": "Danner USMC Waterproof Gore-Tex Leather Military Boots Tan Men’s US 10.5 EU 44.5",
+   "price": {
+    "raw": "$228.00",
+    "extracted": 228.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398188754386?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZCQRPEKBR4CWZPNGKZ&hash=item5cb5e635d2%3Ag%3AWj8AAeSwsg5qKk%7EI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9pTDBOT5DN97Ce3Xw1oy4az6cWfBNRzgjPtbzKPRcfj7PXqRwFbW5EaxlcI9%2BlvJQa36XUC0w73N826J0pXApIq4S57f2HNWctgQ64dFNAKYqdi8RadGo5lOwUIZ1%2FHTqXYPqNxvXApix7s8ptxnMi3hqclu81U%2B9OlyiXZnyqoGutHpjWlRzVCLeoJKwogcrPnAuxoOyDlG10wWLR43qXoEhr9HAi3%2BePjGUY%2FobDi0EVgkBfvemG6xCh7KDdIQE62yMWHZ6kjBNlPEgxbsCPz7s1Mhlgafb6%2FGpOqCe9dvsDLRhpF81Dn33Yq6It3hg%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398188754386"
+  },
+  {
+   "title": "Danner Mens Rivot TFX 8 Coyote Tan/Brown Boots 400 G GTX Size 7",
+   "price": {
+    "raw": "$69.60",
+    "extracted": 69.6
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900034814029?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZDZYXH20ZY0GEN8XZT&hash=itemd18e41604d%3Ag%3AndYAAeSw8uJpmaWR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FuczFw8K8UgarAJmtDAUc%2B2matIYqTYaKAKzbvkBK8srlXJH29hlmovVWEJ6Af2I1014IBN5t%2BZpAohIWVlPW2jr4cQnXjHmT40aI%2FoxfI9WjpUab7A0UQrNTbQPEgzThS1G2XK4MxbaIMtFVbiAXtfOeAiprJvl8Nn9i1Ebj%2FUBnmM14jeZbz5msWr5oDav5IucLE7NEvbkpTduhuYiPEZyBugPlIvyb54SRWlomOMjMc9R61015kuhUBzUJ%2FnKAzE8j9DpMfsTR8ZT3jvdZy%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900034814029"
+  },
+  {
+   "title": "Danner Stronghold 6\" Tan Leather Steel Toe Men's 12 Work Boots 16713 Vibram",
+   "price": {
+    "raw": "$68.00",
+    "extracted": 68.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227571120599?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZDX05F0WZ3AMJG6VKA&hash=item34fc4bb9d7%3Ag%3Aaf8AAOSwDtNmp4yf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8vcGcK3rzElhQT%2F8%2Fvu34KMbH62a7q81k0BLHZFVeMIPJVy0Me%2FETooRwDMMuvmzpzMzEJaSjxHwTiJUp9Z11UdD2SmJqjzuoSDlqWnSTosW0zz3nMD5BG3kKhYdMdxW5226bCJCK5Q%2FldYitNW4JhAoYfOx1A13slHZuB4ZbWDbo1qsUfe2FADmCNcHhTlk%2FCSHlgwivvP21LPZ%2FGXlYi8cGkw8FW6CWMNQ%2Bi8e95xlMl483tuf%2BoSSBM6GhpLxWzPdzrGtx5%2BktoTOxsGe7b2UoD4ek%2BlhreqkE9Zbn%2B85FBB%2FzjF3bu76OvY2O5VN4%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227571120599"
+  },
+  {
+   "title": "Danner Acadia 69210 Leather Combat Boots (9.5 US)",
+   "price": {
+    "raw": "$69.91",
+    "extracted": 69.91
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800871758975?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZDBGKA2GQGPTV99DXB&hash=itemba77ad3c7f%3Ag%3AsXsAAeSwKZ9q6fbb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ACfLP2xk8cezMrVEd28EuvL3wEofUjU7N1OOHDGps5dzWuHBVXS709AzYzCUZR8jJoA7bOgkfXlkdzrcKYemKN9uaAPR5zQa%2B8061jd803ZO8kxj%2Bv1Wzkeb1InP19a%2Btk236K5Oze4qPvCwoD66f0NmtXnaZl8TH4KsRkgzLC6F3EaETe9dWWcHtEJX7b0XK%2FeUG8yJqERqvWmtWAa26MaaTfkKy17uA5xZX0I6uMkVbjBT533BW84%2BJJCOyQECnTB3bspg7FytqBZHZf3mMmrcrlVbL2c%2FdKNa7TLgCYDxY1MLCwyPwLaED1m24dvk%3D%7Ctkp%3ABFBM9M-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800871758975"
+  },
+  {
+   "title": "Danner Men’s USMC RAT Mojave Wide Tan Hot Weather Boots Size 11 W",
+   "price": {
+    "raw": "$109.00",
+    "extracted": 109.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366766587345?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZD0ERPP0BWKXK1GS9D&hash=item5564fdfdd1%3Ag%3A%7Eo4AAeSw76lq4ddT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BO7G1T0yV6imQAABNQseRkZRsAXzdRBjBFT18QYKPTPWgY2CC5bsIPqE%2FZb9PhduCYGGuGcN91J3jXEmaK6jm57MmTFdc8wA3KagHQZyolJall4KODWEMEO3L6%2B1LpVqZy2RsBoNdhm572IMU%2BNxS%2BaMipKEQcgb7%2B7nxMgmgAKzHD%2BQAVT2waKEL2XkFCjCwGxgc8HxNJF6sUxQrvK8lCO3uKHQfs7ifU2QegAtTaN4QQKUsLQHWiRONHRA5k1aE%2B2%2Flr%2F2WSAQyqa1TnOrJRDy8MKu4Xeve02LT6dRc97A%2FN2nNqHGhDXG5HSCpfrxc%3D%7Ctkp%3ABFBM9M-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366766587345"
+  },
+  {
+   "title": "Danner Mens 6.5 EE Rivot TFX 8\" Tan Military Style Outdoor Trail Boots 51490",
+   "price": {
+    "raw": "$49.47",
+    "extracted": 49.47
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267720705671?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZD5KQYTVGNQSEQ4ATE&hash=item3e5565c687%3Ag%3AZx8AAeSw6EJqTYb3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8TKtHUbWpO7Xenwn24kER8K2u6papwZdKu2d0iTWfD2pNrR7ZRc5Awx8U%2FPi%2FyiiMlrimwhky7AeykJSsrZyVER1X3rGYMYMeSgtJAGGYzSfG%2BRqmL0x0YytpMSmreXXwuQC%2B2rvQBPAqWbHtKNYvLyZ7u4YZPhMEQ7BKuRG316s0BA6yLYcq32WrILEGBgBlygkBwzPT%2BkEeTYiCyfIpEdZ6hHRiJjf2tc6tK%2FXlHECyIR1Jig%2BA%2FACt4jJDcvVYiYEA5AAgUx8oPd74QC1wb%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267720705671"
+  },
+  {
+   "title": "Danner 39 23 Leather Vibram Sole Hiking Boots Mens 7M Tan Desert Boots 14D860",
+   "price": {
+    "raw": "$64.60",
+    "extracted": 64.6
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227536269352?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZDCT7ES25WDVRE0C3V&hash=item34fa37f028%3Ag%3AYhoAAeSw0BFoCYBe&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Vh69qV5gRr24aw2oOojWk3UjefALbt21mse1iRmT0uXjFl4SZXvinQCHQ10sYM1rHaWvxhMqZpIHRjZ%2F1zomONs8hthA1yNqjaG6AJFkbxkS3P00WIyxi9beqS3P5%2FVK1YzL0%2FqSfvTdijgXrorQ2GzXg%2BXgTMjyiOUFxhgS2FDnNYTnhHUTIjPC%2BfnAgpGXPfbwf9hrOr8mmT6%2FWep6VDW1om2kvYcDeaXocpbxjRZ64P5wRD%2FFApwai7Y5AfGeMO9dmyQoqsYktSAEVPvGcqxyw31G3RSChp6Z8Z7fAA4Nxp56yUVLrXy7Jls7m%2F6A%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227536269352"
+  },
+  {
+   "title": "Danner 26027 Leather Military Tactical Boot Men's 12 EE Sierra Tan Gore USMC",
+   "price": {
+    "raw": "$29.50",
+    "extracted": 29.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307260915607?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZD0W0FKT2DSXSYJKGQ&hash=item478a2d7f97%3Ag%3Al-MAAeSwOKhq57Ac&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F7TfurdU0Fzl6AW5DzusQ8aLm1n5shOThzpIquOlJ4R5zCZBtcOceyc4QK0IkkSRiXDQGPOmZURn296bQgsHE%2FgqGfE83eLzMms2V1uhSaNJNlMonNFmwTFIl76nlLz%2B%2FMspyzMFlkNtiNItC9JwbYep8afJdqZOCLZvcMUSsPCkLTYBtuepMrbcj1nvhwTzx888cDu%2FaRUXMmFAgD2JL%2BRs1lEjmtpOrIWdCYn1N%2BdAhlMlcw6BQypbwLHTKFhnZgPThEZGenYQFyvf8BI%2BnnHdFaVF%2FN0s6h9P7%2B60Z%2B5g%3D%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307260915607"
+  },
+  {
+   "title": "Danner Army Kinetic 8in Boots Mens Size 7D Tan Leather Combat Tactical Military",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147659495394?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZEJGM5FPD7DJRF5FQV&hash=item22613117e2%3Ag%3ABb0AAeSwGkdq5f-k&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde882ocn2pkSOT6UQitwPbtCUDMawqfqNV7yjNTN6lWMIdCGk73yEbCkk5taQGaRXPhnxLZOYnECQHDgrhb3g8x%2BVumrQEA59zPM9NT1ar9qBuGkeX3vVs4oGtAsRKNXYZ%2FDd9A7%2B6djOtvtWHUF3aGaK1yH78TkBfHqMTNs4u8HaXtFtxzkHhMFuNhVZ2baoEWv0%2FiooH7pd7%2Bmwbuh2LY6iEceaI3qUH2iWEaAo1eD6mt3JhwUGuopKoy4CqwYfKw%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147659495394"
+  },
+  {
+   "title": "Danner TFX 8\" Rough Out Hot Military Tactical Boots Desert Tan 26014 Men's 8.5",
+   "price": {
+    "raw": "$23.18",
+    "extracted": 23.18
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298349998100?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZEE0WK92ZG1H6M9KB0&hash=item45770bb014%3Ag%3AX2cAAeSwNylqE2J3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fry2QM58IGJWY3Q1rQ%2B7SY%2Fmf3Ay2uXIh64xXiatBOI%2BLvQiCDzGJrn4GwM7QmjFux69XI6z2wicyy5t6MelwGQhY4rbYpl7YRxUptNBJKW2LL08%2Byy2VQXCPhs3A5GeVzIqp94XtzkyuXxx60Ljl%2FB8OppIz99%2BWhYMk7XXoZqWkxoUO85HhoVhb28zInJwyexEPNZmGECZW1IRAOKrFd3MgpBOyHxDQZce6qqtmzhTvMu%2FCC%2B2YYIJ6AYv3XVc9flqp1z71dgN86ZOBM2cqY%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298349998100"
+  },
+  {
+   "title": "Mens Danner Mountain Light boots size 10 Gore Tex Full Leather",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128141189992?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZE93ZFZCCRHY501BS0&hash=item1dd5cf6368%3Ag%3AYVMAAeSwsaNq07Xo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FXg5jAMXhOpxMP7MdP2ocmrIY8SEjiEvGptgFeno98nI5vuyc0wEhRINCL6SvtQGqJTUwkWnXzWVWbKAj7WIi7EzULRPqMsGdPlr86vPB2dG%2BpHwIPYIG%2BcMvpRtZVKvopZivIz%2B%2By2Iq704QHQUehL9d58vtTDxbXhQ5FjFWLr8QmnM7biBrwBC9AGu1Y1X%2BdrGC7VgZkxIkKNjrzqFJwUM1Yw7676KFJ%2Fn5y2xzaFsUg905%2FGisjIKrR9Q%2BrGQUd2JtHk4YJ%2BwnRZWMibNpO%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128141189992"
+  },
+  {
+   "title": "Danner Combat Hiker 43513X Boots Mens 12 R Tan Leather Gore-Tex Vibram USA Made",
+   "price": {
+    "raw": "$124.97",
+    "extracted": 124.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198756835037?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZEM5PD9SMEYYBV4PZ9&hash=item2e46d49edd%3Ag%3AOoMAAeSw0-xqbICf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BAaqCbXzO%2BTXG7VrwHcz90G9CB8KOhJtHYj1JFMZFc%2FllwbpFlqMz873yTLFZiV%2FIj0iZ9OYN4zSr9SOqze2CK8Bv5h%2BnexaynAcgiSA9pKmoPWSl8hK%2FCBcptmTfpbNh6qp%2BwC%2Fo6hgEhvemVNicw7qD3P0Ax341mo2vImfaHHZCu8Je%2FgQLK%2FNNn4VZUhkADBr161hWm7Vu1r53osvZMVhpuxCDVlDIpBpXsyOgTszOqh91tNUaUFZ4zegV26kqNvh0jHZoS%2BYzkoMC46kRnhvoxrgpoPdPnhyvzLY3G3u5m2N%2BLRrlXFkIpUobxNX8%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198756835037"
+  },
+  {
+   "title": "Danner Desert Acadia Boots Tan NO GTX 26000 -Men's Size 9.5",
+   "price": {
+    "raw": "$217.00",
+    "extracted": 217.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137864688892?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZETJJJ2CA6RH52REF1&hash=item20196034fc%3Ag%3AUroAAeSwBw1q2Ys5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BPhka3V43GXa5fyWsIiaFnP3kDkE2XiQavYjIJYhLY2Dnqp1l1k5xc6%2FhOIN4Pru2A1QRc1pXKVXPh7yu5ECdYqVhthCuP%2BGD6eIyner339apCDBMUSS%2FRZQwnmKhejYEmdkbPOrzue3HuGrNzgv6stbFk7lYQsUhg9dCfBOj1tKpoe4Gx1TOuwaeCLl80GjCnSAi7iXhwoLHBUphgPPAlPZ%2FHPu4e1%2FItutwkgh6tG7C%2FIDgziCAIhF6W0BN%2BgcJOpPoh0YUmKwEuWj5yCuB6%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137864688892"
+  },
+  {
+   "title": "Danner MEB USMC Hot Military Combat Boots Tan Size 9",
+   "price": {
+    "raw": "$250.00",
+    "extracted": 250.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128154454798?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZEBGH3JXNJZSBZ0XZX&hash=item1dd699cb0e%3Ag%3Au6cAAeSwi4Zq3SGN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9R7fg7XyqosUnjay9jJLsPtBCjHUrUJQILSx48aNfVCK1KlZ1sTH2VJVctWpk33X1kxYTR74jarQsnMG7i%2BI3rsUb%2BgO7nEJFxJLaN%2FlQr7c0%2Fnjd8BBSLJRMnuBeWYT1E76DACQfIcjr%2Bpf1zQOwyg9CyRs4Aya%2BOi4tN2K1Lwun0NBMju%2F7u%2BkbUaDnP0RH7YIHQS%2BhuIb%2FllCjWr71K9vZAploNkR4gvM4yzTZaMR51zDaw2w7lTGkrCOUkDp5Mis7RBHCkEjO9R55Pj8kVbJNEHv3CHP22O--RlOKeETzBeKtI7aj9rP5yRgiws7Y%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128154454798"
+  },
+  {
+   "title": "Danner Rivot TFX 8\" Tan NMT Composite Toe Boots Military Combat 51502 Mens 9 D",
+   "price": {
+    "raw": "$129.95",
+    "extracted": 129.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147658566197?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZECWXA92MZ1NRZZ6JQ&hash=item226122ea35%3Ag%3A%7EdEAAeSwfiFq5RY-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8gVj8Wb6QGfWX8Xz2zi5M2QKU0Sfl1AqnOy6Al%2Bvn6%2B2rfgNQi5oEj3h16PGQc7pUHPHib0Fru%2B%2BOo4yB50KQlUo12ayAzPd9I5%2B91OB%2Bn0nRZJTkLzGnWAxpTIivujYt17GHw3Ka%2Fm7tbtY4B64fozuZDckKH6lr8lKYzHQVivcsB5KExTmnZq1G%2F33iLxOqWzdiEfzc8LgEimaMXh1izqjIaSAA8O3LViDrLaKrTZ%2FFcArH3Wn2r4u0KATz5aI7PQe2QkzkqLiLTbiF33n0N%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147658566197"
+  },
+  {
+   "title": "Men's Danner Light Jones Canyon Brown Leather Gore-Tex Hiking Boots US 10 EE",
+   "price": {
+    "raw": "$249.99",
+    "extracted": 249.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227599973248?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZF51D12DCRDHJCZKCW&hash=item34fe03fb80%3Ag%3A1lAAAeSwfIxq7N7Q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8I0gTMZSrYL7fn9txrA2O0ndn8dyd8EB%2BHOJR3nSrc%2BAQuHGjZUX0iHYSemM9vQGu%2Fk%2B9brWWsnXWZxNNXvgvqJXAtFoqjdKckatriFb8KGcoC5i3c0ja8CWtsP0Dv3WqasgJp4aFr85Oq1R2zK9BLH8up32naQiM9wuOPYlRRVWIatgG55E0iuHL%2F1zeoBVwzrp%2BUedqSWztQyffCyObGaF9Njwal7HK9U6p9O7jpKOAsxK%2B9Gweo9SeZNK4zfUdiR%2BgJPArS0KnLMf6%2FaLYKlKjz%2BWtQy%2FH9%2FYWtGJnuzFdKlw2fRjh6LnR9Zp9goNE%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227599973248"
+  },
+  {
+   "title": "DANNER Forest Heights Piedmont Tan Laced Leather Chukka Ankle Boots Mens Sz 9",
+   "price": {
+    "raw": "$249.95",
+    "extracted": 249.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168338675723?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZFQWRQKB8H0QPBQDMP&hash=item2731c4580b%3Ag%3AqooAAOSwqsZnAHEU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BCxuCo3bfDGlTrmtLvuOEufMo5lu0fMpyWW4nYKppF%2FPJ5MHxSDcj0PPWNgks9WDL8i5WZFttuqiHaCFO%2BekrqwW3nN%2BYEYXzCNt2MLIajf7p7KQuq39bmvJWBuE03r26kG%2B3hVdqaDzf3giwc2VIiKud1T3LTWUC1uMXBnp%2FWws1zFJ27sB1ppFHWpjLgt57Qz%2F%2Br9Rdo0eIr5818o1SlCacKSMaTp1UKSfHTG0nP4UHoCM0ZuzdVXNscxdc66TU%2FtQ55BmpilJbReYeqNhvzrqNyg69YmjfJwYDAZMUR7v2rh53oUYaW7e%2FaafhOCjM%3D%7Ctkp%3ABk9SR_TPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168338675723"
+  },
+  {
+   "title": "Danner Combat Hiker 43513X Boots Mens 9.5 R Tan Leather Gore-Tex Vibram USA Made",
+   "price": {
+    "raw": "$136.00",
+    "extracted": 136.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398395615243?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZFAK6ZN1PE2QV2MVDK&hash=item5cc23aa80b%3Ag%3AvpgAAeSwdo1qqKlK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FX6FOlmtRKo8SGHbwAstgZ9egp8aJTR0YhmmSbQIeMJSXhHxnoEj3VMMnzHa0CMwtJwJNn9olJlSRaj3PsXinqPud13aaFytNHCuiSqpj6GuZwV36C4OwZ9aXQxhimldqdA8IZuDA2M%2FS%2FkPnA9PzkKNdheQGFCxu%2FCSa5%2B45jPboKWBxlsCWaOejqvlFbfSOqCzg0oZ5jZB4QnGHjjFrA2S47qJY7BXV2sy3GYRSUVT8rLWOqPHlXQaHMZUeI5tJ7FWPE9FCmwO7QQ1H59o55pTFRF3mAKgNxESS%2BvjHsTqbcGx3ZREVFTsT8zg9Ttuo%3D%7Ctkp%3ABk9SR_bPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398395615243"
+  },
+  {
+   "title": "Danner USMC Rat Temperate Boots 8\" 15660X Tan Leather Combat Men's Size 10.5 R",
+   "price": {
+    "raw": "$69.30",
+    "extracted": 69.3
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287484967328?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZFN83RFDCW91S0DWWR&hash=item42ef7079a0%3Ag%3A2hcAAeSwlOZqX4nM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BO0QRvnEGZglo3AgkchpzUfKmIQ2Nzquzjw3bc%2BVkKnS%2BDclhw2E%2BpsjgdRNflF1xWHCzWISC4cTAPCQCvDKh%2BJ79mHEyo9LSFvt1KYN8YJxrcPWbj%2F6uHF32vEraBwo5PfpPBc1mg0yzSwkYZ1daFt3TNU%2BruW6t2itH8tj%2FahrNVSjBxFYIDWqaM5S9D%2FWouvTcoCRAurTzkoINDvQiCqVbMVVHp0jmnHJC470wGcYIdiUez8XUPN7d%2FUsxz2wd0%2FQWzSzKozYiSer1xhEZp%7Ctkp%3ABk9SR_bPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287484967328"
+  },
+  {
+   "title": "Danner 453 GTX Dark Tan Green Hiking Boots Mens 9 D Waterproof Gore-Tex 45364",
+   "price": {
+    "raw": "$66.37",
+    "extracted": 66.37
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137852860414?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZF7AAWBB1ZEMWCRCW7&hash=item2018abb7fe%3Ag%3AQVIAAeSwNp5q1B37&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNnjPNHWclh4530MyekWrweAoy4ihWBtH7mR6rtmLSrwaABDpGzr%2FIJu1uEozFaBgT%2FnbiPf9XtKw8ipwTtumOqI8lB2tFZ%2BRxmbIQ1bPo3F%2FpQo8KCr5IyrGZW9fosbrGkwI5ESx8ZoxLY1k1igtg5%2FBoM9JoBV%2FDH8afk%2F44Y2X%2BrorM55rzmYg3xbaVseV0ipk%2BRaHz0POEGxClwiVjBJtJ0hpE3cELHk%2B4GhuoNlD47WXXpiaIUe3ExQoXorPAzHnij9W3j%2FIez8NSgFyp5Z1l7%2FHTJSsFo4moqCBG856O%2FTun%2BE%2FQwPumzRmbMqw%3D%7Ctkp%3ABk9SR_bPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137852860414"
+  },
+  {
+   "title": "Danner Radical Tan 30 37800 U.S. Men’s Size 8.5",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267538419494?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZGRVG20DJFQ3RGGZMZ&hash=item3e4a884f26%3Ag%3AEd0AAeSwNL5pYDgM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Ttux0w3aw5GVZLxOFufojVrc0up%2BFS7bcOq%2BAH7mLHx%2Fbrc6M3G1aR1ZGF%2BdQdtZJK5uY1QRJ2I2MR00OaG6NGFpCkWueY2Gs2Ao2EEpCU4573Sr8YWNdjgRzVvdLwA3k%2F3Jogj5ADejOYlw4yo3iLSaqXfmpvs8B3kDuTi19gWhIVcOCQRz8LCf41O%2BqaDXmBoMPRldnEaLIzBspFeEMEP1pbjS%2F0%2FAi%2FtR2mcLwewh7eyLOjFrya67zpaFlQSaM8Q%2BUhuia%2BEYFMn5AmTZ6lxGgxbDhmSbPnZZxJqHR2oyL%2Fl3lUrUaf1LfhYFEl34%3D%7Ctkp%3ABk9SR_bPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267538419494"
+  },
+  {
+   "title": "DANNER ICH 7\" DESERT TAN MILITARY BOOTS MEN'S 10 D Vibram Soles Made in USA",
+   "price": {
+    "raw": "$59.00",
+    "extracted": 59.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147665539090?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZG8KJ1C5B3B1PGH3FF&hash=item22618d5012%3Ag%3AMvQAAeSwsqtq6pVm&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8Ehk5mH63kMZ5Emu9Vou5Ig8G1XkyQhQYYBWb8Q33%2FlwJitzVTMPzDJ4BIRLk9dxISpbC012goaLgZDmVMYuujnJJNYNWp0YYeB%2FthnoavdcA3HEapbAoamvC1Y%2FdPviZmRo2t7uAzh6r0CkUp8r%2FJPEmNVgEzBuCaqP%2Bcb8YRD0M7FszJvFYsO8e7ElnW3II23%2BBKXGTCbnyMTlxhWMpjH%2FtZAA%2BEhSx4u4OtV6oDxdRIXei%2BT7dfQPVePdu90Cw%3D%7Ctkp%3ABk9SR_bPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147665539090"
+  },
+  {
+   "title": "Danner 9\" Elk Hunter 400G GTX Leather Hunting Boots Mens 9.5 EE USA Brown",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267832540405?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZGVAV0336G06CGNBRR&hash=item3e5c103cf5%3Ag%3Ah30AAeSwOXJq6lfl&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde93%2FpVdtQ2mYZliYWrKqKCxRrYr55bSNf2XsCQmavJeXjB%2BrTvXuEKl5h2sH%2B9pHaAtMAJXZtWcfLrypRF70E33vryXp1xKZl9%2FlFWN5Nrw7GL1uOTx04Mej1VpZIJjsbfhsTuqG39rOFlDYfzHY2SOh7SXw57ld%2FCP4BpzQDiHFG1lED%2Fei2fVqOTuAzRqHXhK5Jv9qHP8ZXfM5UMaz2Qw5thLVwq6ZWnKISDwE07riipoz3h2ztBIL2%2B2Y8IVQCa5bG3FRhThnrlwPiC6RC7xdKbgk0OdMfle0xyUQt3yow%3D%3D%7Ctkp%3ABk9SR_bPq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267832540405"
+  },
+  {
+   "title": "Vintage Danner Explorer Boots Mens 9 D Brown Leather Hiking USA Vibram Lug 45200",
+   "price": {
+    "raw": "$149.95",
+    "extracted": 149.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820301366038?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZGVWP19K2WSPJCG4TT&hash=itembefdc58316%3Ag%3AHm4AAeSw7LRq5o36&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BT2fZ3PwkDQsYjwgbWObyUTuixM%2F182kcd29f2POMHgoaSzxoS9Qk7wj0MGC6xmS8goHN7QN9WCVlOkaitwrD%2Fhie4XRhIgJ%2B9NqWt716Rl1%2BcKHz62%2FzU%2BcaC3IKH1nTMxihkNdD%2BRj81bwxkl4abqIW8IQzgfHGQN38jIgPOqpN3A5fTG0POSQgJkmvnwnwnTj1eKTwjKS3l1TR%2B%2FIk4Gd16R5PgTfomRWlvLXSlYjpjgd4d6C1hAerdcsmcudnaC9wY4TNGgR9L1%2F4Y%2FpUB0ouUifwl1iMGTaHR%2BAGKRcaPHLwdKE1dQRMVe4EGOSE%3D%7Ctkp%3ABFBM9s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820301366038"
+  },
+  {
+   "title": "Danner Rivot TFX 8\" Coyote Military Boots Size 7 1/2 USA",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227601841299?_skw=Danner+leather+boots+tan&itmmeta=01M6T8AWZGMKR6JBDMWGAGP5NB&hash=item34fe207c93%3Ag%3A-QwAAeSwX-1q7i0Z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8covd2WU7hW6AZSVgADmKzAHWbcIsHaSrNZ0G3B%2BE0LfQp3KKIGxa2ULLV90KaWSFAaCMVhPy70UHovqiZFD3XO7ZODahfAsOdUTWEFlyjfWSZhtWv3fFem5ueYAlC9202j6CvBqlqHrbIhk232PLRjRXPB6DyVtapLvCIEF%2BR6rOTgSrDKNYloB%2Fi4NXPjiM5dVgE3eWdygqjGbR0gPPzQ%2FowdQNihIzIU4g0kFC2n5yqqvuqe0ZJXs1K9OTQIc8isIVKK0M5MSj5gkt6cAQm9R7QbU0PayuQtP7V8vcLWvLp4qTwJtrmiTWxZhROpsk%3D%7Ctkp%3ABFBM9s-ryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227601841299"
+  }
+ ]
+}

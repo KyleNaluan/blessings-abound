@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Patagonia",
+    "product": "quilted jacket",
+    "visible_text": "Patagonia",
+    "search_query": "Patagonia men's orange quilted jacket",
+    "model_confidence": "high",
+    "color": "orange",
+    "material": "nylon",
+    "exact_model": null,
+    "platform": null
+  }
+}

@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Levi's vintage blue jeans",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 230000,
+ "organic_results": [
+  {
+   "title": "Levi's 501 Button Fly Jeans Women 1980s Vintage Blue Size 27x30",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237168394368?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZCA4G6BDYQBBZ3Q5E0&hash=item3738568080%3Ag%3A1ewAAeSwGG1q7moJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bsq1LzUprGOkbcFcwhOrA1tsyzOaCg%2FQ3Ie1xHODdlOXRGjPhpmF%2BnKfPSZEArmhmVNiCKxuCr2r52pNTWdzIsx2CblebFWwZjBv4qLRflcLsL8ZLkgL%2Felpn73LCkpXydlONVCQD3yXzEarqBEcCYAgITj9ytZrblqVX8FfntVz2gaJ7EQI3MECTx0Zm2%2BdEKIWcDz4l%2FSxVWQdoxlqVPfbYFUG44Pxr%2FZKEKSGZoiPZxeDs9TH81saCDvVbXhJ7iMqbODGhwVHU4xanHP1%2BbFTnMi5YjaBx4B76z1AvlON%2B9v%2FsNtv5cvP9GrGwtIgs%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237168394368"
+  },
+  {
+   "title": "Vintage Levi’s Orange Tab Men’s Denim Blue Jeans 1980’s Size 34x31 Medium Wash",
+   "price": {
+    "raw": "$37.50",
+    "extracted": 37.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840014705906?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZCT596B52BAYBWHDPA&hash=itemc394c734f2%3Ag%3AmQwAAeSwKFhpszNF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9CHWff5fWAgoyaoAJYjn2JLSHpyEoFiIa7S1pGZYhhsHCC38ZJy6xACHJPj7l6ZgT8tHyBYI8WiaGbZ50FdSAanWOrN5i9RoL6trNDiNzMGyBmu7GFd%2F5ZaoAzgve%2BFChLNInppARDg5OvCN%2BEZ4VvfwPhjkD9J8X%2BRIQMpCx3V2FBxYoYe4GXhpNhIkxOMqi%2FbSDW5preXyAm%2FAM%2B0nroQ73LAtrs4nOYliq8dMVGIO1wyrUBJ5cFCRevXRxWFL37WTM4HlYvENUuEE8Vl7CkCNz3RaYyF2k0TG3ftSqS3BI%2BDifvrwAuWA7rp%2FpVFFE%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840014705906"
+  },
+  {
+   "title": "Vintage Levi’s 505 Jeans Men’s 34x30 Blue Straight Leg Whisker 505-0216 USA 90s",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287698013332?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZCEC35JKPDYT45GY1Z&hash=item42fc234c94%3Ag%3APf0AAeSww8Fqu2zC&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8ORsZa6n1JrBMYxpkYUFIMXFYHVBiTeprLK6drY29FUQRS4RNypuGMenVpYsXbCypycZFFcm6k%2BEpn9O7vFxHoHiw%2BN9Ln%2BzinU3owReFTPxkItydJ%2FWRlb63Z54gRlPUz58b7FczaNji3AUiLUZFbcFDNjCmqyv4QrAK0Z9OGAI%2BfpgplQgWtzVM7csanspRTs%2BoyfKFxwfVK1Az2I4Ujjj1Ef03Th8Rb20uSMMlPvwXSDi7y%2FZwD2NMzRpdheAWrLMcLZcu4Oub2X49hsIirPPF%2BP8P5dkUwkFol7MYDJw%3D%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287698013332"
+  },
+  {
+   "title": "Vintage Levi’s 550 Relaxed Fit Jeans Size 33x30 Brown Made In USA",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237162335384?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZD42JQ761E654WMGME&hash=item3737fa0c98%3Ag%3A2GYAAeSw0KJq6tTf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8iI3MF3vgH98%2FPwEaBAqkOn%2Fn%2BAl6IzBWLXGFQminx6e81JKD%2FH70yU%2BW8%2FJqCRoReEOy1Lo%2B7xniwvS%2FFMOZwOx89A12N2AUeUdgNjjW%2FVz8uvHTbR6Ppmvkn7XrfbnA728T46Mjj4EWwV%2Bx8G5a5E%2BAl5yIzP7KtIlrtW6B6QLCb2mFlAEnMkD5IN7aIz%2FeOXxxJZKlGkcR7gMzFPhNUMHomyowCRa2XZrRsLvjkhCBqOq55xZTvfEuqeGVokrW%2FDmbWTvVeRyt%2B2VVh1JI8%2BW%2BloEWqygdn3ih0I%2BD6jwzAFaaaPKvDrkjnkj35U7g%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237162335384"
+  },
+  {
+   "title": "Vintage Levi's 501xx Jeans Men 34x36 Made in USA Gray Button Fly",
+   "price": {
+    "raw": "$47.00",
+    "extracted": 47.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267836149865?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZD4H7BRN3K25NBBQ4B&hash=item3e5c475069%3Ag%3AMEYAAeSw6Wpq7rPk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde849Y2XFS0JnXFBQgcxxDOZJotewRiN2J3aFg6boLbQ0Mhe1cpnJjus7--WgXYgmFG6Ft%2FHZksOKKQ4g7vI4TWIW18bH8hcoV%2BHIasuAg36qvHX0x7txxo209N65uBcixF9399tz4umDbNpYEyfFNMhvWDXfJOhK%2Bks7uTZbaS%2Flb3TRi%2BWyXJN02qY9WDbChGXg7iWk8bjVqS70i1BGgyBpDUIxKDexNRZRPRoiA5itkkH5fHtp0wG9Xownyf7NA288DrTzAKH%2BdbEO%2BjbiveK%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267836149865"
+  },
+  {
+   "title": "Vintage 1987 Levi's 505 Men's Regular Fit Straight Light Wash Blue Jeans W33 L32",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327443987051?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDMZ7FTF2GRJKXFRMD&hash=item4c3d2eba6b%3Ag%3A5KsAAeSw9RFq7pEu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fp6VHue9iezbhRrkcCF%2BZB5PRf6i9P45ufECdYAZy8l%2BsK5YK%2BH81TbGWd0kEIKS7bZSEBz7PX0dnOstUvVLI8Nn%2BHRb2j158Q3%2BDaXgEwud8xJIb%2F6JzHmGqi%2FcY%2Bx4gLgLdVAIcESyGiBGl12Et34WLg3%2FShHk53KtebkK9dtBLHPm3WKLfOzpur7TvUx%2FZA4FIqLpP%2Bc9To4lSGLmK4cflzctMCS%2FwLr43Zf7HuQri8av8hJ%2B8t5ilDvrR7jzUC9ttEwls3mnBh0qFAqtdG0wjfeGCBn4XsO25OxFzFcenZ8zZxQAgKJNcKP9V8SFw%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327443987051"
+  },
+  {
+   "title": "Levi's Women's Jeans Vintage Y2K 512",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307270628003?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDY60W1F9A4SV33JFY&hash=item478ac1b2a3%3Ag%3A3mQAAeSw7ltq7n1V&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8VjDD1JeBurKVKS%2FYyJW7vtmibggi86oVWU4izuehGtq6LtFG%2BKSIOAsX3jtgd3RF3iEciLg2YNXGq05OkI0oD5Mn0jchCr9tvJf6tPOce07jk0jPO%2BnfliPJGQW31WxnRKRydlpJ%2FoZ4fFAZ53uMfDPRYd6ak0LmnYbY9WZbmDlCjLq%2FhpRcH94%2FDixUpyc13MnEHqDlqB5rZR%2BsqQlEIdf%2ByWFjDMtMSFUMZZ5EPVUWhGPlHNdgYWQCVe6eH8Xo5KWeQWwOAgI6NjfmUp4x0vH9u71dNB6P0lglwob0KEgpyfzQbB6Ycu4btx%2FDQHw4%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307270628003"
+  },
+  {
+   "title": "90s Vintage Levi's 514 Jeans Mens 30x30 Blue Slim Fit Straight reserved for Cup",
+   "price": {
+    "raw": "$28.00",
+    "extracted": 28.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860120834964?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDW93QQ1VRRMEFT0NF&hash=itemc843326394%3Ag%3ATGEAAeSw%7E21q7Poe&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9xo0JzUFphKy2--aax9o%2BFU3Hluy%2BpIZKEruyhcIFwbei9%2FQuqYx6BQRI%2FsLms2A2nodkhnn4gMZ93VLMxBmOKm%2F95jTy7i6tW38%2B%2BdF6lvjYOGy%2FLiNjz4uHIBxQnU9QYAsQR2w0eOvPipRq8gkj4wLbAFPdAthxHKVf8KlBSKWstxv%2BZ%2FDI9pGyWcLQ0IvCodWohn2gAcbyQD6Wig1tqJh21cImAcxwOoZy%2FyOvn6LkPc8k8v5hdIEVBStheotRClYxtlNiMBbp6Zg0dwuRSeN6cOcl3WJR%2B04rr%2Fq3EXrbdFijTgnAr9lcusQgNevk%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860120834964"
+  },
+  {
+   "title": "Levi Strauss & Co Denim Jeans Blue Straight Fit Men's Vintage Y2K Wash",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366791294549?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDTKGMXNRRKXTTJ58C&hash=item556676fe55%3Ag%3AyYkAAeSwA7Bq7l6K&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FE4jNRvnoTdGilVHKaxPV%2BX7nsywJwFHm2C98Rn845GbkhhDjwV6Dx2Ua924CFkArFc96wBPEFM4NFZVSbbWwAmkvDo%2Fv6YcKSRpl3k%2BN%2FWirm%2Fo6Qm9Xhbj4ibvh%2BRw856PdQ4P0RvAX9Rl%2BGgtuFFADIBhYQpt104ZMDeI6921DWxovfkhef5251haaLMAKq2vYWY%2BpUh1kfh%2FsPCXrolILjBr%2BMtlmUAnoqX1peDtzKwaKtVt4AOKRIR%2BYqeZ8yfAOzWRVj5RtqlhXAkM0IdoL8%2BGPg6SXynv%2FMVutL0jrIhFwrD%2BvYlcsbPLkIKi0%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366791294549"
+  },
+  {
+   "title": "Vintage Levis 501 Made in USA Tan Denim Straight Leg Jeans Mens",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227602311818?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDGXC389PY0KZ302K9&hash=item34fe27aa8a%3Ag%3AP9wAAeSwRglq7qre&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9ZROFqokpK%2FxIbCFq73p8f7BA5vLfP%2FMToyPl8HraK809%2BMN3HSsdhA0qFKHcp4gPWvy1s8Q9gnSoGBKU8qIN7GiKmQ%2FPzbwtUC32AMD%2BTYU5R%2FhYWV2iHkBh6P6%2F8uh73v%2FX3jYs6%2F84UiODMStF9dVw%2FmkmroUEjolEq6ncHVBY4KQqe0iVBTABgGL0p13maSC%2B0RDVGMGoH9eIl0lCeOuZB%2BtvJkUN4huD02Ud%2BotGpnBhUdQB8e9UnDmR6WiagTfnhPHmnKwQYqNv4UWBu%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227602311818"
+  },
+  {
+   "title": "Vintage Levi's 505 Men's Denim Straight Jeans W34 L32 circa 2000s with call outs",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327443991798?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDQV1XRV8EQ2QQ3Q3X&hash=item4c3d2eccf6%3Ag%3A9GEAAeSwSk1q7pJ2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9XVqgAlgEZp%2BqeCuaqLJt8SiDysnjKgY6o1itxJDz2i8EnpDpCJkgdIprstTPR0NB5LYFb3VNyjNpST7VggSKuWQ9EajAsuS8rce2lwXsaP6VqutW7pPWf92%2FXfhwPiOfkvum9uIXQZyHzagDF9gNdVDDA9ASJ4oG2S7Y6kC1OrDh0Wirj%2Byo6%2BFVBTzuZl%2Bi8jghg%2FYwlQ34EV5TxuC7Kcm9mfc79YaG6YHkH9eKvLwEpn%2BBTg9UwBV3kmWGEkD1thVOENIEOk3bczCnNfxakJjPAA2vds%2BBjKdbUR%2BlMSlrKemcrQe3NtjUrH1EHQX4%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327443991798"
+  },
+  {
+   "title": "Vintage Levis 501 Made in USA Grey Wash Straight Leg Jeans W29 L30",
+   "price": {
+    "raw": "$46.00",
+    "extracted": 46.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227602294269?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDJ6YWPNPHD7KZY7E6&hash=item34fe2765fd%3Ag%3AD7gAAeSwl3Fq7qYc&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8bOS8MDq1aGCkxJZqnkr0fNl2jFhuI8zXWGDUsXLUrIxiRKb%2F9sW8UJzkJd%2BpABnoeJRmo10ovhyxYPuTW6gPRKN2K0q2pMcHMqe3TA9Bf4zor0ODqJhBA%2FT34aT6ML8enSjklg27x5xUtzui3zuEvsEl7QQ2Dq%2BQ86HHbvhFWWu6NvHKqYGmVz9gB4%2FOX9bhG2uVfsoT4OcvVeSK%2BnUkq893xJhSyFUc6AX%2B9uzJP3wS1yXaA0d2w5yJLETL25O8rpl0SKtgaL87UBxldPVw3%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227602294269"
+  },
+  {
+   "title": "Vintage Levi's 517 Jeans Mens 36x32 Blue Med Wash Regular Bootcut Denim USA",
+   "price": {
+    "raw": "$42.99",
+    "extracted": 42.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327443221467?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDE7G7VR4VKN527Q2W&hash=item4c3d230bdb%3Ag%3A2bcAAeSwS5hqqXS-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8wwUjKt6WJhc1SQH1IpsRR7Xgkcj3MmXHsKf5izaZT6f6B%2BNd1Hvh%2FYs4BqrNpFLYsMqiZQtLGRVsiju%2BLD8lohGtgSHgQxDsW%2Fn1EHnjYF5rdWCvFOrzpChZCbUb0KvoIR49gn3hEyUyyOHtE6ljQzA0dIckUiUFIAgrt5Fu2JA3Yz0s3ytaGlD8%2BvVlwBmoeFMTKC5K8grwIZ%2F5tnfwYeG%2B5sdc4CKf8RONJvSXFsnZSIC4BqZM%2BBq%2B7kucKmP1fJjaAnMHwiaPpNknmJE7O5aQ0P3Agzjb6qZgJrOlZ6uD2gYsR%2F9uzxc0yqYqZKF8%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327443221467"
+  },
+  {
+   "title": "Vintage Red Tag Levi's 550 Relaxed Fit Jeans Size 30x34 Y2K 90s",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800887517588?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDJX9384X9TYMGDKNS&hash=itemba789db194%3Ag%3AsLsAAeSwfGRq7qRZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Ja9maV8xmFlMSzwErAFZgVk57WfWWW1AOK7MUZhpkUnVEBKJzzX4tgMJC2ZVeY6TVa6VEykyzOkQluOoymN4ll7YghCNsqHlHCYmQtr2iRxgPmlEhoVd2T%2FA47kOftTl3MffD9crZP2PsCxO3QTk4gglmsdJSjgeQSpwJIVOzXRdtsotnGlmAmOvkirNd29cx8i%2FEevlJQAVJTcJxMn7mD2RZPrdmi8XaJ4O%2FNXHhyfDh3g7fzRGx9qWNcqTS%2B%2FFIs31MTsTElxEMonzfbQujj5amlsEBRiNC%2BMUXKPQKhSNlpC7U461zxmBM%2FaVUcsc%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800887517588"
+  },
+  {
+   "title": "Vintage Levi's 501 Blue Dye Jeans Men's 32x32 Tagged 32x34 Mexico",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920094749944?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDWZZWQ7D2PMA48GNM&hash=itemd639ebb4f8%3Ag%3AvjEAAeSwt1Zq1UaN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FuZx7id%2Fm5vRyLBCN93acipdHKB9eyU1F1R7CGZfeTKSj5IVzQH5GEo6FvIW%2Fcdefz0GqzFt8bkVj4rY0NsTZnTvaK7k%2BSf%2BUY%2F0gVv1alqe9T4EvDNP2GMuC4v4i9NxIwlA0bc%2BD7JbUhPPyiRgfLI4mzthC6DccclVmc%2BL19sCejd6CwcrnXp1jqYyyuLMW7WOTZylJfXeLkOR9VkRBDNKvtQGPxVWCJ7wHSXIyd35phpguYx6pSHvOfxyqWOSmOgd%2FDDGFRr3VmYEycsRDHsBb2SGRHQHfy71QhVK%2BBgj2SK%2Bt0pFKxiFhsvKMOlvc%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920094749944"
+  },
+  {
+   "title": "Levi’s Vintage 550 Teen Relaxed Tapered Blue Jeans 9 Lng Mid Rise Light Wash",
+   "price": {
+    "raw": "$22.00",
+    "extracted": 22.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128025059064?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZDPZ0HY2EK2DKXA2ZW&hash=item1dcee35ef8%3Ag%3AJBsAAeSwtqtqfgGC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9qQoowmeCpz%2FpRbm%2FRg22yQ7aYogM5XMWFifsF93bx1E2RzYf%2FrmGUJdD7k23QnwoK3EGdaxL00RmGA8C4ZK0dAulJxNih4LxhpKylz%2BLVg9cWVnDfAI6LosA5lJ53oUmAlkiM0KeC3OFSKUVHRS0SUJ77lHahy1Y500%2BWx5NLWau7JWR8vcTyb0fOl8426k5VBUEkLrDOgG3SGTEoyz7gPQNZpJVBscNU%2BncQ%2BpQNIWSwhECHlOSpqyYY3I5d4hjrYioAvptfqRKxYW4gso30f34%2FzCyhk5QSE3vAIbim8UBbkshemcUBn%2FV3HNLi0z8%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128025059064"
+  },
+  {
+   "title": "Vintage Levi's 501 Blue Straight Leg Jeans W28 L32",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327443992976?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZEFRCAH4JY7V1PMHDM&hash=item4c3d2ed190%3Ag%3A56kAAeSwPWJq7pRm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde90SDH4bzs%2BoDt0jTUbXDVmGJExVltXkATk0NJ%2B2LGqdCVbu7s6JYj8cg0Mc2C8o39%2BfTfPWeN5rJz1TmDagSyDFiCTbq6bAdepPcN%2B2VN5%2FFwM6Q21Ea7KuudgScuaMupTwmu8WKFgEafqlf2NDx%2BY5VxKilis6bmDcBOmTwOC%2B254BnYbD5YzMJb%2FEAgvMJ4vQIMNhUHaCGenZBsDTImPcbmgoGOoBniPAvtadU58EO25ACX6CVZCueJjPWaDIpEWA9cIrcqcEqi4FpOPvsANT1QzRGQqfj6UGE53a2ajQBt7MRxeJLyakvMgR61sfbk%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327443992976"
+  },
+  {
+   "title": "Levi's 501 Vintage Light Wash Blue Denim Jeans Men's 32x31 Straight Button",
+   "price": {
+    "raw": "$105.00",
+    "extracted": 105.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307270693144?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZEX73EGTZQ806VAN0A&hash=item478ac2b118%3Ag%3AZ08AAeSw%7En1q7osK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9pNf76XO%2BykBpBEYwH%2Bl68ZjewM%2B8ZyufuVflSi8J2U3%2FhoNE4dvNrrZBov98tAJHUCwGpdcPHtW9Z%2BMMUen6zljh%2FlOHn8zc6GofupNzFa%2B5CZnN5AigMNCqR7WgcJt8L3hgnshMXXZ%2BEIoRyZDg0t0E2p3U2fvGtDhGRnFv4nsLAjt%2FKlmRFagag8kXWEl%2FuuE5J%2BsLty35%2BIosb%2FkZHSvxIaHSOii7cfmYEQhaOas2kIwm6KnP8YvlRfim5gfsR9wFvQ8MUCM3xPBPiGEMX%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307270693144"
+  },
+  {
+   "title": "Vintage 80s Levi's Japan 501ZXX Redline Selvedge Pre LVC Straight Jeans Mens W30",
+   "price": {
+    "raw": "$402.31",
+    "extracted": 402.31
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345698427?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZE0XCDBZP05VMBCF41&hash=item5ed7b2167b%3Ag%3ADhwAAeSw62Jq7nba&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BMmB2lqyBvsVsCq8puedgLZVzcUmUu9OR3Zdq%2FSomL99ivXoiLCXa%2BUlEXkjGIR1sZFepGFteUb8yMyBLUiM77B1h5mWKkPjjkMJARAOI%2FzTzTDbVpVKohca1I47BiZIb2MY0MpySn6W50nJp1AID%2BXFtJR9%2FRYZmj6OdQRZ5do%2FInzxx4fs%2FhyvwTCKs1vlWYSdGHAYN9axdl3i%2Bpe89lnbVk04CVoUo0t9XP8K6HFJ8Ye6qomkRv71Fq8l0V3Wt3p26qSLaDPmpDCLvmsaOfFH4wLN2F17%2FnjSyILjazZNgqzQT%2BntsZXtnctZ9y6vU%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345698427"
+  },
+  {
+   "title": "VTG Levis 550 Jeans Womens 9/27 Short Light Wash Tapered Relaxed Fit Made In USA",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960164007109?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZEXC0M5367M1QHNKFW&hash=itemdf8e3c0cc5%3Ag%3ADeIAAeSwwDFq7l%7Ex&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9zLxTMaf7jMaoOfkqcSsU%2B5mimzi5%2BkkJQpubWEEWbu%2BMvtMcdHBqFQPqyRrRAW9V4hDDtX7MG67GwFkezVS16ajR0kHYJ0IEq78pFIsqUaS33PKFgKZZjLF%2B8AShROwGUYiQ%2BvRKcdPJmmlQ2WVZpcELjDJQzAgpkTlFbmaakbI4XC9Iy6wEvGJDh7Vvkhx4JhVMbQGoJYQ2XxydCIPb%2FYc8sDIbchNONujjV5taPmQ6WDeSZGhQgNV%2Fxw1e%2F%2BTt69RmbRJ56%2FdGFsaDoyaSFEVnopcFFM77yp67fMlB5M4yVen--xmW%2Be7obUkqDR04%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960164007109"
+  },
+  {
+   "title": "Vintage Levis 517 Bootcut Flare Jeans Mens Light Wash Distressed Denim Y2K",
+   "price": {
+    "raw": "$38.00",
+    "extracted": 38.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227602304354?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZE5GP45EF6X0ZN90RQ&hash=item34fe278d62%3Ag%3AN8AAAeSw5qRq7qh7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2By58YPl9LLrlgHvLTkbutBTPCcuEvmGKPrm360%2FKybG7CR9fXPMl6Tm9sUYLXOgxLIUVrrsQaX7YYzJIxr3tim5XeGg2choHfIxrBCbQT3JLZNdozilhnz%2F1KEiv4eN51qqJEaf%2ByJi35BLqSN4C8Tx4gbaLc8XeNQKNrvxeUB4HkpPdAybrtXc1hVZT5lv3Zh%2FJ7TjzaBTHVDgfGezbs0GfQpksQ3WKPub3G3vLB9%2FUR%2FuSC0INSugz4avoZwPZivk8cX4G6UVRM8m3RJCHYIpr%2FPVAvVk02OgFc9wNMNR6ItbBokWMR7fdTSJ--aHAE%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227602304354"
+  },
+  {
+   "title": "Vintage Levi's 512 Women's Jeans – 26x28 – Medium Wash – Altered Waist",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168844331048?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZEEGERE8XJ7BF0189R&hash=item274fe80828%3Ag%3AijMAAeSwr8Bq7mTd&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BfkL675XvXF3fDGywG70aFSOBvey7iB%2FOvkA8gLN0R4Hnxp%2FHr8%2Fs9IT35uicAy7qsF8wtlKPqS05mJTxzOKK4jxKemA75wVeSq1gSthvhlh23bmNRNkPUbHD5CpuraTYan2j7Znbf%2FeHzf0--p6RDwtzZgK4UcIOJylJUr0fee04iUbUs8wMwhNPNxdD846GG%2FOylIpcfYN8UoO7D%2FxmO9YHe3%2BJvrBqS1DU%2F6EfkoCVWPaCjj3nLgY9W%2Fwb%2BF16NP0JNP833JsdPSyG6UZXN%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168844331048"
+  },
+  {
+   "title": "Vintage 2000s Levi's 501 Men's Straight Leg Denim Jeans W32 L34 with call outs",
+   "price": {
+    "raw": "$19.00",
+    "extracted": 19.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327444003424?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZETWGZMGB5Y8RCGA09&hash=item4c3d2efa60%3Ag%3AgDsAAeSw4TFq7pab&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FhJJvvgLalqRKc6qIY1YlG9g4rapajc%2B%2FDExEyn0KlMNTHqueAjIzK95uj2qqiSAUFQkm68Zv9HbGZbNHjTOwdoN8RhN8e1A%2FHuBRy6n4RoiMnYX0VsU%2F3qslHlupKcA153kzBql1z06G%2FLXQ51NkunAto3SPjTHZBpufkjP0FDs0Bt3tyNRbHUdl6B5RigqoplbxZF0e4aKAyIW6vNmrwI4JW4MHXzLb9VLEMp4qRyf--4Whblmxns84eYLW9o6PUP2kiB%2FVyOF1V55IkTOzmBp0jrNzV7farUCs4mE%2FuvAY8XwBrPERtGNqtKAZIBcI%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327444003424"
+  },
+  {
+   "title": "Levis 550 Jeans Mens 36x34 Blue Relaxed Fit Dark Wash Denim",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128180417820?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZE7BQF1BZZK130HF4N&hash=item1dd825f51c%3Ag%3AuxoAAeSw-hpq7rCR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde893zg7DCplG36hi5XcrHMJs50yKWU1GaYisFewwpH1ZT21QkcZ3RcHTvRxbJJeEvoVmHBXDVi54mnEq%2FZHSF5l0uyJz4se1sAHmC5ypu8uLjSepWBwaCDDskfXM68xFwBOVnFUq16Zoh%2FEji4QN5BKtGSykVryYjFQNC7BTbbgSVZ05%2B2hAbErebNVH%2FCn5ghh2ZFIGjUQCj2gDFMlACRj8pkbipSaqHfz9xmxYvp0Kf2lYMeVUQFnXsQv9oVlEu4U5gJsk3TqmSG6x34ml1kQ%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128180417820"
+  },
+  {
+   "title": "mens vintage levis 501 jeans",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366791308179?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZEXQ4MRT3SJNMZ5CET&hash=item5566773393%3Ag%3Aqf8AAeSw-%7E1q7l7P&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ET%2FnuW8V%2BCNi00vuZa%2FVo1i14zJ9hW2xt2QPEZnE%2FXFNY2Fn%2Btp1roNl%2Fqd%2Fl%2FOe5ya4MN8lrGU2o641br9E5aEUukB1ZMUTFukYDLjhSBRLERtdmn7rTfLTXBGR9fKo1Imr4%2F6o4YfK5JReiKcsrqSgpZbXrbWiuAddBH0i%2Fn5v%2ByGBBenAUohJ98Bvj3KUDykSBykGQrrz2jSVA3rIgA871yRqGgg9LyQr1b9HSoKZzly8Mxol5ee7psJ%2BsIird6%2FfEdBRMNUD1Tvepu1%2FDcVmfidXAkCkY6hVbTFoXPs07mKfJNu33UB6UfmtuIzQ%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366791308179"
+  },
+  {
+   "title": "Vintage Levi’s 501 xx Blue Jeans MiUSA 32 X 29 501xx",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257816325003?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZEP4KXHK8XVS75NRS3&hash=item3c070ceb8b%3Ag%3AdJQAAeSwMtBqQERY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BmSk7FCQfJhVCG%2FDuwOTaRuDkwOsPUBsl2ltU323OWtor2RgurCO3BdUYrshIJVamIhq8Y7PQYNvdPa5mC134jwZ2qxscgJ80ko7%2BQlgf%2FiceqcawHekNW0QLw23dp4r82lzQHVCn8OoV2xEPJQZhKSF06D19CI8SMg%2FLdz%2B0twcVW%2F2LiAqjeZvc2ziyMePZ34r2ZHvAdSoBmE2xWNqzfxoLrh0uRpbHvbEWfgvCcH6KTx5uSfoaTlwxP8M7yC67IJtGmv1503YLglJN%2Bn5D9sySXStD4zSrr2FTdOOKEZlR%2FSEELH6nhKXaxfqjJQ7A%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257816325003"
+  },
+  {
+   "title": "Vintage Levi’s 501 Jeans 29x27 Blue Jeans 90s Medium Wash Levi’s 501 Unisex",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237134552466?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZEWPAA6M97HW0WTE6K&hash=item3736521d92%3Ag%3Atj8AAeSw2rZqhiCE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F8gEtAOOnUEaq3DmS6GBVqyTtQzuww6PkyPNH3tLdAVmxrYQk%2B8nurRSB9jLF%2FfP%2FZX6y%2BnCRF%2FjyLLPvnv5%2BrOo8h9jdWCibV%2FBhZAwbTEi6dHL9agUs8MlLFjhN5LMXKrzsFW7oQkENcEC8UpyKDusco3sS5lTsIiPbdkD0PlsDERYAK4inU3Ih47zuwVoCaB22VNCNDwvMOnQBI%2BwDPYcPc50WvnvTFpxvuNYLj9nqskgt2gAGRb97QUgu5RGzryX1HEQgihapY%2Bd91NAltyWUZFy9dSlneyq4%2FZvqMWZEMQt8eEyWlmncIFazJYgw%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237134552466"
+  },
+  {
+   "title": "Vintage Levi's 549 Two Horse Brand Blue Jeans Mens 35x29 USA 80s Leather Tab",
+   "price": {
+    "raw": "$24.20",
+    "extracted": 24.2
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800887440543?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZERQQW0K7G2H6S6Z23&hash=itemba789c849f%3Ag%3AIXEAAOSwb6tnl%7E3R&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F0GPP21tL4Zci7CLj%2BUZTpJgqnj9PjkNw3ij3EkcnU87N8WKnrGswGEjTAlfV%2F7ENaqq5Lbn3a9SsBmiY2aJQMV6jrULXPlOIoFT9cWrUMgr46m9Kbz%2FaAKD9uIzM4TDeAZGUsZMbPMtlEX8mucz%2BYGzyULZkj6UoAWZgMm2x7fqvwRW4gj3Z5avIuBIsGHFEWna%2FA%2BmzteGwJ7ScLDu5xyXuLRnf9jySHAje3Wuhb24fcKi3OJDL81gRPRTVqSjxQT9X3DWNuNIlSRdNjAnbK%2FnsVY99iQWGrYUeQ3BDmVvFzoTfnpcZqp8n1BiicFdw%3D%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800887440543"
+  },
+  {
+   "title": "Levi's 505 Jeans Mens 36x31 Blue Vintage Orange Tab Straight Leg 90s",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407122924433?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZEC39Q4CDDH3MM0MYG&hash=item5eca6ad391%3Ag%3ApCkAAeSwE55qc4zO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F2WdkgL3pII9rkO4Ul7ZmSo2qaavzOPOCV4HMn2SaeGuQgU8Ro0%2Fa9OkGwNc5eSgC%2FwwAAG%2BUgbXjXraGyzqAw1eT9QuF7DAghUpbsn8MSk%2FlLl0lWpN5QoyTQN%2Fv5%2B%2FQpkxOckE2FvUiaJUjSXY4iNfPTj0ozTXaXv51llU2uhjxg2g%2BLZSRRdQhpZVDvgqWCEHgvL9xa8YuC35KRyinJim3zuagklcXUh1Bdh%2BUez5PGyQJIx54EOxdGzbyDiiZHdIHPjOFWlB8v5DOjEeid8nPSh2TEtaV5VRkW%2BI7zw5ondxLbDm2KvGHxCXI2xDg%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407122924433"
+  },
+  {
+   "title": "Levi's 505 Men's Vintage Blue Jeans Cotton Blend Classic Five-Pocket SZ 34/34",
+   "price": {
+    "raw": "$39.95",
+    "extracted": 39.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336836824013?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZEN4YP09C5J4B5SFQT&hash=item4e6d0a0bcd%3Ag%3ArcQAAeSwk3lqeKtJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8zoXmW1cjL%2BVG6%2BoPZeCX5JSiM0ZFA89N0rkcpYScyEuBg7cDLEojfngrnLSmf%2BFnNV7UZLON5jEqPYA4EkhLP7zUBaPpa5QpAolJ1BIuhG%2FaCXT3tIh%2FQa0c5OC6ajPxy4dY93C4nBUuhyS52wqxkVEJ4ULNKX1Cb%2F4rk4k843x4%2F8yeqJXWxwQyW56XZ6%2Bf8mmxXNdDwnOjdy8UpdkRiFwfsjLjPPQCV3Y4k%2B4loovXivGQ5%2BrJik%2Fs1i5BA0OXNo4JZ3qt7oTqKj9lGgn93VVJpoNQw3uTgaowUgjhrMqO41ou8rD11ePsAx2uZTQQ%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336836824013"
+  },
+  {
+   "title": "LEVI'S Vintage blue cotton retro style Straight Fit Jeans 32x34 (actual 32x32)",
+   "price": {
+    "raw": "$21.66",
+    "extracted": 21.66
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377064435661?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZERHYS0QC5EP6BPSN8&hash=item57cacaafcd%3Ag%3AWs8AAOSwNxJnv01s&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8jA8FxXcmKJ%2FzYjqbA7mMq86DpRI9DqjUY1YfDln6usMRGUuiy6khDq0yKF14Utt92DZ7mBxmkPGvdagrXvMfjMLf8Sjt5wUIHickeGQZvxnSNGfKaWOvkamw9QKvxnUE%2FYxOGay6%2BRBGiTQHlVZGDc71AmxcZzUr0BIZfWJdTEuoI5Udd4uAsxxMdURHn9KN16gKRVikIMLUFAwnCTQLCtzzdIJsYlBfEuLkDX0TcoUBnkVyRp05%2F1Xdd27nH7zsaB9pbO17N6av2tYz4NRV5Nopu%2BP72kbm8wX%2FHMkXnTosghtIw%2FcfyjcuhxWsqs0s%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377064435661"
+  },
+  {
+   "title": "Vintage Levi’s 505 Jeans Actual Size 28x27 Regular Fit Straight Leg Black",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137908959349?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZF0TNCF1YP7S4GXVKP&hash=item201c03b875%3Ag%3A1LwAAeSwZbpq7lUK&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BADbag3A9M%2Fca1xHsspm0TQK%2FhY4ueiZx5PjU4WVm8Mb0VpBVEfzjGX7wfGmOXYgfe2w4dLB4x1oOIpCAabEoy%2Bn4Ytk1jNzaEETJwxcZUoo5StmAS3Xe0AgrDHmhBFWHyUcL2mb68Y5Uihh%2F797WCppJ5ZcQG3a0qclaydM4OmeIj9ho4DbLqBn16E8w2Ex5SH4BjBsR5zdMfXbw47XUXASECw7WgT4UEyYjS2bPlTx3t8ttIKfV1H9vzV5elil%2B0AI2sYDnxCreGL%2FTj4lOLK08IW2F70V7VgEYfBftzRg%3D%3D%7Ctkp%3ABFBM7s-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137908959349"
+  },
+  {
+   "title": "90s Vintage Levi's 550 Relaxed Fit Blue Jeans Men Size 32x30 Made in USA Denim",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940072104847?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZFDD2WVVHPQ5M9CAN5&hash=itemdae0a9f38f%3Ag%3AUnIAAeSw2rZqifIk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9g9m%2Bhd0DZd%2Ffb%2FR7hgdEdZYNwvHwDGm53VVmSfkIqlQkMoMgxUiTYRFpbtWoXDLRoLTeikerZEsBTVEsx%2Fhnejb8Qf87GdVIDjH3CDgFPxt5eNgKompLNjukRDwyJCTO4tYtPwWjXJITcptLZuM9C%2FIxrkvX%2BR%2Ffq5B3Yq9p52G6oFtZjVhpzK3%2BClR7wKk2LTEPLXkaEPBDFAsCwWQv3sbKUJd7eWxfonHBMD7wN52WtkdL7WWt%2FwqIjDo2l%2BGKnbULFwrJ4QIreDLEfz19B%7Ctkp%3ABk9SR-7PoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940072104847"
+  },
+  {
+   "title": "Vintage Levi's 501 Men's Straight Leg Button Fly Light Wash Jeans 36x32 Blue",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940072166817?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZFH3EEGWX9C7HWMTTV&hash=itemdae0aae5a1%3Ag%3Asc4AAeSwXhlq7qUG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bgqu2GmtOfKKBVWGmwvS0hWxZfbcqxpB9GOugAWP5oa%2BdDZcHYG9abfUycrzlaKzW7lCHqoEI9q1zVwrK%2FHH4xo3T65WKRPB2R6eTcO155xrarIpmqXfOVnQ3X%2BXsunB2wggBGSCUK%2Ffrknn3qEPRgcaqxQSYPWdQUHM%2B5%2B%2F28u2OFd%2BoLnXloPTQ5zHqNcKR5w8Ryj97NdnWxDG0Hq%2BPC49oSGprKuijtYQFwPf9HDgmzblfLhAdhFDp4q231btW%2FkgKp6AOs9ZHtgNXmHQJkcGnu1lQ2hslB1lmVBboiTscPqTmjwV1853qjQaCEZd0%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940072166817"
+  },
+  {
+   "title": "Vintage Levis 501 Jeans Mens 36x32 Straight Leg Button Fly Medium Wash Denim",
+   "price": {
+    "raw": "$58.50",
+    "extracted": 58.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800886625123?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZF7R3EMG74WJ8HH951&hash=itemba78901363%3Ag%3A%7ETQAAeSwYAZq7l-E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde94z1UZ4tZTf%2Bj%2FMxdANIuMrzHY6Hnh3J2hTf4cNQulXf64lrZSP76oTwfMpZph938MkST59QGi00vyfgiuBebCljFMlsD82RaHDKEuIJSFPoXPS7ZyYofY1Sg%2F4D%2FIH4RjmV6oHT7JCl2XKP9aq8HG9eZbwVO7PkUauVdQMgxpcskjK87sfXyvuI1Fp56qCadB7irtTfw9dvbZzlhKiw%2FKOPyB8ziiOXg9%2BLdKoqSm8wtAYOJdwAVbTnisbQhwbcFCO09xSzYFwgSX2Yg35%2FnX%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800886625123"
+  },
+  {
+   "title": "VTG 90s Levis 501 Button Fly Jeans Womens W28 L30 Light Wash Denim Straight Leg",
+   "price": {
+    "raw": "$79.00",
+    "extracted": 79.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920113939570?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZF6JV7QSGW2EWDKQE0&hash=itemd63b108472%3Ag%3AcjwAAeSwpEtq7oWv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BD671zH3znRDyUMe%2B%2BA1yQWHUJv13SpEU96UOf2KukgP%2B1ifRyUrQlyiozLipTVOHaOcxoJd1qpMjG%2BamYm5Upp3COdddy6TCuhJ5e%2B3C5RoZjPXe3sDqkdGwGmMQD9f5Lh0Ghu56%2FBLCQwzLb9LaXQqrcOHH3Q5Fi%2BwS4E1aQbNzmHnecUgWyeeRMMgSNnm784zVRpee2gGiIl57U04rLDQHU3432ujPkWatAyMQ1vxxjJJGwhoYr8Lo6ptcxoYPEU%2BlPZeRSRbdZVULDOzdB%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920113939570"
+  },
+  {
+   "title": "Vintage Levi's 550 Jeans Blue Light Wash Denim Loose Fit 32x29 USA MADE",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227602370043?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZF4TTR5C13A30F5RKZ&hash=item34fe288dfb%3Ag%3ABsYAAeSwe8hoGaex&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BaUnknYJEKc5UwuVTbhUSkj25mKKb8Tm3aHOfZC4nSMtQpDkqjp1Hw9DcLIBHTEbk6RrCFEvXKYqWeS7ql83Fay6XwwDBRXnZV35RjGXZX7L6TFdcSgc5ZLHNOfm%2FbYW0zUCb%2FAiMxjWmUKlf%2FOGrNLkQ31vTBoqEReudStqn0Z9PN7yJh122PyeMWKg9JiFWYkheJ%2FXgrayS8EKssQ5EjyP0jd85eoQJYhQGfFPk8lwaRBb5HbWbZ3%2Bh52oMnF8Z1b5puxAKMAz%2BWtSKIERmmfNTZ0f%2FzaTAcmTubxd1L4AcTinPH8V31lLtv1XQ7Fwk%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227602370043"
+  },
+  {
+   "title": "Vintage Levi’s 550 Relaxed Fit Men’s Jeans 38x32 Dark Gray Orange Tab Denim",
+   "price": {
+    "raw": "$29.95",
+    "extracted": 29.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860120704742?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZFARV78MS37H4P4786&hash=itemc8433066e6%3Ag%3ADuMAAeSwCvVq7p3N&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Hq0lQsJLho2%2F4fnQdF5WiEvFPvCGX0zspD9dMrKumDRj3pOdIOygFkfr2w1qo5A7%2F0nau7nc0siDGrmDHTuH9J1atwtfHicqHy%2FaXGnkoHMd4%2FaqM4ZJiQ62iV%2B6Bf3WeCZCuYxrs2D9IdQCy6eQ6KrWYSizgcyA5mMjreBTAfjZNRz2jC5JqlNsbAbPhjw6bvPvXBRBqAYok0SXVPCqaRObL1hteRZepzo6oUo0579NvR8n05XGhB0%2BdrXsbGs7M0u6debFfpEvnFP3N8Uga%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860120704742"
+  },
+  {
+   "title": "Vintage Levi's 560 Jeans Mens Fits 32x29 Blue Tapered Stained Grunge USA 90s",
+   "price": {
+    "raw": "$35.99",
+    "extracted": 35.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287533122391?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZFP83J2PXKYF4QAESF&hash=item42f24f4357%3Ag%3AejcAAeSwOzFqc6Ef&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FM6SgMB%2FxJWy6ZliSpLPhewMy%2Fv0qAzzWCdi0I1di9w2ayuL63li1Ixi1J2vffJvMKXGUJn%2FM1xCByuv1bLMuP%2Bgt%2F0FqEPBakGh%2FayXZgtn4z6whbchSjW8%2B5JYkumSM1C47guYCgMEbB9F0l6avop3BOu7w6wNEdaxsXiGIojhT9JaQhhJbNvYknf4naTHvv6jNKnGqSkct601YDJSJrnF12cPHzMfbXeEQsqLrUHx1LYhfpc5CV8qK53213uwvhMkWeR0lypmUf9bxXjsxX79xxhYQ8%2FnN0N4gIXVSSNA%3D%3D%7Ctkp%3ABFBM8M-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287533122391"
+  },
+  {
+   "title": "Levi's Vintage 468 Relaxed Straight Leg Jeans Men 34x32 Light Wash Blue Denim",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237165838858?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZFJ22XAGB7Z8PZ8CH3&hash=item37382f820a%3Ag%3AzYAAAeSw1-Npp9ia&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde91lP4Khms8cGLLW%2BSL4pqH2sFvMorsZfJj2KioGo43tmd1hXcoXxVOK9f8%2F21Fa8e7y0KNJpS3hVwqYi9yI%2F9JMSfN%2FAqIQ9GUikIrJP%2F0VnNE%2FfNH2cirRqC3sAH2IGxyh9HPxFWPXceXaeWqcEJBVB%2BuY5UPWKR2F9IN61PKXYI2j%2FzBZU9PP4HLepflYDxprOmgJSRrYwF8CcWjrHJ%2Bv4VNPjKRfEuiFwXGAaLZPLKtPN7xU%2F3AvVu3t7tKxOuDXz3bMhHcW50z3ZepnaZ%2FA6RfshpRV9Qdtho9DW4MScpszmKCZivIz%2BKwyESwXvA%3D%7Ctkp%3ABFBM8M-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237165838858"
+  },
+  {
+   "title": "Levi's 94 Baggy Jeans Women 28x31 Blue Wide-Leg Relaxed Fit Distressed 90s VTG",
+   "price": {
+    "raw": "$48.00",
+    "extracted": 48.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820326421918?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZF2HJ61MZ65QHR3FEM&hash=itembeff43d59e%3Ag%3ATTMAAeSwQ%7Exq7p%7EF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde890Na67nukgUuxf7%2B%2B0DP%2B%2Fw2UXHV7uyIlPZHsStilty0Y%2FOpRpjuqDB31s4G4BzxX4FixAy%2B5HRwqE4FSnto%2B%2B3OYGz%2B5f0Q8CS6vtpcAKcQ61o%2F934V8BtIdyeyrG50vLkjDTxHyJ5AeODPaI1ikG2cK4%2BPPmQOkPGjQ4Akx6LAvq4jsjiK2gxpwnIqLitr5K9M9g7KMm3vV7Qo4J%2Bh83L7SYufmtRYs28JGeRQl6BP%2FOQVEP7Phkq%2FztLpryK2iNm4qX%2Bes4v%2F99XJkHVjxekp%2FGvebmxafz5xFrF3utPuBIUvu8wyijGO240M5sEo%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820326421918"
+  },
+  {
+   "title": "Vintage 1991 Levi’s 505 size 40 x 29",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257839578194?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZF7N3S23ANS7KJJPMZ&hash=item3c086fbc52%3Ag%3AD48AAeSwJPdq7n0-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9OP6RHDSEdj8%2FQghCqd%2F3oKD0gSTe%2Fk3VbSTRizu5sjUvAiGoWhVPf%2Fg7pZUpd7LzlSjSZSMVbd%2BXj4boGMr9Bi6MhqnTetedczkhOrkhNfkoWA4gyqI5Iu8%2FDmOzf4F18ff882oKiQ6LnEaMNffLk74HHYKvldkMtGkgsMCPrHoURhvvwCoro1QRZTBYD%2FpsMJb01et%2F6tYLrr4hfDOOcVXNYlrUW5PCACOxCjO3z0NgQDznz4kTRyNcEGqd6%2BV9aj5lmy7AVvAO4dxjq4WAXBAuv9etMZ56r2oaffGmt3XnmiOi8X6ZrX9IVjRis4oY%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257839578194"
+  },
+  {
+   "title": "Vintage 2000s Levi's 541 Men's Athletic Fit Straight Medium Denim Jeans W34 L32",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327443995806?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZF1K587CCQNWFP6DXM&hash=item4c3d2edc9e%3Ag%3AsVwAAeSwnvxq7pRs&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8MkfithE7tajxU35SVVT7JxevWOVfhI0aFTo3X0j4B3TzrlEzcuhMNT2Z8QG9mW4%2BcK4j87Rx4TsLXlTpyvbDWwTNazhMOavLLNV5VjRY83%2Fi9FcKDPfS6zDPZtx7if%2BtIi1MNTNTP6T70D6mmfYbSddKiF8cePaHaKQYu6EUpEaOCmNWLloAQx5lxuw4PqLG--7BXEnco%2BxJnjuu3t2fl9q8auQCFTkoL1b75kna3lFvX3Te7tR%2FCPPaCBPiUkjh3AWgABQtZBoOxkZGiRHgR%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327443995806"
+  },
+  {
+   "title": "Vintage Levi's Men's Loose Fit Silvertab Medium Wash Blue Jeans 34W x 34L USA",
+   "price": {
+    "raw": "$44.50",
+    "extracted": 44.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198726478270?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZF9438TTETE798G06D&hash=item2e450569be%3Ag%3ACnoAAeSwAY9qV0Gd&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BdHq9KOGUC%2Biac7rWDyLhsTlpDYYmLVcH%2BuOmk%2BiIQQhws%2B%2FaSidJtMS7ibdCFGme%2Bug%2FGyI9ABDrNJckYwHpHtJD6d8CVMcg3x1g%2BEsgejMEfmhOtonPGU5CZuhbhHHQfDkYp72%2BjyHZyp6P66bIqT1YVteixZDnf9WOY1%2FZTOC87OuIpGjOUHKFVz3tV5Y4Ib%2BE1sgMUJxoFcjiIl8xK3cKhlOAMUqOs5XLoPG5NLtatP08m4W8ZWqYGykimUyZF%2BOphnTSaiWMMAHuCHxjm%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198726478270"
+  },
+  {
+   "title": "Levi’s Vintage Clothing 501XX Men’s Selvedge Denim Regular Straight W32 L27",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267836012483?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZFZBV04V8PQVVVZ22T&hash=item3e5c4537c3%3Ag%3A7y4AAeSwKJBq7nR2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8XaBeqjWV6Q5zLugP5gWHhMHLxj22qygc6Ndz%2Bv%2FJLK3JEN5BCkfVKOnb7jyWY5%2BAfZHueFol3ME0yzxYmnxVYzJtbJaMCIEizfYX8917h3N0sljdIFkMt1FrEEmceiUf3McyCMwlNgqmNZR7C8zoJRZ8aTUKyeqMUq4nEaQLjzJCgDmE6e94xFXQMXsKEke5gZqY8wbMMMVf4g%2BUF9PzHTklVbIvEnoUDWVSuphY89fJH78syczmgFoDaKZTKTVUtlCV6QrZxu5MJsyQMw%2BOShqTy4yVG32qBj%2BfPnoGdBSC7yVWRiAkwV9hsP7ruxAU%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267836012483"
+  },
+  {
+   "title": "Vintage Levi’s 501 Jeans Black Denim 90s Made In USA 42x26 Button Fly",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860120701737?_skw=Levi%27s+vintage+blue+jeans&epid=7027548577&itmmeta=01M6T884ZFW7797MCS2BF7K1EF&hash=itemc843305b29%3Ag%3A6c4AAeSwo%7Ehq7p07&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fx3z5qhqRCMcyDu7nPbrmAmr6iCDk7ih6UbNSBCD1XWWvPkHx1IDD9Tb40VDdexOZCGkEfGKoql2nuq4o7ulJqEUB8nQSwNY1IGMk54qr22GfKuu01hhCYXK9ie4%2FI7%2BJ9GVdDOdZ5wrf9qjqSPjXgvmEjJSC%2BKyIS2j6ZZIqMd%2FLAsp1pxhW013wfOHudSY%2BS7XDIYS9aii%2FgHP7qz97xf36%2FRunFsQ0EjuXdoi3%2BXJoCTBYqVSa9jTy2meI%2FthQmGtoyiwrjxdpP6BNaxoSD%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860120701737"
+  },
+  {
+   "title": "Levi's Vintage Style 514 Straight Denim Blue Jeans Size 33 x 32 Flap Pockets",
+   "price": {
+    "raw": "$26.09",
+    "extracted": 26.09
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237138944057?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGJ6VSCG000BJ1HPBF&hash=item3736952039%3Ag%3AsKsAAeSwqcRpNmvi&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BR7E4jNT4YrlnhNkZiGlh7a%2FOsMC7oIRDujzTh%2FSzPaGxN5GW0wd8rgacs5nDZvlrSRDjJHAkwO%2B%2B8VshNuIjS8bk7KxJr73D8HBbVEHfgjXBeJYWrFrEytmJf3PQweKo85qsa54r53V5m0mxvXtTLs0B1STgjxAn0qLCpnz2YF4Skj%2FeCuH53cU82buVHc5bznCDqJceN2H%2FgRnX5GSQFmKcS7le6QjGKa8TsEOfRSQLqFehme%2B7AMqN6cvAYd%2Fu9EC0QGOnkriwquYMOidHm%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237138944057"
+  },
+  {
+   "title": "Vtg 1995 Levis 505 Jeans 32x30 Made in USA Light Wash Regular Fit Straight Leg",
+   "price": {
+    "raw": "$42.99",
+    "extracted": 42.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800883010230?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZG3NK9CQ0CGEB11RT2&hash=itemba7858eab6%3Ag%3AsXkAAeSw7wxq4m8T&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BRv%2BOu2NZ7Ul0LBoeONWj9e--fZtp9dBAt%2BljuWIhGCS27lyBIpnGYUobOe3ZgSvAoTmWT7YcmHuZWOx1M29INcQ1YbFp4l0ZmiaMkBaqyQ61l6C7dQlaSeHPZdS5iU6ALq7xgnkyMllNWTFtZ2yyYyxnky1T6s94n6AhLqG95Ols4KENmFjAKt7gWxsld7l0J9CVlisTovDOzYYy7VugVImLp3LFlO0YeXpsa8zmHNOI4MW9u5wk68uliJwxbLNFrYGeKS2BlfEH4PG5imiY5%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800883010230"
+  },
+  {
+   "title": "VTG 90s Levi Strauss Signature 545 Orange Tab Loose Fit Jeans Mens 44 Distressed",
+   "price": {
+    "raw": "$17.99",
+    "extracted": 17.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920113878992?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGE0X95WZE1A65A8HB&hash=itemd63b0f97d0%3Ag%3A09kAAeSwELFq7n3Z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BPFsZM%2Brf1tB%2Fra77k%2BcypBeyDQXwVmTk0OBlD2p0FC%2F9V3oB%2BZUwuxi1oDxsD9iSSRGyh63ruKklMvmnzJFfTdoP36kQJtafmtxzVFQ4nOySTWlgeXQMRzIj%2B0Dsg7haXu5AqXvBBYSycoAB3ELR%2FGjp9M%2FAOmlAMDfSgec%2BF47lK22pqkqMYYu7BgDtwzy77%2Blfo%2BW%2FZ5j%2BSLjs0ma88j%2FDohJhabzIvmCU8yH7poPz4fHHsuAsLwLKJ6iKMcdn%2FZQVDdS6Pn9UEv9jjftPqTGR%2FGrCzJPyao1%2BRXLeQnG4aWGEEBRmoTVn1ciDhKsg%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920113878992"
+  },
+  {
+   "title": "Vintage 90s Levis SilverTab Baggy Jeans 33x34 Made USA Purple Label Light Wash",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880090452607?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGKM5AHXR3SE9JX1VF&hash=itemcce97a927f%3Ag%3AxZcAAeSwlXRq7mEb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BWC4gf7mt%2F%2Ba68wkaYs8DM2UKGI1k7D86KplreV75vr0Ugm1XSdQYUPU5F94C8rhH5iKekyHEYabrZinH3jPCwc50oRzt0HP6XRYgm7tLQD9nU8HyTXeFqic07x%2BrynYoSn57smDLg%2BjNCjvL7woUPn%2Bc47LAZX8P4M7Jdgp0rwrcpZCZ5HsfDJBRdMAE%2F805p0YKR1iysZYneu7%2FAYcalAl5ZiDY6AtSl%2F2r2lokZPSs3FulVc82vVydbMKmR%2BSeMZTcnI%2FlZz8BgVpEd3eLy%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880090452607"
+  },
+  {
+   "title": "Levi's Men's Vintage Denim Blue Jeans Student Style 28x28 Retro Original",
+   "price": {
+    "raw": "$49.00",
+    "extracted": 49.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/277774188919?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGRGEJVPCJ18JDXHN5&hash=item40aca1c177%3Ag%3ApAsAAeSwq1ppqEBJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BEkRlrc8mtzIuRevx%2BzWI2ITYHkqT1LfWrjmpB3wQ5SJDuNgrnqF2Rs7R8gTAk7Jvp%2FgIjnEnWZvzSwAt%2FSQAxUTg9NT4cg11YzB9uU9OaLlOJg%2F3Pord%2BsKYMyRa7HABoVGdGKW0%2Bw%2BP6j0aYRXvvLyQbam6njM5wY7RUPuuETNd%2FZSKJyb5NvqBQzrQbUl4tFFO1tnol%2BZj%2BKY5KKsmSeHmApukS8H6uHFbPwYzRwwLU4jbBC0I5rsEAxcMGEUysHA0WK6ZKFlb523jjaJ7P%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "277774188919"
+  },
+  {
+   "title": "Vintage Levi’s 505 Orange Tab Jeans USA Made 585 Denim 36x30 Straight Leg",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147669885845?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGWC4NZDW71K8S50T0&hash=item2261cfa395%3Ag%3Ak3wAAeSwsNlq7oYH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8PNmsLetU%2BDFC7of01rIUd8MxdFxigLMcy8Hcay0TOQxW%2FYBA8ic%2FwRiNX0USWMYjcDY6POKsfcX7ppmCHwJDHTiv9SApJ6mtBOnFnWeiq1K9JmQboFOk2mOB--G4e9O3oYsc83YudKa0dpgZq707GSJRmIBDg5DNly3g4pGM35CicXfOIc5G1vtxwPXglsjKAy1gER09603PFI1iWUgNVb%2B2ng7%2By%2BEAm2w%2F4pe9C1BEFqY9BV%2BwwJu5TROJTVhS7P8gOg1CGnBobmuVM3pMyqP%2Fb%2Bme55el%2Btt8j0XwTC6Liu%2FoHXb7GVCa89ezhv3s%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147669885845"
+  },
+  {
+   "title": "Levi's Men's Vintage Straight Light Blue Denim Jeans Regular Fit",
+   "price": {
+    "raw": "$9.00",
+    "extracted": 9.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366364083140?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGSVXQCVWYYY700J8T&hash=item554d0043c4%3Ag%3AV0EAAeSwwSZp6bWb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B%2Fi%2FNFfkLFrJzWm%2FbvwlrPFnG5Uabeslqc%2BRbdYzr7%2BzAIDRozLfLCr20hmyh1FftmuY3V%2FvTy0W%2FKnIiq3uUG24jTGc8v3DgnG1e45Astj47tnT3akoM54Ol5W6MYw4Dtdt%2BzMjpDaVrg8UI8S2Ntu690TohAg9QUXke2yPr5JCTe94Fql2UjR41YbrcUnrzOOseXz9KKj%2BEaZcKQX8mp7qQ8ixdPIaALatQKezcalhbrhbEeChhR6v8uMZ1JNcvA%2F6VAgLRDeAkdEO%2BeedM2%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366364083140"
+  },
+  {
+   "title": "Vintage Levi's 517 Boot Cut Jeans Women's 11 JR M Blue Cotton Low Rise 517-91812",
+   "price": {
+    "raw": "$40.16",
+    "extracted": 40.16
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307257965237?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGN2NQJ1X7TQF2G7Y4&hash=item478a007ab5%3Ag%3AOuEAAeSwBoBqTOvG&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8BmEomn4lS9E7A2hm%2BJ6EnEY3QxC%2FgVX2pPk2LmdqVv136DkVNA%2F3EM870%2FIV5hnl3O2kHh1yQiVhbNL1uxRaHucj9lgj5SGcDMbpi0svB7AmSpeMnpt5u7%2BTbRv5%2BxIlLuF5ZeCdsKb%2FAVtHhWUM1uxwdl5vcGiYqS052mVDqDyAqPBmzp6qvPj3%2BUdWWV6vlnSAuFdHg%2Ba7l%2F2km5QcFl8me9VXluNuxQhmgQFN7%2FyiNsEpXGw3Uq7IN%2B83Gj2%2FdiDA9csEZzCg3uW%2FGPuky%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307257965237"
+  },
+  {
+   "title": "Vintage Levi's Orange Tab Jeans Womens 34x28 Blue Denim Medium Wash Bootcut Leg",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307270842158?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGVZ59TVPXRTAPV5ES&hash=item478ac4f72e%3Ag%3A2gMAAeSw9i1pzv9W&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8bmbAGplzok7iTrr7fLA2CvSR05jAOKODPjBw1j2oYsmFIw2tGgFgkWNMFMFFhTRWQFP%2BaF5qDDPDl3s5wxSlnZRFns7whX8OqXZuaLmyLahb2DsiX%2Fv0%2BgKplEQaEsZ44xn%2Bg33RXz5kKNLyn7KqN4fWXH7xdbCG0K42SSstcTmOg0uTFNSNi8ocja8WGfkPLS4m8qHjUoS%2FxmcBqRYVGvRW%2B7rkwqSmPGcWR%2FbIA4TM2F42O8UBXQ8Gtu6HjA%2FwL3PLvWfEv9yVAqerUN3clKHOr2IQr8jFUWRJ7Y%2BCkcqzhTLZcCz3dgHnlOSRoEe0%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307270842158"
+  },
+  {
+   "title": "Vintage Y2K Levis 550 Relaxed Fit Jeans Mens 34x34 Medium Wash Blue Denim Straig",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900071998761?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGDW925J777MV64JD5&hash=itemd19078c529%3Ag%3AtogAAeSwfgdq7piJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B5pYeaLlTuOI7xy%2B8P8Ee1ved7%2BF1BSyxghSccptBXWaovIpsZLAWhXix%2B22WiBI8A%2FwutOwJoqQzriTlfOTblU2Mmym0zV2WyC2e7q4zBLhEYG3L7OdYsaT%2FLNBQQlvH28%2BQ1E9k2kdP75WDoUwWbCy1XjNegmmoIAaZchrfjq871TusXtAx5iZgsghnyLzjCxB31q%2FsyNJgZ8IJLZpRDrCtMrOao83xyYmzbWkrzDI1hPDt2452gxjcynmwCzsq%2FJnEzfyycntC7yztiDpf107CEKPbqk21S9G6NEQEnSllsJ7PjJdXvPCdYjsOqXoA%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900071998761"
+  },
+  {
+   "title": "VTG 90s Levi's 505 Men's Light Wash Blue Jeans Distressed 32x29 5-Pocket",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920113675654?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGNREZKTJ0M7MRVH64&hash=itemd63b0c7d86%3Ag%3AlUQAAeSwn-Rq7mcd&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ZjdCy6NQrJiqw2zhy5FjV8VkwPOBgdNTk4zLIGBeDtYgLRCjpzF26ArdYqyrgmf%2Fvvwv06WJK8%2FNbjzZ4xb81WU9%2FArvDHnFeh6IIkl3iB%2FrSlphMFYR%2BXMYxko3mOINf1%2B%2BoURubghIbxE5ZMSmNRwdpNFHe4ikZvlAT6XAAXwFM%2B8sSpqNu0n57N6N%2Bl%2BC%2BwnpADfHA3ko5eT9i2%2FqDYle2cieTs8ZTvQdLB8GgKrf2iePf6NWbu5MT2%2FRwdPLR%2BwWtQ2jQ5jbvsnvo0j%2B28yrtZX6ftbo7m4M0I0rmVz38EAda96dgSXSSB3EXug0%3D%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920113675654"
+  },
+  {
+   "title": "Vintage Levis Type 1 Light Washed True Bootcut Jeans Blue Mens 33x32 Y2K Western",
+   "price": {
+    "raw": "$57.78",
+    "extracted": 57.78
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345675160?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGA4A9WGANC3XXWMR1&hash=item5ed7b1bb98%3Ag%3Aek4AAeSweiRq7nNT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde82YEVQa9n8I8bV4gJ5gpFzOZkuNxBQPKA9D4yuuo5FD3QAWMkyM4PtqKu%2Bdjh1Qx6L8PPN0%2FnXk4WTtpYY%2FNXxz7dMR42Wqkm2M2rSLcbLQ2VVyBMVOGOXL1XqH4NQF6dOzKF46Sw1xWCSHTYtSUY2hx%2FPzmR9z%2B2byKwhlkyyMwXYhcKWc2IAgbzB1u%2FkVK46N1%2FmCv3KsstAqJf5qqASRXNyzxs0v1G6bdYdAXqlOrbbU8gW1Prr9pm5OaYC14f3pHAd7dkoqmP%2Ft5Vz2eGq%7Ctkp%3ABk9SR_DPoMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345675160"
+  },
+  {
+   "title": "VTG Levi's 505 Regular Fit Straight Leg Jeans Men's Denim Distressed - 35X30.5",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940066035968?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGBTTKA5G8MH3TXEW7&hash=itemdae04d5900%3Ag%3AmJMAAeSw6oxp9P9H&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde98WjP1%2BsjNTIGYSNp7PCn3GHvDlF1D6Mr8L7I8rr%2FEn0KgI18a8cacrjJp%2FDEHJZeZerT5DhScTeUEVWA7QxxWPJdCJ4xxydSeuPBsJiWUSZnLPNC2hyH7HdQc%2Fh0ba%2B2BFRD4QS79ex0Zv4sT1watjhAZebSraL8TKBAtN8U%2BOWAkStrsD6tIOdjN7%2FoYV4o8WxbrCH%2Flld%2FlD6u%2Fr1A2IfuJR5Qd8Nd9dEfwLYpoauC9zJxfioRai86NTZhWUe0GXdRStNZvLo65N%2BeT5Aq9Yvqj04%2BfA9qz8IHgQ03bN24bIPa5yPCxFvtJbSUcUdo%3D%7Ctkp%3ABFBM8M-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940066035968"
+  },
+  {
+   "title": "Levi’s 505 Straight Jeans. April 1994 USA Made. Very Good Condition.",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206648905073?_skw=Levi%27s+vintage+blue+jeans&itmmeta=01M6T884ZGFF5J1EBARGN35079&hash=item301d3c0d71%3Ag%3AT8kAAeSwjFJq28q7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FwvO%2BLYZ8mX%2Fwga3gQ5IrU70Jzcqd5ZdXI2uM7ikTLHN685KFdIISb1ynzQsyyOj17%2BtKeoOqj97IOEsNDN7uJLiCHYiAVd9pcd6i0iNpApocnjkrcqulvmKdxXTgfy%2FBPIw3wq3vl4zF3ye9cjN%2BTrX8mZ28qgJIirMeXLP3xfshMROoJPehPo6bmUMyMdvDDuSRZe9Qg2qun1LXStKRR9UnlLt2M0KQye81tDHMuK09zSvUeH7lfldH3mGBEo0buibcuhAPyKJM%2Bkl8maSMpejU1lUm71wSawKhqUe58vwaKlNmp4Nf6v6nYghji7FM%3D%7Ctkp%3ABFBM8M-gyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206648905073"
+  }
+ ]
+}

@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Levi's men's light blue denim jacket",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 2600,
+ "organic_results": [
+  {
+   "title": "Levi's men's Light Blue Denim Jacket Size Medium",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257839156089?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5EAAFHG58NZY40186Q&hash=item3c08694b79%3Ag%3AsH4AAeSwukRq7jGw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde89wHhYxKt0Z2XjID0h%2B%2BMuY984USiDwaiMW%2BwmQf14I8cXJPf6cTHWUC%2FeNJG5pGnnxz4vrgBapuLFkokT6jsf%2Bu%2FwgEA%2B0QGYMcSOThhRiebop39g9LfnC2C2Yf6JtVog0qIFvjgvlDBT35BBbYfLSRK21gmOAfn540PWIZgce%2BPg8fq4NUsc8KIWo7C6QhQBSv0DeM6Ht8Ib0e2%2FQY%2BhIbolseuYytkDl2yEaDPfTi2FwFm3rYrW5OVF1cI80p%2B%2BPZWhyqxp3FQZ507auaSHuWzjdYk2SYLQo8bq3C9aT8V%2F9vwKaQP6QXEuO1C8ZL0%3D%7Ctkp%3ABk9SR4KTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257839156089"
+  },
+  {
+   "title": "Levi's 1980s Men's Light Blue Denim Jacket Size Large",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158255505488?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5FWQTPNPWW7060XMW8&hash=item24d8c36050%3Ag%3Aq20AAeSwL3Vqmirb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9z6v9vkKyfhxN5g%2Fc3Pfd9OWbHj6f4YzOwCm2WICszWxZM1IuliCQCUkMEbah8qdwu%2BJom1ADmpgcN8IgQA77XQCk9RGT%2B1TZ%2FdIsKKJinfvx0D0jv7XwKVUu4%2B%2FbEngDS%2FNAdTDIhmxFA8Wg0rbVwyrDqsHj35p1TZSE2YMnHKSged801B151klnFr18bC95a3vpKoBkgqeHSYMvckgmLnwtmqc7TDvo10Frv3n1V77ZKmS%2BX5b42F9ksVvJZOGPNELT2jTdG7ZOM8ilYMX2jVAvJlFamGyYIlEhI1kU5rhZTQbVs0O7h5%2FSDwvFUptM%3D%7Ctkp%3ABFBMgpOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158255505488"
+  },
+  {
+   "title": "Levi's Men's Light Blue Denim Jacket Button Logo Pockets Collared Classic Size L",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227221172848?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5FMT8DMJVB3NGMNHJN&hash=item34e76ff270%3Ag%3AAxgAAeSwlxFpkotn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9tmEoMYu2ZkEr%2BnRfxX%2F5Ywmf2PhDPq49EEg%2F0xaNZOwVf0Whi14XCK%2FhG8mHoQcUEtuo2k7zH7gd9SiohpyrK9%2FWJWGwJXTJ7rqx2wuThPf5r9Sef3yYMjWXswi8A2vCT4OHgy9A--vYt6rvuKoSQPvS%2BXZ3I3IgqRHNLD%2F5SjfUA7sBBMmU5irmqmbufuCh7OyWXyosbNunMJ7wrg9BBMl7UTHeeWHkyQe9uhiXZyX%2FhNsomOYUqLHQZiqthtNHMdfukxBPsmwOjiAHh6A2V0nahoJqucnvh4rnD8BUZSW4XmvgnA436%2FupF%2BVGKZIo%3D%7Ctkp%3ABFBMgpOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227221172848"
+  },
+  {
+   "title": "Levi's Men's Vintage 2004 Oversized Trucker Denim Jacket XXL Light Blue 70705",
+   "price": {
+    "raw": "$49.95",
+    "extracted": 49.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800882360880?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5FXDYY37N9YTBXVBWB&hash=itemba784f0230%3Ag%3ATOAAAeSwBXNq7QIE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BpCttKbfZTqIbMqzq0AiGhN9iMK5bNPv0WvKAPAeH8Yob0kk2%2Fis2%2FE9xrnFh4gptPcY82XlL5gTVqwS%2BwHs95C0XIdhaxOTRHWVpvA9RDwPbmLuT0%2BRmNRsF2a%2FVB1reaOA%2FYo8nh71jn%2BwUl97m48qDUHnntPy8JY6OZEtT1LDeYXbACjtaZ2mvT0atB02HfZ6hpKUHfu2Hpeme1lcaSFQ26GPfJRjYExTJMfkLJJrRP%2F8%2F6LiZB07sF74TCAQ%2BO8BA1iO0ePC90FuuB%2B56NSltPhiqd6dtuXTv5dgmob0kkETkPrTjTV4v4CwQyeOQ%3D%7Ctkp%3ABFBMgpOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800882360880"
+  },
+  {
+   "title": "Levi's: Premium Men's Light Blue Denim Jacket, Size Small",
+   "price": {
+    "raw": "$33.00",
+    "extracted": 33.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860045570444?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5FM6VVK7FQXPGN87TD&hash=itemc83eb5f18c%3Ag%3AmR0AAeSwqsFq0Clb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FSU0t%2BKvqGr2hM%2Bi2Yse8fUw8cTcTL84EkVZzs88qtHNALCHxcUqARlMrqp9ut0LjKKP7Y3h%2Bev%2FsKbLXF2kOblv1tWlK0owPfE8sbJWRBvlVvNdcUTkWAtie9VOxi3Dg36xanA5oeklh7uZZUchGy%2Bp3jE0ICGLKtRPsNSozm1bx03puASmC1Vb3qZGabCHHuGaQanDIkcMyCU0BB2vCFq3xI2U%2BRfyJvv9%2FocCLmSny2max%2BAB1PF82DBgB1y6qIzbDDaeEhWdBMD2alNhc4j%2FuhNwDKYlbLSR8PCAQE%2BsfWriJA0GeFIp6etpkueK4%3D%7Ctkp%3ABk9SR4KTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860045570444"
+  },
+  {
+   "title": "LEVI’S BLUE DENIM TYPE 3 TRUCKER LIGHT WASH JEAN JACKET MEN’S LARGE 3937",
+   "price": {
+    "raw": "$26.99",
+    "extracted": 26.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147634077370?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5FBTQD3NE33BCAS162&hash=item225fad3eba%3Ag%3AOQsAAeSwrrZqL2oP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fe896TABHxg9iFL3r6kl1YxObqPMbwrY52zYPGwjDA1C4OZPCVykRT60ZW6QT7T8u7G8QqkopIdJBc2B2QRBTT2WbTUgVdFy8mj28X1nUi0r2VE1NhOdvqoNVqwBT7CnERvn6aWVw5Q9SqdtpklgArNFm2Oo%2FaL1JgeN7S%2B0XLLhQIg9nltGKWzi%2B4r0FGgTyRBkFQg2GddV23ixd%2BTtnrgPNnPNcYfbLyjUqBvGujQk0C6OM6muGUB7AwFS0BPR%2BO17rt1op1Td4Vr6MK6jZT%7Ctkp%3ABk9SR4KTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147634077370"
+  },
+  {
+   "title": "Levi's Men's Large Light Wash Blue Denim Trucker Jacket Type III Made in Mexico",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407337306110?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5F1QYCY27BDM6M3MD5&hash=item5ed73207fe%3Ag%3AcA0AAeSwwQxq6jWA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde83erqGbYDMFwwsnfkh%2FanaveTZQtlKZW7UpYU%2B%2Ba2pp1m4GDSjoPuHkjdZdKLVv%2BTobfrE0TNk5oGr1QSGymIvRlnv4si70%2F7jaRcemtzwpmzSUSulLYpjbI5Ks4c1wMhJcOgye1fr72PS2lwahrcgi4bYU%2BLu%2B1FmUoRVNUfCN8TEUs1MVItXmrvEQ9jyHbv5sTdh0zHzQW6kxZJ92KSgioKJTeisf9BMo96DxFqjzO9KFU95dFvSz1MfZ3UEnYDO7dckn7tIVN5QNFtlUQMkxHgLlKGNW9Wvcbbp%2FupCTOXgrMAXNDNWA8mLm2d6zDU%3D%7Ctkp%3ABk9SR4KTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407337306110"
+  },
+  {
+   "title": "Levi's Men's Denim Trucker Jacket 100% Cotton, Light Wash, Medium",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960115251271?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5GBXA00JAKEJ6P3Q1F&hash=itemdf8b541847%3Ag%3AgtcAAeSwGXxq3msv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde93NLd4GFExo41Wi0trjXZfcSyERlEvhQ2H903%2Fi0kZvKw3ai1usavEpMmLByPhNzF%2FhPvZBr7EZhIRfZJO%2BmvquTX4HAWkeXKt12DLsVbt6eyvyxSbwfq9mjNyLNS%2FnbjnQ%2Br89zrgnlcgBY1acfT2lAYQx%2BNGE8%2Br%2FQ%2FdbPkWhReJR%2FV2AvWGhwH8hpoT87Kc%2FEN%2FPd1pfDhO9in5AdtZLg0HtfpxesN%2B6cyy28uyWlcjFkJpoFbkJ9cEQ4GrXfEKWMd%2BjVNBPckBBzxphwn0%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960115251271"
+  },
+  {
+   "title": "Levi's Men's Blue Denim Trucker Jacket Size L Bleached Distressed Light Wash",
+   "price": {
+    "raw": "$43.99",
+    "extracted": 43.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178524943938?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5G2BHQRPA864B4M650&hash=item2990ea7642%3Ag%3ATW4AAeSwRQFqtTzC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FRr1wpHSAnKy4uumy31E%2F7r1eRjpY4j2AEu2JG6MVholPDfDh7gRx2jy0K8%2BWsKu7eCb6d9D3dVp98IxbXEAp5k7FFjrwIyKdLwZfVdXxMOJWVy%2BTt0NhcKkDDz37bVl63BmozHshCR3Mh53BQKYL9tjcT4FZ6nnQUWD3i0RC2O3CPT%2FEBLftdIEcuf2WgVRREIp8vpmFUHo8IyKP5St7u9s1CEhrtf%2BEdwuxMeafnEPkcKgHQKXNf9n63dW4SxSN%2F7DpGhIrR1kq%2F%2Bl0jZfj7g0s4%2By%2BouRtvShzoC%2FIMOu4xgpiW9kZcZAaqtAkzt8g%3D%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178524943938"
+  },
+  {
+   "title": "Levi’s 90s Men’s Type 3 Light Blue Denim Trucker Jacket Size XL",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407111775580?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5GVN7Z0APZBJ2CAZF5&hash=item5ec9c0b55c%3Ag%3AdGYAAeSwvM9qbVCD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Ft1Vqha2A4pxIat5IfF6U1hDCnVu7CTv%2FhTC5qjGnyA9QbpFrk%2B%2BmCpHdtVBSD%2FSfpNSzOs90676vrN4yQrP%2FhpyU9r3QgyyVbGrM8aUddqSLX0RfEIrRhv5J4hW%2BDTZ5LN9KhQBFiJbL89ivwerMeE8r0biY%2FgSFonjTQzTfHC4UWzV6pTBM5ojgJdo%2FaH0R6xrkQSC%2BkUGZ6%2BnRchknd7PVkiwtVIfxxHWKzcu22eptyBaVAuvTOnuyuNuO252MMmU8mVxHbk9KQbYhbT19ztsIrPPOaOIjIMq8GkNBjyHK0ObulWLoBt7s0Q2O7e%2FU%3D%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407111775580"
+  },
+  {
+   "title": "Levi's Men’s Light Wash Blue Denim Trucker Jean Jacket Button Front Size L",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188960703260?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5GSCR1TKXEJ50XFBYM&hash=item2bfeef831c%3Ag%3AyCsAAeSwKYJqsWS5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F3xv0eVa4b1c2igWzwG34s44La76nzZ%2FwG0kzqG1lNcolXYbZvkNJM1qstZaRH4daIKmfXrMxs3FvyIKdiEl72zxrIjsCoGE7dan9kYyNf45SIO0zG7qoGVnKNKPBozEI0mextIfXI7dCJIOaf5vx4CcWBeBcs4Mnq6kx%2FMVUcdnP9D%2FEu2Drxh0bPikyBo%2FN%2BVDn0RqvabCoZ5vyBck%2Fs6XJPyq9Q6s745Vf9GrIhevjb6rjewyHuiQc6cld02GmK8QFR4XjxPOK4gl2aLsn%2F%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188960703260"
+  },
+  {
+   "title": "Levi’s Men’s Blue Light Wash Denim Jean Jacket Button Front Pockets Size L",
+   "price": {
+    "raw": "$64.00",
+    "extracted": 64.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820271110632?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5G2NJYFN1X7YSH5J2T&hash=itembefbf7d9e8%3Ag%3AArgAAeSw2lxq2%7ErS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9FO9YVnnWskQe7PPb1Y3vHPUbp9SYUST5N377HTtCqBjNiO64I0PpojAWtdi63dBtF%2BR3uqyUZlPckfaupdgYKGh0EXZc7Tzq1SKYqlCh%2BYKFT0lSgNUZHQZmN39hH4n2UZ9zP8aQ2NeLGa7M6JU3cEiNgE%2BXJC4pf1Mf7fIbS7caaTVhxz4Yqp0%2Bmg8zk9l0AdEVJd6yIjjuNHgQcBobhT1J7tLOXP2MA97N5VjeAuF8O5DYmef95wJjJxzz6V76JsklTXda4UNuYAr8nCocgpQ3Dnw2ftQfZFLa3Q7IlQ7QTTZY%2FphvcddyyYNz7V4Y%3D%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820271110632"
+  },
+  {
+   "title": "Levi’s 70507-0389 Relaxed Trucker Denim Jacket Men’s Large L Blue Red Tab",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960151357933?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5GP2G2WHRCSG59V1GP&hash=itemdf8d7b09ed%3Ag%3APK8AAeSwGNdq6pVD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8CR0qkYLaJYL9qHY931RusqUs9UAgkfPGqxwRqpo8lrqQ6hsJGKYk%2BYqNEcV9pBZznokn0lKH1%2FhFvwRivE2%2FTg51Vrkiji5dJeB%2Bq64lIiAc7iGcGBU8EjxDHFpS51gRwApAhREiRqT3Tf85k4BsybxIuzyuhdt6QNTtTEXWC6pZs%2BbpT39Pqfht%2B96z1pE5X2u1D53C7WEmIp87BryJ1WeVdrKx5DppRzxCzdIpfutdUkj6MNMwluPM1SRK%2FUV0NPxK%2B69dQIqEs1G02Lrxh9YrUc1XZlcaVQqz5aybQSlQIGXTnGakdZrzDLxYIOeQ%3D%7Ctkp%3ABFBMhJOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960151357933"
+  },
+  {
+   "title": "Levi’s Men’s Blue Denim Trucker Jacket Size M Made in Mexico Type III Style",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307239440539?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5HAKM3CNP3MBHXVFM7&hash=item4788e5d09b%3Ag%3A2rkAAeSwcGhq1kyq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde92Vp1DMrWWgQT0zfQ2juLRXoA0HxEAF7ctOLunCGNO1QumJdrpBFJb6xm9peZrWCafd3skeFDOwxyFjjLSm%2F%2BOIyPqW7yDBPD4IT8uAIjEJHQbRFpRzP%2BmPDQRaP403j3%2F6ru1LHqhE2mR%2BwzOsmePQ%2FYRxhCbqo17fenAqFFUBBCtpZU07l3q3uk8jzFUuBPAqgWFtqsy8lUiZt1vfIeSiwSZbFMKOi7lFyAX0cA63sdid4DAmScGkKas4wbOARYTiNQVFCXOJmL8mNxpkdhCX4vaD3AQZ8P1HRFzYVwYoqk4fSN1ctSioTKQJtHAvLQ%3D%7Ctkp%3ABFBMhJOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307239440539"
+  },
+  {
+   "title": "Levi's Premium Vintage Fit Denim Trucker Jacket Black Gray Wash Men's Large",
+   "price": {
+    "raw": "$44.00",
+    "extracted": 44.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237157336105?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5HZY8C9TRWR06KRREC&hash=item3737adc429%3Ag%3ApO4AAeSwJjJq52T1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9d3FH0RCZrJEjIpFfnjHebMXQpwCFEb8NRtGPZzJaWyg9SJ9%2F7JMnUUu32HCWqqpnTcvZ1yODEfsaepbWp8PiJLjIXmCWec6LG%2BpLCxjuCfwP0nZNp%2FzVPhXUoPcNNkizECGckW1D4iwKXcUWUi6fkDB0Tj4tTMb1C2eodlZ6ihMKdgpwX%2Ff50HQJUpBixWJcy5ZkgNRbMz3gszKVtfivIyC%2BufUsOtL35Npq1BE9U3JMk392xk%2FoTTSPhWn54wBgR43i%2FrBRzMbU9tyo6Q2Mtv0PBHrBSSnyZxQRO1HQzTsat4xFtl3zmbGcJ3ctAN3g%3D%7Ctkp%3ABFBMhJOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237157336105"
+  },
+  {
+   "title": "Levi Strauss & Co. Levi's Premium Men's Blue Denim Button Jacket Size L",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377619409027?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5HVMJGH1E3YVQG3EFX&hash=item57ebdee883%3Ag%3AuasAAeSwE7dq6m8C&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde805VGFo1uUALQ2M2dsCWu9iwXfCJk6RdJhxthw2%2BuPEWW1%2FR5tJVd%2FjO755BetF2GIajU%2FLrdgAI%2F7%2BKv4qLmJ2vzw%2FByNtcJZsaZermPZRuMjfP6oF5dAmlz6IiqIeV6fpKUvAFPZhLA8fPG4QTjDbioA9qILEmdFkypGY%2FrvTKEma%2FLS0KGrfwRlOOzrEM6NsDK%2BQk%2FicczWKRpoX8NFBzzABD%2FOZZuBEz1eA4yGjm8JMg9wwqTlYV48e%2FcoKd8kDQe1WtIgX9t0AbRIw3Nnt7zVCCmzNcAzD2HiEU5R0db0qiisAcKi%2Fa9WoDcta10%3D%7Ctkp%3ABFBMhJOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377619409027"
+  },
+  {
+   "title": "Levi's Men's Medium Light Wash Trucker Jacket Blue Denim,99% Cotton",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800613298710?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5HRXVAX70XVERATWJJ&hash=itemba68457216%3Ag%3AbN0AAeSwehZqmx2D&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8aTP7L95k4Z69aV1XQMRABusWzikjHxhIMYXf1I4KoEfzBVtUNcpPp5jiPTz1%2F7fi6Yf84dPXDSfvth2cx4O6dC1NfKd4gi8Ggp%2FU6GdS5GF%2Bqvh3A5mdrDYj%2FcFXb%2FZuE8G8nj6txqh%2Bjy9QU7w90jfoRl2i%2BZ9zjSRWpcYl01cjBy8TOaj75jNHwAeDW6EJr75byJuH9EKiVNyYT42XAMkvmHnSFXAJsrae1j%2Baj6jNlAzMIQhO50CBTavN7XMwuFWCBXLmkdlpYRvbeLSdQi%2FOdk%2Bvpn0K5Wnet101lddFBMnR3F44EmWxzGm4MZyk%3D%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800613298710"
+  },
+  {
+   "title": "Levi’s 70507 Standard Trucker Men’s M Light Blue Denim Jacket",
+   "price": {
+    "raw": "$47.99",
+    "extracted": 47.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257565963386?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5H4N003NHRATNRWTG6&hash=item3bf820b47a%3Ag%3AZVwAAeSwPYppPEi9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9T4IjU54a3lJpriZ9q2TcQnyjKFV1EgBvKZlaLPqSWm6%2BwTFnIB79bsdTa5KOD7cTbNFwSrO124%2FEJe%2BmILIK4MXuQzsYItusvTHVpUYk7uetCA%2FB0EeCbEWK7bCditIzfWlJI2uMiMXyQ89ZvgPFAVAfDDwZDBQ38XGXj0vingcF1xFE5rwXvTMj%2Bi4%2FAtMeUaLEs47cYsxDe5%2FS35wcwprhFtw8kc3D6lft204NhtrVVii5w7gWa%2Bm4TS5aek977hBtvALxpqK%2FZZc%2Fmv2u8%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257565963386"
+  },
+  {
+   "title": "LEVI'S TRUCKER JACKET, Light Wash Blue Denim, Men's XL",
+   "price": {
+    "raw": "$47.50",
+    "extracted": 47.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227596236031?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5HY7DNFWZ4DH1A334W&hash=item34fdcaf4ff%3Ag%3ApIoAAeSwuP5qwB-y&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BOoW%2B2ZlWlsUIix%2BaqXY2Hl4fHaZPgHbsTXBhdAh45%2F6%2FBRQ2Eim%2BGPSIcrRemwyl4i9iSlI%2B4BtcfJv1Wz26k%2B4aYlHSpJ3O332M2N7qJHwp9HIElaTVvVlVGGZOgAjs8cvJHsqoUFZ7GutEKpXdGpYSuc35pA2tqnh0%2FLgDXGSTkpJZMjl%2BQjUwAz5XshY7mOm%2FFXGt%2Bg7jwLw721G3Ijq0zqxXrx7wguoKiBkXzOxULfYdvJdhU7nE3kN37JSPzySGYFHD2RYgSmJ3RYzER%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227596236031"
+  },
+  {
+   "title": "Levi’s Men’s Medium Distressed Denim Trucker Jacket Light Blue Jean Vintage Look",
+   "price": {
+    "raw": "$26.92",
+    "extracted": 26.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366760519662?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5JKVKAZDJBJQNGAWKC&hash=item5564a167ee%3Ag%3A7pMAAOSwRfxmWoqo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Xmu2gn2UzkEi5Qg%2FfiHsUgllogy%2BS52ny6QUJMMRb%2BTrIkNETn7b6GxlbvdMfsnGD9D%2FFANw%2Bi5mcxy8v4iD0VRRGG7WDLLPXg90iLPdX0Tj2uToJgvOtZUO1X5IBz0mgF0UNdryrTMCfc2NmFHm%2F0MGDYybSYfkTfdrApZOFzfoOrBMaVyyKfi%2BTrVC61ZmrNvAL2PzMQ83DiP8G39iKWsvqwi45Dp87eHhqV5Nl%2Boy1Grfqu0vYBILr8bwK7ZSpw%2B3fkWUr7uaZu710Okcg%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366760519662"
+  },
+  {
+   "title": "Levi’s Premium Trucker Jacket PC9 72334‑0510 Men’s L Light Blue Soft Denim",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820277615844?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5JD3G5H847JT2HMKXZ&hash=itembefc5b1ce4%3Ag%3AlmoAAeSwAVRpxCQ6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fu0sJydR%2B2Jhcs6e8SmV1zayNmKrR0YmCea1lcn7bIiG%2BGct85GgywX5m1PbapZIWU9H1j4rylUUCsYHfH7F3EsSW72f5H7WoDzEsSOXyI3IfRtvxd%2BJFS4zdZi%2Br69lFRGTYipNct%2F60PNz6In7W0bWjEQJBSLW6pBgHMFeR66Kp4cvbLheq9GKcCGUebbHsW9dvgpQuQg2CRIYzC8L%2FecOXQJzktew7o2rfgYU0TQya4uLvqcIXpD2V41pQ7F7e5VxzRBaOXFeNUNooqHhhxjbXgARH268aC%2FBmU3tHZNVjQye%2B%2FG1plIqgLmmDV3zg%3D%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820277615844"
+  },
+  {
+   "title": "Vintage Levi’s Trucker Jacket Men’s Size Medium M Blue Denim Light Blue",
+   "price": {
+    "raw": "$48.50",
+    "extracted": 48.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188813140536?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5JX42ABS2TN7YBNRCR&hash=item2bf623e238%3Ag%3AMXoAAeSwz0JqhLX8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F%2BziEXAH63%2FqB6Xt6RQDhaY2ggbQCIp73W%2B%2BiblPmPY9fOgpwem574sBsKRSa88bGwZ1soox5INakVzQEMFQn65wJ1P3BOuI3IVarJkzWVGDZ8mQXO8D5G00PuMCXowGBBa3GpwFwFkJUKo5CRxwkP2KiX82K3dIso3WI%2Flg%2FQVONeO%2BAPPd%2BCH0mF6oWvyZUqkpzOXKeRCXrAel9cn3o5HzdOmLV8Ofv0KKpERtBbhsoUmQN87EakUShMn5vCzrU9e%2F1i4maJ54keJWsRWRttv9fHyEh6ngZULSHsHvBIQzvYWd25V28y9p961yGpRyc%3D%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188813140536"
+  },
+  {
+   "title": "Levi's Men's Light Blue Denim Jacket Button Pockets Collared XS",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406930194228?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5J6KZ1WPQ83YFVSREB&hash=item5ebeedff34%3Ag%3Al0wAAeSwO6VqCBqb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BmMFwpdfj4qeJ33opKa7OK1FSy0fM2EnIe%2F2gs%2BAv3fb0FeyoCXS%2BzKRbIhwDfrMSAIXmdCy1a7uS4YZq%2FtdUr50%2B%2Brom9W1IEU%2Fc23yUyOZ4y9tVHdGvyRm1PAIUdd7k%2Bal8PKMNhI58BWhRE4EQstYA7%2BL%2BrkXANYQ7FK%2FuzKZ73NpJdA6Co89rFPi7n2rsrNwZUb6qckMdLp8r8%2B4ZJNj13%2Fu03j7qHb%2FqcCjD9g3m4exJwzDh5iqRgtQp75psC2ckFb4iqZZj8hjJLZLE6WDBEg6xehvDTVo4Bn0anS7UXc1EEh%2F8MgYHHMDWHQ3c%3D%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406930194228"
+  },
+  {
+   "title": "Levi's Men's Size M Distressed Denim Trucker Jacket Light Blue Wash Button Up",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178077074233?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5JRFM74B7G5FD6JTB0&hash=item2976388339%3Ag%3AORkAAeSwQdhp7E%7Ei&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9GQSs1bWd9kFE%2FfbL37IQZCkIT0NTkOmAzcbJDRO60QqbXRacFtlvF9tNTxzqQ%2FtRNyZZhk59Lcgj6gpexq4M5pNLhdvm4wNezCg8f2V0I0jiwulGAes8idi0xmhvbGr12ROCZ2AQ3GYc3pt5EfZuEg2nBvZ8AXyjjqzrbo71mHHiikRSl25KgS0EP%2Fpvf2KiWdVB6KK0q%2FayjN3NdNz%2FnOWUqT0HfKIEsqiW1EC2QQ%2BsUbr9lDmO6Y%2Fz0ZeWsEwzaG8F9VhzRyGBAy02s2MQ8%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178077074233"
+  },
+  {
+   "title": "Levi's Premium Unisex Light Wash Blue Denim Jacket Button Front Pockets Size L",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920113677767?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5J8N777GF11ZS6YK2R&hash=itemd63b0c85c7%3Ag%3AAfUAAeSwSbJq7mf%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B00fCNjWVFZr8YUTbBH5gNQ20W0i1LDiOtkkCUPeqJL8yat9PITPgxyPyyfWawGHDacnriZbu90EPuQzh4clCoJATpP5W7EtAo4lm1B9S3CITqc45BYxvWWRlynzgrzMLXmcmCDGbOx--JtZi3%2Fo6zaWOL%2BUqtoB9v7Paccc2IWM7IVOkY8%2Fvjzkhmod51OoLJbC87wJ04jv2qdQKcHwlhevoAOtc12wKdopIf4t94%2BjTvYJXegVzPSwgG5Jb3r5aU4lzL5PfB4hhMljaVHuJyGPtCjjCQMV8aiqiX5NcVae93yVx7vXZFcpjWgLPXFSU%3D%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920113677767"
+  },
+  {
+   "title": "Levi's Premium Denim Jacket Light Wash Blue Men's Cotton Relaxed Fit Size M",
+   "price": {
+    "raw": "$12.99",
+    "extracted": 12.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960160009807?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5K0H7WGX8BP0B0M7H4&hash=itemdf8dff0e4f%3Ag%3A29cAAeSwJGtq0WQj&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B5tQKRZI7BPsMOUZydkAhA5HBnPjOH%2BJho7F1u82zBk5FFXh8QSg%2Be45wJW6iQrSZB%2BWLB2lCggDAO6px%2Fd5QM8Lpj0Fad6nCKRibUFe%2BbO12p1VfsX5syTYF0tg%2FXWLV05LoVOAqc4RGBV8qF15P9l3eRpCrMLt80OIKlUdqafSCmldVV80ueM23Sfy%2Fbl4PhDBSNK8RrFAmrICmWsQUC4R30ffyyp3Ck00L%2FIrOC012LpFYUHwJXM84NYrLITnZ0BUTokkIoMfL%2FOdhNYeho%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960160009807"
+  },
+  {
+   "title": "Levi’s Premium Men’s Sherpa Lined Denim Trucker Jacket Light Wash Medium EUC",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147666952226?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5KKNQG0RGRJDE300SJ&hash=item2261a2e022%3Ag%3AWysAAeSwX-1q69H7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8uAoMLdyVz%2B4ESGuIuZ4iGUg4u%2FYZB9n6H%2Bar3z8fisHWtODNwNKvnBLq%2FYkOMUXPKYEMbmKCeJbuev7kB8qyL%2BDiJZMirORH76xZTpRJxUSvAQvbU4eiifYrwohwvcHNpW1frk%2Bbqhb0B9KQKcMfLWutTbnr05%2Fxt2j1917ZuaEBeRcKAMlRAe8qzokZcj6RIExw6LVip0vY1CbPAHQ1ckHlrK%2BD9nxiXsNNMc6I0RX2aLtgfjVtZdLh8Lyg%2FmfKQu8e4FXwk7Ef2dnF%2BQotxbLq96S3i7DYvg4H4X7RzYzXs7LdsAb58ezSCZXh4udU%3D%7Ctkp%3ABk9SR4STrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147666952226"
+  },
+  {
+   "title": "VTG LEVI’S Denim Jacket Men’s (M) Light Blue Jean Sherpa Lining Trucker Chest-38",
+   "price": {
+    "raw": "$64.00",
+    "extracted": 64.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940033688370?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5KM9ZE4WXZ5DG920RF&hash=itemdade5fc332%3Ag%3AKuwAAeSwb8Zq2kc2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FeEbMBIeCdSkvCMVvvm7ozcRClCMifnpHpLZ5P9DVq9hlDLGoWPT6eocAxuzuZ6dTRrYSDvScTDr76s%2BDQCBreWyJImzZa5GjYe8UekJoMgGymidCBnJWBS5iaKiCu%2F7RZOIEQTtjSDnLl5femvqmTw5aMby1WXjvjOlpGMMHCOnXkqOU5L0x5M5V087hipuluQshY3dpM4RkEMNG9IOqZqetcJjYyGz5%2BKtvf9lphzGn1EXZGmOZSLc0QHPVYYEypl4AowyOK32AgqASk0x2hkLxrRq4gInb3If3PrF3I7fDr23r2WDHgtgtH9LWpiFA%3D%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940033688370"
+  },
+  {
+   "title": "Levi's Men’s Trucker Jacket, Medium, Dark Blue Denim Rinse, 72334-0134",
+   "price": {
+    "raw": "$28.00",
+    "extracted": 28.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117309002324?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5K5E5G83SXZF7KCKFB&hash=item1b50295254%3Ag%3A0h8AAeSwfZRqW3sA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F3Cj%2BPsWu%2BXx8daLhETE0itTQ21%2F4Wa4VLtuwx4Jt02Vd9cYO3zD57GaR7IohAG7i1jIO25qLm%2For4HaGW8jvsj8WjtzJK8tjN2egr5SEfk8ZRI%2BVIg7IuAHh5zgKCcOf0L5Gi6w5CvumkuQ8sHeL00BfGuAMUPpG8Y5XdM9LCBLg%2BVIWfK5%2B7kgeP8D3tfl5HiKcuaU8jR5a4rPvxgScIq59pV5Kaj2tLG%2FKfXEQaANaaCLbR3QVskwLB6lKWb5nTrEzDbzThXtmZx67mZdVzuCsBPOA9v83ZfheaemymFNPcNWxXJ1mnSR1RWmbonNY%3D%7Ctkp%3ABFBMhpOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117309002324"
+  },
+  {
+   "title": "Levi’s Denim Jacket Men’s Large Black Trucker Jean Dark Wash Type 3 Pockets",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237168746563?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5KFH652ECGBS834GT9&hash=item37385be043%3Ag%3ASIUAAeSwOXJq7qH0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8bzDVWTI1QL0bPgSNSbhzJu%2FzlEG%2BxjalXO211KKUmiFBrKSoRA8bZwTwp6yiVwDpphWcwxAQcIR8C3H%2B4us1bRRE2uESY7L4PzbLFFAm14C7tectvVU11VyV9TBRYrYBzZ5shC8%2BeglXXOTH7jQ2xB6%2BO3%2BMW0JQi6JFGUIg9tBdt8zLwH1uogS8TnfxONu0QlZfNhd6nOH0XMP%2B%2Bb8qGpzCmG4XmT0rznoqQsXgqnV%2F4wbumImIMiK4EfhlsSanwadTa3Tgfz5D5JMqEnPF5Y7k7%2BNwAmHis87ReoC4Gq1ijl4U%2BwwSRoPnTmUTMW%2Bs%3D%7Ctkp%3ABFBMhpOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237168746563"
+  },
+  {
+   "title": "Levi’s Men’s Medium Washed Blue Denim Trucker Jacket Faded Wash Jean Coat 2016",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267811085742?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5KN8SGVFC1RP1GH4K5&hash=item3e5ac8ddae%3Ag%3AoE8AAeSwonJqzBrU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9uw%2FSp5ckjw%2FCcAKrzwnTr0MgR4hcdEstZ8WzbZe83e7l9JFhQ%2FRGiBn%2FP0512mWvRhjIVjCMrP0c%2BAhRsIhTeU%2FzVTLDOTVcIBxLVjEMiGF9uaDVfWWFj%2BX4OVieLVGI7c7IAZGBJyHzoftSIJBlVkmTxIfwcHz33tF6UbSUeZaDElYRBqeUiljI9p6Ua2urDt9KGXVHui9gi59k7ixJ%2FVR0AX1v9SJo8vbKfwHdPDR0BNPW0njL%2FIQ7JJQtLmza27cFXLdGN9FynhSPjW9zoT86%2F0XrfjEVpaSK8ALCOUxDt0J6NMD5JkfIFo6v8L1U%3D%7Ctkp%3ABFBMhpOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267811085742"
+  },
+  {
+   "title": "Levi's Men's Original Trucker Denim Jacket Black Size M Button Front",
+   "price": {
+    "raw": "$49.90",
+    "extracted": 49.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287709838459?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5K6SJD77D5G1S2AJ1X&hash=item42fcd7bc7b%3Ag%3A3tMAAeSwiw9q7gsk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BTxsXLMM%2FY5ZwrtORxhpZ%2BUUP9cXm1%2Fb31jctRnwZvAoOLV%2BGMg%2F7qhNs3bmIf0dqfWaoQiuEg%2FT5O8HF1AkcSZwYPWuN4PkeBtrUyRQZeo5Ftp9nclxpv%2BJdQF4%2B%2BLXlnUkeHCBvvmFj%2F9HqPq7HF1%2BSCB062HaiwvRg8yAGU1RjBbT%2BcZeNt%2F2dyIXT7sAyK5tYOnjaX6Z%2FNxQH1y4s76%2BC8pKWuLwd%2Brr2ia2Orvv3MOQREEh2VrnkzZGXp9AHbpfvlo7%2FxRODyPxMVDusYoLbsqAUKoXL%2Bpa7nJdifFc21QuU%2By14xjVRXaZCSrpo%3D%7Ctkp%3ABFBMhpOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287709838459"
+  },
+  {
+   "title": "Vintage Levi's Corduroy Collar Trucker Jacket Men's XL Blue Denim USA 90s Light",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336793863928?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5MF3X1GHFDJP2FKPPF&hash=item4e6a7a86f8%3Ag%3A5LQAAeSwuXtqqFzv&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FI80CfrO66sefUHSjRXqncJvf%2FrOh79YRVwtWgHskyoi%2FTgxLajx%2FySZBE827djMScVqgcp6qcmlEySmon9ZOU6%2FjID%2B3hUhMyrryAQM3x5xv6j06M%2FUpcvCax0AVhFtTho3xnJe0XKaJrmpvCuW64lT9rN7j%2FIaHqlKcc4PJMcbf90nx6BS2FHaxM%2FqE1YsXKBDsVh8ZGbGWl9eorEG2JuOCU9gs0rjE5IWb90SnW2vlLzcNBS0S5BP6ms%2BiiaQZ5pzP2HOhzfAcz8z1MBWPH%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336793863928"
+  },
+  {
+   "title": "Levi's Men's Distressed Light Wash Denim Trucker Jacket Blue, Size L",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307204378777?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5MT33KKV85035NWY3Y&hash=item4786ced099%3Ag%3ARxEAAeSwTMVquwXC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BhcVzl5WU5xM%2FFJYs2cvbp4FpCBq6HuqjuQ7j%2BRT73QjDqHhNvRbO3D91vmsMaw%2Be0sKBScTjHMYv4HsCBo8wN2ne%2FLkY2AiYI3hYG6yYWQ%2FEvwiofbiI4FOVu7Y987S3LaAPwPE6Jp5f1Engi8%2B1gyI%2BYEyZ1Kau1RN%2Fhi505Du0TBiNC59SHsNuiuqk7Zf8s2GgjMSrIh5%2BhphawTTkj%2Fwbp1cSb8l3T%2B3eU3eM%2BFT7MvvXyLy114IWPJn76UFw1TP8mpf3jekWg3kU8oPFF%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307204378777"
+  },
+  {
+   "title": "Levi’s Classic Denim Jacket Men’s Size Medium Blue Light Wash Trucker Jacket",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287397560678?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5M04VK8JF5N3D2A3P6&hash=item42ea3ac166%3Ag%3AKTEAAeSw9AZqMKZZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FsdRkzvjM%2B0soY4VPNweSx3qdtcxDX7Ye28hb%2Fx9DtO7oTLRWu367l1iHRmQCmmLVGgakc7frNxM69Ou%2FdX9zmBrVbetX4oKPQ7ux9KCy9RdwTR8zux2ZJKKQyV52yEGYyp%2FSOzwyYdbxNOPKTfsYLoBpY9MHDJ%2F9sZTR9%2Fb%2FNo%2FSHBsmoeabn0w3%2BoHQtSI4voesdX0XyPA%2FAerDzThwAK5sotBFlmF7rO6bqYOQgtthgpijE1hM7Yap8oGYXniNsOrHTnS%2FAnoS41vNYeJ1FNCwDsb8GNKDUXxdQnQqNOTRVq%2BWa3sz2KSsJXGkubPo%3D%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287397560678"
+  },
+  {
+   "title": "Levi's Men's Blue Light Wash Trucker Denim Jacket Button Closure Pockets XL",
+   "price": {
+    "raw": "$38.00",
+    "extracted": 38.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398293965797?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5MPPVMMD6TSR5Q73M8&hash=item5cbc2b9be5%3Ag%3Ac90AAeSwtqtqgl4f&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BH1zwn6Xe9LUaGk5TmKR50FtLo8eueVEIrWuJcxzysIrlAkSUsM8575pT%2F5f2LRQOZrgIDHKMaLinmXpMr%2F50jQTT%2FjU4IvRBPkjCE6edlBFst4kPsyecxUFv%2FV%2BtTrHGNvpmfRLYoQubjZu9l91oY%2BBWiGLdGvH5B6H7HxOPm35wPLSlbB%2BFcVXAaLWe%2FaKmzJ76DcvIKyg5kUzg%2BXbfVa1KpMqNFFotns8sm624knrxkDI5SSuHn39RnRWpTcZsncl0po2p%2BI5eI4a28BhnaU8VtyK7Njm83HEWmPkUAm8VmWAEraLZafE5tPhc8psA%3D%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398293965797"
+  },
+  {
+   "title": "Levi's Trucker Denim Jacket Men's Medium Light Wash Blue Standard Button Front",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287678711126?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5MPT2XCA53AQWG8K7K&hash=item42fafcc556%3Ag%3AnMQAAeSwGERq3i48&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F02Qv%2FTcQ4m5A76R3nUhnPEa6eeHuB58g7NC7%2BC1dWkQ433RR2V2KOmKijTQCZysRMVnw6P7vduVKxskrCHhfwZ0pywyeQsDkMbQKG9hEUIi%2Bwr%2FnQQ9mmqi2DXdaagYbrL8K%2FwQB%2Ffra%2FA7oFzlKH5P680dGTFs3KX7jMnt%2F3bWqZ%2FRZbeWvTWr1A17BRlt3PhBM%2FhcWiYcvC3qkLG9FcLKMyKpTg7GsrPZ127RFY7IZyjsdfbRq2bvE207haLmP40M80RGGPTaJDeQdJZKTg%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287678711126"
+  },
+  {
+   "title": "Levi's Trucker Jacket Light Stonewash Blue Mens Size Medium",
+   "price": {
+    "raw": "$29.93",
+    "extracted": 29.93
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307260528316?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5MF14TNTZ1Z3345M3X&hash=item478a2796bc%3Ag%3A-sYAAeSwo89qodNM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B2wP%2FrWX%2BC2427MiYGir5AR61qXeneS0TtM146C3eZfXqLYpspVGCz6aa3wl6sL3ycKfDoW7OqsBBflypVLPLWpz%2F%2B4AdOrwUGq1zTt3kfqsuuLqr7otMt1pQoel8PclRHHYZBwZAYNzERZO4Bh5pUYpJl8rifPhWnG%2BpxwyUAbjAZVdDk98wvwSHhwukJNA4EaXrrJUMgeis8F7bhIKkc%2BzTzoJ9E8BUIOPK8NC0zvMR79ah8HJ1%2BZYmmsVWHZCZcmH0HekNDc8bPXlRVAgAZyMPRRgdcM3aa57e6Fv3ZHev7FJLt%2BBTFUrPFFZrEMiA%3D%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307260528316"
+  },
+  {
+   "title": "Levi Strauss & Co Men's Levi's Trucker Blue Denim Jean Jacket Button Pockets M",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407291070848?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5NMJBNM78RJJ0J469K&hash=item5ed4708980%3Ag%3AWKQAAeSwTRVq0CKb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B9XAGEjHQomSN1uXxh5zpqMw6fT4HASKMG0MhXcWavAuMK5nSO%2FExQhZxiAUXhVyAEoBYBtiZy5SrknBetzXntKrJJ--FJubineZyUrMEvILbw2OZ0gOz%2BC3%2Bt4ro6Kh1GZyirbxXv8fbVB7bB2VGT3s3ebOXWLht76vsz3pwB2cwHfOEO5uHysTacwirloy15f1Z5vH8G--zJBCTZAriy5ajLpIdUWer%2FIl%2BhKqThBppuo8SN%2FOz1nDIrf03pvGZm4MVevD8Yr1yre00fMNk44mPkljM68hcJMlx1lv951JT2sV9XKf2ozm5I%2FLtI%2BCY%3D%7Ctkp%3ABFBMhpOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407291070848"
+  },
+  {
+   "title": "Vintage Levi's Men's Blue Denim Jacket Size L 70507-0218 Made in the USA 80s-90s",
+   "price": {
+    "raw": "$59.95",
+    "extracted": 59.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237066412997?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5NQZ5PR1NCTXPT9Z74&hash=item37324263c5%3Ag%3AfrcAAeSwSZJqpuOV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9YCigU%2B122F8X6ArdVxYIAoj4NUdGhbOQVasYot%2F9ovDSuamAA04c7BIvbgv3AH4PtV5nDqNbja0zEP2BGys46ijqYKigjS9sxkf%2F3%2F1IkBLgzoxa1TJwJ5NYK8ONXROFC84wGqun2fuxBOuutoBRzPVVXqTAi2kz9EjaIu%2BFuTBN3UY0Bct12vJLVMBDaPRMr9%2BOXe7i6p4BI%2F6VMlnIHM4pviF7I9BdPZUCpwnW1ccQJDFPYTEutR3L2xO069XVrso%2FlNYTpfuqs8VDsUjZcZ2j%2BwV8Q36bXefDJHhn0Zrv33qTzAVpH2uFQ9cFE3Q4%3D%7Ctkp%3ABFBMhpOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237066412997"
+  },
+  {
+   "title": "Levi’s Men’s Original Trucker Denim Jean Jacket Light Wash Blue 72334-0131 M",
+   "price": {
+    "raw": "$33.45",
+    "extracted": 33.45
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267772497214?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5NZAKHV2HS6DA3976N&hash=item3e587c0d3e%3Ag%3ALYgAAeSwuTdqlgAR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FovFBH4Nn0wtpLqX0FWQ2E%2Fas2Sl%2FP7z8imv7bFLTBkczwD89Cktj681A1P6Bpbqo3i5jidq2n5tvSTO4npfdNw5%2FwiXTLDrtM2Puf41%2FHR07XK%2F%2B5arvOeFihh9kw8i%2FAecw67ySC8ofve3hKtPoWd%2FSRF0alIAGPUfFe1T1Nj8cyTxg%2BTz51vwUY2l6vzPeH%2FYj54j6N84GPWBywvlP0ImCFXhv13Ybky%2FHKfMKx0StdwWxeIKuwQTONJnDtxW62uhruQZRAa93D8yQd%2Blzz0hhM3Ax7j%2FyVyUyZug5CTKWSs3VTZycR6uOpCXi4%2BsE%3D%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267772497214"
+  },
+  {
+   "title": "Levi's Men's Light Wash Denim Premium Trucker Jacket Size Small Levi’s Premium",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128088127808?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5NYQ4HEA2Y8SCJ1DFY&hash=item1dd2a5b940%3Ag%3Aj2cAAeSwe4RqYPi-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Ck3dB%2B4vAHjW9%2BDwxF3sVaWPrerxaXEDmxcXeZL%2FozYHl%2BnOB0YxPjJ59Ge24sRIPZa8xWzWZXL55XVR9uKJA808TCcZ2Jo0Xd8ry%2F2sHhX5TlPosJGSwFXW%2BvYgZn9X37FGI6Zq%2BAsV7XmSfdxik9zROr%2BJsO6KKiiGzojwNAeM9ncXXMpTAni6v4RTlvMRF7G13qQuBmWSvMIK3hupjbw2ry7Vfhf61SytRn48GJLrPVwsuqaw62cCJ42DmUYSSJUtYnJo65Zy4MiZdoYJR%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128088127808"
+  },
+  {
+   "title": "Levi’s Light Blue Denim Jacket Size Medium Men’s",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800108666410?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5PJ0EVPZFNZRV07GK0&hash=itemba4a315e2a%3Ag%3AHKUAAeSwNXFqHiTh&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Btg%2FRlykiGe%2Bef%2FK7wPyhHZxvXUFT3SnBiVvq7hdQNCSN5fydzxMxEr8Aog3w0XgAvfGTRxZydHVTrsrZ5X8btXbkxCEHh4Y6HOItyQe%2F40UoThL%2FTEQxC0EVwH3OLe4CN12reAXVx2JHFWxDxl53NXXHPCsHLjHwhNlwn6OD3hVvOSzn8aBLxscg0xo0Fv7sCHe%2B15SX3CsBrrtqm3BS965THDHEHEU0kZSJKIitSpl7ZL5ENdekJkiUeCANaITf7apBUUUvNP4Mwd74Isyhn%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800108666410"
+  },
+  {
+   "title": "Vintage Levi’s Type III Light Blue Denim Jean Trucker Jacket 70507-4834 Men’s M",
+   "price": {
+    "raw": "$99.82",
+    "extracted": 99.82
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/277648542845?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5PVGQHR8HRYD44CWQ2&hash=item40a5248c7d%3Ag%3A0MEAAOSw3LVnDmoR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8sdeBI9SnglLsqUS9O4tAX4LNUkGK8Fh3D%2BkPUQrCyz9ykEij8Z0PcCE52t98pUh1dEE1p8RoJ007tiLdnrnMeeEKg4DbliHzhl7X0%2B1I7iR5eGsaEto0Z3OvRHx06KoRWLEXBO3VFBCOGpCBECIln2dwvj5bQh1SsfDgV3JBKSs4wzXF7QLtWGWeLE62fR4DAdjJyCmFYUkOGYgmXdZ4jeM7Ta9fmvR0i5%2BrkqyvxrKnFJZiEBQFj9YYVHCv1E2AUMT6xDVgPWiIZ17suNwE6%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "277648542845"
+  },
+  {
+   "title": "Levi's Trucker Jacket Men’s Light Blue Long Sleeve Denim USA Vintage Crusty Dust",
+   "price": {
+    "raw": "$58.09",
+    "extracted": 58.09
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168832554623?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5P6FZV78GVMZ1S6B02&hash=item274f34567f%3Ag%3AHbMAAeSwgsVpgHIz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9l81MXSQqtELSe4IoJMki%2Fg1PZt5ATWHcy0ifSa%2Fahoo9ZN5XI%2BTw6IU5kjdEcolCu4bJOjQSEgnXz1NMn%2F9F01F12NSac5Z4IuMYWTL0oBVXuFlH17k5IP%2FJa8G8YGwAoi8yla2dqzp0JBs1VGsE4SfQpLlcfmxgZhRS3dQ54NYR1FGHa6E66c2rmwYSLHGk8lQqY8G4cDUnwM6pQM%2F1yIo8g%2FObxK6kSBFD9C%2BliqPKcQH0o0%2FvqHPDAkFqnr%2F3k85Yu5KKny84b4FsRVlko%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168832554623"
+  },
+  {
+   "title": "Levi's Men's Trucker Denim Jacket Light Wash Blue 100% Cotton - Size XXL",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117494001215?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5PGKJWZMP3AKF56C1S&hash=item1b5b302e3f%3Ag%3Aps4AAeSwZmdq5DWA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3jOsF7WwUYpaRtYBinkTGiUgZiN37npaO8XeJDzz0G38PguGSQFn9Fjjr6J61sHpHy6xhzMP6ZZXMUcxB52DtZyEAprjbq8zCgB5G61JfRbEUFcGT2dDTsvQEVf7zZGIzx%2BXCufnCP%2FRAKe8RakoG6KQJ%2BY9m2xMrtGKgMBRSWNOSt4bafi8jzjFTZgxMAyoGl3vp61zzt44adVJTIfrRX991Q4NYTosuFBZ2ffiHtXSxK6yAPCyqC%2BslmfT0s5Nma5%2B91k3YWQwVXninEsCw58u2a3LZnRElk3FRJcJSmv0zUaIC2GI9k9tw7zKpSlk%3D%7Ctkp%3ABk9SR4aTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117494001215"
+  },
+  {
+   "title": "Levi’s Denim Trucker Jacket Men’s Medium Light Wash Blue Button Front",
+   "price": {
+    "raw": "$38.99",
+    "extracted": 38.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287606533037?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5P9YGG4EQ07R1BGWPN&hash=item42f6af6bad%3Ag%3AYhYAAeSwGTZqtZy5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde84O5nV1SFmwHztZ1b%2FMEq5QwH9dlvt%2BcglVIobSf%2FYs3cP4%2FCOguEdaFHlssHj5S0kUvP7idFhJ8ajtNsg6t6LHUAvCh3bLqUnkK5kOrt04toTqVXnyF6pp6rTU%2Fvc4c2G3aS9o2gbTMpsf%2BiUFAi5iJQcxmlK1Juut3W48nC3bTBDUqJFRG2rKeCT2NzuUS6BtTwKxWvgz297k5S28VMJXYxtRS3XTP%2BTrxwEXBqJHFzrr1p6tjmS%2Bm5LddTMi9iawNk%2BtuVvBCWi6TZlQ2XI%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287606533037"
+  },
+  {
+   "title": "70s Levi's 70505 0213 Denim Trucker Jacket Men's M 40 Light Wash Distressed USA",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257831439075?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5Q9HEZB17DJY6SDS4R&hash=item3c07f38ae3%3Ag%3AmhEAAeSwjD5q6V88&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8YQtp%2FUDTpqkHNNVAJIk3WZGCqJKpntj6SjYPpTIRHtrmVL03G5Yj1MoQFVXsXIHSerIvhni1TZd1joZYAyJeSOKZFLxW8zLshqtEjWOTlg%2BPvy934hh8l0tgK4hSqHD7MFjTNMdUQPhcPF2Zq5tyH50cQHfHuCo52mSQyQH2--EDN%2BaFUEGOfpQI74C8a7M9iYm1t73tvuhxcDM8jGDmR4ZFhWb8n0eo1adCGw1j%2FmOxf8AeS9TH4io11%2BHoAxpMRvNLs%2FPysz9XeNYJQPJybGV7TqJd0XqKl5dAIZSE6%2Brg8bXQtscumkhPgubghhvw%3D%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257831439075"
+  },
+  {
+   "title": "Levi Strauss & Co. Men’s Light Blue Denim Jacket Button Front Pockets Short S",
+   "price": {
+    "raw": "$24.00",
+    "extracted": 24.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800396404825?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5Q3FV11H9CV9C1PDJK&hash=itemba5b57e859%3Ag%3ALSgAAeSwn2JqYoUM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F63QqP8wxGaNzU6%2B6xTv4xsX1RsknPEygzizriD7jYkj5Qt1mua4ZKDSqn5aeblwvgoLclFO9BgH%2F6yviI%2BzM2YVZOLte2CoC%2FydmI8xzPkKkuKrMLst7Ov5BAss8RQBAO3KhpF2qKhwyOxMKemZ81oiyxbQK2menIUNdes2UgxgPZ671Lo5MvEJlEgZrGFKrF1zPvUMfR53L3SxnAETKJA0BndvAiguAMYyKl9YCyACiacNW7xVvl6ZJy6yzVvw%2B79oGt8TtcYr8M8YBT%2BfdiZLwwZIF8EKhgeRKweEtjMb2htoGwpNVFdf5XB2OT6lo%3D%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800396404825"
+  },
+  {
+   "title": "Levi denim/jean trucker jacket light wash Men’s M slight wear",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366782483206?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5QAN4VMXMJ7PDJ80C2&hash=item5565f08b06%3Ag%3AM2AAAeSwTENq6iin&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BMt5uuTdRXb82Qv8AeaI%2F0g415wzf4C9usXNnr79v4eKVQCMQqxkUkEkdwwxdoFxZrw%2FYpvMmsLaRWPHM4NizlTwy8NyEHk354GS%2FLq9yMg6ujU0hRct6WKrKwWAEVkJzaDNm5HxUXr1oLqGCj%2BN3rzqt9OHEUYXIcQqGWsj9PafcN%2BJ0ID5GIeL%2BN3SvJa9yeosCm4Vptg2Wrtpeu8tEFJ4as4AJhN%2BCk1t9cWciTby84OKHWL0y1HCv559vf%2Bef0ovoHoO5YHS%2B7JdeT5hDzHAddGyzcOgtliCB21nK68EHsv6aoQOfCwuGQEvYGNBE%3D%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366782483206"
+  },
+  {
+   "title": "Levi's Premium Distressed Light Wash Blue Denim Trucker Jacket Men's Size Medium",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198627934440?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5QCVR2ZB1VYYRZRHM6&hash=item2e3f25c0e8%3Ag%3Ao5MAAeSw0UxqoGAo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FWZsKehV6e1qh75bIW245dVQE8kgsmzXikQG5KUogvNr7wHS2dGtowEn%2BGQwGhAC%2FH3dwPrz7PK7mStZL6hbbnT6PIdmMryMedu8ZIk5yRWU26oh8svPYkuDP07OX7BjJyB%2FKqQs4qhriuUJn8Anr39xaSIMRG9POoMZDDYOC1OIRdwaPi%2BapxbmYrsKLqpZAqEbzD3ahOPdIqbHoENpHkctp3%2BnEoOoClPZ%2Fx3spXQEUSWSdPpYfnvy6KEcJym1aeftRXEfCWmKyDuxZjxP39%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198627934440"
+  },
+  {
+   "title": "Vintage Levi's Denim Jacket Men's Blue Trucker Jean Light Wash USA 80s Size M",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188693751161?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5Q6ANDQY41K0P6YAMN&hash=item2bef062579%3Ag%3AsfQAAeSweXxqY6Da&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8m4Z%2B799tnQ8fZBQhapqMn9PRESm3zYHJREj%2FmmGIvTQgBSPLq8sOwfAkjKdmXiHSyB3oumeqbBcNqqiWsyYKpE7G8k965pzHNGPwJIWE3KCourD3U4xahpaq5f3HQUyqrW7OWmScgrg%2Fs7foPLj%2BN90eEml6LZ9Dea51oEHuBL%2BY65g4JnYZoHf52qtWluHDJkFhMMnyWTGrcC28u%2Fq3TBWeaXZmiSJidLFjESRE2k7s%2Fj%2BPDWE2TkHfDp5aKP0Cg4AorBDpyLoDweGz7PYSVzcyEWPEwhIheMYpIZ42gtzHW8HUHMA1qLssp5gsdzfU%3D%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188693751161"
+  },
+  {
+   "title": "Levi's 70507-4834 Men's Light Wash Denim Trucker Jacket Pockets, XL",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206670885123?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5RGV4BV49VNZBRYWX4&hash=item301e8b7103%3Ag%3AxoYAAeSwKVJq6NS6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FDLAyp5GiZQzc2jrb%2FAFzaXjkwe51Ly5I2OrGcQiSjHoYH84wCl5XjX0AMO%2F0iITdrC7ZDxeTJrxJE9SNCFFjJS%2BtXiFxctfbL4ijNLovvxcvO2DiLiNuluqAE1r92WO3voNL2Sw%2FamCJ5dRxN%2F3HAFLnPjQ9S%2F8%2FVybS69dpxuF0FqClQ59utSuO4HlSTJH2Fv7R0MBfxgPHMKra4ZxobNrHSSxpCLwiRd8I%2BoW8VlrZ484T1TJNei%2FD29vi8YT8NpQsgUSi%2FOzrDQEi0%2FWqhA0vUVzN9DaTFgmyZX4yBCS0RpA1Rls7RCsXvQd2ngrw%3D%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206670885123"
+  },
+  {
+   "title": "Levi's Men's Trucker Jean Jacket Light Blue Denim, Size Xlarge",
+   "price": {
+    "raw": "$38.00",
+    "extracted": 38.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/286763608454?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5R43MQSK6DE8926TGV&hash=item42c4716986%3Ag%3AL18AAeSwEnNonIQF&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8T0Nvz29PVOxQSmOJK4loZDLwuPaoyJS3xyOwJrnv7bFJReH1X5ZkomKlt4IUZiOMbKnV%2F8a3fIwJL2TvWAw86IrNESHcWs9HRQ26mzn9n6i5q7k6w0Abdc0s1MRUy04uL3WQAeB3Fpb1DHV82nLLdpZnHKz2LiKniqwUekSa2nAvalzRM19US0bae7KUbxq6VTguxaVD0xzK01wPj6icRo5avuKkjycY4PpaYfShgY6WQBRDGE0vruMdS%2F75cPYTqhKQ1vrThAdtsVSFX34aM%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "286763608454"
+  },
+  {
+   "title": "Vintage Levi's 70550 Denim Trucker Jacket Size M Made in Tunisia Y2K Light Wash",
+   "price": {
+    "raw": "$94.54",
+    "extracted": 94.54
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237168081644?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5RBHTTBMGQZ2QW5HA3&hash=item373851baec%3Ag%3A8HkAAeSwAwZq7i8M&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9q%2FwCwtMVtmbYWfRdp8lEbcR3%2BQrYuZyxE2zC5Xe1iUiVifuMV6TabK6%2FIKTSLPK1xd2EgHZkndti8yA5JRRf51Qv9UaZrJZP0l5yRquWMlZ6KcvQsgZDpU6aXQ24%2FG7MVRoXlS05ZgDMIhxe8z0yPpO%2FR0GMPMT7w%2Fi%2BlGGtE8BaaT%2BXw1ESXeyZ68l4LnjfdRvejqgJtlGzrrm2I%2FVI6DmANaQfrWOHBdybjXatSTpo8oqrn07KNv7IJFy1KXrpg5WSkilkI9ahgVIj0a3ENsExmgOEX2NVewE8YSdq7LyJ6U1GoVoYLoqalzbgwjmM%3D%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237168081644"
+  },
+  {
+   "title": "Levi's Men's Sherpa Collar Button Front Lined Denim Jacket Light Blue Pockets",
+   "price": {
+    "raw": "$13.00",
+    "extracted": 13.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/317937829330?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5RSBRPSKZ18XMQ7NEB&hash=item4a069245d2%3Ag%3AUqUAAeSwsthpo7kM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FgKWmwMaIu9K1lEo7mYzycSpkNHDfLzVAy2t%2FSWC9nX3Sy%2BTDSBwnsEHBhqyeF6BVS%2B8QA7N23969g57qO4uXx7l651R8splfugz%2BxDtCGOKAKbuCYf3JYyxx1dVGSzB60ObHPGH6kVcJLycKdzuTUBOT%2FXkxI%2FtSbOhA984I87%2F9ITMb1oFHg5oTc1zioaI8V7YHeD6QPXRjhm9TP72Sj2r2YZRg%2BV1JXjzGVXWf3eVd3F4pZkndYTq7g5Q6VrPibp8OpUb%2F63kJ%2BTau7juK1%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "317937829330"
+  },
+  {
+   "title": "Levi's Men's Small Light Wash Blue Denim Trucker Jacket Classic Button Front",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287599292517?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5REMXXDMRAQN17ER69&hash=item42f640f065%3Ag%3AqIUAAeSwwgpqS119&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ks3PYgW6hSOp7Qv8l4ZjpKrCSVwTGsblyrFOF0KJrC5SgQ7GvN4GbIXiqpLC0tUt9Uo1XNjcbIHd5xc3Odljj0LLnzErIgFxOWNuSKJiW%2BrXM07b8DJUV5RR5CvHjzoWq0n%2BY3fHLxvfJZwgqQOTtJj3ELxmP%2FE9VxfE4U7XAVjvJ3fStIvb4%2BZAtp04K9rjELFD%2Fl0cu%2FcXRrRBx5p0%2BkhOBTrj1EWEmea1DFCADNSxjtygl3nd5hRAF8ALu7dEzvL0QF14%2BJC7pD7al9Wdjh1n%2BCk3L0CEhFKk15MwTsdqlmN1rn3ziy3GJ4OKUIMU%3D%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287599292517"
+  },
+  {
+   "title": "Levi’s Men’s Trucker Denim Jacket Light Wash Blue Size L Jean Jacket Biker",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/197999969021?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5SY9580421JPJAVR91&hash=item2e19b7c2fd%3Ag%3AVHYAAeSwEDFpWYBA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9%2BUaO45z8Tic7YIDUHlu0ove9bywxGitcbVO1ZjUEN%2BusOwxBUGwMh3HfvphO1W3oO83fUEXurjJlhyys8KDetF3mOtSKWeD6jn3g9IC%2FgPq%2FjUe4D%2B9%2Bm4Vzi6bAzso3CB%2FZEbKKa3KhhPnyVgvVjYCMJQBCzJgvu4hjQbBlilzOM8iaL0e7yMcyPZHawotgsv%2Bg%2FjfjFSfaTMuSLGVKtK3bAw5xOOvAo8NcFfof3tCK0IAXIElA4Q77M0Aa80VoWDjjWg5CNuj6ZCZChSpLs%7Ctkp%3ABk9SR4iTrsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "197999969021"
+  },
+  {
+   "title": "Vintage Levi’s Men’s Blue Denim Jacket Plaid lining made in the USA",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407232092162?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5SBG536GQ91YV3AAEY&hash=item5ed0ec9802%3Ag%3AMd8AAeSwPOlqsBGb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9v2dF2F6MqjbUkaDAZP6oR01hU4tKYwNi%2FwOnMXtSrPfVX6GJ%2F293XelO9gCtiJ6YzuDoPXuJePXz8YafY1pwrB%2F2uqOCg9R6rU657kZUxbH9fECCRN3meifViLiG6GlXrSk1MvOAMeODmgGZOxE%2FNpU3m9PAAsRWu9%2BE5nZijX2%2FLelMAcWOjXWiiOaJu0vpeshsM6AuTeJ0igtsL9i2Y9jLXxHwEm5FpxGn8Ps1dZg%2BKtDmDWeKJxaxInpPyiBVTXGyEo3ZhSyKa6RR9%2FUOliOZabKa6Am51V4b16BfalZ6WeCtt9U7q12vquQptV%2Bg%3D%7Ctkp%3ABFBMiJOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407232092162"
+  },
+  {
+   "title": "Levi Strauss & Co Mens Large Dark Wash Denim Trucker Jacket Blue 100% Cotton",
+   "price": {
+    "raw": "$32.00",
+    "extracted": 32.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117508850349?_skw=Levi%27s+men%27s+light+blue+denim+jacket&itmmeta=01M6T8BH5SRMZ3BCGPM1AYG5C8&hash=item1b5c12c2ad%3Ag%3ARe4AAeSwYyFq7p2a&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BmEUn4wRnRKw7dfW%2FvyJU%2BcrB32JAOoNsPSreCxlykaL8Ol%2Fwv8wA%2Fj0woUhidAupG1PkmNuH43dhPa5FfvIHXTiOAuNzYsY%2Fa8IkY9r9gzQpgF8pRNnusa9ol4GR1g1Cdp6jvL%2FBgqMev4R6TTZbcLWfN8%2BfYR6%2B4oal4NrQzecbvCjqSZolLTHdJRkoctJqEDXrRq61Rnu93BqT2pNy21aeGzWilMNPg7VstsvYw%2FGVgZIAFrH7JNIB%2BOPHVKLUVZ0k8SOLW41J6kdxsaUV4vHYXfoOTS4kKLqaJ%2Fx3la32ITep11RoKuzIkNuIIQs4%3D%7Ctkp%3ABFBMiJOuyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117508850349"
+  }
+ ]
+}

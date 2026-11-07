@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "UGG Australia tall sheepskin boots",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 3700,
+ "organic_results": [
+  {
+   "title": "Vintage UGG Australia Classic Tall Boots Chocolate Brown 5815 Size 8",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206679915334?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB4BJTTQEQBW0CP1MB2&hash=item301f153b46%3Ag%3AaooAAeSwjllq7cqo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BRYlOgadoDt%2BBHn7ZM2wmUTVSIWlDxT9F0pVGKxhXnf86yII7mNxtFVOLUa13YSEOil57xl2j5PllL4Y1lqMGyqzddnOaJVwumSzkKJTMHPlXWr1cDx4rzo2M3fW3C5vWeVTAr3CHpihjW5IEv1qYeMj%2BMJYLlEN3RJ6kC3rLaEdr%2B3cNEBZLgP1sa6FeTo3vqguBXSBzmTon7L17WlnxcWXW8pngGFExfF6au%2Bzmk0oRMWRJ0MTwgSbXOexrVW%2Bj8zIzW%2F6s2UQl0%2B%2BoDjsl7%7Ctkp%3ABk9SR-SVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206679915334"
+  },
+  {
+   "title": "UGG Australia Classic Tall Black Suede Sheepskin Boots Womens Size ?",
+   "price": {
+    "raw": "$39.95",
+    "extracted": 39.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880086047171?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB444G64TQ3PW0KWEJS&hash=itemcce93759c3%3Ag%3AL2AAAeSwx3Fq7RcN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hyrvNcAyjf0KB%2B3lhJo140uAa4GT0ANp2DSYmxtojxV2OlXGkS02D%2FcY5iiKg%2BLawAVBtBtK0hsNkWG%2FvdifZpiYY29I2ARyv02%2BeWBruE%2Bu%2FplmVPhSH7M6KhzH6bAd7jgcii6Vz5Y3m0dPyB4IJhPmLKLDqMZGrC%2FNiNIAtRKI6OlpXFEyqqOvKvD3%2BxsKfDlDCRwAnF7Q9e0F1RdX%2BNN4i6Vkp91qf1wZS6I%2B0cTiricnhgaeY0rBBoAC1E0m9J5Uwrxp3d9XPO6Mv5FqCmmCe2IlncbG7v%2FfnP%2FBxnLH6rXHVV4JmgmVXzfmHb3A%3D%7Ctkp%3ABFBM5JWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880086047171"
+  },
+  {
+   "title": "UGG Australia Edmonton Lace-Up Women’s Boots US 8 Sheepskin Tall 3223",
+   "price": {
+    "raw": "$66.59",
+    "extracted": 66.59
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198777938391?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB4200Y5ZW3MDVSCYAB&hash=item2e4816a1d7%3Ag%3AfSgAAOSw-UBm9EVx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FR16rEZtoTncc0ryNCEpd8AszPr5fJ0I0%2BtRPkeoD5sm9USkde6fTQw17%2B4GZHf5kRia8nmVO7817VeL2xd63kPz22dC%2B4k%2FJDMdwO5YX9XTOTyxPeLIXxxFyIQAqQB7%2FYZIH8PGucOH%2F4th3pAFHBPOqJHtvYtrJFPcCBc8cQ%2F0z2delcaOm5Jub%2FnovAeeho8%2Fh%2BpUwRRKS5sOdAR1M31S572wi8yhuJZTnrHwZFm%2BUEDjdn6TgBAdxrYYHUMOUBxA3rfq5IzKaE%2Fr98jniVeiltrjJ7AFf8oHXrN%2FhnAENfaDPpcs7T%2BtGFFLkC1w0%3D%7Ctkp%3ABFBM5JWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198777938391"
+  },
+  {
+   "title": "UGG Australia Bailey Button Triplet Gray Womens 9 Tall Sheepskin Boots 1873",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820213348325?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB4KJ496GYA0SXHAB3B&hash=itembef88677e5%3Ag%3AjNkAAeSwjSVqxgUD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8DD71NB78ZSkOR4DMsuyIHJwWma54ah5MVJmomtOLbioYPvAmrWyhmEVFh3%2BxGG%2FZ2fpPMhnEWz6JIgcga9Afn6uMqIuC26UatRykmg6%2FxSNSfahNPa93%2Bt66Ut9TybCJ4FAWmqeYDgbxLdIdYf2AKcEc35VNFjqV26ePxCrn1wBLSVM7hppTxmsavzYpaULrHjEXUF%2FKW5bKdoRV8oTCs0vKNXCNkL4Dvg0Q2s4SiBYlqtyK6FB5bA1YTFcr03TMlXZOdSMaameLn1kv29OldDkCwUTABpdB1YujJZmdXFU0JtfXjLx%2FVENmn1zw7j7M%3D%7Ctkp%3ABFBM5JWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820213348325"
+  },
+  {
+   "title": "UGG Classic Tall Chestnut Sheepskin Suede Boots Women’s Size 8 Brown",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920109863722?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB47H342MKQA4SGZRRF&hash=itemd63ad2532a%3Ag%3AEuEAAeSw6otq7Ppl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde81yeL0kLi8X6%2BrqSpSm9JrPqepIOj16PY0GEa8sAQo4a2YjoBewDcO9j5qJwLl7fJfVSjjCKxce55PCUHnh096GnPDKuoEm0U6mLzJtzKf04YmX8ByYg5UyEM%2FKeOAOPF5%2BwEKXzb8obIU%2Bc57ClL0Qtmvx%2BBj4U8edTv0WuFkID0lUUYl1JfbepRD8FyXIcCLyf55M%2BroKbHdnqTo0CpcrWymONxdUQBQRF3lqMFrsz3j3Rv5BL83%2BecJkF96u7agrWjLfe%2B1CS54VLd4oQlUMVousgpCqG8bLaYu5IuUT3uy6BtFCbSoHc0Ytm4nD0o%3D%7Ctkp%3ABk9SR-SVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920109863722"
+  },
+  {
+   "title": "UGG Australia Classic Tall Chestnut Suede Sheepskin Boots Womens 10 5815",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336880706725?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB5KN48EVD1GV3A3A9B&hash=item4e6fa7a4a5%3Ag%3A90oAAeSw3mdq7APh&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8gHOBrvpBpngxp1m6daaIDnutPOJCHGIpXR3i50CloVIIf4AZpXw6cT%2FldpdoPhnwoyP%2BvUqE5tg6IMuTG5J9nZ1V1G4%2BU8w9KndvrFl9clEcpkt3EFlVpNTif7H3UHzSFkY0ZMvUhdj90dcNscfjUJm5LkE%2BuuS15CyNfQ4Ilh86GO6yxr6Cx9ePeY8tH9F2csCjSAnBIt%2BCuSmd3Po0ljrN2NpIEBxt0vsXDKGNzLPx%2FgbJHv1spYLnvFelL2pcJijo8T0P%2BrM%2Bc7tccnhMV%7Ctkp%3ABk9SR-SVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336880706725"
+  },
+  {
+   "title": "UGG Australia Sunburst 5325 Tall Sheepskin Boots Size 9 Tan",
+   "price": {
+    "raw": "$38.14",
+    "extracted": 38.14
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940068965666?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB5V8V3QW5RYPXT9164&hash=itemdae07a0d22%3Ag%3A7pwAAeSwXAdq7Qsr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9OGawLatsGsggQPISpGC%2Ft3rCJ9risEFmjMuFsTvTz3vIk51z4iSAcr9rcZAy9tzxmcFDMSe11rRY7SQVM%2B82L%2FaSYOXaYpyePUMT%2FbMtgh%2Fa4NSGibY5aM0OUHIPe%2BnWKr8CscUeaRn%2BHL1nTutLsd59oupgCM3%2FvQdLCR2z35oVe5OyI6k0oxBCNfpDMi94eC%2BpJj%2BaOqzeH1JITDkzb93tL3dbe3ol%2FST80YV6K6AjH0DqnUfrxR8HAKYeVdmNesZTJ5VpU%2FLEKmbyS01noHPuoILAzSi2%2FwieKVsVBbe1s1o9OV1fvUBwaMyUx05E%3D%7Ctkp%3ABk9SR-SVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940068965666"
+  },
+  {
+   "title": "UGG Australia Adirondack Tall Black Leather Wool Waterproof Winter Boots Womens",
+   "price": {
+    "raw": "$73.00",
+    "extracted": 73.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880090288577?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB54TRPZZCE9WDJV1NJ&hash=itemcce97811c1%3Ag%3AgAYAAeSwPWJq7k6p&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9x8swhz0aOm%2FmULP38Ku8RfyGlgLD3bFlXWbXznWwHE9yqUlxhhU3J5ma8ctGp5LJGjlydCbFM9WO%2BetiipSqW3vBd83g6VwUkm3PjYLRWQOA7grgujMWnY%2BrzM%2BnVbP2vRPOslZl4QeJfNUrAA2C%2BdDwWESqnnjKwjbVAzq5h6XcsirmDHa%2B81oTzngj9xMjSMzJKtl9W66001pAfM3yLe43II1hWD9ucpw%2Bkhe7PCmR02U5ZlIKcrhX%2FpwHsGYuCRmTPpLm4921hFZNMq43D%7Ctkp%3ABk9SR-SVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880090288577"
+  },
+  {
+   "title": "UGG Bailey Button Triplet Tall Boots Women’s Size 8 Olive Green Suede Sheepskin",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137908629664?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB559P1PM2HCCSJZ7NC&hash=item201bfeb0a0%3Ag%3ACqQAAeSw8Blq7jHi&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9C4AL8DPc1Fc35XSbJtJhxvJQ2HU%2FDMf%2BRj4oejwuMHjIAfOGBka%2FOXvc7BdBUVh%2BnYf%2BVXuxaGu5m60gi3V02GnyVkBNYoUo78GVDQD9jXbZTgh5GUtDcbtrvd9dD0thmNf8BEED1dR0AicCUomfpC7Xe1Zj5QSI7jwBUIs4EhgztDM3VKDyPdPC6SgSy3W8d0isDvRWigWAzwkme6rOAppcCcbe5zt42cp3TayjzHAWq%2BcYDVgRtlVy7ik0Fh7t1AHDcWPKZ%2FUPlJq%2B5bL35%7Ctkp%3ABk9SR-SVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137908629664"
+  },
+  {
+   "title": "UGG Australia Classic Tall 5815 Brown Suede Sheepskin Boots Womens Size 7",
+   "price": {
+    "raw": "$41.49",
+    "extracted": 41.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227588938166?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB5NP5Q71WP6R4KJCZN&hash=item34fd5b99b6%3Ag%3ABysAAeSwwetq44SF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2BiF7nLrMiwntTO0il7wro%2FqD3rtlB4cc7sIwytr20LRyw19IOfpbt%2B0KLNdv4DZY3ampVhbO03983JJbCaK5OUg71wgsWpKb0ViNrnjzKdAkMDXfuYEEFuoTzwDcj1CjSrTQrvsi5WPngUpJYvAh4pEu3k2no9QfB2dtYBKmvsuTacd4S8hmk1ADEp4VtsG4OE%2B5dVlmkErsG4PiF3HBdlEvJmXqk%2BvRAKynbz7WtcRQhwO2koMecGdboq2TLFyO8s9P92e6lf41pNnrANg0CFlAbjVCEPIeTUv0XPM5qyvA%2BQwiVYA9EqbCkGbM1RxY%3D%7Ctkp%3ABk9SR-SVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227588938166"
+  },
+  {
+   "title": "UGG Australia Classic Tall Gray Suede Sheepskin Lined Pull On Boots Women 6",
+   "price": {
+    "raw": "$29.90",
+    "extracted": 29.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407306675225?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB52NYYR0THF4WM7SN8&hash=item5ed55ea419%3Ag%3A3zEAAeSwnLZp7leh&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BJvN6Ibd%2FoMWfIjAJmhBpb5nn4ujc8cf2kDWo77V6CSSUDZnLpaA3lAG292cqVOAG8qU2MKfbYX1RLl6VGI12i4PBlomdLtKNFYiwNHvLdrDKRzuzJNLelOzTx3OioBVRqREGNAhPpuBJbYod%2BARqF5rAuAdLhBEtqteplrQrzlbVYUM9MSvKzjUw5PrUcW%2FOXt9H2HDImwzWJZ7KQu22VSqkP9Wi8AKGwUGy2qu8Owp679a8TE%2BTFDF8cmnEsA2%2F4mUdUolad06KqBV%2FccdG05wwz1JZs2Ff7o8gbXMUIutUwAJ1hnVKXOyCOPqZK8i4%3D%7Ctkp%3ABk9SR-SVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407306675225"
+  },
+  {
+   "title": "UGG Australia Classic Tall Women’s Knee High Brown Suede Shearling Boots 8",
+   "price": {
+    "raw": "$186.00",
+    "extracted": 186.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128175325721?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB5CDGF0G1SKYABFVEE&hash=item1dd7d84219%3Ag%3A8RgAAeSw2qZq64H%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F%2B8G8N4yEpBHJOtgrz2dSUwnuzY7I7Jq9sTkupeZYJPrc3BnOVqA%2BzzRxl5gisD1wDanD9T%2Fx20NXTKeSw4jqTXIUHs72Upsi%2F0nrQz3HdUK0UYQbE8bbn%2FxT%2FVz8VsBCjhc3IjZcmQloBVz0RRj6IYevCt1aaofyQNGclvo16zM4OLHJPi3q8hkaUvT%2FlY15oktbiz23%2B%2BstKT48ri9TMZ0EG7AcS4U01JDDsdmWTBtIWuy3P92naT7ZrCHm48QkCu%2BhleHRV91YRTmEgSUQzvd%2BNuSVMLZHE%2FiZVXao9aKDJpAQgPJ7eg5V82wRA8Zg%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128175325721"
+  },
+  {
+   "title": "UGG Australia Classic Tall 5815 Brown Suede Sheepskin Boots Womens US W6",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377544510906?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB62BE1D4DC6XJ8H3DS&hash=item57e7680dba%3Ag%3AlCAAAeSw9HBqwwSH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNyafHq1BNjZ11%2BboUN4NCtLg8R5PajBOS%2F8ICoHdUbnFm8ZxgZjc0ENfXXyHfDLic3cxxF6UTcuIv5L3bcjCYL3%2BcSC0DcCnPLiTwir1Gjrc1V9nZi6QWEqVIRNB9%2Fz2xdFMikAg3RpLTBV4e4UWeTNwadFFa4kL6ZynU3leqNuN2X25FPkx%2FmQioT%2FdeNX1KxIkMrqt4hvTPbC376Nvw%2F43Mv9Ols%2F8G0Nf0OGnsGBQocdsG%2F%2BvKlV%2FeRICvFCqWZ19BjvS2kEe3gztKCJQUQsrpaVu%2F6Obf0jeyic7MxFh1cxBAJ7ofGH%2FCvgp8p8g%3D%7Ctkp%3ABFBM5pWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377544510906"
+  },
+  {
+   "title": "UGG Australia Sundance II Sheepskin Tall Winter Boots Womens Sz 7 Wool Lining",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860081447338?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB6HYKJHSMV05YV4YJ1&hash=itemc840d961aa%3Ag%3A3qwAAeSwCZlq3aMl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8c%2FbZqRAeH%2F1iJSwBHFebinC5yu52xtHpqJCmg72EAwq2q8L5peqCUOYQkTbdb97JpSbHvntfebghaRx1epYZQS0i10fyuwifikVme1ZbhVpZHbqbINJUxgp0ogD5AjFTpSaSXHwZ2951v0n5dot1tSiA0zPHrrhGHfaRR3ErVQ%2FneqdfqZaug0US1HZOiL%2BfvU2olw7NWb60JVKhPJkbHK8KFyOM1ZpyGMyYrtl1XxC52rvt%2BlYRaJGRIPZiMKLYjy2ZFXrheKJuoBTMPJb1Tcz8q5jvax7ETpHyGKbGgzFpMfORf9UXdAWDZoL%2Fp4Og%3D%7Ctkp%3ABFBM5pWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860081447338"
+  },
+  {
+   "title": "UGG Australia Bailey Bow Tall Black Suede Sheepskin Boots Womens 9 1007308",
+   "price": {
+    "raw": "$169.99",
+    "extracted": 169.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820219578217?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB67PA5F80XVWMAK7FT&hash=itembef8e58769%3Ag%3Akr4AAeSwhHRqyIN1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9mmEuCjbEVT5AF0hoJV%2FcuoXs39P0gnTD0SsFUifSL9%2FwKlYU0dxxcuUiOgj%2FU54%2B3Yh2Y7qTTjA2%2FSQ2RNt0JM%2Bpr2TLgInV1oTPjE4hYodPwnEJiYvvJN0LNMfvDJFx9ZzOrho7O8JAlgVm8N%2B88CYWyDKIJQlUZekI2SQdDRQWKFVjTCDwqARYQomnSTqlrr1F74p3vnlhGmlHAcNUEkWFQKxhnvtCLhk3lw2OIT%2BNXim7PyzNDXUhE7SfOcH1LWuxbPM7fFC081BCsPGKA7gyRQbGrnsv8%2FH3s6WudKIVcmSOEIJXfaw5RitrrOKQ%3D%7Ctkp%3ABFBM5pWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820219578217"
+  },
+  {
+   "title": "UGG Australia Bailey Button Triplet Tall Boots Womens 7 Brown Sheepskin 1873",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820202160523?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB65WS2B53M2670HJ0W&hash=itembef7dbc18b%3Ag%3AiO8AAeSwihBqwgO0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9b6XKDlRwQ1CQDUAM2%2F8j4iJiIMGGlNYqMXpdVOHzkrc7nlhsi0b6Q%2Fmx%2BtYq53OHlJGU6%2FxQ62i3OhABVNAtWm%2FxeF5zDynBGfIWutTzSTqdtsrG8qEOd8MXQaNDYuhO57q9CpEON1Ab7WhFIPFmpS3bW4shw8yFBQKDNWFbXiJqnK29iPMJOAhi%2FPshCHu0agnPq9xNJcsOj19kG8rGdwEqf4aiY7tgp8YviT1F48ut92M1BfZMJGVYlWb8VoCSgjnr7kkFVCHIloZgCAz8b3C9CT7lkDMxZosBZjVd5QwpdArb%2FFWoz4QBBlg8oGgE%3D%7Ctkp%3ABFBM5pWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820202160523"
+  },
+  {
+   "title": "UGG Ultimate Tall Braid Women 10 Chestnut Sheepskin Shearling Boots 5340",
+   "price": {
+    "raw": "$84.00",
+    "extracted": 84.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257837838834?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB62YYQ9ZDD6TS80004&hash=item3c085531f2%3Ag%3AJfwAAeSwQ%7E5q7Up9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9tcy9KRK%2F49CEDfRkKwAV%2F1rkVkAmUiKRSap2EnmHzsYZnACEUFYBFnzMZsaTaMIJVFgxFad0BEdJrpZhri80mvL9gEh8WX70RntweXJX4g%2BLJR6BUgxoaFzADa6ZYxezPJWyDCS9fR2kZZfwGyJnfMf%2FIZdwKyajldpSX0Utio%2FipzlqZ1KSeO%2FCRxJa7Pa3kka2gkCo%2Fvvla8076%2FkpnilT%2F5zATOjdVci%2BMqkSCSqPFRZOtfSF5g%2BF70SvUP3txCF%2BgCRlBU85H3chubeRv%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257837838834"
+  },
+  {
+   "title": "UGG Australia Women's Classic Tall Chocolate Brown Sheepskin Boots size 7",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198765750868?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB663P3ZSP88FQKA1EW&hash=item2e475caa54%3Ag%3A3C8AAeSwX7Zq6LYS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fl0frML3k6uFFRji1YSsTU%2B6fUS5HOlXWlTFaxpT5SANf8lPTXwOoZbCWLuhpGxYUqxmKFiubTFuBvj161AMkdWht7hoSeacagm%2FiM4nEftyzflI5EUDQCqBw1KmkSruKIMSqoXkBL6KFDetX0gyFrCBVXkOXRPnfEq8uyM3kkog8Y4cqI77ofDi7q9%2BcbmbtbTHaKmPC%2FcqGd4r9GPa6gYOzhmIEF9CKU%2FM3MF98lx9lhn9vdD4X49KeEC%2B0F%2FmlMmS6i71sCtpJMTUemnztr%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198765750868"
+  },
+  {
+   "title": "UGG Australia Classic Tall Womens 8 Sand Suede Sheepskin Boots]",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820264023666?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB6DVRYP889H4GCFCN8&hash=itembefb8bb672%3Ag%3AqB8AAeSwyLdq2Drb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9D5pqb%2BFMnZiIlSM6GRtymLG%2BKQiDlt1PmCQBxRPIwVWEHU3kz2ZOZiGki87ZaXPRr67jOr9KXd11K4emI4hFNviq3Z15vc16CKfsPNhAEOuWT6W7wTd6LRQW3KZn0oRF%2Bhxb5HG1tAGCMeI7Cc4%2ByV5QLdxCfZHdwzSHnYOo16jLWADKDTfi7NUbEUEUMAedXBU1rfzn1RlUr98%2FLqV7BiK4Irnx7NCjQB36jgNkgRvLI2tsnBU4qPt4ceOTVq%2BGhQJVLqxuydD6woc74rWsf%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820264023666"
+  },
+  {
+   "title": "UGG Australia Bailey Button Triplet Grey Sheepskin Suede Tall Boots 1873 Size 8",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366664961004?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB6J5DS46AKQGSW9ANA&hash=item555eef4bec%3Ag%3Ao0EAAeSw1uFqYo6O&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9tU4CTLWSOSIByeFnx1fDmL9uv3t97Mp1kt5c01mGVfZzkg92GYDT3QuekukwtCDHYH5epsz3QnH2HraDH364HTRj15RJx%2B6EzKvtKrR3kiK1r5RZsLE2O3mitWfjNP0T8tduE8pqwxzZUj00DLlvVu%2Fe1pvfG%2FCzWmmmp2XWQ9Do7gNMxGAAn5wYhekb%2FozEvH4Ix7wFu9pWqnEuBuW4RlWgC96amq0JiGQnzKTF7Hb%2FgLOqCTejWnpHMsCu%2BH%2FqjdtXw9Mt44kuu9tbxDcfCRScND3dlBu%2BLs%2FPkx8U%2FdjK2Pao26ZpUlB6yM6ovVmI%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366664961004"
+  },
+  {
+   "title": "UGG Australia Bailey Button Triplet Tall Boots Women 8 Brown Suede 1873",
+   "price": {
+    "raw": "$199.99",
+    "extracted": 199.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820277644971?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB6J1MWN9VGCNCHYQN6&hash=itembefc5b8eab%3Ag%3A7NwAAeSwgtRq3Z9L&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9lcSnwVBUEWvlplinmGgJ2JkkI%2BDVijr0DZJCMSZai%2FjpPzGSbkAmcr53ATAyojTNxnhxOElNIItdWnaMvfVCDN6cZkWahD%2FuxpuuXdEhQXgrCKjXJ1Q2ZHHk9V%2Bc%2FQhUsRgPQIyh639eLXLqx0GsJ%2BUVURlmjxz0FfP7PHe1Wq0tfVcUhLZmqVATWCcy2C8U52lOwVEKYgNqDFtkhdDEcAmV2tFQWM5bX%2BaePGNCcAS97pjoxBpUHY%2Bxu6mwGDjXJq96K0DiKwJxcrjqInZQ%2BlW0HU5%2FJHLzwW5XYc%2BisnVCZ4wW9Z%2Ffu%2FlRPfS3fZKY%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820277644971"
+  },
+  {
+   "title": "UGG Australia Tall Suede Lace Up Back Boots Brown Shearling Lined Womens 7",
+   "price": {
+    "raw": "$145.00",
+    "extracted": 145.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287692659530?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB7WXG0Z9GGM45FHFY2&hash=item42fbd19b4a%3Ag%3AlzcAAeSwieZqlJCy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FZzXclOOFwI3sz27RqcxZv8WJWWX%2FgolX1W8b55L2gZ5ecb4M4iVsnVztMj5HyZReCMFsrbmuyD7jMbQ%2FzYD%2B50k33VP28A9n7hbRJqS1dvSEVD0indklMSeLYDfEN4zO0xAydQavTxrhusfw15MLPnyfr8ncUXCiWh%2Fo%2FiyYUXxJQUyw3Q2ttiH7NSbovZAqq2eWSOWEG7JO8oUBGXWlw%2BNer7o9nxD3Wb8TIMgRtBDwMkpu6xsO5J5UTYtAUrh7iVgqjMYpR%2FGJVrcmRN40VEv%2F0Tt%2BpGUieQYLzw3JJUiYms4veR638AgtVzBuyaAI%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287692659530"
+  },
+  {
+   "title": "UGG Australia Classic Tall Boots Womens 8 Chocolate Brown Suede Sheepskin 5815",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820253547171?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB72NT7CF5PP7J5WMA4&hash=itembefaebdaa3%3Ag%3A7eoAAeSwFbVq0x9o&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ZKfT1Rcu7w2x29jKRc7AdRT9yz3629xv3sXQ1jLsgz5el4T3jIQ%2F6bthOoStDg15IkkDaBwaeYqDP%2FfZHL7CEC64j0cyL6Grt%2BA2a1RA32aqzf9gYhScs18pCcs2eUoMv4BoSh%2F8IQy8OvUFXa4XId58SeBHWdRpqTgwogheHp0%2BoWcyadbY%2FlpD46R47rI%2FP8ffZE1nQdB21eCt1VjJEWT5LrMzPhnRdOuX85ZjN4aED4Q%2FcZ7Abt0A825Ou1qz5VvZPl4SJg0j9M%2BX1A0rMi4CjTSEbY0AyS6vs2DSvwVhtbDJ0BuoHOqank1EBK24%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820253547171"
+  },
+  {
+   "title": "UGG Australia Bailey Button Tall Knee High Shearling Boots Beige US 9 EU 40",
+   "price": {
+    "raw": "$112.50",
+    "extracted": 112.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860070943796?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB77TTNCX6PC7BXT6AB&hash=itemc840391c34%3Ag%3A%7EMIAAeSw0wxq2f4a&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BS4j1g4FdE6tFpjYPK63lqv6rm%2FXWcvKb1rSRyomFBKOCLN769cuEVD%2FaQaVt4yI09fiNpqQUkj9ujOXPeFu4zD8bIuSqETS%2FOpk2oYt2RgQIjqvWxdiK9VrVUlh4jwNlt8aYQU0d8THEwMvZOdNLV8nmTSQ8Gi34FQupr0VeFdFm7exz4hCJCLkI0a0M%2BabaWsMyifnKt%2BYfjutdJ%2BAAW0QRicYry2aHFcs3yHSV080ygNJw9GMcaZc38H7CCQXbJbE8bLvEOhxHOumWDkVar%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860070943796"
+  },
+  {
+   "title": "UGG Australia Bailey Button Triplet Sheepskin Tall Women Boots Size 8 Chestnut",
+   "price": {
+    "raw": "$320.00",
+    "extracted": 320.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137902006468?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB70YH8WNWBN93CHQ89&hash=item201b99a0c4%3Ag%3AQ5cAAeSw5PBq60Dr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FXq9RWbVwZH7zAjENTFqMdyCxyq5A%2FHwjeZOhIH7wg6XHZ1wkQVY%2FGidPnyyQINJhkSox9VV2QAtpq9q7TabnoGeoGmzVyUktWArCztYWQ%2BeQLqQ65pGXaOvRp4B0fuRQyKVlLRM86dvdwzIeCmb6smDtQ%2BK7QrIHSNKipQeWn2l9WpGzyvIiu2ohJcIasoqEmXR%2FPEt3PsESBPwuwHXkkEt64Ve2f6G9X7CJle3SthNgMH8ib8RaK%2BfHyw8FipbogQoyBivc%2B%2Fz7EAut6gmPDSHAhtRA69XupUXMUoZdgdcusndG5wWFth3PrsCsMWBs%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137902006468"
+  },
+  {
+   "title": "UGG Australia Classic Tall Brown Suede Sheepskin Lined Pull-On Boots Womens 7",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227586313958?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB71Y99WAJW0FV56N04&hash=item34fd338ee6%3Ag%3A5EkAAeSw2lxq4Tqb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BIs7pIEqKOxx1j%2BDc0zivXMPyktcEC4M9vdlGN8lbqfISQ19Z2uQ8znJ9jO2U%2BXBpUOiLxCyx6Q6LDgZx%2BObuJzj5fFtECOQBQp2YXAt%2FLRBx5tNmGTdNT47ad88ZINOkd%2B9edT9SVbUCiuUtjpJC6aIUqgLfy8r1MlJnXv1HbIfSYFJ8kl%2BgVEWxFlSfrV4k3ACuIIf7EpWqfvUG0yLxUadeRFFBZbHwuxiHVFYLpLoI9mMB9vYN5VIwJYXEVnON0cNptacuA9URd38SmG%2BurbYb1s9F6nfXdrFPbUM8b%2F97M4jdQOeTqXsJua7rbmo0%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227586313958"
+  },
+  {
+   "title": "UGG Australia Tall Black Sheepskin Boots Size: 11",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327414989921?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB7J3KETK0WZSGDG9PE&hash=item4c3b744461%3Ag%3Aq7AAAeSwvBNq180h&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9MPb716wjlvIAQJy5oQQ5rPVPKkcg2qeXCq4HFYJgoD0PSISCoGfp0TY%2BUHHUjDRasYzxki314llRER9xshdYFiHgtwgp%2F3OZfwvieLD8x916nPiwzEpa%2Fe%2B5mW73aZFAx6ec9HaZTexbicI%2BT65EFz%2BW%2FJNzDx2%2BqmmuW%2BBT%2BH9ZFIKBxByZipV69o%2BbmN6vggILtNh%2BlPcNCnkxdDYyblEQ6susvkfSbwK1mZoFb9wvY8d0Jb8lfr57BdQaWGJoEmxn%2Fo053Pow9mLHNCd0yroCclsx4ClE%2FgXTpuHovrHfqsubI0jbQF0gIttRDagg%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327414989921"
+  },
+  {
+   "title": "UGG Australia Sunburst Tall Chestnut Suede Sheepskin Boots 5674 Mens 7 Womens 9",
+   "price": {
+    "raw": "$25.99",
+    "extracted": 25.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820304365894?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB7FN438E9R66728P2S&hash=itembefdf34946%3Ag%3ARq0AAeSw3i9q56mK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8BEiI8z0XoBgqzTCF6tqUqQDGTfesytzXfMpa6fnN7YXbX51BG0ZX%2FezGQNgCHVAUFs0Va4MR2bZATGLEcBNse4b6mWOlZ8lmtIaOtvx6Jh7xkMH4wHi9Ildj8XAlGIGne4Aaekz%2BG7WVIoq6TwZYcsNBhpiI35sJ%2FyWAZuQ7TP3wDN5sA3WIenUuiM00D3F3r0DnXhdsnnkGeD5REfbe6Mh8Q3AYZMyP2Kna55pxRcyQiX%2F7Ez710TnKcJGHULSLwofjaYXhP%2FJ4c%2Buy%2FUlyvTVwk9b2Xb%2BXAUCb5dqxV8Pwu%2Fk6APmcMi1mJ%2F5hfeIE%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820304365894"
+  },
+  {
+   "title": "UGG Australia Brooks 5382 Tall Brown Leather Sheepskin Boots Women's Size 6",
+   "price": {
+    "raw": "$29.95",
+    "extracted": 29.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237088997229?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB74R40AY28V117TPVW&hash=item37339aff6d%3Ag%3AH0kAAeSwGTlqtZjy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fcb1bAR6QKjeodOnwfuf9g%2FWmvFWWM2qKqzrfzJuqCjTQtbPDFqFxRKrA4k8rVuNtCtQvBVFcgUm6vOVH6umIL%2BtAuolqWE8JsDRndEfedTTMUN%2BVsowXdFc9LkWG2wVx%2Bp0JGkyXIrX8qPBl%2Fb5HwBaBq2WjTv1R2Trj0O3pGnp3uVWffTGPEC17d9pbFwU6D9pJrsf3rrVV4m2JhkkYFF9KqBZZoMBnEoLQaTxOgKHzYDz6Q2xgvul%2BRWy6%2F3%2BYq4hu71pYK%2FNOlMptS6gg%2BdbGsfnFqPUp7Qhwusdb%2FwYAlyL7Z3RvtniXtAsR%2F1nY%3D%7Ctkp%3ABFBM5pWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237088997229"
+  },
+  {
+   "title": "UGG Classic Tall Boots— Chocolate Brown",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147638957290?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB7YP0Z2XKKWZ3JA1ZH&hash=item225ff7b4ea%3Ag%3AJxYAAeSwpkxq0o4a&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fq0hH67I%2FA63arCDj6Tx5frAqFFTGvG3DE1ahyNY53b437qHqeFjEtQWlG0iczIYn96cIs3j3g6Xq1n381BnlMffFeBV%2Fj67EaSnBhoeYVaB6r44UqwMDlRahj1T7FwNIzVcai%2FrGPf0uABs9ckq9FPgsxLG0uNcB33A9LYI0yI7BVF1STcIcOatVHZe2jCrPA1iKazaxREfle6Csq6oDvweMlw7lIOFXizEWKO%2F%2BFgzZTaY6gnjce2VcFvEKIumty8Vbid9JHY6bJwB7uGTg%2F0P2fQHAcWJExfNoPzeZrQrkE%2BKDoZXhY5xnpFy3P8vM%3D%7Ctkp%3ABFBM5pWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147638957290"
+  },
+  {
+   "title": "UGG Australia Black Suede Sheepskin Fur Lace-Up Tall Winter Boots Womens Size 8",
+   "price": {
+    "raw": "$139.99",
+    "extracted": 139.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820223862270?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB8B97NZQ7PTSNQKRZQ&hash=itembef926e5fe%3Ag%3Ad5YAAeSwuulqyhsG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FxGt7Ioik570jetH9qzpYzNPJ704nSTbwRpZnvp50uZycIzV0YejDkbADy9imCnVssQgQNKs8MnFhwHzRW9jzAHoor9GmyYwbSI1BGvPqEuGCc2ADYIvNDOt1hUvGjn2oNZyJvPLwlXQHUzwPVcfgYhkHT0oxuM5OzQBTCA34a3mc8mtesDWOfeIsEtyC45rAKLdt%2BJH2X1dj3hW4Fyy9x%2FzyOXkRLumHyDhtrIGMCQIrYQChSL2YtDUOYB9oqQ7NbM2wlFqWMU9zExy9YgwP7bAUNv0Qfbom%2BDKVG2kIj9JRRx09G%2BiqdXE1TA2peXEI%3D%7Ctkp%3ABFBM5pWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820223862270"
+  },
+  {
+   "title": "UGG Women's Black Bailey Button Triplet Tall Boots",
+   "price": {
+    "raw": "$58.49",
+    "extracted": 58.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366675418933?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB8WPXJ45ESEEAX7Z17&hash=item555f8edf35%3Ag%3ATgYAAeSwYodpGQTC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8O0ZIboMtxRRlJQ%2FzlwFlbVHhgvh%2BWXZgGME3ViEelPKUGUkhoh868mx9NZHCJOyvU%2FXbJvBhKfPg9N5rt%2FmIkUQpdE4yAAJydU4CKjub97t%2FF8C5hANOXJTG6qEkJYoMT8lmnzkfSuBAQ6TTpec2HHH2YnyENhzemLdBeEEUz9F3ieHk%2B56ufeac8Z70tPO79Fm15jgyMKCsyoWxYeX87eMS%2FmdFGkSMmluzCI2x%2FFioZEHrdWEapHsJcunrUr2QIEizSLTPKRtEKFagkZMB1qp%2BZO%2BJlYLObmeX3ZXEdQlPyCXZ78wXDFUjmpYWdDlE%3D%7Ctkp%3ABFBM5pWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366675418933"
+  },
+  {
+   "title": "UGG Australia Classic Tall II Chocolate Brown Suede Sheepskin Boots Size 9",
+   "price": {
+    "raw": "$56.25",
+    "extracted": 56.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267816572212?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB8NGGQNSPGMGQB620S&hash=item3e5b1c9534%3Ag%3A8pwAAeSwRVxq1Bg6&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BQuk8UmHjHedZ9UdPAT%2BjhWVWp%2FrAPhzctsN5drfLjMhEPmwyTz%2BcavFjoF34tCF0EdVuagpos39gXa1hsjXIRjDIGWEojmRA2xTlhISQH5wSwVO%2BseiudvwAe%2F41xHdVD80RPSkzBDc2SjIPX7HrKMrM5EPVA8Hflio5PbqY%2By7shvyH9aadQdp1kgsGUkeebfSOTHwqjmwXcMdNj6xYQDy%2BXRAj6J5NMN%2F6u%2FwZuec8DVsllkzk8ZSTwFzc9neP0OWuIqK3MiEB9fH1Zbw02%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267816572212"
+  },
+  {
+   "title": "UGG Australia Classic Tall 5815 Beige Leather Sheepskin Knee High Boots 6",
+   "price": {
+    "raw": "$98.00",
+    "extracted": 98.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206674343355?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB8620R7RP1MFCZTK4V&hash=item301ec035bb%3Ag%3AaYEAAeSwyXJq1ku-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F8Wysp7gIcl%2BtqHxplZGIpKV%2FIbWG4Y0XvIjinTz20EEm3qQRgcaNN4EQDyTTUJNOv3NuTf9JBemgDKY0U8cM9VX0fCCOKb%2F5qhTGENw%2BVboRZ%2B145SLVU9iHtsByHWDbi2zmYzeBcNK5uMyJA0iMfJ7FWzquZggyqMfOzA7bcPj2hip%2B8r2c1NN6%2FJPdRVEteAKoAYHX8GwsgEOTmmIUB4dTQ08ZyBDr5%2Fq%2FVuQjyLbWW%2FxpwRMSwLo2jns8%2Bg6%2F6Lh2P6h4hS1yX3eqyoX56%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206674343355"
+  },
+  {
+   "title": "Vtg UGG Australia Ultra Tall Braid Boots Chestnut Tasma Sheepskin Fur 5245 Sz W8",
+   "price": {
+    "raw": "$58.90",
+    "extracted": 58.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117493329507?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB8VTQP49ZB4JTGVRBM&hash=item1b5b25ee63%3Ag%3Am58AAeSwWKVq43X-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B0LA2vAZWsa9SA%2Bz0%2BtmvmxZcswqGHx9sGzJwZYVlXOQDXOsnjiCD%2BY7myhpOau%2FBfLS%2B1DhEZuCunJ7wjMZBUqWwFkBp2b21ulg93UZEAGg5a8ju01gaNZ58w%2BJbQJ6aOCzxueplJxrAdWZ4A%2BSEdH%2BQngh0yfAYYfSSpKRrmoZA26xUoaaKI6pgyj9mClR6WEwcKbXQ6wTSBYHIR0PcR%2BXDQZ4lMbve%2F7K8YZYZXhX0Nl6LEcVl2lg69KTMeSSH6GkC%2FbxaC2BUM8TThXdIu%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117493329507"
+  },
+  {
+   "title": "OZ Lamb UGG Australia Tall Laced Suede Sheepskin Boots Womens Size 8 Brown",
+   "price": {
+    "raw": "$64.00",
+    "extracted": 64.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168829015937?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB8R9F990VCB6MF94TW&hash=item274efe5781%3Ag%3AW-0AAeSwOXZq5hr-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BO2NtUVzy7S%2B8jKDT%2BhYGnVn2WGmPW31CylrkpMErc8KuXdZhRRolU%2Fn7LKM0FMjhpRDlyFLlodamzSv7N5qIhtoc7ke6KbmpynnhedaLE4mk94AMkiFvdUw96lzjmYSwHOR5NoSDdLvmyv%2B1ceU2ed0jenJmjwL%2B7kNyz4RLDt2%2BK%2BEPSA44LgCuAETDDcH23mvhl3U0TLCOsk5ZZ8ULtcvYEPvd%2BhUPe9Hn3BHo395ot9nD5KoQCElXVYYrBOT8F6546lpurccpBXe2wd3WWQvxFlp4jfgi%2BR%2B5piEebqYlBgF4CTz5ycatzrCGtquM%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168829015937"
+  },
+  {
+   "title": "UGG Australia Ultimate Tall 5250 Boots Women's US 9 Sand Sheepskin Leather w/ Bo",
+   "price": {
+    "raw": "$32.99",
+    "extracted": 32.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168844206644?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB99H3S2BYS4NF38T44&hash=item274fe62234%3Ag%3AsmcAAeSwZGpq7lUM&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde962LrBw6Il3k1rtg%2BVzMHpEjlzFuKqm0w6l9hVKeOxOru2I2dZO3jssY62IhjWAjTM%2FnkaVeWDdygkk%2B%2B7QaXD3dFHtc0nGjl0N5doErm5vPdBmmuswsMFpqxOzTLGdd%2FIRU96M2rZGnKKL6ykuEmRJkhiD53SuUGmILoh2LFovdV22BqIcRAy9vv6NZYnP2XuEzChHrggWR2wNaruBay4LBltYZy%2FTvHc2CVaZzWRHSpwpXOnyeOdItefCEsc5m8hdFtVqrrjI%2F6HILQNscsN%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168844206644"
+  },
+  {
+   "title": "Women's UGG Australia Classic Tall Leather Sheepskin Boots Size W9 #F8008C",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327443250077?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB9SCHV63DZA3BJZTY7&hash=item4c3d237b9d%3Ag%3ANQ0AAeSw2qZq7esS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FtdNL0lKtzJsQT5ATnQkXQ2HbxvBHMUPrcpjxw5rxODlsTwZbUCc75yRT57Fw2dEJJteaRB1nxKprlMriudtC6vwsK8JWRvZv2mL1ADdV6JU5xlI1xJV4m4poQVmHU%2BdUNSetSpi8EsPUugigkE8sZwLfyh6TM1bdnFnC%2FPKCJUrk4fAbvNJFCNbetufoGTGQYXgCa3JXyT%2FNn6vEx8XD7Tg3ueJFiEC%2BIGSy3W5k%2BQiZ96XRjC1UenH7yYqeEKDB0aekL2b5CxRz7z2pvrRAaZLtFPsNYofzf8WV9Nute01WwyApXkpQva6KXnPb%2Fe4c%3D%7Ctkp%3ABk9SR-aVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327443250077"
+  },
+  {
+   "title": "Ugg Australia Classic Tall Boots Women 9 Black Suede Sheepskin Lace Up 5230",
+   "price": {
+    "raw": "$61.09",
+    "extracted": 61.09
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860022981252?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB90HSETGAXVTM4D86T&hash=itemc83d5d4284%3Ag%3AeWUAAOSw6Y1n9Rak&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde80FopDS7H%2FjqWNmfZRhu3%2BobEO07MSbtP1cz5%2FW8CV9tzPuKXbcBKtJcMNwnBd9kszwVj5RLfCMG16x804Vwldq8EiCKNVXXJbZAEMW%2ByAjJBbEGZMXBSnE%2Bl1MdK2ZY57rD165UgmJXkBQ915F6lfady5z9pDonJHAItcK6lxAKmmAdCl3TO4n9tEXjwoBnq5fGR32rU9VwQogvQ8RztqogEMUFhDmr4pgWxssukRo%2BZU0XUCyUyvKyjwPnHrxiIwQaUnTT2GRqMiq5XMIdc7oXMhsa3e1DM3x6J2YOmam7oYgaD3WRJFLYkdaR5aBss%3D%7Ctkp%3ABFBM5pWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860022981252"
+  },
+  {
+   "title": "UGG Boots Women 7 Black Classic Tall 5815 Sheepskin Suede Winter Shearling",
+   "price": {
+    "raw": "$36.00",
+    "extracted": 36.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307270184544?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB966WTTKNRT63RAR11&hash=item478abaee60%3Ag%3A5dgAAeSwpydqxToa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde858dUT1mp72zekkDpryLr%2FIeA3L8EU3tkBTXpFRn%2BgNlp%2Bd72JJyuUa5O%2BQrIJrJuCDJ3ahdfMB17RkyIBgNHh0CoTJiDWeUS2zb9zIw0UK6yw1Ycj2xM4EdFJiDyag9e5UKJ%2FK5NU5rxZj2yt1rPjZncohdTNyGK7JN7Mjf%2Bngy7Tbh6jv6J7rZAAlxrUMIEyClvb97xK450U0GbXIFs%2FVxCQmdLSAOrf5f8mxzJ9yUupS1QB3i3s7KKD3S0vaZsEmiThRsUU3yS2lYYw0Z%2Fvo--WevRF6xkLyDoXK%2BuVYEzA02ikITzwIP0to%2BPGcUo%3D%7Ctkp%3ABFBM6JWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307270184544"
+  },
+  {
+   "title": "UGG Australia Women's Whitley Tall Black Suede Boots 5122 Size 8",
+   "price": {
+    "raw": "$38.79",
+    "extracted": 38.79
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900029392394?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB9AYDVME1Y8DMJH1NB&hash=itemd18deea60a%3Ag%3ADl0AAeSwPZNq2HYO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FiTGVTS6PIFgveXOZJeQueBUqqph8TirZqxe2NsrzbnaVQh2sgnssUOoSqnu%2Bm0XTvhI0RPMtchh9wMy6igr0t1%2Fg%2F3q8p41BtE5uqce8UjLwAfi0MMAaK2m%2BpXm1bxYj1Su%2FI5GQkZWez0t9BsidIwP9YE8G2BA21iHQbdY0cShr2pDCQ3Sz565oFY7xC57IjsJ5rjP1IMDzY4z7mR9p6rW3iaPrS4HRrlEvsgCWmJA0ilhU4Po%2BMqB9qi7vZN86J46wF11l4dtwJfwvQOeK8z3MdYsyPHf32e3etMmzR0oC5xcLR044iDfkB%2Fy993nM%3D%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900029392394"
+  },
+  {
+   "title": "UGG Classic Tall Chestnut Boots",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137888938554?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB9MBFETPTNMGQD7MMJ&hash=item201ad23a3a%3Ag%3ANxUAAeSwDKtq5YFV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde88CV8sx1%2BllYrOZ%2F3mk6IiYec19dO8hPYAsbpFSlZntCMT%2B3rw744FXbl1R4CdGntzPAJ5DABIptwEMwIXlazBFX6Rz96U%2F%2BS7U1NchxUUCb6taWLAvd9EFDcC%2FgbnPUxfOMchACIs8fHULyEbacxHH5%2FSlNVKum%2BBgS6x%2BqPo2zThURHta8Zx67Lm%2Fxj5zPX9466chvxd%2FQArCZD9mgtMFYS1ynqFEqfckF0R2mSFBCamPM93TuwgWQVT%2FJnlEj31HsZa7HT592S4bLqBR2N5%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137888938554"
+  },
+  {
+   "title": "🔥UGG Australia🤎Tall Suede Boots Rare Embroidered Geometric braid Sheepskin",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287641814305?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB9MXJ5QEVX1DFQX57V&hash=item42f8c9c521%3Ag%3AuZUAAeSwtdFp2qzp&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8KKkDnddnysMFjz%2BlhbxPel0K553%2F3h6JI0s979DZILX9GLjMJ7aVSxliGmeMzhw0N7c9tn3tbRELOrPpe%2FBUoZUNTmp6a8f1oYjQ0%2BRoVQ9%2B3CK3OshkyMjXnQlH7Rs%2F2DFf2LyhN%2FBAbWY6240WP8PBwVv2%2BWJze62mk%2B4ZJsLCSdUHFRaQ1sSOfEd9uyi5ksJ%2FpZCXi3opIKPdEYthKzing2%2BD2Zc7Cl0TO1A4zMw7jfgXhTPI8ZnZa43MA4q7rf%2FhxD6rmcV3Qob%2F5WaIE%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287641814305"
+  },
+  {
+   "title": "UGG Australia Classic Tall Black Suede Sheepskin Boots Womens Size 9",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377622516037?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASB9Y3Q03YZEXNVKTHJ5&hash=item57ec0e5145%3Ag%3AmoIAAeSwzopq69bi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9tjP8jsLd1BOuVdWdZT5oZEPZxAiOEHPEyFsI%2FdB0uppOebUvQDBjkJtYU0r4VKLMJymRGlQd8Qd84ko2Sn3mYaCbdkTYJNcsaVna%2F%2BWp7KBadKzwD3p%2Buq4%2Bsw9hxRRpRGigyCsGJNZC0R6QX3ICyNHZ7OoPiARjGGCM2qnXrY9TCaO2sptz3FzY8K%2F%2BL3YBL2d0a78%2Bz3KzdLNr2B9EfNdzZ4yWWHd%2B057tDfh1V72SHeN8mdKFmGdKzWCDA%2FF8HHuql7o3PFA0a%2FxAuSdKv0UZzp4K28tEmb9XfpJZpoIqis%2FyfV5BvJZoST5pTxJQ%3D%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377622516037"
+  },
+  {
+   "title": "Size 8 UGG Australia 5815 Classic Chestnut Tall Sheepskin Womens Boots",
+   "price": {
+    "raw": "$33.99",
+    "extracted": 33.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267825251999?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBAXRS5Y26064WHZSNG&hash=item3e5ba1069f%3Ag%3ASVYAAeSwcHtq4LLB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F0GfVHDcCQ7hukvcmG90uF%2Bi1R0%2FRpEsU%2FsmdbCioSq06Bu6uEaqQxaLAM9GUQY22YvGLfBdIzllqJy02ULfZbs86J5qo4zkwFytseeEKnIeYjU%2BGyRXkBdNzyxe6Dnet%2BWuqIjD%2FTCNPGkwDQFJc9SM3BXuhnzYhzHH87Ht2k9JcSNS8%2FuFuE8ax%2FPEfQk6i8QP3YQV3D5QAk0NuPLtHbiR7DkDS6s6lQAKmiTClr%2FKxgO441ySBa6nFAfBxGg8LKapPtTxtpnKSiQ0gAIo0%2Bg1eU3dQoLmXiyHXFOteSyT8ChqWc10EZRy%2F611eSN04%3D%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267825251999"
+  },
+  {
+   "title": "UGG Australia Black Suede Tall Shearling Lined Buckle Boots Women’s Size 8",
+   "price": {
+    "raw": "$69.00",
+    "extracted": 69.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267829262143?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBADRETN86AJAANXMRW&hash=item3e5bde373f%3Ag%3AmBIAAeSweRpq5lvt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde--qR354bduM25CjGz7NSKgY2Idt0ss9Ut6HmL0IISleSTZp6OJog%2FYj3xgutqwNiBh0NL4ZBj8rUeXNOwEBBnldSwei14WDJmse6nCXE8GN9wc%2Fmt%2FZHIMsDXajpCMg%2B6vH0A%2FUT%2Bpto9Ecb6Ojv9xysxeDEd%2Fxaj%2FrZbOfQ6XSabf3sdZTH22GqFPaSxFSC8WVEpD8c91D11PB82zNXzUII0fWWNZ%2BV1eQhvCtjgqNP%2FAw2PZsuRM5%2Bz5UbV9StcaF0wy1ZuVVDJabYhV%2FctKc4A2%2FeMM6iXA8jgvdNPkGZVK7SXvNfCXG%2BZmZidxOJM%3D%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267829262143"
+  },
+  {
+   "title": "Size 8 UGG Australia 5815 Classic Gray Tall Sheepskin Women's Boots",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880003076962?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBAS8C88XZQVNTHCXK2&hash=itemcce4455362%3Ag%3AUkEAAeSwzC1q6APw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BAYRbwRt9wuivZJGgZ8qKuu%2BWn7OqPlV5UUmqJrF7gvpftNRIT%2BEseb6h0h6fVG5UMImlmiemglsvnWyM4Nle2pshjOBfZ8hd2w7T0rt3gSFJyCUT4J0%2B6jC7%2BPXahKi87gth%2B6C2De%2BoD%2FM6D0L2dVEW2jV5YpXN99%2Bv%2FkLjndA%2F0rVv3sOZMtQu0y78BVtbqltENw3kbflqyWJko4Ix7OCwN7I53%2F4GCrZ0gknpPVvxltvfeQN9lF00osq72r1y0KFr4uysInmQLsuSwDftO%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880003076962"
+  },
+  {
+   "title": "UGG Australia Black Suede Tall Sheepskin Lined Zip Boots Womens 10",
+   "price": {
+    "raw": "$83.70",
+    "extracted": 83.7
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940046419367?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBAJ0R3BS98SX3PH3CA&hash=itemdadf2205a7%3Ag%3AMYsAAeSwQGtquYop&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BfeuLCed6%2FeGI%2FWqLND76kF0fIF7B9Wvl%2BpUjlwyuvyoT7WLwOxRBZZR19NCsSuerZ4p7d2JAgKmComKpRCmB6MxlTmtF3E1NEndBePVNQE80jaAVyZzTrt8%2FhwByN8Kf5NBlPdmIliiDOHuQf0XHePQzKABZ3ZXUWyM12SI9B%2B%2FT8HB7kr9f0cX9R9c0P5ZpX8wEIy0TyCXREA708j5DlMI6CthQg6V2ZhyvFSyNDYoJJWD%2FS6bgFXHX8slJ%2B7uY7zWhM5g9ign--lDk0Fr5i%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940046419367"
+  },
+  {
+   "title": "UGG Australia Classic Tall 5815 Black Sheepskin Fur Suede Boots Women Size 8 W8",
+   "price": {
+    "raw": "$49.00",
+    "extracted": 49.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237097698160?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBAJ0XEC1Y3QQ4VSE4A&hash=item37341fc370%3Ag%3AXNwAAeSwElZqvDUN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FGs3PXl3ymIrxC3T740qPC6XDUs1kWu%2Foyo6AlQqhf6Jegrd7fDhFQ8uktL4FyogIOuQ1g93N%2FBiM4W8KTD68GT5t1rX7%2BVJvNBrWUax9vzSZT9JqzujuRu9Y%2BWXHbhOGLRgSt1B2jm5t9oBg5QkJGvrxJCfMLSiYbtphy85YRK%2BpyTFcE1yw13NUya6IqaknefPIucIIndA7jCbNQEXxynqGXuxm%2Fiu59ENrDlYraPCJmplkEyqubBUm4fyxeJVBINUbYSAfFa522FzF3MIYS%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237097698160"
+  },
+  {
+   "title": "UGG Australia CLASSIC TALL II Sheepskin Shearling Chocolate Brown Boots Size 9",
+   "price": {
+    "raw": "$45.99",
+    "extracted": 45.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840082784773?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBAMXCAZSYKNH20QGNY&hash=itemc398d60205%3Ag%3AAVQAAeSwP1pq5vWN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde977s5v70plSnfqUHJ4ivwNhzFeBRQJTN7hJRtM%2Bh4LpeBubjl8c2abxrElW96QnTQnpUlozXclAKGtW5n1mwD%2FghWIWlurnzNvpVr%2Bs5jVoQHFy2bNAmLandSai2B3XDwOZ95cxaWdkDlRVWcHTnlXsUybAaJemur3zmmcvwFjVLNe0wVakKQgvUuDA9RMprDctMotLoxZzxftv6c8QgoqF2Ek7MxyzMk%2FXh%2FddGwAeFGSUOWPJMgOKoo3JWdAnAaf1F65hgpc6A%2Bi3LNjGUmh5QiwjSPx56FSXRIxhWTKkqUrOo5FPDeg8w4VOKHeM%2Fc%3D%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840082784773"
+  },
+  {
+   "title": "UGG Australia Classic Tall 5815 Navy Blue Sheepskin Boots Women's US 7",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257769718984?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBAJMYP2A9WX5RR489J&hash=item3c0445c4c8%3Ag%3AB00AAeSwxxxquZBD&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F2xhknGKVjaVkD2W%2BISnKB7Z3Uwu22nOIZiri70%2BYisCe7rLIdqtJ%2FbxMbRzIZmR4N3%2BDUB%2BhGQORTU0BR6WM5pOXD54pz0BbcK3B9FdXSShWDNu3dW1cInEoV4wsOhZ3wHLR%2Feuk504aq1nt4GrNUaGZs2MBwDtRdmz%2BibDus6S7yiiS%2BbQzBFgElCesRD4tgkcRYn4VGxqpyONRuO%2B6ke849V3wqZh6urvu%2FRUlJ%2FHvAvONqnBHXJ1SYlWjVOpvoIQOoOKxWHc5c%2B4vUKZVR%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257769718984"
+  },
+  {
+   "title": "UGG Australia Classic Tall Boots Womens 7 Chestnut Suede Sheepskin Lined Shoes",
+   "price": {
+    "raw": "$31.44",
+    "extracted": 31.44
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/197943079432?_skw=UGG+Australia+tall+sheepskin+boots&epid=1080670463&itmmeta=01M6T8ASBAD3HH32FVPXT7X51Y&hash=item2e1653b208%3Ag%3AEo8AAeSwmMtpO8MQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BA8O9%2FW4x%2F13IEqeqjICIaticKyHSMoE3D3xhKuF8HZ2gy1I3RLHJtgMgSsKoWNAVBLcHVppmXsPlF%2BBGbB25FtYCjpoW1r78sh9moYAlHuoLeNirGidLtBSOCzgY3xLCdh0MTclUBelCdnKYaB%2FDvz%2BF3pgFme3u5n75Vgy6xX7DxxWPI2Nhq7QoCPb%2FL7Ue%2BDq0QFRoqNFWj4wzItUokruFznY6g%2BT70XYiftolBNmVb9JVhG6DYvG3ST1OwmznMnKUHddogc2XBQaB0CDVG%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "197943079432"
+  },
+  {
+   "title": "UGG Australia Classic Tall Boots Size 7 Black Suede Sheepskin Lined Knee High",
+   "price": {
+    "raw": "$23.39",
+    "extracted": 23.39
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117476601367?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBADP8TZBB7DPWBWYNG&hash=item1b5a26ae17%3Ag%3Avu4AAeSwMqZq12FJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde--Zj9ghkIna17qP9X1ANcH%2Fm0d5%2BFQSTVN1Hg84G1m6M8nl66Nb7ua%2B4xBdVbvWE6OJfXob4r4N9HutkuqeE6qJIIt4cO%2BvCISrXsp4%2BAY2rf%2BAHR%2FrAMIkTxYUYxJRr8%2BMtjVhTxx39%2Frp4wpGj9%2BP8ENijfYkfDgnfMRPdl6FdYQllCMVgE%2BpnjYf15N1mLE7TWTnFqeZCd0PCJ68dKhQ%2BpUfDhG9sVXkxmBuyptPFvpNw0yRlF8z3TUKQPdWqm5f5ROWzAFlL6o2R6sM%2FuI%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117476601367"
+  },
+  {
+   "title": "UGG Australia Cardy Knit Boots Womens 8 Gray 5819 Tall Foldover Discontinued",
+   "price": {
+    "raw": "$109.99",
+    "extracted": 109.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820253273630?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBATJKMG2GVW5FE73QP&hash=itembefae7ae1e%3Ag%3A3%7EQAAeSwL1NqzyBE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8FFPHkt1rLWrf%2FTlFJugBqxPImxwR8Yx20bQT4HBGIRmsPhm07PuaYDxf2SE0l1vxmJFgrFXO4i0%2FpY%2FxYFuiJiM%2FQcVo00G1Z8PQHtiSCACR5OiYxYy%2ByNhSEIqulhgZT1gbAE9B7EUIyF39F9KyG6PgypMhk9QyFaqJlI2pPWzI0V0BYTD7TESsDalrIQ0%2BDJ2QjyfmSvz%2BcvTZ8FlT4MPrcNKuteQ7kcbdxXdgElf6Hwq2Egz%2BJAPRX4q5j%2FoBXb4vCqaIPIGquR4RgmE1KKlQSjQtK0OmcInp837Sg%2FtoSStw8d9KUdMxff2DEwyw%3D%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820253273630"
+  },
+  {
+   "title": "UGG Australia Sunburst Tall Black Leather Shearling Winter Boots Womens 9 5359",
+   "price": {
+    "raw": "$49.49",
+    "extracted": 49.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366716770074?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBBDFY1NWKWHJPYHNCX&hash=item556205d71a%3Ag%3A5FgAAeSwdixqdQVl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ujqmedjxdildh8ruCr6w%2FT6oxAtOOjZgizeUnW5uqmoUteAt8HBEIHkRkzI%2FEzfkqte9QRtt8dSx6e6kHaSQ6PwJCoTsnDXcNwfsXPd5fJTGZ9YIhsCj7aLbyCPKQOi%2BwLW%2F9cYsPNQlRvLETwOB7c2geofONo7F%2Bz1ki738QP5VvHKuK8gaTAg7mUxTXW3GpeMe5s4SfjlbF%2Fjpt7VNkayfcMoPhByIn6Qxr4pnp%2FYc54qmfYcYn0Y2Mpr3Z3oHm3DkBk5Y32LpjuxtDVaqTYpjwhr9aV5BZ%2FQ5imV7Lw31q6v1rRrpIfz%2BZ9auS6gw%3D%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366716770074"
+  },
+  {
+   "title": "UGG Australia Classic Tall Triple Bailey Button Black Sheepskin Boots Womens 8",
+   "price": {
+    "raw": "$159.99",
+    "extracted": 159.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820257909142?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBBCCHMMRMXVKWKHJMD&hash=itembefb2e6996%3Ag%3A9VAAAeSwv4pq1bxR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B0cxZ33adVgx%2ByJZjzVkLRmw7WGmlFHbw%2BoVIWkW9pLbKRfV3IXI8aCTUgOZYMMR3VjMaZj3nMgetzzKihY84d%2Fa%2BW9kS3hzaFnsfydQvcTgJZKNJByoYxYwXCgXQ%2FpFe%2FLGgwkNX5i4vkMDTr0ghNGZD44ClSOlZCfxkr9XsIKX2gB1c%2B7K9gH4YntzGmrpth0QVz%2Fhyxwvk1VEMkDboU%2B45%2F1rkato71pbeyIS8yhKbPdkCKqAgSFBb2LYPVSBtm8jAP1XKkC2GPLzpJ8OBekerV6XdDgN2HoJLv0%2BQmlDE7B1DFbTjiyCT7VWW%2BEKc%3D%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820257909142"
+  },
+  {
+   "title": "UGG Australia Tall Boots Sheepskin Womens 5594 Dark Brown Leather Suede Size 8",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920012288972?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBBRHET665BDQ96QF51&hash=itemd6350173cc%3Ag%3AzWcAAeSwPspqxGZg&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BhAg3eef9u8cj3zIxbMClG9pXxDz9W%2FnhhOqxe1H479sru8qj%2B0BuXbO%2FnTQLiibskiMLe0vIIQmawLrRuodUY8naeD%2Fw5tJqCnBdFMjWaztPUnhMycT0ur94SOY2fV3V4b%2BUv8I7iBBZm3rsTKwTkd5%2BplDKiP9p7wTIJyliRivwfjOtrl8J%2BA4V1VhFZZsNQBg2FEQqk%2BM0htDVqr1r7OjoZMGxAS%2B%2BjQdblyZjM2M5HKrV3d9YyQicskNgEH5HKbomUPjeid6LWq2kdJtVj%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920012288972"
+  },
+  {
+   "title": "UGG Australia Classic Tall Boots 5815 Black Women’s US 10",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960160422594?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBBW4S8ZDDJT9YRN0P8&hash=itemdf8e055ac2%3Ag%3A2qAAAeSwKnFq7Vll&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8nesKielTQe%2F6jfCtxR7BQu1nVy426nLMGwQNrDxsqOUfLiU4eN34cbG4c3P9y7ypvQS2BNjp9qfvv0a6RMpAJuNDRspetxgROt02mkzv3A3Jg%2F5Lc%2BkqreVSyVrdlepQGX57a7oqdLwGNppN7Q%2FVvlLVgHwsmKpjZI%2BBAm%2FTZwuMgTR4PHf9elERNgWLLFud%2FqVtRu5354VxpqdchDDStwW4cImizFOmIBflW%2FyzgBsGWcn32Dh%2B5CEuBdmjyXG4AeD8v%2Fq3d5j32FOsg4VpN%7Ctkp%3ABk9SR-iVq8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960160422594"
+  },
+  {
+   "title": "UGG Australia Classic Tall Triple Bailey Button Black Suede Boots Womens 6",
+   "price": {
+    "raw": "$169.99",
+    "extracted": 169.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820219680686?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBBF76089BB7YMGMAAK&hash=itembef8e717ae%3Ag%3ACW8AAeSwDThqyI38&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde93XjICU0D8owunOuER6YKLO6pYTBuSjp8JPc0BOGqXedotkPoj4KJdL3QXSBKoT97BUaPFjJEuBaTSZhpc49qFnGJpX78a7HZfCpYnrUjDB5DjDmQW23D7KYbFDwgN9KokRz6ovYxXUdZmVKpeIi5MRSG2%2Bv6gzqWJMvYrvPEX2Uwm10WJIJOEE7V7A5lCaw8bSGbMzSjKxcoUAbMYVNSQ7WKm6qAQL2Csjf4Uc6ereRoE4R2aW5ycP8ogBS%2FHlAu6OAChKvcjewQ0TLpArECvEQ9dTj%2BDzszE0dtKy5o%2FBRmJ98vGOxtLL%2F8adTpyoVY%3D%7Ctkp%3ABFBM6JWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820219680686"
+  },
+  {
+   "title": "UGG Australia Classic Tall Boots Womens 6 Brown Suede Sheepskin Wool Lined 5815",
+   "price": {
+    "raw": "$27.77",
+    "extracted": 27.77
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377625015422?_skw=UGG+Australia+tall+sheepskin+boots&itmmeta=01M6T8ASBBWKF1PY8PN2899ZJR&hash=item57ec34747e%3Ag%3A3U4AAeSwr8Bq7SFm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde85m0JJuQdn7kfpZ%2BJD9ZXBUGvgXOSHbK5IlPrPggmjdfmWVyVY5NVuNVx8DGyyF2VDu6UljvMG6%2Bu5v7plfuLGER3F6BCrcmEAMved6YjV2siufSdwcMYl9hq3ss%2FF4QIM7rYRwd4CTq8ufM3TdgJ4fniCJGwsiKhe0vfP6eAkkkpzhQf001lUB4M%2BFH1L%2FNjlABkaDQceIrV2V502Tqib5ZiLM8JI9wzM941rKCgMK6Mzv25wyBlTzc1SHKsLgVfIfe7K2Q0msJk0AlRWIPauc9SAZJ7p89OpHDU5tCRbfY1piG6V1tShASkgaDKXOdg%3D%7Ctkp%3ABFBM6JWryLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377625015422"
+  }
+ ]
+}

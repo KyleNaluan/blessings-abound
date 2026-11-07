@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Under Armour men's navy t-shirt",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 10000,
+ "organic_results": [
+  {
+   "title": "Under-armour Men's Navy and Blue T-shirt",
+   "price": {
+    "raw": "$7.00",
+    "extracted": 7.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287705513192?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY6G67QRD9BEDYT4WBM&hash=item42fc95bce8%3Ag%3AtPgAAeSwvxtq68E%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8nDzUeL3hDPQQcdku1Mm1mvJdJno9GZD44b1PHZCMkTr3%2BRTWOC7axGIGr3KnImcTyPBfwYMTU40Zy4j%2B59gUfFGikK2U7daKhfDiTNprSmPMz8QurqSjYPCyf436l7vjUp3x3JVogoyDz2O%2BWGoa7kyJCblsVOtXJvT8qxAGf9Q7r%2FyOopOMDtvNCYR4F3msAOnFnxYYg2U6m7gxrYwhCUtV8WYlSNAJn7bMVh6rzMgB0AAr7C%2BqXIKkW1GCrl5CxHFejwAZnrxmFJPUu0xCg9j%2F5n7A%2FGcfkVhMCaYyWr5alWsyk%2FQbNYP2IBfS18GU%3D%7Ctkp%3ABk9SR7DPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287705513192"
+  },
+  {
+   "title": "Under Armour Men's HeatGear Big Logo Navy Blue T-Shirt",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820253345136?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY6FSDYMK22SFHBBAQB&hash=itembefae8c570%3Ag%3AaC0AAeSwwNtq0XjQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9e1JsmsSO349WlXcRJBfJEj%2FApuBZTjcEqQWW4fYJWbETGRjbtaWP4Mahjjtb1OayJJl3f9MIUkqSdHGKDnKMRkunvSf%2BAFb%2F0Rx1u9lCBcEVkXXDbhhXtYIcLjDZR5XI%2BP5yfWHQCSDjnWoSa2eBNVjJRdUjy3nHYVu9rffaGRMBX4aHsiamI%2FskiMH8tND%2B4dCbCyH3M4UZL%2BU8sbgG%2F1796QPdhzfaq20q%2FOzdRZUROKf64qyNoeFPK4tIi5moeCzcjrTg2E28FzjaUVOx6VxEsXdc2SmSCJ7N%2FR%2BADKdWEGoiB0yC%2FhIHdnY1Og38%3D%7Ctkp%3ABFBMsM-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820253345136"
+  },
+  {
+   "title": "Under Armour Men's Size S Freedom Flag US T Shirt Navy Blue Loose Fit",
+   "price": {
+    "raw": "$11.00",
+    "extracted": 11.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168503052912?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY6F6QMDX6AY5Y6XMCC&hash=item273b908a70%3Ag%3ARGYAAeSwPghqQ5WD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8xsrtbuhLWlSzfjdjO%2BMVP0eZxZ3%2FFb52CWq6i4p92ybb%2Fm6e7WQf%2BDrsxO%2FAaoCFnkrwSXdwInC9TTID3Zi9SHHMB2vXxqZ2qG0cbUEvaOSwyFAIPKtWjLJvJf2GIZCTHNfI0nLIH7fA66lRSjFVIsmwirfmgpnxzCMy1wyGCajbj7HPYfF1oM%2BaiLIaFjZyK69SF2WnsMOBoUyEpWMYmD2wy8JWhUQ0rli6UaBJModU4OqZGAAXA5BK21KV92iyfDCnA%2Bp32kWipY%2FbqEFVjx7zOnHemildvL9goxd2cNZQ6H6QFyJuL4lMvLIERI7M%3D%7Ctkp%3ABFBMsM-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168503052912"
+  },
+  {
+   "title": "Under Armour Men's Loose Fit HeatGear T-Shirt Navy Blue Red Logo Size Large L",
+   "price": {
+    "raw": "$9.03",
+    "extracted": 9.03
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168696383938?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY7T8NYNDG1Q82WZABP&hash=item27471689c2%3Ag%3AdxYAAeSwa15qrECa&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FX%2BsTzOG8dRmbGUonqYrmLY8smSlGPFJvpo15lNZftnqeNysmEmyAxho7pOuFWtW8KNgjROX%2B5jcd2jCWvYTrN3LgMNRKtc%2BO66sHa6P5vyzf2j4EIux4FZzpq%2F5lP8WMVE9Tx5PULMYAUli0b0sJ1cfN9wQBX34iwQDW9xd0dKtWKXB5ePoPsR7Jv6HhfQgCCCRih5u3wCTXDIfpHnVJC3ml0U3xEfBAbn%2F4C6qqCQloo7iOX9DcTb9%2Bxzrsz2CdzcwG%2BVXxOcT7hQNRyu2nsyYAFdVcWa6PSBxYDWrhAXrpoQCxZuLeXdu%2FMFYW01a8%3D%7Ctkp%3ABFBMsM-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168696383938"
+  },
+  {
+   "title": "Under Armour Men’s Small Navy HeatGear Graphic T-Shirt Red Logo Athletic Tee J69",
+   "price": {
+    "raw": "$8.00",
+    "extracted": 8.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227591413286?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY7MRAFTWJARVBY48HE&hash=item34fd815e26%3Ag%3AV2MAAeSwakdq3CJN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bk3pGI14eYY7WMmeXQbctAWQFNwIdEV9sV9FHaYtXYVGDpOXlhDwrwNj0y%2FvgtMM3bfhT4t%2FEqse93BuBw%2Bul6HTUtQb2oi8CtKDVcBiU13OGQzxpT5bACTxQdN4RZ3%2BX6tPNevLS2sVqg86MkZefT2YDNo6GyQJauMLOk0zBtlcilC219aO3VgeN0qmOt6CCDPSvVdoh%2FhCpO9HnfW2tuQzvQ3TeZ%2FRUHxSJpWuZTAOBtgskMMCH9gjRaKtEZN%2FCdWbf49WcTNP9LiMTbEiNU%7Ctkp%3ABk9SR7DPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227591413286"
+  },
+  {
+   "title": "Men’s Under Armour Tactical Long Sleeve Shirt Large - Navy blue",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336872591692?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY7GWFPJNVB5CTZ2BSE&hash=item4e6f2bd14c%3Ag%3AfoMAAeSwQJJq5ncT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8c4mBoYAGDF4mkBKJD%2FPHR9xxLIHUM6yPVG0QTQg4P%2F28lsVoffE0EunQbNz5XpoeoPydyCBwIoNbx7Uy%2B99Jlcjrb4sy2wWmMksMmutuor53OPQzapfASbNJ3niPgOa0VUpF8QmDpWp5bD5E5yjnE5Bxf6CR5SJpbU%2FGP7yf6lQrI8jcAtIRNJ3eJ6Z6%2BTDkhL2DBL%2FkcgyyjYwhG0d%2Br221CBXYVftO26h5ZrjRTp%2Bc%2F7BdPd2Op8D%2BbecQgEjpS26ub97372YqHnsCLgAoBme18jIHtsv4ZnoTn0PuDeNbmSp6muLjj3omnN6xn9r8%3D%7Ctkp%3ABk9SR7DPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336872591692"
+  },
+  {
+   "title": "Under Armour Men’s XL Loose Fit T-Shirt Navy Blue White Big Logo Short Sleeve",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117502006226?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY7RYDXWC45VFXAN4DC&hash=item1b5baa53d2%3Ag%3AWdoAAeSwXkRq6ezm&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FMAnpeOhgRC2Yrbgk3uPhJ9byi12%2F2pKVHF10zP2Xl%2FwiV7hGK35fzsOLXZZAPj1XeAIuJZbMS4VrGFDeDsP7YnyzK%2FMjqXgv16f9VcW%2BY2vTnbpdtHAie6UAuEupVL0DeHBYPH0aAPtxTaHL%2FxXElTjzC55XRx8G2FGCPEtL1Mc5FwFE6NURLXuvZrCdYEQqb6xejsHRDkNqwiWgrlUmdkZGvT1gQPNDOqLrwrHRpufkVAti37tNi80%2BTl8cY0iCNVdlO2Ih%2F7S2whktU5Zdm%7Ctkp%3ABk9SR7DPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117502006226"
+  },
+  {
+   "title": "Under Armour, Men's, Navy, T-Shirt Size XL",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287529231137?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY73JXVBABFCC94HB8X&hash=item42f213e321%3Ag%3A3XEAAeSwhyNqgie7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8FRAQo7oonOh80763xQFhE89G1ow5k3c%2Bfl3PJl5CoBwQCsb5rBYqY%2FIypVbBMCBxSQqvvUfsBUgA%2FWqgKuENKd8ultl%2Ftsak01DLHMyt%2Fd8oY83Kp7hNV65GzmvQY0VaSfw6phtZ35Nfkvpc8yJVxKyMbJJQ%2FxJqtnSdevgwcGpWwJgYxXqnoQIulepHLr0ip9JDuppIuanR3NdXzmo4%2BUa3bUymPoD8i9CmT6HHbz0zIoctzu7N0FrDgciFSFAY5JigbnaG5e4GEfC6HSxqK%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287529231137"
+  },
+  {
+   "title": "Under Armour Men’s Navy Short-Sleeve Logo Tee with Red Accent",
+   "price": {
+    "raw": "$14.00",
+    "extracted": 14.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860112665773?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY79QWM2EHT1GY7R80E&hash=itemc842b5bcad%3Ag%3AGzIAAeSwiVBq6zSd&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BMRriGbvgiQAhoQXE3ZaFvbvyUUlY4wBdoP3esg0eorPXj93h1I7ktUP2c4UICOTSCgqm7gm%2BBuiShgq7Sup7AuZjxvTffeSPg5TikqCNx6kKW1C2ONtXI9zw8AIHNgeW7lBo7cS8OTLwToqIBiQZeycW1wi%2Fl6AJ%2FP8sWnRpAfRa0fEG13c8smrkoDHSl%2FDWMFcIBepT7TcfeaMhgpis4NDNeRD5gm1SmRqdkeY5TsgFEvCC4d8N2F%2BeOQ7zlGxw%2FPlKaVTRK%2BAd9Eaba3Vwy%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860112665773"
+  },
+  {
+   "title": "Under Armour Men’s Navy Penn State T-Shirt Short Sleeved Size L Heat Gear Loose",
+   "price": {
+    "raw": "$12.95",
+    "extracted": 12.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307254683003?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY82X01QZETQB4FXX9J&hash=item4789ce657b%3Ag%3AKYUAAeSwJFBq4rJm&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9wVUFHgy67FxNoau%2BDcWy4JclZnjV6P%2F6mcW9kwu6LqHrj2cuzFqAGJG%2Bfr%2FLWU6sYbhTpcpvzQ2hHLLBoype%2FMsYUanfTi9q%2BMHE9j0OxrmGILwc36g617q1TgYtnZnsSVqVCorKnFSnuRLnDiUYNPQsFZYrg2i4x7wvfdocqmzArfgNuPPL1xVdefg8MpOCNu1nHSoxvZIT2vq5157ROptKQhkt0%2B5e5bgBZGt5ONh%2BYjSGfDFAkPJh54%2BhYrbFeS%2BQDVYJ4LH%2Bvavo9BjN6%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307254683003"
+  },
+  {
+   "title": "Under Armour Men's Project Rock \"Home of the Brave\" t-shirt navy; size XL",
+   "price": {
+    "raw": "$14.50",
+    "extracted": 14.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227596340254?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY89R0H1QNWN55TEEQC&hash=item34fdcc8c1e%3Ag%3AQScAAeSw7JRq6km1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B5NBCeHnk5K6TsGdUv3%2B1UFL5Uer9Ip6gTeDrbqwFYNRQ%2BDfhcQGCyHGzSHyXOthOI6f3MEDIbcrvIwjUopPL36Upa1ezX048YaENgoggHTBZkZPx1rUTi3jhzNZDCxlnyqpHk5olPWNkn4HHdFusaTLkrEh%2B3b7%2BuY7QANgwVrtKeSUZObc4Q0MUTxe2SZR16IMrpOiZHIr8a26SKK%2F8OZ8Vi6b3pQQS5fqoqqmG5%2ByV4U2xKUnMcw98vl2beOP2dRYn8S%2BmZfutxsKabVBZALk07GTOzvJbSvBqArh%2B16D%2FxrsS4bShm438r%2F32D%2Bao%3D%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227596340254"
+  },
+  {
+   "title": "Under Armour Men's Navy Blue Long Sleeve Crew Neck T-Shirt Size M",
+   "price": {
+    "raw": "$7.00",
+    "extracted": 7.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840089914321?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY8XAM8TSEJBHGMWRJM&hash=itemc39942cbd1%3Ag%3A7zcAAeSwC-Zq6llN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BbsH0ZENf0TagzMWh%2BmrLr06Y879XMUux9o2arIXJ4bEQ8EISgrG93oqbNYo9StIv224mb8UKLcCv5nCIna1ove1K2Tcl9Xmx3Lg0nMucdK6gM4DWyBg%2FoE6UYSuc5prw1L1GVhf67Tgb2%2Fowd8FW5HsLD9FJ2hjoPTHJL6m2WEManqXIunfqV3Q4Tezu10WhuRV3jkANWGdEtY36L7%2B2al6Jl3ZTOssYh8tJIJyl2D%2ButBKoeqXhdyTr7FIoNYfmRa3uzZUdLE%2B0jR0QHq%2BHCsEYT1cYuiqb13bSC%2B9X56Fc%2B71NZVwkJNHJDHCC3JTg%3D%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840089914321"
+  },
+  {
+   "title": "Under Armour Men's T-Shirt, Size Large, Navy Blue, HeatGear, Loose Fit",
+   "price": {
+    "raw": "$10.50",
+    "extracted": 10.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820236510417?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY8NJKK9FRBZ5VR5M1X&hash=itembef9e7e4d1%3Ag%3A2sIAAeSw1Clp3Z4U&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BZMf4PBQBrnzTjG423poZEiXFq%2Fdj6e8RLvbYvxo%2FOirG7ltizjvOQHxKFe6LeqNItRxZqpIl7MZQV75hFjau6h%2B0odLfOXABJghRXXUXYPpbAiOUGAnrM9TTLjeiJNQOIcRsFJHLGIyJHUBQIqdjQ%2FASorNvObcgNzvgFPRxeYGB0sNQcSD1h6YrdWiyt9c4I2jG%2BKh7O52Nwqk6w1MpxalV5CzDPrf8%2FOKvwHKRqsUtuVYt%2Fij1qXEJYCAk%2BO%2B%2BKTh%2F4h7dfyX3wxRGwEkhSP9W7eRbVEn879Yp8r17DPcZY0%2FvDwv8hm%2FiwCMWtlLw%3D%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820236510417"
+  },
+  {
+   "title": "Under Armour, Men’s Navy And Blue T-Shirt Lacrosse Logo",
+   "price": {
+    "raw": "$6.50",
+    "extracted": 6.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307176117951?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY8SPH43S6RY812JSQA&hash=item47851f96bf%3Ag%3ARo8AAeSwmXNqpeAv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FYk16TdxxYB7d2zZl15Zwrb0J7IzxEdiYWbjTVsnP1lLtZfQ7TG0GYiWigaqveCL3mSe7JQAS35dKQ8q%2BODm5zSeSRTm2pM0AGv2kh7BzUbfSiIWaskdV74mzoZqAGYEqjRm2xqKECNw8%2Fr3V3APB0Z3U%2BvZTjXkuN6iHp82K3r4q9QemZL0vXu03pF8GJQZ5SN5Zw53mM63UNrQm%2Fx31aDfnVzTEQkOA6Pn%2FDvJFzIyxgKE4K0EC6oW18rSMUDuaK67IDpJtJltgz7Ap21iIQr9MsLxjiz%2F5%2FgONVWiVlcXWupCczsn0sfz8wwR3WKXw%3D%7Ctkp%3ABFBMss-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307176117951"
+  },
+  {
+   "title": "Under Armour Men’s Large Heatgear Navy Blue Shirt Workout Casual D8",
+   "price": {
+    "raw": "$11.24",
+    "extracted": 11.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960031647573?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY8Z05ATP51NGRN4DVX&hash=itemdf86586755%3Ag%3AzeUAAeSw8qtqxlNL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8tDWlyEJPuwmpfINaKUWecTaPGZ4SFYeQmIT39jMeQbgAdlvvbXMhTqAIsW%2FQpZsY4XQ27iqRTbMUdPTZP7SIH9NIcQz7U2Ez82xjyj%2FhojoWunDHpd5U--EmheQim2DZybcLu7in%2FbwuyoYposZal04YzoJv6N%2FMDbKE8Fra63N4lMyFstcpqqAVLCCoeLn1pYdJZuFmf%2BymBmBlwFkZOVtoq9M9ea8R3lMov5sNNAlI6uIAY5cFQ1SjAbT6CLM%2B0iR9hACVkZKkBzDtRR4D6yaH8PRSgD3qJKVa3I8hZjuTyrRRD2vln133VP10cY5k%3D%7Ctkp%3ABFBMss-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960031647573"
+  },
+  {
+   "title": "Under Armour Men's HeatGear T-Shirt White L Loose Graphic Logo Crew Neck Short",
+   "price": {
+    "raw": "$13.99",
+    "extracted": 13.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198684228394?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY9RP2SNAA1SE105MN3&hash=item2e4280bb2a%3Ag%3A04oAAeSw16hqwG7f&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9W6wry9SU5zsAiEbaZ54TJys95PlnVLGFY2FTG1RnjNrImrhf7mQqScwSdYWRK%2FCeJneT9v%2BVNJTpI5YzdWlfxFn40yjnEgfhzbGxPImBaQ%2BJ75SadYv7Jq33ejHlO588S8IVY4gZfMosaeL5onfO7Dnc52fSqx4OEs4nkTDOIEiXd7e86MEnXC%2FdVDV1YaBuQFH%2BFXUPpplxarQ7d50fpfb6b8HL98mWNmGOhKkf6DCJZmysa%2FQV2aU2vexraLh8Y91YhLv1uUISMCJMgJjeY66YMOVGrgra1H6i3p4Vo8QC0NkmBc%2FPEWkwafDZNugQ%3D%7Ctkp%3ABFBMss-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198684228394"
+  },
+  {
+   "title": "Under-armour Men's Navy and Blue T-shirt",
+   "price": {
+    "raw": "$7.00",
+    "extracted": 7.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336735867295?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY93DQZX8AEWB12J5H5&hash=item4e6705919f%3Ag%3Ay0QAAeSwlP5qeg2n&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8UsB2gBCm4vwtd58FWfhSIDoyt6fsJhwrSL3fxGgQmuf3seJ0y665pK1z6SF%2FNMUCRwV9EdOBfJuDSfXk4Db7IUoQz6v87aRMsgM7pyrNgQdcahJyHT3IKgbwygsliSzlViMhQBRGEGJiBUNNFKH0aAZG7eNZpLphviWp%2BOEPDxKrZp85NC9uSawIzXbBiHUv9FCsMyTphnVpDvwxD7nRUbd0FoW7XqhC2raNwSPCIAIk97vXwMZ6Iv810LoNun52HlG5HoxuN08T3W5rLXmCx%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336735867295"
+  },
+  {
+   "title": "Under Armour Freedom T-Shirt Men's L Navy USA Navy Graphic Loose Fit",
+   "price": {
+    "raw": "$5.00",
+    "extracted": 5.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940029604147?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY9VRVQY59QK6EB7VV0&hash=itemdade217133%3Ag%3ARj0AAeSwc2lq2DgJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8tnPNmbfgdyjy%2FRT2uLUgRCP7H2CEgAV7C%2BI4lPpTqpfWtQMsqWeUY2ZsiOueyWq61i8urkDpBdA05TrhQJ%2BTQSP2bh%2FOgQ4zsnA7TwAuJtj%2BkQJTmRyUGL7IM6eFgzmKgo%2Fr2cbt7mRY64ibFwEXm62VnZ%2BEmORA2eaXiraPLZOduG6335JWeUvieGR9Kd4Purfy%2BvN7QETXCAM2Vrk9Dz0U3NKtlc1650ILefsofU0uNYEyRRR%2B7lvJ6Z6GbjXVzuE12eA33vTbEpfsY4cileenJFxmKclbgD2466PloQGseT%2BR0YndchznWaSJQvIQ%3D%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940029604147"
+  },
+  {
+   "title": "Under-armour Men's Navy and Blue T-shirt",
+   "price": {
+    "raw": "$6.00",
+    "extracted": 6.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267819050316?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY9GJQHE25JWYF4DT0Q&hash=item3e5b42654c%3Ag%3ADIkAAeSwKYpq17vX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BC7ePbzh69DLn2DIqZ3JnN%2B72pEjB9Ob02iiCwv5pctgqx6PvrXqjwm%2By0WME%2BfSqNub6GLaDj3fS2aCaOn3xaz6IlBwfvzZ4X%2BLthFD2VHiUWuf2ytTOzaJB6qgYeXPC1PYN9CzL9PuNjLc5sEFEzabA2Bdn8fFIzJvYg%2F2dTdpA1Ukln8wKZnrS8pO5WDVZQdTBUAMLINxSA01pZUNQZtz7qjEsBb7PUzTqQtKRO8uodqCjZP9edYjCY97wg5m83gVOn5mZ72Ad%2FMVT%2Fi61f1iZbfXin8wVn7D5%2BscUeTuvhlZmB2hrA4EUWPTe6SSo%3D%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267819050316"
+  },
+  {
+   "title": "Under Armour Men's Large HeatGear Loose Fit Logo T-Shirt Navy Blue",
+   "price": {
+    "raw": "$5.95",
+    "extracted": 5.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227580372515?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY9A7PVGSTG8X9FW09T&hash=item34fcd8e623%3Ag%3A50cAAeSw4wxq24v3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8CoGqPJS1bh2iovyqcvqSOSi1fQWa8kmtTvqgBqa9FyLrGY%2BdvuYiHLBlbgJHEVcXmvVOJ6eTB8972XTJqiyTFC%2Bz6Cic%2FqmBpriyL1RCxeVI4MsK%2FTPNZeOIYX2pn2Dod0I18OG56%2F3gHoU6Rfsha5klbha%2FqrxQ6vkRLsaw9cwJVXJAMJ1VQ3TYh6cZrZPFkw%2FCxq61VuSOt5allO6NxRK%2FVPKQu7q0cGiHrZU5cqbUeE%2BqsGYdmP34UIDhhmwtnMIAWN0IhH8gaOaXXWc0fG%2B6uhEYDvU1bg1GKtW6J3DjNrtW3R0Ng3ddnpHbBOBo%3D%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227580372515"
+  },
+  {
+   "title": "Under Armour HeatGear Men's Size XL Navy Blue Loose Fit Short Sleeve T-Shirt",
+   "price": {
+    "raw": "$8.00",
+    "extracted": 8.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920102841204?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMY96A0YQW6CT4ANN4BP&hash=itemd63a672b74%3Ag%3AmrIAAeSwWfFq6rMr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8d02%2BrlA%2BytBEtOA0BxDqtjk7QPI72E2fZG1hAcNntJhx%2BYYnVU7noPdA0zx%2FHAYLOoTu8DVoiSpWypPME78yN6adKvWyZphSnss2YsCNXB9fLegfZJ1q430krQSyTQ1oGKhNrSvL9lZnHK5mWwdfB%2FIpGEHjP9X%2BbonhrKCg0Z%2FXtn%2Bx6mU%2BdqIZM8XOKrzMBSCd9CdttCu1rRn91yE0OQCQSbNENYmQ3TSQsZFONma7isZN%2BQn%2F%2BcC7S%2FCi6ERAtWjNTPCaBrJFU%2F2VSzmIvMGTOsUvmBNGYgp90e2wGN3ytt0dHETE1Wk%2BdnzszRTA%3D%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920102841204"
+  },
+  {
+   "title": "Under Armour Men’s Loose Heat Gear Navy Blue W/Red Logo Large Polyester Tshirt",
+   "price": {
+    "raw": "$8.99",
+    "extracted": 8.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820325368512?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYAPAGA0XMD52XATZQ0&hash=itembeff33c2c0%3Ag%3AVmMAAOSw3EBl68nX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde--8dc5oWk1MQiq0MqK8TEJ0XoMuMtPWx5HfIaPaB3ywKiMHTC%2BuDM24mtcGUNXQPLL97Nq5jW9pgc3kPI2VP2v9r7GYkDmZe%2FI8oZcBYxYfA0plmEm8OclTC2K8JXLzh1s6i92ogNpdlQ9jY1ciwWMayAGtT3tg2sAQVuSbmAiWa%2FcLBULjRyVNEg1nToslJB9GhkVKIUKsuTS1A%2FNLYOcEAMNV%2F65XJHY67cPzKrBF58blT4q6ZxQmWbaZWGM%2FD3Wwy7%2BZDnOOWQVwJC6Clx0%2FGIuQBu5%2BHzFyu4wC3pyzOsd6b4GiFbVS%2BiDNGu6%2FIA%3D%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820325368512"
+  },
+  {
+   "title": "Under Armour HeatGear Lightweight Loose Fit Men's Navy L Short Sleeve T-Shirt",
+   "price": {
+    "raw": "$8.49",
+    "extracted": 8.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366222645241?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYADTFDN2F95KQ8APF2&hash=item55449217f9%3Ag%3AP5QAAeSwUalpnI7c&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9iwLiEvPFYpjnYc4VE9OBmO%2Be00hEdud3upXe6RHKoLWh2S2e73qbTZCmg1K%2B5odEsbUkHnzv0SD56Squ9iCPEyxSF%2BNeT5Ns%2FBOj513f3V%2FSuchFw3VMmUEUygme4NDkUkWIkxVbUhqRhn5oxjt2%2BxsAsm3ce%2BRB%2BW0MF6xWQRr3ohdmv3ZeummqLAKBF0VA97SBfy0SI2GhiC1tDI6OepoBL2QkTXodJfAZDFFvCZe803NQ%2B0IYMg1u2zenCm3e00SkJFvUEJd4KTb6QZXqr%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366222645241"
+  },
+  {
+   "title": "Under Armour Men’s XXL Navy Blue Loose Fit Crew Neck Short Sleeve T-Shirt Logo",
+   "price": {
+    "raw": "$7.00",
+    "extracted": 7.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307154398253?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYAHJ254M5HSK1CCVGQ&hash=item4783d42c2d%3Ag%3AfScAAeSwpSVqlMt-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9IYIweT5O%2Bh8vwirICzvma6u82f%2Frg7xqIzd3CSjqA4oQBVD84P2N6GVxVKr8b5%2BZMZEsCtRLazlhNOS8j6oiRcrLQBo8zkxBJ1YnIFhDYP4WckKQDq%2F89Yr4GOPOUgRCQrMRj32r14%2B9%2B7FqP9xcYnEv%2BBiAs6d3VWChvE5bmojNmhy04zxTYO5ELGPK0xxEVbdmN5UR4tpGhLcsp0Mkx9fiJFEzvA3XWei4IOed7WT46ht89RRhK%2BGKE7XmmvpuQRa%2B7Q0QvrX7YfLhzqv%2FHTKNIIYqK0weKp40LBofF2zyDpcGnrOJ3Twoya%2BhJX3E%3D%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307154398253"
+  },
+  {
+   "title": "Under Armour Navy Blue Crew Neck T-Shirt Men’s Size Small",
+   "price": {
+    "raw": "$7.99",
+    "extracted": 7.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377627273834?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYAP2DWC136DCPATAPP&hash=item57ec56ea6a%3Ag%3AaQQAAeSwQHtp1C-x&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BaDa7LAgwE%2B7q8qG2L%2B5fwUN2h1sSrc1h6TRKMb8ddT2CBuFln60y90aUvC7mf0BTwtuRI9BBOHfSgNNSxXPNz3hAGPuSCYf7jTvlTM2RLBTTPLCpsd%2FWz3VoOnvSHdOEP9UyVNpvcXpRt13xVNYh5PT9qbHp07%2F1PfWKudk84GRMU9SQLYdMqfRFDhj581rjY%2BQxSSnwEH4eUOeezOaboC%2BnHwtksAlo144hiTcy3hNFYOnraDD46WN5w2pUovVf%2F41ZIUCiEYRfv45txds0v%7Ctkp%3ABk9SR7LPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377627273834"
+  },
+  {
+   "title": "Under Armour Men’s Large Navy Blue Logo Graphic T Shirt Cotton",
+   "price": {
+    "raw": "$6.29",
+    "extracted": 6.29
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287609052270?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYAJ92NVY38A0819NCJ&hash=item42f6d5dc6e%3Ag%3AGegAAeSwvnpqeolf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FtCMsDknoY36r0xS1SlBVHEDBxRgXGUpQuiXrsIJETLz123y6%2BBTqEkI1BUkfjhmFnNYLyAQzOmKxXx%2FoEfVCn%2Ff7CTMr9XmktUC6NUFFPwnTkd8RhOQ24ugkcSFW78MKwVT2R8GeYIjGtMSyuFLbEWblwm0cSDp%2BPTUC83UaoGrkEqEsa1%2BVfGOHyGwii8ilpU%2BIfj3ZH3mltOD%2BIuSotH8cvb6q9g2V64EccYCgptQbpXmkShP4BLEiBUMDy9DOj7ee1IdAeFHneTShK5j%2FQMnDCiZh%2FIND34Y15VClSeZVF5daqKO0%2FzJ5LNklyDAw%3D%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287609052270"
+  },
+  {
+   "title": "Under Armour Mock Neck Shirt Mens XXL Navy Blue Excellent ColdGear Athletic Fit",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307270736857?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYAAEP65J3ZYB54WSCZ&hash=item478ac35bd9%3Ag%3AMFYAAeSwFN9q7pcv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9IEPXpGjvy1gd76wWGSGdiDL4wlN8jjs%2BL7rAMUsH6Ad5lZJMgDFvYDra30gyaZ4FbY485MKU6JNJouOymrBq7JwWMGG1u2P13p9WDIm2L7euBqflsMtK5ifVyAzWswLQT4pn6G8lj1zJ0ee3qDDNFHfx5Bm7S%2BwCcmD%2FF%2B6l5Y%2B3NMYXOxvobYny40AI4EyMK4HWc%2BGDdy8uibLnl0AlEvRMeeSavj8QLTQAPQab3Lk8EQxy6DXxk%2B%2BQATI22KQwiOhHSpNtHFd8z75gVUTe%2BO8H4kDrFCdwXDVZGdpYjrg5WmM2wod0UWY9VFM%2Fx1zs%3D%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307270736857"
+  },
+  {
+   "title": "Under Armour Men's Navy Blue Short Sleeve Athletic T-Shirt Med",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206574910545?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYB7HZEB1NQ8VF3EV26&hash=item3018d2fc51%3Ag%3AXuoAAeSwXSdqsr-g&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BasyC2CE5FuzH5mTwPwTwsg0KxkXrXsYCX1Vn7Ysoe0uxLR%2FHXtfIayKk6jQIF00w%2FYoIqsmJrklCiR9tokmCTj0KjwqdtApzAlDrNjfsvLyq%2FD7hcQRXNJW8b%2F7IYFfX2Ol2oBg--K1pLLeeg52qprFsE4YTypz0ndrB%2Bjm5cj7X8bFQleWeWcRmqSalABlfVPKnvGJE6u2X7G2DsgtQjnCtSJplCDwBgR6LOtje88W5dZtmiGb7LzSGOpfHWUmbjibj0krsyBCkbu5Y6qw9%2F%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206574910545"
+  },
+  {
+   "title": "Under Armour Men's HeatGear Fitted T-Shirt Neon Green Navy Blue Size Medium",
+   "price": {
+    "raw": "$16.00",
+    "extracted": 16.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227488890894?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYBMSCD6AK81AFJK57K&hash=item34f765000e%3Ag%3Al2wAAeSw9Idqi63h&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BpL4OkOJPOSiiyT7%2FeVtZZS3hA60%2Bw8dnHu10zmMKCI5tIAszs%2B9Vtyo7PplE52gDrXbXLUETxrzL7lFtCMIskgqWdk6cWVuiUurC7WtbsOkdzgCgQMD9vcjCjo2fwswlHkFo15%2FpJl4wfGi1saPL4BXjKkrZTJZKPXdouk8eB%2BWCyF3qGjACgvB%2Fyk6O10h7gdnxMCNiFP1Y3pqBzcwnbQqWbtRr88sx0S7hFOmn3VEw0ucWIe2kS52Z7Qy%2B%2FXWicWpN3lZ7bh9v8Yo4GyucvLD1qQQv9P6iwHWbBbZrfcCfip%2B%2B4n0aHLsQ2GCLbq%2Bo%3D%7Ctkp%3ABFBMtM-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227488890894"
+  },
+  {
+   "title": "UNDER ARMOUR Men’s Boxed Gradient UA Logo T-Shirt Navy Blue Medium",
+   "price": {
+    "raw": "$19.00",
+    "extracted": 19.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137816688181?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYB6PRHHV4J86MEJWH1&hash=item201683c635%3Ag%3AUhEAAeSwADBqxF7N&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9UpbUDWYJYBKTFh4nRqKlUs59hrrcNFx%2FmN1XrerU9j8uEcEYxfug8Z1I4EOgmXblzWJy5aCwp9kemvzQDzKGs2KlvUad8JWnMT48pg8AZX5a6w8Gi6zanq8CxsiYVX%2BIbYDWTz7BlyEFXBYIMtysPOzQCJIYreRAp7FcnPBCE88vHKNYOoMJCjwSdqQTIZYwkSDEcchZt6B8z0L3CT2YyrafNBEb2IPWDa8aNyV9AWXrUFTaDT7dQ%2FN0b8gtMdS9uPCkFmlLdszcSWPnG9Hj137slZkvpwi5VJJ92z0Rt1y6mOx1NbXTrhaUo9W5df7A%3D%7Ctkp%3ABFBMtM-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137816688181"
+  },
+  {
+   "title": "Under Armour HeatGear Mens Large Navy Blue Logo Breathable T Shirt",
+   "price": {
+    "raw": "$9.64",
+    "extracted": 9.64
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307153144729?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYB8VSBVARGZGRW70C6&hash=item4783c10b99%3Ag%3AEAkAAeSwBD9qk40S&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8pp%2FqLzvTy3sfO9Jw4rxqm3S2CHL4%2FFVccUgKqzEISAcx7bMvpmVxtxq4blLlORFCWFGCEEvrAVEzAjZheRrap87gb4CM56VSQGU4XQquZvRuToX9V2Lv%2Bvg2xiwwgel5lOOfbs6aakSXAXuJcpIfq2ER4Yf53LMTbXif6wll69oTSwMEtbR4WhkU39mWl66AtBlJa787JIq9TbgorRHwKH%2BK%2FxsMRhhJSNGxrTph1A5Ne8%2Bl9AhAtCMn3oXOWU036sZPJCsOuIJEUq%2Fexk6OjdeSdiLx69SWxb5InkWNGc5nuFbd%2BOHqE9HqB8jRQIis%3D%7Ctkp%3ABFBMtM-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307153144729"
+  },
+  {
+   "title": "Under Armour T-Shirt Men's Size Large Short Sleeve Navy Blue Crew Neck Graphic",
+   "price": {
+    "raw": "$11.00",
+    "extracted": 11.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840102447996?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYBYQ11E1XM4X00ZZZG&hash=itemc39a020b7c%3Ag%3A89QAAeSwejxq7nL3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8NnVGI4J3jXngt79MGvkvVTN5HGSOtG726dCemHnV1Cs1c2nW%2FXzqK9bMNbntnMdW5isXQTBzwFQTHMNldS6dVwQVhDluz%2FUETeF%2FWKQnBA%2Bw%2FQ6I08yi5lYnD0VC%2BSvD2wwOcQ2cELR0jukKhDuvB05BpDuTx6boW0Qn%2BtZCuo8iNgx5nz1sUABEkYCBVFp1tub4AnKL302Yh439Rn0HglJOxS06oXjZM%2B1ZoRrq9V906GMzwXMJeQkdYTS9lvkpNV%2F6u9QJFnYT3FsAvfLklLT3Be4iyex%2BRKgtj3hEcXSCNjoJoc7zkcijXX1QpSsI%3D%7Ctkp%3ABFBMtM-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840102447996"
+  },
+  {
+   "title": "Under-armour Men's Blue and Navy T-shirt",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336817913655?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYC9EP0Y7FXG4JGP9RE&hash=item4e6be97f37%3Ag%3AEJUAAeSwmkdquxIZ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9N1Gfavp5uZ2as7h8wTDLfrt98pAr3frJsg8PJBfNdK4lFsYNLKqjmkrbSWJc8oWOBscfGPLISoLvgl8LBUkNNhhNQ3QQtDYEL4Eeu3rODsoD3ClR2WvLDNkDEXH%2B8hAczKz8RUM2v5LS7WwMlK6mptiKKC8XyWFNrfpdBPg8i6nWZbIMGre4R6flZevhpfp%2FX4LWNRTJaMUJ3MHx8R5BLCzsj5T6AXR8Y%2FSry8LPDNHOtYF2Jqvx--ZQ11zN7rs1bt0tcBpRx6H8VK2V39%2Bsy%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336817913655"
+  },
+  {
+   "title": "Under Armour Men’s Navy HeatGear V-Neck Athletic T-shirt",
+   "price": {
+    "raw": "$7.50",
+    "extracted": 7.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327025709011?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYCR1EXYPTB6ADNAMAQ&hash=item4c24404fd3%3Ag%3AXgoAAeSwKQxppZ02&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fx2xYvRxYLQZQqBE1oGXdebGFhdfmippIRO2d%2FeT79eY0u%2Bjv1zkUWgm1X0SFJ%2FWRyDwKkOSnlFKNaPw2MMCpRu2ELj0e6bTUV%2F%2Bs6wfka4Uulflrjgum4A%2FYyTZ4ckDwrK4YsnT5bEvaIRIBaHYUAgqtd07OpfcTfHmGNApTIrObZGc%2BGL02k2u0PhvXnobyQy8am%2FxQIQx3x%2FweDaHTufBNe4eFoGbGCWGs4APsMTnvo2ku6DTL0a2SuBJXCH4t8qJ4SmgZHNhFimfoegHNTg6e167omt3K3Wix1%2FO97%2BFXi48tdARorkPAbxY2J7ZE%3D%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327025709011"
+  },
+  {
+   "title": "Under Armour Men's Size Small Freedom Flag T-Shirt Navy Blue",
+   "price": {
+    "raw": "$10.95",
+    "extracted": 10.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366340988135?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYCQRHDCWADMEYQ26VZ&hash=item554b9fdce7%3Ag%3AG0YAAeSwi69p2nRt&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Lnl%2Fq2uMB036ZV0s5GhOKW5WJp1KJ3e1mN%2BOqWxLXX38aGED9dwcf84lwIY%2Fgi3TDeEGMzQfecHjvVFlhlmgVCoYHdY2ykaEkGxr840r%2BztPyYK9rzthN2fqMFsyPQN5DZ%2BRTP7gH4tzZF%2FPJHlV1HycVT4qHzqAqLl9Kttza%2BtqvOioqE5EpXTYCu%2Bgs77jQUxEr6nhUz15M7xT21BLpuwKyAgLmn4oYNrxjF85sXz0Z1nBskU4qVQrCBXpw%2BEOvP85wxp5sraUkzqbQncsS%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366340988135"
+  },
+  {
+   "title": "Under Armour Men's Navy Blue Athletic Fit Crew Neck Short Sleeve T-Shirt M",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358060750737?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYCH2QKGSGAZP195DEV&hash=item535e157791%3Ag%3ABIoAAeSw%7Ed1pUP0S&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BvfOs9TF0Ra5IUBLtMtt%2FAEbp4OBLf1LRjRr3Eo8y7QYUQK3i4VLKUwac1%2FJNE%2B8IfRL%2FmS%2BRZw4whn7aKmkUD9RY8SfZjxAfGyPOJH7Ht73QoGvHF733tdt42jwbZsPvAbooM4%2BuEPdRVXuNznN59QmWQ4udzEihStUOftOxs2xmcWMsjjkXI1SRr%2By%2Fg7VbyYPMkTrN0hDVNhMM2U3Iie%2Fj0wcrQVmcd00i0xjHj6f4%2Fbqiz8cDJZnkXY7nd0xdocCzyCsIa3Ir1jW5yVjOq%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358060750737"
+  },
+  {
+   "title": "Under-armour Men's Black and Navy T-shirt",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318785083425?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYDB26BBNE5Q6N3JGFE&hash=item4a39125821%3Ag%3ADnkAAeSw6Rlqj7VD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8g4cNa8XbyjRw2XrF7I64JrDBeUkQQi7Gqn%2BGgH6RECuY89IKQ2ljDCEDCQq%2FlNdKp3OhcxRiJuZzWgCXd4FXH%2BzeyX13QnTLXYTTMfcf0dUQtMW4PyEUBJ1iXyvw2z9Vc9kRUfRD%2BRusHsx8OeUdQDaVQJ4uvXNBMfk%2FgL1P4Py9wXPfXBrPgwmL6r1x7gEj9LZldzZ5NEJRb045wO9z3%2Be0XYBH7BTbjx3AbIXtJGBN2gAh1dxiuNlBP%2BWBTpkDqJl%2BGh%2BM8iZYSXIqTCRoRFqd7a7mlOIX8lu9LHa2LD1KHcN7NcNz8fXW19jYoyoo%3D%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318785083425"
+  },
+  {
+   "title": "Under Armour Men's UA Heat-gear Crew neck Short Sleeve T-Shirt Navy blue Size L",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198754501081?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYD65ZBHDYRA2HBP35S&hash=item2e46b101d9%3Ag%3Ay60AAeSwZh9oofqC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8mezYafoYcD2qakUZCSHH3v8Dy9eOVR%2BoFggRnw6FBA94LEGIFKpbPYd72OjJJL%2BGmdVazhkri86IbtwH8cJYFAByGbnMKGzNsWaK7a2FE5mdtyFNMpxLnr6GL6JuKXCgGHCyyvFH8uGFeciLrPsnEckPaC6eXRrl4H2WLWNdWXCEIxKVPmsTmIhLFo5neENYpodOBPO%2BQJ2Uy%2BH9TeAUKLl%2FYQhMP1zVHLydMRp4FxCYNpKDCBTfxfmu0Cb%2FQGhgv3uIHoaP4uDkdUFlMgoYw%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198754501081"
+  },
+  {
+   "title": "Under Armour Gym T-Shirt Mens Large Navy Blue Graphic Logo Loose Fit Excellent",
+   "price": {
+    "raw": "$17.62",
+    "extracted": 17.62
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820059545812?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYDNW11H4CX523XWS6T&hash=itembeef5ba0d4%3Ag%3AjX8AAeSwPgVqkgUm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9jVEt1meyjxjT6Mr%2BXbnHkFcBknMl4xICHQ4AGUY7JRA%2BcbuvvHax%2FYa2Sb%2BLh9rTTmL8KZhwRpsMpXbMH1IABDBw39AslusZyDch6jXeGUQKD%2FCyU6Iu7EF7%2Bh9iffVdZtKB2Tk2BINMQnGH8QRpZiKyLpqzX%2BeGWAC%2BGKUN4WrkbqA%2BNmb7kkGQlB2sNBpETghbWCPicyZbic6fJeAp1EUtvwOtRCltn%2BDxNClprG588NJQ5xsAcr2clg2324%2BFMSB%2FUrLNdUyq9IqjQ3PACJZPEUbXmZxOA%2FPeD7V%2Fi0711uWzuaXpBUokbTGgaSaY%3D%7Ctkp%3ABFBMtM-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820059545812"
+  },
+  {
+   "title": "under armour t shirt men xl Navy Blue HeatGear Loose Fit Short Sleeve",
+   "price": {
+    "raw": "$14.00",
+    "extracted": 14.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168825230348?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYDDYZK64BWYP0CF9CA&hash=item274ec4940c%3Ag%3Aa4YAAeSwEydq47Om&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Whi7biBUzTdb58YfHuZtoNsXwidE%2BIXv6YacFgXnzM4Hj89FReQWZkRA2iexQaHLNnOgGr9thpzg7gxzZb0RNnUCELh8RluHQLcFJOROzSw0f8bof%2BZwBgCZSR7iXmK3lcp1RVttXnS0S2zbTiusYPJTyrpsX1PUji7ucV0EwYmEIPD6aOiwXX2ldck%2BvLQCQd46YQCk8cgZqXAJOfpACMbqblszMuDN88QkzxM1AK7ipYbRxbqZRLLUhCtZyYmNmPMQDhoCejR9EYuLsbk5I55kLpluIkcwAy2zN%2BLzTojsApPoSxuE25QCAD0jmp9k%3D%7Ctkp%3ABFBMtM-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168825230348"
+  },
+  {
+   "title": "Under-armour Men's Black and Navy T-shirt",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377524899975?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYDS8X5PERR07R08ERZ&hash=item57e63cd087%3Ag%3AFmMAAeSw6N9qt%7Erz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FrVocIRTrQeU6hzzxwCCst987bsME4IGZ0R6dfQ%2F4ALVOeLZHkcPD44w95JHgs3jhh0X1Ha6YZVq2gQWTvz3X5mnC9c0GNC6sqnF%2FKchIED2GTbIIVk3XGAGXuomWudpkJ0uJHdMtMvpFjNJDrhSfQM8T7HJ0z2tRfAM1%2B1JpFILnrnnWgrtLpf%2FaxwUiJTjhCeGOX%2FVmX4riqZQJV68AogaDmLE%2FsV3nqBmdvMx93TMvjZzLSu9ynUkZ0fQpwuZ13R4zK7j1zViQOKLvSARFq%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377524899975"
+  },
+  {
+   "title": "Under Armour Men's Short Sleeve USA Freedom Solid Navy Blue T-Shirt Size L",
+   "price": {
+    "raw": "$12.50",
+    "extracted": 12.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307268690255?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYEJ6VM4QSRJN2YFGTX&hash=item478aa4214f%3Ag%3ABkEAAeSwH5FpgP7I&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FqqNafeeJ63O%2FQP2cmUDbmHvyRHaMaKgxwGIVmxRZnWVUuiYYpFKVQrmTmklT7rlcdWwTZ1vosqL%2FbEQoKuZqwBLdbqPCgjKVVo3zXB9juBaDW%2ByHjiZnqyesoGl1W3%2BCHxJpGhJhQabHadTkFdDN8qpl7SKR%2BUPZZa933xPka1%2FlaIJYaH3aOVEvLYDOBA1PGm2vGArD751JWvjWHmymyR8PtwW8S6WevNrdKaUhBT0Mk%2BS3uyJs9aHYcRSIj2HztFpZo3ilQl%2FC0bf1zdx%2Bu%7Ctkp%3ABk9SR7TPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307268690255"
+  },
+  {
+   "title": "Under Armour HeatGear Men's Navy Loose Fit Lightweight Crew Neck T-Shirt L",
+   "price": {
+    "raw": "$7.00",
+    "extracted": 7.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366400304709?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYEVB8BYRPWN9FFJS5C&hash=item554f28f645%3Ag%3AP4AAAeSwN8dqAJu-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FUJY8%2F9gKMiw66xcpLqMIrBO8PNY5Aq1b3ce5gQLaA8NVrAevP6YnEtMHKO4PZ7AUVaS8wpI%2F3ZUYpZWlVPR7z8JimnPCrfgGVWgsOQY0iURPQVQycA4qDj4U9e6xptvw%2FIcUGmwVe7xlgBQYc8Ogfx6F0sLYkvOdoTFgN5lKI1F3mqG47IORBeLVmbfBSjTWP6S8oTw5i%2BW91SSrat5BUuIsEo7nqr6Y0qkQRKFEk%2BpVhK08yny%2BKqI28UQIGPfLHU67IkuK0%2F%2B%2FoDT5PMcLZ%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366400304709"
+  },
+  {
+   "title": "Under Armour Navy blue Loose Fit T-shirt Men’s M adult Medium",
+   "price": {
+    "raw": "$4.99",
+    "extracted": 4.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168615244043?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYE3EGSC3K87YCN4GB5&hash=item274240710b%3Ag%3AJXAAAeSws4lqf%7EO-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bkbi5qD14%2BDI7SUcx2XMxGoKaQzfoqyPe90%2FA3CTpzn%2B99J4Z%2FBjtxBbA9zFF%2FLOLT7bUbBAs0w6uwBS9bKw2hsoJe1sHWoy%2BvygWK3AQAAPOYZzRYXonoMNnfDbGmXkhONF3jpIEdjYqlF6M6dtCEQhkfdUnval5Imp5zDUaZAgwjuwNRKyerFBUPjsJko4eFPytj5EMayk2DrIohB2%2FlNtLdnd5Q7G%2BWIn6OKHM4rlx111EuyUjrisWr9lFjv9AhXiCWRcCDCq31vnacv21KTiegVlPCCnPbLw14sd4OO1rmsdQ78EpHb7XceKfJB58%3D%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168615244043"
+  },
+  {
+   "title": "Under Armour Men's UA Locker Tech T-Shirt Navy Size Medium",
+   "price": {
+    "raw": "$8.99",
+    "extracted": 8.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/277793620995?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYE8X1XG8GSAE0DX07G&hash=item40adca4403%3Ag%3ArNEAAeSwlRNpeR4i&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8V26mb2O4v2vAVhzQcQcdosQODOW8ut6myJCVHxqF3pXWuYV2hUMX4w2PkFgFCNLgz1YDMx2EwPBgdNs1vxhHujGKCwpvZN6k1%2FhVcdZh7nrRO5qdhkj28kyE7dADAdKmY2xzeC6K41AeKMMrcbpJfE48YJRSSxEBRGnuLtJOB%2BCWEwwJ2mZwlYykBc%2BKX8gCOiQXuLyVAqjkzI67A06uas7Ua%2BEPpmTbJanvWNqCTLhl9m%2Bu0FsdgfKazjSlR4QJ6P0xCHTJZSCOHKf6j09DU%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "277793620995"
+  },
+  {
+   "title": "Under Armour Men's MD Navy Red Freedom Flag Patriotic Graphic T-shirt",
+   "price": {
+    "raw": "$14.00",
+    "extracted": 14.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406244574546?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYEYT25FQQ0DRGDE02F&hash=item5e96104552%3Ag%3AQv0AAeSw6A9o10SJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BTiMu0VcjXhh8aLoEvWmrQ9Lg2F3SCgXKuUa76xe3GJQftyPolkpyIxZXY9L5ZJC3tAloVLXgIfSOtyowpRUhjDUeOFCHe0kZvf7z%2FFlA7gZRLU8xGNMMSdwFPT5wNwOO9thuDy0ZgEOX6cSxUjtSXH%2BjJLMy4q%2FNA1VZfmdcCeHRGkaIJXDqY0GFq96%2Fm53dKrWJ68%2FPLGsCrS2eWMFKaVucycfqdMjNG1de99aFn1apv29juTjtt1unyoAIo%2B56f9tixeATXRGAUqTb%2FRoc5%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406244574546"
+  },
+  {
+   "title": "Ole Miss Under Armour T Shirt Men’s Size Large Navy Blue",
+   "price": {
+    "raw": "$15.99",
+    "extracted": 15.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137903548188?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYFPRQP5DH2TPSE5D0S&hash=item201bb1271c%3Ag%3AJjgAAeSwjllq6-s-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BjYw46zdHXIEf4HF31e1XaZXEe8AMXiEqe%2BFSzNItKm44%2BNw%2BwVMm5ekuWxz5PnzSBSAzOi7x4K6hvzEO56d0Xom5cmHG22VdYy3C1cHvmZDO561RTktFll6OwDrVIXIE%2BeKS10NmjXeWN1LoplmbJudQKu7HvV6PHyTzV4S10vVLbOhJHJcny%2BS2kdAii0BNyTJMCKukn3KaZQWyRxYkRORA7U7yhK23OX3k%2BlUeGVNWwjpCLXasDWqLjYM0snIKUCSJYMK4gBfHmrw7ngv0N%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137903548188"
+  },
+  {
+   "title": "Under Armour HeatGear T-Shirt Men's Large Navy Blue Performance Athletic",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128061860667?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYFP77BMQGH4HM1F6RM&hash=item1dd114eb3b%3Ag%3AAwkAAeSwweRqmuwp&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8s2P82FoVg80Tl8TQz0iTKUNJ90w%2BJIwSCuaCYcPwzVpQItXCTiBOoNDkAZHzrnvgZpYXxKQkxeBC3RS7qQw1sU6kDm5SYNIwKPcB6ek1NjMxV5ky4G5nOb99DeCm42v83rKntE5%2FAlhfz3APTwKdll88IOD7zJiAt8ATFFToXJUV4o53H5Ly3EL4MyIfRyQLfVdNA2avBApekZvwNioh5dhFEYlL2z1nzgHimpzZoIg5OG8Vp1QtVVGVZT4sxE4KMWVuSlft9jJahwVY0sMgs%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128061860667"
+  },
+  {
+   "title": "Under Armour Men's Navy Blue Athletic Polyester Short Sleeve Crew Neck T-Shirt",
+   "price": {
+    "raw": "$4.00",
+    "extracted": 4.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/397924342151?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYF4VAV2NN3Y7291JXT&hash=item5ca6239987%3Ag%3AoukAAeSw8iBp%7EUcj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8tKbU2a%2FtL7lSSz%2BKgwp3pzXG4ahqDsAqjN0VacpDoXS7ksUmkaVZMyCOm29uHAEmrLXLjM4MYRx1LGF41OTTJzS1KAihrtDZo1d3vX8WS6sERv74%2BrfawCBNUS%2FntLab0UKX9M5pEIj%2FbgWuXSgbew6ZwxYTqWDmhq%2FiM10GpB4GX9pQmmBtuxibOhLdALb%2BIN8UVZpU6zvoc06oQBW2TEuDA8YOkTRg3qVv3H97culTQ8m5QqV4iIK0QrxyzMdrYG%2BDjAD2AD9DF%2Fn%2FbGd%2FjZUcEV6BKC5K85jMPiRkRLNZ2QqI7qDNZ%2FtjsR0DMEC4%3D%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "397924342151"
+  },
+  {
+   "title": "Under Armour HeatGear Men’s Loose Fit Logo T-Shirt Polyester Navy Crew L",
+   "price": {
+    "raw": "$5.20",
+    "extracted": 5.2
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147629452581?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYF3DD33DDZBWTH2Y50&hash=item225f66ad25%3Ag%3AKMwAAeSwxndqR9VT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Exvq3ymUUkxk2wqfECl7yTGvlqjQSxQO%2B3OE1nJt5h7npSDPpigPQSDXX4bFgaySHT3Sqqt9YCqvClNbEgOvTzr3yibXoMgXLvAtANZXhrkSaXeaZgx%2BQZLB7gCTXYfMoh5P8Sfs7H3waq94DmtIwTGPWSelMLLlE6O2t13iPbXFIJngsfhlHyzRnCiZadGDlMNeqLfP%2BtAS7T--ilLYvehPnCapR5hmQhklZnVGo6zpTw6ycUY7%2BjOXQ9JdZzrylnbT6gnoXT2txYOtB8U3l%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147629452581"
+  },
+  {
+   "title": "Under Armour T Shirt Men’s XL Navy Blue HeatGear Loose Fit",
+   "price": {
+    "raw": "$17.45",
+    "extracted": 17.45
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128080890770?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYF7Z6A1BTMDTJD5PKZ&hash=item1dd2374b92%3Ag%3ATA4AAeSw8vVo6ADi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9NbMfgKypk3uEt9bQQprQCRSsFRdynGmpBoVYiaVt%2FZWjSerVchTpkA3oCUAb15LOu7FtBn0Tn0Et7s7D0uaaPkRyo4nMGujxUrBCCSlKfPblSULq22fOZuC%2FIhGx66aFTR0gI8gr3688hlDSGu8Yn83mlMeQutzb0H2Ej4xmjGzAx%2B%2BsoXNY3wkMKFjNsrriNDjAdcwv%2FP6%2BXFWWJika4f4zM7%2BBSPLvv4x9dOnqUyaf%2FbhfgVwkbyZL61DMKZe2ntWy55P10Khi7wrLzXAxBrsTityvcAqxY%2BoHyqwouYv8n6yx0Lrpz8F%2FoKd6o%2FZw%3D%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128080890770"
+  },
+  {
+   "title": "Under Armour Men's Freedom USA T-Shirt Navy Size Small",
+   "price": {
+    "raw": "$17.00",
+    "extracted": 17.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178494956379?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYF3Z3NWX81VKZ6RB9A&hash=item298f20e35b%3Ag%3AU%7EcAAeSw7LZqp3%7EB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Gi4cKqhfOdx8jAZFrMkui5KA80Y2GdCVarZ04hUma61RSQL77%2BNYhPU5MwIKk3%2BwlPpQzJdKhKWh64tcHIOjFdu%2BUdO5AqV5MzvsqNPpFH2TpwefnNpZWJ9%2B9lEvX%2BT0KxBQIDxbCdbnugOF3c%2FcdHl%2BXoLj29qhIWFL8B5nhpHZ7p1YjwXw2PtA4KqYq4wyaPBCVZIHcBZiKLcGg5o54el8FnikwYkiQT5ZV8sscVRVS3XGA7lLEroMxnf1D4UFqq%2BbmPF%2Bn4zHjTiHkO5PoLFyR4YyLAkDkaFGSjeitu%2BiTniZKtsaj89XozN3PaWU%3D%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178494956379"
+  },
+  {
+   "title": "Men's Under Armour Royal Navy Midshipmen Blue Angels T-Shirt XL Loose",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158240042739?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYFZDTMNW286W9V7B6K&hash=item24d7d76ef3%3Ag%3AjKoAAeSwJFFqlGmy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9wTshqT3jy9z4Njb9BLuZobq1TOeeFWVB8Tmr9ZLyTiRA2xB4mgUB0jzVdc8t0garVKzDHWI8zZorcZdFCXb4%2F0QtbMhutw8F9j6%2FlKsaVS9rijLJJYmFPcQoV7cbBI7B1ETi2NbPSE1lu3287icwOW2e%2BLwUbW1EHhq5tiffXLbsMQ0R9pyiLzEO9oI1dW5Z49clXpvCCc15LGAjUnLg%2FkPG930WpjgwpgxlO3wssrp3%2B%2BBOp440FQKT%2FTpX6H1aqSyWRAw1iEHkblZC%2FhjPdr6IJANA6xdY%2BSwmyJZ0ucX8%2Bhqnc76YMNDmNh7Qjzvs%3D%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158240042739"
+  },
+  {
+   "title": "Under Armour T-Shirt Men's Heather Navy the Tech Tee Shirt Size XL",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860105870348?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYGNTX8T7ENZJ60BY0Y&hash=itemc8424e0c0c%3Ag%3AT5EAAeSwiEJq4fJB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FLFSkbHW%2B6ighxrxWLR6260wEG5YC3eL0DK8CvodcSyJWmuCIBFaXP0hisBhv%2Fs%2FS9zZKp04QgHooi2TQaEh%2BiWGbwMQSdz1DJAxbuYwqPO41%2FpjSsGmmD51oaPbGWoabBRVh1Eq35V8nAnsPSQpx9HH8Sa5drymi%2FxC5OmUHt0a0QTgbYvzin%2BNL17%2F1hEPm59gyONwkrJHwTmaUQxA6oiwjs1nRDjnGH9EjpyhXNM9scMr1nguIBxb70DTDxTz6nPoW1RewofTKqRp4zBI%2F6%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860105870348"
+  },
+  {
+   "title": "Under-armour Men's Navy and Blue T-shirt",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318811236138?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYG1ZVWGXRK59Y696YB&hash=item4a3aa1672a%3Ag%3ASoAAAeSw0zlqlzPM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FzAF79RCeP19WI0Z7Rn19nRnPqUvA9jWyFbq%2BTcwQ9ZjnJoIC04Wy2akmZsFwQQjl3HlPDpyFAbhHGIaf7fDL71De4gbDsXADgk%2BsP9gpDvLXnPJc9korQXLv5StfMqMA1gmiNwzwnYItFXC0aTulWMffPtNVqOqClT6e0zYHJkJ35avtS7PtP%2Bl68Nd4tOIkQeh40oNzmFEoUWJ6EqT0MrgnRmleiFHuUld8Yq8CP9YmklldWfcMfRnwmuT2w2GPyd6tcoqcrX8AuCXGdwXoaP%2FNQox%2Fmh4QYyv%2B5Utk7xLC3%2FKqewTmYjAAFKuQ7Ye4%3D%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318811236138"
+  },
+  {
+   "title": "US Navy Men’s Under Armour United States Blue Don't Tread On Me Training Shirt S",
+   "price": {
+    "raw": "$5.58",
+    "extracted": 5.58
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336822282033?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYGMT8W0MYMS2XNW2PM&hash=item4e6c2c2731%3Ag%3Ag0wAAeSw8EtpF9yL&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BqwgGj%2BPonRQLZzL0LnGGjTDLoml27Fed1Sv74ZDzjd%2BvkSFJVP5dFbdT0gMQ5iqWj4pUatgq0mAu%2FYHEmfvmqolvN71VJStkPLvxnAb7M0Dm27myUNM1ulgB0JHIZaIK5vC7xQEVkabiAqqX4%2FI%2BqYxZVUDCVPxzFXiLK%2BHCspgOvgI9GwYR94ALbN1ZR7i%2BLKb%2F4lLJOMgrfGT2KfdFRUEO1PmxziFOkZIVeRhpCLwKYivMYAT2%2F1%2B12fPpS7r1aZ0kcM9lpWDc%2FHN5n%2FVQa%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336822282033"
+  },
+  {
+   "title": "Under Armour Men’s 2XL Navy Loose Fit Texas Graphic Crew Neck T-Shirt",
+   "price": {
+    "raw": "$6.50",
+    "extracted": 6.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318913060860?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYGVCMD6G89HEPE0JR7&hash=item4a40b31ffc%3Ag%3AHecAAeSw0WBqtUmQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FLeRAWfro3ZJv8ZNTKcm8bWYgZkt2VMlcXndAxQFp2X2NU0nOPfP6T0nRF%2F6HRyWOR52Z%2Bi8bAt72PxwuAXRVGFBj1FL2xLbf%2BlpXVgitJnZjBJ%2Fr6LaXneuN7W7arcbvlSkzm1flrMsvwoh%2F%2Bv%2Br2Yqfawh7JbXc9weKjmldycU0%2BnJHOfHO7iJuv7Mf%2BkspBRb0GV96bKxaPZZg6%2FuVput8qTysEhOyD0hfO8l8L6KgYnsrLZwtDPd8y5nNvyJ6%2FirQv2zWoXOciPxpG39Il%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318913060860"
+  },
+  {
+   "title": "Under Armour Men's Navy Blue T-Shirt USA Land Of The Free Size L, American Flag",
+   "price": {
+    "raw": "$9.98",
+    "extracted": 9.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/286553979350?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYGEDGG62BB7WJY6JRN&hash=item42b7f2b9d6%3Ag%3AxdIAAeSwsRZoHRms&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8jlKlyLwK26WUkFTT6Wejg1zm66ohsWY%2FHXz7D1OklHulAN19u7ZdGUAdKshjVlSuiNtRumJV3DY2QsHx66yplf3QEiHVvq5LwdNXXKrkP9P%2FqJqNlWlC8fjSTqEV7kASncmRrF0KAlvN0zMTNyCNJfOPaLM3gU0RzpWTteHGmLQpsvs%2Bd5HTRBH6wDkrqDIBgfBU0W%2BHEKQS7%2BlFQsxluygQy9EiF3hVLALFtoGjJ6enc%2BzRKigqfyrOISey6IJHoOrPR3yC4vTzQ%2B4C3lx0o%7Ctkp%3ABk9SR7bPqsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "286553979350"
+  },
+  {
+   "title": "Under Armour Men's T-Shirt Navy Blue L DataSet Graphic Crew Neck Tee",
+   "price": {
+    "raw": "$9.74",
+    "extracted": 9.74
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206529508079?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYG4F992PGGT1P6G2QJ&hash=item30161e32ef%3Ag%3ApVMAAeSwIf9qlxxV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8s1s7maqg%2BtMIOGNliIoAHBVTv4q0nHeJ93b39xZAjX0DdLx1sLTqQSVLCsjdLtn69mxWhyboTOnZpkU%2BsRkn0argUpecUzVynDsFu5e8m7E1GhEUOsATX%2BAQ3%2FIAzZZI7ElOX14jLauI4lSe67LhJN%2BVabpz7v6L4qdSZOizE%2BrpGX47e9HLqLsDRlg0tEncMQYX0%2F2KsQlL%2FPMHadTG7N38gnjDpQ%2FLY7lcRMr--5nPwcfK48kg%2Fo19a8fNlGnmnE37nx7pYNw94KsqdiC5EhslX9Z60rQVDHuiHpre8699RusiH1k7MkOY7P6mhzT0%3D%7Ctkp%3ABFBMts-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206529508079"
+  },
+  {
+   "title": "Under Armour Men's Size Large Navy/White Short Sleeve T-Shirt Loose Gear",
+   "price": {
+    "raw": "$9.74",
+    "extracted": 9.74
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377587453965?_skw=Under+Armour+men%27s+navy+t-shirt&itmmeta=01M6T8AMYHHE41B41SM1VS2F9V&hash=item57e9f7500d%3Ag%3Am60AAeSwimtq2MCz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FQkjnFFyNXNpmjRVKN%2BfeaST11Aphf2mpapWBlowZiv4K6n%2B8b9mevXHpY9uUW2FjCObjpbrNe39qSw%2BwQvvqycXsjpccbEYms7G8Hw2JiPhqT%2But4dFrE3vKYTVr7zdIWc1UOBd86X3nVhcs9Ykq45NgOWZ4wH%2BIFOg%2F1vk2wKKw5eA1NDF67eI1QIGyy%2Banc8hSGuxNHjDe%2B6QTKMfyFjwKYYzwJP91716cTmpxWJBiRiT30LtStf3JoQaNlFXJzfEHSGnrtWgpYVLD%2FaIkJZcJ0N2S4rq5rk80kYzw8BKdmvHQkI9h4yIpfrHwYYP8%3D%7Ctkp%3ABFBMts-qyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377587453965"
+  }
+ ]
+}

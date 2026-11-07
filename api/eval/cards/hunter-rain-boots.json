@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Hunter",
+    "product": "rubber boots",
+    "visible_text": "HUNTER",
+    "search_query": "Hunter women's brown rubber boots",
+    "model_confidence": "high",
+    "color": "brown",
+    "material": "rubber",
+    "exact_model": null,
+    "platform": null
+  }
+}

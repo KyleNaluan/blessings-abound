@@ -215,6 +215,12 @@ def summarize(labels: list[VisionLabel], rows: list[ItemResult]) -> VisionResult
     )
 
 
+def labelled_items() -> list[EvalItem]:
+    """The games and hardware items, because no apparel label has been written yet."""
+    items = [*load_items(), *load_fresh_items()]
+    return [item for item in items if item.category is not Category.APPAREL]
+
+
 def check_labels(labels: list[VisionLabel], items: list[EvalItem]) -> None:
     """Every evaluation item has one label, with the photo that item's card was read from."""
     by_id = {item.id: item for item in items}
@@ -318,7 +324,7 @@ def results_json(results: VisionResults) -> str:
 
 def run() -> VisionResults:
     labels = load_labels()
-    items = {item.id: item for item in [*load_items(), *load_fresh_items()]}
+    items = {item.id: item for item in labelled_items()}
     check_labels(labels, list(items.values()))
     rows = [score_item(label, load_card(items[label.id])) for label in labels]
     return summarize(labels, rows)

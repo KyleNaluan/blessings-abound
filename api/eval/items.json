@@ -484,5 +484,1165 @@
       "sales_volume": "2 sales per day"
     },
     "note": "The photo shows two cartridges, and the price is for one."
+  },
+  {
+    "id": "levis-501",
+    "name": "Levi's 501 jeans, medium wash",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Levi's 501 raw jeans.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Levi%27s_501_raw_jeans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Levi%27s_501_raw_jeans.jpg",
+      "sha1": "8cefeaf15d5b10b8a1ef280ba9d51b3a95c3d7c9",
+      "license": "CC BY-SA 2.0",
+      "author": "Michael Carian"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=levis+501+jeans&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 3312,
+      "sold_prices_cents": [
+        5707,
+        2000,
+        2696,
+        6994,
+        3928,
+        6361,
+        1611,
+        1150,
+        1816,
+        4449
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "nike-air-force-1",
+    "name": "Nike Air Force 1 Low sneakers, white",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Nike air Force 1 white on white.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nike_air_Force_1_white_on_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nike_air_Force_1_white_on_white.jpg",
+      "sha1": "b9964b1852f9d4a94c7a41ec1775afcc7dd2fac8",
+      "license": "CC BY-SA 4.0",
+      "author": "HI 622"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=nike+air+force+1+low+white&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 2750,
+      "sold_prices_cents": [
+        3000,
+        1500,
+        1000,
+        8200,
+        5999,
+        2249,
+        1779,
+        3249,
+        2500,
+        5999
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "adidas-stan-smith",
+    "name": "adidas Stan Smith sneakers, white and black, with tag",
+    "category": "apparel",
+    "staff": {
+      "condition": "new_with_tags",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Adidas Stan Smith wht-blk.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Adidas_Stan_Smith_wht-blk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Adidas_Stan_Smith_wht-blk.jpg",
+      "sha1": "2763eba9919a826ad8d3ea28c0bbc613cb9112be",
+      "license": "CC BY-SA 3.0",
+      "author": "Blunt."
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=adidas+stan+smith+white+black&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=1000"
+        }
+      ],
+      "price_cents": 6995,
+      "sold_prices_cents": [
+        6999,
+        5200,
+        7300,
+        6995,
+        5800
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "converse-chuck-taylor",
+    "name": "Converse Chuck Taylor All Star high tops, white",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned"
+    },
+    "photo": {
+      "file": "Converse All Star High White (4649858686).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Converse_All_Star_High_White_%284649858686%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Converse_All_Star_High_White_(4649858686).jpg",
+      "sha1": "12bd58011b7fc288ac8f4c265778c2dda27f8411",
+      "license": "CC BY 2.0",
+      "author": "Magnus D from London, United Kingdom"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=converse+chuck+taylor+all+star+high+top+white&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 1850,
+      "sold_prices_cents": [
+        1700,
+        1000,
+        1200,
+        2600,
+        2300,
+        1200,
+        1500,
+        2500,
+        2399,
+        2000
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "dr-martens-1460",
+    "name": "Dr. Martens 1460 boots, oxblood",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned"
+    },
+    "photo": {
+      "file": "Pair of brown Dr Martens 1460 boots.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pair_of_brown_Dr_Martens_1460_boots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Pair_of_brown_Dr_Martens_1460_boots.jpg",
+      "sha1": "ea20897bfaeebc1e863cadc8988ea1fd7af904c3",
+      "license": "CC BY-SA 4.0",
+      "author": "Nick-D"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=dr+martens+1460+oxblood&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 8750,
+      "sold_prices_cents": [
+        5999,
+        9500,
+        4500,
+        10000,
+        15000,
+        17999,
+        8000,
+        18000,
+        2700,
+        4875
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "carhartt-active-jacket",
+    "name": "Carhartt Active hooded jacket, black, heavy wear",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Carhartt.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Carhartt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Carhartt.jpg",
+      "sha1": "2e1d2811815b9b1762d99a3c1d6f35e7e0a417c1",
+      "license": "CC BY 4.0",
+      "author": "weeniebunvintage on depop, real name Isaac Barbosa"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=carhartt+active+jacket+hooded+black&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 8804,
+      "sold_prices_cents": [
+        23999,
+        7888,
+        5999,
+        16813,
+        2900,
+        6500,
+        5399,
+        13000,
+        9720,
+        12500
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "Approximate match: the sold listings are the same style in other colors."
+  },
+  {
+    "id": "polo-ralph-lauren-shirt",
+    "name": "Polo Ralph Lauren button-down shirt, multicolor stripe",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Multi Color Polo Ralph Lauren Shirt.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Multi_Color_Polo_Ralph_Lauren_Shirt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Multi_Color_Polo_Ralph_Lauren_Shirt.jpg",
+      "sha1": "8c45b2ec693d6ca61fdd77652d022ac622954a4c",
+      "license": "CC BY 2.0",
+      "author": "Menswear Market"
+    },
+    "reference": null,
+    "note": "Left out: no matching sold listings on eBay or Mercari."
+  },
+  {
+    "id": "lacoste-polo",
+    "name": "Lacoste polo shirt, pale green",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Vintage 90's Lacoste Polo Shirt.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Vintage_90%27s_Lacoste_Polo_Shirt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Vintage_90%27s_Lacoste_Polo_Shirt.jpg",
+      "sha1": "af1989d0fe5c1c6ec1e0316b072cb06af17fc343",
+      "license": "CC BY-SA 4.0",
+      "author": "Quercus acuta"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=lacoste+polo+shirt+green&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 2460,
+      "sold_prices_cents": [
+        2499,
+        1999,
+        2421,
+        2997,
+        1500,
+        2499,
+        700,
+        2995,
+        1796,
+        2877
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "north-face-arctic-parka",
+    "name": "The North Face Arctic Swirl down parka, navy",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "womens"
+    },
+    "photo": {
+      "file": "The North Face Arctic Swirl Down Parka.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_North_Face_Arctic_Swirl_Down_Parka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:The_North_Face_Arctic_Swirl_Down_Parka.jpg",
+      "sha1": "a619f36b9ada4516ef1c49912a1421d39742cccd",
+      "license": "CC BY-SA 4.0",
+      "author": "Adenosine Triphosphate"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=north+face+arctic+swirl+down+parka&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 6750,
+      "sold_prices_cents": [
+        10992,
+        11000,
+        6500,
+        4900,
+        7200,
+        5000,
+        6500,
+        5987,
+        7000,
+        9877
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "barbour-endurance",
+    "name": "Barbour Endurance wax jacket, green",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Green Barbour Endurance jacket.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Green_Barbour_Endurance_jacket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Green_Barbour_Endurance_jacket.jpg",
+      "sha1": "85bda72555b4b8c693992b5ce456c9d823e9efb3",
+      "license": "CC BY 2.0",
+      "author": "Robert Sheie, Menswear Market"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=barbour+endurance+wax+jacket&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 20000,
+      "sold_prices_cents": [
+        20000,
+        17500,
+        15000,
+        29900,
+        9999,
+        25000,
+        25000,
+        20000,
+        28900,
+        12500
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "birkenstock-arizona",
+    "name": "Birkenstock Arizona sandals, dark blue",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned"
+    },
+    "photo": {
+      "file": "Birkenstock Arizona.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Birkenstock_Arizona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Birkenstock_Arizona.jpg",
+      "sha1": "66c269ffd9cd682e5d34ae7815b78bf6880ea91e",
+      "license": "CC BY-SA 4.0",
+      "author": "Elmschrat"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=birkenstock+arizona+blue&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 4850,
+      "sold_prices_cents": [
+        6500,
+        6555,
+        6000,
+        1800,
+        4700,
+        5000,
+        3199,
+        3209,
+        4500,
+        5500
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "The photo shows the sandals being worn."
+  },
+  {
+    "id": "timberland-6-inch",
+    "name": "Timberland 6 inch boots, wheat",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Timberland 6 inch boots.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Timberland_6_inch_boots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Timberland_6_inch_boots.jpg",
+      "sha1": "03e2385985ff821abd32e0034fea591dacfa530c",
+      "license": "Public domain",
+      "author": "Dough4872"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=timberland+6+inch+boots+wheat&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 5250,
+      "sold_prices_cents": [
+        4400,
+        2360,
+        4200,
+        7499,
+        7499,
+        6499,
+        8000,
+        5499,
+        5000,
+        5000
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "jordan-kids-tee",
+    "name": "Nike Jordan Jumpman kids T-shirt, white and red, with tag",
+    "category": "apparel",
+    "staff": {
+      "condition": "new_with_tags",
+      "department": "kids"
+    },
+    "photo": {
+      "file": "Nike t-shirt.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Nike_t-shirt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nike_t-shirt.jpg",
+      "sha1": "899f51659d05978c647c693384bf459d2055e119",
+      "license": "CC BY-SA 4.0",
+      "author": "Ssu"
+    },
+    "reference": null,
+    "note": "Left out: no matching sold listings on eBay or Mercari."
+  },
+  {
+    "id": "new-balance-990",
+    "name": "New Balance 990 running shoes, gray and pink",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "womens"
+    },
+    "photo": {
+      "file": "New Balance Women's 990 Running Shoes.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/New_Balance_Women%27s_990_Running_Shoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:New_Balance_Women%27s_990_Running_Shoes.jpg",
+      "sha1": "7de300351023ae3eae2e37cf3c4a32fcc8c83294",
+      "license": "CC BY 2.0",
+      "author": "slgckgc"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=new+balance+990+womens&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 3575,
+      "sold_prices_cents": [
+        4500,
+        4495,
+        3150,
+        2500,
+        4000,
+        1060,
+        4049,
+        2500,
+        5500,
+        2999
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "The photo shows the shoes being worn."
+  },
+  {
+    "id": "red-wing-iron-ranger",
+    "name": "Red Wing Iron Ranger boots, amber",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Red Wing Iron Rangers.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Red_Wing_Iron_Rangers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Red_Wing_Iron_Rangers.jpg",
+      "sha1": "15a8934ee3712096f76af0849c920b3eb9fc7cc1",
+      "license": "CC BY-SA 3.0",
+      "author": "User:Steven Walling"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=red+wing+iron+ranger+amber&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 19450,
+      "sold_prices_cents": [
+        19900,
+        14999,
+        18999,
+        22999,
+        24500,
+        18500,
+        15000,
+        17999,
+        20500,
+        22000
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "puma-suede",
+    "name": "Puma Suede sneakers, black and white",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned"
+    },
+    "photo": {
+      "file": "Puma Suede.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Puma_Suede.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Puma_Suede.jpg",
+      "sha1": "d8decb20cba6ec6db9a2d8f0c6a5799555fa618a",
+      "license": "CC0",
+      "author": "LeDroider"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=puma+suede+black+white&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 2250,
+      "sold_prices_cents": [
+        1999,
+        2000,
+        3200,
+        2782,
+        4000,
+        1500,
+        2500,
+        2000,
+        2900,
+        1150
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "nike-air-max-90",
+    "name": "Nike Air Max 90 sneakers, white",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "womens"
+    },
+    "photo": {
+      "file": "Nike Air Max 90 women - white.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Nike_Air_Max_90_women_-_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Nike_Air_Max_90_women_-_white.jpg",
+      "sha1": "56ebfd6859c9055c69b86d05252fa0ca46b1a828",
+      "license": "CC BY-SA 4.0",
+      "author": "Ssu"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=nike+air+max+90+womens+white&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 3812,
+      "sold_prices_cents": [
+        5037,
+        4999,
+        2200,
+        5999,
+        5855,
+        1990,
+        3499,
+        2299,
+        4125,
+        2499
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "asics-gel-kayano",
+    "name": "ASICS Gel-Kayano 19 running shoes, gray and pink",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "womens"
+    },
+    "photo": {
+      "file": "ASICS GEL-Kayano 19.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/ASICS_GEL-Kayano_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:ASICS_GEL-Kayano_19.jpg",
+      "sha1": "afdd46d169739303b0f280936ce94b52f100bb1f",
+      "license": "CC BY-SA 4.0",
+      "author": "Tiia Monto"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=asics+gel+kayano+19+womens&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        },
+        {
+          "site": "Mercari",
+          "url": "https://www.mercari.com/search/?keyword=asics+gel+kayano+19+womens"
+        }
+      ],
+      "price_cents": 3160,
+      "sold_prices_cents": [
+        1610,
+        3999,
+        3325,
+        2200,
+        2995,
+        3899,
+        1700,
+        4500
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "Mixed sources: eBay's sold prices first, then Mercari's, and which prices came from which site was not recorded."
+  },
+  {
+    "id": "crocs-clogs",
+    "name": "Crocs clogs, black",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned"
+    },
+    "photo": {
+      "file": "Crocs-synthetic-clogs.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Crocs-synthetic-clogs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Crocs-synthetic-clogs.jpg",
+      "sha1": "5db8827b202e12e2cdeb1925ac8dbdac44a834d8",
+      "license": "CC BY-SA 4.0",
+      "author": "Skyeyemx"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=crocs+classic+clogs+black&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        },
+        {
+          "site": "Mercari",
+          "url": "https://www.mercari.com/search/?keyword=crocs+classic+clogs+black"
+        }
+      ],
+      "price_cents": 1450,
+      "sold_prices_cents": [
+        1299,
+        2199,
+        1999,
+        999,
+        1400,
+        1500,
+        900,
+        2500,
+        900,
+        3300
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "Mixed sources: eBay's sold prices first, then Mercari's, and which prices came from which site was not recorded."
+  },
+  {
+    "id": "patagonia-nano-puff",
+    "name": "Patagonia Nano Puff jacket, orange",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Patagonia Nano-Puff Jacket (51011161655).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Patagonia_Nano-Puff_Jacket_%2851011161655%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Patagonia_Nano-Puff_Jacket_(51011161655).jpg",
+      "sha1": "fa33f8bda00d0e22324740da267d33902ee16598",
+      "license": "CC BY 2.0",
+      "author": "ajay_suresh"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "Mercari",
+          "url": "https://www.mercari.com/search/?keyword=patagonia+nano+puff+jacket+orange"
+        }
+      ],
+      "price_cents": 7500,
+      "sold_prices_cents": [
+        7500,
+        7699,
+        14999,
+        3000,
+        13500,
+        6431,
+        3600,
+        7140,
+        7500,
+        9999
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "polo-plaid-peacoat",
+    "name": "Polo Ralph Lauren plaid wool peacoat, red",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Vintage Polo Ralph Lauren plaid jacket.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Vintage_Polo_Ralph_Lauren_plaid_jacket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Vintage_Polo_Ralph_Lauren_plaid_jacket.jpg",
+      "sha1": "b7dd73b569b835cf812ba91522c45765920ed2ae",
+      "license": "CC BY 2.0",
+      "author": "Menswear Market"
+    },
+    "reference": null,
+    "note": "Left out: fewer than 5 matching sold listings on both eBay and Mercari, and the counts were not recorded."
+  },
+  {
+    "id": "under-armour-tee",
+    "name": "Under Armour T-shirt, navy",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Under Armour T-Shirt (Blue).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Under_Armour_T-Shirt_%28Blue%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Under_Armour_T-Shirt_(Blue).jpg",
+      "sha1": "324bcb28d91ba8bb637394740f383b339ebfb9be",
+      "license": "CC BY-SA 3.0",
+      "author": "ARitchie10"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "Mercari",
+          "url": "https://www.mercari.com/search/?keyword=under+armour+t-shirt+navy"
+        }
+      ],
+      "price_cents": 1087,
+      "sold_prices_cents": [
+        760,
+        976,
+        1174,
+        1350,
+        1800,
+        1600,
+        900,
+        500,
+        1300,
+        1000
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "Approximate match: the sold listings are the same style in other colors."
+  },
+  {
+    "id": "hunter-rain-boots",
+    "name": "Hunter tall rain boots, brown",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "womens"
+    },
+    "photo": {
+      "file": "Hunter rainboots.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Hunter_rainboots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Hunter_rainboots.jpg",
+      "sha1": "93fbf31c491951e97e66c34d7d50fd51e2072fea",
+      "license": "CC BY-SA 3.0",
+      "author": "Jen"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "Mercari",
+          "url": "https://www.mercari.com/search/?keyword=hunter+tall+rain+boots+brown"
+        }
+      ],
+      "price_cents": 5500,
+      "sold_prices_cents": [
+        6175,
+        4750,
+        5500,
+        5500,
+        4000,
+        2800,
+        14500,
+        4200,
+        5500,
+        6500
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "Approximate match: the sold listings are the same style in other colors."
+  },
+  {
+    "id": "ugg-classic-short",
+    "name": "UGG Classic Short boots, sand",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "womens"
+    },
+    "photo": {
+      "file": "Classic uggs sand.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Classic_uggs_sand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Classic_uggs_sand.jpg",
+      "sha1": "1717e9847fc1bff9756ac0894c6b96c04c40da1d",
+      "license": "CC BY-SA 3.0",
+      "author": "Tinton5"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=ugg+classic+short+boots+sand&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 3123,
+      "sold_prices_cents": [
+        8900,
+        3500,
+        3001,
+        2999,
+        6500,
+        3244,
+        2800,
+        2500,
+        1499,
+        3500
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "ll-bean-boots",
+    "name": "L.L.Bean duck boots, tan and brown",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned"
+    },
+    "photo": {
+      "file": "BeanBoots.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/BeanBoots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:BeanBoots.jpg",
+      "sha1": "51ac5889224c3147286253b2adea99748f970a07",
+      "license": "CC BY-SA 4.0",
+      "author": "Tom Fish · geo.fish · Fish Eye"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "Mercari",
+          "url": "https://www.mercari.com/search/?keyword=ll+bean+duck+boots"
+        }
+      ],
+      "price_cents": 3200,
+      "sold_prices_cents": [
+        4096,
+        2076,
+        2527,
+        2800,
+        4000,
+        1500,
+        3200,
+        4590,
+        6399
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "sperry-boat-shoes",
+    "name": "Sperry Top-Sider boat shoes, brown",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "womens"
+    },
+    "photo": {
+      "file": "Girl wearing Sperrys.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Girl_wearing_Sperrys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Girl_wearing_Sperrys.jpg",
+      "sha1": "bb5346be1f445871dcf8c5deec32ac86452b5370",
+      "license": "CC BY 2.0",
+      "author": "Kaitlin Lewis"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "Mercari",
+          "url": "https://www.mercari.com/search/?keyword=sperry+top+sider+boat+shoes+womens+brown"
+        }
+      ],
+      "price_cents": 1300,
+      "sold_prices_cents": [
+        1000,
+        1900,
+        1239,
+        1100,
+        2400,
+        1149,
+        1400,
+        1300,
+        1986
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "The photo shows the shoes being worn."
+  },
+  {
+    "id": "columbia-ski-jacket",
+    "name": "Columbia hooded ski jacket, blue",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "womens"
+    },
+    "photo": {
+      "file": "Columbia Sportswear Jacket.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Columbia_Sportswear_Jacket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Columbia_Sportswear_Jacket.jpg",
+      "sha1": "b350945a7a763c70da356b776fb41c1879b80c51",
+      "license": "CC BY 2.0",
+      "author": "US CPSC"
+    },
+    "reference": null,
+    "note": "Left out: fewer than 5 matching sold listings on both eBay and Mercari, and the counts were not recorded."
+  },
+  {
+    "id": "levis-trucker-jacket",
+    "name": "Levi's denim trucker jacket, light wash",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "mens"
+    },
+    "photo": {
+      "file": "Denim Jacket (51079649933).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Denim_Jacket_%2851079649933%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Denim_Jacket_(51079649933).jpg",
+      "sha1": "88642c08db89e34c276f07322fff7f8adf0b9291",
+      "license": "CC BY 2.0",
+      "author": "ajay_suresh"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "Mercari",
+          "url": "https://www.mercari.com/search/?keyword=levis+trucker+denim+jacket+light+wash"
+        }
+      ],
+      "price_cents": 2589,
+      "sold_prices_cents": [
+        2999,
+        2478,
+        1800,
+        2700,
+        5500,
+        1600,
+        5000,
+        1200,
+        2800,
+        1200
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": null
+  },
+  {
+    "id": "red-sox-cap",
+    "name": "New Era Boston Red Sox 9Twenty cap, navy and red",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned"
+    },
+    "photo": {
+      "file": "New Era 9Twenty Red Sox Hat.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/New_Era_9Twenty_Red_Sox_Hat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:New_Era_9Twenty_Red_Sox_Hat.jpg",
+      "sha1": "a55f66b426e8351fabedf5c65fb83de4edddb159",
+      "license": "CC BY-SA 4.0",
+      "author": "Andrew Lindquist"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=new+era+red+sox+9twenty+cap&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 1549,
+      "sold_prices_cents": [
+        1500,
+        2200,
+        1944,
+        1199,
+        1839,
+        1875,
+        1598,
+        795,
+        1500,
+        1500
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "Approximate match: the sold listings are the same style in other colors."
+  },
+  {
+    "id": "clarks-desert-trek",
+    "name": "Clarks Desert Trek shoes, sand suede",
+    "category": "apparel",
+    "staff": {
+      "condition": "pre_owned",
+      "department": "womens"
+    },
+    "photo": {
+      "file": "A Pink Desert Trek Sand Suede.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/A_Pink_Desert_Trek_Sand_Suede.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:A_Pink_Desert_Trek_Sand_Suede.jpg",
+      "sha1": "28964417cd7348dd730466fa5ea7bb03dd455d7b",
+      "license": "CC BY-SA 4.0",
+      "author": "Peachyeung316"
+    },
+    "reference": {
+      "kind": "sold_search",
+      "searches": [
+        {
+          "site": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=clarks+desert+trek+sand+suede&LH_Sold=1&LH_Complete=1&_sop=13&LH_ItemCondition=3000"
+        }
+      ],
+      "price_cents": 2848,
+      "sold_prices_cents": [
+        6000,
+        4499,
+        899,
+        2152,
+        2100,
+        3999,
+        3200,
+        5900,
+        1500,
+        2495
+      ],
+      "recorded_on": "2026-11-06",
+      "recorded_by": "a teammate, by hand"
+    },
+    "note": "Approximate match: no women's listings were found, so the sold listings are men's, in other colors."
   }
 ]

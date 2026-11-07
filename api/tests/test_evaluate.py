@@ -13,10 +13,10 @@ from app.evaluate import (
     RESULTS_FILE,
     EvalItem,
     EvaluationStopped,
-    HandRecordedReference,
     PriceGuideReference,
     Results,
     SavedSearches,
+    SoldSearchReference,
     baseline_prices,
     batch_lines,
     chance_of_split,
@@ -72,32 +72,84 @@ def test_an_item_with_no_price_lowers_the_rate_but_not_the_median_error() -> Non
     assert summary.median_error_percent == 10.0
 
 
-def test_a_hand_recorded_apparel_price_loads_with_no_code_change() -> None:
-    item = EvalItem.model_validate(
-        {
-            "id": "jacket",
-            "name": "A jacket",
-            "category": "apparel",
-            "staff": {"department": "mens", "size": "L"},
-            "photo": PHOTO,
-            "reference": {
-                "kind": "hand_recorded",
-                "source": "eBay sold filter",
-                "price_cents": 4500,
-                "search_url": "https://example.com/search",
-                "recorded_on": "2026-11-02",
-                "recorded_by": "A teammate",
-            },
-        }
-    )
-    assert isinstance(item.reference, HandRecordedReference)
+SOLD = {
+    "kind": "sold_search",
+    "searches": [{"site": "eBay", "url": "https://example.com/search"}],
+    "price_cents": 4500,
+    "sold_prices_cents": [3000, 4000, 4500, 5000, 6000],
+    "recorded_on": "2026-11-02",
+    "recorded_by": "a teammate, by hand",
+}
 
 
-def test_a_hand_recorded_price_needs_its_link_date_and_recorder() -> None:
+def jacket(reference: dict[str, Any] | None, note: str | None = None) -> dict[str, Any]:
+    return {
+        "id": "jacket",
+        "name": "A jacket",
+        "category": "apparel",
+        "staff": {"department": "mens", "size": "L"},
+        "photo": PHOTO,
+        "reference": reference,
+        "note": note,
+    }
+
+
+def test_a_sold_search_price_loads_for_apparel() -> None:
+    item = EvalItem.model_validate(jacket(SOLD))
+    assert isinstance(item.reference, SoldSearchReference)
+
+
+def test_a_sold_search_price_needs_its_link_date_and_recorder() -> None:
     with pytest.raises(ValidationError):
-        HandRecordedReference.model_validate(
-            {"kind": "hand_recorded", "source": "eBay sold filter", "price_cents": 4500}
+        SoldSearchReference.model_validate(
+            {
+                "kind": "sold_search",
+                "price_cents": 4500,
+                "sold_prices_cents": SOLD["sold_prices_cents"],
+            }
         )
+
+
+def test_a_sold_search_price_must_be_the_median_of_the_prices_read() -> None:
+    with pytest.raises(ValidationError, match="median"):
+        SoldSearchReference.model_validate({**SOLD, "price_cents": 4600})
+
+
+def test_a_half_cent_median_rounds_up_as_recorded() -> None:
+    prices = [1000, 1000, 1000, 3122, 3123, 4000, 4000, 4000]
+    reference = {**SOLD, "price_cents": 3123, "sold_prices_cents": prices}
+    assert SoldSearchReference.model_validate(reference).price_cents == 3123
+
+
+def test_a_sold_search_needs_a_search_from_a_named_site() -> None:
+    with pytest.raises(ValidationError):
+        SoldSearchReference.model_validate({**SOLD, "searches": []})
+    with pytest.raises(ValidationError):
+        SoldSearchReference.model_validate(
+            {**SOLD, "searches": [{"site": "Poshmark", "url": "https://example.com"}]}
+        )
+
+
+@pytest.mark.parametrize("count", [4, 11])
+def test_a_sold_search_price_needs_the_rules_number_of_listings(count: int) -> None:
+    with pytest.raises(ValidationError):
+        SoldSearchReference.model_validate(
+            {**SOLD, "price_cents": 4500, "sold_prices_cents": [4500] * count}
+        )
+
+
+def test_an_item_with_too_few_matches_has_to_say_why() -> None:
+    with pytest.raises(ValidationError, match="why"):
+        EvalItem.model_validate(jacket(None))
+
+
+def test_a_left_out_item_is_listed_and_not_scored(session: Session) -> None:
+    item = EvalItem.model_validate(jacket(None, "Only 3 matching sold listings."))
+    results = evaluate([item], [], session, SavedSearches())
+    assert results.items == []
+    assert "| A jacket | apparel | Only 3 matching sold listings. |" in render_report(
+        [item], [], results
+    )
 
 
 def test_saved_responses_hold_no_key_sellers_or_archive_links() -> None:
@@ -164,7 +216,7 @@ def test_every_item_records_its_photo_license_and_price_source() -> None:
     for item in items:
         assert item.photo.license
         assert item.photo.author
-        assert item.reference.price_cents > 0
+        assert item.reference is None or item.reference.price_cents > 0
 
 
 def test_fresh_items_are_games_and_hardware_with_no_overlap_with_the_tuning_items() -> None:
@@ -204,12 +256,27 @@ def _report_and_results(session: Session, monkeypatch: pytest.MonkeyPatch) -> tu
     return render_report(items, fresh, results), results
 
 
-def test_the_report_says_when_a_category_is_not_scored(
-    session: Session, monkeypatch: pytest.MonkeyPatch
-) -> None:
-    report, _ = _report_and_results(session, monkeypatch)
+def test_the_report_says_when_a_category_is_not_scored(session: Session) -> None:
+    games = [item for item in load_items() if item.category is not Category.APPAREL]
+    report = render_report(games, [], evaluate(games, [], session, SavedSearches()))
     assert "**Not scored yet: apparel.**" in report
     assert "[PriceCharting](https://www.pricecharting.com/" in report
+
+
+def test_apparel_is_scored_with_its_notes_and_left_out_items_shown(
+    session: Session, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    report, results = _report_and_results(session, monkeypatch)
+    apparel = [item for item in load_items() if item.category is Category.APPAREL]
+    left_out = [item for item in apparel if item.reference is None]
+    assert "**Not scored yet: apparel.**" not in report
+    assert results.groups["apparel"].pipeline.items == len(apparel) - len(left_out)
+    for item in left_out:
+        assert f"| {item.name} | apparel | {item.note} |" in report
+    for item in apparel:
+        if item.reference is not None and item.note:
+            assert f"| {item.note} |" in report
+    assert "Mercari sold](https://www.mercari.com/" in report
 
 
 def test_the_first_eighteen_are_labeled_tuning_data_and_keep_their_baseline(

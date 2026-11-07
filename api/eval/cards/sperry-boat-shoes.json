@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "L.L.Bean",
+    "product": "canvas boat shoes",
+    "visible_text": null,
+    "search_query": "L.L.Bean brown canvas boat shoes",
+    "model_confidence": "medium",
+    "color": "brown",
+    "material": "canvas and leather",
+    "exact_model": null,
+    "platform": null
+  }
+}

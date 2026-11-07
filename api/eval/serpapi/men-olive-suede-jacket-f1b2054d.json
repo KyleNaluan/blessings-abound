@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "men olive suede jacket",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 546,
+ "organic_results": [
+  {
+   "title": "Vintage 90s Covington Faux Suede Bomber Jacket Men's Large Olive Green Collar",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800869053660?_skw=men+olive+suede+jacket&itmmeta=01M6T8910VC5CSGPWY1PBP04WC&hash=itemba7783f4dc%3Ag%3ABhwAAeSwAAZq6Ssk&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BMSSjn6QsDRTOfaE%2FHkOUQng6O3Uye018iUq29%2BmMCDaoMQNSxesHpKyzl7qurgAmmnea4Rj4BwkpuaCDp%2BAFZSWGqKvR2XtNmTr2G%2B2y%2FxNfv9QTkHWr%2FBJ2bsKFz3h1fzRRwAR8HcBkMqu7W64jSSNwRVhcNNaQzO1BX1uH350IaoSKBi7iWYMALro7D3IMGf9gsUTsI5vK7HJbY2R4iglLaEB6QwXy%2BV0PTO4rRjeaJuRpPoWdUTnHHCRd%2FmhOWsZOLqQDhH7xH8jQ68%2Bhzia5qN%2Bzc%2B1ycU8Aj4eCtmg%3D%3D%7Ctkp%3ABk9SR9SQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800869053660"
+  },
+  {
+   "title": "Tahari Olive Green Suede Jacket with Front Pockets - Large",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178464253475?_skw=men+olive+suede+jacket&itmmeta=01M6T8910V4YMJFV6F3J28994Y&hash=item298d4c6623%3Ag%3ATjQAAeSwG9FqmV-g&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9B9stAJgDBAT7gZ34CNcINDTgEQL9jTGWWqKZYXX6nPNNgAQmpFapubpbD57LO2UHld72PwDnyJDJoU0TkdBb7E3pHIWgWAMHe0%2Bly0lySPQs7JRj85N%2FRiK8N7EiPDFKtmsHzPfRdO4yWV%2Ffjui7LPXxkkUPSdxLgYQfM1MS6htSjmGm4xDoPSZJxGbU5NNdGPS6rnPH5PjBVUzmUnGb2xmR1mLnAP3XxY%2BFGSuOXPFkz1Q4xQu0MxFlSkin7Q6pgAWJfqTkYbZFalQGtsNR077taNJSaefv88v9LEGhA6w%3D%3D%7Ctkp%3ABFBM1JCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178464253475"
+  },
+  {
+   "title": "REISS Pyke men’s Dark Olive Green Goat Suede Leather Racer Biker Jacket",
+   "price": {
+    "raw": "$245.00",
+    "extracted": 245.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128173581891?_skw=men+olive+suede+jacket&itmmeta=01M6T8910V12SGS4SKVJQ8577Q&hash=item1dd7bda643%3Ag%3Aw2wAAeSwyJlq6m%7Eb&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9UvVwHmHYJ6A3aIMsDSy2Hc%2F7TARoMzXvmSPLcGc0bIjDC0sqy1qeGb3XetwT%2BYcqgi0yAMac9DznAjtxu66IcQdiqz8DuCdZcjheXXwXJJQFR2G2YDkQL9BuzFwptTls9GKeyMdaGnZPs9Me5Z%2Bvks%2Bn%2BQ%2B%2FyzCW1BTMH4Reb0B%2F%2BTDmUQMBvGk0%2F7BUlJYpb7FHpv%2BXPgtHsfOTPwKn94EqATKM6fMLwcaEGe%2Buk3y%2FmzJSc5BKqb6XkBgFl0%2BeJNs8s9uRDbW%2BUXQZX8j2LxBUCk9kKzR%2BAO%2FjK%2B12sSw%3D%3D%7Ctkp%3ABFBM1JCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128173581891"
+  },
+  {
+   "title": "Massimo Dutti Quilted Jacket Mens L Olive Green Suede Elbow Patch Zip Coat",
+   "price": {
+    "raw": "$58.55",
+    "extracted": 58.55
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206665938395?_skw=men+olive+suede+jacket&itmmeta=01M6T8910V7C2V78652P2V1FJB&hash=item301e3ff5db%3Ag%3A5mUAAeSw3RFq5h7P&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9ff44Eop8Hy7xlNWhc4zBG61TBK%2Bx%2BtNn8AS1U6%2Bf8MRWeU4ZDbdZcVHmnSOMtvYWX1JLUjXyPZXbDFgOKOqfXgtUMajvg76%2BortDk2Y5ByDISkxPZDlFHIo0%2FUfZmJMPdISN5I2A%2FlXIfGjp2YXYLaLx0UhEpqtR5XioPzfAx13hX1lQj%2FrRXARQvIFiEHysZG8%2FP4sDVpdQQ%2FyDluGfNIqzfHoW6m2XgG1onUnQqdnNgbZBZrck1sXRxX0iO0Ocz4tnerhJW5QKpoS93%2BzsrwoQpuGRjBAHZxQCdrxEkMw%3D%3D%7Ctkp%3ABFBM1JCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206665938395"
+  },
+  {
+   "title": "Ben Sherman Olive Green Faux Suede Bomber Jacket Size M 0216",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198770772949?_skw=men+olive+suede+jacket&itmmeta=01M6T8910V0SNB0Y4D4745RT7N&hash=item2e47a94bd5%3Ag%3A8voAAeSwD6Jq6t-Y&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde91WVOyt%2BRnKNgIdS3uGo0x%2Bz4x9HsUN9r4P7pBieKfGDzoEBI0mrThVOhzszPSdpGVrw1eiXH17BCxeGU34YQB%2FmOhoQCmbCulQTZsHP0dYCTlpeeQTu2CC8%2BK7kWWNqFrp98H7Q01Ka6pqqlDKKMt%2Fb6VW%2F0cP4nbTF1Lwmp45XTx0vfgm3WJbo776rne6XTklO9UlpqgF0nK%2BUeV8y3NE0gSMbCRVfHva0poyrp2ZKuGDS0lecv%2FrEOtRWBuPFA%3D%7Ctkp%3ABk9SR9SQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198770772949"
+  },
+  {
+   "title": "GAP Suede Leather Trucker Jacket XXL. EOC!!!",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840085781910?_skw=men+olive+suede+jacket&itmmeta=01M6T8910WWKJ0GY5Q1VZJZZD2&hash=itemc39903bd96%3Ag%3AVDkAAeSwv%7EFq6OaI&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BiSFNim%2Fw8fLyqiDsw1CTjiQJylTXOH4jQVXuqoLZP2sjhban8%2Bt2CQOp11v3SNcgar3uQSQCyrPzp%2FXN3dGcfXIftMl4uWg%2FL8H8nrqbOBx1BpIVmUd5GkELNcjV%2Fi9t8CdoSwv%2FXQBceZkyJ2KAH8RB1q3dRzv61g3pMB1eivz0pGJgBtcm%2FOlx%2B06musB23j9X1DSEQTX%2BihgbbGItgTGjb34BaMNLpIf165Mzhh2%2FEgj2iQUi14pzcrzO%2FiN6Q0eV9PfL3ZdfxqBpvWK57ZyrRpl3ZpzhE2xlfcoaWZA%3D%3D%7Ctkp%3ABk9SR9SQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840085781910"
+  },
+  {
+   "title": "JLC American Classics Suede Leather Jacket Mens L Green Excellent Quilted Zip",
+   "price": {
+    "raw": "$84.00",
+    "extracted": 84.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366779240761?_skw=men+olive+suede+jacket&itmmeta=01M6T8910WEGY964TQBKZCJCK1&hash=item5565bf1139%3Ag%3AYVUAAeSwB7lq6Nee&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FSFjA%2FyEvMKQSsrHQkt77l61AoivEwiQQNNwsOLStwkTp7FsYoDHxue0XDXE%2FK%2BKvB6I6unkweeMYAixJNN1fHasL5oC1HJyia%2FtxeTUXZAOD9Oxub40C5tALXtpu6WQyuLwqFSNKMJShZb680muf2scLsiSHQQc5ftiEy3JRVJQESjfWpiQu%2FtJRM5ebvbWtYoeoUTkyDKfpyPnQ%2BoPiWQrKdF9Enw7v3M3c4zQ%2Ftzqk97IVle7Bx1fdC9RjxfyowAjQGuPp6okdLT9ImOxwxMFDHXbVtdr%2Fgr3yHa93oEA%3D%3D%7Ctkp%3ABk9SR9SQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366779240761"
+  },
+  {
+   "title": "Milano Moda Men's 3 Piece Suit 44R 38R Olive Faux Suede Look Jacket Vest Pants",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287705468018?_skw=men+olive+suede+jacket&itmmeta=01M6T8910WPX10GNJ8H86M0HXS&hash=item42fc950c72%3Ag%3AvuQAAeSw935q67nI&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8TTXL88q44x5%2BXEyMEIPL%2B2soX%2FNrswIumQ3TsEyHm1kYGnpN0cqgrIOoCF7V7btoAzPfXfK3TqmQaQvJhyqshFWLyR0ecH6fld0qsl4QsM94J3F2c6rygdDGnb1rDrSx%2FlzrEZTf6O%2FUpaLSbWfFcP4jtnsdBoJspzhOx4DFw7%2BCfMhQyyWpybRv%2BzNLswrdK5MrCRPG9Hh%2BNkO29k7wCQ7AF9mw3fjNKAkC7tbkiAKM0vjZ9XDh5i6K9rAeU%2Faw%3D%7Ctkp%3ABk9SR9SQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287705468018"
+  },
+  {
+   "title": "Olive Green Suede Italian Leather Button Front Jacket Men's Size M",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287499241399?_skw=men+olive+suede+jacket&itmmeta=01M6T8910W55H6NEYCKB98ZGWC&hash=item42f04a47b7%3Ag%3AxlcAAOSwnxdl-HWr&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F%2BnOCStZrC3pElPbz7kRMxDc7uikKStcvmx3YjUzofGCkfuXw4kQ7Se0VQkoDtTUyFxneNkAR%2FDRCoeDOWEy2q9Kazj%2FpoPROmJuypegDxTg4ZJ7COAM8vCXXWCGFTgXzc0Km7qte%2BUcEHL6KJH4YULr5mKEZfIJIicUk8fAW8tNd0Kf3snzvfMbRvjLt9OfzgKTsRSRVO0MsNUwQi%2BEmnOrDp%2B85gbpvHKGXcvwThMITNcE6dpU4pujbWRFRlalE3NroGgEHnaH%2FXrdIM5XOrtlspfiI562ym9K%2B0%2BummsQ%3D%3D%7Ctkp%3ABk9SR9SQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287499241399"
+  },
+  {
+   "title": "Vtg Croft & Barrow Suede Bomber Jacket Men M Olive Drab Green Quilted Lined 1990",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800837372523?_skw=men+olive+suede+jacket&itmmeta=01M6T8910W3965HCAND4SNNKKQ&hash=itemba75a08a6b%3Ag%3AMpEAAeSws-Fq2po5&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8reXYEZ8moXN%2FNZ7YmO%2FVvzEy0py3HU9S9EBc%2FR1z9SN4kHdCn8W%2Ff8fgmTVnhVAkr0HC147fT6GUAyHytBr4jgr5e67cAsgKv3yOkHJFVr1jnq%2FXUwiurP0d3GQLHeAK5s2X13kXKFB%2FfAfRcejddQLOTHbpzTRAtLgJxT4CanOqOX%2BhoT6cJYG8AN3T%2BWOsU7eqUSZVbH0AshTzzZuf5T%2BgE%2FlZRPW9AABfpXPOcledieou0diLA8iNO%2FatXk2rJwVWjRI6uUBduaBG%2Bb90w6mqAYDBnAk9W8FhzZkJr6A%3D%3D%7Ctkp%3ABk9SR9SQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800837372523"
+  },
+  {
+   "title": "Vintage Banana Republic Safari & Travel Olive Green Suede Bomber Jacket Size M",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117372321713?_skw=men+olive+suede+jacket&itmmeta=01M6T8910W0Q0TGSM2H27EQ3EG&hash=item1b53ef7fb1%3Ag%3ASnoAAeSwPdNqiQaP&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BVhpyEhFA8CuziNLzU9Dzhr3NWlyxTUipZVmeldE1T9Q2jvoFwmIWG87oBvc%2B6iDTZqb%2FAJZyIttSsBv81otX9TaUvUWo701Uly0aACj8Mw7t2fGazBs6ZjSII%2FplkP3gyrbQpW%2Btx5jB0HmCo%2Fi1tvTowiy7XCGaQN%2BObYZK02GcWK01TYR67Zq4sqkqHosQs1k1sQjFeDElse0NRNjtkjN6nKqKpAKJXpK8ewD0Bivw45sRUPO0wyohxRNLHar4%3D%7Ctkp%3ABk9SR9SQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117372321713"
+  },
+  {
+   "title": "Claiborne Mens Suede Jacket Size M Olive Green Button Front Quilted Lined",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860066049374?_skw=men+olive+suede+jacket&itmmeta=01M6T8910WH46ZBF5MRC9BHCRW&hash=itemc83fee6d5e%3Ag%3A7QUAAeSw4o1pH5uR&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9ULqTKHtW5pJV8opGlQVk1lvbV5UI%2FQPgin2OlmLhMXSpbRksLMr8xvGHH9m8Jd98asVIPTzY9gdsYa5vr5NZc%2Fahbh%2Fx3R%2FM1x67vpufGiUQutFeeAAuJ04%2BbKit0H8CwY7fAF%2BnfhST16oROEBcXSSzXbWf10%2ByMVhLXYgG7U7kAqDR1qKkdb4zzAi91t1jsQQnkxjchu3Jr7sKTKJGGMkWPpVrLjXWa5GKFyJeImZsOPTlo8gOfAZKplDDmFOM%3D%7Ctkp%3ABk9SR9SQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860066049374"
+  },
+  {
+   "title": "Blackicon Men's Tan Suede Full Zip Long Sleeve Collared Bomber Jacket Size L",
+   "price": {
+    "raw": "$44.99",
+    "extracted": 44.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900065461263?_skw=men+olive+suede+jacket&itmmeta=01M6T8910WM6ZTMCQE91X5491T&hash=itemd19015040f%3Ag%3ACLMAAeSwblRq62Lc&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde81W2Ht9VLLCoiiZEE%2B479s9NIAimUv5Hu9iputDeUHvrsQxQUSLtvMawIlk5jgcIzOcGCG%2FFAFcQvDYi6Ucgb14qgFfkfkkKgw6M99UHepQUaIfSEGpwN5sfAR7mo9WIhAaxwPQJFfyZPoOB8qhBst8qFVzALQU50tAD9gGkmSl2Ihhe6ZGvCBwkEmgWWAEBCsAzS%2BKCCyLzx4UcB9Vp6tMdmk33Bil9mIV%2BJCZNOD1BdYHJq5c0R9NG0oAsk%2BgsugOmeXmZQVkb8ZP8LLde7HJWF9mjTNqAYqVr1mvQUJWw%3D%3D%7Ctkp%3ABFBM1JCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900065461263"
+  },
+  {
+   "title": "Jos. A. Bank Bomber Jacket Mens XL Olive Green Suede Goat Leather Tailored Fit",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920071048165?_skw=men+olive+suede+jacket&itmmeta=01M6T8910WDFDDNGPVF07Y0N5B&hash=itemd638820be5%3Ag%3A5YgAAeSwAfJqeKpw&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8nfCXdjSXF9maEr6tbLREFQpThnjXxno7vFLKYDsYy%2Fz5KlFrH8yCg%2Buuz6A5sPFr7cCuJoI%2BztmFLdcbvKY85YJbokXuVy3MmJkV48%2F52WNJvEjYekyH%2B%2FlREDFqWN1yByz%2B88Ix161ybo4KtShR67jp6KnM4rkJt15zvI4xOBjhdUXgVaavKRzx3Zz2BOE23GbJOnZwk8TShpL3l%2FXqvjiRgYzQ7Hsgbw%2BX8Ev8zBVQx3oHb%2B%2FMgIndoQPQzy%2BxFANXBzD0wgZo2R7kXFfKLYU7A1%2Finsa2jhzun7j0%2B2Q%3D%3D%7Ctkp%3ABFBM1JCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920071048165"
+  },
+  {
+   "title": "Dockers Olive Green Bomber Jacket Fleece Lined Cow Suede Collar Mens XL",
+   "price": {
+    "raw": "$36.00",
+    "extracted": 36.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800606936820?_skw=men+olive+suede+jacket&itmmeta=01M6T8910W9QG676JDNQYY6V2Z&hash=itemba67e45ef4%3Ag%3AmHcAAeSwEjtqlvFY&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FFjqH7E%2BBoNTaauBzLtATZ7fuKFEjrDewZBpndBLZ7YNFAidK3x23h%2F7Cb0VcqwlVKF5Qk%2BsEMJqYzrko%2F2vIcF8zFVI0zaK%2FdLTPeKkoP0Xvxihlh3XXXm5A6mAADljNWSQgFzRxp7XKP1OgHLngUPKzoAyfp%2BYlUti4vKCdlBc%2FMw2YRIL0UpiZmRhsf0HJWAmvtLxNB0cXALxnPSHPiUv37deU%2BMIo1Yo6TBY6iqnAVLqlW7luuNkEeZmqT%2Bz%2FyARMMpdPISh1kjpl7oFYmCTEzlqXiRU8xz01gdr3gyQ%3D%3D%7Ctkp%3ABFBM1JCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800606936820"
+  },
+  {
+   "title": "John Varvatos Jacket Mens Large Goatskin Shacket Zip Button Goat Suede 🔥 🔥",
+   "price": {
+    "raw": "$219.99",
+    "extracted": 219.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940064096320?_skw=men+olive+suede+jacket&itmmeta=01M6T8910WBVQED0FSZGHVGPSQ&hash=itemdae02fc040%3Ag%3AglwAAeSwAwZq6r8d&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BzRv5KPt7PE3hd9qxsdNb2wR5gSNmphwoqMoKSTN5qqYmkPU8Aiw2Y3VxP4GrPs4mZgVNG%2FXGPP7EiXbh8UireTmMgJ4Dz0vwlwclJytBjcmUtKSW6Hs%2Bx2OWZNgOb10zw7UoM%2F23IVVMAU7%2BPKgURGGfUbxGu1o40Xuk%2BZ%2BY%2Fr2RJnHHobERAIgCHt%2B1Nuik5a8PXmB01dNOkX1pkQZrDdBGRMMfptfWXKhMz06EGz0ZamLGe1eU47YF%2FGjRJlhOkDkEwsW6bNSGt09QmkprrbZ3lu9L5h%2Bm%2ByOLssD%2Fo5w%3D%3D%7Ctkp%3ABFBM1JCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940064096320"
+  },
+  {
+   "title": "Mark Buchanan Pelle Pelle Vintage Suede Jacket Mens 42 Olive Green Utility",
+   "price": {
+    "raw": "$224.99",
+    "extracted": 224.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860034000793?_skw=men+olive+suede+jacket&itmmeta=01M6T8910W5MT6Z7P4JJTA28ZY&hash=itemc83e056799%3Ag%3AuFYAAeSwwNhpZDvb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8pFEIuEKSyr9ydEHt9pCCqDgxUbvHGJElOaedWQ6V17lUAH%2F04zj3xewpVwninKTjAqjGpvQrgwN57CuHTJtNJGO8FrPOXPMMVA3w%2BBn1m3RXbSHY--Sei%2BgW4d2Xmxc1Z59LfZNsS4ETebtCZ4Vd7IZMmpflYOaDU6iWEHor%2F5ZuZlqBGtVfX6GYiL7SSI2Sy5OvFZhq7KlJ9cFZ7nrKSO81wE1FfTelG86xJgOVNjgjkrnZR7GXFGEak9lwIAF3ijVUkxW9qbGAieeUtzUhG%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860034000793"
+  },
+  {
+   "title": "Men’s Tunellus Faux Suede Bomber Jacket Olive Green Size L Soft Touch Zip Casual",
+   "price": {
+    "raw": "$21.95",
+    "extracted": 21.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168817883335?_skw=men+olive+suede+jacket&itmmeta=01M6T8910WSY9WA9BX756H5H8E&hash=item274e5478c7%3Ag%3AW5gAAeSweIJo7rL4&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9AtjeRnm0NS5fxXfKOOjTpBBX3Xopz%2BqTjJDBuKRV35g3CyYdH9QKISxZ6hG%2B34J9dajfozc7rla0WxqPZsFbPZhsQmR4kx9l0jktyvSGvc003GmBi3PeciynOg3%2F8ntCEnrbz51k9e3CjXhWDg6%2BDjkWbL57jnmti11oaTcTzH23oq%2B8hBefyCNSJnJS9D3rDgO%2BRrTX3yr%2BprrfjRR9NR%2Faliz5DZ0aSPrFBBukUl4EZOGoUXeqCN3TxQ4bDUAzK5NF7mJ%2FSVQ8mL%2FnkmSFdd1JwyUuY6M1W3vQO679B8Q%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168817883335"
+  },
+  {
+   "title": "Aberdeen Collection Men's Large Faux Suede Full Zip Jacket Olive Brown",
+   "price": {
+    "raw": "$28.00",
+    "extracted": 28.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377487821198?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XY3SQKT44QG5NZR46&hash=item57e407098e%3Ag%3AlGQAAeSwxSFqo4gq&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8ay47GAejdNkMzdGGd67FHnVDocBB5sdH7Zj5B4YwK3Qdd3xf%2B5F5tdkHLbkrsy3opAr3ctEhVPrEzNbP1QRnWOZG%2F0QySKEc0Wi6EUdEEaMuemFzZZReXu6XYb2GNFqxb1ZgI3hk1MfH%2FHvxWxjnGW7HgJE3%2BandBF1qXw91u5dCNffz4FfKrXb98ToueScluCCEJG4cvwcs86XHxSaIMOSmWm0WqZN2921tTCGI1dAdzDKyHMiwEZHCett%2FLFlM%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377487821198"
+  },
+  {
+   "title": "Vintage Gap Suede Shirt Jacket Sz M Olive Western Pearl Snap Cow Leather Y2K 90s",
+   "price": {
+    "raw": "$89.25",
+    "extracted": 89.25
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188939213303?_skw=men+olive+suede+jacket&itmmeta=01M6T8910X2EG9GMPDEQ4Z365T&hash=item2bfda799f7%3Ag%3AIfoAAeSwgQtqSTrR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FLhJi8ZdLCmHIRbnn0n9TEQVxYm0TEg3cUFxmc5o%2BcR8iyDpseBfMwDiNBAvY6sHclKCGfdzo9RpvXf8EYB31RFnLxPFR7%2BA8Yc0nnGFdDGTFhcPMSNDmi569ZslI6NGxhuEz0cu3JkiBbfLczsiDPtQxcYg%2B%2FG9eg0cZTvdTDbLvB90rWbbBVu%2FaUtCPxgF79pZwB%2Ba%2BNu4dYutwdpy82VTTztu3YySgsG6CiiR1kMZlP4AuKcj8mj0pSzDtZ0eirQOTEnMXh1GB6uKuaePT6qwPWxJWyYy7w3LKS1qLOPw%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188939213303"
+  },
+  {
+   "title": "$895 Vince Men’s Suede Trucker Jacket Olive Green S",
+   "price": {
+    "raw": "$358.00",
+    "extracted": 358.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/276851988929?_skw=men+olive+suede+jacket&itmmeta=01M6T8910X766QFHJ1RCZDJY1D&hash=item4075aa19c1%3Ag%3AwDMAAOSwdFdnp7BV&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8bd3HrSyogJRPUDdR%2BcM5BEBQkr0g8KTncQxVhvKjmQXgFKz4Lc8M6hgV%2BQEbuwGDXrrWTOM%2FGKETYiEocIw5CYFqsDGR78afMscv4Lkjh8xcdt%2Bq4ljw84b9AQMndwoRQEJyoj52O8T0suDeW4JtfAN8%2FasY1mRkHHFVv9HVooQn%2FtTaM%2BucJ7ltMI0w7anDoRl9SlhDbjaomt%2FUQl1gbjyzuFCy6vm1AE3l5OKGf7U%2FYTvbFUwM1ZRgP9FBU8CSjtDDjrZLyB%2BRvcAH53Ep5kmIeFmXyGPo0PnLBeKU9Ew%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "276851988929"
+  },
+  {
+   "title": "ZARA Men's Faux Suede Bomber Jacket Size Large Khaki / Olive Gray / Taupe",
+   "price": {
+    "raw": "$54.95",
+    "extracted": 54.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377619003413?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XDWW3FGF2TH02MSZN&hash=item57ebd8b815%3Ag%3AWjQAAeSw87Bq6ksq&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Bsex%2Biln9Mt8IJv44LNJ8qkjBjk8Ox2o%2BdTlKnrTMNLUR527WanWYmRnexq6n7n%2FmDfXKT1WAKOF8dkQxLiC5t70mgwz%2F4exXV%2B2i7K8bJpv3ak3oY2kV02NlZAlddhDE8DlCO8qZSJhkhmiPMWaAkHRAko%2FCGZmPtU6rzyrDzYGKl%2FuAZNIv7MJgfhPIX9khbn%2BeFmngWr9JJcgu1JfW8Qzrpo1nv0HDJPtBdR7r1utfb5CKLmnWgKbBIOdSuvgXS6WjYu4QcwK7%2B7pr%2FEIyOzQ5Zv9EcsAOKPGCPaXqADg%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377619003413"
+  },
+  {
+   "title": "BlankNYC Suede Jacket Size S Olive Green Full Zip Cargo Pockets",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257772301923?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XS59GDHSKRRNW769V&hash=item3c046d2e63%3Ag%3AWF4AAeSwsutquygc&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8K1uDqlf8rGEEPsfSUun2ejP5mMfzHimjx6AKhe3%2FJsoQdsD9%2BgWUBq8XqoPuVQkGwzYrSrhlKLCtEHiZqgZW4RabI%2Ft9kXlBG6AdA0POqI4cXvF3Wkob9VYBTdbz6%2FbqyO6XnWepAGzLWNVmvFTJUP4yb8G92%2BP6Mi15LapHDrF6kGIpNjK8EgONNQL1OrHkyBr3q2XA0djVQNd7az0BfDfu%2BnnsYXLaahR%2BKHlde7EPYjgwA0d4mgO1f380nQse47X1NZMMpsLdmTSeIH8wMO5I04vd%2BxZdNHDGw0N1dwA%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257772301923"
+  },
+  {
+   "title": "Bullock & Jones Suede Leather Bomber Jacket Olive/Gray Full Zip Sz M",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257696653182?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XH72RKQM3C7DFX9QE&hash=item3bffeadf7e%3Ag%3AfDQAAeSwPXdqifVv&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B13wYCw4mxTxFSmIbQz%2BcOtGajRli5RESl587WqvpFI%2BfBjtUc%2BgF4If9t3tsF0bTykkdiocZSxROgBF33vnpnkGUOWfMLiZdVEsTh9cosZhJiu58URkucoK7Bv4nvGZm7iKcfazp3VGch%2FDiBbNQtRk0JDxoY8NpMC4xhJId5Swi4YiSEjvMhmorBDT4zHi%2Br3uvm7DS9NH9IlYCz%2BqeV6Pz4A09Q%2B8jmVD8x6dGJQxwa%2B%2F7FHBGCVHvTIq71s76cuvM8xLtYQ61uqjN8h%2FR2JD2jmZR2%2FJ4Mxms0mDIQnA%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257696653182"
+  },
+  {
+   "title": "Knightsbridge Men’s M Olive Green Faux Suede Quilted Shirt Jacket Shacket",
+   "price": {
+    "raw": "$29.87",
+    "extracted": 29.87
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206627707986?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XN4VRSMJFWX0BT03D&hash=item301bf89c52%3Ag%3A0KcAAeSwHp1q0Bfo&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8JlTVvMbGdpDBZOasZOVzW4Go81aY%2B0ZWY8rpn02SPq2mX6hlmpMr%2FRYwLAa%2Fk4AIGB%2Fngvd2HZsVYtTp4P4qiydkWl56wyr3OW3w5bkE9XWVj69RqkKehkd4oL3V94oc2VS7%2F6obSX1SzBjhfMbvLw1n8oNtNxFuUpdbx8rHzHWt3uScwCpbgNI%2B706EcIoGWczxkmA40wY9olse2Pk608YgeIQTtgfQMs3OFTZzixJ%2BOxLD81CY8nTtKRNg4jIebuyh685tVoRl5470uaV44SmQSWWE%2BFbl%2BrELVMImAWw%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206627707986"
+  },
+  {
+   "title": "Dakota Grizzly Olive Field Jacket XL Lined Collar Zip Button Leather Suede",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128158417134?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XZNJRM8XHC6CY0PJ2&hash=item1dd6d640ee%3Ag%3AnhQAAeSwfvxq4APh&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8CBPho0%2BSu6zuXUb4KG0QOAK%2BX5reSvlNBMxvMzO5NpgnbAZvffRFPIoTazPqcUj8eGCmXngofNAV6660RUL6crqYAX6J0kh2T6xe8mHY0%2BKpnJb6EFJ7SuGn8q5Y0SR9kKbOqhbpj4iglbf8gfG5UmmKGw0YwktYbqhZa8PvN1%2BgKZukjqHGshCnxv1SQTIc0TiQigIpHP2ZoXEiNTohdHlPFcZvznrgsBnwnWtrCRHnP8qhi8u6NJSs96hJpkjU%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128158417134"
+  },
+  {
+   "title": "Claiborne - Men’s Olive Sueded Finish Jacket - Size M",
+   "price": {
+    "raw": "$22.99",
+    "extracted": 22.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920110964264?_skw=men+olive+suede+jacket&itmmeta=01M6T8910X97KBHBH73PHZHWWW&hash=itemd63ae31e28%3Ag%3A3ugAAeSwr2Vqtb4U&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9GPOMUREFlvPAZT1o0ebcdBYb9%2ByupNhmxR78l1zXacf50d5%2FzTDPhZ832hnSfpR%2F0gwigUJbI%2F2Ei%2BrF14C9x43jz3qFTWJm91ULLfxRWwZZYrn%2Bz%2FCfGJ0MnOlE8mAYC8pejIWyDw2aygA5EatU2vNMYJ8eM4DgWboL9hsmiGLewJKdts6E7hBlqdMS1WgPzY8fQnrDivpNkSxTKm6mv7hzyPGYEDdg58I3kZBaOui4NHUB8h4D5%2Bs8oDyy22Gc%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920110964264"
+  },
+  {
+   "title": "Italian Suede Leather Bomber Jacket Olive Green Khaki Made in Italy 48",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336841302929?_skw=men+olive+suede+jacket&itmmeta=01M6T8910X96SXP1QH8FDPVT6Z&hash=item4e6d4e6391%3Ag%3A03oAAeSwtgZqzQBE&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde97W3N1NBR3KhH%2FRk4t%2BsICagyKplpGrg%2FrRFRp82SC1D2Ehtvd1jdB%2BH%2BhIRgbOKz3MzDb%2BL3tnBmBE2Yq%2BeLe3IuHFViw6Fu64N%2BNUa8wc2YC5a%2BcJmPmHKFtlRD39Djjd%2FWbaguqaw9VwI4T0zmMov63g3mmsUmuTnnkiyouFIAtZyYocToavo1BfYsxmJ%2Fkee5CkoYsSEkxEiM5Uff8mz%2FaMm3OfKLI48ru0GTSuR9PcRxDEt68C%2BcggJq8u1BXgBvYnEtPCfEqUbDEQqt8qEFQALsNhD6lXfoLMOJtEA%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336841302929"
+  },
+  {
+   "title": "VTG St. Johns Bay Olive Green Suede Leather Bomber Jacket Mens Small Full Zip",
+   "price": {
+    "raw": "$115.00",
+    "extracted": 115.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407318373086?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XCBGZCBHRERWR56VX&hash=item5ed61122de%3Ag%3A3vIAAeSweOdq38Vl&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BtdhGj6HWyt1jmX%2BJ2B56L0rq66GonXm8wp%2Bva9gw46l8oN3wB7HMcYbpGw456sTTqg9MdiBtFwhxN5F6uGW11jc5masFFqs3lFM7hKPV1zxvPYZDweSyYC%2FXTXNJw8bkYLDqiHcPx%2BJlqdL8N7xUth1ACbPwKC7uFyG5PJ8dyNw%2B2gZG%2FFKmOTvbOr99vjh6U7fuDYbvkUswoVxNn%2FbqnHxcrX8eI%2BgyxhusZuMiRHWnYAxtmq%2FUs%2Fz9VxmGzq2%2Fl1sFt7%2B5eYbjhLaZ7JejG%2FX5WnisReXKol9q0eTWU4Q%3D%3D%7Ctkp%3ABFBM1pCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407318373086"
+  },
+  {
+   "title": "G4000 Mens Genuine Suede Leather Bomber Jacket Forest Green Full Zip Medium",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287702794163?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XVYF9F2SVZV4NA143&hash=item42fc6c3fb3%3Ag%3A0BoAAeSwWl9qSD5N&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8CzV4hOuaWdJIiqQEZ9fVHge0koT1KHQwmkYK4kH%2F%2BFw83bJVdrgQ4GA3uZWKHwv%2BxoGPVTncws9UMLXVAfbrcoD%2FVtnMVbDNndx%2BKN2063UWC43vtp4mL50OHVe2n72b0mxwMaWTamzlUvz9bemYpfekbA8ygbDBDnmSBwxNS7V6VmUiqV%2F5LQZ8cv27sQYNsbAIDLwi91Ct72jalQmK1Ea2dg2EzJbqdNxOqPsiy2ZEn9AwOINEOiNA4sxgCdKFJMyeYnUEWkoMAC%2FFLJ%2B5HYZNqZHcPwqBZfhcKv5zeDg%3D%3D%7Ctkp%3ABFBM1pCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287702794163"
+  },
+  {
+   "title": "Cadogan Faux Suede Shirt Jacket Shacket Mens Large Olive Brown Snap Button",
+   "price": {
+    "raw": "$28.00",
+    "extracted": 28.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920097321934?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XM0QK4HJ2PSXZT6GM&hash=itemd63a12f3ce%3Ag%3A0BcAAeSwV4xq6LO7&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9H%2BMYPxY2BS7Zz79w7TkNjuM6O%2FiVrM2dOb8uG9OjM%2BUJsoZrqeI1Ofv%2BW%2Bn62ru7CfZWhCj6beEB9mqS2qs4XhP5HslsZIwNpAU4Kxt2D1z6no%2Ff2WBHDeNi%2BwS5BahMVFWwLVt2pmq16PxuL9uwtDzBgKPR6cgRreIY1F9yyF3gBHPes0vGDlzBXTL2A6NclRgCgv3KT78n4LU2ftYK3zpmvbGRQj8gL0xsQjMmNu4V6B4WtoOxcg7LbWhFW12W6PxtlJY78ySCTv8rvX79lrqnvWg5Z%2F5ErkihcBwqA3w%3D%3D%7Ctkp%3ABFBM1pCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920097321934"
+  },
+  {
+   "title": "Banana Republic Mens Navy Blue Olive Green vegan Suede Bomber Jacket Medium",
+   "price": {
+    "raw": "$28.07",
+    "extracted": 28.07
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307250365174?_skw=men+olive+suede+jacket&itmmeta=01M6T8910XNFQN8DAEB6FE552B&hash=item47898c82f6%3Ag%3As4YAAeSwSX9qPrFh&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Aq5b4BK25L5VgKiwvG4FUxzoqzTb1iHZT9rpXmGWET9foa8Xd5S54Anp0RqMkfUxwAoxBmpX3reXVtquOrqRC0xEzUROI8JsokF6wkbjDVc1ErcFQn1BgmXJd1%2Bm9hKTbQtWYlhCicj%2Fl5gWVMBHTpXNdpgvrnBLekA%2FL5JrBIUfwKlg3GbFt5P7iml%2BGEitygdaJHuwbwQTFPpTthgrp%2BnJ4LqcNZEbkZGv1mL4aeX4lNVquX4HqfzEzSfKE3wS3hi17xuIrvaRT6MJU7sdlf%2FjSLC2qIbtJuWDJp2A76w%3D%3D%7Ctkp%3ABFBM1pCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307250365174"
+  },
+  {
+   "title": "Day & Age Olive Green Suede Trucker Jacket Men’s Size S (0075)",
+   "price": {
+    "raw": "$250.00",
+    "extracted": 250.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377439178973?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YV1WCFKMDXB9RVP84&hash=item57e120d0dd%3Ag%3AtaQAAeSwiIVqiISn&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8sd5LY1bP9RgCo2%2F3w43nrGLo0oa8kEtV2il8qTGkVS6Jii4wg9w9A8%2FInDRPxNGzHK8NRRklwlkFMRxIss3138W0QepSQOYtBDKG%2FNpveQwYAGJqvtgTVMf%2BFL07K%2B0vscOPfdfaNs16PqASZ08Q98bkQd79W94RkEP2zVRvRSsyOw4mInDYEuneNeClBbUFzqaBKw4N6uO2bIZ2TrVW%2B5imjliCWSVxLk65GTWelKal82jbUdgqBLrC6tXsOnVKSkrMvIdzMy3WNsjDgUKtnY2PDkvDGHt8IWATJN2slBw%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377439178973"
+  },
+  {
+   "title": "Vintage 70/80s Small Olive Green Suede Leather Jacket Quilted Button Front",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147643231022?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YDG0TFEE0H7G6MZ2A&hash=item226038eb2e%3Ag%3AldIAAeSw-pVq1pjD&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FAsbX%2FEw9QUc96zWj6kC5lCrGJsHw8Sd9Z2YI1JPWcUE%2B2uhiKG6hjEtWYNqzxOR%2BqNh%2FHK9aLpyENcw6ZLBTCLMgGPtZ0agST%2Bnz7dWagE08qsJx0eVOx9YHrZ%2By9spIOq98qWgVluSxB%2FbkxJS1%2FZfcsa5nk5Vu6HY8QD14XvScS25Vhfg%2BBi5pEbTXPrP9hOj0LQ%2F9uYu%2FHSUEtTlNLUbgG6BhLbMRI8UJBGOj7hIF%2FijPB7j57FD%2FfIT4OIiryh%2FVVFuVLxjsud0uqmzBbO8eS%2B6NoUsXrWrfjUK9MBQ%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147643231022"
+  },
+  {
+   "title": "Zara Man Brown Suede Jacket Olive Knit Sleeves Snap/Button Front Lined XXL",
+   "price": {
+    "raw": "$44.99",
+    "extracted": 44.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198764300386?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YY6XKF2JX27HJT8QQ&hash=item2e47468862%3Ag%3AoFIAAeSw9Yxq6BL0&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Y6qMBszJEXabvDeLFVC8skjPuSH0D3eHjgzV22EYSVzL5ipAbW4GQ6REWDbyHuM0tySJRrF1n%2B44tcjKgbNu9MNhLqzPDHKmSzTL5P%2FW7CBbGXjkuk5Z9Wutx9sVejXw8%2BF7%2BsjK13RLWGtP7fvvarQha%2BtK0hNJEc0mlnaIznEzjGNEo%2Fq1vdKU63gV1PN1PXEqU6gHQWwoXXqHeN30O8AaVM4c2o5xF4qWz936XaUe3QpTIhXPH9AZ5%2BovbNrzUYT2YbK8XbbyXoIDTah9PjJ1QFY9d8ej2LfVeKnNhzw%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198764300386"
+  },
+  {
+   "title": "Golden Bear Sportswear Suede Bomber Jacket Mens M Olive Green Collared Full Zip",
+   "price": {
+    "raw": "$44.98",
+    "extracted": 44.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267755957112?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YWPCDX5J1V779TW46&hash=item3e577fab78%3Ag%3A1uwAAeSwPZVqfNFL&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9ulReTJWj2DloOkOUmrJb4Fr5jqgrrqIVu%2FV6MKivHdVwyzwukNd0nczhZjF47EIZk8rYLDKwfSNs5SsF%2Bylmomu2Nm0jCGkbo%2BDwirgRuOWbEVl6tDs%2BRnHrPyt7Oo2MzCkT5tFtIsi8UDEcXIvfHW4g9gzCM%2FWNMrpp3BNd7645x3djs0MFFqBIDOhXyJ7GUdf4hwcwQyYHqy1BIHVdRb8L5OV0d32UMwCOny6KQzd9R8q3g0REjh8w0URgcxGT17ucd05bMhunXaprAyirPIJFZh07yFdDOMHdwXvRgVQ%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267755957112"
+  },
+  {
+   "title": "Ben Sherman Mens M Olive Green Suede Look Bomber Jacket Full Zip",
+   "price": {
+    "raw": "$33.99",
+    "extracted": 33.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820154116923?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YJKXC419EF0G7NDKG&hash=itembef4feab3b%3Ag%3AYbgAAeSwdo1qsTbr&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FG9pzheXmK33drmzZBWaXGgrhiHjCE0TrCfzbE6RqL44U1qFpGiWVkajh5J8SM%2FV0EycwIeavjPHmPuzq9j1%2F8Obll6xVQDR2hC%2BgFTTrb5PTLtuCpkNQmPtUuof6w07GBjyYwn0uLtVlgq7wG9CZ9aJOFlxQQoHMGSYbTez6892jPAAW6BexWVh3aO3RbG07%2F9WUV4tQ5qYUGLWzGz%2Fe3jte2rISLBZz32TxZHDg1NrFj%2BcqIAeH2X2PUuALJivmE%2F%2Bo5lZkYCkKYTgWqk53MICLv7CmVNnGZNCCPnqCd9Q%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820154116923"
+  },
+  {
+   "title": "Vintage 1980 Trapper Suede Leather Bomber Jacket Olive Tan Shearling Lined M",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840102927421?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YW9JD4Z8MDEW4R31P&hash=itemc39a095c3d%3Ag%3ACMcAAeSwCCxq7rYQ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde92Tdl6X0iQ4T1mth6nw7wBMS8oqiJ%2FKV4Qn90D61Sf%2FBoGw3HztzNmhVMXOXb5A3GyQXlCtIDeW90zgQ2wVWR0NLSZ3FJC7mKt8KsahbRfT3PjOUCM%2FIQ07AmDyw7D8vaHsGr26jp5%2FBA8gZk5%2Ft9LpQ%2BzK%2BsuQcF9xStcqhmwAWjnvkguF1w36wedrh%2BlH0yFLDiNFHKebpLCUtjLbiJHRmheZKZyappqmRdjz9yVt9gB4y4RZRVG0n3S913X4mniI2xBf1i5X%2FQj%2B8Rvs2EoRGDZ5xfvgJFH091vRsOgMA%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840102927421"
+  },
+  {
+   "title": "Vintage Jacket Men’s Size 52 Olive Green Forest Knit Suede Retro Zipper",
+   "price": {
+    "raw": "$15.20",
+    "extracted": 15.2
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/116989557218?_skw=men+olive+suede+jacket&itmmeta=01M6T8910Y8Q5719M2F5G3RB5E&hash=item1b3d1ef9e2%3Ag%3AnZoAAeSwJIxpbUBG&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9S%2BeNNwLryX2EPRjr0YpfrfRto0cIKzV79znN7CQYm61B4tmqeTLoYI%2BeHIfDE5gdBzYMWLHnvSrXXQ%2Fz9DcBNXZsN7XqMYX47ZHx%2BdAarXf%2BrzzZC4OmjRSOcK02A1dz%2BDkqFESDUc9oBgYuVfcPaYUwYY1cn358H6GYWUkJEyJ22J993mjR13Z3p8bNXX39zb3FISRjEo%2FHeD29hAivc3dPE0P2QdU5%2B6mdyDciO9pKLtPmybo0t54EKH3TZN9zu%2FhsUfSBhr696Ba0k8yyWOVKrs1DMTQR7K5kcPNd%2BHA%3D%3D%7Ctkp%3ABFBM1pCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "116989557218"
+  },
+  {
+   "title": "Men’s Size 5 / Large Suede Leather Hooded Field Jacket Olive Green Plaid Lined",
+   "price": {
+    "raw": "$59.00",
+    "extracted": 59.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198586877326?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YP6P194E2EJQ3EEX7&hash=item2e3cb3458e%3Ag%3AR1kAAeSw8Udpik1P&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F9uJylhfxJtnKXK7hrp9JfFIbvI2vmwzoPcFnFLHGmeQdzDbm2%2FzFNJxOvFiZDl8CPmsU%2FQ%2FZFXWQK6PANFHzIXkKTsuP6kqog9Lr5bX%2F1Q2sJNPkwL34C%2BrNq%2BG2KqrzqR7yDpzECY19Nks6Bi7%2FHAi6MlzKEqawjIqLkJZQu0iNTYod2%2FrJhAiZGnNxSp8ggenMZsvXCwTSO1IpTAa1sSsTbDHjJ7h2hwc%2B7Jol2131FAiNvov9zqFmTATkWQNLAB2N8wUiFZJqBOUiNTtLH8qiRRp0K8CG1IFQnwta0Aw%3D%3D%7Ctkp%3ABFBM1pCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198586877326"
+  },
+  {
+   "title": "Claiborne Men’s Faux Suede Jacket Olive Tan Zip Front Bomber Coat Size S",
+   "price": {
+    "raw": "$39.00",
+    "extracted": 39.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/397972645839?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YXYQM5E96DFQXMG33&hash=item5ca904a7cf%3Ag%3AR%7EsAAeSwJSpqDUlu&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Fx9HUsoqptsVMK6oZYXoa6UDv%2BouugoKDCnWJ6uCfc6yqC2BGiVdTTZ%2F5Xy%2FxbTNQKkuQ8F9DFo383cIuNibS7hzZKmyBA0VFs3Gylsp%2BEkv0bIiwNCK86mMR48O1RIlEquQQ8MfhKgV9Kv4kema6VFhxMEH8tbWoMknuFII2oComFztI6iiMVUn2mfJCI0cop5GJi4iIXIVNmLrJrLL8Fwtf4xmOhVzJMp0DsCVm3ylYAxachepQVRPO7xqZfIG6EP807dL7eVtHE2XnH67xntsshwKnDCvpGbZqxbBOp2Q%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "397972645839"
+  },
+  {
+   "title": "Saddlebred Genuine Suede Leather Bomber Jacket Olive Green Size 42",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158288119055?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YBMAS38K182CJXYR2&hash=item24dab5050f%3Ag%3AfNoAAeSwJYxqpscw&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Fv5rybKVewNDPdArQ%2BMoUr1DrhlwLfNNrf4rKxeTsx3lQZ8317rrykeshzouj5y8jw6UP9R%2FJ8RlsSfF%2FXXre1Ji6XwmZdCL1YRkE4RQztDGl04ZikOptcrXg2PfIKetFT%2B6a0GrTyKL8lbgEg4DxDhQee98tnAOcWdVkVoY5OQYYtgllobi1S9MNZReoIu9S2p2Xua3EOBQwpqpBsDHAY4pKJdcH0Nqi9qTcguroOiYKL61GDX7mI%2Fy%2BF%2FKjCeJ%2FOx6UPwMsAyMj8t7T%2FWz%2BBuOOTl3iNoEf5F8%2B61RI%2FHQ%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158288119055"
+  },
+  {
+   "title": "RYE 51 Men's 42 Olive Suede-Look Shirt Jacket Limited Edition Overshirt",
+   "price": {
+    "raw": "$69.00",
+    "extracted": 69.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800850000661?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YNEGVZSG5Q4H4EQ99&hash=itemba76613b15%3Ag%3AMgkAAeSwxrdq4p64&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9yiNHCt4EL%2BAFtgStWnU1XAOEke9u%2BUoKwf8Ijx33nHIGT%2FFPskJKEoPbpMZwQY6ViT%2Bf7On3KQbWSj0HTLKsrSStVC9%2FK2Q1thPp7l0EYP7BpHSLeBrLAyoEZrhZkgEp%2FYFH7KIwqydQnL42BS0QnDhqMW5lRZM4XrnIOPD3XCQISBzZG%2FQ5bhUj3p7fXQmxTQMrv%2Bs%2FsTIECk6df%2FoYRiKbE8atZ3jYQ%2BvIhu%2FJ%2B5CTsP%2FfYF5Gk1ZUFuXp9O%2FE%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800850000661"
+  },
+  {
+   "title": "VTG Roundtree & Yorke Outdoors Faux Suede Bomber Jacket Men’s M Olive Green",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257758554622?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YZY74FCRKFN0AERH5&hash=item3c039b69fe%3Ag%3AUcgAAeSwHRhqsnbj&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8DDibrt4cKyQ3fyM75UNFvlqRwPokA%2B6T%2FtyS1o5U8ep8OMGPnIzu3NrokuCGCRt0wH1RY0MD9RjMPmhFPl98nka3F99ar8KBbrmTHdoEoshwpkbWGMmjBPhfbTWuYld%2FWSBkiepVVLFUPG8LmcDtbQ%2B00Q3g99DAGKbcOOWdbjbyW%2F2wmIEVgaiEY2JZkPuC8g37BzSfT3Zcu2RsxM102c782W4yQizgheNvuzWu2DrMVaB1oejtrf0iWA6ziBT0%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257758554622"
+  },
+  {
+   "title": "VTG American Classic Colebrook Olive Green Suede Leather Bomber Jacket Men Large",
+   "price": {
+    "raw": "$48.99",
+    "extracted": 48.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/306736512000?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YEPVFSMME9AWHFBDC&hash=item476aebbc00%3Ag%3A7b0AAOSwaz5nT2Vq&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde89IUiTbGaWlRCWTqFoYeL5iVaYBfUwA5Hcq5o14NN1tZLGXfQS1KZcRqdXJnL1OICx9Dl7HY5kkFnG%2F6sorCSGzRvPvXkPB5cDOggaJLEg%2FoS8f65Qn8AHaFMZuI6UwvqbPMs3WDSkcG2NyVw1tzqvtG7LD0E6ZLyOzNUP8XLfxNwzhM8yn2Se0kCw1rInUlGm9p5noAWqZfk5f8NE3U3aQ2CTfewjQAWqIe1qWArOwyeovf%2F%2BPrNBwuZHGguI1Ck%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "306736512000"
+  },
+  {
+   "title": "JLC Mens Patchwork Leather Suede Hooded Jacket Brown Olive Houndstooth Medium ￼",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840062159242?_skw=men+olive+suede+jacket&itmmeta=01M6T8910YSS42QYY4Y0MN5E3P&hash=itemc3979b498a%3Ag%3AH%7EAAAeSw7FZq03iZ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8l7FbjBebiEL2%2B0hNYOl1UiD1bBsCz7d6bJxSBfe6n6JnLIJEGvWHez4hF5CJzcGEqCsO9va88aI1%2Fxo8iqj%2BVSIGpuH9aRNsVIqdfXcU8nmDtQxYnJMfDpR1TNQGR0K5Hh2ykQyjCbX0GdhbNwlUCApL0cuXkjbbJZNnJc9u5qDOXgYqF%2FnSlx5GByeBYwQsKy5a71X1vBfxP8OGQt9e0Z6Iwpzp3bvrmw5DuAbjjn4s1YEJ33i7YLLomaOncCaM%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840062159242"
+  },
+  {
+   "title": "Men’s Abercrombie & Fitch Vegan Suede Bomber Jacket sz X Small Beige Olive",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128158964110?_skw=men+olive+suede+jacket&itmmeta=01M6T8910ZW9A0RGNN9GY5GQK9&hash=item1dd6de998e%3Ag%3Ako0AAeSwh79q4HJs&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Bz2qHV7xN3eb5VHAZOesAmkn8fXyl6b5U9wFS5CZgoee6uaafrc7SBWF7Wm6m0BcIcQWfNH0dHiUE%2BG%2BWFyF2ucm%2BvKYA7T6q%2FrQefldVSajp1U1ZSPJXUaaegpRAv5R5o2QMKagd2EhMvt0hqUwPrFryMnbSgFnJwqbKwWSGM2IF0HSRiEq%2BSXSgW85aKg1n3y%2BGRrOslx5bcL4TWGydGUcfu6dx2gUrsCTyrWccyFSD10pKyCzLlPl9AwxLQjwj9hUE%2F4fEsUPWPPMsrfFHTnTMbi2WCFtd4ZrDFVBR1xA%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128158964110"
+  },
+  {
+   "title": "Claiborne VTG Mens Suede Bomber Jacket XL Brown Full Zip Workwear",
+   "price": {
+    "raw": "$24.49",
+    "extracted": 24.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307247445225?_skw=men+olive+suede+jacket&itmmeta=01M6T8910ZRN86EJ8S7H7XPDJ6&hash=item47895ff4e9%3Ag%3AmysAAeSwNAdpngPJ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2B7fMtd4fdEhxHoF4rbIZ6VZDBCX8tu0ZEdN2JxNHI27ALs4tj8P6l4gicQeVW1oTLsL%2FGW8MF4Ius7CbsmwIN7DY8xBQYnWR1ucC0FuMSyMgJRuBNm8wXMXzm%2FOe%2FNPoK3CgW5VSt5OxDUmWc%2F8vfsNcfogLIgiqh%2FGlWLHdZumuR4a6AXsMfyoM5zLedtSHyLFEzE%2F0xCBGdK9wyBXOmxotHquU%2BVGsUF4MUdqQRAVvCWWOdencPvqGERCXBmtdk%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307247445225"
+  },
+  {
+   "title": "BKE Vintage Jacket Mens Medium Olive Brown Suede Leather Sherpa Lined Western",
+   "price": {
+    "raw": "$49.95",
+    "extracted": 49.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287702609999?_skw=men+olive+suede+jacket&itmmeta=01M6T8910Z80Y524K2NBDATJGD&hash=item42fc69704f%3Ag%3AGjcAAeSw4kxq6jKO&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BjM7w0ez3PKym27C0ssUBYpV2ZooAunBnPw4QEAEo44YV83p6t9eURdiQAzFRzslxeUR3fa58TuaPSPzRVRdpLc1O8skqGPKgZqhvbTbWgR6P8drpIjxCQVICMEKbOm03%2FU1wrjFXQ48vgc9D5%2Fzr%2BKW3M2l313hIJ8H6GpnYIMb7%2F4mKy7WHMjNFwI7gUWtb%2FY%2Bajhp%2FljlKmm4YHkOJGRRB8CGrVJ%2FLEk%2FTS4UEd1pICP4BKCkphXm6PznhCeb0%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287702609999"
+  },
+  {
+   "title": "Orvis Wool Cashmere Shooting Sweater Mens L Olive Green Suede Patch Zip Jacket",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820293614569?_skw=men+olive+suede+jacket&itmmeta=01M6T8910ZH3FXM408YKKP1FAB&hash=itembefd4f3be9%3Ag%3AF%7EQAAeSwiWpq484p&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FI9Y40hqIR1PkTK6pVHqmDXpi2trQ3Q8lP%2FkQh42HdIETAfkP6kKXroCLHRUUnAhzJCNT1XNrZZ9k43u94LtXOqG7IRE59rLTS4JbJjYey8nIkFQ3pSzmq4T7UNYpEWizsl5z9lnHZO7UQ4QyvXuaGrwdU7kMkVFx1QjThtTuZJiANxQxHBncSbeZvOci9ny54Zt6pyy16p%2B0U2AeD%2FbdEj7bJ50fEwAVon%2FKD0iZOMMnf9zNbSy%2FOOORg0h4frJ4%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820293614569"
+  },
+  {
+   "title": "Polo Ralph Lauren Olive Bomber Jacket Navy Suede Collar Flannel RARE VTG 90s - M",
+   "price": {
+    "raw": "$235.00",
+    "extracted": 235.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278432201977?_skw=men+olive+suede+jacket&itmmeta=01M6T8910Z2NFFDR3BPXDKX3R5&hash=item40d3da3cf9%3Ag%3ABi4AAeSwejZqwXeO&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8Fv8NJ20rK76U7xAqbzF1aVi4gcI1O0UMo33TqYW79pHl87GQWFUAWaKb8uWTwXZcs97QWbVMOqATqBDvPaU5g5aKPGn1kDlhdQl8OqbPpYCu93Yzv5tkDfHpD7jVjLCtawddc88HyGJjfLVDpJONQhKDT45zJq6AVnK6msBoXsdnIiw%2B22aPUIeUXyvLsnJ7zEdbDwcyid3su30PjqWU%2BtrPHRAs6mjxXuV3T20qUwCDrEk9yMFnVpEWzTAHEJfo%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278432201977"
+  },
+  {
+   "title": "Vintage Member's Only Genuine Suede Bomber Jacket Men's 44 Olive Green",
+   "price": {
+    "raw": "$55.24",
+    "extracted": 55.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960038366723?_skw=men+olive+suede+jacket&itmmeta=01M6T8910Z84JYWV1V006M73N1&hash=itemdf86beee03%3Ag%3AC20AAeSwQEBqx83p&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8WV7QlzVTnyI56keYp2AULDV0o98dIrEUKYP6XiC4BNfpY%2F81EWHSGUb6UlWfKOsxUtBD5jDItzG0HK2nFjhMZ6aR8VPUHlf%2FDpWGYKwILf41R9S%2BRIC7twtAyCZbr4H1UzbkISmZgutrdauqfTI7p%2FKgMEnY1UHZrE18AQ02UBYEXVn%2FrG%2Bg%2BHeOjuwZmxSaD3Rxqbv4w1D6RTfvtR98KzOdiInesi2eZ6hnTEK0L1mzZvd1Fn91L4NqvDaL1PG0%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960038366723"
+  },
+  {
+   "title": "Marc By Marc Jacobs Olive Night Green Roughout Suede Leather Zip Bomber Jacket",
+   "price": {
+    "raw": "$99.95",
+    "extracted": 99.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127707134865?_skw=men+olive+suede+jacket&itmmeta=01M6T8910ZNPPECZX9VHMPAVEZ&hash=item1dbbf03b91%3Ag%3ASeoAAeSwYsBpoNF4&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BR9ruN2%2Bq36w7BdZAgUjZRaUDhna1oylMPR2q0USLOSXfKhhP2D64BskkL62lZQqYTvXraTuRQnyYwaZOUwOlVTXP%2BJQisVNqjVhwo7DYyc6O3JeqLUC%2Fv1MWCu4cOb936askVb65jIqKgYjvtrUMP%2BsG17dEmSIvmfkKpvH%2BnXWcxNvfVGwilWs95YYxsHLDfdlIk4J3Ttpe8RN0XzQkcjekOrnHh%2BwNuikPbDa0swLnK6oEwbT%2BquMOFTthUsPr%2BsQI3wu2FlFFwmPemmlp5JOrRcEjFgZhx924Xup6kbA%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127707134865"
+  },
+  {
+   "title": "Vintage Perry Ellis Leather Jacket Suede Olive Green Mens XL 90s",
+   "price": {
+    "raw": "$32.95",
+    "extracted": 32.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287682072854?_skw=men+olive+suede+jacket&itmmeta=01M6T8910ZZD4097HQEM5F98R5&hash=item42fb301116%3Ag%3ADHQAAeSwEwJq34LP&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8b9c%2FqOuV14gvOToEe6PlvZ1gtqHTsE0xwTwLM3QBL6rD5R6kDf2kRSw8vNQ9uMNg5E09NiITS8jihOr7kwim0XpQ0qPoX%2BeTeJFmg9vLzrDTQwQBLeVyHAfvURUMxdHz8%2FmbXwo80oAn0TfcaA8mS5PIB37RLsCmwQ4fYHJNUR0pXaJkyRU0zFF5g8cGxBbPQEM2%2FcrlUVo5HBGHIN7MtW3RMKD8HqazyMFmcNaGTTdHfPavxviVj2fSOeYZ8dloPcSS5PLrWtAdqaztKO2mX2b5EfORoOrvKGAUBBFwz3w%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287682072854"
+  },
+  {
+   "title": "Kenneth Cole Reaction Men's XXL Olive Green Genuine Suede Leather Shirt Jacket",
+   "price": {
+    "raw": "$69.00",
+    "extracted": 69.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407325778242?_skw=men+olive+suede+jacket&itmmeta=01M6T8910Z0F7T0TFV346BFEVK&hash=item5ed6822142%3Ag%3AqIAAAeSw7fhq4-pR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9y2H9AdigDFMizSgLZQrGlpcSJLO%2FDDshVsQz88SJ%2Ffk5%2B5vPVhRw%2FsuwdTKZ3WSbEOjJBANSjs2%2BYoh2t%2BTXZ6XL3wNFAHj%2FWeuhBj9CMYK49rZnnWk7%2FLLwjK1xQ2JhM%2BMGi7juSrmStZflSpkEu4jN4DjyzRyEUS1rwc3IX9Tccu5NRPjGVXNq4EP8ohywfXGRJKWkJMmDZ3ge3FAhc%2FkD0Rn%2Fjpfs5mySTN7VQ4sreTsEFIUMxSlVRJe6OSEg5q1NL0ny7ZFy%2Ftmm9WpMvxSmuAM4fMT4cBg46SSuWQg%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407325778242"
+  },
+  {
+   "title": "Weatherproof Mens Large Sage Olive Faux Suede Harrington Full Zip Jacket Lined",
+   "price": {
+    "raw": "$24.00",
+    "extracted": 24.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377604456156?_skw=men+olive+suede+jacket&itmmeta=01M6T8910ZPN02QHQ5V89AN9W0&hash=item57eafabedc%3Ag%3A5zgAAeSw2hFq4oce&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde90BvWCO3Dajns3WMZhCQeLd7PHbx6cQ9iFaWoPYNpZtqdakgE%2FPxy1KZhzEyH5rQpsR9ilOk28fwLm6Hy%2FXgBbJ%2FBfmY4jSXqirpBXJYyKQsI7lqxseTiBAQFLvQ9cUqB3of1A1wz6QEPI08%2B%2BblENsekKB3qSP33VR3rbp7UEbdMEWwfwzN3lgeFQx5uqvPogWhApp7hMMVhYa0jZ8Q55y4RV%2Fc7bpTrvCFGaCoGAhZPPSfbiguuCk%2BfB9G5l3UPIpn5%2BWgy%2BLZGq9KAk%2FAchWRYoxxkQxAMtPLwJgXQVsQ%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377604456156"
+  },
+  {
+   "title": "Bugatti Mens Faux Suede Quilted Lined Field Jacket Olive Brown 42R 875170",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920011858582?_skw=men+olive+suede+jacket&itmmeta=01M6T8910ZA8YN41VFZSVPGP25&hash=itemd634fae296%3Ag%3A4gsAAeSwQp5q6773&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8JDB%2BrpDCRptawKlXDCVwXfHKPjH6YCjiPQIsmQG7SsN3ciThaXi7hzZuvpRRfZQZwchgfuHeMDk6hnoekeYuDU6y9htU1Gahb4pfaB0FeSKw4w59cDlV2xG9ZFW1ATs%2Bw0YgmxPU7QqgDdZpi8Fgmjz4U5MtBGam8%2Fyd0ValSTGCzioeiVqSbAdZdbXyc%2FsstpSRAZDlkf0fFkUiN%2Bri388ACMqcZtlMwHnL309QHOdc7R5PFTZXiJphlikf%2FquZ0L7pfmvhmkQl5W5qpDAkzC5nyp8iPKc2rfGPAFwQbGQ%3D%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920011858582"
+  },
+  {
+   "title": "Tahari Bomber Jacket Mens Large Olive Brown Faux Suede Full Zip Casual Coat",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920071332273?_skw=men+olive+suede+jacket&itmmeta=01M6T8910ZFF92XAX9XP59GXP4&hash=itemd6388661b1%3Ag%3AHXQAAeSwpLBqjKLn&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2BYufpxxc0qkotqiaEROjKKKxVmv4mKlxFCMbGWNbjUh57j9jAEX7m0YK8OBiQS3nldtHCxnBntRT9u%2BBUmoClvc3sdhAJDpAeFfI4hE5MqrdDunkJt5JxVmXjKnfhCuZ6CXO%2FWOIaNgcT0%2FQDrH1ilDVIp9S7fqwCh12USOuUqXriri5WJkKxbMuVNIZZCoUsCG7y1S4b0giy%2ByfGQXuICwsvLJMrzTY3uVoKb77%2FV6oDr3%2FtOZUfVegXbg6JqhLw%3D%7Ctkp%3ABk9SR9aQpMi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920071332273"
+  },
+  {
+   "title": "Vintage Banana Republic Suede Leather Jacket Men XL Green Zip Field Utility Coat",
+   "price": {
+    "raw": "$134.99",
+    "extracted": 134.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900027721250?_skw=men+olive+suede+jacket&itmmeta=01M6T8910Z3XN27ESKJ9T2Q397&hash=itemd18dd52622%3Ag%3AgWcAAeSwc8Fqhykx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8l5ZdpOdq4WegZq4gXZvYcxqVArXcRfIJup6ZkQFzhOcQJoMKKMNWebbN%2FAz%2FXSPwSpb%2Fv0yCYbtQKA81d1odUA%2FeCpq9bwPiu69lC4QIasmWe4HNwzSHElBnnSoS5fp2bQt2eKUWIOAG3AboaR1Obn9X8uAaLekgoBK5QTkRisS3WahMK68mD8rGLZBzOI6ogQM46BFhS9mQwfGq594WFk0shBpjNzaPzoKpNcw2kUmJSosW8k0xSneH%2BHJbtytA0RCJYYHQ4Ow5YPDnCKEzDnOPEsXv4zcfEoJp1hUiLcEpWLFK0SgDbIh8T%2FosDU40%3D%7Ctkp%3ABFBM1pCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900027721250"
+  },
+  {
+   "title": "Hugo Boss Cinston Calfskin Suede Jacket Olive Brown Tagged 44R EU 54",
+   "price": {
+    "raw": "$139.30",
+    "extracted": 139.3
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860101203736?_skw=men+olive+suede+jacket&itmmeta=01M6T8910ZSPHBJV3WYK9QDNZF&hash=itemc84206d718%3Ag%3A6nIAAeSwwblq5kfu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FbsJWiydL1QlBbM89XwYhfVGR1K44JvRcNTewMFCqrQeFPjcXvdENz62Nr58djdvmt%2FQc%2BL83wr%2FtvlYGptokAr2lrV%2BVWP8nT6oLwwiue7L0aF5g21%2F7u3ZSJmu%2B94av4G3FwjS7fe2WtuLVmgXiVFs7Kndt5S%2FmYBK%2Bs6z6JkrSbCrrbZlUJYjf7HioGEtqSLLGROOuI6%2BD9j3vi8i6h8hk5AJcVzZ8c30fQ2V21DguaopsdIZ04NcHEghp3dtSg1xup4fX%2FxTx35DqWf6iZ6mZx4u9LYuWo8o32ctjkWImlEBJfA6D%2F6PTpEZOnY%2Fk%3D%7Ctkp%3ABFBM1pCkyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860101203736"
+  }
+ ]
+}

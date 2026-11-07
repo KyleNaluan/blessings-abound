@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "black Crocs clog sandals",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 3000,
+ "organic_results": [
+  {
+   "title": "Crocs Ultra Comfort Black Classic Clog Sandals Slip-On Logo US 8",
+   "price": {
+    "raw": "$9.00",
+    "extracted": 9.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336880946723?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2HD3V5S5QHD8GJ1GAN&hash=item4e6fab4e23%3Ag%3A5TQAAeSwJ45qswV5&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8FtYI3STVECbOdkPO1kur%2BYEQCXZAg8L66oAiMt%2FmiIMow3HIVQGqeltHh7rKbaGO6yRGTd4C6ehqREsM7ucnzXfV80AmSalXFdF00afGRoTsIMaCKcwkk1Sywjv4%2FOAJ6QG9yY0Cq6Qv%2F3ZkAuFmFURvCe25fNcUH7L6qMVigW1UC0YnzrrbTRvQyFJjn%2BGRAXlMXN1gsfISsWcotCzc6R9MUL3jlel9uQQ2NnNFvjbIuhp4oWNUun24yQJN5eQE8NVo8dp0HdfTbq%2BoUvGk9pzckqgkQEHWjp7DrwbqSJg%3D%3D%7Ctkp%3ABk9SR96hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336880946723"
+  },
+  {
+   "title": "Crocs Crocband Clog Men's Gray/Orange Lightweight Comfort Slip-On US 8",
+   "price": {
+    "raw": "$12.99",
+    "extracted": 12.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840102824404?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2HST8S0B658KMAF0NM&hash=itemc39a07c9d4%3Ag%3AP4sAAeSwZbdq7qvQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9p%2FzfvCz9Drpl3fqI2zRF7ih%2FEsBt8Qi9jGEXdpadqWCGrw96PyxWmTMFSUAp8%2BXoqOB5RECOJiSJN5TB7rWq0UjDJWcATGQcLZWPSUVgDBqwCra6nqvDURKiO7ecm6C%2FNjREiWtDyZ5Yz53mQFc0g06xnVIUv7iL8HFOaLaNgssv1izf6XQP84Da3yFfJbsdqc%2F4KQHmKKKd1dsK3rAp9oUH8J3fvAayZtxCciT%2BVJTCg8XKVqnzLGMEhPfZGY4XcmI9rj2YJoyydTGcif8LnIg05MnaWhGxwtbSmXLX3mcfwAOG2EhpBLqhVwNdbl5E%3D%7Ctkp%3ABFBM3qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840102824404"
+  },
+  {
+   "title": "Crocs Classic Clogs Black Men's M10 / Women's W12 Comfort Sandals Shoes",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117506054234?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2JRV4XAFZQS8K0N9SZ&hash=item1b5be8185a%3Ag%3AnnYAAeSwdjVq7Gvc&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde98%2Bd96NzQzkp%2BI2zkLpylXJAETfkbyykGbrP%2FBqVxn8MZzJacWLOQSXqoCmVvJxKPFT5e8IJnc62GbihnlfLvApXOVLcsF7v99CT9fprspGQEPvedJdHS8VD%2FXC30LkVtpnYx36B9JrDMk%2BM0sM%2BmtBKD7CJt2s%2F6Z1j9j%2BAEw2pTHDWBWJ6rS%2FlYIzO2yRJZLchaCZ4ve9Gas8IcCyAQMNOcDREoin6mnm3nFdqaMcvjbpQ1%2FHq4igPYX0eIBkDVmVeH%2BFff%2Bp%2BI7YX5GSE4DySp9INW2MUeNV7G3n6e0Uw%3D%3D%7Ctkp%3ABFBM3qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117506054234"
+  },
+  {
+   "title": "Crocs Bayaband Clog Mens Size 13 White Black Beach Outdoor Slip On Sandals",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307247754409?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2J8W7C319JMQ8V71EG&hash=item478964aca9%3Ag%3A1-0AAeSwqTlq3ER1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8HmkKyGNLDEeCqSn%2FZIhEr7ECi6zhVBGhYGX2KhfiIb7MPLFUdkAp8RifyFJuShV4W35dM6%2BA1KjYkhe4xfJh%2FZS2i%2Bjagd2UZdOgcm80jfsgWlxe6pOAUccHlS3YRRMG7Q1hBR4iJsR35BB%2BIUwyBpK1CO6PvTgPDRZssrP93uIaDdJa%2FH5f5v25VP0tO0EKu1P1s5P%2B42%2BD8qaTJclB0lSrWwGCzhvtr4FKwAU0yb279W9qRj0tFnowKFi11MQl9m%2BZKtxixhELL%2F7IP53C5HvZEx6Zu7ADGZVgEIAFm1FKRH5DJpsdJdBLKlxDYfMM%3D%7Ctkp%3ABFBM3qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307247754409"
+  },
+  {
+   "title": "Crocs Classic Clog Black Unisex Mens 5 Womens 7 Slip On Water Shoes Sandals",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147664598857?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2JJZJKYN11XS552EPC&hash=item22617ef749%3Ag%3Ah7UAAeSwjW1q6jBb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BRJRtWcfC3MDwBRZWWJ%2BJKlhNKOT9Q0832JQmMJeBFgZBtF%2FRbbwFHsq0jBeReGY2PrBHe1vGUeRxcj7kzzqkhBnLorPN8g40pPTtiz%2F1QuCFvfOLPzpmCNiMpOck0ZEiwxwjLR2EWT%2BlMji1DfbqgFeFsNJ1dDkQYWQVDSJbH19Vw2n%2FIHe6K%2B0vFGtmhvCrgcSORZ5%2Fl0Jgvq3fyvZA9mSeQhIEs0xFXKgCOfsZhoWv20r21L2x0b2UriNCnNLvyOP04xpXqZoMNfLoEI2p5%7Ctkp%3ABk9SR96hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147664598857"
+  },
+  {
+   "title": "Crocs Classic Clog Black W9 Slip On Comfort Sandals",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840069997792?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2KMR3T89NTKRNF81MV&hash=itemc39812e4e0%3Ag%3AwU0AAeSwToFq4qP6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9hqivEzTELWOY3HJ%2BVL7L%2Bfex5xVj0qljpayTymipNp1E7KD1oCEnnETrarGj9%2BrfWCKj3UqReRB3UI1THMCMT5nTKwMwqyZiSjxsUXqZZOir5FnEo9pkleVbQmFAR%2BXSN8CIgL%2FATy6%2BKh4f0lt8HfgynvJBFt7xt4uQsEQFnjsyvsushAhSDB6s%2FADl1GkRYa47zpV1dnWFWmxWGVQDKXjmdMdDNd%2BlEtbIHVOexnde8mt2QOn%2FXpwSf2zzwZo0jH--PpYWIxcGoGRKxJ4Ji5i7%2B7g9kBT416CG9ojJnTCOvxsEmVt2fov0srpv0vpM%3D%7Ctkp%3ABk9SR96hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840069997792"
+  },
+  {
+   "title": "Crocs Black/White Clog Sandals Men’s 5 Woman's 7 Rubber Slip-On Logo Heel Strap",
+   "price": {
+    "raw": "$7.50",
+    "extracted": 7.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188663124595?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2K4WHJD5YJCJNWM71W&hash=item2bed32d273%3Ag%3ARPsAAeSwBDpqXD95&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FADNnZvc1QnWYGmut%2BCklEKal%2FjitCxPgPY3Xg55NL1Czb%2BK8%2BnVh8Vf3dImgBJIH%2B8B3uF1LpWlb2RbIg3mf4ADeUUhJ5IFXcyVkmMxAGlIlGz5ZAeTTCFIssQyxZWXzz%2BWgxOU6XWv2kCKuDaxF8Q7SPzDs0%2BJgWiuZBg3yh0nGY%2FaIljcDxCf4CEWqOqvX8q7cG5irCrViQ6V%2FpS9BslANRCVZa0QSiX5gAjtZym2XJKq4SapcRo0aSIHZcCz8%3D%7Ctkp%3ABk9SR96hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188663124595"
+  },
+  {
+   "title": "Crocs Black Clog Sandals Men's US 7 Slip-On Adjustable Strap Rubber Logo",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278379017463?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2KZF0MJGDQJ2GMPMT6&hash=item40d0aeb4f7%3Ag%3A9-sAAeSw34pqqeDT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FL03IiOW%2BjPdZBmWwDx8CXxK6pt4WMgEBFA77xWVwCLUdn5o7fsHL8pi2rRn%2BvFnXBKjh9od3WPhzeMlpPL5M%2BZrsjfcCH2K1YW91de3lv%2FHoMuFL%2FrdfjBWBcCtaQqpd%2FG0JIuFKoChmAYPq9vkKBrtNyW55mKfl1sIYvT%2BPb%2FkGu8xKm8DxWRR6fEETg1xIzIVHkJzzpukxdsujXnrqJDLdDDWp94po0A4DtLexG%2BIXf%2BKc%2FU4roTLCL3DGRpEO%2B20tvEAcpWq05PzULCkuP39g1JajUujITT%2B%2BMfF%2FKt7c%2BvBMUeUNUqxTyaFVIDaE%3D%7Ctkp%3ABk9SR96hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278379017463"
+  },
+  {
+   "title": "Crocs Classic Iconic Comfort Clog Sandals Men's - Bone",
+   "price": {
+    "raw": "$28.99",
+    "extracted": 28.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/357830862211?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2MJZ26MTHE23DNV87Z&hash=item535061a583%3Ag%3AL3YAAeSwr6FpAie4&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BXuNlySMuPmkbDduEO%2B%2FDurhrWc1%2BCogSTJEpD613oZTISYZYyR9hKqik4goYtuIH3MRRqLuNZi1fcwOZUKxToPAvUcEhf5Fcm60t8RCrxuHmZRqCFM%2FqwdIP%2FM27GOaeKHnJQrYxHQzMiyyzZPCqa82bXZKr0DGR598sxosSkvNAmCqsUUkqBL15YjXHdwD%2BkiBf6QfyJATQfkPo3QepzGCJv9PycwMRd7QBjBzMJdhv48qWpr8Bh9%2BryfNV9OHmPjZm3pJ7YQa9sRfvYWY9c%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "357830862211"
+  },
+  {
+   "title": "Crocs Classic Clog Sandals Men’s US 5 Gray/Black Slip-On Cushioned",
+   "price": {
+    "raw": "$5.00",
+    "extracted": 5.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820047514969?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2MW5024G0A1278EQ00&hash=itembeeea40d59%3Ag%3ACqQAAeSwTtFqjhfX&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2B2vdlq%2FFkjjB83NkuRoGO95fiHf607ZsYaViHltwC3kkOUbdj6W8TgcIcJ7468gOLhgg%2FTWcsndwnBCJvCwNuOtn7NFbNPU6ziwO%2Fz0gi4CAvGQc13Rewe%2FjPjF5Van4RU9KylxLwlMmWgpYl51OGkOvn3aY24R4%2FeWIMg8P0TpB7ul6sS0SFlvWiIC3oGUhzzRY9zxFr%2FsrI4UurG73TgsPePwbuTdlMFxuPyNoDMY0qF9ww97GPrpwxsROL6qMA%3D%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820047514969"
+  },
+  {
+   "title": "Crocs Classic Clog Men's US 5 Black Slip-On Sandals Synthetic Logo Casual",
+   "price": {
+    "raw": "$7.80",
+    "extracted": 7.8
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128031815830?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2M4G7TNAMBG8650DGT&hash=item1dcf4a7896%3Ag%3AQOoAAeSw04tqg4zG&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8wiwLCc%2F2laikvz72ae%2BeQfDwoT%2Fefx53%2FJRcEcpE8ywxcXj8iwKyUrtA2uptcWdqXq2jxieYKiE7cswYjQkxqGwRWUhF1k%2BOFQEJxCB2jHN25fk1McN2s2nTcg3oNzIbID1697j2guYOOjpg%2FZN0UWqBX%2Ba6z0FZyf20%2FjDIcHcZ0uQ%2FUEyRPzxrsyaqRKdCMNYSzfwyPIhHHp5kjh9eDS697ZloZz1fO%2BAw2w6JKdCpRUmv%2BNNVd5z4WQxlWfrM%3D%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128031815830"
+  },
+  {
+   "title": "Crocs LiteRide Clog Shoes Mens Size 10 Black Gray Slip On Comfort Sandals Casual",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117475357690?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2NQMJ4SB3T7BGF3VWH&hash=item1b5a13b3fa%3Ag%3AdMQAAeSwdrxq1AA-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8qs%2Fs46rNyrMubbVx9eBJ4gZflOBAxLnHMadpLUuGxtJmoL8GivZGZ0qr1CpZd37thI%2B568%2BIQVeuC%2FqUIvcbX6vdOqfxPW2qNYfkkEMhmbjFFcopmBbrGKFvy8ZN6Rrw7m0fnDF%2F4Y%2B0kzbfKfKJII155o6zNsyt%2BrdMd3qvvbGS49G1BOLtKuq8SNP1MOSI6ddFT2Gc9rB%2FPeuZUZtShzQ0a%2Bi%2BilDlAOJS5W0%2BWVLl64JTgzx3T2A2tEPAsro1kgCLUgQ0sbsOHkIph0%2BUj%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117475357690"
+  },
+  {
+   "title": "Crocs Classic Platform Clog Women’s Black Slip-On Platform Sandal US 8",
+   "price": {
+    "raw": "$38.00",
+    "extracted": 38.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117489165577?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2NXSR2AY7VD4M6NGP3&hash=item1b5ae66509%3Ag%3AD10AAeSwXctq3-if&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9kYjFY18HjJ3k3ByqN%2BdNeUIM2S9ALHHzQtGiZObHdVy9IFPj81iGFpq%2F8QA2G81zs1fL3%2FoU8r7w8FNtt%2Bm52N9NSACuFj7QGFUl%2BVDhWYdxCfib9nTt3Zn9ECN3bkNBfsanLUPfYhUARpdbrN9EJJbcpkfQCmp8pTMRroYQuFTnIs0UO0baTx4%2FY%2FK9uw2AJ09Atxcgx%2FGnV8EvQrJAgatOZNCqRx9d8tULutS%2B2xD9ofEjY9NVtEFy%2F1YDwYtaO6IjX5xM6%2F5TruzOANJtn6zMQPA7UvGhPXV9VRDofrv0vgvMF0U69eNYn%2Fltd2HY%3D%7Ctkp%3ABFBM4KGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117489165577"
+  },
+  {
+   "title": "Crocs Pollex Clog x Salehe Bembury Men's Size 10 Black Shoes Sandals Womens 12",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137868612378?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2NJTQ5RTK07RPBM5KG&hash=item20199c131a%3Ag%3AlLAAAeSwTslq2CEU&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9ncDMcJFlTIbbXg3Y0oB3KGEhf2NPNO2hQHBr1jNKzfoBdisMexqhaU%2B08bbCeRbSx5DT%2FZSdOv3%2BrlOo%2Bf9jdq%2Bfdbu6A6xfpIrzdu%2BN0AwZWYh33EnAWYSF13s2vV21yGAme5pfmUNp6pKGPULzton04iUF%2FL5%2FjGH3UHbjpm3FSo%2Fmp16w20EOoM%2FCNpEqCQ877hXc%2Bk5uBBkkn4ssxLGb6WwtNgpkKa%2BhmvsfK%2FHVakL5SMm9cSciDXU%2BKZ0u3Gy5eAvXDi4%2F9JJzldi2wXazQ1Mq81ohhrn9VFM8%2BxA%3D%3D%7Ctkp%3ABFBM4KGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137868612378"
+  },
+  {
+   "title": "Crocs LiteRide 360 Clogs Black Slip On Comfort Sandals Men's Size 7",
+   "price": {
+    "raw": "$28.99",
+    "extracted": 28.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920015282983?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2P9PAVD91CJQDEV55B&hash=itemd6352f2327%3Ag%3A4r0AAeSw8z5qxJr5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BVSvDtoYc61qftur5K8DujC6QQv7QwMBQpRj2iEedJqIOG9YBnwxVw8Q91UPTXnN22iOSRTVQRXtwjaq2OJ1scjbeIUSYQJtZKWEeIV06tQs1N7ZOVa85QwY0EO6S6p9C%2Fdmu94j0jMfvnbf%2FVIZeE1J8ZnZKGx0Hc87rANe%2Fdw5SoVxy9%2BCGgncw9xKQP5I2%2B2rnuxykhjoipvwI6D2IHlJl51W%2Flz7bg%2Fpydr5iXDjM4y82kvmGJnQ2NpTy5q3snL%2BJcmqBL%2FCdFZZGPizhYKk6uePcllkrf0o6r99IU9WGbP0cblZm4m8gBbjSzODQ%3D%7Ctkp%3ABFBM4KGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920015282983"
+  },
+  {
+   "title": "Crocs All-Terrain Atlas Clog Mens 7 Women 9 Black Sandals 208391-060 GUC",
+   "price": {
+    "raw": "$59.00",
+    "extracted": 59.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227583289590?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2PP55S165WR46AZK9W&hash=item34fd0568f6%3Ag%3AALkAAeSwSiVq3lo5&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BJGIZePrWqePGnEiXN2GbqUOrRQa34HivQ4L%2Bzd%2BPQF2b4KY5dmDFimWVL1dJv9Yh4%2B9%2B42IBkPa%2FwvbrU2PC%2FO%2FW4AKpD5CMbPV1P6Tpps5ejyPQQbHDI02f4%2FBpp%2Fw70g0hF1A5GdysdmK5Ugy76byy0zEpu2QOjYAjIoZWy3vnQn4%2BxNXTpNdEcb5YTRBHQ43ewYd5X9tYp4azEmN5iY0pLozBdLx49qa2sdnDG0s3q%2BQPXRcuaOajcHU%2F2%2Fj6C4KfatZHfDArdd5TwvagJECwBu3m%2BGr1oAQZEq%2BHnwQ%3D%3D%7Ctkp%3ABFBM4KGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227583289590"
+  },
+  {
+   "title": "Crocs Classic Clog Unisex Men's Women's Slip On Water Shoes Sandals Black M7/W9",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198725010012?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2PQ97JBHS1AKBH1RE7&hash=item2e44ef025c%3Ag%3ANzkAAeSwPKtqCyQ1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8sEoo37MzOe4QeGId3edrRa68M5Y1gvW2zV0u0ytmC0hUo0fDEoXMmatu1qdkvumTnVId2DBbSL1KvioRIkmg9uAysNfjcMF0xq1QCiyDa4C%2FtYQvHLW59%2FfjLUGm9LTktgpa0M3UBbn9zlDtG998mrzmkihORY07lZtO8KlJLJ1K6vQlI4WbATyGNbtVihaf%2BC01rieCGFFpS7%2BE9qNwcJ%2BuzaDJoZgdwMDevz5R9G%2B7nDRSsXwpdNnwzCPKuPr%2F7CzL9eHQDaYhwgphRm%2FVeSipT7AzGg7RtrVm9fT%2FwyKnasXTYdQABo7%2BzNONp60Q%3D%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198725010012"
+  },
+  {
+   "title": "Crocs Classic Clog Black Slip-On Sandal Unisex Adults US 8 Plastic Upper",
+   "price": {
+    "raw": "$11.00",
+    "extracted": 11.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318598087842?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2PQ4877HQ5YCWRSN8Y&hash=item4a2ded04a2%3Ag%3AecgAAeSwihxqWrLN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9tki0egZ%2BAxvAHBgzygDpdCqOc8BPZAuZ1UF8dKoPJdZKLoL5BabckEchKkJwSFMXJRSyC4I2xmyCIVAIx7IU5D3BdqbZmVDvzXDiWqZMJ%2BEc8s89ww4vDJYYQ4FfbkT4uYUgeZ%2Fx5StknaZhralDcDntaHDnw79itW7gGCnddhuHrBhOXxN0TfUk%2BWRvSNbFzsxERBWM4NTd6FKALVKSq5KtEj5oV64OZohcVgyPESvGVOj%2FI%2BPk5KEHpbpQ2bz2YTFyNhIgRi2QfRo6lpelb%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318598087842"
+  },
+  {
+   "title": "Crocs Classic Clog Black Unisex Men's 7 Women's 9 Shoes Slip On Sandals",
+   "price": {
+    "raw": "$7.99",
+    "extracted": 7.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257675047264?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2QN2AG643FCVE2Q9GW&hash=item3bfea13160%3Ag%3Anl8AAeSwwbZqarKL&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FGcZ2cRaVOG9ipdMJGGF3GLvJi3mnuCi%2FEE3%2F4K1XuvKeQ3MBzaWVplAPjBVRUDas%2BChgVvBtohetLEczLL%2BJVTSPMAuYohTVuiNZdQvuAm1hEuh1aJHV3L4QO%2BVH2KQWjtcBEjXbtCQlNpxIf6pe%2B6ftFqT7nJU6FUklJItixqlimpGGAXRnWEyIFraP0FmP2huowkdT53xMkwTJFaVYPv9jmdrQNmKhakb0gPooAL0tFq0hjFxYn9Omn1WJMs7FHl9UubWWVJWaVJ1nbhvQe%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257675047264"
+  },
+  {
+   "title": "Crocs Echo Clog Black Mens 8 Womens 10 Slip On Water Shoes Sandals M8 W10",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366780200489?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2QBNGE0G3KHTG2HP68&hash=item5565cdb629%3Ag%3Ae-gAAeSwh5pq6Uw5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8c3XeczcQRC07J%2FbayKjSxw856tkf7dDMErBSDOIwloixSrNY4SfEyPsvY7sNEj2XCl125B7%2FUUSkP3SZybpEy1OvXm3mKLinfzFBenpNIkVZNpawFg30YKQD9RNNEm6rWcpiEZqXDq8jEAzTMBhqpLTdeZ6yH2OSlDFEF8qc5QeqiCpEG2v%2FVS8ju9q2qWvoh4n%2FeuzJBvaICr4BCp%2BOXmXaQHtSTO41ppEUQPJ8xE9Je%2FwPHdFAGCrZpnFXZxMP0PyWs%2BvVvH6Y5%2B9uCzShR%2Fs3L6oaZzgZslh4%2FcWAp6clTM4WgA5CA8N4aelHhvmk%3D%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366780200489"
+  },
+  {
+   "title": "Crocs Classic Clog Sandal Men's Black Slip-On Solid Pattern Clog Style",
+   "price": {
+    "raw": "$7.20",
+    "extracted": 7.2
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206532224420?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2QHYGWRZBDVHRHPV87&hash=item301647a5a4%3Ag%3AXhYAAeSwoAJqmKdE&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8NCAhmbqq3JDQQYhP%2BplJg%2BfurkkCOHLqfllhATRrP%2FMgT%2FSW338tZRt9S%2BDMh3uEsGhm5Id2OcDZnftckZlnrC8nBRLROmrC7OOxm4ETwBT57ogQ%2FnmrAOvtzPN76s6cuOWn958wje3pn1bFd1oX4KAKfj0%2BWgVzRLugT8vRRWLI2gBITmPqtf4u%2FiAreYMCUYU5BRBFVhhtT3CsorkCvi1V3GYO%2BhcKRTy01aKvzWmYZ3IFVCt%2FYxLUiwAIbMI2GUJHvw6A%2BLwcqhNGfdQMO8cHI9o0QVAcxguzKw1BZNQ%3D%3D%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206532224420"
+  },
+  {
+   "title": "Crocs Classic Clog Sandals Black Foam Adjustable Strap Size 11",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960155749517?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2RJRBZW0WS1P246VQJ&hash=itemdf8dbe0c8d%3Ag%3AkGQAAeSwaKBq1%7Er8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bndb%2F8jFtntzIys0f7KEUdYTYT6Bc6TmB5KGgU9APkoCLrH4BCX7GEPY7fxRcIzFhOzRTxih4vgi%2FhNIWINxoIwLIDv6VJvBsQzFf0ATIEUdk2J6PvCm8wPNmQm1zHxGNEuRlRw1FrdZxhzCfuE9OE6OrE6Gz%2FMGBi6AvsRVLuNEH7DzGRkcfbTlM3CCsKcPuNcI271QLHV8EiV5%2B0LuG50amah6K8MPKZVUQ9B3Afd6%2F0JU6GnWrf4AVyTJrTIRtDxVYx8OLPU8F%2B5aUoP2uL%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960155749517"
+  },
+  {
+   "title": "Crocs Women’s Black Classic Clog Sandals Slip-On, Multicolor Strap",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237025771520?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2RG9PPZF18FC4AFTD6&hash=item372fd64000%3Ag%3Af0UAAeSwjspqi067&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8qn8paDH%2F7yuGFYfhMiwF3AJssy9byVQ0n3DmAFg4pgpcH8TlWrs1TXMO896i1MvzC1WUm3%2BJibwMq8yGTaZqvxHl6BYYkFJMKWdNJB5wp6C%2B36gnbj6lUaLTlU5OYbYMZQDjWQTU9xaMYGel5J%2BN4XL17Ml0XLKQ4rGh8qwxu0VQUbV2KcxJ767mAIz%2FWULNZynGcy2eXfIa639dtTvCb3nQU%2FxVWKeI2v9WKPDz3nN%2FW2jZP%2FXAYuFwQlyWizPWiBNuu%2B7U9Hm6r55XyKXWj%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237025771520"
+  },
+  {
+   "title": "Crocs Classic Clog Men's Green/Black Slip-On Clog Sandals Logo US 5",
+   "price": {
+    "raw": "$4.96",
+    "extracted": 4.96
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168644794669?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2RS74KFMKB139JJF9J&hash=item274403592d%3Ag%3A3UwAAeSwi0pqkPD3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde97p7%2BCAHKIW0DUdhXwqKl1muMmy5ixO1SrIv%2FMpi%2FxW6xRE159r1l8prNX3jUUZCMpa8fZkFA5BoryzyPRMh2%2FuFHptO9ihK9Gfbt8Dnue4nHGS5YWrfA7rObbFgDvdYfUkhugz8rLAgvTXkRJVGcdL6zjpi%2FsfqyCKhylbTfHoZgZBtlL1NY%2Blki89UT%2Fsg%2BcPw1on1Jf6eiVzslh0xpZCkBzAT0Sc3nv--jZi54e6NlQn%2BtMg6dX2vBCRrVas0OHH%2B8C0GlXiZjxyTJ%2FY%2BqJ%7Ctkp%3ABk9SR-Chqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168644794669"
+  },
+  {
+   "title": "Crocs Men 12 Yukon Adjustable Strap Leather Clog Black Comfort Sandals Outdoor",
+   "price": {
+    "raw": "$35.99",
+    "extracted": 35.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377595926534?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2SES8J7NZFFBS7NXG6&hash=item57ea789806%3Ag%3A%7EnwAAeSwvQ1q3ZJ%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FeRh7QtDm34WO89rb8xDEnQH8WAACt%2Ba1vZyFgtAGX4qugsveCiaDxGy%2FLrzQxYLdxQkBh9k80he2Av%2BnUh5MpxfdODxHnwUHIyhDR%2F53NlqKTmu40LaoEmVGg30m3YOn5f9bmYafkLnga4aSvafw1Pd%2B%2BAQVPjCG73dAnpuzueW%2Fby%2FwdBbI1k2G3N%2FK8F6bd19nuFyy3AiD5u44XO%2Fn%2F0m7mlpf9F1jznbdTqQKJLIqXg9EFH%2BmkFwc6a%2B0uXswuDkDdzmm26%2Br6WNpAOsjd%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377595926534"
+  },
+  {
+   "title": "Crocs Classic Clog Unisex Slip On Women Men Ultra Light Sandal 9 11",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227599546822?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2S3686WNZGKMETYJZN&hash=item34fdfd79c6%3Ag%3AzmgAAeSw-hpq7JqK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8JcueUiKXvMnyVu1gN%2B5fLn88AhIXwWaj2bnb3yRQ109US3TE1SLkFCQL4zUGmms3WIjg6T0AdilN3DMsoirpsmX3UPqYq77%2Fdd66ALZt5p10vt8hLSFUDYeUEwrnPi8dhuaSZ0czpusOSvcB6oT2C%2FRs9%2BA3%2F7Rx1TSo%2FCzHECD66qpJrOwrT7U9WElWynpV4X%2FdI8ox7eIF%2Fokcz8Qo77i%2FXCe3KhBshR%2BanV035sJ7nz2glT4fZ%2FarqVcxwhRXhJbO6akwtTaheX6dEZvW0UVUmRsT7Gc22fVyEnkLYb1gRLkdGgScJjdQw4XK2Zlc%3D%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227599546822"
+  },
+  {
+   "title": "Crocs 4x4 Literide 360 Slingback Pillow Clog Mens 9",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900055477346?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2SYK5F742SGTHKKN17&hash=itemd18f7cac62%3Ag%3AW3kAAeSw1Hlq0lBt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BA8FhSNWrqnIADidOoaqgkegCNY5xfLGhsdIsBnKixBfDOUZqDGPQ9GWB9EEbkogxGGorg%2FVn%2BG3kAAaM1LwGu%2FCK7reAFAXarTk4LTUsHEMeNJOrRQdD4GzQO%2BJvoJvmmzhO8Hlsqk1%2FCrSo7NnoX7UawnGjEuRgnzE%2BnXkGPKDfJNKrDWv55gH6KdmRqn%2BCEVPvV5HFdvvk30lBWLfHDXwLdbA5ejUThajLs%2Fvbl1rRd4qc2FLKKmGjkkfcC6aeMhTOL8dEYJhn1KZFRWGZ8hOU1Glnk%2Fa%2Bh%2BpZqjht0ZhdBZPoNjcP9%2BllFzxc7fFM%3D%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900055477346"
+  },
+  {
+   "title": "Crocs Men's Black Slip-On Clog Sandals Size 10 Rubber Upper Logo",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377491677165?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2T3FB2WY20QDTJYQA4&hash=item57e441dfed%3Ag%3AHD0AAeSwVCxqpf9n&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BBTMdwn4Lctas3%2FQGKU5m%2FWq5%2B01BHOZzM%2FmKM17nk3W9stnE7p%2FLYhYLXvVqc8GkasyH3UFxNiKpNRZzDvidvqTi%2FBPIgZ%2Bao7kEr%2BYTOZh9J8ANtoUqzmXyaCTUjnv6JLck0p%2BanBFr6mVbMBLxci%2FVtVjL68tMkwdj5qoD1WO%2FVi9pienYmC2vgIrTkc7y0xy4XRBssXFT33e8sEbFRjqbVdBiY71l9aHIkee%2FP26H2VZnuuZ1fHWF3%2FJdr1LaeK25KqAO16Z6NoeEzuAa9%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377491677165"
+  },
+  {
+   "title": "Crocs Classic Clog Shoes Mens Size 8 Womens Size 10 Black Slip On Comfort Foam",
+   "price": {
+    "raw": "$23.99",
+    "extracted": 23.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920108195232?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2TQ2XCHWXK1HQY9F60&hash=itemd63ab8dda0%3Ag%3AItoAAeSw%7EBtovxJO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B4xS5kr6EjmxYDRWu75nIPh9XaHAGf84v5%2FDom3rgGR6ZTOcZlRcnCxr0f8xKUKT5kVvYri9aoSM9rnOgICNI2EH%2Bu6HMfQ8KWgl3vZmBHk0xmDuBZqfww1ZHNE7LcAlO3NgRWdb11t7l%2F3D4XsyaH%2FYVUbiMPU4X55CnBzEqfuucPqFF2f%2F3KPFfvAik1s2RHaMOS73L5tS4vIC4Gv2I%2BalAIT3Yp5n1pJ%2Bj5%2FidpGWRCUK9PyvUnm1O%2BoGVKrCB9OLEySCE9BAGEi9PbrDcQDqFo5hHYQ07aiHTHJ6G0jn1zmY5t%2Bd6surwPl200Vwc%3D%7Ctkp%3ABFBM4qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920108195232"
+  },
+  {
+   "title": "Crocs Classic Sandals Mens 8 Womens 10 Comfort Slip On Slingback Clogs Black",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198770726578?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2TXV9FYRNEXXA900V8&hash=item2e47a896b2%3Ag%3AgjkAAeSw8Blq6tbU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNo0iilmVzE6%2FQquwP2h91CvDh%2FAsphE62etajmpfQ3Z2VB89Iu3MASUbkLunP8VMkuh53Q2dEgXTHTOdHJH0LF0Cg7Rx1ulEXMdTMD8p6vimfCYxp6QGj0dvgOecNYGCc1iLnJC7NSS9xnkXkh92--4khgPNPa0frPHGNOHg2aOZyywW92QIqrNDLdaqsyxRn%2FrrZzUa%2FV04MCGPoSzakYtkbsBLt6Uk%2ByP0%2Bos7s%2FWQ2thrpcl7lMlIsdis2P5cC2%2F%2BpeHnfoakMP56AJKBrfXQf1F3UcgG5vO5rDZU1yB%2BmP9DrK4DIB4Ux3LlNXMk%3D%7Ctkp%3ABFBM4qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198770726578"
+  },
+  {
+   "title": "Crocs Classic Clog Slip Ons Sandals Spray Dye Multi Black Men’s Size 11",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960037528559?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2VD38PADK25V157REJ&hash=itemdf86b223ef%3Ag%3AWHcAAeSwp1Nqx6Kf&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FAPgJtjJKbzwWvp3FvTmLasFWzkiSAqzgJV5y8ugwCa%2F2Pewvs4czzHXq5hAhe48eSlyG3IQVX3cQhmelcIrXa2rHX0BVlvKR6gwzjvXaCsw3i3U7ur0dV6EKSRUiCF5ycowkGW5VIpCFCmYBTlOLzhl5vYNZmwTz0GhXyURBYtYyfXxo4KwtAR4Zs7YbulO8BsDPUwco7GM%2BmfNm7vF4N%2BjMpf2tVoz7Gpc6aT3%2BWYRQ%2BKf5gZat2xRCMRyRY0yQBJ%2FZ6kWJya2SknqzxGVkqS7eR3OgVE6CQzmJQ4KrGUw%3D%3D%7Ctkp%3ABFBM4qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960037528559"
+  },
+  {
+   "title": "Set Of 2 - 1 Crocs And 1 George Classic Clog Sandals Shoes Mens Size 11",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407285819921?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2VDBF7KFQSP0CY5RN3&hash=item5ed4206a11%3Ag%3AKZMAAeSwHutqzVZq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8jS9q%2BFJ1IeyyLgUHUfkzPRkRKOFrFpBZ5YBakgw%2BtXeFNaJ5aIF2IldqWWV89MIrOZOdaGO%2Bpn%2Bghi%2BVRTaTakzgWoM6TH3YVBA3ehjmmTYaPvMj6DxSpYN%2FWvbvWkUylqi8xtyx8rJWuNUnsMfyzolwUk87fftST9fZmXAr02SUYtcNiZVE4b7JAAIwYtAwJVuUZMB4Lbd3IIxBaHxvapXbvS2tyJ2Ojd1qzlxY3EgsUEWHObolqieFVP6qQ%2FXhypGrhT9ZSa11Zx1RDHN3p7wm6i39ttO%2FF09lh25SFDp1%2BNNohcpuyz2jHnkE7IvI%3D%7Ctkp%3ABFBM4qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407285819921"
+  },
+  {
+   "title": "Crocs Classic Black Clog Sandals US 6 Mickey Minnie Donald Daisy Pluto Charms",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398364868870?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2V98PH0M2FX4DYW1WX&hash=item5cc0658106%3Ag%3AmLQAAeSwLKFqnRVS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BqJyG1Fy81laivF5t%2FOgPaJ59V6YPTT1GwssA1k3o5hiFu%2Fs2Y5%2FVruZSf4C7SWMySoBa8Rf0Clq7DTwOCFp8IgkwwRqXTCwou2tHWfmKuUQS4PCLq3TPRtPhwShB%2FVG8TADruqg8PlebdQw01EaHM6LY4G5Ox0y%2FBdwJd85GCTE3RvCtIe2AFZd1zD1fps32qTbSc5g0t2l8oSjpkV3xdsDKPno5DE5zAFCnIpAj%2FOxdDrVYTD272Fzq8oUgIeQxlo8o24PdOnWyytm%2BvQk7TxiCmbQgHsMiteuWR5WbQxUeSAk4fpklqK5ZpgU26VrY%3D%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398364868870"
+  },
+  {
+   "title": "Crocs Men’s Black Clog Slip-On Rubber Upper Logo Accent US 12",
+   "price": {
+    "raw": "$5.00",
+    "extracted": 5.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820315013324?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2WHCGCGMBA837Z361T&hash=itembefe95c0cc%3Ag%3Adt0AAeSwe2xq17bY&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FpnWqGhVBaMRh8z9JYweDm43KFAq%2BSNgBUlXJ9jcyG05QkKfbg9fMdtyBJTGrB7B4srjVDhmbSurPcW7dxdeoCLc%2Bnx4JoEYuIgFbmE4gpfqQwDA4Lk43s36fKnX8e7y%2BkwWvg64qD1IDlcI1H7F26UPemoOeVYLG6C96MV7Y6Mohb2uQUHk72y6WaKl%2FkB8wQuF9ysCJE%2BR3SZsZcg8dgAPATsTLHnLKG4c3ttsoMpPkqyl4dJoUxvLgGULsUYHU%3D%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820315013324"
+  },
+  {
+   "title": "Crocs Bubble Crush Clog Triple Black Platform Sandals 210061 EUC Size 6",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137909353593?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2W3VPNZNVZMVQFS6QK&hash=item201c09bc79%3Ag%3AQl4AAeSwydhq7n%7E6&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9i06FBfua%2BQA5kQupwR5AB6G7eC%2Boc%2Fqh4G3SQEtjC6N6dTQOOdkZtLaYlRTvQxuK0KECDWEg6AeCx2gfzKF2JaS1sAySx9Zx4eMYuRsK5aw%2BxM%2Fq4Bpjkemw4oZi0Gio4I%2B2ePNFW89%2FtU6DOjLuQkBOE7uO7vxHbNMS03P9QHK03mYgrhrsSm0vTQLmSctlzX0JqxBQBz9rB00LDS7X7PxiAfNryLwas%2FWy4U6DqXf7r9I7d6nOp199Gn4Ke%2BfDjRa94BuWx%2Bm0bkGyKYc%2Fd%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137909353593"
+  },
+  {
+   "title": "Crocs Blue/White/Black Solid Clog Sandals US 4 Slip-On Breathable Logo",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227488757282?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2W0TW1FBVXTDG8SNA6&hash=item34f762f622%3Ag%3Alh8AAeSwicFqi4OW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bgs7R%2FiJT5Gm7SQSxFvgjBB7Vs7AvO1LoyPbtU9P99b7hDqUgh%2B8ueEz%2BGljyEFh%2FsQXOPrcZtngZFvgCikCzPn9Z7OhO7a4v%2FZI5QYlNtysr%2F2INnyrwgn4IGbESHCa42rbWAgyzNtCTcEVefFEs2jSaKNIO4BfJ37IcuxBru%2BKBDzILA1SOOS5L%2B8sXM6QLgCAWbDUAJFB21hPSV5y0JnnSNIscpKYGT%2BTNdC0mnMVxy6YfVFh1hQWtuSHhvsE1tE7Tf2XkBWUGiXUHnwHZO81ZCqm1Zk5BebtIqX%2Ft7x9YyX%2FDayuLacX13DFGRobM%3D%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227488757282"
+  },
+  {
+   "title": "Crocs Batman Unisex Kids Clog Sandals Black/Yellow Rubber Slip On US 10",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407246056493?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2W82GKFTTASZJKZWGP&hash=item5ed1c1ac2d%3Ag%3AjSIAAeSwTTtqtxlZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hJjiP1LO%2BGl0MMAwirDUCWAkp3DfFPKKTKr35zTY6%2FFIFinYExN7ZRtFEMNSosUq%2FsXKgl7pW7H0hYSoppPmasG2vWKtGbsrTkJTWrntayUwDkXFeqmpnQ%2F1xqPnrRgqhVIYYsRQtxGorrwSuwUZgyrIMx9yWlgxnsTMbh%2FyzF8iteugpCf5%2BKD9Em9F6hJ2a7ioRglZQjBilbwQGxkVCvCZlM9TMWwv1G7S7m6rDfb2bDigXmOEQThqroj%2F0U6838XQeXLtyCGKXxslruPTeTpCFnXWTBAJuT1vUyL31uGJCx696hIgr8E%2FrEAm4Xmg%3D%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407246056493"
+  },
+  {
+   "title": "Crocs Classic Clog Unisex Slip On Women Shoe Ultra Light Stranger Things",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800865021563?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2X46TENXHH6FBE803G&hash=itemba77466e7b%3Ag%3AxmQAAeSwsf1q59hz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BZMjcyjKSgMrerQXGySEjhvPn9J6%2F%2BnemU5TBFqcdMr8iAoNI0bgpSAP2vFvJdxlxmfbkHVkpNhbTek%2FD9ZZXByXnxoePEmasB3ZVds%2FlwRrQWLkzj5RGEms3WD7U3gLIiyEq%2FYnkboMXZQBnbWDZjpghgD6H5ek8W0XQj7yAEjsxTOIZt781Wtmjb6wnpI2eyGcI3iexHaZJ1zKmo91CcEPEeSYDv%2Fq7mTlqdTvfVg982dYLDi6JI2l%2BFml1wgWxC7KkncSvwu%2Frcdf1kNbxB%7Ctkp%3ABk9SR-Khqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800865021563"
+  },
+  {
+   "title": "Crocs Mens 8 Classic Clog Shoes Black Slip On Casual Comfort Sandals Womens 10",
+   "price": {
+    "raw": "$22.79",
+    "extracted": 22.79
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/236800938880?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2X0DAQPHQAV670A88F&hash=item37226f9380%3Ag%3A2TYAAeSwLDNp-ihL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9FIbTy%2B%2BlAJf0EeGJs%2FsUQuLa51ZyPGxobENl5dlV28QRyUE%2BSit7rkkGedGrIWZqhCC%2FRzVf7RFWi2Fe37tp1j2ZpD15L%2B4iGqyxchJGpYQoInJmaHOzcMA2lQXanah2mJMXUwjxDPE7qffP1E6kE480K%2B0ETODsab80%2FEh9uAY61FfZdyV6fDQoOlBOY%2BWPThkaJXBXR7hep6oMW1LRZCl4OR%2F2jwZ0aweJ6qRx3gD5NwdT29qc0mayQ0xYazQyh2pOTC5ecno9Q5J7YFQVTpBzIrFJtb04lhb5GR4MPeZZVHTLNysVxEFUJ03Lxif8%3D%7Ctkp%3ABFBM4qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "236800938880"
+  },
+  {
+   "title": "Crocs Ultra Comfort Classic Clog Sandals Black velvet Lightweight Slip-On J 5",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366604263996?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2XDP5WYWGKQ80DD4FY&hash=item555b51223c%3Ag%3AerIAAeSwpAlqfmLx&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BhNUOJj3XxKJEWNwef%2FRkxYgTfoLvJZkdTovgnCqB78W3tzrv834w8RaAcbhAKx0QSjq5X%2FU%2BMfWeBpqBDC0cWHDEn7%2B2fJJbJ2Jt1ZFblKeHEq4j53oqNSn1IisEZlcVMKIbz57Vg7nE1P16OMMIDm41e%2Brd2r6jXechJ2t%2FeRQNp7NbHEGyBiBR%2FIiN4hsLjBBf1NRF3k1oHE1UgzGDjsepLN%2FXN28Ob5GSI9zT6ClmdUUSFqvdbtRErFmk6bbSfUyZlJEVo%2BRrEqz0Zmbf3WC7FVUQn1LBcU0tfrkEsLg%3D%3D%7Ctkp%3ABFBM4qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366604263996"
+  },
+  {
+   "title": "CROCS Classic ALL TERRAIN Clog Sandals Black Adjustable Strap Youth J6 205089",
+   "price": {
+    "raw": "$17.99",
+    "extracted": 17.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287604625074?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2YP8HAVZJXFKMGRYR7&hash=item42f6924eb2%3Ag%3AqAQAAeSwhcRqtHUo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9hhVGSNl%2Bo4n3eG3Qks3S6%2B9xLgJT%2B9XqHfy%2B08GT7tKGVm1eGHys2pKGQALNWy%2BhAcrbS3ntInQzmFG9WyYzeG7YgCxLKUWroSFS99PejIdPf%2BcPu2MdUUaBRiQrAEjE31oTiijAW3lyW%2FMp%2FHB3XgIwPrad2PAALeYwuEwlFodp49kLlX6F2YfJXIVs6k%2B7%2B5XSoNnuOuUUjD0dGu4hyXFcHuU5kSunCHyUcUVMVv4kpI0278Bpz3mPXqQps5gfnG0lSfN7d0PAJeOnywbfTLKC2spBgjU8MNDYj1Kw4u2dR86Y7Twi5HZ3ngHrDaSU%3D%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287604625074"
+  },
+  {
+   "title": "Crocs Black Men's Slip-On Clog Sandals Size 13 Rubber Upper Logo Heel Strap",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377491678880?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2YY8WEZ8T6BSJSPHXM&hash=item57e441e6a0%3Ag%3AN8UAAeSwvd5qpf-t&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9QLcF8hdSvMHldYWFbmbOVG5t77b%2FgHx8djqX0mnR%2BN%2FwNJ6nBLIgdOtzk8YM1Lt1AE4%2F4Y6oqmGnKvGnr8O4TiHIPfKpKKZg4Lx%2BdeNUBGO9s%2Ft%2BhSVnEdOYRi6eea3SsLLCyZzD0M7YFSYfmmizkk18rel2314%2B2WpC72x9N0lfFJbmDTL1bDotrBcI0578XQqyjcFSBsY8OJIhlAT80BZg%2FvqUz5Y7PfbE8HLo5xap4KKswwwOgQFH7h0B%2B5ZTH79fHbDncD64fIGY96GIG%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377491678880"
+  },
+  {
+   "title": "Xbox Original Crocs Clog Size M7, W9",
+   "price": {
+    "raw": "$19.95",
+    "extracted": 19.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287606724350?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2YGWEESFXWZ6F89KFY&hash=item42f6b256fe%3Ag%3AjPQAAeSwt1ZqtbhN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BcQI24OV%2Fowm9s%2FTUL2BPaxJWVYTE03Wg1VeAstMUEzKoSmRvFtdRbwoX5VWfqM%2BkXCKGqWWjAxuXlEYM5abswVEgBzIiSAxVMsNbBKDXSVmgOtCcgSKWEmiVTfxtXPsddSNPmjQo3OnmOPXAlJznb3kgxv78ZU%2Fdqgl09n1hs0NsXL3vcAnP7%2BG8wN46SF3wbpMlIVoebTe%2FgCRV4xSbEw%2Bd1sHDfOJqXj69%2BwsX%2ByjByRMiAoZmuI1DqB5zDW2eHAQIUp3KsZV8Il5E7Owvv%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287606724350"
+  },
+  {
+   "title": "Crocs Black Men's Clog Slip-On Sandals US 5 M / 7 W Lightweight Comfort Solid",
+   "price": {
+    "raw": "$9.00",
+    "extracted": 9.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900011108068?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2ZV7WDB0FVYXTTXK24&hash=itemd18cd7a6e4%3Ag%3A3LoAAeSwjuZqzlTW&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FDeV81AXM0zZUwaMsvKWHyQ3szR55eS8PXGBgQC66mSjNmu74l4nX7IWK%2BppLZT2bRGZER%2BZ9IF%2BpLxh0rjlb5tqDXcX%2Bi1TFBkZ1WrzJb80oHSHv9R9W4I%2FWwQbANvZmKEurQNMM4R%2FlkAUvzqJuhrlM8RvChsPTvrDni84RYWJWV%2Fql09kHyQ%2BVZ%2FFsR%2BqVdbqsJE1fwUwTBOKNj%2FileoVkY%2Bsmh%2Fh8f77Ip6SylTuT4riLvrkwDgbqju%2Ffu1uw%3D%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900011108068"
+  },
+  {
+   "title": "Crocs Clog Shoes Mens Size 9 Black Jibbitz Slip On Sandals Stains Comfort Casual",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147358538258?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2ZXQ0G8X5NA46PYSC2&hash=item224f40da12%3Ag%3ANvIAAeSwgBVqIRqs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FyiLQ%2BEH2LwsTOidlqjQ0M5JhOCg1X9NODNHyCK7IzYzfjulwWstHtG5rDtpciCX%2BZQMFLAwjlDwqS5OIkr3AFXwtctIqZIGUJE5gYDzR2pt0yUxjdTNryc8zAKR3o0jC%2Fy6RX2CqaibfryNpEoZIFAQN%2BKGq5gF0lEaaEr5Mw4DAFkg%2BMHDvDSzyt0VcA8vm%2FuycK0w%2BNGor7feTTYqP9vHnv4NV1EnXOneYOHKonSFwqwOz20QcmyNd9Zg630lIrFGEWyT4R6Y1uIrWavucZ%2B6nFk3tSbcEFDZfCY9KhFblNIvaeM3S8oNl46flJ%2FO0%3D%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147358538258"
+  },
+  {
+   "title": "Crocs Crocband Clog Black White Platform Sandals Men 8 Women 10 11016-001",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127686204818?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA2Z7RHZ6DTTS4G60KQY&hash=item1dbab0dd92%3Ag%3ABTsAAeSwPFJpkfB%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FEoppQBCe1GhXTC1z01EGdcevXy%2BkGyKOng2%2Bj9deOx2dxuDQOLTmzKlQLfTlReRJRbFRiyw%2Fo1Sj9St8N%2FEg1KBzHH1%2F9XGbGJOWQr1FpZnrka0PgwdQt8Ww6zdonOOEcHqZK9UQrBaOKom0DM6vxM%2FRGhu%2FxF4i6oJSPf9rkzn3rzdGXqjBGhF9tFHs2psVQden6uSqzxwKSKt%2BiAHeJ%2FFH4Qbc47Cy8JBjakkfYfQ1Q0a%2Ftbm65%2BUt2BzKmwPtga3eDKwU%2Fh1kpSuz4sSug%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127686204818"
+  },
+  {
+   "title": "Crocs Echo II Clog Men's Size 6 Black Slip-On Sandals Women's Size 8 Unisex",
+   "price": {
+    "raw": "$17.99",
+    "extracted": 17.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206597066042?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA309GFMNXE3GY0F79PB&hash=item301a250d3a%3Ag%3AtLsAAeSwGTNqvwKy&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9zMHJDEHwPN7ohD%2BWZwEMxuVHD1GJxRtqce%2BgaicOh7xbOwaLssbA%2BRvhv9MXjTiJsO21sbSlJ%2FDGrUKtETm%2F0rbSGCalP7NJUOrL5XnWAkLaA7HOFJ9syKoEDt7O6bp8JT61gNSlmTivr1wH7yV7R7oby%2BvrgWPeNqv1NQ96zC3hCcjA%2Bred3wXMeYr0rA4Q%2FDuu%2FbefikCIlB8x%2FuJ4PzpNMY8OURTopvnFIVYc9MydW4nObyULukPScD20p2Eqnpv8WZ%2FO5Udx9Je81%2BQwy%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206597066042"
+  },
+  {
+   "title": "Crocs Classic Clog Sandal Black Slip-On Logo Accent Women’s 10 Casual Easy Care",
+   "price": {
+    "raw": "$18.75",
+    "extracted": 18.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117427343216?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA30E9N3XE89ADKRGS59&hash=item1b57370f70%3Ag%3AgZQAAeSwNGJqs7UU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9wIh773r81jGoik9LxRZ3GNiRUDkd0lGMMqYrs02wgaOrnwCSsPCVMlRb3Ge04x%2FVe4NTLvtwXw1vB3VlxfoqshfGjB9unCO6wGk%2F6QJ3lgUPgZHkjfhYrgOszMfMvp9kU%2FmvPWgmpKlM3F85Oz9%2Bu1fvG4JQuUx7Z0MqCtJVeFJ%2FlgHOd4%2F7n3K9Eihw94i0U245rReiACNHxQPI77%2FvS4CVxyL9iSvSrWZx8EJtdCTeBqIxWxPoEmoCLeZE2RspYC0KFIAm6QQ%2F5%2FHM%2B1qmFpi9%2Bfk7SZfZw8mo1P3C0z371k0P7XYqkTRVL8mOPhiQ%3D%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117427343216"
+  },
+  {
+   "title": "Crocs Unisex Classic Clog Foam Slip On Shoes Black M8-9 W10-11",
+   "price": {
+    "raw": "$12.99",
+    "extracted": 12.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920045854092?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA30F2Z3Q8VTANPFXH3G&hash=itemd637019d8c%3Ag%3AsiwAAeSwdrxq0l9x&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2BAMWi6oCm6aMkGd2g9cUrs5TdVw6qp%2BFUbNKP0R2xQ%2FzDM2YxO%2F4rQ5pNBMBMUfbJ1ivfIsHLQCWGcg8SL38iRitYv6hucFJhrLBulInSvksvr116NGzACFEqpjYMuOk5uL%2BUb%2BFizedllGcDgQ3QCe3%2FlJruzhzdMDSVHH5cX1jnkAbl9WaU%2F8QZ%2BLSpv7Kei9b2Nit8Fp2Ya1Q4HwPBIYLKxEiC2ZcXFReW5eOHefm3ATUED7xu7ujCYDo7HYY%2BBD%2FIYR6ZiRgJXzRleAoez%2FsroYQzWdCcw%2BQtZ18mjZlr%2BDFhhO0ZxebEZPFk7Xc%3D%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920045854092"
+  },
+  {
+   "title": "Crocs Unisex Classic Clog M10 W12 Black Lightweight Slip On Water Friendly Shoes",
+   "price": {
+    "raw": "$8.97",
+    "extracted": 8.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377611993953?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA31BCTJJK4KZ6C6SJMW&hash=item57eb6dc361%3Ag%3ACOsAAeSwIaJq5sNH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BRRd5i5NF6zj8wzdrFVsTOUxa3GJ4PTLlyuievGNvFvjlIMVtgE4pbJU%2FmEZ%2FW3oJk6MhyrJhBAoMLWheNbEVU6SA7tTHghkSzEBTlN9VP%2FEGz4Zjnj4ZGM1y%2FHE03NWugpArwUMDpA6k0SAhymQ5LiQQGPAzaXAWC2uZWzpwB0Qeq%2FAHXGBiZZCHTMXzE3FYuZY5dchWRUaafJQdQDuSegSTLdZXiUqssQdSmmPwC9F3u7CiveJad99ZNttG0sgFVpXi8dq3XLFSMNMWyUdoOeRvj7iO%2BQgza%2FG0JkWpABisULuSG22%2F26tK1Cg9Dozk%3D%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377611993953"
+  },
+  {
+   "title": "Crocs Clog Sandals Black Unisex Mens 7, Womens 9 Slip Resistant",
+   "price": {
+    "raw": "$29.97",
+    "extracted": 29.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820203225747?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA315W7AKK8R6YF1HTBF&hash=itembef7ec0293%3Ag%3AgO8AAeSwOHZqwpc5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde80QnBnyElk6JmSADUx9wOUth3ByjVAna9fGsJQ7z0UJYROlS0%2BCEC6DUShFKdoEQ7mLFQvVrNBfqNX%2FYUecWYOyczSRTxFpL52nsphRTLvJYnd%2FZTjF9W%2F4lrzjzTSgIdZcckimHj3kc358bsRIpyOeYfhC05Cw0b0WGt8y%2FuiZQFMwTYY1vPetMSfyU8L6BZqRIu66lPDVTVSLs%2ByorIw19v%2Bd5WY0WD6G6vkGLdNmZbgs7imR2%2B9D%2F8c4M%2BgqtX%2FgOOxCJvAVn8ng9j9Gtmq%7Ctkp%3ABk9SR-Shqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820203225747"
+  },
+  {
+   "title": "Crocs Yukon Vista Clog Mens Size 7 Black Green Leather Slingback Sandals 205177",
+   "price": {
+    "raw": "$27.99",
+    "extracted": 27.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117508730781?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA31JE7RSM0ZVCBTJFD7&hash=item1b5c10ef9d%3Ag%3AIokAAeSwkLVq7n3y&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9G10MOjiB6WwQTnkGYEOIOHU1OzCNXDBZ%2BQ8yD57HCzXP0FPJCthId8U23XHGZ8uV%2B%2Br7GoMWeW7NxgQ%2BvgfsPDiudeaBi0zICOEmdSWa9Esay2c6viZRyIXC359hVw--mNl0D2KQjp34cQihqoorVFbK%2Fn4SGvT%2Bw95tseSQSfrI1mGcp8l1LoDNeeSLO9Iu1Pifv5OyKSQTJpLgCGgPY5eWoblx8cM1b66VoKZ9VVmY7KfxETfeVrYGjJeAVl%2F2OGV9HN9Iaz3VxUHvnzPz020tQbrE3o2iajBKKRcRWLwmJkyJAW3YbNcTSpKODsew%3D%7Ctkp%3ABk9SR-ahqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117508730781"
+  },
+  {
+   "title": "Crocs Classic Crush Platform Clog Sandals Womens 6 Mens 4 Black Slip On Shoes",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227582106406?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA318RE79KJ8FDGMY1VE&hash=item34fcf35b26%3Ag%3AX9QAAeSwFBtq3SyU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8R5Ro9Ff6BA26DN7uYplQAekLSBCidqIIn4yklgPmBMh0L0d4muZ4rmYLWlAQjr3IbohqsUfneFOiEMMN%2BauRMK0aL1fMYvNiKXbsXkKHBXXCZ5ZvrfsMeIUo3aHeo163F8bhOfNp3uT7JDk0hqTCISfQGyVwtRHLYIUCtp6w1VP87yviEG5W%2Fgw%2FWZmIG%2BGixXK6FAlE%2Bhd52tvNAefmsNolLhumejpw7lUU7DCMIuu975QYEFU5b66dKFzaRxOlRnpkdl3Tj6ooeeeufx1Xf%7Ctkp%3ABk9SR-ahqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227582106406"
+  },
+  {
+   "title": "Crocs Classic Clog Black Mens Size 8 Womens 10 With Jibbitz Comfort Logo In Side",
+   "price": {
+    "raw": "$9.75",
+    "extracted": 9.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287710215921?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA325VKR8YZ67VWT6ZQE&hash=item42fcdd7ef1%3Ag%3ActEAAeSwdNVqvGwE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Jw75003YDo5sxS2Tz0nYJdxCUbiOfZwi9LYhMZfefsUWDAAA8gFaEL5dFnKf6QUSnaY5kmSy1ukj0EUxK6AbE%2Bv%2FKttYRGgEHUWx3FvOlfQDuiwl0PWCfrLNA4QJmuQPk96DTYIyUVaN5yvRivWV909sQ7SReyppZGBM2r17574mo0nra0yd0VE3jL7orHU3lk%2FSfj2Vcrj1OrriUHN3rywXG36yKf3qdRsVL1Y%2FfFnlV1OsABKtT1vmFGpvOvzeubnt54VMXPqkJyNn6ja20rLcwhhCcUKf2vkaDCaepooAL5TIJP1ibAkLa66cuZoA%3D%7Ctkp%3ABk9SR-ahqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287710215921"
+  },
+  {
+   "title": "Crocs Gray/Black/White Camo Slip-On Clog Sandals Women’s 7 Men’s 5",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318596030651?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA326154S57DH0DD5M58&hash=item4a2dcda0bb%3Ag%3AEiYAAeSwgxZqWS5H&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNLLCkjYD%2BjXnQgrjxCMa%2F%2BaCc2KwSTNuDygj%2FjT7hLHWMFFLtdtDrgd2nAF7%2FhulaHCDzBCgxW3sbJdgjBL8p2R2BMTfFtWHIwtdrGjsIVnR99dknpds7kbKb6NMyy8mJULsIWmFGBP6mVw2UWnVVcPw5lt%2FP2SCRr9lKYOspzyJQzU8YgQhCbEdHCCvKcB0%2BrDYKWnd5414l2THl7NSwWOYlWqVD4t%2B%2B%2BITsfiJyXTe0mWjOdHOc3mFAZf6pG9UxyADBaQY%2BzlDzseQgRk8I2C6ji7BrtlXyYg5bP%2FyXcg4mu9ncSMOJkhz6M5rJXL8%3D%7Ctkp%3ABk9SR-ahqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318596030651"
+  },
+  {
+   "title": "Crocs Classic Slip On Sandals Clogs Mens 10 Women’s 12",
+   "price": {
+    "raw": "$16.88",
+    "extracted": 16.88
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278365802092?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA32PX0QNE763Y730J78&hash=item40cfe50e6c%3Ag%3AwMkAAeSwyXtqpGHG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ADcRfsCCORfP7VwHtGPbsXwZrOqfSeW78ShAh8Rs9dKCMFGP27MBHTO3rj1QeoP5%2B70WZecyHOTZqSiN7qVs20FCXDvZ9zhi7rqdvrWZzOfxlbFohAWpiJBncOt2Ol9rRQbq1%2B99k6NoO1sJe9Y7%2BmnZFY0M0pp6yu7AaoSW4SXZT6IcfiwHrnTilg22CgAaF2kTKezzjGe2zj99RpQL12aeTbdpupbbla99DFsT%2BJ0zH8DXLQqrg2jAR5zKr03ycRYiC%2F8Oapaz9bRyxDO8zkk4lD2zfAoQKMJEiBZNqgxgOCSq7%2B6pD5zqNPqZdsyE%3D%7Ctkp%3ABk9SR-ahqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278365802092"
+  },
+  {
+   "title": "Crocs Crocband Clogs Mens 10 Womens 12 Black White Sporty Comfort Sandals 11016",
+   "price": {
+    "raw": "$24.95",
+    "extracted": 24.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366626261588?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA33J7X2QE61V470SYJP&hash=item555ca0ca54%3Ag%3ATFcAAeSwHUpqjJbr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F7nW5m3Kr95tifq0E6qm1MIm58NKVoT6JBDDI4n4Nq1apKaRYsNzLZIK7AQdGPmY8XRwFrNgjPa6VNdwTLDuWPNDNhrVisvo4F4ezed9IiCE9O9kDQUk%2FUiIGPQFc%2FtAPgqh%2FO%2B9V%2FwEoeTU9OX3F4vvncGN%2BttsrHy09MQmOBuHZ%2BGYUqeoEg6aN4mBI4u7WkvRX5qqcpQYe1%2FI7lHyTR2FTfDPbByRaPNf51w1RVj%2Bu6cBXXiBoa5WQOQOdidpoBL3z2qFkNoSpHwAsT0Zzb1wkfZoNjd1Qo66VHtcE6YpGeX7PrjY0tEiHd9STP2HY%3D%7Ctkp%3ABk9SR-ahqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366626261588"
+  },
+  {
+   "title": "Crocs Salehe Bembury 'Sasquatch' Black Pollex Clog Mens 9 / Womens 11 ‘No Strap’",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820322691801?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA33R78GJYSGYDS3XV6B&hash=itembeff0aead9%3Ag%3AULMAAeSwHLRq7Wx%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8PprP3czU6k%2FotZpGP9fuMX90y64xkf7RTrQYK8EB%2BbQVaU9ebsOB6WqPjoyN23MUh6yTbwUGwIssWPhsv1gHqy9%2FYVvoo%2F7MjRjCSXNFUzvdG2RJi%2BW8CGE5njQ6dJna6sdFBPWCjbW4b%2Fx5P7Bf0IGtANvQCaB8Hj%2BJaGNjwBKcjIOqctiBa8qt%2BxJe%2FuAQEMIhlwtQ5LV3p%2FvXhQeMKdHXE%2FK%2BrG7bqT%2BaLmiIaijLpl5Yl16Hhau6oAdqMkMOtETW0ejRfsqvgf5WAAXbf%7Ctkp%3ABk9SR-ahqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820322691801"
+  },
+  {
+   "title": "Crocs Classic Unisex Black Clog Sandals Slip-On Casual Solid Rubber Size M9 W11",
+   "price": {
+    "raw": "$16.99",
+    "extracted": 16.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137898507726?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA33S7TT2BK49FR542N9&hash=item201b643dce%3Ag%3ADpkAAeSwnORqt09X&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9e5jXnXTC2A2zkthg18pNb9O5MJ4%2FNdHrMkSC5BPZrKNP2askfeAx7vaI6eAduQKUlFZEOvTYyzAh1I6ovOoWkEpX8uXCxCagenGe7%2BPfgbgCrHHiJQlWmgiCGWEvMLU0Wfpi5EYkU4oK7DdcGUoT%2FabryBG64txAcs4gArpjtIhW5mHxL%2BUOM6JB5MM%2F3EUpwZ14n14SmftceIHNmDKfWNe3%2FETFVwy6LsLPfAuW9lWQ3ifTZp8fZmjS4hmaah53DukoEtC1jmNhW%2FtEzSjnXP%2Be8Ozk8%2BHnAGnCERla%2F1g5wr9oYw%2F2az1CpSLSJXC0%3D%7Ctkp%3ABFBM5qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137898507726"
+  },
+  {
+   "title": "Crocs Crocband Full Force Thick Sole Sandals Black White Unisex M7/W9 Gray Black",
+   "price": {
+    "raw": "$28.99",
+    "extracted": 28.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/277887094143?_skw=black+Crocs+clog+sandals&itmmeta=01M6T8AA34G736ZG8WT0QGMMCJ&hash=item40b35c8d7f%3Ag%3AyRMAAeSwiY5p27h1&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FM%2B4z%2FmuBlveUewOEmVSaAb%2BanqGqDk%2FxDZ%2FTUzboExmZ5%2BBo%2F13nNmv1CUWCxTz0h%2F437s%2BTgjaiVKUs3HYcckubgZt5MxtO79xbtxbqwiEu9ZyLiNTRGDFySlTzhyJCvUXQSksT7WjjEJhHx%2F7Ct1X9XPKzHl28k3WMPIRRbhKGNzZWjcYNOadgQEwV%2FszECe0hzvxTmoMBUFkgaiwZzFYboSgUcH9LVHhOyFDpqmG39JgvuKeOLuAZycdtxdNX5MYNCK7d%2FLFkZB8CAAXSjmm0pvJfHtg39ywS7Y0hIvQ%3D%3D%7Ctkp%3ABFBM5qGpyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "277887094143"
+  }
+ ]
+}

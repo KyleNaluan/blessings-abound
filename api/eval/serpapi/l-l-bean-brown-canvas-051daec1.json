@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "L.L.Bean brown canvas",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 5900,
+ "organic_results": [
+  {
+   "title": "Vintage L.L. Bean Coat Mens 40 Brown Canvas Chore Wool Lined Workwear Hunting",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960154817993?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S2WJJPDA2FHV0SJ1E1&hash=itemdf8dafd5c9%3Ag%3A2OwAAeSwYyFq65oz&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Fz8ovT1ENQsCu3Nczk1qMbNbk%2FPuxNbk9XSjAnpQGcBQbw%2BWRKixwNHQCJgvMD9JaD4GPBiv6Sz0c6ZLee3IsOsgIxTeosnDMSeAFV4eVLd8j7vdeoFQPfebvKRrOsdQjK%2BDgoJ3ur4dfj%2FYI86ZZJELdkLW0jYDpqqVVcPyNqNj7Lj6bVnIZTLA28X7%2FfOx9HtfxQVJFi6vAHEfeKSiYfYQLt%2F7LretxyAkrXCaP%2BGh8mpTxa7Llb2ZaNAPdmRKY3DujTJYJtx2QeEatXFXize283LA4B36VYjr1XQY2Mqg%3D%3D%7Ctkp%3ABk9SR4idrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960154817993"
+  },
+  {
+   "title": "L.L. Bean Original Field Coat Jacket Women L Brown Canvas PrimaLoft USA Vintage",
+   "price": {
+    "raw": "$149.00",
+    "extracted": 149.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307269347496?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S22CPACPQSSZAAM8CF&hash=item478aae28a8%3Ag%3AWLIAAeSwcPtq7Y1J&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8n%2BZRE6eKp86ShvT2zS9HbbuB0Zx9t67DKmZAM2Umkmioo15VO%2BG4rV6XPK83zDKJqvIkU%2BTQC2jN9j3Ui7JDyQWRaitzEpBWD0ipv%2FzNLUZw4BEgz563xCF8GYqLz8G9MvwK8shF5fUFnFxdVchtDxILeenEpbPIfT0bReLonMz7VOEvqyIwbuEn0YiQ9f6un55CyMgQIjVfif9QiFizFTHBWce%2BQcI4OjZBrKr1ozyMOtwcxsxlGJpvDz1mPcW68S3Ulcf8S0ZNt%2FPWRqD0ZshejmFnEFOX4rE64FjyhPg%3D%3D%7Ctkp%3ABFBMiJ2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307269347496"
+  },
+  {
+   "title": "L.L.Bean Bean Boots Mens 9M Canvas Duck Boots Brown Tan Made in USA",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820321857386?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S33JDFMTNX9XMY4CRM&hash=itembefefe2f6a%3Ag%3A9vgAAeSwOXJq7Sx1&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B6uA%2F5hEvu%2BCSd1bUdbpWFLAqw830yO5gv6yahSNT0Z5DKt%2BB%2BKGvcASmIvBd1YkQv4NEvUL%2B7h2D7e2c7AKFwwb8Yk9URFOA7ZEj7pNbamnnfYGA0g74RclxTWkiLlvhqy3Di9e2U6FpfKDe5qYxeo0nYFCN57I808TRTYUQHvZspZl3rtTuHx0mfZI8XvCnsumJQJV%2BjKHvJBJWx1I2kGLX7NyXNigCEbuVCLeBTOL%2BYyEdKLCtmFrAFpMKohKKpPyqYCcgFcGq19NrwsO%2FFwQngys%2F9BG5fmqITmQoL9g%3D%3D%7Ctkp%3ABFBMiJ2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820321857386"
+  },
+  {
+   "title": "Vintage L.L. Bean Chore Barn Coat Mens Large Brown Flannel Lined Canvas Jacket",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336882592774?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S3364W33SYGQHKRNH4&hash=item4e6fc46c06%3Ag%3AklYAAeSw5Xhq7USR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8cpAB9FWSoxLhx9nXR4b3EW%2BzsT6Zyl%2B0d7rq4LiDB7VNrUdMBl8BPXthNSje%2Bg9bTbleQMTXK7fDCF2dBLb9SiEV6605rozZi6Yv9IXskjZ3e5q0t5wNFP3XPGYZTnIOR6V1BXiAb7Fm%2FvUWPWY04aQahTqfTKa2aFQm90bJwAzA9NmdY85EugNW3ZAaMoP8aaAoNQS3A9lkjyy9mR5yxqMpRT0ahgQizoRKfmfnbwDCbVHrNDCofAZgjgj6rM3jqDgnPyB1Y1vxTuI5MurW0xQdi%2BK5Ii8aKCMEd4zHthg%3D%3D%7Ctkp%3ABFBMiJ2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336882592774"
+  },
+  {
+   "title": "L.L.Bean Canvas Duffle Bag 19\"-22\" Beige/Brown/Green Adjustable Straps",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407323484179?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S3HS9VS26HJCET09HA&hash=item5ed65f2013%3Ag%3An2YAAeSwhRJq4qRr&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BLWbqLvvCvTirrtX20iUNlE9IyN%2BIV7RWPqNMWDCb3ljmbrkoD02sgBfS5sVWtWZQ0BA%2BoOO%2FXofJ2sSFpvkTFTU8K5lCQ9MXNVudPNgbeXHQgr68pTL6zQNt%2FoxFS1otI2wOyhK0qf39%2ByUpewjZQc8otAI2AFZyQjEmfYA2wOutSridn7S8pFfxmedkM7fRN2bx2zsg3VMySm%2Bc25%2F6e%2BNOhfQnDB7z4PkemkrdkgXSKbwE95JfR%2B6OsrFtwSJ21EPcnEQFwoZLlS2vhe110MDhhb%2BsZDmY6783A8AwFVQ%3D%3D%7Ctkp%3ABk9SR4idrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407323484179"
+  },
+  {
+   "title": "L.L. Bean Signature Shirt Mens Large Brown Canvas Slim Fit Button Up Rugged Work",
+   "price": {
+    "raw": "$31.49",
+    "extracted": 31.49
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117500021283?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S41M6NK5WSQ6REZ2YX&hash=item1b5b8c0a23%3Ag%3Aq1UAAeSwa8Fq6JOz&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9VgdpPNv1E0ztEJjGgxzzARFRTDdz%2B31IrJclIGNMNx8nrWRbWr1kROU4vmc8RhXgStqydYeoE9vxoP684zFRoqikHuDOKRRXsUKYq68deHim9MyNK2ERSDoyAe2wvikkDHjFGrSMXrMKoYUNpIYYMAZqXZ9Mup8A0MMx2FFJRpHu2TPY1MEhXWapl6izN7nk7fO9MBcUNwzDsrE%2BVlRaibAcgoe8FWBi%2FjBopSFPiUrVIU85DBq%2FXPqAvOlrftcw%3D%7Ctkp%3ABk9SR4idrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117500021283"
+  },
+  {
+   "title": "Vintage L.L. Bean Mini AmeriBag Healthy Back Sling Bag - Brown Canvas",
+   "price": {
+    "raw": "$20.70",
+    "extracted": 20.7
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820232920454?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S4ZJ1YZ77W9V6YGB96&hash=itembef9b11d86%3Ag%3AFWwAAeSwXi1qzYM1&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde90%2Fk4FvjesOALe%2Fjmw6wAldHjloY7zlTFiTuFhAJ4gFt%2FeB46sWZ0SbrGSdkxEZumL0rfwCLSc0BhyTx5mjLp4jG0KEXOkz6seBF0sBp%2BIV96zJqJvinESeQQNJecktRORJGQD%2B4t%2F%2BCSPL780iiv3%2Fs%2Bcb5RXlNtjkdoNKhBqrtHS%2FDxA4h3tYnDN3LpVLaBCEb2HmEumeLotvtM0GGFnFu9ZSrkhZ489WLSAk%2Fd95yeRBu9lNNELCn4zwBS4n7I1Xpk3qsfzKU6Q8FljRWGPEQRKBDN0tv72%2BUo6BUWheA%3D%3D%7Ctkp%3ABk9SR4idrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820232920454"
+  },
+  {
+   "title": "L.L.Bean Utility Jacket Insulated Full Zip Snap Canvas Men’s L Regular Brown",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168831650096?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S4TX5EHVX7KVQGNEX6&hash=item274f268930%3Ag%3AACsAAeSwiVlq5-z-&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9vqtP5AT%2FY%2FMkGO5%2BIKkoqtiWxygOujW4OEkop2ukNliNl9MH6TqXfv%2B41MQgqrSzsa6ihpmuLErZNaFSjKyRLGJ3iXCy4cAe8Rr9msr%2FUn%2BzxfHPO4lDUraPCq9gaw4gLPD8HUga0X0i58wSjOTAsWUz8RyhVJV0rhERf444OikcbV1J%2B0lWZmQsy%2FX%2BgI2NNdr1Rx46iVnWlRa2RNMT5Gs%2FkHpWx6EWjd%2FkmXOF2VyUJjI9bhI5xPquGUQg2OnNbXtn%2FiJDiFtNN8vRv8lljtllDx9G2OmfdQu7zznW%2B8Q%3D%3D%7Ctkp%3ABk9SR4idrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168831650096"
+  },
+  {
+   "title": "Vintage 1980s L.L.Bean Duffle Bag Brown Canvas Blue Green Leather USA",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117471731171?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S5RR2CZN4RCE5GJSXG&hash=item1b59dc5de3%3Ag%3ALokAAeSw1FdqySAT&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9H8NLzpVwF2I5vZqsSR5ioqYXhrSCG5prxngUCdAVkV5%2BvhtBXk43b4a0cpSi4V5FKa%2F%2Ba8QBU1cFakIF%2BtiSEa6hT3UhSjIny7mEfVjt6dTRwWpp3WcDCjhBrnWI7yar6hUI%2BCoDEIuy5GS18fLW272TFVaBlYlU%2FX4CfW5AsStR51KjjIrlVpMkQHoOKGW5RPwJt4vs3slnjLKVv0kciwEnk70Benh1KeEfVY1UvZ3xYxmK5a8YtvYoah4EoXPJK8ee3bpcznFCpMruOTxYUj5%2BaH7QSZJLMTDkJB5vgYg%3D%3D%7Ctkp%3ABk9SR4qdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117471731171"
+  },
+  {
+   "title": "Vintage L.L.Bean Brown Canvas Barn Jacket Corduroy Collar Plaid Lined Petite",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860117356893?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S533D0HPW24XJSBYS3&hash=itemc842fd515d%3Ag%3ACQkAAeSwYMxq7ST2&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BI1ZiAt3orCeh4VlrggBwBTYGu50KKLvZ6gnHdXtbcp5T48cDjXSf0FHTAJZxnElXOgGGmAswsi8QybrkmOYaHj2rBmc0RCT0oLW8NB4Ekxf%2FX8OgxK2xAv%2FCrh5M9vV%2Ff%2FvE0Cgm6QbOMnND5hdRVbvc9P448HgfI03si%2FyOSLmQH2jnf8%2F7TeVxmpeF8uxwVx5PMp1ZV6QNvp%2FYRWruIXutzG%2B4ZpP3As0R8X2yXfDh7yN4EGBrl9n1cl2OSUSrCIy4yLjv6cPvUyshKe9yqrRTzjIN8Uzjj0t0kiC2HpQ%3D%3D%7Ctkp%3ABk9SR4qdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860117356893"
+  },
+  {
+   "title": "L.L. Bean Men’s Size 10.0 M Duck Hunting Boots Unlined Waxed Canvas Brown Green",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117502775007?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S55Y41KYTCBJYYVSV8&hash=item1b5bb60edf%3Ag%3A2WQAAeSwpm5q6lar&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8hzZcwCgbJzAjBxGsh1R5I8HUI0U%2FbCTrgPey69PgAyfsHGEP0%2BAWW%2BtYcDjsLzRtIXxzFb7IYwNn9IOS2WRkq9suTLnGnJxMg76U%2FLwBSK3QZIVpWdVEyWmNMahjgjWd3UypaahjLt1gvPww5%2FofkLvmwRLexYAAYFw5TSWcV2Zg5Pny3BChzP1oZJq3C48BAcXXYii6TYP9i9pyj2xmWBtySXZvYHmNRGGImitnRc%2BkFaMnvPX34SipayfJ1Ny1QOC6UHIzqZqfPrkllgMh8gCqsa%2F8n4UsNl3dAbI7odw%3D%3D%7Ctkp%3ABk9SR4qdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117502775007"
+  },
+  {
+   "title": "L.L. Bean Waxed Canvas Leather Tote Bag Vintage Brown And Green Straps Rare",
+   "price": {
+    "raw": "$281.99",
+    "extracted": 281.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336809949218?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S6ZTHDJ8J9718GB75R&hash=item4e6b6ff822%3Ag%3AGrMAAeSw-zpqtJTt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2B54HPwtH5c3teC7EGHDsJWVatg7NPD8eDNnJDWTScxDov4Nn7%2FgEcTqjmqBnMAf97zFh95S5ZBWDxnaYXrQwnOzu4BEVrbDw1aH%2FWlPgJJjnndfrNbfPWFQg7FkN3GUdAC0Qg5ZwYZArEsiAsa4jqc7TBXe%2FXdpJ1A6Ztz3rMqz7nIi9N3PE9DXZpRZLXuyStDT7FMbbcDAJb1kr%2BMDACqqbyJUvl8EBOha93o%2B5VDtEsPiyOEr9mzQcJBezlaUdGGJwXpc0s1u5WyCzkZq9j%2Bd%2BHt04UlKO2P%2FTsFR4CLTOLcbWbns0SySCuFo3DT%2F4%3D%7Ctkp%3ABk9SR4qdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336809949218"
+  },
+  {
+   "title": "L.L. Bean Double L Classic Fit Canvas Pants Men's Size 36x29 Brown Lined",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820324281030?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S6JXQCFN3GP1MB6T6E&hash=itembeff232ac6%3Ag%3AuekAAeSw21Zq7esy&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FDXvUn%2FVkxwE%2BhrkGKRvUYpP78SYsStn%2BpJ47shYn%2F6%2FB4EiSsbhOhyrdAJGpqvF7qCIWu%2FwlATBEmd1mvj1%2Bi8EBtKn4wKy3EcrdPL9Xe3OUqHQFNF1BtdEZk77D30ebSKOpsg8Pi7q%2BhtjHIfPMlHRQxdCYcuIiLkHbMpwvjlDK1TZhWawTs2pchNgoJrsq%2Fqu2ZRL6POp4T4HjfV69P8VA7pLQPZvmrGh3B0aauM7FRJft2AvoFRaEd4zbAlROBMAGyKa0grilhmHCmizzZvvVpKLTe%2BiMlbcExRQ81qQ%3D%3D%7Ctkp%3ABFBMip2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820324281030"
+  },
+  {
+   "title": "Vintage L.L. Bean Chore Coat Mens LT Brown Canvas Lined Hooded Jacket Workwear",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206190509935?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S64SS003KF1FMVFSGP&hash=item3001e97f6f%3Ag%3A1lkAAeSwuidp0cVg&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8YXxrsh7pgDiFuvD3fBMZRzRFUpjpKZkGWicyOU%2Fgs7%2F3Y0vENADQYJm%2FOj95H3VIL0ScZkgq%2FKjmmLy5RUulzZBUMBR5%2FsLu1Ply5cjP8PvaZsnKhN9npouUD8kLfQGZsXn6S6D7JP6AW%2B1MNBy9a6r%2F4g3Loho5Au6dv0z%2BCNMstB%2BQAtrrQIfYAlsUj47Y3xofUKXv9HMFX6B679fqgq4RmAOWN0Z%2BmmbDj%2BLXHAf5VTRKNExSqU0gb2jlY8ov6k3eGVBxziwXlFtz4%2FWgS1UhMMobOuuAAnBZ59hgI5Q%3D%3D%7Ctkp%3ABFBMip2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206190509935"
+  },
+  {
+   "title": "L.L.Bean Men's Brown Canvas Cotton Casual Pants Regular Fit Straight Leg 38 x 30",
+   "price": {
+    "raw": "$21.37",
+    "extracted": 21.37
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840025521464?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S72ZKBTBPCHVBEXE2Y&hash=itemc3956c3d38%3Ag%3AcVcAAeSwUr5qWEHa&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BrzxSEjYL5UGOmj6v1dkCyCUNVXQs14FBRPQsKwHknH9q5j4oBxK6GsHEXrgqKo0vAHRjf7To%2BijFGe7bzCrm3TQUGemc3w%2BnqgmYmS84FJKrDrKRS82KT7GB1PFb8Jyr3dVXOEu316mJ2DLGOdimdi7IEWmwCq%2F0kZYHi9P5jMIj5ZIQ28LO7Q%2ByarszDnUZ3FQyTya8IcjXRo0dpy2CwmzyoDsp%2FquvRNRFSwNUuxP6me81rSf9sv9a47%2Fm9LJ9P0wb%2F9rerLsjy75P8WxwbwRf7IQa0HlipvsJ4eHt%2FTQ%3D%3D%7Ctkp%3ABFBMip2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840025521464"
+  },
+  {
+   "title": "Vintage LL Bean Mens Duck Camo Field Chore Jacket Size 46 Canvas Cotton Hunting",
+   "price": {
+    "raw": "$299.88",
+    "extracted": 299.88
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117500970772?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S7E0JAX685A9BJ5S7K&hash=item1b5b9a8714%3Ag%3A9J4AAeSw%7E0Fq6OUK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fh%2BFVmBHPbjIt%2BMCewmkMmKNd1rnxSIN1PhJMJcSfv8NxAs0BSWpR4ycnHHetMIYW70uo0AqDNrkbtYzIN%2B6w%2FfYXEv2lneSKh%2F0hEJWc4Syn3K%2FU0ZpE3lnjEDcKYDd6i2mIKDIilWr9rGwDwfpELcS51kGTrHhEkoP26dIv8s84zjk4Rlfr2A8hRNvsNCN8fQmOK2ReeZfdCz%2BgCS4bhFxI9hE5GlheKBvAFXcASIJCu3XBiUMC6vP%2BwT40vdO2unp78CjCpKmTUwUAL%2FmkIVV9%2FvUjfribCtRA02fwzEez6MM2XZfQ7%2FIsFthjOz%2B0%3D%7Ctkp%3ABFBMip2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117500970772"
+  },
+  {
+   "title": "Vintage L.L. Bean Brown Canvas Duffle Bags Weekender Travel Gear Retro Blue Logo",
+   "price": {
+    "raw": "$78.99",
+    "extracted": 78.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398275302901?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S7W5921NV2HFWTQV1X&hash=item5cbb0ed5f5%3Ag%3A8cEAAeSwThVqe5my&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9oGDxLgBDmUoClveIdZyrPFlKeB7LhglmMtKWU52SYkPqxevE7bcnHzqz0sxZ64cEnXYHpb1Tqyfnsu6JcEYWj9fJybA9Gzux0RcZ%2BfS%2BIUcz6tIT0z5q83iPdkI%2BIQYefSsQLVU9%2FAInNK3hpbDis3rwQ%2BOMKFejXR0BtvOnoqYc4ohWuQtEqY1n6b5Av4AVlkBJoz8ZeNeVi4AXkYCaSEKFsavXGet9nCBQfW1um8cVhhfi3oq6ZMlnezHe6xDVwUUiinGRT0%2FIwDIiejooFYj86yxqqFKn65wlw00ffFg%3D%3D%7Ctkp%3ABk9SR4qdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398275302901"
+  },
+  {
+   "title": "L.L.Bean XS Brown Canvas Stand-Up Collar Lined Mid-Length Jacket",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345222799?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S82N3ZNW00AS38N7QR&hash=item5ed7aad48f%3Ag%3AZCIAAeSw6otq7idw&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2F7TK0ym6rZwPAz3hvhe4oLAS08CcEfjAdidcturDsWW%2FWVxvYB8p%2BkTKpaFQmpXoK5MGHvQXfJSDLTAXkCnvvNW5fsce1D2rD33JtKDpeBDrQEcnjfgtK2uPHSTxjnvxIVRiYCKb98Ho5ngkzluTfT3Pgegwu46i%2BAcDQ7x2S%2B1xnqlPrQJ1RHrMvi3idHsdZVLtTH%2F0aPVdcqQURfy1u0wif3ZOgtpklcPSPpNuF0dHsKfnjxBQOyKFY0QOTpvNA%3D%7Ctkp%3ABk9SR4qdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345222799"
+  },
+  {
+   "title": "Vintage L L BEAN Crossbody Bag Green Brown Canvas Outdoor Utility Shoulder Pack",
+   "price": {
+    "raw": "$23.00",
+    "extracted": 23.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307073349973?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S8A2BYBZBGEVK3XTM2&hash=item477eff7955%3Ag%3A07sAAeSw24RqXQXC&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8GU3%2FDdlemF7kPL2MTq940aIWRx%2BTIpiwRK5FD9tJp5h3jA4RoBRtocner3D7TUY25G4i8%2BXG5w3jJpzHN0TahzmkvOQ56AuR4CstMsMtrC%2BUDYLYYt9NKtYH4bL8fAzCD4d3o4dG89aTl093JaVlO0iai8m3kFDt%2FrbUsT0d7q4VNPfpo%2BkkWSQXXfh0iq3BpX4YuHDMfH6NzA88VxcWIoZgI32%2BGtg6nx3h1meoIKlmDnR7qziZFbZ3iXIaIFysn0vkT%2B0dY2KA%2BMG7U3AE0hbspVtwgm8WsaHycGnStzg%3D%3D%7Ctkp%3ABk9SR4qdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307073349973"
+  },
+  {
+   "title": "L.L. Bean Beige Brown Canvas Leather Tote Zip Top Handle Shoulder Strap Pockets",
+   "price": {
+    "raw": "$47.99",
+    "extracted": 47.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257467763662?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S8PZR8ZY7KS39BEVVH&hash=item3bf2464bce%3Ag%3AMpkAAeSwhPFp4qmV&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Bcsmidcmf%2FLB3tx0aPPICt6HcjUSCCWcmqgHYuENoRuPrJArNSMH2jVbVqDYZTqw1gLqt85O%2BRzzqLJeeBNB4KMw8ssjyY%2Fp7XlGgq96kPsZTUmnw5PXKwRS0qS2T4wLGwCJzU%2FBlLOx4rAWIjYMxyJgovD664BQDLhLWBvontjrZP3u7YERss24r%2BQPhRC%2F2c%2FLop4WYCXlztXpjq7G0JC2w1zv3UCHgasvRxpcec3essRU4upYTjD%2BQLUkij%2BqU%3D%7Ctkp%3ABk9SR4qdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257467763662"
+  },
+  {
+   "title": "L.L. Bean Vintage Leather Canvas Crossbody Bag Brown",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900069393622?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S8Z303CK4PHVHH7T1W&hash=itemd1905104d6%3Ag%3Ae7AAAeSwJc9q7TrQ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FPQ81AL3H3Kh%2Bl2bHb7E294u1p9LoBLs5fIfN4hJ%2FL5YHWk9AjoimpO7jMA31r0DoRliP1SOW%2Fjq1LOwS%2FhW2JPvxB%2Bobq8e6uHt3%2BdgNGwEdVxrJ2joc%2BjZQlAOjmTySxK8bovR9B5K6N6bEDzOYWvPZxrZ2D72TpRJhR9dIG6197nMZS5sP1KmCSMA5djc7NkKz%2Bxk8PrV4FRhuFClV1wYA7od722tfG571nB%2BZNvBG8x2clv8aqF4RytwDnz%2Bk%3D%7Ctkp%3ABk9SR4ydrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900069393622"
+  },
+  {
+   "title": "L.L. Bean Shirt Jacket Mens XL Reg Brown Canvas Flannel Lined Workwear Utility",
+   "price": {
+    "raw": "$47.00",
+    "extracted": 47.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287700129687?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S9NQHW2F3GEFWSX094&hash=item42fc439797%3Ag%3AHU0AAeSwcI9q6PzV&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FGufNJvPgdqGuZHGtd7%2BzMcfwqjIPAhEu90wQYhdhjXoYmCvTufNdDswOORC15OrJutf%2Bv%2BoMxybm8LVl2gqBwWaYcDYZkf1YkrPCIHhhd%2FO5LxY87jlnlDgtQBt4qIHYwCKBY3VEtQCaoQtH4yWEY%2Bs8TNtzB%2FYtm034zUUBgQhpGAoTsrWnPUFWDzRy2GQMV4uOz1DGQlHH%2FBaFSlmaE93MG3%2BuzJq6i1fNuXxZ9g9Db26Rey5EBpG7xVOA60ps0WjAa61JjYmWul7IPzBbGsKHrbRd0PnMqrccdRPoxqg%3D%3D%7Ctkp%3ABk9SR4ydrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287700129687"
+  },
+  {
+   "title": "L.L. Bean Dowel Rod Travel Briefcase Bag Navy Blue & Brown Canvas & Leather",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880041872368?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S9GKM6V5RXD0X4VHD2&hash=itemcce6954bf0%3Ag%3AuVwAAeSw5Jpp6XCL&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2B2zw03brnPCPnTQwMSYEBTbSWyF%2B8F9QIHSnjPHT%2FuSsOzs1%2F76BoH2K%2FIesnVYgVvQsI%2BoE4jPXQCAe6%2FGnvE3feE%2FLf%2F3HcOtTYMTwtzAaDJ6p28CKy8jlkh3qVICRxK3Igg3twjBhCNz8P8npvUYwa15vlFwlT8lYb9dhzdw4mHS5oskj7tkq3QonRiovn%2FSy09on4Fn9Ify2UqewwprUpMKbbUBRolRyaciBGsbDPZ0awoxBRLZQRvt--qfhs%3D%7Ctkp%3ABk9SR4ydrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880041872368"
+  },
+  {
+   "title": "L.L. Bean Green Brown Canvas Small Utility Crossbody Bag Some Spots",
+   "price": {
+    "raw": "$16.52",
+    "extracted": 16.52
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137852186149?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9S9Z0GGTBN271V478F6&hash=item2018a16e25%3Ag%3Aid8AAeSw2jxpozq6&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8xnZ%2FUI%2FecoGwHkui%2Fmej47DXFTj1xESaOrKNwTUj%2Bu0DRrJ3YI1iNVGgkBTdOn8M8E8QnlCUoZiTMfv68gsttZRr1AIVq3MFnEReY5%2B31O3So0aotBm3EY032AGVIhVTvsmTYnD0xwszMO%2FM7BR3q1mt0WOcHgL9SNzLkkZDUpkznfbSeYFKC%2Bjo%2FECB88qY%2BOI%2BkIdn01d8A2pEnVnhhx4h8qHMZZipiLCMy%2FRp8Vgvrtz1dCwxzEyuaDV5OuG0jwc%2BqTmzslP6L1D18sl0a7TNdC1Uy0VPz6U1Hs6NWrw%3D%3D%7Ctkp%3ABk9SR4ydrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137852186149"
+  },
+  {
+   "title": "L.L. Bean Katahdin Tek 2.5 Brown Suede Blue Canvas Hiking Boots Men's size 11",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206670213885?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SA6BME668ZDQQW4D15&hash=item301e8132fd%3Ag%3ABooAAeSwVYlq6H0a&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8RXdIkdLhjpTWWvB%2BqMAmWU1wVkGWP9HL2QdN%2B30RVn3bqZIMWoryhh9umHR1m4jHpY8Mb%2FFiUVHIa9PdTIAOJihD7K1GsW2Wb0KljvIAWEuxwJUyotGNp%2Fdcvj3oAMDzcB2NUU2sTjSjpinvshidP5o0nK4LfgfD3zuGU8ibeR3bLxDZpnp7CRKpFeQKEKkaFNiEOBhDfYFwPwNiROUZQfU5j8N8eO56YhpxeMwgXJe9qIOobAfhQZfBvVZxh%2FAI%3D%7Ctkp%3ABk9SR4ydrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206670213885"
+  },
+  {
+   "title": "L.L.Bean Canvas Duffle Bag Light Blue/Brown, Adjustable Shoulder Strap, 18\"",
+   "price": {
+    "raw": "$7.00",
+    "extracted": 7.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137446409836?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SAA0P67T0AYYZGB0XG&hash=item200071c66c%3Ag%3AogIAAeSwvnVqOsgc&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde99H3ehSpWMaw%2BwpiRll5DMAIFVnuH51%2BNX6P7EIUYNK--RV4ZEj38eJe3Xs1sjc4qLOJj6y752OEooNQuQVP2kfMW0uyW%2FsatuUZHi2CJXrvniEe67MK0QL6T2uQeYRq%2BnjmLH%2BPVQWr%2BbQTDdaLm5Q0rCpjrfzHY4MWIzk1Cpv9aE2Dff51XoS%2Bip9A7DROv4yPmDWGh9jZvr33D6ooFlFXUYCCl4zcxSmyBpYzQiPm3zcb4KqclrvWo%2BK3tCKdqL4KfIHwsNvOoxTwi%2BSltgP0gpcuZTyaopAeOGCdITQA%3D%3D%7Ctkp%3ABk9SR4ydrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137446409836"
+  },
+  {
+   "title": "VTG L.L. Bean Field Coat Jacket Mens Large Brown Canvas Duck Hunting Game Bag US",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198765967436?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SAAH2EWQ0XQYASACSK&hash=item2e475ff84c%3Ag%3AJBEAAeSwEyVq6M-p&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Bmzfj8AnxfRSIHEiUZdEFFZO6Ou%2BrCt7EoZwZv6n7nk%2Frrk66nNgwzoJ28pa8KZ5Gp4E8yYLC%2FirTGGJ93CN1ufjthyC%2FKVPiPls5a%2BY3LEbrk%2FiZEo6nI%2Bf9PnxQ1c1I5nfocWUOuUoWt%2BnBzOGcdqau4AT7%2BCz30AdfPktw4Wjx3DOLMyd6eMcrIg%2B6a7nbZbAKNO4XorOXVZu4Xshfq%2F7T3NU4J4xPvRd%2Baymb7uAM8BIF98B2pldEGVlvOdks%3D%7Ctkp%3ABk9SR4ydrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198765967436"
+  },
+  {
+   "title": "L.L. BEAN WAX COTTON CANVAS DUFFLE BAG WITH SHOULDER STRAP",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940060322289?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SBDVV733FJBYK2W02X&hash=itemdadff629f1%3Ag%3A85AAAeSw35Fq6MrE&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9WMzq4%2F1iSr6riChmGiFUKxb02mSowXe9SvoTx0JozwHGsjteqVHK%2FGQuPZUA7oWxq%2BJNmTfC0D4jfQrdII14dD4Yu0Scs4xEaJp8tlFTiR%2BIv%2FazSlcbv%2BdKiyrINau6eawv4ukSVLyGD9U0qlAUAfAIX9YGalF8pAV%2FfgKJONu53x7rlS2RoB9wTrDVP6tQjfspUefGf%2BJYbAh%2FjZM6k3boqvz3THCDEa6MNPcUNbcfhDHGunscdTJEboLoIUbs%3D%7Ctkp%3ABk9SR4ydrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940060322289"
+  },
+  {
+   "title": "L.L. Bean Cargo Shorts Mens 38 Brown Canvas Utility Hiking Cotton Nylon Rugged",
+   "price": {
+    "raw": "$18.95",
+    "extracted": 18.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398163224562?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SBAQHYPQ3M3V0SGNWA&hash=item5cb460a7f2%3Ag%3A4J8AAeSwLrlqUVxg&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8jMBJ0TyWBVKWZDzgKsz%2Fs%2Fkhl5P1vK5Gt0Tu96E9w5kMS2eD9MiNJixV6ZWs5K%2BT26Ac%2FwrA1bpoPN8x0qVvnWDVDZusDyW%2BuB6kCIF2%2FUrPleEvIt6TDPVjkFcSt62J8E8dIZoj%2FVM0i7fCuwYwfictjtem474R80kmbifPh6j9S%2FsgdBsv52KMAFsZkzNcex2gGk2Iy1AkKl5mnu5rFV8XMHS6%2B3sAtaggEmgEX2EcKGU%2FPZHKGlXC2kMmJjwwcWFRq1rxNBIgxQZXhPjxpaKUG1zZifBSqwn03iBtMWg%3D%3D%7Ctkp%3ABFBMjJ2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398163224562"
+  },
+  {
+   "title": "L.L. Bean Shoes Mens Size 8 Brown Canvas Slip On Casual Loafer Summer Comfort",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840087180221?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SB1W6T6SGXZWPTA2XF&hash=itemc3991913bd%3Ag%3AESwAAeSwl8pq6Vzk&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BEks9rgsbXBUgG3fFd4SY9Os0ZFAsQAhaCBkRk9gcHTflg5QzYMCMzehLxbiJaZLTA1%2BsDvlglxS6%2FyAQCB7z2dqOiga%2BoitBnJmMopde0HPVtYDzk4GA%2FmBxwGfV6lE2UgVks4BZrk3bR4pCDdDnId0Pm1aGEy55OS146oUJpBLZXOR1c0V1xqQZHjj7nXKZxwYQtlzMyuFnW2I%2Bk1Jqrz644QN7KyN17Jjo%2F%2B27FL1MwLx2bmTYDiAfPto%2BcAeucCPG74Y9EGKkOG6dgoLL9Q0dYn%2BdNIvULs6P737%2B%2FGw%3D%3D%7Ctkp%3ABFBMjJ2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840087180221"
+  },
+  {
+   "title": "Vintage 90s L.L. Bean Brown Canvas Carpenter Utility Pants 38 x 32 Gorpcore",
+   "price": {
+    "raw": "$24.00",
+    "extracted": 24.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147655667985?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SBDV71BDT1BM2HJE1H&hash=item2260f6b111%3Ag%3AzC0AAeSw65tq4j43&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FWfZjMMNN3KYNRuH52yw37kGv%2B4OToPvRLXrMFssZ3VGj2g3lcDp4OYWlYotbDKVTDmSjh30g0BTvAK4R5qEp0kbP0ZnQZvAgxtdGyS%2B6Ob0QbwvKqVxWryjFyVa8W1uAPiFWXqtY%2F2R7SXpo4ONSJrJwcGQJflWCx1GBxzWvJMDZPgPYQzBsEqsvzAPlFCslZ9Q7NZYiMd6cpdHDRgNvq2SZG7DfSFWJL5cdP%2BCH1%2BwU0vzdMhcA6yPxeCqRbJNNbraxcT0SysWQ3FS5n%2FD3Jryt9FPW9OjA%2BL9cPJ0DLDQ%3D%3D%7Ctkp%3ABFBMjp2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147655667985"
+  },
+  {
+   "title": "L.L. Bean Signature Slim Straight Fit Canvas Pants 38 x 32 Brown Outdoor Work",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137510661438?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SCS292BQZ6XPGC9CXG&hash=item2004462d3e%3Ag%3AiTkAAeSwOk1qVY85&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Bc9XOMq2pS5cByC6lR7Ya72f6YCJ6HxfFUrnUxl53JLezvfLF5R6i2I6pXKcMT2hZYrLCvsb5bRsQ4hwb6dSRt5hqbELz%2FQZFmzV4POHeIX77U28OfxXub%2BG%2FBN5AXoaGAvN8oE3Iqwvs5DffUBdrZVhyvcnj9JWypDDAMWZlzm5NKfUg%2FoGB1hKw1HWa%2BNvaUPMLrdv1gUqKOLKhuPEpg9E%2BzI%2FCBhveT1rmpGmR4nVcA1EPDHtomQ%2FyUSpQFLZd6IuXiFcGm%2FqvXh1kEQOrWcUWX3Pprz617hMJlCxNGxw%3D%3D%7Ctkp%3ABFBMjp2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137510661438"
+  },
+  {
+   "title": "Vintage L.L.Bean Men's Brown Canvas Fishing/Hunting Vest L‐Lake Decor Display",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/189039194343?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SCXFR969NP6D02VYBN&hash=item2c039d30e7%3Ag%3A%7E9QAAeSwrz1qwZPG&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde93nbHHNECBxh3egDcjMy3ryxHqm7cQNiQqLnmNOTfF68CBdhnIOQ6jlqZuDfKQgeb5GL68HwzoYJyBdmhUsVVOxZAULmXm8%2B5c10BuxvV7xz9w1t1dolghpIxfoeIERJmi5F%2FD3goqQhUouNOFcXOOd4ThDgoEl2OpzKMx75vRkvC4vVsGyHDHO0s4Ueco8xbC4vIgbMzNS5GTyVRyFXJenCQg8ygcfVNEac%2B1aYUW6dQlhKQUWAQb6%2Fh%2FXEMsTvM%3D%7Ctkp%3ABk9SR46drci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "189039194343"
+  },
+  {
+   "title": "L.L. Bean Belt Mens 46 VTG Brown Green Leather Canvas Loon Embossed Brass Buckle",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257813867592?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SC205PT87QGH2B1X63&hash=item3c06e76c48%3Ag%3Aih0AAeSwOE5q26GP&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BqFGpMxO%2B15ql9TEEnt4jUYRV6dzYfXm1c4TpQT7CF%2BxiL5EH1Dwx3TVgXjd%2B8WNQe7dNSqF%2B2qOst4qUgOLl2bapLhz5jGV028MJAmQXRe9L18lZtNCCUFqiZ7Tij1CBBOqvjY4CpWNhEDEzYUCfNKgmK2DIpmHXvChYkkjuRAR4XfqTr2lSPbED7eKph7Dmnj7DJR%2B8nTqs%2FAHndYhCuTWLUwXN3DqCcDus7uiNFgE9GlgAK2R%2Be6CY6qulGfbpu9DW6OWgbMlQfiM5er6mAaZqAOcFwxZOblb9omxqljA%3D%3D%7Ctkp%3ABk9SR46drci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257813867592"
+  },
+  {
+   "title": "L.L.Bean Canvas Blazer Jacket Mens 52 Tall Brown Field Casual Sport Coat",
+   "price": {
+    "raw": "$39.95",
+    "extracted": 39.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407320624565?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SDJAXQ5XATV241RCKP&hash=item5ed6337db5%3Ag%3A6HwAAeSw8bFq32TT&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BNU4A7KU1V3sugIZbRSFin2ERYmwASKpp5m2ZhZ%2FhUXNv9ilIdW5hAit8pGzLVNtH2wiO2UrgOO2wO7YCe2VxtZmg%2BMx7NGurvzq7SnuYzp3%2BH3ymBBYfRpHk2ljIMqeqAGJ%2FsFpA5nt238DWDOElVCxLejaAErzcMey37zVIGgwCiMS%2F0MZ7wnpB4Q%2Fxn9B5wTilSMI1jBrxM2iRnf9DunIvHX2%2Br2hrMubpUdpN43V2k6A5nIhzLBK4ciPwZYomFF0ami1KayWvCB0iDSR41NRGxSiWH%2FW5Ui543W1ElXA%3D%3D%7Ctkp%3ABk9SR46drci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407320624565"
+  },
+  {
+   "title": "L.L.Bean Comfort Waist Brown Canvas Pants Mens 35x29 Straight Leg Flat Front",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147660202395?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SDYKDTWX4S8JZGBPTE&hash=item22613be19b%3Ag%3A-1gAAeSw1Nlq5qt9&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8cE287Y1xzEEGPJNzRs3jKSsEGu7%2FFjs%2B%2BZjqF21ofBz0TvoaSl4t3K00U09rkWag7cktHOiPHur4grwxxCvQ7%2BSY%2B%2BqiQZRtfhQef17jhjAqbRFN6%2BNMDJ5knnjKcS0uQLaW%2BmVjYCyKl3dr8eMiqm%2F1mO4oYxr%2FE2maP5MjY9GfO462vnMFYpivICU4fLzqJk7odT3JP20pKrrKu3wYaTSyhKXhK1yKRllRjyAsfCBCCnUwN3kV8Uk6CfqRR392eoxpBPmY2V5wdbXlGnA%2FKPFJ81Hk%2FDK5mZX1TP7xq5Q%3D%3D%7Ctkp%3ABk9SR46drci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147660202395"
+  },
+  {
+   "title": "L.L.Bean Waxed Canvas Leather Crossbody Bag Tan & Brown Adjustable 516285",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366670957742?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SDWM95ZCSTX21WF94R&hash=item555f4accae%3Ag%3ASrIAAeSwqR1qqWed&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8do%2BY5TWELppiSAACh8C%2F2Xt%2BSL6dEWbTzTPMfy1ucXlPyIvAjBHhHryYn5mntsaO9L%2FZ%2BT2Lg5n3qZZ7p%2F0LUQxzU5uNcNTJNn2KY6L%2B%2BYQpSFz1Von6dJnGGH6VAaIp0lPny4FzitrgtqQgrQOvsaUciwPxdKne%2BD3i2jwKlIxNocQTYbD7K%2BftqXbcrPQnQimPoZFcbHRCk7stGl5qEzvbVTFxUzxTCVQgm9HKNkuZ15hqYczyPpzFXbClbk7F%2BUn%2FIDbP3RqJchV5izqCpQs1U1wpz6Tul6LRP5%2BiuaQ%3D%3D%7Ctkp%3ABk9SR46drci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366670957742"
+  },
+  {
+   "title": "L.L.Bean Wool Blend Fleece Vest Mens M Brown Full Zip Canvas Trim Lined",
+   "price": {
+    "raw": "$32.99",
+    "extracted": 32.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307255900357?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SD86M3WWT1GCHQ3XQC&hash=item4789e0f8c5%3Ag%3AaB8AAeSwQPhq46QJ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9n7eo%2FHuUR1kT0Qhfawq8PSLXPrqIn6Xzav9a2WGdBYsZqK%2FT4im7XPtwhIDmgpoU2wXiQ%2BAX9wHH1g9wR1FC1V7NB5vDfsn%2FBVS5a14wK2MHf5oQGPf7RfwSFLqxyGY0qWto10hbAoTwduZzhKv4HZmylh3qR45w%2FSrupksuf0fo0wOV8U2wx1JLrBgqaDS%2FK95rKe7DYOXuVGqudwHxgDlLeI8rBVquFIr5%2FYqnD7ZCbsCCn2LCqe1%2BvoqsXkzw%3D%7Ctkp%3ABk9SR46drci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307255900357"
+  },
+  {
+   "title": "Vintage L.L. Bean Field Barn Coat Mens Large Brown Cotton Canvas Lined OJV93",
+   "price": {
+    "raw": "$119.95",
+    "extracted": 119.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307228331838?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SEEPEK9BDMDKAV5GKN&hash=item47883c4f3e%3Ag%3Al4kAAeSwCIZqzZBR&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F2yexb5adEUuemEqa4vmySxsfDM4z6EQIOxqigOMD%2Fi6GKyDM%2B2NtJIUcJ3FN5EDBjY5H8Cd1quc22q%2BtwnjbkFt6XzbLowScUpvpYGvg6s7WW3q7d75eUHCFuwoOxAIKuZ0WPcPuQQ2r9cZtR%2FWfWbq2TckelBgOoCtaBR83vcU9BP%2BOvDcWm6OMuua73sYqAXI7XGcgxsOAR9K49Zn5XAPJXeNJRfT80WEWcxuc4p120WMdWXPvMkdLT7LnK1OfwaCJhCtqryygZ4UP6PQC7dt%2Bt4bGOaHY6U--GaWS4hw%3D%3D%7Ctkp%3ABFBMkJ2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307228331838"
+  },
+  {
+   "title": "L.L. Bean Jacket Mens 44 Short Brown Canvas Military Safari Utility Outdoor",
+   "price": {
+    "raw": "$45.99",
+    "extracted": 45.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336747116126?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SEHMS1Y47MSE9XNP7G&hash=item4e67b1365e%3Ag%3AzdUAAeSwoTxqeiug&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9rUQlAorhjVKsVFfa%2FCGPJdcnLMH5b8nEGPyvp3N%2Bf0F0wkBjm%2BapyiKV5COQ84a03MyEcQm876xl3TRMfpg%2BKF3lzmrvelQiJ3NmI0sSTFCYN9xzcveiwsozHlSr4josjY1%2FHZXfsXQd4vkEApUIdiB9A1%2FtC%2B6sBJA%2Flp34wpz6Gm%2FAwtGqZ5bg6nYXJ1GOyT%2FAnHGIWjO77FylluS2NtpPXzCWVDWm4GQ3fDh1ZiDVfQT03cbjSZb%2BXw17i6f5mJD8t%2FdmW65pqp1iXJDfu9jYDeqsTUeQJV%2FJRP8RSZQ%3D%3D%7Ctkp%3ABFBMkJ2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336747116126"
+  },
+  {
+   "title": "Vintage L.L. Bean Canvas Utility Bag Medium Brown",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377606854263?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SEB6BN0B3VQE6JDQPZ&hash=item57eb1f5677%3Ag%3AK1AAAeSwNBBq49HQ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9iwGbz68iikKY3dsNf90I18aZOucGnvpecluLcBJH0Ia%2FLBLZyjTyaLFPsQtJZM8%2BBQlYNNybUZYWG3xa9I8fRQ16tA%2F6x%2FikZbAf1yWGlZCr0r8k%2BCTZ%2Bh8cx8A4EepnntC8wWxbylAoJl9rF%2Be7GX6DUdA0Fbdymmsr33cBza1rRu653UJRi7wmqsfFS8yPVjqHIuf8urm1%2Fshhg9OJ9CXMc4V59e4G%2BGemJiQ4dz2xn54m3laQs17umptemFvf%2B5QvUb6g3xZiQrqLDbSjwMefYT907rC7j2MOQbw6ZUQ%3D%3D%7Ctkp%3ABk9SR5Cdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377606854263"
+  },
+  {
+   "title": "VTG 80s L.L. Bean Brown Canvas Wool Blanket-Lined Bomber Jacket Mens XL Distress",
+   "price": {
+    "raw": "$59.95",
+    "extracted": 59.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398088989400?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SFWJPSBYZJJNZ18NJ1&hash=item5caff3ead8%3Ag%3AKVQAAeSwYkxqNgAk&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8HzNY74rDKdBI%2FBBWwtqwUBTzRAItnKoz%2FDjil8kvhA9rOHexFHlIas9ipYj2KaVh5brrl9iNPMkgmGmKgfww621qgPGY%2BhTlCsTB%2B%2FkM5GUPwmYQh0Ed4%2Bg6c0lcbjHq73kc3%2Fn2L5nAYJnJo3XgnGScM%2F8j260TxlhA2tKFoNBLnJw9eR3b%2BeniYmQT3naU19Xq2OvB6RLbjcncmOisKsetBugZ5WkseUP5jk%2Bcjs8yJcHETdnCjFM30%2FzcuG%2FE%3D%7Ctkp%3ABk9SR5Cdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398088989400"
+  },
+  {
+   "title": "Vintage 80s 90s L.L.Bean Canvas Rucksack Backpack Brown Leather Trim",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206615451462?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SFG5RPFEPKPHBK9RN8&hash=item301b3d9746%3Ag%3AiNQAAeSwufhqyakQ&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2FwvKRfZhaaxi2AWpgtBYlNAwEPl1eu8fRYecz4D2EVlyzYLMj4uF%2B8Uu%2FRrf6bWcfV9T8jwK1%2BTKp%2B7lH9B2qHmcnGgDgs%2FIT31deHoP3SCQZMPH7KYPLixkbD2AT1yFoOeRXIyuTaX43TOtUIkWZk8pQfnpz5cyT5%2FsfZuDFk9XFCjm6WzPXLoEpC1wnc%2Fi%2BVFcDphKRU9MMFpGA%2BPnplQ%2BKQ0Wgrt8xf5HkcHHT3qt69raj2VIfQQ4WUDbK9BG0%3D%7Ctkp%3ABk9SR5Cdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206615451462"
+  },
+  {
+   "title": "L.L.Bean Canvas Toiletry Pouch Bag Zip Travel Cases X 2 Khaki and Brown",
+   "price": {
+    "raw": "$24.55",
+    "extracted": 24.55
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940069238184?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SFYJTYQB68GNJW6JFP&hash=itemdae07e35a8%3Ag%3AD1AAAeSwYbJq5kgN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BHYE4OFWq0SMG1OG3lC1%2FdNprDQM7ZnR8oM%2BP6ef1q2pHQUYxZyOFUZMAA%2BENwLg3uLH156AUasdjZbQy59k0U0FcDCIazublQ%2Fii%2FY6rcuuwH6B4y9bZhPf0jOuRMbBMxOzHdmHvpqXKRCdcI%2FYb7tUyh%2BMBWuSUFDm36oZh6GrAn4a6jlndpvWTNKrQj5VnB6st%2FGqKRDbDU5ua7xcDbvEo7QCUNvlIKYRL1KoCZKAAD3iVbmPDwauipi1p1n%2FeFmHa2dVvO5clhOfTCfTskDQRGvuUHe1icqa7WTWPofg%3D%3D%7Ctkp%3ABk9SR5Cdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940069238184"
+  },
+  {
+   "title": "Vintage L.L. Bean Field Barn Chore Coat Lined Jacket Brown Canvas Size XL JV74",
+   "price": {
+    "raw": "$80.75",
+    "extracted": 80.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127773523984?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SGENYJGEQ96FS8C4AW&hash=item1dbfe54010%3Ag%3A%7EowAAeSwaO1pxdhe&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde--FAOjXSgHJan15M3S%2FxqhcT37kekztRCN%2FozGMr2Z%2FwaOxSayveYMKKi0Fv59x1Fr%2FSM6q2kemM0Bbl2c%2Fo1wa4C4OyexRyifZ48YZtWFa%2BeVT%2FgWXz%2BfjVE8ksXy2yZOlHX4PTrRiVuXLijdHDcJ%2FTusEuUtFtFsadM81zO9ajvXCkoVw9h2tlljlDcdxml336a2Iyz3G8Gg6Hke8BcPcQyGBrLcSFp3T%2FVrrOMb33nHoPvh9fxDLNMKahAp%2BUY%3D%7Ctkp%3ABk9SR5Cdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127773523984"
+  },
+  {
+   "title": "L.L.Bean Boat and Tote Canvas Tote Handbag Green w/ Brown Leather Handles",
+   "price": {
+    "raw": "$249.99",
+    "extracted": 249.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237149248226?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SG4C1QBSGXGG6J1HD6&hash=item3737325ae2%3Ag%3ASbUAAeSwqnlq4kVQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8PqWi8LFTxXwvABqcJDibqzxn50dtzEgVUXfsipyBRTnwU%2FGoDS3BSLdtJ6QjOXwsx2RaSm%2FqtuUSWefmw9bZAKi%2FQWoE8GDIRlch4f2OHa7Z8CauqzhzYZfxpEbBQZR4j5gq%2FfCCuJ%2FLIfZS%2BuxDCCGYX5XjG%2FSKHgZKXMbN%2B5arYSB%2BY83%2BNJ75ZbfeiuThsPsm8ZOHI8xfpUi%2BgWEpTzEgaofPXZEMAZ4IbNU3cEFifOdJNQ%2B7YawQIgNOHgjk%2FZPqtvbNxmWBmWY6Dp8GD%7Ctkp%3ABk9SR5Cdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237149248226"
+  },
+  {
+   "title": "L.L.Bean Women’s Petite XL Jacket Khaki Brown Canvas Utility Field Coat",
+   "price": {
+    "raw": "$15.50",
+    "extracted": 15.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407225356345?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SG2WR2W20NQBFY0RXQ&hash=item5ed085d039%3Ag%3A99gAAeSw0l5qrGI%7E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2B2w5hKH4EuJbRgEjIL2alglsYw%2FurVjE2HH1iVSJbhEYSTM%2BcR9dbSefPEf1AWGchF8K0rJtsUjq5lrWt0irM7AMxf%2B4B%2B7djYvA3%2BzcE3HiAXmjRggD50%2FTqKcEp5JW%2BqL%2BzMulrfypez6GLRslpCuxQg2Mee%2FAXfIXz1Zs2Nt8u0vjkDtsbukRSC64RtCZIbiwP7JNFHnfFNxtPuMcKyXeYBKqxVS87SpWjulsTSqSB2hKVguFqpFNjnrVVBqQrjNXAGhgvQYM0LuZQMRRtgRwqQxzZv%2FO77tbdXcSR%2FOg%3D%3D%7Ctkp%3ABk9SR5Cdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407225356345"
+  },
+  {
+   "title": "VTG LL Bean Canvas Leather Duffle Bag Brown Green Freeport Maine TALON 27”",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820305081711?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SGDSYGEHNS1DCAQVGN&hash=itembefdfe356f%3Ag%3ABBAAAeSwFBtq5%7ESf&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8B0doHCOlXXZLue6C2xhBkohhe6uA20EV1jBCvW%2FbKQb3%2BvU%2FrR1jgkS4fXdeg%2FJhNhQYI7qyoMCWUEjwkCt%2BLlDE0dmiAua%2BfgWR57NNzLFHU3ZAZubyjhU987uUon%2BNN6cBuULC3sQjGw%2BTv9ArasD4RVrqyp0Rw6PNtj3mw%2FZgofEn9ryZR7mLlGwjezhaMeA2h5MUbvvmM%2Bub2%2F2Ni48%2BmsU4x1etvIGfVDv1BS0YK%2BRDV2u1JzTrhXYrnqlwZ%2FD8zPUhEqMJ7nl9HPimcTTiAjlfjcVfqIl4NPiREkg%3D%3D%7Ctkp%3ABk9SR5Cdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820305081711"
+  },
+  {
+   "title": "L.L. Bean Men’s L Beige/Brown Canvas Chore Coat Corduroy Collar Lined",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198755326170?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SHTPGVKN2F763WW3FG&hash=item2e46bd98da%3Ag%3AYYQAAeSwGV1q45pY&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Bb6YymXD8QXE4gxnN%2BElCe7hixlUpxX%2BtybpbH24VesKGW%2Bho%2F7J%2F6E7DqSWUEpuJ%2Fu8uS5fHqFE9mWBgPAtlEpLfAplo22EE7jQudm9vDp22hdJ9I84uZNYmxOTRq97VavSGReGWouGkEnFCGlNaAtXig9VGlk8JMHYb%2Ftqe5i2iUo0hBudPC12f5ESZlrG7meZrrib0LzjPmlxallmwQllVo90YqjYS1adpZzyEh96rA63MVGE%2BRfIBegWqzapc%3D%7Ctkp%3ABk9SR5Cdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198755326170"
+  },
+  {
+   "title": "L.L. Bean Duffle Bag 1950’s-1960’s",
+   "price": {
+    "raw": "$260.00",
+    "extracted": 260.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880061340768?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SHDBZ11ANKTV8CW7NG&hash=itemcce7be5c60%3Ag%3AsXsAAeSwOXZq4zN-&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8GbBmaDV1%2BdMI67n%2FMq2Ir%2Bmgnnep2DhYNPs1uNsbdisjDnpbDHLxG1A1h2sbW6901%2F6tUMB4W3s8vDm6KIaKnvz4bDaa0ec5Q%2BM2%2BVpAGieV9B4EwApZQu3Y%2BB%2F2EX13yaXWHh2quNUXgICh73l2%2FZ%2BXNcS4SF9a0AWowg6qtNBW55NTj%2BPkgbvoAC%2BWLal3oxR9%2B9VEqsmDRqh738lUAFqJ4H1%2BeRbR9MeMz1wQmel7LF%2Fxx6L0DAP8j1HIQqwH%2BtUj3aMnueANE1hiiSuOyd2OmXdzXVxv8oIpsP%2BmlAg%3D%3D%7Ctkp%3ABk9SR5Kdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880061340768"
+  },
+  {
+   "title": "L.L.Bean Double L Brown Canvas Cotton Workwear Pants Straight 36 Pockets",
+   "price": {
+    "raw": "$38.00",
+    "extracted": 38.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168674421361?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SHMK1MPVMH19TADGBN&hash=item2745c76a71%3Ag%3Az-kAAeSw2FFqoJFj&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Fl4uzzIza0cVMqWGlKPvuoZISYUBzTAmHOpTNJ435ptl0NGQk4CzGnHjqmctPcAV8QetiotvqyFCVeKmTA1EveMTrR7us1eTrqBa2RxrIlqgGHRuHjAg7EGbfZxufDhcHazqWlSw3aXCcKmRSpQgWRci0bOuhzzSsDrQJ6NoLcIKbQ87MNVoGEx%2B5q6xV8ITWTNbZLvhFbJDcF8TesS9sKdTYPdmH4mcWRqZzWBh0frqOCUT54lfeQxz%2B0rGzA74o%3D%7Ctkp%3ABk9SR5Kdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168674421361"
+  },
+  {
+   "title": "L.L. Bean Blue Brown Canvas Small Utility Hiking Crossbody Bag & Change Pouch",
+   "price": {
+    "raw": "$18.95",
+    "extracted": 18.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/189006820242?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SJBSDPAY36R1AHC1DT&hash=item2c01af3392%3Ag%3ArNgAAeSwXvtquuir&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8YdNm%2BIOCurXy77DXSB0VfA8kHrxdxpn%2FBXRjyfnNA24jaX0y2P5nXj9Nwp83tDHKfDIwoqSNde7JDL969PXUhvPEe1di8LqXUmb2ERWh%2FzeP0DKiKChXmPbFSV%2FEoSW2lEggA8AFoStXPsECjVTQOB9l%2Ff2HxMpLfgEylsHV%2B4dnD9%2BET%2B1h3IceAWgSBZ3WhSAgm9PsMjLdjjer0s%2F%2B9m0C6ZxYvC4SXVtFtOGm0VnwOZdRPYciJSYnZUAAkJ1eVqgALbOQsXYiJ%2BIQqbdGt5b6F5H6iQyepQO5mDbviyA%3D%3D%7Ctkp%3ABk9SR5Kdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "189006820242"
+  },
+  {
+   "title": "L.L.Bean Green Zippper Tote Bag Embroidered Duck, Inner Pockets Key Holder",
+   "price": {
+    "raw": "$299.00",
+    "extracted": 299.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147602840462?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SJJBHY5NRMH4VXYJB3&hash=item225dd09b8e%3Ag%3A0xEAAeSwzpZquSVa&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9KIkrXLy6Q%2FSqGVpxOhe19hBk80f%2FRuFDijvP3wG0Uhac99GYyRZYQ8Z%2FqtZUHJXT2941D7qoFBnhmebp9faczYCxJ1gidUuhdXIN7z7Zcf%2BOXYo%2Ff5TvlCHRXijDlWgpAX6YK%2BGi%2FooFM%2F6LGNku%2Fom4%2BpVquKMaZPhBcyyabjTKGmiKh5zW3L%2ByZhf2XsC6Jb1Lj7%2FoQE0a9q9mqY3JeWr8l1YSPNAL5jeiyiqNgPSHP6x9ftwWWXBwGSfV%2FJHwCiSaDE7KhmuVUjS6diFtdxIuehtTsi%2BnL%2BHEeWB4GcA%3D%3D%7Ctkp%3ABk9SR5Kdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147602840462"
+  },
+  {
+   "title": "L.L. Bean Chore Jacket Mens XLT Brown Canvas Shirt Jacket Flannel Lined Workwear",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840007634190?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SJWVKX8EVVFVC11E4Q&hash=itemc3945b4d0e%3Ag%3AFb8AAeSw6fpqyoVl&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde84D3%2FnSkTQJI9LkbTOR0e%2BXbPN3pA2R9NuKFz16qQoKm0ZAO7VIgLRNHBvWm6GjAfmc903Q7fFWaqC6vNG9LsF2tOPG7N8%2FHMA5F6JDqHcmUs2ZvdYdejdp7JB9%2FqvqB%2FdUkfeiMDkdyUTpq5BLKsxtBI3AlVSpbKfi8%2BxpoULrZdlkS1US9xPN%2FUdsKq8skJBCLevP4pKZKMLuof5tgkq14kKKfoGGRmWRJlWYOLp7Ywi6q0myqrmmwWRvrxqDn9onrGtQNdHVkZvJJwVbVXDxrkETPEoF7kCcUhnCGOBGA%3D%3D%7Ctkp%3ABk9SR5Kdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840007634190"
+  },
+  {
+   "title": "Vtg L.L. Bean Canvas Rubber Moc Duck Shoes Size 8 Brown Low Bean Boots USA Made",
+   "price": {
+    "raw": "$41.95",
+    "extracted": 41.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287610534393?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SJQMNXMXWBXTHK50H0&hash=item42f6ec79f9%3Ag%3AY1oAAeSwVUdqt%7ErM&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde8lbi4Fda1a7zPiCY2O9tzZBm2Gue8bYvFh8l9Sg%2Blh5d1yPmrdgNqjt4XNl2%2FmmtbvLkbOq1DOT%2FBmCn8nVqJQFctYKRzMXECvcoCDyBQEREJ%2FdnIVndWg%2FzPmidn%2FfC9SDqpEmMIXMsrrzo1OoWCC6Jip9IfD%2FJWlociOGHDMAoHGfxLKi8yt9PMKkJaTKMXhidgzwiEuXOXiEDHf7m8xWr8uQwvECtbPgxPQVQAXGQDuExu5g1tP35lv6iHzgN0%3D%7Ctkp%3ABk9SR5Kdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287610534393"
+  },
+  {
+   "title": "Vintage L.L.Bean Boat and Tote Black Brown Canvas Monogram EVA Made USA",
+   "price": {
+    "raw": "$129.98",
+    "extracted": 129.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407217139702?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SKBVR7BZGMM538TRH2&hash=item5ed0086ff6%3Ag%3AldMAAeSwUERqqI2-&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde93H3Jvm4mpc%2Be6qUp3A%2BTAHXNudGiEykxLkhvBjFG9Z%2F8CcrNM8b9PlYeMDFJ0DYda8nYWwKngPYmFGBzXYx%2BhC7tU%2FEfLKJqF0OHbdMUtNlMznCv7b4e7c62jApexTgKCTeGjmdG19lLIWqE0%2FlE5M0PmAzlymEUm9jAeZfDHzOwaMix%2F3hdbYwQEEMQ5SGeo4ePFfoCCaifXMeNEGm4yrUCji1lIfxaB5y0v%2Fi2gQydg3fELLdYNqjZiRaCT42HdBkY5NsGvUtk2HOpJIES2duqxS80QZtgqsVOd1yc%2BLA%3D%3D%7Ctkp%3ABk9SR5Kdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407217139702"
+  },
+  {
+   "title": "L.L. Bean Boat & Tote Cream and Brown Canvas Pet Mini Tote Paw Embroidery",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840029062320?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SKVWVDSJABAWHCYE29&hash=itemc395a244b0%3Ag%3ACicAAeSwvy9q0tSP&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9sknb4yZjS9EL3UVCJtVxUH%2FCKIl4T1UXxTl4s2JWh4FjopUPw%2BLlw0lvpPCM1mxlf24pEA5d1zf1baaJJYlZ1OfNBL2glJH8Ae9jN55UZtztO6OZcbk3u9H2HBLB1BiMYGdcPLw5%2BSKCz9WpaROPIXiknCgcUfGZPFdZ9FfFUNtU4yrBzhKJZ4MmtYLoTBnzaFJWOUTu9oObTUwh7p9h8lzFbZY2AP1ctPP5oyYG3g5hkRhSQfjFFcKl7fR2Ywhq%2F9B3iX1OdIsfr7wRVa4xXKO6uD%2BhBMtxsuDShGPbe7Q%3D%3D%7Ctkp%3ABk9SR5Kdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840029062320"
+  },
+  {
+   "title": "Vintage L.L. Bean Boat And Tote Bag Brown Blue Canvas USA Long Handles 90s NICE",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318944953957?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SKK57ESQHY3SEF1PB2&hash=item4a4299c665%3Ag%3ALQcAAeSwt-dqvuV1&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde%2Bp%2FfV4x0Urp%2BW1ZxjOWFKdgiks4PuR1LLcS2yQ4RxdBUjC3VHZcPElHdFS3koTvaUuLs3ol9VYtTuv2U9Am4tHet%2FOtAWbzsQXcbA8uT0HXgaKUeSCYBcJIo%2BR%2Bc1%2FkPgKqduDQB%2B24pOpSGI0dH0wNzITGPvlCw%2FoWbiPNyj9s2hJ%2FoUqGIKg8SF0MT%2F9QFagwczRvdgqnikS%2BI2FfOZP4FK%2BWBKYwhTaht%2FiYfSPYvHd%2B7fvJQ94UFHk8C3THb0%3D%7Ctkp%3ABk9SR5Kdrci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318944953957"
+  },
+  {
+   "title": "Vintage L.L. Bean Field Coat Large Aztec Fleece Lined Duck Canvas 90s",
+   "price": {
+    "raw": "$160.00",
+    "extracted": 160.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168838842757?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SMJ43WJPSDM1JFV5FB&hash=item274f944985%3Ag%3ARDEAAeSwb-FpjTQN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BQ%2FD9mplMFJUTjc5raAvWCKt%2BquROldaMRU2vNi3yruB3oLRKACdx76rNowgk%2FXRNDu4C6reuF3Md%2BF%2Boq0nbCSQq0GD6%2F3rAm745NokzFIAyzvzv2HY3N04cKtAchiRU%2FYv%2BEye8vuYewg80jIkn1uZjnzrSb1WYorCUyU1q1NV2BfqKRplUDs4DSPDXr5%2BUicL4Wjn3yrT35hOCn4k4j5BRAVaE3nMFax9WykTHrVIHWpcnnVDIQrnwYlnG0LophC2h8p4w1AsPsEYSU9V4fsEyNU9auIV6MKxIHPBnC5g%3D%3D%7Ctkp%3ABFBMkp2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168838842757"
+  },
+  {
+   "title": "L.L. Bean Boat Tote Bag Canvas Hudson Bay Multi Stripe Leather Handle Large",
+   "price": {
+    "raw": "$109.99",
+    "extracted": 109.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880038750690?_skw=L.L.Bean+brown+canvas&itmmeta=01M6T8B9SM6DC5GG90GBQFQGAB&hash=itemcce665a9e2%3Ag%3AZkIAAeSwvPhq2Smu&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8lwGV5Z1JkZ2ckc7RupGsR26J5yYTLsnIz8lZa1%2Fm4znt0FS0KMrgpGg9AEdLtIZ7vx0pqpG4vuG8YGa%2FlJlORZ1zBLoU1KnrNtrkRSnIDjlRvZDM6kYAqkI9pjH0XTh%2B844kQT5qPCbVUjanuL5JUvy%2FCPTFuy9LfsxjzbZD5Yh4NqiC9tmW%2By14e%2FAyj4wdPKypIm%2B1W7%2B6RTzaQpLZ1z1tGmRd0X8F0Q0Q5GF8uyAYLJhnuNMWlCgdPwfrWJmHiPWXbjcrKvb6HRtbwzxQk5o%2Bp8lSXMIMrOTlj%2FqKCBA%3D%3D%7Ctkp%3ABFBMlJ2tyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880038750690"
+  }
+ ]
+}

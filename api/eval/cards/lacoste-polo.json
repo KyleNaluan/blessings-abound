@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Lacoste",
+    "product": "pique polo shirt",
+    "visible_text": "LACOSTE",
+    "search_query": "Lacoste men's pique polo shirt mint green",
+    "model_confidence": "high",
+    "color": "mint green",
+    "material": "cotton",
+    "exact_model": null,
+    "platform": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Timberland",
+    "product": "leather boots",
+    "visible_text": "TIMBERLAND",
+    "search_query": "Timberland men's brown leather 6-inch boots",
+    "model_confidence": "high",
+    "color": "brown",
+    "material": "leather",
+    "exact_model": "6 inch premium boot",
+    "platform": null
+  }
+}

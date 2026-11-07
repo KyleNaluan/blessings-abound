@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Nike Air Force 1 white sneakers",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 65000,
+ "organic_results": [
+  {
+   "title": "Nike Air Force 1 Low Men’s US 7 White Solid Low Top Lace-Up Sneakers",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820322200051?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R3XXVYV77QEMMCP8K7&hash=itembeff0369f3%3Ag%3AI8kAAeSw-Kxq7UXu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9b%2BixhGkijIVaXZVCZdsYk7MWmf6zQ89rYpYoRsDrVGRrcr59jwSMIR4mInoD4pj%2BurdyDg2kLOhrGWurjI8IsZSA0KiaIrm%2FVpdn8l3yHvM%2Fx0XACF16NXZduGJUCg%2BpUOwDKs6xjuZvUSVsC8VvfYMpSlQGASKWOYfwwXriqkCdlzHxx3eL5ogukhtQ%2Ff836E7T%2FW5co8yEuBUk8FVymzfeVXRnXT%2Br%2B5Q3VQhnD%2FTr3fNQfPQkSj7ss5KtCnf7dV58eFcPdBdNrqq%2B793vgSeYTEHSHpBc9yaKl2IK9btM2aeD0tNRZNnSU0jS7mEU%3D%7Ctkp%3ABk9SR6ycoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820322200051"
+  },
+  {
+   "title": "Nike Air Force 1 x Supreme Box Logo Men's Low Top Sneakers White/White 9",
+   "price": {
+    "raw": "$48.00",
+    "extracted": 48.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137909685742?_skw=Nike+Air+Force+1+white+sneakers&epid=25039798442&itmmeta=01M6T889R3H332RK6JDD0MYGEB&hash=item201c0ecdee%3Ag%3A4-IAAeSwQuhq7q52&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bu92NVa7y74HkaCsRiQzrMb3gufw4AX6cavKdL9NlWaPoNW91ywAB34bl0LSXUWh5%2FOekgPVcmjDMV6NrqJ%2FuZuO2q5gwsdFavhNtuVo4u%2FFfVZpF9S%2BfwbQ8xLGMiSJ6awUAp8GWdPJ6QYLGP2BwMwI4Enrl%2BbpGFwu7rfh5Hlg%2BPXNslQzWqcz9t4cbxDtFFWL4IGZWs0QLkWcka92SwsZGKYPkb9jiTXsUZxo1RKmR6k1oIsUTVSXo6K7QxnL1AAIyXam50myqG8qxfO%2BEUC4HC%2FC60F%2Fbe7V8QcF6kyCOMtS1m0X%2B6GvQ1CWjCk%2FA%3D%7Ctkp%3ABFBMrJyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137909685742"
+  },
+  {
+   "title": "Sz 13 Nike Air Force 1 Low CI0057-002 Black White Gum 2019 Men's Sneaker",
+   "price": {
+    "raw": "$39.00",
+    "extracted": 39.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960163499519?_skw=Nike+Air+Force+1+white+sneakers&epid=24039802288&itmmeta=01M6T889R452XE8JFKECN4DKS3&hash=itemdf8e344dff%3Ag%3A8GIAAeSwzylq7j8L&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F7rH13Hk1yq2AZI1mwRMPHybPxfRl9wuUPn3--lQsXzp2Gf7G%2F0%2BJJakCJYj%2Fc9VnKHTPfcm0qcwZBIYcjjacVvvBIgRxJYanK%2BM%2FbNNoq8IHtPNcqaaOBvYnrJ2vgBqG2Ux0SRnmrqZrZWAU7hD%2FzKxytvqUkhVPmG1zyz2QifEO0aTJNeEMhiu4HhMjeevN2TGlvDAb4eDht%2F%2BP6f41DeznrkS4Re3uCLC0jV2p2a17ELcmKJsMyvSkNAPd3vt0Uj99oE7D48RZK24Us5ugAvpyNAyfloZi7bSp2hoc2GRAW8ABBKCq2k3jD7XDJC0U%3D%7Ctkp%3ABFBMrpyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960163499519"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Low Men’s US 10 White/Black Lace Up CT2302-100 Worn Once",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147667994247?_skw=Nike+Air+Force+1+white+sneakers&epid=4060761999&itmmeta=01M6T889R4QSVRW30XWEBVP41T&hash=item2261b2c687%3Ag%3AbFkAAeSwpm5q7MWN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BV7Wac2D22owr2YnTk7So9wsLZHgt9GY08v883Ku77aJlEE9fupIrEnbQibuppuW5x46vfzCl8U0UG%2BZz3%2BIe2TeTgaN14rtZJL8gHWCZSN6T3KwITJNGq%2BcMhcIrGNYDETWUHBDerY7elhAcQvmcP3lAgOZO4Y3XL680gEIs%2BAm5mpj71NnX7TcKA7Jzvl9mGJ0YGV6pdcP8a0VIvGIf54YXYZ9JEp4y2VL5J8PdvzvczjSyqfAmkEgzXwnU613zwaxFw%2FSxTCwLrBptdDjIwPXb90pgYcR58nsQck7xWSuMcEc9%2BiMkzyYKIUQUZpxs%3D%7Ctkp%3ABFBMrpyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147667994247"
+  },
+  {
+   "title": "Nike Air Force 1 Mid Top Strap Sneakers White/Green/Orange Colorblock Men 11",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206681231623?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R4FXSPGEFCJK28NTA9&hash=item301f295107%3Ag%3AFZoAAeSwcsdq7nlA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9kW8hs1o9YXs5QgQmJJlkVDTvMv%2F1kwX8ru1uvPHNKJo3B%2Fp0nTVzrgPJ4a%2Bxh%2BDMVvtMrnbhsygjXKP%2BoIV7mriLoyhJB3kuxP%2B9ikUH4yipEAOxDOTHfBRjsNITrkQCZ9dujOij1BPrdLB0hpXLCd8vgMtCwaVm9WJMonl30k4eiZr2%2FX1D%2BdSKWgpfXwExvW%2BM%2Bd94eFam6lIPfakpxlBHz2pIZ46ap2M%2BTYuKngexy0k7efFMqPUAUileq5rnPrZFay2KabM95Ogrn%2Fl7D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206681231623"
+  },
+  {
+   "title": "Nike Toddler Baby Air Force 1 White Leather Sneakers Size 4c Triple White",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900072186162?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R41PWM7NWQBEP4ZF07&hash=itemd1907ba132%3Ag%3AIUAAAeSwfIxq7rUm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde87oaSq3VXfjxrSh%2B7qPM3y59Utw8cnYz2u2fPwKYzOUf7ofndF75jAsXoCueUW3aJ0ZWNQ4XBez10R%2F7b2i39%2BtUkp9vxIky0N%2FBqbwARTgYYiSBBUaUbyqLYoCaI0eo8m7MrBYiqK3ZyKkRTaZUNiFgoXkpRZQs5qXSUQr5w48V%2FnQsvvjNZNqcfNAYZAOnFBMjEMoTLYdWdSK6rr8HKuwrVW9uLtr4QDQ5uSwA5JzrExqH5trO8rvfpFVSB%2BiHmjs3SaZBgKVMh6te%2Fh%2B5VzSNqbFO4OEvrQMAO6ONE4wQs%2BAPW0JT4KK8G2s06Q9Dc%3D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900072186162"
+  },
+  {
+   "title": "Nike Air Force 1 Low White Lace Up Low Top Men's Size 10 Sneakers",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860120091654?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R403490S2WYE7K44JW&hash=itemc843270c06%3Ag%3A3osAAeSwtZNq7lJC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9PKYk%2BkMv5NZCHiX%2F2T69ZyQvTP%2BdniwFo9TNTOHI2quwfnYACTzQA88MajzmZw7CIx31FAIT4n9bxoAP9Wz0082CvQrEiYvec71Y10LIlzRspUEcLIdDX0NeqU6qARPPXxxaI6Ps9dAdr3uiMLnMjOikq6cwNu55OAz6xVCYy1dLKJx2WQtCdVQgQyyviRbkHnyHIZ48nP%2BAoSJAqj9B8qJTGJfvr6dgc4QYWn8h%2BKIANwJ%2FK1JuF81AwXOa0neJnMZ3IJKdlRhqpjxRbehpm69Je7crXZiTSHiBqfUh8xuylvsBqfJe%2FN3g1ovZQ7Uk%3D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860120091654"
+  },
+  {
+   "title": "Nike Air Force 1 Low Men’s Sneakers White Lace-Up Logo Theme Custom US Sz 13",
+   "price": {
+    "raw": "$500.00",
+    "extracted": 500.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336882157800?_skw=Nike+Air+Force+1+white+sneakers&epid=6045100538&itmmeta=01M6T889R4GC97KWGEWM7R7QWV&hash=item4e6fbdc8e8%3Ag%3AxlIAAeSwo6lq7PFh&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FKDR%2F9%2BOgr0lSkSN0bx01yRnXuHrKqzoXRWNsWzNSK44FLFv8YKser0qxjk726dPUTAZ0ASBI0IamT8AWqbw84uqdVlZEDy6lEWLWT8X2r5Z%2BYAU6xXOXPmrL12oDUchsDRbg83diMFxw6DGwIpyBiBV6Ey6VGy%2BQsJwq5g%2B7BGLqixDCUH9a74NB1ud6YNwxdPti8ajPxpMsOfUHkur40pI0BjXrM8HFLqSwb5V94BpOg7gqqLBOF5POyp0v4VpooYnqjPaVDq%2FJr5pjB1uoM%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336882157800"
+  },
+  {
+   "title": "Nike Air Force 1 Low LV8 Sneakers – Youth Size 6Y – White/Grey/Volt",
+   "price": {
+    "raw": "$13.00",
+    "extracted": 13.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206681002028?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R4HCYDJQKYGEAF4JV5&hash=item301f25d02c%3Ag%3AHX0AAeSw-YFq7l2p&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BGDezfigTZ8cstP%2BOjJ0j8YiKhQY8IHjQJ%2FYrntmH3QgxNklUCvTuJGEF3Xb62xTqYWH1XJeowRRXp04d5%2F4xH21YRVkJFVSXD%2BhH0p6BlFXJY6rAVc0ExjEq7f05y52MlbM6ZdlEyuhY%2Feu13aDbT2p8wFH%2FoS5trfDedngrFYYkyfgTIp%2BtXLhYvuJioMlytH3LzVumYOCL%2FqHZyDACJ%2Bifc43i6ENZqJP0J1XVVV63AfhbVM%2BqdmSXfTKcj4ykOVZP7nBqRZX99Vb6IvO05bjBGU%2FmY0K4svd9rIe5GMZUdHVYG96aDxWMbUSRqHjM%3D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206681002028"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Triple White Low Top Lace Up Men's US 8.5 CW2288-111",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840102489291?_skw=Nike+Air+Force+1+white+sneakers&epid=19060770724&itmmeta=01M6T889R4BZ0S5BQ7VWME8T5E&hash=itemc39a02accb%3Ag%3ASaEAAeSw21hq7o3k&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8gYHEE%2BkrEZznTBTUDB3v0U0YuzVBxoUGaNUJ6C4j8Im3EOlVYXZqDeV4yEEfBEDDQ3SXoA5%2FMPTzkEgyrXMKl9elpmbZUWrTOWuyCBy7hh%2BjqsZhWpfXtby%2FNaAtOGYXSa0zoBH4O32oC%2BNS9b61ewymeRKUK%2BwGZUQXMxLjInHZregXEYOBumVnTc9fuPdsGJu5KlTkWkUepzb6NwbN2q%2FCRkRyaMgXwKmJ3iTH8h0f1sOCwdI3bzgfeZi%2Bx5fKrPQAmwVVjTBiX%2Bep%2FPKFW%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840102489291"
+  },
+  {
+   "title": "Nike Air Force 1 High Men's mid 07 “overbranding” wolf grey Size 5.5",
+   "price": {
+    "raw": "$190.00",
+    "extracted": 190.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198778556662?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R4JPTF8KCF4DVWCPEX&hash=item2e482010f6%3Ag%3AhbcAAeSwrEFq7o65&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9OUxHB%2BhVxGK5vHjwBneJ6L33oHRhuhAN2skFVL5BpkyOF%2FFHluz2rIJmW%2FBN1OsIcDyX7ibGb4KOAkj3aCdF0fZ%2F2wrZaPSEAfNN%2BZKf%2BX%2F7SckHX7GMK6fH0bKdLOLPrh2EQPwCC98UaByskpPVfiAWEJaqP9y40YOxSu4NkMP4ieayqk2zqj%2Fgum6Vw4c%2Fp3vAE%2B1mdLWs6xuzupWp%2BV%2FNKIVsfzzT6PXmOC93MccDwZhxN4zzsEcHYUzy518iFjR%2FwKID%2BoVRV%2F%2Bsg7a1IVI7DSbCHMTODkupI07p15SlnRwm0hP9aUvEN0Ie9UqQ%3D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198778556662"
+  },
+  {
+   "title": "Nike Women's Air Force 1 Crater \"Siren Red\" US 9W",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137906506914?_skw=Nike+Air+Force+1+white+sneakers&epid=25044895808&itmmeta=01M6T889R54Z4NT7CH0ZHADSKK&hash=item201bde4ca2%3Ag%3ABQAAAeSwKJBq7VMT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bcd9ZzgeIeP1DJZQSdimY05dyMXfPBA%2BjSUHddDG40zHmSffxQ0BhKhgOkD7fHaDaWEuWpr6ztbGJXPSW5D2l2J0V0GQh7eKQbs0oZV%2B9nDCmGJRkPpef5D4nemM0tUflhHuo3vChL780MWaSsPvoENEYtBKeFCH9PytVMSyPSUNJGUj28CighQVjTFs5Np5WGP5hkws6PB0thBSmZs%2BcG8hip0S3nT4f19dItdXz6%2BwPRGTa4sYz9KFFMlMMpanzXMhulT3knQdKUDw%2F8p4HS%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137906506914"
+  },
+  {
+   "title": "Nike Air Force 1 Men's Low-Top Lace-Up Sneakers Black/Blue/White Sz 9",
+   "price": {
+    "raw": "$42.00",
+    "extracted": 42.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407346028327?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R56BG84WRJ6NDHWWBT&hash=item5ed7b71f27%3Ag%3ARvAAAeSwg2Fq7q1%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fk4rUW84NzQNMo1YOe2TAsXZiD0lx2m1LsJvRcMfLJK5l6uW1zEr5wOUGaHiNJ%2F3z55%2Fimcv%2BtZOGC5aGY37odIlfdL6%2BQW1h5hiM8E2xw56o%2FOmH0AgsouOpkiyvDsMYt9i7dzWuQxDebQ1fPILTt3WlddZPMQXmpbzizD7B80kwQ6Kc068y1tLhrgXHkjdEPpkzAPmnLc22ppiPUVcasYoSqXXLo%2BABRC3cDu3LcaDmrZorFpKiKsbHcCkqyMBifyuO3fH5maUHJi4%2BswBKxl8R4TclxboImS5jTLjcOBnTQ8sER8%2BdfQAPteUedINM%3D%7Ctkp%3ABFBMrpyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407346028327"
+  },
+  {
+   "title": "Nike Air Force 1 Men's Low Top Lace Up Sneakers Beige/White/Blue Solid",
+   "price": {
+    "raw": "$19.55",
+    "extracted": 19.55
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168827518552?_skw=Nike+Air+Force+1+white+sneakers&epid=19060770724&itmmeta=01M6T889R5W5RN4QBNYG4MX54R&hash=item274ee77e58%3Ag%3At08AAeSwMOlq5SiE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8F9KmAH8wlhAhV4U6CYTxRcPRa5MO0Vdpk2CyEH%2BUg9NDHzh24zN6Xvy1XyXoGEUbbfoI%2FCHwqYsSvltNgnEsCZp8wqaorxxos9iP92N56uLd%2BWy6C1vnwNKJ02pnNftlE%2BxGGgqk5bSGxbC1rL7yH8FFXdKWGLWt7%2F3mg6EcBZIUPgX4fmutcgXIRJowL%2BeRkW1vpch6JAPxpZxJIHgBP%2BC7rDsJamCGoDEjz2ElrlZtpcdd1U6fJoL%2BtKuiYdBjvPBVDlrKVsqokqD99tiYg8YdY2269k9NyzdUO4U3PoJK5xXO5SS2TP6DPFzoLGgA%3D%7Ctkp%3ABFBMrpyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168827518552"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Shoes Mens Size 10 White Leather Low Sneakers CW2288-111",
+   "price": {
+    "raw": "$53.99",
+    "extracted": 53.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377619615520?_skw=Nike+Air+Force+1+white+sneakers&epid=4060761739&itmmeta=01M6T889R50TQP99JBEXVMGCWR&hash=item57ebe20f20%3Ag%3AFhMAAeSw5T5q6oNN&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FNwnC5T83GuQ0B1VUd6E00B6yIZ6dM7f6JEAYkJtQ8zGu%2FzigvIB7DAxu67u7s%2BiUuDU4Bzg073S%2Fa%2BucZupyEgwcfI%2FIFUCJbUhtrRSHdH%2F43kJR0UcplmYbJQLQQy5WgJZpweKCeuqB3CnLAsV9PypbBauhz2FHtoH%2BLtCjgsivbezWSic2PKossPTZCRsPBevIh9T4rJwSmRPOX2BBaqi4fSSh5iaAg8ZYWt%2BGx8%2Fr%2BhRtWYE1%2BM6bUFDOGbkM5ALikexJlVPDQ8dIflSbt9irQbfebq5%2BuFOXDD%2BL1lal7mOIQJOWiYSWQ%2BxktZvM%3D%7Ctkp%3ABFBMrpyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377619615520"
+  },
+  {
+   "title": "Nike Air Force 1 Low Men's Low Top Lace-Up White Men's US 8.5 Code: 315122-111",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820326155905?_skw=Nike+Air+Force+1+white+sneakers&epid=19060770724&itmmeta=01M6T889R54JG0F0ZM9A3FM74F&hash=itembeff3fc681%3Ag%3ASHEAAeSwY39q7odi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8n3M5fHOwtuRnP%2F8RMj8r7ScC59gQHl21ivapQ4WlKCgqckLDp9uo0g9Xh1KWWXMf9ODImDQ5O4tPeurRZ9OyNNlHNlH2jTXDxfmA4v6qZoeP6jAcMwuOCK%2FksNly6gYGFj886MhE17H%2BlPjOInCX11xWLbr3UcmTztm%2BUFhT5FxdB7oSMqbl2p7dV55eTlDAjPXR1IPvYwxMoAYoiLeFq2e1C8XHC%2FopCLg9%2BLcBkoyaZ7KPLavAF2Ku4aKSBdw2Mc1tSpqFE%2Fp4lRqQcir0UAJLJf0VPd1HOpL4XRY3hXO7oX0T1PAAtxTG2LnG2G7U%3D%7Ctkp%3ABFBMrpyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820326155905"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Low Triple White/White Men's US 9 CW2288-111",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840102457899?_skw=Nike+Air+Force+1+white+sneakers&epid=4060762270&itmmeta=01M6T889R5YJZKM0JZ4VVBVDBP&hash=itemc39a02322b%3Ag%3AcloAAeSw2OVq7owU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FtGpeQlVxlBacMXogSkzpLk6VXcAfyofKANio8ZVxnE0E%2BETEWsYhkMfPXYwQ7E3rciM%2FK3OF4XMO2qRFYANu9xM4TVEwrhwYg8%2FM%2F3W8Yem6YqWux5t%2BuS96MXLLjWs8hXIt22vFlB1XZV4Wdv%2FEGFf%2B4oAAHLYPYHNGF0Tl3eAuaXLAdSlGT7shQ2MhO94HW6Zw%2FmICnTQORnSqCsUrBMX3UaHxuCdLyNamTHtTLpfw9FX02cxFlqc%2BdL5ZjOutnDV9LNMaYtOELSd6UYBgy%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840102457899"
+  },
+  {
+   "title": "Nike Air Force 1 Mid '07 LX Join Forces White US 9.5",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800886700117?_skw=Nike+Air+Force+1+white+sneakers&epid=26057231236&itmmeta=01M6T889R52HHN4AHK7J0Q3JD1&hash=itemba78913855%3Ag%3A7M8AAeSwlXRq7mVW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B7DY2iNVChluyWHDcNvX9ECuVBcmn%2BfrAsmff4zKoHcw5e1VWNw%2BBTZNMa68Ufm4bFXStfFEvB0i00kK6IpLywsoZA8WqHTmiZKjfv8PmbSFfs0GM6kX5EumAnUq4zpHg5SnJaAc5AutcCP80dq8zENdxHCOfRKY1P0UFSWL2Vb3NnDCLq84PzPC1rx0DMuePHpkXpKrxaKBuppx91DPJUEXlrSvptPRlOgeWxygBxUDX18l1lmCnLfmfRdIIL3cxJJOjXuHrqZMFNpcC2jHRJ5lBGaBd7x7RGs3m01IZu6GBhmQpssTWdRAGQPxxpkgM%3D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800886700117"
+  },
+  {
+   "title": "Nike Air Force 1 Mid SP Off-White Varsity Maize Mens Athletic Sneakers Size 12",
+   "price": {
+    "raw": "$89.97",
+    "extracted": 89.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237168514697?_skw=Nike+Air+Force+1+white+sneakers&epid=24062378391&itmmeta=01M6T889R63M875000NZWK6SWZ&hash=item3738585689%3Ag%3A6m8AAeSw2QVp0wiZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FPwyqKghb2WQi%2F3l2WahDoAkWK1v7iLyfnqn6%2F7FxYXMwijOgp5RoC%2FZ%2Bc20rGGCmlPKQodTcDDvIh%2FC69b%2F1a7szVG2nhzu5gcfxkwEDMicvmC71n1OM17yTgCsBh%2FKLe9HWiSWJHbRCn53TI0V28wehxDCLKvjdPxbldKs9EMjYcA9BcXJGrRsCwZ0I3TvNgfcSFiRqTQ%2F2nGFu5DXFrF3wYtBVCuxO4AWY%2FAE%2BS5jR3BO5P42GZFjvy%2B7HUT1Vr4poukVr0nzLZt3CPB6ZoqyMntJiIjoE2iNdvz9sRqCrOPTkIZ%2BlOYWxPgMduZdc%3D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237168514697"
+  },
+  {
+   "title": "Nike Air Force 1 Low Triple White Sneakers 314192-117 Mens 6 / Womens 7.5",
+   "price": {
+    "raw": "$33.00",
+    "extracted": 33.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137909074329?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R6BZQGSV1ZRT4Z7A7M&hash=item201c057999%3Ag%3AJMAAAeSwVh9q7mMN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BwabjYnwPfeC871yUp%2FbGSVGo5kXRZ%2FZunV6zSU0eWrbNKm1DkA3Y0GqR1wLhSBNnoEEnyPwccadDa6dboSXJ95X8%2FjMmGOm4yzPR2tJ25G%2F72fMzOJD1GdD5MvgfenOTuDisKvyEwvyiR8ZC7QHo3YBuim1BftuRoVBCRu40HqV4YlDuMBG8LVKDEpayGUX66Y3HBiOwH6UFhQimmr2UthXL2d3%2Bdw4jQZ5dU2%2BioiCIUiEdrCJWf2bHN%2FZefNSDKv5TdKzHEpPGU07rPpGVC%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137909074329"
+  },
+  {
+   "title": "Nike Men’s Air Force 1 Low-Top Lace-Up Sneakers White Supreme US 12 EU 46",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860114430670?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R67H193CRXMY0A5AFS&hash=itemc842d0aace%3Ag%3AS2wAAeSw-Kxq6--J&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9pLWOecnjhVQxPOAcrudyquwIlnx4ojcyY4IrSg7khG0zrmNur4yYoQFVqbyi%2Bka9kxP%2BPWqW2%2BE6yef4lEyQcs%2BLBBcDwG8ofX7oGTwt45SLlg86eQGaFKJJtozs7jLSbSzTULnzBAavficWQ2Wv3dmqli4VcScXKN7u5mYHU1X7ZVFFoOG%2FeZ1QCWzR86oeASn6FfbAMWe8EX2h9ZL2YNECWO11u%2BbIyfvJeoSOlHgWTHtVaRCcSVyk5s817VmHtbJ0i8Dd%2FgOOAkYGf9SdH%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860114430670"
+  },
+  {
+   "title": "Nike Air Force 1 Low Top Lace Up Orange/White Men’s 12 Walking Sneaker",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117508936853?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R6Z70GQT2N5QER4SM0&hash=item1b5c141495%3Ag%3APs4AAeSw1hlq7rWN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8Mq9J0Ow%2FIJb8DB9TgTQtYtXnpYhcPtWu7Unwu5Fb0JYSWcAbq13Loqg7NeFaSeeQlzljXfaWQLWW9IHNasTIWKzwR0Gq8a57hGIqL17EifOfq0js9ZC6pKGWD5CI09xKpKDi1fP6uq2GW%2FjJGxEj58nlnPXuYlJIEQuvyrfWUtD3wnPEeKKO1y7TDvjUTKTQr5PuyAWOtmrHzl%2BMPjGawtcxy1n4J0i9JYxxQZFpb0EEhyVGqsRKv8NtUDZ1qrveFkd0gPVLeflX7ogEto1xs%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117508936853"
+  },
+  {
+   "title": "Nike Air Force 1 Low '07 CW2288-111 Men’s Size 9 All White Sneakers Shoes W/ Box",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227205242456?_skw=Nike+Air+Force+1+white+sneakers&epid=4060762270&itmmeta=01M6T889R6N20TYPKG9V3BAKAW&hash=item34e67cde58%3Ag%3AHAEAAeSwmHdphZ3k&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BBc5l7AeJvYpMayKe3qw7IzY31VY5ETWBphIQQg8hGJ3J1uE9j1paW5WoGc56SUNacp%2BC5%2BG7hFv1SdAVIGqW1jfKWO%2F%2Bmb2bjN9WFyVytjGaxhv1xMFecr%2B7aH63w4iOo7p43qrYqI0OwJDT%2BOfTfpicuovHDoIMp4ONr0pnj%2BPSL3F72zBMmCZ48W%2FUQTAApn%2FwDZS290VlFvbkawo7u3RLqv3nXb5juxi1rpreMlymJxn%2B3W%2BE8O5%2FEcWlEoGL0X6Iu9tjmebLDygS5suYm%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227205242456"
+  },
+  {
+   "title": "Size 12- LeBron James x Nike Air Force 1 Low Four Horsemen",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377627442258?_skw=Nike+Air+Force+1+white+sneakers&epid=4060150807&itmmeta=01M6T889R6VFNKBPKH9VKHEBQV&hash=item57ec597c52%3Ag%3A6FAAAeSwok1q7nGC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fvu%2BwWRT173wUmmYBXLgY%2FLDyk0NOPYdJECNKLkSInNLn5GAr8KjBaqsoF01K%2BCiWavOdha1fdZ0Q2YO53g6ZY%2BUsAjqGToDutQva6CiFAYmSl16m9YwGBOiM8jF1FULrNzF3YSGfMk0kLp9jBs2aknqdl4Uu7rQoukFVV5EjpZjKpjgaZbDUE1%2BoxVt7b6M%2FG0pqu9pa3fNRJYhpKU%2FQuYkSc9HlLDW0x%2Bs98rcFVZlFrTXjxN817t4079%2B8oHdb9ZYpRSzTE9vR8J8CaERA8nQ5%2B1Lfr%2FYniRxtAEHHWjRLo8Yt7DdKWpcpt4LMqkXI%3D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377627442258"
+  },
+  {
+   "title": "Nike Air Force 1 Men’s White Low Top Lace-Up Leather Sneakers US 10.5",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800872421767?_skw=Nike+Air+Force+1+white+sneakers&epid=18039815582&itmmeta=01M6T889R63BHN1E63PFP31Z26&hash=itemba77b75987%3Ag%3AJjIAAeSw-hpq6iVo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FzlJDtfpug1AyFcgPXvRdkcyI0W9who1S%2FzCqD%2B4V0x%2B8bIh15ilwB8OQTREE664vvaoMg2XMVVgCMxa91FAZe6guCxor98alBrb85dUUh%2BgS0ZAqoshO3WapQHJDgCLUuUbyGzeKXXyrS48XLPuaOYq1NGs8UNQxQw3Xy5Bpv2DagHskejNLm68R12ImW09zw9fyf6D0Fy%2FDIOrjYPcq64oFlI8oNDM5gIBOeuQkvp3GVdt4bkJiVb%2BBV%2B2bbyqk8o24bsv%2FMDRZVwsSAciae%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800872421767"
+  },
+  {
+   "title": "Nike Air Force 1 Mid SP x Off-White Varsity Maize ZipTie DR0500-101 Sz 5.5 Clean",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880090097475?_skw=Nike+Air+Force+1+white+sneakers&epid=24062378709&itmmeta=01M6T889R7JR4WM7ZSZVXXMP1Q&hash=itemcce9752743%3Ag%3AyTYAAeSw2bhqlrTA&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8PsSFjNDl%2FMC9Wbx8N8%2Fd%2FQ72tllSSNXg9KBM4P%2FoIb5Me1DvcPSl4qphhV6mzQKRNg8C6cBYUbD3CqfoI6aBwTooaOrWMgGF7WnfoGeOAE%2FR398zyVSEXfKg4ltBLK1ZK5Zw71a95TnQMFcqO3GCluF2eajP7bH6RSYcaenRyQIjK%2BKwXjR%2BixSz9mtaRYPqt9N0gBkVjSRl%2BSezMhYM49dpYpw7KPxh5pMgMHxSXoGYzDhsPdc3d%2FGFmCDZLk72VZ%2F2oF3jwJXxEO0V6Oaq6%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880090097475"
+  },
+  {
+   "title": "Nike Air Force 1 Men’s 11.5 White/Mint Leather Low Top Iridescent DD9331-100",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860120026447?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R7FR3AH1F872ZF9Z0T&hash=itemc843260d4f%3Ag%3AI6gAAeSwH8lq7kkG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bk9xagghjfWyvM5qHQKVT1lB2Ce%2B8Gwb9m5SzyOzAFWnvy0wIxkjgnGWuw%2B1AoXPqTXQWez%2B%2FchwU9GTrRlw1vl%2BgLU9gZh%2FQ0%2B4H689VMGQkVhCoI0a4tlHfacFbCOfGLSa8sGkvjPsYyrxyXeF8aoilmKYqi4XRDoUZSv2Rq2EE%2FsLOc%2FxZtFeJaFx8iWIR%2B6CxqW6b6LFgHIcEPP4u5gGXqEakUEu8RZtAzhaMK9YTjnOaa66tu1lBtyHfW38eu2ydKL8eFA6qK%2FGMkQQgHSHpsdJcirry7pDbzFZImjQ7Z7PqPUIV93U%2F9ShH%2BQWU%3D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860120026447"
+  },
+  {
+   "title": "Nike Air Force 1 Low '07 LV8 \"Just Do It\" (Black/White - AO6296-001) 8.5 W/Box",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407344793161?_skw=Nike+Air+Force+1+white+sneakers&epid=2321341601&itmmeta=01M6T889R7XBAW1C4CX81CP9QG&hash=item5ed7a44649%3Ag%3APhoAAeSwXmpq7fC3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bug1g%2FqoBx2eVH8p08N9qMv7PBv27dH9L4k0SZZgyTKIg%2FjS219scWQ5ewozgUxupWIkqkrQRudM%2FUxNSrPqRcns%2F0E%2FKC3jLaX6tWbEno6wahh%2BniMGjvuFe7WT6ScaC%2BhF%2FyDdB%2FXRgTdqpjOONugLyUGifovdbFmoatAlsgikAy8DFKx5CP1Ciui43xIW%2B3J5q98kbYbsVpOpFzF34J6aVRUnsC1s4utAgloUqnfNK%2B1vEL1zDGtfvHRANL4nr%2FemQoTZMatXkMw9MOGskcFB7ouAI%2Bg6nYbcWWQJRmW8ANRhYyqTrhyFWUfOx1Gkk%3D%7Ctkp%3ABk9SR66coci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407344793161"
+  },
+  {
+   "title": "Nike Air Force 1 Low '07 Mens Size 9.5 White Athletic Lifestyle Shoes Sneakers",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366785595497?_skw=Nike+Air+Force+1+white+sneakers&epid=15061626162&itmmeta=01M6T889R75S3S21JG29G0B7F7&hash=item5566200869%3Ag%3AQxUAAeSwf4Jqcamc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bw7o3vZuEZjyhhI5aRdYFOp1cOykWTP2YE4fQ3%2BAhJy7DKrsMTzDsWZMKlAF%2BJdoTHonZiTcxW7uIcSX0JoL0TrhUw5sSUo8VTL%2Bc4IwtBH0wWgKm7Y3MdyiqIkQDx3VlAPKP25r%2FSK5OvqG7orXhKwerVsg2e4cPa6Gfw2rwTa59a0wS%2BhkR9sur52sHoCa5jJxUkhvWBSxoSRgzhfjPlRY7Kyi4eKchvLDYBTyz%2FfXQuk7IZb6we0ygnRRIf3kEVGXE8Lvb2CGzGlyFvqKsz%2BE8iDtpSLn8C5OezWUp88RGKKj3LzzUP46M7hEp9aI0%3D%7Ctkp%3ABFBMrpyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366785595497"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Shoes Mens Size 10.5 White Sneakers Low Top CW2288-111",
+   "price": {
+    "raw": "$54.98",
+    "extracted": 54.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287692309482?_skw=Nike+Air+Force+1+white+sneakers&epid=14060759650&itmmeta=01M6T889R79QSVR3K2H0EVN9WG&hash=item42fbcc43ea%3Ag%3APigAAeSwROVq5Jx5&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8IYUr6p3dsV%2Bgc7OADelq5PGySIADZ4UoS3YyWRkCTxp%2B9JTZuYlJqxZhcx7dxtg9ftGCQG7akNqHaisa%2FyInhFIX9h3%2BJihqo%2FMGiQeXiue6uMx9CWF4bQ%2FHKsPu6CVBEgLe2V1h4P1egZxDkJRjsUfOKapEr1z5MVU4zMlC7ZoDf6MFF3OP%2BJgFBQFHUAFtQO%2B%2B%2F4uCuIe7K%2Fytlb1EQ41gU9qAt5Rsg1t6LXhrmaitdltgSsV%2FJE7Er7eJf%2FHXvnPvJqFRLgUlSj3FeaYAd09FC08y09Pu%2F%2BFOh6pWJl9gDL0cTX8iRBARJTgUZCWk%3D%7Ctkp%3ABFBMsJyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287692309482"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Low Triple White Men's Size 9 CW2288-111",
+   "price": {
+    "raw": "$45.99",
+    "extracted": 45.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920080256233?_skw=Nike+Air+Force+1+white+sneakers&epid=4060762270&itmmeta=01M6T889R7H43NZXK4DY4E8PR1&hash=itemd6390e8ce9%3Ag%3AoQQAAeSwcHtq4QcM&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8KSdn7KdhGiyXyAIFGcQamyF2VS5FL2bSKezAuZXjXdslLQUtuX85zobbjQ8ierKRoyJJRW4QFLVo1EHUoKgEApCrz9PFCm92QhEKrCnUGMByYUZqRMuuDyZxOlk%2BQMXHhutSKmm6tyXmIWVmNGLYf0Z9gO19GBVM2Ev8Lo9HIXdBDRLtdTL7x3dVC16L3WqiAxnof5iMi4DrF%2BXsdqs%2FewdYVQlTIJlBV9ZCrJTAZbixPN1kU6ZUZfsLZHeZscKFgYsC1MhDrjy8zLJ2%2B3MusZ7XibUcdITFNYx3DM8IO0OV4WRciH3HvN%2BkyzaG65QU%3D%7Ctkp%3ABFBMsJyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920080256233"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Men's Low Top Sneakers Black White CT2302-002",
+   "price": {
+    "raw": "$37.50",
+    "extracted": 37.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800806111340?_skw=Nike+Air+Force+1+white+sneakers&epid=7045638936&itmmeta=01M6T889R7ZJGTPTY9KP3YRY5V&hash=itemba73c3886c%3Ag%3Ar5QAAeSwmRVq07oJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FTXJ73mTXcRSYsuFC3w1DaY1gHVmm1MjFIdqNcXozjziGTFdKFaREz3Rxd1PAFyo%2FMnBl%2BOihWmJzuYqFJfg8rHOGkOWhPF63RAjdD68kAK82pxg60y9n75FL2o%2F9wFh7n6hjqTPLrhpjhdP3ZnvsEo%2Fq%2FJX2X7XKiebQBWVgCEg3GOAD%2Bi0nsg35gxDTJmmQp6C1rGiMqy3i6a2iFuplbE26mVYQ1lg11%2BXg7PyLPb7t5DY5DBI3g6LDuzSIRa4guM6uEhMzuS7iz86Row5R8r6NMfhmC6uhYFgkU9GocC2Ceb7S8rQC1J84a3AGfF5M%3D%7Ctkp%3ABFBMsJyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800806111340"
+  },
+  {
+   "title": "Nike Air Force 1 Low Top Lace Up Sneakers Men’s 8 White/Green/Blue DB9959-110",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920113865425?_skw=Nike+Air+Force+1+white+sneakers&epid=20058613720&itmmeta=01M6T889R72X09JTPHDRS4EPB7&hash=itemd63b0f62d1%3Ag%3AOcsAAeSwdV1q7nw3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8EB77LCc7r80eTDIFSyybetjX8axH9OcQo2Abvei%2FtjwtIAj0Ia2DwezeE2bsJ5PG4ZRptghKPQjU1KRu8rY3gQO9K73U5U2x93G5tPk1DWsCSr0iuBQY9zMiyUWMpHIyWm1w4l%2BHo7Nahh%2BTUzE0zco7rRezrhQ3Vj7cjfdi2%2FXJVCGhdiaoxSWpeDIditw%2F7r%2B2CUCz58vv45zDRsOfyi5QXy0vFvSw5CCazdQtGxT1NAH2nd%2BAMa4GWIkvom2EdT7I9O1K5zW6sYQautDaU%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920113865425"
+  },
+  {
+   "title": "Nike Air Force 1 Low Men's US 10 Leather Lace-Up Colorblock White Tan Gray",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920113952001?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R7WAKA4CAP4SAFZNZ7&hash=itemd63b10b501%3Ag%3APE8AAeSwl2Jq7ojJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FCUtxLoai19JVi0zqMDPJ5UP%2FHlNPG639JlYrPrfzw3%2BLcpKVABHJ7C%2BtSS7B08kPqyYwnM%2FlVT%2B%2BL1GLvcqS9XmcV4hPvLV125%2F6zuQtbhsmAzf5TdOdSeVz8ms0sjusya6WVktXqOGlgdSTpQBtTD%2F77YibpmrHnJPW0IJAtmbSj%2BE6tKySRkZPOgxh4AxtYyw1xehsqzFVrMSv2aUF3yxobrBxsCVtHQ5VQHyprf%2Bpcmorei0b4ffGYHKbvYSsblJP3%2Fl0ynbXchDQE%2BVtpiXI2%2BwaadupC%2BE3%2BoDx82z8nkQbshMjX%2FEno99Y2hCA%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920113952001"
+  },
+  {
+   "title": "Nike Air Force 1 ‘07 LV8 Black White Gum Men’s Size 11.5 FQ8714-004",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227602249425?_skw=Nike+Air+Force+1+white+sneakers&epid=23070058511&itmmeta=01M6T889R8PTRG7ASGZ1S5HMB3&hash=item34fe26b6d1%3Ag%3ArY4AAeSwbWxq7pf%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9XzQMsVYOi9xxao%2FxJxjODR%2F826Yf4F31cxST7X6M5t2uBAsGrmOynPyR%2B7vZW9yjITPpk5%2FEjzVv%2BMDQqMuA6ODgPA8mWiRTuZzXj8o6iXLNncmKpl55%2FJg4AEQkNNaXwNM44UiKhJAYqfORLbC%2B2Zyt4BQhilVpH8MTtaf2fDDhv%2Bq77zQvPK9P9xBUjrsHmyhyHuIf5sIqY9VHjda6tHnrPJmI0nmoeg3E6cM%2BS9PvCFPF1PwQ5dIzCS94JzXyIOyMaLwl6iuT17H4DgTCexZwdh2cXqJTln%2BfbDwOTIl0TJrSPiT6PVZq392eYkBY%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227602249425"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Patched Up LA Patchwork Low Top Lace Up DX2304-400 11.5",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117508936360?_skw=Nike+Air+Force+1+white+sneakers&epid=4056692231&itmmeta=01M6T889R8XYS2NR6WZNZ288FN&hash=item1b5c1412a8%3Ag%3AficAAeSwAHxq7rPB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9rsFqffJtdCTgTYkE60%2BHr81twCZPpFTVTpPjUCxMRm4ySLLRS1oTby19eq2gq0MnGLLhrAElxmLqmSxtlWyXerAi1JcPG%2BzSaAzEUOacCaCV2a37WiLo8CxgdQ7di6gn%2FXFcMjfBRM8lv1u82ptHri11AAVkJlFHRWNG00UI1RBxExIjYXvfPdYJiHlsSZ3bacz%2FC8k5agIl76YBepLl88DJBgvxWttJpSQzkNguafXYs7N2O94qLD%2BeV16q%2BB6VwTisbpBeOu%2F8epByPHah3%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117508936360"
+  },
+  {
+   "title": "Nike Mens Size 10 Air Force 1 Low Light Blue White Sneakers 315122-416",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800886179379?_skw=Nike+Air+Force+1+white+sneakers&epid=2312261194&itmmeta=01M6T889R8EQEEJYS9JQM8G8FV&hash=itemba78894633%3Ag%3A9RcAAeSw271q7jww&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BEpzDRJQA89x73B%2FctPCwBwE6Pa3CGAkZpPljf4Y2I%2BbFQMNIqzhfXy7WDEBxc0N7HYWcHvL1QZnIJsF%2FUxFalo1kQa2zJMilndSbSmXMOp42DnOZ1E%2FoesID%2Bte6s%2BsMVX57tbW2yk4m%2BDFk1K95obBxTOKwWuYA5WzPqq43KTlWypw%2Bwm5aycU3YifKD3RcEsgOIykmzQnj6ECgMO2ssnF6Ugt8dMRDMHHA%2FuJxRjmRFk2QDoPeMCxVEaI5j1BKUcl4Y9z0BPLegLovVsB4V%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800886179379"
+  },
+  {
+   "title": "Nike Air Force 1 Worldwide White Volt Youth Size 6.5Y",
+   "price": {
+    "raw": "$32.32",
+    "extracted": 32.32
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840102822330?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R8R775SQ6VENQ5ABNS&hash=itemc39a07c1ba%3Ag%3AzXkAAeSwp7pq7qvZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FcTwBz9yr0kCSHjB1TUjlyWe3ElDcS4E9HA0USV5U4ZEmHf0rd%2BAkTDRbjW20WK%2BOCwIx4XZYSHX5stao4jmwSaGddPbnpvg3GCnUBzO9AsrEopLX4GtrKfhpoe4hZc9TinABVRfxQoTK%2FrEeYFeqyJhYf4oyMftNK1XzBArSpR3cKYaMf%2BxxQxx1B8XoJ0LsiO8GSuS5k%2BG%2FNbcfDHohmmZEd3MzG1YsA4FjdFFByca4BFbexdcJ7rXszuWHZ%2FCgVfK96pdQ6YKIADOrLlmg7L2tue%2FYn7%2BRDCt4ndnJq8mtVVDA8LvhdMf%2BVlTIxf7E%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840102822330"
+  },
+  {
+   "title": "Nike Air Force 1 Low Men’s White Lace-Up Sneakers Rubber Outsole",
+   "price": {
+    "raw": "$35.15",
+    "extracted": 35.15
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287657345370?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R8M24N3X3APJ1YCBTA&hash=item42f9b6c15a%3Ag%3AiAsAAeSwQ75q1X0Z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9SJ4d%2FqHpqLAbT0R%2B4z7Sy83RUnIkUyu8YqOHlxqq6%2F3jCMY85D88Q7LaFn0BVlFWTkvEBWcCcv2KddSzFqkRzxX3Tu5aBF1fYu69j12WqD3RAuDHzM0ghOPZOUM4kYRdyIcKgcB04g3Yu%2BCQPHvK%2FAsaDZ1OdzezjIiqC5gxHSUbn%2BEg1L1lwNMUgccBub7TIEqzZG2fXkTG5rl98SQnPwsYIotjTAtQMhOkkZeEl4C%2BSMZ83bBjkGSi56Xejh6hxzMbUzinkEeJH1NyhZU6Giy7rP2p74ygSRExU6xX5ZpBHmV6qBXsaaQZJNBpgCoM%3D%7Ctkp%3ABFBMsJyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287657345370"
+  },
+  {
+   "title": "Nike Air Force 1 Low Top Lace Up Sneakers White Green Beige Men's US 9",
+   "price": {
+    "raw": "$14.00",
+    "extracted": 14.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920110503544?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R8XDCQV97C8NQJKSVF&hash=itemd63adc1678%3Ag%3A4lsAAeSwUnJq7T6f&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3nMbFt1BJg%2FT%2F6GKepvVIO%2FCeLmZ806iYkB%2FE3Wm6v7qO5xXpva%2BBo6zCAyGNI9xiUWCZ38CcpXqLdSIqExxHeY6V9jDgAVqgQIWEkFPAxJu6iHQ1xwC0Zf1K9SpDcQHS6u6cby3ZPPnY1TQFV7Qz1V5XehJrK8TBGRxUncBOqEsxSXnzVDwthf9TXF7KcD6qHMMnP5PLaXcHGebmPV3b76%2FA6ZkX4Tpg3PyUisoHxn3nI98RhMZIzbXtFXIwE%2FGEZlMUbF%2FP8uYgTYLHBiC7sDeFDJPZhBj7rQH9c8G2qHYgIpmo%2FEtknbHyxVJppTw%3D%7Ctkp%3ABFBMsJyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920110503544"
+  },
+  {
+   "title": "Size 8.5 - Nike Men's Air Force 1 '07 Mid White",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307270465400?_skw=Nike+Air+Force+1+white+sneakers&epid=15039808366&itmmeta=01M6T889R8N2WNJ51AQ0WWPJCQ&hash=item478abf3778%3Ag%3AUucAAeSwSBBq7lxw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BISH1U6y3QbWJ4GWkMDdUrPKWhJqpYLWUMbhZ3ht%2Fu1cn6pZ5KvBwzCGwERGQ0VFkvKjxp8H19lp%2Bjjlo7jqfdpkxfZqTEr%2By2iDRLKgP7bdDCxyc4b8wk5Gt%2FixWhBHsYLXUZ8ux6rOhhfG5OdV3Qda%2BpnId5R4tcRrhvyxsvX7sJBbReYspbwOHOTx60%2B7MGnUsgZmDgUWu99hXYXqcZlJTbnsKVKBUAKnarFik1RGNJQKXjoSEZBzsLi2E7HFfPZcRx1etNYL%2BmxheJ6eJS%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307270465400"
+  },
+  {
+   "title": "Size 12 Nike Air Force 1 '07 LV8 1 Low White Mens Athletic Sneakers CW7010-100",
+   "price": {
+    "raw": "$89.92",
+    "extracted": 89.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345903500?_skw=Nike+Air+Force+1+white+sneakers&epid=17039804848&itmmeta=01M6T889R8WYSQSC1KSXM9RB6V&hash=item5ed7b5378c%3Ag%3AIhkAAeSwfdlo42Vx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F%2BM3WzQJk36CVPPrEqVka9FHoRht3wsBxm1XYElPJNxwI104KcuXYPJl8y6hJmgswFAwT3%2B%2BfBjC--0ljBQNmksH3C3BYcv1CZKSTxTN6MZWar6iPQK1NNR7gvYmyGGJkwdzFsGHfcRo%2FOErs4KEFHICsza%2B4mg9TRyva%2BelrSiGbLggqeOybPkRlEM2v%2F%2B5Fxdg52888wgq5Q6d1ORNOBLbOSvvFT%2BLYL%2FRDvUfIeOr1d%2FPhsWaCpZdBwj19To51pQr5g5NhfcglQKIM3R87Vh49Pp8HcvNISigZSeA21YjXaHcdGLa2VhiCqo7aHJWM%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345903500"
+  },
+  {
+   "title": "Nike Air Force 1 Low 07 US Men's 13 White/Habanero Red Used Good Condition",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345713221?_skw=Nike+Air+Force+1+white+sneakers&epid=20039811675&itmmeta=01M6T889R8KASW52T1Z1GQ37CQ&hash=item5ed7b25045%3Ag%3A-pEAAeSwAHxq7njg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9R6qWpU%2FhE80WBvlzle02SiFC1WCLiQxIBeLxaazTc4ULFOSwSJPwPMuKeeBoKDM6v6KenxxndS8LhqymhDzr%2B6f5bda3orIsUuF52B6dTQw1T155gOJJI6rq%2FsZSFXXHUbBJUl5OpMt2bo4Q4A1pagR%2BxoWb7sHykFhdghFpnYQAem04kPsRNcxDIYW2GfpfqaHU03IBhLI4xfhVV2a%2BPqR5GHZX9Y5ExnotyRX6jwzHFW1jcjHAajqCEO8ZT9drIDhjLoNX01w4trkTaSaIODZu6AQxqYDLtM2NUuHU7XR%2BD%2Fxj1%2FPCAzyJCNqzgmRI%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345713221"
+  },
+  {
+   "title": "Pre-owned Nike Air Force 1 Low '07 White Fir FJ4146-132 Men's Size 9",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900052635334?_skw=Nike+Air+Force+1+white+sneakers&epid=18098928665&itmmeta=01M6T889R9S5PK0HZQ4NAA8V4W&hash=itemd18f514ec6%3Ag%3AGLUAAeSwXKFqzGK0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9IPKbZM%2BOIWVZnY2055Q23g9gFPVbA71pcmp0lsfgdPpWD%2Br%2BvZlqjtXngn22W6ZoBNAG%2Fxei0QDKbULCw6CWh06uT37R8K5XxhlzpZN3vrGMAv7cTrWHc9zov09%2FCK1xZwa48IDLTRT4A6stjr8K2fgzhIWNKrnkkSKshabQ%2B%2BicGtM8paRlAFuJegMm7qzFg32GUgdIBMpIUIg1bESL8rNu9eQUj5FRDOPsNU9FULJgpJed777PvE7x6pPg7oWFG4nEkJzckOzo1xQGvjNuclLDFY2IoiHpVUJp7%2BmY0yrWMpOcO%2F0vJRYfalq%2FAYnM%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900052635334"
+  },
+  {
+   "title": "Nike Air Force 1 Low x A-Cold-Wall* • 12 • White Grey • 2018 • SHIPS TODAY",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147669398663?_skw=Nike+Air+Force+1+white+sneakers&epid=5039817088&itmmeta=01M6T889R9R064WXCYWN880J40&hash=item2261c83487%3Ag%3A-EQAAeSwjd9q605y&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde92PJRQ95MS6SeggsTHpCO%2FvbAtet1oB2kta3ND%2BVMLERVWxQkosm45n2v1uOK2cQC8R%2B%2F2AeF9NqdMkL5d8E6i9vLNFKW8H5gfZdt3vlCjt7whkodn2VwUTTj4Y2C0Cf%2BKlOAYxhHbkgC3PyWU7yQhtmO9689W9GQ7nLAi09GmkbAWA6FzTlWGYzjo0bxyLXmvNDEXCOx3drXOzLQtF0fklI0ETL%2BZf%2FBGAI2jh%2FqWf0GOjbL9NrcEimFWyTg91iW76TWD3RFf9ITVdJSo4c3clS5rmvna7quZ0QA3LDudFbtupJZMaptUrYy79avTG%2BE%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147669398663"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Low Top Triple White Leather Sneakers CW2288-111",
+   "price": {
+    "raw": "$90.00",
+    "extracted": 90.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366508947630?_skw=Nike+Air+Force+1+white+sneakers&epid=4060761739&itmmeta=01M6T889R99FSZBX3KPPB3MQJF&hash=item5555a2b8ae%3Ag%3AxKsAAeSwQhRqQStm&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B%2FS1Ckzm5NgF3r92XeK%2BPGlrdzafsJWxn5Wy589OtcI0TcJyLCyqsnkkdqTuh9gWUEphGzTQWngn9727i6XdqT55XxPw1LOckn4k00yGevDmSDIqrHEBdehGMSs98XSqCQfIPNMoK%2F%2B%2FslvjwUbd28Nft75RBQWC8map9FCV8Wo4ffKi175GijbOfafFi5Zd83%2FP0qY0B29jOV9kPw%2BTvkxnq12s0fjOodiuYMr5C6l6f1mc0Og5VqwpiywJtlArgTV96oEdktK2iqzby%2B3Ezd%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366508947630"
+  },
+  {
+   "title": "Size 12 Nike Air Force 1 07 Low Mens White Habanero Red Excellent A02409-101",
+   "price": {
+    "raw": "$129.92",
+    "extracted": 129.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345892026?_skw=Nike+Air+Force+1+white+sneakers&epid=17039834323&itmmeta=01M6T889R9WWXF49XY5Z2WFT1Z&hash=item5ed7b50aba%3Ag%3ApswAAeSwWhto42kY&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FYiOubQ4egSDPqnKPx3qvrdhoIpptJXv0yYWoT9noMQ%2BGAjI%2FhVhdnYSkKU1coQcRF4hbW691EsoDbnSO%2B23gvLRYZS9zNMu7iH4A9%2BWKuc2DYSX6jvSmL24YHQAQGJcRIp7BEf8HvPUWEynOrrO%2Ff6NbjiRrcyER5qUP2tw1Uw7a%2Byz3eVk3gt6RuTQAqPoBWoT53s8HRjba%2Bslmb3UN9Zn5ZCsAJ6BWyNyD%2B6pOjwMSeU%2FCvO9uC1Lt4ZfwwgBlJ5iw%2FqxDRgcx%2F7cZUqKVi%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345892026"
+  },
+  {
+   "title": "Nike Air Force 1 Low Top Leather Lace Up Colorblock White/Red/Blue 4Y",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900072123563?_skw=Nike+Air+Force+1+white+sneakers&epid=11059771704&itmmeta=01M6T889R9NHDDM08PRG9WNAGW&hash=itemd1907aacab%3Ag%3AK3oAAeSw9xVq7qrU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FOEr09eGD2cnfxTXbmN6Mywth9nHDqJLtMrSgYpjyGsfqZH92PbS1xvcFv67MT1T1WpzZX8ZanIpq9KAvcK0UrEa5Ma4AmKlEFGfvbXmnBgYoHo05EZCvkF%2BfPSpdhMzxkAecQ8Yeq0qmG3HY1qcYyCOMcJHaqX0fKfHs0XIDORlwxS70tLvO0%2BHtkhGQNbBI1v3jGmobZDPVJR3V1fzFUv%2F6kwhxzs9X8iaSW21ua9Qh%2Bb004bxpjKOKKEqZ7v0XUjW1d%2FJlJhmyXv8UuA%2FFEYPfiDT0KHYrNY%2Bp25gh1cl7azxz%2BSZX4NLsF1UINHnY%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900072123563"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Low Triple White | Size 9 Men's",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840089068510?_skw=Nike+Air+Force+1+white+sneakers&epid=4060762270&itmmeta=01M6T889R9A72D4TEQYNMR0TBQ&hash=itemc39935e3de%3Ag%3AmbwAAeSwZypq4SLk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bzkc29ar2Z1a8tGKYyY2utSCdTQGn4fcRxa9%2F6%2BUTB5WtwXN35A%2BsJJuaMUxaL3io5lgWsMBolLutTYvqAQnoHHU%2FNOBbChUqGqOhr3gRg%2BHxJtoXNcLRxmRMZNc4eUdF4KFBb3kZq7F8OFkUpuB40TJWaONtS0vVXCb910QeISw18MI5%2FQrkur8%2B%2BupUVV0UulUc6g27CAhOUz%2FrpUsdZi9UfKWltxhwe8Jskd1myvNp6jItJsJ%2Biv4mhkuJx6GpaTHqRI3YYh%2FYQYZTHj%2FbodbdzGa15MBIzicXlLeeyXn6HvxlDCw46cKEf4lMliiU%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840089068510"
+  },
+  {
+   "title": "Men's size 9.5 Nike Air Force 1 white sneakers with blue accents",
+   "price": {
+    "raw": "$75.66",
+    "extracted": 75.66
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336869304913?_skw=Nike+Air+Force+1+white+sneakers&itmmeta=01M6T889R92WNBAMY3K65RRSK8&hash=item4e6ef9aa51%3Ag%3AwOoAAeSwdEdqvA8%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FQcvfzJSunQrANxcDNsHAfeTzY%2FCIlpVHCAKVPNROmDRyiimo7YDVBkwe3t0%2FvhtBHceNH8S9J2IFbXg8i%2BEnGxqgKeCjHZkT9YNc69B3p2ivebbkWn6D%2BakB9UHhSrr6CKdtapB4p215ysR%2BwrwWvcM6mP1J7gbgKGn115r9EqnnnxU34yPjgVOmqXhhV%2FaJ1tJ9wUhELIuh7XOtntN2OtxQwPh%2F7ZkpOgyp5JSr3%2FWDV%2BPUDU6Xczcjp0hcrwPKhynGJgxLftPnbOnzFU2RT%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336869304913"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Triple White Low Top Men's US 10 Sneakers CW2288-111",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800787883283?_skw=Nike+Air+Force+1+white+sneakers&epid=4060761739&itmmeta=01M6T889RAPVRJBW9KWQX04H7H&hash=itemba72ad6513%3Ag%3A5QoAAeSwlBNqzTDw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde961axMBVK7b7%2BC6DmalGh1MrBYBZwOAL0EjrKBu28ujCwineJgXu%2FuckII4FzxOyeOQ0fUAJCSHfGw2CMoUX2cW8Fr7MxmWDAVBSjOrlXhlIuBZYgTVl20B8IPBpeYBPvS4hwvVpc2WWRQfGIVyHVIehEWTXGHycmbHv8Zqf9BzMWK6f9VMP35HnOVL0E%2F0mTFiiewHdsGSIBvADKHkAyyw6lBK6l1NwLzCBr48vrxNpjyV6BkiUsibmpux3xsXtDeFn8Ok4YTIbJWGXLrmAfeHlM%2BLxmCzB3U%2BktNRh1Ky7oBuxDSHP4d45MPc766Kro%3D%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800787883283"
+  },
+  {
+   "title": "Nike Air Force 1 Triple White Low Top Sneakers Sz 7Y Women’s Sz 8.5 (314192-117)",
+   "price": {
+    "raw": "$10.99",
+    "extracted": 10.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168843865904?_skw=Nike+Air+Force+1+white+sneakers&epid=10039823838&itmmeta=01M6T889RAWCM0AQZH0F9JY9ZH&hash=item274fe0ef30%3Ag%3Af-0AAeSwpD1p1%7E-0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde--6jBEb7pYqiMKHp87ZfwDKXi7yBWTWL0WCHv0PcCQ9DpK%2Bpl6%2Fil4g%2FQHk0GNCh2mytATkl%2BaYYi6ky7ijxkPkCSkrlyLJrg7ttNOc1zFnvUXWnEkWFUggr7%2F6QuuhPh8tY0uSHY0zSBwKi92gxbk%2BNd3xrn5gawb0x9Yh4RTgb4V67YTPKb%2BNUZCOTuGTOtJ1FQpeKwWAtOQv9xnq11clesrYPwDWZoUm5creh8jVax%2F5J4ZEuKXF0EJ7NAnSvXfaR0sbcJGq%2Bf%2FgvvxKjWq%7Ctkp%3ABk9SR7Ccoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168843865904"
+  },
+  {
+   "title": "Nike Air Force 1 Low x Off-White Black/White Low sz 10.5",
+   "price": {
+    "raw": "$760.00",
+    "extracted": 760.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407340405879?_skw=Nike+Air+Force+1+white+sneakers&epid=18039809349&itmmeta=01M6T889RA8W0G3QBBNZR098P0&hash=item5ed7615477%3Ag%3Ag9YAAeSw9HxqaTFh&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9UyvL8yK%2Fnuf4DL1gVrU0ia7Ch3o4t74axbsxar26sY%2BQghU%2B2b0OwZ%2B2QD5fEcoP8Qq4xd0P0QVr%2FOpcggUBWkn1HG9Gkm3DerT%2BsAKb5X6uJUOQZ5xkmLmF%2BAf75iT49qmmD0wypvM4H0%2BdNwjGylik7F3XrEEW1HXU9yYsfb5SYqqBL8q0YxzYHPUIpJCQnzngaaFrI%2Fp1NHEgLPHBifQHKvAlf5lWIW7ro5Zx4U%2B9QQnd7x1im6ust64hrwrC6CUB7Kfb%2Bna5E8gHasFJEoSZ%2FZDDk%2FICFM0sfcfBEaqOQAM%2F91YJQg2Hj9Ep0eXw%3D%7Ctkp%3ABk9SR7Kcoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407340405879"
+  },
+  {
+   "title": "Nike Air Force 1 Mens 13 Mid Top Sneakers Shoes White 315123-111",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198701719483?_skw=Nike+Air+Force+1+white+sneakers&epid=22061622589&itmmeta=01M6T889RAD0QW4GB6BGDDXB8V&hash=item2e438b9fbb%3Ag%3Amd4AAeSw0uRpm9IF&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9yCFBjoGkStAo092gOPY4cMFj19OwVA9e4OPf6FKfJIrF%2BtnsE5DWTCAqPpwVzfdB4sdu3r%2Bz2GEXdLtQegIIWfZjaZ8U2QrLEHmb9%2BlEcycM%2B19M6UcXL%2BYQOKYJPT2i8tHMZQzCFteKmZTEwmgh6hUUlMzJl09GPjfh6rr%2FLACz7YenqN9GKFY2c51ANM4uGOU9d0ldbYni%2Fm2yVp0QCP%2BJqnzdOldaV6hFIvEYwJMWt7xcAdYnJp2oBXKDeba6BkAD0DSq6Pz3NMmmofQ1x%7Ctkp%3ABk9SR7Kcoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198701719483"
+  },
+  {
+   "title": "Size 12 Nike Air Force 1 Low LV8 White Blanc Mens Athletic Sneaker CK7214-100",
+   "price": {
+    "raw": "$129.92",
+    "extracted": 129.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345935206?_skw=Nike+Air+Force+1+white+sneakers&epid=11041207489&itmmeta=01M6T889RAEBE4G5ANQES0VZ9R&hash=item5ed7b5b366%3Ag%3A9jwAAeSwtyNo41xA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FFgT3K6qTLWKVQ18equbyGLhjklo7RaHYIfdxr3xMgt1qhjfh45yBWG36He3NbG5kYcljgiDBKg6RIklDnZ4sq0OUUcHSMD4hohmrth057IIqAySdD5fO1CAlYhJLY5CSDLu76R1D%2BfOCUvYeU5L6%2BebE7c59Eccn0jPZ9dkOPPmut83IkJUyj5cW%2BGKsIS0iANzSolc5bOqab3kwR1Qs%2Btp3pPzuz0lAmnYf3Y%2F9zt580yPIjUtb88%2BoxNvwhrAZGXkJpB%2FUPw9JNyYF2ErwKsEuxKImuca8MOET8R5QVEmtT%2BehgoP0fRU0gMpwzjxI%3D%7Ctkp%3ABk9SR7Kcoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345935206"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Low Triple White",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820172164386?_skw=Nike+Air+Force+1+white+sneakers&epid=10060775765&itmmeta=01M6T889RAZCP88G9GSKFKHCJJ&hash=itembef6120d22%3Ag%3AgvMAAeSw8SBqo47y&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8GEuIC%2FNOsQ17zUw5fEnP6rgBh7iWavCjT6Nhq3Ba%2F9LVfVUoP5Hky2cPvQ4gckVlz%2Fai9JpBBmQA%2FK37hqDxFikKaTSAds6SQFNyPHBo4oaAyzsvxy%2BNErNG74oT2mLOK0bIbi3iLbXnp5mA8pXO%2Fayn%2FW07kBwZk4kpbGIxrohLgT4ApRr1KmQLo%2BYi2KUXaihqutGOEYFiICN8xedH2rsfnuPhF16rK%2ByuhkhM2occCKqFL%2BcTMymCnjYNwP9%2FvFyzq1yADp0IYWlkvxIjX%7Ctkp%3ABk9SR7Kcoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820172164386"
+  },
+  {
+   "title": "Size 12 Nike Air Force 1 LV8 Euro Tour White Red Mens Lace-Up Sneaker CW7577-100",
+   "price": {
+    "raw": "$199.92",
+    "extracted": 199.92
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345921070?_skw=Nike+Air+Force+1+white+sneakers&epid=6040619567&itmmeta=01M6T889RA9PF80GQ9E1EHGZBC&hash=item5ed7b57c2e%3Ag%3AbXwAAeSwp1ho4112&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bux6sNvyNvL6mIcuDQmte%2FkQajikrGf2W3WqbydXPyv1YLzkuKannJzXyfMJj%2BJJpISRYgvhm%2Fx%2BBvQUXAkMM6LaHcKutcSDSmzDVjKNXuvN2tF%2BCzr5abln1Ghdd01lYhC6L8M6s5VuFLTzsFo%2BYzk1ASzE%2Fnh9HzjwtRkfJbE8ZJvVsOc1t8O32Kb6vOj5Qd4uukUoMDlDJyDxcREZkxA8Nd2nCBW4R3gb88Eg3T4xjN4Ak04mM0OLZ5g8pwXnV15wcwQTyjmJTAGkPAswgY%7Ctkp%3ABk9SR7Kcoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345921070"
+  },
+  {
+   "title": "Nike Air Force 1 '07 Triple White Men’s Low Top Lace-Up comes with box",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800642674880?_skw=Nike+Air+Force+1+white+sneakers&epid=4060762270&itmmeta=01M6T889RAV3WTXMFE4G655QYJ&hash=itemba6a05b0c0%3Ag%3ASYMAAeSwr0hqoxAo&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BwFai3633Gf6ktSnSt8gPiKjVO1reJUZsv8%2B%2Fi0aMHb%2BTVc6uxB4vWIzeq%2BPYRTc3k4snJZlhmWnBN7cTT3omc4jZI%2FB9pCMeMzhki6tvF5Cj5Gvedy1nH2IjLY%2B8kuVqQySHlBt6hkmkIkF6OTBxmJaij8CpeGRm09eUQrCL8P2rM47%2BRFzlWlwaPZp7iXqCdExdkQzqgxnunkkI3zyQm62ZUbfhvteo53Ckuv2Hw%2Fu%2BtAb7CxP2JyL3LZVxCjRsjrYykPRGlEO5XZo9fS8aRW40i3yQ%2BxCK6lsr2hd%2FGk8EKI7rcyWiOfxT6A1JYkUE%3D%7Ctkp%3ABk9SR7Kcoci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800642674880"
+  },
+  {
+   "title": "Nike Air Force 1 Low-Top Men’s Black/White/ Lace Up Sneakers",
+   "price": {
+    "raw": "$105.00",
+    "extracted": 105.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840045697863?_skw=Nike+Air+Force+1+white+sneakers&epid=11046761711&itmmeta=01M6T889RATXM1JPH11GNS51Z2&hash=itemc396a01b47%3Ag%3AY6sAAeSwWOBqmmhW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8iXeYCUuovHwaKZKfK9x43TksV000hVf9WlRZJNrD72aBmNZZh8L5uU%2BPdxnENr9ldPI7Xvh0ZwBAkgUXZyy71u8QcbeEZC8I53soM2eZMr4U%2BBLhQNOpprmr5mO23GzsNafc8rkNyGMOqK6ILO9Fn6kVraJQ3BgLbucqi3l9B4yNpCQQ%2BAWU5SonimC1oH26Uyr%2FiJYx5WDGEvDDXVFgXFirHNtMBpLBUYZY5b%2BA2gvd2dNBm3UYHj7FKXIPSUSwpkp07FbjLMF%2FqArF7weLgYVdxvsL9xH3CD1s6xUJaw9bEatHGp2Xqotr5DrqL58E%3D%7Ctkp%3ABFBMspyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840045697863"
+  },
+  {
+   "title": "Nike Air Force 1 07 Low Shoes Mens Size 8 White Leather Sneakers CW2288-111",
+   "price": {
+    "raw": "$33.29",
+    "extracted": 33.29
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267833678860?_skw=Nike+Air+Force+1+white+sneakers&epid=2331815489&itmmeta=01M6T889RBGAFBBWQRAKFQ7B8C&hash=item3e5c219c0c%3Ag%3APJoAAeSwErFqcoUc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FCy2pyNEP5UKICu4kRnpfNVp52aHnmgIXe%2BDC3DeCm4R%2B67DW7zSBJyTXQVc0PLoLNRKvMJJ9aKZrP5gzEVFtQhewHg6WIgKiT0yppTL3rqAH6DpUjxSr4S%2FDEgUGNlfJBzF6ep7jXJ%2FdNWYQUIVGba3d8GiYyxLzUxd5XBxNAK5xGpgtQ8szPAuz4OTJUmlYXF3h%2BHXSsFS4zJCso3JdM1Z3VY6QoBsVEi3njFcNWgNJHh8RY4F5AkN4C5FxgeILriB0ql5IBpn2sF4XbxhlztxTWmTEyRl3OMd%2B40C8h%2BbQHuMHi4zwl6qPGvog66U4%3D%7Ctkp%3ABFBMspyhyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267833678860"
+  }
+ ]
+}

@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "The North Face navy fur hood parka",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 95,
+ "organic_results": [
+  {
+   "title": "The North Face DryVent 600 Down Arctic Parka Coat Sz XXL Navy Blue Faux Fur Hood",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960072255590?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5E55W98B6F0WHAPPA5&hash=itemdf88c40866%3Ag%3ARNIAAeSwPuZq0Vg2&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FjC7sxnWxKinCbJxzA7JWrJ4u61PzSHuWXPR%2FS8YOS4%2FcqsaKJcrz6wwtVWEr8ximZIpokwCqV6Ba4tp4oBfFyXqyxldpRLUU8MCpkAKfL0BK%2FTMEkeMN51t3kLl%2F8ASCCCJmRefjZIkOBQfPRjaoUeEtuV9LjmzwnQMz%2FJgnJd2nnbAG%2B%2F9C%2FNzYmSQJASkG%2F%2B9SDLNFqX94FT6P%2FzqwepyMcdZ8dD1isufmfQdGVjpUnBn5Ns4CNht8dcBnc%2B8rwpyRgr2EI9BdYNMJMkcP2%7Ctkp%3ABk9SR9bzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960072255590"
+  },
+  {
+   "title": "The North Face Arctic Parka Navy Blue Down Insulated Faux Fur Hood Women Medium",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820204013312?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5E1670M76KX3NZNT9N&hash=itembef7f80700%3Ag%3AzTkAAeSwc2FqwuLw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8BNugDUoT4hXrrrJD2NcjGIoZXcyO1FxBBFQKPyZFtbZhfRa2odZ8UnnL%2FqaQ8qBRsf%2FASHm9X1Dat%2BwBaxUB9G21j0OExEG9F8Gv8N%2BBjUnGkC7F9kipDZIAwvzx81uvlT05kGHCLSfbj13GQEb8GSjOwNQbHkzpjHzSdHCiCyCFX6YRzyY8MF6hlvGOq2GVniN7WFvMUaFvJ7WoFgzqcCwTJ%2FczeYj%2F17t2%2FlyVXaEc3SgDx6C3fBFYd2eTV%2FEszsc5eGC1cu957ls0mijlQbCfT8KV%2F%2B3Lht2fZRQ4uQeLHdEGCbFWovZe0tpl2ihA%3D%7Ctkp%3ABFBM1vOjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820204013312"
+  },
+  {
+   "title": "The North Face Down 550 Parka Womens L Navy Faux Fur Hooded Long Puffer Coat",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137875690765?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5FQ3W83E8QBXSJ1M2G&hash=item201a08150d%3Ag%3ATO8AAeSw919q3tx-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FU2je44sQXsYMg%2Fm3NHEBlDW5QxwI7RqEIiM0ziNakmLj%2Fe99H%2FZHK4xUSQM9lc4z%2FJQPZDdw2c4nxMraJnBPlqiVyI3TdruZvL2Ly%2F0yQ9NFrEgTC%2BR8tKvsd0QRkwFN7SNSYlMIb7ixQs7mw2R4vjJdSOIJAnRrkqmk4NRuahSdBfzt4dOIlUjY7UvY%2B1k%2FnGxApcF3GZEF0M%2F0B9A0MDC0qd1AEPVPkN2y8ieuedq%2BIhWKD53Wu%2BX3%2BWMwV48PWk6i6Mx4lKb4Uwv0dFV5Zg8jci%2B2BplBuJsCBVGdBQpMHeLb2m9TaxcGEojTdZiY%3D%7Ctkp%3ABFBM2POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137875690765"
+  },
+  {
+   "title": "The North Face Gotham Down Parka Womens Large Black Faux Fur Hood Puffer Jacket",
+   "price": {
+    "raw": "$84.95",
+    "extracted": 84.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840070054090?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5F16491XEJAJTSVQR7&hash=itemc39813c0ca%3Ag%3AmOUAAeSwAo9q4qsh&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9lXX1zGPxl1yzPc7jxkbntKp67Bc0BLilyYqUBJhD7Wcs4wL8CkEkv44BjCUxoEI9zazRQH2NOQFGj%2FZjV8y9ycIyaGv%2FWwcvxfd9v%2FoT2wNWeUdRZhhRdaOzEWE3jo%2FQWsigCPd1abU5gZyHFyZuOBaEFNellj1dUE6cvYKe%2FWX%2BopXiwAC0C12vXOBB1u0Llr59Whnh%2BhKM6rt9xJP%2Fmw665buvncteDJL0sniem%2BxxYNc1uhWjKMuajVLvSgdFiDAOBSz9GOw%2FdPObvdyX9oJJiWpxMF9e8PwiYedCFiD6%2FMLbEAnU0j%2Bz8va062Ps%3D%7Ctkp%3ABFBM2POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840070054090"
+  },
+  {
+   "title": "The North Face Gotham II Down Parka Navy Blue Faux Fur Hood Puffer Jacket Size S",
+   "price": {
+    "raw": "$75.99",
+    "extracted": 75.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345849333?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5FW2GJ8GVXDYNPW785&hash=item5ed7b463f5%3Ag%3AxocAAeSwjr1p1IZJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde92%2BkVpAJW85p6o6dc99up3yGsoMPlNhlboLcNAgHMt4V1rNns4mnRAi7HzJjHJ57WcRgIlrFVhsqJR%2BvJpjpEnFGn19MSnL9m1O4qi7OKYoOlOUo9RwYs6IzjeoeQY5T4K6lin1kqcAmrK60E6HOe6DjfgISGUPtnmVEw7S1er%2BEmkcBpKq1Wy3jhqqNqqds%2FXQCorPk%2FUHDb3ELeipmfZl4m8NxlIwt4%2BPt8TjLOUeOwpucANRwTtVC0QU%2FFjoucD0rI1leIj6kTmuReZfcsj%7Ctkp%3ABk9SR9jzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345849333"
+  },
+  {
+   "title": "The North Face Arctic Parka Jacket Womens M Navy HyVent 550 Down Faux Fur Hood",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117385079346?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5GERPSHW1CFH58ENXB&hash=item1b54b22a32%3Ag%3AIP8AAeSwkAlqkyq6&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F400y0k%2BBQzBWG0hGDSZ5AFDNWaxwLM2qn%2FRA9QqCjuaKp5ySLNvkn3k1d1PA6DD9GaRHAd7EePx3RTDGYoTLxcvuzmIzeQQNioBctrsvkDTD%2F7D0hA1vyrLCamptnmUhn14zI4SxJWw%2FeWxwlntm9rpmUpfrJrw2%2FhK0RHcPkYd646t%2F8%2BwUF28l5TK5YRfT8xXdud8o5imncORKJ8cHabg598VnXekwzhikS%2BnLmfFDV1BsYAD2PoESgRpBhgZD%2FBpwESi76WevvKL8ZNSxJ%7Ctkp%3ABk9SR9jzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117385079346"
+  },
+  {
+   "title": "The North Face Women's Hood Arctic Parka II 550 Down Sz Women’s S Navy Blue Fur",
+   "price": {
+    "raw": "$79.95",
+    "extracted": 79.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128069035865?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5GBCRHFYZVXZCAKXV9&hash=item1dd1826759%3Ag%3A2Q4AAeSwmHdpcsSp&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FwlL%2BkXlYF1galBIX61oTAMng7wLfxYo%2FXL7S%2BpiF8qlKlxbnQ%2BWDC%2FSr4mJ%2BkshpNB5SWIMRg1x0zX8NP3DoBh6WK251PDre54eLTjBIUWgNb8Jpg4OFJjTNJM1n%2Fkg%2B4Nrc3bT4WQ11GmvTcAdYTFGEJh%2BRznrwyTFz%2BozvwFsEV7W4fJ%2FIYAPFNPdMKiThvcFvLVfNdx2QVl%2Fs5cpm6MWUFNz%2BpLR4FLRY7mu1Jb4BQbvIvcIOvP0u9oAzf0DLSWkahKqatL6drvrHCxFhi%7Ctkp%3ABk9SR9jzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128069035865"
+  },
+  {
+   "title": "The North Face Gotham III Parka Winter Jacket S Navy 550 Down Filled W/ Fur Hood",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198031730127?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5GNQ755857B766QGGB&hash=item2e1b9c65cf%3Ag%3A5qEAAeSwPThpaZ6r&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FgWK3vIRFHDqdafuTOFcx2Vq6stK8cRj6Kv1mz7kmYp2M1Mr6aLMXU%2BRNzy2FuksDprTL4SwwnDZJdUvDmtjzFB1Vhw4vyFbhOyW4atN%2Fj838%2FR--qkHUuHG5THBOfl57HhW54ahSE7Nuts%2FSM6d4ZjYX3NfHzXrIJYT7ZoIRknr2tEEEYimSi2RSZjm9kj2Qc24JQsFADTJbgfnVs5t7jbCxdruydmRhbHt3OYOw%2BwyuUKnM7xlZaCdpCegDKu0K3Kq%2Fvv1BHDFlxtu8q3A8R%7Ctkp%3ABk9SR9jzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198031730127"
+  },
+  {
+   "title": "The North Face Transarctic Mama Faux Fur Lined Hood Parka Coat Navy Blue Small",
+   "price": {
+    "raw": "$175.00",
+    "extracted": 175.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/397388759423?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5HZYGXHPTNPNSDE939&hash=item5c8637417f%3Ag%3A5VsAAeSwyIJpPbIw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bn9OLRyFKtJXlm3TaRHjNYybT7hRYlFH3P2dMyLYk2M5qNmYE2BDg0WyQLtji%2BUYy9o81PfMrKjj7OjmSOFD%2FTDadXvCiw6yfj7pZiF7lG0FGtGrXht%2Bjiei41Ism8gjDYtn2iNuhNmsx9ZJUa1nZ%2FRJCU527P9TH%2FDb4pIgvtQTxP82goI%2BzxkNUG1iDTx4f8v6rDiXyfvqBmd173SH8OVTTNcE6YMFIwKEB9A6Sfr1kUOi17SlI%2FmZjmQBibsHU1nPP%2Fyew5dxWA5mIS7BeyONy5WLJAwA9WE2y2fk0HxSRcD3A8JekSnEgdSdqrvrU%3D%7Ctkp%3ABk9SR9jzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "397388759423"
+  },
+  {
+   "title": "The North Face Men’s Parka Jacket XXL Navy Faux Fur Hood Winter Down",
+   "price": {
+    "raw": "$117.50",
+    "extracted": 117.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406347590885?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5HRM418V0E7EWBR787&hash=item5e9c342ce5%3Ag%3AWI8AAeSwPvRpCMrt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FA47ExjS0tnY1w63NrTVrTEhedY5dF%2BWY9xFFnqSz46gP7RqLp6%2BJ7fiehqnvgpjIbfD6DF49l7lq%2Fm%2BJEFoicYAlj5%2BwyPCIRxBz%2BFtQoIuW%2B%2F3CxGAzYvcGfeGoS9dMIwBch8LhjNCkEYRLtFAyp3HJ2dxUwEnTdHcGBW8mGGz%2BHCkJeRjxvnT0wClC%2FGnHzGdRF72QhT9AHnXUOk5NHgacR9pN7SIVSJlND0k3q%2F4z%2Fn8GXUlBlgr0vrLZcgVhGDuU12n6NR6nAoi3fRCiHnWV4kgWNZ7wgzyMI9osz5Umt4ZeZEXN7nk5C0W81NtQ%3D%7Ctkp%3ABk9SR9jzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406347590885"
+  },
+  {
+   "title": "North Face Arctic Parka Down Jacket Coat Navy Blue Fur Hood Women's 3XL XXXL",
+   "price": {
+    "raw": "$139.95",
+    "extracted": 139.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820238141289?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5HEM0APSCWG2YGJK43&hash=itembefa00c769%3Ag%3A%7EzMAAeSwM-NqqrZd&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BlRFoozyJSxnerJ4hZRCySEDP%2Bj0dSH0pxNtMPL%2FvUb%2F7ednT3MTrkUXGk2an7QIClZzL%2BstKvduYe0pTqE7ASIBrJLj4oHAuoaMzrKHmb0nFX9eHwELwqrmaQmvO3%2FgRR5BXbzolSSE1uxZ4aWR%2B8dGDo0IS%2FAJkJu4sAY66K19R8qJRbf%2BoLhxIE5obEomYuHwsRS3zVHRGaXZfJlPPsFaC18iZstvOEY%2FKdheaDQFT7A1u3NBJVjwAF%2FrA%2FBFkt906I5EGkA5b4McDMOoI2%7Ctkp%3ABk9SR9jzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820238141289"
+  },
+  {
+   "title": "The North Face Navy Blue Hooded Faux Fur Trim Parka Coat Women’s Full Zip",
+   "price": {
+    "raw": "$40.99",
+    "extracted": 40.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/236558057092?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5HMWMTT8KCPFWJHHRM&hash=item3713f57e84%3Ag%3AhYAAAeSwSzBpVZjj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9nezuURzB2%2BNh7sO8k%2FSkFtpT99iLbs3gdErNVHXV%2BNRgHEFmWOIS9HcR3S7595fPI4a56gmK3eIgZHos%2BKuFzRw0TZy0X3F52imZoS3Mxp0M0LG2lB%2FoHPWiRgdBOgM4YFCsnLWDR0QCW6SrQmz6UB1N7ZXrwvnOo7jFzBW%2BWxAFBPmLg2F5Cif1WSGe91vNJXM1EmGNqMQw9d1mNiDVwkuK9b4IRXPHhP2trw8eKawf%2BgAlEnjWPRUA1lctdp6opctfOdHo79iZs9mxiE9oZeBv7Hls0uZ5ToENEmoD77VYTZqkcXHaNuN3CmXXNRws%3D%7Ctkp%3ABk9SR9jzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "236558057092"
+  },
+  {
+   "title": "The North Face Gotham McMurdo DryVent Faux Fur Hood Black Size XS",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158298763238?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5J3SF8BXAFVJYZRAQK&hash=item24db576fe6%3Ag%3AheEAAeSwoXNqqsHD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9xD9NYWHczdDKnG8LLylzb1YWiLa58FjVMP%2FEXXEYjsO7jSyWWY7i2KCePBprm%2FcPEdeoKmQNnG3umS0jYGlGpEUEUIGmQrW%2FcXuen2O%2BKYMe6n1lXZ0MIIYG8CH6LyAcMsHkc%2BZmVeWCcWPkpAUuJpW46fJeB8W879GKs586I1%2FamN7Xz%2BL%2FM2VE42hPCpnheNl5Ufjd4idytmFXLzOa8xzve%2FvL1gEY2MC0Ag7LPL2TNC3GQQtd7ribe8COV1J4qHXQaipIl8Q5F1RmEEJm%2FbbLkGOJzmASRmmqdO%2BlleXl93fBwu3Y1pjSY4rMDI20%3D%7Ctkp%3ABFBM2POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158298763238"
+  },
+  {
+   "title": "*HOT Women's THE NORTH FACE HYVENT ARCTIC PARKA DOWN FUR HOOD LONG PURPLE Coat S",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366479128273?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5J7NE2F44P80HY03A6&hash=item5553dbb6d1%3Ag%3AoBgAAOSwO9dlTl3f&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8VPkifb2cb2NJeRnECUYQTSRR4CS9ubI7K8jnqOJLgZ%2BopfLqJ%2BLxLOcX9rbMQ192C2VkOMQGNCaci2X31QLhyStqQBzAmdwhoC%2FLaMjfhHHdDp2CaoWeFY98o8ZYvhrkY1EqaoO9w7Kvw9wuX6Cg45vQZbFb%2BLc6NdNrhOOnYBJ%2B5IAWleTdTnSpnM%2FgbZMFCurdJm02x6qoDReY6aoe7e%2BwuyMYWLOMO9xl%2BBBZse6QiZDHUgoN3ju0fgUvjR34gpwy%2Bdl%2F2eoaajQuHMYOcYxR4dCEoFDLV9dnZZKnax8XALe%2Ftm0FFN7qNxOWAnGM%3D%7Ctkp%3ABFBM2vOjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366479128273"
+  },
+  {
+   "title": "The North Face Teens Black Pink Hooded Fur Trim Parka Mid-Length M Zip",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318767157239?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5JWZEANNPZN3V2T6FY&hash=item4a3800cff7%3Ag%3AHFEAAeSwMCBqgKpt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BJlQ0r2j4DcXEwpJ7cdDwFN%2BhPXMGzBukBrYkJEyw4xavAVxUhF89myoDm5j49zZw46qu88IaEAC6Unss3zRiwjf30GIl9t3un6gw%2F4w8an2H2I9n1Toyx5Mood1txPEikITJ9oiqNtG5gJW%2Fg9wdRdxQFoh6n0CPiQnWKwW9M0gz4CF2dx7ddbEmKxFXtZHy07L06G8zmqCCRk2YQCdyPuCUSjkeHLS2%2BIh7YB3jKFq3sL0YQ7DOxNnJxZAkX1QdKdyVbnHwudTvz5%2FE48quyS4J8IPNPRRDYcDTsntSNRFkaOASOKvr5jMdEUF6xEUo%3D%7Ctkp%3ABFBM2vOjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318767157239"
+  },
+  {
+   "title": "The North Face Arctic Parka Green Down Insulated Faux Fur Hood Women Medium",
+   "price": {
+    "raw": "$189.00",
+    "extracted": 189.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377568092047?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5KPXN8FVRFFNJB9XNG&hash=item57e8cfdf8f%3Ag%3ApVkAAeSwHyBqzpt0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8y5x3MWHkkvNJQilaUd8A8URescToI8jX%2F5pwIlhwdjwtuJZKLMrLfv9kNmq26wZwuxuQ72AVfW5Z7nzD2tH%2BF2Kzoc2qbdRLn7rDi3JpbaJoSJIPhRe%2BzcxeReU%2FXsHHnbZ57zvXagxorajRNl7sB8v2whJ%2BeV%2BxVgV9CUZ3czOfQTdD5%2FwExHV8bG4xjw50pZ07bnaZbDHSO5OvZHsZzF8n3ibCUvN2qBBqdxqpSwUT9UwKNy3W7PHY6xCNZnW%2FmXZVn7BCz017UsZhZYVtg2USRvaYL7arJL4Tb2XzmVI3GNIIvOah4wYWy0QEuHBg%3D%7Ctkp%3ABFBM2vOjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377568092047"
+  },
+  {
+   "title": "The North Face Women's Navy Blue Long Hooded Parka Coat Faux Fur Trim Insulated",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257391445671?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5KMKJF6Y8YJTC259X8&hash=item3bedb9c6a7%3Ag%3A6T0AAeSwwYxpqNQn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FlHLayDfS%2BnLKEw1CF9%2FBb6QsVxvLWOlsICm0vhYQNis5LqLH7vnGBCTD8nRKdmxFpsemFs%2BrGcGYq8caKFMt3wAFLWFu2izAyo26oKVCYyR2OiynooZw%2BwBrw%2F2xZMhFKTdWJfK7Gnr30v3jMj%2B3uGwa7gxe5vpKt8Tafwmla2UUEVHyuOtpE54uksFb%2BPiT30xSSrMaqG3DmSf9KT1Rte2tmR5qKLYZJKUPv1heK5Z5N5v4%2FlkmJkMc%2FgtZvZdsxmhM2H1LsujP30k%2BX%2Fdg0WVJHw3rQr%2FAVUNXVxwaK0I7HCUtf8YOMW7Nyf0joQM8%3D%7Ctkp%3ABk9SR9rzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257391445671"
+  },
+  {
+   "title": "North Face Down Parka Fur Hood Navy Blue Women’s Large Long Coat",
+   "price": {
+    "raw": "$360.00",
+    "extracted": 360.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/126512738217?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5KD1H7VF6EA5PZCQW9&hash=item1d74bf2fa9%3Ag%3AGeQAAOSwgeRmXe7g&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FzksnaWdW%2B0L8guhp1qYJD5yJO4%2FJnQ6uFILNVMN6v6AWstxAgr0uMpftR6X6cd02F43Do%2FDO%2BgezO3zuZ36Ncee3C1rRjcwxXwoDLvOiPaoN%2BZvLygkyPhmV2FEbxlCvgEx5Om010hrbCmrj2v7Hr2DwIi4OT--a9lLiA%2BpwX%2F27DwgOMmWRHl%2FCLnEJ9CXEWYAyq%2BBnSitMbv%2BU8fhomjGTxfIPgQ2MsllUacQGPKiZzYh1%2BqsHZkLnNWLq0h%2BtdYo9KXEAc9uaK3C8SWeivhnSYlIrKB6rQRKj5yLOliZzpC5y7N3vTuJldXfyD8rA%3D%7Ctkp%3ABk9SR9rzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "126512738217"
+  },
+  {
+   "title": "The North Face Womens Parka Jacket Navy Blue Faux Fur Hood Size M Medium",
+   "price": {
+    "raw": "$114.31",
+    "extracted": 114.31
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287709158887?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5KPGZ72FMXK34NAC8E&hash=item42fccd5de7%3Ag%3A%7E1gAAeSwyxZq7cSf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F8S93Zabd0DsYTpNBQ4lCjGdvS7wN475pTUSLEsBvrzloRLfU5Dgz0OhBMhq71JSmrQi0OqlDempMSKjhrm1fZvAjSp5iUimhiB8bkZtziII7rYkPPf7RpUEqDWSDBmKqTK9Wq5ql9ecFxjHf2XxAkCQ7d%2Fq5%2Fn21NfX7fWg%2B9hXa08lgwXq%2F73s6uMNJPmsOfuCmJeLV7TAhI%2Fo%2FN3Wv7Dj4yOgkOwBUdpb31X%2BfBgOGNgW08kBR80Tmr1ZpE%2F9IKWujMLuEnCNZdElf%2F%2BgvIYSBfZHCIZEAzYcQKvisf1DuAgEwfaLQiZOu2nTomn88%3D%7Ctkp%3ABk9SR9rzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287709158887"
+  },
+  {
+   "title": "THE NORTH FACE HyVent Long Down Parka Jacket Women’s Navy Blue Coat Fur Hood XS",
+   "price": {
+    "raw": "$39.95",
+    "extracted": 39.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398267595630?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5M13KFJZZEDPNAEJ5V&hash=item5cba993b6e%3Ag%3AbL4AAeSwM75o9qiP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B3PuVHCDV2HVR9HcMxb0DI2q%2FpHg1kLHsFlR1U86Nc0NoRlUW8PWO6laMV3Z%2FeOH808clMz7Z2Qm8AHkKEe%2BvuctKgA%2BdmOzuIfYHhG9YsTk0gaAuD2An%2BajaxrplUP8%2FrPe8Z2akcgJQD88Eozf97DfiFFrGn6YhNBjJ5yK5k90poYg%2FTx5H8KY%2Fh9bpVQSOKkGLA0OK1AfYGMq9QiNCoDIO0qrhZqcXtVZfbkjY7oxX2lJXQ9XqJiqOnB3sRYIBKw5J6CjAIRUO8MHCENap6%7Ctkp%3ABk9SR9rzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398267595630"
+  },
+  {
+   "title": "The North Face HyVent Down Insulated Hooded Faux Fur Long Parka Navy Blue XL",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/236824099882?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5M6FDZMAJ45E2YWNK7&hash=item3723d0fc2a%3Ag%3AhgwAAeSwrclqC6Ks&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fh3wrhTqrRlkEAgS%2BVduaiRFrCFWYL7IBz6qt9jMlbDuYqeDfzCbIXVO2LfyyjkZnvCCNaArAITT%2FaAxWTKkJLA1NbKyBKkTBxm5IXxnWjYk5hmE%2F75b%2FL5VonWs3zgOSuGFh6NkX%2BgxKgxbne%2FSSTO7eoWPg4uz5ytuO69ACaABb9iQF4D0Xjc1A0kawsihZ%2FFMM7D03%2FphPR8aKxXRShMjfCdPfH62aLdUDUeAG756UntlfJFLbc8SgBdjJQYn3HvYbBE2r3n4%2FFhlc0ZFtP%2F3V1Osce9tuixLEkTo1Kf%2FsSqNH3r9g3lQHwJNpMB78%3D%7Ctkp%3ABk9SR9rzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "236824099882"
+  },
+  {
+   "title": "The North Face Harway Insulated Parka Jacket Women’s M Navy Hooded Fur Trim Blue",
+   "price": {
+    "raw": "$39.95",
+    "extracted": 39.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307049831147?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5MAN9877C5RZDD8FWJ&hash=item477d989aeb%3Ag%3AlUkAAeSwG2hqSIN%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2Flc%2F7kemsQjbJOLbq9Qsf6wCa%2FLsC7m7Fc6rAcnSUem%2BWHXCjBjg3CNHoT29nvAYMlw7DNHCFebzQpXbi7cub5G7di9whwhtpMy3el6AjxBHIq1QtFKVeh7JeNdhgKUfTGX7%2Fm1TOFwsnqvhYVjsY17bH7YW4ejSvzNH05N4IwGyQzYzTU%2Fqe1QZVDNDd3C%2FYelpy00d35gDZuoP1h2SXU6EaKBImNtbLjc8N0w3oFXRGVF4DfkXMeM6EKeIxGy3uMeUwynL8r50jPdh46ff3CSKRmwzklgl6xGZ8ec3mD3wiDRnDN1ExbPaDug3tcPY%3D%7Ctkp%3ABk9SR9rzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307049831147"
+  },
+  {
+   "title": "The North Face Arctic Parka Navy Blue DryVent 550 Fill Down Faux Fur Women's XXL",
+   "price": {
+    "raw": "$274.99",
+    "extracted": 274.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327281739421?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5M3Y90X6F54D0Y9FRZ&hash=item4c3383069d%3Ag%3A44YAAOSw0vBnmGUs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Tu7w52wwYAZ6yJOt0EizjNBQ5%2BdB3uSYCe%2FmdxOPl%2FFFbjxC5BdTqB7PqVtvswKOvd9kpQWJR3Du3M8MFuB0PSwSvrx15oQRkaHwq7k2anBzqNeajbezoleLFj6aitp8KHVPYxuYuG55pQ33kWAmwE0Ffco9xvaLMZoMB2awBz4%2FtIW9v6yjscBWzCS0EpfI7qgq5eAlOCyVhD%2FMCYMHiEiITCoFJR1Lq6JlqELXvxi%2BresmkZzXGoJ%2FF76mwU3VGs53E5vKnKcQZP9MBiThlzXgioLQ6dZZUstQA3ghgzYM0aESYFDC2s49hVpXIILA%3D%7Ctkp%3ABk9SR9rzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327281739421"
+  },
+  {
+   "title": "The North Face Korea Womens Down Parka M 85 Grey Navy Faux Fur Hood Winter Coat",
+   "price": {
+    "raw": "$50.81",
+    "extracted": 50.81
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820292040315?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5N17XCN3D4TH7YMQSR&hash=itembefd37367b%3Ag%3AM%7E4AAeSwIRBq412n&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9M0bV12%2BIqbUJ4z4eKngNgaVFGXcmDWeKjYI6JVsvhqqYP3BCYE6zv9WVFQkWcORWCvTTl5TkeOsj7hX9kRHytDC%2BQecKldr9%2BWp9ypgN3QTiA74FW%2FxJmvGU%2BMyndNcYxMVI8S7Jpu4BdOyggqqIWoNNsj7hmANxaDXR0Ee%2F3AgP%2FrnnW%2BlYc0HENZ91io1i6F9uut6uA9GxsB7yIUTTVjtvSHfyi7uE3w04K631uqJBqoGxasWqL4eWO%2BNd1edxGB3hbRg%2BUmGj1KPzAUn7m%7Ctkp%3ABk9SR9zzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820292040315"
+  },
+  {
+   "title": "The North Face Womens XS HyVent Down Parka Coat Navy Detachable Faux Fur Hood",
+   "price": {
+    "raw": "$73.98",
+    "extracted": 73.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287647632766?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5NDAF891Y7ZXDSVZK7&hash=item42f9228d7e%3Ag%3AfTwAAeSwT0Jqz2as&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9a6B7R7MsHbp%2FV9b3eHqTyhfPYtHxKyMETFoPqeKH%2BTN53YZcZE9WOPsfeY7aRpNaVujICYUKe1TEyW5f3jOmL64f3TlewfAmLGvirbPXPL9c%2FfyD3VmbERlGry57m2tIollU0BpQrFAWJL1%2FhtKDKgZXlgVLMGoaKRUsKXCBvK6iO9Zpal7VEyo7H2jfWS0XJTmM%2Bww%2FTb45YURHRNT3O9TsoTOrFUasmlw1BVLB5LrSnRzNcC6EJJLjg%2FaKKQGLormeozQ6hLwOYa0I8mNGVTPoWcfX0C7R7FuSDbwMDDUy%2FZVpVt22cOIDRoiUan28%3D%7Ctkp%3ABk9SR9zzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287647632766"
+  },
+  {
+   "title": "The North Face Goose Down Belted Fur Hood Parka - Size XS Women’s - Navy Blue",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960158724799?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5NYJ4D7GH2TQ3N3ZNR&hash=itemdf8deb72bf%3Ag%3AaRkAAeSwCABpZEjP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8UhOSp79A6Lti4BC3ap73IZydrosTx1N11qYil1ikQGMdZwzTe3p0MjBGdX32eosyvUGEe%2BcDloqWSDnsJAK50JfEzksMaFZrABTbBVG1%2BXj%2FDFzAY6lQFD8oi9G8%2BxFr3IPRLGHH%2Bu4RcDnzXjvDsL00vrv%2B6m97Ogr8wHFhrBfCKPy7%2BEblizRVitzgwEiBI%2BRnf2EHpRi55QxCCqssj8L93icFxccFw%2FZI8PnDMBw3%2BBnZwMqKBkuGX10VDiF%2BGlVKkF37MOAAS%2FGWF7hfQ%7Ctkp%3ABk9SR9zzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960158724799"
+  },
+  {
+   "title": "The North Face Navy Solid Cotton Goose Down Faux Fur Hooded Parka Jacket Size XS",
+   "price": {
+    "raw": "$66.00",
+    "extracted": 66.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407115101753?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5NQSZRWZ66BPPF4P60&hash=item5ec9f37639%3Ag%3A-TIAAeSwtPhqaQVZ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FPCQuu2Cnr8Y4s09fzQnCNKTzjn1fNDwUtp6n1eYwNPinoZmg5WHYsixQc0vbeHv0TH4dINeD19cyCUGEUZ4XiaOzfK7U0Xt9ss4kX6Ky1QQKLBJGn49xRbqpB34m1dwUUDXgzSorKVCxRkJg8or2blRzr4ZdzW3ZQtSA6T5B%2BsrO19Zj%2BAWzJYo%2Fgqeo7eVVlxhvaH0N7i5YF6DgUKMcSVeieVzcC2DiLGdHRV54IQpRAW4h4XP8iDgC5OGWtcR63M%2FSfbfVN0nJvt792ndNs%7Ctkp%3ABk9SR9zzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407115101753"
+  },
+  {
+   "title": "North Face Down Parka Fur Hood Navy Blue Women's XS Long Coat 550 Arctic",
+   "price": {
+    "raw": "$52.00",
+    "extracted": 52.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/175748079980?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5N9B092G8FAX99CWB4&hash=item28eb66e16c%3Ag%3ALfsAAOSwmk5kc3HS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZwFmAMsx%2FudO9nOXGNKZS0Hp5Hd8ZOkOLWq7ypWhs12R1pmRHvc5jiSFTe1uMWUEendWEhCB2MCXwJzETYVB4JDz6p%2Fc3%2BJ09xg1%2FK4ucnFdz%2FBuufgX4mE7ppg9peh1bhnc2%2FFed%2FAep2IlCXyMX2QLx7kPomlrHLqBpsJoShF1GLmOxn4vkqgjdvVjkcyAwupHqAXO5WdBis4iRIAYmh%2BSTIeh8kTtQMSGHmjet1W55RmLgmIbvxO7gRMfdRSSz47DXK%2BK84V%2BvO5QoQ4D6%2FKlFGrsHNAcavIm6c4K%2FbElR3yJM8eLb2I8%2BpWrY8kY%3D%7Ctkp%3ABk9SR9zzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "175748079980"
+  },
+  {
+   "title": "Sm The North Face Black Down Parka HyVent Arctic Coat Faux Fur Hood Belted Waist",
+   "price": {
+    "raw": "$99.00",
+    "extracted": 99.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406443981501?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5P1F75GA0RTPZ3X13R&hash=item5ea1f2fabd%3Ag%3A-S8AAeSwCYNpL70y&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3xFg%2FlPShbNJNgBkxwx6EF8ztaouUQYkBTuqzbvsEUMMAmdK4V%2FWRxdeAPGlpMtV5biOsFaKnYGvVSSfMzMKRyB%2FJL5mKfoXWuHfXHVyW2MdZM4pLuf%2FMc80D8ZrL6FgvuDnsKNROR3oP4V%2BiVi6ptIjB3Nbv9oMk3%2BwtnnNsPWX6fI5dvKRN51TizHcCdTG9hfGNu%2BqsCoFXPwsw5ip5VnA8c1Vwf%2FoQfVB9v8NL2EwVLRYMOMBTeJ%2FXBxZoGBa0fBXfkL1pLr1KXfTiTt30%2FGhI7hx5P%2By0JAGDUD5QFqItsGxLB44JaYOIYGCI44E%3D%7Ctkp%3ABFBM3POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406443981501"
+  },
+  {
+   "title": "The North Face Mauna Kea Parka Womens 2XL Navy 550 Down Coat Waterproof Hooded",
+   "price": {
+    "raw": "$104.50",
+    "extracted": 104.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327420546553?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5PVYXQJBY78CXTK22J&hash=item4c3bc90df9%3Ag%3A7YIAAeSwi4Zq3ANx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BYsCw%2BsK4I76%2Bt8p2GDSgiPPAPlJ3X%2BAtd5AEsj84jAUq0l6tNtqaP8LOBlKFzBuIvx2D2egOTe4wX24Vcl%2F0tqeMT1oiZoRobuQ25DzxMycW8uU7Jv6UlPUFDuB52y2sRUK%2BelOxBs0Ns%2FoVortWoRcVkYiLZ2rlK2hqeK1y1upS0yAD8a8OFPvyk20xN2JrBLGPdQu912CMIKmEQBWlFgFGSEj0NqhmhA9NPVNyMt546v4yLv77qaTRYvUXuTN%2BqsR0oK0qt0848jyYg%2Fr1yFZkrRnv2mo2085oWSUl0mpHP90m2ey9j8EknxIGFkxQ%3D%7Ctkp%3ABFBM3POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327420546553"
+  },
+  {
+   "title": "The North Face McMurdo Parka Mens L White Down HyVent Faux Fur Hood",
+   "price": {
+    "raw": "$169.87",
+    "extracted": 169.87
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117473638000?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5PX98A6FA0F0QSC8XZ&hash=item1b59f97670%3Ag%3ABzIAAeSw1XNq1T23&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8dqXEiVXrk%2Fx6OHFXBISQVvGAy8uKFDaE8g6YM868y3ohMRQCV18sAu4zUl4Vcu19YVSqR9sys2ZhbYxKtGHX4YBgHRezQMgCQLR%2Bx%2F%2B7sYMy7oLm8vw5O3Ga4floUjiG4u3b8rgouAXYTH9Bm5i1RK0D83jSpvrHZ%2F3PNdQD%2Bj28X8GfNzx0S3eEDAYPZjaBc8lcbp56F0H58Mb1nrTwZCdJ1uUi%2BuF4lt0X45ae8bxWCCN9tOVrAjGom1sVZml7szS9sj1%2BEaFdm6458FaCK8Mdy3eIysSJheMBPVQ%2BFAqGB39PQj6Tn%2BQ%2F2jEnpXok%3D%7Ctkp%3ABFBM3POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117473638000"
+  },
+  {
+   "title": "The North Face Arctic Parka Maroon Faux Fur Hood Women's Size M",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178512338571?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5P12J090VQKBV79Z4A&hash=item29902a1e8b%3Ag%3AtBgAAeSwKZ9qr40R&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8J1tNTj0faf%2FMjyzEgRyhLyOnJmACHkJ9DXON9%2FOMRFxkWtLNtzzuPynBY%2B3eeoxWDQdNCVRAFk7tyD8fRn04xPu7mBJOjJUTt2rFBWA%2BYXYCc%2FCOtnpgnd7EJzNXbL%2BIzStmoJvaI%2BIruONrxql0KnqHFCpPev%2BGg4DtW%2FOLP447WUP2QwJT%2FJmRuNR37SpB%2FrOw5NBQVoM%2FoclgBx%2FK4tWDPefJUmoOdWOwtnDlVsXP0eDCnVu9Htc%2BwdYmFpRJrGerzCQ5JbvzOOv5hlIQeLYALzY9m%2FIN3sVWk%2FW2ZYoNvv5cKY1bvGa2PpXlXJ2Y%3D%7Ctkp%3ABFBM3POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178512338571"
+  },
+  {
+   "title": "The North Face Brooklyn Parka Women’s Medium Navy Blue Down HyVent Fur Hood Belt",
+   "price": {
+    "raw": "$67.24",
+    "extracted": 67.24
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800626779015?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5QVXM4NQZTY4PEQ246&hash=itemba69132387%3Ag%3AFi8AAeSwY41qnuFg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F5Khhin%2FpAZykQEbT3wPC%2BenJ9OnRaIgsq3jt%2BpxYzdlbANjpAIn0puhW%2BZJYIvbCmjYUBmaBwaw9xKhsNL45soGVU0vW7%2F05zzUr59pVAL5kWHX8tMw6yD3pIr5zcWxAGxirwKV0UNBdTWJX1KFiNYgGsm56CAy41MG0strjwSbjP8v3cP6%2FtDl9RnQCE6HXEC7eAejpTycraFrwXFq3YTf3%2FJK%2FG6riQDARQuiZWuYS22GDtwLa9fL%2FtutMRa4KsLyuAd%2BUw6z0XDdPWvJ14PbKFtfHi5eZQB4lKY070zGDFsPN%2F5MQwEO5Nd%2BqbX%2Bo%3D%7Ctkp%3ABk9SR9zzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800626779015"
+  },
+  {
+   "title": "THE NORTH FACE Hyvent Down Jacket Fur Hood Navy Men M Authentic From Japan",
+   "price": {
+    "raw": "$241.99",
+    "extracted": 241.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960152649246?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5QCER72X4HP250SW4F&hash=itemdf8d8ebe1e%3Ag%3ANWgAAeSwz-Nq6vy7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bj41tDR3%2FU2EONrC3qDt0tySS2zyFMI6QGhK%2FuULD0zzw1pqhuFFJuji4D1KSk%2BJUakmLKnTvcunCnFtMCAoWX3CNtvZRIHKWEMvF14XoDSF2533WpKOp4TByLJUmbO5CQo%2BKqE0JCQwc8iBSRSnGLJ%2F%2BcFsI6alkPk7itkfCV%2B%2FGpXw1%2B6hF8dDvG2sAAYR3BbNcQ871RSYmjv%2BDfWz627n53kQI1AOS8XmyFyJWR5QLhxekX28fNexej5E65hUixFXiF7FLXcsalrcAxKENk%7Ctkp%3ABk9SR9zzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960152649246"
+  },
+  {
+   "title": "The North Face Womens New Outer Boroughs Parka Navy SMALL",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406860144693?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5QVWZWJJRMJCWYHJKK&hash=item5ebac12035%3Ag%3AF%7EUAAeSweUpp4A0-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FczJ7Br5G9fxyqRaZGn35epAa070nRxt6%2Fb%2Bz%2B%2BdUjwH8T23m2FXRtwcf3vKtwVRLFmNh2oUV0B3j6rsTv9y26JPTO4rLmyY5VbGSM6XrYpXGu3GKWHila0723eEQZE9%2FvvUEPj3nI8e%2FmSTZEgTTe2o4SrCtJFKu6Sr2V9z3Ypu7frzQn%2FqcyxRgn6leHmI4TFoUiQNMv3etHHhoq4rX%2BeA6LdtZ%2FBFACQ4%2FfnusI7FSq7yDw44b5NoxP0Mj2tyg8iN5520op4nEZ6IdcawIpF%2BimobeM8pfOT5eZfnS3X%2BlxsxU2mlAKtMyff%2Bq%2FX0c%3D%7Ctkp%3ABk9SR97zo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406860144693"
+  },
+  {
+   "title": "The North Face Hooded Reversible Mossbud Asymmetrical Parka Small NF0A33PK",
+   "price": {
+    "raw": "$78.00",
+    "extracted": 78.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840097290246?_skw=The+North+Face+navy+fur+hood+parka&epid=23039420944&itmmeta=01M6T88Z5QJ24J8VXDZJMMG90G&hash=itemc399b35806%3Ag%3AczUAAeSwZGpq7LZ4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BrbuHZFiwdiYcEuxOgTS4tjMwMIFeX0T7wabjwEYYcjOlX5g1JJIlE3s7yH62%2BvyLeFuE%2FGj72ibLSWN%2FuYEAAXQeBIAJI1fbGr2hkZgqfhqd6So%2FW4a6drr7y12RQz6lTxIEgOgSXtgIPUrZkLeeeWKF8H7mnt0%2FNyWfb6qJ1XI8E%2Fr66D8U1EWEP1rnI1kfR8appiP%2BOZOwjY0ECaEr4C%2BxjDUABIXb4LSW9JHWubJm5J7m3fUyc96nWZ7ps4N8OZtx5IPZrdbJIsEpS8y1eEfDBx7ZM5MRYs67roXQEcNkHJos9kjqKuxtZsZXYkIY%3D%7Ctkp%3ABk9SR97zo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840097290246"
+  },
+  {
+   "title": "The North Face Womens XL Insulated Hooded Jacket Faux Fur Trim Navy Blue 67-26",
+   "price": {
+    "raw": "$162.35",
+    "extracted": 162.35
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257825738484?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5Q7Q7RWDNQ5H8Z1B4M&hash=item3c079c8ef4%3Ag%3AHscAAeSworppBRxx&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bptt4SZ57sZUNZpExBpeOG2enbkU5SbruCShmyvMRlrSd0%2BnlnMDSEmOJ5dnCed8ph0jVbKA4x8Fj7BZOKWBpDqmO2WjQ6lnqhscV5cuxJwIJCSwLuXmuu6jNM0h1xpN%2FZOAL7EooBQSVBTfRivBvbM3Ss8zwGALPfSy96aXKEfWpzVM027qQ7tPjZD1jsd60pXb4vTadeFlfJm%2F3n%2BTjP%2Bb%2FOyaHqxuSyhf3SdFV9TTI8HI%2FAxW%2FzII%2B0cvDI2x%2BvhKe5HKT5KqQyALa%2Fp3X2%7Ctkp%3ABk9SR97zo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257825738484"
+  },
+  {
+   "title": "The North Face Women's Far Northern Waterproof Navy Parka Jacket, Knee Length XS",
+   "price": {
+    "raw": "$177.80",
+    "extracted": 177.8
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128091610510?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5RPAJEAM4M2FR8J29D&hash=item1dd2dadd8e%3Ag%3A8IwAAeSw-TFqsXYl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BHKCulS271weCDFYfGmTj0DLbGOyBI9wNPzLwfXSYwBhxi0d%2BUIhBNYI60%2Bq9LoWFEYxZoD%2FFrBqlTmj1rnGF8nlJ%2Bv83%2B8eJfrpc5PHLuHgUDsWCYj7m7DOuIBAR8Yob28ISqYD2hsMtHgAF%2B6PIVZtkofV0TAtv%2BrFVeznd5qvG8u9bMwF9b4Ppgrti1Kvj8dBD00s1fLI%2F8ywrkeH1FmihhdZWvOD8bY3IWmJVftwt00Pw2KcJQjC72Mr8sS6X2o2YJ6qAUe0ADQ4duWpESQhopQmmZxUJR8cc5gmokbKvAFcvizrxaiBaIQn3UKgU%3D%7Ctkp%3ABk9SR97zo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128091610510"
+  },
+  {
+   "title": "The North Face Arctic Parka Jacket Women's Small Black Hooded TNF Zippers",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336844223193?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5R4E1723MVP0BZVVV6&hash=item4e6d7af2d9%3Ag%3AR94AAeSw7PpqxCtU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2BlZ%2BPBtm7tA%2FGgbPiFu%2B9GmL978Y%2FWfsHsN26oKGxhZeosC0TmobSZ%2F7pQA6plfWD0hf3vaZacYi3mIRfMfaxnzpQWebaT1kVI4F%2F7xbniKEnqvAi31l91csV5poUSvw9M764oNoVMsxpTtQDGaJOSByu1XgJ4%2FdvEbq%2Fd7Velyi67wnhXObB%2FVXV2NIwJPQ%2BFQJ3x9%2B8uYfYC1YEcMoofRj1Gf9xZMQlBVES7vNvWNjYh3Wcuo7k1kkFr%2F0JicMu6mmOTelpczpBjUxM1NwarJ3qoNxrWbkdjaI0SyS24nBhNnM1xq8VRZTNGEq88y0%3D%7Ctkp%3ABFBM4POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336844223193"
+  },
+  {
+   "title": "The North Face Arctic Parka Women’s L White Down Insulated Faux Fur Winter Coat",
+   "price": {
+    "raw": "$179.99",
+    "extracted": 179.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407345417300?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5R00PMG7V48BP5QS8J&hash=item5ed7adcc54%3Ag%3A2CIAAeSwo4NqbfIe&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BQ57jPUFa8GtMyy3l15QJd7h%2BLhKuIGLeIxBBFFOLU2MD3%2Btcqq7BblDyDEyJYALFy%2Bv5Oj4WpVgMK3gpNtuZMcTq80HgVMqBmZESpArpOtyar52457HEmii7CLdkdwiy4%2BEOAEnClBjYFSyV23N0RievFCEpze3BkmbXbmAAK1IhYQ5%2FvSzVgm0vNozyuzkOa2SzVvM0Ifa7xJ%2B8BGkGiuFk5UAzxW6WoRiYq4V81o%2F2OhnlMQxKg3KdfG2QQ6Qz%2BTAVFJRy4Tle%2BkPN3oCcUkiVxN5LGqoDjfou%2F0%2BRynnFluIUFWP77eBsTFl9R9O0%3D%7Ctkp%3ABFBM4POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407345417300"
+  },
+  {
+   "title": "The North Face Women's Navy Arctic Parka Medium Coat - Winter Jacket",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237132402223?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5SQD3FJY5ZSAQB5MDD&hash=item3736314e2f%3Ag%3ANpkAAeSwTLVq1i7Q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BLUO6dfm5ItWUCsJrg1xMxqXGXS6sK2bGK88ab3Ji4mdTXb8zSpaZfBBcrJ06B%2BybtAMhf921wlnkLiR6Q3bApK%2F393A2X7sst8G1DkeG%2F9eWl1V98A05H2gEgEkLDE4m92bbAa0wpBSgF9NgBjFDT9pa0Nht1qCfA6ndCEZpTTxKBmsBBtHyLLqwUl%2F3dAURbx7ytIP%2BY049EtbMDh9MjkaMcGbAFl7WE7LTcnlhjrxRhbNzLAdUTzCSQdThiDX5fYGGvBS62Cg0SaSmd32%2Fh8fWV%2BYQ378fmwrXbkD1wpi6Hpg%2BtAaVk%2BhZwlbvq%2B9s%3D%7Ctkp%3ABk9SR-Dzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237132402223"
+  },
+  {
+   "title": "The North Face Womens HyVent Goose Down Parka Jacket Small Petite Navy Blue",
+   "price": {
+    "raw": "$81.72",
+    "extracted": 81.72
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920045895051?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5S0FAGX7A55JRT8E5D&hash=itemd637023d8b%3Ag%3AjL4AAeSwS-xp4TA9&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde--er7DOa27gOuf2vOYNxDfoX3uegbZScxr3418Z9rwKf5jAEELmQuw8jmR%2Be3QNDbl932LplzmVYZ1799CMkzwppbFDU0ma7Iq%2BJseL%2BZMceSRqYD%2BwvGtPvp5w8yOC%2BSXP8ulLB0w%2FwfjoS9YZEHUcFU0itgKOqpfNfz7lY25aNaYqv%2BvR9%2Fux7Jq9kuvk33VA5wVbzwHTm6bNmHwY50d7QbKJfHzTXQCb1YfCIT3sCR53Qi8i%2FfVSG6YhhmNLyVNe5u8emWM%2B61kq4KqxjEz%7Ctkp%3ABk9SR-Dzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920045895051"
+  },
+  {
+   "title": "The North Face Arctic Parka Jacket Coat Size Large Navy Blue",
+   "price": {
+    "raw": "$369.99",
+    "extracted": 369.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137163810549?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5SD7Q93MXRGAHHRFEB&hash=item1fef99a6f5%3Ag%3AkoAAAeSwPO5pwuC7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9BYk7bY7aa9Jglb8qPnOOIUBQu8NZVt7NlH1T2Zk%2FkJyNxSnB5ye5JymNr92Xp%2BQNTbGuDfIK2xhvxonoZB4%2BcbW%2FnhrSHuJ6dgv0QNSPt8hqQAXzG%2BjLMIBXhzXUZ%2FcpPX1gJ3uE6GG%2BocOUQkHYpA8RqePv3lHpU5%2FRuZ57lE2GRLMA8o9i7LyIgEZgMFoWSCa310IyZpvo46TNTQt8nu0PNf2tok6yDjz2K4v17AhS7gBmh98C2Z5H61LcPIQLy6wzR%2BHNSK%2Bf4uQaEHFl8cLyLnuUelAQo89skhVJfdQwWMThuyruX22WDDiCY7mQ%3D%7Ctkp%3ABk9SR-Dzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137163810549"
+  },
+  {
+   "title": "The North Face McMurdo Parka III Navy Blue Goose Down Hooded Jacket Mens M",
+   "price": {
+    "raw": "$300.00",
+    "extracted": 300.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117475395801?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5SGTHAXT0DNXMCPS91&hash=item1b5a1448d9%3Ag%3AeggAAeSw3m9q1ncs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde88068tYJWOg5CROuR6n81dq82SBh5kA6NFPbFuJymMS3fRrlwd3nW2NYBE%2BpWLE8%2F2TjtPkfoKpghBO2vkYGIsIHTZjZE%2BEm6AKniCW2BoMUpQgaPkRPNvZlgbwS%2B24O9q6PfRrFKNXEaY7B0B0Z4tuhb7WJqKxdOBzDSbNOTgLElqQB9kBvFDIZBTDpOf3wdF7h1C31wkTk1G2IaPUfzeiasyPVwSlm0s8meYOnVLZLQ32ip8RdkSukBT8PQnt4APfRref8Y0Hpfh58U3xlftyiZXxcK54LOrHHPgbiVlucm79x%2BG9qkPh2cEyE5iaMQ%3D%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117475395801"
+  },
+  {
+   "title": "The North Face Dryvent 550 Down Faux Fur Hood Jacket Dark Blue Women's XS Read D",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377562220605?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5TWXAX513RMPVYT4RB&hash=item57e876483d%3Ag%3A%7EscAAeSwpSJow4ax&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8yTpv6xZP9Fnn2a9YVkR9qflFkMXn05hRt%2FW31dy83PYUukFst2XbbCyrE9fFpGWEs4LU%2FT2s4JTf8f3hMO%2Fs4Md27381uvTCO095Zyy%2B0GwbG8zUComIdzmLYExhKlpx7cc9Ofh0iw2YqecSMKGbKhFBLgZ%2F65W6%2BAGSrgXXt7Knk7z%2FPV0pJkRa%2FRx941OCIReitkrvtrYVkWW9J3rbqatpyipv%2FWR%2BLBosrmJUR1M%2FAh9FNTk%2BF%2FnAK2tixLjfS8X3cSnPvODtdrYb9WAn%2F%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377562220605"
+  },
+  {
+   "title": "The North Face Navy Blue 550 Down Insulated Faux Fur Trim Hooded Jacket Coat L",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/187576833429?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5TCA736FWW6QBW24X1&hash=item2bac735595%3Ag%3AK00AAeSwOxZoywaz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9%2BWcbSwC7gO8ZMh%2BAVGuOZ1DZXv8iTwIv4urdXDCR2N7doakI23ftafi19n5bG43G%2F2heX0dWyFh2%2B%2FWIhxc%2FIO8NbifIZEWpHbnCDOfVDSGU4f7PeS%2BcfqgNXFJPd5DEivtSzUJD1IMbNGhQhDGrpuqTjJ7pNyq5y6LzH9KRMYhmt%2Bi2Ue%2FmKvRHvcrZlRS3r7DBeiKWmVZbW5yMoqkPoTQ%2F44JIcLwHYC7vSF5HTu2nYaorMQwKmn%2FEOfXFfn%2B4dhFkfsQak9ihOMTi%2FI4qy%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "187576833429"
+  },
+  {
+   "title": "The North Face Reversible Mossbud Parka Women Medium Navy Blue Excellent Puffer",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227507528227?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5T7D590S1N64R3E8P3&hash=item34f8816223%3Ag%3An4UAAeSwICxqnC5W&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ewGmDKeeFu0nav%2FMrBmA4VXm6qchELPPIiQRMj5MUJ2GLMNQFz6mbgAcVC%2FLmrLrXSWo0CHZMsqj35iveEBdtClZLMAL%2Ffy99cGZtFJrblhpXxT5loHBDcqVAFxii%2BdeX6bKdeiYzBbb2%2FkI%2FKWtaEFnPciua695KLlRM8hENzCOlKWA7pAxj6tZi3rnbRXwuRYHWkzR7d5I%2B%2B7Ukr5ZA279oHLjTdUpbulREbibjyF0Kg759dOgc%2BdxbftEcEnu8mqcpxuH%2B8VbJ7pnAEO%2Bq7WocIw9I%2Be1tzx7Tsd7EYsmXx3gVJgYyWuYdwSzNgq0%3D%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227507528227"
+  },
+  {
+   "title": "The North Face Insulated Parka Girls L 14/16 Navy Blue Good Fleece Lined Hooded",
+   "price": {
+    "raw": "$38.99",
+    "extracted": 38.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147575181571?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5T1HANFDYXY63Z8BVH&hash=item225c2a9103%3Ag%3AK44AAeSwY5xp%7Enho&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9wwk2oYUS9YyStT1uKVxLHMuIBD2vmDc%2BW3x4FGIIFZm7fWSo%2BCIgweNVnVyqqFbtmb30xWJw9a--gqSXo4eqM4JwkOGh49FAHUNi1qzaEfP9jnJtqEurCAAXRy0PWf4%2FL7XelaiciyRNUXHQjUtr0K7ed2%2B0N6CA0NYJ8QgfBWBKtwpQAu2H2pQRImRY5DotmZwgy37EXxNqbkhmFf3%2B524qmkh6Gq%2BatAWTOKVJTSeWVxKOdWRPywu5dgsf%2FH%2FZGYjEvbUEKG%2B%2FyWTHGH6H4HnnQBlWxoTWK7I5mkBHFaYIyL2jSRlpyjzrmAvkvrvQ%3D%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147575181571"
+  },
+  {
+   "title": "The North Face Women's Puffer Coat Faux Fur Hood Size S Navy",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377598542552?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5VVW25RPY5N59NZ6FB&hash=item57eaa082d8%3Ag%3As3sAAeSwe9dqt7Ub&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F2Y49RVHXP%2FArxct1VcYu8xNLUThJtmNHW1zu%2BjkFfTfzO1rnUitx3GjhV3QatteulotUikRuRxendmEn2PEmWRjI5wW67pW4RGhoALiYUqexwL1u%2FF6oX4DGKuxD9EmS0mrkv97vZn8pPw2bhJemsizB8SfVG1tAH6OEIR9Ej%2FsdkOXtr2tO1sJl3Ff0NGvVsEBB8Fn3Iey2%2FbzUmSpND7D857zR7n6bY5lxOIL1ZZZ9SpHfJEdwgJgOfg11T3ocJtUDBt1WuIakgjwo%2Bi4K1%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377598542552"
+  },
+  {
+   "title": "The North Face Cragmont Jacket Womens XS Blue Deep Pile Fleece Parka Mashup",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257804435291?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5VPJV3WCYKTCBGZT5G&hash=item3c06577f5b%3Ag%3AX1sAAeSwqndq1FCk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9GCeW5GJO%2BjPTtU%2FHz0o%2B1cNLQLENRfdlrW74lgLQqPtltNOltnZuSNogFmH9uVAxac8ptWPQtIdEEe3FHRJ--diK9%2BYt0UrH7JvVlZ0BrPhvpIeEF8%2BnzY0XxyVYdw1EuUFzROk6PR5hGDIjY1QLP1%2BuW7g0Ua7aNosdc2O%2BJts%2BSYVkk8CWNH5S27oXnZqOp%2FVxhzugb9o6crGxeJnj6s8Gigyk%2FhaCs1r0Rw2HswqOjJ9FszaRNLMHlOCXGrJVDIstnQZIQ8guQBJvHSADFBWL7fMb491ozCJZDEklvkAo2QftOL3IQYF69UpsOFIE%3D%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257804435291"
+  },
+  {
+   "title": "The North Face Gotham 550 Down Puffer Jacket Urban Navy Faux Fur Hood L",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198726236559?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5VC2H824HTTQTH1TXN&hash=item2e4501b98f%3Ag%3A5SwAAeSw-apq0DEh&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde97THN4aq1LQE5b8uA%2BNMt%2Bkc46M61Ll%2BwmxKBEKwxl5vuwH0CTiZOFBXIc0Bc3DRXy98eMEYVp9WxiVtqnL%2BM%2BLWN4qgvVobGF8NGOQT8TFQ3hQhyjDr6S60GCF5jKPOXpFX86hi6X5kPpcNleRuAupBl%2BkeND21Yauo4VzcAKDFi9jmPIBRaLiuCikvAw%2Bh6QjFCqtp8xy1d8394CXnDj47DTFL80cosRKZU9a5%2FQjctjQromBgtP7j35bz%2BTltl2EPVVh5uPQPAUviFzqJUo%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198726236559"
+  },
+  {
+   "title": "The North Face Women's Navy Blue Parka Coat Medium Puffer",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298717890697?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5VHGA15304BE2NN9AB&hash=item458cf94889%3Ag%3AX%7EUAAeSwFNhpUyOQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FnO42ZtgcG9Lcv298uM0zIvcFha9aNvWR4f6bF4KAqKFHp8BMsn6KKDNsGuHzxWiBOHdFbfrcMSGIKbZwgejsCRtPf31aExwlVA9rtOQ%2BO%2FpFfG89AaHLstvfEEtIqhQJAg7kHZydlhaiCDq7U3Qdfny0kK%2BBc75ym4lDxfkRofgjNhhTgRQQKh2TcAaX9qfQj7k5HcSfK2jLMg9PVb7kWu%2Bz2AI3HQOi5gNVb47jDQ1EuAagKI1UaqBX9sq1xA%2FT3Vb2ys29yTsTg3ME5sW98T%2FLWc%2BIYUA6J6Femzao0YqCemUq72lj33Lg%2FWYyU7Xk%3D%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298717890697"
+  },
+  {
+   "title": "The North Face Jacket Women's Size Medium Navy Plum Gold Plaid Fleece Lined",
+   "price": {
+    "raw": "$20.98",
+    "extracted": 20.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198741659259?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5WWY8VS11SQTVAM3MS&hash=item2e45ed0e7b%3Ag%3Ap2kAAeSwtcVqNrp0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FoxEvENRAagHv3D%2BDXvPy%2FJ8LvX2GPDnVaWKehrqFd3llqCCTXHI%2Fo22weh%2FFji1cMto85puKzZDeGFJv1Jiw7aM8omXRiB5HStz7zK2TmfkBhfsiNmxxKnJAdFjQKdz3jWjkt12uNkEDtJ7WiwJW74ynUFReSXYbFifivIEfQZjM3aZ9bkSi%2B1M2V15290NcFLCtxm3Q7P8wPsUD9u3PFBwAC1jOD9fWYZVZVev%2B0QKnU4NCTM%2BsEm1YTN%2FAOvmkTO60L7%2BWaHtNQIPweVRTD%7Ctkp%3ABk9SR-Lzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198741659259"
+  },
+  {
+   "title": "2014 North Face Womens BAKER DELUX Jacket Medium Montague Blue Navy C379",
+   "price": {
+    "raw": "$49.95",
+    "extracted": 49.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/335601172429?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5WVR52Q5F5XK8N7VMA&hash=item4e23637fcd%3Ag%3AAIcAAOSwj1Zm%7EaMn&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FzNnCmAAbbsvSAIvwbxOILKFCgLnXWG4XbOHP5pK4h05Gbik7qz%2BiyOG0rscjJKikwjFx4M8MHUIV%2B5JGP6u8jYHpqC2JESGSVjtIGwBBgmM3E3h9zosJaA80X4DxgQJ6tZfRZJdKTXHNtHj8uA3j%2FiMjmLatRZTk3W%2BjA%2BMJs2Aww6iuogcyZ6zARR3DdrMiGBAm0HjyzvsavCKVJRt9TqMoxiY6%2BJ2skaGKIV9naPYhI23tKHUltr21jywnCwbrZQr3jfPZ8%2B%2B%2FyzYuXlP8U%7Ctkp%3ABk9SR-Tzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "335601172429"
+  },
+  {
+   "title": "The North Face HyVent Women's Belted Goose down Jacket Hooded faux fur Navy S",
+   "price": {
+    "raw": "$99.00",
+    "extracted": 99.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307171486328?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5W571BBEV9KEPQ12GR&hash=item4784d8ea78%3Ag%3A%7EM8AAeSwTYBpRkmZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BESAgQfrFSgTO5Z3rtq%2Ftom6DW%2BdUWDy9c4oPBc5mRM%2F0pQ1Y9MJkfxbdXRwG0oZ%2Bdi31b%2FPP8uVtnIfdobXxIldiizIeNR6z0ShN1VsAvOy5JHKK5uMcFSKjQ3IIM8de7F2N155tdzGA%2B4hLWme23FA1tWc%2F3dOO%2Bs8XOlGj4gyf6pHdiGAG9DFBZTXfdQkymh7nKx46josxWphV7L2vh9b8n%2BfGD0TakLGiJ5m1wdiRalIHhIweZSeCf5juERyC61grToqlI93T9XGWu95RNJAYf3rO8eDx21zrgjTatGU%2BrwCTzaFiD%2FtP%2BJv19nQE%3D%7Ctkp%3ABk9SR-Tzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307171486328"
+  },
+  {
+   "title": "The North Face Gotham Hooded Down Coat 550 Navy Faux Fur Trim Puffer M Womens",
+   "price": {
+    "raw": "$124.98",
+    "extracted": 124.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267832408034?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5WYCY2A96XM26P4EAA&hash=item3e5c0e37e2%3Ag%3A8uIAAeSw7txpVCfr&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde94OC9JRCkDbNYM3hYnw4tEQF9C9uOMFDy13MQOW5dNxuMo%2BILEd5UngSdkl2XXXtouFGRX5F2k6F2pvkz3E5SF%2FQt6vz%2BCNjNDvvE2v6JrJG4K9hUGyqq7Zo%2BpngcKVtoHm7w9M1%2FSwuic%2FJ53aEPl3yYdQbGi%2FPuFNswauFCviwOl7cuZyb7Ef6mDHknFfsy8KWllNYWXg2xQUU7j67exJqr6PVFjK%2FcNRf%2BbNn%2FIT0ESo36%2FQc6BsfHzdhjO%2FF%2FnA9fRiHC3F5uNUvmK77kc%7Ctkp%3ABk9SR-Tzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267832408034"
+  },
+  {
+   "title": "The North Face Women’s Hooded Sweater Coat Navy Gray Lined Full Zip S/P",
+   "price": {
+    "raw": "$24.79",
+    "extracted": 24.79
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128131561485?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5WZ3ENNRA3X5NESSNZ&hash=item1dd53c780d%3Ag%3AhWwAAeSwfc9qzUVf&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8vHeH7QclxHjbl8Db4Xyg56qqUgtA2tfH8y%2FSLIK1XAWINpDW2w%2BZ7xAxYqYgp%2FOjwijGQ0CcNZi1%2F9AkgPvcP4Gy2e2teic0XHaKXn8Xh9Jdj2RbnCtYoha2C5sRco%2FPOiAIvKlgPx774x7i1a53IVSrk7mB0r1GBpQKYSU0HCFp9UNig6txhgxGeIdnTZ58y0GSK6BtxiG9BjT3gebIcpm958Lx5D9%2FI629CVmqrBMz582IFxUtAKlO0Yq2i1nJlzIHTFeZf%2BFK2u6K21dn7%7Ctkp%3ABk9SR-Tzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128131561485"
+  },
+  {
+   "title": "The North Face Youth Girl's Gotham 550 Down Parka, Navy Sz M 10/12",
+   "price": {
+    "raw": "$135.00",
+    "extracted": 135.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800845778607?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5XB46XWN1KMKFD5QJ0&hash=itemba7620ceaf%3Ag%3AS9sAAeSw0SZq4SKT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FrSVgtbjd%2B1MaLh9PRsQ8%2BC37UHI%2F7OIHTFgWYaOd9%2B0eN9ujqDNP9mtdx5vpUgYdv5Aze72fzEOEHvLFPMiTYNGoORpyO%2Bhx6RCWRYp%2F6TWc3mMmxg%2FuBL2oRAALP9uztcPD67rLjJ%2Fd12mP16Nyw5cXpVczCaM54Ih0hrzjvskwsWZzamIEc9OqxpGUPAwcey6WkZB%2B5hnbNkAgKkXF3br7XUI6d5At20ck73MvNBnq%2BCXvprfZp7GAm7weiPMlvIYHpjeT%2FDtXQFBrrxBiU%7Ctkp%3ABk9SR-Tzo8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800845778607"
+  },
+  {
+   "title": "The North Face Parka S Red Faux Fur Trim Insulated Double Breasted Winter Jacket",
+   "price": {
+    "raw": "$63.74",
+    "extracted": 63.74
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940070440400?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5XP8T08XEG2E0T705V&hash=itemdae0908dd0%3Ag%3AISUAAeSwweRqnV0K&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9TRtaVGWGbNHF84ybT%2B0V0npsp3fk284II8fRIxmJcChgHpHOf4gnivVf8dPETI7IzUgtttK%2FmzL%2BlHjpyhQh6reZNY%2F1hI5fM0wn6gKjQ7QC32XXQfuNWfymJIOpJpQfWbVYdj%2FAHXB0aOTyQ95jwZrW%2FRTFxF15w46W%2Bm6eIAHseqRNZwxzOVwRYrTXXJBHpaAV9mKQ%2B%2B0ViyerhIovmo9qO0YLvH1KgBn3S3if%2FTb2evIAzI2D2KXDy9OoOHuu6iIb7guXWktzJAi6oH6ykSwDwUjl5PlWfRZ5vK5Rdsz9I5TTNJdKie3BpA8CPS1Q%3D%7Ctkp%3ABFBM5POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940070440400"
+  },
+  {
+   "title": "The North Face Parka - Small Navy Polyester",
+   "price": {
+    "raw": "$53.29",
+    "extracted": 53.29
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407287676342?_skw=The+North+Face+navy+fur+hood+parka&itmmeta=01M6T88Z5X64MY7WS5355705RN&hash=item5ed43cbdb6%3Ag%3A2bsAAeSw4-Npr%7EWt&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9nSaGS9JvYkXFgFK%2FFJiHeWCLxUyUkkc8w%2FenrVHJvHVlG4trbwMjYz23RTNphResg3PJi0NNOGYdCafFXkMRUAv4Qo8s%2FPJ0OMdjavqiUHtJnzgatJNbrK9W6QolefTC1aYvDuXz0gY25zpRxeqHvh2nvnH7R%2F95CW0tqWzjFODQW8Q%2BgoJHbpRknPn9Mje5W3GuMzSwgNCWRoJx4JbM6SIsQbuPTJGgGI7hgNPn2MjqXe56AJjJRgOPeJxwbUahepbOCLv6HD7SQrTv9mdHeoJMtEvq50KsKPJn0W344IqYG%2BXzKeT6Oj84dvNivHF8%3D%7Ctkp%3ABFBM5POjyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407287676342"
+  }
+ ]
+}
