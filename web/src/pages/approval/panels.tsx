@@ -19,7 +19,7 @@ import { OVERRIDE_REASON_LABELS } from '@/pages/intake'
 import { dollars, parseDollars, parseNumber } from '@/pages/settings/numbers'
 
 import { billedWeight, boxLabel, CHANNEL_NAMES, money, releaseMonth, when } from './format'
-import { NotOnlineForm } from './NotOnlineForm'
+import { NotOnlineForm, PutBackForm } from './NotOnlineForm'
 
 // The parts of the review page: one panel per listing, the package and shelf, and the decision.
 
@@ -81,6 +81,19 @@ const STATE_NOTES: Record<ListingReview['state'], string> = {
   awaiting_approval: 'Waiting for your approval.',
   approved: 'Approved.',
   rejected: 'Rejected.',
+}
+
+// What the listing is waiting on, given what has happened to the item since it was written.
+function listingNote(review: ItemReview, listing: ListingReview) {
+  if (review.status === 'not_listed_online') {
+    return "Kept off online, so it won't be listed unless a manager puts it back for review."
+  }
+  if (review.back_for_review && listing.state === 'approved') {
+    return review.put_back
+      ? 'Approved before it was kept off online. Check its price against what it sells for now.'
+      : 'Approved before its season. Check its price against what it sells for now.'
+  }
+  return STATE_NOTES[listing.state]
 }
 
 // Where the approved listing is on its channel, from the app's own record of it.
@@ -164,11 +177,7 @@ export function ListingPanel({
       {listing.channel_status ? (
         <ChannelStatus review={review} listing={listing} onChange={onChange} />
       ) : (
-        <p className="mb-4 text-muted-foreground">
-          {review.back_for_review && listing.state === 'approved'
-            ? 'Approved before its season. Check its price against what it sells for now.'
-            : STATE_NOTES[listing.state]}
-        </p>
+        <p className="mb-4 text-muted-foreground">{listingNote(review, listing)}</p>
       )}
       {listing.flags.length > 0 && (
         <div className="mb-5 border-l-4 border-destructive pl-3.5">
@@ -494,14 +503,15 @@ export function HeldPanel({ review, onChange }: PanelProps) {
   )
 }
 
-// Takes the item out of online selling for good, offered wherever the timing says to hold it.
+// Takes the item out of online selling until a manager puts it back, offered wherever the timing
+// says to hold it.
 export function NotOnlinePanel({ review, onChange }: PanelProps) {
   const { error, run } = useCall(onChange)
   return (
     <Panel id="not-online" title="Don't list online">
       <p className="mb-5">
-        Takes it out of online selling for good, such as to sell it on the store floor, so nothing
-        is listed.
+        Takes it out of online selling, such as to sell it on the store floor, so nothing is listed
+        until a manager puts it back for review.
       </p>
       <Failure message={error} />
       <NotOnlineForm
@@ -509,6 +519,19 @@ export function NotOnlinePanel({ review, onChange }: PanelProps) {
         idPrefix="not-online"
         onDone={() => void run(() => loadItemReview(review.item_id))}
       />
+    </Panel>
+  )
+}
+
+// Undoes Don't list online, which sends the item back to Waiting for approval.
+export function PutBackPanel({ review, onChange }: PanelProps) {
+  return (
+    <Panel id="put-back" title="Put back for review">
+      <p className="mb-5">
+        Sends it back to Waiting for approval, where you check its listing and price again before
+        anything goes online.
+      </p>
+      <PutBackForm itemId={review.item_id} idPrefix="put-back" onDone={onChange} />
     </Panel>
   )
 }

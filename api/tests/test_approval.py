@@ -547,7 +547,12 @@ def test_a_rejected_item_records_a_no_and_skips_storage(
     assert decisions[-1].note == "Seam split"
 
     queue = manager.get("/approvals").json()
-    assert queue == {"awaiting_approval": [], "awaiting_storage": [], "held_for_season": []}
+    assert queue == {
+        "awaiting_approval": [],
+        "awaiting_storage": [],
+        "held_for_season": [],
+        "not_listed_online": [],
+    }
     assert store(manager, item_id, location_code="A3").status_code == 409
     assert approve(manager, item_id).status_code == 409
 

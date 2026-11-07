@@ -8,12 +8,15 @@ import {
   type BoxSizeOption,
   type ItemReview,
 } from '@/api/approval'
+import type { Channel } from '@/api/appraisal'
 import { useAuth } from '@/auth/AuthContext'
 import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
 import { SignOutButton } from '@/components/site/SignOutButton'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { PricePanel } from '@/pages/appraisal/PricePanel'
+import { ChannelChoice } from '@/pages/ChannelChoice'
+import { ListingDrafts } from '@/pages/ListingDrafts'
 import { itemName, money, releaseMonth, STATUS_NAMES, when } from '@/pages/approval/format'
 import {
   DecisionPanel,
@@ -22,6 +25,7 @@ import {
   ListingPanel,
   NotOnlinePanel,
   PackagePanel,
+  PutBackPanel,
 } from '@/pages/approval/panels'
 
 type Load =
@@ -37,7 +41,7 @@ const LISTING_REFRESH_MS = 2000
 // What happened to the item, said once the manager has acted on it.
 function outcome(review: ItemReview) {
   if (review.status === 'not_listed_online') {
-    return 'Not listed online. It stays off every channel, and the note is in its history.'
+    return 'Not listed online. It stays off every channel until a manager puts it back for review, and the note is in its history.'
   }
   if (review.status === 'declined') {
     return 'Rejected. Staff can say yes again to fix the listing and send it back.'
@@ -128,6 +132,28 @@ function FreshComps({
   )
 }
 
+// An item kept off online before staff wrote its listing, which the manager writes and sends here.
+function WriteListing({ review, onSent }: { review: ItemReview; onSent: () => void }) {
+  const [channels, setChannels] = useState<Channel[] | null>(null)
+  return (
+    <>
+      <Lead>
+        It was kept off online before its listing was written, so choose its channels and write the
+        listing here. Once it's sent, you can check it and approve it as usual.
+      </Lead>
+      <ChannelChoice itemId={review.item_id} onChoose={setChannels} onKeptOff={onSent} />
+      {channels && <ListingDrafts itemId={review.item_id} channels={channels} onSent={onSent} />}
+    </>
+  )
+}
+
+// What the status line says, with put back named so the manager knows why it's here again.
+function statusName(review: ItemReview) {
+  if (review.put_back) return 'Put back for review'
+  if (review.back_for_review) return 'Back for review in its season'
+  return STATUS_NAMES[review.status] ?? review.status
+}
+
 // One item a manager reviews: its listings and prices, its package, and the decision.
 export function ItemReviewPage() {
   const { itemId = '' } = useParams()
@@ -173,6 +199,9 @@ export function ItemReviewPage() {
     review?.status === 'appraised' &&
     review.listings.some((listing) => listing.state === 'awaiting_approval')
   const back = review?.back_for_review ?? false
+  const putBack = review?.put_back ?? false
+  // Kept off before staff sent a listing, so there's nothing to approve until it's written.
+  const unwritten = review?.status === 'appraised' && putBack && !waiting
   const held = review?.status === 'held_for_season' && !back
   // Where the timing hint says to hold it, the item can stay off online selling instead.
   const offerNotOnline =
@@ -227,11 +256,7 @@ export function ItemReviewPage() {
                 </div>
                 <div className="flex justify-between gap-4">
                   <dt>Status</dt>
-                  <dd className="text-right">
-                    {back
-                      ? 'Back for review in its season'
-                      : (STATUS_NAMES[review.status] ?? review.status)}
-                  </dd>
+                  <dd className="text-right">{statusName(review)}</dd>
                 </div>
                 {review.release_month && (
                   <div className="flex justify-between gap-4">
@@ -264,10 +289,22 @@ export function ItemReviewPage() {
               )}
               {back && (
                 <Lead>
-                  Its release month has come, so nothing is listed until you look again. Compare the
-                  approved prices with what it sells for now, then approve it as it is, change a
-                  price, or reject it.
+                  {putBack
+                    ? 'It was put back for review, so nothing is listed until you look again.'
+                    : 'Its release month has come, so nothing is listed until you look again.'}{' '}
+                  Compare the approved prices with what it sells for now, then approve it as it is,
+                  change a price, or reject it.
                 </Lead>
+              )}
+              {unwritten && (
+                <WriteListing
+                  review={review}
+                  onSent={() => {
+                    loadItemReview(review.item_id)
+                      .then(changed)
+                      .catch((error: Error) => setLoad({ state: 'failed', message: error.message }))
+                  }}
+                />
               )}
               {back && <FreshComps review={review} onChange={changed} />}
               {held && <HeldPanel review={review} onChange={changed} />}
@@ -284,6 +321,9 @@ export function ItemReviewPage() {
               )}
               {(waiting || back) && <DecisionPanel review={review} onChange={changed} />}
               {offerNotOnline && <NotOnlinePanel review={review} onChange={changed} />}
+              {review.status === 'not_listed_online' && (
+                <PutBackPanel review={review} onChange={changed} />
+              )}
               <HistoryPanel review={review} />
             </>
           )}

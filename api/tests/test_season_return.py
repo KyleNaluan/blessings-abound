@@ -308,9 +308,10 @@ def test_a_manager_can_take_a_held_item_out_of_online_selling_with_a_note(
     assert history(page)[-1] == ("no", "Not listed online", note["note"])
     assert page["history"][-1]["decided_by_name"] == result["decided_by_name"]
     lists = queue(manager)
-    assert all(lists[name] == [] for name in lists)
+    assert ids(lists["not_listed_online"]) == [item_id]
+    assert all(lists[name] == [] for name in lists if name != "not_listed_online")
 
-    # It's out for good, even once its season comes.
+    # It stays out, even once its season comes, until a manager puts it back for review.
     on(IN_SEASON)
     assert queue(manager)["awaiting_approval"] == []
     assert approve(manager, item_id).status_code == 409

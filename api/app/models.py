@@ -41,7 +41,8 @@ class ItemStatus(StrEnum):
     DECLINED = "declined"
     APPROVED = "approved"
     HELD_FOR_SEASON = "held_for_season"
-    # Taken out of online selling for good, such as to sell it on the store floor.
+    # Taken out of online selling, such as to sell it on the store floor, until a manager puts it
+    # back for review.
     NOT_LISTED_ONLINE = "not_listed_online"
     LISTED = "listed"
     SOLD = "sold"

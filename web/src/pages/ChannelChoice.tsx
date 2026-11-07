@@ -124,7 +124,8 @@ export function ChannelChoice({
             <div className="border-l-4 border-rule pl-3.5">
               <h3 className="mb-1 text-lg font-bold">Don't list online</h3>
               <p className="mb-3">
-                It comes off online selling for good, such as to sell it on the store floor.
+                It comes off online selling, such as to sell it on the store floor, until a manager
+                puts it back for review.
               </p>
               <NotOnlineForm
                 itemId={itemId}

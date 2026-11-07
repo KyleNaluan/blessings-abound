@@ -9,19 +9,22 @@ A sold item is on the pick list until someone picks it.
 
 An item held for its season comes back to the queue in its release month, worked out on every read,
 and waits for a manager to check its price against fresh comps before it is listed. A manager can
-also send it back early, or take an item out of online selling, and each of those choices is kept
-in `decisions` with the staff yes and no, which is the item's history.
+also send it back early, or take an item out of online selling and later put it back for review,
+and each of those choices is kept in `decisions` with the staff yes and no, which is the item's
+history.
 """
 
 import re
 from collections.abc import Collection
 from datetime import UTC, date, datetime
-from typing import Annotated
+from typing import Annotated, Literal
 from uuid import UUID
 
 import sqlalchemy as sa
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel, ConfigDict, Field, StringConstraints
+from sqlalchemy.dialects.postgresql import ARRAY, distinct_on
+from sqlalchemy.orm import Mapped
 from sqlmodel import Session, col, select
 
 from app.appraisal import (
@@ -77,6 +80,9 @@ MAX_PRICE_CENTS = 10_000_000
 NOTE_MAX = 200
 # The words a manager's choices are kept under in `decisions`, beside the staff reasons.
 NOT_LISTED_ONLINE = "Not listed online"
+PUT_BACK = "Put back for review"
+# The most items the Not listed online list shows, newest first.
+NOT_ONLINE_LIST_MAX = 50
 
 
 class AppraisalSummary(BaseModel):
@@ -146,6 +152,8 @@ class ItemReview(BaseModel):
     # Held for its season and back for a manager to check before it is listed, because its release
     # month has come or a manager sent it back early.
     back_for_review: bool
+    # Kept off online and then put back for review by a manager, until it is approved or rejected.
+    put_back: bool
     # The comps looked up again since the approval, for an item back for review, empty until then.
     fresh_appraisal: AppraisalRead | None
     # Every yes and no on the item, oldest first, from staff and managers.
@@ -168,6 +176,25 @@ class QueueItem(BaseModel):
     release_month: date | None
     location_code: str | None
     back_for_review: bool
+    put_back: bool
+
+
+class KeptOffItem(BaseModel):
+    """An item that is not listed online, with who kept it off, when and why."""
+
+    item_id: UUID
+    sku: str
+    brand: str | None
+    product: str | None
+    note: str | None
+    decided_by_name: str
+    decided_at: datetime
+
+
+class KeptOffMatch(KeptOffItem):
+    """An earlier item kept off online that a new item may be, by its photo or its card."""
+
+    matched_on: Literal["photo", "brand_and_product"]
 
 
 class ApprovalQueue(BaseModel):
@@ -177,6 +204,8 @@ class ApprovalQueue(BaseModel):
     awaiting_storage: list[QueueItem]
     # Held for its season with its release month still to come, soonest release first.
     held_for_season: list[QueueItem]
+    # Kept off online, newest first, which a manager can put back for review.
+    not_listed_online: list[KeptOffItem]
 
 
 class PriceOverride(BaseModel):
@@ -203,6 +232,14 @@ class RejectRequest(BaseModel):
 
 
 class NotOnlineRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    note: Annotated[
+        str, StringConstraints(strip_whitespace=True, min_length=1, max_length=NOTE_MAX)
+    ]
+
+
+class PutBackRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     note: Annotated[
@@ -318,16 +355,32 @@ def _history(session: Session, item_id: UUID) -> list[HistoryEntry]:
     ]
 
 
+def is_put_back(item: Item, latest: Decision | None) -> bool:
+    """Kept off online and put back for review, and not yet approved or rejected since."""
+    return (
+        item.status in {ItemStatus.APPRAISED, ItemStatus.HELD_FOR_SEASON}
+        and latest is not None
+        and latest.override_reason == PUT_BACK
+    )
+
+
 def _fresh_appraisal(
     session: Session, item_id: UUID, drafts: list[ListingDraft]
 ) -> Appraisal | None:
-    """The newest appraisal since the listings were approved, which is a fresh look at comps."""
-    approved_at = _approval_time(drafts)
-    if approved_at is None:
+    """The newest appraisal since the listings were approved, which is a fresh look at comps.
+
+    For an item put back for review, it has to be newer than that too, because it may have been
+    kept off online for months after an earlier lookup.
+    """
+    since = _approval_time(drafts)
+    if since is None:
         return None
+    latest = latest_decision(session, item_id)
+    if latest is not None and latest.override_reason == PUT_BACK:
+        since = max(since, latest.decided_at)
     return session.exec(
         select(Appraisal)
-        .where(Appraisal.item_id == item_id, col(Appraisal.created_at) > approved_at)
+        .where(Appraisal.item_id == item_id, col(Appraisal.created_at) > since)
         .order_by(col(Appraisal.created_at).desc())
         .limit(1)
     ).first()
@@ -408,6 +461,7 @@ def _review(session: Session, item: Item, today: date) -> ItemReview:
     )
     reviewing = back_for_review(item, today)
     fresh = _fresh_appraisal(session, item.id, drafts) if reviewing else None
+    latest = latest_decision(session, item.id)
     return ItemReview(
         item_id=item.id,
         sku=item.sku,
@@ -429,6 +483,7 @@ def _review(session: Session, item: Item, today: date) -> ItemReview:
         approved_by_name=approver.display_name if approver else None,
         approved_at=approved_at,
         back_for_review=reviewing,
+        put_back=is_put_back(item, latest),
         fresh_appraisal=AppraisalRead.model_validate(fresh) if fresh else None,
         history=_history(session, item.id),
         blockers=_blockers(session, item, card, drafts, today),
@@ -444,7 +499,12 @@ def _billed_weight(item: Item, current: StoreSettings) -> float | None:
 
 
 def _queue_item(
-    item: Item, card: ItemCard, drafts: list[ListingDraft], since: datetime | None, today: date
+    item: Item,
+    card: ItemCard,
+    drafts: list[ListingDraft],
+    since: datetime | None,
+    today: date,
+    put_back: bool = False,
 ) -> QueueItem:
     return QueueItem(
         item_id=item.id,
@@ -458,7 +518,49 @@ def _queue_item(
         release_month=item.release_month,
         location_code=item.location_code,
         back_for_review=back_for_review(item, today),
+        put_back=put_back,
     )
+
+
+def _latest_decisions():
+    """Each item's newest decision, the one that stands, as a subquery."""
+    return (
+        sa.select(
+            col(Decision.item_id),
+            col(Decision.note),
+            col(Decision.decided_by),
+            col(Decision.decided_at),
+        )
+        .ext(distinct_on(col(Decision.item_id)))
+        .order_by(col(Decision.item_id), col(Decision.decided_at).desc(), col(Decision.id))
+        .subquery()
+    )
+
+
+def _kept_off_query():
+    """The items not listed online with who kept them off, when and why, newest first."""
+    latest = _latest_decisions()
+    return (
+        sa.select(
+            col(Item.id).label("item_id"),
+            col(Item.sku),
+            col(Item.photo_hashes),
+            col(ItemCard.brand),
+            col(ItemCard.product),
+            latest.c.note,
+            col(Profile.display_name).label("decided_by_name"),
+            latest.c.decided_at,
+        )
+        .join(latest, latest.c.item_id == col(Item.id))
+        .join(Profile, col(Profile.auth_user_id) == latest.c.decided_by)
+        .outerjoin(ItemCard, col(ItemCard.item_id) == col(Item.id))
+        .where(col(Item.status) == ItemStatus.NOT_LISTED_ONLINE)
+        .order_by(latest.c.decided_at.desc(), col(Item.id))
+    )
+
+
+def _same_text(column: Mapped[str | None], value: str) -> sa.ColumnElement[bool]:
+    return sa.func.lower(sa.func.btrim(column)) == value.strip().lower()
 
 
 def _month_start(month: date | None) -> datetime | None:
@@ -477,9 +579,17 @@ def list_approvals(manager: ManagerProfile, session: SessionDep, today: TodayDep
         .join(ItemCard, col(ItemCard.item_id) == col(Item.id))
         .where(col(Item.status).in_([ItemStatus.APPRAISED, *STORABLE]))
         .where(
-            sa.exists().where(
-                col(ListingDraft.item_id) == col(Item.id),
-                col(ListingDraft.state).in_([DraftState.AWAITING_APPROVAL, DraftState.APPROVED]),
+            sa.or_(
+                sa.exists().where(
+                    col(ListingDraft.item_id) == col(Item.id),
+                    col(ListingDraft.state).in_(
+                        [DraftState.AWAITING_APPROVAL, DraftState.APPROVED]
+                    ),
+                ),
+                # Put back for review with no listing sent yet, which the manager writes.
+                sa.exists().where(
+                    col(Decision.item_id) == col(Item.id), col(Decision.override_reason) == PUT_BACK
+                ),
             )
         )
     ).all()
@@ -488,17 +598,25 @@ def list_approvals(manager: ManagerProfile, session: SessionDep, today: TodayDep
     held: list[QueueItem] = []
     for item, card in rows:
         drafts = _item_drafts(session, item.id)
+        latest = latest_decision(session, item.id)
+        put_back = is_put_back(item, latest)
         if item.status is ItemStatus.APPRAISED:
-            latest = latest_decision(session, item.id)
             waiting = [d for d in drafts if d.state is DraftState.AWAITING_APPROVAL]
-            if waiting and latest is not None and latest.decision is DecisionChoice.YES:
+            if latest is None or latest.decision is not DecisionChoice.YES:
+                continue
+            if put_back:
+                assert latest is not None
+                entry = _queue_item(item, card, waiting, latest.decided_at, today, put_back=True)
+                awaiting_approval.append(entry)
+            elif waiting:
                 sent = min((d.submitted_at for d in waiting if d.submitted_at), default=None)
                 awaiting_approval.append(_queue_item(item, card, waiting, sent, today))
             continue
         approved = _approved_drafts(drafts)
         if back_for_review(item, today):
-            since = _month_start(item.release_month)
-            awaiting_approval.append(_queue_item(item, card, approved, since, today))
+            since = latest.decided_at if put_back and latest else _month_start(item.release_month)
+            entry = _queue_item(item, card, approved, since, today, put_back=put_back)
+            awaiting_approval.append(entry)
             continue
         entry = _queue_item(item, card, approved, _approval_time(drafts), today)
         if item.location_code is None:
@@ -509,8 +627,12 @@ def list_approvals(manager: ManagerProfile, session: SessionDep, today: TodayDep
     for queue in (awaiting_approval, awaiting_storage):
         queue.sort(key=lambda entry: (entry.waiting_since or oldest, entry.sku))
     held.sort(key=lambda entry: (entry.release_month or date.min, entry.sku))
+    kept_off = session.connection().execute(_kept_off_query().limit(NOT_ONLINE_LIST_MAX))
     return ApprovalQueue(
-        awaiting_approval=awaiting_approval, awaiting_storage=awaiting_storage, held_for_season=held
+        awaiting_approval=awaiting_approval,
+        awaiting_storage=awaiting_storage,
+        held_for_season=held,
+        not_listed_online=[KeptOffItem.model_validate(dict(row)) for row in kept_off.mappings()],
     )
 
 
@@ -825,10 +947,11 @@ def list_held_item_now(
 def keep_item_off_online(
     item_id: UUID, request: NotOnlineRequest, profile: CurrentProfile, session: SessionDep
 ) -> NotOnlineResult:
-    """Take the item out of online selling for good, such as to sell it on the store floor.
+    """Take the item out of online selling, such as to sell it on the store floor.
 
     Staff can do it from the item screen before a manager approves the listing, and a manager can
-    also do it to an item held for its season. Who did it, when and the note go in the history.
+    also do it to an item held for its season. Who did it, when and the note go in the history,
+    and only a manager can put it back for review afterwards.
     """
     item = _locked_item(session, item_id)
     _require_status(
@@ -850,6 +973,71 @@ def keep_item_off_online(
         decided_by_name=profile.display_name,
         decided_at=decision.decided_at,
     )
+
+
+@router.post("/items/{item_id}/put-back", operation_id="put_item_back_for_review")
+def put_item_back_for_review(
+    item_id: UUID,
+    request: PutBackRequest,
+    manager: ManagerProfile,
+    session: SessionDep,
+    today: TodayDep,
+) -> ItemReview:
+    """Undo Don't list online, right after or any time later, with a note on why.
+
+    The item goes back to Waiting for approval, so nothing is listed until a manager reviews it
+    again. One that was approved before comes back like a held item in its season, with its comps
+    looked up again, and one that wasn't goes back to its listings waiting for approval, or to
+    being written when staff never sent one.
+    """
+    item = _locked_item(session, item_id)
+    _require_status(item, {ItemStatus.NOT_LISTED_ONLINE}, "put back for review")
+    _decide(session, item, DecisionChoice.YES, PUT_BACK, manager, request.note)
+    if _approved_drafts(_item_drafts(session, item_id)):
+        item.status = ItemStatus.HELD_FOR_SEASON
+        item.release_month = today.replace(day=1)
+    else:
+        item.status = ItemStatus.APPRAISED
+    session.add(item)
+    session.commit()
+    return _review(session, item, today)
+
+
+@router.get("/items/{item_id}/kept-off-matches", operation_id="list_kept_off_matches")
+def list_kept_off_matches(
+    item_id: UUID, profile: CurrentProfile, session: SessionDep
+) -> list[KeptOffMatch]:
+    """Earlier items kept off online that this one may be, newest first, for a warning at intake.
+
+    An item matches on a shared photo, or on the same brand and product once the card is read,
+    ignoring case and spaces at the ends, because a new photo of the same item won't match. One
+    that was put back for review is no longer kept off, so it doesn't match.
+    """
+    item = _get_item(session, item_id)
+    card = session.get(ItemCard, item_id)
+    same_photo = col(Item.photo_hashes).op("&&")(sa.literal(item.photo_hashes, ARRAY(sa.Text)))
+    conditions: list[sa.ColumnElement[bool]] = [same_photo] if item.photo_hashes else []
+    brand = (card.brand or "").strip() if card else ""
+    product = (card.product or "").strip() if card else ""
+    if brand and product:
+        conditions.append(
+            sa.and_(
+                _same_text(col(ItemCard.brand), brand), _same_text(col(ItemCard.product), product)
+            )
+        )
+    if not conditions:
+        return []
+    rows = session.connection().execute(
+        _kept_off_query().where(col(Item.id) != item_id).where(sa.or_(*conditions))
+    )
+    hashes = set(item.photo_hashes)
+    return [
+        KeptOffMatch.model_validate(
+            dict(row)
+            | {"matched_on": "photo" if hashes & set(row.photo_hashes) else "brand_and_product"}
+        )
+        for row in rows.mappings()
+    ]
 
 
 @router.post("/items/{item_id}/fresh-comps", operation_id="look_up_fresh_comps")

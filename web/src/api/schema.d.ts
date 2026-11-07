@@ -352,12 +352,62 @@ export interface paths {
     put?: never
     /**
      * Keep Item Off Online
-     * @description Take the item out of online selling for good, such as to sell it on the store floor.
+     * @description Take the item out of online selling, such as to sell it on the store floor.
      *
      *     Staff can do it from the item screen before a manager approves the listing, and a manager can
-     *     also do it to an item held for its season. Who did it, when and the note go in the history.
+     *     also do it to an item held for its season. Who did it, when and the note go in the history,
+     *     and only a manager can put it back for review afterwards.
      */
     post: operations['keep_item_off_online']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/put-back': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Put Item Back For Review
+     * @description Undo Don't list online, right after or any time later, with a note on why.
+     *
+     *     The item goes back to Waiting for approval, so nothing is listed until a manager reviews it
+     *     again. One that was approved before comes back like a held item in its season, with its comps
+     *     looked up again, and one that wasn't goes back to its listings waiting for approval, or to
+     *     being written when staff never sent one.
+     */
+    post: operations['put_item_back_for_review']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/kept-off-matches': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * List Kept Off Matches
+     * @description Earlier items kept off online that this one may be, newest first, for a warning at intake.
+     *
+     *     An item matches on a shared photo, or on the same brand and product once the card is read,
+     *     ignoring case and spaces at the ends, because a new photo of the same item won't match. One
+     *     that was put back for review is no longer kept off, so it doesn't match.
+     */
+    get: operations['list_kept_off_matches']
+    put?: never
+    post?: never
     delete?: never
     options?: never
     head?: never
@@ -1028,6 +1078,8 @@ export interface components {
       awaiting_storage: components['schemas']['QueueItem'][]
       /** Held For Season */
       held_for_season: components['schemas']['QueueItem'][]
+      /** Not Listed Online */
+      not_listed_online: components['schemas']['KeptOffItem'][]
     }
     /**
      * AskToSale
@@ -1729,6 +1781,8 @@ export interface components {
       approved_at: string | null
       /** Back For Review */
       back_for_review: boolean
+      /** Put Back */
+      put_back: boolean
       fresh_appraisal: components['schemas']['AppraisalRead'] | null
       /** History */
       history: components['schemas']['HistoryEntry'][]
@@ -1755,6 +1809,63 @@ export interface components {
      * @enum {string}
      */
     JobStatus: 'pending' | 'done' | 'failed'
+    /**
+     * KeptOffItem
+     * @description An item that is not listed online, with who kept it off, when and why.
+     */
+    KeptOffItem: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      /** Note */
+      note: string | null
+      /** Decided By Name */
+      decided_by_name: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+    }
+    /**
+     * KeptOffMatch
+     * @description An earlier item kept off online that a new item may be, by its photo or its card.
+     */
+    KeptOffMatch: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      /** Note */
+      note: string | null
+      /** Decided By Name */
+      decided_by_name: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+      /**
+       * Matched On
+       * @enum {string}
+       */
+      matched_on: 'photo' | 'brand_and_product'
+    }
     /**
      * ListingDraftEdit
      * @description Staff's changes to one draft, where a field left out stays as it is.
@@ -2048,6 +2159,11 @@ export interface components {
       /** Outlier */
       outlier: boolean
     }
+    /** PutBackRequest */
+    PutBackRequest: {
+      /** Note */
+      note: string
+    }
     /** QueueItem */
     QueueItem: {
       /**
@@ -2074,6 +2190,8 @@ export interface components {
       location_code: string | null
       /** Back For Review */
       back_for_review: boolean
+      /** Put Back */
+      put_back: boolean
     }
     /** RecentDecision */
     RecentDecision: {
@@ -3048,6 +3166,72 @@ export interface operations {
         }
         content: {
           'application/json': components['schemas']['NotOnlineResult']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  put_item_back_for_review: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['PutBackRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_kept_off_matches: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['KeptOffMatch'][]
         }
       }
       /** @description Validation Error */

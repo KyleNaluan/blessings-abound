@@ -6,6 +6,7 @@ import type {
   ApprovalQueue,
   BoxSizeOption,
   ItemReview,
+  KeptOffItem,
   ListingReview,
   QueueItem,
 } from '@/api/approval'
@@ -69,6 +70,7 @@ function review(changes: Partial<ItemReview> = {}): ItemReview {
     approved_by_name: null,
     approved_at: null,
     back_for_review: false,
+    put_back: false,
     fresh_appraisal: null,
     history: [
       {
@@ -172,6 +174,7 @@ const HELD: QueueItem = {
   release_month: '2027-03-01',
   location_code: 'C1',
   back_for_review: false,
+  put_back: false,
 }
 
 const QUEUE: ApprovalQueue = {
@@ -188,10 +191,12 @@ const QUEUE: ApprovalQueue = {
       release_month: null,
       location_code: null,
       back_for_review: false,
+      put_back: false,
     },
   ],
   awaiting_storage: [],
   held_for_season: [],
+  not_listed_online: [],
 }
 
 const BOXES: BoxSizeOption[] = [
@@ -680,12 +685,18 @@ test('a held item can be taken out of online selling with a note', async () => {
   fireEvent.click(held.getByRole('button', { name: "Don't list online" }))
 
   expect(
-    await screen.findByText("Carhartt canvas jacket won't be listed online."),
+    await screen.findByText(
+      "Carhartt canvas jacket won't be listed online, and it's under Not listed online if it needs to go back.",
+    ),
   ).toBeInTheDocument()
   expect(held.getByText('No item is held for its season.')).toBeInTheDocument()
   expect(calls.find((call) => call.path.endsWith('/not-online'))?.body).toEqual({
     note: 'Selling it on the floor this winter.',
   })
+  // It can be put back straight away from the list it moved to.
+  const kept = await panel('Not listed online')
+  expect(kept.getByText('Selling it on the floor this winter.')).toBeInTheDocument()
+  expect(kept.getByRole('button', { name: 'Put back for review' })).toBeInTheDocument()
 })
 
 test('a held item not yet due can be sent to review from its own page', async () => {
@@ -832,11 +843,245 @@ test('a listing staff sent with a release month can stay off online selling', as
 
   expect(
     await screen.findByText(
-      'Not listed online. It stays off every channel, and the note is in its history.',
+      'Not listed online. It stays off every channel until a manager puts it back for review, and the note is in its history.',
     ),
   ).toBeInTheDocument()
   expect(screen.queryByRole('heading', { name: 'Approve or reject' })).not.toBeInTheDocument()
   expect((await panel('History')).getByText('Too bulky to hold.')).toBeInTheDocument()
+})
+
+const KEPT_AT = '2026-11-06T15:00:00+00:00'
+
+const KEPT: KeptOffItem = {
+  item_id: ITEM,
+  sku: 'RT11042601',
+  brand: 'Carhartt',
+  product: 'canvas jacket',
+  note: 'Selling it on the floor this winter.',
+  decided_by_name: 'Demo Manager',
+  decided_at: KEPT_AT,
+}
+
+const KEPT_HISTORY = {
+  decision: 'no' as const,
+  reason: 'Not listed online',
+  note: 'Selling it on the floor this winter.',
+  decided_by_name: 'Demo Manager',
+  decided_at: KEPT_AT,
+}
+
+const PUT_BACK_HISTORY = {
+  decision: 'yes' as const,
+  reason: 'Put back for review',
+  note: 'A customer asked for it online.',
+  decided_by_name: 'Demo Manager',
+  decided_at: '2026-11-06T16:00:00+00:00',
+}
+
+test('the not listed online list says who kept each item off, when and why', async () => {
+  stubApi({
+    overrides: {
+      'GET /approvals': () =>
+        Response.json({ ...QUEUE, awaiting_approval: [], not_listed_online: [KEPT] }),
+    },
+  })
+  renderAt('/app/approvals')
+  const kept = await panel('Not listed online')
+  expect(kept.getByRole('link', { name: 'Carhartt canvas jacket' })).toHaveAttribute(
+    'href',
+    `/app/approvals/${ITEM}`,
+  )
+  expect(kept.getByText(/^RT11042601, kept off online by Demo Manager on /)).toBeInTheDocument()
+  expect(kept.getByText('Selling it on the floor this winter.')).toBeInTheDocument()
+})
+
+test('the not listed online list says when nothing is kept off', async () => {
+  stubApi()
+  renderAt('/app/approvals')
+  expect(
+    (await panel('Not listed online')).getByText('No item is kept off online.'),
+  ).toBeInTheDocument()
+})
+
+test('putting an item back from the list needs a note, then opens its review', async () => {
+  const back = heldReview({
+    back_for_review: true,
+    put_back: true,
+    release_month: '2026-11-01',
+    history: [...heldReview().history, KEPT_HISTORY, PUT_BACK_HISTORY],
+  })
+  const calls = stubApi({
+    overrides: {
+      'GET /approvals': () =>
+        Response.json({ ...QUEUE, awaiting_approval: [], not_listed_online: [KEPT] }),
+      [`POST /items/${ITEM}/put-back`]: () => Response.json(back),
+      [`GET /items/${ITEM}/review`]: () => Response.json(back),
+      [`POST /items/${ITEM}/fresh-comps`]: () => Response.json({ ...back, fresh_appraisal: FRESH }),
+    },
+  })
+  renderAt('/app/approvals')
+  const kept = await panel('Not listed online')
+  fireEvent.click(kept.getByRole('button', { name: 'Put back for review' }))
+  fireEvent.click(kept.getByRole('button', { name: 'Put back for review' }))
+  expect(
+    kept.getByText("Enter why it's going back for review, such as a customer asked for it online."),
+  ).toBeInTheDocument()
+  expect(calls.some((call) => call.path.endsWith('/put-back'))).toBe(false)
+
+  fireEvent.change(kept.getByLabelText("Why it's going back for review"), {
+    target: { value: ' A customer asked for it online. ' },
+  })
+  fireEvent.click(kept.getByRole('button', { name: 'Put back for review' }))
+
+  expect(await screen.findByText('Put back for review', { selector: 'dd' })).toBeInTheDocument()
+  expect(calls.find((call) => call.path.endsWith('/put-back'))?.body).toEqual({
+    note: 'A customer asked for it online.',
+  })
+  expect(
+    screen.getByText(/^It was put back for review, so nothing is listed until you look again\./),
+  ).toBeInTheDocument()
+  expect(await screen.findByText('Typical sale price now')).toBeInTheDocument()
+  const history = await panel('History')
+  expect(history.getByText('. Put back for review')).toBeInTheDocument()
+  expect(history.getByText('A customer asked for it online.')).toBeInTheDocument()
+})
+
+test('putting an item back can be cancelled', async () => {
+  const calls = stubApi({
+    overrides: {
+      'GET /approvals': () =>
+        Response.json({ ...QUEUE, awaiting_approval: [], not_listed_online: [KEPT] }),
+    },
+  })
+  renderAt('/app/approvals')
+  const kept = await panel('Not listed online')
+  fireEvent.click(kept.getByRole('button', { name: 'Put back for review' }))
+  fireEvent.click(kept.getByRole('button', { name: 'Cancel' }))
+  expect(kept.queryByLabelText("Why it's going back for review")).not.toBeInTheDocument()
+  expect(calls.some((call) => call.path.endsWith('/put-back'))).toBe(false)
+})
+
+test('an item put back shows so in Waiting for approval', async () => {
+  stubApi({
+    overrides: {
+      'GET /approvals': () =>
+        Response.json({
+          ...QUEUE,
+          awaiting_approval: [
+            { ...QUEUE.awaiting_approval[0], put_back: true, waiting_since: KEPT_AT },
+          ],
+        }),
+    },
+  })
+  renderAt('/app/approvals')
+  const waiting = await panel('Waiting for approval')
+  expect(
+    waiting.getByText('RT11042601, for Channel A and Channel B, put back for review'),
+  ).toBeInTheDocument()
+  expect(waiting.getByText(/^Put back on /)).toBeInTheDocument()
+})
+
+test('an item kept off online can be put back from its own page', async () => {
+  let back = false
+  const kept = review({
+    status: 'not_listed_online',
+    listings: [listing()],
+    blockers: [],
+    history: [...review().history, KEPT_HISTORY],
+  })
+  const calls = stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () => Response.json(kept),
+      [`POST /items/${ITEM}/put-back`]: () => {
+        back = true
+        return Response.json(
+          review({ put_back: true, history: [...kept.history, PUT_BACK_HISTORY] }),
+        )
+      },
+    },
+  })
+  renderAt(`/app/approvals/${ITEM}`)
+  const panelBack = await panel('Put back for review')
+  expect(screen.queryByRole('heading', { name: "Don't list online" })).not.toBeInTheDocument()
+  expect(
+    (await panel('Channel A')).getByText(
+      "Kept off online, so it won't be listed unless a manager puts it back for review.",
+    ),
+  ).toBeInTheDocument()
+  fireEvent.click(panelBack.getByRole('button', { name: 'Put back for review' }))
+  expect(
+    panelBack.getByText(
+      "Enter why it's going back for review, such as a customer asked for it online.",
+    ),
+  ).toBeInTheDocument()
+  fireEvent.change(panelBack.getByLabelText("Why it's going back for review"), {
+    target: { value: 'A customer asked for it online.' },
+  })
+  fireEvent.click(panelBack.getByRole('button', { name: 'Put back for review' }))
+
+  expect(await panel('Approve or reject')).toBeTruthy()
+  expect(back).toBe(true)
+  expect((await panel('Channel A')).getByText('Waiting for your approval.')).toBeInTheDocument()
+  expect(screen.getByText('Put back for review', { selector: 'dd' })).toBeInTheDocument()
+  expect(screen.queryByRole('heading', { name: 'Put back for review' })).not.toBeInTheDocument()
+  expect((await panel('History')).getByText('. Put back for review')).toBeInTheDocument()
+  expect(calls.filter((call) => call.path.endsWith('/put-back'))).toHaveLength(1)
+})
+
+test('a failed put back says why and keeps the note', async () => {
+  stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () =>
+        Response.json(review({ status: 'not_listed_online', listings: [], blockers: [] })),
+      [`POST /items/${ITEM}/put-back`]: () =>
+        Response.json({ detail: 'Only a manager can put an item back.' }, { status: 403 }),
+    },
+  })
+  renderAt(`/app/approvals/${ITEM}`)
+  const panelBack = await panel('Put back for review')
+  fireEvent.change(panelBack.getByLabelText("Why it's going back for review"), {
+    target: { value: 'A customer asked for it online.' },
+  })
+  fireEvent.click(panelBack.getByRole('button', { name: 'Put back for review' }))
+  expect(await panelBack.findByRole('alert')).toHaveTextContent(
+    'Only a manager can put an item back.',
+  )
+  expect(panelBack.getByLabelText("Why it's going back for review")).toHaveValue(
+    'A customer asked for it online.',
+  )
+})
+
+test('an item put back before its listing was written gets its listing written on the review', async () => {
+  stubApi({
+    overrides: {
+      [`GET /items/${ITEM}/review`]: () =>
+        Response.json(
+          review({
+            put_back: true,
+            listings: [],
+            blockers: ["Staff haven't sent this listing for approval yet."],
+          }),
+        ),
+      [`GET /items/${ITEM}/channels`]: () =>
+        Response.json({
+          channels: [
+            { channel: 'channel_a', takes: true, why_not: null },
+            { channel: 'channel_b', takes: true, why_not: null },
+          ],
+          timing: { season: null, season_span: null, release_month: null },
+          reason: 'Both channels take this jacket, so list it now.',
+          reason_source: 'rules',
+          reason_fallback: null,
+        }),
+    },
+  })
+  renderAt(`/app/approvals/${ITEM}`)
+  expect(
+    await screen.findByText(/^It was kept off online before its listing was written/),
+  ).toBeInTheDocument()
+  const channels = await panel('Where and when to list it')
+  expect(channels.getByRole('button', { name: 'Write the listing' })).toBeEnabled()
+  expect(screen.queryByRole('heading', { name: 'Approve or reject' })).not.toBeInTheDocument()
 })
 
 test('a listing with no release month is not offered the off-online choice', async () => {

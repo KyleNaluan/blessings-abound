@@ -13,6 +13,8 @@ export type Channel = Schemas['Channel']
 export type ListingStatus = Schemas['ListingStatus']
 export type HistoryEntry = Schemas['HistoryEntry']
 export type NotOnlineResult = Schemas['NotOnlineResult']
+export type KeptOffItem = Schemas['KeptOffItem']
+export type KeptOffMatch = Schemas['KeptOffMatch']
 
 const UNREACHABLE = "We couldn't reach the API. Check your connection and try again."
 
@@ -106,13 +108,30 @@ export function listNow(itemId: string) {
   return unwrap(api.POST('/items/{item_id}/list-now', { params: { path: { item_id: itemId } } }))
 }
 
-// Takes the item out of online selling for good, with a note on why.
+// Takes the item out of online selling, with a note on why, until a manager puts it back.
 export function keepOffOnline(itemId: string, note: string) {
   return unwrap(
     api.POST('/items/{item_id}/not-online', {
       params: { path: { item_id: itemId } },
       body: { note },
     }),
+  )
+}
+
+// Undoes Don't list online with a note on why, then answers with the review it goes back to.
+export function putBackForReview(itemId: string, note: string) {
+  return unwrap(
+    api.POST('/items/{item_id}/put-back', {
+      params: { path: { item_id: itemId } },
+      body: { note },
+    }),
+  )
+}
+
+// Earlier items kept off online that a new item may be, by a shared photo or its brand and product.
+export function listKeptOffMatches(itemId: string) {
+  return unwrap(
+    api.GET('/items/{item_id}/kept-off-matches', { params: { path: { item_id: itemId } } }),
   )
 }
 

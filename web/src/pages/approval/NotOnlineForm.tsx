@@ -1,22 +1,36 @@
 import { useState, type FormEvent } from 'react'
 
-import { keepOffOnline, type NotOnlineResult } from '@/api/approval'
+import {
+  keepOffOnline,
+  putBackForReview,
+  type ItemReview,
+  type NotOnlineResult,
+} from '@/api/approval'
 import { Field, TextInput } from '@/components/site/form'
 import { Button } from '@/components/ui/button'
 
 // The longest note the API keeps, which is enough for a short reason.
 const NOTE_MAX = 200
 
-// Takes an item out of online selling for good, with a short note on why that goes in its history.
-export function NotOnlineForm({
-  itemId,
+// A short note that goes in the item's history with a manager's or staff member's choice.
+function NoteForm<T>({
   idPrefix,
+  label,
+  emptyError,
+  submitLabel,
+  primary = false,
+  save,
   onDone,
   onCancel,
 }: {
-  itemId: string
   idPrefix: string
-  onDone: (result: NotOnlineResult) => void
+  label: string
+  emptyError: string
+  submitLabel: string
+  // The main action where it's offered, rather than one beside it.
+  primary?: boolean
+  save: (note: string) => Promise<T>
+  onDone: (result: T) => void
   onCancel?: () => void
 }) {
   const [note, setNote] = useState('')
@@ -29,14 +43,14 @@ export function NotOnlineForm({
     if (pending) return
     const text = note.trim()
     if (!text) {
-      setNoteError("Enter why it isn't going online, such as to sell it on the store floor.")
+      setNoteError(emptyError)
       return
     }
     setNoteError(null)
     setError(null)
     setPending(true)
     try {
-      onDone(await keepOffOnline(itemId, text))
+      onDone(await save(text))
     } catch (failure) {
       setError((failure as Error).message)
       setPending(false)
@@ -52,7 +66,7 @@ export function NotOnlineForm({
       )}
       <Field
         id={`${idPrefix}-note`}
-        label="Why it isn't going online"
+        label={label}
         hint="Up to 200 characters. It goes in the item's history."
         error={noteError ?? undefined}
       >
@@ -71,13 +85,13 @@ export function NotOnlineForm({
       <div className="flex gap-3 max-sm:flex-col">
         <Button
           type="submit"
-          variant="outline"
+          variant={primary ? 'default' : 'outline'}
           size="lg"
           className="max-sm:w-full"
           disabled={pending}
           aria-busy={pending}
         >
-          {pending ? 'Saving...' : "Don't list online"}
+          {pending ? 'Saving...' : submitLabel}
         </Button>
         {onCancel && (
           <Button
@@ -93,5 +107,56 @@ export function NotOnlineForm({
         )}
       </div>
     </form>
+  )
+}
+
+// Takes an item out of online selling, with a short note on why, until a manager puts it back.
+export function NotOnlineForm({
+  itemId,
+  idPrefix,
+  onDone,
+  onCancel,
+}: {
+  itemId: string
+  idPrefix: string
+  onDone: (result: NotOnlineResult) => void
+  onCancel?: () => void
+}) {
+  return (
+    <NoteForm
+      idPrefix={idPrefix}
+      label="Why it isn't going online"
+      emptyError="Enter why it isn't going online, such as to sell it on the store floor."
+      submitLabel="Don't list online"
+      save={(note) => keepOffOnline(itemId, note)}
+      onDone={onDone}
+      onCancel={onCancel}
+    />
+  )
+}
+
+// Undoes Don't list online, which sends the item back to Waiting for approval.
+export function PutBackForm({
+  itemId,
+  idPrefix,
+  onDone,
+  onCancel,
+}: {
+  itemId: string
+  idPrefix: string
+  onDone: (review: ItemReview) => void
+  onCancel?: () => void
+}) {
+  return (
+    <NoteForm
+      idPrefix={idPrefix}
+      label="Why it's going back for review"
+      emptyError="Enter why it's going back for review, such as a customer asked for it online."
+      submitLabel="Put back for review"
+      primary
+      save={(note) => putBackForReview(itemId, note)}
+      onDone={onDone}
+      onCancel={onCancel}
+    />
   )
 }

@@ -21,6 +21,8 @@ import {
   type RejectedMatch,
   type RetakePhoto,
 } from '@/api/appraisal'
+import { listKeptOffMatches, type KeptOffMatch } from '@/api/approval'
+import { useAuth } from '@/auth/AuthContext'
 import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
 import { SignOutButton } from '@/components/site/SignOutButton'
 import { Button } from '@/components/ui/button'
@@ -31,7 +33,7 @@ import { CardDetails, CardForm } from './appraisal/CardPanel'
 import { DecisionForm, type DecisionDetails } from './appraisal/DecisionForm'
 import { Panel } from './appraisal/parts'
 import { PricePanel } from './appraisal/PricePanel'
-import { RepeatWarning, RetakePrompt } from './appraisal/prompts'
+import { KeptOffWarning, RepeatWarning, RetakePrompt } from './appraisal/prompts'
 import { ChannelChoice } from './ChannelChoice'
 import {
   DESTINATIONS,
@@ -69,6 +71,10 @@ type Status =
   | { step: 'deciding'; decision: DecisionChoice; explained: boolean }
   | { step: 'saved'; decision: DecisionChoice; destination?: Destination }
 
+// The check for earlier items kept off online, tied to the card it was made for.
+type KeptOffCheck =
+  { key: string; state: 'done'; matches: KeptOffMatch[] } | { key: string; state: 'failed' }
+
 // The one screen staff use for an item: intake, the card, the price with its evidence, and the call.
 export function AppraisalPage() {
   usePageTitle('Appraise an item')
@@ -79,6 +85,10 @@ export function AppraisalPage() {
   const [recentError, setRecentError] = useState<string | null>(null)
   const [channels, setChannels] = useState<Channel[] | null>(null)
   const [listingSent, setListingSent] = useState(false)
+  const { me } = useAuth()
+  const [keptOff, setKeptOff] = useState<KeptOffCheck | null>(null)
+  const [carriedOn, setCarriedOn] = useState<string | null>(null)
+  const [keptOffTries, setKeptOffTries] = useState(0)
   // A new key clears the intake form when staff start over.
   const [formKey, setFormKey] = useState(0)
   // A new number puts focus back on the photo input, after starting over or to retake a photo.
@@ -235,6 +245,22 @@ export function AppraisalPage() {
 
   const busy = status.step === 'working' || status.step === 'deciding'
   const { item, card, appraisal } = progress ?? {}
+
+  // Checked once the card is read, and again if staff change its brand or product.
+  const itemId = item?.id
+  const keptOffKey =
+    itemId && card ? [itemId, card.brand ?? '', card.product ?? ''].join('\n') : null
+  useEffect(() => {
+    if (!itemId || !keptOffKey) return
+    let live = true
+    listKeptOffMatches(itemId)
+      .then((matches) => live && setKeptOff({ key: keptOffKey, state: 'done', matches }))
+      .catch(() => live && setKeptOff({ key: keptOffKey, state: 'failed' }))
+    return () => {
+      live = false
+    }
+  }, [itemId, keptOffKey, keptOffTries])
+  const keptOffNow = keptOff && keptOff.key === keptOffKey ? keptOff : null
   const explaining =
     status.step === 'explaining' || (status.step === 'deciding' && status.explained)
       ? status.decision
@@ -300,6 +326,33 @@ export function AppraisalPage() {
             />
           )}
           {failure}
+        </div>
+      )}
+
+      {item && keptOffNow && (
+        <div className="max-w-[30rem]">
+          {keptOffNow.state === 'done' &&
+            keptOffNow.matches.length > 0 &&
+            carriedOn !== keptOffNow.key && (
+              <KeptOffWarning
+                matches={keptOffNow.matches}
+                canOpen={me?.role === 'manager'}
+                onCarryOn={() => setCarriedOn(keptOffNow.key)}
+              />
+            )}
+          {keptOffNow.state === 'failed' && (
+            <div className="mb-7 border-l-4 border-rule pl-3.5">
+              <p className="mb-3">We couldn't check for earlier items kept off online.</p>
+              <Button
+                variant="outline"
+                size="lg"
+                className="max-sm:w-full"
+                onClick={() => setKeptOffTries(keptOffTries + 1)}
+              >
+                Try again
+              </Button>
+            </div>
+          )}
         </div>
       )}
 
