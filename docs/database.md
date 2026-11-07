@@ -70,7 +70,7 @@ The API checks the code against Settings when it is saved, upper-cases the shelf
 An approved item whose release month is still to come is `held_for_season`, and it keeps its release month.
 It stays `held_for_season` once its release month comes, and the API treats it as back for review until a manager approves it again, which makes it `approved`, or rejects it, which makes it `declined`.
 List now sets its release month to the current month.
-`not_listed_online` is an item taken out of online selling for good, and nothing moves it on.
+`not_listed_online` is an item taken out of online selling, and only a manager putting it back for review moves it on, to `held_for_season` with this month as its release month if its listings were approved, or to `appraised` if they weren't.
 `sold` is set by `mark_sold` in `api/app/approval.py`, which the channel sync calls when it records a sale.
 
 ### `item_cards`

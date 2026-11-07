@@ -75,6 +75,9 @@ The language model never produces a price, and every number comes from code over
    The item then gets its SKU, as [`sku_sequences`](database.md#sku_sequences) describes.
 2. The vision model turns the photos and staff entries into an item card with the category, brand, product, any visible text, a search query and its own confidence, and it proposes the color, material, exact model and platform for staff to confirm.
    Staff can edit the card before any search is spent, with `PATCH /items/{id}/card`, which also confirms it.
+   Once the card is read, and again if staff change its brand or product, the appraisal page asks `GET /items/{id}/kept-off-matches` for earlier items that are `not_listed_online` and share a photo with this one or have the same brand and product, ignoring case and spaces at the ends.
+   Each match shows in a warning in the same place and style as the rejected photo warning, with who kept it off online, when and their note, and a manager gets a link to its review.
+   The warning never stops the item, so staff choose Carry on and keep going, and an item a manager has put back for review no longer matches.
    The appraisal step refuses a card with no brand or with a model confidence below `ITEM_CARD_MIN_CONFIDENCE`, default `medium`, until staff confirm it.
    Any staff entry the model sends back is dropped, and photos go to the model as upright JPEGs at most 960 pixels on the long side.
 3. Code builds the eBay search from the card's search query, with condition ids for the card's condition and for whether it is a video game.
@@ -185,7 +188,7 @@ The reason is worked out again on each request and not stored.
 
 `POST /items/{id}/drafts` takes the channels staff chose and refuses with a 422, and the reason, any channel that can't take the item.
 The first drafting also sets the item's `release_month` from the timing, so an item held for its season becomes `held_for_season` when a manager approves it, as [Manager approval and storage](#manager-approval-and-storage) describes, and an item listed now has none.
-Where the hint says to hold the item, the appraisal page also offers Don't list online, which takes the item out of online selling for good, as [Held for season](#held-for-season) describes.
+Where the hint says to hold the item, the appraisal page also offers Don't list online, which takes the item out of online selling until a manager puts it back for review, as [Held for season](#held-for-season) describes.
 Once an item has drafts, asking again returns them, whatever channels the request names, so the choice is made once.
 
 ## Listing drafts
@@ -258,10 +261,16 @@ The item keeps its `held_for_season` status until a manager acts on it.
 4. The manager can change a channel's price, then approve it with `POST /items/{id}/approve`, which sets it to `approved`, records a yes with the prices, and publishes it if it already has a shelf, as an `approved` item is published.
    An item with no shelf yet goes to the storage queue and is published once a manager saves its shelf.
    Rejecting it works as for any other listing.
-5. `POST /items/{id}/not-online` takes the item out of online selling for good, with a note of up to 200 characters, and sets it to `not_listed_online`, which nothing moves on from.
+5. `POST /items/{id}/not-online` takes the item out of online selling, with a note of up to 200 characters, and sets it to `not_listed_online`, which only a manager putting it back moves on from.
    It records a no with "Not listed online" and the note.
    Staff can do it from the timing hint on the appraisal page, where the item is still `appraised`, and a manager can do it from the review page or the held list.
    A held item needs a manager.
+   The approvals page lists the latest 50 of these items under Not listed online, newest first, with who kept each one off, when and why.
+6. `POST /items/{id}/put-back` lets a manager undo Don't list online, right after or any time later, from that list or the item's review page.
+   It needs a note of up to 200 characters, records a yes with "Put back for review" and the note, and sends the item back to Waiting for approval, so nothing is published until a manager reviews it again.
+   An item whose listings were already approved goes back to `held_for_season` with this month as its release month, so it comes back for review with a fresh comparable sales lookup made after it was put back, and approving it publishes it as step 4 does.
+   An item kept off before approval goes back to `appraised`, with its listings still waiting, and is approved as usual.
+   An item kept off before staff sent its listing goes back to `appraised` with no listings, and the manager writes and sends the listing from the review page before approving it.
 
 Every one of these choices is a row in `decisions` with who made it and when, and the review page shows them all in a History panel, oldest first.
 
@@ -500,6 +509,9 @@ Add new decisions at the bottom, with the date and a line on why.
 - 2026-11-05: Keep the insight chat's answers on the page only rather than save them, because nothing reads them later, which keeps the feature free of a table and a migration.
 - 2026-11-06: Work out whether a held item is back for review when it's read, from its release month and today's date, rather than move it with a scheduled job, because the free Render service sleeps and a missed run would leave an item stuck, while a read can never miss its month. The item keeps the `held_for_season` status until a manager acts, so no second status is needed for "back for review".
 - 2026-11-06: Record each held item's choices as rows in `decisions`, with the wording as the reason, rather than add a history table, because the review page already reads who decided what and when from there. The cost is that these rows count as the item's latest call in the dashboard's against-recommendation figure, as a manager's rejection already did.
-- 2026-11-06: Add the status `not_listed_online` for an item taken out of online selling, rather than reuse `declined`, because staff can say yes again to a declined item and this choice is meant to be final.
+- 2026-11-06: Add the status `not_listed_online` for an item taken out of online selling, rather than reuse `declined`, because staff can say yes again to a declined item and this choice should need a manager to undo.
 - 2026-11-06: Save the fresh comparable sales for a returning held item as a new appraisal, rather than show them without saving, so the page doesn't search eBay again on every visit and the lookup stays on record. This spends one SerpApi search per returning item when the cached search is more than a week old.
 - 2026-11-06: Make List now set the release month to this month and send the item through the same review as an item whose month has come, rather than publish it straight away, so a manager always sees the fresh sales before an old price goes live.
+- 2026-11-06: Send an item put back for review to the status the approvals queue already reviews it from, rather than add a status, so it goes through the same review and price check: `held_for_season` with this month as its release month when its listings were approved, which brings it back with fresh comparable sales, and `appraised` when they weren't, which leaves it waiting with its listings. Only a manager can put it back, because staff can't approve it either.
+- 2026-11-06: Count a fresh comparable sales lookup for an item put back for review only when it was made after the put back, so an item put back months after its season gets prices from now rather than from its last review.
+- 2026-11-06: Warn at intake about an earlier item kept off online, by a shared photo or the same brand and product read off the card, without stopping the item, unlike the rejected photo check, because staff often take in a second of the same product on purpose and only need to know what happened to the first. The earlier item is a link only for a manager, because only a manager can open its review.
