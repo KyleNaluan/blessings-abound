@@ -164,3 +164,53 @@ test('a failed check can be tried again', async () => {
   expect(await screen.findByText(inSeason.reason)).toBeInTheDocument()
   expect(fetch).toHaveBeenCalledTimes(2)
 })
+
+test('an item held for its season can stay off online selling instead', async () => {
+  const calls: { key: string; body: unknown }[] = []
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async (request: Request) => {
+      const key = `${request.method} ${new URL(request.url).pathname}`
+      const text = await request.clone().text()
+      calls.push({ key, body: text ? (JSON.parse(text) as unknown) : undefined })
+      if (key === 'GET /items/item-1/channels') return Response.json(held)
+      if (key === 'POST /items/item-1/not-online')
+        return Response.json({
+          item_id: 'item-1',
+          status: 'not_listed_online',
+          note: 'Selling it on the floor.',
+          decided_by_name: 'Demo Staff',
+          decided_at: '2026-11-06T15:00:00+00:00',
+        })
+      throw new Error(`unexpected ${key}`)
+    }),
+  )
+  const onKeptOff = vi.fn()
+  render(<ChannelChoice itemId="item-1" onChoose={onChoose} onKeptOff={onKeptOff} />)
+
+  fireEvent.click(await screen.findByRole('button', { name: "Don't list online" }))
+  expect(screen.queryByRole('button', { name: 'Write the listing' })).not.toBeInTheDocument()
+  fireEvent.click(screen.getByRole('button', { name: 'Cancel' }))
+  fireEvent.click(screen.getByRole('button', { name: "Don't list online" }))
+  fireEvent.change(screen.getByLabelText("Why it isn't going online"), {
+    target: { value: 'Selling it on the floor.' },
+  })
+  fireEvent.click(screen.getByRole('button', { name: "Don't list online" }))
+
+  expect(
+    await screen.findByText("It won't be listed online. Your note is in its history."),
+  ).toBeInTheDocument()
+  expect(onKeptOff).toHaveBeenCalled()
+  expect(onChoose).not.toHaveBeenCalled()
+  expect(screen.queryByRole('checkbox')).not.toBeInTheDocument()
+  expect(calls.find((call) => call.key === 'POST /items/item-1/not-online')?.body).toEqual({
+    note: 'Selling it on the floor.',
+  })
+})
+
+test('an item in season is not offered the off-online choice', async () => {
+  stubApi(() => Response.json(inSeason))
+  render(<ChannelChoice itemId="item-1" onChoose={onChoose} />)
+  await screen.findByText(inSeason.reason)
+  expect(screen.queryByRole('button', { name: "Don't list online" })).not.toBeInTheDocument()
+})

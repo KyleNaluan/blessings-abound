@@ -50,7 +50,7 @@ Each item is one of a kind.
 | `id` | `uuid` | Primary key |
 | `sku` | `text` | Required and unique, the lister's initials, the store's date as `MMDDYY` and a two-digit daily sequence, such as `RT11042601`, with the box code added after a space once the item is packed |
 | `lister_id` | `uuid` | Required, foreign key to `profiles` |
-| `status` | `varchar(32)` | `intake`, `card_ready`, `appraised`, `declined`, `approved`, `held_for_season`, `listed`, `sold` or `picked`, default `intake` |
+| `status` | `varchar(32)` | `intake`, `card_ready`, `appraised`, `declined`, `approved`, `held_for_season`, `not_listed_online`, `listed`, `sold` or `picked`, default `intake` |
 | `photo_keys` | `text[]` | Storage keys, 1 to 4 of them |
 | `photo_hashes` | `text[]` | The SHA-256 of each photo, in the order of `photo_keys`, default empty, and either empty or as long as `photo_keys`, with a GIN index for the repeat photo guard |
 | `store_department` | `varchar(32)` | Optional, `clothing` or `electronics_games`, the store department the item came from, which intake asks for |
@@ -68,6 +68,9 @@ The migration that added real SKUs gave each placeholder SKU from the walking sk
 Items taken in before #9 have no photo hashes and no store department, because their photos were never fingerprinted, so the repeat photo guard never matches them.
 The API checks the code against Settings when it is saved, upper-cases the shelf or bin and closes up the spaces around a dash, so `b12 - 2` is saved as `B12-2`.
 An approved item whose release month is still to come is `held_for_season`, and it keeps its release month.
+It stays `held_for_season` once its release month comes, and the API treats it as back for review until a manager approves it again, which makes it `approved`, or rejects it, which makes it `declined`.
+List now sets its release month to the current month.
+`not_listed_online` is an item taken out of online selling, and only a manager putting it back for review moves it on, to `held_for_season` with this month as its release month if its listings were approved, or to `appraised` if they weren't.
 `sold` is set by `mark_sold` in `api/app/approval.py`, which the channel sync calls when it records a sale.
 
 ### `item_cards`
@@ -116,6 +119,7 @@ An item can have several, because editing the card and searching again gives a n
 ### `decisions`
 
 Every staff yes or no, kept as a history, so an item can have several.
+The review page shows every row for an item as its history, oldest first.
 
 | Column | Type | Rules |
 | --- | --- | --- |
@@ -123,7 +127,7 @@ Every staff yes or no, kept as a history, so an item can have several.
 | `item_id` | `uuid` | Required, foreign key to `items` |
 | `appraisal_id` | `uuid` | Required, and a foreign key on `appraisal_id` and `item_id` together means it must be an appraisal of the same item |
 | `decision` | `varchar(32)` | `yes` or `no` |
-| `override_reason` | `text` | Optional, set when staff go against the recommendation, to `wrong_comps`, `better_condition`, `sells_for_more`, `worse_condition`, `sells_for_less`, `hard_to_ship`, `not_genuine` or `other`, which the API checks, while a manager's change on the approval screen writes its own words |
+| `override_reason` | `text` | Optional, set when staff go against the recommendation, to `wrong_comps`, `better_condition`, `sells_for_more`, `worse_condition`, `sells_for_less`, `hard_to_ship`, `not_genuine` or `other`, which the API checks, while a manager's change on the approval screen, and each choice about a held item, writes its own words |
 | `note` | `text` | Optional, at most 500 characters from the appraisal screen |
 | `decided_by` | `uuid` | Required, foreign key to `profiles` |
 | `decided_at` | `timestamptz` | Set by the database, indexed for the recent decisions list |

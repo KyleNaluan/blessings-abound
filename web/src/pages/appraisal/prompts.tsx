@@ -1,13 +1,16 @@
 import { useLayoutEffect, useRef, type ReactNode } from 'react'
+import { Link } from 'react-router'
 
 import type { RejectedMatch, RetakePhoto } from '@/api/appraisal'
+import type { KeptOffMatch } from '@/api/approval'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { when } from '@/pages/approval/format'
 
 import { DESTINATIONS, label } from '../intake'
 
-// The questions intake asks before an item is taken in. Nothing is saved until staff answer.
+// The questions intake asks about an item, and the warnings it gives. Nothing is saved until staff
+// answer a question.
 
 const itemName = (row: { brand: string | null; product: string | null; sku: string }) =>
   [row.brand, row.product].filter(Boolean).join(' ') || row.sku
@@ -134,6 +137,67 @@ export function RepeatWarning({
           </li>
         ))}
       </ul>
+    </Prompt>
+  )
+}
+
+// A new item that may be one kept off online before. It never stops the item, since staff may have
+// a good reason to take it in, but they see who kept the earlier one off and why.
+export function KeptOffWarning({
+  matches,
+  canOpen,
+  onCarryOn,
+}: {
+  matches: KeptOffMatch[]
+  // Only a manager can open the earlier item's review, so staff see its SKU instead.
+  canOpen: boolean
+  onCarryOn: () => void
+}) {
+  const one = matches.length === 1
+  return (
+    <Prompt
+      id="kept-off"
+      warning
+      title="This may be an item kept off online"
+      actions={
+        <Button size="lg" className="max-sm:w-full" onClick={onCarryOn}>
+          Carry on
+        </Button>
+      }
+    >
+      <p className="mb-3">
+        {one ? 'An earlier item' : `${matches.length} earlier items`} like this one{' '}
+        {one ? 'was' : 'were'} taken out of online selling. You can carry on, but check{' '}
+        {one ? "it isn't" : "they aren't"} the same item first.
+      </p>
+      <ul className="mb-4">
+        {matches.map((match) => (
+          <li key={match.item_id} className="border-t border-rule py-3">
+            {canOpen ? (
+              <Link to={`/app/approvals/${match.item_id}`} className="font-bold break-words">
+                {itemName(match)}
+              </Link>
+            ) : (
+              <p className="font-bold break-words">{itemName(match)}</p>
+            )}
+            <p className="text-sm text-muted-foreground">
+              SKU {match.sku}, kept off online by {match.decided_by_name} on{' '}
+              {when(match.decided_at)}
+            </p>
+            {match.note && <p className="break-words">Why: {match.note}</p>}
+            <p>
+              Matches on:{' '}
+              {match.matched_on === 'photo' ? 'the same photo' : 'the same brand and product'}
+            </p>
+          </li>
+        ))}
+      </ul>
+      {!canOpen && (
+        <p className="mb-4">
+          Only a manager can put an item back for review, so ask one if it should go online after
+          all.
+        </p>
+      )}
     </Prompt>
   )
 }

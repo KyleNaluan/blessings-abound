@@ -137,6 +137,8 @@ function stubApi(overrides: Record<string, () => Response> = {}) {
         case 'POST /items/item-1/decisions':
           decisions = [savedRow]
           return Response.json({ id: 'decision-1' }, { status: 201 })
+        case 'GET /items/item-1/kept-off-matches':
+          return Response.json([])
         case 'GET /items/item-1/channels':
           return Response.json(recommendation)
         case 'POST /items/item-1/drafts':
@@ -1050,4 +1052,102 @@ test('changing the photos while the prompt shows clears it', async () => {
 
   fireEvent.click(screen.getByRole('button', { name: 'Remove photo 1' }))
   expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+})
+
+const keptOff = {
+  item_id: 'item-0',
+  sku: 'RT10272601',
+  brand: 'Carhartt',
+  product: 'Canvas jacket',
+  note: 'Selling it on the store floor.',
+  decided_by_name: 'Demo Manager',
+  decided_at: '2026-10-27T16:00:00+00:00',
+  matched_on: 'brand_and_product',
+}
+
+const keptOffChecks = (calls: Call[]) =>
+  calls.filter((call) => call.path === '/items/item-1/kept-off-matches')
+
+test('an item like one kept off online is flagged once the card is read, and staff can carry on', async () => {
+  const calls = stubApi({
+    'GET /items/item-1/kept-off-matches': () => Response.json([keptOff]),
+  })
+  renderPage()
+  await takeItemIn()
+
+  const warning = await screen.findByRole('alert')
+  expect(warning).toHaveTextContent('This may be an item kept off online')
+  expect(warning).toHaveFocus()
+  expect(warning).toHaveTextContent('Carhartt Canvas jacket')
+  expect(warning).toHaveTextContent('SKU RT10272601, kept off online by Demo Manager on')
+  expect(warning).toHaveTextContent('Why: Selling it on the store floor.')
+  expect(warning).toHaveTextContent('Matches on: the same brand and product')
+  expect(warning).toHaveTextContent('ask one if it should go online after all')
+  // Staff can't open a manager's review, so the earlier item isn't a link for them.
+  expect(within(warning).queryByRole('link')).not.toBeInTheDocument()
+  // It never stops the item: the card is there to check while the warning shows.
+  expect(screen.getByLabelText('Brand')).toHaveValue('Carhartt')
+
+  fireEvent.click(screen.getByRole('button', { name: 'Carry on' }))
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+
+  await confirmTheCard()
+  expect(await screen.findByRole('heading', { name: 'Price' })).toBeInTheDocument()
+  // The confirmed card has the same brand and product, so it isn't checked again.
+  expect(keptOffChecks(calls)).toHaveLength(1)
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+})
+
+test('a manager sees a link to the item kept off online, matched on its photo', async () => {
+  stubApi({
+    'GET /me': () => Response.json({ status: 'active', role: 'manager' }),
+    'GET /items/item-1/kept-off-matches': () =>
+      Response.json([{ ...keptOff, matched_on: 'photo' }]),
+  })
+  renderPage()
+  await takeItemIn()
+
+  const warning = await screen.findByRole('alert')
+  expect(within(warning).getByRole('link', { name: 'Carhartt Canvas jacket' })).toHaveAttribute(
+    'href',
+    '/app/approvals/item-0',
+  )
+  expect(warning).toHaveTextContent('Matches on: the same photo')
+  expect(warning).not.toHaveTextContent('ask one')
+})
+
+test('a changed brand on the card is checked again for items kept off online', async () => {
+  const calls = stubApi({
+    'GET /items/item-1/kept-off-matches': () =>
+      Response.json(keptOffChecks(calls).length === 1 ? [] : [keptOff]),
+  })
+  renderPage()
+  await takeItemIn()
+  fireEvent.change(await screen.findByLabelText('Brand'), { target: { value: 'Dickies' } })
+  await confirmTheCard()
+
+  expect(await screen.findByRole('alert')).toHaveTextContent('This may be an item kept off online')
+  expect(keptOffChecks(calls)).toHaveLength(2)
+})
+
+test('a failed check for items kept off online can be tried again without stopping the item', async () => {
+  let failing = true
+  const calls = stubApi({
+    'GET /items/item-1/kept-off-matches': () =>
+      failing
+        ? Response.json({ detail: 'The database is down.' }, { status: 503 })
+        : Response.json([keptOff]),
+  })
+  renderPage()
+  await takeItemIn()
+
+  expect(
+    await screen.findByText("We couldn't check for earlier items kept off online."),
+  ).toBeInTheDocument()
+  expect(screen.getByLabelText('Brand')).toHaveValue('Carhartt')
+  failing = false
+  fireEvent.click(screen.getByRole('button', { name: 'Try again' }))
+
+  expect(await screen.findByRole('alert')).toHaveTextContent('This may be an item kept off online')
+  expect(keptOffChecks(calls)).toHaveLength(2)
 })

@@ -196,7 +196,10 @@ export interface paths {
     }
     /**
      * List Approvals
-     * @description The items waiting for a manager, to approve or to store.
+     * @description The items waiting for a manager, to approve, to store, or held for their season.
+     *
+     *     A held item comes back to approval once its release month has come, which is read here
+     *     against today rather than moved by a scheduled job, so it shows the first time anyone looks.
      */
     get: operations['list_approvals']
     put?: never
@@ -235,6 +238,8 @@ export interface paths {
     /**
      * Set Listing Price
      * @description Set this channel's price in place of the typical price, or clear it to go back to that.
+     *
+     *     A held item back for review can be repriced too, before a manager approves it again.
      */
     put: operations['set_listing_price']
     post?: never
@@ -280,6 +285,9 @@ export interface paths {
     /**
      * Approve Item
      * @description Approve every listing staff sent on, once each has a price and Channel A has a package.
+     *
+     *     A held item back for review is approved again at the prices on the review, which lists it
+     *     straight away when it is already on a shelf, the same way storing an approved item does.
      */
     post: operations['approve_item']
     delete?: never
@@ -300,8 +308,130 @@ export interface paths {
     /**
      * Reject Item
      * @description Turn the item down, which records a manager's no and needs no package or shelf.
+     *
+     *     A held item back for review can be turned down the same way, instead of being approved again.
      */
     post: operations['reject_item']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/list-now': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * List Held Item Now
+     * @description Bring a held item back for review before its release month, with the same price check.
+     *
+     *     Its release month becomes this month, so it is back for review exactly as it would be in its
+     *     season, and the month it was held until is kept in the history. Asking again changes nothing.
+     */
+    post: operations['list_held_item_now']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/not-online': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Keep Item Off Online
+     * @description Take the item out of online selling, such as to sell it on the store floor.
+     *
+     *     Staff can do it from the item screen before a manager approves the listing, and a manager can
+     *     also do it to an item held for its season. Who did it, when and the note go in the history,
+     *     and only a manager can put it back for review afterwards.
+     */
+    post: operations['keep_item_off_online']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/put-back': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Put Item Back For Review
+     * @description Undo Don't list online, right after or any time later, with a note on why.
+     *
+     *     The item goes back to Waiting for approval, so nothing is listed until a manager reviews it
+     *     again. One that was approved before comes back like a held item in its season, with its comps
+     *     looked up again, and one that wasn't goes back to its listings waiting for approval, or to
+     *     being written when staff never sent one.
+     */
+    post: operations['put_item_back_for_review']
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/kept-off-matches': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    /**
+     * List Kept Off Matches
+     * @description Earlier items kept off online that this one may be, newest first, for a warning at intake.
+     *
+     *     An item matches on a shared photo, or on the same brand and product once the card is read,
+     *     ignoring case and spaces at the ends, because a new photo of the same item won't match. One
+     *     that was put back for review is no longer kept off, so it doesn't match.
+     */
+    get: operations['list_kept_off_matches']
+    put?: never
+    post?: never
+    delete?: never
+    options?: never
+    head?: never
+    patch?: never
+    trace?: never
+  }
+  '/items/{item_id}/fresh-comps': {
+    parameters: {
+      query?: never
+      header?: never
+      path?: never
+      cookie?: never
+    }
+    get?: never
+    put?: never
+    /**
+     * Look Up Fresh Comps
+     * @description Look up comps again for a held item back for review, so its price is checked before listing.
+     *
+     *     It runs the appraisal's own lookup and pricing and keeps the result as a new appraisal of the
+     *     item, which the listings don't take their typical price from. Once there is one since the
+     *     approval, asking again returns it rather than searching again.
+     */
+    post: operations['look_up_fresh_comps']
     delete?: never
     options?: never
     head?: never
@@ -946,6 +1076,10 @@ export interface components {
       awaiting_approval: components['schemas']['QueueItem'][]
       /** Awaiting Storage */
       awaiting_storage: components['schemas']['QueueItem'][]
+      /** Held For Season */
+      held_for_season: components['schemas']['QueueItem'][]
+      /** Not Listed Online */
+      not_listed_online: components['schemas']['KeptOffItem'][]
     }
     /**
      * AskToSale
@@ -1376,6 +1510,21 @@ export interface components {
        */
       status: 'ok' | 'unavailable'
     }
+    /** HistoryEntry */
+    HistoryEntry: {
+      decision: components['schemas']['DecisionChoice']
+      /** Reason */
+      reason: string | null
+      /** Note */
+      note: string | null
+      /** Decided By Name */
+      decided_by_name: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+    }
     /**
      * HistorySpan
      * @description What the synthetic history covers, so the page can say which dates it is.
@@ -1626,6 +1775,17 @@ export interface components {
       submitted_by_name: string | null
       /** Submitted At */
       submitted_at: string | null
+      /** Approved By Name */
+      approved_by_name: string | null
+      /** Approved At */
+      approved_at: string | null
+      /** Back For Review */
+      back_for_review: boolean
+      /** Put Back */
+      put_back: boolean
+      fresh_appraisal: components['schemas']['AppraisalRead'] | null
+      /** History */
+      history: components['schemas']['HistoryEntry'][]
       /** Blockers */
       blockers: string[]
     }
@@ -1640,6 +1800,7 @@ export interface components {
       | 'declined'
       | 'approved'
       | 'held_for_season'
+      | 'not_listed_online'
       | 'listed'
       | 'sold'
       | 'picked'
@@ -1648,6 +1809,63 @@ export interface components {
      * @enum {string}
      */
     JobStatus: 'pending' | 'done' | 'failed'
+    /**
+     * KeptOffItem
+     * @description An item that is not listed online, with who kept it off, when and why.
+     */
+    KeptOffItem: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      /** Note */
+      note: string | null
+      /** Decided By Name */
+      decided_by_name: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+    }
+    /**
+     * KeptOffMatch
+     * @description An earlier item kept off online that a new item may be, by its photo or its card.
+     */
+    KeptOffMatch: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      /** Sku */
+      sku: string
+      /** Brand */
+      brand: string | null
+      /** Product */
+      product: string | null
+      /** Note */
+      note: string | null
+      /** Decided By Name */
+      decided_by_name: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+      /**
+       * Matched On
+       * @enum {string}
+       */
+      matched_on: 'photo' | 'brand_and_product'
+    }
     /**
      * ListingDraftEdit
      * @description Staff's changes to one draft, where a field left out stays as it is.
@@ -1798,6 +2016,29 @@ export interface components {
       /** Month */
       month?: number | null
     }
+    /** NotOnlineRequest */
+    NotOnlineRequest: {
+      /** Note */
+      note: string
+    }
+    /** NotOnlineResult */
+    NotOnlineResult: {
+      /**
+       * Item Id
+       * Format: uuid
+       */
+      item_id: string
+      status: components['schemas']['ItemStatus']
+      /** Note */
+      note: string
+      /** Decided By Name */
+      decided_by_name: string
+      /**
+       * Decided At
+       * Format: date-time
+       */
+      decided_at: string
+    }
     /** OrderRead */
     OrderRead: {
       channel: components['schemas']['Channel']
@@ -1918,6 +2159,11 @@ export interface components {
       /** Outlier */
       outlier: boolean
     }
+    /** PutBackRequest */
+    PutBackRequest: {
+      /** Note */
+      note: string
+    }
     /** QueueItem */
     QueueItem: {
       /**
@@ -1938,6 +2184,14 @@ export interface components {
       channels: components['schemas']['Channel'][]
       /** Waiting Since */
       waiting_since: string | null
+      /** Release Month */
+      release_month: string | null
+      /** Location Code */
+      location_code: string | null
+      /** Back For Review */
+      back_for_review: boolean
+      /** Put Back */
+      put_back: boolean
     }
     /** RecentDecision */
     RecentDecision: {
@@ -2838,6 +3092,169 @@ export interface operations {
         'application/json': components['schemas']['RejectRequest']
       }
     }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_held_item_now: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  keep_item_off_online: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['NotOnlineRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['NotOnlineResult']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  put_item_back_for_review: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['PutBackRequest']
+      }
+    }
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['ItemReview']
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  list_kept_off_matches: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
+    responses: {
+      /** @description Successful Response */
+      200: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['KeptOffMatch'][]
+        }
+      }
+      /** @description Validation Error */
+      422: {
+        headers: {
+          [name: string]: unknown
+        }
+        content: {
+          'application/json': components['schemas']['HTTPValidationError']
+        }
+      }
+    }
+  }
+  look_up_fresh_comps: {
+    parameters: {
+      query?: never
+      header?: never
+      path: {
+        item_id: string
+      }
+      cookie?: never
+    }
+    requestBody?: never
     responses: {
       /** @description Successful Response */
       200: {

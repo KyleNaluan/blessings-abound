@@ -41,6 +41,7 @@ export const STATUS_NAMES: Partial<Record<ItemStatus, string>> = {
   approved: 'Approved',
   held_for_season: 'Approved and held for its season',
   declined: 'Rejected',
+  not_listed_online: 'Not listed online',
   listed: 'Listed',
   sold: 'Sold',
   picked: 'Picked',

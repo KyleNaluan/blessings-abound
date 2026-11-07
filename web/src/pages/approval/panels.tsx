@@ -2,6 +2,8 @@ import { useState, type FormEvent, type ReactNode } from 'react'
 
 import {
   approveItem,
+  listNow,
+  loadItemReview,
   publishAgain,
   rejectItem,
   saveStorage,
@@ -13,9 +15,11 @@ import {
 } from '@/api/approval'
 import { Field, SubmitButton, TextInput } from '@/components/site/form'
 import { Button } from '@/components/ui/button'
+import { OVERRIDE_REASON_LABELS } from '@/pages/intake'
 import { dollars, parseDollars, parseNumber } from '@/pages/settings/numbers'
 
-import { billedWeight, boxLabel, CHANNEL_NAMES, money } from './format'
+import { billedWeight, boxLabel, CHANNEL_NAMES, money, releaseMonth, when } from './format'
+import { NotOnlineForm, PutBackForm } from './NotOnlineForm'
 
 // The parts of the review page: one panel per listing, the package and shelf, and the decision.
 
@@ -79,6 +83,19 @@ const STATE_NOTES: Record<ListingReview['state'], string> = {
   rejected: 'Rejected.',
 }
 
+// What the listing is waiting on, given what has happened to the item since it was written.
+function listingNote(review: ItemReview, listing: ListingReview) {
+  if (review.status === 'not_listed_online') {
+    return "Kept off online, so it won't be listed unless a manager puts it back for review."
+  }
+  if (review.back_for_review && listing.state === 'approved') {
+    return review.put_back
+      ? 'Approved before it was kept off online. Check its price against what it sells for now.'
+      : 'Approved before its season. Check its price against what it sells for now.'
+  }
+  return STATE_NOTES[listing.state]
+}
+
 // Where the approved listing is on its channel, from the app's own record of it.
 function channelNote(status: ListingStatus, name: string, detail: string | null) {
   switch (status) {
@@ -133,7 +150,10 @@ export function ListingPanel({
 }: PanelProps & { listing: ListingReview }) {
   const name = CHANNEL_NAMES[listing.channel]
   const id = `listing-${listing.channel}`
-  const editable = review.status === 'appraised' && listing.state === 'awaiting_approval'
+  // A held item back for review keeps its approved listing, whose price can still change.
+  const editable =
+    (review.status === 'appraised' && listing.state === 'awaiting_approval') ||
+    (review.back_for_review && listing.state === 'approved')
   const [price, setPrice] = useState(
     listing.price_override_cents === null ? '' : dollars(listing.price_override_cents),
   )
@@ -157,7 +177,7 @@ export function ListingPanel({
       {listing.channel_status ? (
         <ChannelStatus review={review} listing={listing} onChange={onChange} />
       ) : (
-        <p className="mb-4 text-muted-foreground">{STATE_NOTES[listing.state]}</p>
+        <p className="mb-4 text-muted-foreground">{listingNote(review, listing)}</p>
       )}
       {listing.flags.length > 0 && (
         <div className="mb-5 border-l-4 border-destructive pl-3.5">
@@ -412,8 +432,9 @@ export function DecisionPanel({ review, onChange }: PanelProps) {
       </Button>
       <h3 className="mb-1 text-lg font-bold">Reject it instead</h3>
       <p className="mb-4">
-        Rejecting records a no, so the item needs no package or shelf. Staff can say yes again to
-        fix the listing and send it back.
+        {review.back_for_review
+          ? 'Rejecting records a no, so nothing is listed. Staff can say yes again to fix the listing and send it back.'
+          : 'Rejecting records a no, so the item needs no package or shelf. Staff can say yes again to fix the listing and send it back.'}
       </p>
       <Failure message={rejection.error} />
       <form onSubmit={(event) => void reject(event)} noValidate>
@@ -454,6 +475,94 @@ export function DecisionPanel({ review, onChange }: PanelProps) {
           {rejection.pending ? 'Rejecting...' : 'Reject'}
         </Button>
       </form>
+    </Panel>
+  )
+}
+
+// A held item before its release month, which a manager can bring into review today.
+export function HeldPanel({ review, onChange }: PanelProps) {
+  const { pending, error, run } = useCall(onChange)
+  const month = review.release_month ? releaseMonth(review.release_month) : 'its release month'
+  return (
+    <Panel id="held" title={`Held until ${month}`}>
+      <p className="mb-5">
+        It comes back to Waiting for approval in {month}, with what similar items sell for then.
+        List now brings it into that review today.
+      </p>
+      <Failure message={error} />
+      <Button
+        size="lg"
+        className="max-sm:w-full"
+        disabled={pending}
+        aria-busy={pending}
+        onClick={() => void run(() => listNow(review.item_id))}
+      >
+        {pending ? 'Sending...' : 'List now'}
+      </Button>
+    </Panel>
+  )
+}
+
+// Takes the item out of online selling until a manager puts it back, offered wherever the timing
+// says to hold it.
+export function NotOnlinePanel({ review, onChange }: PanelProps) {
+  const { error, run } = useCall(onChange)
+  return (
+    <Panel id="not-online" title="Don't list online">
+      <p className="mb-5">
+        Takes it out of online selling, such as to sell it on the store floor, so nothing is listed
+        until a manager puts it back for review.
+      </p>
+      <Failure message={error} />
+      <NotOnlineForm
+        itemId={review.item_id}
+        idPrefix="not-online"
+        onDone={() => void run(() => loadItemReview(review.item_id))}
+      />
+    </Panel>
+  )
+}
+
+// Undoes Don't list online, which sends the item back to Waiting for approval.
+export function PutBackPanel({ review, onChange }: PanelProps) {
+  return (
+    <Panel id="put-back" title="Put back for review">
+      <p className="mb-5">
+        Sends it back to Waiting for approval, where you check its listing and price again before
+        anything goes online.
+      </p>
+      <PutBackForm itemId={review.item_id} idPrefix="put-back" onDone={onChange} />
+    </Panel>
+  )
+}
+
+// What a staff reason code means, in the words staff chose it by.
+function reasonText(reason: string) {
+  return (OVERRIDE_REASON_LABELS as Record<string, string>)[reason] ?? reason
+}
+
+// Every yes and no on the item, oldest first, with who made it and when.
+export function HistoryPanel({ review }: { review: ItemReview }) {
+  return (
+    <Panel id="history" title="History">
+      {review.history.length === 0 ? (
+        <p>Nothing has been decided yet.</p>
+      ) : (
+        <ol className="border-t border-rule">
+          {review.history.map((entry, index) => (
+            <li key={`${entry.decided_at}-${index}`} className="border-b border-rule py-3">
+              <p className="min-w-0 break-words">
+                <span className="font-bold">{entry.decision === 'yes' ? 'Yes' : 'No'}</span>
+                {entry.reason && `. ${reasonText(entry.reason)}`}
+              </p>
+              {entry.note && <p className="min-w-0 break-words">{entry.note}</p>}
+              <p className="text-sm text-muted-foreground">
+                {entry.decided_by_name}, {when(entry.decided_at)}
+              </p>
+            </li>
+          ))}
+        </ol>
+      )}
     </Panel>
   )
 }

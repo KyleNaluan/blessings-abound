@@ -3,7 +3,7 @@
 import json
 import re
 from collections.abc import Iterator
-from datetime import UTC, date, datetime
+from datetime import date
 from pathlib import Path
 from typing import Any
 from uuid import UUID
@@ -490,8 +490,7 @@ def test_an_item_with_a_later_release_month_is_held_and_keeps_it(
     session: Session,
 ) -> None:
     item_id = sent_item(client)
-    today = datetime.now(UTC).date()
-    later = date(today.year + 1, today.month, 1)
+    later = date(TODAY.year + 1, TODAY.month, 1)
     row = item_row(session, item_id)
     row.release_month = later
     session.add(row)
@@ -518,7 +517,7 @@ def test_an_item_whose_release_month_has_come_is_approved(
 ) -> None:
     item_id = sent_item(client)
     row = item_row(session, item_id)
-    row.release_month = datetime.now(UTC).date().replace(day=1)
+    row.release_month = TODAY.replace(day=1)
     session.add(row)
     session.commit()
     store(manager, item_id)
@@ -548,7 +547,12 @@ def test_a_rejected_item_records_a_no_and_skips_storage(
     assert decisions[-1].note == "Seam split"
 
     queue = manager.get("/approvals").json()
-    assert queue == {"awaiting_approval": [], "awaiting_storage": []}
+    assert queue == {
+        "awaiting_approval": [],
+        "awaiting_storage": [],
+        "held_for_season": [],
+        "not_listed_online": [],
+    }
     assert store(manager, item_id, location_code="A3").status_code == 409
     assert approve(manager, item_id).status_code == 409
 
