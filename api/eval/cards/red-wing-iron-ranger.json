@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": null,
+    "product": "leather boots",
+    "visible_text": null,
+    "search_query": "brown leather lace up boots",
+    "model_confidence": "low",
+    "color": "brown",
+    "material": "leather",
+    "exact_model": null,
+    "platform": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "New Balance",
+    "product": "running shoes",
+    "visible_text": "N",
+    "search_query": "New Balance women's grey pink running shoes",
+    "model_confidence": "high",
+    "color": "grey",
+    "material": "mesh and suede",
+    "exact_model": null,
+    "platform": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Under Armour",
+    "product": "t-shirt",
+    "visible_text": "UNDER ARMOUR",
+    "search_query": "Under Armour men's navy t-shirt",
+    "model_confidence": "high",
+    "color": "navy",
+    "material": "cotton",
+    "exact_model": null,
+    "platform": null
+  }
+}

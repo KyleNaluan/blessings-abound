@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Nike",
+    "product": "Air Force 1 sneakers",
+    "visible_text": "NIKE AIR",
+    "search_query": "Nike Air Force 1 white sneakers",
+    "model_confidence": "high",
+    "color": "white",
+    "material": "leather",
+    "exact_model": "Air Force 1",
+    "platform": null
+  }
+}

@@ -666,6 +666,63 @@ def _items_table(
     return lines
 
 
+def _names(items: list[EvalItem]) -> str:
+    # The name up to its first comma, because the full names have commas of their own.
+    names = [item.name.split(",")[0] for item in items]
+    return names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1]
+
+
+def apparel_method_lines(items: list[EvalItem]) -> list[str]:
+    """How the apparel references were read and what that leaves uncertain, from the items."""
+    apparel = [item for item in items if item.category is Category.APPAREL]
+    priced = [
+        (item, item.reference)
+        for item in apparel
+        if isinstance(item.reference, SoldSearchReference)
+    ]
+    sites = [tuple(search.site for search in reference.searches) for _, reference in priced]
+    mixed = [item for item, reference in priced if len(reference.searches) > 1]
+    approximate = [item for item, _ in priced if (item.note or "").startswith("Approximate")]
+    left_out = [item for item in apparel if item.reference is None]
+    lines = [
+        f"- References came from eBay's sold filter first, and from Mercari's when eBay had fewer "
+        f"than {MIN_SOLD_LISTINGS} matches: {sites.count(('eBay',))} from eBay, "
+        f"{sites.count(('Mercari',))} from Mercari and {len(mixed)} from both.",
+    ]
+    if mixed:
+        lines.append(
+            f"- {_names(mixed)} mix eBay and Mercari prices, and which prices came from which "
+            "site was not recorded."
+        )
+    if approximate:
+        lines.append(
+            f"- {len(approximate)} references are approximate matches, because no exact match "
+            f"was sold: {_names(approximate)}. Each one's note in the table says how it differs."
+        )
+    if left_out:
+        lines.append(
+            f"- {len(left_out)} items had too few matches on both sites and are left out: "
+            f"{_names(left_out)}."
+        )
+    lines += [
+        f"- This is a small sample, {len(priced)} scored items with at most {MAX_SOLD_LISTINGS} "
+        "sales behind each reference, so one or two items can move each number.",
+        "- The recording sheet asked for prices without shipping, as the comps are, but a Mercari "
+        "price may include shipping, because Mercari sellers often build it into the price.",
+        "- The Mercari links fill in only the search words, so the sold filter and condition were "
+        "set by hand, and where a search was loosened for an approximate match the words used "
+        "were not recorded.",
+        "- Which listings matched was one person's judgment, made once, with no second reading.",
+        "- The vision model reads some items wrongly, and nothing here corrects it: the Red Sox "
+        "cap became a Yankees cap, the Sperry boat shoes became L.L.Bean, the L.L.Bean duck boots "
+        "became Danner, the Barbour wax jacket became an unbranded suede jacket, the Red Wing "
+        "boots lost their brand, and the UGG Classic Short boots became tall ones.",
+        "- Many cards leave out the model, such as the 501, the 1460 or the 990, so those searches "
+        "price the brand and type more than the exact item.",
+    ]
+    return lines
+
+
 def batch_lines(rows: list[ItemScore], rules: PricingRules) -> list[str]:
     """Each fresh batch on its own, because the added items were picked to be harder."""
     lines = [
@@ -743,6 +800,12 @@ def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results
             "Apparel keeps its first rules, and no rule was fit to these items.",
             "",
             *_summary_lines(results.groups["apparel"]),
+            f"Item cards that would have stopped for staff confirmation: "
+            f"{sum(row.needed_confirmation for row in rows['apparel'])} of {len(rows['apparel'])}.",
+            "",
+            "### How the apparel references were read, and their limits",
+            "",
+            *apparel_method_lines(items),
             "",
         ]
     lines += [

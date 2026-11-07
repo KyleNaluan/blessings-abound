@@ -84,47 +84,47 @@
     },
     "apparel": {
       "pipeline": {
-        "items": 0,
-        "priced": 0,
-        "in_range": 0,
-        "in_range_rate": null,
-        "median_error_percent": null,
-        "median_range_width": null
+        "items": 26,
+        "priced": 26,
+        "in_range": 12,
+        "in_range_rate": 0.462,
+        "median_error_percent": 35.0,
+        "median_range_width": 1.99
       },
       "baseline": {
-        "items": 0,
-        "priced": 0,
-        "in_range": 0,
-        "in_range_rate": null,
-        "median_error_percent": null,
-        "median_range_width": null
+        "items": 26,
+        "priced": 26,
+        "in_range": 13,
+        "in_range_rate": 0.5,
+        "median_error_percent": 34.2,
+        "median_range_width": 1.92
       },
       "pipeline_middle_half": {
-        "items": 0,
-        "priced": 0,
-        "in_range": 0,
-        "in_range_rate": null,
-        "median_error_percent": null,
-        "median_range_width": null
+        "items": 26,
+        "priced": 26,
+        "in_range": 12,
+        "in_range_rate": 0.462,
+        "median_error_percent": 35.0,
+        "median_range_width": 1.99
       },
       "pipeline_before_factor": {
-        "items": 0,
-        "priced": 0,
-        "in_range": 0,
-        "in_range_rate": null,
-        "median_error_percent": null,
-        "median_range_width": null
+        "items": 26,
+        "priced": 26,
+        "in_range": 12,
+        "in_range_rate": 0.462,
+        "median_error_percent": 36.4,
+        "median_range_width": 1.99
       },
-      "median_ask_over_reference": null,
-      "pipeline_beats_baseline_on_in_range": null,
-      "pipeline_middle_half_beats_baseline_on_in_range": null,
-      "pipeline_beats_baseline_on_median_error": null,
-      "pipeline_closer_items": 0,
-      "items_compared": 0,
-      "chance_percent": null
+      "median_ask_over_reference": 1.3,
+      "pipeline_beats_baseline_on_in_range": false,
+      "pipeline_middle_half_beats_baseline_on_in_range": false,
+      "pipeline_beats_baseline_on_median_error": false,
+      "pipeline_closer_items": 14,
+      "items_compared": 26,
+      "chance_percent": 84.5
     }
   },
-  "searches_saved": 48,
+  "searches_saved": 76,
   "fresh_searches": 30,
   "rules": {
     "ask_to_sale_factor": 0.645,
@@ -1965,6 +1965,996 @@
         "comps_count": 70,
         "in_range": true,
         "error_percent": 6.1
+      }
+    },
+    {
+      "id": "levis-501",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 3312,
+      "search_query": "Levi's vintage blue jeans",
+      "queries_searched": [
+        "Levi's vintage blue jeans"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1648,
+        "typical_cents": 2419,
+        "high_cents": 3386,
+        "comps_count": 51,
+        "in_range": true,
+        "error_percent": 27.0
+      },
+      "pipeline_middle_half": {
+        "low_cents": 1648,
+        "typical_cents": 2419,
+        "high_cents": 3386,
+        "comps_count": 51,
+        "in_range": true,
+        "error_percent": 27.0
+      },
+      "baseline": {
+        "low_cents": 2582,
+        "typical_cents": 3997,
+        "high_cents": 5500,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 20.7
+      }
+    },
+    {
+      "id": "nike-air-force-1",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 2750,
+      "search_query": "Nike Air Force 1 white sneakers",
+      "queries_searched": [
+        "Nike Air Force 1 white sneakers"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 2381,
+        "typical_cents": 3870,
+        "high_cents": 5241,
+        "comps_count": 52,
+        "in_range": true,
+        "error_percent": 40.7
+      },
+      "pipeline_middle_half": {
+        "low_cents": 2381,
+        "typical_cents": 3870,
+        "high_cents": 5241,
+        "comps_count": 52,
+        "in_range": true,
+        "error_percent": 40.7
+      },
+      "baseline": {
+        "low_cents": 3322,
+        "typical_cents": 5750,
+        "high_cents": 8125,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 109.1
+      }
+    },
+    {
+      "id": "adidas-stan-smith",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 6995,
+      "search_query": "adidas Stan Smith white black sneakers",
+      "queries_searched": [
+        "adidas Stan Smith white black sneakers"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 4837,
+        "typical_cents": 5772,
+        "high_cents": 7564,
+        "comps_count": 52,
+        "in_range": true,
+        "error_percent": 17.5
+      },
+      "pipeline_middle_half": {
+        "low_cents": 4837,
+        "typical_cents": 5772,
+        "high_cents": 7564,
+        "comps_count": 52,
+        "in_range": true,
+        "error_percent": 17.5
+      },
+      "baseline": {
+        "low_cents": 7499,
+        "typical_cents": 8999,
+        "high_cents": 12407,
+        "comps_count": 53,
+        "in_range": false,
+        "error_percent": 28.6
+      }
+    },
+    {
+      "id": "converse-chuck-taylor",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 1850,
+      "search_query": "Converse Chuck Taylor high top sneakers white",
+      "queries_searched": [
+        "Converse Chuck Taylor high top sneakers white"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1290,
+        "typical_cents": 1612,
+        "high_cents": 2451,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 12.9
+      },
+      "pipeline_middle_half": {
+        "low_cents": 1290,
+        "typical_cents": 1612,
+        "high_cents": 2451,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 12.9
+      },
+      "baseline": {
+        "low_cents": 2000,
+        "typical_cents": 2500,
+        "high_cents": 3825,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 35.1
+      }
+    },
+    {
+      "id": "dr-martens-1460",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 8750,
+      "search_query": "Dr. Martens brown leather boots",
+      "queries_searched": [
+        "Dr. Martens brown leather boots"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 3467,
+        "typical_cents": 4495,
+        "high_cents": 5160,
+        "comps_count": 56,
+        "in_range": false,
+        "error_percent": 48.6
+      },
+      "pipeline_middle_half": {
+        "low_cents": 3467,
+        "typical_cents": 4495,
+        "high_cents": 5160,
+        "comps_count": 56,
+        "in_range": false,
+        "error_percent": 48.6
+      },
+      "baseline": {
+        "low_cents": 5000,
+        "typical_cents": 6969,
+        "high_cents": 8088,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 20.4
+      }
+    },
+    {
+      "id": "carhartt-active-jacket",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 8804,
+      "search_query": "Carhartt black hooded canvas active jacket",
+      "queries_searched": [
+        "Carhartt black hooded canvas active jacket"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 4384,
+        "typical_cents": 5391,
+        "high_cents": 6449,
+        "comps_count": 54,
+        "in_range": false,
+        "error_percent": 38.8
+      },
+      "pipeline_middle_half": {
+        "low_cents": 4384,
+        "typical_cents": 5391,
+        "high_cents": 6449,
+        "comps_count": 54,
+        "in_range": false,
+        "error_percent": 38.8
+      },
+      "baseline": {
+        "low_cents": 6796,
+        "typical_cents": 8457,
+        "high_cents": 10250,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 3.9
+      }
+    },
+    {
+      "id": "lacoste-polo",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 2460,
+      "search_query": "Lacoste men's pique polo shirt mint green",
+      "queries_searched": [
+        "Lacoste men's pique polo shirt mint green"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1290,
+        "typical_cents": 1612,
+        "high_cents": 1868,
+        "comps_count": 58,
+        "in_range": false,
+        "error_percent": 34.5
+      },
+      "pipeline_middle_half": {
+        "low_cents": 1290,
+        "typical_cents": 1612,
+        "high_cents": 1868,
+        "comps_count": 58,
+        "in_range": false,
+        "error_percent": 34.5
+      },
+      "baseline": {
+        "low_cents": 2000,
+        "typical_cents": 2499,
+        "high_cents": 2898,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 1.6
+      }
+    },
+    {
+      "id": "north-face-arctic-parka",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 6750,
+      "search_query": "The North Face navy fur hood parka",
+      "queries_searched": [
+        "The North Face navy fur hood parka"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 3930,
+        "typical_cents": 6417,
+        "high_cents": 9512,
+        "comps_count": 54,
+        "in_range": true,
+        "error_percent": 4.9
+      },
+      "pipeline_middle_half": {
+        "low_cents": 3930,
+        "typical_cents": 6417,
+        "high_cents": 9512,
+        "comps_count": 54,
+        "in_range": true,
+        "error_percent": 4.9
+      },
+      "baseline": {
+        "low_cents": 6280,
+        "typical_cents": 9999,
+        "high_cents": 14999,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 48.1
+      }
+    },
+    {
+      "id": "barbour-endurance",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 20000,
+      "search_query": "men olive suede jacket",
+      "queries_searched": [
+        "men olive suede jacket"
+      ],
+      "model_confidence": "medium",
+      "needed_confirmation": true,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 2258,
+        "typical_cents": 3224,
+        "high_cents": 5354,
+        "comps_count": 58,
+        "in_range": false,
+        "error_percent": 83.9
+      },
+      "pipeline_middle_half": {
+        "low_cents": 2258,
+        "typical_cents": 3224,
+        "high_cents": 5354,
+        "comps_count": 58,
+        "in_range": false,
+        "error_percent": 83.9
+      },
+      "baseline": {
+        "low_cents": 3500,
+        "typical_cents": 4999,
+        "high_cents": 8531,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 75.0
+      }
+    },
+    {
+      "id": "birkenstock-arizona",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 4850,
+      "search_query": "Birkenstock Arizona black double strap sandals",
+      "queries_searched": [
+        "Birkenstock Arizona black double strap sandals"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1509,
+        "typical_cents": 1935,
+        "high_cents": 3124,
+        "comps_count": 55,
+        "in_range": false,
+        "error_percent": 60.1
+      },
+      "pipeline_middle_half": {
+        "low_cents": 1509,
+        "typical_cents": 1935,
+        "high_cents": 3124,
+        "comps_count": 55,
+        "in_range": false,
+        "error_percent": 60.1
+      },
+      "baseline": {
+        "low_cents": 2395,
+        "typical_cents": 3000,
+        "high_cents": 4800,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 38.1
+      }
+    },
+    {
+      "id": "timberland-6-inch",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 5250,
+      "search_query": "Timberland men's brown leather 6-inch boots",
+      "queries_searched": [
+        "Timberland men's brown leather 6-inch boots"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 3225,
+        "typical_cents": 4450,
+        "high_cents": 6130,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 15.2
+      },
+      "pipeline_middle_half": {
+        "low_cents": 3225,
+        "typical_cents": 4450,
+        "high_cents": 6130,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 15.2
+      },
+      "baseline": {
+        "low_cents": 5000,
+        "typical_cents": 6950,
+        "high_cents": 9616,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 32.4
+      }
+    },
+    {
+      "id": "new-balance-990",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 3575,
+      "search_query": "New Balance women's grey pink running shoes",
+      "queries_searched": [
+        "New Balance women's grey pink running shoes"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1532,
+        "typical_cents": 1895,
+        "high_cents": 2290,
+        "comps_count": 56,
+        "in_range": false,
+        "error_percent": 47.0
+      },
+      "pipeline_middle_half": {
+        "low_cents": 1532,
+        "typical_cents": 1895,
+        "high_cents": 2290,
+        "comps_count": 56,
+        "in_range": false,
+        "error_percent": 47.0
+      },
+      "baseline": {
+        "low_cents": 2355,
+        "typical_cents": 2938,
+        "high_cents": 3724,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 17.8
+      }
+    },
+    {
+      "id": "red-wing-iron-ranger",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 19450,
+      "search_query": "brown leather lace up boots",
+      "queries_searched": [
+        "brown leather lace up boots"
+      ],
+      "model_confidence": "low",
+      "needed_confirmation": true,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 2322,
+        "typical_cents": 3386,
+        "high_cents": 6224,
+        "comps_count": 30,
+        "in_range": false,
+        "error_percent": 82.6
+      },
+      "pipeline_middle_half": {
+        "low_cents": 2322,
+        "typical_cents": 3386,
+        "high_cents": 6224,
+        "comps_count": 30,
+        "in_range": false,
+        "error_percent": 82.6
+      },
+      "baseline": {
+        "low_cents": 3944,
+        "typical_cents": 5500,
+        "high_cents": 8600,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 71.7
+      }
+    },
+    {
+      "id": "puma-suede",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 2250,
+      "search_query": "Puma Suede sneakers black white",
+      "queries_searched": [
+        "Puma Suede sneakers black white"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1290,
+        "typical_cents": 1934,
+        "high_cents": 2579,
+        "comps_count": 58,
+        "in_range": true,
+        "error_percent": 14.0
+      },
+      "pipeline_middle_half": {
+        "low_cents": 1290,
+        "typical_cents": 1934,
+        "high_cents": 2579,
+        "comps_count": 58,
+        "in_range": true,
+        "error_percent": 14.0
+      },
+      "baseline": {
+        "low_cents": 2000,
+        "typical_cents": 3000,
+        "high_cents": 4050,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 33.3
+      }
+    },
+    {
+      "id": "nike-air-max-90",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 3812,
+      "search_query": "white Nike Air Max shoes",
+      "queries_searched": [
+        "white Nike Air Max shoes"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "low",
+      "pipeline_recommendation": "check",
+      "pipeline": {
+        "low_cents": 7502,
+        "typical_cents": 10004,
+        "high_cents": 25014,
+        "comps_count": 21,
+        "in_range": false,
+        "error_percent": 162.4
+      },
+      "pipeline_middle_half": {
+        "low_cents": 7502,
+        "typical_cents": 10004,
+        "high_cents": 25014,
+        "comps_count": 21,
+        "in_range": false,
+        "error_percent": 162.4
+      },
+      "baseline": {
+        "low_cents": 10688,
+        "typical_cents": 15046,
+        "high_cents": 25668,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 294.7
+      }
+    },
+    {
+      "id": "asics-gel-kayano",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 3160,
+      "search_query": "Asics GEL running shoes black pink green",
+      "queries_searched": [
+        "Asics GEL running shoes black pink green"
+      ],
+      "model_confidence": "medium",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1612,
+        "typical_cents": 2039,
+        "high_cents": 2515,
+        "comps_count": 56,
+        "in_range": false,
+        "error_percent": 35.5
+      },
+      "pipeline_middle_half": {
+        "low_cents": 1612,
+        "typical_cents": 2039,
+        "high_cents": 2515,
+        "comps_count": 56,
+        "in_range": false,
+        "error_percent": 35.5
+      },
+      "baseline": {
+        "low_cents": 2500,
+        "typical_cents": 3261,
+        "high_cents": 3984,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 3.2
+      }
+    },
+    {
+      "id": "crocs-clogs",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 1450,
+      "search_query": "black Crocs clog sandals",
+      "queries_searched": [
+        "black Crocs clog sandals"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 806,
+        "typical_cents": 1287,
+        "high_cents": 1901,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 11.2
+      },
+      "pipeline_middle_half": {
+        "low_cents": 806,
+        "typical_cents": 1287,
+        "high_cents": 1901,
+        "comps_count": 59,
+        "in_range": true,
+        "error_percent": 11.2
+      },
+      "baseline": {
+        "low_cents": 1274,
+        "typical_cents": 1997,
+        "high_cents": 2924,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 37.7
+      }
+    },
+    {
+      "id": "patagonia-nano-puff",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 7500,
+      "search_query": "Patagonia men's orange quilted jacket",
+      "queries_searched": [
+        "Patagonia men's orange quilted jacket"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 5482,
+        "typical_cents": 6895,
+        "high_cents": 8707,
+        "comps_count": 57,
+        "in_range": true,
+        "error_percent": 8.1
+      },
+      "pipeline_middle_half": {
+        "low_cents": 5482,
+        "typical_cents": 6895,
+        "high_cents": 8707,
+        "comps_count": 57,
+        "in_range": true,
+        "error_percent": 8.1
+      },
+      "baseline": {
+        "low_cents": 8093,
+        "typical_cents": 10345,
+        "high_cents": 13499,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 37.9
+      }
+    },
+    {
+      "id": "under-armour-tee",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 1087,
+      "search_query": "Under Armour men's navy t-shirt",
+      "queries_searched": [
+        "Under Armour men's navy t-shirt"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 476,
+        "typical_cents": 645,
+        "high_cents": 943,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 40.7
+      },
+      "pipeline_middle_half": {
+        "low_cents": 476,
+        "typical_cents": 645,
+        "high_cents": 943,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 40.7
+      },
+      "baseline": {
+        "low_cents": 738,
+        "typical_cents": 1000,
+        "high_cents": 1462,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 8.0
+      }
+    },
+    {
+      "id": "hunter-rain-boots",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 5500,
+      "search_query": "Hunter women's brown rubber boots",
+      "queries_searched": [
+        "Hunter women's brown rubber boots"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 2919,
+        "typical_cents": 3869,
+        "high_cents": 5159,
+        "comps_count": 59,
+        "in_range": false,
+        "error_percent": 29.7
+      },
+      "pipeline_middle_half": {
+        "low_cents": 2919,
+        "typical_cents": 3869,
+        "high_cents": 5159,
+        "comps_count": 59,
+        "in_range": false,
+        "error_percent": 29.7
+      },
+      "baseline": {
+        "low_cents": 4499,
+        "typical_cents": 5999,
+        "high_cents": 7999,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 9.1
+      }
+    },
+    {
+      "id": "ugg-classic-short",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 3123,
+      "search_query": "UGG Australia tall sheepskin boots",
+      "queries_searched": [
+        "UGG Australia tall sheepskin boots"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 2894,
+        "typical_cents": 4160,
+        "high_cents": 7135,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 33.2
+      },
+      "pipeline_middle_half": {
+        "low_cents": 2894,
+        "typical_cents": 4160,
+        "high_cents": 7135,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 33.2
+      },
+      "baseline": {
+        "low_cents": 4486,
+        "typical_cents": 6450,
+        "high_cents": 11062,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 106.5
+      }
+    },
+    {
+      "id": "ll-bean-boots",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 3200,
+      "search_query": "Danner leather boots tan",
+      "queries_searched": [
+        "Danner leather boots tan"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "yes",
+      "pipeline": {
+        "low_cents": 3757,
+        "typical_cents": 5345,
+        "high_cents": 9509,
+        "comps_count": 58,
+        "in_range": false,
+        "error_percent": 67.0
+      },
+      "pipeline_middle_half": {
+        "low_cents": 3757,
+        "typical_cents": 5345,
+        "high_cents": 9509,
+        "comps_count": 58,
+        "in_range": false,
+        "error_percent": 67.0
+      },
+      "baseline": {
+        "low_cents": 5875,
+        "typical_cents": 7788,
+        "high_cents": 14239,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 143.4
+      }
+    },
+    {
+      "id": "sperry-boat-shoes",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 1300,
+      "search_query": "L.L.Bean brown canvas boat shoes",
+      "queries_searched": [
+        "L.L.Bean brown canvas boat shoes",
+        "L.L.Bean brown canvas boat",
+        "L.L.Bean brown canvas"
+      ],
+      "model_confidence": "medium",
+      "needed_confirmation": false,
+      "pipeline_confidence": "low",
+      "pipeline_recommendation": "check",
+      "pipeline": {
+        "low_cents": 1372,
+        "typical_cents": 3126,
+        "high_cents": 6139,
+        "comps_count": 26,
+        "in_range": false,
+        "error_percent": 140.5
+      },
+      "pipeline_middle_half": {
+        "low_cents": 1372,
+        "typical_cents": 3126,
+        "high_cents": 6139,
+        "comps_count": 26,
+        "in_range": false,
+        "error_percent": 140.5
+      },
+      "baseline": {
+        "low_cents": 2799,
+        "typical_cents": 3499,
+        "high_cents": 4440,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 169.2
+      }
+    },
+    {
+      "id": "levis-trucker-jacket",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 2589,
+      "search_query": "Levi's men's light blue denim jacket",
+      "queries_searched": [
+        "Levi's men's light blue denim jacket"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 2136,
+        "typical_cents": 2580,
+        "high_cents": 3224,
+        "comps_count": 58,
+        "in_range": true,
+        "error_percent": 0.3
+      },
+      "pipeline_middle_half": {
+        "low_cents": 2136,
+        "typical_cents": 2580,
+        "high_cents": 3224,
+        "comps_count": 58,
+        "in_range": true,
+        "error_percent": 0.3
+      },
+      "baseline": {
+        "low_cents": 3150,
+        "typical_cents": 4000,
+        "high_cents": 4999,
+        "comps_count": 60,
+        "in_range": false,
+        "error_percent": 54.5
+      }
+    },
+    {
+      "id": "red-sox-cap",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 1549,
+      "search_query": "New York Yankees navy red baseball cap",
+      "queries_searched": [
+        "New York Yankees navy red baseball cap"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "medium",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 774,
+        "typical_cents": 1548,
+        "high_cents": 1870,
+        "comps_count": 13,
+        "in_range": true,
+        "error_percent": 0.1
+      },
+      "pipeline_middle_half": {
+        "low_cents": 774,
+        "typical_cents": 1548,
+        "high_cents": 1870,
+        "comps_count": 13,
+        "in_range": true,
+        "error_percent": 0.1
+      },
+      "baseline": {
+        "low_cents": 1495,
+        "typical_cents": 2000,
+        "high_cents": 2599,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 29.1
+      }
+    },
+    {
+      "id": "clarks-desert-trek",
+      "evaluation_set": "apparel",
+      "category": "apparel",
+      "reference_cents": 2848,
+      "search_query": "Clarks beige leather boat shoes women",
+      "queries_searched": [
+        "Clarks beige leather boat shoes women"
+      ],
+      "model_confidence": "high",
+      "needed_confirmation": false,
+      "pipeline_confidence": "high",
+      "pipeline_recommendation": "no",
+      "pipeline": {
+        "low_cents": 1297,
+        "typical_cents": 1612,
+        "high_cents": 1934,
+        "comps_count": 59,
+        "in_range": false,
+        "error_percent": 43.4
+      },
+      "pipeline_middle_half": {
+        "low_cents": 1297,
+        "typical_cents": 1612,
+        "high_cents": 1934,
+        "comps_count": 59,
+        "in_range": false,
+        "error_percent": 43.4
+      },
+      "baseline": {
+        "low_cents": 1986,
+        "typical_cents": 2499,
+        "high_cents": 2999,
+        "comps_count": 60,
+        "in_range": true,
+        "error_percent": 12.3
       }
     }
   ]

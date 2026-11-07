@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Puma Suede sneakers black white",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 1300,
+ "organic_results": [
+  {
+   "title": "PUMA Black Suede Sneakers with White Formstrip & Gum Sole – women's Size 8",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900071932585?_skw=Puma+Suede+sneakers+black+white&epid=6077952164&itmmeta=01M6T89XCEB0YEPD01KAKZ7CEJ&hash=itemd19077c2a9%3Ag%3APcYAAeSwJG5q7o8-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BcuFMsm%2F2cmLMwr6%2FvF2J%2B5QHPpXcvhI7C6CiZ7fu6ktTOcy8y7o0VB3zkpukZZaUjGe6s1TuInyIOWRaGp3Q%2Bw0NV0gyCtjwZwtkM22Fify69UjCMNIdCwjBwVuFJxC%2FFeajRL5EfKtKhViUVAM%2Bp%2FVwdoh4wg3r8Os1xJ6p2VNh65Y64soV8JLzfGOJy6K--xqKKQRVbWsI%2Bo4b%2BSCOBwiZKV7ht%2FvKbfpKxwIfXHvk0f8s3AjqeKtay1Z5hfrcY255JXGAav0xoEO5weS6e%7Ctkp%3ABk9SR-DWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900071932585"
+  },
+  {
+   "title": "PUMA Suede Classic Black White 374915-01 Low Top Men's Sneaker Size 8.5",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960105903034?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCEHJR7G9ZZHBSMZ9HX&hash=itemdf8ac573ba%3Ag%3AOdAAAeSwbNtq25q3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FHgMQVsTZv2FCpun54u0HRGJB54nS5c%2BOk%2BIcNFNw8fY16yvQdmu7p%2FVbcp0I4cPNHF9opyC9nWp9kWPM%2B3UUgGOrg04dsyiQC593Uosm1rJJv%2BHuiY8Y5fROGgorzQ%2BeJuJBXmLGkNPYl18H5NCvG%2FgeOyJa5MpiR7nkhstF%2BHsNeCr5pTb9yFBjni0Ye2eqa0d16pxnp4ZRjHMYZEPe69wkdSQEwEGjb7FvGRwRNqONjwdvENYrR6OWHTSDwyc6nIokG0MPIYDlFV5mIlQTzdBpXuuKybjeZMwvT9ramBdqLwWEmgSxrbMTUvCwIgpE%3D%7Ctkp%3ABFBM4NanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960105903034"
+  },
+  {
+   "title": "PUMA Suede Men’s Low Top Suede Sneakers Black/White Lace Up Size 9.5",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178556131809?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCEP24C57C17C7CK0S0&hash=item2992c659e1%3Ag%3AVnoAAeSwt-dqwyvT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FmvX9L%2FWFxHhmphTFBFEmq76vMXJ3EWZ1P4I%2Fb9TFn8Q8Kxk4VFsgjP%2FrCUgHB9efhZ8kx65Lb07796ifaCY1wI7mdr5emq%2FXNC9Wyk82kR5b9qr%2BUKt5IOWTeOdWRgfRAkR1a6WitE7m9oq1oZiUEzrbSwSRRqTzxdaqSypaUMChPyhWwW4Q33JZU5ElnNQ8ksLQhUc7dE3MTT4ZNz8qdSVhKJguWphtSuYLxU8z2oAEZxJjH1TK%2BGE6jD60l8iXjCZYeHu7JMEiLUKOJMX%2Fu7TBsw%2BjOLpCXSkAUSDBSi%2BqsC8fMTStRt9zwSHZG4IY%3D%7Ctkp%3ABFBM4NanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178556131809"
+  },
+  {
+   "title": "PUMA Suede Triplex Mens Sneakers Black/Gray/White Suede Lace Up US 9.5",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820099458199?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCFSD2VF40HEHT09F18&hash=itembef1bca497%3Ag%3A8IQAAeSwQn9qnw7r&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8m9%2BxAzsTw7qff2vyVC2b2LGTiJEh0dgk9gnvmgF3xKM%2BGHbcuT1eetXqUlpjO%2Fi0mm4CC2fnbEcxabRGxVFVlqmaoeRbCfQMt10MTEG0Gz8lYOiND2%2BNC3nVjcqS5OKIyvLw5SSuExdL9YdlCSaxzs8rKvzQzyUlU2nrMx7yMQvgPP%2BgfjOLLf8xAwyLg19sG05X0kXGZOkazpcnkfddDX%2BqwZ9IBWP1J0N6vXk3ECiO2UG4o1aOQxJYUNkJr32YxdoiJswdQEtVDbIwZSYu7hQMBlT3fUoFD8amaGDrShM4H2YefFPpZUppVagqCxAg%3D%7Ctkp%3ABFBM4NanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820099458199"
+  },
+  {
+   "title": "​PUMA Suede XL Kids Sneakers Black White Yellow Size US 7C EU 23",
+   "price": {
+    "raw": "$9.38",
+    "extracted": 9.38
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880072015463?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCF281JK1TMVGPNW1H4&hash=itemcce8613e67%3Ag%3Au3sAAeSwVJFq51qG&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8eW8rNVgtSRNWpJnS5naNFKiASnk5j6HOu19Ukv%2FSbzQ8LKm2hOBu8N92XCrZCu6LcFg%2BGhkFlxyJglcfLBHyt5kVCVShwaKf2qS7eYyF%2F59%2FViVMPwpyRZ6JHoqiXrq68B1uOtMFLAVgPpZ8iJCVRaia2V9ghJo4nSxTzaoEabzQyGh90CBIsBRJhKT6pMvfOJM36DvrChVwW2FWRs9f83EvpuC%2F8J7S3Zk%2B8cO4XhtehmkoTzeTBPa%2Fc1CV9%2FQfypnCYbMcSU%2Fq9h846k19b%7Ctkp%3ABk9SR-DWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880072015463"
+  },
+  {
+   "title": "PUMA Suede Men's Suede XXI Low Top Lace-Up Athletic Sneakers Black White Size 8",
+   "price": {
+    "raw": "$24.98",
+    "extracted": 24.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128166025193?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCFJHTPQK1XY7RECC38&hash=item1dd74a57e9%3Ag%3Ae0gAAeSw%7ELpqV%7EMV&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BLGYY5cMhcUAqhySMDCm68bS116xoBfdW1KPsjn%2FSO0EWuki%2BMZfZdzgxVaRwlziCgHmMM%2BeaX19zCmBERwSEXpTsIyhEMdWxr62Jp0Bad39ddm6EbGim0jP1GFOUf2Iu9%2FHAZMk3Dyc7cl3v%2BYGLeH0XIZOT65DW7G5Q3lAwRAuqpOUUryP8yWzoPNKlFEi3cP%2Fs0CKmEMdNhMmtDNRBqtokbJz4LjrtBYjg14JtV8VXhVVEeuLGvFtWNmPGAZJ1zBA4bOUYGRU2kH5PSkHlV%7Ctkp%3ABk9SR-DWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128166025193"
+  },
+  {
+   "title": "Puma Suede Classic+ Mens Size 9 Black White Sneakers 352634-03 With Box",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900023078535?_skw=Puma+Suede+sneakers+black+white&epid=18044660462&itmmeta=01M6T89XCG7F3X4TVWBTF87C8K&hash=itemd18d8e4e87%3Ag%3ASHkAAeSwSflq1SaB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F6cE1wOM%2FmcUJqli0rXMr%2BAPpWQRCLge9uY4ekpSylg3847JHCvvFrbC%2BEoWd14agXkTtvVJheuaZvFNzV%2Fb7hjWBjkUoiuTScIDRSfEA2MyIRPVGh10owtrKa%2BhQzNQ041mgDsnb6vJM1ZRFAd442XX4CBx1DXguglVYVFiS%2FOdwOx%2FH4EN0DBCErA7ktgrEjPkzduQniIsMyyTtKASGsbts6ohi3IZHS6n6iGq9nWgpgUb7kJTka9zVtrsBvbt36Duog28l3whmRxraxgo0Q%7Ctkp%3ABk9SR-DWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900023078535"
+  },
+  {
+   "title": "PUMA Suede XL Men’s Suede Low Top Lace-Up Sneakers Black/White 395205-02",
+   "price": {
+    "raw": "$80.50",
+    "extracted": 80.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358683279603?_skw=Puma+Suede+sneakers+black+white&epid=11064555394&itmmeta=01M6T89XCGMK3YWAKA38EQAGSE&hash=item53833080f3%3Ag%3AfxQAAeSwlhpqMCQN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8O%2FNAhYDLPGmHgeec1gzKN6RTK5Z%2F%2BycJXbsYe3zgC%2BhpMlmmWEc9TNHhSZGlkzjrCyJwPz1Id3XaI5K1dd%2F1t9c9OkGNgDCUbmjYLLabFvB%2BZctcRAZV1nB5SGc6gztIhbeUsAvTCMJGZhLjfcYlGti6JrZlEiOzkVNkUL95VU%2FZ4gGAkK47gXaTUInKpsA72%2BvZgnXzWjJEKy9ThaeGwkMzdBRQzuxJ%2Fo2v2UJl5uhsxwfIbvhQk2orX28yyQKQu8vxUC4wl%2BNt5p3Y%2FrKMk%7Ctkp%3ABk9SR-DWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358683279603"
+  },
+  {
+   "title": "PUMA Men’s Suede Low Top Lace-Up Sneakers Black/White Rubber Sole 8.5",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377452041223?_skw=Puma+Suede+sneakers+black+white&epid=18044635432&itmmeta=01M6T89XCG73816ZD1KD77WB40&hash=item57e1e51407%3Ag%3Af5sAAeSwSUlqkK6a&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde912V2Z8z%2FYweJ7D2x6zLD%2BM71DlQYx4C8AIAi4ODONMQWwPKi9SBmBhQBRs5G7FbYaXNZ%2FpbidrCYN7MHtCXFpqO74clX%2FLBdjz1ZO4mPOxfw2%2F04hxB%2FWO%2FlpyzC7WkzDN5BHqEiM3y--sma9nTqqP1m15xD7DAUXAqMPprxHvITiusB5GfAvnhhfB3WfpuQ6Clbu2Z5IARFeZrOE87BuJRuYgXuDPY3w0l3oEPTgciCIp4%2FowNrQFqev48RkYmPMHJ1eN630Pc1bRWET%2F4phMcmI2gvPZsGZAlEq19DLiZ4GqGv5AAKUJnrnWceFoq8%3D%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377452041223"
+  },
+  {
+   "title": "PUMA Suede Men's Suede Low Top Lace-Up Sneakers Black Purple White",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960039929915?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCHCJSQWE7PZW2N4AEC&hash=itemdf86d6c83b%3Ag%3AKT4AAeSwh3NqkF3X&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8cGOFZgQkS65zPEI9eDb1EgO4HN%2BuSAn74j9DRtObTfoVAE1vc1OMPWIoe%2Bjss39oIWydA5i%2BWiXDgaZiI%2BKAul0spwYs3wdUTM%2FY5sG4wmvoI9N1py%2FQ0%2FoFxCSzeoeU8rF84%2BlOcaU7amV3vr8Ix3gFBjdkshl0dkclfhkBMxT0UTj8Q8q06OCqKks7da%2Bvul5XiI2pHySOel2xjm67gZwkAOyIQZq6eGXOOI36bBOHZU7MRjvPwienAS3oUXJD6QxnSWzUviE67zKoG1eLc%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960039929915"
+  },
+  {
+   "title": "PUMA Suede Classic Black/White Suede Low Top Lace Up Sneakers 352634-03",
+   "price": {
+    "raw": "$22.00",
+    "extracted": 22.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168747839735?_skw=Puma+Suede+sneakers+black+white&epid=11044649705&itmmeta=01M6T89XCHES4DDMCJPEXTK5YM&hash=item274a27b0f7%3Ag%3A4NEAAeSw8uNqvPuc&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8KMOMpPNGTptgciTMc75zpz9881M9BaTWqJR%2By3C4ORnj0RPHvc0U3ohbMbQQbi1b9kCYw7a1w5gq9xf3qmyTb8N5AjVQavBy1eNMw99nHWGNpKdpfis8fAhAwvqTr2KerAaKEJlaXL%2BfDB88GV%2F9C4NcuVa0qPz23%2FR%2BPmHrky5gSY63OcH%2Bn4LKmfjo%2F8ZX3c1%2BGKKBZ6mS65H37rJgE7gOCQ9sfAXPyVm0uQgrKJ9ox%2BI--NdbWZUXTqwbB1zEkrBem84%2BOOGpgjxskhvFz%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168747839735"
+  },
+  {
+   "title": "Puma Suede Classic Black White Gold Sneakers Men's Size 11.5",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267834300386?_skw=Puma+Suede+sneakers+black+white&epid=7078884333&itmmeta=01M6T89XCHBX1AS49Y52C68D9X&hash=item3e5c2b17e2%3Ag%3AXCcAAeSw%7EyNqxPLZ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BXBdkVtjRHe%2B0NZpMcl0ERNniy0DpLJ%2BEWsGFg1Ot49l0X1bRb0zH1uZT6A9dedPnFiW8LIx7ojU3JjEAr44oaL2cvqo5rOI13UNXXgQ8bs6NsGEcbI5vxONuEOSxJcqw5FgOn3WPZsSfxd2CrxM7SNkEem68sDpfUzz0cnMsOR0Qsp2BDJxQch2aQMIXLyl4T7JOxzNXsMqsSWiixOq2n422WtiBAWf1%2BFb43VpphyrOKzo%2FJ9MxZ8kWeRLcxDz7wxcqdghe3hV9NKEQkdNJg%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267834300386"
+  },
+  {
+   "title": "Puma Speedcat OG Black White Suede Sneakers Women 10 Men 8.5",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227584595715?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCJRVH59RGRNKHPR0MP&hash=item34fd195703%3Ag%3ADJsAAeSwgmNq36NW&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9LqbRKP1R57w8AX%2BfeeIh0LTzUHrkOIxHQuENz75028bp%2BisOmDBg84YMidnmQysNM7W%2FODg4nHOT9swFHsSJhw%2B87H30nXitvxkXg%2BtPbRlJ2oEB%2BwbLRDFswRSSEtj53mMSDwTV7mspv2O6eQ4DlGD8poik6vL--bHQgfm%2BuqgQuKmMTy%2FcneO7c%2FjbIY%2F2%2BLFAbuhP4WBfHFHbJ9lLV8WYzilmQbVXhmY8wabfXxyg7shzcGcrWz%2BP77a%2Fq5kV8upPVtEj1%2Fc707GOK5wXv%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227584595715"
+  },
+  {
+   "title": "PUMA Suede Classic Black/White Low Top Lace-Up Men’s Sneakers US 10.5",
+   "price": {
+    "raw": "$36.00",
+    "extracted": 36.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128074548700?_skw=Puma+Suede+sneakers+black+white&epid=10045642308&itmmeta=01M6T89XCJ1ADGD6J3V4KRQAYN&hash=item1dd1d685dc%3Ag%3ALPYAAeSwr9JqpGjA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8eSx3HpQ3RYVAlJWVPmsWgrTslyKpSjhWstAQVegi8Zx5Z6VYUpRwTKkICkTbx1xw5mQej02bzF6WyoX5Va0tz4ixuNP7%2BKIaapHi%2BTyK%2BFJqVb%2B8kxOnWNs9VXiON%2FTB9zqvP4S5sv%2Fl2CdMimDBK7MdWKA8%2FpWJsG43O4BBbQ8icWQTtx1k5aJpDys47Y69mOfdKZkaU7IxSXWyWcBMSXY3XHKMt8DIyHkboHVxTC%2Bk2QpJ4MPzgEj4tmXKN%2Bdoms9r40qliqKV0ADS3WbLSI4uTR2sr29WcIV4HJvoGQJSqJanVBshAGXHp0xAV5Xs%3D%7Ctkp%3ABFBM4tanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128074548700"
+  },
+  {
+   "title": "PUMA Suede Size 6 Boys Low Top Lace-Up Suede Sneakers Black/White Casual",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800396162384?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCJW0VNC6CDPSBWTFHV&hash=itemba5b543550%3Ag%3AagMAAeSwrhNqYnZ8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F9qQRgCCYj7RHm64QuTtKYLA%2FwIbWqPw4WSu3SG0jF1afyLS6QJYofSqIXc6sn92UN0WXZx9GaJRwyTJqnw3PCHQbDvR1civk%2F4D9WtTYIvTZ0oknzFSWhI%2F9caYcXT%2Bgao1kVd%2FJJ7%2BbeXGCUJUqt5E0sL6d8rRBdjEfLneHDo1ub6aU3H3sD0oHKSqIwxcYHlNp7Eg0prDnhkYnuqJzmZ0EASix%2BL7lHXkMDIpDEJLZcJdBvWWJedLDsDhZ8nGEEDNO7GKh9QFKA1iOf0NAjPQEx8yNCJOr4Pk6VEjTtYmhH2G3ET8%2FcnEqUoyvJLCg%3D%7Ctkp%3ABFBM4tanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800396162384"
+  },
+  {
+   "title": "PUMA Suede Black/White Suede Low Top Lace-Up Sneakers Unisex Adults",
+   "price": {
+    "raw": "$8.00",
+    "extracted": 8.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318903454441?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCJ4F90ZQ3D3CKVTRXA&hash=item4a40208ae9%3Ag%3A09gAAeSw6BtqsmOJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BRHJGhwvjuJ%2BpYQVy2%2FgW61VKdkYV1ysQb8BxSp%2B%2BkvyHv%2F7Bo8EgP%2FZm%2By1g0%2BpmEV4Dfgi2RPl2nn4Tlbu%2FxOjriAXocPk2a2tJRV4AlG5ecXHsrVCjYAWmg4KD%2BSeDWe8OaSHBRuLQrLEe53UlVbb1C7TgWcS3twtwwtMuq422iBay3S%2BdhFhHKhZrLofUhuHuptz7j6%2B5cMEx7B%2FoPm8vbWX3sPo6nzMuj0cfsQtxSZQT%2Brph0y9DLZWcUrlXe%2Fg6odbFiIBv%2FR76yw%2Fln9Vyq93hi57eSi9FClui6xzy%2BegTDksV2nJc1u4JksXE%3D%7Ctkp%3ABFBM4tanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318903454441"
+  },
+  {
+   "title": "Puma Suede Classic Black White Women's Size 7 Sneakers",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398349267499?_skw=Puma+Suede+sneakers+black+white&epid=5045645757&itmmeta=01M6T89XCK6RND8CH2CPD47V6B&hash=item5cbf77722b%3Ag%3ARgUAAeSw3T1qsvod&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BZAYCnd05QcNFoy7E54fIMxAG%2Bvff9N%2BlHhoJvIKsKVhI8R52YOH48WK8mGm4uRmeqKXCUzqwT%2BdBsCZ%2FBMVGPP06oxVvuSZr5%2Fim4hhfTimKAYDPjuE%2F2tmg2miG3Xt8Dq%2BmUjuXlEs%2FbWYX2M%2BkvlJdqT5HrjrrY57OO1gQeBSEQ%2BRbZPtnvXZlU22wTaBniYNo739piemoLmGypoXDfiE5haM5LKoRiz5RUgH7%2BmHNXRHol56BaUtTdFvPZT9YN%2FN3pDt4%2FsgnwEa7Xp3jstUhWXgEj1aF3B3bhvt1uccy0B7pWeQ9I2xaN22NqqtQ%3D%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398349267499"
+  },
+  {
+   "title": "Puma Classic Suede Sneakers, Black & White, Retro Skater Streetwear, Men's 8.5",
+   "price": {
+    "raw": "$42.00",
+    "extracted": 42.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398401561445?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCKM3JV7K4AY57VNK4K&hash=item5cc2956365%3Ag%3AEWQAAeSwnJNqquYZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8tqqydz7Hj8UFGGlhbLqfwDKOTEFe0qSaFN5gu2w3w%2FEDEDD8UeT%2BgWdUQN87L1poGJvYFkUUJN3nEaz9gxJQGSQJzMpD7OhThvWkA9wFp2sMjjQW4UQeVbxaav7qyTOQiZKU%2F9tLHmLPNNGt%2BxrBvzFSrLckZxf0XDh8AnQEXn1cZKx5ApjBn4FLOAmekcd0XvZm11s9qXBEV341yfTBB7k%2F4esrIQbWgrX4v6grslW%2ByjMOmoupm1LfjBz1d5a7rlUy5nbMfbKtnFGT2Wiz%2FvmM3QEeWHaqfttBr6xtpTHrGoAFc0xf29I0DpxfInjU%3D%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398401561445"
+  },
+  {
+   "title": "Puma Suede Shoes Mens Size 13 Black White Casual Sneakers Low Top 374915-01",
+   "price": {
+    "raw": "$35.99",
+    "extracted": 35.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820221195100?_skw=Puma+Suede+sneakers+black+white&epid=4045632289&itmmeta=01M6T89XCKG9HTQRASDR2825DY&hash=itembef8fe335c%3Ag%3ARzAAAeSwiy9qx7Zm&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde82F1dFmIc9VXNBqKgeR6nGrYudksdbRbu2J6NnCAFYPu%2BIcw6q96zzqcgMYcVt33dR6yWKXQpUwVUBuPQLK%2BMOj3RAbUsCDrT8SHRPlaPmtFH63nWLVjHj2PF7JBlc8%2FrXdxKF1lyo7K%2BrNnL6EHWPFMgPm3EJ0QdLOjd9ySEBMIc8dSHP1V0zBkNhKpFECB3KIsiZ%2FaQFYace%2BlZa1ca%2FoyPaVDsRgn8QKd1JnUj8delotbji0kiFp9bS8wHZPbaVRtgnICmjGUt9KP9uNeR2%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820221195100"
+  },
+  {
+   "title": "PUMA Suede Classic XXI Black White Sneakers Mens Size 11 374915-01 Low Top Shoes",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257829301682?_skw=Puma+Suede+sneakers+black+white&epid=21045640036&itmmeta=01M6T89XCM04HBCP20T9A673BT&hash=item3c07d2edb2%3Ag%3AM6QAAeSwwalq5-c8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde93fCwO5724HCFFVb%2B32dHPdPkbWPpxsyu2CcCGNNGfLKt5xQlfRXsW79ag%2FBdNAautVS0rhVyOzwHbzAY8yqkZrmkzTPMVEmI0bpcoctnRRuvWAxLAVl9qCkQaXxao%2F9Ed7cOfxOXqMu0phm1kRKnf5IJ6zNwbfwsVbfi6r864kGb3zJbplJ1UDxbeAnrXKoJ1XinU7uj6vbBmFYK12WGauz8x0xvm8LnG9bLq80Y7qOHyltOVScIx6Iv6I1HwjfT%2Fbnx840TrQ5CLTx62iNEa%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257829301682"
+  },
+  {
+   "title": "Puma Suede XL Mens Size 11.5 Black White Athletic Walking Lace Up Shoes Sneakers",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307221794681?_skw=Puma+Suede+sneakers+black+white&epid=14064558853&itmmeta=01M6T89XCMWFWHSH6CMFJK98RG&hash=item4787d88f79%3Ag%3AnTwAAeSwvTxqx2jw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9MQdsArbycvAnHvs44pEw6X1qLjWoEbOOmT4rqZtHev91SIF8MW6SJWRBLPnHYD6RPWIdJvYsGkwDVsmpwUXHFIzi7e39i90rnbz1atCK%2BvIJVo5VKz7zTkIACY8QYyneaRb73P%2BItmGCMmgNUXPuCkZiaz7epOBwXrfUBn9sEejGEbZsOgoZ8LuC%2FZh2zWnoCjBPSp0s8s4x7LfA84L%2B6VCccRS6x9ptnJFMfl8wTmC%2BYhQXg9UYZrPGR%2FXfW2occEuSNRyhvvNoNyR%2BMb8Mg%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307221794681"
+  },
+  {
+   "title": "Puma Suede Sneakers Men's 9 Black White Formstrip Lace-Up Classic Running Shoes",
+   "price": {
+    "raw": "$21.00",
+    "extracted": 21.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137832683863?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCMAGRVYN9MGNCH5YQ8&hash=item201777d957%3Ag%3AuT4AAeSwu0NqKYyX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FB1p0yI0qnonhzoGMFjrnmMUf4pBuIi%2BXylGe6FBM9hu5e7vHMHIMb93MxqeElkNAphvyBCS82l%2BMVI0KeOe99k4I1KSdTxpS9qn5GxTIh5XF08ICwGyhebtchUK2rOcvJ6GdOmUZFdxbeuBePkpNzC28%2FOZ0UJV2GM0EvKlpf%2BCKvZhdOEyQD9cSbY7zBpRSUbaMl50%2FnQLTvZ1MG%2BrI18CQpdeHaABadPWHQ26Sp1TGLyZgb5%2Fz3WMgynPD9DYTk1roNb%2BXQaoDn4b%2Bc8CJKQzHaVII9NsAm62zbyJ3tZFVxPupMYaYNk1UwxLHPe6M%3D%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137832683863"
+  },
+  {
+   "title": "Puma Suede Classic Black & White Low Top Sneakers Size 9",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147516583296?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCNXDBD59MGZ21NXJQT&hash=item2258ac6d80%3Ag%3A7VYAAeSwN0tqhm5t&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BG0ycnjCpjzBXq54FtE2am%2Fwc%2BxHgDK9LBiDzALu6%2BjeY3TF6Mg9JDeJgTuaqpS0g8rnnpnf6hxvFMKxotn1BP87NLYT7ThHja5mqYM8zGR2u81xgHfJlNdYQvYfEFXMpU0SEV82XtXYdwzVCBUaFwIGusZf6NPnbBhWTvkGYD67jdRVnvUZIbNAK4DX6Dpjgq9N1gRBpg52ozLtmt%2BKzaO7%2FJkx1Sr0MXGhiOpRAVmwEr8M%2BanI%2BNSzHzfkiiTdRhZZld%2FcHKmln5MuI4avUB0g%2BgsPnbnKd1g2J8jNrYUzxTSMoOr%2Be8gVRZbG1%2F2sg%3D%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147516583296"
+  },
+  {
+   "title": "PUMA Suede Men’s Low Top Lace-Up Sneakers Black White Solid Rubber Sole",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168654407538?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCN7ZYJBCZNX4WQG1R3&hash=item2744960772%3Ag%3A3W8AAeSwEQFqlkN2&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fn%2FWS%2Fofcdx%2F5j7UwO5SOSu7UpVh4sDANnacygrC3FD%2FM63xKZ8DufCVWgbahSuRSEGem2rhLH2u1K8yVVQ5cSHKoz0ViVqL%2BCmwGc2t9R8SYbHUTMBaG7ztMvzttUubxe1MR1o0QIccjYYtnFbCD6xQ7ovPIaTtjkS716rJLInIb%2FzKcVmiMRCJhZyh8nc5fI0bXKg1wuMlxKW4cTfnsPl40uzFL8aqmexHUTnAjfS6cCjr%2B9fU%2FwC9NEKKkdg0P4kXZnMXyAnuu8YbQd3Tjm%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168654407538"
+  },
+  {
+   "title": "Puma Suede Classic Black White Sneakers Men's Size 11 US",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137733811780?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCN4B42826TGWKGSBSZ&hash=item2011932e44%3Ag%3AbNIAAeSweP9qpyhi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde84vEG0NLXsGqvRFtW2XuTiaCSxXxU9MNZFpjJquFSZN6a3iYZT6HcvAx2onD4zaMeXChw%2BfRnlLjk4iv76sHsijCnmXnUFJpawjbHxhBQNHIzd%2BBex9nQ0GLxPkOn8mQ%2FYjWtQHMdw4GjeAkaf%2BPaUiIQtyN%2FaUuwdIZMR%2FggsyGzo0QXVuJ3V7HqQkeJ0bGV2WJYOUJ2ckiOsh6kChlgbNbTXJrZFn%2BeqwlHrnvDdgGLuthQJFTSxA%2FtDfpI3lcemab6UFkoq%2BslqEeX00%2BtIoUX3raMLWlTZV2XPesuOexgAaBz2vLnZeFx1%2Fx8yl9I%3D%7Ctkp%3ABk9SR-LWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137733811780"
+  },
+  {
+   "title": "PUMA Suede Classic Canvas Lace-Up Sneakers Black/White Rubber Sole Sz 8.5",
+   "price": {
+    "raw": "$27.68",
+    "extracted": 27.68
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198750315712?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCNN99Y00W09KWE8XKE&hash=item2e467124c0%3Ag%3A1g8AAeSwoitq4Qir&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9o8SgiiT0bJm6dyORGbIxsGqVa788uimbrz7wS0zmc4j72AICnbrmL3l%2BRuTIlCrGtTngQTCDUuK%2Bb6zZNq2orVbKMdpqRi6pwIY%2BaDn63KRlqU4d3oZ06j%2B72kuvinEUNcK3%2FDRHOmV4zmBo2X6qd7xSHU%2Fqr3kajTz30XJOXvzwkzxd1jLYvPrFu94OWN6EXF9nAQHfMI%2BvzQqAzYYQmy57CKblzbA6E2Ft%2Fwq2DrIRpAGilCrwkoBsgdYSKCkdK4ecnX8xVZgoazoZ2ylnw%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198750315712"
+  },
+  {
+   "title": "PUMA Suede Black/White Suede Low Top Lace-Up SoftFoam Sneakers US 9.5",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820228988245?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCPVKPTSD8292GZ62E2&hash=itembef9751d55%3Ag%3At6cAAeSw%7E1hqzBci&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Flv3NMjNOJ4G%2FB8k9RhrbVTPvLNsHRWvvSiBxG91TyBPRX%2F9soP9XryJuMHCLj89Qv558LesNNR77epsWC4N2wAtGjED%2BIILyjK7mA8uRK0OCqP0vVpyGPZr9OVFS4IjZsxllFL%2B2rD2Ptysqv5LWjMG6N%2BgoD2iwfEgnuuvf6RjWGzBsQ47C2t82NJYpGw270DtaaMIU3hh%2FOWkYZxiK555AoR2eymnRInj1%2BcSeNb%2F4pUSK%2Fwc%2BRUU4CYmTywtQ4LLnSFq599ICUkM2QIXnM%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820228988245"
+  },
+  {
+   "title": "PUMA Suede Mid Top Suede Sneakers Black/Orange/White Men’s US 9",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117444635805?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCPAV8ZBN6DBVBPPYJS&hash=item1b583eec9d%3Ag%3AoK8AAeSw0zlqwMW8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9zbiodx3Mce5t2Dq2J5xv18iJGA%2FKMfRFylKUHIhxCNym9zC1pyK%2BFCLCBsSRuhybenXl8tntJJeHJscbsU03WRBHQal5PaWsj8NTAvnTTjyeN8P%2BBe8yITqzkisGjsutpGqXV5QUlIxemmpu8dG%2FTAk5Gz4LlDVv87d9l%2F%2BYPkXcyK1cw1dVaaefADjmQd1Wbr4A4G3%2F0DNne6TBQsPW%2B6pjdc1nFTORpKtHxL2qh%2BgCjkBUlAUYXJGNqUdKAFU6B2uL4HG6IgqNC%2BGgeXdeT%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117444635805"
+  },
+  {
+   "title": "Puma Suede Shoes Mens Size 10 Black Low Top Sneakers Athletic 352634-03",
+   "price": {
+    "raw": "$35.14",
+    "extracted": 35.14
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377595229736?_skw=Puma+Suede+sneakers+black+white&epid=11044649314&itmmeta=01M6T89XCPTSWZ41W7WF8G71W5&hash=item57ea6df628%3Ag%3Au1EAAeSwODFq3SIF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BkbNYEsQjYsrE1wirZOmCJN70tszIBomKJk%2BHwSRQ7kxKyw%2Frxt8Y73M%2BKTSLJDOX1scKjCQbnMFm0akxb4gQa9ZOJO4fTeo7gdHw9HcMXplyDshD%2FkheWUOgu2KwWrIRvGhqA5ry%2BUJiaSUl3Q60hNZErm7tdZj9g0azhudj5Sht4j2pcuPGRX0i7IawjL8dgbPJb8Kg7alWgkm6MMY%2F8jZeeHBv3lduI%2BuPtfpEmVe4KiYrvHVQc4l1JLvrDoPgVwpcS0LkIZALBjyZhXwhNm75P3cqRhKSfQEMH3QqvziQNxohG8HG%2FRECpTo38lkI%3D%7Ctkp%3ABFBM5NanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377595229736"
+  },
+  {
+   "title": "Puma Suede XL Black/White",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227192911724?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCQ4PSB70NRH4HFCZ60&hash=item34e5c0b76c%3Ag%3AjRwAAeSw39dpemqf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FsCbQZmAwDl6qlCKTshDxr650SOFmv%2BQ3B1JE66j%2B%2F2r8x%2BmwNI5odkCN9d%2FWa2V2mGEKt0yVHoCVgyZ6XKlF3DwS5l4dgGIorTHiuPDqAEXcAKmUj2X72MfXUK9gZAoRZrVWfgy31LZZBRa2DmcStuil3IdMh9BoZ1Ty%2FxVhkaGY8ZxKlcsvxDbPNEDDnzLht5pXg7Xjaum77nVCCyEoCRUi1Ndnn%2BE4dh6gue%2FjfKFNSvORedtpJ%2FnFuEY%2BD2UqaH8Ct%2BQm2Aen6rHWAtIYTWSvVEzyXhfAfOUKvgbJYGFnvq9%2FmbEF7FAMliLLQa7Q%3D%7Ctkp%3ABFBM5NanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227192911724"
+  },
+  {
+   "title": "Puma Speedcat OG Suede Driving Shoes Womens 7.5 Black White Sneakers 400986-01",
+   "price": {
+    "raw": "$35.99",
+    "extracted": 35.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227567946607?_skw=Puma+Suede+sneakers+black+white&epid=19068905345&itmmeta=01M6T89XCQ4T09WRHZ014T50KM&hash=item34fc1b4b6f%3Ag%3ApwQAAeSwORxq0D%7Et&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B8zNj4h%2B30q1qLpMpPj%2BR1SjriUf6IExMk41IPOLNjVstlp0Gamf9GbTSdDA1C%2BclFHu1tC4qErwPKBZ7UskTyyyvb--owWfOtUXejr%2BgOd4UsKY22H%2B7qvEvx%2BaxI0aYabrd1%2FAdiv4q6OqVjd%2Blet3p1ozvQu35Cq3%2Bl95e6Z3ZN%2FS0Oq8KF4%2FdtmdE%2BIV7VKqZJNrxFkdAb%2B8sS3oHmOfIU8ycQGst0AWNSdwrjK%2B6ekitIVO7ahQykmjzFa%2FcNMd0m8BoiUsQUS8Uj1xAqhZwR3JiHXnfs%2FugzOLk4Y%2B7cTB5aiBtG8ZTYO1ETYW4%3D%7Ctkp%3ABFBM5NanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227567946607"
+  },
+  {
+   "title": "Puma Clyde Hairy Mens Size 6.5 Black White Athletic Suede Lace Up Shoes Sneakers",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/306930300326?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCQEPDJKW9BTP23ZYGD&hash=item477678b5a6%3Ag%3AASYAAeSwe4Vpivlm&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde94%2FP%2BHcV6DkRNd8GIMucssFIErdFngUQPzaw8Vzzx6GNj7vqPjyDj%2FLqoar6jjmxNELIzAw4JolwaO9UhVKLc1kUbOcj7aZPFNi1GYDfa47PCzU7O0Hq5EXlthOxjv4OgfJG070SZ9txog%2FKFqpzkrSuV1fXgaxiMoVQGvykoLcbgDBVgt6OTugn7O49y2jwoAtPm6yznFQ0Gm1DOx8X%2BGZ3bPooR%2B5glmSOcZmKxNGCxAIVOE2wKBFd3fYr0mFWbLVSxzUT3s01GEwY2SHlQSa1YLoA5kI0HZRTTJmtsmGlRmdFR69V6vs9vekFBsXjg%3D%7Ctkp%3ABFBM5NanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "306930300326"
+  },
+  {
+   "title": "PUMA Suede Smash Men’s 9.5 Black And White, SOFTFOAM+",
+   "price": {
+    "raw": "$17.99",
+    "extracted": 17.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178463327080?_skw=Puma+Suede+sneakers+black+white&epid=12044627158&itmmeta=01M6T89XCRTP9F0XSMB5C2VHXK&hash=item298d3e4368%3Ag%3ALOsAAeSw7F9qi1sc&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8hRlp6SYM5Y%2F6Q9XMxsK0JcxqGzrdXkd8ngql%2FahGUTpDiKgPHU3mRDX0%2BAqAA86ifmrWMINiEkXbDnVrX2J6z9AEPGIlrDFs69gC5Squy7PHaYh12U1J4um1GLhIGE887qNAo6LoUhqV3Ryg1QqKCs7jBtiZe3PbqArDFxNnXGYLkkVaQtUsn%2Bi2Y3xuWOfgeIuI2uMQiPUM0VCzRoUY9BOtXOz6jVrDvB%2BEsMm59hkzuns%2BBx8vDi2X%2FRHJUIDmQEGP23S%2B60tk27QHv3jalR3zX0QsMIVUldOLokg1K1OGGLkZAPR2b%2FSP%2BaIZPfuc%3D%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178463327080"
+  },
+  {
+   "title": "PUMA Men’s Low Top Athletic Sneaker Suede Lace Up Solid Black/White",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366643558508?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCR7RF332D747PM9MW7&hash=item555da8b86c%3Ag%3AiMoAAeSwMk1ql7Y1&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde--KBWfFzjMVA6SLZO%2BUUX4tGriEz1W6xmaG%2B51lWEc09fRlZU%2B5YSOYh64Vnqz3FNkJWUIDjGhk8WLwXC9WCryrXuFP53EgR23ZmkBmk4ZAHbs7gFWuJfDh5QAyjcRuopOmiU7dkkju9gS28qHtFri6fkIcHfGLQ2%2Fy2lNDQ7XbHSQGGUBhUAC3Gyr83i3rfugM8FczR6vRSeJRTG72imgtghOI9IiS4iOZfBv4nSzBuqQn46kF8KwYqH9jUv8E%2FRC3QEPBmm7mFCHCPdyqZKJ%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366643558508"
+  },
+  {
+   "title": "PUMA Suede Classic Black & White Size 9 Great Condition!",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/365878062695?_skw=Puma+Suede+sneakers+black+white&epid=15071101882&itmmeta=01M6T89XCR5AN1FYDRSYN1DH5A&hash=item5530082e67%3Ag%3AK%7EQAAeSwUeFo0Z9k&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde94eI%2BvFc3wgIvCZWe4rTwtFFacdQEXUjJejZUk%2FA04iUc0wJ4Og64WtjKkds12Kpbw7uh7azb%2BQbd%2F8%2BCNTUejLm%2BkI%2BJxK%2FVjnfQndY8Xv1nhcwubztljvlszfpAFMjk18Q%2FQ9%2FtC%2F%2BYLplZrhkTvu8nQSwajNBXLMQin4dl0arMffUgOjZy%2BF2fq9WWneferadlg%2Fo%2Fj5gowNTzAQKqm2zK0e6WhAcG5FFb%2FZO2%2F9lHt%2FUYwI4IftsuQESjGVMqOH8fT4VFq9qxLkApVprCQ%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "365878062695"
+  },
+  {
+   "title": "PUMA Men's Casual Sneakers Black White Leather Suede US 9 UK 8 EU 42 366993-01",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358235959239?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCRP40YY1P6RQQKPMSH&hash=item536886efc7%3Ag%3AJEgAAeSw%7E8dpl5FX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BAjp5QBBWmFSp%2F5UxMNYzdp2akSgYnd%2FO7c%2FZP0CBzIkDi8%2FvGnQj0FHpIOuUMU4t0LxrAEcRRjuvV6WVCGEf1gx6zZrweCH8UmXVirJpLocwwJdvYQjPCyKoBkJZpv4l6Puv%2FTpBsIdYrcBEkHnlPqQKKARX5rey5AE4nNblymq0uDDfPKw9lIh1%2BpmHMlAHwdpkwR8bsOdr3c58ZD2%2FyD%2FVe7IUIVlIZKgEpZ60wSI82MSbsnqGY%2B15odXZOHzC9L1Z7qkkXZlJ8V0haiK11%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358235959239"
+  },
+  {
+   "title": "Puma Mens Club 5V5 395104-02 Black White Suede Lace-Up Sneakers Shoes Size 9",
+   "price": {
+    "raw": "$21.99",
+    "extracted": 21.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800879436706?_skw=Puma+Suede+sneakers+black+white&epid=3072246513&itmmeta=01M6T89XCSH5HBV11F7H9D05GY&hash=itemba782263a2%3Ag%3AxV8AAeSwl0Nq2YY%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FkSJlAMretb0yPMTlZgUv%2Bk2fM2CeiPMJXwcTQTSjAiumTGgdNJ9ysPUmQUvq6U7y1ZSqpZnDWkU%2Fn3I3qSqV6c6y%2F9c6unMQuw9GhtLLc6NXZwfh0ODA04jlk2OEhdcJQHMu%2FWdF%2FAlqCX3gKAcYcoRnwor1BjdBkLjZOprtmz3MJ0Q7GGs2A1hxGd5iOdtp3BKbtPOYUBKB5kvU4RPhoIoLGdqey4edjIJBQrl3POMl9AnT%2F4RQ2aGNwEc4l33J0uu1zmBCgO7zMl3eLV7Gx%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800879436706"
+  },
+  {
+   "title": "Puma Suede tennis shoes 50 yr anniversary Black White Men's 10.5",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/376703021601?_skw=Puma+Suede+sneakers+black+white&epid=27054546667&itmmeta=01M6T89XCS7B5QDFDX9G8TQ89K&hash=item57b53ff221%3Ag%3Aa24AAeSwtNppGURP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F9E8Ut%2F4YlVf1T%2B44LSopLJeTvf09GPsGlfBKxHuVOmy%2F9jOwfzL7qPbqe9er97WtCGtAPtofRzXOlNCTwbqjflM6wQAG%2Bgg4RbMkQTipy%2FpQMCOM2DiWS56Pyy%2BsGpb6Xck9oubUDvuNADVJodG3GKAAOOjVRsqh7X51LdcXYZLbcQDER6x%2FxcjpbcRCv1QbykKeO3W2zyXEW0jkjbej00CZZhr9CZrKq88Vsg%2BAvU%2BkG8U9C6NnTQuM9mV7c7jrZGGu7tPTn4iZoc0LNgbv1%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "376703021601"
+  },
+  {
+   "title": "PUMA Super Liga OG Retro Black White Gum Mens Size 13 Suede Used Sneakers",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940028959448?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCSHYKXHEV229YP7G6S&hash=itemdade179ad8%3Ag%3AlnUAAeSwlrBq192y&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F9duVL3jQkoS5nrjcb8ACpGa%2BUNCJenXQLg0HCXFCUMeSiA7RrsOiKHdXXa697isaMRNF97PiIH6vvNeOC09hRT%2Fv%2FwpgGfW7zXmAXHpFjZRdeVDihdSzJFzVmeWmmoewoXhAyw2nOOTJXMHDlh9qhcyfiXRrfcrAZIBc0ed78UU9i4pJkz5eNSMJyKsihP6p9CDrVsg7gtgD5FI3DQojm0VW2rMf4ET3xdtIDe238XE1L1E41%2BGgWFeEC8JPS1AIJ4%2FlKknX%2Bk3NTBZ8aRMhglyHqXOgtUuZLkWYAKIRAFX92a7qsMkA0NXOLyUqRyS8%3D%7Ctkp%3ABFBM5NanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940028959448"
+  },
+  {
+   "title": "Puma Astro Kick Suede Sneakers Mens 10 Black White 369115-01",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227279649652?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCTS06K81EF1FC64VY5&hash=item34eaec3b74%3Ag%3AVVsAAeSwh-xpysKR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8pENqUgahmQdj%2BrHGXmPCOUOsZkBJctonSB%2BTdPsow8gO8dq2rIMY4ory5kxLHe0H%2BGtK1pVgia5%2FxWZspRPKuDT7hcSYgWsQw8LADgKYQ%2Bu9nqMNuXcUPUsgSSFUvzm4v%2FuLyJizqjvo6fsU4ep1dBQcAX0XdPGGX9RzzdH09M%2BqNi2%2BbhMSXLX5qk%2FXEdbkOF5gP4x7Bn%2FiOjBzP421s6Cxla1DOoRqdWh9Ers5iWO1jA1Or1KhLS0TnxFuiI%2F0eU%2FxkR8o9%2BSK7gs2F4TF9xYtk5thAfjcaWCF%2BmTfRVAixlP%2BeqpVHhhlrp2Ay7Tk%3D%7Ctkp%3ABFBM5NanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227279649652"
+  },
+  {
+   "title": "Puma Suede XL Sneakers Men’s Size 9.5 Black & White",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267811021517?_skw=Puma+Suede+sneakers+black+white&epid=27064564305&itmmeta=01M6T89XCT35CKQ1AEM60QGQBE&hash=item3e5ac7e2cd%3Ag%3Ale0AAeSwadlpPCMk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9RJ%2Fgbd%2FWdSHSfBUkT%2BtFJ1ZaXALKDQWh0x7LxPJtYb4C6k9sisEa%2BJUxT0c0Y2jJ1jD8QZLEAH%2BM8mI%2FJvZGaI3vHDe2YhXBXX3L7bxs9GNJkX1mT16ABQmOJgJwKUyUqFlY2y2s6MHXJZgwKcGXnk%2Bqq5QQWSvGcEUpIWX1%2Fas83awKg4Bj%2BDuTCsOQaPePXz451lkeZPExQjY2nP4bQXSBAUxXnTdQIvUzkIKTDfc%2FMJbC0bkHqWUBukANdiL533rH9rsZDvGwULfkBoHJC%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267811021517"
+  },
+  {
+   "title": "PUMA Suede Men's Classic Sneakers Shoes Black/White Size 8.5 Softfoam+ Optimal",
+   "price": {
+    "raw": "$29.97",
+    "extracted": 29.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127906182116?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCTSJBYRMMMXQC6XQKA&hash=item1dc7cd73e4%3Ag%3AeH4AAeSwsL5p9tFZ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bz3HkkRROgYJPcHgNCAYwcBXI1mtr9qI4D%2Bbr2V%2FiFyQDxCWeuH%2BQbraPHnMdEc5ye0Hiu%2FVqUMz4V%2BfjSuKnf2lm5pf27ENC0EPNMekBH2PLpnZhq4pKad189GocJgcETWgb6IarSB8CKCmsCWz5su34J1EaJGQS1%2BHOtEBAN1tziiKDBe%2BTN3ZjfcicgME2r3eb%2Bl%2Bxc6kTSJNp0WgVFK6P%2BfEMfvL18or5yv5Lb0eWLj7dz%2BnxEsRnLPxH5qj%2Fbb3HjR8eSY2eHf6ASVdwL%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127906182116"
+  },
+  {
+   "title": "PUMA Suede Classic Women’s 6.5 US Sneakers Black White Athletic Skate Shoes",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206534320585?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCVGZM7AMHEF9CNTRTR&hash=item301667a1c9%3Ag%3AC8AAAeSwjU9qmgRH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8w2oI8v2jIxRK3YPSLAeLihCZrZbQ7US0ol8cC6XzRp%2BVreQIBWv88wtLc1%2FAPsBkX0EtgZTu21KhJzgf%2Bs1QxxMUXEDLA4de2%2FX8g4vUpdSGQ167W6NNJzH%2BlSYBfHGtuZjvxLRU0TKV2drLgAe68LEbjnVGxBdJzW%2FN2UMVbyxNHIPDx2Ey5yIj0BF4amkJLOdAdSOCU3tPUj0ipjvIaVYW7ptpkHFnEuUFpS8cY5m7l90WiDWN6d8Z%2BhFd4DNeHb0KjaWUSR1TLbRbP8U4xPR9tMMVioCkqAdSKW1wKGvc6kLtZ2335JReqoSnIe2g%3D%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206534320585"
+  },
+  {
+   "title": "PUMA Suede XL Black/White Low Top Lace-Up Men's Suede Sneaker 397648-02",
+   "price": {
+    "raw": "$48.00",
+    "extracted": 48.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800617679204?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCVFP7RXWD48D4Q3Q41&hash=itemba68884964%3Ag%3A7IMAAeSwTgpqnGJH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FaGlLEhaVOMIMmFYySNRfaeluzGfSdYJoRC5IubRgV93UwsfNRg8FtFKQyzyrksxLeO%2Bf9lLqWPi5SGOfP3FwkUG7L3%2B27vVQjJOTV5OMVuBPLLNEl0sAwKDZJRmzT8JKsC%2BImdVA3LEoiE6ZATRm6FMIuaPFKB1ciOnghBPSgaNKLbhftAMTNgFU2P%2BGEteRsGTWkT79tqGE8T3Pmk1tMe0wtZAounzzyPjxKrNOeUitORFJ%2BFGg2rjI%2BV1r%2BLr2Hxf40Uu7GHFZyNloINzQQVN3B4zXF2XedKGXjxrh7rEoamszOPR0BEB6a4InHHDk%3D%7Ctkp%3ABk9SR-TWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800617679204"
+  },
+  {
+   "title": "Puma Suede Classic Black White Gum Sole Sneakers Women US 6.5 EU 38.5",
+   "price": {
+    "raw": "$20.42",
+    "extracted": 20.42
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318739436955?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCVJC2Q9ZRWQ8WPX1DH&hash=item4a3659d59b%3Ag%3AN%7EMAAeSwTfpqGhti&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bz0%2FZAkWuK4%2FfFkNsYirlKQ3lLt2SELOY2WWSuoFoBgNtYFlea9uYMWqpL5PUgHCV8XtmsGsGJqDtdP7rvV0N1mXojwoUNWrGymBdIIf%2FPeH8lPTd2k0QHSXC4Dce6kzV3sMEPlV6f1gM895c52NVLXcPK%2FYkiygX%2Fe%2Brrh4wnReGVnCQvzbDo2DLoHSkwp8IECnvYlv%2F7YlrKIsuGWMcT3UEhsDCksbL5zfgvQ9GEK%2B%2BwYk2%2FcyIELYWZhYFa7mIePzIHiN8JYXRskIFOBzKzegUFqAaBDl3faoD6D5E3u3TQw4gaFA8rSLv8ksADtkI%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318739436955"
+  },
+  {
+   "title": "Puma 50th Anniversary Suede Black White Classic Pop Culture 2018 367776 02 10.5",
+   "price": {
+    "raw": "$179.00",
+    "extracted": 179.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327190333160?_skw=Puma+Suede+sneakers+black+white&epid=3045644379&itmmeta=01M6T89XCWGW7V8XTE6TMSS9KJ&hash=item4c2e1046e8%3Ag%3AIagAAeSw5ApqHfOr&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8bhAr9qSrD%2BKT%2BDsMTyy%2FMeOXugi6VUVkqCSD6VT5YzyodJigoQsJ44tkQI8n%2Btde9W9wqxCwFQbSOaeCnA4W3WojBHV2fNQ33R7kbt7pXTdSuwzJYvazjg%2FRKs1LNDuBXMEFqS%2FWrETMyNisP7dgI7mI0lHWZjM4znDVEFi2NZHTobugtOrb2ybXVtgcQMPyMuFOeSjW7ewZcwdCiNdwpnOxJ5FxzE4PIEBtzNLiOuVg%2BEa1RdcQbDpHoWqFy268zjHjUTyJZYqJvOHN%2BUDyY%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327190333160"
+  },
+  {
+   "title": "Puma Super Liga OG Black/ White Sneakers Mens 8 Leather Suede Casual Shoes",
+   "price": {
+    "raw": "$12.50",
+    "extracted": 12.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/398362779975?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCWQ105C159JGGTXR8H&hash=item5cc045a147%3Ag%3AXSIAAeSwWIxqnE0N&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9eHVs1P0MPjSaNitIRLPg3Zowm9luwzVQ1zccvZ%2FMIPQfnPK%2Biizr%2FYC%2Fc5hJi9eL3%2BWmqfWFpxdw8w27TKvNq454ak3zyfxwCZ5YpYonjbE6T3UzJd2v2R6qArJ%2FhFj3LF1BVlXDkjBjXqb4uohtGRgH3V6gv0skzuzvoHac43uY6V1cgieSZriM1Ht3UMBy37Hl6fB7rQb76ZChL%2FSSbt%2BSGcUoukP2M5L6aA82Ic8cNZ5yF821%2FaANDvyfoTZe2RCurLddvZiTs2gpG8jdrJQqYW50hetJYVHb4r0QaLEcpZBu9mILiOXtPmAXQS%2BY%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "398362779975"
+  },
+  {
+   "title": "PUMA Suede sneakers in black suede with white Formstrip and gum rubber soles.",
+   "price": {
+    "raw": "$24.95",
+    "extracted": 24.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327299602709?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCWE0H7HE4BJF6P8EYM&hash=item4c34939915%3Ag%3A1xQAAeSw6QhqcggT&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fl%2BqUdBqwgRa9FO38ELwt81OQoG%2FjbkcGbrTJyZ7QyX9Rwed7mL90pK7ssPsxOno8gjK14S4IYFNBGxRzsX%2FS4WRu3AJ3f5JP1TthH1T%2BPXiLRwp%2FkneHQ1rXyn2SL%2FmaMGr8coVGizddGFbmKQMDKZAfSu1i3t9T1eKIa05rlfZqix8R8e609D4nmVBjLZ8M3Eyh8SyxANgE9tNqS7L%2FpxOIDrdnWuITxrCO88KuO3%2FG%2BcSCmAOosjPkJDXfXpvzUw6sdD4W0T6PdjuW9HdTU%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327299602709"
+  },
+  {
+   "title": "Puma Super Team OG Men’s Size 7 Black White Gum Suede Leather Sneakers 356999-09",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318711416884?_skw=Puma+Suede+sneakers+black+white&epid=8044637108&itmmeta=01M6T89XCWXN93XG9R76FMMZ6S&hash=item4a34ae4834%3Ag%3ALHUAAeSwWXtqer%7E8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde84eGj5nc3tAFVnF3k0zGQvvjOgn39gvLnkjkYq7BxeDgj%2Bxlu4pPdzg4aQBSpCYeuZ%2FGp%2BDr6o2Os5HZqhBQmW0GGxX7ENtnanWJRGL8jco2J5cDS3moscnnhEgpfp1mfxqYAmRuo4rMd81VYraLKgn%2B4oUglBLiJI57fhKkzx9zhfwvSQR7K8Nj7H9gKV6HQrDWm58UBQptJBkmtFF4c1j9imYiTW4gh%2BcYVDaLGJxBXWNJXxL1dH%2B9gl0SP3dE%2Fgc1czeBnX2IzKWBWph1gxWsMrD2ms3WiIvC6vpgz1Xw%2BLwGskdjGMW73xp%2BCxB1g%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318711416884"
+  },
+  {
+   "title": "Puma Astro Kick Suede Sneakers, Mens 8, Black, White, 369115-01",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117493404065?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCX6NQ7WDYBMGM375GE&hash=item1b5b2711a1%3Ag%3AU-8AAeSwXrdqtBco&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F4IXklAAzo4EYD%2B3Yk%2Fu0LYJW285WwL0jOZpkuSxYOstkInWzHaGDFXQEIAeAwW4nVD83rXVepQoblJZGJV9F2XPMywqh3LdA40uDa4MTFSrwTH6H3i0T9zWy0h0SpyfwaJR1sP%2BU8lzEOtJf%2BwwjzlHeYvhTqv9myPK4KyoNH0jx0t25CSsBcPFT3%2B8GdRhRbdb8%2BvzPqjDPMhrPJqK%2FW0jf%2B3IYaO5vBnZJ8SZz7Pyw6VHaTXTkjOyIsMaZG4XhXr7vT1UDOKTJ2PozUgQ3r%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117493404065"
+  },
+  {
+   "title": "PUMA Speedcat OG Black/White Low Top Lace-Up Suede Sneaker 398846-01 Mens Sz 8.5",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327362760550?_skw=Puma+Suede+sneakers+black+white&epid=6068917286&itmmeta=01M6T89XCX64CJ3NXB49G5WDV6&hash=item4c38574f66%3Ag%3AGXYAAeSw6N9qrG3x&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9cLr4bud2fTNLfhL6LKNjs6dKyO3S%2BaMpPVcPOsetWH0vt9qu14UvaMGVJe%2BwlDhbWmFPo3v2QcCKUOgtRIWPd9XMUfDSJ5djcrhNpMrGBUYotnI0StafR6%2BNCgoyopf9qakj4x1UPZZMAx19HKwFwakFWI956M6CllaDnGsZaKFa%2BYwXuIdUMVT6JThaKMV2EJYkxg0Uw0zgPj%2Ftmo2u%2BlbKWRQGTkhP%2FjG306P47Q8asjRWXlVjBrRmUnP2mqGgD7ex4bdddnVNKdYrjNg4%2FGeF%2B%2FtAjofpS5OXclzgxRkqE%2FcgL4GqbU6d7UsAmi24%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327362760550"
+  },
+  {
+   "title": "PUMA Suede XL Men’s 7.5 Suede Low Top Lace-Up Sneakers Black/White",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366709184984?_skw=Puma+Suede+sneakers+black+white&epid=5064575901&itmmeta=01M6T89XCX5CYMTCHK3WN84RDJ&hash=item55619219d8%3Ag%3AVfAAAeSwt7tqwYpx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9nQ0R4UkbvsSaM3rmS5TI3009y56Cyfs8Z9l3aN6hV2vZ6Gp5BkM3HP74bcNLn7629yfijWGrQ99rhp0vKzY9yWQtTHygt5sbOVwflBQ9iV%2FuubX0ux2eq5IAoTyL7HcUX%2B%2FgNVaEyOsqwvaYZWFgxPHkHLgECKoI%2BszvYu0MqNVjaPCTZqOPXoXknwwOQtdf4QWZTM5SfyCENKLW7ArE4hSjsANSr%2FIVN3ZIfUIoG4dQYCnLX6mFKNuDFmKFJXqoIWuc1TiSJklRWsTZVgiYlZAT1KsV%2BM4457zWPJeqLojHNbM8uFLeEd%2FagGlxS3jk%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366709184984"
+  },
+  {
+   "title": "Black suede Puma sneakers with white sole #puma #suede",
+   "price": {
+    "raw": "$11.48",
+    "extracted": 11.48
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960090148345?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCX2JG23RTBK21G38PG&hash=itemdf89d50df9%3Ag%3A1bQAAeSw10Jq1tL6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2BL7rvtPKvGQGSBN9dg559BHu6Lew46k0N2i8Cy0Xph%2BetnnfwxZnI8wOmYt%2B0ivF2JEs0k5Tq%2BDwNuISifKr30CvUgtcDG73ap2kjny56UveAu6vvFYXzM1MGyLq%2F5zM2cnPCeJW1DoXSK99vhr9kc8%2BLLxqWE0CwjEZrUUveNkc6B8i4Uczjs6WtBDURMIDOy4dlRUHTnvLw5JDvZFc4g8bsteWhmp5kCWvSgSbRkORaWN5XiP61Tpi2uR2MxqPgAIbVLSR0MYkqaImkRIA4rl4RsRCxIafWjQlgrsrCbThl1Pxqfv7LuDU2shUD0Pw%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960090148345"
+  },
+  {
+   "title": "PUMA the Weeknd x Suede Classic Black & White Size 10 XO",
+   "price": {
+    "raw": "$149.95",
+    "extracted": 149.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206263383721?_skw=Puma+Suede+sneakers+black+white&epid=3044641834&itmmeta=01M6T89XCX8QW3NX1N9X8S4CCZ&hash=item30064176a9%3Ag%3A0AAAAeSw0Idp%7E3H0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fqt4AnOG7DzGdQL5qmavOhYofFAdcZxtSTxPuEmWEfY5r%2B16p%2FkTE2CUmzNmsS%2Bko2uHUBglac6VX%2FG0S%2BwfriPK3c%2BE%2FzihlAgyadt6tGJE7mmer7wgql%2BhsG1PFbb14ewAJPHT6Qz1sDs2GwS3KjJ13xfRO7p9dfvtB6YZVX8ZvbhqhecbysRLVrLuotXBeDajq9VDpz1cR8UtncYXZgPd0iXsB4UHfWAyHUAP%2FZhY%2BOnB2S459W1Z5CI87l88asoeXl%2FwBew9bchoLmYtnPkJaSUtByX15XNhQ6VcqqJjawu4wuUoVyUpsZ9lmTO4c%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206263383721"
+  },
+  {
+   "title": "PUMA SoftFoam+ Suede Low-Top Lace-Up Sneakers Black/White Sole Women's US 10",
+   "price": {
+    "raw": "$11.90",
+    "extracted": 11.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840028363320?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCYVMG1SR9AED7F9FXA&hash=itemc395979a38%3Ag%3AmW0AAeSwQaVq0o9D&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8wbtbJkK7zXTIlamF1LS9xH91NJe%2BY6SV4dWTfRzhAF2coXVr%2FF7vpoxis%2Bnr0hDzCHAYT5cc%2B%2BbPV%2BCqTxp0JGB5g7zw4lEedzdcGVKWgbl9su6zkQ2wHJqIzPRPVNf5uWyxINgsATnTYbobapfb2ehQwyeM%2FvOKVu62ZldeFsyi%2FONABO0sdWLMNpRhHyGycMFpHEYNYfIgXmIoepx1Oe6ORyfhZLRkZrYONiES%2FWez2dSarExrIcKJ2mCXMP69ZPXBHP0Uw23jlNGah8BsclzzvljES9r%2FYqA%2FV28W5nxFlRCsxLGi7bjgQbBK84Ig%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840028363320"
+  },
+  {
+   "title": "Puma Suede Classic Black White Gold Foil Sneakers 352634-03 Mens 10.5",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/189062234587?_skw=Puma+Suede+sneakers+black+white&epid=26044667830&itmmeta=01M6T89XCYAQ7VNRDMM7V7R9S5&hash=item2c04fcc1db%3Ag%3AXC8AAeSwxhhqx9zY&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9PHVCJ5eg%2Fu0U0yyq%2BOCRN4GvHcyBTlZZqLUehmVWMjFMJv5ZSCgeDRn3hzBqmHqeN2uzmXGL3giCi7N%2B02qLaXWJRTIshgvri6uER6Vua1R4uZnuaLsCHe0qyHpNl4ETvfCRDfmVF8lHMEXoE6ZVqXksmeypFtr5NeNV029Zoj46mz7M1vVDABriJ9cF%2B1uiFkGbfIlljlGi7SKGfCNKWGCEE8MtG9qLh9F1%2FdV22B2bBZ2fXPO6I6RHHB6yghtf4h5uj9AcVj6WpdaY8Kw2G%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "189062234587"
+  },
+  {
+   "title": "PUMA Suede Classic Mist Athletic Shoe Warm White Black Icy Blue Men Sz 11 Used",
+   "price": {
+    "raw": "$37.48",
+    "extracted": 37.48
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137877730640?_skw=Puma+Suede+sneakers+black+white&epid=19074746926&itmmeta=01M6T89XCYPFDE3RTV8B6Z2RX1&hash=item201a273550%3Ag%3A37UAAeSwh0NqZpLC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FMY%2FXk8oqHyFf9ADQ4ribENNGJOGuT4PTdB2ya9ZoH0JQuhT%2FC0R65aPTiGkJnBiLcP%2FMKXmWho5oyr59k9fA%2Bk754BWUuADr%2B%2BvzFU5auAgLoid3BaEu3KF5wVLVWffcG9%2BbKjIKCt2XC3gNEt5zcfKkechcTu5so38T01S54yCrjvx1pOW8orxEjVfGtCeESRzoPC6Nk%2FUbaLNzAnTdBcQSoKK1cJHif9h4lze0dMfJPZKMSQuPMQkmeJuLbc5eNpyTt0M8tbfcBpZ%2BEtFUs6WUUGF6rr%2Fw6c%2By1MWb0xkpZkH%2BkINigf%2Fuqt%2BMS7ao%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137877730640"
+  },
+  {
+   "title": "PUMA Suede Men’s Suede Colorblock Lace-Up Low Top Sneakers Black US 13",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960149468093?_skw=Puma+Suede+sneakers+black+white&itmmeta=01M6T89XCYQH3KS6KDX2AGB6WE&hash=itemdf8d5e33bd%3Ag%3ALAIAAeSwFhxq6fnV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fp42yW9nrnX0%2FfLyI4Aoyk8c%2FH7OWqhhTkPsJbxx%2B3EDQdxuDfZDAKF5p5anTMrAZzMPXVvpljhevohkkoWnNc5X2Q3SYMsiaKWMLBOwYaNccoIaYqSOCGFr0axGJWNB4CklVd4kZbGvg8ofQ1vwAiXib2SosnwyLv%2Bu8fUWI0ILWc9tI6r0gU0ucWTix6vfGxOG6EQpDasmlVxIDJmXvHZdxybc7WDDyXxbNOs00xQBoJxfD%2FerxtpoyHUK5BtAijehDTkon3VMsmplpZ2MudSqLgx4FrVgS1QwxLnqFSh8Fbn5fsqm9TdDZGET0oQc0%3D%7Ctkp%3ABk9SR-bWp8i2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960149468093"
+  },
+  {
+   "title": "PUMA Suede Mens Size 9.5 Classic Metal Badge 'Black White' 370081-01",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336854957888?_skw=Puma+Suede+sneakers+black+white&epid=2315704584&itmmeta=01M6T89XCY17Y4WFWFY4HB1PT5&hash=item4e6e1ebf40%3Ag%3ADq0AAeSwKyloVv4C&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FbrW1I5yupyQp68GS2JgLaUPmwnPJ%2FBRfjTmDc7kavqnd7MfAvIQ474LwnIolLbT%2BqMAJpjmk1JQrQTBY7HQELAigyPiP%2BSfyPn7en2vaYd7jnD1Ta6mbOT2vWk9et9fcwFM9vvB%2B4r0Lkg%2FQdHRl6zHqE1%2Bo0HdoOqJtf1ZX9L0LjRANnnR%2BB8MeSXTZ7A8JINpymfKtnvE0b%2FeTSTspkD6XfEWj%2Bb%2BiwXeaXi5wOZPiEfU0ZQEU6owjeAxawRkoSlrvMuZlUgIC7wlen3mpNZS%2FssMuwWMPjRX6EZbCHOjjfk3ImauR8wmnUz6Z56co%3D%7Ctkp%3ABFBM5tanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336854957888"
+  },
+  {
+   "title": "Size 11 - Puma Suede XL Black White",
+   "price": {
+    "raw": "$49.99",
+    "extracted": 49.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147667906704?_skw=Puma+Suede+sneakers+black+white&epid=14064558768&itmmeta=01M6T89XCZRR6MKYTJNXEV3CGF&hash=item2261b17090%3Ag%3AZ4MAAeSwQYhq2SCT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8VG2J%2BzzbIMbcxDGxuBII3Q7y%2BmY%2B%2B8div%2F5nZubj2%2B938RUwjVyGutyuqv13W%2FSzDzew7vTPDlgJjzFb88McoSLpZ3aEQ8yMNGk9vomFcwEXA6NdfGM6e9HOSxGHFZie%2BnVjQNUUR3SLfdQeTO7W6Cf%2FrdxJ6yO8ScjY%2Bb48Ge4%2BkLXLxGYLruxKnvnN7GgoH5bqNzZJRCbXgpQ3dm0THrUKmAKD3RioLqoNeRVSE0H6e%2B2Tigecyqw7CgBPUmkwYvn0I4sjdrLbQyiRzNgn%2FxHGtvRGtTQATxEnNPb%2FnpamWJtw3aELyFw6Ldr2Oy9A%3D%7Ctkp%3ABFBM5tanyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147667906704"
+  }
+ ]
+}

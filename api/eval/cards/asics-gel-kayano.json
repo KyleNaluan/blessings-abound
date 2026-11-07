@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Asics",
+    "product": "running shoes",
+    "visible_text": "asics",
+    "search_query": "Asics GEL running shoes black pink green",
+    "model_confidence": "medium",
+    "color": "black",
+    "material": "mesh",
+    "exact_model": null,
+    "platform": null
+  }
+}

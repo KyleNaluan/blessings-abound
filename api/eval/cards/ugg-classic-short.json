@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "UGG",
+    "product": "tall sheepskin boots",
+    "visible_text": "UGG AUSTRALIA",
+    "search_query": "UGG Australia tall sheepskin boots",
+    "model_confidence": "high",
+    "color": "brown",
+    "material": "sheepskin suede",
+    "exact_model": null,
+    "platform": null
+  }
+}

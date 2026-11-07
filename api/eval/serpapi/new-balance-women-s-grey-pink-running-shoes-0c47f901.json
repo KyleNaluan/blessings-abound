@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "New Balance women's grey pink running shoes",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 2800,
+ "organic_results": [
+  {
+   "title": "New Balance FuelCell Propel v4 Women’s 7.5 Black Running Sneakers Lightly Worn",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336861318807?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVN0VKTGSPWZTF5RYHR&hash=item4e6e7fce97%3Ag%3A%7EP8AAeSwmwdq3RVz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F5xbFBboauWJJuIDmum0DUTa1tIZ%2BhxTIJ8EDoSd5770jXe1JEVRs3jnqptExU8Lv61lUr%2FiAevfqPKg%2FTXm1roF5iEb%2FEv%2BitT0sG72vErhMSPCCfE%2BJqqpIBLdnqgNsPaKO8WqctGUz6GaZ4Zo7EPDC%2FKDPhw6JVXegtJoRwB6SUImLdkMyKb7l224FNUC5SfuqJ8x%2BteGvM4S9O6LF1bn7YsyXvu2rGBOV7nKihYy5W0Y0nPqenyTkgsdwym9DrdMLwr0J1ToIW1Hdpb1gC%7Ctkp%3ABlBMUJS-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336861318807"
+  },
+  {
+   "title": "New Balance Women's 237 Grey Pink Blue Casual Running Shoes Size 6.5B",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147643282263?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVNGDNZM3ZF4HR7XC0S&hash=item226039b357%3Ag%3Ab5oAAeSwdo1qrwAS&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BdTWjgFnzVSRsqJ2QNIlwl3cZKpIQqw8C4T1--6HWLYjVc7kIrbuZkhTz3sJFv5msvw7E%2B1nQQvPm06z3RPXDldI4Fh0Vncg%2FSrVvU4iqNGhT0r5K%2BcR3SRZNCLaV9xpSj9q6JU4pgu6TCRrBaqUvwxl2vdcZKMIs%2BnMZcW4fbgXsIqPP9iZ2fX4SC8cxu9jvzJ5dQ4vwRMJ0uJmDYHLYL0sfnkf33ONwrp%2BPmtrs1NA36YhvytJXP%2FWWYx9eQXL%2FmcAC6t71jj0xfSkEDprLOMTd%2BnOgGMBJIA3250MZHS%2Bel1MKPyD7NTfekcP3dKDYbHQXXItYO7Sfeu%2BYFR5fh%7Ctkp%3ABFBMlL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147643282263"
+  },
+  {
+   "title": "New Balance Fresh Foam Roav Gray Pink Running Shoes WROAVTP Women's Size 7",
+   "price": {
+    "raw": "$37.99",
+    "extracted": 37.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920030715582?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVNEMR1MWRAA44J139J&hash=itemd6361a9ebe%3Ag%3AtO0AAeSwrQBqydQ0&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FZusf2mc1hZwdJteg70R8RdIsZAxMjuA6890dFz98rpz0Zz2WKRD3nXhvm%2B%2FAzaPpFutld31dksWtViPOliHGYnuZspbODQu5xkGaye%2Blk8orVE34NlpT9wtf%2B43gJAk1Xpc3r4TkvQhGeTYsMrSF2lks8OhdU0eTGXH6ZUtRsvyIZ52kyVz%2BtvqFWb%2FZ7WZ4ioqpBQDzaEBggimtgDo1FoGf9Y8QGUqCbxrUHef8JG9fvE0706l9PLQF6DXI8zg2ppNFWw2U7nSotZFYO4cYWkNJNRdDOhiNcSyv8MOjYo52Aa5NLdX7Lvm21nT0m25vU1sijjMIsu8ehJfWAWPsi%7Ctkp%3ABFBMlL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920030715582"
+  },
+  {
+   "title": "New Balance Cypher Run Women's Gray / Tan / Pink Knit Running Shoes US Size 7B",
+   "price": {
+    "raw": "$29.95",
+    "extracted": 29.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800849620016?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=9052845854&itmmeta=01M6T89KVNXB1CCEWPR4HYYN7B&hash=itemba765b6c30%3Ag%3A4UoAAeSw8bFq4nwh&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9mj0KolZxLYEvNJZVM4Yuo5OmnEtI3ATQVeGuK4NRn5a2MahbOhoFjCGlNxfzsptogv4rDdj67ljac0T2HRIQOkmWYd9yCgxE%2F5vZ5hdrVCxDz%2BXAoG2MM1MaQL5cm0js1DL%2BkKxig%2FTn2O2zP%2Bx6sEFoqOJlX%2FsPfU1tqJetzwoKpx007u8Gj98v4W52VM5euzqFblMJr0KaC4xtVZwdG8eszm%2FQoWdBfUX0kIMJ6x03zQC27%2BTIu5a1YghAdW%2BwdwqeymKVri66sijQPKhlx%2F6iUNez%2BQqSX264yRWAE0tZ0TtGuqG1z19kf34Kd7DnYphHPUrOdtq%2FMbEMuytHU%7Ctkp%3ABFBMlL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800849620016"
+  },
+  {
+   "title": "New Balance 520 Women's Running Shoes Gray Green Pink Size 8",
+   "price": {
+    "raw": "$24.99",
+    "extracted": 24.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198760313493?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVN2KYJ50HQFSCQJZYG&hash=item2e4709b295%3Ag%3AQBEAAeSwWJFq5iLE&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FKTqs0Ri8npRZRAOY5DWGhDvbucvlCZlsFu9%2BiT4GR3Ps8konc4zSGY7n3AOcAFJ%2F6gapTxwQ4XtIqnyocFuT3eBvqJsbmh9BxnUoriITpLmC9tr5vCB1OV1gcVK%2BIbU3ktK%2FXNAqY9xiDTfZd0rK5XcJEIiZKouorLUfhcierC62ZdESs94YZqDEo0%2BFe5B2xl8Z%2FE%2FsHbHxYsqL8zHtM5TfkC5fqjNz6V%2Bs7AFULBKG%2F3hUMBQhm4aklKAorK8B2Biztf0%2Bk3CIypB3WKpNQcwWKGZJZLdLQtDJ3wpNokLD950oVyUvZQJ9soCSJrNjB%2F6n079k6dRNZjB1PXB%2FB%7Ctkp%3ABk9SR5S-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198760313493"
+  },
+  {
+   "title": "Size 6.5 - New Balance 410v8 Women's Trail Running Shoes Black/Dark Gray/Pink",
+   "price": {
+    "raw": "$24.50",
+    "extracted": 24.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860096611248?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVNAFD0N6RECDDDHGZF&hash=itemc841c0c3b0%3Ag%3A4YAAAeSw3rBq5AkQ&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8SH6PLukGJ3BdF%2BIJKgovhG5yQvhLN1W4ebBHLf%2F6H96B7qvDDruO8dorKGTqIyy9%2BaHNjvRWBe0GIClVVHTdlD41zIdhuLQDt7AJXsEGTA3JIUFuLs2MwxU3YgdIBH9DlY8XY98EPsLRBGbfYCeJDm15SulxLshbikJGSo0kzKHs5NbCYIN9d4SN8xr661%2Fo6Q2GyazkFmP91w62EkwXQQslUzYq0O13hdrVxedu6fvtL8v%2BAym3B8bXdocG3j2V1gOJM7Wio%2Fpsy91jEM2%2FJwWlKrFVK0IQijKf7sJk95yCP2cR4JYs5j21yNnNgsa278dSRNGyjCV%2FjmD5NEcm2%7Ctkp%3ABk9SR5S-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860096611248"
+  },
+  {
+   "title": "New Balance women's 847v3 walking running comfortable shoes gray pink size 9.5",
+   "price": {
+    "raw": "$58.00",
+    "extracted": 58.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960147338244?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVPVZHY9BK7W8BEWDT9&hash=itemdf8d3db404%3Ag%3AmAIAAeSwD%7Elq6VzJ&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8X3YULMMbmi0POIUYdnAkWjBKJJAS4YZXGy83gZO46F1g1ZDvHckiw5t9g%2F%2BTZo4CUcVbqNFAQrQEXHa8yzexbPsOKGptg088%2FFaxvwarqWLW3XkVGn1UWJTVF0NVaixjwM%2FJk5RK8yUCXEHJK4VFwj9516%2FUYiZkUsP0N3riFf%2BomcV4tPB0cnuwa%2BHZB1uP1qQNHOcYo447ofElKQ6l24qUOUq1ZTX%2BHJHPCIr9kxqUtrGnmkIpLufFk%2BgNhiePHoqNlLH5nHRVxdrtTSBdytyzM936LEJ32IF8g0MHu69g%2B5JFGV1fAZzOjGojkU%2BuhQtJECA5OPwXKLDigwOKZ%7Ctkp%3ABk9SR5S-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960147338244"
+  },
+  {
+   "title": "New Balance 1080 V15 Women's Size 7.5B Pink Gray Athletic Running Shoes Sneakers",
+   "price": {
+    "raw": "$99.97",
+    "extracted": 99.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366533228649?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVP59AJH5K8M6XYNCBH&hash=item5557153869%3Ag%3A%7E8kAAeSwzIxqUCtF&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F9dDRNOXn--H8EcN9HLqetO%2BgCfaqB8g6vNK2F2kuWphTFDWzzQCDorlRSCUdpIhDyuRIFJt93hWBFIC6VwqRu%2Be5yIb9B%2BtVbyUfLyFNMnUHsbZ3BotICgZsmM%2BMkCBSQBPKNBQcpBlySFG%2FHzY3WMtcPKjsUqQd2qGh1Wtj3DY7uyw8tpgIp3sHL6gHG%2Fqw%2BS8H0go%2Bwi8fwasGjVIthT01BXg99TDKtiAhVdlaqUQoJTsgtwpXsbkYPG7a8kPiU5GpcOhXVYSjROm5ZzE%2BoGFai26ePEKwNEEzsDWpX2Toue1NIr5mhzNm0Uh015Dkkpnv9cMMXYOkDPrSph1rD%7Ctkp%3ABk9SR5S-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366533228649"
+  },
+  {
+   "title": "New Balance Women’s 9 DynaSoft Nitrel v6 Running Shoes Grey Pink Trail Athletic",
+   "price": {
+    "raw": "$22.48",
+    "extracted": 22.48
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278318301214?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVPVJC6EAY4CJS01MC6&hash=item40cd10401e%3Ag%3APpgAAeSwHO1qkNIO&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9L%2F27BXaRJZByU7zLlFSF71wqpbErdkXyS3shRJ%2FohXv54BOxGto9wQfpV7op7WZNh%2BZqYHue2l5fKYf8x2G4H5tch6ssSkvs1T%2F%2BH3fO6IMgR3z6VRxQ2KUs8Q6mj1Y3gdbfNv5KZBMd1rkr0WiAhncSGihAdHfRek6n6xMZvDkYbokVakqvuyaCrcJMpERhtetUf6TEHQvUarSCfPSdmd8Tpble3VMLcbZADaZeVKW2UOQiRW1ljfjgYs69b9ZwB0AFgh9f53fcETHmtd3GxBjN14%2Fpdpjjwip3FIGi18w%3D%3D%7Ctkp%3ABk9SR5S-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278318301214"
+  },
+  {
+   "title": "New Balance Fresh Foam Zante Grey Pink Women’s Running Shoes",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820238688022?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVPV96W0KRJ98MTCHF1&hash=itembefa091f16%3Ag%3AiWsAAeSwIqlqz4o2&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BH8%2BoT079YWpbTAPW0wLLbE6rnOJoCw1DOMrKsrOoWSWJNbf7SK9qfzjkbpf1W%2FEyxkvVUJW%2F8m9HTW5c3y%2F1SVIDKxophJ6Qk6pId9RmYq7Vftl0qgcQgYRpY56yzPji0n5PnrAcSJlBc4EUi32CEBobm7riNCXdcBBp3SHzGfMKDkdVTYnabojq01HHYaw4hEk7kRkxbZiijPT%2FD2B4dORGA8GuLxNZhbObqArOy9y5yGCFH%2FMP8oQ6hbeP%2Fce2x3l%2BpXtmAo7dH0iCMEpSyxMOduCbyOdd82H9hb%2Bq7wQ%3D%3D%7Ctkp%3ABk9SR5S-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820238688022"
+  },
+  {
+   "title": "New Balance DynaSoft Nitrel v6 Womens 9 Trail Running Shoes Grey Pink WTNTRLG6",
+   "price": {
+    "raw": "$37.97",
+    "extracted": 37.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267835492412?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVPZJPPNZ7MSXGCJBC4&hash=item3e5c3d483c%3Ag%3AsrUAAeSwZzlq20tN&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BTk4bNfg7FY0Ht%2BbHTChoYjCR3%2B3bw0ii%2BEz9Qydwklwj7s2dOxzjxSzhgiRBqjG7lp%2FeVWKgB82xszUotN%2FcPFrv8Kq%2BDqmfh4sZ0Tqzr7j9BdSgvJNPjc7%2FNJV0%2FTFImgDs3oQVWDVVi49Lu1nWS2YMvT9MLPbBywyfgCqWExfqWKfIhhtcnAFHwZt%2F316UjYlL9NGuTc6PZyceIQlk76JrqaJz92YN2LNa%2BtD4p3oWQ4ZHpT7zfaePBFLlUhXk0bSwsddk7lwE4X6Sx5CKigJ1NeVuPYvG2wwivVVY47g%3D%3D%7Ctkp%3ABk9SR5S-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267835492412"
+  },
+  {
+   "title": "New Balance 990V4 Women's Size 9.5 Grey Pink Running Shoes Sneakers Comfort",
+   "price": {
+    "raw": "$34.19",
+    "extracted": 34.19
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860081106489?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=15043992046&itmmeta=01M6T89KVP1KH0ZHE2FTKMW9DZ&hash=itemc840d42e39%3Ag%3AbZoAAeSwAxBp7Etk&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Bnw%2FdgWVwUa8NcExvwu4R%2B4hS6QRXy5ddiZmOK5MNwcMC2AVGrUnlM7yW3sDB8HjYQTYDzhtYhf71xGhaLRZKLknUCrK%2BmB27C4KPZtMc4BjYTcyNPsRFCEoPHQKmJjEe%2FgXPZBa7LRn2CmYvDtUMvpe1WSum4Jb2%2BIFRDg9LgskbMUp421lnoW8bFrlf4dWEvzHnJjykNiG8Ji1X5Gv9ApmYNWWFyd6ZT%2Fjr0xilkBRguBXvjitgM5aQAJZzR%2F0iNaR9YhjybZYuR5z7sPmG7895d3YxnKNrN7NIHXPI9NUHpgIeAyXzFkh3AMcTmBRNPjyu00fgt837FC8B54YI8%7Ctkp%3ABk9SR5S-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860081106489"
+  },
+  {
+   "title": "New Balance FF Arishi Women's Size 7.5 Running Shoes Gray Pink Athletic Sneakers",
+   "price": {
+    "raw": "$29.95",
+    "extracted": 29.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227597060858?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVPBFXZGRC0ZC51CVG2&hash=item34fdd78afa%3Ag%3A7w4AAeSwOIxq6skR&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FyHw9LOvTh3pDdjANa0K4ztztj85kHcUJtV9mDjY3wL46OuAus%2BMeyXz7aLoAZZhYVNdAEc4WNJr0CSqWWHWDCUVYAyKB0MpvjRBOAUYiyZaXeDWPCc3hAEkp3YfgM1fG8X%2B9bTeC%2Fft4Ar4ySM00BHKv%2BCH7gcn1BDQ9Y14FowIiWay7ZNy1ZTXlRi5wRyP%2Fhz%2Frkkk7fKFRf7EZNzQxcpMkX6XmX45uIFofclFlUvROwhWKhWIvgbYo8eEIk%2BzX300E3jbLR7k5En3XYF8RMdr26KIsN4Wh%2FYTA%2BXZcyhCXxYfDSF4bWOBoCXftaH%2FljMX%2FDSImgRfKYwNaH7KHB%7Ctkp%3ABFBMlL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227597060858"
+  },
+  {
+   "title": "New Balance 690v2 Women’s Size 7 Pink Gray Trail Running Shoes Speed Ride",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206570393571?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVP9HQ14EVPTFMZ6BSQ&hash=item30188e0fe3%3Ag%3AQqgAAeSwyCpqsEFQ&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Fs%2Bg4WBff673eh8ExcMaX7ttmzO3VD%2FGlqD4a7Qr5ASyVvrJr24Q74vaUxft%2BFsNYJiRx4ZOQWhraeR5H8wjr8xm7L1fUk87NoehNifK9U0zw%2FpIHdzRnlXrxCXrV7lZyZQOEX%2BNZny8lWoF%2FD6lHFFGD%2Fk5jPIVzU%2Ftp0uVrfv46emMssKCh%2B5pOx6zOefUH15%2FeQB9JSjnjajOcEeAg2m5BBxddyluut3MUs5dNr9GOvXvyGXU2pMhroY7xZYRwJnPHdO%2B3UAvVEI2m%2BcSUcu2taSfr6s4mbAPH%2FEbiL48byXKfSK8Sl9jfkr7s5EJyzDSzOc0DuizSQL4zjSp%2FF%7Ctkp%3ABFBMlL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206570393571"
+  },
+  {
+   "title": "New Balance DynaSoft Nitrel v4 Blue Women's Running Shoes Size 8.5 EXCELLENT",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257775011672?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=15057889373&itmmeta=01M6T89KVPT954JGC8FD6TK1RS&hash=item3c04968758%3Ag%3AnpQAAeSwQcdqvRAg&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9Mas5lzDxm7fjFI3mNS%2BGB6D2J8KPLNjhcx2iqp7TnwwG4x0bgkzDyG%2BFVM9F6v2grAVaZ0ubmFsJMnIH0C2YpyvZ%2FFjPI1Nms6ObeHwyyQCwqENHSwT62eYqWpHdL1eWDZFhHa2dy45NRq%2BHxcZIRbuYD9bfHlcvlx7Btkqf0T9LsOvYDqLNNhE%2BKn6%2B6%2FIdtvXl88NGMcguLUJ3xvBpSxwJ8ejLsfCnfQa6kO9HrrpJjTXHaVFAyhRNdO5bfZUI9xhR%2F5JmaEt2u%2BjUcmCu2aW19Zx2wvw%2BpUT%2BXuLmAgFQ1P%2Fg7INfudttn2k9i37p5pcAYmU27xOwpt3HhZAng%7Ctkp%3ABFBMlr6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257775011672"
+  },
+  {
+   "title": "New Balance 573 V2 Womens Size 7 Gray Pink Blue Trail Running Shoes Sneakers",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307262575366?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVQ6E2ZB3CK3CK9G08H&hash=item478a46d306%3Ag%3AvI0AAeSwckZqRgab&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FrhBCGaMS%2FRSKurUckaBJrAiQka9q2P9ZPK%2FVk4G4ivoeeKhxAnTc%2BUOf4mVOgwqD6v48yghZ5tzTtc0lIWcaStANGtBg94jifU391%2BJ9Or24yGyuu%2BWciqPsqGAxlSXPDQOInW7oRjsnIU7T14w45%2FSJRRh7%2FiRJE%2Bw2yxnCte5TixQSwlENVh0ERaIH5KePJ93XzhUzXTYF9%2BuE5OssZWjx9T6q1SKcg3WoKbi2MUkaymOLd9ZqL4RT688G3DYVVK32TM3vkjys8193U6bDxn0K4mYHLU7Ebr9cN6qGaFNiFuSu%2B38DdHlLSJDdKzbc40xSdEEGOVmuK8rW7Xmh%2B%7Ctkp%3ABFBMlr6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307262575366"
+  },
+  {
+   "title": "New Balance 940v4 Women's Stability Running Shoes Size 7.5 Wide (D) Grey/Pink",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960132218974?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVQ9SPADPWPGZET25AJ&hash=itemdf8c57005e%3Ag%3AlycAAeSwpVdq5FjD&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8iWPgSBNZUQMrofMnDCDNBgLQCevMQCqDAjA2ib9XsNVPUCG7atqmy1N77NPb4Q5k6ZhiXHOI86ineocZa7fk56XIiLvzcGCtkFvwb2H66avB8VmnlsJoQbSwLwCo1uw2LYgm7hwVwHdWHjsGwwpSrk1HrUXAkqGCbjpOaeySPvc0OXtVoLqtyfYOQKb000W3SjE42oaQUSKMKZjo0BwOgEWjNH3xMbEedPhpUXaTzGfVbhwdUEIg7hLqdu0X3y3CbFO8nrN5WeTf2gTGq8u21q8p7PoEk0b8J5rJUJeq7pw%3D%3D%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960132218974"
+  },
+  {
+   "title": "New Balance 237 Women's Running Shoes Size 8 Grey/Pink WS237YA",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198650534692?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=19064568731&itmmeta=01M6T89KVQF3PZHQY7DRZW212E&hash=item2e407e9b24%3Ag%3Ad-QAAeSw4kFqrVAK&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9CQur39susC9oM%2FfzQvOPd6mPWI7keopWwYWFOI6m92aIy%2Be3KFsq%2BXthwJ9O7iaztwLcEEEUh%2FPjZIFZsZm5JrvSmtIhwHuF%2BsZiiLzSTjLP1tXLdEeMFqGOW9qgID8s89WVgl4I%2FkIe6dMXJ7xkmPQEOMKOp55CzGZIcIcID57zPvHAUatOQjsfA931CQWRH8iYkaL71cY%2B7Op5D37PLl8Je0aJOPLHWKgvlMUj8EOU9snwSb4iMcHX%2ByfDxcpaGMS5IxqcFJib73WRk%2BGbYPXOMabYGuVuPvhxzW%2Fuqrw%3D%3D%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198650534692"
+  },
+  {
+   "title": "New Balance 450 v3 Women's Size 8 Walking Running Shoes Grey Pink W450GP3",
+   "price": {
+    "raw": "$27.99",
+    "extracted": 27.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227591433943?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVQ4EPE36P0HERVMCPX&hash=item34fd81aed7%3Ag%3AaNsAAeSwQSJq5hLA&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8Valv0gonEK9hYmWXxanfaBSgnQAR2YAeYZHBKSQXh0QRAp66m6wZpvAnx8NtsEcL%2BRNvzZLu5EUUOtmoY1Ta%2FH%2B3wbkFlxeLOzxhI3CpC%2Fb59VUJBQ55Rpa5dbyBL3rOb8lWbmnZrw4LSnGTE2D8fISsUK6vCXTAD0jkb2jYQTNUfTcsys7SLtUuGIXUW%2FYqnQyxu%2FD00MZUjXMKhtciEPVv45smjXgE%2FbfK4RoEsTU49xY%2BePp3loG5KwxT%2F0JP3w5gj8jd0qI5ak3WOZM50pC9wI5po4lbiuDC9hNFFPg%3D%3D%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227591433943"
+  },
+  {
+   "title": "New Balance 411 All Terrain Running Shoes Womens 8.5 D Wide Gray Pink Sneakers",
+   "price": {
+    "raw": "$18.71",
+    "extracted": 18.71
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257791549740?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVQYNR7NN3VDW6V986A&hash=item3c0592e12c%3Ag%3AdiAAAeSwLApqJ5eb&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BEMAQpLPLuNwUYkApvTGaINxZgRRdHMSlpOHyjtfsRrna%2FVKTfnIqkpy2%2BZvi0HKpISKqVJywR7IKORia%2Bp8gKsgoOA5ptxZCBk00djnZlBjhFP%2F2oVpj3DaJYJOfftfC%2FdwvelwO%2BciLGu5Zf7%2BlH3QIBIZE2N2g%2FYMJ%2Ft%2Fy8bqAW%2BgCNM0C0%2BOYVVw0O5tOYB4vi8n9TVc2vJ4EROw6y%2BoRjvuDASdTP89xWz6pGRiOcIWmCW7HOOKs2XIwECiKpj%2B0akcP%2FDNCMzGHUjGwjeTta7WzuFqWb5LZithbs8A%3D%3D%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257791549740"
+  },
+  {
+   "title": "New Balance Women's Trail Running Shoes 410 v5 Gray/Pink Size 6.5",
+   "price": {
+    "raw": "$24.60",
+    "extracted": 24.6
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366647065103?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVQ7MEG3G21MSGZNNEM&hash=item555dde3a0f%3Ag%3ArDAAAeSwXeFqmbWn&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F0M%2BrPtLzdpwFogmjVy4H74oYO%2FVFI0BpGBa%2FH%2Bh8ltdXb%2FeswvPcjEI0aw%2F0kL1a0sHfT7REphlKVJJ%2BOEjYhu0IpPBFCK0s1HmvqrWELcXb19NQdnb83wv%2FiHLvSQcqBVs%2F5l5E%2Fze0pYUyt5qCwVjiQ%2BYwi6u4QSEiZF9mSPyo5q2hUmCPMNGsuQubswh5AxqyuN3CAKYL5Ru2LMnWawLXCuuOdg%2Fo0rMyuC%2BFm%2Bo%2BONsS00p8F77fi8f4Jwy4ng6LWlBbqSODj%2BjJOGpsLOwUe8GuyJd4S7IU3wSxfvA%3D%3D%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366647065103"
+  },
+  {
+   "title": "New Balance Nitrel Fuel Core Women's Running Shoes Size 9 All Terrain Grey/Pink",
+   "price": {
+    "raw": "$27.00",
+    "extracted": 27.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/157919567502?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=26067985052&itmmeta=01M6T89KVQHQCXF2G5HEMYWGSV&hash=item24c4bd5e8e%3Ag%3An94AAeSwmOFqPFjQ&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FxVythhT%2FOZGhsxiM3VDXtzIt0LdEEX0XmmTuf5T%2FwI0RAYMWPOOnNoShKJSF8wEJvMNeLKXEFvLJx6PSoTO3aXg0JtNh1RiJHElkDsWpnqjLUQrn6Tq61fDu58XjhkfGiEzT610rvs%2FKbzRPEFX3oUDchkHIbVplLJ%2FSPKx2jXDMXTyShsbvpoX92LWnFxk%2B9mshVsM3uU8XZls8Wj72V7BqGUtrNARehZV13WV9JM6vKf4Rvb%2BGTmdS9V0DsyCPzPty7Nvl%2FMcfRntZjsDKnrp8GfPgI2WtCkIzUua852%2BfPhUKBbBY8vFt1X5xST0uetoKCEUApHa2mLjX1M3Q8%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "157919567502"
+  },
+  {
+   "title": "New Balance 520 Comfort Ride Running Athletic Shoes Women's Pink & Gray Size 9",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117470752682?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVQNEJQ7X0XR52BVAHH&hash=item1b59cd6faa%3Ag%3AHSEAAeSwnBtquoR4&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8ogaeYSqBImywItQ1S2gx7Uu9q24KQxicM3vbJcHvWbudiGjcGnTT7nGWs3gQckZdwdBPAQakDfH%2FJ8B70kH2vuWCVbN8SW54EvNw9wRwuI0qSntSoq7YQEKigz%2FqOQgpwUmtuII3pkU7KQHYwMms2wI5eAaW6LXO0TkU2rv33sW7r3FKEdf5h3dprRxjLclH8rFSq5rvmxSr%2B2NOfJ2NoRDpMl5euDVa9qW1%2FNDVoYc96EfR%2BiXz40wQuug%2FxaXpYw8wx9FSHzAqY7a6M4As9KUv3NV81FW4bmXqTnWjE1Q%3D%3D%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117470752682"
+  },
+  {
+   "title": "New Balance 009 Women's Lifestyle Running Sneakers Shoes Gray Pink Size 8",
+   "price": {
+    "raw": "$41.99",
+    "extracted": 41.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366787917160?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVRQ4SS7TAE7KHX2TN3&hash=item5566437568%3Ag%3AbUkAAeSwEZhq7LX%7E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FDVp7IdNKt3ozVYDkA4VMWHWu3nM6RbEDY2RB0bpT0tPIXUeyXm3YJfO3BLrE4CPxkPymmITY38GDcIkwdLjlLpwzTBqSy7kZMy4J6hRyXsyFZiKhd5SyPY58zhuxrIHD3pwD2tD2YDiQNVUIhbL%2BA1fYoQIFwN2nj6AtjZK7qdsBYux2Wgj6H%2FpAYbCEhWNwZa96F8qdn9c5DmnssI2Xu8Wm1GvGEpfljlitJNtHsi9n--WySG5Iso9Iml3btC7QQyjzDGfgBXpqcKvqF%2BhveMMpmMUikqwgEFrrZMJggww%3D%3D%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366787917160"
+  },
+  {
+   "title": "New Balance Garoe Women’s Sz 10.5 Dark Arctic Grey Orb Pink Trail Running Shoes",
+   "price": {
+    "raw": "$8.00",
+    "extracted": 8.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/286038593699?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVR17PXYE48BS9CPC0P&hash=item42993a90a3%3Ag%3AiIwAAOSwAExm046Y&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BoS6fW1NeirZcdXtBZJ5Cqka2wFAH4XLBE92pbNU%2FC0JZzLwn2KQeFcsDx4kPnUvZY33DXrAKr89zii5PBzGTGhmb83dQYjUg0mjJjP1vd%2Flpjd%2F9zZQVXovZcj7vxeXZkO4jWK6AWyPqdQCGMt260qE68tFsIgliuhYzjdUGDvmacu4PEshbXQx1kaBOksJ%2BS%2BzelZTayfn%2BLwTw8ochHiXHPkp2HVFAzUAJgl1uH0LLyjCIPvHb%2BulTcWk0X16l3fNeHC6psKT0OnflRVgiKMtGv8nPQS1dDhkczJ48NcQ%3D%3D%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "286038593699"
+  },
+  {
+   "title": "New Balance Speed Ride Grey Pink Running Shoes",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307248132854?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVRM3SVJFYMWMQQ9YZQ&hash=item47896a72f6%3Ag%3A%7Ei4AAeSw4y9q3Yha&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BgS8hefiUW6C62N8eJyKZc7EOjIQJ0FicEgmGD9pOy9laa8RVc19enO28bdqE44MuSkK%2BghzVSz9Odc%2BFHzdFusu9gGAAeK1bhTSoPPAedtK2JiS2sFHNmp8qzmalxPgefPaGjzMyuigPA31XnSgprqxMZVwEM%2BT7U%2FUldJxXXVZblOyOiAvm0Q1URFiY8asdO15kXydgZKAwpk8i0ND75h0McZ8es%2F6eorFLURimAjvoWy%2B69gTFoOCzfrCP18sfdDz%2FCe5UgCUlXg0ElZ3Vxvfp4ow9bEbTKDatm1uc2z1c8AEWEC4coxJ26QX3mvG9%2FTwEvFj%2Fpk18qi1WTYcMM%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307248132854"
+  },
+  {
+   "title": "Women's New Balance 500 Running Shoes Gray Pink Athletic Footwear Size 8.5",
+   "price": {
+    "raw": "$26.38",
+    "extracted": 26.38
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257801270924?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVRQPFS5H0Q10QX8BN2&hash=item3c0627368c%3Ag%3A0FcAAOSwb41h40p4&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Fifbc777kO4eZGEqaeY40LCGlF%2F4f5cVY6DaXe%2B5rv06g94KfYTrSsFq%2FUEeWyva1feRLuwfbYLenoG%2B7nHBOCjvUshon4zSQu1sCdgto%2BPkOrw2fa32URStA6qUyF9xM9DBViefB0nCxXfbTcGcWMtLj5fgPsCOPpvNl%2BacWNWK76BCjnrR5EUEEcpS146MtNBkEfpICUotgJtCOH5Vawsg9c81wVmBMulsFrFgZHqq7PhfDAF86G7iD3Su0yheS9rb8ulYq08VX6%2BLJH5XRK2RcN6wYArjxb8zsQK9mwOkDtiVJrpmEXfcUiAPl2Nz11S13VirgpblPe%2FKLuLlLN%7Ctkp%3ABk9SR5a-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257801270924"
+  },
+  {
+   "title": "New Balance 412 v3 Women 7 Grey Pink Blue Trail Running Shoes All Terrain 2022",
+   "price": {
+    "raw": "$23.74",
+    "extracted": 23.74
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336884315850?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVR1AX9A2NC7J32KNRF&hash=item4e6fdeb6ca%3Ag%3AIZcAAeSw2HNqlYgF&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BdiVFUcBeJQDEG8HebO1nz4hm5%2B1PVxOOMoQKYvMyDfRUiW1nZ7fwbhCmj9T31NTNnxJRgiiVvSCz%2Brr4RJGKs%2FVg6vOXtB7O%2Bc08kHAl7VMhUr9m1k0DnVx1TBDpjr14TYWHi1nC5WV%2FMcSKMLokp0eBesgITaU%2B7wbIAY0IQQwTX%2FjfP%2B2lxAANeJ7fOGXLhlNmv5ueHeuyObPUUQk4LtkTxXvk%2BJucfzKghpsE8lyvE7Qk%2B%2FzRh2iovRzdKczjOlKLOe3FKbeNCQNi2%2BJmvR5CrOIMuOl89goijY9uLaQ%3D%3D%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336884315850"
+  },
+  {
+   "title": "New Balance Fresh Foam X 840v1 Womens Size 7 Gray Pink Running Shoes Sneakers",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307266719686?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVR0T2490PTVSA6F3QP&hash=item478a860fc6%3Ag%3ABTkAAeSwddFqmmVC&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BjRuELD71Wwy2mmotQ3zcRl5rRfM7zc3BoiJIzGTqhvvkYpQMRDb4jAGwfK1g7Sz9%2FX67kQGy1PVbzyMGzFxSSIb4xV952%2BmIu9313TXS%2FH5IewSzpCemyMGima%2BC8HdBKPXpI9vAATZOaP4jX7MQsiLMG1YBDihZprx6QblxuwaQFnScKFEq4HJFZCTSaOw9nE4%2FPl%2B1nBsFnfgMstBNORfEzOXt6cm0tvE8FOQ5AU5V1T5MWIFcU2uoPNlAiXa1YTRJ%2FJwQgFXcKD42KvFPjrAQT1LOkltDxFcVuFxgtZPX144Dvh3ozkxyGGhAi5vlje81VHW6Nxt1urb5ZOwSF%7Ctkp%3ABFBMmL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307266719686"
+  },
+  {
+   "title": "New Balance WT461RP Gray Pink Trail Running Sneakers Shoes Women's Size 9.5",
+   "price": {
+    "raw": "$31.99",
+    "extracted": 31.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920011413004?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=14060147524&itmmeta=01M6T89KVR0ZJP7QN28S0D5EDQ&hash=itemd634f4160c%3Ag%3AmwYAAeSwfK5qw65g&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde941wk7VbjdyRo%2FE8UIrfki6Tj%2FMbqFXSGxiyqsQEX5qdxESJuI7GLO0MtkF84odPfBA8G1k2yALUgzm%2B2qJbtJtwtw8p%2BYzSm6ihLH%2FkvgCi3vkmX9MpHy%2F9%2FxxN%2BQuCQTOVWElq6tA4nbHWsKWU8qSLcGZmpuMM1JI39rUsFgYJWjjj3cjHMO0tWRhRXtKcnB3g3de57OD9dt5Mnwk7ndO8c%2FjqAFpocEIhr%2FRfk%2FPuTb4AcbCILj6eL1X2OxwXJEsU%2BTvkulqo7bqnkiTTbgTN%2FZs4GkGLo5sgB%2F1qRQHGVC8Gk%2FZVGfqb%2BkyiMqGs2mamQXAZ0FLqas80DT4pms%7Ctkp%3ABFBMmL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920011413004"
+  },
+  {
+   "title": "New Balance 574 Womens Size 8 Gray Beige Pink Athletic Running Shoes Sneakers",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366785681054?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=3075431981&itmmeta=01M6T89KVR6GRKF8Q1T8RC3GKB&hash=item556621569e%3Ag%3AUlQAAeSw6A1q6v9W&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2B5zn1qi%2B75v8aMyR45ejdUguomoVRHCcD6y6o0EDAk931PzLkT8LMyZ1LYcghp3BhjlEf8JeXPo2%2Bs3Q2jcKB%2BkEefYPeSzlPN366OJg4ADOEZgaDBZj%2BkPIhMu%2BFx%2FxkiZLttSAsCDZukt637wz7cExdeVNfGrRcP7bsL%2BvpfJWDAYOG8%2FgCpjUE1VBtvuOMn3IhLHLUpoiGymD%2FPA5Fo%2F94y6REI%2FOd5ELMo9X8a4Wih7UUfi6cBqFtlYzYIKgLG89Mhm6pvHQpCIZAicuSLKNQNFGvaWgn%2F2EjvcoQwxJ4VfrEJ%2F5d6%2FAVPGX8CiYEQsjDPahz6MZHoL3iFY%2FfX%7Ctkp%3ABFBMmL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366785681054"
+  },
+  {
+   "title": "New Balance 237 Womens Size 10 Gray Pink White Athletic Running Shoes Sneakers",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307147890741?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVS5MRWT53XDSPHSZAN&hash=item478370e035%3Ag%3AJB8AAeSwHgZo4LZZ&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8WfikWgRTA4WWxs1pDR%2FE6rpYGzB5vZFdqy8FR8kzE6XXmWvUbJREjLvSJkTinF6vtB%2BFYoMFSw1pkurZaUqftGG0Ato%2B5ebo8881QjrUGZMZghBDqYeL4u34m2u2Ia7yaLf%2BFkzf5PkEIFTg02oESvrq26XfD4aZTkBS4JMzcmQjVyO4DLQldDx18P9R4kbIaL1AxozajHuGedfWnWkVwksSR0KDJwQNbveTHm6ukpIeV9SlHo74VGBS5j1luTwJsZpeGJoEaVJ6T44FIq6K8%2Ba7KnXOpJftM%2FFGuI8PSQHDgCmX4Ly06c89kICBHZJrpCdIJBljZVeE0nPTsRQNn%7Ctkp%3ABFBMmL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307147890741"
+  },
+  {
+   "title": "New Balance 237 Running Shoes Women’s Size 7.5 B WS237YA Grey/Pink",
+   "price": {
+    "raw": "$28.80",
+    "extracted": 28.8
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206355841220?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=13064561330&itmmeta=01M6T89KVSA2Q6M1JTY4JTYDPF&hash=item300bc440c4%3Ag%3AO4kAAeSwQbdpHJuz&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F3m6mmeXtjGaO9WAFpmeyW%2FnAdz%2BprayC4J6H7ObCArsObQYN1XTO923NKtGsTumtLpr7eN9uErkri14oXebB%2Fc6Lr9GKzKLZY00wmeuAQDYYtiRffBkMu4FBsB5p77PMdWslopc1HlVUIdZlRC9bKRRafoaDFtz5JKV5ozNW6SzqVZrAbPMD3bFOj7%2FCrDvkjyHP3UXnStNqiQ7PaJfYCzConRXVrXdRe8P41bGij6HTKeeGwyKsEHfwL0AYlHkuR7erTipZgSnPcn77q0aQD0gKpCOyvd2LjvUz3Hi3Sp5pcDJHabA4KbvOQoiKbzq1QgSFvBNaOjFbspwF5V0Nx%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206355841220"
+  },
+  {
+   "title": "New Balance 573 All Terrain Grey Pink Trail Running Shoes Women's Size 7",
+   "price": {
+    "raw": "$29.99",
+    "extracted": 29.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267807800396?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVSWEFY0X9ZS7EAC5RH&hash=item3e5a96bc4c%3Ag%3AVJUAAeSwA65qvk%7Es&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FjxAF6l76ccZuFHicHgnsXmjXu%2BczLvshg8o%2BF%2BJUtmZ1oxHZdMAcpw2u1GBvCS73Q74EBp4KBAwcJSktOEdy7Z234Y2mjOfwF4J2iGjy%2BNI%2Bs%2F5z%2BB%2FeMR1v1UyJkZolgfrMLu4G0vRr8cDLLzTS5QJlMEWVL75B59hZX1GCLqYFUbJbIVHXB88Mcp7Pvql2W1prFc26v62rTkjHPPSbORNSgMT3YjiScFThld4ewh8cnknWVgPH9oEG4dZuCBpC2xg5UKZnBX4mIa8G8Ndr38TyDup6wBz2JK9wgBNAAjA%3D%3D%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267807800396"
+  },
+  {
+   "title": "New Balance Woman’s Size 9.5 Women's Grey Pink Blue Comfort Trail Running Shoes",
+   "price": {
+    "raw": "$18.70",
+    "extracted": 18.7
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920024845898?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVSMEKK0Y58F9P0C7NT&hash=itemd635c10e4a%3Ag%3AIogAAeSwuXJpFfIr&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8JetUXvtXD6o7sZ3UU8ki3hXUDq0dOnOW9RIsXEnGFF36ESXorvxIyBOqotdvSJmQvhSFGrqyJFLd0VBoo1eLlaBcKn%2FDisWyYcgDvTY1u3RFDyFlVZa17BYKJsgTHlO8q3sD7rdjlb40XhomkmARDAEOYTakzesBuLkqmPxisI6AW3GGVRfsVj9hPqc2OBrE4tphDDOyT8ZjwL1WUhR5EpUvteZFiDk2cKZARlXEVg3y6NCkFl1gRUwr2kJCCX9WlzQ11dpO3SSzr2Ugm9X2BVFk6i3fPQy8m2td0uZZqiTOww%2B%2Bz1FALHboq4UhV%2BBOuqYVzEN4KFlFYdsrVIg61%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920024845898"
+  },
+  {
+   "title": "New Balance 840v4 Womens Grey Pink Running Shoes Sneakers W840GP4",
+   "price": {
+    "raw": "$39.72",
+    "extracted": 39.72
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168843704583?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVSMS8X0363BCVCW5WR&hash=item274fde7907%3Ag%3A5voAAeSwj4lqJGQJ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9cEyVz4jdayvISqjnMg0HS1IVMwB23MCkSSja%2BIJqxR0oNLbs8LyJDyWe5Bg57zTcJwN62OuN4JuMhsirDY6jvobLNUXMUVDz4f045g6Wy5195KpmFyyRZuvbh1wacw--NBgQPhUmQj4MsXEYRmdf5HJ8aG9ctlQFs3x8kZL7CgP7wDg5H6UleQy6Ss2wWioPkARBS1w%2F2ZDQbtr6Xkv51SJX8hUiM2y0R3J%2F3eqbeHEUpYIvCwesU0YkoYb%2B1BPcfU0JABFNu4C71JGpLugCFj%2BiYCJx5m9J4jmibYpQc2Q%3D%3D%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168843704583"
+  },
+  {
+   "title": "New Balance Women's 410v7 Trail Running Shoes Grey/Pink/Orange",
+   "price": {
+    "raw": "$37.00",
+    "extracted": 37.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318194231139?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=5056112305&itmmeta=01M6T89KVSJE4SM3ZWBGVMG9HQ&hash=item4a15daa763%3Ag%3AbC8AAeSwEdFp6pDQ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FZj1gL%2B2ZMZ8TiwrkhAr%2F8Uwt1YTkTJitPjdNth1koZYpfEHftRGwmEX61SK%2BEwQlwS7IwkVXOXuAhzKnNskji7G3QopyTrFMo5N%2BPEjfzGnQRsyhBvqZltdzLzMmJHB1YF9PmpbyU3AG0pL42FQzKI%2BrSpVMa2Gh93EANaLOO8oL9Km2V%2FIst6cUmdDwufusClmRR9API%2BHc5WdrRFqrUEQLM4IZF41yOqgxTt9qbwErc1Pq0JiV8goDXRBEfRt9cuiG4Z07FPF0NHUtCw1jirBEEgO2SXQ9hTHrnMdJLkA%3D%3D%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318194231139"
+  },
+  {
+   "title": "New Balance 410 Women’s Size 9.5 Gray Pink Blue Trail Running Shoes WT410LR8",
+   "price": {
+    "raw": "$23.75",
+    "extracted": 23.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137779977399?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVSTR8P26N6CWHNV8C5&hash=item2014539cb7%3Ag%3AhUAAAeSwnTpqtrvD&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FK3MpIFutPgcEKSY73Th6TawQr9uNpGh6sPyye7C5XCSWHbff2V3ED1OkLiQ%2B6EHdQ9oW3n2XCCxz4R3ML%2BtC3j6YpuJeRPpHoURMef%2FKgN82HSPKjT47zj0QQN7WUBsPSK3xeewBgVLf6Xa3nj8OQtQwYZW3Is94BXfo0AYh79bsi6sgS8ZJW%2F0XXbL7kdjOqyqOah7uhZAADgI1wOD%2F6yeEXeHwObHHJuoY3GuYn0y8n0NPNJ9mKBTrhHzRuySaIygz%2FNWcNqSxa6jYiPtDlJJ9oTjqs6Zfb2dZjrsX5KkCFdI8YuvnyxQlS2tDWnIRrokkovPU6mYkRrXvM0tFk%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137779977399"
+  },
+  {
+   "title": "New Balance 840v4 Women's Running Walking Shoes Gray Pink Size 9.5 Nearly New",
+   "price": {
+    "raw": "$42.00",
+    "extracted": 42.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900047454443?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=25050275074&itmmeta=01M6T89KVSH1CKWMK18VEFV63A&hash=itemd18f0240eb%3Ag%3AwjIAAeSwDPdq4jRx&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2B2RkKYn%2FfYCAlWMY%2BdOBE7inR5E5bq9gq1mwQeWXjyMrFfVPgUQW4i3dfYYiVY2vlDSZnull5a%2Fb0sylQP2pIXoZtZVhnDqVXEtT0GFAhbPxOUQ%2F3Yc8n3EMNh6E2dBPR7a0gNH8SR09BfsoPY78CbjB%2FVWMqfI5HYwEOqXnQMN%2Fqs3mJvj%2BYv%2F7k0tM%2B--ALfSofSEHhhD78SQFXcMwDxLmFoZAlBS5y04GlPyO%2BkztpixdJSXVz8RgPQwXps6kYSe2em2RRX9o4Eii3o%2FoAtpKsi0RATJ8exD3AAmagIk6t0heeoJmOLdS9%2F1OgSseN%2B8N18H%2FT%2B2yUSf2fkAOR5%7Ctkp%3ABFBMmL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900047454443"
+  },
+  {
+   "title": "New Balance Fresh Foam 680v9 Womens Size 7.5 Pink Gray Running Shoes Sneakers",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366791308957?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVSQ4W5QNGR6PFF092A&hash=item556677369d%3Ag%3AuvAAAeSwDAdq7AQL&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8cSLx50fr4fe7jMUvGs53AzewH2qJmCTg5Hib%2BZnnRZj0CllFSnqvP8n1C0MAACjyjW6CejUZ4QjEer8ftfK0%2FeLOdUbEqn9EPw3WHf0400Dc5lJmS2OwcBZDPhyWQU5M6ft1oe8IbwBqhhUdH4KtHBuDwnSKxYY7ir7b7%2Ff7OBlHknkmdZ2YWoelPSEjcxc4y1F9UTLrRBx3rOxnCyzjuy5HNPjbdGJLfKaRDcDYi%2Buo0ZKh1XNOZxKuKnqReOcSMwr6CjW5tNqLrVZgCuGa2GRWi3rp0MNKE6BxaJFQVSk0InARHi8Of2GYdDGy9y%2FrVLPUExnYWUnnQmGYwPitW%7Ctkp%3ABFBMmL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366791308957"
+  },
+  {
+   "title": "New Balance 515 Metallic Pink Grey Women's Running Shoes Size 8.5D WL515CAB",
+   "price": {
+    "raw": "$28.00",
+    "extracted": 28.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318828014998?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=5056113185&itmmeta=01M6T89KVTK1068S22BS8AAGVB&hash=item4a3ba16d96%3Ag%3APLAAAOSwzdJm20dE&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Fj7ub5yBqmkuQwD5eduKsLkzd8KnwH6jm3IhygB2EfYpAGWhQ10bP0w8ujyRqDLShuebfIY1h89jxefS2Z6HKM18ur2Ms2KIyGsqnaCVMyg16B2D2diJI4m7YSJS%2BJgdHfh0d4TWpN76J6BnT0g1ck3vS6TxPDd%2BsfyjAbI52wbPpnd%2Fw%2BIkueErG72vHU10Btp%2FKQdKrRAtE4t2GAyJQ2oeUHRZjaJ9ttHuBEbFz%2BUAp86C--9tD9AnKYmDGKM5AsxxvL6uVzh9zAVEV3iV6iqraebgiwIfOrfQwZD2LRVSzbFsHEDMKXgkw5J6EZi6WSaEUZasftdZ4LdWtpU%2F6u%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318828014998"
+  },
+  {
+   "title": "USED New Balance Fresh Foam X 840F V1 Women's Running Shoes Grey/Pink 8 M",
+   "price": {
+    "raw": "$67.15",
+    "extracted": 67.15
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318906960153?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVTJP45AE0ZB7DVJJWW&hash=item4a40560919%3Ag%3AYRkAAeSwaHNqs3Lg&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9i0%2FvPJItbq5tbDqqWK2i4fTZmURg62W4PmAwXkZoS0KC1SvvbMSu3WdN13U2YfMYrxfi4nAfhnztUmu4tzYjlbN%2BfAmkmt2KFRsb4eyhrUhY5R1dV3Gcl7Lbd4Tan0i5D2Uan%2BhLCX%2FERzfegkndsflJmeTf5AhGJGrQn%2Bfyd7qHxrmxu%2F7SeYMNP8xqnnpSRmbxA1ZmqFRl1%2FQq35b1hCPfKw5334KoGE8yGUGdG2A7vVwG7hO4DBMfK3tGQevrtKDwQqgaH%2FuFuWZ2kHfDMeRdMziioSr7%2FcfWGl0pbSpz9j%2FA2rcsBvo9jQAeuXHM2ixJcMen%2BJYcWFYPrCJIw%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318906960153"
+  },
+  {
+   "title": "New Balance DynaSoft Nitrel v6 Women's Running Shoes Gray, White, Pink- Size 6.5",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137874572686?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVTKGB8MEYP9Y18GCXK&hash=item2019f7058e%3Ag%3A0BIAAeSw5Wlq3ltp&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2B6o6w06zfU8bEnJEVxy1aSxSOGRczjMJGIB%2BtZrDFJl%2B1%2BDVBjPB3tV4rCgjiCIqlBdqnQEBzXkKBKhglM2DvD0C4PGZ3CJArKZMk7RavkV2ZpfG1nEvDaHYIA9URTtgcWozMrDGyl1D0o5wkvcy1qz%2Fe85t66mGVzwQiYFJRSyxzWH7gmzVecsGXq0VDBmvDm24fThPELLOUSz%2FwYg7nB%2Fxfy8TtW6JhqZMeQNI3S5N8ducjAEWvFafOb3I2Am5H1ZvlRsrksB%2B8jTAh%2Fp%2BHeuv1b2YICuG%2BCXYg47jkvtCSu24TvvKAKaPW%2B41SBZtmC5YunNLC8wp2zr%2FedvH51%7Ctkp%3ABk9SR5i-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137874572686"
+  },
+  {
+   "title": "New Balance Women's 520v7 Grey/Pink Running Shoes Sneakers Size 11",
+   "price": {
+    "raw": "$21.75",
+    "extracted": 21.75
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900047280138?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVTST92WEDVPCS722VE&hash=itemd18eff980a%3Ag%3Az4cAAOSwVGxnIRDV&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BGAqcP5FOeOflQDAU2FYWUgeD6QHu4BLw08TIeknUeo07r8DSgla1tQqOWwrODTcqT%2FaBwPPUd6QbEq9tasFBZEUIL%2BK0W3jJtK4JgoK7ilffG88IiPX2%2FBfOP4VhbThplPIOTzaJATh7WO0SK9BxhDHOD9qR4tzobv3ZB338d3qjPORXcjCv5PKVQYDOd2xb5gVOFIxjjsYeDajpJG5nGV%2BT0JK908PJOqGgGZ5OYa9Rg2gdwVklrga8c8VbFLoj1lrQ0dQiuJs%2B79NSW0FErbKc4HK0YAZqQdJ0Yomf8gE7AzoNw3y5KTO7UJXYWGgevYBIz%2FM4Zatq0OQG0lmKh%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900047280138"
+  },
+  {
+   "title": "New Balance Gray Pink Blue Lace Up Athletic Running Shoes Women's Size 7 Wide",
+   "price": {
+    "raw": "$31.35",
+    "extracted": 31.35
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377613204630?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVTDYXTHYKYQQJNTXMV&hash=item57eb803c96%3Ag%3ArD8AAeSwIrpqRUpZ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9G8LcnKqbg%2BwsHwRKjRuvizcZZWmKo8a5k%2BcmQ5%2BVQAOVGMrQ5S0vZ9Nmo0pcMhj8RadnPtbYbCpK%2FkbRMbt7xmls%2FNYRPK9LSIdfV6Nxs41p%2B0fm9DcJWnRPgOBB6kxyPojHvGLRJjo4Ee9XHyhchi31Gxj5aKNnshfRb3w1h%2F4enRnlxf%2BKrTbYk3MhR8HY54JH6m7A0DNmW7SOWuiQRwM%2F4jTE2hZEUVRrwMMj2bprzyZF92%2BL5D0xNWSKA8DevVFKDSzLVVTM1aP5CiyE8oSCKWsu%2FsHfEFXmjFXugGg%3D%3D%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377613204630"
+  },
+  {
+   "title": "New Balance Women's Speedride 490v6 Running Shoes W490LR6 Gray Pink Size 6.5 B",
+   "price": {
+    "raw": "$19.00",
+    "extracted": 19.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198618673013?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVTGBYZ0Z16DKEWXXQM&hash=item2e3e986f75%3Ag%3AO34AAeSwZPBqmy0G&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BT1VwJL7FfyHPrLLCY8Q5x6wFf%2Fd89pB0%2Bf6CtigIswv0uybxhJgVkO2yn9X4HPG%2BAx71yyO2pzK7zSEEJDaNwVAUltlzGpdcMhXa6On2eKmSgEd1DMLzfyLc55St0ZCEWu33MdPQPprTf91lYhhzBQlPQCmVoFYhJbFMNKULmGfLxlkrjTd7j7xb7En2IoX5FCiq78PV5EElqTqoqv7570e01mQDFI%2FpKRIURo%2F4UnIsuow1E6N6jAHPiHLR2%2BCIsuEkR6GPpB9utaOpddzlxkwzRbH0IoRR1RaiPQFNuxbtBsgPmuRDnRTL0gzO0aSgcsCCuBvkEVyuQSNpXlwbL%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198618673013"
+  },
+  {
+   "title": "New Balance Women’s Sneaker Gray Pink Running Shoes Ultralite 550 WE550GP - Sz 7",
+   "price": {
+    "raw": "$21.95",
+    "extracted": 21.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117506059884?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVT2SFZRKBAPMB5KF9E&hash=item1b5be82e6c%3Ag%3AxRoAAeSwaTJqo1BH&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde83hwYOszgWfnzwtkjYLXtIyNa2udyu9jtVl6FBIwImiVnKL92Lh9zggoF1b9QrISR6qQUF0%2FoqgHHWjfGDpqKjnX%2B1JEX2Bd%2BLDjBI5OKPPY72rdD1ma%2FI4c0FajqtBRfYDPpP4UDZL77xm4RMeTm9nvkTDkneVcCj88JYCRzF2ESpaQC59NaST0iauFSnsKPBSPBLD77iCK5HTWwFGlYlrNfpoDwenSbTtIumUsnj6xU0TWuPWQJVXE38XI%2FS728HUwGStCxkGvceTX1OvfsTNHE3rQ5EzglbnCmls9cONN77YaTWnfTvSh1l5GMDhc5ge%2Fh07tyn9BetLlFkOv0U%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117506059884"
+  },
+  {
+   "title": "New Balance 515 Running Shoes Womens 7 B Gray Pink Sneakers Trainers WL515SET",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336866267133?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=27053773203&itmmeta=01M6T89KVTGDBJ2T35PQT0RECV&hash=item4e6ecb4ffd%3Ag%3AQdgAAeSw8oNq4RTu&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9x1TDhuVxIcyf%2Bh4oR3SpOoOvEaGYpNsXyL2eX%2BDIWiFdj8gP0BCAc5hcJpLxrukamtLN--6ZF8PngI4MHDEbtE3I9IErHJrBzpzIOgTN7GdmfRXrHyHKUZGIFvJNi3VbB718gcb1KJyswLgteE7Ib673eQy8fUYwyGj98M%2BrYBx2XAxtm8WdPZdc8ja19Aiyipbj7AYlnAd6QY68bKeU5e5Ln5lwe%2FB%2BqhfZSR5E7quu3kOgPHgnUBeitp8RWoFVNetXZPg9rgV79uNYBiVJuDpCbfV%2FzZ%2BUvEis2OQJoj1P8A1UZDrf2ZzfHgklxRLAvHHzp4DnAiSSt%2BPMKc8KL%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336866267133"
+  },
+  {
+   "title": "New Balance Women’s 520v8 Running Shoes Gray Pink Rose Size 10",
+   "price": {
+    "raw": "$22.98",
+    "extracted": 22.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407188634448?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVV1TJP7HSVW07A9HNQ&hash=item5ece557b50%3Ag%3AzRAAAeSwsDVqmIiX&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BKQPQdThfuqIhsdNt0urJOH%2FypqdMwBxi%2FCSm4CN4NFmuR%2BNtNjX%2B7AmhFkZ0UNT%2Fr1Z7bNNoiq7pfG6P8P4iicETI3j3v0pLIvQuimtXyMixQYJN1PIEtp2c12qH0x4QCYP2o9FIyECYzlh38dMjPS%2BtrETXcSS9FGytkZma4Bl%2FRFUimXOsLLJ3lEqjA5sS73FHna3rRLXmxejLG4V%2F9W21Yq1iArDwH%2FvrE62uog8dg%2ByhnJ4bF9zR3Vt8MYnLqftpFaJIeThUI7lArnt9A2w9%2Fxl7kq7l9N8YkAFF4oQ%3D%3D%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407188634448"
+  },
+  {
+   "title": "New Balance Fresh Foam Laser Women's Running Shoes Size 9.5 Gray Pink WLZHK12",
+   "price": {
+    "raw": "$22.99",
+    "extracted": 22.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377589577127?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=25054362846&itmmeta=01M6T89KVVBNKKW2EWG67XNBRN&hash=item57ea17b5a7%3Ag%3ApLAAAeSwQ5pp97OZ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9sPZNtOBtGKYexglNhwjdMhSVIWhB6BOVwg4HqY%2FZunnvC5QtmcUCqrAAOhuDxGXCa1HLoPeZfM%2FvajDMikQM6ntUdqXl3v3MNBpTL0EUs1NGm%2BSsh8XhrKyey%2BZiSvA%2BmHqbp6Jn%2BWN7438L42EHXaLMHgMh8MJ7xC59iF40cVFs0MBRWNE3kKTqRt1u6CayjfUV3qQhAsIXKo2ITqNp9vuwwpdChNONDQwhtKZV1CY9brtwpCMG9zE5UeO9ywKPA6Qw1JsVnbgsriZg3UtYLx5kK%2Fzqll60Ajcj0hy%2Fbeg%3D%3D%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377589577127"
+  },
+  {
+   "title": "Women's New Balance 750v3 Running Shoes Gray Purple Pink Size 8.5",
+   "price": {
+    "raw": "$27.54",
+    "extracted": 27.54
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147665496528?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=5056115227&itmmeta=01M6T89KVV10B0C6JW67SAASTC&hash=item22618ca9d0%3Ag%3AdPoAAeSw-4NqcV7K&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde88tIHLqQczU3jCzf5waP%2FbKrzg9c3IXvxrVvBYkF%2BR%2FrVGmSoPFmG3xPj%2FA4sNuBIuWLqep7FH2cwxQ5Rk%2Bb1suNX4M4F%2B%2BB5qAiU54v%2BTij8D3gA7Bvz%2FmapRZC8x%2BqeGicmQ3LZQnGgidhBptnVWL5Sh4HZTRaVOVfOjsSJymD%2BHF9qXZVnC%2BwMeteLFjCyK5D2xg75rnasxzRYMZTVhU8lsKcMScZnkFNDcwv37fcoznmtrJHS74dwAy%2FxqJ7NXBO9QwBIfEnbidR5BXE8tsKrLSvy5BOH4p8ugohe%2Bd9T0cGBHosFCvqNaYzZw89akbT6PGmvYA57isHNzC5qj%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147665496528"
+  },
+  {
+   "title": "New Balance 412V3 Women's Trail Running Shoes Grey Pink SIZE 11",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287529784381?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=28056113409&itmmeta=01M6T89KVV0WG9Z198S80F67RG&hash=item42f21c543d%3Ag%3AWzwAAeSwbEhqgodz&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2B7LwgNksY65liQjmCHYNFM0UTbw%2FaJAmDpypTJCqBgxkUkYqce6dZiW8b9gqcHlCb9hLH6IaIwDQzLWmv4%2FUPHgVaVNc3FYq63zeY3LOEQbLe2cRtcuW9ssaR0ZbEImWCuH1zWTjM%2ByQ%2B31uJrZl5wizdnTnxbSXBqQ5SVUgo%2F3fGunjOMmXrp7GIZzf%2BOueAVU97EueVT8HA%2Bke%2FpjqroHyBx5%2FU9jztk7RaZiUJ%2FIIE8arSZUcYupUNnR1FCBA2Fx%2FeMgOXW8Q1JCQ4MC2fjwtw%2FwMO%2BCAg5ipGfRlXBxwYmcPuiTTYmPhQXjTvchcDW264FrkLPZPR71SZqOTzH%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287529784381"
+  },
+  {
+   "title": "New Balance Women’s Sneakers Gray & Pink Lace Up Running Shoes Size 6",
+   "price": {
+    "raw": "$9.95",
+    "extracted": 9.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127883831521?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVV0BC9S30MDWPWJ9C6&hash=item1dc67868e1%3Ag%3A45cAAeSwA6to1TII&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BYirXk%2FiIM1h50f9yYKBOlifbwxmj8NOTzUGHKDaH8yHyDNMOIICdQxwinhW%2F8hD4dp77y0mss%2FkYiMiT2992v%2FxQi5pnqm3XH%2BjPskfUCTmBExgjP82QKtLFVzNvr60rZKvR5q0HP%2BSlPIw%2F5GAZQf7w64DCWlKCgxy0vss92ItO2ALVd8iIhHg7KiWVNhrA1jhV1kmL5TClZsT40WKwguSZ7YVlV%2BkMOjvyMvAiyx8sqJ27V4eMT%2FDFz4rmqylVxRkAR7x2OgEjyrMPCnbfrukVxD6I3dyUMb8TKe1TbbzhHNPpRYyNuh4qurbd533AKQ1HRxtTvsCQSduM1%2FcR7%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127883831521"
+  },
+  {
+   "title": "New Balance Women's Gray and Pink Athletic Running Shoes",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/157611296398?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVVTVFSF3DN6WN6GJSR&hash=item24b25d868e%3Ag%3A08EAAeSwIURpZlA1&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8VXmhBXoOHPp4XaKM8cazeKkASZqdnzmyDhXoG76UbAMeMsZsvZVGp84u3UYPyazGtcsfoMu47mm2VtjS%2F5uZuqW9Dvg6EDDMvVjf1la%2Blr6lLf--hPKJW4l%2FFoMy2PS9GrOnCTTjky9jimyw3W%2FsAIdrTojTucNp1sUnRa62KvHuGm%2F1spRuhK4M0jXdAi%2B1xbD1HBhGROb5Q%2BI7evhM3znx%2FXJA8eEFWVRw3NdUufb4NqBam1M%2BEsMJmBW5hsBIvW2pIlkRtBBb8Uu4LTJzMqXbl9wUDSEKDxzMUcHO62g%3D%3D%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "157611296398"
+  },
+  {
+   "title": "New Balance Fresh Foam Low Top Lace-Up Mesh Running Sneaker Gray/Pink US 9",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117508751048?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVVGJ4CJ5FDC0WFFX1X&hash=item1b5c113ec8%3Ag%3APd8AAeSwQPZq7oYW&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BL5xtAocVq1DzDCVoEyDGIpdAEtqJg%2BS4XqYFqEsHZlvX%2BvL5uYQzz8aRZStrVo%2BCs0IJmGWrXV1Iqm2zPVzMgmW9v0hsmhE5q6LaBZyU2R1IyCtBFAZWFqTgv1nmR2sIq8OOvLOh6t4zMq%2BVy04yMXCaKLxMAaniR4bZf2fvAxmIBv%2FMCnK69Wen2j1skB7Cas4qf6mHRHwHQq7IGeAMr0LQpQzmM5b%2F0w0SNtUtITZOvZSxaOToD6%2BlqExV7qvIkEpGQBcTz6mBZtV8S6q95X6qspFoQb8vOxfpUow4fnGYqc9R7xds8WRfYPRLT2AnKJXYWs2OHgOsCJ7dfaNOK%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117508751048"
+  },
+  {
+   "title": "New Balance Cush 711 Women's Running Shoes Grey Pink and Blue",
+   "price": {
+    "raw": "$34.00",
+    "extracted": 34.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178153757492?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVVCT1SSA3SFV59W5E9&hash=item297aca9b34%3Ag%3AlMsAAeSwAllqD1Ex&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8HtUBBg8o5YommBiPWxE3mmUdE%2FUiG7f39L8COVMVTS1DEddCqI1V9x7jd2MslU40XxvScEU3TXAQLcPbrseFYYfmjn85oVdButwb27yulElKpnup07gU3rXM9j7Rg2Y69lArzOr0bsdoVRgKDiGXaJf9LUob%2FyeEB5gcfsvdEMwHIARmavlusHYuPc3tEE4Icw%2BxRcleDDPwQs4CwH6G7hhkpFo5U1VqtqmsGkcBX40dGKU%2FL7VLUyAxO0VPJks%2BD5MsmnttcdAkccR5alWU2e6w2X%2F6DdJVeZFMi%2BsX2mw%3D%3D%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178153757492"
+  },
+  {
+   "title": "New Balance Sneakers Womens 10 574 Grey Pink Blue ENCAP Running Shoes WL574CPW",
+   "price": {
+    "raw": "$26.09",
+    "extracted": 26.09
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336808790503?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=16050288632&itmmeta=01M6T89KVVWHQDKV4HSSF2FBMV&hash=item4e6b5e49e7%3Ag%3Ao3EAAeSwHDZqs66k&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BXKGMPbn6u8Rt929%2Fb5%2F%2BVKYbYbUyKxeFoYJ--bUP5lsC0FS6lSe77l1MGEerRrDHaehyg2WUzwNyZD%2FIDVU3pOHHYWZKUCTHOuU1DvLLvt0TjubE5%2FqflkNFLbqMzWPZ7Nw5eHN8ArSkqeOXkY%2F0gyB3Rnz9Qi33q%2Bq4u9fl9POJNoHdGGdR8gCEzYivgEY2tdJeJf1a8KTBNYqsuJtpY%2BIm5F6WMU4zYrmC4URGO6qkvJdnZ00xFghMD5b72Jics%2BvT%2FQsZw%2BjeMRBDUoc42Sn4ktmGkONqbjKj1dC1Xfw%3D%3D%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336808790503"
+  },
+  {
+   "title": "New Balance FuelCell Rebel Women's Size 8 Gray Pink Running Shoes",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267828364458?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVW81HEZ1546QSA93TK&hash=item3e5bd084aa%3Ag%3A9cwAAeSwEjtqjNak&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8pq%2BDEGzqNDZgQ%2FEgguvCijZ17TdHIk6ZLW2GLSTSKF1s21mcfXFYkpdGbKmgoyZe09f%2Bo7thrMKiqSAhcbyG1R%2F573UBx%2B5BvWcM357TerORVO7o5WfpQqulDuZwDD9s6JNI80qpniQYYSU0qwtqBJwh4dU0jYQ7aHTMGBOoSnOM8b3rrpL9zrYw8L%2FzV%2BEb8Mm26IwdrbJMofms%2B7SD4pIKM3OkMxJkOp0c4Sbz8Oraj1L%2F1UdYGzeBomCnSWGudDH3TQLi%2Fju%2Bl53D4LMAcKicbRLoptbAycLdu5iQUebuVFSfp7GhJQBXWBHtZLMEFu7ceKxp0W8JZFT69w5rX%7Ctkp%3ABk9SR5q-psi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267828364458"
+  },
+  {
+   "title": "New Balance Womens 860 WW860KM Gray Pink Running Shoes Breast Cancer Sz 9 B",
+   "price": {
+    "raw": "$24.00",
+    "extracted": 24.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298502784318?_skw=New+Balance+women%27s+grey+pink+running+shoes&itmmeta=01M6T89KVWKDA8FZPRK5MHCKYM&hash=item458027053e%3Ag%3AJl8AAeSwfE5qVWAg&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FC5XMJgnaxoSk3p0EC9493J5hjWjNFxAzw%2B95bbMLzdk39ndwT9vj0VF3Mkf9rjoHplhhHdX1LH8CGvfltXKb3W%2FG%2B5%2BXg%2FoWC61Yg8vjipkHV0MGZlQJVmBHWVZGizSR9gKyK97smM3DHAM0pi25RYV9yv%2BqrlYgiIJ57pdkfSiyKPxX9srq0zTEmZBJp2R6lXB0x8q2SNTcWZTH3eSr%2FlMEQJbkq7MjPxsxeMjOeMJmGkgnM%2B6sBMFMcxiW3zkfElYBBgFfOQxzkN5QZWjI2hD9IMrN1hNHZERziwqoToutj8gnKsgd305I%2By0NsxY6dt8MClXlUu98Mt8L%2BMkIX%7Ctkp%3ABFBMmr6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298502784318"
+  },
+  {
+   "title": "New Balance 330 Acteva Lite Womens Size 8.5 Gray Pink Running Shoes Sneakers",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366735735825?_skw=New+Balance+women%27s+grey+pink+running+shoes&epid=22056109943&itmmeta=01M6T89KVW5BBQZHDJ7SMY4SYZ&hash=item5563273c11%3Ag%3AGiYAAeSwfwRqVxwm&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8CENF%2BLhFRwi1CeNOa1iGEQb2SenISKmxI7scPik40YQswLzOTwmPmLPfzCFIJVZ99alcQZSW1V6hoERGm7g9Y6M2jeVnlBAec1OgCQ8ntGewZhY6KFXwaTQSEyZ5e8iGl584lqOBnYbSyu0UGdQ%2F4Hq9Q%2FQnqg%2FWqVLWFO3Wy9PLEb9SD3ZbrlI2dkDW3PDBeHkOsOpPghv%2BNFBsdctYVpNpHYGz4I2h2zYVCYzDmGANcH1YDL0APfCjgEHt8LMuBMPQ1g%2BhHrb3d3%2FEwkznklCJycUbN5oWkMeCC43kpv0r2yIOqDIkzdhfDw1xbT27mhlghh3jeUyaY7qx%2Bfmwo%7Ctkp%3ABFBMnL6myLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366735735825"
+  }
+ ]
+}

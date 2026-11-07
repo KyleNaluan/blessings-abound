@@ -256,12 +256,27 @@ def _report_and_results(session: Session, monkeypatch: pytest.MonkeyPatch) -> tu
     return render_report(items, fresh, results), results
 
 
-def test_the_report_says_when_a_category_is_not_scored(
-    session: Session, monkeypatch: pytest.MonkeyPatch
-) -> None:
-    report, _ = _report_and_results(session, monkeypatch)
+def test_the_report_says_when_a_category_is_not_scored(session: Session) -> None:
+    games = [item for item in load_items() if item.category is not Category.APPAREL]
+    report = render_report(games, [], evaluate(games, [], session, SavedSearches()))
     assert "**Not scored yet: apparel.**" in report
     assert "[PriceCharting](https://www.pricecharting.com/" in report
+
+
+def test_apparel_is_scored_with_its_notes_and_left_out_items_shown(
+    session: Session, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    report, results = _report_and_results(session, monkeypatch)
+    apparel = [item for item in load_items() if item.category is Category.APPAREL]
+    left_out = [item for item in apparel if item.reference is None]
+    assert "**Not scored yet: apparel.**" not in report
+    assert results.groups["apparel"].pipeline.items == len(apparel) - len(left_out)
+    for item in left_out:
+        assert f"| {item.name} | apparel | {item.note} |" in report
+    for item in apparel:
+        if item.reference is not None and item.note:
+            assert f"| {item.note} |" in report
+    assert "Mercari sold](https://www.mercari.com/" in report
 
 
 def test_the_first_eighteen_are_labeled_tuning_data_and_keep_their_baseline(

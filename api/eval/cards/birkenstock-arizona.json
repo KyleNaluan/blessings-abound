@@ -1,0 +1,15 @@
+{
+  "provider": "generativelanguage.googleapis.com/gemini-3.5-flash",
+  "card": {
+    "category": "apparel",
+    "brand": "Birkenstock",
+    "product": "double strap sandals",
+    "visible_text": null,
+    "search_query": "Birkenstock Arizona black double strap sandals",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "leather",
+    "exact_model": "Arizona",
+    "platform": null
+  }
+}

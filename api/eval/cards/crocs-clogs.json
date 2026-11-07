@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Crocs",
+    "product": "clog sandals",
+    "visible_text": null,
+    "search_query": "black Crocs clog sandals",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "synthetic rubber",
+    "exact_model": null,
+    "platform": null
+  }
+}

@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "brown leather lace up boots",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 150000,
+ "organic_results": [
+  {
+   "title": "STACY ADAMS MEN BOOTS SIZE 11.5",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168524309256?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q44MRRDJ7V0X32V4KA1&hash=item273cd4e308%3Ag%3Akf0AAeSwfRRqTxCl&itmprp=enc%3AAQALAAAA0CHNgUiiE%2FjQhlDTaMiAde9I%2FdzwTvtNO6AG9oGIRp9gcEcu3p8xX%2B6cLBUmqhKxZmzKvNczQumVqRLGmlKPfJrOyEQCAmACzsLBtnUUC5x1yf2Ayq5GqyXLszrdD9tKQ4ilVBGLsWE37q5B%2BchYlxe92H3p0eHPJTYEBe8ln7iX8tIeXTgJEskKZBPAtRhaLZ8M%2BxHR9irMaHbfer8kpJLf0rtzhHTPA%2BKaxo9is8BlB8RUMf735OEBOy6LlQ9sMd1kj30jVzB4%2FPjOwYORF8g%3D%7Ctkp%3ABlBMUKTypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168524309256"
+  },
+  {
+   "title": "Cougar Paws Men's Roofing Boots Brown Leather Lace-Up Size 14 M EUC",
+   "price": {
+    "raw": "$154.99",
+    "extracted": 154.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960164972141?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q44ATQFDQ1K1WE0Q6KK&hash=itemdf8e4ac66d%3Ag%3AvVsAAeSwSO1q7qax&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FW5M4NvxIjx2otGTmJdRGlGaMk9uwAUJXhWMWBmG2kVA01gGMuy8NCtj2Q5h2Q0PR0ciKoOS%2BL8BHoyvdFTj03UHarnAqMYXKgWhvnm%2FSFGkCPvYw5HMc1XsKjCQMlWEPy2J5X0%2BEX7wets3gu4obuNeF2pBATUR%2FknDqWktqU0nj35MWVC0yqYQjST2M5lo5ZVPzJbuQ8sLu%2F5z4mGey1wTQN1JXEA9%2BT5skrPK0QJ5elFCgIGITYiaP7y8cmHWfHlhWuts6lRYzRHiGI%2B7%2FuJwE3%2BxwLsO1MYQSYxCPsox5qb1nLAJ5gu4eRI63i5KI%3D%7Ctkp%3ABFBMpPKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960164972141"
+  },
+  {
+   "title": "Ariat Mens Brown Leather Lace-Up Ankle Boots Round Toe Rubber Sole US 8.5 D",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860120874237?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q45JEBEVGDPMF3RDYWQ&hash=itemc84332fcfd%3Ag%3AIVMAAeSw%7E%7Etq7rLL&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde83yxSilqyD%2BZAkWzXITZ%2FmXlR9cQJf5c3WlkOwKl%2FK9l1MiLj2TKPKpETYXd3AOZMXaNIs%2B3r%2FpvAfrcx7n00gbPZbYjAnrMoya0IJU%2FReoOr%2BOm%2BRTsTGpeL5NecAjlId8tmrp0SkN%2FJUFqQghTh9VFwK3Lbip1Qk856gFgupbO3QmlXylwptS%2F0OVSACRRGL3nQxLZKhuRmcWCKYWjeiMVwiGBiKcdXMp2deIQK0R7BjHwu%2BRzp3bHHINj8jwWzD3WKL384rXXk%2Fr2CUy0JtL9LaH0D9kz0AjqvKNA99dWgGBpx7lc2ewV4GHHGkb1o%3D%7Ctkp%3ABFBMpPKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860120874237"
+  },
+  {
+   "title": "Women's Brown Leather Lace Up Block Heel Ankle Boots Size 9",
+   "price": {
+    "raw": "$29.95",
+    "extracted": 29.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800886545565?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q45MW176BH5BNPFY5T8&hash=itemba788edc9d%3Ag%3A2pUAAeSwZWJq7lmG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8a%2BTcJjr167Ds6%2BzHY9im5SdFUGM5RKYxwGkBj41%2BWQiKf%2BbrBAJFTChE%2BLJOv9S6hwVxw6VZ0zTVXd0NM1F21GuhWFDRyfz1QUwGmW9JzJGtpgbh%2B2bDzZ0dmRRHthKyX7qKSWtnjqu2wazad3FaEccOMlxKTb4z9vmgjHrDLepILWUQ2Tb8iBfqsuVl3K07H3RNt4YF5IGKOhdZTnMrC75r4CJ%2FQjt%2FxEWcb%2FBV7vaDSwenU7daS41%2BOLtG35jcrt4BuT7MG7%2F4xgvGauFyLL1uZTnqfMPJv1QEv20jBOhA%2FfBKX%2Fz7Rx29g4PlzUG8%3D%7Ctkp%3ABFBMpPKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800886545565"
+  },
+  {
+   "title": "Harley-Davidson Women’s Brown Leather 13” Lace-Up/zipper Biker Boots Size 7",
+   "price": {
+    "raw": "$99.00",
+    "extracted": 99.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117506151036?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q45667J8HY2SE9A3XB9&hash=item1b5be9927c%3Ag%3AfUAAAeSwBVtq54zQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8EgGJumVlQbrf0Q8Yf3zuPrm9uTiI3FCQowsIl8h%2FwYBQk%2FxgRY9JbWRlswXBznK6W%2FO7DyxqTC0YnePlH43cN4KIzbgOdA4NsJAnKEzej%2BGr2yg0%2BF7swfitMAj0kYv4X13ifNorjslB%2FDxE1GyWjZkx7oDIPuA7fHom2E1shTzB4mQMAh1BMPBM06VOkwcNQGJuNXFS7XiFE84Q%2FRESMD5ofGQ%2FVABP1fPIbPefFmL9r8Bgu5D4F9BoUVpl1BRKMlX1xAM3lw0uAKVYd%2B3qbPElNL%2FvDhkOm2G64Z9ez7B25xOk4Sii3VJdmE7M79mg%3D%7Ctkp%3ABk9SR6Typsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117506151036"
+  },
+  {
+   "title": "Dr. Martens Audrick 8i Combat Boots Brown Leather Lace-Up Women's US 7",
+   "price": {
+    "raw": "$48.00",
+    "extracted": 48.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920114121269?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q454TWQ6WFMMAW58E8R&hash=itemd63b134a35%3Ag%3AAekAAeSw21Zq7p15&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde82wRSsZcYKz0lbMLh2qarCYy0uHMqJC7JF42k9mCErnsnN5va7GGGk8qRTfsO1AAkpOBel%2BvYDKavMn365SD7%2ByXO4znxouMd7h%2FxIra1Yjd2H7YhQAZUfGNk71pKilENcKPOvOeCZQ0KxcevB8k%2BgFIzK4bsojwjrY7erflaFaEnXgMYSTb%2FtxRi1D87rhvzBTXC8VAV%2BgJgdl7mhdr3VneqCusQ3tjybNfE78iSghyV%2BBcQappVQMPtW71YTYgXe0o4BGiFF4B3nN3Eu%2FrbFzp591TjdakqIhNL%2F1BWPOx%2B5wZrSqI%2BfZCzuGZZDPMI%3D%7Ctkp%3ABk9SR6Typsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920114121269"
+  },
+  {
+   "title": "1970s Fabiano Men's Brown Leather Mid-Calf Lace-Up Hiking Boots Sz 8.5 Vintage",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860120736487?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q45ZF4QY19WCY9NDYXZ&hash=itemc84330e2e7%3Ag%3AE2IAAeSwEclq7qHT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZXeH5UOAJ06cbzW28Sy%2BICL%2B2CsHIwBKG76ppr%2FaBiwdrEPxTPYyaGoHORcdoso3yf97zV12EKKfSXL8UJsOZqN8IP5ngzBk7503CmPFZsQ68uNKbAAlHT7H98DCqLGH4PPo4XtzYitw7GOV17%2FaXqXyXBQvQPyBBEwAbz%2BgCAT3Rufg6Dms8AhKzyp8LlTR1nedIilFexok0xKruZQaSTcOaQep4X436bUiph5X3SbNB4RFkP1MXGrnAf%2BdT8rKn9uWf9GpoczIjtFIWfbJeFz6gwNlzlMtLbuUvmqX8TZW24FRUPQY2lP6D63nu9Eo%3D%7Ctkp%3ABk9SR6Typsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860120736487"
+  },
+  {
+   "title": "Red Wing Shoes Men's Brown Leather Lace-Up Work Boots Ankle Round Toe Rubber",
+   "price": {
+    "raw": "$39.00",
+    "extracted": 39.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840101866506?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q454BKH2S2N1JFK2TJZ&hash=itemc399f92c0a%3Ag%3AJNEAAeSwKfxqyA8V&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FJQCOd0erzNwj4OqxSnnYRlEhNN5jbE%2FLEsmp2p1jWK%2BJd%2F8Ugk%2F15f4JR%2B17hN4OjlNe1TqWWCySho3GwXV4LEzBko12p3Uy4ugJ9951jzNVF88Ww2ZXKm8LZ3pwF%2Fm8j6uT0q%2BUYzJmRDPPLBqsZ5RwI5DKkmBDyVwpDhRU45AmNrgkHxc6cF3grnfeLGsGshdPqGnj9MUNh6C6r5Suk%2FbL%2FB8WewucJRgkQKxqDAxrEEkdcbDb98HXSvD1%2FlZPvh3i8pIT5A5V7Yvzb5nfmWVqYvW2OxlUAFjbf6bYpJzJ2X3V1vDhb02X4RXcI%2FKo%3D%7Ctkp%3ABk9SR6Typsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840101866506"
+  },
+  {
+   "title": "Frye 11 B Veronica Combat Boot Brown Leather Lace Up Boots Comfort Women READ",
+   "price": {
+    "raw": "$118.99",
+    "extracted": 118.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227598286603?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q458SB1307JHE132NPQ&hash=item34fdea3f0b%3Ag%3Ab0YAAeSwI4tqMItb&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8igS%2B1UicjqMaU%2FyETrXU0xCnvgXdh0neDOjYP7Xe8PGVown6CpZPgFE1eI1dlzJe2msVEu7Z28qx3iuS8DTHAHC8LnafNCrI1cwEspPzOxVU%2Flm1il8rCqlvXqB%2FeP5AUXER2zLKoOIWeCm8%2BoWcrYuceWhfuEI8a0Ok1HOACKi7LX0HiC%2BCxkRwCOlXecrQh5cxdeZN%2FbvEv%2B4N7ptBr5jPrxso90ebVh8VxcN9YDvP3%2Bt0J%2BXwmQGPH6XACyIFs2I3xy0d1g%2FNBX9QrjXfmzK%2FQ09myE%2BjMEHbaCWEOFCDRS73Sf2JoGl0wHcOfEg0%3D%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227598286603"
+  },
+  {
+   "title": "B.f Goodrich/Regent Men's 10 2 pair bundle Brown Leather Lace-Up Ankle Boots",
+   "price": {
+    "raw": "$150.00",
+    "extracted": 150.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366791772688?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q45F4M93MACHC8PJ31E&hash=item55667e4a10%3Ag%3A1tgAAeSwAQFq7qHB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8yFHcCLnfNpi6iFkjFoUMUjgJlBBlvgerdgNKbbWMRtNhF8u7eodY49Qb%2BUe9jy2y5BEfc57bPNbOLDz0H7RVBSQZ5ZFHqeQDCV4oCW8L1XWTECmq9143Cjr0IzvLiKt5c79DKwoLFt7Rx7E1WluQq9IxGPBiW5VEVnjki3l18lOKlkvv2SX5h7tlmBOWBzcyb2NZ1YjDW2bT17ddqPk7QswKLW%2BpwyR1aOwBnw%2BqJI9bjQYe5vQrlBJ%2BaeCxrrnnZPPnNGwT1Owo38rfu3gnkRWWXEf3bmCOt3SiaQLotEOkNqh%2FFe6x1AT%2FI%2BMtvZ4Q%3D%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366791772688"
+  },
+  {
+   "title": "Sorel Conquest Wedge Tan Brown Leather Lace Up Boots Women's Size 9.5 NL2337-286",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128179912999?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q46AZ1X8TSZ9ADHFJ8Q&hash=item1dd81e4127%3Ag%3A7roAAeSwEPJq7ldL&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8ezOoom4xxKqZhUouioqNVTyBq6n2OJfBvFQ0VizwVL6WsKH5kEUTGZpxonxsiqwMZeX03grqsk3sZ%2FgCaMA0Wqyf13JfjhLc6ieUdOI5xw6nWN9fq8nVzrm%2FrAnBIfu70%2Bo%2FROKu0SLaKJnrGBric3JmKD5XRfkeKHcuGtt%2FVo3PMwldylIks1FwzjGNsdGCOpw1QnUBQdzR6jsp13ItIABy10nXVuJmBx7LUtnSP0uU4S3VIrm5xiGVcLld0BNGnMZ8MwQJzHkLmZiUiJAIf%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128179912999"
+  },
+  {
+   "title": "John Fluevog Brown Leather Radio BBC Lace Up Boots Cap Toe Biker Moto sz 7.5",
+   "price": {
+    "raw": "$77.99",
+    "extracted": 77.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117500303505?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q46BA7P1QDFWT4YDJN3&hash=item1b5b905891%3Ag%3AA%7EkAAeSw4lxqrsRF&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde85juG3gd8rTp%2BX5TmVXnokf%2BWfgWuytzdQW7eY3AQuuTEsfwNO%2BcM9oLtLYgyVyBYLoAHe9PfgLovlKC2TSumYavQh7YyXmY%2BcrjQVvhfTJoePklvaJJ5XSzsEXPMAiQtaeOVcYV236v%2FoGrm3Oec084Rft9PPLsxrTxxrkarlkpT1ISekWj4rVwegHuWWqByF61luKD8bh39s%2F4SQddcI5efFznzzXzG7O2FcSM0J4pMPdsPIEHNE1r2WQPTf04cHl0zygHo7w9iUCtecH7qB%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117500303505"
+  },
+  {
+   "title": "Bass brown Women’s leather lace-up ankle boots",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287711000845?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q46DDWMCABQGGQVQHE7&hash=item42fce9790d%3Ag%3AIfwAAeSwUztpq7od&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B9tO6wenV0y83C9VF%2BfIkkjbNO%2FkjpOQ7XzE7ACoJK99tGIVPv%2B84HmWwXhS99NSeEFQQjOdKUAEbEv4bU6bJ8h5LwVgCTjOzpW7%2Bj5s9O7qTI6pteMUbZPbZ3Fxk%2BB0qLPXCJzxOy9MypcYibUFoaFFUFa7A9GsduCH4wJ4zgQ%2Bpeakb%2Bzh9v%2FKzU3dGpZ%2FXVX03To034Yu%2B2JiklOrWzmHaUTk44lNJOXvR%2FgloD5H%2Bsu60%2B0COxJyz1hxQCD1MXA4GYJCHLKHvOG1SB%2BTCmhEq6nNmzauKczccml400ElQOvOKDu3l5ko8ZM%2Fcg8j0%3D%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287711000845"
+  },
+  {
+   "title": "Dr. Martens women's size 6.5 Made In England Brown Leather Lace-Up Boots",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880087415706?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q461WCQ0EJBJ586HHHC&hash=itemcce94c3b9a%3Ag%3AJ9kAAeSwbetq7S0S&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde856hmCT8sUoEcmeGLvAHipQJq91%2BL%2B8kR%2BV2hhubK66Spm7PCpDvbS%2Byud32samxGhhrcliPk7r8jg%2BhZhxipadS%2BDC51eksAMcT9W4nb%2FYlWd5M0EWGDkcOs8SWs3sIMFodpmaBG7nFcboOLIItqNfwo3HbvSdWQwRWI0k0BySpno9%2BpeCsVQBreB6XHBIY6z0zsBz3V4A00cuBiM%2BQZEojaBieQQjAxnd82KfEb8CUjr5YWG7W4%2BPr4HkvtU02CaelPqdNlQnbjYIVUuI7pKSdSEGQ4hfjZjKJzZqs5BDMW8XK%2F7KUNhiK7CZf%2FKqtA%3D%7Ctkp%3ABFBMpvKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880087415706"
+  },
+  {
+   "title": "Timberland Women’s Size 8 US 8623A Fold Down Boots Brown Leather Heels Lace Up",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407346053167?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q469BJNJEA0WH5D2ZTM&hash=item5ed7b7802f%3Ag%3AlR4AAeSwtj1prGVQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9twBQsKxKTTDO7JAJsVYQk4bkXwbPI0YefkTO9Qhcdn0qWfIPkNUiLWz3p4%2BZ0zNgwmRcnVw3HRVAKcpkcl%2FsYEa7Abf%2BnOPzeGXlPqVLfGT4Kb%2F%2BAKCe4%2BqCfhCEWzG6P5d6ylxFTUjfKyujk82HcunfgY0Wj7AWrUUQA3nLkfNIf6iu5pGRxoKDGDK4fDX9NNTJo2dW5bJciVcIIDckoGjLuEGmBshjb3nScP5aDRy2eoc2E1tTXxVvnPMWg66Nb2aljwiUHHkN3aeMDnGo0Y%2FMWcaa4uTbrgmI1DpTBRJV72GsRQTL8E85TTFlg3sc%3D%7Ctkp%3ABFBMpvKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407346053167"
+  },
+  {
+   "title": "Ariat Cascade 8” Work Boots 7 D Brown Leather Lace Up 10002420 Soft Toe",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227601955228?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q463BF51PFM9311A438&hash=item34fe22399c%3Ag%3AnoUAAeSwZW5q7kyu&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8h35HLwvyBKHhxvL1jbXu%2B%2B1Mqvrif7xyQwIAOKG0bZuElCQA23VRzFAt0oFwZbybVEzxf3DtzJJ7u1nECKbEB0HD7HRWzBdCbUDE8nhxozhW%2FrcltjKQ4hdUjdpLLNWA3o7Dqe9QI8V4fxGxhgZNGB0Fr2GOmI0MO7wny47ltIi7UOTEhZB6y3YliLYq%2Fzzukynt9so%2F5SYTqa6ZhiueTYoXyA6eIdrHsJDm5NOGZkbOCxikxXiqrAhKHW8Am1FfPZj6HRJEWnHa32sKdnUG9qnY0Q%2Bpg42ZDhiH8unB1e6Sh8EOPj1QtIKlgqSQe%2FQg%3D%7Ctkp%3ABFBMpvKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227601955228"
+  },
+  {
+   "title": "Frye men's Essex chukka boots size 8 brown leather lace up ankle sneakers",
+   "price": {
+    "raw": "$34.00",
+    "extracted": 34.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880091319919?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q46JBZ0MGMTDW37SVZS&hash=itemcce987ce6f%3Ag%3AXuYAAeSwGZlq7rL7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9xdCDX6eC6MmORMBuEd%2FKYqHO3TJjYbqwPRU7qV1OI55pyhuSwfDO1oPbo4vBZK%2FWASWVqfkEzt%2F%2B62aTsCNCNv11kZCnvO6%2B%2FKT7yCVl830A%2BfYuxZbNLE3WenPyoTCxa334HWrXVyvHccEc7q9e8cF%2FzFC7lzf9avtO2xvmEe1MSElfR%2FlXT1Oc2CYT0xiCLpkDhi4y0Hg%2FyOr3rhRG0%2Fl3Bymugp9tIer9Xx7fLGEdHGhiwCD5XIqxHdA69b6PyybpKgeAlc7vrM2o4hkZh%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880091319919"
+  },
+  {
+   "title": "Spieth & Wensky Vintage 90s Brown Leather Lace Up Alpine Boots Women's 38 US 7.5",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168801396481?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q46XPYMDKFA198PNY5X&hash=item274d58e701%3Ag%3AtFEAAeSwjspqlH1x&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8mUbbzFydtd6FHfr0VnSaKopfxJxRI2XmazvG0wNcgIsSOSJP%2F9kmNQOsGnzH3qHI7P2w15qIDuKjfZ8VPlWpu6UiRSAEcpalwWv6OLdFatJCwUdfSTEsKGT3a0wvigjKe5tPbGaEq0c8CQzJpMsNjE1oXRZofZ40Blj8R5fXscF2%2B%2Ftzf%2BqecwmzddBqB1n30NgXDEZ74pxxWutOiL20zhES%2B3%2Fo33FFYWcrLCESpRfUOPaSRfE5EN4l5rA5dq4OBVs1gKlWeNlpHjiZe0qwYIrLFht32B9lJTqTNgmubQD%2B9%2BtL1sEa3E5jeR%2FrnJnQ%3D%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168801396481"
+  },
+  {
+   "title": "Wolverine Mens Brown Leather Lace Up Chukka Boots Lug Sole W40009 Size 11M",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287710811424?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4690W9FWKTFVQ3XTJF&hash=item42fce69520%3Ag%3ADEQAAeSwPWJq7pzi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FxOwzpoT1f%2B6wFsL%2FfAFnV6s993VyU0eZBCTFxASZhtRxdnPoK%2FVtucdKh5Z0p3dvQ79K5ZE6rUYwWtZkOniNkE5eNx%2FjqcP65h6PT4JzJZa5439WDPQojIPfweZGQx%2FULQKFP7e0UlHJDB5cGm4LyJBRG1lCN6RZqu3NORzCuxPkSrVH958OuWUW2yUrWUycyKTEsTdnpYyznegFd09%2BD%2FNYvv5ehlTz3TYs73x41qD7Lh4q3agN3mOPxxYsxTxoF1XL9Aoya4KU%2BPxZMYLlA6FYraRqrBMawzIqfFPm8Q3rBzeFO%2FsQuZ8Zdr%2FzWiC4%3D%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287710811424"
+  },
+  {
+   "title": "Polo Ralph Lauren womens Leather Lace Up Boots brown TAN 9.5D",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327443583817?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q47MZRYXTGR2DV0CF4X&hash=item4c3d289349%3Ag%3ADGMAAeSwMqBq7jRE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8u%2FSRk4frHpmhaexJQM1pz7Z7w9HFAdUxGD%2FOMFEhyn4rSpW%2F1WCiSZ1iLTSSwAUvUEu7R%2FWHf2g3FW6fARz8acJZHq8Xp2i3xbCvTRBLGDPCjB08rDaC5z7pdQWw2e6Ny3zXR8Wc2nDybw4MKXSszJitzlG%2FGHXgwxeUTjMRJiGWgD5x%2FhWntP1k5FvFqvwMW42SI0MLuLPHWyJpEkbexoCJnxVTBovS5fWejjBQrRsEiMyK6eW6CoBalDwRWp3MsiGZ1cc3a2GdAV8df1e42hsVLgpd%2FJbRUzIMo3RIrzB746xSNwKYVKTT47zrveoY%3D%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327443583817"
+  },
+  {
+   "title": "White Mt. Womens DARK BROWN Leather Lace-Up Ankle Chukka Boots Wedge 7.5 M",
+   "price": {
+    "raw": "$29.00",
+    "extracted": 29.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128179501216?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q47RG5403PPRXH5WCHX&hash=item1dd817f8a0%3Ag%3ANVAAAeSw82Rq7hAK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F7j6WQrmPjMMuzV8TjZ7pSI2WPThqFeu3BpC%2BRWQZs7J3cFjAECnwXH1VgG%2BRSgp3wXFOaYDWqNyl4t%2B8Qxl8L21IOqAmHgFf8yefHsHWGwlXPiioeUoGzsiLhk06RJJhkwmp2KtCAAWTxP1bSdPpJFblpbNHoltr9GU8YrShWRkHGesCu9S5xgQxIem9i6kzQQEQH3TWkluEC1%2BwmhSxa%2BGhhJM1uau9i5AR%2FPMaondTdsDlSI8IyfxyONdQHaGpgqzvOuUubjcSBYhifrmmZsLx2xJ0A0LApajmapWx%2FbM8XKFNgTRsYB5oIjx6t6X8%3D%7Ctkp%3ABk9SR6bypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128179501216"
+  },
+  {
+   "title": "John Fluevog Radio BBC Lace Up Boots Womens 9 Brown Leather Cap Toe Combat",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900057012216?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q47EPTJD4YNHM84V747&hash=itemd18f9417f8%3Ag%3AKZsAAeSwJOtqxox6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FK%2FDUB5XkMnyz%2B6wOWpB5M8uxgU21Y7Dsezc0Cmq9kRzj%2B7Q6mdICsB70qzal7ZPtDn3d5fq6pJme5%2BWPCxKBTWgLPgOZKOeWZfvXFJpwsN0MRS7Wvqpwe6pm8h3u371aSke5GXywj%2B63H1O0qg%2FkQROIVb%2FSrsEPA7uPCXegjSmxvd3%2FbyippbJ%2Bwdk4GClBPxA8SLja7SMiIbZAtAbjWF7F9ojPlroSlkwjRSFarZ%2F4dwcZko3DpFNiFeChr7mIm8fZZcPyZIXjxS8W5uMJRo9IJ2oLL%2BwypgfAlhfp5rmulXs72OWBrli9qY22bGDc%3D%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900057012216"
+  },
+  {
+   "title": "Maurices Women’s Brown Leather Ankle Bootie Lace-Up Lug Sole Block Heel 8",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840102495815?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q47FGW1XKJM3SSQ4X8Z&hash=itemc39a02c647%3Ag%3AqJ0AAeSwWutq7o5Z&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8d9GwBrJM69jcinYhCEAsX2xfgMqGdjJz3AYiWx2M%2FTNrnGKRv49USTir5WhKtdaOZ6MkLyv6ABUSserhgLq3R2JD%2Fsgldemud1cFfHUyYiEnbFMN2uR1gwoNYS01APpx49cMnaqdujcPfnIfublo7QXtGpyW7ILOUn9IAwzQ%2Bj74DC2lGcjCNTLgZfURoVtf7JeYfMaD8DzGMAkM538ny7A%2BV5sRjEEPZIJpkQZ8nepMQQ%2F1nAVDj8q3wgnd2XjIUNmhVjOcv1PrWMiJXA%2BPRk%2FCcdNA4XrY1yYO7zoZytGMr6W%2FY2gE830DAQTzQMqw%3D%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840102495815"
+  },
+  {
+   "title": "Timberland Euro Hiker Women’s Brown Leather Ankle Hiker Lace-Up Boots 8M",
+   "price": {
+    "raw": "$39.00",
+    "extracted": 39.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920113794457?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q47NR91XK0YDA91SSFZ&hash=itemd63b0e4d99%3Ag%3A2YMAAeSwrWlq7nPk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B03A2XY%2F0FryvXPlv6fbnXJUAowU87GqXOSxq4a9myZlPcnYfwaXT4q07F2Kx1RuCL%2BlX7wrxRKFZb2tdt3blY201xVM3hucPCd%2FSWvfxJRS9rNwMnxv6DDTAGnaEDKL1aIbocWrnpFBXWQ2Cb0o7PlyGK%2BRA8bTkuvsIzoW9c5pMGrmVxZgnK4dzrKkxYwylAo7VNP6EuPlHli82zHpHfME3el9dKqmHO5PAmt9%2FvzdoAyPEz8rBOpIva1qMLbEv3MvHn5ZiNpDbtRMY3rq5F%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920113794457"
+  },
+  {
+   "title": "Camper Pelotas Tall Leather Lace Up Boots Y2K Avant Garde Black Brown US 9",
+   "price": {
+    "raw": "$160.00",
+    "extracted": 160.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307270368619?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q47CBQPW0AS0NQG74EC&hash=item478abdbd6b%3Ag%3AMOIAAeSwiw9q7kco&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9yY4D921qj69crBt4kyA0UC%2BZ5TpTIitduWRghe65g3OaIsr6bfs0qhccy5QddM3gNFQ2txfbo5WNcjPp0U1emeDR9IB7QvyjcO7WAJvjzJEBQ2wX44DAutHLrbzIZjcGCc4gzlHhxLXdF%2FitocaPSFok4p%2BSCvk9rNBvhLicRG2pxVKDlH8kp5423cltvrg2vSXvirDMHL0A3cg3LhQurLCVu2ZbfvBdNqEu37elQw%2BOFPXQBuFTwd%2BXbkVkckmb7wx7%2FKnIcYv37AFQPpBzWSUTi13kPA%2FVVWcuis67xtoqUy8wKRGRQ%2FTWh8HS2dUc%3D%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307270368619"
+  },
+  {
+   "title": "FREEBIRD * Billy * Lace Up Ankle Boots * Cognac Brown * Size 9 * w/ Box!",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287709589191?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q470QNY1P8ZDFWN910Y&hash=item42fcd3eec7%3Ag%3AUZgAAeSwzQZq341%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9I0EV52g23g%2BqwS%2BrZuBCaKc7Vu2I%2FVT6SO2weqqYGBxLcHOLv0gEwL2Hfs%2Fm6%2BQ1Y4jv7c1EW2baZp0cjN30DlOCHTE5WWwPywzG%2FzBqZXLMLcwcSG2iiFsbQgwfD6aNeIPkSumbqifuSebU4lN4aKjQk%2FsCoU%2BE%2F3HuULCKAXqpP66fNRJSw3Hxd%2BPafyvsTwpbbNkueWKEbJQr2oEphpkjqwr%2FipKCVrroe4%2FEmBpR%2F6bIxxUbu1y5HeALsmbNwO4idTYIb398EhQEFOcKPECNuIOv0LvI07Oiu4ippcNXT4pvsG6IiEPX33uo8nKk%3D%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287709589191"
+  },
+  {
+   "title": "Hinher Women's Brown Leather Fur-Lined Lace-Up Boots Made In Italy Sz 8.5 2947",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137804473334?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q471BFWF5P2FYPE10J1&hash=item2015c963f6%3Ag%3AsVMAAeSwUPVqv7hc&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9js4xi0CtS1I09QyxQTQXtiDITX6dV%2Fdcruw6iFM6KeJU7zDhUsAtxNa5i2EyMkdh8brEKOiM7LRdwbEjCvieE9l1zjIb%2B7DLAxzJpMRJL5QKcVGo528dpjUtJcCYon93m5hSC3MBmX%2F%2Bl4LH0n6JgOzuAyaSv1hhtEEHAkNJ4PLFXleCkfAfQ9J7Uda9Q5jDOrdacH54ie17FGX%2BHBbvO2wSL%2B761q2ThetZLaIFv6NBkhZGYkKbz6McHT%2Fj2JIzj7M2gh0j3raP%2Bco4fnIux%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137804473334"
+  },
+  {
+   "title": "Vasque Men’s Brown Leather Work Lace Up Boots Size 11.5 Utility",
+   "price": {
+    "raw": "$34.19",
+    "extracted": 34.19
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336868915671?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q48VGYH4RGF7V8FTQT6&hash=item4e6ef3b9d7%3Ag%3A4dgAAeSwf4Jqa9zY&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FaoaIMSZ6bLyng3hQsp%2Bk8KPnWRwzAwoV9Urts7xJFs%2FNTI0TbypjXP%2BVLH%2BdfEoHddD1QCgiVaeecZVERPdykdLzF08FNAqNKbyrtq7ZsjS6%2B%2FlRs1SMSwV%2BhYA2a31DlvG5DLne5GEuI347M7Bvcj%2B%2B%2F8WhxDoxqQSBCGerNnrp8lE1psXBBlT5PKHyOrO%2BA2xJVLtkFmiA21AdGXtS%2FzWXX%2BrSc55sO6h2li3cuJSrjdkOUHBiT8LmMxGr4xgCjsqwxKL5Nn%2BgI1CwzsWSj0xfORPntty%2Be%2FObneHyjmO7YoBiH3c0sk12anzbe%2FSY%3D%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336868915671"
+  },
+  {
+   "title": "Timberland Boots Womens 7 Sienna Ankle Bootie Brown Leather Lace Up Block A24TW",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147173202861?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q485PEG1C7SV8H9DDBD&hash=item224434dbad%3Ag%3Ah2EAAeSwtkxpn8Wj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9MM2aRkTdMMdhje5wYURhfogCcla39b8CBNa2EgJSvCelbs%2BnZ9nLIknl%2F%2BVNZWAKl42o3SObSQVq4u2IhyIi84zYSwsLGS0Nm441OPUlsonwALwyrPxGeGWzQk%2FQMEHrQO80pfJUFWOcUT7HBhX6R42lgYA5x6T5O3THrjwG9FTs5dQh35oGtiu13BCna4ON8e%2B3LqRTLCQAP9kM0B9jVeNo7QWKbILmJ8xchoQ%2F9FifFCShRZXND2JE6ggYmQ8%2BxaD4p56zmkrYxxpOc5YYSD%2FxV4qg1wuNpEmxdw6C2vH3%2B%2BHfKS0K%2BOM6j2ARfi1Q%3D%7Ctkp%3ABFBMqPKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147173202861"
+  },
+  {
+   "title": "Angelo Burlinetto Brown Leather Lace-Up Boots Size 9",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960084290871?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q482295EE747NH0HXAH&hash=itemdf897bad37%3Ag%3A8PcAAeSwjmNq1Qr3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BcnUcMla76ZFBBIa4vohRrf6hgJzN4Df4L4UzusFVy%2FFSQmMLtXPBQ7V1F45lb8oIhU5ZZJfwjb0CfP8HVdl9azTAirGhtc6dYiPawJYOmOOBMGojwV4%2B0WGWVjvhaH6Hy0CjeRz47Pmb7MSL2rIysJQfVAEHiOfN4FU0yT%2BgL4oZPpLsDM8fIpvLprVQVYT4MoEb8Z9awadK2jyo%2BdIqtzLzmd70axwLHHVelOvPMTfWk4KsZxFukAPjbj2e0jok1RVb2KNKYD80SU3%2B%2F24iWBEM3cTkeqncf9q6DR%2BmTfkMM7eROlF37Itc%2BPKvZ9U4%3D%7Ctkp%3ABFBMqPKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960084290871"
+  },
+  {
+   "title": "Born Womens Misty Combat Boots Size 6 M Brown Leather Lace Up Block Heel Booties",
+   "price": {
+    "raw": "$59.87",
+    "extracted": 59.87
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336441843853?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q48M8871KYW2W5TTV61&hash=item4e557f208d%3Ag%3A0acAAeSwobZplqKr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8rm%2FVKby7xLAoeJm2BXL%2BQCn6%2BzXaLVcgiW8p9Wci%2BzZJeZist5KjUE6O7l7UGgVTSssznBT%2BYxvmmKEjTIuB4uVQE5xenSlFVsiqXU1cw3iVZ07L3U4sSoz2UuV%2FtTnqJffD1QhpCOgKsfB%2BE89danWFPi1R%2BIMNaB8FO%2BxFXDuJEn5AJmvEE5EtXvrjcPFDmxgiDUU5pVAzF5QuZtdli4xMR5yRb2UeZTEQb0S%2F%2B1ADAi7k2lnUcsQsWnxwCA9%2BNFkP5WVX4AAGwWV4vqU2OH9OveZ6zKVMvPyn--%2Bmz5HORB22gmp5dPSqCBaAdwOI%3D%7Ctkp%3ABFBMqPKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336441843853"
+  },
+  {
+   "title": "Pikolinos Le Mans Brown Leather Lace Up Ankle Boots Block Heel Women EU 41 US 10",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168842406310?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4840Y8D1EQRY2CPYT4&hash=item274fcaa9a6%3Ag%3AD80AAeSwk-Jq7UMD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F18W7AUS9CrKxLC3QtIBf8UwpasYowUE9XgDuiKTMQL6uw6Drm8bLVAPTIKdDdWRzkBlzmKs54FsvIn3b%2FlNdvLVj69hNpvpdk6jVXv6zXKDaP1yS3ICsV9nUIR4Hi2nk8MPzd4P3HYefK8eu5lPPtua3aawEHE0laZBFYe%2BYMJTd1Tvw8eTPK0fn4bIQu%2BOn0pdZms7VGsMpCn1M8AEH1YB3bsYgT6ZB40AKQ4ceSmlwmaV3Nn8FI8t2d8ekRhyCrvc%2FuHSMl2IVqQrCUnzsOSN9dUYMtvBLnZDJgBZUi%2BP%2BPzg%2FZUCElV8bEO8nWtzc%3D%7Ctkp%3ABFBMqPKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168842406310"
+  },
+  {
+   "title": "Hush Puppies Chukka Boots Brown Leather Moc Toe Lace Up Ankle Casual",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227602123734?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q48J92GQFMPPK61WVWD&hash=item34fe24cbd6%3Ag%3AKXsAAeSwZ5hq7nkP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8tBwvT3QpItWa8vy8JspbEAMxxEhq7lB8uqbkTR8HKvHIECCCgq1FzEWdpaC5w9lb5bpBQMkUdiJKGy5hTadEBEr%2Fv%2BJyoeZVJHXyVnMJ4hGPaW7QpotAv1uBeiqfv05Ms8GSA4aUG%2FgamJRig28KgDRKqSA3PhafyycPBjodspolYs7B4ZL7j%2BH50LpeFD1txD8gamDj6apj%2BwVjYtqRp9dhkSOP8gRV4ZgNHWwpLXw9OxTrost02PKPo3h7u4VrE7MvUJS9bwYoX3PnpkMTwQ1tMLSPd%2FqtYvSAQsH5NWSV4yCq0H2sNjy84cBxlBeo%3D%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227602123734"
+  },
+  {
+   "title": "Dr Martens Clemency Burgundy Brown Leather 8 Eye Heeled Lace Up Boots Womens 9",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137908576683?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q48W2KT0CW1RW3A5ZJ5&hash=item201bfde1ab%3Ag%3ApVsAAeSwp7pq7i6A&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FxKHQjVoI1n0CF1G8OnnViRMVJ6cBzjgE1aSpv9mocFflytwYVRs5nimZCU5%2BFSZG2lMe63ymaSHiUOXMtM0FADtc6BgisG31PDEq0ER9nCXGSeGZ%2FcDQI52TuUrZvlAwHJYnRGDneB5jXE9k%2B5v%2F15eGLDDmSsMcIVH4GgZ%2Fd%2Fqq4M0BgUXWZLAP5cLJQpR%2Fxy1ZZ1pE0W3W31f4Nkfy2H2PvNTA6ZI4KhGqwnS7qEP%2B3EiZonLRyY7eAZIbrWTW1TMRTQfoJ3fVg2%2FtzqEDe%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137908576683"
+  },
+  {
+   "title": "Earth Shoe Bryce Brown Leather Lace Up Ankle Boots Comfort Size 7 Style 5858271",
+   "price": {
+    "raw": "$14.99",
+    "extracted": 14.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287710371364?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q48KEFB9WC37JSAC49Q&hash=item42fcdfde24%3Ag%3AH3oAAeSwsJJq7leH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3RRfnnOJVu9UJ5jwZpT2cX%2BOUnJuhsAqpkN1VepQGR2y7atLtNSYMCpi6RkjcGf0%2F2VqRxUX23wd1YBs%2BR--8I3YcXa6g52zHXFhP9cODDAqsqeEzXhaHNU9blQpZMbU1QqkwbcejptyqfdAtxE7Y%2BbVdOJwOX42hSe0cqwctxpieYvD%2F5Ge5ZpXgsMtp2ZRtWCrCx9yBacx7OpRuOJi6GO2usnKnNlx385WY7owB%2BaAVPIPaAug7H5l%2FDUTNDoHz4yhnWD2PdRjrjNK4oWA%2FToBXs6rRGfFOFMs3VYA91EzupiUeEhb1yOWqIDyifSA%3D%7Ctkp%3ABk9SR6jypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287710371364"
+  },
+  {
+   "title": "Dromedaris Leather Lace Up Ankle Boots Faux Fur Lined Brown Women's Size 39",
+   "price": {
+    "raw": "$74.98",
+    "extracted": 74.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257839574587?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q48D13FMQ9V7Y72AW1F&hash=item3c086fae3b%3Ag%3AfwUAAeSw7Dhq7nvZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde80YqEACpPo4%2F3643sPB7sSLZAPgfoM%2BJSmK%2BS%2BJTf1wtCc4jQ%2FuPl10Tc2wwMg%2BKGvxhaX7SjEJLotwO7SLABbtzdxKK0mR78SysxFTXSeOnic%2Fiy3AQmSw2DHYuXh2Zx%2FdBuDSCW2DY9J%2BKrtX6%2BitlEKH04jza9n0VzYcpx8P5ipRA45ZMBu1gnMLVbxJRdJeznyUAQ4yG927OanRiHzCEMmFlt9CGCded8LKGFQDA72WumDWggps%2Fjeb8S1TGMsJR9YhdUQCEAFW5dRr%2FMrYrRSyJtWJQttYAgus89F98khW%2FaVIiAf2pP9k2QzI3k%3D%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257839574587"
+  },
+  {
+   "title": "Freebird FB-Billy Boots Womens 9 Brown Leather Ankle Lace Up Buckle Boho Western",
+   "price": {
+    "raw": "$126.34",
+    "extracted": 126.34
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198778831323?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q49A0ZVQSWSQC33Y3TC&hash=item2e482441db%3Ag%3ADc4AAeSwm7Bq7rgU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BkcN6027Nmb%2FsGytfmb63l1tXz4TpgEictDIZdqAN1VeQ%2BxVw03fmYki641b53Hf2da8ykB2d2QLnUjsIHjjJv54nyPlf1l0JiF9ST1wQyXfHlg9a3CBk9PY9Q%2BUrAM3yMwN84gE4tEFK9IDlQVODGPyplpxUNUFzU6IAWCKADvHP8fFiFzcZkwWfzdgp4AR8wt9RFoOZ5RyH28AopI997ZJYzEtlQSXlBAVeO9gAnBUT55LVS6RluRoGt3srr3Kl96vwsQpodrtv7zzjTdkIf%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198778831323"
+  },
+  {
+   "title": "FREEBIRD Borow Women Distressed Brown Leather Lace Up Block Heel Ankle Boots 11M",
+   "price": {
+    "raw": "$179.99",
+    "extracted": 179.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327443978303?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q49BFYK80FDA9333V5P&hash=item4c3d2e983f%3Ag%3A5N8AAeSwZwBq7o9Q&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde90GFcWREwCwc6lfarxU8CsBpfcwBz41sGk3Ht2Vn%2B%2FPvwcyIit7XaZQhh%2FjWhNIqWN5fFzkECHv%2B7x712lrU8f6sJzbOCNryGg3prevMpqaXYFVPEVKUEAdb%2BkQDLkaiWoq%2F80xB9yNVyJYPWl8bQFGE5hcM9Czqi92A81WYyX32dMuurksAY48bwPwOI7%2FasPL8NYlI7liRrxmjSpv2nPqp49djAScC1EwmoHw0f5aV8rDzD%2FfL8ivVR8Ir0TNMDzh5aDT1pxmHTW5qdBFFII%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327443978303"
+  },
+  {
+   "title": "NWOB Timberland Courmayeur Valley Hiking Boots A23UY Brown Leather Womens Size 8",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880091360495?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q49G82T8HAAQMXZC71H&hash=itemcce9886cef%3Ag%3AlGkAAeSwN4xq7reH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FIXeqcmI60NbpxF1ZQy6%2B6So5hiX66pSFQc%2BTp5ys%2BXSpbjyGmLRjgs7vtRhUSFw2itnkZq2pwf77ud5uM7CI1YYE6EYJl9rkzn%2Bum26Eyrv%2BAzb7kqLx0SsXAiVS%2FmtAYXNwN0oM6vDh4iGpfGCguLnFIOMQzvA5xmmZhw7xATE3QpfYks8UGEp6XG0Ea0vIErwDECDHtbDQ5lVUY%2FHLJhnzJ5ec8BRNzSqyVcSVZYrT4hrd%2FJ6Rl0MiwRjbHb6bRtBZpAo8tNu1zWyAYmAApvpuxDpYgjYk4TJcxBihJEUjO2jE22uS6dpSEmU%2FTEGY%3D%7Ctkp%3ABFBMqvKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880091360495"
+  },
+  {
+   "title": "Justin Burgundy/Maroon Leather Lace-Up Boots 6 B",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128120977059?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q49DRQ9JKF1XSMAXPEK&hash=item1dd49af6a3%3Ag%3AHWAAAeSwrz1qxko3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FQ%2B882zKET3DxPoKKYTGqPWH27o8hBkVsKQf77kii3AFsQWvVSy0M%2Fx6E7fCTFIwhROvF5d6SDqAyVU%2BK%2BzLc3aT5DYIBeteanvrXVkPfnrJpWUfREnSRBF%2BnNOUXkx37nHUC0zTThArpc0Lepsl%2FEuFv1p6Mwajaelj4trxY50D2m6%2FZ5M5VP6z%2Fz9BLznfGsw0ak%2BLjgkgXafOTeItbyYqg4GR3%2FS6h3hhrNhoLrbWi3WPiE9HmLBTM6OEUbnBy8noimUNxud8j5I7fgzawHsuERvgO1FJ0PhYymPeFJpGJAj1EzfQ58%2BhEXD6MZVlM%3D%7Ctkp%3ABFBMqvKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128120977059"
+  },
+  {
+   "title": "VTG Stormy Mountain Brown Leather Lace Up Ankle Boots Cottagecore Gorpcore 8M",
+   "price": {
+    "raw": "$34.00",
+    "extracted": 34.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287709431116?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q49GASDZA0NBW7CFKMY&hash=item42fcd1854c%3Ag%3AYX4AAeSwGTxq7eL6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BxrOtNKhkk2r4s178WYDvn1s%2BWbBXXcEpYyLtka5e%2Fg32%2BMFPA8W%2F5pOUliIF3D9xVUqv7Okhcx7Xs%2Flfpl0F7iS100fm0eBZWZ1ro8%2FBGcm1ceAF1xoiU8RWSVkTlJ97vfpKS3ZQIVbV7wtwgo0YeInxYxEq2PddMlu6fDKuIPLCiInl2I4e37qCBrdZ5PxpfFqvqQKIqv2CmeWHcgSRjTywA5noyOjX0Q%2BO4tIpIODpqO5dk88m2USs1lBTncbERUxFCls42v4T%2BPBFqyDQT5QD%2BmS%2FrkLZw2e4t4iV0GzqTwU3z9AS7Lu4rUg8nzIQ%3D%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287709431116"
+  },
+  {
+   "title": "Sofft Sharnell II Brown Leather Lace Up Back Tall Boots SF0009206 Womens 7.5M",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287709650393?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q49BQ0G810089GTYH5Q&hash=item42fcd4ddd9%3Ag%3ANXEAAeSwjNlq7fJC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9fdVjnLJOSMywb9t8UdkW7MRS6HDVZHxfWD%2BAqE7bUsGcjJ6JwtkL3odNJT5YZ7luombXdpX1n9WKHbfmRQUyYZIqtdBd8EB3h5nWW1BDDjgN9ACTKUKNYxuBQvBEtyCw9Sv%2B0fprgfnNuzD26prIUpe9KVBEV1gz%2BoEwAIwAPy8TEEj7R8F3QgAuNrgHNje6nVVDQ7wKFrlSq%2FxpS0Fd9PASchEPbiYnpIh57ExZtpBU29hJgTty1urVYnE9%2Bh6R5n7HfJXWAL%2FCAVCoPvufB%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287709650393"
+  },
+  {
+   "title": "Dr. Martens Brown Leather Combat Mid-Calf Lace-Up Floral Buckle US 9 EU 41",
+   "price": {
+    "raw": "$269.99",
+    "extracted": 269.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800887461920?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q49GDG9Y624284EMX7B&hash=itemba789cd820%3Ag%3AFU4AAeSwSBBq7p1K&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8mhuh4ENqKAZraLSV8CiJuXCqh%2FAGOXwqoi1yNxyRaO5ebQWgXlvSof1o6SQpCTnhsG5s2QWUHn3VKuXxeWZMJSDH7xkkD4Or9eFGJ7ubG5fkV7CeeQbygTdvAuBQojqQarRgSylzLH%2Bck4nd1kRXgdkDqnoYOg%2FyCwNJFaOWxMjcDtAHV0ydeW5nkBEGr%2BCxXpObNZeKDPUa5QHiJ8Y9QPhnbtbOIqmTl4NY4xVm2%2FJSa4mWTO4ZynhVkzkhTVykCYqvPMNi9ICXC9LZswZAz%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800887461920"
+  },
+  {
+   "title": "Pikolinos Brown Leather Square Heeled Ankle Boots Booties Lace-up 39",
+   "price": {
+    "raw": "$69.00",
+    "extracted": 69.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128178936291?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4AX089Z1ER8JFJWQ8Y&hash=item1dd80f59e3%3Ag%3A2hsAAeSwTpdphiQg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8%2BckgWhVTd%2B4SrlobZLWAjdPFw3FQvn5AuofXvL1L4AjECRWFXxAQ0umrqRjATs3Jrmx%2FVNV1mrSB5%2FRsMvJbrFgJsZZELB%2FeFKxmBhrTNc5eAZ%2B4VKcOWgVGXj8aW8wfPVybMK%2FV%2BEkW%2FCWzmTgFz7Hm27VPgmeWvqGPZPC8tsN26P5491Q6%2B%2FI6c5kU4JElI155z9ZnCruXzExX5iwtVXcfiqX%2FkWt6qW0XPrA12svZZ17ziaLc0ocICh3LPNDelc2mWzCA2MaNH6dnW3YLoqo9Kib%2B7uTQDsXujj%2FrZv26cEcK7oTrg7Fi09kISPAc%3D%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128178936291"
+  },
+  {
+   "title": "Cole Haan Brown Leather Lace Up Combat Boots Green Laces 6B",
+   "price": {
+    "raw": "$54.99",
+    "extracted": 54.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267835438359?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4AG5N67EVAJ8GNHPHN&hash=item3e5c3c7517%3Ag%3AFiIAAeSwk-Jq7bBw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde87clM8LQOjZjHj2nyC%2FbPcVv5hE%2Fq9UWNGMHYp0jlQs9jWvP05pgl%2FvGhrosp8%2FCxrY6DsL4Fnm5wgdZR9VhLG%2BEzsjPqxeV0NRw%2F9aFcQT10YqYQjj6lf9lvDP1eXQPnBFB8WO0BCYI7AB%2BkazOzJRuxWZcoUzCSMbj1sB28FbJI%2FETPrCty9zAhUGWlQ4ffEaMNHgahKYGce0zuJgsW1U2CafE4sTHpgvirsx1Ex6Prl8dlvionRos%2BBTUrYjCborxTlnsghZJleRbYxnKXwORnkC88gUSPb%2B7arnnTfZ9ygJIrdaPgp8%2BQklWE5B%2Bg%3D%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267835438359"
+  },
+  {
+   "title": "Outdoor Gear Men's Brown Leather Combat Ankle Boots Lace-Up Round Toe 10.5",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920114316929?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4AFZJX5F9TJ4MRRM05&hash=itemd63b164681%3Ag%3Aw4QAAeSwTAVqMJ6r&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BocUBiqi4W68wUGYp7J01Iif1pdjvO6urCFH7k5YmJnpBK8d7RlULK5ocyWF4U7IM558mh%2FoJBSzWwVOan%2FIK2Qm1Rw7d%2B6himbXdFSQAkL9f%2B02pzpoCnKUCNbHoLmEstlXTQUaK%2B5uRpQPGXeAfEd%2FqfxEEaqsV5mkkYId6b09gXB%2BWtXGMV2Y6pe1r9sbFu3MWuNAgFGLmIOf0SrjgteFuID3VsUj0CpQDsmhX6L7yd%2B%2FFTKEA8zDMgulE%2FA3RgISJIgQa0SMvbiq5p6X15uFK%2FVHFp4c5ua1e53yzJ5MVVjKvkDulKLHsdFdWg7qs%3D%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920114316929"
+  },
+  {
+   "title": "Brown Faux Leather Boots Lace-up Block Heel 8.5 2000s Combat Boots Cottagecore",
+   "price": {
+    "raw": "$33.95",
+    "extracted": 33.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198778243219?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4AH2RYNB30MARS3KX4&hash=item2e481b4893%3Ag%3A5scAAeSwfLtqxXNI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FW5x0zxdK8Zw%2FoXM9cv5rBB766p0iwKyCzTK%2BLAsrEUst2PoC9Ip2vtCCCthsca7CVDkKbBT%2FfzTjLJjOJ1OGAf%2FyBLxTvPH31d4y1%2B%2FvNSD%2BdJUA00IAhuPo00za7yG%2BiF7AEYugEc3Jt%2F8kU6zeFPoYHYcC%2F4PgEvbH6A3XJcUSLpG%2BJTBP9zya23dsJEftVylA0BvHViI9yjHfB%2BpKy6lMEV2KLE3i1iM%2FcqjzbuAG2gN98wl27kKpEIuIvoYQIelCWjxa10YE8X0fccwN5%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198778243219"
+  },
+  {
+   "title": "Double-H Lacer Logger Packer Cowboy Boots Mens 11D Brown Leather Lace Up Vintage",
+   "price": {
+    "raw": "$149.97",
+    "extracted": 149.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960165035295?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4AXF8ENBWQJKV96KFN&hash=itemdf8e4bbd1f%3Ag%3AZF8AAeSwnvxq7qr7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9U3va8ALiMWkzqXVY%2FJIJSQunimf5P7j3Rsqyu%2B7MtQb4124B%2Biv%2FDvpUixnBX3PB0udpKQPSxbqDgp4kBL6A43OVQjHJmog1%2BW4zIG5X2mhQAVxT0MCzCAaJxtUEB7%2BJhwAaYixoRaa3QBNrzWtpmOMQ0%2BeilJ89I9P2ZuxvEsbsPzO6NbBx%2BeA%2FPWV2uqOxWdmuXhSq4mehyWvVYqnJH0jKgikS61nJ9BSBvraF6XW7PWg752pZ5us%2BJtHBzZ%2BVEMEGFffAEAcvaRAv5YeQSuMjO3lBdla9obgOATXFc%2BPMnaeq%2FHJ%2Bve--vXXHoVNY%3D%7Ctkp%3ABk9SR6rypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960165035295"
+  },
+  {
+   "title": "Sorel Women’s 9.5 Brown Leather Joan of Arctic Wedge Heel Lace up Ankle boots",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920111916928?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4AN2R6W8MHAHFPKR0X&hash=itemd63af1a780%3Ag%3Ag4EAAeSwt7JovZMZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8S5cxBJDi%2BWJVne2%2BAfolSkL65JhXeCUYwJVmSXuDjsvxkh2P5IBM5PuQdpUjZitsEVa92Es%2BTkrsGcW2n90aHfqWz46%2FtFCNMjLLOU9%2FxEDp8DcLJTkOW%2BUsEUjE6lcu9C6CODbLwbnS%2Fq%2B8K235mxvnuRSWfPiDj3zhZU8ps7Lgf8U294mSqnu4pijC85s5BouTS6hU0hhfUfibYxsQ78Zq6pi4aWDWqx5m%2F9TqEgOKWhRPnQ42HsmGojE9VJHxKNI2UKiPceN%2FarFTqPsGTP41tE0vXJuWu1YkBvvk2hNA%2FdExYAbKY7bLSeB4AAc0%3D%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920111916928"
+  },
+  {
+   "title": "Sorel Brown and Olive Green Lace-Up Women's Waterproof Winter Boots",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206681185265?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4AC7R3NRXSKF1NWB58&hash=item301f289bf1%3Ag%3ArPIAAeSwMHtq7nVF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8DOOnU7Y7KhQKKimP1ZFAfbuSSfRqU2jCx7ctxsrUawZ%2F%2B%2FCF2RVz8G8rlpHd17xzbnFCr%2BPJu5rfF8Lh6x8XD%2BdKKQRvK8WILXqPGFu411X%2FDDDBes0TT5obD%2BXui0Tkc8SX1ICGV61eYuk9ypzwn2zSoIht16ITZRRnlsgkivcHBIUHc%2BeO0h1963Xc06TRdIswIqLahrTv8gmFDQ%2BWAwwBr1N22JlpcdDpTDLrea2yGA%2BEmci8lGnw1JYKAYEgv%2BAptix%2F1EFfVB4%2FuMmpxGonPBwXhKEqIBHqxCClaq0JNGTEIBo2XRsv7phVnDkY%3D%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206681185265"
+  },
+  {
+   "title": "Thursday Boot Co Captain Boots Men's 9.5 Brown Leather Cap Toe Lace Up",
+   "price": {
+    "raw": "$99.00",
+    "extracted": 99.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206681335321?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4BB6YJBQQPDG8GWXK4&hash=item301f2ae619%3Ag%3A9BcAAeSwpspq7odG&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B7wR%2BygTlHeRHpnZHerxwuGGLHdlIyUDgZ4Z142j38hINQnMy7UiVG8Gy70vseNHlVBxxuAxs9z3iYdTHqVDiR3Q96mkWw8ZYXGkAHZHrRt%2BpaSymHU%2BLD4t7FohrtbFNRliAIQfiOu0m9Tl53ePdkPIe3f3Lsscnc%2FBUAP%2BNe5Xui2GPPO5EvXYJnLmJ5gIbQYk1cwbpDErUCoV0NDVxcNG2EDyCK8r52vfOHTJaw1DTUAtTVmslk0hidSDPlJRYbt0T8g4sYwO6ZY4NtLVLU%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206681335321"
+  },
+  {
+   "title": "VTG Acme Boots Brown Leather Lace Up Roper Western Boots USA Cowgirl 7.5",
+   "price": {
+    "raw": "$44.50",
+    "extracted": 44.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336883597319?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4BSMR4G47GXHMM6CVS&hash=item4e6fd3c007%3Ag%3AxbQAAeSwEwJq3obz&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8jtXxH0K6GybSK797n5WvM4ALhXAPgi%2FGNwTifjEhVjuqjHkcKC0A7v2CfiK9fK5X8gtT6JL%2BNoBQ%2FMIw28LoLf6F3s1%2BkZdpkUG4q4zopPk4SZp%2FCcB%2Bidz%2Bv6Tv0paZ3djSB0G70%2BYzgG3iLxm2xTwPAKtge8ORuII%2FRdSIa6xcl4HOMY7SRucJvo89Gybob1pA3u1cf7tV8aoyMeMQKmOLM6ldlrujaqLKAAGXnnMVSqG1hLuGiFjDSmWHio6OXPr6SEwvfMjKFdxLVlXo1Sc9OA2OOv2D56AKRl%2BuUcZOYU0PYDcMThdW%2Fsn1en8o%3D%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336883597319"
+  },
+  {
+   "title": "St. John's Bay Durham Faux Leather Ankle Boots Lace-Up Cognac Women's 9 M",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147669616012?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4BHXC9545G6MDBSX4F&hash=item2261cb858c%3Ag%3AMDgAAeSwbgpq7ko4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FpHsJjUb4GJxMKT8zdXFvoesyj5ABG8K3oFEIYKxuF2IkQN5p%2BoMamLb%2FS%2FlP2w0o6zokIJvtZIMwoVCu5hanhc7ZnPWRHze9sPhtdEFDHiuOOF6CrZB3zQEw4K8IlKsk88Z1utney%2FEaKEo%2BuTkw6fLxjetgyM1ny12ZFEOaIyOvM%2FT5lDwB8LFCNY88otVUDzQLelIWqGmnYOs7YqCesGSzAPGQZmvjlXDq5K0n%2FjrJYkXGl9Eo0fS39Ch4yu4BllFw5R1prixdZcgitFX9OQyFZJgFeSxdvInN04LG1ulS%2FSmv6I0aFXTKNqa9d2YA%3D%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147669616012"
+  },
+  {
+   "title": "Free People Distressed Leather Wingtip Lace Up Ankle Boots Brown EU 38 US 7.5 8",
+   "price": {
+    "raw": "$125.00",
+    "extracted": 125.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137648820986?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4B4HCQTQH1K62STVFW&hash=item200c8252fa%3Ag%3AmqYAAeSw3B1qiRQf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F1XyKMgPJxy8ZgcAUGBGUvYF4JLZeTVGKVOWw%2BMLT0eQZVaNNl9LLprmlhL9lbbEbNP%2BExir0%2F4IkUUqLdvAO2zoPG1XFSSP8AQeUidz0vRCy4Apyrhr%2FlWOc0%2FoMARuJrt9DeNfKzsZqRXCcbh6fYMIN1UqcvcIVeFqmj3k7hIm2U8ZoJbdA2YFI5tbYA49HeuA0zXA9Vsirkkp9MoZEYgLq6y%2FOCyysKUNpcusiCDgP2JaLfpzWZI4HaPKwWqocXa3cwQkmmmWEtotk8l44mfJt6hwrjI91fKHj7ol%2BptXWC10FUnIHL3j%2FqW3rO4Q4%3D%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137648820986"
+  },
+  {
+   "title": "Vtg Biltrite Boots Men Sz 9.5 EE Wide Brown Leather Nuron-Crepe Sole Lace Up USA",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137909477620?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4BWR35QN6BYQND47AP&hash=item201c0ba0f4%3Ag%3AKoUAAeSwXhVq7U-r&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BthL8E%2FZjnckxxHVdWgiLz6fPpF37hCkKG0HqlIwFol0eqX%2F7lo%2BOIBJZgiit7d1AnzpxFJ36O9KE6n%2FWk0Kx0SkfHyEH1SXQN38Y3FIdAhdqduNzQlfiEN2LTFsZ9PoTa%2FuEgPiyBEiWIZisd6KbP11P8zAPW3uLlTFUXf2EK5qfWQC05Bm2uVvPKQEK7oaP7FlrqpgpyLWlTC%2Bxwm44vdBXas%2FIWN0Ai5ECnBRZ2g3zD7sBzYmm6S%2B8AP0nmg2kfDaf6efi9zcM1ZUVqxSTT%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137909477620"
+  },
+  {
+   "title": "Fly London Yip Wedge Ankle Boots Lace up Platform Brown Leather Womens 41 10",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128180190069?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4B22QSGPYWKHCNPHAT&hash=item1dd8227b75%3Ag%3ApUYAAeSw3pNq7n-d&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8I%2Fu4bZ81FeDH8BqblxfCm89v%2B5ckkm%2Fw3SWXiTWWpR75WmQETQgRFj4knMwRKO0NtlPCozFuOUR4U%2Bxw%2BE6w5X8ZPs9HkLpUbZRkguS7ty%2FwLGeVRINcTtyWKqXIIXkusEAqg3QP3EBTSSRBY%2FCH8eUum3BLRV3NOd1QEGL0OWDAoU1APxtOB4bEjAI78OORIW9xt17xKt6tV0pHraru5WkmAvxDhDeJIhyZjPM0621zpo8MCJ9kNYzh2biDqeTiBElJrSAeYmAnctPs0yavo%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128180190069"
+  },
+  {
+   "title": "Ariat Heritage Lacer Boots Size 8 Brown Leather Kiltie Lace Up Style 11080",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147669884813?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4BRD4KQNZMQXC2Y6BW&hash=item2261cf9f8d%3Ag%3AhToAAeSwLbBq7oYY&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BUC3ZTddfSTLZiUKvTirZNH79wWW5y9NNbNLOdTfL5CCEK4rAuojLQuw5iNEI0fr12gaAZvn2Qb9M9imG1knUaHCoI0jhVFTsS1S3BYFAM0YvF7kiuVVlzjA6Gr3W%2Bna1nEK%2FYnP%2FKHbAV0Q2ZYo3dlB7oV8GbBznjBsg2xzNt2BaRHiZo3R7mMDO%2F8M4%2B3no%2FkDOe2NtlVBfCf3D%2B5tfjEwzA22UPtxm3WX%2BggTYai0rny89%2BstmJRoZZdU5lbTThrWaQly1DOzZyAnHud0So%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147669884813"
+  },
+  {
+   "title": "Sabreé Brazilian Brown Leather Heather Lace-Up Wing Tip Boots size 7",
+   "price": {
+    "raw": "$39.59",
+    "extracted": 39.59
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287367884493?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4B2464J7VH3EY49PXZ&hash=item42e875eecd%3Ag%3AvbsAAeSwupVqHcTj&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fi9wjHJk6j7gMCE2A%2B6mg7TcCDR1bGcSPN5eIZETLwLBiW0SspiYPQO7z8IXRE8zIGrth%2FgRDXnpbj8rEUbEYWGJszGYImum7K0AqvV5V2EZhi892P2IHB89LpUZ1UWc5UDIkPp9qT8F9t%2F1eq7WCWr4dg%2B3H3vbMb4KLeR5jz9X8VWlctPFd2%2F0YzwFf4AXj9iSF%2FxaoT89bsEP%2F4wqn%2BBj7mHjCS40vzEpwzceAMFvvPivAxmm0Gu3kXPdlLG92wjyO6%2FqLY%2FC4monOOFV1I%7Ctkp%3ABk9SR6zypsi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287367884493"
+  },
+  {
+   "title": "Caterpillar Womens Teegan Boots Size 9 Brown Leather Lace Up Block Heel Booties",
+   "price": {
+    "raw": "$59.87",
+    "extracted": 59.87
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336445076683?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4CHFQE9B5DY40BFX97&hash=item4e55b074cb%3Ag%3AsxUAAeSwk5dpmVG9&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B8pTkMUKYaiSWg%2FxNCS5InlibcoAwkGYvg8%2FNadw3y6Oa8CLjCNqaLQonS%2FK%2BdBKTJ75HxOQVaImkqrDOtqmV8ZxCL3%2Bq8OGwpZm7MxA4cf4pEpidbJuTA0ta12x6MVxc8egXoW2sa2b3ljzQGUJUdfi57LlIW0mUqCOm%2FWUcxmZ8M%2FKFKwD723ttlS7yzaTgv1w6ttP4gkaORi7Ib2%2B63p95c9ZVdiuC--ei%2BX1uoMeoNLsbJeDqJhH1PYemalxbpvphmTNK9slu6LrHrec1yUH6ayknV6OAjPSlbaDoEvrqh%2F42l%2B7L%2BFAA5IT9jhQI%3D%7Ctkp%3ABFBMrPKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336445076683"
+  },
+  {
+   "title": "Kodiak Waterproof Brown Leather Lace Up Men's Work Boots Ankle Rubber Sole",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/397706946240?_skw=brown+leather+lace+up+boots&itmmeta=01M6T89Q4C15W27KQ1VWMCKXDZ&hash=item5c992e66c0%3Ag%3ACc0AAeSwOt5ps03%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9jh74jpYC%2BaYD6uycuTI778MD0Gp1mQhZaOnqeDPY0lD39bzJ5AXKMRzsg8eTpFUaFfMLAzoagABKt%2BvUJYTVdf4zh%2BzEsNWMgaOdlxmcylLvi2wV3D6z%2BOG2h5mfxjEwwjw3Ie%2FICM%2Bi16NrnaUhCF47RIjEs39R3w66tDHU72eaVQ4OLckQDOuIT9wB2Q%2BIg%2FlhWHHt8sBHlrsdB0jVcxHh6k7vX%2BzhwiwffolqbVcGCeauF5cWFfYchHnnPjg7SdEQS%2B4wo57%2FOiHnFrHtKBCvfrgHjNfPfHCyFKfyUH50iXhJkdERiq20FDpF9JZs%3D%7Ctkp%3ABFBMrPKmyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "397706946240"
+  }
+ ]
+}

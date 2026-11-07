@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Levi's",
+    "product": "denim jacket",
+    "visible_text": "Levi Strauss & Co., Since 1853",
+    "search_query": "Levi's men's light blue denim jacket",
+    "model_confidence": "high",
+    "color": "light blue",
+    "material": "denim",
+    "exact_model": null,
+    "platform": null
+  }
+}

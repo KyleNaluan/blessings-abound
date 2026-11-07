@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "New York Yankees",
+    "product": "baseball cap",
+    "visible_text": "NY",
+    "search_query": "New York Yankees navy red baseball cap",
+    "model_confidence": "high",
+    "color": "navy blue and red",
+    "material": "cotton twill",
+    "exact_model": null,
+    "platform": null
+  }
+}

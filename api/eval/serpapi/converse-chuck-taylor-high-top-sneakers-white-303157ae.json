@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Converse Chuck Taylor high top sneakers white",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 16000,
+ "organic_results": [
+  {
+   "title": "Converse Chuck Taylor All Star Men’s High Top Canvas Sneakers Black/White 6.5",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377618191006?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K91M6KAHJ5YWEWTM45C&hash=item57ebcc529e%3Ag%3ASioAAeSwZ1Bq6gCA&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BtriBmxZwZT2JlvrXb61uxJKbgugjWL%2Fso7vIJB7R7pMT%2BUxCzsTBhu99lY8Y4mK4OJdVJtPZ3zM50rRyd%2FvH8U4Mmi6dZJ%2ByM72NpeEAMLyQbfBrfHry8V5ZCNghi25NNc8wnfd%2BLKo3DYY1z4ttd%2BA3bJDCKR8XkRlrP8N7PBxBl6KvigojaAgBgVxJms5ZCXr1CJslmKuINJdxQoHXUdYFFZL0LVnlpOj0vvjD9hlaPvfwI2JR8zsFoJtAGQd67QtEkbnYLmqkWduR%2BpDaxAR%2FxjeNjhxMOpZQikqGR%2FA%3D%3D%7Ctkp%3ABk9SR_i0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377618191006"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top White Lace-Up Canvas Sneakers A00915C",
+   "price": {
+    "raw": "$57.99",
+    "extracted": 57.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227519925577?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=12055289887&itmmeta=01M6T88K91QANWHJ14BPXKTZJ0&hash=item34f93e8d49%3Ag%3AscMAAeSwN55qpt%7Ey&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FNvyiSTnIXkRtA2jW0oncM0QatUGPskpOOm3Kpn9kzV%2BDuJsB7HNKf%2BBhlDuTl8KZVw90U%2BVpd9G2FO3Euoxttbn07OD1OTlsXmvExBOYyxuWKOqgSdpT28AY3HIHguY%2BEopNyAS9UTXqcR0s1ZsyZXmFcyms%2Bd1DLbDrNxskaVyGU2C16Odf6mIxvH13m6YH6JuBi0cRoZjWdKp0WbsBlRoG7DJdk6FQ2nXnkhcWQM8s9Pcjg%2BmKJkBiBvyeUwxRLRmy3dXVn5qLeRtkzyg6s6eeJ2SayWJsDsCiZMvDiymdJFHcnBu4E71Vs23qyZApolWP15fGsllWTiW4Fy5wS%7Ctkp%3ABFBM-LSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227519925577"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Hi High Top Lace-Up Zip Sneakers White/Blue",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336640826566?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=9050289704&itmmeta=01M6T88K91MSDX56E2R1V1KAK1&hash=item4e615b5cc6%3Ag%3A9Z8AAeSw9gVqMEto&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BC4IWLvE%2Bi3Txg9bKiliAdm%2FXvQwm3lXeKZCiPeiJp50f%2BS40AWPsczAA3aJ6U6Z7p7u4Tll4LJtxQVcoC1ah9Gr0S7ArQMNPydlZBeW8bY5zCWQ1zL%2FiKHH%2F8IZcc00g1XHRKbnUMxBvYyEvvjdRYyZTyxyQaGuDpijV9ny1jYAvwik3DFOktGXxi%2FO0zjHSankoQLnm9S8hr2DvMlZKK%2B%2B8j5DrSVESpK64uYKRB554Y1QTBXQe1LyfuI5PzlJRP8Y2cBGCjG8xOC1QUon4a1AtBGrG3JuWYNcwAX211Q2uAJak%2FbXVtvnCaskidQPnW1xLJjMeMdz5jQEEdoyJn%7Ctkp%3ABFBM-LSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336640826566"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Men’s High Top Canvas Sneakers White/Black",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257688519898?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=12050284408&itmmeta=01M6T88K92JJZPM61RT9CCT98W&hash=item3bff6ec4da%3Ag%3ApLMAAeSw7RNqhHnF&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8g04QE6PsDDCznDOO6ytnPrEFa4fRoNnc3PXMc1bb%2F9sWCFd79t78ownoLFxBIydBdvPi53rKt0rCo0ka%2F1akuHIDvIr3oH7ivnc12HdG8ufE364L7A1doA5dR1g%2BemXvXeYewybeFFsCkesscUr8AfCGJW8qzqSMG7fVz9HACM0qjAlX0ySHm93M9GrEWknJBISg2aH0Ejq4lP5hVJKsHGLcxxOrl0%2F0aibkNte2vGKfuwe8bsmZMu%2BAV6uzns%2FKzrVXVvbIsPd7P0zzCFSCyn8XFcgbJzFwmyQCq%2FzSX5OAJVpH88bdZH07ctuJ6KdNUdkxhILxpq2UqL0DXslvF%7Ctkp%3ABFBM-LSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257688519898"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Hi Men’s High-Top Sneakers Gray/Black/White 8.5",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920105594581?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K92Q5Q5ZGDT59CE31AF&hash=itemd63a912ed5%3Ag%3AegcAAeSwd-Nq64B7&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2B1dtNsh%2FJtD5%2BidCFYy%2Bot%2F06a2kd4gxpGi8MRoc7CcINpzdmIcV1%2FzlVS6DsCuOqQEYsOho%2BderNO41QKoicEpfUBEHICeJi%2Bx%2BCGoCXRBN5BkumMVt3QWfwn8V03pFyo55nydCmUISJ6ummmmnWOR8q1GDAbhY0a3CbaWS21P%2BKdxJmlDemFDQKc5y6S6mD0Jwep0Kw3Lop9%2BdcS4fQ67%2B5LJJlAhEDBP1x7%2BtyLVqa%2Bj5q4%2FBPdxP4JA242lhN%2FnBS4UVZsrlv5WzaBwdpf38snRpv9AVs89rUR4A6d3gU7AD2mgJtVUS6sq9xVZyNl3Ucu2%2F4eZJNT%2FhK6h7fM%7Ctkp%3ABk9SR_i0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920105594581"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Black/White Canvas Sneakers US 6",
+   "price": {
+    "raw": "$12.00",
+    "extracted": 12.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128172893497?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=9050289704&itmmeta=01M6T88K92RTRK6QH11E7XBP1R&hash=item1dd7b32539%3Ag%3AgXAAAeSwa-Vq6e%7Eh&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FsxeBfwE%2BU5zVu4nnw1l1VGgrh54OAaE6ps0Q5TdPW6pWP8sVrCLDWlD%2BN%2F085TwofAliIjrnePQ5LNYbuHKpKqpPQFr8vZ49TwoTSqRLM68YCEgB0XYN5BSKUL%2BxsqnvRnWmep6qNT%2FyXtV%2B1f7YlTtDS%2Fl6QayDEwDP1IU2KM97%2Bwf2W0zKSvPdNrp%2BjBiNn888ZTQyeiBsUW9L1XDoSFeiIqH8DiTThOHe2h9uc0EZ1iyY8Rn4PkQ6KolMMJeWavN5qJ%2BXTvpCu3SnXJCZee1x%2B%2BZamTMYE3Lp9%2BMA7vQ%3D%3D%7Ctkp%3ABk9SR_i0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128172893497"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Canvas Floral Sneakers White/Black 6",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168842268485?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K927CRW2R1YXZH75XBF&hash=item274fc88f45%3Ag%3AlTgAAeSwQp5q7SIq&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FKBw6FRUl3JaCEKbkIyrDY%2FnefY5ebPWOCGiOJihAY6LDRzog%2Bb3OgCE7KSL4W9HrKLdRmWWkQkGlBW6Qk%2FOeyvfVqiuKzfKwnk4heFSDZnh%2Fxfjn%2BGMsX1BDaqrEcEWitLHFOlNjTSK9C75fjdHF%2FsxeLBQdJQZQCHchSX3AgrXvJEADIRUWMbrtd0BrCT3rES4QOVVztBPPn1jbYJZTq998ME0GtnBIRIb5TAOZ7YPO9MMxHH%2Bf%2F3BEch2e1af29iOiGDCMolj0io0kKSSNUe%2FTFnbxYtzHyHH5iQP7naTr77KnknnxNTrtopUIupffkbnNkODG6%2BM9LTAwCX1Xj%7Ctkp%3ABk9SR_i0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168842268485"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Platform High Top Sneakers Gray/White Women US 7",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206680063800?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K92Z6ZA7X8EQ36AZWR3&hash=item301f177f38%3Ag%3APjsAAeSweqdq7d2F&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FCmKYJwqaq7NXtC2hWDhp2%2BehH0cqx30b7KSG3y0Qn4JgRNVX9%2FaXCZuneQyKCenm5ejCVhCDTqRELOon4qpVHmUyTyCN7n8A02rZmZUdcIr2eGH7rCc5jMLZrB9s7PGz0d4A%2FQ5bO%2BgI5zdsTnfxX1VlqH6bb8vnXEqkXQSl3LRkP3LJ9Zcc%2FM1BBoGhuGyZYUebbuoY1XzD7O5R2YqrJe24KSnaIozk22WMFlPQBNu8uuv9V44zLM31vqCUldQKbdjOUJ3w7vmIqXG%2B8SPnDw%2FIFqAwbGBVXWSx5RUuHOA%3D%3D%7Ctkp%3ABk9SR_i0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206680063800"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Move High Top Floral Sneakers White/Pink US 8",
+   "price": {
+    "raw": "$10.00",
+    "extracted": 10.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198772498764?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=27067677301&itmmeta=01M6T88K93RHAN6G065ZPMHR2A&hash=item2e47c3a14c%3Ag%3AHDgAAeSwDYpq65B0&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2Fv90Donk3MqgdR6w38y1Ty7fFq1c8ss3MRop6Q%2F%2BsS4Taa35iRuiOGE6JFW1PF8Yj9gl5N4%2F0NL0XGMi3bjmPFHkQbg%2FkOMWDnXaJQPpkBTv4gAN1HviSy2%2FdkJ8O6%2FMZbEC8krsebCA51r%2FO7H95z7eOmudLmtmrHRVYTpZz7pZNU%2FbjF6ImuSL%2B7LyJcdC%2F%2BjVVPft1L697%2FFs%2FYL4JmEwT7ORxbHdM1sHG46747Bip%2FNuFIoc69sgUD3dq2F7awwnt9jIZnRzAvxtcBpi2UoDREPHSlUU4Qf2Y%2BGC0ekw%3D%3D%7Ctkp%3ABk9SR_i0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198772498764"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Lace-Up Sneakers Red/Black/White 8",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267835786125?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K93Z3N0QGZKY1H3GAHS&hash=item3e5c41c38d%3Ag%3ArWMAAeSwZbpq7heu&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BHLlgyZhn5HIFGCrZdD0NjkkWEr%2F5iNMVv6YFDeiegg%2FGDOsl4eDGnlKPUjehtBA3sg9EQLcPP3P7V%2FsivQrL8eX50IBthjm%2BplGgWz1FwdXELxGWTK%2BfdNWG%2F7UgzDsi4S6PVtD6hTqQkliklDHA4FVRZY1mCX2mxnxu6QxfeFRpolLr5h%2B3u%2BPxrmR30kxGhvlH9YuoE%2BjbEbtsJuZBZ2gl79sJ5oVZyMiPBG%2FU%2FNq4ITkOhojUkmaM%2Fr9zjFYaQJuC58rr1qu00CED7W4xW%2F91UZmxfJBS8rMzGKmgq6rgYqsHognQEuKc%2FF7o2UrU2ahWfzvZDsCsmCh%2FZr45s%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267835786125"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Canvas Lace-Up Sneakers",
+   "price": {
+    "raw": "$38.00",
+    "extracted": 38.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336882378314?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=17050290426&itmmeta=01M6T88K93NJ4SAV57E8M73CPH&hash=item4e6fc1264a%3Ag%3A9sUAAeSw5uVq7Ree&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde92cEGe3pG8mqwUYCff%2BcC3Vrp6d8EeXnB6bRynugswwUYPCyZzCwCi0jDrgo2kesOTbhRxYgz%2FEiWjCGZG0Qa7DME2CkkidcCeGWfVGuam8T5rcORYIpV5ezpnZAhBHpMkPkxOHmMRFuJB1KBXCmg1HvvtkB0SvrNCVG7CIFi4cuMTVg4f%2F7WGblDJYQdqg1nCVjlcUiI2967sogKXMxDa4XbCwdd60CrUHd%2FMn14KRyIn9TYvKsQW5VC4yEP3e%2BZ38JRCTAvW%2FPdI4EPRSmxW%2FcOsWx1ayR2rjAhUY8GpQbgv5FmduATYcJl4tjjB3k866LdlIClKo6jFZhy8Asal%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336882378314"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Canvas Lace-Up Teal/White m4/w6",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287710461514?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K93NN61MAQR1MYCGC4Y&hash=item42fce13e4a%3Ag%3AvB4AAeSwbd9q7mwD&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8qVwNk20iKcOZ75PCxN4oP8qOtAIRk9X6ofCWnp5Fh2aHvixl%2Bg95ubR7BcGkhaouJ%2BU4I2XnMPb0UbNGetyIbCUsjzD9jCInS4a8PJbCrCkYSq8WB2tubNXhuVWEU4jpgrqdfEtgDDOY90PBQoTY2vprR47yXA2K1z%2BURlYDtPKZbNyA5GGxLFu5%2FMrwtge8DSG5zcoiGAqo6xVGpweZVjbNgVQpyqe2dRMdUNNfHtQhjqmY3frRXrwnrAf3GmsMspmiV52FvH4jT9wg5TMeqhU2ZqYqYkIZXUajE428dMA%3D%3D%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287710461514"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Sneakers Red Silver White 5 youth",
+   "price": {
+    "raw": "$38.00",
+    "extracted": 38.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960145196403?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K93C1Z9R32B516B31KY&hash=itemdf8d1d0573%3Ag%3AR8gAAeSwjWVq6LQF&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde994mCEXkDKoiho5mHgH135Lo2nRXs6m2lIYcmbXUBR3RsocO3zTgdnDH0cO0E%2BJ%2F8NqHIsJJFqt5q3xiU0aPx0UrnxAHyBDQkjbxo2hCqZvr8L9sdqlH30XV%2Fzmgp43oywB0SYPMCFX5%2BS02gQrR3JzQO%2FkUVhAQCtDQmSqNbwavT9%2BHPP0fnTvex%2BojZJoZCOhbLFhToCms82FGehDbUE895ZM27xZRPjGx%2FDpd6tM%2FfYEWTGsBx4dOPKGZ02NUJlczqrxgHmwjOTFOLqezpMmLq0NhL45J%2BpjNfrR%2B7yDUIN39rvqkJ%2FQQtyePrnx4bKlTZA%2F1M5d80FDgKFcvhu%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960145196403"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Optic White Canvas Lace-Up Sneakers",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/298634335149?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K94E7ZADZVGWTXH5AKJ&hash=item4587fe53ad%3Ag%3A61UAAeSwau1qlkaV&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8nIxDeXEfOL4Mr26UD3woakGakLB8kQPYbajxuiRrfG7pttfgupqs5Q1uTOdwEFYrBrKf0AEFTdii1KX2L3dp2202cZ29qIheJRA3bLUoPXMfwZLdEiLZNw65xbIvdVG%2BFDRmP4QYQ4U494wy4P%2BN0E2B3ali1m95QULgTqZMbSJi6nkqvFK%2Bff62yoGSJ2DO9XJ5lS3lCm%2FKJF1QDXTznLxGUo0ml8h9ida%2Fs0PeWaOtwjCXDu2E8lSDgTbqPwCMgYi3udnoY6gce7bcm%2FuqH4%2FdbP4adrJ2--V7Yo1QSCwhDWUZbW7B2D%2FdDTrEbJupHEmmmICMSeNPNhzptsDgW%7Ctkp%3ABFBM-rSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "298634335149"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Black/White Sneakers 8.5 M, 10.5 W",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227585987591?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=2315026834&itmmeta=01M6T88K946AJJSQTXCEKC3TMM&hash=item34fd2e9407%3Ag%3A1PAAAeSw2l1q4OYd&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2B1dGb371ur8zOnCZMzLw%2BdkgRkJAItLFEA4rTcGHRU%2Fp35gvy%2FXWR1YGWzpE9KHYUE10MFrkZfUVcOrgC6tmp1xKg13nwYPXJMU74CJraITkEs5CwYWxK2LSMZ656Vfa2tMO5IP%2BQmno%2F%2BtcEpr0LtYPrewi76CGYSL0dO9tZMx5Nc%2FSp6NMVHcc25lrrPTIWH0KlJeluhS96hFU7iJNPg5RMlhGveYyvP4GxPPCcFPD%2FOBBrtr9cfVm68GEsCcjPbxiRlb1Daj1s9d4JXRMs8tAECrqsXTVj0rM53Z5j7y%2BHXFzNqNAZ%2BROAlIdRM8VU79MtkThAov6u89cTR6DFQ%7Ctkp%3ABFBM-rSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227585987591"
+  },
+  {
+   "title": "Size 10.5 - Converse Chuck Taylor All Star High White And Black",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147667203708?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=14043979333&itmmeta=01M6T88K94C6A7RSW8D794CTE8&hash=item2261a6b67c%3Ag%3AXMYAAeSw1xpq7AkF&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BkLZg8hTctUjGq3YEvOeNwnv32g5XIsoebvI4%2FHeadJHBQmR9b8IP51C5nvAJ2sh0%2BSWq%2B70tW9ZoWr9KSfN1nOcSE5glr75ttkQY3%2FzqGOvuTfs5IkVabs23u2esss8oFC3VgjUZndZ4sAhhq4ORC92pQ1t4ywNHAsCIQxuUT65Z8Iv9gksVTFCkjB0xAGWDIFrvdP323aaVbQPF7%2BYnJnPw5wsaISAuHxCmbdypaehHkIfC6tjZNb6JSMsT7%2BL4omc12%2BhuoMFAVbB0dpPWirWlSUGZx8hCIovbeOKnoc3jhDI4FpXtzB9txEeJGHU5FP3n24PP2LB2sKX0pqCCc%7Ctkp%3ABFBM-rSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147667203708"
+  },
+  {
+   "title": "Converse Chuck Taylor Electric Purple High Top Sneakers Size Woman 8.5 / Men 6.5",
+   "price": {
+    "raw": "$39.00",
+    "extracted": 39.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800882214122?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K94E38SQ97PZV7KA485&hash=itemba784cc4ea%3Ag%3A4dMAAeSwCJJq7PWh&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BOQBZ2qbZVzsubj7CmOoAI8%2BYZVFkZsH%2Bm33Zwy8dt2snLVEHC3YBiNcmYbb0iY2SmKQv8sx971m0bcddQ%2BmjjTbXmC7VrpCXFVgLnH1yTGC0M%2Fg5U3UFFwTwTSj0YhkW6UqWm5ncXNDD5Ys1vR3Hu4qdryOpxRY88QSFk%2FRvyFdkcEQLck0eR4JTx4uR5vkW5KQetqZp3guv6vunCb4mUL5kFNih9NcFXi8Rx5z8eNyXqSZchFDeyewsDXiac8OydbNg%2FaAfh3IZTX5RHyJfUFh0EpGGpBk2DubjTkwM4BA%3D%3D%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800882214122"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top White Monochrome Woman’s 6.5",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860110215559?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=18048489647&itmmeta=01M6T88K94Q50H7YBV4PF379GG&hash=itemc842905987%3Ag%3AaTgAAeSwidpq6jCq&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FfVlvum4W7GBVgRC7DqRxeFv4Vz9gpxOKp44kPhwuHdr471JcHS5dYyak5nHgos%2FYSPN6Qwv6yPLYRkMTTdlInIwh%2ByvqGh7oi7%2FV4WUsMt7zVGjed989DtOCYNspThXWD96t2BPSYGGdf%2BCawvjkiY3QlTomM7U4t2FLmAYgcnyBLWl50ACE%2FJQiCTGM62ISHmswbi6MRByg9Uh4wMO6Le9WjEZPEad61PeKo8%2FXTuOcMbKbqpsNEaD7KYR81U5K0ghgpN%2Fn09t4SgSUPyxT0TymuPWivM40BJ3B0HC6HOQ%3D%3D%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860110215559"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Canvas Lace Up Pale Putty 8.5",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377613873637?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=23063077273&itmmeta=01M6T88K95AD9MJPHF697JPN1B&hash=item57eb8a71e5%3Ag%3A9HkAAeSwq8pq590E&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2F%2B743MYOY%2B%2B7%2Bb2Hleyrs3qjDb3kQwuyyTDeKRY1MI1u8imIqywEiVLFw9gJg5jfRJh5W8EZgTkbqPQWBR8NAPp3VBdIjTYhBCO%2Fiep8kRcD4X2YZTxdjO6oYSWFBrbCH2LYaukWDvSDaTumIUy6GaPJuArtMPbK%2FlF252928DtT6LpGmBxVJecITwlvq4HIZfb3tiOKDJnrPEtzpSIkW1uDGg474Sa6lqXpne%2BXG5jEelr%2BO5gvRsMvSLdAWY5EgBaHiMybalnZFJdG3hcdGerMmNkmNr%2FTv2Cqf3fdyMjg%3D%3D%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377613873637"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Canvas Lace-Up Sneakers Blue/White 10",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407337238814?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9597J0Y4K0DZE0FGYA&hash=item5ed731011e%3Ag%3Ah4gAAeSwz6Nq6i-I&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FKPggYax3ZaSPbYP%2B7K5NziJpeeAM4XrHEYUyqnhMhk5qOrg1OfT4oobO1sGVtR8LwkGgvwIO0l6MMygRD7c1UsqmqBv6GiIn%2B4GgI4eWjedavEE6yF%2FUa4I15megfRs3rgQcrSbXe4dyqRSEorzgkBi5qOldlT8IiNgPBJ6pZ5LlspoWEsKSV%2Bd%2BZyK9R8oWQRpmSy94ZyJoVrM1ba04qEm6yCVSEtxErJpfGbaNd1F8ooFjF9WyBdQmmsRxsG%2Bsn8e8aYll4NefWPfPRmgUA9gikFOq22EyWMDMiSGFjJu1FGD5dubHkdccSCp5rxIKPKDArNNrNBMjiTZ63A4J9%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407337238814"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Canvas Hearts Pink Women’s US 9 A20658C",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377613506309?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K95N95BK1ZCYKWK9D8K&hash=item57eb84d705%3Ag%3AIysAAeSwLHlq56f6&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BRaMrnoyYFG0PR%2Bt0E0lwFxcuy2OyehLehGFEzLVg6qQNQTCHURn%2FREts%2Ftg0FMrIxixfu8p0U3ycyEbuwMjD7oBTtyRHAGp35TYtGLeYpCCmYqZqGPHWsXQ6oK3W3JIbwAPc822kFUGAXgBeGVasvB3udak8MHauPCq2pE0JLladBo1DvFLVJyzqJv0FWKV%2BfX47tDUDm%2FGhn%2BXh1%2FmcekyhHXd6z1y8ltkqLQLXbgy%2BfPx8U1PM1d0bz0JKENhWXsxyYoUBLuHVSsRSpe8oPvE5NcE9x6vIMtQdFgBc6Z4qu%2FXDiVcBvh3Qh8vzX25fyIobW3aN1eP7xq5ryGKPb%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377613506309"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Leather White High Top Shoes Unisex",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920106828303?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K95FZGN1T1CJCXHX61J&hash=itemd63aa4020f%3Ag%3A%7EwAAAeSw1PVq6%7EMW&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BMcCAzMNh4dChLwFIfmfkcdApmqycNWI5sUmNA6Ps5W%2F1%2FpEjV64pBQbOsNZ0YYSjtrXTSf%2FhMPTouomkUtwkQM%2BhSyYVw70eZYXVMCSoLMWI1DNKW4lKEWXzO4e1MHSL%2FGyc8XaYASDmH5w3f4NRZ6HpKcwTufcZKzElnzmGKPrGT%2F5hz1sp17vfaNac31%2Btj5YK8kdyUm7vak%2Ft6GOxJkklwn7vQVzJMwnhTVZ5VgTHYkAkITWzkPTB7KclSjUPuXnETkAWZl0HdFZb3KGMKcoumGl6HJLnxuNKV5DwDwA%3D%3D%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920106828303"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Lace-Up Black/White Youth US 3 3J231",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287705741197?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=27044393973&itmmeta=01M6T88K95YSXRH25S9KYXC7X5&hash=item42fc99378d%3Ag%3A27wAAeSwGNdq6-DJ&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Q7c8CLVatSnpLt7Kxm4rX2Q6BzMt4c3KyR4Uoeuv1ssX5eNF7XRQsEvB228dhQLhlSdQHl4chQkZeojd7uQZQIjDwolh503P5liReY4Zmr1t2rh2tvEigGqqLsP%2BFNCbuthhfsjZtxujAKR8xMBIqLdcdOqeMWO0BmyqTE0gjnxzwlnsjTO27MzcpH07XkTvLDeANBS0BZYCWI0SVjT%2BOhIXzbSFrArQGm6IBifdFy%2Fj3txq8RTgnNoek%2FrKrYtPIbhkzebgmOdidmzyScXhhejIzjRT37dZw%2FFPUqwz1mw%3D%3D%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287705741197"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Men’s High Top Canvas Lace-Up Brown/White 11",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147667156789?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K961G5JK6KNSHNPB4BQ&hash=item2261a5ff35%3Ag%3Axg8AAeSwcDhq6%7EqL&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde84GTmPuErm9Kszp%2F4VgFc6TgdFe8eqMPPFOQmU58MeqK89DhvZQd4Y3uNtW4oe7lNrguo4vQ6Ic1Kxxt8vielPg7ulpF5qTIigj%2BDVdSxRGp%2FUSk3jv14euTn%2FgHPURdtNxFhe%2FrRcFIGQ8ZoQpxbphZxgtZe9qT4kEqxaK0Fg6ELRcc%2FTFopk%2BGtJpS2anl8KrupUIVIp8IR0Ab0e9NQieYWVJNx15I8hLOgeu%2FsoRm19qCHJoZ8r%2FQ2iKKbrjoMhMDP%2BoOAywzmKrPJcZaVytElHa%2FjNTeTNLBTzbKuksg%3D%3D%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147667156789"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Lace Up Sneakers Optic White Men 4",
+   "price": {
+    "raw": "$22.95",
+    "extracted": 22.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800872463065?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=6060828916&itmmeta=01M6T88K96K1DJP2PBDDH0SCD9&hash=itemba77b7fad9%3Ag%3AEXQAAeSwiIxq6ih7&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FTp5Y9JXtNBUjxZ3%2B4mm2YsEtmA6OTdDFUQpRIDPYVrPE8WDMdvQFRXGAwfJBy5BGqTqlxuARoOzJYNGvy6hBDJeadg5kLCNcVe0mVY%2F21iV7CLXqzXbOdGy%2FXne8MIqfnhp7C2A1QDPc39XkQasLhaJG2mxvCqsCSsndHyiUP9%2BCogT9J235nAXU3r2xKV0T82JfTPQdGiEoEoEZj4wPaSsg4ncu9SxY7CaVhaoq%2BPAbZf2SNXZuTGb9GyrPJwKdts8Fm8%2F6lzhX3C3FCvK7t%2BhIkf8fRPYf%2ByvT5EFLWrQ%3D%3D%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800872463065"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Yellow Canvas Sneakers Men’s 6 Women’s 8",
+   "price": {
+    "raw": "$34.99",
+    "extracted": 34.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377613156661?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K96HP6NEVQ1ZJ44PX3P&hash=item57eb7f8135%3Ag%3AsTAAAeSwldpq53DN&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FyNB0uVY1trP3342Iw%2FcLrv86xZUqmUmnGmM%2B7ceewBw2%2FLx1ndmoC3fVuNJdwMtoehvuhgtertm%2F5UaWygvWmmqub%2BOJMZqraUr%2F1MJWuXcwN2QjxeIDN90pfZCb74AhsEKFsjTHmSabmVrmgLDBJOtJteoHjkFpyY7YpdJgITzslqLYjPSiNhOYqW66tfx78jiUYkdNHTXesl1ZOFpaZz%2FZhKR1ANe9U5AUAo8VV%2BZtpM0uvDXQDgt0TqBE8MYPBzJ%2FlBAXA8Mb3VL1Gn3gl0IGaUsu0hAm1ImUcZet99ScS2rGYae0OEJCjEhPw%2B5PKGTJFnwv2lb2fa40guzZV%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377613156661"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Kids High Top Canvas Sneakers Red/White 11",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137896552527?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K961NNJCQ5KSMCJKBY4&hash=item201b46684f%3Ag%3ASFAAAeSwAdBq6TDx&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8zcAjdyIkhgsOq0PrQoJTOTabbvOeU64szC0yGQl0m6Hgvg8Oo%2FYxgFrfnklf5a1CWV5Y94by5nkRoCI3D1ttX%2B0WjwCeavf0D%2FLYsoTtSXohOXNP9eqc%2FZqt62XOYX6Baz3YF2T%2Fl7jOwlr7Q83Y9IGUc8stSaftfMiPCK4BgHGFnjOanGyCPJ%2BTYbnrCgZgK%2F0Lg5U%2BxoFvNzKz0BngRoMoLIG1wfkqvCbD7PJruaEsvJQWsgV7B%2FHjhRgVWbJZxpUlywrZ0dLMDzXpB4uy3tLHakwkKnhJi1Knq3UN1GYEYIvQQHw67Pa7b1xJiXPOYwmqOGL%2Bcv8olv8p%2Fz%2B0Y%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137896552527"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top White Lace-Up Textile Sneakers 5.5",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880073203741?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K961ZM934FWEW6Z4X36&hash=itemcce873601d%3Ag%3Axy4AAeSw6N9q58Yy&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BN%2Bl2UbXhB5ig%2B%2BplH5k9Y3wAu4C4lB1hHN6zheyRbUIiLxVbmdAEXoD91EFFPAccGjmx5%2FaK7w8dXtecCbIeDDVxM6JVLezUaiMX1QK8eoi2DgDAcql9EGzU4XLpuoNysAgCyUlnX3anK0k3iOIVoS1uy74XMKLKrQq%2FiBuPI0E89syogqaIVaQQLJx5PPt8G5paYlK4mTOBQDqpZeUVkAkUOdvfX15yPy5vVBq2MvvkUjsnotyUg7l22QxMxgesYa3ZBG4ptf8a2hli%2BwiaxnhtPGwH14vv6wEJeObI3QA%3D%3D%7Ctkp%3ABk9SR_q0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880073203741"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Sneaker Optic White Classic White M7650",
+   "price": {
+    "raw": "$23.95",
+    "extracted": 23.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377575868360?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=2331864093&itmmeta=01M6T88K979VSQFN8RDWBPM034&hash=item57e94687c8%3Ag%3AXpAAAeSwCNFqoJ0m&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9aBCft7RmXXaO2dS8GbZPoCgVBbLfYppitD6ToixOX3vMTC1shq6VH5ihwV%2BwY2afIiOWOiGG8e3nCnn4hrULT6sCvnvlFWv%2Ba5BrxzdbaOeUJvXxSMRfD4OpNSXXHZnBh%2FXftNlq35BuaXdpyyHgsPfN7kNrtNaQELzn7JULjFkYQFJUiHbnYF1415b%2FL2G4JWyMhpY2%2FnoXhSTvV1onfSLCTmU4aIKKddvgcjDg1DKfWZREQkzIwtbkowikuk71X1XOM2%2FsfEyYjsJReYvJdQY1AaF8R5oI2GcXeswaQ%2FS9NnCfZFGaa1SA3Xdab7XnH7YAVj%2BOAFOf5m4vyKa9N%7Ctkp%3ABFBM-rSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377575868360"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Men's High Top Sneakers Size 10.5 White 166503C",
+   "price": {
+    "raw": "$32.50",
+    "extracted": 32.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318811169586?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=10043984047&itmmeta=01M6T88K97Q6T4VHW88HH7SGTC&hash=item4a3aa06332%3Ag%3AqqwAAeSwWg9qlvhj&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BBUGb5kGgdyINY5cKA99a2RvY7dPctWRSngcMyi0IcuBrMFTYkCFVnke6wsb6YHv%2F9AUeSbVf6SHBJ09LHRAMqeBKTdSxme%2BGq828imhuV5SBhB6pQBCG4aVo7Krjt9Rbatxi9E4JPcR3TDmcnKV7JU1gkL8n1VQJLhp9f6%2FZ5fpEsngZ2X6S%2FaM5W1AMg0S2A3vijLFIYLxfKi%2BQVSXSUEiqWhmuBXM5bo8S6VFk1YM3rT8uH28an9PsXInQpWBmQ0XenR62pzXcQU5iyDAjEHL9DQASCdc77SmESDQ33%2BJmpfGXxloD56X2wA7DEl4UWvPb6p2hD8Oi4NO32l22x%7Ctkp%3ABFBM_LSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318811169586"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Lace Up Men’s Sneakers White 1U646F",
+   "price": {
+    "raw": "$26.99",
+    "extracted": 26.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/358852757081?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=2319532792&itmmeta=01M6T88K97ADA1XGNBXPBZ4F1K&hash=item538d4a8659%3Ag%3AuYMAAeSwWXRqaEAh&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FDeWSgGskg03rqqL%2BryzpQ0k59fpCelhgIK9zGau1FLechrBcWDS2JHZLNLCE%2BHSYVxfUBxjXOSDpvFhAygKEBxjYzt%2BdUB%2BLWwlltkWU8Q5c4FTT8MmUrl7UJEe6nOaP2Tu7QNwZzifs5Erxz6LflAD7PN5bStlP1I4L4%2Fv0LsfbROTnJDitlo0Aepvawiy4MAm1CkM08BPUrMp0V6SrMc2T%2F8QfdP8phnBzxxhgUKYhhmAKu%2FVFMfKsntS2XV107jXAQdSyFVCl6JwxoQ0HnOEczArtzDLmsM5mqt1sEDoAACzs8NRJdOcF1ZJ%2FOvnTOtl2GAwWngFhU9GTeaLfL%7Ctkp%3ABFBM_LSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "358852757081"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star US-12 White High Top Sneakers",
+   "price": {
+    "raw": "$24.00",
+    "extracted": 24.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287699791324?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9754CTCX2NBJBF1YQ6&hash=item42fc3e6ddc%3Ag%3A16MAAeSwhcFq6Mnj&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2Fofwihx3U7qUsFwQZbqm8GfUjm5TLzHy1tvvcynoRbctcbU%2FhZmk9r8U3iDjaNQ%2FPiRCde0cxhwgh9XGUvl4DnJZ9ycZ3dg7%2B9J7gfKHGciPVXHTRzQ82mAaZvIIs8va5SK%2FWBsHUVUc5%2FM7iViVk0DDDxOHf1KPZs84XGdJ52iYi%2Be2QSPZlB%2BH1OZNUIXUnv0IlUJZaZ4VpWMivsoDXD9XRu%2FPGSNCONFG%2BEYjnA8wACxTUhYk2ispht9ESWjLq9L6%2FI4kBbbqo3lEFJDM0xOn4epPHLxg1tfP0oHSUyEBytwlxoIx1OAGt6ayEO0p0snhfyGz0dPOOvi452L3FP%7Ctkp%3ABFBM_LSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287699791324"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Optic White Canvas Sneaker 8.5 women",
+   "price": {
+    "raw": "$33.00",
+    "extracted": 33.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137894073857?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=12060804994&itmmeta=01M6T88K97RS0GF46A1CZV880F&hash=item201b209601%3Ag%3A%7EwgAAeSwHghq6ABc&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8Fz4RUrZNgzup1hFZ3M1ESlTeRvB%2BSGzPgNB6FXGsq1P14h%2Buz3gvC4SSVY7ElDpn%2Fu2s02Stt0YdPpezAM7Y0X88ne74KYEg--hlajM7ZTWjoWzuPvm3rcy6zb5U1BqSev77fPrsqa%2Fz5z9cyq2pseTnVB%2B3BRJQmGG4Zy2PaIZiVdRTv5frMMSR3cCeBgcYS%2BP9V9FFb8wMNTWuBEXHcv4kBKrxW%2B8c0RCe%2BeG4mYzIJZHJYlnd6MosjY%2BOUBlnLrq4XbbvdHzFSvPBk1aToUpL5yOTerxxnNDDyWijHVA%3D%3D%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137894073857"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Graphic Sneakers Black/White Mens 8",
+   "price": {
+    "raw": "$10.40",
+    "extracted": 10.4
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407329456063?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K973XGFYBRDA8D42W3A&hash=item5ed6ba3fbf%3Ag%3AR8EAAeSwWWtq5hrp&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde95%2BUlkpzgsur4ZmcQdZWSZVAzyYxfvVu9DihYFXT36NNV8N9qkyIztX5wBJ%2B7cblHMCiWAjywZM6oO68cxA8yMAOyw775QBC3fuPn%2ByRwDvtz6OklLAPeKXEbidKkM3DNkycAQYwvwiFAmP5ThhUjPZSbTyasiRogi%2B3v7oSzFOL7tN408MjY4cWAEA0zOjBmi%2B%2Fgg3pFMfdHWGqzQuW4TTlkCSsU9Bbrg4TIg%2FUxBhexRfM3QY2ac8AqR6WfQ7u5d5EPx7ScQb9yHAc5YRi%2F2lHjSVpHLy5fxCvIjoGzOVg%3D%3D%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407329456063"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Move High Top Black/White Lace Up US 9 UK 7",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860110666629?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=20043980811&itmmeta=01M6T88K98ADWXBCPQ514RHM6K&hash=itemc842973b85%3Ag%3ApR0AAeSwJaBq6mk3&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F5Rxg%2Bf2xq9BldfDgiRK6hPcC9xzYVBbl7TST4wZpqwKJGBpZy0n8wa4P6jDaCLvkP2Lbp9OPHBqMSwaGr0GePXtYm3bYsQnQFUMWVmRjt9SEbGvPbTaq5S4wZ6DNj8qm5aJ7B29MuYI0LkiI1JQbU0K6dD0ag8b60BPvvz3aQckGLcjttfj11bDOtbg6e37c0YEtASoGyk96DbRTG%2FkUtoEhCQ5VS83LKbgn1jtp9CDhgtU6OnKKLnwVwz7K56uT0fV3QfKIQWMf3u%2BFCRAgI357kFlJ3G9q01jU%2FJaYZlA86nMzKEWcOvTgy6Pki5WBhSpAPzZqBWQN5J0urpGW3%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860110666629"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Black/White Lace-Up Sneakers US 7",
+   "price": {
+    "raw": "$34.95",
+    "extracted": 34.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920093837450?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K981BQB9VVWMZT0J4M6&hash=itemd639ddc88a%3Ag%3AMCwAAeSwIAdq5zkK&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9aHXjT%2BQLoDQlyyyE%2BBkVAnUIw1nJYHzVA8T%2B37K3gAqiYnl46HkTqrtiLFM70b0PKqUQDiqlR7NlHj56h%2BZoUU6dHyD2MB4huBRDT5N78VNWFkrgeWiyqDrH6x124oi1X4OKG4hsR0DCETnAjfRX6JjIkjmb6NJTDGHk9Vxglc6pq%2Bopw19ariTJTFZKVlJYI2B3zNIKD0sj4jwqbv6cWVsQpSGpqZN%2FhzEMEEvo1WUYplIcNBQ%2B4MYLLCUc0lUTDefR%2FVLe4Zkf%2BD7iyUOsPkIVLv6cIQTinQO5ghffWV8NIZr%2Fa9e5WFz1gP%2Bc3k7BmgPWiUqiuFXM3g56PjLJD%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920093837450"
+  },
+  {
+   "title": "Converse Chuck Taylor Pro Men's High Top Lace-Up Red/White Sneakers 10 A02934C",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860104007250?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=12059054399&itmmeta=01M6T88K98240HFM3DZKHKZKM1&hash=itemc842319e52%3Ag%3ACT4AAeSwlHlq54v0&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8yoQVGSSJQRcg6u4lqF2K3G61AtEOZw3yjGvQWlnp21VyIAerMCC%2FeIUXskxQKwmH8KUaY%2B%2Bv2ycW50mdeFd%2BRruDz61gDvk42bq2ALr8pyJQdYoRMjS6VEwSbPJDatEh36ffWs%2B9qar78IhfW8Cq94rMjXB027uclRAaprzzAIRcr%2F21AXZqgIbaiNJDCi%2F0%2FOk5c%2FrrK6AH7EmwV4VhtLGId4t8nLA9HXWAgoakx2iez71X%2F2EHwEWkyPwFv1EtlSobkyZs190rjbca65Gp5kzpBMOzw3F3Cva7Ylh6e4%2FAs%2BgTd61bWGKzX9wI5c1045pr41Vl3K1jz2pfiBlm7%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860104007250"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Red/White 5.5",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800873777071?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K98TZFS74B78SJEP0FE&hash=itemba77cc07af%3Ag%3A-LIAAeSwMOVq6pZW&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FwnO3Bd%2FXtoD%2FfC8iTWRowADaYOZzZiMFJNWotdIhoLdBt%2F72KvIzVw7XPRRpSmVQdf3HvCQeId842gUYep2II4VNKfd%2FLFjofMBQJ0GVIQi8ObSKnyZ5EIoHCfSyAmEW2xY8LvmwWKx2KVami5zFT5XvqW9p1rqKW3UcHRxetWaYbXf7BJH18QytFoTZ560slxdCtrt%2Fq%2BJB9Cfod8CsDISf90WEtFjxh7K56CxspjNu1ndOXhawFDOUoBQ2%2BHqteEhRI3NAXU4I8MVvzCYRTxEGYkIDoBfALbk%2Bkia4cyQ%3D%3D%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800873777071"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Lace Up Sneaker Optic White M7650",
+   "price": {
+    "raw": "$25.46",
+    "extracted": 25.46
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407237601245?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=2331864093&itmmeta=01M6T88K982269Q699DAQ06HX4&hash=item5ed140a7dd%3Ag%3AuJQAAeSws1dqswAh&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BlVPskl9F0JTbqn5QO9aW1HgLlGqjnVCRUKTGN9VV7R2OZeVd0vrfjX0j0pe8Y1YiDDBsWEZ2KO%2F2i8YtF3q9KJLcUQ2kO50ga%2B9U9quzK50ivQiY1--yAz7ubL3H6EnQUVq%2B45Hs9yGjj2980tluO3GiD8YCCpcn15zH40YIdXAXkG3PBPHf%2BFPbKlK8NQpb7MY3qMvMFGZQLccVi%2BV6p9g3m0eNVLNrF5XiTO4Fvy6BSz%2FbcolPh0yfzIwoMbfvuqOK37Wjtpm7rBSbb97zcOJ%2F%2B2RaGSndr%2Bqo8kl%2BY8yZGd5dLtmhbjn9aLXNc0D2%2FVKqfSiaa8AeTwhvJu80p%7Ctkp%3ABFBM_LSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407237601245"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Sneakers White A03838C",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168434276352?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=7044404371&itmmeta=01M6T88K98GRM751DJCR4SZC93&hash=item2737771800%3Ag%3AO9MAAeSw729qI2Nb&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8iEH4jbfc8%2Bhrkg4Olewa9pFoRgl5dyJaG8er7aTAOkViU4XOjKCQi1gwh%2FRtnClD0ijOptbbvGmEnwPRJnnFaf7Q22FBusQmZd8LE7csP8nyR8BC85AvYv4L%2F090FRAKjod%2Bao6gGb36Pi4uVcKnWPvuSCmi9Bhnikmtmo464StjFe%2BUcsuGP2CMpXr%2BQwec3Um3GACcbBXeZY63Dac80xXSgnYRj1TObwynVHIJw45pqU8EmJfV7pJD0pv0vcNORBGHTKgvkEjJhtdgftPWZM%2F4PIoOFGayCZrIIn0cOePuKbWi1DhBxgZfmMJPwmQw2tKwyqudoLgDCgLv8ubzu%7Ctkp%3ABFBM_LSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168434276352"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Men’s High Top Canvas Sneakers White/Green 5.5",
+   "price": {
+    "raw": "$17.50",
+    "extracted": 17.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880083620395?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K99FTSW20ER6CZGBTM7&hash=itemcce912522b%3Ag%3AkE4AAeSw-Kxq67o-&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FTKTg2QPQEQKDnBLK3hpyw%2Fw4Q9bqa0xOQrH1GxUvwSX%2FQL97xxUQXVURzale9TVUQtqwMEbnCqjR97tWLuGJoR9d4odtEkPmSedmqiFC1Hthkzlg%2F8ckFPj46oyODV1jAz9Uv6ttWrXMdNvsTINpX7ZU0Ic9GX8%2FjMfuP1VplIRjsNZF2O6%2Bg0TDgJb7tJIq8rUEsVFnOtLPBCKKj2UXxgU8R9jhAvmgnHwvoJdFMAa9vxenylTJKLlTcl4%2FDFAyD5gJ9DH5w1gXYjqoCd1i0f8Fz3uqY0NF2DVXI2IfAr1GxwTK7Vrp6V5AMOwdtFvgfB3LC6D8mRYMqVccOt1ct%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880083620395"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Men’s Sneakers Black/White Canvas US 5",
+   "price": {
+    "raw": "$9.00",
+    "extracted": 9.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800860988582?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K99DC10KJSYZCHD0C96&hash=itemba7708e4a6%3Ag%3AM1AAAeSwP7Nq5onF&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde82hufT6wRLHtAg%2Ftew4cpZKISkYlPYt5vjrOfD%2BtFjVDja4VwVAPFPDf%2B%2FnU4cTcLWmMYQ3uW7jRww7TCbn3nzaL5mPn7L9K5JYDSrx2Civy8TgfgBR9pIJsgUxYG9yqugOunF3dOc%2BPwU2eqrYP9boDG4PasdVRxyzjJisdNiUPRh1LSIQOvbPcjapHB%2BUO32kQqyfrGSfxlZHRk769Ri4oNUiFEwz4LDaeoypEJnzDDca6f7uuh3pXN9h4NLGhgyPc%2Bqt7C7dFWDJna4k7oAY0B%2BIACbU12Yajul5%2FFS5w%3D%3D%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800860988582"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Kids High Top Platform Sneaker White Pink 3.5",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307262469573?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K99S5FSR2W46RRKARTD&hash=item478a4535c5%3Ag%3AzoEAAeSwbxZq6Nwu&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9aqLPCMWGcVtaL9ZAIbIWdsWgMtiQol1qwVQxYHuqq%2FhnANYT1zZe9dNHhvAn80bal%2BFO%2BEQYaTjI58V09M%2Bw8fkfzWQxfJuVu%2BGRRcYfgPEBB9egBIFNQxdlWtJePJ0kYFfarYabASxUKeAi0RDy7tPExqxLpEM%2BVkwTLWoSt5Xqi2C128zGoHBJlCZ5JdPDVT97F6p8E8xzjHnyeewN%2Btkm14UdyQgAIB8N60VUERs6ii8ts0PqSW%2BRXLXnai8LNg6yPt387OVLrQ44OWEYEmPXKNEB3mM2daGJ2t%2F7ZjK6ySe99KxXgajtv3HcntrhzAIrVVPuhjc6odQmp2HWQ%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307262469573"
+  },
+  {
+   "title": "Off-White x Converse Chuck Taylor All-Star 70 \"The Ten\"",
+   "price": {
+    "raw": "$250.00",
+    "extracted": 250.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307270139629?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=9043975819&itmmeta=01M6T88K99FSPN2ZT227YKVB92&hash=item478aba3eed%3Ag%3AcOQAAeSwJaBq7hKX&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8yEkEVYVW7cgWjqK2HjKpIzg9CQ5Ea6D1Q3u6Kuio2tAb%2FOphHuEVDxrgPtaUY%2FNp15gWywDbQOY7B1Snxr%2FZxKnRTeUj3PqXtfNpx3aUXqq6j3i%2FaxDSJecygjlQK8k%2BIcv1jkAVBiDQOQPjHgN6WgcEuuXqsSpky%2Bap3KvLcIGuMMvkq1lOoIgFwMyMSdQrpSTeFlbVHMVbAduaU9IAUdhOEKvz0BdbMyf9LRCOrVMvJRy4onc0N0Sif6gR08bwl%2FuJWL1T%2FfMpXWVh0EGhCywamnUGNCviWD4BuYIwba1sVcXDG2bFMWd1MjDfyB%2BvxGaEpG%2Bsw8FX685xQKB%2Fx%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307270139629"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star II High Top Black/White Sneaker US 9.5 150143C",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940065880987?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=3043988588&itmmeta=01M6T88K99K5R50AMJGT52X7G1&hash=itemdae04afb9b%3Ag%3ARVYAAeSwpVZq6478&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FuH%2Bm31ykjuG2DHIpQk2GyglWSQxjaKd1XTjKH%2B8lmfBpKbvs79HxbjHCumBaRcv5kYOvOwafN10FW79LQsKtWbXa2YK5DOTqmgwzU%2BFkI%2Bzeb1OmlDdxMIVL1UZAGRd4ISvD%2B1%2BRO45DxxcwJRbGEEXsy9MmV%2BxrKxBm%2Bdocg7GJydcIFc9YwgPQ9NAt2gWUguTWAemkmMSLavcWjweljxya1yNdivCdFlgTYlLgrBP4KgyXjVxaqYqn0v4eikmN5BHFwDi8ERqJGFB1G2NSLHtY%2F16vuRhzai5e6x2QnYUSpdfy6rMROe%2F55rBYosnJaDaNE4jOE63WYdzkrl%2FV4%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940065880987"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Sneakers Black/White Kids US 1",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128175114023?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K99KEG638V24559T5M6&hash=item1dd7d50727%3Ag%3A4%7EUAAeSwAHxq62A-&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FvSIJiI5Edx50HeYdb14BFGUt3gkSijfUu9X8ytog7ap6w7B5xg%2FgHJ41EBj46EvFdc%2BFh2tv3ouWGyvDSYa0%2BPIEWi1KtuAcqvoBcNQP7Ak5r4oGKVjGv4YZtEJLSCPlGEYoTl08yP%2BpbWaFLhLBk%2BsFGdEBvzFa4pJK8ZG4l2zJ%2BiF7C%2FYlF6XoTl9%2BnYBaPKZbYvjR3O%2FrmK5aB6IBdvjYJr64ZRql2UryAFsRXIPHm1tVf0QNqPBj07rpozpZCFFPqL9EgOMPsidUsVmF6Ow%2BS--N0fKBPKOnpJJBEmw%3D%3D%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128175114023"
+  },
+  {
+   "title": "Converse Chuck Taylor Move Platform High Top Purple/White W 9 572722C",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920106384806?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=12052771815&itmmeta=01M6T88K9A5RYEN82H5MBBHYH0&hash=itemd63a9d3da6%3Ag%3AXPoAAeSw%7Ee9q68Z6&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8GflX7uqwqnkjBiCl5AV29ccIbPD2edi7aS4pUKJkttiloNfsXZdaDdcpqLeezT5aYQQKGLZq7gnem7YTQ9y6z1rmFFbn%2FjStX7RFLFmAAGbTDOPXiHVl5ZiKIyb4pSRMlbg8lsvZH38sVPonnIwFC4%2FK%2FhHZ3gRAjJiuKvt4m1RJb8GEy1DSNe5gYS7fExPzvQj88MVJ9zpTkVWQAQcKIaHp06V1OOmET5ngCHVl0iWmPr%2FQFn9jcas8WPqjm4%2BP65y28i3%2BxVs0wOLEWdHg18U%2BwmaiCHB08LIGESoNBSrHLztDm3DCfbjwNn20SXEr8z3eUWZxcqZNbp25DG3g5%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920106384806"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Sneakers US 7 Men /9 Women Purple/White High Top",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147669715963?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9AEPTGHDCY37GWBCE9&hash=item2261cd0bfb%3Ag%3AfigAAeSw%7Ee9q7mmc&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BKfePX11regqH1%2FGpEhb0Z9x6g%2B9kaEmu3CYf%2BbhChI%2Ft8dFcMsfSlwHIdzp7TMffn%2F%2BM8nyqljPH5DqebmsjRfipFGJJV9UEra%2FilzoXbSofEzYirIQggs32bSIx8rfl%2B4dh36KYz9--l7ikeTjRhuN08SDb6SzTxfGH3fFdoITOrZdKUmbRFkj6HGIjXk9GYZ%2FUPJsASO65lpGyA%2FJbVMTXYgJJ5dzhYs6mm%2BPWB2NNAcGvpGMUooOcbfL9EPeGlD2IlanDEpDVMZ5IWjFDfN5w95yrYUuqOKocL2hNdqw%3D%3D%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147669715963"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Optic White High Top Lace-Up Sneakers US 7 M7650",
+   "price": {
+    "raw": "$18.00",
+    "extracted": 18.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920098701218?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=24043972335&itmmeta=01M6T88K9APRC56929DBM4QMKM&hash=itemd63a27ffa2%3Ag%3ASYUAAeSw649q6TFu&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8fUYRNy3jE2YfLXAh9QoapWKGDcsKb6Be5%2BYPhl8WNw25cYnVa6QtKJpmbwG6Ra3G39eU6Tgd51kjH8lt0n51zYsTKmEyhzRCSi3k%2BsRh5btgageeZYYZqKygjLap%2BrpATyQewJyFPigFcentLbBsZyu25VpQC%2FJNaDtYfK5raRZcBQ3XcFxe5GtIguVaSAEhQOwk08evnsFzaIPkuV4ZEr9d80WuTplxE1f8Di%2FHDoGRUIzukUPpDIQSqJ4m8XYvUNPdhmig2CNOowmgr9466CfdeBJOT5%2FrQmMgsR6Y8IFx3kSz9aqxUbnHfYnLfVI7feUVjBS5%2FfnH1LBUkuLcm%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920098701218"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Black/White High Top Lace-Up Men's US 8.5",
+   "price": {
+    "raw": "$29.95",
+    "extracted": 29.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920110467220?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9AP89VRT7G5JJ04WHW&hash=itemd63adb8894%3Ag%3Aor8AAeSwKJZq7Tme&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde8NDZ0cZpwH8NBNJu9XhgK%2BWKgFcsJvLau7fhZwHkIcnmodr1AjjDHm9ZwOMK%2BHmXirGUumf2IaRnzNWrV1jA%2BW2BTJqPp3ntAS1v7%2FsDcSftjbRC23i%2Bc6Q6P4Zl23SkJWqDBzAp%2FBFEQs927XxIaxoAVmMMxOqGviYIrJOhlPIBqRxAPt3FrQq2eVBimtY%2BA1fJqxWiKEeR%2BONdWj8LN0RM2lNQF3xygQzezk%2FwwVywivbcLG8f%2BK0nDDBcdMriqimiTsUPzl5P6SJJAkW57ukJ6txzFgjB2NvaGsXdM96z%2BvqrSQk5MFuTFUOBpO4Hctxmzi0AMTs4j3V5XZkDnY%7Ctkp%3ABk9SR_y0osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920110467220"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top White Canvas Lace-Up Sneakers",
+   "price": {
+    "raw": "$12.95",
+    "extracted": 12.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237166294448?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9A1MRAW06YPNBRMEY8&hash=item37383675b0%3Ag%3AsGkAAeSwR8JqnHHg&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BOkochmT%2BmCsle0PfqiyR0h4xR3ErxxlRRMXQeA%2Bbwu%2Fvyk4qtxlqX9nHCYKGZgSlElMSXfN%2BcmjXzWHniB2jj9dZVxdovWMTAuP1%2B4UhJPjjYQ87HRdca54dMTU8gGtef1s0XQ2K6bVguUQm1LyLTfYrONhdUlACzV24O1aoC8%2FYqF0MGEi92eiR%2FWD6hYR1js7U4FdaMtjRejVMcg%2FeNYAfwPDEMHTR80o4UC4YM5l%2FGiSI33aMY3B8pS6ubBIrNdEALsIWKJo0LKC7Q9%2BOfsUuvraGSzsu3xxaTnKuBp%2FdU7NtxEXJ1lup0%2FgzabFLxTNRqbwxntqCN4ubbr8Jb%7Ctkp%3ABk9SR_60osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237166294448"
+  },
+  {
+   "title": "Converse Chuck Taylor 70 Men’s High Top Sneakers - Cream and Brown Size 13",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128179023415?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9BBMP0NKBJR1XZ1WRN&hash=item1dd810ae37%3Ag%3AQeYAAeSwLDBq7dvA&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9G8L45zZJyIGbqFkksfPbH6yPWCuY3oCnfRQy2Tc6617kfrHk960CxH58OxyTLimkLY3TR95XSN2wK83bvP%2F9jrjHYsUsT1EA%2Bca4Q1VXfYEnJwH8fBdNysQz2bDOpM0mfF74BnVr52zXeJx%2FsxWbf8KKhLjPL5cQfsgWkSTSbJKZWhSSYyc9KKXwFh2f0jGIcVvr5LHAz%2BQnjRtalCTkOYMvQML4liM4J22vQdc%2FULPVXLaygB3ZAPKr7Odlxm2%2Br3C2IxSOW0MM4FhpkmpHeWg%2B7LdUoLEP8GsXorydc1ojQLefoxBiy1snS%2BkpXBOVSZl7lwBBRywSxNWNn1Uq%2B%7Ctkp%3ABk9SR_60osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128179023415"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Sneakers Black/White Lace-Up US 8",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800865134306?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9BFFT1X6NFBE0HXH36&hash=itemba774826e2%3Ag%3AykkAAeSwc2xq5-CB&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9%2F8A2yqwHU5GdC66KYVxKPNgVR3rLOzw6f1IVhy7uomJ5qLsNhR4kwr3FOp%2FNbUWdTeFi4gQz4azfzMSRFLbyK5B%2BgeDCzNuKHKzYckmbc1ipzozMSemmuFRx6vL1D1AYTAlXZXK%2FP6FnkuvcMT11rjG1ZiEjMoiVh550UEQd86k%2F1NhokuLwY3hwICqJWBWnOLG6h6n50pf1BAL81WzgWrYwNP2lDV%2FKqyxYoJdlt3QRpPuzWpLn%2FqX0wa9dc9%2FRTsbGi3DqBCSF5qUJUIsdSqc43%2FLzXE4O3k%2BiT8hTOrKbu3p3v1gQuUO2t42430etWs8W%2FEK7H4Klkc8NZspku%7Ctkp%3ABk9SR_60osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800865134306"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Green/White Canvas Lace-Up Sneakers",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860116555720?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9BHQ27V985SCMC0EKW&hash=itemc842f117c8%3Ag%3A62EAAeSwNoVq7MA1&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9hOmHb0PDr0qDXix2I%2BialUS6Pzj3M%2FWePet5h2QiMiePJ8Al9y5Wr3zli3kvmEzeDiGelnYXOe5rKJHYmUBuUGoxP8YXMM%2BslaDvr1lflow1T56MF1Ov3BodmjFT6NowXsCHQfwbx%2BUh04FZcSQfuWX0UK3wwr%2BXGtxELm4RTtxo8aE4tqgSWYc7BRNtMTGFJKO8uagCAELj3eDTJUK2jIdvCsvnI3QkrRQYjNxfJIyPLzuVJ7xFMkjsE3rvmSm5g9Ts8sWH1G%2F6orRpj5cTIWD9MsRkYFpRETF2q0tOYjw%3D%3D%7Ctkp%3ABk9SR_60osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860116555720"
+  },
+  {
+   "title": "Converse Chuck Taylor Women's 10 Platform High Top Black & White",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377627194318?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=15052781811&itmmeta=01M6T88K9B3GAQC7JKJNRRVNRC&hash=item57ec55b3ce%3Ag%3AV5wAAeSwt15q7kxM&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde9Go0gBn2h8iQx2wSSIOpXG0Mv2ZNohkFD3dnZHUB1GTrpsUfDbDNY7%2FMhtUgXbevQgZ91p6TOfXML8fcBgVFWgM%2BgXCBG5eR2oFoMiQiFijGUBGqYVJibiQ7EzZMw65IdKR%2BSdFHphc%2Bjaen3q5A6%2FAcnfss5dd0zUbbb0R9R8zCr73%2BCgLnECSC%2FudCd5JVhEzKBB1zSj7gDBjyc0z2tTuuJnF8t%2FsAzzjgtCYpvL2csh3E7vsqgaAGOiTofrui5OF5VDTrTAUdjGyxIxIR%2Fi0NVGEcbRYjQrsfgWLS6T9w%3D%3D%7Ctkp%3ABk9SR_60osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377627194318"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star High Top Canvas Optic White M7650 Men US 5.5",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307262622657?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=4060810650&itmmeta=01M6T88K9BWTDXPPBSFX6GACPC&hash=item478a478bc1%3Ag%3AlfQAAeSwJfBq6Py4&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FAxWpnhEFC7h8oAspQ9h0KoKACV%2FU0x7GpYXas9YNl9DlmPE6PGqujcn8MhCz3Fw0FE1d4VFHV2cTYUykUJWxSAfAImlRoZ174LSSPZrbHcpvMLlJNElFcMuDT2ox4BSKjqiKI6c57wCKVkFf6rHJMxYkkpXONa18CmmLeNFcNJ6v5Wt4jjY%2F3p%2FZ9VMgXDsesIzhNi2DEaXoip5rDOuq6u2LExVSFw1C%2FuId6IW%2FwPGt24uo6V0dAlSlUG2gVbAX4hF95x2I%2FMMdNtYki8w%2BYTGE5sYsqHvLqT6vOFblyUQ%3D%3D%7Ctkp%3ABk9SR_60osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307262622657"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star Unisex High Top Sneakers White Iridescent Size 8",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/318634474529?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&epid=20043981357&itmmeta=01M6T88K9B7GJ60DQ1MYPMVWY1&hash=item4a30183c21%3Ag%3AGrgAAeSwMndqZNbF&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FbC7Hq5BHbu3cS4GZPZxwnrdQJ%2FQRgYDgba7KPhPiVly4qE5AyuZDxXPoLEhK2zVKf2x1%2BisxxKX77IWIJ5bgn2kdxv7wtwIjuZimVNvr6rYdiGiG9YMrvgWKCxSBYeP5I8HBTcyYbOlBv3FrDOAIj2I2pzzsEcjSjokPzGGqru7P8j51squGaQsJ%2BQaB8P7KbwcdUoYBEoW7lqF60v%2FfMJXkM1fX84vxfYU24IBG%2FKxF%2BAe%2FwWodHDiLzmdhPY0Fbc7iklcToGDn%2BBPBY02G9GflnwYp99z0deGe0rfpCDQcFPxTS4EyAxEhx7s2wmmNPLh9Q3m%2BTy98eH8DWKvAe%7Ctkp%3ABk9SR_60osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "318634474529"
+  },
+  {
+   "title": "Converse Chuck Taylor II High Top Black Sneakers Lunarlon Discontinued",
+   "price": {
+    "raw": "$40.00",
+    "extracted": 40.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147663131088?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9CR3FSGENR5HSZ0F13&hash=item22616891d0%3Ag%3AF74AAeSwDh5q6UsA&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FpGzRxCtyc1oMbrTP8v%2FQQBLaZuwQCMFwUiTGhnGAlexPHyMLS%2BDImCZr%2F0t4wsbtNiyiv4peliyaz2%2BmazJ2WbFvaFsddBYWcDM2gDntBZr2isfPURr%2FGmeV%2FJOEjwenfK0pM6l4hu%2BRkIgZsuPmw4WXMSHdA50meU%2BYnnQIBM6yc2Afa3SEvsp%2F772AcG4EE0BhgErGNfmplVuyEOXPDzl7dDXHDCpUevYee5z8y%2FWJOUVuBqgu3vUrVjBt7AOxbGMhFbcrplGQAcKl7X7FibBuxAxO%2BeTd4jkKqavHyKw%3D%3D%7Ctkp%3ABk9SR_60osi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147663131088"
+  },
+  {
+   "title": "Converse Chuck Taylor Sneakers Men’s 7 White High Top Skater Grunge Punk Y2K",
+   "price": {
+    "raw": "$19.99",
+    "extracted": 19.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198751510352?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9C09GWPE3SMN34K43Q&hash=item2e46835f50%3Ag%3AB4EAAeSwGV1q4Zfm&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde91ESbRrw8jn32%2BtX3naRwvCzVoGrJqOW3f541ipHPV2WSPOAM0IuI96vWCmsulxkOFAvODAgYNtCSKw5DvE11a3f4%2FA2Faoctmcmkrbfn%2FzoXBLQw%2B75JnhlwMsGFoTgGR0qWPxU2IUQRmOS6zQPYXadl1kKhpOE3G5rZKOG1dlRSFQOwOfNhACWM8ONGpkOOQfGdydX3ftCgJvan8h%2Fi3wHrlKMOPMON4UAiKcCDhyBT39iHROMM1ZtO0Iy1sp7BwcsKungVFoZ0o2P3pYb%2FPF5BSqnt1dvHFHR9gHEVOLFRrjHxT4XDijwI%2FSehMKgC0MPYQTaGuLeJRP7hbYhg0%7Ctkp%3ABFBM_rSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198751510352"
+  },
+  {
+   "title": "Converse Chuck Taylor All Star White Leather High Top Men Size 10 Chucks Sneaker",
+   "price": {
+    "raw": "$54.88",
+    "extracted": 54.88
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800032185969?_skw=Converse+Chuck+Taylor+high+top+sneakers+white&itmmeta=01M6T88K9C1J0YCDPZCEJ78KDX&hash=itemba45a25e71%3Ag%3Ag94AAeSwo41qCPi6&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2FEbxM7w3JnPaXhK5t5AdpLHUNw3zjemJm%2FjHD7v--yzPkFWucu6qveQtRKvkvjuf6SChbDBCFqYnEVrgkjjXK5W0IU8pJH1GNxkXHqz1B29CrZS%2Bz%2BXXpLbXK5DxkIuW94DcN36lKZK2UHQmwWt%2Bd3i0Iva35IUeam%2F3vLuscJE%2BP%2Buvz%2FMaFQDbgyIM93GFr%2FEwpZu3JSNuzI2EycrUf2KqtDUL2wieJan%2BY2FTg5l%2FPhTR9qhCuAhHZefLYK3mQP%2B3E6JtlqaeqYlW8N9Xxc8DneDaaeZgNej0MoA7Qh6CWNJ8YiBu8%2BT781tHXqKvuQq%2Fr%2F3rbRII0L1nZfnJpw%7Ctkp%3ABFBM_rSiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800032185969"
+  }
+ ]
+}

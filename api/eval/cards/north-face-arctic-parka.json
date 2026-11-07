@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "The North Face",
+    "product": "parka jacket",
+    "visible_text": "THE NORTH FACE",
+    "search_query": "The North Face navy fur hood parka",
+    "model_confidence": "high",
+    "color": "navy blue",
+    "material": "nylon",
+    "exact_model": null,
+    "platform": null
+  }
+}

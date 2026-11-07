@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Clarks",
+    "product": "leather boat shoes",
+    "visible_text": "CLARKS",
+    "search_query": "Clarks beige leather boat shoes women",
+    "model_confidence": "high",
+    "color": "beige",
+    "material": "leather",
+    "exact_model": null,
+    "platform": null
+  }
+}

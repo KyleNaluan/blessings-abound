@@ -1,0 +1,15 @@
+{
+  "provider": "generativelanguage.googleapis.com/gemini-3.5-flash",
+  "card": {
+    "category": "apparel",
+    "brand": "adidas",
+    "product": "low top sneakers",
+    "visible_text": "adidas",
+    "search_query": "adidas Stan Smith white black sneakers",
+    "model_confidence": "high",
+    "color": "white",
+    "material": "leather",
+    "exact_model": "Stan Smith",
+    "platform": null
+  }
+}

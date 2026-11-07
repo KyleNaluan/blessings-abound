@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Levi's",
+    "product": "jeans",
+    "visible_text": "LEVI STRAUS & CO.",
+    "search_query": "Levi's vintage blue jeans",
+    "model_confidence": "high",
+    "color": "blue",
+    "material": "denim",
+    "exact_model": null,
+    "platform": null
+  }
+}

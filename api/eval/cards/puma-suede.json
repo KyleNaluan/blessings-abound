@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Puma",
+    "product": "suede sneakers",
+    "visible_text": "PUMA SUEDE",
+    "search_query": "Puma Suede sneakers black white",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "suede",
+    "exact_model": "Suede",
+    "platform": null
+  }
+}

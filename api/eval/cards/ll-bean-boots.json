@@ -1,0 +1,15 @@
+{
+  "provider": "api.groq.com/qwen/qwen3.8-27b",
+  "card": {
+    "category": "apparel",
+    "brand": "Danner",
+    "product": "leather boots",
+    "visible_text": "DANNER",
+    "search_query": "Danner leather boots tan",
+    "model_confidence": "high",
+    "color": "tan",
+    "material": "leather",
+    "exact_model": null,
+    "platform": null
+  }
+}

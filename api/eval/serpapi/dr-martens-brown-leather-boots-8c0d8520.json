@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Dr. Martens brown leather boots",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 6000,
+ "organic_results": [
+  {
+   "title": "Dr Doc Martens 1460 8 Eye Combat Boots Mens 8 Brown Leather Slip Resistant VTG",
+   "price": {
+    "raw": "$45.00",
+    "extracted": 45.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206678957797?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJNH2SMJ8EXGWNZWR25&hash=item301f069ee5%3Ag%3AOBQAAeSwpspq7UaR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9N88KxsujVEHRGuosFCcgvaufbK6LQVJ6VpC0ObP%2BStallWA2VL63F9WpK%2FcW3VOxITwKFuyLl3OTGCgOZC7KL1yEEYbVoXQq1YI560W4MEBw5TKq2iXERIvCFymZ3ngwCr1Em05Hnu71hereVDzDoThi4XQuK9%2BXEUbhdLfRm3RPgnZUVRgRc%2BcE9Px%2FyVYPQWEpHf5dov%2F5hCZIJYCPVyqgvtwPHmk43aMVQ3nopcox7g2N9MtxCLEFFev8OxPiMXor7XLV6TesPceFkC%2Bew%7Ctkp%3ABk9SR-jZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206678957797"
+  },
+  {
+   "title": "DR. MARTENS ENGLAND Vtg Brown Leather Chunky Ankle Boots Booties US 6 UK 4 NICE!",
+   "price": {
+    "raw": "$39.00",
+    "extracted": 39.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206670722887?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJNWP8W8MK8CF4TSD3Y&hash=item301e88f747%3Ag%3ASokAAeSw9L9q6L2c&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BdQTnGNnpWCzd%2Bo%2Fy20qN7lGhYc0nWIA0R%2BdOCfUEJu6jTYfUAb4O7U%2FN8uSFlCTJ337h8ktr%2Fz6rUcHxBktGXjAkRAhFIcbpDZbbjRtmP3G4uTkxP16kvafWjQX%2BkSPQ3j2v%2BoFixHIycxhPPX%2BEFW95IAVJmj1Ysmz4l%2BDuU4jBhPzSbKoESaXGPHnqdPzQU0VWmSvXcFBaC6one5LN7vkgKwDPRbvjEui1scZ2jViRFoBnmJOigPK5Nvz3gAM1GK0GEjivI6EfdATPo%2FzznlT8Ex3%2FCNXEbsqECK5SlYejNYGw3e%2B1kEZMVqEEhS0k%3D%7Ctkp%3ABFBM6NmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206670722887"
+  },
+  {
+   "title": "Vintage Dr. Martens Brown 8651 Leather Platform",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237167686303?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJNQTH8P8RWCBAV71TA&hash=item37384bb29f%3Ag%3AO98AAeSwamJq7VRs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde82IguAodKoiaJs4eFaFf3j06VB9xRQ59xNNUcAU0yq5hM1Ul%2BLtRPRcgh3uVAaRTlVK22HVfPqOLcgXMELGxhFzwEMpOi1%2BibMexVSsv%2F5ixCYbZlulXpyVJLg6gRbe4c8oY%2B1%2FfrpcVBlRi3qPmfkmITkuZaUx5auN1yMjhbM7oK9wfVbXx48mz%2BOYGi6BQd1ZBy0I%2FTbH4d91xW5Fx2iYAX%2B5BAc90BjTA1a5An14oys61tKOFCBGOc%2BnOEIr6HjbUnct4ss7jLJdW4PBi9WsNZ2aPAl2ApPOJ5I7kCqVeQEEM7jo5ULBvc%2FXNu%2BgRo%3D%7Ctkp%3ABFBM6NmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237167686303"
+  },
+  {
+   "title": "Dr. Martens 1460 8-Eye Boots Crazy Horse or a distressed dark brown leather Men",
+   "price": {
+    "raw": "$69.50",
+    "extracted": 69.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407343037759?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJPS5H2CKHJZ3JKANME&hash=item5ed7897d3f%3Ag%3AsrUAAeSwSulq7PDe&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FOuh24enLrEeTAEAsDEmYR4mrV1E9BrI6XZKupmtuIeXh24rcg2HsPQclL20lV0QylwjEfRRqnY8vmQ0VdIFy%2BXgT4qyuPMIWFp60hnKtNcJXGvd1kNeH93UW5Jm6IVzeO9dJY2aCC9LNei4l8oAA6E0dQt0H7iPS%2BeCCE56f6SFVFRxt1g8FfbKuC0Sx4HzH6nqb7qul1h9uNTWxBYvcUVuLP%2BO8KgJ7QJQwolTDsb7zg1rgjd%2Fob2h6r5qfnwleYV69OmScUbzB%2B6P2zZVJ772eXSvtW2nuHisBFgsGLRYTuF4rNtk0H8WVfvtc2wBQ%3D%7Ctkp%3ABFBM6NmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407343037759"
+  },
+  {
+   "title": "Dr. Martens Men’s Brown Leather Combat Ankle Boots Lace-Up Round Toe US 10",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227601168929?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJPXTWZRKM2PX4J2XYY&hash=item34fe163a21%3Ag%3AF-sAAeSwGstq7dp5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde803izhbx2nYIHgZEKdwQKMqgDxbKaQzYuz4YowkHRvQektvv1wUQEGvisDJtq940K67eEc%2Bxy7HiKls9PGrfSAQLoJw5roIw8fTzgR42OlDy4AcW2EjEN2w9bEbstSy2BaMbHa4J2q5BBOUILQCfKF2Da4Z0r3ma%2B49hdT5ZAGIZE3T%2FTEzv0K9ESMoqSQisjZ4%2FhsyOl6h8wgm7l9LW7AW3B2wjkFGlJPg%2BMFaEiB1zIWDKdWv623OTWtXYPeBsSrbv%2FuBG6h%2BGwXk1lXOxws%7Ctkp%3ABk9SR-jZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227601168929"
+  },
+  {
+   "title": "Dr. Martens Leather Boots 1460 Kolbert Faux Fur Fold Cuff Women's US 6 Brown EUC",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860116892903?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJPAR3P5E5066Q6S9TA&hash=itemc842f63ce7%3Ag%3AffQAAeSwhrlq7Oyk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BjsqY29hdJZJqSvTV9jbdMjw%2FZgFbHi1iXcSZ7wNTgQOSNeghbw0K%2FdXVfxGPVH6huv9f12htMwB%2BJYMH5hkBhMPYYJG0n109Bf9YM5HXySKRLeL5NiaaXKjkVH%2FHUx8x%2FDepT3oHWri0p7EzO%2BxM7Gub%2BnoRsEy5eYs4uvV3ekdLGSNUQbyV26CSHf%2BPznlb170e8rhVucILOH45sGgQ4MkF73WdGPHj3rXpKclcrYjOheLVegCgu6xK9p7uvvT3ALx3gMOyYITHqv0deX5khRlp4vqqtFLT%2B9PO3h8w26mNKUZWlNB30VI8Y0BDsrhw%3D%7Ctkp%3ABk9SR-jZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860116892903"
+  },
+  {
+   "title": "Dr. Martens 1460 Lace to Toe Women's Size 6 US Boots Leather Brown Fur Lined",
+   "price": {
+    "raw": "$59.00",
+    "extracted": 59.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237163872180?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJP7RN1AJSTJX67ZGSM&hash=item3738117fb4%3Ag%3ASFMAAeSwX%7ENq64ES&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde98JElyPziQK0ETu8%2FVMByjJd6z%2FUiYr5aJ8MmTDi2IL7urrq3Q%2BHuUVy6fOKcCWgZi4yRyPkrU4SWGxR%2Bi27ZgV9gXwQxrn1vRvJ3llogOuMIKKmXqMY%2Bj0nqjeoc9%2FdV%2BlScQY5Osm%2FrKCHO2mE%2FKDjmwtybO7StYQSDSBUvS3IgSLcqN%2F5%2FU6QQKPesO0kwpheVXUzhn9sFPfCKjSe%2F68oeg%2FaNg2JmPRFkaUBDf0XKkDHdnYRZiO9WWnyrQoVFRVS%2FyNl2BDZbkQ4ARcWrSLsu9WG8UGbs42HjbTPWZsVWaZPILrolba2AKzJOZ8oE%3D%7Ctkp%3ABk9SR-jZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237163872180"
+  },
+  {
+   "title": "90s Vintage Dr. Martens Brown Leather Boots Size 13 US Men Rare!!20 Yr Old!!!",
+   "price": {
+    "raw": "$90.00",
+    "extracted": 90.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168839913728?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJQV4MC30HK85YMFCES&hash=item274fa4a100%3Ag%3AEPAAAeSwFPZq7Bz-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9FtVdMHEA397mTPpokVIKahmUuq6EXAeMF1RTHMrhv6MzFP3gNoPs7VXWxMnG%2Fhcyk5aX%2FC3CKPnRCBF%2BcuH1iZ1fqMKqvaADF8sCGQP4%2B8PskkPxaF2loViZdes6nk8w5b%2BwdOOjP1P9lvXTgjX%2BfWz3soC1ZWQiPdUrGXaSqk7520IFu96PNgcntw8JbnWsebt3KOAaKmn9wF8G%2BvYM0Z1JDMfGFNumBmLrJuTKXGm%2BCbAKaDQ3To%2BmSdDqkmzrIBk9fw0wGH300jJK41iOC%7Ctkp%3ABk9SR-jZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168839913728"
+  },
+  {
+   "title": "Dr Martens 1460 Made in England Brown Leather Boots UK 6 US W8 M7",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820303967670?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJQW3HFRQMQS33CG5Z7&hash=itembefded35b6%3Ag%3AuBwAAeSw889q53L-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde81%2B6koI30BgjvW%2B6ggUy50mKZDI67JnL8MNb4yH3qo603DqIiqwJlWU%2FP90YSENchMmIUOtPxXGIVvkTLEdqJLwyP%2BB9lo3siwK%2Bt51xKZor4dJTNviIVaHutFWjcJM5QqqVjLtvR0dpvUecNiKQsQ4x5Ion8RSI7p9r1GOz5FJgW2tClhOEcQOiyb8H0JG%2Fkl7kyVRZrAXhZ34%2BdibSSUZSAP0OUKPKbPhqiM4dSA4CKATbNUI49x%2Fzgc74xNMjtQ9Z46yUHtXcOQ527wVtj8%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820303967670"
+  },
+  {
+   "title": "Dr. Martens Combs Leather Crazy Horse Dark Brown Combat Lace-Up Boots US 12",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840098764545?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJQ6NFA8D7GXCD55JN4&hash=itemc399c9d701%3Ag%3A%7E%7E4AAeSwbNlq7UZ8&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BIhYWky8bDyAxmrCSqL1doewY%2FHAv08TUPuucYZcHICSfrKfwNeaqWv3nHwdgfZtFE3raZApJ7OcppVrGYPjbQ1nsA6AwBBHPjMl%2FUizhdUIypzNbxMoQFyNM%2F7Q56oJlBq6a%2BTVwbjn8hHbU2AEylQM4hTpqQkcV8W6nuUHnX5m8VIFeTr3KbWc4UcS5fOPcJVLyF5K46Gte3vsyB88%2FfLq3%2Bvf2u0yVjy5Bgz0Sx2RTi6Aqlr%2BOF%2BdYLWd%2BzIVpSCRoPlS%2FPa0%2BcwJCd%2FymV%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840098764545"
+  },
+  {
+   "title": "rich brown doc martens lace up ankle boots",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137903391254?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJQX6JVPXG1FZC62ZDQ&hash=item201baec216%3Ag%3AAwwAAeSw6lFq69nJ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BRDf%2FQGElHZT5fFGBmEmLqIVeKMnhFI3Vz0%2BbghBGHGkoxAmnFZRtaV6po8%2BiwESk0x94SbwUEofvLBoXnaj%2BgS95nCSfjbkZN%2Bk1GOALDeB1C8vf%2FlXXwbYZQjSQpPDoH7C%2B6Ph%2B9E%2FD%2BNBR%2FaMThKWnsWbs6eytJ8zky7HqybwfTlKJjpqZ%2FYmk%2BtQO%2Fd%2FbhpewkrgFaGnXtGabDeVrP0PwSqKN%2FA4KNuT2KHqkkH%2Fa6fDX4DeZNR9z3II3%2F53vf6XEfKBueGo4zcrA0ZpUdJqlMZIsOe1ShqEHFH54cy4tNzpQoHDofu5GnYKcHj7s%3D%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137903391254"
+  },
+  {
+   "title": "Dr. Martens Sussex Brown Leather Chukka Lace-Up Boots US 8 UK 7 EU 41 AW004",
+   "price": {
+    "raw": "$25.00",
+    "extracted": 25.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237163050008?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJRZ8TYKKGFB81XWSRZ&hash=item373804f418%3Ag%3ActsAAeSw5KRq6zRl&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9wWoW0JZ8HJ5t%2FWZ1hWnC8hDKI28AGgSBVj926gSoIhNX%2BMOD5BFTjilCiIkub%2BGA508JbiQJmG3o99bLR4EZ0Fh6PO0AvIONTSj4zXcyR7%2B%2FrgJ28MHLwEE8WrjfCZ8eKNCDLk6e%2FLeyhaqgizkqv1HNstky0VfuKtG2n8ZvV4aVLPoxqqlkBizQiQA8tzvf7%2Fz7Ox0bRgbS9F4Y%2FtIY25uYKz3%2BDV2mF0BsGTSq95%2Fa0TVJ%2BNOIRgF3FS9DwEPsQ7moSvDat02s%2F7pLVdRdSlKY9xEwQjumZd%2F2xXuGgIOVVfW9X%2B2FidkE5GgTH01w%3D%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237163050008"
+  },
+  {
+   "title": "Dr. Martens Mens Vintage Brown Leather Chunky Boots",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377518591781?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJRRSQZM120WMMT700W&hash=item57e5dc8f25%3Ag%3ATCgAAeSwnm9qtBzn&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Blzn0qR6maw51KjvGiCG4b85CBROiSQaKUwzgJCgICEdKN1173cm0aotgoFhi9%2BqNciR1L8V1GK6Nq5L%2BPG3nQd03KmOT1oKoiBJqIafrRAt0LLhLVl7pT1rNHeBQXc9Us%2B5QY6SxYF%2BsrOElPc1fpd3VUihbjN4QGRx%2Bo7haJLMQ0hl0rFdA7s6YiSnCXxh1m42Tw4nWVjsUhpEhyBes%2BNWFP%2FSVFXpDhrkKfIw5tA0Y%2BlRWBtFUOX85otiMeDb3I31nwzeXBwX4H%2B16mAwgn6hDhbo7%2Fs5eVZjM%2BfBrE6AcSrEBQkG8L7lZfnhzylFo%3D%7Ctkp%3ABFBM6tmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377518591781"
+  },
+  {
+   "title": "Dr. Martens VTG Grizzly Brown Leather Boots Made England Mens US 8 Lug 90s 8287",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/389817770612?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJR9BRTN0TYHSZ8CW3Q&hash=item5ac2f32274%3Ag%3AcNUAAeSwmIxpyZFq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9BBkoQOse2%2Butb6zAil1r7fmWp1ATRooAUoE6DlucPV0QNIUb6f549Fnb0AWdD9SPmJTtlpFaSbY4x6U9hU8zcHPJe%2Fb8%2BmA6mLGbwfISrrlpWq8zo4QhXWxNRYc8j9bKL79JZq8bAVsA6FgYnoeJfaIhi5Jiu0njfqAwuKe5uHIGFKOvRE5OfNR1rIDONA9RK%2B%2BCTb8%2B0YRKXtcZAPW70OPkhwIaGr%2BjOB1rhIlQ2QXbVhJzJDsYzc0YZOsKLsB42xPDoPUCCzeWM714cr5FsTlhLMpNVFCL2LYay1oayrSqpbIBWAxJIfq6sSjCiiUg%3D%7Ctkp%3ABFBM6tmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "389817770612"
+  },
+  {
+   "title": "Dr. Martens Triumph 1460 Combat Boots Unisex M8/W9 Brown Leather Oil Resistant",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/128168655332?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJS2GS5V7WPHYV4Y4YG&hash=item1dd77279e4%3Ag%3AtEoAAeSwVRBq34F%7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8FbJluGdF9sxsXRtyAClXY7IeYCIO3Ql9%2FoPX1o%2Bh%2FRj%2FUyRqvRwbxpq4GcQXUR5OH1hwwxP4fX2VoogwZ6MKsCnvqxPldBc4xIVf94TziAwzKYqPWrAraa08Yn1qWD50UYgXP71BgJ4BB1lA9oWZoIlt5UDOFC660dzxtzQdBq6%2FtbMv7Xeklc2ABKkuA6HZrhH3MZ26R8UN%2FrfmJrytBe8IflI6RepbVzy4pCOWGp2t%2B8ya%2BHJ0Ako%2BolwHosaNT3sN1OFLxHyZup5TUr0zwrZh7h7zxLohJi2lACDrtlGXnbw1QtQYTWWY0n03xLO4%3D%7Ctkp%3ABFBM6tmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "128168655332"
+  },
+  {
+   "title": "Dr. Doc Martens Chunky 8287 Brown Leather Boots Y2K UK6/US7",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117288691104?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJSG6RB52ENND6EFW0W&hash=item1b4ef365a0%3Ag%3AgoAAAeSwBoFqTIQK&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FXJpi3qVAW%2Fkhm5UtRaWPJydM3UBi6pNd0FixTcw1%2BiCu3bZc04rZXgp9bsNKSeYyAAiCLLUBcsTTLD%2B865Hah1wNJMd1VMXahUEOTmgaKQU4B4kS6fnhYkwYGzYw3%2F2EtG0SrTXYNkOY6x1iL6IzeHboa6hMfYIh4nwI8E2K7KDOJIe7mgoZpzFmjbA2%2BWZXUtSdCRCU5bLapByo8q1euYWEEDWTIxqDzRu1PN4nyi1SfUiqLtuBz77CFRZyNqR%2BgcVBXPUqP9HUbPNe8D4YUP1DuUX4eJx29G2JGP0fyEzT2t9zzN9SudHFfoThHnKU%3D%7Ctkp%3ABFBM6tmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117288691104"
+  },
+  {
+   "title": "Dr. Martens 1460 Crazy Horse Dark Brown Leather Lace-Up Boots Men's US 8",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366774358581?_skw=Dr.+Martens+brown+leather+boots&epid=18025954659&itmmeta=01M6T88NJS80ZKCBDBTT8VC28H&hash=item5565749235%3Ag%3AMVsAAeSwaXJq5k2u&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde91ZMZjteXfF4GIt6AXHETXThTr5WrjcslG%2BF070iWqNq%2FTIlyoUu9pkMpyc2QathikS9veyV%2BEq7Nc%2FeKS%2BLmSo72ixS3Tzpa7NC8OqMjVlKUlE6FxNTeLqebcSrLC0NcJi76YDuVjDSq%2FgEOmyAVAiNoeEuVTi2c1FY%2Biu763k6cDaqfr5j%2FGGAd9aIOHyR0o9WoJLrErNThfa5wHU2B7f79m88cVQucu4G7hyEo1cKA744qpGy2Bib%2BWQoFhcXTII9eZI75OS%2BfQ3BkrTHTR%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366774358581"
+  },
+  {
+   "title": "Dr. Martens Brown Leather Slip-On Steel Toe Work Boots Size 11",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860117244078?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJSBMSVFEY670JVDDVR&hash=itemc842fb98ae%3Ag%3AXOMAAeSwo%7Ehq7Rhg&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2ByzR4Lx7wFSmErNKam9Y78kPk%2FcBTTPwlI%2FTo5BSeWaYI3SrvthFkvzyAofgI79ds6fnfXszljBQPm8LaVtu9cNxV7Lhjjgtqru6Gmdzu2xFZF0QK3A6TRVzxrK2ay%2BaDZPrp43qkFJF1oGRv5ncs2Wk64%2BPwTn70nFP2OcYhny1TZbjJS1dOLPbLn%2Fycp%2FEhVnFd4E9RdJR1TWBSL3XIrQwMiWPbkghSKxlmbAHmRdv0G0dFhTDPi%2FLTeLLsx8xeZR6unmKwsuBVYuGL0SBxiR0%2Fo%2BWL%2FadcoobNEQmtw0WgOgd4vX%2FOmY9Uh1y9FRPQ%3D%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860117244078"
+  },
+  {
+   "title": "Dr. Martens Industrial Steel Toe Lace-Up Work Boots Brown Leather Size 9 Mens",
+   "price": {
+    "raw": "$33.00",
+    "extracted": 33.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377622610842?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJTRK7YA3GFWWW0WV3Z&hash=item57ec0fc39a%3Ag%3ALR4AAeSw7oNq6-KB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9V1vwH1MNFeAZJdwB34Mw8keliyhhb%2FtJGHK7d3jy6O%2BQNMguEnOhINu0tgVMYHy98SdOrTbIhux9wl6NG%2B6PEuhhmB2vxCzo8760vuN%2FF8SEim93k8xslOK4RCkrudr7Kox8NY2uTZOA1QUEmi2XpjSteRioDqgNvyMJWFcdiY%2FFFrnlxhhqnaKaUu9d7kEOnVJbpavkTmBwlt0%2BF8QDZWuY1SGVTmxQqMhLd%2BUl4%2FE53wDCH06XUuIkD%2BidpLZQItAuOgKDjyZ8bxMKOaUqBi56EXiqfBYMIiKB78qTfhoQKNqfyd5D24TGEgw5EQ8c%3D%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377622610842"
+  },
+  {
+   "title": "Dr. Martens Women's Brown Leather Combat Boot Size 8",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168842572669?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJT4B5KSVMV4NVSE9RM&hash=item274fcd337d%3Ag%3A6t8AAeSwn5pq7V2t&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9nZ3qDZiqtsIpWqCPkb06Kq1YphqmvDwc43l5rmys5FWfaCchszAeFCNeZwFq01ydxpUJZurfpfb4%2ByzpU4oSInDurWmTnWDMLED8HgUn5d5tH%2B6WMlQGDnqRtS7nRs36GrTuMXucpB%2B0qjKEpBBT3yHFr6GoWgLQizNn7O2SYwa6rWhLFM6hxwxvxLc5LhdlfsPQ9kM1%2B8L9p43ckT39PdyaWB6BTDwfG4Q5b6hgJspyZ0kKGhAsD8xpWnvWufRH3JBNgh58qL3rS6JvUa2K6wQIwlsJlN5EBvcelCYbgR6dhMSHFWjKwB5WEmee6QeI%3D%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168842572669"
+  },
+  {
+   "title": "Dr. Martens 1460 Crazy Horse Leather Boots Brown; Size Eu39, US men 7 US women 8",
+   "price": {
+    "raw": "$105.00",
+    "extracted": 105.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960155361417?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJTFZN26FK4V9Y8KHS2&hash=itemdf8db82089%3Ag%3ASpQAAeSwWd1q68v5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FyjLrDXJKO9UUsCJMQSBmRyQEP81V42ifq5Ak8ci3DZkBokNn6oi1e6Yy88E4qXsSW%2F3hMeMfBQ6Pn4lF6cy81psiBptf4uQdXuUwbWhoLePH7szmBdXMPklp4Mx2tIgiyLwKt5dAdoMx8idF3TTSVfhjaJEMzGstxRibuZ5egoiCBRdxjjLmADIVkaDheA2Znp2%2FWvl7GERVYv9LfYSyjsNGoGWhHLWB3QitpoU2W2sKEe9uLG1d%2Bwq8EVduYAZ%2Fv8ROtOOIeT77AZgsdVgnA%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960155361417"
+  },
+  {
+   "title": "Dr Martens Triumph 1914 Brown Leather Floral Fold Down Boots UK 8 US 10",
+   "price": {
+    "raw": "$195.00",
+    "extracted": 195.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800878984029?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJVSR1VSSWVCF0Q0RWZ&hash=itemba781b7b5d%3Ag%3AMsgAAeSwmalq6%7ECQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde81F3DAqGoLZnqZZ6Xp6v2L40BuOZqjbmfA0swu1TwbqNGEhQbd0IdwsBbdDPNUjE1Kv3dWtYKk7an4qmy94Cr%2FBA5kIMRWiLApuSs5G42BQwO53Ba4y4P27YvH2oFQo2NajptC%2F1LIS%2FMaGIuUuvOIYIOtGhEg4b7M586ZH%2Bp5LKh6PjeLp7QfAQhhOVkwi3MRF0dBzds%2BKUSCYazx1omfyQ9XXKiuAEeY56c0Ox6n2RhG3bwAqDi3ZCry05HB%2BcDyyvy%2B0IUeVTWt66ReOntrllhBruxrEtIsZg5Xw7yJ5%2Bu%2B63uhbxlRnxGaaxZoEcA%3D%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800878984029"
+  },
+  {
+   "title": "Vintage Dr. Martens Men’s Boots",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198767468091?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJV3FEETYAXSDKZ4PCQ&hash=item2e4776de3b%3Ag%3AdCwAAeSwCc1q6YEy&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8jwQwXVbodiccUkMiiGAdfip2JXEgzHp%2FdUKACNCgS8AJzS06Xf50jt8F2crYgil31rPGOShhUD2BlHgjT38pBcvTrEGHRhs3G54o9XsUTZA40Kfv%2BFVGESVccDEZAH4V%2BK0KG4sDo9jZXKMZbqdbGxG94ObT3CmzZX3QQ1HuUUR8gh5FbkDF%2BN9Z137l3tulFIxybPBqA7HH6UtDqyTW8s0gX33PA7BrYhEKt1g4Hm0eCYvUzblouyzaQ5V0Pr3S3K%2B%2B4KI3CQkWxRRDlEInJq2RjTC2FVnBVl7WMa91c4tHAoVqtsO6URmuskgUW6HM%3D%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198767468091"
+  },
+  {
+   "title": "Dr. Martens 1460 J Kids Brown Leather Lace-Up Zipper Combat Ankle Boots 2",
+   "price": {
+    "raw": "$42.00",
+    "extracted": 42.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287702956586?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJVXEBGEY294YSZ0P4P&hash=item42fc6eba2a%3Ag%3A9esAAeSwWutq6nB1&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FSzGwlK84iS8ho%2FgjmHF78%2BKsKxR31u8CGkqanQQN5u9fHYfsk8AOq0B3HM%2FYABaROaAZJgPve88KRx8D2w6%2FhWQkiHHuATwxYah3CRNr5ekW4vdUvfw0xc8jIMGQjZXO3TboofYsXn2xFDu4qlB1PSlgYqJA43L%2Bob3KmRfqWhOlWoXxxc6%2FTDJNWCyYvqOKJgfi214bSxO8zKryszaU1yhUUQ6cMgoaGZ47Sczj88Q63xiyXg%2FYsqwQ5y7PwfoHA9nph0xaRSW24m3DZ6SpJ%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287702956586"
+  },
+  {
+   "title": "Dr. Martens CK 2128 Boots Womens 6 Brown Good Leather Made in England Vintage",
+   "price": {
+    "raw": "$70.00",
+    "extracted": 70.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287710184006?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJVTJT5ZEXR2DJN55E0&hash=item42fcdd0246%3Ag%3An3MAAeSwFN9q7kUr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B1mqaWMTanr63yF4yE30iOd6pOXNRVdgzbvq%2FGDom%2BvJpW5rKL%2BT6hfH9Hkq7GGB1bqsDop1wMBawqIy7EqnGlcgY8x3hWjHtMdwi6RHpd9eHuCzSmU9buDbLtmjpaurEiPIxPdKsMYaOxMrIF2LzPWxjz8WAPaQfb8OlinP9z7fuMPNa04pcJINd3qjQx0Gdg0a7hggO27R54Hj4cKz8TjmhpqpCW8JGyBQK%2F3vD2IyFjBLI5uPiPtGr49dwkbJik9JKcNSLCsaQ6G72HRtil4Nhgb8Bsh6BfxSo%2F7y6W6g9vWHXExLBbUwevoIIal4Q%3D%7Ctkp%3ABk9SR-rZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287710184006"
+  },
+  {
+   "title": "Vintage Dr Martens 1460 Made In England Brown Crazy Horse Leather Boot Men 11 US",
+   "price": {
+    "raw": "$135.00",
+    "extracted": 135.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920106050407?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJW6WB8ZVX8XM7MZZTM&hash=itemd63a982367%3Ag%3AyMUAAeSwsNlq66Ss&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FkuFV%2FxetUhQniDNLr7FSET8G2UJrPMaxMzeC8dZ9Gn2edgOIjVdM2hM8B0RcaU5L6ECL3vW3vjzc%2B5dK6CfCRgQUqiGcKExvPG1h2pFsuF7vxenCSEBZnyIInnjEiQfwi9IcW7YxvTswzGNVVSgoUc4SutqHoiGe5ODAn9yr08vP67Vd3eDyA0IBDTFEwHgoZtItxxf922iMgeWgb7Bd%2B9fYf8nkIVSdQUKUHveBzojQFKKT7UV7HwuYWQIX6k1Gv%2BBTC5gF22%2BjkOOsoJaFPcI3c9ZrLJC1joY44%2B5MQomPe%2B1wCJ%2BLEeg4jzboXLUg%3D%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920106050407"
+  },
+  {
+   "title": "Dr. Martens vintage 8088 monkey boots. US mens 11. Brown. Made In England.",
+   "price": {
+    "raw": "$60.00",
+    "extracted": 60.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227595097697?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJWFEXPJT14PK5SK0SV&hash=item34fdb99661%3Ag%3AIFAAAeSwPHtq6W1I&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BR7TcNoBpVFWyuKjJdfARMWjHfCV7oTeeBXRZDxPeKYjCTUeChIwMSkkrrwjN1%2BNhGkYZVx5vIKHMOXQwg33Nw7uptuxA0Cc07%2BklA6O7BHA0EyRFHaH5R48xWJW52I1FrNsCNwWPS5ktmcDuzta%2BDsth%2Fgvm0W5BrpQ%2FirrWxr4vzMb%2BA2gHLb%2FkgXyVAnx2Bg4zGfvK2Vaz6%2Bl45ICUrL4Yb83QZ5x%2BrBHHeoAFJI4HvMrB2HxdKJlaswbGOiCs%2FIYo2jej6q12GcXQ30UVWRGe1qkA9oyJwYA9UymS7VUNfADuXT%2BJonI5v4j%2ByY44%3D%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227595097697"
+  },
+  {
+   "title": "Vintage Dr Martens Biker Boots Brown Leather Jolie Calf High Womens Size 9",
+   "price": {
+    "raw": "$79.00",
+    "extracted": 79.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257803395033?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJWPHHWQX80HFXZ62SB&hash=item3c06479fd9%3Ag%3AllcAAeSwiFVq08gk&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BHHnXi7CObwgKi%2FfAOhbhlxeQx3T9DT0vRSs4ud1qDUTZzwlgujMOem3gybddosHXnari5ag6aZMG8K8c1UnQOR%2FSsSaCpI%2FkqEnILBSkGYRNUXX4XrO0OFiBt1lISqWsN7%2Fy%2Fsg1Y1ro7Of0kgO9Bxpn9ojlpyCMSHutn9QFmFEcLSYyCvVYepfEnnacEbx4NMIJRLQnxY%2FN1HVWqfyKsbHLHsjitC0shD2kFevE6UTYSTM73EOD9txgiKnmFaW9EbnwPJArhviGJ1mDi7CxE%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257803395033"
+  },
+  {
+   "title": "Dr. Martens Jadon Arc Brown Leather Combat Boots Lace-Up Round Toe Men’s 10",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900052348144?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJWDBD176Q4T900V98B&hash=itemd18f4cecf0%3Ag%3Ay0IAAeSwlHlq5Q-b&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8gQtISTGgCT7NEZk12Jv4dpBEqFXxu2OJWxQguVz4uqfHHJgWuq9BaBpPU%2FAu%2FELlWiSPiFX4dihmN769QszwrWYlLnAOV6ITOQbOvYBoQHP04QNlIihNVsE%2FYrcqT%2BpLShIcAkRE0gBh9gho5ecDzcNayQKNgdDAsXs2Hrbwl6Q7DBYFWgX%2FRVHRs9uDNqpskRL4gA8KjcX4wWjVUBTI5kQlqLm9rzL8LnnziYwqNkkoBAap7LXdNZaJnAwqLHyk0LgFhfHIhSduU%2BAKyNcXq7G89%2FRuZEhFDn%2FVrBqwE8GrYoomRG6tvxgU2Umi8%2FzM%3D%7Ctkp%3ABFBM7NmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900052348144"
+  },
+  {
+   "title": "Vtg Dr. Martens Niel Air Wair Brown Leather Boots Men US Size 10 Doc Martens",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237161594207?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJWZHM1TS1ZPVH83339&hash=item3737eebd5f%3Ag%3AilkAAeSw03hq6leI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BnbXLTD%2BLsZR%2FmwA7uhuP8lyh4%2BqCplESdKQ0I6qupTnu3%2F3lmUMawzLvRi3vojKehsndpdXuAKaQcbaPtP0RmhDnKXcTPtOytv1%2FsdeXXn9%2FJu31%2FE8Ria5ZDB3p4Q1B2vSoix%2BzYYYUUncX77Pd7%2FRXjSWTXTCeO1xw4VLRyerzBP82TVkQLmC1JXElb%2BPi%2FB6XEqQl%2FRaSsNlMdivepGv%2BGnKI%2Bs2tvJ14fB%2Fj5b2R098bfSc5zc5dyhSEgvlDGWFDilGC6QrZTCaJONlOe6a%2FsExLYX1whrt9cwikGHEStDBpq9EV600e35mPm%2FMM%3D%7Ctkp%3ABFBM7NmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237161594207"
+  },
+  {
+   "title": "Dr. Martens Made in England Brown Leather Combat Ankle Boots Lace-Up US 6",
+   "price": {
+    "raw": "$120.00",
+    "extracted": 120.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366765461933?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJXN873EE1M907S7QR4&hash=item5564ecd1ad%3Ag%3AZBoAAeSw%7El9q4Rn2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde82NwKDn%2FzCRo3ckZFWnqXfCCF4wXmR2s5PyWyuIG70hR42ok9jAU2GvCEWAvp%2Bs7%2Bak0riyx5dUQBpV%2B4o9y3b3sPvkf0TzdfOU5P3BYsDfgQGrf%2FYgKqhgEOBasZsG5ptkCRsRGYZJ8%2BwMq6jFCG8hOzLt%2FRNX7%2F1HihHte40nrpYwngm6xe%2FQyR2rc8wUrUDpSbvb6yT7RkhsPfZohJYtcf9gnEOYOxh4LJG1A8vupV%2F%2B14TBFX%2FJtRKLSs%2Fkn0edAixlvJOOraVEiOIu0LM4F44WR2Z2ue15Ai0QxXiY9%2FcSv5VfyTWbnttveC6xHA%3D%7Ctkp%3ABFBM7NmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366765461933"
+  },
+  {
+   "title": "Vtg Dr. Martens Boots Mens 5 Womens 7 Brown Leather Made In England Ankle",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287705379951?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJX6MGDKKT2ZSC7E2CC&hash=item42fc93b46f%3Ag%3A4ZIAAeSwpLBqg3qD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8iC%2Bp7mZ1gg%2B3Ll1SKKkv%2BwdLkhlSR2ttK7CCw9cO2IzzyADp0SrXHOmWQIOCzFT1O6hjdjVWH4FjVbHVRcLpldIULki5R5m82JilPgibtmefoISIqOkh1kVBoiqm1nwrhGH9VXbFQz4mk4oZvfZyyEZih1rfYUJX%2BWkUXBnx9FVOZnaI98ZpQDXo3pPTEV5R1Cu9MDXDKX0Qf2r8PjjeYOv5BOUsMyvdoDX6X5YA9HynzdZIkzMiWEPOQPPZIfpUAHs5R1LQpWbq1ZEcczxVucTwlB6iwPQri0repjetkmg9XJh7HVa2PIiwbAvv5SCE%3D%7Ctkp%3ABFBM7NmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287705379951"
+  },
+  {
+   "title": "VIntage Dr Martens Brown Leather Lace Up Steel Toe Boots Size 11 USA Men 11302",
+   "price": {
+    "raw": "$69.00",
+    "extracted": 69.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336884669227?_skw=Dr.+Martens+brown+leather+boots&epid=8058348216&itmmeta=01M6T88NJXE4NNFJDTWA6BH977&hash=item4e6fe41b2b%3Ag%3Aqz4AAeSwrV1q7qnf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9XUAiwT2yobQxPh7OMNgXS5RwFvMZGmsXliAzHFwFWShw3fsHrGLHW2Kc13s8AjOKgQZjZdL2UgZ1GB3yis5L8E5B6M%2BzKsrAY3DnGYkcXDhxOcuG%2F2q%2B6CQbLo3asKr%2FuKyRHWQ6yu8fuCtbGJyxsWCu4meF9sW%2FbdutiI%2Bi8hUlj2xEoTDtotEIHz6w4NWlZDmf8OfR6gVY%2FqgUyvBoLdaQJrLW%2B%2BeRoGAARXJNtoeR1lG%2Bt2a%2FxGAsIQFdsjImCsaPlzGGD%2BTcyTlB%2BF5iQoG5hGZeYKZtQafa7jXiNmkozwu87S6pgIJvY%2BDqJuvc%3D%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336884669227"
+  },
+  {
+   "title": "Dr. Martens 8287 Made in England Brown Leather Round Toe Lace-Up Mens 8",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407339297637?_skw=Dr.+Martens+brown+leather+boots&epid=8058348216&itmmeta=01M6T88NJXVE9ZHER6VBG9P6W9&hash=item5ed7506b65%3Ag%3AGakAAeSwWLdqwvpF&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9dGUVzOxoStsNE6nKqTezXcqWeucKmu5OIW60BLbCjg71nkNugyUvNUFZv37%2FT%2FThZArfS0Scu3b4HVG6EM8IE7cxwMchFqFdj%2ByB3gIk%2FHvOUV5Stg9nNP5wA8Z7Ai%2BUb%2FBJ0p8qT1IHRAIiL8ZzHfCopaGZo2aoAk1zQgupjGc5L55PQEUDE9LFVXRehw6TLusixUdcJTcDlmoOwG57MRoICvj0FKCy2JV5WNMS7nRcyyU32BfoVLqzhJ2B%2F1RgmxhQqpCMPbJ9YM124y4ls%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407339297637"
+  },
+  {
+   "title": "Dr. Martens Men’s Brown Leather Chelsea Boots Pull-On Rubber Sole US 11s",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407340246526?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJY0GFDPPVAKCK4CJC8&hash=item5ed75ee5fe%3Ag%3ArWsAAeSwrAlq63Xs&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F9PppqIGJU25X1Zg2tO0DjrhD3kQUYTsrCdbA83QKwzcRBauOVcEYIiEyFa8ZerJFf714cnj2JLrgwslElnET9EM5Q%2BUFS3SbH1hKNRG%2BoeeOEe4kqxQ3mI3UmSv4WkYTQCebaH8ppd6me%2BoJ3eiGAznPydnmua85Rdr9%2Bggus2XXAw1mfumnV%2FJKi%2Ff84wPDZqq4Y4aflm2PPsaousWjLztDoU1cH5PiUc%2BioWYX0O1jRnLJ02W%2BmhEKtD0fwWgQ3My5iCKbNImsS9R5A8ljj%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407340246526"
+  },
+  {
+   "title": "Vtg Y2K Dr Martens Doc Crazy Horse Brown 8-Eye Leather Boots 1460 US W 8 /M 7",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227593196699?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJYRGDR81WZT184S89Z&hash=item34fd9c949b%3Ag%3AS%7EUAAeSwXX1q56Wq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9sphLF6dsiBrqCA0%2BiQ1yNHqmIGevfzo1cK1qrrvzjKkxWJEpqAvLtrHls1hPkpWZIp7YBhtyW0vL8cPfnl4moEn3xqPQj0ZPrGA4%2B2NvpiMgQk6s1xm1a5HoNQ5sD7PWSPZjWytq6wKOM%2F0jZhBAXfYyHKKLmIZ%2BZlHQlFbDcc3e8HMw5sosChHDg6qkzcb%2FiRHkHgKg8d%2B9ILq9pg49IH7QgWMQ1mQJh%2BZSyiweRsZP6brhl7hQ9XPwPbn1nxsWaTu5r3yBFRzqzKXIpC9B6%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227593196699"
+  },
+  {
+   "title": "Dr. Martens Sussex Brown Leather Casual Boots Size 10",
+   "price": {
+    "raw": "$99.95",
+    "extracted": 99.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860109948479?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJYMS46QTB9H46WRGSN&hash=itemc8428c463f%3Ag%3Ar4gAAeSwtqBq6hoD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FFufPA%2BYqKgjR64T1Hd6aenXJfHh1fX1Tn2zOo%2BcmruxJ%2BiTVwNVDn3kcWjfh0eUEeWRbvGqlJVh%2FtgyxhqUbl4L2P%2BwOaKa353opSzv7eIzZcx8x1%2B%2FwI7ioSdbCve0IoN5FDmoWuvKxZhS7ylgRFxe3SD00fa8RP7vWF7mn7aXyMffLH2XCdbylnCg8GPtdVSL7ggXwS3n7LzLehCO%2F%2BV1fjqK3EXBqiIqLTIjPNN24yhn2Ggxq3OdJHQG8%2B%2FCKJZNqlb78mFZ2A175E1TT7CPcxPdgS1TSNyq3b%2FocKjE8ulL8snzOGczKCYpWRlqE%3D%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860109948479"
+  },
+  {
+   "title": "Dr. Martens 8845 Industrial Steel Toe Brown Leather Work Boots Size 8M 9W",
+   "price": {
+    "raw": "$20.00",
+    "extracted": 20.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147659647096?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJYTT7P0G4K83X989JS&hash=item2261336878%3Ag%3A8IEAAeSw889q5ih6&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F4ERNiWfGpXyoHcvuV9NikdOI5YgnBm5sDm1kt9VcIPd8gWJICt%2Fxux%2BPtZVlvixkQg6SBxTLHgkA80D9fhqP3CL38DB%2BU21x4CXZAOdHejRtBDxMR9%2FAuBZhkYc5MIQCg%2BydRtv4JPz9VSP%2BsTR%2FiUvidNeANDWA3rI76wFDyeM5R0sl7kfUwzf7sh%2Ba6XpZ29ZOSAypFCAvkqWPHuWub1Qz4ST8DRduScDvXnGSl%2BuzLR4QjSN635K%2FzPKw00XmZUhC7i%2F3xyL2FEoOSfEfo1fboDtQFuxRuK6vzJcW8kRLWMmlfilqDdwCeNvhnlHY%3D%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147659647096"
+  },
+  {
+   "title": "Dr. Martens 939 Ben Boot Crazy Horse Leather - Brown - Men’s 5 / Women’s 6",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/406918427840?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJYDA3DNPEP6D2SSDBX&hash=item5ebe3a74c0%3Ag%3ACmUAAeSwm6Zp5ZUU&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fbk%2FzRPOX1zwpOts0g9DxQ8D8XO5FuQgBj6aqcnnPukvTvkDQO9UZ56bb%2Fq3fkrJizaJUp86pnpI4q4ndvwJ1rKyK3rXSR%2F3OuwxAR6zQPlJCDvmaPBzhxr21rReV8LhwZkklkkU1Lu%2BBEgyebMiHYEiLhHISXJOyu9iepXBOjL%2B4Lw%2Bqi8p6rdV70BUvgYC7CU0GS3m%2BHYzjn4lHoKBufy7k2I5jilr7PAOTVpeVoFgWWO5sfZcwsBbYMrCiwYvgUr0KygNsBk1rX06J%2B6PhtJWOD6o6MAZEL%2BuTP%2ByVnURK69EiAttj4QWo%2FvHzGzPY%3D%7Ctkp%3ABFBM7NmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "406918427840"
+  },
+  {
+   "title": "Dr Martens 1460 Mens 5 Womens 6 Black Smooth Leather 8 Eye Lace Up Boots",
+   "price": {
+    "raw": "$27.99",
+    "extracted": 27.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257837890312?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJYHVHA9B4SKTHCGYRG&hash=item3c0855fb08%3Ag%3AYJYAAeSwqBdn7YoR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FzdM%2BvMB6ukpwbFaPdzv3XmLg1EM7EBhWm7HtjJnqEJJoFRGdadiySKzWMYOAPFcxsb9x6DaHHBPL%2F%2BooH7UCGCCw8hK92ZHDsF3gzmuGyzyyhE1T09hZhw00Hl%2FDZ%2F3kZ16iEZOojz%2BDsqmYrPTiBAOfgL%2FYwRQhtyQU76b5Iy0VlGpXUjUMK89H52Sm7yH42m3cGO55mPHQtjEMMkB0opKm4jjUZCRJKi1OMtqcZMN%2Bk2JOHsJhmIQ8pTxTcBxk70TKS5tSsRPnfSFEUZ9YDnIruscD0UUVw%2BRGA1o%2FP5XkJiZT6FgF1m8xN9ZpNn0k%3D%7Ctkp%3ABFBM7NmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257837890312"
+  },
+  {
+   "title": "Dr. Martens 1914 Kolbert Tall Fur Lined BROWN Leather ZIP BOOTS! 14 Holes W 8 US",
+   "price": {
+    "raw": "$85.35",
+    "extracted": 85.35
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366717105061?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJZQDDHZ6N1QZGCJJPK&hash=item55620af3a5%3Ag%3Av08AAeSwv1tqxZbf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FYN%2FqLjqueLx52WkLG--pZbQzHiajKPlsi4qF8Wj7IluTvTvnlwpFCIxb6YPLluggUkULxu6aOBlmtXkH4DSfi%2Ffs7%2Fw8urda1ZsooYuGPmKu4IdoqLQ6IirSm9%2FFgNoqgKr%2BSNU%2F3gej0qUEGGijnTUnp%2Ft%2FFdEWz%2FknRoGVuWplYTthLiQWVk7nR%2Bca225%2B9r2P3Fsr%2FDDS9EOmVr49Hr44Z6E89xdoei%2F2kAro2eF%2F6bGLjob1%2B4QBcHFdee%2BXmNMnRXIhVDsyqHGt1%2FDpxLrNtVq6Mkl62GQxc3%2B50FEjj%2FyaFYMN2EkUupQowpQM%3D%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366717105061"
+  },
+  {
+   "title": "Dr Martens Triumph Brown Leather Mid Calf Lace Up Boots Women's 9 EU 41",
+   "price": {
+    "raw": "$35.00",
+    "extracted": 35.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/307239475263?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJZ27RRH39CSD25TDVZ&hash=item4788e6583f%3Ag%3AkRMAAeSwq6Vq1ldW&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Q27AaZhKrsMj3W7WIarmP9S9wQCH0xT7Wwk5rcDbbTWkQJ32t8Q1z5lMEWniHS%2BF0SAVJaTAVGLUEsyehdv%2BmzJovcT%2BKy%2FrsY4MxVzEGagCjF0OuJuU6OtCtHzRZxaexlml9XQEN%2FCJjRe4CaHjXatQpiwONjm2KG7wfI%2BFTVoZR2OOjS%2B3q9H3AlB%2FaAkoC0RZ7Yz4SAABMJSUGg6DfIwk%2FVlLlZt9REsBT4Niy6Qye70GZRKpsF%2FnUMrEiDhaXu8629ko3kBa76QVmtkB4mnNC5YH8R4dOHuopkOdGu7TM6syXfNBNq8%2BO%2BH4eBNo%3D%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "307239475263"
+  },
+  {
+   "title": "Dr. Martens Quincy Men’s Brown Leather Combat Ankle Boots Lace Up US 12",
+   "price": {
+    "raw": "$15.00",
+    "extracted": 15.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206680475636?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJZB3B0CT6ACPZXP5CF&hash=item301f1dc7f4%3Ag%3AeSoAAeSwxt5q7hCj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FnmzpzATpeOTgs4ybqz3SCn0qzoj56GcVQ8wInoTw3OTv4jPjrgn0UZ2VYJz%2FwfJGpybcVOAy5WZVm%2FYlGuIKpVFwBVzNAnYa8kechPP1gFtzt78XsrwSXj3rOPe%2BEE6hchff4z4%2BU5UDE9Xu3lRq59dwdG2Q9wKtJcgossi1nsVgsd9a73HAd46iuTE46%2BeOjPgNkvI4%2FZ8N5dMrjdJumpjmFp7dZe8CPpHephsr07nBVKhFua1fo0zx3iIFZbE%2FMANuY3AFg%2FttPRD6KEg0URo2EpDktvF%2Bxd%2BUeGmiLyVRIBzkvYmyc9%2FN4Dy3yvPE%3D%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206680475636"
+  },
+  {
+   "title": "Dr. Martens Anistone Hi Women’s Leather Mid-Calf Buckle Biker Boots US 7",
+   "price": {
+    "raw": "$140.00",
+    "extracted": 140.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377621956866?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NJZHQAF4F41VVADRDZQ&hash=item57ec05c902%3Ag%3AnBkAAeSwbNVq64dC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8yNRjQgZ4fTgDp0EhRzEz94zo%2BMAJn5cd%2B2OV0faQpjd7NA9hsK4xFNpbiLl5KbbxPqegRnBwylEO7Gl3Tq2S9L1Y7tIpst2i0BjUlAyV6iWYaPw4946ucqgi3pDT49YCNaWYG8P1UKldGA78VRaCRELwLJLPK1EliRM7CypO2%2B1PIDLdXsimZ9Iua0Prvb1FWwY%2BtSWMVCS9tss3qVuGuVG4%2BFkZ1s8F%2FlVfpbvSHCeCMajrp9Nc1PRunwE9odRhX6IZzFr9fwZCj2hrzRYCV%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377621956866"
+  },
+  {
+   "title": "Dr. Martens Made in England Brown Leather Lace-Up Ankle Combat Boots Men 9",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147537387785?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK092BNQ1SYM8JRFY4N&hash=item2259e9e109%3Ag%3A3wIAAeSw8rhqlAgF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FhrYSYhg9unMbDiKMb6SfF6tQfdaM%2BZK8kPLabdkewVVRCKarxEG8sFB%2FkUYgyT8GLK5P8vZAk7DHo7NvfX8AykSxCK0hjxU%2BNa5UKDzuiSrYvlebcCHhgjhh6cmjPGXwJ4fmRlI%2FnnMqtuCoSQO4Rut3kF2FEbLjc2rFl%2B2Rqfxehp3wEly%2Ff6ooDgPFuc8P0DddSSra95ia%2FfX7qb7%2FhX94%2FX8sUcybhsJ89FcMoRe7%2BEYugNcmLHzPfhUYb0p7%2F9wybVH67XNpI7Il7R%2Fl9fFFVIjDUUDiLoXzMx%2BNES2AHRsk1Ch8FPQ6dN%2Flr%2FmI%3D%7Ctkp%3ABk9SR-zZosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147537387785"
+  },
+  {
+   "title": "Dr. Martens 2976 Chelsea Boots Brown Leather Women's 6 UK 4 EU 37",
+   "price": {
+    "raw": "$67.00",
+    "extracted": 67.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800882189834?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK0E3GJH0NXJ60CFFF0&hash=itemba784c660a%3Ag%3Ajo4AAeSw1vpq6ma5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FMViRCeL2uavohgZ6dHlQGxSNh5jcVuT1Hjmi6XixHusCVKATrhRqfEJ60spiTwrGzHwKT%2FaLZL%2FNf9LCp5cbRCgOSsLj4eawA8LD5bPYCp3X0W1PXTLh8t9ngkyCOCmZdnAB1svPat5K1KRSfp1E%2FgZAI5kQ6BjuC9GH%2FjG19IN6qIsD6MNqYin3lzRqpYiJCDjzV1lXDAEaFDZDxwM5lVOJlrTVrVcSDEQGd%2Fgmldc7VnjeW9gf9yDuLx2XHmPj18dLrmA09ejX%2FKRIw8J76%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800882189834"
+  },
+  {
+   "title": "Vintage Dr. Martens Made in England Monkey Boots Brown Leather 10 Eyelet UK 10",
+   "price": {
+    "raw": "$200.00",
+    "extracted": 200.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198729079843?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK0EEN5CTV7CH1A07J0&hash=item2e452d1c23%3Ag%3AnF4AAeSwKYpq1rEA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FzGTqHQj5%2BjZasiDxOQD1Nj5nCN%2FNUL3Jpv2J3hL1HhMQp5vrOGjxEes2ewv%2BgKoNiFJjRlKpuc6Xylff1DapV8gTzhiK75tZj9Faa1kASv%2BWtpf55rk7KYvY7pk8erfTromt2%2F9Gq4pUWMmLqqWeICY%2Ft%2Brk7BtHuwjUMPd4%2FNaprwC51yU8aRx0mddg%2Bm3sb8fxunGxWpvYU98XOAHbFoWysix7tkJLCN82FtB0wQ7lxKN9CWMYPcx1I3pvl2bOeltzwZsye6qsU4o2LhBELasTMPmEkLifXo3UgstN9Z%2BWaTRdCUIuE0zRZu1wvrJ8%3D%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198729079843"
+  },
+  {
+   "title": "Dr. Martens Audrick 8i Combat Boots Brown Leather Lace-Up Women's US 7",
+   "price": {
+    "raw": "$48.00",
+    "extracted": 48.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920114121269?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK0EC00QM1C1R0DJ51W&hash=itemd63b134a35%3Ag%3AAekAAeSw21Zq7p15&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde82wRSsZcYKz0lbMLh2qarCYy0uHMqJC7JF42k9mCErnsnN5va7GGGk8qRTfsO1AAkpOBel%2BvYDKavMn365SD7%2ByXO4znxouMd7h%2FxIra1Yjd2H7YhQAZUfGNk71pKilEMU9A3kkZaCzkXAng3MFFSeufOqJzNxy7brAd2KQgMrp05BG7tBB31d%2FgIsdci3rnv9YncHp4seuwP1TvX7sTsC7jibilVEsOt%2FEH9RTLzgnBC1GtxT9aIMyYtPU2TKqbWgLZkx7QJlx02q4dpf6NM%2FNinpxbKLivDRQiKbfU5b0cm2jvDbvRVJLTUBmSB20yw%3D%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920114121269"
+  },
+  {
+   "title": "Dr. Martens 2976 Men's Brown Leather Chelsea Ankle Boots Round Toe",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880080414732?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK1FKSPS8KV13AVVXS2&hash=itemcce8e1680c%3Ag%3ADokAAeSwvIxq6n%7EZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9Br%2FUk%2BWphBtUy7BKNeu7w1t8PaszhH%2Bmnh8RxMce4nVOD%2FF2uSO7K5SfLZdp8sOzZkKGvv9GejzykfvcI8hFoM%2B5FV2%2BmdV6oAj%2FZQMv6jUyGbVgR1QLNuKSnVXwfTU3gNqiD2Gq8r%2FOxzVrRwKUtcvPIvwC2n%2BkUmh%2BrSKhz43OANoLusA%2FnYpOqcTT1rC0R5xN7Rebfq%2FVvu%2FaS0VcnL9xijUa47KgyhFPPDCcUcoQPyOGmjZ%2FZkUI8ymkGUNdu%2FDvhurUqfCVWTFQ%2FqyOGUQPGam14bByZej0MPaF0Ys4gsYkH5jgj4214cqE4zek%3D%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880080414732"
+  },
+  {
+   "title": "Dr. Martens MIX Women's Brown Leather Combat Ankle Boots Lace Up US 8 EU 39",
+   "price": {
+    "raw": "$50.00",
+    "extracted": 50.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800826610321?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK1Z8FDZEW8C904H04F&hash=itemba74fc5291%3Ag%3ApcEAAeSwkbRq2nLz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9i66SOFOHHVKdN%2FwGR5THsXGFFvDQMskcY%2BT1aYAR9k5iQ89bFNXVMbLGv2TomtE4W6kVltHhQXI%2B6r%2FmbRKURl%2FiQIXApRUQ%2B0oJE1I97djGEQSUjHv09H37QlJNwfUaOC2KhulXDzS%2Ffc7nJT5YRF6ZcAAmToNeE4wdGbpLK%2F6SF5jXkieoYnjrrAXv1TKZy%2FLCjZcv4Ka%2Ftm%2FCdyVw9ofKlV0w5ZO9GdObLP%2ByDF05IAAcf2JYVmdfGvrSHpjoG7Zb5eW%2BrIUUUSoxJH3pY%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800826610321"
+  },
+  {
+   "title": "Dr Martens 1460 Crazy Horse Boots Made in England Women’s 6 / Men’s 5 / UK Brown",
+   "price": {
+    "raw": "$83.50",
+    "extracted": 83.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147653378643?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK1K1P58B1DZ66H6EF0&hash=item2260d3c253%3Ag%3AdTIAAeSwr0dq4ANb&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Fag%2B5EwpSbpHLGw%2BDl%2FTP5UQcKXpM04MpfV7g3Ie%2B8j05vIWVSHDeiUsbraammeVlpKArQKXAIC8eO3tOsDnzodP%2BIkfwZv4NkQzhO5ehAk5Tpq16HNnqoizHcdOPSiMDuneZ%2BZzCgGTLQvOJoeBlz7V0ELGWNReEthNgglDgK9G%2Bc9ueWtnOnWmW5iLKiNrz3uWD8Fv%2BYrxmT7dEKD26d789Tu%2B2Gk6GXHTQ%2BQfTKcVj2L%2BCEm1m%2FtY%2BMs9Ptgn3sEStvxXDVT4VLX6Vn%2BUXE%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147653378643"
+  },
+  {
+   "title": "Dr. Martens Boots Diego Mens 9 Air Wair Brown Leather Lace Up Ankle Combat Work",
+   "price": {
+    "raw": "$55.00",
+    "extracted": 55.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168839507554?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK1GQ4241GMK0V0RCTY&hash=item274f9e6e62%3Ag%3AN8UAAeSwSxVq6-F1&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FU48Phdaenr%2F6XswP3i2dF2zXYNB44ldkrMTfE6ISPSzv5RWSBEdydsVIwJUEJVy8KNI5WLDaWQVQrcMAQ7BfPFzkuAfpZFeheI7sa5AzjKgqbHs3AuFb726BUFCUxxV%2FVrfPjIW5D1PMU3qD6dsaOWmyeNHYys%2FXCl6MKJH4XfNN%2BGfEkavlUr5rUeVzC6AHn5Ok6yee7UYWYrxjAFCdSSOlSIEzxp2wIYmPgGOxG9hMjjaT--4V6YW1SF5NuqOMoZXRxKnGsrv16sJo4PgYx%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168839507554"
+  },
+  {
+   "title": "Doc Martens 2976 Crazy Horse Chelsea Boot Men’s Size 8",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/900049289834?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK2AP3BE4H46VNGCHH0&hash=itemd18f1e426a%3Ag%3AQEEAAeSwoP9q43vw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FUU2Nlsomy9N4cxm67p4juvQWnocMY6ofJmt0nekyigzU361ZtKi%2F0iSJEPC9Pza8w2GGpRgLIe8ApzGnKCXMGJK%2FRUNLVAZ98MKnHiphQvj%2FbE%2BjhkahYNlO6zlgOsSW7x7bxqdZiXE0R7pbLqVMEC1qzTltKsODC9C79jhlElsJvkGLDTKyjHMwWlcsT83HzZNrTh3VIS8HLD500Zlw2W1jfjmr330zFQhZOdIzHROIcTs5af%2FUyt7zDO%2FMdUAL%2F5ETSl8Oxuzm2MAyJ4iJy%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "900049289834"
+  },
+  {
+   "title": "Dr Martens 1460 Crazy Horse Leather Boots 11822 Brown Mens 9 Women 10 Distressed",
+   "price": {
+    "raw": "$74.99",
+    "extracted": 74.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820211666059?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK2SB85H8QCEFHG1CX8&hash=itembef86ccc8b%3Ag%3AswUAAeSwdYJp6RnI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BStXkPhg3IPiOXL%2FNSc8Vh01hQL2klRsvL8jBREbaJAzkZMNtMjN3QDfdhwHIZm9M%2FJbqtD6OONlgTQdBt4%2FyNk8y7sbJJ4crZYRJ%2BeKemB7uMIO%2BziRxZyKiercl8Xog7vxPWCFeIPXmhlfKoS2sCrQSp%2BuXOVL22pj0PUf5HdrdyxKvyEMeLoAnctWbckrLMjgIklbMmIcun8pWVB%2B7A6YV7imF27RAZC8g%2BwrNoKk9M6dkMdFqV7tbn29J24%2FIa9fwP%2BMpNp4FLDtsDztB%2F%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820211666059"
+  },
+  {
+   "title": "Dr. Martens 2976 Men’s US 7 Brown Leather Chelsea Boots Round Toe Pull-On",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227589000924?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK2H3HX64GPPVKPKYKR&hash=item34fd5c8edc%3Ag%3ARo4AAeSwZe5q45Zp&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9MsOdMacCS7EkvQ5SXGI5TkqmoMHZ7zB81QveFt3auPHvvCgf95GaqzmQ%2BCDc%2FtO7qftnJ2jlSjrBX7nsitV7zNnzAomZCxLsiyHwA%2FTiP2gdOX3dJK9iqlwGVMPYHgVmb5kLCLuXubswNHFl9xSjqvANDjn7J6H730h1LNbtlzL0LPNmQTCEJA4xmOJWWOrqnwegXoEZRHQEig5CphBgDInO6p4uaz58iorJeKATAsUt5OaJ7o89KbS0uOoiLMnYonA6N4%2BQFkYLOPlSEaF%2B5%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227589000924"
+  },
+  {
+   "title": "Dr Martens For Buckle Mens 9/ Womens 10 Combat Boots Brown Leather FREE SHIPPING",
+   "price": {
+    "raw": "$59.99",
+    "extracted": 59.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800780742195?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK2PP9K7A90J6343AVQ&hash=itemba72406e33%3Ag%3AQzcAAeSwMN1qyr-t&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F2zyDBRx0dvOD%2FImf5Bvxsb44oLEHhZ%2FPJFpY98c3OgQVvLyEPY1eKMWol91tWR%2F1TTPA2k6ESB%2BsPMdKuXzb%2F3lKBFGfzrMwhSbnzi%2BMjZra2poNb8OzBILqzG15ZMpBf4FGRz76WaiGJ9%2B84ddXEzyBnkHjShGWXdTVQn15RR7XwW05FCPBW1xJW3si1lridw86mwlVdcNl6%2BetkMgw%2Fm1dBq%2BAZLn2NGXClY%2FHetUHqDGUkcTd%2FCNg27hrHHFNKCTCunrjUM%2FOqy0%2BkMupd%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800780742195"
+  },
+  {
+   "title": "Dr. Martens Brown Leather Combat Men’s Boots US 9 Womens 10 GUC",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/237073906799?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK3FH265S7Q0SN3QV78&hash=item3732b4bc6f%3Ag%3AHncAAeSwtLZqrBDw&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9yzeS%2F79DQoQjHUSUfWtpAdX61T95fNbhkcJiz8fY%2FcvmeKPboLGfeT2b%2FDInapR1ejQmCjTMNsDcUqmzLgdcNVUsAmTpufiHr6c0DPGqYcSXWtQDM2kskTS%2FghaD2QCKMaLjStgqAU%2F1gkllE9EuQcgEQog7rjreiOM13d1gNPTShLAr2nLD7eqeHZDvYDBZAZayp2y%2B2XbF8UfAXVvmnXcQH%2FJ2I2qfVAVNw4BjYCzJ%2B6yEvWCqDJk2HeIk4A7dEFmogDC07ebc0cu%2FtzjntYGeMFZu5Bf0ZyFcJgppgdq%2BWKOXS%2FwJyj3%2Fa5HA9AqA%3D%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "237073906799"
+  },
+  {
+   "title": "Dr. Martens 2976 Brown Leather Chelsea Ankle Boots Men's US 8 UK 7 EU 41",
+   "price": {
+    "raw": "$80.00",
+    "extracted": 80.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/198721680533?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK33YRXNZ4PNPG8X4EF&hash=item2e44bc3495%3Ag%3AVWMAAeSw7FZq0vb7&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde95VO%2Fs%2F8H4VJnvaisEQbDBNyQYmMDyv%2BWDbdb7v%2BzOHR6FJtD1fxB2S%2B8SFoUzzjTsE27McyLW9m6wxx94NdhwbnWEKYwHYzsDM7Io6simiycsaUi3Jy32X8WucXjPTQMWQ9kmu7T8DXYT4hSOvC0CSZpvQZV8U55LM1Mbu92saRXt5tDS8e%2FOXlpIHct8zP8pAc5qts0S%2By0aQRxGM0asr75KxKsShNEjuGWDLQ1NTvM7T3HPZVZASehY8w1UGnhnAUyUQvbcUcpvnj4I63tbi5%2BTRj9ELmFuZhEJ8%2Bzr%2BMpTwGICUbymnzI%2FD%2FxkHQ0%3D%7Ctkp%3ABk9SR-7Zosi2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "198721680533"
+  },
+  {
+   "title": "Dr. Martens Bonny US10 Brown Crazy Horse Leather Lace-Up Ankle Combat Boots",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377627527039?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK3MEPV956RPJXVA5N9&hash=item57ec5ac77f%3Ag%3AFiAAAeSw9aVq7oJE&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FjPFqX%2FyjD4KoyLIof11Rusm0GKpEEPXWypOxjCSbPzXaD%2FWgfX2%2BJAP0b22oXCJKm9Nuy%2FvooUCyFp7HzGeo18GDmJt01cMJvKMEtpZ83dbpWthK4IAvdxqNpi77WkrDw1%2BZ8NglrN2Q%2FTwtS56BeednwXEDnJKSQJ3oubXMtB7FiocZRDw7JoIWpAVn%2FZqvRjDuNZUz51CZUWPXoLogNftcmEUy8YcoJuG1l5oIFeQsh8Hwvucv1B4lyHp0lilaJlY4GkWaZCL5mPxZjbnP7C8%2Fpa864HmpD0yCSxnoei%2FQgr6FPLICDvIg%2FE9Om9C4%3D%7Ctkp%3ABFBM7tmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377627527039"
+  },
+  {
+   "title": "Dr. Martens Boots Mens 8 Brown 8287 Leather Lace Up Made in England Chunky",
+   "price": {
+    "raw": "$69.88",
+    "extracted": 69.88
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168786866059?_skw=Dr.+Martens+brown+leather+boots&itmmeta=01M6T88NK3T49C4NZK25S331DH&hash=item274c7b2f8b%3Ag%3A928AAeSw37NpEorI&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9htb7tT1abpKwgmDQtH6uLKpVea%2B9S1gH5Lv4NdY8kcVisVGMj0FjY%2FU0zWlwUefZfGCN1MNQNyYo0IT%2FEokM5RvNfS%2FEv0fo7t00ize3OpAvyt9nnA52ZdpsQRISmGZ%2B9B%2BE%2F5rLhG0iRpyyc1%2B7ppH9G5FfTF3GSuG%2BWOLjm0AFlKyXiEKW0GTCpllQ4E3HXSEUk053QIMJ6xxegEPfRmxS6N6yMbILsAbMB6d0Ygd%2FGWQgAFDogCNliP4kiaZmyUcj492e6JRa5vfUDMWiw7mIK2%2ByiQn1yPF0mZyddVDav6YtxkTcqnP6oGS5eiaM%3D%7Ctkp%3ABFBM7tmiyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168786866059"
+  }
+ ]
+}

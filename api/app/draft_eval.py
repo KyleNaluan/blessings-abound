@@ -183,7 +183,7 @@ def summarize(rows: list[DraftScore]) -> DraftResults:
 
 
 def eval_items() -> list[EvalItem]:
-    """The games and hardware items, because Channel A is the only channel drafted here."""
+    """The games and hardware items, because no apparel draft has been written yet."""
     items = [*load_items(), *load_fresh_items()]
     return [item for item in items if item.category is not Category.APPAREL]
 

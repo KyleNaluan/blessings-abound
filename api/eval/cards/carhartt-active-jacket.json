@@ -1,0 +1,15 @@
+{
+  "provider": "generativelanguage.googleapis.com/gemini-3.5-flash",
+  "card": {
+    "category": "apparel",
+    "brand": "Carhartt",
+    "product": "hooded jacket",
+    "visible_text": "Carhartt",
+    "search_query": "Carhartt black hooded canvas active jacket",
+    "model_confidence": "high",
+    "color": "black",
+    "material": "canvas",
+    "exact_model": "Active Jacket",
+    "platform": null
+  }
+}

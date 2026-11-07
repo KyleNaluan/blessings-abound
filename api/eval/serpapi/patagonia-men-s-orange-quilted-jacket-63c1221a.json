@@ -1,0 +1,613 @@
+{
+ "search_parameters": {
+  "engine": "ebay",
+  "_nkw": "Patagonia men's orange quilted jacket",
+  "_ipg": "60",
+  "LH_ItemCondition": "3000",
+  "buying_format": "BIN",
+  "ebay_domain": "ebay.com"
+ },
+ "total_results": 125,
+ "organic_results": [
+  {
+   "title": "Vintage 2011 Rare Patagonia Fitzroy Down Orange Men’s Puffer Jacket",
+   "price": {
+    "raw": "$400.00",
+    "extracted": 400.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/377619078036?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEFENJG9Q5MG2PSFBD2&hash=item57ebd9db94%3Ag%3AWX8AAeSwJPdq6lLD&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FUm%2FM1Ml3wIDgGmpDm11IcLW4PWulDWW5g0WuDUJ6oaZp1kt4e5KmioNPZlPRNy8%2BuiXSbOzTzJ%2FDwDk3tXiSjrSzAFeQcInHittrVBi3NOdozMAzSJDGX2k0H06br5HTG0KGF4xifpCTyL276dejsc5KsxXyLM88gzys5Yt0eIayZLGkP14UP3c0bn4dmKQ7ysuBOpc1gBBj3FKUbrHBG0fHhLUmrtthMKHuR4k477er7fvxYMV95btz%2FjiZ2Nud7wOymmx31DnfeynGSgswi%7Ctkp%3ABk9SR7jHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "377619078036"
+  },
+  {
+   "title": "Patagonia Mens Diamond Quilted Bomber Hoody Industrial Green Orange Size Medium",
+   "price": {
+    "raw": "$89.00",
+    "extracted": 89.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287703424801?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEF2B5BSZC5XA39N5RX&hash=item42fc75df21%3Ag%3Adn0AAeSwgSZq6p2v&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BNfcMDjtkC3TaCbVrwxvdHuWjYkvGM%2Bu%2BVlzae%2BAegyLIgiy4L%2Fnp7wKhKMzdDXK7qDNCZnWLnTkM3w0dApoM8L6GEmbjoMkyYoE%2BuQqLO0lfrO7rCsMTXQj5NYhAn0FIvRtAXCAjBgV0ukGnDuccHjEDzLbyOwSfJCwhav1myoCAwWzCL3sQNOj3pbZ9u%2FW30WtF%2BmfJGoMXr0r5Zry%2FZucbEXvLOuzXrcNHte7I4F%2FMXvPCqEf2LqzfmbM0aUZfUjbyJi3Y%2FwmO2bew35oH1kJzP1woGhpAy46Cm48DFfaDgUXzivvILp%2BGVrjgkMMs%3D%7Ctkp%3ABFBMuMepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287703424801"
+  },
+  {
+   "title": "Patagonia Insulated Fjord Flannel Shirt Jacket Men's Medium Orange Plaid Shacket",
+   "price": {
+    "raw": "$69.99",
+    "extracted": 69.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366791781619?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEFQW4T32FM7QB1647Z&hash=item55667e6cf3%3Ag%3AAqsAAeSwRcZq7qNi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9PtKm%2FJa0N98GGc1mV%2BzvrGU9VzYhOEM8m8cy7vlOlnYeV%2FwA26TdVvS688Ub43mFwV2dkM6utFvJRVH9AWGfzyLRGkw9tKSs%2Blc%2F03TIZFH88CdtRnq7FYnHxISl6ojtYuxLbJEqjlGFWHQirjgsuUfxMTEuVY6d--r%2BEXlOFmhxvpoliS%2FA3xNHh0WnyyvkY3yjm4YVU50rZ53LMRrec5lGl%2BZaYX4DUf6Lbt%2B7zWazbdhyPosQN%2BVo07ajmzIsigEkN%2B3JUTYWOYbgpXdpFJPbSeZEKYls3k6YvmX40AkVl9Z%2BgrBR5ERc%2BXZStGHs%3D%7Ctkp%3ABFBMuMepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366791781619"
+  },
+  {
+   "title": "Patagonia Men's XS Hooded Quilted Puffer Full Zip Jacket Blue/Orange Bomber",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920113444167?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEFDX82P4A2011EH7BX&hash=itemd63b08f547%3Ag%3AxFkAAeSw21Zq7kuI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BoTWiLH5yBv9jf7Rz5ZjzUYQEAAhx7t8JMI0knlNFj7Qr7Idds06R%2FHFOP%2F5b%2BwdPYnop3XDXqjOtce7HP%2FKPZiEmEt5tsFyZvfCbvzRNd1xj%2Fd3OSZAvjVdkSDVup5OH2ASU%2BhfOX7AlrGmo0odHgngV8ZTWlTD9b%2BMMDDrJ3dFPXKdH7LN%2B01TDx2vf2x%2B6rBgj7N7fEyqJMV7nToFqm%2F1OVAzkcjIsmXxzejvrd6A7h6rNqfCSXKFLHk8Drvs%2BZoWTVjCq9f%2FtfJsdWU5%2BA%7Ctkp%3ABk9SR7jHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920113444167"
+  },
+  {
+   "title": "Patagonia Nano Puff Hoody Primaloft Insulated Full Zip Jacket Mens Medium 84221",
+   "price": {
+    "raw": "$134.99",
+    "extracted": 134.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/880083003552?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEFFA5VJ6NNNG2AZDBA&hash=itemcce908e8a0%3Ag%3Aq3IAAeSwnWlq63X4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8k3GM3%2Bmbsw%2BAOXSAql%2F3W%2BFIlzGv%2BXdrnAhieYyBdppmgM2fs9Nz4suCChj02MJJ%2FM7ztfryOeRUOk4JaBZFSZu7ovJA5IuVxIyqGck6Tevp9r1MaRjRM2%2FDIi2xvCvjafKHLE9F2WnO1tW4%2Bb13Ii7p%2BYRt5jcyVgGufGn7TKcfOusIONGG0Q6eM2WlRrBctzQRRcj4N9fhqnrzX4c%2Fp%2BR68%2BpU7lcH2T9%2BqOIE%2F5oTgqkOSF8FE3nEP2%2FWkJSb75BHcJp6KwSFL35S%2BJpxhIatYTljdiDXoTfh3evyqPhiPjZNwr4XgnHFY%2FqBqmdM%3D%7Ctkp%3ABk9SR7jHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "880083003552"
+  },
+  {
+   "title": "Patagonia Nano Puff Jacket Men’s XL Orange Full Zip Insulated Lightweight 84211",
+   "price": {
+    "raw": "$89.99",
+    "extracted": 89.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/840097172967?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEFP7FM6S5VV5J8EEYR&hash=itemc399b18de7%3Ag%3AXUoAAeSwtlFq7LMj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BXO1z46d%2F7nueqqDU0RXpsA1b8urIdlDRmHPaDBRJASy88lTbyTVW5q%2FXx1ZmylQ5em0yFAO5OYzdcpE2GydRiVmmRhkVZSk1u0eaVEwWjNCZdknox8pgCExnU%2FUsXrW3ILWjBYaN3Smfxe6Fzin8LHujRk1KLXXf6UAvK15fR0sOlSr3RFJh%2FpxzREyczaSvSxWysnCidG5rfdJDIJsBMqQYWNhzOB80uRJDz7C7nai5MoyD2%2FfG7L8zAGEAiqEhLs%2FXx58kvKQd4Mq26NDEmRaseCqGA1FwiRnr77%2FVQ10bVaCTTXIJxZR23i%2F0nyL0%3D%7Ctkp%3ABk9SR7jHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "840097172967"
+  },
+  {
+   "title": "Patagonia Jacket Men's Nano Puff Large Orange Full Zip Puffer Outdoor 84212",
+   "price": {
+    "raw": "$189.99",
+    "extracted": 189.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287695269283?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEF7M8FC07S0J2YD3V6&hash=item42fbf96da3%3Ag%3Aq1QAAeSw7Vdq5nHK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8KMjMRfRmihnKnoNPq4OZ%2FuumPQmVM8%2BHDOEXEQBMoT8IVmMqueKYsU0yKdORUhsJnQAjAwdNE5h7DtGbZh%2BWMP4T8T%2FeE5lPIh2QMFcHWJojeNAvvUbbm25wC1tNsf47vKLxvIc0sE%2BLx%2FSh5oVtKcJlskL7ZoRnWWPBHCnhHK7w7CL5OjUnnTby0YEVuLzwPYBaSpSXmFrj46BbYNLWTvtj57gup8LRWaUCbSxEf4LO%2Bhxg1LOFHCJ8zb%2FURt%2BHTpwXC2733ba%2FNl80k0MyF%7Ctkp%3ABk9SR7jHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287695269283"
+  },
+  {
+   "title": "Patagonia Nano Puff Jacket Metric Orange Men’s Medium",
+   "price": {
+    "raw": "$130.00",
+    "extracted": 130.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178244686464?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEGQQB6WKYR4ZXASHR4&hash=item2980361280%3Ag%3AvcAAAeSw9XdqOLwy&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8St7sYrb5%2BPf3smiogSkeieOecdPPlNT9ozFmx5hx7TALwRTtw230cfrfqMvz3ditHyyEr%2BpK5ZY9V5XujIp358RElBEG3hY725IlHQeFqC4%2FlWpUhCsfCZd2ryzc509GzNVfLhydu5AbVX4v1F3L0zghvoZ95OkN3FvWRgGFyI5dm%2BJ1J3QSW%2FKIW62n1dOGGw3atOuEw5SekZgPeKMMDdJZuAQUpiPgqNqLE%2FKqnUISjglowEX0pZ5hbnH2vGRxRa6rXxk3MfUxVUsdgAHNd%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178244686464"
+  },
+  {
+   "title": "Patagonia Jacket Men's Nano Puff Medium Orange Full Zip Puffer Outdoor 84212",
+   "price": {
+    "raw": "$189.99",
+    "extracted": 189.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287679555124?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEGFSC753R20Q3JK33N&hash=item42fb09a634%3Ag%3A3oIAAeSwuU9q3pA5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BzXAku0hNdRurR2nsbsYA5fm0Eu5EMVxvSHBMVOYmV%2BT7uHJANVcaCo4pMSYWq2L44bqTdbXhiTErxdrx8sSxUDa%2FpWsI26ttXurhVfu5vubv%2FwVEbbfLG9sstiVuy1UBfwBEIgsgT3zcJvRyGbiQuZeNBHu5iJuVj%2BstaG0KwhBScphK7tswNwyyjsknqkDPhnDFngRD1M28qSZjEkSvEo0tyPDwwFNdpN%2B77xgPLzlX%2BuYXUq8hcissuAXgpMjm7P%2Fsi6BdCLyBUW1Dcaa6h%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287679555124"
+  },
+  {
+   "title": "Patagonia Nano Puff Jacket Hammond’s Gold Orange Men’s Medium",
+   "price": {
+    "raw": "$140.00",
+    "extracted": 140.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/178381369930?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEG1VVSG5DVJRK04D2T&hash=item29885bb24a%3Ag%3ADO8AAeSwNSNqdUqF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Igc4FX9MJ%2Blpb8%2B38kw5zYxED5VuspMXzSdpwhn68gsT6R2z67JGRUz1Sc05%2F%2BibyYVIGuYg05bTPvIGW%2BfoYxVxg9r5VQIbEUZyMu7gyEfpSk8gx0yDzmG4mriKOe4IXg2NaoHZ9kPWEF8zwJdJ3ddaMjP47hjS4LSoqZipHQ7I77qTG66U9p7kXPnRQGSULIkfti5FjibMPXzkK%2FRAjr3dCnZb%2B8lHDezCyNAfsvAXEm2Bnyt1MvPt32PHHpiYLnY6h5jUDxgbL4HXZ%2Fy1vjBzOGI4%2F8dxTf17AwPiW%2By4MXY4My%2FUrnJqVKzGdpnk%3D%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "178381369930"
+  },
+  {
+   "title": "Patagonia Men's Ultralight Down Jacket Full Zip Orange L (850 fill)",
+   "price": {
+    "raw": "$112.50",
+    "extracted": 112.5
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/920018270786?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEGT6HX698NG8PZPMWR&hash=itemd6355cba42%3Ag%3AgpkAAeSwoDtqxpLe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BnieAxGFSlULNODWoo%2BaxkceCVLe%2F1VDXzTFtKlPv1tEylIIKstIPyeqpnrbDGf5i%2BY3%2Fn3r7q7hEwpXb6Svw2bADxlR7wyxMYwmo%2F7Y7oiIB2QAhG9NT%2FsVleSBUt0uevth%2F6fTfHpCGEopyK6nekBR4Zjrr6XxeOW%2FS2azy3bBxyursMqBBADpP8Cjsak%2F43natnlO1vTgFav5brLfpI712xgknJ4LZJIt6EmS8OYe2s3Dio4iCtZ2FB1eeAmHt4b4L5DVhYzQ9Ud4u3Z%2FE6%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "920018270786"
+  },
+  {
+   "title": "Patagonia Nano Puff Jacket Metric Orange Men’s Medium",
+   "price": {
+    "raw": "$64.00",
+    "extracted": 64.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960050065990?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEGVE5XG9352NS50GMR&hash=itemdf87717246%3Ag%3ATLYAAeSwFPtqyty5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8P19M1TKqyGqbizHgs0V%2FJ2viviLQaxTpOTG%2B51kdyvX7e3%2FpPjBE6Ac2JJi68%2Ba7Nru%2F4PKg33fxpvrPkwcmJ8sR6tklIIrkvZDoRDJv8IMlf6cgORQLQ5MMNRiCHtsMPC%2BsaWUE2MoWZAOCL1kpkhivZ0u%2FBd9xcif58ZQSGsktQHNRz4i1w7EpaK8iQ3mMfam3zcSMtNVaZa3NDyG2naVsdRsGLLR8E3fpGrFMD4V5B7BmDmS0p0N%2Bni%2FolR581jymVqTmAmJXHDo8yN7CY%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960050065990"
+  },
+  {
+   "title": "Patagonia Men's Orange Removable Hood Puffer Jacket Full Zip Quilted XL",
+   "price": {
+    "raw": "$220.00",
+    "extracted": 220.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168812131298?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEGTTXCD48AQ53SMPP7&hash=item274dfcb3e2%3Ag%3AWF4AAeSwuM5q25YF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9vGwPw86TuhRPTH4P9BJRxLnMSc4Vhp1o6g1k17ms%2BtCgc4chundB5IrYfEDooZuKk8uVojRJ6EVeh2NGsRjTeut8vccUpFWAZo1YPNuhO5fIJTsGchg%2FsdLCvquNuErCgc82SLt9nHqjhtaEv1PJg9YJgOLR5se0v7ZfbBhejKbhhn9I0DOhtfj9l66vUeNebp9lKcdkjzuyHxsaAXS%2B21vQFK%2BuI51VXeobblF0PTi%2Bn0ix%2FpFuMupp0zqUHaM%2BciMQsdFhmkVIrjbXAANChqeiv59vAn8zybcQr9OpqnEGelKycO7yuIejDoya7bXQ%3D%7Ctkp%3ABFBMusepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168812131298"
+  },
+  {
+   "title": "Patagonia Downdrift Parka Jacket Men's L Burnt Orange NetPlus Zip Front Winter",
+   "price": {
+    "raw": "$179.99",
+    "extracted": 179.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227595812299?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEGXAMNJKTNSDYFZ8J5&hash=item34fdc47dcb%3Ag%3AajQAAeSwRD5q4LRX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FN638keQvJAIWN9nHHlf8YEQNVZHjePMWSbtEtUurY%2F19NUdOB2IhjV4eEPwgYQpuWAMHZj3qWzCFiUGSWUzmy7jEgd66H8CmQ9fBZlnp0FuCqo%2F47g%2BJL2YvCub1pxs4oDf3sD%2BLPRszhSQ6BtNiMeJ7%2FDvQWrg8uf4dr9f9PWkN%2FovXSX8O7OgfJmkC99KE3zEPY0ciNjQqgEv5x28WgB362yA58g78B3PHEPX0XaNEgYOKSqFsPNg4GRk%2FeJ3twItHSyP87LiR2OKxL8J%2Bsh7REXjXpFWOUoh%2B2SHHOOR8nwrKpTGZjd6jsoVWfM6k%3D%7Ctkp%3ABFBMusepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227595812299"
+  },
+  {
+   "title": "Patagonia Diamond Quilted Hoody Jacket Black Men's Large NWOT",
+   "price": {
+    "raw": "$175.00",
+    "extracted": 175.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257368533165?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEGQHN1SK9XE8KFKQE2&hash=item3bec5c28ad%3Ag%3AlskAAeSwhSNpl2FP&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9ye5QBibsk4%2FkOvP81mVfikojdG6HdXQIv0pRTEkWKqqzEepfKsiAoLmUeIEBe5fNbJ3aMTsH59pAtF%2FWvPD%2FMTCtJgNHI1%2FZ9bXkMNfDdmr7mzzeaBJ8iMEM5BudlVtFpp%2FzJgVIbApnHR8%2Be0ya3DRyvt53qdBPtC7L0R5FuJafg00U0R7DZrrvUbYCRYL3%2FHMEkVLQZirf9Sqr%2Bd4ziotufI3j2KyTf6D4leCqql0S7qfRkk37QLH6I5%2BEOF2V7nVeLEmm6Q0lf4tZg0blXpkaLsNdOLsaJL5DkSSPnefvFNiE1BRsQW1IGd80JLSA%3D%7Ctkp%3ABFBMusepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257368533165"
+  },
+  {
+   "title": "Patagonia Men’s Black Full Zip Fleece Jacket Stand-Up Collar Solid L",
+   "price": {
+    "raw": "$30.00",
+    "extracted": 30.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206681172024?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEGPXWRYPSD53GDK6CH&hash=item301f286838%3Ag%3Aqr8AAeSwD6Jq7nF1&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde865Wbn7X7NHnU4FulHaIjKOy%2FpFKFyfHnYyhhOnmtqtPdxCZXfaVV0XpSwajD1cI6UYwu%2Fyh196qGE1SvUJFxd08vkyOgQRj0yl8hmuC8LSIL3Ud%2Fbk3LFucYEdnB%2B80oJXSU4Ta3L1dRxTuq7MboRy7p%2B4eLWUJ0TBcbTv3rFEYBxAj21qRJRp3%2FYyrK4CGiCK2VK0enbeB6iJ7JzlGdhBvJbTLZrlk%2FoKuobQc7p7k9n90bk1h2ary7cbZleZ0hbT5aTyD75Nm1mhTIsHs86ixG35759YbU1wixMuTgNaR%2FEJUI5rR4RROOM9CNDyM0%3D%7Ctkp%3ABFBMusepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206681172024"
+  },
+  {
+   "title": "Men’s Patagonia Nano Puff Jacket Size XL Orange",
+   "price": {
+    "raw": "$149.99",
+    "extracted": 149.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800757015233?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEHY0QYNA1V6J59G086&hash=itemba70d662c1%3Ag%3AuHcAAeSwOTVqwnWw&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9dWQwo%2B9OhVAqLtywDwJYQcrbDijTYLQXm8rriz8PWilWM9qJXLjjPqygXs8J4QUOmPNqg1uNuFMhVBSjExO7Ywe0UiQAUsRUZZcOJjgp9ABfWku2zrVaLLpgeGd8nNhLPDPVx1Kc4In%2BTVrBc1RmAFToKuW3zxoZJ9bnvipu8wJEJS55o%2FTSRgQQAeoT8ZFy2oIzsC6S35Y7XCtFz727hl2c%2FRMakr6qw8r%2F3rM7lEfc%2Bka%2BC1zGH0nowLe6wagOk%2BEoLim6E0A1ApANhzRRB%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800757015233"
+  },
+  {
+   "title": "Patagonia Men's Nano Puff Puffer Insulated Jacket Full Zip Orange Red Size S",
+   "price": {
+    "raw": "$84.99",
+    "extracted": 84.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800830594908?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEHSA91SYQWJKGN5HW0&hash=itemba75391f5c%3Ag%3A-wcAAeSwWuJq28Xx&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9kICIAY2npgJefhu%2F1AC2yAFhq7MW42y1GFZR8sxzFXgqIalzeBnS29lYxnKbo6fCsefE9JEy1TnS9RLe6%2BKN9cgZRl5JGo5Zv9y9Q5ZFAocs189uhqMJQvaiRODtkAFzA%2BZu%2FgEHHOcQKNpZWBxhqUj3%2FKkMTnwjpOeCaK8UNSB97GdkfsaH0I%2FUVtitGHbgN22VKqdydY28ESA7liR0ZzPmHoSCxWBPwRVaoiTR7K%2Fmv1XLVcKk6C%2F6Bk7Mr2nXo7%2BtpriV%2FJapmLhq3UWSKbxdxzdi2%2Ft6MloTM3wjndbgiQmOcdQJRxjrVnOFuglA%3D%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800830594908"
+  },
+  {
+   "title": "Patagonia Nano-Air Light Hoody Grey Orange Gorpcore Hiking Climbing Men’s L",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407320986153?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEHVWRFF86M683YPEX0&hash=item5ed6390229%3Ag%3AIVIAAeSwqQFq4UCX&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9FVoGZC9JJpfysF6JSqH5DNPLOvVaVHCp1fdLDptEzXfy4MOkA06cL3e9AEyzhRvjjoC5%2Fknihr3iH%2BChSuGbOgEiIXBEu4yQn4Si3xZbPkzHdHMZGftsbOh72p5QYaqLpzwplNMUPjzFuxfBqoLEiS9WDsHD4ezWyDVhGUlDDRbkW8AFDmQ0yLIgAPPEEDtVJgwIeiJ4zknQ72co9PZWwQ6TfwKIMvGU7WYkxQp9Vnhvbhn4ipYk5TEQ5bg5ivhlk8U%2BpqtVFNgaQ1eBjGveh%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407320986153"
+  },
+  {
+   "title": "Patagonia Men’s Nano Puff Jacket MEDIUM Copper Ore Orange Brown Zip Puffer 84212",
+   "price": {
+    "raw": "$148.00",
+    "extracted": 148.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/137834202658?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEHEX710K32DRNDGGG0&hash=item20178f0622%3Ag%3A82oAAeSwGEtqytC9&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8IYX9wRUn1MNS%2BcnO40ZB7wfHipCyF%2BcQ7eVW3guUUjNDCxKGiJErTMRxxh1NFTnsUi5zuwrxyArDuK%2BRR0otTq2wO9Yzaz9qcT2jv0zp9MhL9vp1v8qX%2FJ7yCfF6n2s1SAq9qNtPrSGTpsOo65CDYaIusIKqo6PkxzKnPikEsJMZu3YBN%2F0NaEIUEV1bQ3QfMw76di%2BSK6V7GOvPJ1SnweTIA4s0yg83S7J4L80seHY2aLVSzQIp0HWC0GKR9M4sOjDPMMZh2ChxHK2Cf%2BgRLQznXHbTjL1%2FOiatjU2LznIxDw59TSQYKs%2Bus9O5MGOY%3D%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "137834202658"
+  },
+  {
+   "title": "Patagonia Men’s Medium Zemer Bomber Jacket Color Block Blue Green Orange Light",
+   "price": {
+    "raw": "$90.00",
+    "extracted": 90.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257643879662?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEHF0QHRQE7FRBVG27Y&hash=item3bfcc59cee%3Ag%3AvggAAeSwtWFqZn3G&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8DYvO6q8qeuWQ%2FLanR3qYnR4dI12sXq5eeOOusLLe9q%2BgrOuSuo2OfxVDJ%2BNJgVRC2Xi8eTw4DArLi%2BePJS67dqxEbc6GuanUPxh84d8QPrm9FzSuR5Yzmwd2hWUvn3kp9k995io8vuermFGoDQdg0EmXASf3jJyCa15s8j7IDL%2BGoY6XANSDjQEoOj6adZXMXoPM0tqMvCPV5FjkM34jmiP%2BFDk7VGHU3UPYPeRDpcMXiCLrZsfOT%2FidUdd3%2F4WIpOlte04VFQUmaZxYqUY%2Bf0nYDeTT2Gpga%2BO0%2BjoVfFKku%2FzgSlhPfNsToeci28DI%3D%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257643879662"
+  },
+  {
+   "title": "Patagonia Nano Puff Jacket 84212 Orange Burr Quilted Full Zip Men's XL",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/860098054334?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEHY4WTM32AV1C9EBGQ&hash=itemc841d6c8be%3Ag%3AbwYAAeSwNIpp8Xg%7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8uwaO0kal84PMJGBhG0BJOVH2EYG29BoSdyijZ%2BoXZzyfs58rk9x94dIATTLeEaxxN%2Fc9YIekeeNmUpYmH%2B3jHIwM6t8HJG3muggNETibYtwgLqx4uEHJB9Zj6WdhlinYzQowwzI7eOIWb%2B0CNAEPXWlxFLFJg%2B0aBA7czmIyn4PIxrIWCLz9%2FvhqYMt8fDKcDUjiug9mJKeJ%2FSmvykW47z5XsJXljMEPNC8Ckf3e14Ljhrt8ob1wbtYm0hsv5qxe6KMBD2i4Y%2B77lkNabHMzV%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "860098054334"
+  },
+  {
+   "title": "Patagonia Down Sweater Jacket Mens XL Orange Full Zip Puffer Goose Down Quilted",
+   "price": {
+    "raw": "$139.99",
+    "extracted": 139.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227594473213?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEHYKEEA8CEHTCY98RN&hash=item34fdb00efd%3Ag%3AIxEAAeSwNJ9q6OJi&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8SBFVrtsg4XGwqDPk1fpAnsRfEfyMxKJaNZE9gpwtOLK%2BaXwEHjmviFOVqsV77FP0xExdYdOyuNJ7%2Biv59cCEuyg14X%2BEik1faHMa2fTc5OudGQZl5RCFVlmHmYQMSI9Dg913XBSqIH1A2zqfcv7WHATFhdVe1pu4y0gnphXqAtxyRXckIfGgCV40CAu9k54eLnQ1RFXFXndP%2Bx0p8cfhtgNeUCbatnm%2B%2BpmpQnbd0TUU4uUuiwnd%2BGp9qQhc9V0qVnemXrXy6uQrPxgDAd5Hn%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227594473213"
+  },
+  {
+   "title": "Patagonia Reversible Orange & Navy Blue Men's Medium Quilted Puffer Jacket",
+   "price": {
+    "raw": "$106.90",
+    "extracted": 106.9
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267804195387?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEHQDDR7HPZC2KFEKV0&hash=item3e5a5fba3b%3Ag%3AoXMAAOSw1ellNbxC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B5a%2BtgilDu%2BU0PY7uKY7BUQEAKTMnN3wotACYpC9PQ3wXVjfYbsefB1ptU9Mefi%2BwISPkCw11ayaxLg3LJvpcI5vlogyxgpjbNsVCSRkOLqZWk9xQiQQZNr%2B%2ByHXC0AU5brqfEWsO3CbuCb8YVTQMTzCmnFmpFoD2TfzH5KOzwK43YaAPPaWNC2E21pOwPLaVFqFmi5mO9ZBrvENa7s1vn%2BZp%2Ba6HeyCOG%2BGSU%2B%2BMHXNFh6nHodG1n5pQB4jtimF9V6LwylzdEqPuC%2BgbDyZn1M3Jh9%2FDVeIOZ8MxyN2f0JeMAdmeEEBTm74v02FY3QEQ%3D%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267804195387"
+  },
+  {
+   "title": "Patagonia Quilted Jacket Mens 2XL Orange Diamond Windbreaker Full Zip Hooded",
+   "price": {
+    "raw": "$79.95",
+    "extracted": 79.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267834687228?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEHDHMXMGXE1H1Z5AXK&hash=item3e5c30fefc%3Ag%3AhNkAAeSwh9lq5OLe&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9Pty7xgGH1K%2FW1KE3RLOc1EldSbVsi5hgSwS%2FvFLzxDP7X05wJb4Z1hIdK9%2FI4NGdt9n8DVxxzFBFWqZU%2B8xHpJbwF2bdhyBtnxI21WOsXiNTCCk%2FW5RWYrppRLPWpHkV17km4ivZdTNdEaKUK7ZD6MIaIgG8UK0iH8WAvZjKfHwevr2zRwbXO8ODyvVAfoUAG6Fbl1JdNAHpR%2FHyumeSA0OJKbtB39BQDqW0o58K5Kp%2FnBI691gC9LK3ngr29nN6ulkU9tVqHC9xAgMR7Q4HP%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267834687228"
+  },
+  {
+   "title": "Patagonia Downdrift Jacket Mens Large Orange Down Puffer Full Zip FLAWS READ",
+   "price": {
+    "raw": "$99.00",
+    "extracted": 99.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/327436469729?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEJPS5WPP2DS6V4K4GT&hash=item4c3cbc05e1%3Ag%3Aym4AAeSwjd5q6URS&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FSJh%2FIRG%2F555X%2FZhI8fgGxCGw1n794WGlJzQ8mYOwZyx4AhqN5vfNE57%2FdiMMdoiBDBjtzn8sTaQaAqbFxeUSTJjdYBIrXwzpi3fTn6QEjHLEaJg5kDMkmmHIH4tcg%2B4%2Bucsn4SODvknkH%2F8l24vb9MoMwAairFNiGBPoZqgYbqOs1mANOFvZtfI4tWSv0ExgaF2R6lat%2BnNWj4o7Z9C9KEp0mi395MT2usELk8Ff3z5Yl8OQAnX%2BChPBUJwXoavkLNwI3YoiMMpIOG7yxQUzq%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "327436469729"
+  },
+  {
+   "title": "Patagonia Better Sweater Pullover Mens L Rust Orange 1/4 Zip Fleece Jacket 13882",
+   "price": {
+    "raw": "$35.95",
+    "extracted": 35.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366692240409?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEJ3ZCVZ9ZW3CPDKKEZ&hash=item55608f8c19%3Ag%3ALogAAeSwqXBqtuD3&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9dQwG3mIKEv4XfNjNIIpHEKNQdEkRb%2F1ywfawbdzVbFtaym3wx2wl4m0ss5Xn46OM4ekpmHWlcyb6a0f%2BKMs2TlgvDeV3%2B3KQXgO75WYWAlT3jRT1963b0BiQzrsDyT3VlueJC4Mx%2Bfh8MeOhy10fmvI2R5eq9QzrXbcHAu29tPxNPoBYynGUKZhBU4n3Y3JMnVN48NKp1Gsqe4gshLMoN4vDI%2BwCtYw%2FlqABOSc6U81N8q6TKN0g2e%2F7RcwrYajlbhIMaxDjTqu%2BvB8hqiSd5%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366692240409"
+  },
+  {
+   "title": "Retro Patagonia Teal and Orange Quilted Pullover",
+   "price": {
+    "raw": "$75.00",
+    "extracted": 75.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/960137212590?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEJEQK2F212NBN718Y0&hash=itemdf8ca332ae%3Ag%3AB0YAAeSwtgxq5gZq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FhXrS3T2LyBBDk7zDt7PZA2pK6Mg7eDGRwj0vtp5BpCuyuBremvOep890MkJZDyBt4J3X7188shJzhr8nmMzR3K8TkPxkZJ0Rg23kqBep3Dynetx1zZaM4pDqMWdvTCorgVPl6XsVccF4bQy8DYBv8U55ykI%2BqfSS7gF0LvLqaxhtG9diGggRmzpGz%2B0wrHnXYAa%2FlXDcJMPL%2BY7z2DlaHR6bmWYpdTCH007ZCPrP95Sx8r0Rq6AO3gRnNu6uJ7x%2FMzqHFxuggonZrL9dU4m9t7USXwYx%2FktRjV8r3mfrg37ziG05q6TH5D0znLHxQuJc%3D%7Ctkp%3ABk9SR7rHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "960137212590"
+  },
+  {
+   "title": "RARE Patagonia Gratio Quilted Nano Puff Jacket Men L Reversible Blue Plaid Coat",
+   "price": {
+    "raw": "$119.99",
+    "extracted": 119.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/336832650929?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEJ4TDE5D92PEB9J750&hash=item4e6cca5eb1%3Ag%3A89kAAeSw0zlqxYfG&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2F%2B5nm%2B%2B4lLnS8CSlX95wvdp1%2BTkUL%2BNk8bUn6rwn8pOC1WavOZMJGeKoCtfJ948K8pAcfeT91xaP5w7dc6vjljC%2F0doD3L3HAD68GMvRz12R6L3XY40Dg0HTTJdDaPC9afaQizpq49b7YWaoiA2pIQDzQt5dtkFlcW1V5okeGCd6OG9Kn2YBZ%2BtUe2HbqLSwMtFX5BdMtgHGHhL2Bt521K7%2B4qo8slNZJGvmztwu9xPQ8UxA4KZn%2Fu9KCI2%2BPcQv9YqX%2BZ23o5%2FieK%2BqIA9N5nxjTnL7w0fxx5%2BdeO1cqUU59c3G568DhV26Ra5it4Rk0%3D%7Ctkp%3ABFBMvMepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "336832650929"
+  },
+  {
+   "title": "Patagonia Men's Sweater Jacket Coat 800 Fill Puffer Sz S Hiking Outdoors 84675",
+   "price": {
+    "raw": "$117.99",
+    "extracted": 117.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206651843146?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEJMB7D05S9XZ1NBTEQ&hash=item301d68e24a%3Ag%3AdyEAAeSw2ERq3XHD&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BnpNH7ag%2Bc5vbfhutlzlawDYiBCI2W12hXmSer5IjyxznBH5KOmRJ2BuJuPdwqGmZK%2FTVd%2B8FN0WA1%2BVcilaKpFNxwhT1vyn1fSiCdPk%2BXKvHjRvr6YZbiA92ln92%2BG6XU0jytsWbG%2FC76oNBmNF6A1vHUSNLbmKY8W%2BD4eO8OEZs6EjzweZhRLa5UFT1BBinRs8sAINRfLb9jjR4qcmL0Powk4Fl89BnqVcbgWcVF2HdKumwbgodWyZ2pMa6%2Be11OkJMIEP6hJjt65bqrAZhv7yyPMzK4Tq0j8TirHoLCO%2B3uALJH6oMzADrHZB8wlSU%3D%7Ctkp%3ABFBMvMepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206651843146"
+  },
+  {
+   "title": "Patagonia Men's Ultra Light Down Pullover Half Zip Jacket Orange Size Small",
+   "price": {
+    "raw": "$64.99",
+    "extracted": 64.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267831140400?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEJ21WPDW036P9FCFWB&hash=item3e5bfae030%3Ag%3ADVoAAeSwiGFq6K51&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FHncR2Co%2Fw9M9Cl0Fs4FukAQzU0XTHrztwcSAFD0Th2%2BAX1dLIZbrlYEVYcrieZRwU0AH%2FU5bnGCRzOAZxllvbFd4fevM9MdTHH9Q7wKjArIyRndN5y15L4S6%2B%2Fydaf9dyMAamH5c0ktInQ47kB2KO%2BHp6McWGi%2FbcGB59M3dKIG%2BKjYAXG0JXnafqrtmlqnbARnIGSgtnGlD8JAcnu4rOdm%2B3ltLJ0tYvPMDIH8Am3aK5IbiYi4P9SWcioEyB2YlXGFItUfpUnkj8wzh%2FBZW8M6kHnHPvltDvwRHO6tV8BX10DeUKVqTBVrZtiZxn3uA%3D%7Ctkp%3ABFBMvMepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267831140400"
+  },
+  {
+   "title": "Patagonia Maple Grove Men's Canvas Jacket Green Sherpa Lined Button Front M",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/820325668640?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEJ1VEC4XA1EVAYBV4J&hash=itembeff385720%3Ag%3AcMQAAeSwc15q7lf3&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8PEYeHk6aZJ0Shrbax5kX9AZ0CgP37ZYOVnW%2Bx2kJsC%2FXNu5ERLlx0IErZXBXxbCG1CaxAZIVaDl405YZR9xHEI%2BZax8w2HtVqIssTxTgGU%2BmmsfbJQnOyM6i4rWIWYAGUyEPPu51mrZsyjcf6E6D8TR3Z%2FojT2KzWzi87dQrVtwDPHC2HkhScInJg%2FjLbC7BkpJyMz9YYjVCwftI%2F7R3ZSTI64xkzAUakPezDL1PevMWAALI5uaIFEnRZONa%2B8lyWMlHW9hYSxxOsCJ5erlbRAjcU5%2FkPy7%2F4P8HeMqKSfGozdqz6RLhMLEOxW4Czhu0%3D%7Ctkp%3ABFBMvMepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "820325668640"
+  },
+  {
+   "title": "Patagonia Men’s Nano Puff Jacket XL Sporty Orange Bright Zip Puffer 84212",
+   "price": {
+    "raw": "$167.00",
+    "extracted": 167.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/147652601686?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEJTG2BJNC8QX00MSJ6&hash=item2260c7e756%3Ag%3AxVgAAeSwjHtq1o9u&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde92yQu30vv20dqTLeCN6mNKJZtMYybXXrlNCq7FqB6NXTrNwmfNQgPsrqeMDtGALXunQcgTtlnL5pYp0GsHUxKLQ77jedoy04p3OirnRTowQlnpbrxJuZI7zx%2BueJp2xpnUwurQMvehDBDceTFA9OTvHKGXRW5h2klVbM4AT%2B%2Fy4xTD6Ba75OVzw%2BlQkPlgnh6pB%2F0oNiVFjxOxDTVcOckThROTB%2FvoHRnoNiLhhXyw2mT9QOZQNVyY95gFZEGiEAT0H0hXRk8tgPvY%2BtZ7giNlTiMckILyU5p0jlbp0KY90%2B1NFFgMQNSCIYsTNbsZggE%3D%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "147652601686"
+  },
+  {
+   "title": "Patagonia Nano Air Jacket Men’s XL Gray Orange Full Zip Lightweight Insulated",
+   "price": {
+    "raw": "$118.00",
+    "extracted": 118.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287637892362?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEJA6RJFJ0PVFSB8MN7&hash=item42f88ded0a%3Ag%3AyiYAAeSwXgRqySm0&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B8xXFtATBooP9%2FsvbOBAqE3ntkQTtH3hnWPIpqgnbKIPF7e0idbuQpEBxBXbhBYjxJhhESs2Cuc267Zg5SNJR2KVDtrYWoCt%2FHpdJi9CuX4TXhvOjlTIJMNEENLTz3zrlvaL2q0Tg%2Blo%2BQSmhslMTf7CAR2nxcnDz3Una90N08ssgvbw5oWX2Y3YCuUg8uQ8KQJbVsgyTRXRQ9DJsvP2a8I64Yr28vc6%2BoRJl4w3WYUj%2FAiWQh%2FM9q8oZqK9qjr%2Bf1drHvkSDtbLaYIMkG8CYwVD8Jl5KLlseJAST1hkbmp8Ah9sTT5tC7GmLaQc0B3ig%3D%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287637892362"
+  },
+  {
+   "title": "Patagonia Nano Autumn Orange Puff Packable Insulated Jacket, Size S￼￼￼",
+   "price": {
+    "raw": "$110.00",
+    "extracted": 110.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267804708110?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEKMBEG7YE8BM2PEWZ7&hash=item3e5a678d0e%3Ag%3AYQ8AAeSw4dRqxBRp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3VKE8aAfPb5KLq2grGTysb31atlOQZnGpB9DPACydkv83O%2Bl8LtSLHRss51uBMywThq8VgnngtQwZJPcE0fxFdCXfYyaS%2Fwj1kaDNO3Heeex3MjZLpzlX9uIETbRS%2FMV%2F%2BeVczgTsbo8AHmLGDpdcD%2FNyeLCVVC5ITaO1Y62A3w2TWPRjP94LGLD%2BlJPedqoXNQIZOWTa8jBPtQBPovOK0M3pXSDeTI6%2B%2BqSJgiMhiZJAKESj%2FLf4xMGey1Azn7Gf%2BhlZhSDR1bjIWmSL0jbF7Ked9dP1rSvHG0nPbAX0CRFH6inwKS1nXNpgSpxqucw%3D%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267804708110"
+  },
+  {
+   "title": "Patagonia Nano Puff Jacket Mens Medium Blaze Orange Insulated Quilted Retro Coat",
+   "price": {
+    "raw": "$99.98",
+    "extracted": 99.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287621170449?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEKKPRG5V37Q2WB38JA&hash=item42f78ec511%3Ag%3AtVwAAeSw2CpqEF8o&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9V3VZM65KXZA1QAejfl95msxgeUUSmy%2BvPGaSxhIufSn33PHI3oxTfp3jd0IHDBfvBcEn2%2Bdjxbg4VY3VjIvr5sESsYStUXg%2BzcLzyIogWVr75YZFP8ftHk9%2BOqQ5HLGvNYPSOm28mGaBgVxqK7Pjm4Uzm6JvdPIqKcVrY9WpBLNZdpc1aHMS7wJpRvdfAvm7lzD760XXGMgTY%2Bufx4m69UN%2BBwEDiLAtVydR5SEaNCfBDvKZKJv%2FQayYNlmTsHPzAhJovQOyecSsGWcF%2FAc8y%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287621170449"
+  },
+  {
+   "title": "Patagonia Nano Air Jacket Mens Medium Orange Full Zip Puffer Insulated",
+   "price": {
+    "raw": "$129.99",
+    "extracted": 129.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/286860365541?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEKH30SY4PHWTAS990V&hash=item42ca35cee5%3Ag%3AphAAAeSwhmVo4xOn&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BB9JWFqG1oFYH9uZ0lZpa6oGaO9jZifT3iNp%2FDzRAU3gKbPO%2FbybRfQxH%2B7NsjGyT4HQpe7foIYUXjZiOfbLrqiksrEDYh9ab0aHcJ3w8EobsBNqxFA5jNglW6YqOSdKk4ASgYRJfaQpldNLzOL85uGaEVS1umibwrlByjY9ew%2F%2BPp1ox73pSwekVpEGuYSR1hLnD9hLtPTxF9K0I4thFKCys5g53So%2BgzSK%2BBeqPW8hRpWLMT9Am8hFlUNrBFD8o9segnSZeujm5lJ92W0Xy3%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "286860365541"
+  },
+  {
+   "title": "Patagonia Insulated Quilted Fjord Flannel Plaid Shirt Jacket Men M Orange Puffer",
+   "price": {
+    "raw": "$99.48",
+    "extracted": 99.48
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287608486092?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEKRG3S9P9VP5DWSWPJ&hash=item42f6cd38cc%3Ag%3APB0AAeSwgxVoqjuo&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9XX8Ks8rP6598HlLAnVjtL388hRPoL%2FoiyYiI1%2BhpOFzGxH6J4cOeB23nzj%2FgKAr2mTVtnUIA%2BIS5WjczftPbdakkWgp%2FF3ofCM4xa77yzoUzgs--Wlucj0YPZwFzqHR3H53o5CVIBwR0%2BvQoEpy5XNcxVpzBjOZbMmHRm572I6roLPg1LUqf8Gx9lt4jdMgCc1iTcq6FsXHbCRsCUPwWQ%2BGWhbJlSp4xQ1bDCWgmu1WH%2FxlqdpAvUYA3%2BgCswGRt6a9AyV%2Fdwnfj2fhAmbkaw%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287608486092"
+  },
+  {
+   "title": "Patagonia Box Quilted Hoody Black Nylon Quilted Bomber Jacket 20830 Men’s Small",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287710046772?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEKAJR46X7JZ65GZZYV&hash=item42fcdaea34%3Ag%3Aw2wAAeSwHmRq7jBk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde82MQvseWTSDvtUuAK74ENGSlw7%2FDqboOitb5u%2Bgt%2B9lyyvTJZc65r0n1b6TzbWwl%2F12imVe4ic5iw6waPX2b6azhnXW%2FHyRW%2FZ5CrJnsECiTq7wEMXpasbfsmsO1nt9RDiyLe%2Fb0ul%2BJ4jQ%2BYph%2FOAF7mW1vqF6XYuBgiQQWvFxP%2B%2BMi0zIKTJElS9ZAWI%2FZqZ9Jl3wrwPbT1SzKF8Av7%2FPFAqdowzYCI6aJkm0wkREpmVkj8ktXmFqPhmB9CjmUMsrwsdTFm3Iq9qgx2RPMYDGPThYTIHEGiMgknkT8wO3PUxVUycYv3XYpHQovhONXU%3D%7Ctkp%3ABFBMvMepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287710046772"
+  },
+  {
+   "title": "Patagonia Jacket Men's Nano Puff XL Yellow Full Zip Puffer Outdoor 84211",
+   "price": {
+    "raw": "$179.99",
+    "extracted": 179.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287697820574?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEK3MP3KJ97KKBKHZ8X&hash=item42fc205b9e%3Ag%3A7z8AAeSw-vNq57i8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BFSK1KpJtwkRtbIBY3znp3RFxuWH1Nl%2FQhJMJPAnWeO4seTeYTmlyNEWYUAHR8rx%2Ba00uqSxEH%2F%2BghTuatqpDeGUPWhCf5uDbCry0qLHwGh2qt0H1%2BuW7KqV8eTel6ld%2Bu2Wo9sFZ0RuIFHk%2FCYQGpR1T6f6hDgLkJjvtXDA%2FkdOjuAH%2BAWjUlnG2H7gDcuPmSs%2Bl985U1AUTTvnvPdoA4wFFq27DdBgVszZhltZdtFILEqGbdQFdbK1suPC4RVOc7A7PO7%2B2IcI1YRy74aevs3wK6lE%2BsmT%2B5GBX1HlbigZQddwB6DtQNd0bptmO3wdo%3D%7Ctkp%3ABFBMvMepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287697820574"
+  },
+  {
+   "title": "Patagonia Isthmus Quilted Sherpa Fleece Lined Jacket Mens XL Orange Gray Coat",
+   "price": {
+    "raw": "$149.48",
+    "extracted": 149.48
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278434718848?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEK9BP5X6PBGFKPRXZ0&hash=item40d400a480%3Ag%3Ae2IAAeSwtfZpHewj&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FnW3ytyAG6B797KstKEZu1w2Q5XkVJHr%2B6xnJkfwv3eHAwixjlzgMZnTWDZX44cbdYadt7iXtTC8NDLh2crjKQQscAFzK4spd3XoJkWAYC3PGDtxvmEyvHg%2Bu2I3rJFIx0FOQMufj4LjFHBvj%2Bt%2Bfuf8Qt9nS7EQ%2FQhFLld%2FyzILcej4v9ymnhgIiuZZXtJ2SQW0CGIaABnvAExaJrG3Oq3mpe4ODnX8wIRhk420C6F3wW2CwhI1cHqjn8TRf04%2B5LOdTQFl%2B5tCzQ0AA08Qv%2BNHcHyv8ue0MSlCudvs6PLCQH%2BFw6p%2Fy1BmrRQyZUbU4%3D%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278434718848"
+  },
+  {
+   "title": "Patagonia Nano Puff Puffer Jacket Full Zip Primaloft Insulated Quilted XL",
+   "price": {
+    "raw": "$95.00",
+    "extracted": 95.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/188906340774?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEKXVV3KGA3WMCD3FTV&hash=item2bfbb201a6%3Ag%3A1bUAAeSwQBhqa2yB&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde98jgVqVnZYI2Dq2MGmWXGgqu5mIJKVXQCoCrtXQd0z2FrwKlkCBYm3I6NQVd3jlHZ4jIJUiO25If5aXouIfrtEyPINZA8p5i%2F9KBRFQChJCpikZxoEp9nZvsaSI%2Fpd69w%2BK7eYRgWn43CPmja3jSQ18x7hHSbl2u51%2B%2B4qHhq3dpMIlpyPqBINo3xDlDxXNR7JhEMGdXP%2FEK2a2Te3u9sk9Sfr4qVtzMghsONSL80Ndi3JbmbIUrGcf9DEy74p6xHCBcGfpAdLOhXrMOOOWhhD%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "188906340774"
+  },
+  {
+   "title": "Patagonia Mens Medium Quilt Snap-T Pullover Sweater Jacket Organic Cotton Burnt",
+   "price": {
+    "raw": "$39.99",
+    "extracted": 39.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/127695800839?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEK5DC6ADD6R88RSR2S&hash=item1dbb434a07%3Ag%3AW54AAeSwAeBpmLvV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8N3Tv2eICf%2BJVTM71nvOXVqHVj5PkM3%2BJexTDvqySK9w9zkQFjXiB3pi6wo28N7DgraFe6XbLvZ5irbaE95voYFpw3p9Iw5SkIfTa2Wz5cxlR6YatTaeTF7Zj6nTUVKTwZPO3rnsBmIrBikSVIIEP%2Bv%2B%2B%2F06mIBTQbHntQexwnNlMHoTLyaU2UNmBahcCQa5EvFmK8jLqsLMn4sBz3ElLdKTzzGMrYtZVGwSm3rBlE2eFxhIF%2BkEz5escD9nGmPb6bX%2FYqyL2qgjhcRV%2BXXhs4TxOmT%2FS%2F5CflKQiQL88I2D%2BooUfH5lyjXNhMaxggbZ4%3D%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "127695800839"
+  },
+  {
+   "title": "Patagonia Reversible Fjord Flannel Quilted Jacket Navy Red-Orange Men XL",
+   "price": {
+    "raw": "$85.00",
+    "extracted": 85.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287547738574?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEM1J964A0P29TNRRQT&hash=item42f32e49ce%3Ag%3ADWkAAeSwTtFqj2X2&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8VWB%2FRxiG3sdv5A9H3%2Fm0B9hZyVLiO0SNXeKh%2Fd7AsEiRlurOdB4TFSe63qgw659oGtqocu9Stek--ERn0%2FB0ThFZnlZhV5pc2LSsg9HpKW0qPRYGFqxiplZZnB5H6%2BXUNVUDVQyymumh96c2PWYF%2FG2ma%2FqqELG54icc0MnhV2XDPwmFp%2Bi7xtPk2pbXIjZX6H21i8ZSbdB2l2W%2FccD0ClLXZpEsCjuYx52dxSnxuhgXWarImS33J2iGV2MakC3wyJ1AGnWF1WTQRc%2BQUqIawvPmfTowqZIjmMFMWLl8ekuxJCvc115p108qrQmvAacs%3D%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287547738574"
+  },
+  {
+   "title": "Patagonia Orange Recycled Polyester Full Zip Diamond Quilted Bomber Hoodie M",
+   "price": {
+    "raw": "$134.99",
+    "extracted": 134.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/267826253791?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEMBP3KJ44NVXJAT3FE&hash=item3e5bb04fdf%3Ag%3AXWoAAeSw6Nhq4g8A&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9kkG%2BW%2F2x4MH%2BvAz6XTGCUkvf0ZQMlYq76gp1EfKMNIp--8y0dJe9ioKxXmZjbwTpNwp3dDLnXaYC51FAzfqidhFS7O%2FEUSmgM4JuolI3ip3rRK%2Bev%2FV3Bdcy9QZGWA3OdCnRaRVA4MbISWX65wvn%2Bf1c1aVlmYkBP1058wFcn1xcbo0r7ksY7XYVRhA4syw2cmHz7jLxE9Jf6CykF4ugsIHQ3iqWJC47VaUL5nSZH7EiNhKkHzzAQTM1VnCsgnf0KpD8S%2B1j3GjgcBliMOlpMnmDJlrPiITln3cV4%2B4WM9JbBJPM3dULZwQY9CekRzq0%3D%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "267826253791"
+  },
+  {
+   "title": "Patagonia Ultralight Down Jacket Mens Small Orange Rare Color Hiking Gorpcore",
+   "price": {
+    "raw": "$118.72",
+    "extracted": 118.72
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/227585759480?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEM6J08GGZ374YBM856&hash=item34fd2b18f8%3Ag%3ACPcAAeSw1LlqmBCp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde97MD3ZojbbOfKGVnXyn%2BWh5ytx50bqNPClvDdaE6M61vrwYMcEtvATnSPXZKFcE%2FHw5OlIa53DJ9tREf%2BpQjM%2B5nuFQAJi8dO%2BMntvTD6USzix01ZWfOc0CVK84KQOhIMIBacg66Br%2Bdz9VAV1uCDQDTYLuUh951mxjfiIe7EjyQZHLPbNLUgsqJrgFllAy4a4EPojnMeyC2HLlehNN5lSwN8Z4I5%2FAY2k1XoAl4TbyCJ09nqYDe5exTWwRAD9FSUd8Ru1T352PQ9bZ%2FnrWgkqqvH50Qv7ht6oNrOTjcyq4LtKmewWP9TeQ4r6z115mIQ%3D%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "227585759480"
+  },
+  {
+   "title": "Patagonia Nano Puff Pullover Orange Mens Small 83980F4 Half Zip Insulated Jacket",
+   "price": {
+    "raw": "$80.99",
+    "extracted": 80.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206578097945?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEMFSN1TGATF83E27FJ&hash=item3019039f19%3Ag%3AQroAAeSwHPBpwf7j&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Fmv7t55F0mVtAp4aIrBtClKz%2Fx54PFouxbClZ%2BOCNL3n45QYcqtrv8vbpWh7M%2By6MzL%2Ff%2Bh9IxepbmV4xfqsDY7F2O8055SpbfXt9iv0avAzly78IY3KCnjAB8WkKh%2F9gGB9OH0btnQa3z2hqFQAqlGU345vz8WMvU39PwDpG7f4DrLTw0elvAUKACHyEQ4FoebSijipCn18lb2Zb%2FpHZmcHKrZ5%2BGEMN6ytOR77kGjrzNfW48elaIC5E17Sd1wlz7I0pqWODNClcf5BhOQwUgkzVK4pf7Q4nrRQ4pdFXZod5C8465%2FfP59%2F2%2F4o5u%2Fp8%3D%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206578097945"
+  },
+  {
+   "title": "Patagonia Micro Puff Jacket Mens Small Orange Puffer Ultralight Quilted Zip Coat",
+   "price": {
+    "raw": "$114.48",
+    "extracted": 114.48
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/287610445425?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEMDVD9P812G0ERK5BN&hash=item42f6eb1e71%3Ag%3AlCgAAeSwIwVpZVpC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde97wm1TpOqarEET0dA6dG217Av2fgSpaTiRFbVykSEsmT2ZgQrTVuZm1R8i7H2VZhzFWPQVJJyB3%2BJYFllZQPHGICBcQqcvY7dBC76xXMyjWGcH1jjCSOruZ%2FT6Gjc%2B40z0yVjVIz4EaQ2PBYlDWGRAim6RqBZ1QWYu5jgEkxBybCtwIE6fsODmhMcKbuRYcjUp%2B%2FWb0boZe6tUhrWWKdXdKw42l87zP3oCgzBDAcSbuVaLaXByILv%2FfIYuMAo99WgY2LHUUYBnz0o50kJ8M3Wo%7Ctkp%3ABk9SR7zHqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "287610445425"
+  },
+  {
+   "title": "Patagonia Nano Puff® Jacket",
+   "price": {
+    "raw": "$65.00",
+    "extracted": 65.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/800802428491?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEM3H24KEXNBRX2V6BE&hash=itemba738b564b%3Ag%3A1vEAAeSwavVq0mMQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde999uq9FHPx9y%2Fc3TqfbiXqkFbkLENlqmXUZ3yBKagHWCvM6MIE1IzObvFXF37o5c8ZJ9TPyiuWYihmENT3PO6f6ZvLZGWv1QcMvkN9lz%2FRkRwW1bblK9yx7KnpyX6xL%2BQtEnxdWm7CJRhrReS1e4hX6kwHXHP7b8OaoV9MCagSgMeP8k7QON46EdTLuVbbgQjgXPijFSus5HczeAxFd8rkRzHiGFJ7W5j4C%2FOS9yZKp%2B5pbLYYZoCjyNPJWnhjgnFYTARfY%2BC4bVpQHH0ZcmSJq6M06NYZZoR44S5HBMkAgubYJaMB%2BiRrVZgqL7ExQcM%3D%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "800802428491"
+  },
+  {
+   "title": "Patagonia Isthmus Quilted Sherpa Fleece Lined Jacket Mens XXL Orange Gray Coat",
+   "price": {
+    "raw": "$98.00",
+    "extracted": 98.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/177753776451?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEMCYSP7TNHQJC8GQAE&hash=item2962f36143%3Ag%3AcmIAAeSweM1pXTUS&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9yQaML6g%2FRMRKB4D2CyV%2FV%2Fc%2Fa13VNh3FYVm8NhZNXlEftxH7Bgj9fi%2FAKuyUpf4cBWXAHPyURWL4STrnLXnrmSoV57nqEicP%2By4h5QI0JioAdV3VoIaPNaVL86XMTANkreh%2FYbabg8604ERH1I8ymqojrpctKoMRUfinNmB7iIoHAL6BLZRKikhMRIguZkumq3BK6ZnZfmD15FWXEvEL612Pt7HlXPRamE0qPALdn2d0JAdUgLudvlGqd%2Bu3S%2BbtDJkzKN6lvpxn8NSWQsoDjaJQZcmTY8B8zmsk85MK5YiI9Ht4TixY%2BOq3d2mU90Vw%3D%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "177753776451"
+  },
+  {
+   "title": "Patagonia Nano Air Jacket Mens XL Blue Orange Ultralight Quilted Insulated Coat",
+   "price": {
+    "raw": "$114.48",
+    "extracted": 114.48
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/278372722929?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEM4AC9K3CVXS6D0CR1&hash=item40d04ea8f1%3Ag%3A2RAAAOSwvGBoHg90&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BCsPfyg3dQZKGBRZoTxKxEZ4I6%2BsA9Rg2dZPx3D6E9pVhsyZWTUrB7i5KamFxNa%2FCgIb7L9c53ayVKyxbjA9zW5uDkflrF8%2Fn7%2BTfpeWcsXVdiBqGRCKnonFEPlThEkkgZq23N6jn1MJJyj5542ER31mjNJoizkIoqwZT6ifjdhP%2FqAkZMsSZ%2FxcYS3Axa%2Bzx3p%2BX0jQfsmnXvh8Kc7VplpHLItOv16oOeeAJlfm%2FtS3qDmT1EM5q8z%2F911AHHZBNfHaTTnMpatENz8HncUf69I5uRZHYfyDIlx71X5%2B92wqoiaXbHjl8K7TtExvgjj78%3D%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "278372722929"
+  },
+  {
+   "title": "Patagonia Mens Medium Quilt Snap-T Pullover Sweater Jacket Organic Cotton Burnt",
+   "price": {
+    "raw": "$79.97",
+    "extracted": 79.97
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/117501992647?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEM9EGPAQYSZS2PF0XV&hash=item1b5baa1ec7%3Ag%3AqAgAAOSw5VhlN8yi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2ByFBSP2zVo7F4QaaLWGTXcwh%2FdJ88VocgMQtzjqzvy3OUb6M7vyegGZAjqc%2FZdJoeq4jzV3ijqHSXQkxGWetHLHOfOQE35Z9NgPmjkQTO7n8W0upgzfzwJw7ujJOWBDCRQq%2Fjv3X4tox7M2vN28nTpSmm9IJUonCbRzyx4c99kdswJeLjKtlKUhLGSOIL%2BwknNRJK6Aigk7lgLoTtoiDvg7AReNGFzCFa%2BTVh%2Fr8L10DalPhXM21W6rCe2gyv5ydbyXseAXxyx7ds%2B2o%2BPBEBgaCUKock5bIsl2cSqVOP4iT5Ck3A0LLKJlzjTpVel9Sw%3D%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "117501992647"
+  },
+  {
+   "title": "Patagonia Nano Puff Pullover Mens Small Orange Quilted Primaloft 1/4 Zip 84020",
+   "price": {
+    "raw": "$80.74",
+    "extracted": 80.74
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407275491996?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACENWHWTSJWJ17366PTA&hash=item5ed382d29c%3Ag%3AXwEAAeSw5VxqdwxC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8SWO526pE%2Fvx4EUKocsiCr1abIMwF7JN5AWb28zBhkYSxUA1wJJrarPdenZWBRGBuupWhEZUFJRpKmGDiJuPTYgxDr8BuNxXH8QrUisvZt832xGUbCrqTTFMAfSkKzLo0FE1%2Fd%2BVzLvnzd07cEJyNyncND0yKru6uXpo708et7b4ZKJgmQBU0UlDlOV83ZwJIy5UF7IBDk4PAPa6kwKKlASqGZv7kCng1P3jsNOk%2FqHTKWTBDdLzzLXkHBoRd5jZb6zvHYYj1DZVvLLlQgSjWP%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407275491996"
+  },
+  {
+   "title": "Patagonia Insulated Fjord Flannel Shirt Jacket Coat Men Small Alpha Green Orange",
+   "price": {
+    "raw": "$94.98",
+    "extracted": 94.98
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/940029146726?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACEN8M5S0326CTEDN3KN&hash=itemdade1a7666%3Ag%3A9pcAAOSw-iRn3AxR&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde99MacrvcqhOPqVDTaYEosYsXs0e2U7RoVduLhg9FcsJ%2B8OM6%2Fla2SstbR%2BUFC7spPFxqUxo6cw35KoSa%2FsFVYEQFO18UfpRId87yoehh4rmi7%2BhT3eTFYqwRm%2FkZh7umPOuLyOMSMuJstqLwUIjMLDxhLDd7P5Wu%2FIJm5Zm4hbJwghj%2BA4Pi5K68kB9ic78DvOoWnCeHgmAv7zaVl0DVoCBwOTXY4b%2FbxEEXJaSjq6KRQbM8ZQAVLXV0x5ynqlne4OMbdblfOOblPz1vwEyFT1%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "940029146726"
+  },
+  {
+   "title": "Patagonia Isthmus Quilted Sherpa Fleece Lined Jacket Mens XL Orange Coat",
+   "price": {
+    "raw": "$99.99",
+    "extracted": 99.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/366269369313?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACENRTK55SK5WD1MV5SD&hash=item55475b0be1%3Ag%3AXJEAAeSwyIRps7Lq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8rbpUQIflfsdEkGrVWhCiP89Dt6yJ4EJOq9KUqcUCtDOvy7uxZ3QknW3eAbwm5%2Fh1bfHOXyxmaFnMf3lyCpiCmyNr3zBQ%2FVbnf2dsiJ0OcY582%2BfTc56B%2BILwNCqCwDKk1X1w9WBnqwCohyINW6qOPEFyUdO5bxYIBrxRzkJi1wnYOOZUYFX67SVID5uDSAkklVMCy3BpnsMHnDcRL7YerXHO5qnOn5a99fqBSqZnutM%2FMVCiX90%2Bze50utJefva6SldBRPsl7%2FkCCxnDa3Ynq%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "366269369313"
+  },
+  {
+   "title": "Patagonia Rubicon Rider Men’s Large Ski / Snowboard Jacket Style 29435 in Orange",
+   "price": {
+    "raw": "$119.95",
+    "extracted": 119.95
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/168683956114?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACENZX5TZVP3NHH5WYHS&hash=item274658e792%3Ag%3AdjUAAeSwAwdqpatc&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FOaoIecKVPiNHALpLny9Y0BZPoKmGJsBIpjI07rBQSV2pgw8K41qdg%2FXVVSDZ0xIRCeD87bV2dYYyg5ZtQj3H%2Fks8utH11cXHlIKBD8rdrajc6QySu3CMV2Eh1gAcTRi7YvlQEcVNw%2B7Y%2BHSsujzuppj8yA2jTFnroQylulQTEKEddtxNnLJ%2BSfYYRiIayZQEWRl%2B8lJ6S3Zn0d6V9H%2Fzsk4J0c%2BIx9KgZz8EHgCVmaIcVsx%2FxdXjCtCzv%2BAC8f7uxbQlOz3KtPqknwSeGccZC%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "168683956114"
+  },
+  {
+   "title": "Patagonia Nano Puff Jacket Mens S Orange Full Zip FLAWS Quilted Retro Primaloft",
+   "price": {
+    "raw": "$100.00",
+    "extracted": 100.0
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/407203281708?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACENZF5EPM34PZ0H0REM&hash=item5ecf34fb2c%3Ag%3AXDgAAeSw18JqoOED&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9b39P18ca%2BE0shdLReW954HSFge%2BGtb%2FyE27ljcCchVCIoxO1wlgI5XLwyfDOBvyAZJp5zYzh3T8Bx8JkwtuS%2Bc7%2BbLIhTbD31vayz9g78qduQcR3okorf773MHv4iZ8qAZlNw7VTz1EQP1L%2FBM6pqL3%2Ban7%2FnOHIGQ2pXUi%2BBR%2FyID2bFrY7lAfvrEr7fS1MNTO0IEVkweRgF%2BQD%2FZl2Srdy0Urnh1F4EgsIloHyt7RZw%2BRnBH4T0VBnXT5ZLJHLuSYN4yfY923ZCAuYgP0Xt%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "407203281708"
+  },
+  {
+   "title": "Patagonia Men's Large Rubicon Rider Insulated Ski Jacket Orange Recco 29436",
+   "price": {
+    "raw": "$169.99",
+    "extracted": 169.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/158331341158?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACENQRG80CE3WDQTEK4J&hash=item24dd488966%3Ag%3AamwAAeSwtbVqtG5Q&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde86bSfKN2yTyScH40vOPCCQ8ETDPihq69eucO7M6gscrVSV4OpDLh0AFv5fM6%2BHNzg%2FoXc8bvexBS27gQR0JnVIOWfNNw1K79N%2FakLbt4Q4DtTrh5UnXfMxCj%2FH75wK%2BhsOdj1nnO69gZBKLk4ywxnjfw5n1oGkYGfRbpF26lMWzWCya6n87Tufd9shcqVPrrMsvbvAgY9trRAIxusFH0%2FaFIysoAlofJKO0c223HvLvDfHH1h%2FEbCpXE9HjeLjicthOMc%2FdqYi2As4r2e%2BVybxEe1dcdCmTYRJr%2BY2BSPQYI22HccSZ7dRsxGkKLtTJBE%3D%7Ctkp%3ABk9SR77Hqci2aA&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "158331341158"
+  },
+  {
+   "title": "Patagonia Nano Puff Men's XXL Black Full Zip Quilted Puffer Jacket",
+   "price": {
+    "raw": "$79.80",
+    "extracted": 79.8
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/257838521401?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACENN0SEPSJN6D9YY5KJ&hash=item3c085f9c39%3Ag%3A%7EgIAAeSwgdxq0fwZ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FSRDyU9SvMvTevrMenQZDGcTydVpZ5dpPLtva0jvONvWF4efWqbyCiyttoxd%2BmeR%2FvYbcau1Qv5wtu58twZtdcs22ZLGAcNBZy%2B5I59krVSqdfDwAJMHUX6w2XuP6T1ItzdTrv22%2FbZk258l0eEw5Qj%2FoKEjWTwj7q1rWaXg8xluffoFYu45hfIQa0RQ0ZJ1q45UeCXJLjxOsrdfvtDo9YfFg%2BK%2FngniRy3O2nVIg0UAwao36s42gtEjftOe6cGyYreDn7pYun%2FPCd3s0gKMh2s%2BfwGoGTooJI5xs12CbCMC0qv2nsEjVZ4xkYhwk1Cf0%3D%7Ctkp%3ABFBMvsepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "257838521401"
+  },
+  {
+   "title": "Patagonia Nano Puff Men Small Quilted Insulated Puffer Jacket Full Zip Outdoor",
+   "price": {
+    "raw": "$79.99",
+    "extracted": 79.99
+   },
+   "condition": "Pre-Owned",
+   "link": "https://www.ebay.com/itm/206670565099?_skw=Patagonia+men%27s+orange+quilted+jacket&itmmeta=01M6T8ACENNGK0ZDHZ7ZEHN44Y&hash=item301e868eeb%3Ag%3AKhAAAeSwp41q6KmC&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BAmFoeLI38%2B1nIIKpb2Z7nnGpOfQUQ4mDVewKPIxzYDOW%2BUZnferdJC66cWGqxIY1Evl9T3fMln4Z%2FvoTTThtk5fZo9FRnF7wL32auuWwXz6xYV7FpYTvOSlq1Sb%2F%2B5d6uk9OJWYUOZy4qCoQBrOk5icvyeIOkTrd4vyFkt2em5kcQSgY5EasXdQFDz1Y2AL%2FlAUjPLp4C--0gIiQC0FHo0vl--%2FlnidVgsfC4Y88wWtaq%2FFLLg7Y0o5RZsOrKDhsOFMJ6hZ6C5ZpZwqXgRVRAC5UQ5QT3nSlqPsWtfHdcavCnkRmscfeLyqbDLHFm%2BD4%3D%7Ctkp%3ABFBMvsepyLZo&LH_BIN=1&LH_ItemCondition=3000",
+   "product_id": "206670565099"
+  }
+ ]
+}
