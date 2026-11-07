@@ -111,20 +111,28 @@ class PriceGuideReference(_Strict):
     sales_volume: str
 
 
+class SoldSearch(_Strict):
+    """One site's sold-items search that prices were read from."""
+
+    site: Literal["eBay", "Mercari"]
+    url: str
+
+
 class SoldSearchReference(_Strict):
-    """The median of the most recent matching sold listings, read from a sold-items search."""
+    """The median of the most recent matching sold listings, read from sold-items searches."""
 
     kind: Literal["sold_search"]
-    source: str
+    # eBay alone, Mercari alone when eBay was short, or eBay then Mercari when the two were mixed.
+    searches: list[SoldSearch] = Field(min_length=1, max_length=2)
     price_cents: int = Field(gt=0)
     sold_prices_cents: list[int] = Field(min_length=MIN_SOLD_LISTINGS, max_length=MAX_SOLD_LISTINGS)
-    search_url: str
     recorded_on: date
     recorded_by: str
 
     @model_validator(mode="after")
     def price_is_the_median(self) -> "SoldSearchReference":
-        if self.price_cents != round(statistics.median(self.sold_prices_cents)):
+        # Half a cent rounds up, as the recorded medians do, where round() would go to even.
+        if self.price_cents != math.floor(statistics.median(self.sold_prices_cents) + 0.5):
             raise ValueError("price_cents must be the median of sold_prices_cents")
         return self
 
@@ -591,10 +599,8 @@ def _in_range(prices: Prices) -> str:
 def _source_link(reference: PriceGuideReference | SoldSearchReference) -> str:
     if isinstance(reference, PriceGuideReference):
         return f"[{reference.source}]({reference.url}), {reference.tier}, {reference.sales_volume}"
-    return (
-        f"[{reference.source}]({reference.search_url}), median of "
-        f"{len(reference.sold_prices_cents)} sold, recorded by {reference.recorded_by}"
-    )
+    links = " then ".join(f"[{search.site} sold]({search.url})" for search in reference.searches)
+    return f"{links}, median of {len(reference.sold_prices_cents)} sold"
 
 
 def _summary_row(label: str, summary: Summary) -> str:
@@ -840,8 +846,14 @@ def render_report(items: list[EvalItem], fresh: list[EvalItem], results: Results
         "## Items",
         "",
         "PriceCharting prices were read once from each linked page, on the date shown.",
-        "Sold prices were recorded by hand by the person named, from each linked search, on the "
-        "date shown, as the rule above describes.",
+        *sorted(
+            {
+                f"Apparel sold prices were recorded by {reference.recorded_by}, from each linked "
+                "eBay or Mercari sold search, on the date shown, as the rule above describes."
+                for reference in (item.reference for item in items)
+                if isinstance(reference, SoldSearchReference)
+            }
+        ),
         "The script never fetches either one.",
         "",
     ]

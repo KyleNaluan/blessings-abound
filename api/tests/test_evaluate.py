@@ -74,12 +74,11 @@ def test_an_item_with_no_price_lowers_the_rate_but_not_the_median_error() -> Non
 
 SOLD = {
     "kind": "sold_search",
-    "source": "eBay sold filter",
+    "searches": [{"site": "eBay", "url": "https://example.com/search"}],
     "price_cents": 4500,
     "sold_prices_cents": [3000, 4000, 4500, 5000, 6000],
-    "search_url": "https://example.com/search",
     "recorded_on": "2026-11-02",
-    "recorded_by": "A teammate",
+    "recorded_by": "a teammate, by hand",
 }
 
 
@@ -105,7 +104,6 @@ def test_a_sold_search_price_needs_its_link_date_and_recorder() -> None:
         SoldSearchReference.model_validate(
             {
                 "kind": "sold_search",
-                "source": "eBay sold filter",
                 "price_cents": 4500,
                 "sold_prices_cents": SOLD["sold_prices_cents"],
             }
@@ -115,6 +113,21 @@ def test_a_sold_search_price_needs_its_link_date_and_recorder() -> None:
 def test_a_sold_search_price_must_be_the_median_of_the_prices_read() -> None:
     with pytest.raises(ValidationError, match="median"):
         SoldSearchReference.model_validate({**SOLD, "price_cents": 4600})
+
+
+def test_a_half_cent_median_rounds_up_as_recorded() -> None:
+    prices = [1000, 1000, 1000, 3122, 3123, 4000, 4000, 4000]
+    reference = {**SOLD, "price_cents": 3123, "sold_prices_cents": prices}
+    assert SoldSearchReference.model_validate(reference).price_cents == 3123
+
+
+def test_a_sold_search_needs_a_search_from_a_named_site() -> None:
+    with pytest.raises(ValidationError):
+        SoldSearchReference.model_validate({**SOLD, "searches": []})
+    with pytest.raises(ValidationError):
+        SoldSearchReference.model_validate(
+            {**SOLD, "searches": [{"site": "Poshmark", "url": "https://example.com"}]}
+        )
 
 
 @pytest.mark.parametrize("count", [4, 11])
