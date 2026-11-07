@@ -1,7 +1,7 @@
 # Turnstone
 
 A staff web app for Blessings Abound, a Kansas City nonprofit thrift store chain, that follows a donated item from intake to sale.
-Every item forwarded to Ecommerce gets a SKU and a triage log entry at intake, and every item is one of a kind and sold online only.
+Every item forwarded to Ecommerce gets a SKU and a triage log entry at intake, and every item is one of a kind and sold online, unless a manager takes it out of online selling.
 A staff member uploads a photo of an item and enters details such as condition and size, a vision model turns them into an editable item card, and the app looks up similar eBay listings to suggest a price range and whether the item is worth listing.
 The price comes from code over those listings, never from the language model, which only explains the result.
 Later stages draft the listing text, recommend a channel and timing, and send each listing to a manager for approval, along with its storage location and a pick list for when it sells.
