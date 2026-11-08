@@ -1,6 +1,6 @@
 {
   "labels": 48,
-  "labels_checked_by_a_person": 0,
+  "labels_checked_by_a_person": 48,
   "prompt_sha256": "d4cb4d96e79686b66ac9ac5a99f3bdf86ff2c3cbc2195ef1b2eab32e5ed6a928",
   "providers": {
     "api.groq.com/qwen/qwen3.8-27b": 47,
@@ -274,7 +274,7 @@
       "category_label": "electronics_games",
       "category_read": "electronics_games",
       "category": "correct",
-      "product_label": "Super Nintendo console",
+      "product_label": "New-Style Super NES (SNS-101)",
       "product_read": "game console | Super Nintendo | Super Nintendo game console",
       "product": "correct"
     },
