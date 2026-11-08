@@ -43,6 +43,8 @@ export function HomePage() {
   const pickList = useCount(countPickList)
   const attention = useCount(countAttention)
   const name = me?.display_name || signedInName(session?.user.email)
+  // A count the API couldn't give means the API is down, which the demo's wake check looks for.
+  const unreachable = [approvals, pickList, attention].includes(null)
 
   return (
     <AppLayout>
@@ -54,6 +56,13 @@ export function HomePage() {
         <Link to="/app/appraise">Appraise an item</Link>
       </Button>
       <h2 className="mb-4 text-xl font-bold">Waiting on you</h2>
+      <div aria-live="polite">
+        {unreachable && (
+          <p className="mb-4 rounded-xl border-4 border-destructive bg-card px-5 py-4 font-bold">
+            Can't reach the API, so these counts aren't showing. Try reloading the page.
+          </p>
+        )}
+      </div>
       <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {isManager && (
           <CountCard

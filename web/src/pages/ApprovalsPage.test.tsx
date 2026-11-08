@@ -954,6 +954,26 @@ test('putting an item back from the list needs a note, then opens its review', a
   expect(history.getByText('A customer asked for it online.')).toBeInTheDocument()
 })
 
+test('the list toggles say whether their form is open, as Review and Manage do', async () => {
+  stubApi({
+    overrides: {
+      'GET /approvals': () =>
+        Response.json({ ...QUEUE, awaiting_approval: [], held_for_season: [HELD] }),
+    },
+  })
+  renderAt('/app/approvals')
+  const held = await panel('Held for season')
+  const toggle = held.getByRole('button', { name: "Don't list online" })
+  expect(toggle).toHaveAttribute('aria-expanded', 'false')
+  fireEvent.click(toggle)
+  const close = held.getByRole('button', { name: 'Close Carhartt canvas jacket' })
+  expect(close).toHaveAttribute('aria-expanded', 'true')
+  expect(close).toHaveAttribute('aria-controls', `held-${ITEM}-details`)
+  expect(held.queryByRole('button', { name: 'List now' })).not.toBeInTheDocument()
+  fireEvent.click(close)
+  expect(held.getByRole('button', { name: 'List now' })).toBeInTheDocument()
+})
+
 test('putting an item back can be cancelled', async () => {
   const calls = stubApi({
     overrides: {

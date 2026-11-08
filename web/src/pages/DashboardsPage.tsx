@@ -16,8 +16,9 @@ import { FunnelView, SeasonalityView, SyncView, TimeToSellView } from '@/pages/d
 type Load =
   { state: 'loading' } | { state: 'failed'; message: string } | { state: 'ready'; data: Dashboards }
 
-// The chat's height: shorter below the charts on a narrow screen, taller beside them on a wide one.
-const CHAT_HEIGHT = 'h-[32rem] xl:h-[48rem]'
+// The chat's height beside the charts on a wide screen. Below them, on a narrow one, it has no set
+// height, so its answers run down the page instead of into a small box.
+const CHAT_HEIGHT = 'xl:h-[48rem]'
 
 // The four sales views, one tab at a time, each chart labeled with where its numbers come from.
 const VIEWS = [

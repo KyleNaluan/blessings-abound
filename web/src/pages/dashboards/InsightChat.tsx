@@ -82,8 +82,8 @@ function Answer({ answer }: { answer: InsightAnswer }) {
 
 // A manager asks a sales question, the model picks one of a fixed set of tested functions, code
 // works out the numbers, and each answer shows the call it came from. It reads like a chat: the
-// newest answer at the bottom, with the question box under the conversation. The panel keeps the
-// size its page gives it, and the conversation scrolls inside it.
+// newest answer at the bottom, with the question box under the conversation. Given a height, the
+// conversation scrolls inside the panel, and without one, the panel grows with it.
 export function InsightChat({ className }: { className?: string }) {
   const [question, setQuestion] = useState('')
   const [empty, setEmpty] = useState(false)

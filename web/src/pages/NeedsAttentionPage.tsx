@@ -51,7 +51,10 @@ function busy(flag: Flag) {
 }
 
 function problemName(flag: Flag) {
-  const channel = flag.channel && !flag.double_sale ? ` on ${CHANNEL_NAMES[flag.channel]}` : ''
+  // A double sale is on two channels, and a handled one no longer carries its orders, so it goes by
+  // its kind rather than whether the orders are still attached.
+  const channel =
+    flag.channel && flag.conflict !== 'double_sale' ? ` on ${CHANNEL_NAMES[flag.channel]}` : ''
   return `${KIND_NAMES[flag.conflict]}${channel}`
 }
 
@@ -190,7 +193,9 @@ function FlagRows({
       <Row open={open}>
         <Cell className="font-bold break-words">{problemName(flag)}</Cell>
         <ItemCell flag={flag} />
-        <Cell className="text-muted-foreground">{when(flag.created_at)}</Cell>
+        <Cell label="Found" className="text-muted-foreground">
+          {when(flag.created_at)}
+        </Cell>
         <ActionCell>
           <Button
             variant="outline"
@@ -296,8 +301,10 @@ function HandledRow({ flag }: { flag: Flag }) {
     <Row>
       <Cell className="font-bold break-words">{problemName(flag)}</Cell>
       <ItemCell flag={flag} />
-      <Cell className="break-words">{flag.resolution}</Cell>
-      <Cell>
+      <Cell label="What was done" className="break-words">
+        {flag.resolution}
+      </Cell>
+      <Cell label="Handled by">
         {flag.resolved_by ?? 'Turnstone'}
         {flag.resolved_at && <SubText>{when(flag.resolved_at)}</SubText>}
       </Cell>

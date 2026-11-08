@@ -87,8 +87,8 @@ function Queue({
             {items.map((item) => (
               <Row key={item.item_id}>
                 <ItemCell item={item} sku={item.full_sku ?? item.sku} />
-                <Cell>{channelNames(item)}</Cell>
-                <Cell>
+                <Cell label="Channels">{channelNames(item)}</Cell>
+                <Cell label={since}>
                   {item.waiting_since ? when(item.waiting_since) : 'Not recorded'}
                   {queueNote(item) && <SubText>{queueNote(item)}</SubText>}
                 </Cell>
@@ -153,25 +153,29 @@ function HeldItem({
             </span>
           )}
         </Cell>
-        <Cell>{item.release_month ? releaseMonth(item.release_month) : 'Not set'}</Cell>
-        <Cell>{item.location_code ?? 'No shelf yet'}</Cell>
-        {/* While its form is open the row's buttons step aside, and the form has its own Cancel. */}
+        <Cell label="Held until">
+          {item.release_month ? releaseMonth(item.release_month) : 'Not set'}
+        </Cell>
+        <Cell label="Shelf or bin">{item.location_code ?? 'No shelf yet'}</Cell>
+        {/* The toggle reads Close while its form is open, as Review and Manage do, and List now
+            steps aside until the form is closed. */}
         <ActionCell>
           {!open && (
-            <>
-              <Button
-                size="lg"
-                disabled={sending}
-                aria-busy={sending}
-                onClick={() => void sendNow()}
-              >
-                {sending ? 'Sending...' : 'List now'}
-              </Button>
-              <Button variant="outline" size="lg" disabled={sending} onClick={onToggle}>
-                Don't list online
-              </Button>
-            </>
+            <Button size="lg" disabled={sending} aria-busy={sending} onClick={() => void sendNow()}>
+              {sending ? 'Sending...' : 'List now'}
+            </Button>
           )}
+          <Button
+            variant="outline"
+            size="lg"
+            disabled={sending}
+            aria-expanded={open}
+            aria-controls={open ? detailsId : undefined}
+            aria-label={open ? `Close ${itemName(item)}` : undefined}
+            onClick={onToggle}
+          >
+            {open ? 'Close' : "Don't list online"}
+          </Button>
         </ActionCell>
       </Row>
       {open && (
@@ -252,19 +256,24 @@ function KeptOffRow({
     <TableBody>
       <Row open={open}>
         <ItemCell item={item} sku={item.sku} />
-        <Cell>
+        <Cell label="Kept off by">
           {item.decided_by_name}
           <SubText>{when(item.decided_at)}</SubText>
         </Cell>
-        <Cell className="break-words">
+        <Cell label="Note" className="break-words">
           {item.note ?? <span className="text-muted-foreground">No note</span>}
         </Cell>
         <ActionCell>
-          {!open && (
-            <Button variant="outline" size="lg" onClick={onToggle}>
-              Put back for review
-            </Button>
-          )}
+          <Button
+            variant="outline"
+            size="lg"
+            aria-expanded={open}
+            aria-controls={open ? detailsId : undefined}
+            aria-label={open ? `Close ${itemName(item)}` : undefined}
+            onClick={onToggle}
+          >
+            {open ? 'Close' : 'Put back for review'}
+          </Button>
         </ActionCell>
       </Row>
       {open && (

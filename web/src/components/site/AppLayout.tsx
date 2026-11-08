@@ -26,24 +26,23 @@ const APP_LINKS: AppLink[] = [
 
 // The frame for every signed-in page: the navigation bar, the page, and the footer kept at the bottom.
 // Text runs the page's width, and a form or field keeps its own narrower width.
+// A wide page, such as the dashboards, runs to the screen's edges, past the usual column. The
+// header, the page and the footer share one column, so the page has a single left edge.
 export function AppLayout({ wide = false, children }: { wide?: boolean; children: ReactNode }) {
+  const wrap = wide ? 'w-full px-6 max-sm:px-4' : 'app-wrap'
   return (
     <div className="flex min-h-svh flex-col">
       <SkipLink />
-      <AppHeader />
-      {/* A wide page, such as the dashboards, runs to the screen's edges, past the usual column. */}
-      <main
-        id="main"
-        className={cn('flex-1 pt-14 pb-12', wide ? 'w-full px-6 max-sm:px-4' : 'app-wrap')}
-      >
+      <AppHeader wrap={wrap} />
+      <main id="main" className={cn(wrap, 'flex-1 pt-14 pb-12')}>
         {children}
       </main>
-      <SiteFooter />
+      <SiteFooter wrap={wrap} />
     </div>
   )
 }
 
-function AppHeader() {
+function AppHeader({ wrap }: { wrap: string }) {
   const { me, session } = useAuth()
   const [open, setOpen] = useState(false)
   const buttonRef = useRef<HTMLButtonElement>(null)
@@ -78,7 +77,7 @@ function AppHeader() {
 
   return (
     <header className="relative band">
-      <div className="app-wrap flex min-h-16 items-center gap-6">
+      <div className={cn(wrap, 'flex min-h-16 items-center gap-6')}>
         <Link
           to="/app"
           className="flex shrink-0 items-center gap-2.5 text-lg font-bold text-foreground no-underline hover:text-foreground hover:no-underline"
@@ -112,7 +111,7 @@ function AppHeader() {
         <div
           id="app-nav"
           className={cn(
-            'absolute inset-x-0 top-full z-10 border-t border-rule band px-4 pt-2 pb-4 app-nav:static app-nav:flex app-nav:flex-1 app-nav:items-center app-nav:border-0 app-nav:p-0',
+            'absolute inset-x-0 top-full z-10 border-t border-rule band px-4 pt-2 pb-4 app-nav:static app-nav:flex app-nav:flex-1 app-nav:items-center app-nav:gap-6 app-nav:border-0 app-nav:p-0',
             open ? 'block' : 'hidden',
           )}
         >
@@ -128,7 +127,11 @@ function AppHeader() {
             </ul>
           </nav>
           <div className="mt-3 flex items-center justify-between gap-4 border-t border-rule pt-3 app-nav:mt-0 app-nav:border-0 app-nav:pt-0">
-            {name && <span className="text-[0.9375rem] text-muted-foreground">{name}</span>}
+            {name && (
+              <span className="text-[0.9375rem] whitespace-nowrap text-muted-foreground">
+                {name}
+              </span>
+            )}
             <SignOutButton size="default" />
           </div>
         </div>

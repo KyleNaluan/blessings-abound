@@ -211,15 +211,11 @@ function People({
                     )}
                   </div>
                 </Cell>
-                <Cell>
-                  <p>
-                    <span className="sr-only">Role: </span>
-                    {ROLE_NAMES[person.role]}
-                  </p>
+                <Cell label="Role">
+                  <p>{ROLE_NAMES[person.role]}</p>
                 </Cell>
-                <Cell>
+                <Cell label="Status">
                   <p className={cn('font-bold', STATUS_CLASSES[person.status])}>
-                    <span className="sr-only">Status: </span>
                     {STATUS_NAMES[person.status]}
                   </p>
                 </Cell>

@@ -78,17 +78,25 @@ test('shows only the username for an account with a hidden placeholder address',
   ).toBeInTheDocument()
 })
 
-test('a list the API cannot count still links to it, without a number', async () => {
+test('a list the API cannot count still links to it, and the page says the API is down', async () => {
   vi.stubGlobal(
     'fetch',
     answer({ ...NONE, '/pick-list': new Response(null, { status: 500 }) }, 'staff'),
   )
   renderHome()
   expect(await screen.findByText('Open the list')).toBeInTheDocument()
+  expect(screen.getByText(/^Can't reach the API/)).toBeInTheDocument()
   expect(screen.getByRole('link', { name: /Pick list.*Open the list/ })).toHaveAttribute(
     'href',
     '/app/pick-list',
   )
+})
+
+test('the API notice stays away while every count loads', async () => {
+  vi.stubGlobal('fetch', answer(NONE, 'staff'))
+  renderHome()
+  expect(await screen.findByText('No sold items to pick')).toBeInTheDocument()
+  expect(screen.queryByText(/^Can't reach the API/)).not.toBeInTheDocument()
 })
 
 test('staff are not shown the approvals count', async () => {

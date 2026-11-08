@@ -93,8 +93,31 @@ export function Row({ open = false, children }: { open?: boolean; children: Reac
   )
 }
 
-export function Cell({ className, children }: { className?: string; children: ReactNode }) {
-  return <td className={cn('px-3 py-3 align-middle max-wide:p-0', className)}>{children}</td>
+// On a phone the column names are hidden, so a cell whose value doesn't say what it is, such as a
+// date or a price, gives its column's name above the value. Screen readers already have the column
+// names, so they skip it.
+export function Cell({
+  label,
+  className,
+  children,
+}: {
+  label?: string
+  className?: string
+  children: ReactNode
+}) {
+  return (
+    <td className={cn('px-3 py-3 align-middle max-wide:p-0', className)}>
+      {label && (
+        <span
+          aria-hidden="true"
+          className="block text-[0.8125rem] font-normal text-muted-foreground wide:hidden"
+        >
+          {label}
+        </span>
+      )}
+      {children}
+    </td>
+  )
 }
 
 // The buttons at the end of a row, which go under the rest of the row on a phone.

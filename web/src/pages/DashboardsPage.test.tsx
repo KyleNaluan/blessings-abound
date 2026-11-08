@@ -215,6 +215,25 @@ test('the headline numbers are the live counts, tagged as live test sales', asyn
   expect(value('Sold twice')).toHaveTextContent('0')
 })
 
+test('Sold twice counts a double sale that has been settled', async () => {
+  const settled: Dashboards = {
+    ...LOADED,
+    sync_health: {
+      ...LOADED.sync_health,
+      flags: [
+        { conflict: 'double_sale', open: 0, resolved: 1 },
+        { conflict: 'stale_listing', open: 0, resolved: 0 },
+        { conflict: 'unknown_listing', open: 0, resolved: 0 },
+      ],
+      oversold_items: 0,
+    },
+  }
+  stubApi('manager', [() => Response.json(settled)])
+  renderDashboards()
+  const glance = await screen.findByRole('region', { name: 'At a glance' })
+  expect(within(glance).getByText('Sold twice').nextElementSibling).toHaveTextContent('1')
+})
+
 test('the bars keep their numbers as text', async () => {
   stubApi('manager')
   renderDashboards()

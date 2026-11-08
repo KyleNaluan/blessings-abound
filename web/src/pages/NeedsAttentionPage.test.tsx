@@ -320,6 +320,14 @@ test('an explanation still being written shows the fixed text, then the written 
   }
 })
 
+test('a handled double sale is named by its kind, with no channel', async () => {
+  stubApi('staff', {}, { open: [], resolved: [CANCELLED] })
+  renderAttention()
+  const handled = await section('Recently handled')
+  expect(handled.getByText('Double sale')).toBeInTheDocument()
+  expect(handled.queryByText(/^Double sale on/)).not.toBeInTheDocument()
+})
+
 test('nothing open says so', async () => {
   stubApi('staff', {}, { open: [], resolved: [] })
   renderAttention()

@@ -516,15 +516,17 @@ export function AppraisalPage() {
                       <span className="block font-bold break-words">{row.product ?? row.sku}</span>
                       {row.destination && <SubText>{label(DESTINATIONS, row.destination)}</SubText>}
                     </Cell>
-                    <Cell className="font-bold">{row.decision === 'yes' ? 'Yes' : 'No'}</Cell>
-                    <Cell>
+                    <Cell label="Call" className="font-bold">
+                      {row.decision === 'yes' ? 'Yes' : 'No'}
+                    </Cell>
+                    <Cell label="Typical price">
                       {row.price_typical_cents == null ? (
                         <span className="text-muted-foreground">No price</span>
                       ) : (
                         money(row.price_typical_cents)
                       )}
                     </Cell>
-                    <Cell>
+                    <Cell label="Decided">
                       {row.decided_by_name}
                       <SubText>{when(row.decided_at)}</SubText>
                     </Cell>

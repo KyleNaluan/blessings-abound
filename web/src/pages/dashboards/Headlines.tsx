@@ -12,11 +12,13 @@ export const TILES_OFFSET = 'xl:mt-12'
 // tag for all of them.
 export function Headlines({ data }: { data: Dashboards }) {
   const live = data.triage_funnel.live
+  // Every double sale sync has flagged, open or settled, so a settled one still counts.
+  const doubleSales = data.sync_health.flags.find((flag) => flag.conflict === 'double_sale')
   const tiles: [string, number][] = [
     ['Taken in', live.forwarded],
     ['Listed on the sales channels', live.listed],
     ['Sold', live.sold],
-    ['Sold twice', data.sync_health.oversold_items],
+    ['Sold twice', doubleSales ? doubleSales.open + doubleSales.resolved : 0],
   ]
   return (
     <section aria-labelledby="headlines-heading" className="mb-8">

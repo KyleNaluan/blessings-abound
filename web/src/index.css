@@ -20,7 +20,7 @@
   --font-sans: 'Public Sans Variable', system-ui, sans-serif;
   --breakpoint-wide: 52rem;
   /* Where the signed-in bar has room for every link and the person's name, so a phone or narrow window gets the menu. */
-  --breakpoint-app-nav: 72rem;
+  --breakpoint-app-nav: 76rem;
   --color-primary-hover: var(--primary-hover);
   --color-link: var(--link);
   --color-rule: var(--rule);

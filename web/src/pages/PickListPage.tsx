@@ -61,7 +61,7 @@ function Entry({ entry, onPicked }: { entry: PickListEntry; onPicked: (id: strin
 
   return (
     <Row>
-      <Cell className="text-lg font-bold break-words">
+      <Cell label="Shelf or bin" className="text-lg font-bold break-words">
         {entry.location_code ?? 'No shelf recorded'}
       </Cell>
       <Cell>
@@ -73,7 +73,7 @@ function Entry({ entry, onPicked }: { entry: PickListEntry; onPicked: (id: strin
           </span>
         )}
       </Cell>
-      <Cell className="text-muted-foreground">
+      <Cell label="Weight" className="text-muted-foreground">
         {entry.package_weight_oz === null ? (
           <span className="wide:hidden">No weight recorded</span>
         ) : (
