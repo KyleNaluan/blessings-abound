@@ -50,7 +50,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## halleepham
 
-- No merged work yet.
+- 2026-11-07, [#88](https://github.com/KyleNaluan/blessings-abound/pull/88), Check all 48 vision labels against their photos by hand, record who checked them, and correct the Super NES label to the New-Style Super NES (SNS-101) with "snes jr" and "super nes" as right names
 
 ## Manan151179
 
