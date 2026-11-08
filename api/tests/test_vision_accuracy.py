@@ -155,3 +155,12 @@ def test_the_saved_results_match_the_cards_and_labels() -> None:
     hint = "Run `uv run python -m app.vision_accuracy` in api/ to rewrite the saved results."
     assert results_json(results) == RESULTS_FILE.read_text(encoding="utf-8"), hint
     assert render_report(results) == REPORT_FILE.read_text(encoding="utf-8"), hint
+
+
+def test_the_report_calls_the_numbers_provisional_only_while_labels_are_unchecked() -> None:
+    results = run()
+    all_checked = results.model_copy(update={"labels_checked_by_a_person": results.labels})
+    some_unchecked = results.model_copy(update={"labels_checked_by_a_person": results.labels - 1})
+    assert "provisional" not in render_report(all_checked)
+    assert "a person then checked every one" in render_report(all_checked)
+    assert "provisional until a person has checked the rest" in render_report(some_unchecked)

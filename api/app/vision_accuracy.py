@@ -263,9 +263,15 @@ def render_report(results: VisionResults) -> str:
         "script or `api/eval/vision_labels.json` instead of this page.",
         "It measures reading the item, and [evaluation.md](evaluation.md) measures pricing.",
         "",
-        f"**Labels checked by a person: {results.labels_checked_by_a_person} of {results.labels}.**"
-        " An AI coding agent wrote the labels from each item's recorded identity, so treat these "
-        "numbers as provisional until a person has checked the rest.",
+        f"**Labels checked by a person: {results.labels_checked_by_a_person} "
+        f"of {results.labels}.** "
+        + (
+            "An AI coding agent wrote the labels from each item's recorded identity, and a person "
+            "then checked every one."
+            if results.labels_checked_by_a_person == results.labels
+            else "An AI coding agent wrote the labels from each item's recorded identity, so treat "
+            "these numbers as provisional until a person has checked the rest."
+        ),
         "",
         "**Not measured: apparel.** Every item here is games or hardware, so these results say "
         "nothing about reading clothing.",
