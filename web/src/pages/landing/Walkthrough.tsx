@@ -33,25 +33,22 @@ const steps: Step[] = [
 export function Walkthrough() {
   return (
     <div className="page-wrap" id="walkthrough">
-      <h2 className="sr-only">Follow one item through the app</h2>
-      <div className="border border-border bg-surface">
-        <div className="bg-warn px-4 py-1.5 text-sm font-semibold text-foreground">
+      <h2 className="mb-1 text-2xl font-bold">How it works</h2>
+      <p className="mb-4 text-muted-foreground">Follow one item through the app, step by step.</p>
+      <div className="overflow-hidden rounded-xl bg-card shadow-card ring-1 ring-foreground/5">
+        <div className="border-b border-warn-line/40 bg-warn-soft px-5 py-2 text-sm font-semibold text-warn-ink">
           Example data. One fleece jacket, DS10292603, from intake to sale.
         </div>
         <Tabs.Root defaultValue={steps[0].value}>
-          <div className="border-b border-border bg-background px-4 pt-3 pb-3 wide:border-b-0 wide:pb-0">
-            <Tabs.List
-              aria-label="Steps for one item"
-              className="flex flex-wrap gap-1 wide:flex-nowrap wide:gap-0 wide:border-b wide:border-border"
-            >
+          <div className="border-b border-rule px-5 py-3">
+            <Tabs.List aria-label="Steps for one item" className="flex flex-wrap gap-2">
               {steps.map((step) => (
                 <Tabs.Trigger
                   key={step.value}
                   value={step.value}
                   className={cn(
-                    'cursor-pointer border border-border bg-muted px-3.5 pt-2 pb-2 text-left text-[0.9375rem] leading-[1.3] text-link underline underline-offset-[0.15em] hover:text-primary-hover hover:decoration-2',
-                    'data-[state=active]:border-foreground data-[state=active]:bg-foreground data-[state=active]:font-bold data-[state=active]:text-background data-[state=active]:no-underline',
-                    'wide:mr-1 wide:-mb-px wide:border-b-0 wide:border-transparent wide:data-[state=active]:border-border wide:data-[state=active]:bg-background wide:data-[state=active]:text-foreground',
+                    'cursor-pointer rounded-full bg-muted px-3.5 py-1.5 text-left text-[0.9375rem] leading-[1.3] font-semibold text-foreground transition-colors data-[state=inactive]:hover:bg-[color-mix(in_oklch,var(--muted),var(--foreground)_8%)]',
+                    'data-[state=active]:bg-primary data-[state=active]:text-primary-foreground',
                   )}
                 >
                   {step.label}
@@ -63,7 +60,7 @@ export function Walkthrough() {
             <Tabs.Content
               key={step.value}
               value={step.value}
-              className="bg-background p-5 focus-visible:-outline-offset-4 wide:border-t wide:border-border"
+              className="p-5 focus-visible:-outline-offset-4 wide:p-6"
             >
               {step.panel}
             </Tabs.Content>
@@ -170,7 +167,7 @@ function ItemCardPanel() {
       />
       <Columns>
         <div>
-          <div className="mb-4 grid aspect-[4/3] max-w-[22rem] place-items-center bg-[#e6e6e6]">
+          <div className="mb-4 grid aspect-[4/3] max-w-[22rem] place-items-center rounded-lg bg-[#e6e6e6]">
             <FleeceDrawing />
           </div>
           <Heading4>Staff notes</Heading4>
@@ -264,7 +261,7 @@ function PricePanel() {
             <i className="absolute top-0 left-[42%] -ml-0.5 h-full w-1 bg-foreground" />
             <i className="absolute top-0 right-0 h-full w-0.5 bg-foreground" />
           </div>
-          <div className="mb-4 border-l-[5px] border-yes bg-yes-soft px-3.5 py-2.5 text-[0.9375rem] text-yes-ink">
+          <div className="mb-4 rounded-r-md border-l-[5px] border-yes bg-yes-soft px-3.5 py-2.5 text-[0.9375rem] text-yes-ink">
             <b className="block">Worth listing, high confidence</b>
             The typical sale price is at least $30, and about $29.20 is left after eBay fees and
             supplies.
@@ -323,7 +320,7 @@ function DraftPanel() {
       <Columns wideLeft>
         <div>
           <Heading4>Channel A draft</Heading4>
-          <div className="mb-3 border border-input px-3 py-2.5 text-[0.9375rem]">
+          <div className="mb-3 rounded-md border border-input px-3 py-2.5 text-[0.9375rem]">
             <b className="mb-1 block">
               Patagonia Better Sweater 1/4 Zip Fleece Pullover Men's M Gray
             </b>
@@ -437,7 +434,7 @@ function SoldPanel() {
             ['2:14:06 pm', 'Added to the pick list: box section 12x12, shelf C3'],
           ]}
         />
-        <div className="border-4 border-warn px-4 py-3.5">
+        <div className="rounded-xl border-4 border-warn px-4 py-3.5">
           <h4 className="mb-1.5 text-base font-bold">Needs Attention: stale listing</h4>
           <p className="mb-2.5 text-[0.9375rem]">
             Channel A still shows DS10272604 as available, but it sold on Channel B on Oct 27.
@@ -463,7 +460,7 @@ function SalesPanel() {
         title="See how things sell"
         by={
           <>
-            <span className="inline-block bg-foreground px-2 py-px text-[0.8125rem] font-semibold text-background">
+            <span className="inline-block rounded-full bg-foreground px-2 py-px text-[0.8125rem] font-semibold text-background">
               Synthetic data
             </span>
             <By who="person">Manager</By>
@@ -472,7 +469,7 @@ function SalesPanel() {
       />
       <Columns>
         <div>
-          <p className="mb-3 bg-muted px-3 py-2.5 text-[0.9375rem]">
+          <p className="mb-3 rounded-md bg-muted px-3 py-2.5 text-[0.9375rem]">
             Which category sells fastest in December?
           </p>
           <AiText source="Answer written by the language model from these numbers. Query: median_days_to_sell, by category, month 12.">
