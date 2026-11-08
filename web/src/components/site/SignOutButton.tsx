@@ -5,7 +5,7 @@ import { signOut } from '@/auth/actions'
 import { useAuth } from '@/auth/AuthContext'
 import { Button } from '@/components/ui/button'
 
-export function SignOutButton() {
+export function SignOutButton({ size = 'lg' }: { size?: 'lg' | 'default' }) {
   const navigate = useNavigate()
   const { beginSignOut, endSignOut } = useAuth()
   const [error, setError] = useState<string | null>(null)
@@ -26,7 +26,7 @@ export function SignOutButton() {
 
   return (
     <div className="flex flex-col items-end gap-2">
-      <Button variant="outline" size="lg" onClick={() => void onSignOut()}>
+      <Button variant="outline" size={size} onClick={() => void onSignOut()}>
         Sign out
       </Button>
       {error && (

@@ -1,10 +1,9 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Link } from 'react-router'
 
 import { loadSettings, type SectionKey, type SettingsPage as Settings } from '@/api/settings'
 import { useAuth } from '@/auth/AuthContext'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import {
@@ -75,10 +74,7 @@ export function SettingsPage() {
   }
 
   return (
-    <AuthLayout end={<SignOutButton />}>
-      <p className="mb-4">
-        <Link to="/app">Back to home</Link>
-      </p>
+    <AppLayout>
       <PageHeading>Settings</PageHeading>
       {refused ? (
         <p className="mb-7">Only a manager can see and change the settings.</p>
@@ -130,6 +126,6 @@ export function SettingsPage() {
           )}
         </>
       )}
-    </AuthLayout>
+    </AppLayout>
   )
 }

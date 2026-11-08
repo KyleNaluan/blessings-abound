@@ -1098,5 +1098,8 @@ test('staff are refused the review without asking the API', async () => {
     await screen.findByText('Only a manager can approve listings and store items.'),
   ).toBeInTheDocument()
   expect(calls.some((call) => call.path.startsWith('/items'))).toBe(false)
-  expect(screen.getByRole('link', { name: 'Back to home' })).toHaveAttribute('href', '/app')
+  expect(screen.queryByRole('link', { name: 'Back to approvals' })).not.toBeInTheDocument()
+  expect(
+    within(screen.getByRole('navigation', { name: 'Main' })).getByRole('link', { name: 'Home' }),
+  ).toHaveAttribute('href', '/app')
 })

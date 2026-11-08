@@ -1,10 +1,9 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Link } from 'react-router'
 
 import { loadDashboards, type Dashboards } from '@/api/dashboards'
 import { useAuth } from '@/auth/AuthContext'
-import { AuthLayout, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { PageHeading } from '@/components/site/AuthLayout'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { count, onDay } from '@/pages/dashboards/format'
@@ -36,16 +35,13 @@ export function DashboardsPage() {
   const history = load.state === 'ready' ? load.data.history : null
 
   return (
-    <AuthLayout end={<SignOutButton />} wide>
-      <p className="mb-4">
-        <Link to="/app">Back to home</Link>
-      </p>
+    <AppLayout>
       <PageHeading>Dashboards</PageHeading>
       {refused ? (
         <p className="mb-7">Only a manager can see the dashboards.</p>
       ) : (
         <>
-          <div className="mb-8 max-w-[42rem]">
+          <div className="mb-8">
             <p className="mb-3">
               The store has no sales history yet, so time to sell, seasonality and the triage funnel
               are drawn from a synthetic one, and any pattern in them was put there by the model
@@ -92,6 +88,6 @@ export function DashboardsPage() {
           )}
         </>
       )}
-    </AuthLayout>
+    </AppLayout>
   )
 }

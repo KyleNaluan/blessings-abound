@@ -1,9 +1,8 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Link } from 'react-router'
 
 import { loadPickList, markPicked, type PickListEntry } from '@/api/approval'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { boxLabel } from '@/pages/approval/format'
@@ -99,10 +98,7 @@ export function PickListPage() {
   }
 
   return (
-    <AuthLayout end={<SignOutButton />}>
-      <p className="mb-4">
-        <Link to="/app">Back to home</Link>
-      </p>
+    <AppLayout>
       <PageHeading>Pick list</PageHeading>
       <Lead>
         Sold items to pull, grouped by box size in the order Settings lists them, then by shelf or
@@ -146,6 +142,6 @@ export function PickListPage() {
             </section>
           )
         })}
-    </AuthLayout>
+    </AppLayout>
   )
 }

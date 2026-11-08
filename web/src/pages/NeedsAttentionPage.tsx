@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useState, type FormEvent } from 'react'
-import { Link } from 'react-router'
 
 import {
   fixDoubleSale,
@@ -9,9 +8,9 @@ import {
   type ConflictKind,
   type Flag,
 } from '@/api/attention'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
 import { Field } from '@/components/site/form'
-import { SignOutButton } from '@/components/site/SignOutButton'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { CHANNEL_NAMES, exactly, money, when } from '@/pages/approval/format'
@@ -289,10 +288,7 @@ export function NeedsAttentionPage() {
   }
 
   return (
-    <AuthLayout end={<SignOutButton />}>
-      <p className="mb-4">
-        <Link to="/app">Back to home</Link>
-      </p>
+    <AppLayout>
       <PageHeading>Needs attention</PageHeading>
       <Lead>
         Problems between Turnstone and the sales channels that sync couldn't settle by itself. Fix
@@ -338,6 +334,6 @@ export function NeedsAttentionPage() {
           </ul>
         </section>
       )}
-    </AuthLayout>
+    </AppLayout>
   )
 }

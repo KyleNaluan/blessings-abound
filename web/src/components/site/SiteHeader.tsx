@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 import { cn } from '@/lib/utils'
 
-import { HangTag } from './HangTag'
+import { TurnstoneMark } from './TurnstoneMark'
 
 export type NavLink = { label: string; href: string }
 
@@ -32,7 +32,7 @@ export function SiteHeader({ brandHref = '/', links, end }: SiteHeaderProps) {
     'flex items-center gap-2.5 text-lg font-bold text-foreground no-underline hover:text-foreground hover:no-underline'
   const brand = (
     <>
-      <HangTag />
+      <TurnstoneMark />
       Turnstone
     </>
   )

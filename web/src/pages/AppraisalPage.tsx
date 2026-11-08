@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router'
 
 import {
   confirmItemCard,
@@ -23,8 +22,8 @@ import {
 } from '@/api/appraisal'
 import { listKeptOffMatches, type KeptOffMatch } from '@/api/approval'
 import { useAuth } from '@/auth/AuthContext'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { money, when } from '@/pages/approval/format'
@@ -290,14 +289,9 @@ export function AppraisalPage() {
   )
 
   return (
-    <AuthLayout wide end={<SignOutButton />}>
-      <div className="max-w-[30rem]">
-        <p className="mb-4">
-          <Link to="/app">Back to home</Link>
-        </p>
-        <PageHeading>Appraise an item</PageHeading>
-        <Lead>Take the item in with its photos, check the card and the price, then decide.</Lead>
-      </div>
+    <AppLayout>
+      <PageHeading>Appraise an item</PageHeading>
+      <Lead>Take the item in with its photos, check the card and the price, then decide.</Lead>
 
       {!item && (
         <div className="max-w-[30rem]">
@@ -522,6 +516,6 @@ export function AppraisalPage() {
           </ul>
         )}
       </section>
-    </AuthLayout>
+    </AppLayout>
   )
 }

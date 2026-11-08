@@ -37,7 +37,7 @@ function Answer({ answer }: { answer: InsightAnswer }) {
     <article
       aria-labelledby={id}
       className={cn(
-        'mb-8 max-w-[42rem] border-l-4 pl-4 wide:pl-5',
+        'mb-8 border-l-4 pl-4 wide:pl-5',
         answer.source ? SOURCE_LINE[answer.source] : 'border-rule',
       )}
     >
@@ -116,7 +116,7 @@ export function InsightChat() {
       >
         Ask about sales
       </h2>
-      <p className="mb-5 max-w-[42rem]">
+      <p className="mb-5">
         The language model picks one of a few tested functions to answer from, code works out the
         numbers, and each answer shows the function it came from. It can answer about time to sell,
         seasonality, the triage funnel, the live test sales and sync.
@@ -158,7 +158,7 @@ export function InsightChat() {
       </form>
       <div aria-live="polite">
         {pending !== null && (
-          <p className="mb-7 max-w-[42rem] font-bold break-words">
+          <p className="mb-7 font-bold break-words">
             Working out the answer to &ldquo;{pending}&rdquo;...
           </p>
         )}

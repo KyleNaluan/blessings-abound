@@ -1,10 +1,9 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Link } from 'react-router'
 
 import { loadPeople, type Person, type PersonWithTemporaryPassword } from '@/api/team'
 import { useAuth } from '@/auth/AuthContext'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { cn } from '@/lib/utils'
@@ -76,21 +75,16 @@ export function TeamPage() {
   }
 
   return (
-    <AuthLayout wide end={<SignOutButton />}>
-      <p className="mb-4">
-        <Link to="/app">Back to home</Link>
-      </p>
+    <AppLayout>
       <PageHeading>Team</PageHeading>
       {refused ? (
-        <p className="mb-7 max-w-[30rem]">Only a manager can see and change the team.</p>
+        <p className="mb-7">Only a manager can see and change the team.</p>
       ) : (
         <>
-          <div className="max-w-[36rem]">
-            <Lead>
-              Everyone who can sign in to Turnstone. Add people, change what they can do, give a new
-              temporary password, or deactivate an account when someone leaves.
-            </Lead>
-          </div>
+          <Lead>
+            Everyone who can sign in to Turnstone. Add people, change what they can do, give a new
+            temporary password, or deactivate an account when someone leaves.
+          </Lead>
           {issued && <TemporaryPassword issued={issued} onDone={() => setIssued(null)} />}
           <div aria-live="polite">
             {load.state === 'loading' && <p className="mb-7 font-bold">Loading the team...</p>}
@@ -146,7 +140,7 @@ export function TeamPage() {
           )}
         </>
       )}
-    </AuthLayout>
+    </AppLayout>
   )
 }
 

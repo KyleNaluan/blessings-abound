@@ -10,8 +10,8 @@ import {
 } from '@/api/approval'
 import type { Channel } from '@/api/appraisal'
 import { useAuth } from '@/auth/AuthContext'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { PricePanel } from '@/pages/appraisal/PricePanel'
@@ -209,14 +209,12 @@ export function ItemReviewPage() {
   const note = review ? outcome(review) : null
 
   return (
-    <AuthLayout end={<SignOutButton />}>
-      <p className="mb-4">
-        {refused ? (
-          <Link to="/app">Back to home</Link>
-        ) : (
+    <AppLayout>
+      {!refused && (
+        <p className="mb-4">
           <Link to="/app/approvals">Back to approvals</Link>
-        )}
-      </p>
+        </p>
+      )}
       {refused ? (
         <>
           <PageHeading>Review</PageHeading>
@@ -329,6 +327,6 @@ export function ItemReviewPage() {
           )}
         </>
       )}
-    </AuthLayout>
+    </AppLayout>
   )
 }

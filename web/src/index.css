@@ -17,6 +17,8 @@
   --font-heading: var(--font-sans);
   --font-sans: 'Public Sans Variable', system-ui, sans-serif;
   --breakpoint-wide: 52rem;
+  /* Where the signed-in bar has room for every link and the person's name, so a phone or narrow window gets the menu. */
+  --breakpoint-app-nav: 72rem;
   --color-primary-hover: var(--primary-hover);
   --color-link: var(--link);
   --color-rule: var(--rule);
@@ -153,6 +155,17 @@
   --ring: #9fdcbf;
   background-color: var(--background);
   color: var(--foreground);
+}
+
+/* The signed-in app's column, wider than the landing page's so lists and dashboards use the screen. */
+@utility app-wrap {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  @media (width < 40rem) {
+    padding-inline: 1rem;
+  }
 }
 
 /* The page column, 1.5rem from the edge and 1rem on a phone. */

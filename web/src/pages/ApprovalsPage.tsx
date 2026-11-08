@@ -10,8 +10,8 @@ import {
   type QueueItem,
 } from '@/api/approval'
 import { useAuth } from '@/auth/AuthContext'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { CHANNEL_NAMES, itemName, releaseMonth, when } from '@/pages/approval/format'
@@ -316,10 +316,7 @@ export function ApprovalsPage() {
   }
 
   return (
-    <AuthLayout end={<SignOutButton />}>
-      <p className="mb-4">
-        <Link to="/app">Back to home</Link>
-      </p>
+    <AppLayout>
       <PageHeading>Approvals</PageHeading>
       {refused ? (
         <p className="mb-7">Only a manager can approve listings and store items.</p>
@@ -379,6 +376,6 @@ export function ApprovalsPage() {
           )}
         </>
       )}
-    </AuthLayout>
+    </AppLayout>
   )
 }
