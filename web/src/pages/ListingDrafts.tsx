@@ -16,7 +16,7 @@ const TITLE_MAX = 80
 const DESCRIPTION_MAX = 1000
 
 const FIELD_CLASSES =
-  'w-full min-w-0 rounded-none border-2 border-input bg-background px-2.5 text-foreground'
+  'w-full min-w-0 rounded-md border-2 border-input bg-background px-2.5 text-foreground'
 
 // Where the text came from, so staff know how far to trust it.
 function sourceNote(draft: ListingDraft) {

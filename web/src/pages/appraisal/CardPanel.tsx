@@ -21,7 +21,7 @@ const TEXT_FIELDS = [
 ] as const
 
 const SELECT =
-  'h-11 w-full min-w-0 rounded-none border-2 border-input bg-background px-2.5 text-foreground'
+  'h-11 w-full min-w-0 rounded-md border-2 border-input bg-background px-2.5 text-foreground'
 
 export function CardForm({
   card,

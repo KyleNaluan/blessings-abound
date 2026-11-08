@@ -43,7 +43,7 @@ function Start() {
       id="top"
     >
       <div>
-        <h1 className="mb-6 max-w-[38rem] text-[clamp(2.25rem,4.6vw,3rem)] leading-[1.1] font-bold tracking-[-0.01em]">
+        <h1 className="mb-6 max-w-[38rem] text-[clamp(2.25rem,4.6vw,3rem)] leading-[1.1] font-extrabold tracking-[-0.02em]">
           List donated items online and keep every shop in sync
         </h1>
         <p className="mb-4">
@@ -114,7 +114,7 @@ function Band({
   return (
     <section id={id} className={className ?? 'pt-12 pb-4 sm:pt-18'}>
       <div className="page-wrap">
-        <h2 className="text-[clamp(1.5rem,3vw,2rem)] leading-[1.2] font-bold tracking-[-0.01em]">
+        <h2 className="text-[clamp(1.5rem,3vw,2rem)] leading-[1.2] font-extrabold tracking-[-0.02em]">
           {title}
         </h2>
         <p className="mt-3 mb-7 max-w-[42rem]">{intro}</p>

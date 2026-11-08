@@ -38,7 +38,7 @@ export function SiteHeader({ brandHref = '/', links, end }: SiteHeaderProps) {
   )
 
   return (
-    <header className="relative border-b border-border bg-background">
+    <header className="relative band">
       <div className="page-wrap flex min-h-16 items-center justify-between gap-4">
         {brandHref.startsWith('#') ? (
           <a className={brandClass} href={brandHref} aria-label="Turnstone, home">

@@ -97,7 +97,7 @@ export function TextInput({ invalid = false, className, ...props }: InputProps) 
     <input
       aria-invalid={invalid}
       className={cn(
-        'h-11 w-full min-w-0 rounded-none border-2 border-input bg-background px-2.5 text-foreground',
+        'h-11 w-full min-w-0 rounded-md border-2 border-input bg-background px-2.5 text-foreground',
         invalid && 'border-destructive',
         className,
       )}

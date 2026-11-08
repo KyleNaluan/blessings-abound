@@ -112,7 +112,7 @@ export function InsightChat() {
     <section aria-labelledby="ask-heading" className="mb-12 border-t border-rule pt-8">
       <h2
         id="ask-heading"
-        className="mb-3 text-[clamp(1.5rem,3vw,2rem)] leading-[1.2] font-bold tracking-[-0.01em]"
+        className="mb-3 text-[clamp(1.5rem,3vw,2rem)] leading-[1.2] font-extrabold tracking-[-0.02em]"
       >
         Ask about sales
       </h2>

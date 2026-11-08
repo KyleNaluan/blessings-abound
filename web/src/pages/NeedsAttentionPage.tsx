@@ -33,7 +33,7 @@ const BUSY_REFRESH_MS = 3000
 const IDLE_REFRESH_MS = 30000
 
 const AREA =
-  'block min-h-11 w-full min-w-0 resize-y rounded-none border-2 border-input bg-background px-2.5 py-2 text-foreground'
+  'block min-h-11 w-full min-w-0 resize-y rounded-md border-2 border-input bg-background px-2.5 py-2 text-foreground'
 
 function busy(flag: Flag) {
   return flag.explained_by === null || flag.double_sale?.cancelling?.status === 'pending'

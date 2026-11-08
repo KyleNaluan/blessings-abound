@@ -28,7 +28,9 @@ export function AuthLayout({
 
 export function PageHeading({ children }: { children: ReactNode }) {
   return (
-    <h1 className="mb-4 text-[2.5rem] leading-[1.1] font-bold tracking-[-0.01em]">{children}</h1>
+    <h1 className="mb-4 text-[2.5rem] leading-[1.1] font-extrabold tracking-[-0.02em]">
+      {children}
+    </h1>
   )
 }
 

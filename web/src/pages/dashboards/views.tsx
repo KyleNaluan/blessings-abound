@@ -28,7 +28,7 @@ function View({ id, title, children }: { id: string; title: string; children: Re
     <section aria-labelledby={`${id}-heading`} className="mb-12 border-t border-rule pt-8">
       <h2
         id={`${id}-heading`}
-        className="mb-5 text-[clamp(1.5rem,3vw,2rem)] leading-[1.2] font-bold tracking-[-0.01em]"
+        className="mb-5 text-[clamp(1.5rem,3vw,2rem)] leading-[1.2] font-extrabold tracking-[-0.02em]"
       >
         {title}
       </h2>

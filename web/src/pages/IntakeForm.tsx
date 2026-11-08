@@ -45,9 +45,9 @@ const BOXED = [
 ] as const satisfies readonly (readonly [Answer, string])[]
 
 const SELECT =
-  'h-11 w-full min-w-0 rounded-none border-2 border-input bg-background px-2.5 text-foreground'
+  'h-11 w-full min-w-0 rounded-md border-2 border-input bg-background px-2.5 text-foreground'
 const AREA =
-  'block min-h-11 w-full min-w-0 resize-y rounded-none border-2 border-input bg-background px-2.5 py-2 text-foreground'
+  'block min-h-11 w-full min-w-0 resize-y rounded-md border-2 border-input bg-background px-2.5 py-2 text-foreground'
 
 const answer = (value: Answer) => (value === 'unknown' ? null : value === 'yes')
 const optional = (value: string) => value.trim() || null
