@@ -174,17 +174,17 @@ test('a manager sees the four views, with every chart saying where its numbers c
     'Triage funnel',
     'Sync health and agreement',
   ])
-  expect(screen.getByText(/656 items forwarded/)).toBeInTheDocument()
+  expect(screen.getByText(/^Demo data: past sales are made up/)).toBeInTheDocument()
   for (const chart of charts()) {
-    const labels = within(chart).queryAllByText(/^Synthetic(, live| history)\.$/)
+    const labels = within(chart).queryAllByText(/^(Demo history|Live test sales)$/)
     // Each chart has one label, so synthetic history and live test sales never share a chart.
     expect(labels).toHaveLength(1)
   }
   const sources = charts().map(
-    (chart) => within(chart).getByText(/^Synthetic(, live| history)\.$/).textContent,
+    (chart) => within(chart).getByText(/^(Demo history|Live test sales)$/).textContent,
   )
-  expect(sources.filter((source) => source === 'Synthetic history.')).toHaveLength(5)
-  expect(sources.filter((source) => source === 'Synthetic, live.')).toHaveLength(4)
+  expect(sources.filter((source) => source === 'Demo history')).toHaveLength(5)
+  expect(sources.filter((source) => source === 'Live test sales')).toHaveLength(4)
 })
 
 test('the bars keep their numbers as text', async () => {
@@ -214,16 +214,13 @@ test('the bars keep their numbers as text', async () => {
 test('with nothing loaded or sold, each view says so instead of drawing empty charts', async () => {
   stubApi('manager', [() => Response.json(EMPTY)])
   renderDashboards()
-  await screen.findByText("Sync hasn't done anything on the mock channels yet.")
-  expect(
-    screen.getAllByText('No synthetic history is loaded, so there is nothing to chart yet.'),
-  ).toHaveLength(3)
-  expect(screen.getByText('No listing has gone up on the mock channels yet.')).toBeInTheDocument()
+  await screen.findByText("Sync hasn't done anything yet.")
+  expect(screen.getAllByText('There is no sales history to chart yet.')).toHaveLength(3)
+  expect(screen.getByText('No listings have gone up yet.')).toBeInTheDocument()
   expect(screen.getByText('No item has come through intake yet.')).toBeInTheDocument()
-  expect(screen.queryByText(/items forwarded/)).not.toBeInTheDocument()
   expect(screen.queryByRole('img')).not.toBeInTheDocument()
   for (const chart of charts()) {
-    expect(within(chart).getByText(/^Synthetic(, live| history)\.$/)).toBeInTheDocument()
+    expect(within(chart).getByText(/^(Demo history|Live test sales)$/)).toBeInTheDocument()
   }
 })
 
@@ -289,7 +286,7 @@ test('an answer shows the function and inputs it came from, labeled like the cha
   const answer = await screen.findByRole('article', { name: ANSWER.question })
   expect(calls.questions).toEqual(['How fast does apparel around $40 sell?'])
   expect(within(answer).getByText(ANSWER.answer)).toBeInTheDocument()
-  expect(within(answer).getByText('Synthetic history.')).toBeInTheDocument()
+  expect(within(answer).getByText('Demo history')).toBeInTheDocument()
   expect(within(answer).getByText(ANSWER.call!)).toBeInTheDocument()
   expect(within(answer).getByText(/^Worked out with/)).toBeInTheDocument()
   expect(
@@ -314,7 +311,7 @@ test('an answer from the mock channels says so, and newer answers come first', a
   await askQuestion(live.question)
 
   const newest = await screen.findByRole('article', { name: live.question })
-  expect(within(newest).getByText('Synthetic, live.')).toBeInTheDocument()
+  expect(within(newest).getByText('Live test sales')).toBeInTheDocument()
   expect(answers()[0]).toBe(newest)
   expect(answers()).toHaveLength(2)
 })
@@ -358,7 +355,7 @@ test('a question no function covers gets a plain answer with no source or call',
 
   const answer = await screen.findByRole('article', { name: 'Who is our best volunteer?' })
   expect(answer).toHaveTextContent('None of the questions I can answer cover that')
-  expect(within(answer).queryByText(/^Synthetic/)).not.toBeInTheDocument()
+  expect(within(answer).queryByText(/^(Demo history|Live test sales)$/)).not.toBeInTheDocument()
   expect(within(answer).queryByText(/^Worked out with/)).not.toBeInTheDocument()
   expect(within(answer).queryByText('Show the numbers')).not.toBeInTheDocument()
 })

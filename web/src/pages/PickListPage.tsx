@@ -3,6 +3,17 @@ import { useCallback, useEffect, useState } from 'react'
 import { loadPickList, markPicked, type PickListEntry } from '@/api/approval'
 import { AppLayout } from '@/components/site/AppLayout'
 import { Lead, PageHeading } from '@/components/site/AuthLayout'
+import {
+  ActionCell,
+  Cell,
+  DataTable,
+  EmptyTable,
+  Row,
+  SubText,
+  TableBody,
+  TableSection,
+  type Column,
+} from '@/components/site/DataTable'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { boxLabel } from '@/pages/approval/format'
@@ -25,6 +36,13 @@ function sections(entries: PickListEntry[]) {
   return result
 }
 
+const COLUMNS: Column[] = [
+  { label: 'Shelf or bin', width: 'w-[9rem]' },
+  { label: 'Item' },
+  { label: 'Weight', width: 'w-[7rem]' },
+  { label: 'Done', width: 'w-[8.5rem]', hidden: true },
+]
+
 function Entry({ entry, onPicked }: { entry: PickListEntry; onPicked: (id: string) => void }) {
   const [pending, setPending] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -42,20 +60,30 @@ function Entry({ entry, onPicked }: { entry: PickListEntry; onPicked: (id: strin
   }
 
   return (
-    <li className="border-b border-rule py-3.5">
-      <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-3">
-        <div className="min-w-0">
-          <p className="text-xl font-bold">{entry.location_code ?? 'No shelf recorded'}</p>
-          <p className="font-bold wrap-anywhere">{entry.full_sku ?? entry.sku}</p>
-          <p className="break-words">{entry.title}</p>
-          {entry.package_weight_oz !== null && (
-            <p className="text-muted-foreground">{entry.package_weight_oz} oz packed</p>
-          )}
-        </div>
+    <Row>
+      <Cell className="text-lg font-bold break-words">
+        {entry.location_code ?? 'No shelf recorded'}
+      </Cell>
+      <Cell>
+        <span className="block font-bold break-words">{entry.title}</span>
+        <SubText>{entry.full_sku ?? entry.sku}</SubText>
+        {error && (
+          <span role="alert" className="mt-2 block font-bold text-destructive">
+            {error}
+          </span>
+        )}
+      </Cell>
+      <Cell className="text-muted-foreground">
+        {entry.package_weight_oz === null ? (
+          <span className="wide:hidden">No weight recorded</span>
+        ) : (
+          `${entry.package_weight_oz} oz`
+        )}
+      </Cell>
+      <ActionCell>
         <Button
           variant="outline"
           size="lg"
-          className="max-sm:w-full"
           disabled={pending}
           aria-busy={pending}
           aria-label={`Picked ${entry.full_sku ?? entry.sku}`}
@@ -63,13 +91,8 @@ function Entry({ entry, onPicked }: { entry: PickListEntry; onPicked: (id: strin
         >
           {pending ? 'Saving...' : 'Picked'}
         </Button>
-      </div>
-      {error && (
-        <p role="alert" className="mt-3 font-bold text-destructive">
-          {error}
-        </p>
-      )}
-    </li>
+      </ActionCell>
+    </Row>
   )
 }
 
@@ -107,11 +130,11 @@ export function PickListPage() {
       <div aria-live="polite">
         {load.state === 'loading' && <p className="mb-7 font-bold">Loading the pick list...</p>}
         {load.state === 'ready' && load.entries.length === 0 && (
-          <p className="mb-7 border-y border-rule py-3.5">Nothing sold is waiting to be picked.</p>
+          <EmptyTable>Nothing sold is waiting to be picked.</EmptyTable>
         )}
       </div>
       {load.state === 'failed' && (
-        <div role="alert" className="mb-7 border-4 border-destructive px-5 py-4">
+        <div role="alert" className="mb-7 rounded-xl border-4 border-destructive bg-card px-5 py-4">
           <p className="mb-3 font-bold">{load.message}</p>
           <Button
             variant="outline"
@@ -127,21 +150,22 @@ export function PickListPage() {
         </div>
       )}
       {load.state === 'ready' &&
-        sections(load.entries).map((section) => {
-          const id = `pick-${section.box ?? 'none'}`
-          return (
-            <section key={id} aria-labelledby={`${id}-heading`} className="mb-9">
-              <h2 id={`${id}-heading`} className="mb-1 text-xl font-bold">
-                {section.box ? boxLabel(section.box) : 'No box recorded'}
-              </h2>
-              <ul className="border-t border-rule">
+        sections(load.entries).map((section) => (
+          <TableSection
+            key={section.box ?? 'none'}
+            id={`pick-${section.box ?? 'none'}`}
+            title={section.box ? boxLabel(section.box) : 'No box recorded'}
+            count={section.entries.length}
+          >
+            <DataTable columns={COLUMNS}>
+              <TableBody>
                 {section.entries.map((entry) => (
                   <Entry key={entry.item_id} entry={entry} onPicked={picked} />
                 ))}
-              </ul>
-            </section>
-          )
-        })}
+              </TableBody>
+            </DataTable>
+          </TableSection>
+        ))}
     </AppLayout>
   )
 }

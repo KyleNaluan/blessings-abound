@@ -35,7 +35,7 @@ function Problem({ message, attempt }: { message: string; attempt: number }) {
       ref={ref}
       role="alert"
       tabIndex={-1}
-      className="mb-5 border-4 border-destructive px-5 py-4 font-bold focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid"
+      className="mb-5 rounded-xl border-4 border-destructive bg-card px-5 py-4 font-bold focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid"
     >
       {message}
     </div>

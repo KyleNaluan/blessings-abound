@@ -14,6 +14,7 @@ import {
   type ListingStatus,
 } from '@/api/approval'
 import { Field, SubmitButton, TextInput } from '@/components/site/form'
+import { SectionCard } from '@/components/site/SectionCard'
 import { Button } from '@/components/ui/button'
 import { OVERRIDE_REASON_LABELS } from '@/pages/intake'
 import { dollars, parseDollars, parseNumber } from '@/pages/settings/numbers'
@@ -35,12 +36,9 @@ const STORABLE = new Set(['approved', 'held_for_season'])
 
 function Panel({ id, title, children }: { id: string; title: string; children: ReactNode }) {
   return (
-    <section aria-labelledby={`${id}-heading`} className="mb-7 border border-rule p-4">
-      <h2 id={`${id}-heading`} className="mb-3 text-xl font-bold">
-        {title}
-      </h2>
+    <SectionCard id={id} title={title}>
       {children}
-    </section>
+    </SectionCard>
   )
 }
 

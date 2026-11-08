@@ -43,7 +43,7 @@ function Prompt({
       tabIndex={-1}
       aria-labelledby={`${id}-heading`}
       className={cn(
-        'mb-7 border-4 px-5 py-4 focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid',
+        'mb-7 rounded-xl border-4 bg-card px-5 py-4 focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid',
         warning ? 'border-warn' : 'border-destructive',
       )}
     >

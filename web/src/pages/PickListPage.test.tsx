@@ -67,14 +67,19 @@ test.each(['staff', 'manager'])('%s see sold items by box section, then shelf', 
   renderPickList()
   const headings = await screen.findAllByRole('heading', { level: 2 })
   expect(headings.map((heading) => heading.textContent)).toEqual([
-    '10x13 mailer',
-    '12x12x6 box',
-    'No box recorded',
+    '10x13 mailer · 1 item',
+    '12x12x6 box · 2 items',
+    'No box recorded · 1 item',
   ])
   const box = within(headings[1].closest('section') as HTMLElement)
-  expect(box.getAllByRole('listitem').map((item) => item.textContent)).toEqual([
-    expect.stringContaining('A2RT11042602 12x12x6Item 2'),
-    expect.stringContaining('A10RT11042603 12x12x6Item 3'),
+  expect(
+    box
+      .getAllByRole('row')
+      .slice(1)
+      .map((row) => row.textContent),
+  ).toEqual([
+    expect.stringContaining('A2Item 2RT11042602 12x12x6'),
+    expect.stringContaining('A10Item 3RT11042603 12x12x6'),
   ])
   expect(screen.getByText('No shelf recorded')).toBeInTheDocument()
 })
@@ -84,7 +89,7 @@ test('a picked item leaves the list', async () => {
   renderPickList()
   fireEvent.click(await screen.findByRole('button', { name: 'Picked RT11042601 10x13' }))
   await waitFor(() =>
-    expect(screen.queryByRole('heading', { name: '10x13 mailer' })).not.toBeInTheDocument(),
+    expect(screen.queryByRole('heading', { name: /^10x13 mailer/ })).not.toBeInTheDocument(),
   )
   expect(calls).toContain('POST /items/1/picked')
 })

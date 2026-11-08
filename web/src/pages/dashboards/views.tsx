@@ -7,6 +7,7 @@ import type {
   LiveTimeToSell,
   PriceBand,
 } from '@/api/dashboards'
+import { SectionCard } from '@/components/site/SectionCard'
 import { when } from '@/pages/approval/format'
 
 import { BarColumns, Bars, Chart, Empty, Legend, MonthLines, type Bar } from './charts'
@@ -21,19 +22,13 @@ import {
   SERIES_COLOR,
 } from './format'
 
-const NO_HISTORY = 'No synthetic history is loaded, so there is nothing to chart yet.'
+const NO_HISTORY = 'There is no sales history to chart yet.'
 
 function View({ id, title, children }: { id: string; title: string; children: ReactNode }) {
   return (
-    <section aria-labelledby={`${id}-heading`} className="mb-12 border-t border-rule pt-8">
-      <h2
-        id={`${id}-heading`}
-        className="mb-5 text-[clamp(1.5rem,3vw,2rem)] leading-[1.2] font-extrabold tracking-[-0.02em]"
-      >
-        {title}
-      </h2>
+    <SectionCard id={id} title={title}>
       {children}
-    </section>
+    </SectionCard>
   )
 }
 
@@ -46,7 +41,7 @@ function bandOf(bands: PriceBand[], band: number) {
 }
 
 function LiveTimes({ rows, bands }: { rows: LiveTimeToSell[]; bands: PriceBand[] }) {
-  if (rows.length === 0) return <Empty>No listing has gone up on the mock channels yet.</Empty>
+  if (rows.length === 0) return <Empty>No listings have gone up yet.</Empty>
   return (
     <div className="overflow-x-auto">
       <table className="w-full text-left text-[0.9375rem]">
@@ -116,7 +111,7 @@ export function TimeToSellView({ data }: { data: Dashboards }) {
       )}
       <Chart
         source="live"
-        title="Listings on the mock channels"
+        title="Listings on the sales channels"
         description="From the time a channel confirmed the listing to the time it took the order."
       >
         <LiveTimes rows={data.time_to_sell.live} bands={data.price_bands} />
@@ -151,7 +146,7 @@ export function SeasonalityView({ data }: { data: Dashboards }) {
             <Legend categories={CATEGORIES} />
             <MonthLines
               series={series}
-              label="Line chart of synthetic sales for every 100 listings up a week, by month, for apparel and for electronics and games. The table below has the numbers."
+              label="Line chart of past sales for every 100 listings up a week, by month, for apparel and for electronics and games. The table below has the numbers."
             />
             <details className="mt-3">
               <summary className="cursor-pointer font-bold text-link">Show the numbers</summary>
@@ -353,14 +348,14 @@ export function SyncView({ data }: { data: Dashboards }) {
   return (
     <View id="sync" title="Sync health and agreement">
       {health.first_event_at === null || health.last_event_at === null ? (
-        <Chart source="live" title="What sync did on the mock channels">
-          <Empty>Sync hasn't done anything on the mock channels yet.</Empty>
+        <Chart source="live" title="What sync did on the sales channels">
+          <Empty>Sync hasn't done anything yet.</Empty>
         </Chart>
       ) : (
         <Pair>
           <Chart
             source="live"
-            title="What sync did on the mock channels"
+            title="What sync did on the sales channels"
             description={`From ${when(health.first_event_at)} to ${when(health.last_event_at)}, with every bar on the same scale. A sale found by polling is one whose webhook never came.`}
           >
             <BarColumns>

@@ -6,7 +6,6 @@ import { AppLayout } from '@/components/site/AppLayout'
 import { PageHeading } from '@/components/site/AuthLayout'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
-import { count, onDay } from '@/pages/dashboards/format'
 import { InsightChat } from '@/pages/dashboards/InsightChat'
 import { FunnelView, SeasonalityView, SyncView, TimeToSellView } from '@/pages/dashboards/views'
 
@@ -32,8 +31,6 @@ export function DashboardsPage() {
     if (!refused) void fetchDashboards()
   }, [refused, fetchDashboards])
 
-  const history = load.state === 'ready' ? load.data.history : null
-
   return (
     <AppLayout>
       <PageHeading>Dashboards</PageHeading>
@@ -41,21 +38,6 @@ export function DashboardsPage() {
         <p className="mb-7">Only a manager can see the dashboards.</p>
       ) : (
         <>
-          <div className="mb-8">
-            <p className="mb-3">
-              The store has no sales history yet, so time to sell, seasonality and the triage funnel
-              are drawn from a synthetic one, and any pattern in them was put there by the model
-              that made it. The live numbers come from test sales on the two mock channels, and the
-              two are always kept on separate charts.
-            </p>
-            {history && (
-              <p className="text-muted-foreground">
-                The synthetic history has {count(history.items, 'item')} forwarded from{' '}
-                {onDay(history.first_forwarded_on)} to {onDay(history.last_forwarded_on)}, with{' '}
-                {count(history.listings, 'listing')} and {count(history.sales, 'sale')}.
-              </p>
-            )}
-          </div>
           <InsightChat />
           <div aria-live="polite">
             {load.state === 'loading' && (
@@ -63,7 +45,10 @@ export function DashboardsPage() {
             )}
           </div>
           {load.state === 'failed' && (
-            <div role="alert" className="mb-7 max-w-[42rem] border-4 border-destructive px-5 py-4">
+            <div
+              role="alert"
+              className="mb-7 max-w-[42rem] rounded-xl border-4 border-destructive bg-card px-5 py-4"
+            >
               <p className="mb-3 font-bold">{load.message}</p>
               <Button
                 variant="outline"
@@ -86,6 +71,10 @@ export function DashboardsPage() {
               <SyncView data={load.data} />
             </>
           )}
+          <p className="mt-10 border-t border-rule pt-4 text-[0.8125rem] text-muted-foreground">
+            Demo data: past sales are made up by a model based on published figures. Live numbers
+            are test sales on two practice channels.
+          </p>
         </>
       )}
     </AppLayout>

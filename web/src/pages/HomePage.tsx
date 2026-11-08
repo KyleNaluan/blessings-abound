@@ -7,8 +7,10 @@ import { signedInName } from '@/auth/accounts'
 import { useAuth } from '@/auth/AuthContext'
 import { AppLayout } from '@/components/site/AppLayout'
 import { PageHeading } from '@/components/site/AuthLayout'
+import { cardSurface } from '@/components/site/card'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
+import { cn } from '@/lib/utils'
 
 // A count still loading is undefined, and one the API couldn't give is null, which shows no number.
 type Count = number | null | undefined
@@ -98,7 +100,10 @@ function CountCard({
     <li>
       <Link
         to={to}
-        className="block h-full rounded-xl bg-card p-5 text-card-foreground no-underline shadow-[0_1px_2px_rgb(0_0_0/0.06),0_4px_12px_rgb(0_0_0/0.05)] ring-1 ring-foreground/10 transition-shadow hover:text-card-foreground hover:no-underline hover:ring-primary"
+        className={cn(
+          cardSurface,
+          'block h-full no-underline transition-shadow hover:text-card-foreground hover:no-underline hover:ring-primary',
+        )}
       >
         <span className="block text-lg font-bold">{title}</span>
         <span className="mt-1 block text-muted-foreground" aria-live="polite">

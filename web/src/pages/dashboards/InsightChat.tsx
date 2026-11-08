@@ -2,6 +2,7 @@ import { useId, useRef, useState, type FormEvent } from 'react'
 
 import { askInsight, type InsightAnswer } from '@/api/dashboards'
 import { Field, TextInput } from '@/components/site/form'
+import { SectionCard } from '@/components/site/SectionCard'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
@@ -109,13 +110,7 @@ export function InsightChat() {
   }
 
   return (
-    <section aria-labelledby="ask-heading" className="mb-12 border-t border-rule pt-8">
-      <h2
-        id="ask-heading"
-        className="mb-3 text-[clamp(1.5rem,3vw,2rem)] leading-[1.2] font-extrabold tracking-[-0.02em]"
-      >
-        Ask about sales
-      </h2>
+    <SectionCard id="ask" title="Ask about sales">
       <p className="mb-5">
         The language model picks one of a few tested functions to answer from, code works out the
         numbers, and each answer shows the function it came from. It can answer about time to sell,
@@ -164,7 +159,10 @@ export function InsightChat() {
         )}
       </div>
       {failure && (
-        <div role="alert" className="mb-7 max-w-[42rem] border-4 border-destructive px-5 py-4">
+        <div
+          role="alert"
+          className="mb-7 max-w-[42rem] rounded-xl border-4 border-destructive bg-card px-5 py-4"
+        >
           <p className="mb-1 font-bold break-words">{failure.message}</p>
           <p className="mb-3 break-words text-muted-foreground">
             You asked &ldquo;{failure.question}&rdquo;.
@@ -187,6 +185,6 @@ export function InsightChat() {
           ))}
         </div>
       )}
-    </section>
+    </SectionCard>
   )
 }

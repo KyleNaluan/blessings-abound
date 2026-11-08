@@ -1,6 +1,7 @@
 import { useLayoutEffect, useRef, useState, type ChangeEvent, type FormEvent } from 'react'
 
 import type { ItemCardRequest, NewItem, StoreDepartment } from '@/api/appraisal'
+import { cardSurface } from '@/components/site/card'
 import {
   ErrorSummary,
   Field,
@@ -162,7 +163,12 @@ export function IntakeForm({
   const photosError = photoError ?? errorFor('photos')
 
   return (
-    <form onSubmit={submit} noValidate className="mb-7">
+    // One card, with a line between each group of questions, inside the card's padding.
+    <form
+      onSubmit={submit}
+      noValidate
+      className={cn('mb-7 divide-y divide-rule [&>*+*]:pt-6', cardSurface)}
+    >
       {errors.length > 0 && <ErrorSummary key={attempt} errors={errors} />}
 
       {/* The error bar is on a wrapper for the same reason as in RadioGroup. */}
@@ -233,52 +239,54 @@ export function IntakeForm({
                 multiple
                 disabled={busy}
                 onChange={addPhotos}
-                className="w-full min-w-0 border-2 border-input bg-background p-2 text-foreground"
+                className="w-full min-w-0 rounded-md border-2 border-input bg-background p-2 text-foreground"
               />
             </>
           )}
         </fieldset>
       </div>
 
-      <RadioGroup
-        id="store-department"
-        legend="Department it came from"
-        options={STORE_DEPARTMENTS}
-        value={storeDepartment}
-        error={errorFor('store-department')}
-        disabled={busy}
-        onChange={setStoreDepartment}
-      />
+      <div>
+        <RadioGroup
+          id="store-department"
+          legend="Department it came from"
+          options={STORE_DEPARTMENTS}
+          value={storeDepartment}
+          error={errorFor('store-department')}
+          disabled={busy}
+          onChange={setStoreDepartment}
+        />
 
-      <RadioGroup
-        id="condition"
-        legend="Condition"
-        options={CONDITIONS}
-        value={condition}
-        error={errorFor('condition')}
-        disabled={busy}
-        onChange={setCondition}
-      />
+        <RadioGroup
+          id="condition"
+          legend="Condition"
+          options={CONDITIONS}
+          value={condition}
+          error={errorFor('condition')}
+          disabled={busy}
+          onChange={setCondition}
+        />
 
-      <fieldset className="mb-6">
-        <legend className="mb-1 font-bold">Flaws</legend>
-        <p className="mb-1.5 text-muted-foreground">Tick any you can see, or none.</p>
-        {FLAWS.map(([flaw, text]) => (
-          <label key={flaw} className="flex min-h-11 cursor-pointer items-center gap-2">
-            <input
-              type="checkbox"
-              checked={flaws.includes(flaw)}
-              disabled={busy}
-              onChange={() => toggleFlaw(flaw)}
-              className="size-5 flex-none accent-primary"
-            />
-            {text}
-          </label>
-        ))}
-      </fieldset>
+        <fieldset className="mb-6">
+          <legend className="mb-1 font-bold">Flaws</legend>
+          <p className="mb-1.5 text-muted-foreground">Tick any you can see, or none.</p>
+          {FLAWS.map(([flaw, text]) => (
+            <label key={flaw} className="flex min-h-11 cursor-pointer items-center gap-2">
+              <input
+                type="checkbox"
+                checked={flaws.includes(flaw)}
+                disabled={busy}
+                onChange={() => toggleFlaw(flaw)}
+                className="size-5 flex-none accent-primary"
+              />
+              {text}
+            </label>
+          ))}
+        </fieldset>
+      </div>
 
       {storeDepartment === 'clothing' && (
-        <>
+        <div>
           <RadioGroup
             id="department"
             legend="Who it's for (optional)"
@@ -316,11 +324,11 @@ export function IntakeForm({
               </select>
             )}
           </Field>
-        </>
+        </div>
       )}
 
       {storeDepartment === 'electronics_games' && (
-        <>
+        <div>
           <RadioGroup
             id="tested"
             legend="Tested and working"
@@ -352,25 +360,27 @@ export function IntakeForm({
               />
             )}
           </Field>
-        </>
+        </div>
       )}
 
-      <Field id="notes" label="Notes (optional)" hint="Anything the photos don't show.">
-        {({ id, describedBy }) => (
-          <textarea
-            id={id}
-            value={notes}
-            rows={3}
-            maxLength={1000}
-            disabled={busy}
-            aria-describedby={describedBy}
-            onChange={(event) => setNotes(event.target.value)}
-            className={AREA}
-          />
-        )}
-      </Field>
+      <div>
+        <Field id="notes" label="Notes (optional)" hint="Anything the photos don't show.">
+          {({ id, describedBy }) => (
+            <textarea
+              id={id}
+              value={notes}
+              rows={3}
+              maxLength={1000}
+              disabled={busy}
+              aria-describedby={describedBy}
+              onChange={(event) => setNotes(event.target.value)}
+              className={AREA}
+            />
+          )}
+        </Field>
 
-      <SubmitButton pending={busy}>Take it in</SubmitButton>
+        <SubmitButton pending={busy}>Take it in</SubmitButton>
+      </div>
     </form>
   )
 }

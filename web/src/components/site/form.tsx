@@ -31,7 +31,7 @@ export function ErrorSummary({ errors }: { errors: FieldError[] }) {
       tabIndex={-1}
       aria-labelledby="error-summary-title"
       // A ring even after a mouse click, so the move of focus to the summary is always visible, as in GOV.UK.
-      className="mb-7 border-4 border-destructive px-5 py-4 focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid"
+      className="mb-7 rounded-xl border-4 border-destructive bg-card px-5 py-4 focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid"
     >
       <h2 id="error-summary-title" className="mb-2 text-xl font-bold">
         There is a problem

@@ -15,6 +15,7 @@ import {
   TextInput,
   type FieldError,
 } from '@/components/site/form'
+import { SectionCard } from '@/components/site/SectionCard'
 import { Button } from '@/components/ui/button'
 
 type Way = 'invite' | 'temporary'
@@ -108,10 +109,7 @@ export function AddPersonForm({
   ]
 
   return (
-    <section aria-labelledby="add-heading" className="mb-9 max-w-[30rem]">
-      <h2 id="add-heading" className="mb-4 text-xl font-bold">
-        Add a person
-      </h2>
+    <SectionCard id="add" title="Add a person" className="max-w-[30rem]">
       {summary.length > 0 && <ErrorSummary key={failures} errors={summary} />}
       <form noValidate onSubmit={onSubmit}>
         <RadioGroup
@@ -210,6 +208,6 @@ export function AddPersonForm({
           </Button>
         </div>
       </form>
-    </section>
+    </SectionCard>
   )
 }

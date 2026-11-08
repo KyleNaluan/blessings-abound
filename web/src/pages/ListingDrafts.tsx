@@ -8,6 +8,7 @@ import {
   type ListingDraft,
 } from '@/api/appraisal'
 import { Field, SubmitButton, TextInput } from '@/components/site/form'
+import { SectionCard } from '@/components/site/SectionCard'
 import { Button } from '@/components/ui/button'
 
 import { CHANNEL_NAMES } from './approval/format'
@@ -81,7 +82,7 @@ function DraftForm({
   }
 
   return (
-    <section aria-labelledby={`${id}-heading`} className="mb-7 border border-rule p-4">
+    <section aria-labelledby={`${id}-heading`} className="mb-6 rounded-lg border border-rule p-4">
       <h3 id={`${id}-heading`} className="mb-2 text-xl font-bold">
         {CHANNEL_NAMES[draft.channel]}
       </h3>
@@ -257,15 +258,12 @@ export function ListingDrafts({
       : null
 
   return (
-    <section aria-labelledby="drafts-heading" className="mb-7">
-      <h2 id="drafts-heading" className="mb-3 text-xl font-bold">
-        Listing drafts
-      </h2>
+    <SectionCard id="drafts" title="Listing drafts">
       <div aria-live="polite">
         {status.step === 'loading' && <p className="mb-7 font-bold">Writing the listing...</p>}
       </div>
       {status.step === 'failed' && (
-        <div role="alert" className="mb-7 border-4 border-destructive px-5 py-4">
+        <div role="alert" className="mb-7 rounded-xl border-4 border-destructive bg-card px-5 py-4">
           <p className="mb-3 font-bold">{status.message}</p>
           <Button variant="outline" size="lg" onClick={load}>
             Try again
@@ -306,6 +304,6 @@ export function ListingDrafts({
           </div>
         )
       )}
-    </section>
+    </SectionCard>
   )
 }

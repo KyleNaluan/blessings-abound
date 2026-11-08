@@ -257,10 +257,11 @@ test('takes a photo through the card and the price to a saved decision in the li
     'Saved your decision: no. It goes to seasonal storage.',
   )
   const recent = screen.getByRole('region', { name: 'Recent decisions' })
-  const row = await within(recent).findByRole('listitem')
+  const [, row] = await within(recent).findAllByRole('row')
   expect(row).toHaveTextContent('Canvas jacket')
   expect(row).toHaveTextContent('Seasonal storage')
-  expect(row).toHaveTextContent('$35.00 typical, Demo Staff,')
+  expect(row).toHaveTextContent('$35.00')
+  expect(row).toHaveTextContent('Demo Staff')
 
   const [decision] = posted(calls, '/items/item-1/decisions')
   expect(await decision.request.json()).toEqual({
@@ -280,8 +281,9 @@ test('a decision on an item with no price says so in the list', async () => {
   renderPage()
 
   const recent = await screen.findByRole('region', { name: 'Recent decisions' })
-  const row = await within(recent).findByRole('listitem')
-  expect(row).toHaveTextContent('No price, Demo Staff,')
+  const [, row] = await within(recent).findAllByRole('row')
+  expect(row).toHaveTextContent('No price')
+  expect(row).toHaveTextContent('Demo Staff')
   expect(row).not.toHaveTextContent('None')
 })
 

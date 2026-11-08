@@ -12,6 +12,18 @@ import {
 import { useAuth } from '@/auth/AuthContext'
 import { AppLayout } from '@/components/site/AppLayout'
 import { Lead, PageHeading } from '@/components/site/AuthLayout'
+import {
+  ActionCell,
+  Cell,
+  DataTable,
+  DetailsRow,
+  EmptyTable,
+  Row,
+  SubText,
+  TableBody,
+  TableSection,
+  type Column,
+} from '@/components/site/DataTable'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { CHANNEL_NAMES, itemName, releaseMonth, when } from '@/pages/approval/format'
@@ -22,13 +34,29 @@ type Load =
   | { state: 'failed'; message: string }
   | { state: 'ready'; queue: ApprovalQueue }
 
-function Summary({ item }: { item: QueueItem }) {
+function channelNames(item: QueueItem) {
+  return item.channels.map((channel) => CHANNEL_NAMES[channel]).join(' and ')
+}
+
+// The item's name, linking to its review, with its SKU under it.
+function ItemCell({ item, sku }: { item: QueueItem | KeptOffItem; sku: string }) {
   return (
-    <>
-      {item.full_sku ?? item.sku}, for{' '}
-      {item.channels.map((channel) => CHANNEL_NAMES[channel]).join(' and ')}
-    </>
+    <Cell>
+      <Link to={`/app/approvals/${item.item_id}`} className="font-bold break-words">
+        {itemName(item)}
+      </Link>
+      <SubText>{sku}</SubText>
+    </Cell>
   )
+}
+
+// Why an item is in a queue, when it isn't simply new.
+function queueNote(item: QueueItem) {
+  if (item.put_back) return 'Put back for review'
+  if (item.back_for_review && item.release_month)
+    return `Back in season from ${releaseMonth(item.release_month)}`
+  if (item.status === 'held_for_season') return 'Held for its season'
+  return null
 }
 
 function Queue({
@@ -44,62 +72,58 @@ function Queue({
   items: QueueItem[]
   since: string
 }) {
+  const columns: Column[] = [
+    { label: 'Item' },
+    { label: 'Channels', width: 'w-[12rem]' },
+    { label: since, width: 'w-[15rem]' },
+  ]
   return (
-    <section aria-labelledby={`${id}-heading`} className="mb-9">
-      <h2 id={`${id}-heading`} className="mb-3 text-xl font-bold">
-        {title}
-      </h2>
+    <TableSection id={id} title={title} count={items.length}>
       {items.length === 0 ? (
-        <p className="border-y border-rule py-3.5">{empty}</p>
+        <EmptyTable>{empty}</EmptyTable>
       ) : (
-        <ul className="border-t border-rule">
-          {items.map((item) => (
-            <li key={item.item_id} className="border-b border-rule py-3.5">
-              <Link to={`/app/approvals/${item.item_id}`} className="font-bold break-words">
-                {itemName(item)}
-              </Link>
-              <p className="text-muted-foreground">
-                <Summary item={item} />
-                {item.put_back
-                  ? ', put back for review'
-                  : item.status === 'held_for_season' &&
-                    (item.back_for_review ? ', back in its season' : ', held for its season')}
-              </p>
-              {item.put_back && item.waiting_since ? (
-                <p className="text-sm text-muted-foreground">
-                  Put back on {when(item.waiting_since)}
-                </p>
-              ) : item.back_for_review && item.release_month ? (
-                <p className="text-sm text-muted-foreground">
-                  Approved before, and in season from {releaseMonth(item.release_month)}
-                </p>
-              ) : (
-                item.waiting_since && (
-                  <p className="text-sm text-muted-foreground">
-                    {since} {when(item.waiting_since)}
-                  </p>
-                )
-              )}
-            </li>
-          ))}
-        </ul>
+        <DataTable columns={columns}>
+          <TableBody>
+            {items.map((item) => (
+              <Row key={item.item_id}>
+                <ItemCell item={item} sku={item.full_sku ?? item.sku} />
+                <Cell>{channelNames(item)}</Cell>
+                <Cell>
+                  {item.waiting_since ? when(item.waiting_since) : 'Not recorded'}
+                  {queueNote(item) && <SubText>{queueNote(item)}</SubText>}
+                </Cell>
+              </Row>
+            ))}
+          </TableBody>
+        </DataTable>
       )}
-    </section>
+    </TableSection>
   )
 }
+
+const HELD_COLUMNS: Column[] = [
+  { label: 'Item' },
+  { label: 'Held until', width: 'w-[10rem]' },
+  { label: 'Shelf or bin', width: 'w-[9rem]' },
+  { label: 'Actions', width: 'w-[19rem]', hidden: true },
+]
 
 // One held item, which a manager can bring into review early or take out of online selling.
 function HeldItem({
   item,
+  open,
+  onToggle,
   onGone,
 }: {
   item: QueueItem
+  open: boolean
+  onToggle: () => void
   onGone: (item: QueueItem, result: NotOnlineResult) => void
 }) {
   const navigate = useNavigate()
-  const [choosing, setChoosing] = useState(false)
   const [sending, setSending] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const detailsId = `held-${item.item_id}-details`
 
   async function sendNow() {
     setSending(true)
@@ -114,25 +138,45 @@ function HeldItem({
   }
 
   return (
-    <li className="border-b border-rule py-3.5">
-      <Link to={`/app/approvals/${item.item_id}`} className="font-bold break-words">
-        {itemName(item)}
-      </Link>
-      <p className="text-muted-foreground">
-        <Summary item={item} />
-      </p>
-      <p className="mb-3 text-sm text-muted-foreground">
-        {item.release_month && `Held until ${releaseMonth(item.release_month)}`}
-        {item.location_code ? `, stored on ${item.location_code}` : ', with no shelf yet'}
-      </p>
-      {error && (
-        <p role="alert" className="mb-3 font-bold text-destructive">
-          {error}
-        </p>
-      )}
-      {choosing ? (
-        <div className="border-l-4 border-rule pl-3.5">
-          <p className="mb-3">
+    <TableBody>
+      <Row open={open}>
+        <Cell>
+          <Link to={`/app/approvals/${item.item_id}`} className="font-bold break-words">
+            {itemName(item)}
+          </Link>
+          <SubText>
+            {item.full_sku ?? item.sku}, for {channelNames(item)}
+          </SubText>
+          {error && (
+            <span role="alert" className="mt-2 block font-bold text-destructive">
+              {error}
+            </span>
+          )}
+        </Cell>
+        <Cell>{item.release_month ? releaseMonth(item.release_month) : 'Not set'}</Cell>
+        <Cell>{item.location_code ?? 'No shelf yet'}</Cell>
+        {/* While its form is open the row's buttons step aside, and the form has its own Cancel. */}
+        <ActionCell>
+          {!open && (
+            <>
+              <Button
+                size="lg"
+                disabled={sending}
+                aria-busy={sending}
+                onClick={() => void sendNow()}
+              >
+                {sending ? 'Sending...' : 'List now'}
+              </Button>
+              <Button variant="outline" size="lg" disabled={sending} onClick={onToggle}>
+                Don't list online
+              </Button>
+            </>
+          )}
+        </ActionCell>
+      </Row>
+      {open && (
+        <DetailsRow id={detailsId} colSpan={HELD_COLUMNS.length}>
+          <p className="mt-3 mb-3">
             It comes off online selling, such as to sell it on the store floor, until a manager puts
             it back for review.
           </p>
@@ -140,32 +184,11 @@ function HeldItem({
             itemId={item.item_id}
             idPrefix={`held-${item.item_id}`}
             onDone={(result) => onGone(item, result)}
-            onCancel={() => setChoosing(false)}
+            onCancel={onToggle}
           />
-        </div>
-      ) : (
-        <div className="flex gap-3 max-sm:flex-col">
-          <Button
-            size="lg"
-            className="max-sm:w-full"
-            disabled={sending}
-            aria-busy={sending}
-            onClick={() => void sendNow()}
-          >
-            {sending ? 'Sending...' : 'List now'}
-          </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            className="max-sm:w-full"
-            disabled={sending}
-            onClick={() => setChoosing(true)}
-          >
-            Don't list online
-          </Button>
-        </div>
+        </DetailsRow>
       )}
-    </li>
+    </TableBody>
   )
 }
 
@@ -177,45 +200,76 @@ function HeldQueue({
   items: QueueItem[]
   onGone: (item: QueueItem, result: NotOnlineResult) => void
 }) {
+  // One item's form is open at a time.
+  const [openId, setOpenId] = useState<string | null>(null)
   return (
-    <section aria-labelledby="held-heading" className="mb-9">
-      <h2 id="held-heading" className="mb-1 text-xl font-bold">
-        Held for season
-      </h2>
-      <p className="mb-3">
-        Each item comes back to Waiting for approval in its release month, so you can check its
-        price before it's listed. List now brings it back early.
-      </p>
+    <TableSection
+      id="held"
+      title="Held for season"
+      count={items.length}
+      description="Each item comes back to Waiting for approval in its release month, so you can check its price before it's listed. List now brings it back early."
+    >
       {items.length === 0 ? (
-        <p className="border-y border-rule py-3.5">No item is held for its season.</p>
+        <EmptyTable>No item is held for its season.</EmptyTable>
       ) : (
-        <ul className="border-t border-rule">
+        <DataTable columns={HELD_COLUMNS}>
           {items.map((item) => (
-            <HeldItem key={item.item_id} item={item} onGone={onGone} />
+            <HeldItem
+              key={item.item_id}
+              item={item}
+              open={openId === item.item_id}
+              onToggle={() => setOpenId(openId === item.item_id ? null : item.item_id)}
+              onGone={onGone}
+            />
           ))}
-        </ul>
+        </DataTable>
       )}
-    </section>
+    </TableSection>
   )
 }
 
+const KEPT_OFF_COLUMNS: Column[] = [
+  { label: 'Item' },
+  { label: 'Kept off by', width: 'w-[13rem]' },
+  { label: 'Note' },
+  { label: 'Actions', width: 'w-[15rem]', hidden: true },
+]
+
 // One item kept off online, which a manager can put back for review with a note on why.
-function KeptOffRow({ item }: { item: KeptOffItem }) {
+function KeptOffRow({
+  item,
+  open,
+  onToggle,
+}: {
+  item: KeptOffItem
+  open: boolean
+  onToggle: () => void
+}) {
   const navigate = useNavigate()
-  const [choosing, setChoosing] = useState(false)
+  const detailsId = `kept-off-${item.item_id}-details`
 
   return (
-    <li className="border-b border-rule py-3.5">
-      <Link to={`/app/approvals/${item.item_id}`} className="font-bold break-words">
-        {itemName(item)}
-      </Link>
-      <p className="text-muted-foreground">
-        {item.sku}, kept off online by {item.decided_by_name} on {when(item.decided_at)}
-      </p>
-      {item.note && <p className="mb-3 break-words">{item.note}</p>}
-      {choosing ? (
-        <div className="border-l-4 border-rule pl-3.5">
-          <p className="mb-3">
+    <TableBody>
+      <Row open={open}>
+        <ItemCell item={item} sku={item.sku} />
+        <Cell>
+          {item.decided_by_name}
+          <SubText>{when(item.decided_at)}</SubText>
+        </Cell>
+        <Cell className="break-words">
+          {item.note ?? <span className="text-muted-foreground">No note</span>}
+        </Cell>
+        <ActionCell>
+          {!open && (
+            <Button variant="outline" size="lg" onClick={onToggle}>
+              Put back for review
+            </Button>
+          )}
+        </ActionCell>
+      </Row>
+      {open && (
+        <DetailsRow id={detailsId} colSpan={KEPT_OFF_COLUMNS.length}>
+          <p className="mt-3 mb-3">
             It goes back to Waiting for approval, so you can check its listing and price before
             anything goes online.
           </p>
@@ -223,44 +277,40 @@ function KeptOffRow({ item }: { item: KeptOffItem }) {
             itemId={item.item_id}
             idPrefix={`kept-off-${item.item_id}`}
             onDone={() => void navigate(`/app/approvals/${item.item_id}`)}
-            onCancel={() => setChoosing(false)}
+            onCancel={onToggle}
           />
-        </div>
-      ) : (
-        <Button
-          variant="outline"
-          size="lg"
-          className="max-sm:w-full"
-          onClick={() => setChoosing(true)}
-        >
-          Put back for review
-        </Button>
+        </DetailsRow>
       )}
-    </li>
+    </TableBody>
   )
 }
 
 // Items taken out of online selling, newest first, which a manager can put back for review.
 function KeptOffQueue({ items }: { items: KeptOffItem[] }) {
+  // One item's form is open at a time.
+  const [openId, setOpenId] = useState<string | null>(null)
   return (
-    <section aria-labelledby="kept-off-heading" className="mb-9">
-      <h2 id="kept-off-heading" className="mb-1 text-xl font-bold">
-        Not listed online
-      </h2>
-      <p className="mb-3">
-        Put back for review sends an item to Waiting for approval, where it goes through the usual
-        review and price check before it's listed. This shows the latest 50.
-      </p>
+    <TableSection
+      id="kept-off"
+      title="Not listed online"
+      count={items.length}
+      description="Put back for review sends an item to Waiting for approval, where it goes through the usual review and price check before it's listed. This shows the latest 50."
+    >
       {items.length === 0 ? (
-        <p className="border-y border-rule py-3.5">No item is kept off online.</p>
+        <EmptyTable>No item is kept off online.</EmptyTable>
       ) : (
-        <ul className="border-t border-rule">
+        <DataTable columns={KEPT_OFF_COLUMNS}>
           {items.map((item) => (
-            <KeptOffRow key={item.item_id} item={item} />
+            <KeptOffRow
+              key={item.item_id}
+              item={item}
+              open={openId === item.item_id}
+              onToggle={() => setOpenId(openId === item.item_id ? null : item.item_id)}
+            />
           ))}
-        </ul>
+        </DataTable>
       )}
-    </section>
+    </TableSection>
   )
 }
 
@@ -331,7 +381,10 @@ export function ApprovalsPage() {
             {load.state === 'loading' && <p className="mb-7 font-bold">Loading the items...</p>}
           </div>
           {load.state === 'failed' && (
-            <div role="alert" className="mb-7 border-4 border-destructive px-5 py-4">
+            <div
+              role="alert"
+              className="mb-7 rounded-xl border-4 border-destructive bg-card px-5 py-4"
+            >
               <p className="mb-3 font-bold">{load.message}</p>
               <Button
                 variant="outline"
@@ -353,14 +406,14 @@ export function ApprovalsPage() {
                 title="Waiting for approval"
                 empty="Nothing is waiting for approval."
                 items={load.queue.awaiting_approval}
-                since="Sent on"
+                since="Sent"
               />
               <Queue
                 id="storage"
                 title="Waiting for a shelf"
                 empty="Every approved item is on a shelf."
                 items={load.queue.awaiting_storage}
-                since="Approved on"
+                since="Approved"
               />
               <div aria-live="polite">
                 {keptOff && (

@@ -88,7 +88,10 @@ export function SettingsPage() {
             {load.state === 'loading' && <p className="mb-7 font-bold">Loading the settings...</p>}
           </div>
           {load.state === 'failed' && (
-            <div role="alert" className="mb-7 border-4 border-destructive px-5 py-4">
+            <div
+              role="alert"
+              className="mb-7 rounded-xl border-4 border-destructive bg-card px-5 py-4"
+            >
               <p className="mb-3 font-bold">{load.message}</p>
               <Button variant="outline" size="lg" className="max-sm:w-full" onClick={reload}>
                 Try again

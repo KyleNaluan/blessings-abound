@@ -31,7 +31,7 @@ export function AppLayout({ children }: { children: ReactNode }) {
     <div className="flex min-h-svh flex-col">
       <SkipLink />
       <AppHeader />
-      <main id="main" className="app-wrap flex-1 pt-8 pb-12">
+      <main id="main" className="app-wrap flex-1 pt-14 pb-12">
         {children}
       </main>
       <SiteFooter />

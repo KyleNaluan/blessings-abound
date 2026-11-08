@@ -13,25 +13,22 @@ const SERIES_STROKE: Record<Category, string> = {
   electronics_games: 'var(--series-games)',
 }
 
-const SOURCE_TEXT: Record<Source, { label: string; detail: string }> = {
-  history: {
-    label: 'Synthetic history.',
-    detail: "Made by a model calibrated to published figures, not the store's own sales.",
-  },
-  live: {
-    label: 'Synthetic, live.',
-    detail: 'Test listings and sales on the two mock channels, not real buyers.',
-  },
+// The page's footnote says what each kind is, so the tag only has to name it.
+const SOURCE_TEXT: Record<Source, string> = {
+  history: 'Demo history',
+  live: 'Live test sales',
 }
 
-// The line under a chart's title, and under an insight answer, that says where its numbers are from.
+// The tag under a chart's title, and under an insight answer, that says where its numbers are from.
 export function SourceNote({ source }: { source: Source }) {
-  const text = SOURCE_TEXT[source]
   return (
     <span
-      className={cn('block text-sm', source === 'history' ? 'text-plain-ink' : 'text-info-ink')}
+      className={cn(
+        'mt-1 inline-block rounded-full px-2.5 py-0.5 text-[0.8125rem] font-semibold',
+        source === 'history' ? 'bg-plain-soft text-plain-ink' : 'bg-info-soft text-info-ink',
+      )}
     >
-      <strong>{text.label}</strong> {text.detail}
+      {SOURCE_TEXT[source]}
     </span>
   )
 }
