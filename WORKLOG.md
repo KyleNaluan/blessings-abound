@@ -50,6 +50,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## halleepham
 
+- 2026-11-08, [#84](https://github.com/KyleNaluan/blessings-abound/issues/84), Restyle the web app with a cream page, deep green actions, a dark green header and footer, rounder corners and a turnstone logo, add a navigation bar and a home page with counts, put page sections on cards and lists of items in tables whose rows open their details, shorten the landing page to the intro and the walkthrough with the project details on a new About page, lay out the dashboards with live headline counts, tabs and an Ask about sales chat panel beside them, lay out the intake form in two columns with an upload area for photos, and move the dashboards' demo data notes to a footnote
 - 2026-11-07, [#88](https://github.com/KyleNaluan/blessings-abound/pull/88), Check all 48 vision labels against their photos by hand, record who checked them, and correct the Super NES label to the New-Style Super NES (SNS-101) with "snes jr" and "super nes" as right names
 
 ## Manan151179
