@@ -312,7 +312,7 @@ export function AppraisalPage() {
       <Lead>Take the item in with its photos, check the card and the price, then decide.</Lead>
 
       {!item && (
-        <div className="max-w-[33rem]">
+        <div>
           <IntakeForm
             key={formKey}
             focusPhotos={photoFocus}
@@ -503,7 +503,7 @@ export function AppraisalPage() {
         </div>
       )}
 
-      <div className="max-w-[48rem]">
+      <div>
         <TableSection id="recent" title="Recent decisions">
           {recentError && <p role="alert">{recentError}</p>}
           {!recentError && recent?.length === 0 && <EmptyTable>No decisions yet.</EmptyTable>}
