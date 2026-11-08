@@ -20,12 +20,14 @@ const SOURCE_TEXT: Record<Source, string> = {
 }
 
 // The tag under a chart's title, and under an insight answer, that says where its numbers are from.
-export function SourceNote({ source }: { source: Source }) {
+// Beside a heading rather than under it, className="mt-0" drops the gap above it.
+export function SourceNote({ source, className }: { source: Source; className?: string }) {
   return (
     <span
       className={cn(
         'mt-1 inline-block rounded-full px-2.5 py-0.5 text-[0.8125rem] font-semibold',
         source === 'history' ? 'bg-plain-soft text-plain-ink' : 'bg-info-soft text-info-ink',
+        className,
       )}
     >
       {SOURCE_TEXT[source]}

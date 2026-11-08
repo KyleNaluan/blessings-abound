@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
 import { Tabs } from 'radix-ui'
 
+import { pillTab } from '@/components/site/pillTab'
 import { cn } from '@/lib/utils'
 
 import {
@@ -43,14 +44,7 @@ export function Walkthrough() {
           <div className="border-b border-rule px-5 py-3">
             <Tabs.List aria-label="Steps for one item" className="flex flex-wrap gap-2">
               {steps.map((step) => (
-                <Tabs.Trigger
-                  key={step.value}
-                  value={step.value}
-                  className={cn(
-                    'cursor-pointer rounded-full bg-muted px-3.5 py-1.5 text-left text-[0.9375rem] leading-[1.3] font-semibold text-foreground transition-colors data-[state=inactive]:hover:bg-[color-mix(in_oklch,var(--muted),var(--foreground)_8%)]',
-                    'data-[state=active]:bg-primary data-[state=active]:text-primary-foreground',
-                  )}
-                >
+                <Tabs.Trigger key={step.value} value={step.value} className={pillTab}>
                   {step.label}
                 </Tabs.Trigger>
               ))}

@@ -63,15 +63,17 @@ type FieldProps = {
   // Renders the input, given the ids its aria-describedby should list and whether it is in error.
   children: (props: { id: string; describedBy?: string; invalid: boolean }) => ReactNode
   id: string
+  // For the wrapper, such as text-sm to make the label, hint and error smaller together.
+  className?: string
 }
 
-export function Field({ label, hint, error, children, id }: FieldProps) {
+export function Field({ label, hint, error, children, id, className }: FieldProps) {
   const hintId = `${id}-hint`
   const errorId = `${id}-error`
   const describedBy = [hint && hintId, error && errorId].filter(Boolean).join(' ') || undefined
 
   return (
-    <div className={cn('mb-6', error && 'border-l-4 border-destructive pl-3.5')}>
+    <div className={cn('mb-6', error && 'border-l-4 border-destructive pl-3.5', className)}>
       <label htmlFor={id} className="mb-1 block font-bold">
         {label}
       </label>

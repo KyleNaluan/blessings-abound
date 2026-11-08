@@ -17,6 +17,7 @@ test('tells the whole story: the problem, who decides, the limits and the projec
   expect(
     screen.getAllByRole('heading', { level: 2 }).map((heading) => heading.textContent),
   ).toEqual([
+    'Why “Turnstone”?',
     'Why the store needs it',
     'Who decides what',
     "What it can't tell you yet",

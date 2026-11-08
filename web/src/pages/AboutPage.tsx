@@ -21,6 +21,13 @@ export function AboutPage() {
           <h1 className="text-[clamp(2.25rem,4.6vw,3rem)] leading-[1.1] font-extrabold tracking-[-0.02em]">
             About Turnstone
           </h1>
+          <h2 className="mt-8 text-xl font-bold">Why &ldquo;Turnstone&rdquo;?</h2>
+          <p className="mt-2 max-w-[42rem]">
+            A turnstone is a small shorebird that flips over stones and shells along the shore to
+            find the food hidden underneath. Turnstone does the same with donations: it helps the
+            store turn over what comes through the door and find the hidden gems worth selling
+            online.
+          </p>
         </div>
         <Problems />
         <Rules />

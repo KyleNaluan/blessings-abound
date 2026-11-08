@@ -26,12 +26,16 @@ const APP_LINKS: AppLink[] = [
 
 // The frame for every signed-in page: the navigation bar, the page, and the footer kept at the bottom.
 // Text runs the page's width, and a form or field keeps its own narrower width.
-export function AppLayout({ children }: { children: ReactNode }) {
+export function AppLayout({ wide = false, children }: { wide?: boolean; children: ReactNode }) {
   return (
     <div className="flex min-h-svh flex-col">
       <SkipLink />
       <AppHeader />
-      <main id="main" className="app-wrap flex-1 pt-14 pb-12">
+      {/* A wide page, such as the dashboards, runs to the screen's edges, past the usual column. */}
+      <main
+        id="main"
+        className={cn('flex-1 pt-14 pb-12', wide ? 'w-full px-6 max-sm:px-4' : 'app-wrap')}
+      >
         {children}
       </main>
       <SiteFooter />
