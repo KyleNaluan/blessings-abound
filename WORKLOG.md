@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-09, [#94](https://github.com/KyleNaluan/blessings-abound/issues/94), Take a full-size phone photo in at intake by storing it as a 2,048 pixel JPEG, under the hosted bucket's 10 MB limit, and show a message that names the photo when storage refuses one, or says to try again when storage or the server fails, instead of "couldn't reach the API"
 - 2026-11-09, [#24](https://github.com/KyleNaluan/blessings-abound/issues/24), Match the demo script's step 5 price to what the shared demo shows, about $23 after fees, with a note to read the number off the card because the offline demo shows $14.81
 - 2026-11-08, [#24](https://github.com/KyleNaluan/blessings-abound/issues/24), Write the demo script for judging, with a timed core run from photo to decision, an optional extension to a sale on the mock channels, the demo items and how to reset them, a fallback ladder, a shot list for the backup video and short answers to likely judge questions, timed on the offline demo
 - 2026-11-08, [#93](https://github.com/KyleNaluan/blessings-abound/pull/93), Fit a manager's navigation bar inside the page column so Sign out ends on its right edge, shorten a long signed-in name with an ellipsis, line the open menu up with the header's column, and say in the README that an empty home page card shows a "No ..." line rather than a count

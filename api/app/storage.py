@@ -8,6 +8,10 @@ import httpx2
 from app.settings import Settings, get_settings
 
 
+class PhotoTooLargeError(Exception):
+    """The storage refused a photo for its size, which trying again won't change."""
+
+
 class Storage(Protocol):
     def save(self, key: str, data: bytes, content_type: str) -> None: ...
 
@@ -56,12 +60,30 @@ class SupabaseStorage:
             content=data,
             headers={"Content-Type": content_type, "x-upsert": "true"},
         )
+        if _too_large(response):
+            raise PhotoTooLargeError(f"{len(data)} bytes is over the bucket's size limit")
         response.raise_for_status()
 
     def read(self, key: str) -> bytes:
         response = self.client.get(f"/object/{self.bucket}/{key}")
         response.raise_for_status()
         return response.content
+
+
+def _too_large(response: httpx2.Response) -> bool:
+    """Whether the upload was over the bucket's size limit.
+
+    Supabase answers that with a 400 whose body gives 413 as its status code.
+    """
+    if response.status_code == 413:
+        return True
+    if response.status_code != 400:
+        return False
+    try:
+        body = response.json()
+    except ValueError:
+        return False
+    return isinstance(body, dict) and str(body.get("statusCode")) == "413"
 
 
 def get_storage(settings: Settings | None = None) -> Storage:
