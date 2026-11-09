@@ -78,6 +78,14 @@ test('shows only the username for an account with a hidden placeholder address',
   ).toBeInTheDocument()
 })
 
+test('the navigation bar keeps the whole name on hover, because a long one is cut short', async () => {
+  vi.stubGlobal('fetch', answer(NONE))
+  renderHome()
+  const nav = await screen.findByRole('navigation', { name: 'Main' })
+  const bar = nav.parentElement as HTMLElement
+  expect(await within(bar).findByText('Hallee')).toHaveAttribute('title', 'Hallee')
+})
+
 test('a list the API cannot count still links to it, and the page says the API is down', async () => {
   vi.stubGlobal(
     'fetch',
