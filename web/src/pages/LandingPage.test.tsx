@@ -20,6 +20,13 @@ test('sign in is the only call to action, with no sign-up', () => {
   expect(screen.queryByRole('button', { name: /sign up|register/i })).toBeNull()
 })
 
+test('the bar links to the About page', () => {
+  renderLanding()
+  expect(
+    within(screen.getByRole('navigation', { name: 'Main' })).getByRole('link', { name: 'About' }),
+  ).toHaveAttribute('href', '/about')
+})
+
 test('sets the page title', () => {
   renderLanding()
   expect(document.title).toBe('Turnstone')
@@ -46,7 +53,7 @@ test('choosing a link in the menu closes it', () => {
   const menu = screen.getByRole('button', { name: 'Menu' })
   fireEvent.click(menu)
   fireEvent.click(
-    within(screen.getByRole('navigation', { name: 'Main' })).getByRole('link', { name: 'Limits' }),
+    within(screen.getByRole('navigation', { name: 'Main' })).getByRole('link', { name: 'About' }),
   )
   expect(menu).toHaveAttribute('aria-expanded', 'false')
 })

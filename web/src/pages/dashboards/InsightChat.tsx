@@ -1,7 +1,8 @@
-import { useId, useRef, useState, type FormEvent } from 'react'
+import { useEffect, useId, useRef, useState, type FormEvent } from 'react'
 
 import { askInsight, type InsightAnswer } from '@/api/dashboards'
-import { Field, TextInput } from '@/components/site/form'
+import { cardSurface } from '@/components/site/card'
+import { Field } from '@/components/site/form'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
@@ -37,7 +38,7 @@ function Answer({ answer }: { answer: InsightAnswer }) {
     <article
       aria-labelledby={id}
       className={cn(
-        'mb-8 max-w-[42rem] border-l-4 pl-4 wide:pl-5',
+        'mb-6 border-l-4 pl-4 text-sm last:mb-0',
         answer.source ? SOURCE_LINE[answer.source] : 'border-rule',
       )}
     >
@@ -59,7 +60,7 @@ function Answer({ answer }: { answer: InsightAnswer }) {
         <details className="mt-3">
           <summary className="cursor-pointer font-bold text-link">Show the numbers</summary>
           <div className="mt-2 overflow-x-auto">
-            <table className="w-full text-left text-[0.9375rem]">
+            <table className="w-full text-left text-sm">
               <caption className="sr-only">What the function returned</caption>
               <tbody>
                 {answer.facts.map((fact) => (
@@ -80,8 +81,10 @@ function Answer({ answer }: { answer: InsightAnswer }) {
 }
 
 // A manager asks a sales question, the model picks one of a fixed set of tested functions, code
-// works out the numbers, and each answer shows the call it came from. Newest answer first.
-export function InsightChat() {
+// works out the numbers, and each answer shows the call it came from. It reads like a chat: the
+// newest answer at the bottom, with the question box under the conversation. Given a height, the
+// conversation scrolls inside the panel, and without one, the panel grows with it.
+export function InsightChat({ className }: { className?: string }) {
   const [question, setQuestion] = useState('')
   const [empty, setEmpty] = useState(false)
   const [pending, setPending] = useState<string | null>(null)
@@ -94,12 +97,19 @@ export function InsightChat() {
     setFailure(null)
     askInsight(text)
       .then((answer) => {
-        setAsked((before) => [{ key: nextKey.current++, answer }, ...before])
+        setAsked((before) => [...before, { key: nextKey.current++, answer }])
         setQuestion((current) => (current.trim() === text ? '' : current))
       })
       .catch((error: Error) => setFailure({ question: text, message: error.message }))
       .finally(() => setPending(null))
   }
+
+  // A new answer, a question being worked out, or a failure scrolls the conversation to its end.
+  const conversation = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    const box = conversation.current
+    if (box) box.scrollTop = box.scrollHeight
+  }, [asked.length, pending, failure])
 
   function submit(event: FormEvent) {
     event.preventDefault()
@@ -109,46 +119,95 @@ export function InsightChat() {
   }
 
   return (
-    <section aria-labelledby="ask-heading" className="mb-12 border-t border-rule pt-8">
-      <h2
-        id="ask-heading"
-        className="mb-3 text-[clamp(1.5rem,3vw,2rem)] leading-[1.2] font-bold tracking-[-0.01em]"
-      >
-        Ask about sales
-      </h2>
-      <p className="mb-5 max-w-[42rem]">
-        The language model picks one of a few tested functions to answer from, code works out the
-        numbers, and each answer shows the function it came from. It can answer about time to sell,
-        seasonality, the triage funnel, the live test sales and sync.
-      </p>
-      <form onSubmit={submit} noValidate className="max-w-[42rem]">
+    <section
+      aria-labelledby="ask-heading"
+      className={cn(cardSurface, 'flex flex-col p-0 wide:p-0', className)}
+    >
+      <div className="shrink-0 border-b border-rule px-5 pt-4 pb-3">
+        <h2 id="ask-heading" className="text-xl font-bold">
+          Ask about sales
+        </h2>
+        <p className="mt-1 text-sm text-muted-foreground">
+          It can answer about time to sell, seasonality, the triage funnel, the live test sales and
+          sync.
+        </p>
+      </div>
+      <div ref={conversation} className="min-h-0 flex-1 overflow-y-auto px-5 py-4">
+        {asked.length === 0 && pending === null && !failure && (
+          <p className="text-sm text-muted-foreground">Answers show up here.</p>
+        )}
+        {asked.map(({ key, answer }) => (
+          <Answer key={key} answer={answer} />
+        ))}
+        <div aria-live="polite">
+          {pending !== null && (
+            <p className="mt-6 text-sm font-bold break-words">
+              Working out the answer to &ldquo;{pending}&rdquo;...
+            </p>
+          )}
+        </div>
+        {failure && (
+          <div
+            role="alert"
+            className="mt-6 rounded-xl border-4 border-destructive bg-card px-4 py-3"
+          >
+            <p className="mb-1 font-bold break-words">{failure.message}</p>
+            <p className="mb-3 break-words text-muted-foreground">
+              You asked &ldquo;{failure.question}&rdquo;.
+            </p>
+            <Button
+              variant="outline"
+              size="lg"
+              className="max-sm:w-full"
+              disabled={pending !== null}
+              onClick={() => ask(failure.question)}
+            >
+              Try again
+            </Button>
+          </div>
+        )}
+      </div>
+      <form onSubmit={submit} noValidate className="shrink-0 border-t border-rule px-5 pt-4">
         <Field
           id="insight-question"
           label="Your question"
           hint="For example, which month sells the most electronics, or how fast apparel under $15 sells."
           error={empty ? 'Type a question first.' : undefined}
+          className="mb-4 text-sm"
         >
           {({ id, describedBy, invalid }) => (
-            <div className="flex flex-col gap-3 sm:flex-row">
-              <TextInput
+            <div className="flex flex-col gap-3">
+              {/* A box that grows with the question, so the whole of it stays in view. Enter asks,
+                  and Shift+Enter starts a new line, as in most chats. */}
+              <textarea
                 id={id}
                 value={question}
+                rows={2}
                 maxLength={QUESTION_MAX}
                 autoComplete="off"
                 aria-describedby={describedBy}
-                invalid={invalid}
+                aria-invalid={invalid}
                 onChange={(event) => {
                   setQuestion(event.target.value)
                   if (empty) setEmpty(false)
                 }}
-                className="flex-1"
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' && !event.shiftKey) {
+                    event.preventDefault()
+                    event.currentTarget.form?.requestSubmit()
+                  }
+                }}
+                className={cn(
+                  'block field-sizing-content max-h-40 min-h-16 w-full min-w-0 resize-none rounded-md border-2 border-input bg-background px-2.5 py-2 text-sm text-foreground',
+                  invalid && 'border-destructive',
+                )}
               />
               <Button
                 type="submit"
                 size="lg"
                 disabled={pending !== null}
                 aria-busy={pending !== null}
-                className="max-sm:w-full"
+                className="self-end max-sm:w-full"
               >
                 {pending === null ? 'Ask' : 'Asking...'}
               </Button>
@@ -156,37 +215,6 @@ export function InsightChat() {
           )}
         </Field>
       </form>
-      <div aria-live="polite">
-        {pending !== null && (
-          <p className="mb-7 max-w-[42rem] font-bold break-words">
-            Working out the answer to &ldquo;{pending}&rdquo;...
-          </p>
-        )}
-      </div>
-      {failure && (
-        <div role="alert" className="mb-7 max-w-[42rem] border-4 border-destructive px-5 py-4">
-          <p className="mb-1 font-bold break-words">{failure.message}</p>
-          <p className="mb-3 break-words text-muted-foreground">
-            You asked &ldquo;{failure.question}&rdquo;.
-          </p>
-          <Button
-            variant="outline"
-            size="lg"
-            className="max-sm:w-full"
-            disabled={pending !== null}
-            onClick={() => ask(failure.question)}
-          >
-            Try again
-          </Button>
-        </div>
-      )}
-      {asked.length > 0 && (
-        <div>
-          {asked.map(({ key, answer }) => (
-            <Answer key={key} answer={answer} />
-          ))}
-        </div>
-      )}
     </section>
   )
 }

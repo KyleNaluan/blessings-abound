@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from 'react-router'
 
 import { AuthProvider } from '@/auth/AuthProvider'
 import { RequireAuth } from '@/auth/RequireAuth'
+import { AboutPage } from '@/pages/AboutPage'
 import { AppraisalPage } from '@/pages/AppraisalPage'
 import { ApprovalsPage } from '@/pages/ApprovalsPage'
 import { ChoosePasswordPage } from '@/pages/ChoosePasswordPage'
@@ -21,6 +22,7 @@ export default function App() {
     <AuthProvider>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/sign-in" element={<SignInPage />} />
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/choose-password" element={<ChoosePasswordPage />} />

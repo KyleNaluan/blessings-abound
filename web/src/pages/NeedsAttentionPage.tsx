@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useState, type FormEvent } from 'react'
-import { Link } from 'react-router'
 
 import {
   fixDoubleSale,
@@ -9,9 +8,21 @@ import {
   type ConflictKind,
   type Flag,
 } from '@/api/attention'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
+import {
+  ActionCell,
+  Cell,
+  DataTable,
+  DetailsRow,
+  EmptyTable,
+  Row,
+  SubText,
+  TableBody,
+  TableSection,
+  type Column,
+} from '@/components/site/DataTable'
 import { Field } from '@/components/site/form'
-import { SignOutButton } from '@/components/site/SignOutButton'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { CHANNEL_NAMES, exactly, money, when } from '@/pages/approval/format'
@@ -33,15 +44,49 @@ const BUSY_REFRESH_MS = 3000
 const IDLE_REFRESH_MS = 30000
 
 const AREA =
-  'block min-h-11 w-full min-w-0 resize-y rounded-none border-2 border-input bg-background px-2.5 py-2 text-foreground'
+  'block min-h-11 w-full min-w-0 resize-y rounded-md border-2 border-input bg-background px-2.5 py-2 text-foreground'
 
 function busy(flag: Flag) {
   return flag.explained_by === null || flag.double_sale?.cancelling?.status === 'pending'
 }
 
-function itemLine(flag: Flag) {
-  return [flag.title, flag.sku].filter(Boolean).join(', ')
+function problemName(flag: Flag) {
+  // A double sale is on two channels, and a handled one no longer carries its orders, so it goes by
+  // its kind rather than whether the orders are still attached.
+  const channel =
+    flag.channel && flag.conflict !== 'double_sale' ? ` on ${CHANNEL_NAMES[flag.channel]}` : ''
+  return `${KIND_NAMES[flag.conflict]}${channel}`
 }
+
+// The item a flag is about, or a dash for a listing Turnstone doesn't know.
+function ItemCell({ flag }: { flag: Flag }) {
+  return (
+    <Cell>
+      {flag.title || flag.sku ? (
+        <>
+          {flag.title && <span className="block font-bold break-words">{flag.title}</span>}
+          {flag.sku && <SubText>{flag.sku}</SubText>}
+        </>
+      ) : (
+        <span className="text-muted-foreground">Not in Turnstone</span>
+      )}
+    </Cell>
+  )
+}
+
+const OPEN_COLUMNS: Column[] = [
+  { label: 'Problem', width: 'w-[15rem]' },
+  { label: 'Item' },
+  { label: 'Found', width: 'w-[12rem]' },
+  { label: 'Details', width: 'w-[8.5rem]', hidden: true },
+]
+
+const HANDLED_COLUMNS: Column[] = [
+  { label: 'Problem', width: 'w-[15rem]' },
+  { label: 'Item' },
+  { label: 'What was done' },
+  { label: 'Handled', width: 'w-[12rem]' },
+]
 
 function CancelState({ flag }: { flag: Flag }) {
   const cancelling = flag.double_sale?.cancelling
@@ -107,7 +152,18 @@ function ChannelIds({ flag }: { flag: Flag }) {
   )
 }
 
-function FlagCard({ flag, onChange }: { flag: Flag; onChange: (flag: Flag) => void }) {
+// An open flag as a row, and what Review opens under it: what happened, what to do, and the fix.
+function FlagRows({
+  flag,
+  open,
+  onToggle,
+  onChange,
+}: {
+  flag: Flag
+  open: boolean
+  onToggle: () => void
+  onChange: (flag: Flag) => void
+}) {
   const [pending, setPending] = useState<'fix' | 'handle' | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [handling, setHandling] = useState(false)
@@ -133,110 +189,126 @@ function FlagCard({ flag, onChange }: { flag: Flag; onChange: (flag: Flag) => vo
   }
 
   return (
-    <section aria-labelledby={`${id}-heading`} className="mb-7 border border-rule p-4">
-      <h2 id={`${id}-heading`} className="text-xl font-bold">
-        {KIND_NAMES[flag.conflict]}
-        {flag.channel && !sale && ` on ${CHANNEL_NAMES[flag.channel]}`}
-      </h2>
-      <p className="mb-3 text-muted-foreground">Found {when(flag.created_at)}</p>
-      {itemLine(flag) && <p className="mb-3 font-bold break-words">{itemLine(flag)}</p>}
-      <p className="mb-4 break-words">{flag.explanation}</p>
-      <p className="font-bold">What to do</p>
-      <p className="mb-5 break-words">{flag.suggested_fix}</p>
-      <DoubleSale flag={flag} />
-      <ChannelIds flag={flag} />
-      <CancelState flag={flag} />
-      {error && (
-        <p role="alert" className="mb-4 font-bold text-destructive">
-          {error}
-        </p>
-      )}
-      {handling ? (
-        <form onSubmit={handle} noValidate>
-          <Field
-            id={`${id}-note`}
-            label="What you did (optional)"
-            hint="Goes in the sync log with the flag."
-          >
-            {({ id: noteId, describedBy }) => (
-              <textarea
-                id={noteId}
-                value={note}
-                rows={2}
-                maxLength={500}
-                disabled={pending !== null}
-                aria-describedby={describedBy}
-                onChange={(event) => setNote(event.target.value)}
-                className={AREA}
-              />
-            )}
-          </Field>
-          <div className="flex flex-wrap gap-3">
-            <Button
-              type="submit"
-              size="lg"
-              className="max-sm:w-full"
-              disabled={pending !== null}
-              aria-busy={pending === 'handle'}
-            >
-              {pending === 'handle' ? 'Saving...' : 'Mark handled'}
-            </Button>
-            <Button
-              type="button"
-              variant="outline"
-              size="lg"
-              className="max-sm:w-full"
-              disabled={pending !== null}
-              onClick={() => setHandling(false)}
-            >
-              Keep it open
-            </Button>
-          </div>
-        </form>
-      ) : (
-        <div className="flex flex-wrap gap-3">
-          {sale && canFix && (
-            <Button
-              size="lg"
-              className="max-sm:w-full"
-              disabled={pending !== null}
-              aria-busy={pending === 'fix'}
-              onClick={() => void run('fix', () => fixDoubleSale(flag.id))}
-            >
-              {pending === 'fix'
-                ? 'Cancelling...'
-                : `Cancel the ${CHANNEL_NAMES[sale.cancel.channel]} order`}
-            </Button>
-          )}
+    <TableBody>
+      <Row open={open}>
+        <Cell className="font-bold break-words">{problemName(flag)}</Cell>
+        <ItemCell flag={flag} />
+        <Cell label="Found" className="text-muted-foreground">
+          {when(flag.created_at)}
+        </Cell>
+        <ActionCell>
           <Button
             variant="outline"
             size="lg"
-            className="max-sm:w-full"
-            disabled={pending !== null}
-            onClick={() => setHandling(true)}
+            aria-label={`${open ? 'Close' : 'Review'} ${problemName(flag)}`}
+            aria-expanded={open}
+            aria-controls={open ? id : undefined}
+            onClick={onToggle}
           >
-            Mark handled
+            {open ? 'Close' : 'Review'}
           </Button>
-        </div>
+        </ActionCell>
+      </Row>
+      {open && (
+        <DetailsRow id={id} colSpan={OPEN_COLUMNS.length}>
+          <p className="mt-3 mb-4 break-words">{flag.explanation}</p>
+          <p className="font-bold">What to do</p>
+          <p className="mb-5 break-words">{flag.suggested_fix}</p>
+          <DoubleSale flag={flag} />
+          <ChannelIds flag={flag} />
+          <CancelState flag={flag} />
+          {error && (
+            <p role="alert" className="mb-4 font-bold text-destructive">
+              {error}
+            </p>
+          )}
+          {handling ? (
+            <form onSubmit={handle} noValidate>
+              <Field
+                id={`${id}-note`}
+                label="What you did (optional)"
+                hint="Goes in the sync log with the flag."
+              >
+                {({ id: noteId, describedBy }) => (
+                  <textarea
+                    id={noteId}
+                    value={note}
+                    rows={2}
+                    maxLength={500}
+                    disabled={pending !== null}
+                    aria-describedby={describedBy}
+                    onChange={(event) => setNote(event.target.value)}
+                    className={AREA}
+                  />
+                )}
+              </Field>
+              <div className="flex flex-wrap gap-3">
+                <Button
+                  type="submit"
+                  size="lg"
+                  className="max-sm:w-full"
+                  disabled={pending !== null}
+                  aria-busy={pending === 'handle'}
+                >
+                  {pending === 'handle' ? 'Saving...' : 'Mark handled'}
+                </Button>
+                <Button
+                  type="button"
+                  variant="outline"
+                  size="lg"
+                  className="max-sm:w-full"
+                  disabled={pending !== null}
+                  onClick={() => setHandling(false)}
+                >
+                  Keep it open
+                </Button>
+              </div>
+            </form>
+          ) : (
+            <div className="flex flex-wrap gap-3">
+              {sale && canFix && (
+                <Button
+                  size="lg"
+                  className="max-sm:w-full"
+                  disabled={pending !== null}
+                  aria-busy={pending === 'fix'}
+                  onClick={() => void run('fix', () => fixDoubleSale(flag.id))}
+                >
+                  {pending === 'fix'
+                    ? 'Cancelling...'
+                    : `Cancel the ${CHANNEL_NAMES[sale.cancel.channel]} order`}
+                </Button>
+              )}
+              <Button
+                variant="outline"
+                size="lg"
+                className="max-sm:w-full"
+                disabled={pending !== null}
+                onClick={() => setHandling(true)}
+              >
+                Mark handled
+              </Button>
+            </div>
+          )}
+        </DetailsRow>
       )}
-    </section>
+    </TableBody>
   )
 }
 
-function Handled({ flag }: { flag: Flag }) {
+function HandledRow({ flag }: { flag: Flag }) {
   return (
-    <li className="border-b border-rule py-3.5">
-      <p className="font-bold break-words">
-        {KIND_NAMES[flag.conflict]}
-        {itemLine(flag) && `: ${itemLine(flag)}`}
-      </p>
-      <p className="break-words">{flag.resolution}</p>
-      {flag.resolved_at && (
-        <p className="text-muted-foreground">
-          By {flag.resolved_by ?? 'Turnstone'} on {when(flag.resolved_at)}
-        </p>
-      )}
-    </li>
+    <Row>
+      <Cell className="font-bold break-words">{problemName(flag)}</Cell>
+      <ItemCell flag={flag} />
+      <Cell label="What was done" className="break-words">
+        {flag.resolution}
+      </Cell>
+      <Cell label="Handled by">
+        {flag.resolved_by ?? 'Turnstone'}
+        {flag.resolved_at && <SubText>{when(flag.resolved_at)}</SubText>}
+      </Cell>
+    </Row>
   )
 }
 
@@ -245,6 +317,8 @@ export function NeedsAttentionPage() {
   usePageTitle('Needs attention')
   const [load, setLoad] = useState<Load>({ state: 'loading' })
   const [notice, setNotice] = useState<string | null>(null)
+  // One flag's details are open at a time.
+  const [openId, setOpenId] = useState<string | null>(null)
 
   // Sets state only once the API answers, so the effect doesn't render twice.
   const fetchAttention = useCallback(() => {
@@ -289,10 +363,7 @@ export function NeedsAttentionPage() {
   }
 
   return (
-    <AuthLayout end={<SignOutButton />}>
-      <p className="mb-4">
-        <Link to="/app">Back to home</Link>
-      </p>
+    <AppLayout>
       <PageHeading>Needs attention</PageHeading>
       <Lead>
         Problems between Turnstone and the sales channels that sync couldn't settle by itself. Fix
@@ -303,12 +374,9 @@ export function NeedsAttentionPage() {
         {load.state === 'loading' && (
           <p className="mb-7 font-bold">Loading what needs attention...</p>
         )}
-        {attention && attention.open.length === 0 && (
-          <p className="mb-7 border-y border-rule py-3.5">Nothing needs attention right now.</p>
-        )}
       </div>
       {load.state === 'failed' && (
-        <div role="alert" className="mb-7 border-4 border-destructive px-5 py-4">
+        <div role="alert" className="mb-7 rounded-xl border-4 border-destructive bg-card px-5 py-4">
           <p className="mb-3 font-bold">{load.message}</p>
           <Button
             variant="outline"
@@ -323,21 +391,44 @@ export function NeedsAttentionPage() {
           </Button>
         </div>
       )}
-      {attention?.open.map((flag) => (
-        <FlagCard key={flag.id} flag={flag} onChange={changed} />
-      ))}
-      {attention && attention.resolved.length > 0 && (
-        <section aria-labelledby="handled-heading" className="mb-9">
-          <h2 id="handled-heading" className="mb-1 text-xl font-bold">
-            Recently handled
-          </h2>
-          <ul className="border-t border-rule">
-            {attention.resolved.map((flag) => (
-              <Handled key={flag.id} flag={flag} />
-            ))}
-          </ul>
-        </section>
+      {attention && (
+        <TableSection
+          id="open"
+          title="Open problems"
+          count={attention.open.length}
+          unit={['problem', 'problems']}
+        >
+          <div aria-live="polite">
+            {attention.open.length === 0 && (
+              <EmptyTable>Nothing needs attention right now.</EmptyTable>
+            )}
+          </div>
+          {attention.open.length > 0 && (
+            <DataTable columns={OPEN_COLUMNS}>
+              {attention.open.map((flag) => (
+                <FlagRows
+                  key={flag.id}
+                  flag={flag}
+                  open={openId === flag.id}
+                  onToggle={() => setOpenId(openId === flag.id ? null : flag.id)}
+                  onChange={changed}
+                />
+              ))}
+            </DataTable>
+          )}
+        </TableSection>
       )}
-    </AuthLayout>
+      {attention && attention.resolved.length > 0 && (
+        <TableSection id="handled" title="Recently handled">
+          <DataTable columns={HANDLED_COLUMNS}>
+            <TableBody>
+              {attention.resolved.map((flag) => (
+                <HandledRow key={flag.id} flag={flag} />
+              ))}
+            </TableBody>
+          </DataTable>
+        </TableSection>
+      )}
+    </AppLayout>
   )
 }

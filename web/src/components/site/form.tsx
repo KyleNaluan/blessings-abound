@@ -31,7 +31,7 @@ export function ErrorSummary({ errors }: { errors: FieldError[] }) {
       tabIndex={-1}
       aria-labelledby="error-summary-title"
       // A ring even after a mouse click, so the move of focus to the summary is always visible, as in GOV.UK.
-      className="mb-7 border-4 border-destructive px-5 py-4 focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid"
+      className="mb-7 rounded-xl border-4 border-destructive bg-card px-5 py-4 focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid"
     >
       <h2 id="error-summary-title" className="mb-2 text-xl font-bold">
         There is a problem
@@ -63,15 +63,17 @@ type FieldProps = {
   // Renders the input, given the ids its aria-describedby should list and whether it is in error.
   children: (props: { id: string; describedBy?: string; invalid: boolean }) => ReactNode
   id: string
+  // For the wrapper, such as text-sm to make the label, hint and error smaller together.
+  className?: string
 }
 
-export function Field({ label, hint, error, children, id }: FieldProps) {
+export function Field({ label, hint, error, children, id, className }: FieldProps) {
   const hintId = `${id}-hint`
   const errorId = `${id}-error`
   const describedBy = [hint && hintId, error && errorId].filter(Boolean).join(' ') || undefined
 
   return (
-    <div className={cn('mb-6', error && 'border-l-4 border-destructive pl-3.5')}>
+    <div className={cn('mb-6', error && 'border-l-4 border-destructive pl-3.5', className)}>
       <label htmlFor={id} className="mb-1 block font-bold">
         {label}
       </label>
@@ -97,7 +99,7 @@ export function TextInput({ invalid = false, className, ...props }: InputProps) 
     <input
       aria-invalid={invalid}
       className={cn(
-        'h-11 w-full min-w-0 rounded-none border-2 border-input bg-background px-2.5 text-foreground',
+        'h-11 w-full min-w-0 rounded-md border-2 border-input bg-background px-2.5 text-foreground',
         invalid && 'border-destructive',
         className,
       )}

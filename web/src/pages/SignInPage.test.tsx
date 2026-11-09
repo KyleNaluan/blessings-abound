@@ -111,7 +111,7 @@ test('signs in with an email and goes to the app', async () => {
   fillIn('Username or email', ' demo.staff@example.com ')
   fillIn('Password', 'correct horse battery')
   submit('Sign in')
-  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
+  expect(await screen.findByRole('heading', { level: 1, name: /^Welcome/ })).toBeInTheDocument()
   expect(fake.auth.signInWithPassword).toHaveBeenCalledWith({
     email: 'demo.staff@example.com',
     password: 'correct horse battery',
@@ -155,7 +155,7 @@ test('signs in with a username through the API and never asks for the address', 
   fillIn('Username or email', ' demo.staff ')
   fillIn('Password', 'correct horse battery')
   submit('Sign in')
-  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
+  expect(await screen.findByRole('heading', { level: 1, name: /^Welcome/ })).toBeInTheDocument()
   const [request] = apiCalls('POST', '/auth/sign-in')
   expect(await request.clone().json()).toEqual({
     username: 'demo.staff',
@@ -174,7 +174,7 @@ test('an email never goes through the API, so it works without one', async () =>
   fillIn('Username or email', 'teammate@placeholder.example')
   fillIn('Password', 'correct horse battery')
   submit('Sign in')
-  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
+  expect(await screen.findByRole('heading', { level: 1, name: /^Welcome/ })).toBeInTheDocument()
   expect(apiCalls('POST', '/auth/sign-in')).toEqual([])
 })
 
@@ -266,7 +266,7 @@ test('a temporary password goes to choosing a password before anything else', as
 
   fillIn('Type it again', 'a new long password')
   submit('Save password and continue')
-  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
+  expect(await screen.findByRole('heading', { level: 1, name: /^Welcome/ })).toBeInTheDocument()
   const [request] = apiCalls('POST', '/me/password')
   expect(await request.clone().json()).toEqual({ password: 'a new long password' })
   expect(fake.auth.updateUser).not.toHaveBeenCalled()
@@ -306,7 +306,7 @@ test('a reset link for an ordinary account still goes straight to Supabase', asy
   fillIn('New password', 'a new long password')
   fillIn('Type it again', 'a new long password')
   submit('Save password and continue')
-  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
+  expect(await screen.findByRole('heading', { level: 1, name: /^Welcome/ })).toBeInTheDocument()
   expect(fake.auth.updateUser).toHaveBeenCalledWith({ password: 'a new long password' })
   expect(apiCalls('POST', '/me/password')).toEqual([])
 })
@@ -315,7 +315,7 @@ test('someone the API cannot place still reaches the app, where the API refuses 
   stubApi({ 'GET /me': () => Response.json({ detail: 'no profile' }, { status: 403 }) })
   fake.reset(fakeSession())
   renderAt('/app')
-  expect(await screen.findByRole('heading', { name: "You're signed in" })).toBeInTheDocument()
+  expect(await screen.findByRole('heading', { level: 1, name: /^Welcome/ })).toBeInTheDocument()
 })
 
 test('a used or expired reset link says how to get a new one', async () => {

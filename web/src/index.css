@@ -11,12 +11,16 @@
   --text-base--line-height: 1.6;
   --text-lg--line-height: 1.6;
   --text-xl--line-height: 1.6;
+  /* The soft lift under a white card on the cream page. */
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.06), 0 4px 12px rgb(0 0 0 / 0.05);
 }
 
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: 'Public Sans Variable', system-ui, sans-serif;
   --breakpoint-wide: 52rem;
+  /* Where the signed-in bar has room for every link and the person's name, so a phone or narrow window gets the menu. */
+  --breakpoint-app-nav: 76rem;
   --color-primary-hover: var(--primary-hover);
   --color-link: var(--link);
   --color-rule: var(--rule);
@@ -79,29 +83,30 @@
 }
 
 :root {
-  /* USWDS colors, picked in the round 3 landing mockups. Every text pair passes WCAG AA. */
-  --background: #ffffff;
-  --foreground: #1b1b1b;
+  /* Grove: a cream page and deep green actions, with the dark green band on the header and footer. Every text pair passes WCAG AA. */
+  --background: #f5f3eb;
+  --foreground: #1b2a22;
   --card: #ffffff;
-  --card-foreground: #1b1b1b;
+  --card-foreground: #1b2a22;
   --popover: #ffffff;
-  --popover-foreground: #1b1b1b;
-  --primary: #005ea2;
-  --primary-hover: #1a4480;
+  --popover-foreground: #1b2a22;
+  --primary: #1e6247;
+  --primary-hover: #154a36;
   --primary-foreground: #ffffff;
-  --secondary: #f0f0f0;
-  --secondary-foreground: #1b1b1b;
-  --muted: #f0f0f0;
-  --muted-foreground: #565c65;
-  --accent: #f0f0f0;
-  --accent-foreground: #1b1b1b;
+  --secondary: #e7e9dd;
+  --secondary-foreground: #1b2a22;
+  --muted: #e7e9dd;
+  --muted-foreground: #4f5d55;
+  --accent: #e7e9dd;
+  --accent-foreground: #1b2a22;
   --destructive: #b50909;
-  --border: #c9c9c9;
-  --input: #565c65;
-  --ring: #2491ff;
-  --link: #005ea2;
-  --rule: #dfe1e2;
-  --surface: #fafafa;
+  --border: #cfd4c3;
+  --input: #66756c;
+  --ring: #278a63;
+  --link: #1e6247;
+  --rule: #dfe2d4;
+  --surface: #fbfaf6;
+  /* The status colors stay the USWDS ones from the round 3 mockups. */
   --yes: #00a91c;
   --yes-ink: #154c21;
   --yes-soft: #ecf3ec;
@@ -125,7 +130,7 @@
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
-  --radius: 0.25rem;
+  --radius: 0.75rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
@@ -134,6 +139,35 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+}
+
+/* The dark green band behind the header and footer, which recolors everything inside it. */
+@utility band {
+  --background: #1f3d30;
+  --foreground: #f3f1e7;
+  --muted: #1f3d30;
+  --muted-foreground: #c3cfc6;
+  --border: #1f3d30;
+  --rule: #34503f;
+  --link: #cfe6c6;
+  --primary: #f3f1e7;
+  --primary-hover: #ffffff;
+  --primary-foreground: #1b2a22;
+  --destructive: #ffb4a8;
+  --ring: #9fdcbf;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* The signed-in app's column, wider than the landing page's so lists and dashboards use the screen. */
+@utility app-wrap {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  @media (width < 40rem) {
+    padding-inline: 1rem;
+  }
 }
 
 /* The page column, 1.5rem from the edge and 1rem on a phone. */

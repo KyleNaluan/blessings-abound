@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-import { cn } from '@/lib/utils'
+import { SectionCard } from '@/components/site/SectionCard'
 
 // One part of the appraisal screen, framed like the panels on the review page.
 export function Panel({
@@ -15,14 +15,8 @@ export function Panel({
   children: ReactNode
 }) {
   return (
-    <section
-      aria-labelledby={`${id}-heading`}
-      className={cn('mb-7 border border-rule p-4', className)}
-    >
-      <h2 id={`${id}-heading`} className="mb-3 text-xl font-bold">
-        {title}
-      </h2>
+    <SectionCard id={id} title={title} className={className}>
       {children}
-    </section>
+    </SectionCard>
   )
 }

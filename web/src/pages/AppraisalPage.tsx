@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router'
 
 import {
   confirmItemCard,
@@ -23,8 +22,18 @@ import {
 } from '@/api/appraisal'
 import { listKeptOffMatches, type KeptOffMatch } from '@/api/approval'
 import { useAuth } from '@/auth/AuthContext'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
+import {
+  Cell,
+  DataTable,
+  EmptyTable,
+  Row,
+  SubText,
+  TableBody,
+  TableSection,
+  type Column,
+} from '@/components/site/DataTable'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { money, when } from '@/pages/approval/format'
@@ -74,6 +83,14 @@ type Status =
 // The check for earlier items kept off online, tied to the card it was made for.
 type KeptOffCheck =
   { key: string; state: 'done'; matches: KeptOffMatch[] } | { key: string; state: 'failed' }
+
+// The columns of Recent decisions.
+const RECENT_COLUMNS: Column[] = [
+  { label: 'Item' },
+  { label: 'Call', width: 'w-[5rem]' },
+  { label: 'Typical price', width: 'w-[8rem]' },
+  { label: 'Decided', width: 'w-[12rem]' },
+]
 
 // The one screen staff use for an item: intake, the card, the price with its evidence, and the call.
 export function AppraisalPage() {
@@ -274,7 +291,7 @@ export function AppraisalPage() {
   )
 
   const failure = status.step === 'failed' && (
-    <div role="alert" className="mb-7 border-4 border-destructive px-5 py-4">
+    <div role="alert" className="mb-7 rounded-xl border-4 border-destructive bg-card px-5 py-4">
       <p className="mb-3 font-bold">{status.message}</p>
       <div className="flex flex-wrap gap-3">
         {progress && (
@@ -290,17 +307,12 @@ export function AppraisalPage() {
   )
 
   return (
-    <AuthLayout wide end={<SignOutButton />}>
-      <div className="max-w-[30rem]">
-        <p className="mb-4">
-          <Link to="/app">Back to home</Link>
-        </p>
-        <PageHeading>Appraise an item</PageHeading>
-        <Lead>Take the item in with its photos, check the card and the price, then decide.</Lead>
-      </div>
+    <AppLayout>
+      <PageHeading>Appraise an item</PageHeading>
+      <Lead>Take the item in with its photos, check the card and the price, then decide.</Lead>
 
       {!item && (
-        <div className="max-w-[30rem]">
+        <div>
           <IntakeForm
             key={formKey}
             focusPhotos={photoFocus}
@@ -491,37 +503,40 @@ export function AppraisalPage() {
         </div>
       )}
 
-      <section aria-labelledby="recent-heading" className="max-w-[30rem] border-t border-rule pt-6">
-        <h2 id="recent-heading" className="mb-3 text-xl font-bold">
-          Recent decisions
-        </h2>
-        {recentError && <p role="alert">{recentError}</p>}
-        {!recentError && recent?.length === 0 && <p>No decisions yet.</p>}
-        {recent && recent.length > 0 && (
-          <ul>
-            {recent.map((row) => (
-              <li key={row.id} className="border-b border-rule py-3">
-                <div className="flex items-center justify-between gap-3">
-                  <span className="min-w-0 font-bold break-words">{row.product ?? row.sku}</span>
-                  <span className="flex-none font-bold">
-                    {row.decision === 'yes' ? 'Yes' : 'No'}
-                  </span>
-                </div>
-                {row.destination && <p>{label(DESTINATIONS, row.destination)}</p>}
-                <p className="text-sm text-muted-foreground">
-                  {[
-                    row.price_typical_cents == null
-                      ? 'No price'
-                      : `${money(row.price_typical_cents)} typical`,
-                    row.decided_by_name,
-                    when(row.decided_at),
-                  ].join(', ')}
-                </p>
-              </li>
-            ))}
-          </ul>
-        )}
-      </section>
-    </AuthLayout>
+      <div>
+        <TableSection id="recent" title="Recent decisions">
+          {recentError && <p role="alert">{recentError}</p>}
+          {!recentError && recent?.length === 0 && <EmptyTable>No decisions yet.</EmptyTable>}
+          {recent && recent.length > 0 && (
+            <DataTable columns={RECENT_COLUMNS}>
+              <TableBody>
+                {recent.map((row) => (
+                  <Row key={row.id}>
+                    <Cell>
+                      <span className="block font-bold break-words">{row.product ?? row.sku}</span>
+                      {row.destination && <SubText>{label(DESTINATIONS, row.destination)}</SubText>}
+                    </Cell>
+                    <Cell label="Call" className="font-bold">
+                      {row.decision === 'yes' ? 'Yes' : 'No'}
+                    </Cell>
+                    <Cell label="Typical price">
+                      {row.price_typical_cents == null ? (
+                        <span className="text-muted-foreground">No price</span>
+                      ) : (
+                        money(row.price_typical_cents)
+                      )}
+                    </Cell>
+                    <Cell label="Decided">
+                      {row.decided_by_name}
+                      <SubText>{when(row.decided_at)}</SubText>
+                    </Cell>
+                  </Row>
+                ))}
+              </TableBody>
+            </DataTable>
+          )}
+        </TableSection>
+      </div>
+    </AppLayout>
   )
 }

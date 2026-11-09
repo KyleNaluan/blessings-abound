@@ -1,6 +1,7 @@
 import { useLayoutEffect, useRef, type FormEvent, type ReactNode } from 'react'
 
 import { SubmitButton } from '@/components/site/form'
+import { SectionCard } from '@/components/site/SectionCard'
 import { Button } from '@/components/ui/button'
 
 import type { SaveStatus } from './useSave'
@@ -36,7 +37,7 @@ function Problems({
       ref={ref}
       role="alert"
       tabIndex={-1}
-      className="mb-5 border-4 border-destructive px-5 py-4 focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid"
+      className="mb-5 rounded-xl border-4 border-destructive bg-card px-5 py-4 focus:outline-4 focus:outline-offset-0 focus:outline-ring focus:outline-solid"
     >
       <p className="mb-1 font-bold">This section wasn't saved.</p>
       <ul className="list-disc pl-5">
@@ -82,11 +83,7 @@ export function SectionFrame({
   }
 
   return (
-    <section aria-labelledby={`${id}-heading`} className="mb-7 border border-rule p-4">
-      <h2 id={`${id}-heading`} className="mb-1 text-xl font-bold">
-        {title}
-      </h2>
-      <p className="mb-5">{description}</p>
+    <SectionCard id={id} title={title} description={description}>
       {status.kind === 'failed' && <Problems status={status} onReload={onReload} />}
       <form onSubmit={submit} noValidate>
         {children}
@@ -96,6 +93,6 @@ export function SectionFrame({
         {saved && status.kind === 'idle' && <p className="mt-3 font-bold">Saved.</p>}
       </div>
       <p className="mt-3 text-sm text-muted-foreground">{lastChanged(read)}</p>
-    </section>
+    </SectionCard>
   )
 }

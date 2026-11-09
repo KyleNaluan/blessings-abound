@@ -57,7 +57,7 @@ Open http://localhost:5173 for the landing page.
 Signing in needs `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in `.env` and an account in that Supabase project.
 An email address works with just those two, but a username also needs the API running with `SUPABASE_URL`, `SUPABASE_ANON_KEY` and `SUPABASE_SERVICE_ROLE_KEY` set.
 The service role key stays on the server, and the web build stops with an error if it finds that key in a `VITE_` variable.
-After signing in, the page at http://localhost:5173/app should show the API status as `ok`.
+After signing in, the home page at http://localhost:5173/app should show a count on each card. If the API can't be reached, it says so above the cards.
 
 The appraisal screen at http://localhost:5173/app/appraise also needs the API to check your sign-in and find your profile.
 Set `SUPABASE_URL` and `SUPABASE_ANON_KEY` in `.env`, then give your Supabase Auth user a profile in the local database:
@@ -97,8 +97,8 @@ To see a double sale fixed:
 
 1. Store an item that goes on both channels, such as a piece of clothing with a brand.
 2. Buy it on Channel A with "Tell the seller right away, by sale webhook" unticked, then buy it on Channel B within 30 seconds, before the poll finds the first sale.
-3. Open "Needs attention" from the home page, as staff or a manager.
-   The double sale says which order keeps the item and which one to cancel.
+3. Open "Needs attention" from the navigation bar, as staff or a manager.
+   Press "Review" on the double sale, which says which order keeps the item and which one to cancel.
 4. Press "Cancel the Channel B order".
    Channel B cancels the order, and the flag moves to "Recently handled" with who fixed it.
 
@@ -177,7 +177,7 @@ Do this the day before judging, and again 15 minutes before it starts.
 1. Check that `curl https://blessings-abound-api.onrender.com/health` answers `200` with the commit at the top of `main`, allowing a minute for a cold start.
 2. Check that `curl https://blessings-abound-api.onrender.com/health/db` answers `200`. If it answers `503`, restore the project if the Supabase dashboard shows it paused, then try again.
 3. Check that the latest Keep the demo awake run in GitHub Actions passed within the last 15 minutes.
-4. On a phone, open https://blessings-abound.pages.dev, sign in as `demo.staff`, check that the home page shows the API status as `ok`, and sign out.
+4. On a phone, open https://blessings-abound.pages.dev, sign in as `demo.staff`, check that the home page shows a count on each card with no "Can't reach the API" notice, and sign out.
 5. Do the same as `demo.manager`.
 6. Check on the SerpApi dashboard that searches are left this month.
 7. On the laptop, run the offline demo's `up` command once, sign in, and leave it ready in case the network fails.
@@ -194,7 +194,7 @@ uv run python -m app.synthetic_sales
 
 It replaces the `synthetic_items` and `synthetic_listings` tables with about 600 items from the fixed seed, and the same seed always gives the same rows.
 Add `--seed N` for a different history.
-A manager sees the dashboards from the Dashboards link on the home page, and a view with no history loaded says so instead of drawing an empty chart.
+A manager sees the dashboards from the Dashboards link in the navigation bar, and a view with no history loaded says so instead of drawing an empty chart.
 The Dashboards page also has an "Ask about sales" box, where the model picks one of a few tested functions to answer a question from and shows the call it used, see [Sales insight chat](docs/architecture.md#sales-insight-chat).
 `uv run python -m app.synthetic_calibration` checks the model against the published figures it is calibrated to over 200 seeds and rewrites [docs/synthetic-sales.md](docs/synthetic-sales.md), which also lists every parameter and where it comes from.
 

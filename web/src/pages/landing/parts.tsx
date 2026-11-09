@@ -9,7 +9,7 @@ export function By({ who, children }: { who: 'ai' | 'code' | 'person'; children:
   return (
     <span
       className={cn(
-        'inline-block border px-1.5 py-px text-[0.8125rem] leading-[1.4] font-semibold whitespace-nowrap',
+        'inline-block rounded-md border px-1.5 py-px text-[0.8125rem] leading-[1.4] font-semibold whitespace-nowrap',
         who === 'ai' && 'border-warn-line bg-warn-soft text-warn-ink',
         who === 'code' && 'border-plain-line bg-plain-soft text-plain-ink',
         who === 'person' && 'border-info-line bg-info-soft text-info-ink',
@@ -24,7 +24,7 @@ export function Tag({ tone, children }: { tone: 'green' | 'red' | 'blue'; childr
   return (
     <span
       className={cn(
-        'inline-block flex-none px-2 py-0.5 text-[0.8125rem] leading-normal whitespace-nowrap',
+        'inline-block flex-none rounded-full px-2 py-0.5 text-[0.8125rem] leading-normal whitespace-nowrap',
         tone === 'green' && 'bg-yes-soft text-yes-ink',
         tone === 'red' && 'bg-no-soft text-no-ink',
         tone === 'blue' && 'bg-info-soft text-info-ink',
@@ -72,7 +72,7 @@ export function AiText({
   return (
     <p
       className={cn(
-        'mb-4 border-l-4 border-warn-line bg-warn-soft px-3 py-2.5 text-[0.9375rem]',
+        'mb-4 rounded-r-md border-l-4 border-warn-line bg-warn-soft px-3 py-2.5 text-[0.9375rem]',
         className,
       )}
     >
@@ -150,7 +150,7 @@ export function ShownField({ label, value }: { label: string; value: string }) {
   return (
     <div className="mb-3">
       <span className="mb-1 block text-[0.8125rem] font-semibold">{label}</span>
-      <div className="border border-input bg-background px-2 py-1.5 text-[0.9375rem] wrap-anywhere">
+      <div className="rounded-md border border-input bg-background px-2 py-1.5 text-[0.9375rem] wrap-anywhere">
         {value}
       </div>
     </div>
