@@ -2,7 +2,7 @@
 
 This is the script for showing Turnstone to the judges at Hack-A-Roo, on Friday, November 13, from 9 AM to 12 PM in MNLC 352.
 The core run goes from a photo to a decision in under 3 minutes, and an optional extension shows the rest of the item's path for a judge who asks for more or for the 5-minute finalist talk.
-The wording on screen is from the cleaned-up interface in pull request #90, which is expected to be on `main` by judging.
+The wording on screen is from the interface on `main` after the cleanup in pull request #90.
 
 ## Before judging
 
