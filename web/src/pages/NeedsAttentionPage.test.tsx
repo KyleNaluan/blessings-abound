@@ -118,16 +118,31 @@ function renderAttention() {
   )
 }
 
-async function card(name: string) {
+// Opens a flag's details with its Review button, and searches that flag's row and details.
+async function review(name: string) {
+  const button = await screen.findByRole('button', { name: `Review ${name}` })
+  fireEvent.click(button)
+  return within(button.closest('tbody') as HTMLElement)
+}
+
+async function section(name: string) {
   const heading = await screen.findByRole('heading', { name })
   return within(heading.closest('section') as HTMLElement)
+}
+
+function flagRow(name: string) {
+  return screen.queryByRole('button', { name: new RegExp(`^(Review|Close) ${name}$`) })
 }
 
 test.each(['staff', 'manager'])('%s see each flag with what to do about it', async (role) => {
   stubApi(role)
   renderAttention()
-  const double = await card('Double sale')
-  expect(double.getByText('Carhartt canvas jacket - Pre-owned, RT11042601 12x12x6')).toBeVisible()
+  const double = await review('Double sale')
+  const doubleRow = within(
+    screen.getByRole('button', { name: 'Close Double sale' }).closest('tr') as HTMLElement,
+  )
+  expect(doubleRow.getByText('Carhartt canvas jacket - Pre-owned')).toBeVisible()
+  expect(doubleRow.getByText('RT11042601 12x12x6')).toBeVisible()
   expect(double.getByText(/but the store has only one to send\.$/)).toBeVisible()
   expect(double.getByText(/^Cancel the Channel B order, which refunds/)).toBeVisible()
   expect(double.getByText('Keeps the item').nextSibling).toHaveTextContent(
@@ -138,21 +153,22 @@ test.each(['staff', 'manager'])('%s see each flag with what to do about it', asy
   )
   expect(double.getByRole('button', { name: 'Cancel the Channel B order' })).toBeEnabled()
 
-  const stale = await card('Stale listing on Channel A')
+  const stale = await review('Stale listing on Channel A')
+  expect(double.queryByText('Keeps the item')).not.toBeInTheDocument()
   expect(stale.getByText('a-listing-9')).toBeVisible()
   expect(stale.queryByRole('button', { name: /^Cancel/ })).not.toBeInTheDocument()
   expect(stale.getByRole('button', { name: 'Mark handled' })).toBeEnabled()
 
-  const handled = await card('Recently handled')
+  const handled = await section('Recently handled')
   expect(handled.getByText('Turnstone took the listing down.')).toBeVisible()
-  expect(handled.getByText(/^By Turnstone /)).toBeVisible()
+  expect(handled.getByText('Turnstone')).toBeVisible()
 })
 
 test('a double sale is fixed in one click', async () => {
   const calls = stubApi('staff')
   renderAttention()
   fireEvent.click(
-    (await card('Double sale')).getByRole('button', { name: 'Cancel the Channel B order' }),
+    (await review('Double sale')).getByRole('button', { name: 'Cancel the Channel B order' }),
   )
 
   expect(
@@ -160,9 +176,9 @@ test('a double sale is fixed in one click', async () => {
       'Handled. Cancelled the Channel B order, so the Channel A buyer keeps the item.',
     ),
   ).toBeVisible()
-  expect(screen.queryByRole('heading', { name: 'Double sale' })).not.toBeInTheDocument()
-  const handled = await card('Recently handled')
-  expect(handled.getByText(/^By Staff One /)).toBeVisible()
+  expect(flagRow('Double sale')).not.toBeInTheDocument()
+  const handled = await section('Recently handled')
+  expect(handled.getByText('Staff One')).toBeVisible()
   expect(calls.filter((call) => call.key.endsWith('/fix'))).toEqual([
     { key: `POST /attention/${DOUBLE}/fix`, body: undefined },
   ])
@@ -193,7 +209,7 @@ test('a cancel the channel is down for is retried until it lands', async () => {
   })
   try {
     renderAttention()
-    const double = await card('Double sale')
+    const double = await review('Double sale')
     fireEvent.click(double.getByRole('button', { name: 'Cancel the Channel B order' }))
     expect(
       await double.findByText(
@@ -207,9 +223,9 @@ test('a cancel the channel is down for is retried until it lands', async () => {
 
     landed = true
     await vi.advanceTimersByTimeAsync(3000)
-    expect(await card('Recently handled')).toBeTruthy()
+    expect(await section('Recently handled')).toBeTruthy()
     expect(screen.getByText(CANCELLED.resolution!)).toBeVisible()
-    expect(screen.queryByRole('heading', { name: 'Double sale' })).not.toBeInTheDocument()
+    expect(flagRow('Double sale')).not.toBeInTheDocument()
   } finally {
     vi.useRealTimers()
   }
@@ -229,7 +245,7 @@ test('a cancel that stopped can be tried again', async () => {
   })
   stubApi('staff', {}, { open: [stopped], resolved: [] })
   renderAttention()
-  const double = await card('Double sale')
+  const double = await review('Double sale')
   expect(double.getByRole('alert')).toHaveTextContent(
     "The Channel B order wasn't cancelled. Channel B is down for now.",
   )
@@ -243,7 +259,7 @@ test('a fix the API refuses stays on the screen with the reason', async () => {
       Response.json({ detail: 'Someone has already handled this.' }, { status: 409 }),
   })
   renderAttention()
-  const double = await card('Double sale')
+  const double = await review('Double sale')
   fireEvent.click(double.getByRole('button', { name: 'Cancel the Channel B order' }))
   expect(await double.findByRole('alert')).toHaveTextContent('Someone has already handled this.')
   expect(double.getByRole('button', { name: 'Cancel the Channel B order' })).toBeEnabled()
@@ -260,7 +276,7 @@ test('any flag can be marked handled with a note on what was done', async () => 
       }),
   })
   renderAttention()
-  const stale = await card('Stale listing on Channel A')
+  const stale = await review('Stale listing on Channel A')
   fireEvent.click(stale.getByRole('button', { name: 'Mark handled' }))
   fireEvent.change(stale.getByLabelText('What you did (optional)'), {
     target: { value: '  Ended it on Channel A by hand. ' },
@@ -268,9 +284,7 @@ test('any flag can be marked handled with a note on what was done', async () => 
   fireEvent.click(stale.getByRole('button', { name: 'Mark handled' }))
 
   expect(await screen.findByText('Handled. Ended it on Channel A by hand.')).toBeVisible()
-  expect(
-    screen.queryByRole('heading', { name: 'Stale listing on Channel A' }),
-  ).not.toBeInTheDocument()
+  expect(flagRow('Stale listing on Channel A')).not.toBeInTheDocument()
   expect(calls.find((call) => call.key.endsWith('/resolve'))?.body).toEqual({
     note: 'Ended it on Channel A by hand.',
   })
@@ -279,7 +293,7 @@ test('any flag can be marked handled with a note on what was done', async () => 
 test('marking handled can be backed out of', async () => {
   stubApi('staff')
   renderAttention()
-  const stale = await card('Stale listing on Channel A')
+  const stale = await review('Stale listing on Channel A')
   fireEvent.click(stale.getByRole('button', { name: 'Mark handled' }))
   fireEvent.click(stale.getByRole('button', { name: 'Keep it open' }))
   expect(stale.queryByLabelText('What you did (optional)')).not.toBeInTheDocument()
@@ -297,13 +311,21 @@ test('an explanation still being written shows the fixed text, then the written 
   stubApi('staff', { 'GET /attention': () => Response.json(answers.shift() ?? answers.at(-1)) })
   try {
     renderAttention()
-    const double = await card('Double sale')
+    const double = await review('Double sale')
     expect(double.getByText(/but the store has only one to send\.$/)).toBeVisible()
     await vi.advanceTimersByTimeAsync(3000)
     expect(await double.findByText('The jacket sold twice, and there is only one.')).toBeVisible()
   } finally {
     vi.useRealTimers()
   }
+})
+
+test('a handled double sale is named by its kind, with no channel', async () => {
+  stubApi('staff', {}, { open: [], resolved: [CANCELLED] })
+  renderAttention()
+  const handled = await section('Recently handled')
+  expect(handled.getByText('Double sale')).toBeInTheDocument()
+  expect(handled.queryByText(/^Double sale on/)).not.toBeInTheDocument()
 })
 
 test('nothing open says so', async () => {

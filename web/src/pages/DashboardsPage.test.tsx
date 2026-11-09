@@ -161,30 +161,77 @@ function charts() {
   return screen.getAllByRole('figure')
 }
 
-test('a manager sees the four views, with every chart saying where its numbers come from', async () => {
+// Radix tabs open on mouse down.
+function openView(name: string) {
+  fireEvent.mouseDown(screen.getByRole('tab', { name }), { button: 0 })
+}
+
+const VIEWS = ['Time to sell', 'Seasonality', 'Triage funnel', 'Sync']
+
+test('a manager sees the four views as tabs, with every chart saying where its numbers come from', async () => {
   stubApi('manager')
   renderDashboards()
-  await screen.findByRole('heading', { level: 2, name: 'Triage funnel' })
+  const tabs = await screen.findByRole('tablist', { name: 'Dashboard views' })
   expect(
-    screen.getAllByRole('heading', { level: 2 }).map((heading) => heading.textContent),
-  ).toEqual([
-    'Ask about sales',
+    within(tabs)
+      .getAllByRole('tab')
+      .map((tab) => tab.textContent),
+  ).toEqual(VIEWS)
+  expect(screen.getByRole('heading', { name: 'Ask about sales' })).toBeInTheDocument()
+  expect(screen.getByText(/^Demo data: past sales are made up/)).toBeInTheDocument()
+
+  const headings: string[] = []
+  const sources: string[] = []
+  for (const view of VIEWS) {
+    openView(view)
+    const panel = screen.getByRole('tabpanel')
+    headings.push(within(panel).getByRole('heading', { level: 2 }).textContent ?? '')
+    for (const chart of within(panel).getAllByRole('figure')) {
+      const labels = within(chart).queryAllByText(/^(Demo history|Live test sales)$/)
+      // Each chart has one label, so synthetic history and live test sales never share a chart.
+      expect(labels).toHaveLength(1)
+      sources.push(labels[0].textContent ?? '')
+    }
+  }
+  expect(headings).toEqual([
     'Time to sell by category and price',
     'Seasonality by category',
     'Triage funnel',
     'Sync health and agreement',
   ])
-  expect(screen.getByText(/656 items forwarded/)).toBeInTheDocument()
-  for (const chart of charts()) {
-    const labels = within(chart).queryAllByText(/^Synthetic(, live| history)\.$/)
-    // Each chart has one label, so synthetic history and live test sales never share a chart.
-    expect(labels).toHaveLength(1)
+  expect(sources.filter((source) => source === 'Demo history')).toHaveLength(5)
+  expect(sources.filter((source) => source === 'Live test sales')).toHaveLength(4)
+})
+
+test('the headline numbers are the live counts, tagged as live test sales', async () => {
+  stubApi('manager')
+  renderDashboards()
+  const glance = await screen.findByRole('region', { name: 'At a glance' })
+  expect(within(glance).getByText('Live test sales')).toBeInTheDocument()
+  const value = (label: string) => within(glance).getByText(label).nextElementSibling
+  expect(value('Taken in')).toHaveTextContent('1')
+  expect(value('Listed on the sales channels')).toHaveTextContent('1')
+  expect(value('Sold')).toHaveTextContent('1')
+  expect(value('Sold twice')).toHaveTextContent('0')
+})
+
+test('Sold twice counts a double sale that has been settled', async () => {
+  const settled: Dashboards = {
+    ...LOADED,
+    sync_health: {
+      ...LOADED.sync_health,
+      flags: [
+        { conflict: 'double_sale', open: 0, resolved: 1 },
+        { conflict: 'stale_listing', open: 0, resolved: 0 },
+        { conflict: 'unknown_listing', open: 0, resolved: 0 },
+      ],
+      oversold_items: 0,
+    },
   }
-  const sources = charts().map(
-    (chart) => within(chart).getByText(/^Synthetic(, live| history)\.$/).textContent,
-  )
-  expect(sources.filter((source) => source === 'Synthetic history.')).toHaveLength(5)
-  expect(sources.filter((source) => source === 'Synthetic, live.')).toHaveLength(4)
+  stubApi('manager', [() => Response.json(settled)])
+  renderDashboards()
+  const glance = await screen.findByRole('region', { name: 'At a glance' })
+  expect(within(glance).getByText('Sold twice').nextElementSibling).toHaveTextContent('1')
 })
 
 test('the bars keep their numbers as text', async () => {
@@ -204,6 +251,7 @@ test('the bars keep their numbers as text', async () => {
   ])
   const live = screen.getByRole('row', { name: /Apparel, \$30 to \$49.99/ })
   expect(live).toHaveTextContent('30 minutes')
+  openView('Triage funnel')
   expect(
     screen.getAllByText('Staff went against a yes or a no on 9 of 90 calls, 10%.', {
       exact: false,
@@ -214,17 +262,23 @@ test('the bars keep their numbers as text', async () => {
 test('with nothing loaded or sold, each view says so instead of drawing empty charts', async () => {
   stubApi('manager', [() => Response.json(EMPTY)])
   renderDashboards()
-  await screen.findByText("Sync hasn't done anything on the mock channels yet.")
-  expect(
-    screen.getAllByText('No synthetic history is loaded, so there is nothing to chart yet.'),
-  ).toHaveLength(3)
-  expect(screen.getByText('No listing has gone up on the mock channels yet.')).toBeInTheDocument()
-  expect(screen.getByText('No item has come through intake yet.')).toBeInTheDocument()
-  expect(screen.queryByText(/items forwarded/)).not.toBeInTheDocument()
-  expect(screen.queryByRole('img')).not.toBeInTheDocument()
-  for (const chart of charts()) {
-    expect(within(chart).getByText(/^Synthetic(, live| history)\.$/)).toBeInTheDocument()
+  await screen.findByRole('tablist', { name: 'Dashboard views' })
+  let noHistory = 0
+  for (const view of VIEWS) {
+    openView(view)
+    noHistory += screen.queryAllByText('There is no sales history to chart yet.').length
+    expect(screen.queryByRole('img')).not.toBeInTheDocument()
+    for (const chart of charts()) {
+      expect(within(chart).getByText(/^(Demo history|Live test sales)$/)).toBeInTheDocument()
+    }
+    if (view === 'Time to sell')
+      expect(screen.getByText('No listings have gone up yet.')).toBeInTheDocument()
+    if (view === 'Triage funnel')
+      expect(screen.getByText('No item has come through intake yet.')).toBeInTheDocument()
+    if (view === 'Sync')
+      expect(screen.getByText("Sync hasn't done anything yet.")).toBeInTheDocument()
   }
+  expect(noHistory).toBe(3)
 })
 
 test('staff are told the dashboards are for managers, and nothing is fetched', async () => {
@@ -244,9 +298,7 @@ test('a failed load can be tried again', async () => {
   const alert = await screen.findByRole('alert')
   expect(alert).toHaveTextContent('The dashboards could not be loaded.')
   fireEvent.click(within(alert).getByRole('button', { name: 'Try again' }))
-  expect(
-    await screen.findByRole('heading', { level: 2, name: 'Triage funnel' }),
-  ).toBeInTheDocument()
+  expect(await screen.findByRole('tab', { name: 'Triage funnel' })).toBeInTheDocument()
   expect(screen.queryByRole('alert')).not.toBeInTheDocument()
 })
 
@@ -289,7 +341,7 @@ test('an answer shows the function and inputs it came from, labeled like the cha
   const answer = await screen.findByRole('article', { name: ANSWER.question })
   expect(calls.questions).toEqual(['How fast does apparel around $40 sell?'])
   expect(within(answer).getByText(ANSWER.answer)).toBeInTheDocument()
-  expect(within(answer).getByText('Synthetic history.')).toBeInTheDocument()
+  expect(within(answer).getByText('Demo history')).toBeInTheDocument()
   expect(within(answer).getByText(ANSWER.call!)).toBeInTheDocument()
   expect(within(answer).getByText(/^Worked out with/)).toBeInTheDocument()
   expect(
@@ -298,7 +350,7 @@ test('an answer shows the function and inputs it came from, labeled like the cha
   expect(screen.getByLabelText('Your question')).toHaveValue('')
 })
 
-test('an answer from the mock channels says so, and newer answers come first', async () => {
+test('an answer from the mock channels says so, and newer answers come last, as in a chat', async () => {
   const live: InsightAnswer = {
     ...ANSWER,
     question: 'How many have sold for real?',
@@ -314,8 +366,8 @@ test('an answer from the mock channels says so, and newer answers come first', a
   await askQuestion(live.question)
 
   const newest = await screen.findByRole('article', { name: live.question })
-  expect(within(newest).getByText('Synthetic, live.')).toBeInTheDocument()
-  expect(answers()[0]).toBe(newest)
+  expect(within(newest).getByText('Live test sales')).toBeInTheDocument()
+  expect(answers().at(-1)).toBe(newest)
   expect(answers()).toHaveLength(2)
 })
 
@@ -358,9 +410,21 @@ test('a question no function covers gets a plain answer with no source or call',
 
   const answer = await screen.findByRole('article', { name: 'Who is our best volunteer?' })
   expect(answer).toHaveTextContent('None of the questions I can answer cover that')
-  expect(within(answer).queryByText(/^Synthetic/)).not.toBeInTheDocument()
+  expect(within(answer).queryByText(/^(Demo history|Live test sales)$/)).not.toBeInTheDocument()
   expect(within(answer).queryByText(/^Worked out with/)).not.toBeInTheDocument()
   expect(within(answer).queryByText('Show the numbers')).not.toBeInTheDocument()
+})
+
+test('Enter asks the question, and Shift+Enter starts a new line instead', async () => {
+  const calls = stubApi('manager', undefined, [() => Response.json(ANSWER)])
+  renderDashboards()
+  const input = await screen.findByLabelText('Your question')
+  fireEvent.change(input, { target: { value: ANSWER.question } })
+  fireEvent.keyDown(input, { key: 'Enter', shiftKey: true })
+  expect(calls.questions).toEqual([])
+  fireEvent.keyDown(input, { key: 'Enter' })
+  expect(await screen.findByRole('article', { name: ANSWER.question })).toBeInTheDocument()
+  expect(calls.questions).toEqual([ANSWER.question])
 })
 
 test('an empty question is not sent', async () => {

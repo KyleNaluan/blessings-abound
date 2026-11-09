@@ -54,11 +54,6 @@ export function elapsed(hours: number) {
   return count(Math.round((hours / 24) * 10) / 10, 'day')
 }
 
-export function onDay(isoDate: string) {
-  const [year, month, day] = isoDate.split('-').map(Number)
-  return new Date(year, month - 1, day).toLocaleDateString(undefined, { dateStyle: 'medium' })
-}
-
 export function monthName(month: number, style: 'long' | 'short' | 'narrow') {
   return new Date(2026, month - 1, 1).toLocaleString(undefined, { month: style })
 }

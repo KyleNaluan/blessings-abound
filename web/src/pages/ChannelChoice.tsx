@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 import { getChannelRecommendation, type Channel, type ChannelRecommendation } from '@/api/appraisal'
+import { SectionCard } from '@/components/site/SectionCard'
 import { Button } from '@/components/ui/button'
 
 import { CHANNEL_NAMES, releaseMonth } from './approval/format'
@@ -79,15 +80,12 @@ export function ChannelChoice({
   const timing = recommendation?.timing
 
   return (
-    <section aria-labelledby="channels-heading" className="mb-7 border border-rule p-4">
-      <h2 id="channels-heading" className="mb-3 text-xl font-bold">
-        Where and when to list it
-      </h2>
+    <SectionCard id="channels" title="Where and when to list it">
       <div aria-live="polite">
         {status.step === 'loading' && <p className="font-bold">Checking the channels...</p>}
       </div>
       {status.step === 'failed' && (
-        <div role="alert" className="border-4 border-destructive px-5 py-4">
+        <div role="alert" className="rounded-xl border-4 border-destructive bg-card px-5 py-4">
           <p className="mb-3 font-bold">{status.message}</p>
           <Button variant="outline" size="lg" onClick={load}>
             Try again
@@ -194,6 +192,6 @@ export function ChannelChoice({
           )}
         </>
       )}
-    </section>
+    </SectionCard>
   )
 }

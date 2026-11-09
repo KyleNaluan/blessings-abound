@@ -1,10 +1,19 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Link } from 'react-router'
 
 import { loadPeople, type Person, type PersonWithTemporaryPassword } from '@/api/team'
 import { useAuth } from '@/auth/AuthContext'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
+import {
+  ActionCell,
+  Cell,
+  DataTable,
+  DetailsRow,
+  Row,
+  TableBody,
+  TableSection,
+  type Column,
+} from '@/components/site/DataTable'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { cn } from '@/lib/utils'
@@ -76,27 +85,25 @@ export function TeamPage() {
   }
 
   return (
-    <AuthLayout wide end={<SignOutButton />}>
-      <p className="mb-4">
-        <Link to="/app">Back to home</Link>
-      </p>
+    <AppLayout>
       <PageHeading>Team</PageHeading>
       {refused ? (
-        <p className="mb-7 max-w-[30rem]">Only a manager can see and change the team.</p>
+        <p className="mb-7">Only a manager can see and change the team.</p>
       ) : (
         <>
-          <div className="max-w-[36rem]">
-            <Lead>
-              Everyone who can sign in to Turnstone. Add people, change what they can do, give a new
-              temporary password, or deactivate an account when someone leaves.
-            </Lead>
-          </div>
+          <Lead>
+            Everyone who can sign in to Turnstone. Add people, change what they can do, give a new
+            temporary password, or deactivate an account when someone leaves.
+          </Lead>
           {issued && <TemporaryPassword issued={issued} onDone={() => setIssued(null)} />}
           <div aria-live="polite">
             {load.state === 'loading' && <p className="mb-7 font-bold">Loading the team...</p>}
           </div>
           {load.state === 'failed' && (
-            <div role="alert" className="mb-7 max-w-[36rem] border-4 border-destructive px-5 py-4">
+            <div
+              role="alert"
+              className="mb-7 max-w-[36rem] rounded-xl border-4 border-destructive bg-card px-5 py-4"
+            >
               <p className="mb-3 font-bold">{load.message}</p>
               <Button
                 variant="outline"
@@ -146,9 +153,16 @@ export function TeamPage() {
           )}
         </>
       )}
-    </AuthLayout>
+    </AppLayout>
   )
 }
+
+const COLUMNS: Column[] = [
+  { label: 'Name' },
+  { label: 'Role', width: 'w-[8rem]' },
+  { label: 'Status', width: 'w-[11rem]' },
+  { label: 'Manage', width: 'w-[8.5rem]', hidden: true },
+]
 
 function People({
   people,
@@ -167,62 +181,49 @@ function People({
   onChanged: (person: Person, text: string) => void
   onIssued: (issued: PersonWithTemporaryPassword) => void
 }) {
-  const columns = 'wide:grid wide:grid-cols-[minmax(0,1fr)_8rem_11rem_8.5rem] wide:gap-x-6'
-
   return (
-    <section aria-labelledby="people-heading">
-      <h2 id="people-heading" className="mb-3 text-xl font-bold">
-        People ({people.length})
-      </h2>
-      {/* Column names for a wide screen. Each row says the same in its own words, so this is hidden from screen readers. */}
-      <div
-        aria-hidden="true"
-        className={cn(
-          'hidden border-b-2 border-foreground pb-2 text-sm font-bold text-muted-foreground',
-          columns,
-        )}
-      >
-        <span>Name</span>
-        <span>Role</span>
-        <span>Status</span>
-        <span />
-      </div>
-      <ul className="border-t border-rule wide:border-t-0">
+    <TableSection id="people" title="People" count={people.length} unit={['person', 'people']}>
+      <DataTable columns={COLUMNS}>
         {people.map((person) => {
           const isMe = person.auth_user_id === meId
           const expanded = open === person.auth_user_id
           const panelId = `person-${person.auth_user_id}`
           return (
-            <li key={person.auth_user_id} className="border-b border-rule py-4">
-              <div className={cn('wide:items-start', columns)}>
-                <div className="mb-1 min-w-0 wide:mb-0">
+            <TableBody key={person.auth_user_id}>
+              <Row open={expanded}>
+                <Cell>
                   <p className="font-bold break-words">
                     {person.display_name}
                     {isMe && <span className="font-normal text-muted-foreground"> (you)</span>}
                   </p>
-                  <p className="break-all text-muted-foreground">
+                  <p className="text-sm break-all text-muted-foreground">
                     {person.username}
                     <span aria-hidden="true"> · </span>
                     <span className="sr-only">, </span>
                     {person.email ?? 'no email'}
                   </p>
-                </div>
-                <p className="inline wide:block">
-                  <span className="sr-only">Role: </span>
-                  {ROLE_NAMES[person.role]}
-                </p>
-                <span aria-hidden="true" className="wide:hidden">
-                  {' · '}
-                </span>
-                <p className={cn('inline font-bold wide:block', STATUS_CLASSES[person.status])}>
-                  <span className="sr-only">Status: </span>
-                  {STATUS_NAMES[person.status]}
-                </p>
-                <div className="mt-3 wide:mt-0 wide:text-right">
+                  {/* Always in the row, so screen readers announce what a change did. */}
+                  <div role="status">
+                    {notice?.authUserId === person.auth_user_id && (
+                      <p className="mt-2 border-l-[5px] border-yes bg-yes-soft px-3 py-2 font-bold">
+                        {notice.text}
+                      </p>
+                    )}
+                  </div>
+                </Cell>
+                <Cell label="Role">
+                  <p>{ROLE_NAMES[person.role]}</p>
+                </Cell>
+                <Cell label="Status">
+                  <p className={cn('font-bold', STATUS_CLASSES[person.status])}>
+                    {STATUS_NAMES[person.status]}
+                  </p>
+                </Cell>
+                <ActionCell>
                   <Button
                     variant="outline"
                     size="lg"
-                    className="max-sm:w-full wide:w-28"
+                    className="wide:w-28"
                     aria-label={`${expanded ? 'Close' : 'Manage'} ${person.display_name}`}
                     aria-expanded={expanded}
                     aria-controls={expanded ? panelId : undefined}
@@ -230,17 +231,10 @@ function People({
                   >
                     {expanded ? 'Close' : 'Manage'}
                   </Button>
-                </div>
-              </div>
-              <div role="status">
-                {notice?.authUserId === person.auth_user_id && (
-                  <p className="mt-3 border-l-[5px] border-yes bg-yes-soft px-4 py-2.5 font-bold wide:max-w-[36rem]">
-                    {notice.text}
-                  </p>
-                )}
-              </div>
+                </ActionCell>
+              </Row>
               {expanded && (
-                <div className="wide:max-w-[36rem]">
+                <DetailsRow id={`${panelId}-details`} colSpan={COLUMNS.length}>
                   <PersonPanel
                     id={panelId}
                     person={person}
@@ -249,12 +243,12 @@ function People({
                     onChanged={onChanged}
                     onIssued={onIssued}
                   />
-                </div>
+                </DetailsRow>
               )}
-            </li>
+            </TableBody>
           )
         })}
-      </ul>
-    </section>
+      </DataTable>
+    </TableSection>
   )
 }

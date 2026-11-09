@@ -3,14 +3,14 @@ import { Link } from 'react-router'
 
 import { cn } from '@/lib/utils'
 
-import { HangTag } from './HangTag'
+import { TurnstoneMark } from './TurnstoneMark'
 
 export type NavLink = { label: string; href: string }
 
 type SiteHeaderProps = {
   // Where the brand points: "/" by default, or an in-page anchor such as "#top" on the landing page.
   brandHref?: string
-  // In-page sections to list before Sign in, with a menu button on a phone.
+  // Links to list before Sign in, to another page or a section of this one, with a menu button on a phone.
   links?: NavLink[]
   // Shown at the end of the bar instead, such as a Sign out button.
   end?: ReactNode
@@ -32,13 +32,13 @@ export function SiteHeader({ brandHref = '/', links, end }: SiteHeaderProps) {
     'flex items-center gap-2.5 text-lg font-bold text-foreground no-underline hover:text-foreground hover:no-underline'
   const brand = (
     <>
-      <HangTag />
+      <TurnstoneMark />
       Turnstone
     </>
   )
 
   return (
-    <header className="relative border-b border-border bg-background">
+    <header className="relative band">
       <div className="page-wrap flex min-h-16 items-center justify-between gap-4">
         {brandHref.startsWith('#') ? (
           <a className={brandClass} href={brandHref} aria-label="Turnstone, home">
@@ -107,9 +107,15 @@ function SiteNav({ links }: { links: NavLink[] }) {
         <ul className="flex flex-col px-4 pb-2 wide:flex-row wide:items-center wide:gap-7 wide:p-0">
           {links.map((link) => (
             <li key={link.href}>
-              <a className={itemClass} href={link.href} onClick={close}>
-                {link.label}
-              </a>
+              {link.href.startsWith('/') ? (
+                <Link className={itemClass} to={link.href} onClick={close}>
+                  {link.label}
+                </Link>
+              ) : (
+                <a className={itemClass} href={link.href} onClick={close}>
+                  {link.label}
+                </a>
+              )}
             </li>
           ))}
           <li>

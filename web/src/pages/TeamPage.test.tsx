@@ -82,12 +82,12 @@ function renderAt(path = '/app/team') {
   )
 }
 
-// The list item whose name line starts with this name.
+// The person's row, and the details Manage opens under it, whose name line starts with this name.
 async function rowFor(name: string) {
   const item = await waitFor(() => {
     const found = screen
-      .getAllByRole('listitem')
-      .find((li) => li.querySelector('p')?.textContent?.startsWith(name))
+      .getAllByRole('rowgroup')
+      .find((body) => body.querySelector('td p')?.textContent?.startsWith(name))
     if (!found) throw new Error(`no row for ${name}`)
     return found
   })
@@ -103,7 +103,9 @@ async function manage(name: string) {
 test('a manager sees everyone with their username, email, role and status', async () => {
   stubApi()
   renderAt()
-  expect(await screen.findByRole('heading', { level: 2, name: 'People (3)' })).toBeInTheDocument()
+  expect(
+    await screen.findByRole('heading', { level: 2, name: /^People\s*·\s*3 people$/ }),
+  ).toBeInTheDocument()
   const sams = await rowFor('Sam Ortiz')
   expect(sams.getByText(/sam\.ortiz/)).toHaveTextContent('sam.ortiz · , no email')
   expect(sams.getByText('Staff')).toBeInTheDocument()
@@ -155,7 +157,9 @@ test('shows loading, then an error that can be tried again', async () => {
   const alert = await screen.findByRole('alert')
   expect(alert).toHaveTextContent("We couldn't reach the API.")
   fireEvent.click(within(alert).getByRole('button', { name: 'Try again' }))
-  expect(await screen.findByRole('heading', { name: 'People (1)' })).toBeInTheDocument()
+  expect(
+    await screen.findByRole('heading', { name: /^People\s*·\s*1 person$/ }),
+  ).toBeInTheDocument()
   expect(screen.queryByRole('alert')).not.toBeInTheDocument()
 })
 

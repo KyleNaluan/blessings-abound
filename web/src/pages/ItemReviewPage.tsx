@@ -10,8 +10,9 @@ import {
 } from '@/api/approval'
 import type { Channel } from '@/api/appraisal'
 import { useAuth } from '@/auth/AuthContext'
-import { AuthLayout, Lead, PageHeading } from '@/components/site/AuthLayout'
-import { SignOutButton } from '@/components/site/SignOutButton'
+import { AppLayout } from '@/components/site/AppLayout'
+import { Lead, PageHeading } from '@/components/site/AuthLayout'
+import { SectionCard } from '@/components/site/SectionCard'
 import { Button } from '@/components/ui/button'
 import { usePageTitle } from '@/lib/usePageTitle'
 import { PricePanel } from '@/pages/appraisal/PricePanel'
@@ -111,24 +112,21 @@ function FreshComps({
     )
   }
   return (
-    <section aria-labelledby="fresh-price-heading" className="mb-7 border border-rule p-4">
-      <h2 id="fresh-price-heading" className="mb-3 text-xl font-bold">
-        What it sells for now
-      </h2>
+    <SectionCard id="fresh-price" title="What it sells for now">
       <div aria-live="polite">
         {fresh.step !== 'failed' && (
           <p className="font-bold">Looking up what similar items sell for now...</p>
         )}
       </div>
       {fresh.step === 'failed' && (
-        <div role="alert" className="border-4 border-destructive px-5 py-4">
+        <div role="alert" className="rounded-xl border-4 border-destructive bg-card px-5 py-4">
           <p className="mb-3 font-bold">{fresh.message}</p>
           <Button variant="outline" size="lg" className="max-sm:w-full" onClick={lookUp}>
             Try again
           </Button>
         </div>
       )}
-    </section>
+    </SectionCard>
   )
 }
 
@@ -209,14 +207,12 @@ export function ItemReviewPage() {
   const note = review ? outcome(review) : null
 
   return (
-    <AuthLayout end={<SignOutButton />}>
-      <p className="mb-4">
-        {refused ? (
-          <Link to="/app">Back to home</Link>
-        ) : (
+    <AppLayout>
+      {!refused && (
+        <p className="mb-4">
           <Link to="/app/approvals">Back to approvals</Link>
-        )}
-      </p>
+        </p>
+      )}
       {refused ? (
         <>
           <PageHeading>Review</PageHeading>
@@ -229,7 +225,10 @@ export function ItemReviewPage() {
             {load.state === 'loading' && <p className="mb-7 font-bold">Loading the item...</p>}
           </div>
           {load.state === 'failed' && (
-            <div role="alert" className="mb-7 border-4 border-destructive px-5 py-4">
+            <div
+              role="alert"
+              className="mb-7 rounded-xl border-4 border-destructive bg-card px-5 py-4"
+            >
               <p className="mb-3 font-bold">{load.message}</p>
               <Button
                 variant="outline"
@@ -329,6 +328,6 @@ export function ItemReviewPage() {
           )}
         </>
       )}
-    </AuthLayout>
+    </AppLayout>
   )
 }

@@ -14,6 +14,7 @@ import {
   type ListingStatus,
 } from '@/api/approval'
 import { Field, SubmitButton, TextInput } from '@/components/site/form'
+import { SectionCard } from '@/components/site/SectionCard'
 import { Button } from '@/components/ui/button'
 import { OVERRIDE_REASON_LABELS } from '@/pages/intake'
 import { dollars, parseDollars, parseNumber } from '@/pages/settings/numbers'
@@ -26,21 +27,18 @@ import { NotOnlineForm, PutBackForm } from './NotOnlineForm'
 type PanelProps = { review: ItemReview; onChange: (review: ItemReview) => void }
 
 const SELECT =
-  'h-11 w-full min-w-0 rounded-none border-2 border-input bg-background px-2.5 text-foreground'
+  'h-11 w-full min-w-0 rounded-md border-2 border-input bg-background px-2.5 text-foreground'
 const AREA =
-  'block min-h-11 w-full min-w-0 resize-y rounded-none border-2 border-input bg-background px-2.5 py-2 text-foreground'
+  'block min-h-11 w-full min-w-0 resize-y rounded-md border-2 border-input bg-background px-2.5 py-2 text-foreground'
 
 // Item statuses an approved item has before it is published, which is when it gets a shelf.
 const STORABLE = new Set(['approved', 'held_for_season'])
 
 function Panel({ id, title, children }: { id: string; title: string; children: ReactNode }) {
   return (
-    <section aria-labelledby={`${id}-heading`} className="mb-7 border border-rule p-4">
-      <h2 id={`${id}-heading`} className="mb-3 text-xl font-bold">
-        {title}
-      </h2>
+    <SectionCard id={id} title={title}>
       {children}
-    </section>
+    </SectionCard>
   )
 }
 

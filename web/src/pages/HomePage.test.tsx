@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react'
 import { MemoryRouter, useNavigate } from 'react-router'
 
 import App from '@/App'
@@ -22,13 +22,46 @@ function renderHome() {
   )
 }
 
-test('shows the API health reported by /health', async () => {
+// Answers the lists the home page counts, and anything else with an empty answer.
+function answer(lists: Record<string, unknown>, role = 'manager') {
+  return vi.fn(async (request: Request) => {
+    const path = new URL(request.url).pathname
+    if (path === '/me') return Response.json({ status: 'active', role, display_name: 'Hallee' })
+    if (path in lists) {
+      const body = lists[path]
+      return body instanceof Response ? body : Response.json(body)
+    }
+    return Response.json({ status: 'ok' })
+  })
+}
+
+const NONE = {
+  '/approvals': {
+    awaiting_approval: [],
+    awaiting_storage: [],
+    held_for_season: [],
+    not_listed_online: [],
+  },
+  '/pick-list': [],
+  '/attention': { open: [], resolved: [] },
+}
+
+test('welcomes the person by name and counts what is waiting on each list', async () => {
   vi.stubGlobal(
     'fetch',
-    vi.fn(async () => Response.json({ status: 'ok' })),
+    answer({
+      '/approvals': { ...NONE['/approvals'], awaiting_approval: [{}, {}] },
+      '/pick-list': [{}],
+      '/attention': { open: [], resolved: [{}] },
+    }),
   )
   renderHome()
-  expect(await screen.findByText('Working')).toBeInTheDocument()
+  expect(
+    await screen.findByRole('heading', { level: 1, name: 'Welcome, Hallee' }),
+  ).toBeInTheDocument()
+  expect(await screen.findByText('2 items to approve')).toBeInTheDocument()
+  expect(await screen.findByText('1 sold item to pick')).toBeInTheDocument()
+  expect(await screen.findByText('No problems to look at')).toBeInTheDocument()
 })
 
 test('shows only the username for an account with a hidden placeholder address', async () => {
@@ -40,18 +73,37 @@ test('shows only the username for an account with a hidden placeholder address',
     vi.fn(async () => Response.json({ status: 'ok', commit: null })),
   )
   renderHome()
-  expect(await screen.findByText('Signed in as demo.staff.')).toBeInTheDocument()
+  expect(
+    await screen.findByRole('heading', { level: 1, name: 'Welcome, demo.staff' }),
+  ).toBeInTheDocument()
 })
 
-test('shows the API as unreachable when the request fails', async () => {
+test('a list the API cannot count still links to it, and the page says the API is down', async () => {
   vi.stubGlobal(
     'fetch',
-    vi.fn(async () => {
-      throw new TypeError('Failed to fetch')
-    }),
+    answer({ ...NONE, '/pick-list': new Response(null, { status: 500 }) }, 'staff'),
   )
   renderHome()
-  expect(await screen.findByText("Can't reach it")).toBeInTheDocument()
+  expect(await screen.findByText('Open the list')).toBeInTheDocument()
+  expect(screen.getByText(/^Can't reach the API/)).toBeInTheDocument()
+  expect(screen.getByRole('link', { name: /Pick list.*Open the list/ })).toHaveAttribute(
+    'href',
+    '/app/pick-list',
+  )
+})
+
+test('the API notice stays away while every count loads', async () => {
+  vi.stubGlobal('fetch', answer(NONE, 'staff'))
+  renderHome()
+  expect(await screen.findByText('No sold items to pick')).toBeInTheDocument()
+  expect(screen.queryByText(/^Can't reach the API/)).not.toBeInTheDocument()
+})
+
+test('staff are not shown the approvals count', async () => {
+  vi.stubGlobal('fetch', answer(NONE, 'staff'))
+  renderHome()
+  expect(await screen.findByText('No sold items to pick')).toBeInTheDocument()
+  expect(screen.queryByText(/to approve/)).not.toBeInTheDocument()
 })
 
 test('sends people who are not signed in to the sign-in page', async () => {
@@ -83,7 +135,7 @@ test('a failed sign-out stays on the page with a visible error', async () => {
   fireEvent.click(await screen.findByRole('button', { name: 'Sign out' }))
   const alert = await screen.findByRole('alert')
   expect(alert).toHaveTextContent(/couldn't reach the sign-in service/i)
-  expect(screen.getByRole('heading', { level: 1, name: "You're signed in" })).toBeInTheDocument()
+  expect(screen.getByRole('heading', { level: 1, name: /^Welcome/ })).toBeInTheDocument()
 })
 
 test('a sign-out that clears the session but returns an error still lands on the landing page', async () => {
@@ -130,29 +182,29 @@ test('visiting the app after a successful sign-out reaches sign-in, not a blank 
 })
 
 test.each([
-  ['manager', ['Approvals', 'Pick list', 'Needs attention', 'Dashboards', 'Settings', 'Team']],
-  ['staff', ['Pick list', 'Needs attention']],
-])('a %s sees the links for their role', async (role, links) => {
-  vi.stubGlobal(
-    'fetch',
-    vi.fn(async (request: Request) =>
-      new URL(request.url).pathname === '/me'
-        ? Response.json({ status: 'active', role })
-        : Response.json({ status: 'ok' }),
-    ),
-  )
+  [
+    'manager',
+    [
+      'Home',
+      'Appraise',
+      'Approvals',
+      'Pick list',
+      'Needs attention',
+      'Dashboards',
+      'Team',
+      'Settings',
+    ],
+  ],
+  ['staff', ['Home', 'Appraise', 'Pick list', 'Needs attention']],
+])('a %s sees the bar links for their role', async (role, links) => {
+  vi.stubGlobal('fetch', answer(NONE, role))
   renderHome()
-  await screen.findByRole('link', { name: 'Pick list' })
+  const nav = await screen.findByRole('navigation', { name: 'Main' })
   await waitFor(() =>
     expect(
-      screen
+      within(nav)
         .getAllByRole('link')
-        .map((link) => link.textContent)
-        .filter((name) =>
-          ['Approvals', 'Pick list', 'Needs attention', 'Dashboards', 'Settings', 'Team'].includes(
-            name ?? '',
-          ),
-        ),
+        .map((link) => link.textContent),
     ).toEqual(links),
   )
 })

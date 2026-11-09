@@ -245,8 +245,13 @@ function renderAt(path: string) {
   )
 }
 
+// A list's heading also says how many items it has, such as "Held for season · 1 item".
 async function panel(name: string) {
-  const heading = await screen.findByRole('heading', { level: 2, name })
+  const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const heading = await screen.findByRole('heading', {
+    level: 2,
+    name: new RegExp(`^${escaped}(\\s*·\\s*\\d+ items?)?$`),
+  })
   return within(heading.closest('section') as HTMLElement)
 }
 
@@ -258,7 +263,8 @@ test('the queue lists what staff sent on and what is waiting for a shelf', async
     'href',
     `/app/approvals/${ITEM}`,
   )
-  expect(waiting.getByText('RT11042601, for Channel A and Channel B')).toBeInTheDocument()
+  expect(waiting.getByText('RT11042601')).toBeInTheDocument()
+  expect(waiting.getByText('Channel A and Channel B')).toBeInTheDocument()
   const shelf = await panel('Waiting for a shelf')
   expect(shelf.getByText('Every approved item is on a shelf.')).toBeInTheDocument()
 })
@@ -615,7 +621,8 @@ test('the held list says when each item comes back and where it is', async () =>
     'href',
     `/app/approvals/${ITEM}`,
   )
-  expect(held.getByText('Held until March 2027, stored on C1')).toBeInTheDocument()
+  expect(held.getByText('March 2027')).toBeInTheDocument()
+  expect(held.getByText('C1')).toBeInTheDocument()
   expect(
     (await panel('Waiting for approval')).getByText('Nothing is waiting for approval.'),
   ).toBeInTheDocument()
@@ -891,7 +898,8 @@ test('the not listed online list says who kept each item off, when and why', asy
     'href',
     `/app/approvals/${ITEM}`,
   )
-  expect(kept.getByText(/^RT11042601, kept off online by Demo Manager on /)).toBeInTheDocument()
+  expect(kept.getByText('RT11042601')).toBeInTheDocument()
+  expect(kept.getByText('Demo Manager')).toBeInTheDocument()
   expect(kept.getByText('Selling it on the floor this winter.')).toBeInTheDocument()
 })
 
@@ -946,6 +954,26 @@ test('putting an item back from the list needs a note, then opens its review', a
   expect(history.getByText('A customer asked for it online.')).toBeInTheDocument()
 })
 
+test('the list toggles say whether their form is open, as Review and Manage do', async () => {
+  stubApi({
+    overrides: {
+      'GET /approvals': () =>
+        Response.json({ ...QUEUE, awaiting_approval: [], held_for_season: [HELD] }),
+    },
+  })
+  renderAt('/app/approvals')
+  const held = await panel('Held for season')
+  const toggle = held.getByRole('button', { name: "Don't list online" })
+  expect(toggle).toHaveAttribute('aria-expanded', 'false')
+  fireEvent.click(toggle)
+  const close = held.getByRole('button', { name: 'Close Carhartt canvas jacket' })
+  expect(close).toHaveAttribute('aria-expanded', 'true')
+  expect(close).toHaveAttribute('aria-controls', `held-${ITEM}-details`)
+  expect(held.queryByRole('button', { name: 'List now' })).not.toBeInTheDocument()
+  fireEvent.click(close)
+  expect(held.getByRole('button', { name: 'List now' })).toBeInTheDocument()
+})
+
 test('putting an item back can be cancelled', async () => {
   const calls = stubApi({
     overrides: {
@@ -975,10 +1003,7 @@ test('an item put back shows so in Waiting for approval', async () => {
   })
   renderAt('/app/approvals')
   const waiting = await panel('Waiting for approval')
-  expect(
-    waiting.getByText('RT11042601, for Channel A and Channel B, put back for review'),
-  ).toBeInTheDocument()
-  expect(waiting.getByText(/^Put back on /)).toBeInTheDocument()
+  expect(waiting.getByText('Put back for review')).toBeInTheDocument()
 })
 
 test('an item kept off online can be put back from its own page', async () => {
@@ -1098,5 +1123,8 @@ test('staff are refused the review without asking the API', async () => {
     await screen.findByText('Only a manager can approve listings and store items.'),
   ).toBeInTheDocument()
   expect(calls.some((call) => call.path.startsWith('/items'))).toBe(false)
-  expect(screen.getByRole('link', { name: 'Back to home' })).toHaveAttribute('href', '/app')
+  expect(screen.queryByRole('link', { name: 'Back to approvals' })).not.toBeInTheDocument()
+  expect(
+    within(screen.getByRole('navigation', { name: 'Main' })).getByRole('link', { name: 'Home' }),
+  ).toHaveAttribute('href', '/app')
 })
