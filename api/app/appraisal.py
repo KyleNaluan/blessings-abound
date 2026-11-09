@@ -81,7 +81,7 @@ from app.pipeline import (
     price_item,
 )
 from app.settings import get_settings
-from app.storage import Storage, get_storage
+from app.storage import PhotoTooLargeError, Storage, get_storage
 from app.store_settings import read_store_settings
 from app.vision import ItemCardError, UnreadablePhotoError
 
@@ -504,8 +504,19 @@ def create_item(
     keys = [f"items/{item_id}/{uuid4()}" for _ in checked]
     # Storage can be slow, so save the photos before the SKU, whose number is locked until commit.
     session.commit()
-    for key, photo in zip(keys, checked, strict=True):
-        storage.save(key, photo.data, photo.content_type)
+    for number, (key, photo) in enumerate(zip(keys, checked, strict=True), start=1):
+        try:
+            storage.save(key, photo.data, photo.content_type)
+        except PhotoTooLargeError as error:
+            raise HTTPException(
+                status.HTTP_422_UNPROCESSABLE_CONTENT,
+                f"Photo {number} is too big to store, so choose a smaller copy.",
+            ) from error
+        except (OSError, httpx2.HTTPError) as error:
+            logger.warning("intake photo %s: %s", number, error)
+            raise HTTPException(
+                status.HTTP_502_BAD_GATEWAY, "We couldn't save the photos just now. Try again."
+            ) from error
     item = Item(
         id=item_id,
         sku=next_sku(session, sku_prefix(initials(profile.display_name), store_date(now))),

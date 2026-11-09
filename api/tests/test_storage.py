@@ -4,7 +4,7 @@ import httpx2
 import pytest
 
 from app.settings import Settings
-from app.storage import LocalStorage, SupabaseStorage, get_storage
+from app.storage import LocalStorage, PhotoTooLargeError, SupabaseStorage, get_storage
 
 
 def test_local_storage_round_trip(tmp_path: Path) -> None:
@@ -46,3 +46,30 @@ def test_get_storage_picks_supabase_only_when_configured(tmp_path: Path) -> None
     assert isinstance(get_storage(local), LocalStorage)
     configured = Settings(supabase_url="https://example.supabase.co", supabase_service_role_key="k")
     assert isinstance(get_storage(configured), SupabaseStorage)
+
+
+@pytest.mark.parametrize(
+    "response",
+    [
+        httpx2.Response(400, json={"statusCode": "413", "error": "Payload too large"}),
+        httpx2.Response(413),
+    ],
+    ids=["supabase-body", "plain-413"],
+)
+def test_supabase_storage_says_when_a_photo_is_over_the_buckets_limit(
+    response: httpx2.Response,
+) -> None:
+    storage = SupabaseStorage(
+        "https://example.supabase.co", "key", "photos", httpx2.MockTransport(lambda _: response)
+    )
+    with pytest.raises(PhotoTooLargeError):
+        storage.save("items/1/front.jpg", b"jpeg bytes", "image/jpeg")
+
+
+def test_supabase_storage_raises_any_other_refusal() -> None:
+    refusal = httpx2.Response(400, json={"statusCode": "400", "error": "Bad Request"})
+    storage = SupabaseStorage(
+        "https://example.supabase.co", "key", "photos", httpx2.MockTransport(lambda _: refusal)
+    )
+    with pytest.raises(httpx2.HTTPStatusError):
+        storage.save("items/1/front.jpg", b"jpeg bytes", "image/jpeg")

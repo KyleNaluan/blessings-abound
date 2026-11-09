@@ -9,21 +9,24 @@ from types import ModuleType
 from typing import Any
 from uuid import UUID
 
+import httpx2
 import pytest
 import sqlalchemy as sa
 from alembic.migration import MigrationContext
 from alembic.operations import Operations
 from fastapi.testclient import TestClient
-from PIL import Image
+from PIL import ExifTags, Image
 from sqlalchemy import Connection
 from sqlmodel import Session, col, select
 
 from app import appraisal, photo_check
+from app.appraisal import get_photo_storage
 from app.db import get_engine
 from app.intake import MAX_PHOTO_BYTES, get_now, initials, next_sku, store_date
 from app.main import app
 from app.models import Decision, Item, Profile, SkuSequence, TriageEntry
-from app.storage import LocalStorage
+from app.settings import get_settings
+from app.storage import LocalStorage, SupabaseStorage
 from tests import test_schema
 from tests.test_appraisal import (  # noqa: F401, the fixtures these tests build on
     MANAGER_TOKEN,
@@ -243,6 +246,115 @@ def test_a_photo_at_the_size_limit_passes_the_size_check(staff: TestClient) -> N
     padded = photo + b"\0" * (MAX_PHOTO_BYTES - len(photo))
     assert len(padded) == MAX_PHOTO_BYTES
     assert post_item(staff, padded).status_code == 201
+
+
+# The hosted bucket's file size limit.
+BUCKET_LIMIT = 10 * 1024 * 1024
+# What Supabase Storage answers for a file over that limit.
+TOO_LARGE = {
+    "statusCode": "413",
+    "error": "Payload too large",
+    "message": "The object exceeded the maximum allowed size",
+    "code": "EntityTooLarge",
+}
+
+
+class Bucket:
+    """A stand-in for the hosted Supabase Storage bucket, which refuses a file over its limit."""
+
+    def __init__(self) -> None:
+        self.limit = BUCKET_LIMIT
+        self.down = False
+        self.objects: dict[str, tuple[bytes, str]] = {}
+
+    def handle(self, request: httpx2.Request) -> httpx2.Response:
+        if self.down:
+            return httpx2.Response(503)
+        if request.method == "GET":
+            return httpx2.Response(200, content=self.objects[request.url.path][0])
+        if len(request.content) > self.limit:
+            return httpx2.Response(400, json=TOO_LARGE)
+        self.objects[request.url.path] = (request.content, request.headers["Content-Type"])
+        return httpx2.Response(200, json={"Key": request.url.path})
+
+
+@pytest.fixture
+def bucket(staff: TestClient) -> Bucket:
+    bucket = Bucket()
+    hosted = SupabaseStorage(
+        "https://example.supabase.co", "key", "item-photos", httpx2.MockTransport(bucket.handle)
+    )
+    app.dependency_overrides[get_photo_storage] = lambda: hosted
+    return bucket
+
+
+def phone_photo() -> bytes:
+    """A 4119 by 2740 photo that a phone saved on its side, over the bucket's limit as it is."""
+    noise = Image.effect_noise((4119, 2740), 50)
+    flipped = noise.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
+    photo = Image.merge("RGB", (noise, flipped, noise.transpose(Image.Transpose.FLIP_TOP_BOTTOM)))
+    exif = Image.Exif()
+    # Turn it a quarter clockwise to show it upright, as a phone held upright says.
+    exif[ExifTags.Base.Orientation] = 6
+    output = io.BytesIO()
+    photo.save(output, format="JPEG", quality=95, exif=exif)
+    return output.getvalue()
+
+
+def test_a_full_size_phone_photo_is_stored_smaller_and_upright(
+    staff: TestClient, session: Session, bucket: Bucket
+) -> None:
+    photo = phone_photo()
+    assert len(photo) > BUCKET_LIMIT
+    response = post_item(staff, photo)
+    assert response.status_code == 201, response.text
+    ((stored, content_type),) = bucket.objects.values()
+    assert content_type == "image/jpeg"
+    with Image.open(io.BytesIO(stored)) as image:
+        assert image.size == (1362, 2048)
+    # Sending the same file again still matches it.
+    row = session.get_one(Item, UUID(response.json()["id"]))
+    assert row.photo_hashes == [hashlib.sha256(photo).hexdigest()]
+    # And the card is read from the stored photo.
+    add_card(staff, response.json()["id"])
+
+
+def test_a_photo_the_bucket_still_refuses_is_named_and_no_item_is_made(
+    staff: TestClient, session: Session, bucket: Bucket
+) -> None:
+    small, larger = jpeg(), jpeg((400, 300))
+    bucket.limit = len(small)
+    response = post_item(staff, small, larger)
+    assert response.status_code == 422
+    assert response.json()["detail"] == "Photo 2 is too big to store, so choose a smaller copy."
+    assert session.exec(select(Item)).all() == []
+
+
+def test_a_photo_that_cant_be_saved_just_now_is_a_prompt_to_try_again(
+    staff: TestClient, session: Session, bucket: Bucket
+) -> None:
+    bucket.down = True
+    response = post_item(staff, jpeg())
+    assert response.status_code == 502
+    assert response.json()["detail"] == "We couldn't save the photos just now. Try again."
+    assert session.exec(select(Item)).all() == []
+
+
+def test_an_unexpected_error_still_reaches_the_web_app_as_a_message(
+    staff: TestClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    def broken(*args: object) -> None:
+        raise RuntimeError("the database went away")
+
+    monkeypatch.setattr(appraisal, "rejected_matches", broken)
+    origin = get_settings().cors_origins[0]
+    headers = dict(staff.headers) | {"Origin": origin}
+    browser = TestClient(app, raise_server_exceptions=False, headers=headers)
+    response = post_item(browser, jpeg())
+    assert response.status_code == 500
+    # Without this header the browser hides the answer, and the page says the API is unreachable.
+    assert response.headers["access-control-allow-origin"] == origin
+    assert response.json()["detail"] == "Something went wrong on the server. Try again."
 
 
 def dark_jpeg() -> bytes:
