@@ -5,6 +5,7 @@ Every pull request adds its own entry under its author's section, in the form `d
 
 ## KyleNaluan
 
+- 2026-11-08, [#24](https://github.com/KyleNaluan/blessings-abound/issues/24), Write the demo script for judging, with a timed core run from photo to decision, an optional extension to a sale on the mock channels, the demo items and how to reset them, a fallback ladder, a shot list for the backup video and short answers to likely judge questions, timed on the offline demo
 - 2026-11-08, [#93](https://github.com/KyleNaluan/blessings-abound/pull/93), Fit a manager's navigation bar inside the page column so Sign out ends on its right edge, shorten a long signed-in name with an ellipsis, line the open menu up with the header's column, and say in the README that an empty home page card shows a "No ..." line rather than a count
 - 2026-11-08, [#89](https://github.com/KyleNaluan/blessings-abound/pull/89), Stop calling the vision accuracy numbers provisional once a person has checked all 48 labels, and keep the provisional wording for when some are unchecked
 - 2026-11-07, [#11](https://github.com/KyleNaluan/blessings-abound/issues/11), Score 26 apparel items against sold prices a teammate recorded by hand from eBay's sold filter, with Mercari's when eBay was short, and report them with the approximate matches, the two mixed-source items and the 4 items left out for too few matches, where the pipeline lands 12 of 26 in range against the baseline's 13
