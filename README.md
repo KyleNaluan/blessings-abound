@@ -128,6 +128,7 @@ The mock channels run as they do in `docker compose up`, so the steps in [Mock c
 ## Hosted demo
 
 The demo is at https://blessings-abound.pages.dev, with the API at https://blessings-abound-api.onrender.com.
+[docs/demo-script.md](docs/demo-script.md) is the script for showing it at judging, with the demo items, the fallback to the offline demo and a backup video, and a shot list for that video.
 
 | Part | Where | Settings |
 | --- | --- | --- |
