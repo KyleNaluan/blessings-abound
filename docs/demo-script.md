@@ -118,9 +118,10 @@ Click "Show all 59 listings" if a judge leans in, which shows a different count 
 ### 5. The decision (0:30, total 2:30)
 
 Point at "Not worth listing, high confidence" and the sentence under it.
+Read the number under "Left after eBay fees and supplies" off the card, because the hosted demo shows about $23 and the offline demo shows $14.81, and say that number in the first line below.
 Click "No, don't list it", type `Worth too little online` under "Why it isn't being listed", pick "Back to the store floor", and click "Save the no".
 
-> These jeans would leave about $15 after fees, and the store told us an item has to clear $30 to be worth listing online, so the app says no.
+> These jeans would leave about $23 after fees, and the store told us an item has to clear $30 to be worth listing online, so the app says no.
 > Staff make the final call either way, and going against the recommendation asks for a reason, so a manager can see why.
 
 The page says "Saved your decision: no. It goes back to the store floor." and the jeans show under "Recent decisions".
