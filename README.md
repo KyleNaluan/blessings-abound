@@ -57,7 +57,8 @@ Open http://localhost:5173 for the landing page.
 Signing in needs `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in `.env` and an account in that Supabase project.
 An email address works with just those two, but a username also needs the API running with `SUPABASE_URL`, `SUPABASE_ANON_KEY` and `SUPABASE_SERVICE_ROLE_KEY` set.
 The service role key stays on the server, and the web build stops with an error if it finds that key in a `VITE_` variable.
-After signing in, the home page at http://localhost:5173/app should show a count on each card. If the API can't be reached, it says so above the cards.
+After signing in, each card on the home page at http://localhost:5173/app should show its count, or a line such as "No items to approve" when that list is empty.
+If the API can't be reached, it says so above the cards.
 
 The appraisal screen at http://localhost:5173/app/appraise also needs the API to check your sign-in and find your profile.
 Set `SUPABASE_URL` and `SUPABASE_ANON_KEY` in `.env`, then give your Supabase Auth user a profile in the local database:
@@ -178,7 +179,7 @@ Do this the day before judging, and again 15 minutes before it starts.
 1. Check that `curl https://blessings-abound-api.onrender.com/health` answers `200` with the commit at the top of `main`, allowing a minute for a cold start.
 2. Check that `curl https://blessings-abound-api.onrender.com/health/db` answers `200`. If it answers `503`, restore the project if the Supabase dashboard shows it paused, then try again.
 3. Check that the latest Keep the demo awake run in GitHub Actions passed within the last 15 minutes.
-4. On a phone, open https://blessings-abound.pages.dev, sign in as `demo.staff`, check that the home page shows a count on each card with no "Can't reach the API" notice, and sign out.
+4. On a phone, open https://blessings-abound.pages.dev, sign in as `demo.staff`, check that each card on the home page shows its count or a line such as "No sold items to pick", with no "Can't reach the API" notice, and sign out.
 5. Do the same as `demo.manager`.
 6. Check on the SerpApi dashboard that searches are left this month.
 7. On the laptop, run the offline demo's `up` command once, sign in, and leave it ready in case the network fails.
