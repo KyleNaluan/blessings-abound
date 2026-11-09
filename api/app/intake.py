@@ -15,7 +15,7 @@ from uuid import UUID
 from zoneinfo import ZoneInfo
 
 import sqlalchemy as sa
-from PIL import Image
+from PIL import Image, ImageOps
 from pydantic import BaseModel
 from sqlalchemy.dialects.postgresql import ARRAY, distinct_on, insert
 from sqlmodel import Session, col
@@ -36,6 +36,13 @@ MAX_PHOTO_BYTES = 15 * 1024 * 1024
 MAX_PHOTO_MB = MAX_PHOTO_BYTES // (1024 * 1024)
 # The formats the vision step can open, by Pillow's name for each, and the type each is stored as.
 PHOTO_TYPES = {"JPEG": "image/jpeg", "PNG": "image/png", "WEBP": "image/webp"}
+# A photo is stored at most this many pixels on its long side, which is still more than the photo
+# check and the vision model use. A full-size phone photo can be over the hosted bucket's 10 MB
+# limit, and one this size is at most a few MB.
+STORED_LONG_SIDE = 2048
+# A photo within that size but bigger than this is shrunk too, in case it is a heavy PNG.
+STORED_MAX_BYTES = 4 * 1024 * 1024
+STORED_JPEG_QUALITY = 90
 # Used when a name has no letters to take initials from.
 NO_INITIALS = "XX"
 
@@ -100,11 +107,12 @@ class CheckedPhoto:
 
 
 def check_photo(data: bytes, number: int) -> CheckedPhoto:
-    """Refuse an empty, oversized or unreadable photo, and fingerprint the rest.
+    """Refuse an empty, oversized or unreadable photo, and fingerprint and size the rest.
 
     The type comes from the file's own bytes rather than its name or the browser's label, so a PDF
     renamed to .jpg is refused too. `data` may be one byte over the limit, which is how a caller
-    reading at most that much learns the photo is too big.
+    reading at most that much learns the photo is too big. The fingerprint is of the photo as sent,
+    so sending the same file again matches whether or not it was shrunk for storage.
     """
     if not data:
         raise PhotoError(f"Photo {number} is empty.")
@@ -117,7 +125,28 @@ def check_photo(data: bytes, number: int) -> CheckedPhoto:
     except (OSError, ValueError, SyntaxError, Image.DecompressionBombError) as error:
         raise PhotoError(f"Photo {number} isn't a JPEG, PNG or WebP image.") from error
     assert kind in PHOTO_TYPES
-    return CheckedPhoto(data, PHOTO_TYPES[kind], hashlib.sha256(data).hexdigest())
+    sha256 = hashlib.sha256(data).hexdigest()
+    try:
+        stored = _shrunk_for_storage(data)
+    except (OSError, ValueError, SyntaxError, Image.DecompressionBombError) as error:
+        raise PhotoError(f"Photo {number} isn't a JPEG, PNG or WebP image.") from error
+    if stored is None:
+        return CheckedPhoto(data, PHOTO_TYPES[kind], sha256)
+    return CheckedPhoto(stored, "image/jpeg", sha256)
+
+
+def _shrunk_for_storage(data: bytes) -> bytes | None:
+    """An upright JPEG of a photo too big to store as it is, or None for one that fits."""
+    with Image.open(io.BytesIO(data)) as image:
+        if max(image.size) <= STORED_LONG_SIDE and len(data) <= STORED_MAX_BYTES:
+            return None
+        # Scaling before anything else lets Pillow decode a large JPEG at a fraction of its size.
+        image.thumbnail((STORED_LONG_SIDE, STORED_LONG_SIDE))
+        # The EXIF orientation isn't kept in the new file, so the turn it asks for is made here.
+        upright = ImageOps.exif_transpose(image).convert("RGB")
+    output = io.BytesIO()
+    upright.save(output, format="JPEG", quality=STORED_JPEG_QUALITY)
+    return output.getvalue()
 
 
 class RejectedMatch(BaseModel):
