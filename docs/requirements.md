@@ -86,7 +86,7 @@ If the team falls behind, the timing hint goes first, then the number of dashboa
 | Invite-only accounts and roles | [#31](https://github.com/KyleNaluan/blessings-abound/issues/31) | Public sign-up fails, the two roles are enforced in the API, row-level security blocks all other access, and deactivated accounts cannot sign in. |
 | Sign-in and Team pages | [#32](https://github.com/KyleNaluan/blessings-abound/issues/32) | Sign-in with a username or email, forgot password and the first sign-in password change work, and only managers reach the Team page. |
 | Landing page | [#33](https://github.com/KyleNaluan/blessings-abound/issues/33) | Sign in is the only call to action, and the page works on a phone-sized screen and a desktop. |
-| Deploy the demo | [#22](https://github.com/KyleNaluan/blessings-abound/issues/22) | The demo URL works from a phone, and the steps are in README.md. |
+| Deploy the demo | [#22](https://github.com/KyleNaluan/blessings-abound/issues/22) | The demo URL works from a phone, and the steps are in docs/operations.md. |
 
 ### Stretch, no due date
 

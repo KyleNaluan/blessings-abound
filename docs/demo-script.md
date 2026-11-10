@@ -6,7 +6,7 @@ The wording on screen is from the interface on `main` after the cleanup in pull 
 
 ## Before judging
 
-- Do the [wake checklist](../README.md#wake-checklist) the day before and again 15 minutes before judging starts.
+- Do the [wake checklist](operations.md#wake-checklist) the day before and again 15 minutes before judging starts.
 - Have the offline demo built and running on the laptop, as the [Offline demo](../README.md#offline-demo) section describes, with the synthetic sales history loaded as [Resetting the demo data](#resetting-the-demo-data) shows.
 - Download the backup video from the shared drive to the laptop's desktop, so it plays without a network.
 - Open two browser windows on the laptop: a normal one signed in as `demo.staff` on the home page, and a private one signed in as `demo.manager`.
@@ -149,8 +149,8 @@ The hosted demo's waits weren't measured for this script, and they are longer, b
 ## Extension: from yes to sold
 
 Use this for a judge who asks for more, or in the 5-minute finalist talk.
-The mock channels are hosted on Render next to the API, as the README's [Mock channels on Render](../README.md#mock-channels-on-render) says, so the whole extension runs on the hosted demo with the real vision model, and falls back to the offline demo like the core run.
-Wake the channels with the README's [Wake checklist](../README.md#wake-checklist) first, because a sleeping channel takes about a minute to wake and the listing in E3 waits for it.
+The mock channels are hosted on Render next to the API, as [Mock channels on Render](operations.md#mock-channels-on-render) in operations.md says, so the whole extension runs on the hosted demo with the real vision model, and falls back to the offline demo like the core run.
+Wake the channels with the [wake checklist](operations.md#wake-checklist) first, because a sleeping channel takes about a minute to wake and the listing in E3 waits for it.
 If time runs short, drop E5 first, then the talk in E2, and keep E3 and E4, because the sale taking the item off the other channel is what sets this app apart from a price lookup.
 
 | Step | Target | Running total | Drop order |
