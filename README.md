@@ -156,6 +156,7 @@ The team is Manan Koradiya, Kyle Naluan and Hallee Pham, at the University of Mi
 
 ## Poster and demo video
 
+- Demo video: [Turnstone demo video](https://drive.google.com/file/d/1_noP9LFxwjQIpIpSxnfua10FyY4fDKTq/view?usp=sharing), 3:57 long on Google Drive, where anyone with the link can view it.
 - Hosted demo: https://blessings-abound.pages.dev, with the API at https://blessings-abound-api.onrender.com.
 - [docs/demo-script.md](docs/demo-script.md) is the script the team uses to show it, with the demo items, the fallback to the offline demo and the shot list for the demonstration video.
 
