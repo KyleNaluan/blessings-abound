@@ -41,6 +41,8 @@ The extension needs an item worth listing, and a branded jacket goes on both moc
 - **Hosted:** use a real Carhartt jacket, or the evaluation photo [Carhartt.jpg](https://commons.wikimedia.org/wiki/File:Carhartt.jpg), a Carhartt Active hooded jacket, which is CC BY 4.0 by Isaac Barbosa.
   In the evaluation, the model read it as a "Carhartt black hooded canvas active jacket" and the pipeline said worth listing, at $43.84 to $64.49 with a typical $53.91.
   That range was under the approximate sold reference of $88.04, so the app underpriced this one.
+  The hosted extension was checked end to end on 2026-11-09 with [Carhartt Hooded Jacket (9808828856).jpg](https://commons.wikimedia.org/wiki/File:Carhartt_Hooded_Jacket_(9808828856).jpg), a brown canvas hooded jacket, which is CC BY-SA 2.0 by Eli Duke.
+  The model read it as a brown Carhartt canvas "hooded jacket", both drafts passed the claim check, and the pipeline said worth listing, at $57.81 to $80.62 with a typical $64.49.
 - **Offline:** the stand-in always reads jeans, so edit the card before confirming it.
   Set Brand to `Carhartt`, Product to `Detroit jacket`, Color to `brown`, Material to `duck canvas` and Visible text to `Carhartt`, clear Exact model, and set Search to `Carhartt Detroit jacket`.
   Visible text and Exact model must change too, because the claim checker compares the draft with the card, and "Levi's 501" left there could let the stand-in's jeans listing through for a jacket.
@@ -147,7 +149,8 @@ The hosted demo's waits weren't measured for this script, and they are longer, b
 ## Extension: from yes to sold
 
 Use this for a judge who asks for more, or in the 5-minute finalist talk.
-The mock channels aren't hosted yet, as the README's [Mock channels on Render](../README.md#mock-channels-on-render) says, so the extension from step E2 on runs on the laptop's offline demo unless the channels are hosted before judging.
+The mock channels are hosted on Render next to the API, as the README's [Mock channels on Render](../README.md#mock-channels-on-render) says, so the whole extension runs on the hosted demo with the real vision model, and falls back to the offline demo like the core run.
+Wake the channels with the README's [Wake checklist](../README.md#wake-checklist) first, because a sleeping channel takes about a minute to wake and the listing in E3 waits for it.
 If time runs short, drop E5 first, then the talk in E2, and keep E3 and E4, because the sale taking the item off the other channel is what sets this app apart from a price lookup.
 
 | Step | Target | Running total | Drop order |
@@ -192,17 +195,17 @@ Under "Package and shelf", type `A3` in "Shelf or bin" and click "Save and store
 > A manager checks the listing and its price for each channel, enters the box and the shelf, and approves it.
 > Storing it lists it on both channels.
 
-Each channel's box changes to "Live on Channel A." and "Live on Channel B.", which took about 5 seconds offline.
+Each channel's box changes to "Live on Channel A." and "Live on Channel B.", which took about 5 seconds offline and about 3 seconds on the hosted demo with both channels awake.
 
 ### E4. A sale on one channel ends the other (0:30, total 2:25)
 
-Open Channel A's storefront at http://localhost:8001 in a new tab and click "Buy now", leaving "Tell the seller right away, by sale webhook" ticked.
-Open Channel B's storefront at http://localhost:8002, or reload it if it's already open.
+Open Channel A's storefront in a new tab, at https://blessings-abound-channel-a.onrender.com on the hosted demo or http://localhost:8001 offline, and click "Buy now", leaving "Tell the seller right away, by sale webhook" ticked.
+Open Channel B's storefront, at https://blessings-abound-channel-b.onrender.com or http://localhost:8002, or reload it if it's already open.
 
 > Channel A and Channel B are mock shops we built, standing in for a marketplace and a clothing resale app.
 > When it sells on one, the app takes it down from the other within seconds, so the store never sells the same jacket twice.
 
-Channel B says "Nothing is for sale right now.", which happened about 1 second after the purchase offline.
+Channel B says "Nothing is for sale right now.", which happened about 1 second after the purchase, both offline and on the hosted demo.
 If there's time, click "Pick list" in the manager window, which shows the jacket under "14.5x19 mailer · 1 item" with its shelf, A3.
 
 ### E5. A sales question (0:25, total 2:50)
@@ -246,7 +249,7 @@ Aim for 2:30 to 2:45, and save it to the shared drive.
 11. Click "No, don't list it", type the reason, pick "Back to the store floor", and click "Save the no".
 12. Hold on "Saved your decision: no." and the "Recent decisions" table for 3 seconds, and end.
 
-If a second clip is wanted for the extension, record it on the offline demo, following E1 to E5 in order, as its own file.
+If a second clip is wanted for the extension, record it on the hosted demo too, following E1 to E5 in order, as its own file.
 
 ## Likely judge questions
 
