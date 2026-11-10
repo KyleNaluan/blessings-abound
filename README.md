@@ -135,6 +135,7 @@ The demo is at https://blessings-abound.pages.dev, with the API at https://bless
 | --- | --- | --- |
 | Web app | Cloudflare Pages project `blessings-abound`, built from `main` | `VITE_API_URL`, `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in the production environment variables |
 | API | Render free web service `blessings-abound-api`, Docker from `api/` on `main` in Ohio, deployed on every merge | The list below |
+| Mock channels | Render free web services `blessings-abound-channel-a` and `blessings-abound-channel-b`, Docker from `api/` on `main` in Ohio, deployed by hand | [Mock channels on Render](#mock-channels-on-render) |
 | Database, photos and sign-in | Supabase | Auth site URL set to the web app's address, and its `/choose-password` address in the redirect list |
 
 To set the API up again, create the Render service with those details and a health check path of `/health`, then set these from [.env.example](.env.example):
@@ -158,19 +159,28 @@ Render's free plan allows 750 hours a month across a workspace, which covers one
 
 ### Mock channels on Render
 
-The mock channels are not hosted yet.
-Each one would be a Render free web service, Docker from `api/` on `main`, with a health check path of `/health`, and these settings:
+The mock channels run as two more Render free web services in the same workspace and region as the API, so the extension in [docs/demo-script.md](docs/demo-script.md) runs on the hosted demo with the real vision model.
+Channel A's storefront is at https://blessings-abound-channel-a.onrender.com and Channel B's is at https://blessings-abound-channel-b.onrender.com.
+Each one is Docker from `api/` on `main`, with a health check path of `/health`, and these settings:
 
 | Setting | Channel A | Channel B |
 | --- | --- | --- |
+| Service | `blessings-abound-channel-a` | `blessings-abound-channel-b` |
 | Start command | `uvicorn mock_channel.channel_a:app --host 0.0.0.0 --port $PORT` | `uvicorn mock_channel.channel_b:app --host 0.0.0.0 --port $PORT` |
 | `CHANNEL_DATABASE_URL` | Supabase's session pooler with the user `channel_a.<project ref>` and the `postgresql+psycopg://` scheme | The same with `channel_b.<project ref>` |
 | `CHANNEL_KEY` | A long random key | A different long random key |
 | `CHANNEL_WEBHOOK_URL` | `https://blessings-abound-api.onrender.com/channels/channel_a/sales` | `https://blessings-abound-api.onrender.com/channels/channel_b/sales` |
 
 The start command replaces the image's own, so a channel service never runs migrations.
+Enter it as it is, without wrapping it in `sh -c "..."`, because Render already runs it in a shell that fills in `$PORT`, and a quoted command fails to start with status 127.
+Auto-deploy is off for the channels, so a merge rebuilds only the API, and a change to `api/mock_channel/` needs a manual deploy of both channel services.
 After the API has applied the migration, run `uv run python -m app.channel_roles` in `api/` once with `DATABASE_URL` pointing at Supabase and `CHANNEL_A_DB_PASSWORD` and `CHANNEL_B_DB_PASSWORD` set, so the two roles can sign in.
-Then set `CHANNEL_A_URL`, `CHANNEL_A_KEY`, `CHANNEL_B_URL` and `CHANNEL_B_KEY` on the API service, with each key matching that channel's `CHANNEL_KEY`.
+Then set `CHANNEL_A_URL`, `CHANNEL_A_KEY`, `CHANNEL_B_URL` and `CHANNEL_B_KEY` on the API service, with each key matching that channel's `CHANNEL_KEY`, and redeploy it.
+
+A channel gets no traffic of its own, so it sleeps when the API sleeps.
+While the API is awake, it polls each channel every 30 seconds, which keeps both channels awake.
+The first call to a channel that is still asleep times out after 10 seconds and is retried, so a listing can take about a minute to go live right after the channels wake.
+Suspending the two channel services in the Render dashboard stops their hours and keeps their settings, and resuming them brings the extension back.
 
 ### Wake checklist
 
@@ -178,11 +188,12 @@ Do this the day before judging, and again 15 minutes before it starts.
 
 1. Check that `curl https://blessings-abound-api.onrender.com/health` answers `200` with the commit at the top of `main`, allowing a minute for a cold start.
 2. Check that `curl https://blessings-abound-api.onrender.com/health/db` answers `200`. If it answers `503`, restore the project if the Supabase dashboard shows it paused, then try again.
-3. Check that the latest Keep the demo awake run in GitHub Actions passed within the last 15 minutes.
-4. On a phone, open https://blessings-abound.pages.dev, sign in as `demo.staff`, check that each card on the home page shows its count or a line such as "No sold items to pick", with no "Can't reach the API" notice, and sign out.
-5. Do the same as `demo.manager`.
-6. Check on the SerpApi dashboard that searches are left this month.
-7. On the laptop, run the offline demo's `up` command once, sign in, and leave it ready in case the network fails.
+3. Check that `curl https://blessings-abound-channel-a.onrender.com/health` and `curl https://blessings-abound-channel-b.onrender.com/health` each answer `200`, allowing a minute for a cold start, so the extension's first listing doesn't wait on a sleeping channel.
+4. Check that the latest Keep the demo awake run in GitHub Actions passed within the last 15 minutes.
+5. On a phone, open https://blessings-abound.pages.dev, sign in as `demo.staff`, check that each card on the home page shows its count or a line such as "No sold items to pick", with no "Can't reach the API" notice, and sign out.
+6. Do the same as `demo.manager`.
+7. Check on the SerpApi dashboard that searches are left this month.
+8. On the laptop, run the offline demo's `up` command once, sign in, and leave it ready in case the network fails.
 
 ## Synthetic sales history
 
